@@ -1,0 +1,11 @@
+{
+  "docs": {
+    "Getting Started": ["intro", "colors"],
+    "Components": [
+      "components/dp-Level"
+    ],
+    "Elements": [
+      "elements/dp-Button"
+    ]
+  }
+}
