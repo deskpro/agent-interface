@@ -1,34 +1,44 @@
 language: node_js
 node_js:
-  - '8'
+- '8'
 before_install:
-  - echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > .npmrc
-  - echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > packages/style/.npmrc
+- echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > .npmrc
+- echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > packages/style/.npmrc
 before_script:
-  - npm run bootstrap
+- npm run bootstrap
 script:
-  - npm run build
-  - test "${TRAVIS_BRANCH}" = "master" || echo "site building is only enabled on the master branch"
-  - test "${TRAVIS_BRANCH}" != "master" || test "${TRAVIS_PULL_REQUEST}" != "false" || bin/travis-prep-website.sh
-  - test "${TRAVIS_BRANCH}" != "${TRAVIS_TAG}" || echo "tests are disabled on builds triggered by a tag"
-  - test "${TRAVIS_BRANCH}" = "${TRAVIS_TAG}" || npm run test
+- npm run build
+- test "${TRAVIS_BRANCH}" = "master" || echo "site building is only enabled on the
+  master branch"
+- test "${TRAVIS_BRANCH}" != "master" || test "${TRAVIS_PULL_REQUEST}" != "false"
+  || bin/travis-prep-website.sh
+- test "${TRAVIS_BRANCH}" != "${TRAVIS_TAG}" || echo "tests are disabled on builds
+  triggered by a tag"
+- test "${TRAVIS_BRANCH}" = "${TRAVIS_TAG}" || npm run test
 cache:
   directories:
-    - node_modules
-    - packages/style/website/node_modules
-    - packages/style/node_modules
+  - node_modules
+  - packages/style/website/node_modules
+  - packages/style/node_modules
 before_cache:
-  - rm -rf packages/style/website/node_modules/@deskpro
+- rm -rf packages/style/website/node_modules/@deskpro
 deploy:
-  - provider: pages
-    skip-cleanup: true
-    github-token: $GITHUB_TOKEN
-    local-dir: target/gh-pages
-    target-branch: gh-pages
-    on:
-      branch: master
-  - provider: script
-    skip-cleanup: true
-    script: npm run publish-npm -- --repo-version $(node bin/lerna-version.js)
-    on:
-      tags: true
+- provider: pages
+  skip-cleanup: true
+  github-token: "$GITHUB_TOKEN"
+  local-dir: target/gh-pages
+  target-branch: gh-pages
+  on:
+    branch: master
+- provider: script
+  skip-cleanup: true
+  script: npm run publish-npm -- --repo-version $(node bin/lerna-version.js)
+  on:
+    tags: true
+notifications:
+  slack:
+    rooms:
+      secure: oTFq+0GwIIfnqa4OedimZc4ZvjluF/gxCrdRQJ+y37iRr70/DoBxLuJadWkkQp6U67n5TEIE8qhvxZxgAgsehHGJreXNOlZdJESHRhFkl5yx23NSqjSFG3jwsQgT2Kv5WzhHdCyE9eKjdMrnzKcsHLrLOXxWOUMjx8eUG7O/OiOTMIGxlbMxuI80Dc+lTD+NmtGth9X4PeubuM3IT9mnYRsf+/2oaj3gxByvUhDjhoOy9d0Yzu4o+d7jx68Jhlgewq7r9gV8guPrHx1NR3aBJllaPbVQ5+MPxBFJtlMNUH1QcaXpGDZgZNhmKkkp4iYgC9a1CuLEpOg/GP6Wvrpej5Qv73q2DEm9DO8V0gEgQHibdIVvqIh25gVTdGo6YUiAUVH4gDKhuVSxYs1T0o+/KZVkibF44LbqBYt6Ef9ec6n0N/NF5/PxQbiouP6/z54o7QGt1qodCd7zB/MED3UU1gzvWBaK2X7l+pmt03ax+A+sO2VofwEKWH2qZtf/NaoWpJTXWrDFEPa/uz9/Yfsqd+TJnWQxy1amErycWFCTMNlFm14gBTw+yLx6eE8CB1SPKLwl1D1LmFiLP5tjCtO/q5RgejkgeXLyAogboLn/UHvAO4pADcHyLCaqeHBi+/Ng3D6oguI7UGFl2y4yW+H8cqOzpk27p1bNRIcGG0lalB8=
+  on_success: always
+  on_failure: always
+  on_pull_requests: false
