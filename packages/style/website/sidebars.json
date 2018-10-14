@@ -3,7 +3,10 @@
     "Getting Started": ["intro", "colors"],
     "Components": [
       "components/dp-Level",
-      "components/dp-ModuleNav"
+      "components/dp-ModuleNav",
+      "components/dp-TabBar",
+      "components/dp-FilterResultList",
+      "components/dp-FilterResultControls"
     ],
     "Elements": [
       "elements/dp-Button"

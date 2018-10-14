@@ -1,0 +1,132 @@
+.dp-TabBarList{
+    display: flex;
+}
+.dp-TabBarItem .dp-iconClose{
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    height: 15px;
+    width: 15px;
+    cursor: pointer;
+}
+.dp-TabBarItem .dp-iconClose:before,.dp-TabBarItem .dp-iconClose:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: #d3d6d7;
+    width: 7px;
+    height: 2px;
+}
+.dp-TabBarItem .dp-iconClose:before{
+    transform: rotate( 45deg );
+}
+.dp-TabBarItem .dp-iconClose:after{
+    transform: rotate( 135deg );
+}
+.dp-TabBarItem,.dp-AddTabButton{
+    border: 1px solid #a9b0b0;
+    display: inline-block;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    position: relative;
+}
+.dp-TabBarItem{
+    padding: 5px 25px 5px 5px;
+    background: #f7f7f7;
+    min-width: 160px;
+}
+.dp-TabBarItem:hover{
+    background: #fff;
+}
+.dp-AddTabButton{
+    border: 1px solid #a9b0b0;
+    display: inline-block;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    position: relative;
+}
+.dp-TabBarItem .dp-Flex{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.dp-TabBarItem .dp-iconEmail{
+    background-size: 13px 13px;
+    height: 15px;
+    width: 15px;
+}
+.dp-TabBarItem .dp-iconOrganisation{
+    background-size: 13px 13px;
+    height: 15px;
+    width: 15px;
+}
+.dp-TabBarItem .dp-Title{
+    color: #4c4f50;
+    font-size: 11px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px;
+    padding-left: 5px;
+}
+.dp-TabBarItem .dp-Subtitle{
+    color: #707576;
+    font-size: 11px;
+    padding-left: 20px;
+}
+.dp-TabBarList .dp-AddTabButton .dp-iconAdd{
+    background-color: #4fb05c;
+    border-radius: 5px;
+    display: block;
+    width: 23px;
+    height: 23px;
+    position: relative;
+    cursor: pointer;
+}
+.dp-TabBarList .dp-AddTabButton .dp-iconAdd:before,
+.dp-TabBarList .dp-AddTabButton .dp-iconAdd:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: #fff;
+    width: 11px;
+    height: 2px;
+}
+.dp-TabBarList .dp-AddTabButton .dp-iconAdd:before{
+    transform: rotate( 0deg );
+}
+.dp-TabBarList .dp-AddTabButton .dp-iconAdd:after{
+    transform: rotate( 90deg );
+}
+.dp-TabBarList .is-active{
+    border: 2px solid #318cdd;
+    border-bottom: 0;
+    background: #fff;
+}
+/*.dp-TabBarList .is-active:before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: -200%;
+    background-color: #318cdd;
+    width: 200%;
+    height: 2px;
+}
+.dp-TabBarList .is-active:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: -200%;
+    background-color: #318cdd;
+    width: 200%;
+    height: 2px;
+}*/
