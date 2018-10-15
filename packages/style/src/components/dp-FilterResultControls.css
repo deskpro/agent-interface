@@ -1,3 +1,111 @@
-.dp-FilterResultControls {
+.dp-FilterControlsList {
+  background-color: #f7f7f7;
+  border: 1px solid #e2e1e1;
   color: inherit;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.dp-FilterControlsItem input[type="checkbox"] {
+  height: 0;
+  opacity: 0;
+  position: absolute;
+  width: 0;
+}
+
+.dp-FilterControlsItem input[type="checkbox"] + label {
+  color: #4c4f50;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  height: 15px;
+  line-height: 1.3;
+  max-width: 252px;
+  overflow: hidden;
+  padding-left: 15px;
+  position: relative;
+  text-overflow: ellipsis;
+  user-select: none;
+  white-space: nowrap;
+  width: 15px;
+}
+
+.dp-FilterControlsItem input[type="checkbox"] + label::before {
+  background-color: #fff;
+  border: 1px solid #dcdedf;
+  content: "";
+  display: block;
+  height: 13px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 13px;
+}
+
+.dp-FilterControlsItem input[type="checkbox"] + label::after {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%23318cdd' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3E%3C/svg%3E");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 50% 50%;
+  content: "";
+  display: block;
+  height: 1rem;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  width: 1rem;
+}
+
+.dp-FilterControlsItem input[type="checkbox"]:checked + label::after {
+  opacity: 1;
+}
+
+.dp-FilterControlsItem .dp-ItemRow {
+  display: block;
+  width: 100%;
+}
+
+.dp-FilterControlsItem {
+  align-items: center;
+  border-right: 1px solid #e2e1e1;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 10px 8px;
+}
+
+.dp-FilterControlsItem:last-child {
+  border-right: 0;
+}
+
+.dp-FilterControlsItem .dp-Select {
+  background: transparent;
+  border: 0;
+  outline: 0;
+}
+
+.dp-FilterControlsItem .dp-Title {
+  color: #8b9293;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+.dp-FilterControlsItem .dp-Select {
+  color: #707576;
+  font-size: 12px;
+}
+
+.dp-FilterControlsItem .dp-iconEye {
+  background-size: 19px 19px;
+  display: inline-block;
+  height: 13px;
+  width: 19px;
+}
+
+.dp-FilterControlsItem .dp-iconSetting {
+  background-size: 13px 13px;
+  display: inline-block;
+  height: 13px;
+  width: 13px;
 }

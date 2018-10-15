@@ -64,7 +64,7 @@
 
 .dp-FilterResultItem input[type="checkbox"] + label::before {
   background-color: #fff;
-  border: 1px solid #318cdd;
+  border: 1px solid #dcdedf;
   content: "";
   display: block;
   height: 13px;
@@ -184,6 +184,10 @@
 
 .dp-FilterResultItem.is-active .dp-empty {
   background-color: #fff;
+}
+
+.dp-FilterResultItem.is-active input[type="checkbox"] + label::before {
+  border: 1px solid #318cdd;
 }
 
 .dp-FilterResultItem .dp-iconBug {

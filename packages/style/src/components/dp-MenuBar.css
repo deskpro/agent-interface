@@ -1,0 +1,79 @@
+.dp-MenuBarList {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+}
+
+.dp-MenuBarItem {
+  padding-right: 10px;
+  position: relative;
+}
+
+.dp-MenuBarItem .dp-iconCharger {
+  border: 1px solid #9e91c4;
+}
+
+.dp-MenuBarItem .dp-iconNote {
+  border: 1px solid #ec6c4e;
+}
+
+.dp-MenuBarItem .dp-iconNoteGreen {
+  border: 1px solid #4fb05c;
+}
+
+.dp-MenuBarItem .dp-iconClock2 {
+  border: 1px solid #318cdd;
+}
+
+.dp-MenuBarItem .dp-Icon {
+  background-size: 15px 15px;
+  border-radius: 50%;
+  display: inline-block;
+  height: 24px;
+  position: relative;
+  vertical-align: middle;
+  width: 24px;
+}
+
+.dp-MenuBarItem .dp-Badge {
+  border-radius: 50%;
+  color: #fff;
+  font-size: 10px;
+  letter-spacing: -0.5px;
+  padding: 3px;
+  position: absolute;
+  right: -7px;
+  top: -7px;
+}
+
+.dp-MenuBarItem .dp-Badge.dp-red {
+  background-color: #e84954;
+}
+
+.dp-MenuBarItem .dp-Title {
+  color: #4e4d4d;
+  display: inline-block;
+  font-size: 12px;
+  position: relative;
+}
+
+.dp-MenuBarItem .dp-Arrow {
+  padding-left: 20px;
+  position: relative;
+}
+
+.dp-MenuBarItem .dp-Arrow::after {
+  border-color: #000 transparent transparent transparent;
+  border-style: solid;
+  border-width: 4px 4px 0 4px;
+  bottom: 0;
+  content: "";
+  height: 0;
+  margin: auto;
+  position: absolute;
+  right: 4px;
+  top: 0;
+  width: 0;
+}

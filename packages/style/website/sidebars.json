@@ -6,7 +6,9 @@
       "components/dp-ModuleNav",
       "components/dp-TabBar",
       "components/dp-FilterResultList",
-      "components/dp-FilterResultControls"
+      "components/dp-FilterResultControls",
+      "components/dp-ActionButton-ContextMenu",
+      "components/dp-MenuBar"
     ],
     "Elements": [
       "elements/dp-Button"
