@@ -1,7 +1,15 @@
 .dp-PageSidebar {
   background-color: #f7f7f7;
+  color: inherit;
   display: block;
+
+  /* max-width: 234px; */
   font-size: 10px;
+}
+
+.dp-PageWrapper {
+  border-bottom: none;
+  display: block;
 }
 
 .dp-PageSidebar .dp-iconSettingBlue {
@@ -23,7 +31,8 @@
 }
 
 .dp-PageSidebar .dp-SidebarTabsList {
-  border-bottom: 2px solid #e1e3e4;
+  border: 2px solid #e1e3e4;
+  border-top-right-radius: 5px;
   display: flex;
   list-style: none;
   margin: 0;
@@ -31,10 +40,15 @@
 }
 
 .dp-PageSidebar .dp-SidebarTab-item {
-  border: 2px solid #e1e3e4;
   border-bottom: none;
+  border-right: 2px solid #e1e3e4;
+  cursor: pointer;
   margin: 0;
   padding: 5px 15px 5px;
+}
+
+.dp-PageSidebar .dp-SidebarTab-item a {
+  cursor: pointer;
 }
 
 .dp-PageSidebar .dp-SidebarTab-item.is-active {
@@ -59,14 +73,16 @@
   display: inline-block;
   font-weight: 700;
   margin: 0;
-  padding-right: 10px;
+  padding-right: 5px;
   position: relative;
   text-transform: uppercase;
   z-index: 1;
 }
 
 .dp-PageSidebar .dp-SidebarSection {
-  margin: 10px 0;
+
+  /* margin: 10px 0; */
+  padding: 10px 0;
 }
 
 .dp-PageSidebar .dp-LineTitle {
@@ -94,21 +110,12 @@
 
 .dp-PageSidebar .dp-SectionControls .dp-TitleControls {
   border-bottom: 2px solid #e1e3e4;
-  height: 100%;
   margin-right: 5px;
-  width: 115px;
-}
-
-.dp-PageSidebar .dp-TitleControls.dp-StatusTimes {
-  width: 89px;
-}
-
-.dp-PageSidebar .dp-TitleControls.dp-Slas {
-  width: 25px;
 }
 
 .dp-PageSidebar .dp-SectionControls .dp-LineTitle {
-  width: 100%;
+  display: flex;
+  flex: 1 1 0;
 }
 
 .dp-PageSidebar .dp-SectionControls .dp-LineTitle::after {
@@ -132,6 +139,14 @@
 }
 
 .dp-PageSidebar .dp-SidebarWrapper {
+
+  /* padding: 0 15px 15px; */
+  border: 2px solid #e1e3e4;
+  border-top: none;
+}
+
+.dp-SidebarRow {
+  display: block;
   padding: 0 15px 15px;
 }
 
@@ -143,7 +158,7 @@
   padding: 5px 10px;
 }
 
-.dp-PageSidebar .dp-SectionBody-item .dp-title-item {
+.dp-PageSidebar .dp-title-item {
   align-items: center;
   display: flex;
   font-size: 12px;
@@ -153,9 +168,9 @@
   background-color: #eff0f0;
   border-radius: 50%;
   display: block;
-  height: 19px;
+  height: 20px;
   margin-left: 0;
-  margin-right: 10px;
+  margin-right: 2px;
   width: 20px;
 }
 
@@ -212,6 +227,10 @@
   width: 100%;
 }
 
+.dp-PageSidebar .dp-OrganizationSubtitle a {
+  color: #707576;
+}
+
 .dp-PageSidebar .dp-BorderLeft {
   border-left: 2px solid #e1e3e4;
   margin-left: 5px;
@@ -224,6 +243,7 @@
 
 .dp-PageSidebar .dp-DotsIcon {
   background-size: 17px 12px;
+  cursor: pointer;
   height: 12px;
   margin-left: 5px;
   width: 17px;
@@ -252,16 +272,20 @@
 
 .dp-PageSidebar .dp-iconVDots {
   background-size: 4px 12px;
+  cursor: pointer;
   height: 12px;
   width: 4px;
 }
 
 .dp-PageSidebar .dp-TicketList {
   list-style: none;
+  margin: 0;
   padding: 0;
 }
 
-.dp-PageSidebar .dp-TicketList .dp-TitleList {
+/* .dp-PageSidebar .dp-TicketList .dp-TitleList { */
+
+.dp-PageSidebar .dp-TitleList {
   color: #707576;
   font-size: 9px;
   margin: 10px 0 0;
@@ -295,7 +319,7 @@
 }
 
 .dp-PageSidebar .dp-ButtonWrapper {
-  margin: 10px 0;
+  margin: 0 0 10px;
 }
 
 .dp-PageSidebar .dp-DataWrapper {
@@ -313,15 +337,52 @@
   margin-right: 5px;
 }
 
-.dp-TagItem {
-  display: block;
+.dp-PageSidebar .dp-TagItem {
+  align-items: center;
+  display: flex;
   margin-bottom: 9px;
 }
 
 .dp-PageSidebar .dp-Tag {
-  margin-right: 9px;
+  align-items: center;
+  display: flex;
+  font-size: 10px;
+  margin-right: 8px;
   min-width: 63px;
   text-align: center;
+}
+
+.dp-PageSidebar .dp-Tag:last-child {
+  margin-right: 0;
+}
+
+.dp-PageSidebar .dp-Tag.Tag--close {
+  background-color: #fff;
+  margin-left: 0;
+  padding: 4px 19px 4px 3px;
+}
+
+.dp-PageSidebar .dp-Tag .dp-iconClose::before, .dp-PageSidebar .dp-Tag .dp-iconClose::after {
+  background-color: #d7dadb;
+}
+
+.dp-PageSidebar .dp-Agent .dp-logo {
+  height: 17px;
+  width: 17px;
+}
+
+.dp-PageSidebar .dp-CCs {
+  font-size: 10px;
+}
+
+.dp-PageSidebar .dp-LogoName a {
+  color: #8b9293;
+  margin-left: 3px;
+}
+
+.dp-PageSidebar .dp-CCs .dp-logo, .dp-PageSidebar .dp-Tag .dp-logo {
+  height: 14px;
+  width: 14px;
 }
 
 .dp-BorderBottom {
@@ -334,7 +395,10 @@
   display: flex;
 }
 
-.dp-PageSidebar .dp-Tag {
-  align-items: center;
-  display: flex;
+.dp-PageSidebar a.dp-NumLink {
+  color: #3a8dde;
+}
+
+.dp-PageSidebar .db-m-0 {
+  margin: 0;
 }
