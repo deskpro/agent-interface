@@ -22,15 +22,15 @@ title: ActionButton and ContextMenu
 
 	<div style="height: 250px;">
 
-		<ul class="dp-ContextMenu" style="top: 10px; left: 10px;">
-			<li>Change User</li>
-			<li>Change User</li>
-			<li>Change User</li>
-			<li>Change User</li>
-			<li>Change User</li>
-			<li>Change User</li>
-			<li>Another action</li>
-			<li>Something else here</li>
+		<ul class="dp-ContextMenu is-active" style="top: 10px; left: 10px;">
+			<li><a href="#">Change User</a></li>
+			<li><a href="#">Change User</a></li>
+			<li><a href="#">Change User</a></li>
+			<li><a href="#">Change User</a></li>
+			<li><a href="#">Change User</a></li>
+			<li><a href="#">Change User</a></li>
+			<li><a href="#">Another action</a></li>
+			<li><a href="#">Something else here</a></li>
 		</ul>
 
 	</div>
@@ -47,17 +47,16 @@ title: ActionButton and ContextMenu
 	        Actions
 	    </button>
 
-	    <ul class="dp-ContextMenu">
-	        <li>Change User</li>
-	        <li>Change User</li>
-	        <li>Change User</li>
-	        <li>Change User</li>
-	        <li>Change User</li>
-	        <li>Change User</li>
-	        <li>Another action</li>
-	        <li>Something else here</li>
+	    <ul class="dp-ContextMenu is-active">
+	        <li><a href="#">Change User</a></li>
+			<li><a href="#">Change User</a></li>
+			<li><a href="#">Change User</a></li>
+			<li><a href="#">Change User</a></li>
+			<li><a href="#">Change User</a></li>
+			<li><a href="#">Change User</a></li>
+			<li><a href="#">Another action</a></li>
+			<li><a href="#">Something else here</a></li>
 	    </ul>
 	</div>
-
 
 ```

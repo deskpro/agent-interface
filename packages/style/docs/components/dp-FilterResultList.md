@@ -12,7 +12,7 @@ title: FilterResult
         </li>
         <li class="dp-FilterResultItem">
             <span class="dp-ItemRow">
-                <span class="dp-CustomControl">
+                <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="customCheckbox12">
                     <label for="customCheckbox12">Inventory component</label>
                 </span>
@@ -32,9 +32,9 @@ title: FilterResult
                 </span>
             </span>
             <span class="dp-ItemRow dp-JustifyStart">
-                <span class="dp-SupportBtn">Custom work</span>
-                <span class="dp-SupportBtn">Report back on bug fix</span>
-                <span class="dp-SupportBtn is-active">VIP</span>
+                <span class="dp-Tag Tag--disabled">Custom work</span>
+                <span class="dp-Tag Tag--disabled">Report back on bug fix</span>
+                <span class="dp-Tag Tag--purple">VIP</span>
             </span>
             <span class="dp-ItemRow dp-JustifyStart">
                 <span class="dp-UserVal">Department: <span class="dp-ItemValue">Support</span></span>
@@ -58,7 +58,7 @@ title: FilterResult
         </li>
         <li class="dp-FilterResultItem is-active">
             <span class="dp-ItemRow">
-                <span class="dp-CustomControl">
+                <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="customCheckbox1">
                     <label for="customCheckbox1">SSO Information</label>
                     <span class="dp-Icon dp-iconStar"></span>
@@ -83,7 +83,7 @@ title: FilterResult
 
         <li class="dp-FilterResultItem">
             <span class="dp-ItemRow">
-                <span class="dp-CustomControl">
+                <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="customCheckbox2">
                     <label for="customCheckbox2">Portal disabled landing message</label>
                 </span>
@@ -99,14 +99,14 @@ title: FilterResult
                     <span class="dp-UserName">Toby Falkirk <span class="dp-UserEmail">&lt;<span class="dp-UserEmailItem">t.falkirk@rambler.com</span>&gt; </span> </span>
                 </span>
                 <span class="dp-TimeStatus">
-                    <span class="dp-StatusBtn dp-pink dp-colorWhite">Failed</span>
+                    <span class="dp-Tag Tag--small Tag--pink">Failed</span>
                 </span>
             </span>
         </li>
 
         <li class="dp-FilterResultItem">
             <span class="dp-ItemRow">
-                <span class="dp-CustomControl">
+                <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="customCheckbox3">
                     <label for="customCheckbox3">Inventory component</label>
                     <span class="dp-Icon dp-iconStarGreen"></span>
@@ -123,14 +123,14 @@ title: FilterResult
                     <span class="dp-UserName">Mark Jarvis <span class="dp-UserEmail">&lt;<span class="dp-UserEmailItem">mjarvis@econorob.nl </span>&gt; </span> </span>
                 </span>
                 <span class="dp-TimeStatus">
-                    <span class="dp-StatusBtn dp-pink dp-colorWhite">3 hours</span>
+                    <span class="dp-Tag Tag--small Tag--pink">3 hours</span>
                 </span>
             </span>
         </li>
 
         <li class="dp-FilterResultItem">
             <span class="dp-ItemRow">
-                <span class="dp-CustomControl">
+                <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="customCheckbox4">
                     <label for="customCheckbox4">Allow anyone to email support</label>
                 </span>
@@ -153,7 +153,7 @@ title: FilterResult
 
         <li class="dp-FilterResultItem">
             <span class="dp-ItemRow">
-                <span class="dp-CustomControl">
+                <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="customCheckbox5">
                     <label for="customCheckbox5">AW: Need some help?</label>
                 </span>
@@ -178,7 +178,7 @@ title: FilterResult
 
         <li class="dp-FilterResultItem">
             <span class="dp-ItemRow">
-                <span class="dp-CustomControl">
+                <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="customCheckbox6">
                     <label for="customCheckbox6">SSO working well with Safari and IE Lorem ipsum</label>
                 </span>
@@ -194,7 +194,7 @@ title: FilterResult
                     <span class="dp-UserName">Mark Jarvis <span class="dp-UserEmail">&lt;<span class="dp-UserEmailItem">mjarvis@econorob.nl </span>&gt; </span> </span>
                 </span>
                 <span class="dp-TimeStatus">
-                    <span class="dp-StatusBtn dp-orangeLight dp-colorWhite">10.5 hours</span>
+                    <span class="dp-Tag Tag--small Tag--orange">10.5 hours</span>
                 </span>
             </span>
         </li>
@@ -202,7 +202,7 @@ title: FilterResult
 
         <li class="dp-FilterResultItem">
             <span class="dp-ItemRow">
-                <span class="dp-CustomControl">
+                <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="customCheckbox7">
                     <label for="customCheckbox7">Enjoying your helpdesk?</label>
                     <span class="dp-Icon dp-iconStar"></span>
@@ -227,7 +227,7 @@ title: FilterResult
 
         <li class="dp-FilterResultItem">
             <span class="dp-ItemRow">
-                <span class="dp-CustomControl">
+                <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="customCheckbox8">
                     <label for="customCheckbox8">Product enquiry</label>
                 </span>
@@ -255,7 +255,7 @@ title: FilterResult
         </li>
         <li class="dp-FilterResultItem">
             <span class="dp-ItemRow">
-                <span class="dp-CustomControl">
+                <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="customCheckbox9">
                     <label for="customCheckbox9">Inventory component</label>
                     <span class="dp-Icon dp-iconStarGreen"></span>
@@ -284,7 +284,7 @@ title: FilterResult
 
         <li class="dp-FilterResultItem">
             <span class="dp-ItemRow">
-                <span class="dp-CustomControl">
+                <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="customCheckbox10">
                     <label for="customCheckbox10">Enjoying your helpdesk?</label>
                     <span class="dp-Icon dp-iconStar"></span>
@@ -313,7 +313,7 @@ title: FilterResult
 
         <li class="dp-FilterResultItem">
             <span class="dp-ItemRow">
-                <span class="dp-CustomControl">
+                <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="customCheckbox11">
                     <label for="customCheckbox11">Inventory component</label>
                     <span class="dp-Icon dp-iconStarGreen"></span>
@@ -334,9 +334,9 @@ title: FilterResult
                 </span>
             </span>
             <span class="dp-ItemRow dp-JustifyStart">
-                <span class="dp-SupportBtn">Custom work</span>
-                <span class="dp-SupportBtn">Report back on bug fix</span>
-                <span class="dp-SupportBtn is-active">VIP</span>
+                <span class="dp-Tag Tag--disabled">Custom work</span>
+                <span class="dp-Tag Tag--disabled">Report back on bug fix</span>
+                <span class="dp-Tag Tag--purple">VIP</span>
             </span>
             <span class="dp-ItemRow dp-JustifyStart">
                 <span class="dp-UserVal">Department: <span class="dp-ItemValue">Support</span></span>

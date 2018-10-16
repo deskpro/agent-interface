@@ -12,7 +12,9 @@ title: TabBar
                 <span class="dp-Title">RE: Need some help?</span>
             </span>
             <span class="dp-Flex">
-                <!-- <img src="../img/user.png" alt=""> -->
+                <span class="dp-Icon dp-Avatar">
+                    <img src="/agent-interface/style/img/docs/avatar.png" class="dp-IconAvatar" alt="">
+                </span>
                <span class="dp-Subtitle">James Colbert</span>
             </span>
             <span class="dp-iconClose"></span>
@@ -37,8 +39,9 @@ title: TabBar
             <span class="dp-Title">RE: Need some help?</span>
         </span>
         <span class="dp-Flex">
-            <!-- <img src="../img/avatar.png" alt=""> -->
-            <span class="dp-Icon bp-iconAvatar"></span>
+            <span class="dp-Icon dp-Avatar">
+                <img src="/agent-interface/style/img/docs/avatar.png" class="dp-IconAvatar" alt="">
+            </span>
             <span class="dp-Subtitle">James Colbert</span>
         </span>
         <span class="dp-iconClose"></span>
@@ -51,7 +54,9 @@ title: TabBar
             <span class="dp-Title">SSO working well wit...</span>
         </span>
         <span class="dp-Flex">
-            <!-- <img src="../img/user.png" alt=""> -->
+            <span class="dp-Icon dp-Avatar">
+                <img src="/agent-interface/style/img/docs/avatar.png" class="dp-IconAvatar" alt="">
+            </span>
            <span class="dp-Subtitle">Zack Prudent</span>
         </span>
         <span class="dp-iconClose"></span>
@@ -64,7 +69,6 @@ title: TabBar
             <span class="dp-Title">Deskpro</span>
         </span>
         <span class="dp-Flex">
-            <!-- <img src="../img/user.png" alt=""> -->
            <span class="dp-Subtitle">Organisation</span>
         </span>
         <span class="dp-iconClose"></span>

@@ -43,7 +43,7 @@
 .dp-TabBarItem {
   background: #f7f7f7;
   min-width: 160px;
-  padding: 5px 25px 5px 5px;
+  padding: 5px 25px 5px 10px;
 }
 
 .dp-TabBarItem:hover {
@@ -55,7 +55,7 @@
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   display: inline-block;
-  padding: 10px;
+  padding: 7px;
   position: relative;
 }
 
@@ -63,18 +63,26 @@
   align-items: center;
   display: flex;
   flex-wrap: wrap;
+  position: relative;
 }
 
 .dp-TabBarItem .dp-iconEmail {
   background-size: 13px 13px;
   height: 15px;
-  width: 15px;
+  width: 13px;
 }
 
 .dp-TabBarItem .dp-iconOrganisation {
   background-size: 13px 13px;
   height: 15px;
   width: 15px;
+}
+
+.dp-TabBarItem .dp-Avatar {
+  left: 0;
+  max-width: 13px;
+  position: absolute;
+  top: 0;
 }
 
 .dp-TabBarItem .dp-Title {
@@ -90,7 +98,7 @@
 .dp-TabBarItem .dp-Subtitle {
   color: #707576;
   font-size: 11px;
-  padding-left: 20px;
+  padding-left: 18px;
 }
 
 .dp-TabBarList .dp-AddTabButton .dp-iconAdd {

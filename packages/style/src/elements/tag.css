@@ -1,0 +1,115 @@
+.dp-Tag {
+  background: #fff;
+  border: 1px solid var(--gray-200);
+  border-radius: var(--border-radius);
+  color: var(--text-dark);
+  cursor: pointer;
+  display: inline-block;
+  font-size: 11px;
+  line-height: 100%;
+  padding: 3px 5px;
+  position: relative;
+
+  &:hover { background: var(--gray-100); }
+
+  &.Tag--white {
+    background: var(--white);
+    border: 1px solid var(--white);
+    color: var(--text-dark);
+    &:hover { background: var(--gray-100); }
+  }
+
+  &.Tag--transparent {
+    background: transparent;
+    border: 1px solid #6e8293;
+    color: #6e8293;
+    &:hover { background: var(--gray-100); }
+  }
+
+  &.Tag--disabled {
+    background-color: #e1e0e0;
+    border: 1px solid #d3d6d7;
+    color: #4e4d4d;
+    &:hover { background-color: rgba(225, 224, 224, 0.5); }
+  }
+
+  &.Tag--close {
+    background: #fafafa;
+    border: 1px solid #dde0e0;
+    color: #4e4d4d;
+    padding: 4px 20px 4px 9px;
+    &:hover { background: color-mod(#fafafa blackness(20%)); }
+  }
+
+  &.Tag--purple {
+    background: #d0c2e0;
+    border: 1px solid #9687bf;
+    color: #4e4d4d;
+    &:hover { background: rgba(208, 194, 224, 0.5); }
+  }
+
+  &.Tag--pink {
+    background: #dc437c;
+    border: 1px solid #dc437c;
+    color: #fff;
+    &:hover { background: rgba(220, 67, 124, 0.5); }
+  }
+
+  &.Tag--orange {
+    background: #f18b44;
+    border: 1px solid #f18b44;
+    color: #fff;
+    &:hover { background: rgba(241, 139, 68, 0.5); }
+  }
+
+  &.Tag--small {
+    border-radius: calc(var(--border-radius) * 0.7);
+    font-size: 10px;
+    padding: 1.5px 5px;
+  }
+
+  &.Tag--medium {
+    border-radius: calc(var(--border-radius) * 0.7);
+    font-size: 11px;
+    padding: 5px 5px;
+  }
+
+}
+
+.dp-Tag + .dp-Tag {
+  margin-left: 5px;
+}
+
+.dp-Tag:first-child {
+  margin-left: 0;
+}
+
+.dp-Tag .dp-iconClose {
+  cursor: pointer;
+  height: 100%;
+  position: absolute;
+  right: 3px;
+  top: 0;
+  width: 15px;
+}
+
+.dp-Tag .dp-iconClose::before, .dp-Tag .dp-iconClose::after {
+  background-color: #4e4d4d;
+  bottom: 0;
+  content: "";
+  height: 2px;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 7px;
+}
+
+.dp-Tag .dp-iconClose::before {
+  transform: rotate(45deg);
+}
+
+.dp-Tag .dp-iconClose::after {
+  transform: rotate(135deg);
+}

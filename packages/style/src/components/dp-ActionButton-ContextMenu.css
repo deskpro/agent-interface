@@ -59,22 +59,32 @@
 .dp-ContextMenu {
   background-color: #fff;
   border: 2px solid #318cdd;
-  border-radius: 3px;
+  border-radius: 5px;
   display: block;
+  display: none;
   left: 0;
   list-style-type: none;
-  padding: 0;
-  padding: 10px;
+  padding: 10px 0;
   position: absolute;
   top: calc(100% + 5px);
   z-index: 9;
 }
 
-.dp-ContextMenu > li {
-  font-size: 12px;
-  padding-bottom: 8px;
+.dp-ContextMenu.is-active {
+  display: block;
 }
 
 .dp-ContextMenu > li:last-child {
   padding-bottom: 0;
+}
+
+.dp-ContextMenu > li > a {
+  color: #4e4d4d;
+  display: block;
+  font-size: 12px;
+  padding: 4px 15px;
+}
+
+.dp-ContextMenu > li > a:hover {
+  background-color: #f8f9fa;
 }
