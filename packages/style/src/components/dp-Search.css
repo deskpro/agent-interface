@@ -1,11 +1,117 @@
-.dp-Search{
+.dp-Search {
+  align-items: center;
+  border-bottom: 2px solid #a9b0b0;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 15px;
   position: relative;
-  display: block;
 }
 
-.dp-Search .dp-Icon{
-	background-size: 18px 18px;
+.dp-Search form {
+  align-items: center;
+  display: flex;
+  width: 100%;
+}
+
+.dp-Search input {
+  border: 0;
+  line-height: 3;
+  margin-left: 5px;
+  outline: none;
+  width: 100%;
+}
+
+.dp-Search input::placeholder {
+  color: #4c4f50;
+  font-size: 16px;
+  font-style: italic;
+}
+
+.dp-Search .dp-Icon {
+  background-size: 18px 18px;
   height: 18px;
-  width: 18px;
   vertical-align: middle;
+  width: 18px;
+}
+
+.dp-SearchList {
+  align-items: center;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.dp-Search .dp-IconSection {
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+.dp-Search .dp-IconSection::before, .dp-Search .dp-IconSection::after, .dp-Search .dp-MenuBarItem:first-child::after {
+  background-color: #bfc4c4;
+  content: "";
+  display: block;
+  height: 110%;
+  position: absolute;
+  top: 0;
+  transform: rotate(30deg);
+  width: 1px;
+}
+
+.dp-Search .dp-IconSection::before {
+  left: 0;
+}
+
+.dp-Search .dp-IconSection::after, .dp-Search .dp-MenuBarItem:first-child::after {
+  right: 0;
+}
+
+.dp-Search .dp-Badge {
+  height: 25px;
+  margin: 0;
+  width: 25px;
+}
+
+.dp-Search .dp-MenuBarItem {
+  padding: 0 0 0 15px;
+}
+
+.dp-Search .dp-MenuBarItem .dp-red {
+  height: 16px;
+  min-width: 16px;
+  width: 16px;
+}
+
+.dp-Badge .dp-green {
+  background-color: #4fb05c;
+  bottom: -2px;
+  height: 10px;
+  min-width: 10px;
+  position: absolute;
+  right: 0;
+  width: 10px;
+}
+
+.dp-Badge .dp-green:hover {
+  background-color: #4fb05c;
+}
+
+.dp-Search .dp-MenuBarItem:first-child {
+  padding: 10px 15px;
+  position: relative;
+}
+
+.dp-Search .dp-MenuBarItem:last-child {
+  padding-right: 15px;
+}
+
+.dp-Search .dp-IconPlus, .dp-Search .dp-iconClockGray {
+  background-size: 25px 25px;
+  cursor: pointer;
+  height: 25px;
+  width: 25px;
+}
+
+.dp-Search .dp-IconSearch {
+  padding: 0 10px;
 }

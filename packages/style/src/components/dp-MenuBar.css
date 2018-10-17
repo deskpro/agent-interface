@@ -43,13 +43,17 @@
   font-size: 10px;
   letter-spacing: -0.5px;
   padding: 3px;
-  position: absolute;
+
+  /*  position: absolute;
   right: -7px;
-  top: -7px;
+  top: -7px; */
 }
 
 .dp-MenuBarItem .dp-Badge.dp-red {
   background-color: #e84954;
+  position: absolute;
+  right: -7px;
+  top: -7px;
 }
 
 .dp-MenuBarItem .dp-Title {

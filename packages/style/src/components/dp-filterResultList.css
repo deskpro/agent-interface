@@ -52,9 +52,9 @@
   color: #fff;
   display: flex;
   font-size: 10px;
+  height: 18px;
   justify-content: center;
   margin-left: 7px;
-  height: 18px;
   width: 18px;
 }
 
@@ -72,16 +72,16 @@
 
 .dp-FilterResultItem .dp-iconUserAvatar {
   background-size: 18px 18px;
-  vertical-align: middle;
   height: 18px;
+  vertical-align: middle;
   width: 18px;
 }
 
 .dp-FilterResultItem .dp-iconStar,.dp-FilterResultItem .dp-iconStarGreen {
   background-size: 20px 15px;
   display: inline-block;
-  vertical-align: top;
   height: 15px;
+  vertical-align: top;
   width: 18px;
 }
 
@@ -101,7 +101,7 @@
   border: 1px solid #dbddde;
 }
 
-.dp-FilterResultItem .dp-iconClock{
+.dp-FilterResultItem .dp-iconClock {
   background-size: 18px 18px;
   display: inline-block;
 }
@@ -139,7 +139,9 @@
   font-size: 11px;
 }
 
-.dp-FilterResultItem .dp-TimeStatus .dp-Tag {
+/* .dp-FilterResultItem .dp-TimeStatus .dp-Tag { */
+
+.dp-TimeStatus .dp-Tag {
   display: inline-block;
   min-width: 63px;
   text-align: center;

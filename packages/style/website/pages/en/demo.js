@@ -6,7 +6,6 @@ const Container = CompLibrary.Container;
 const GridBlock = CompLibrary.GridBlock;
 
 const siteConfig = require(process.cwd() + '/siteConfig.js');
-
 function imgUrl(img) {
   return siteConfig.baseUrl + 'img/' + img;
 }
@@ -34,6 +33,7 @@ class Button extends React.Component {
 Button.defaultProps = {
   target: '_self',
 };
+const scripts = ['http://code.jquery.com/jquery.js'];
 
 const SplashContainer = props => (
   <div className="homeContainer">
@@ -48,6 +48,7 @@ const Logo = props => (
     <img src={props.img_src} />
   </div>
 );
+
 
 const ProjectTitle = props => (
   <h2 className="projectTitle">
@@ -64,34 +65,15 @@ const PromoSection = props => (
   </div>
 );
 
-class HomeSplash extends React.Component {
+
+class Demo extends React.Component {
   render() {
     let language = this.props.language || '';
     return (
-      <SplashContainer>
-        <div className="inner">
-          <ProjectTitle />
-          <PromoSection>
-            <Button href={docUrl('intro.html', language)}>Docs</Button>
-            <Button href={pageUrl('demo.html', language)}>Demo</Button>
-            <Button href="https://github.com/deskpro/agent-interface">GitHub</Button>
-          </PromoSection>
-        </div>
-      </SplashContainer>
+      <div class="title">Hello</div>
+      
     );
   }
 }
 
-class Index extends React.Component {
-  render() {
-    let language = this.props.language || '';
-
-    return (
-      <div>
-        <HomeSplash language={language} />
-      </div>
-    );
-  }
-}
-
-module.exports = Index;
+module.exports = Demo;

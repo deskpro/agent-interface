@@ -2,12 +2,24 @@
   background-color: #f7f7f7;
   color: inherit;
   display: block;
-  font-size: 10px;
+
+  /* max-width: 234px; */
 }
 
 .dp-PageWrapper {
   border-bottom: none;
   display: block;
+}
+
+.dp-PageSidebar .dp-SidebarWrapper {
+  border: 2px solid #e1e3e4;
+  border-top: none;
+}
+
+.dp-SidebarRow {
+  display: block;
+  font-size: 10px;
+  padding: 0 15px 15px;
 }
 
 .dp-PageSidebar .dp-iconSettingBlue {
@@ -98,6 +110,7 @@
 }
 
 .dp-PageSidebar .dp-SectionControls .dp-SectionTitle {
+  align-items: flex-start;
   border: none;
   display: flex;
   justify-content: space-between;
@@ -123,7 +136,7 @@
   display: flex;
 }
 
-.dp-PageSidebar .dp-Badge {
+.dp-PageSidebar .dp-qt {
   color: #318cdd;
   margin-left: 5px;
 }
@@ -132,16 +145,6 @@
   background-size: 17px 12px;
   height: 12px;
   width: 17px;
-}
-
-.dp-PageSidebar .dp-SidebarWrapper {
-  border: 2px solid #e1e3e4;
-  border-top: none;
-}
-
-.dp-SidebarRow {
-  display: block;
-  padding: 0 15px 15px;
 }
 
 .dp-PageSidebar .dp-SectionBody-item {
@@ -158,13 +161,19 @@
   font-size: 12px;
 }
 
-.dp-UserAvatar {
+/* .dp-UserAvatar {
   background-color: #eff0f0;
   border-radius: 50%;
   display: block;
   height: 20px;
   margin-left: 0;
   margin-right: 5px;
+  width: 20px;
+} */
+
+.dp-PageSidebar .dp-Badge.Badge--empty, .dp-PageSidebar .dp-Avatar {
+  height: 20px;
+  margin: 0 5px 0 0;
   width: 20px;
 }
 
@@ -335,13 +344,12 @@
   margin-bottom: 9px;
 }
 
-.dp-PageSidebar .dp-Tag {
-  align-items: center;
-  display: flex;
-  font-size: 10px;
+.dp-PageSidebar .dp-TagItem:last-child {
+  margin-bottom: 0;
+}
+
+.dp-PageSidebar .dp-TimeStatus {
   margin-right: 8px;
-  min-width: 63px;
-  text-align: center;
 }
 
 .dp-PageSidebar .dp-Tag:last-child {
@@ -349,34 +357,37 @@
 }
 
 .dp-PageSidebar .dp-Tag.Tag--close {
+  align-items: center;
   background-color: #fff;
-  margin-left: 0;
-  padding: 4px 19px 4px 3px;
+  display: flex;
+  padding: 4px 15px 4px 2px;
 }
 
 .dp-PageSidebar .dp-Tag .dp-iconClose::before, .dp-PageSidebar .dp-Tag .dp-iconClose::after {
   background-color: #d7dadb;
 }
 
-.dp-PageSidebar .dp-Agent .dp-UserAvatar {
+/* .dp-PageSidebar .dp-Agent .dp-UserAvatar { */
+
+.dp-PageSidebar .dp-Agent .dp-Badge {
   height: 17px;
   width: 17px;
 }
 
 .dp-UserAvatarName a {
   color: #8b9293;
-  margin-left: 3px;
   font-size: 10px;
+  margin-left: 3px;
 }
 
 .dp-UserName {
   font-size: 10px;
 }
 
-.dp-PageSidebar .dp-CCs .dp-UserAvatar, .dp-PageSidebar .dp-Tag .dp-UserAvatar {
+.dp-PageSidebar .dp-CCs .dp-Badge, .dp-PageSidebar .dp-Tag .dp-Badge {
   height: 14px;
+  min-width: 14px;
   width: 14px;
-  margin-right: 2px;
 }
 
 .dp-BorderBottom {

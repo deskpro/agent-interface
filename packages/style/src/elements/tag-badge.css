@@ -1,4 +1,4 @@
-/*Tag*/
+/* Tag */
 
 .dp-Tag {
   background: #fff;
@@ -116,20 +116,21 @@
   transform: rotate(135deg);
 }
 
-/*Badge*/
+/* Badge */
+
 .dp-Badge {
   background-position: 50%;
   border-radius: 50%;
   color: #fff;
-  font-size: 10px;
   display: inline-block;
+  font-size: 10px;
   height: 18px;
-  min-width: 18px;
   line-height: 100%;
+  margin-left: 7px;
+  min-width: 18px;
   padding: 4px 0;
   text-align: center;
   vertical-align: middle;
-  margin-left: 7px;
 
   &:hover { background: var(--gray-100); }
 
@@ -172,6 +173,6 @@
 
 }
 
-.is-active .dp-Badge.Badge--empty{
+.is-active .dp-Badge.Badge--empty {
   background-color: #fff;
 }

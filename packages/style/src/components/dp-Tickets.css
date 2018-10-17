@@ -1,56 +1,56 @@
-.dp-Tickets{
-  position: relative;
+.dp-Tickets {
   display: block;
+  position: relative;
 }
 
-.dp-Tickets .dp-Title{
-  font-size: 14px;
+.dp-Tickets .dp-Title {
   color: #4c4f50;
-  font-weight: 700;
   display: flex;
+  font-size: 14px;
+  font-weight: 700;
   justify-content: space-between;
 }
 
-.dp-Tickets .dp-Icon{
+.dp-Tickets .dp-Icon {
   background-size: 18px 15px;
   height: 15px;
-  width: 18px;
-  vertical-align: middle;
   margin-right: 5px;
+  vertical-align: middle;
+  width: 18px;
 }
 
-.dp-Tickets .dp-iconArrowDown{
-  position: relative;
+.dp-Tickets .dp-iconArrowDown {
   margin: 0 0 0 2px;
+  position: relative;
 }
 
-.dp-Tickets .dp-iconArrowDown:before,
-.dp-Tickets .dp-iconArrowDown:after{
-  content: '';
+.dp-Tickets .dp-iconArrowDown::before,
+.dp-Tickets .dp-iconArrowDown::after {
+  background-color: #318cdd;
+  content: "";
+  height: 10px;
   position: absolute;
   top: 3px;
-  background-color: #318cdd;
   width: 2px;
-  height: 10px;
 }
 
-.dp-Tickets .dp-iconArrowDown:before{
-  transform: rotate( 45deg );
+.dp-Tickets .dp-iconArrowDown::before {
   left: 10px;
+  transform: rotate(45deg);
 }
 
-.dp-Tickets .dp-iconArrowDown:after{
-  transform: rotate( -45deg );
+.dp-Tickets .dp-iconArrowDown::after {
   left: 4px;
+  transform: rotate(-45deg);
 }
 
-.dp-Tickets .dp-TicketsThumb .dp-Icon{
-  padding: 12px 21px 12px 21px;
-  border-left: 1px solid #A9B0B0;
+.dp-Tickets .dp-TicketsThumb .dp-Icon {
+  border-left: 1px solid #a9b0b0;
   display: inline-block;
   margin: 0;
+  padding: 12px 21px 12px 21px;
 }
 
-.dp-Tickets .dp-TicketsThumb .dp-Icon:first-child{
+.dp-Tickets .dp-TicketsThumb .dp-Icon:first-child {
   border-left: 0;
 }

@@ -5,16 +5,44 @@ title: Search
 ```html @preview
 <div class="dp-Search">
     <form>
-    	<button type="submit" class="dp-Icon dp-SearchBtn"></button>
+    	<button type="submit" class="dp-Icon dp-IconSearch"></button>
     	<input type="" placeholder="Search ...">
     </form>
 
-    <div class="">
-    	<span class="dp-Icon dp-iconClockGray"></span>
-    </div>
+    <div class="dp-IconSection">
 
-    <div class="">
-    	
+
+        <ul class="dp-SearchList">
+            <li class="dp-MenuBarItem">
+                <span class="dp-Icon dp-iconClockGray"></span>
+            </li>
+
+        	<li class="dp-MenuBarItem">
+                <span class="dp-Badge Badge--empty">
+                    <span class="dp-Badge dp-red">3</span>
+                    <span class="dp-Badge dp-green"></span>
+                </span>
+            </li>
+
+            <li class="dp-MenuBarItem">
+                <span class="dp-Badge Badge--empty">
+                    <span class="dp-Badge dp-green"></span>
+                </span>
+            </li>
+
+            <li class="dp-MenuBarItem">
+                <span class="dp-Badge Badge--empty">
+                    <span class="dp-Badge dp-red">1</span>
+                    <span class="dp-Badge dp-green"></span>
+                </span>
+            </li>
+
+            <li class="dp-MenuBarItem">
+                <span class="dp-Icon dp-IconPlus"></span>
+            </li>
+
+        </ul>
+
     </div>
 
 </div>

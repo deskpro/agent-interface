@@ -10,7 +10,7 @@ title: PropertyList
                     <div class="dp-TitleControls">Ticket properties</div>
                     <span class="dp-LineTitle"></span>
                     <a href="#" class="dp-Controls">
-                        <span class="dp-Badge"> +5 </span> 
+                        <span class="dp-qt"> +5 </span> 
                         <i class="dp-Icon dp-DotsIcon"></i>
                     </a>
                 </div>

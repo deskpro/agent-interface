@@ -27,7 +27,7 @@ title: PageSidebar
                     <div class="dp-TitleControls">Ticket properties</div>
                     <span class="dp-LineTitle"></span>
                     <a href="#" class="dp-Controls">
-                        <span class="dp-Badge"> +5 </span> 
+                        <span class="dp-qt"> +5 </span> 
                         <i class="dp-Icon dp-DotsIcon"></i>
                     </a>
                 </div>
@@ -48,7 +48,7 @@ title: PageSidebar
                     <div class="dp-TitleControls">Ticket properties</div>
                     <span class="dp-LineTitle"></span>
                     <a href="#" class="dp-Controls">
-                        <span class="dp-Badge"> +5 </span> 
+                        <span class="dp-qt"> +5 </span> 
                         <i class="dp-Icon dp-DotsIcon"></i>
                     </a>
                 </div>
@@ -96,12 +96,11 @@ title: PageSidebar
                         <div class="dp-SectionTitle">Organization & user</div>
                         <span class="dp-LineTitle"></span>
                     </div>
-                    <!-- <div class="dp-SectionBody"> -->
 
                     <div class="dp-SectionBody-item">
                         <div class="dp-title-item dp-optical">
                             <div class="dp-UserAvatarName">
-                                <span class="dp-UserAvatar"></span>
+                                <span class="dp-Badge Badge--empty"></span>
                                 Optical
                             </div>
                         </div>
@@ -109,7 +108,7 @@ title: PageSidebar
 
                     <div class="dp-SectionBody-item">
                         <p class="dp-title-item">
-                            <img src="/agent-interface/style/img/docs/avatar.png" alt="" class="dp-UserAvatar dp-ZackPrudent">
+                            <img src="/agent-interface/style/img/docs/avatar.png" alt="" class="dp-Icon dp-Avatar">
                             Zack Prudent
                         </p>
 
@@ -128,7 +127,7 @@ title: PageSidebar
                     <div class="dp-SectionBody-item">
                         <div class="dp-title-item dp-optical dp-CCs">
                             <div class="dp-UserAvatarName">
-                                <span class="dp-UserAvatar"></span>
+                                <span class="dp-Badge Badge--empty"></span>
                                 <span class="dp-UserName">Wendy Pride</span><a href="mailto:w.pride@techcompany.com">w.pride@techco...</a>
                             </div>
                             <a href="#" class="dp-Icon dp-iconVDots"></a>
@@ -138,7 +137,7 @@ title: PageSidebar
                     <div class="dp-SectionBody-item db-m-0">
                         <div class="dp-title-item dp-optical dp-CCs">
                             <div class="dp-UserAvatarName">
-                                <span class="dp-UserAvatar"></span>
+                                <span class="dp-Badge Badge--empty"></span>
                                 <span class="dp-UserName">Bob Cooper</span><a href="mailto:bob.cooper@techcompany.com">bob.cooper@tec ...</a>
                             </div>
                             <i class="dp-Icon dp-iconVDots"></i>
@@ -151,7 +150,7 @@ title: PageSidebar
                             <div class="dp-TitleControls">Ticket properties</div>
                             <span class="dp-LineTitle"></span>
                             <a href="#" class="dp-Controls">
-                                <span class="dp-Badge"> +5 </span> 
+                                <span class="dp-qt"> +5 </span> 
                                 <i class="dp-Icon dp-DotsIcon"></i>
                             </a>
                         </div>
@@ -217,11 +216,15 @@ title: PageSidebar
 
                     <div class="dp-SectionBody">
                         <div class="dp-TagItem">
-                            <span class="dp-Tag Tag--pink">3 hours</span>
+                            <span class="dp-TimeStatus">
+                                <span class="dp-Tag Tag--small Tag--pink">3 hours</span>
+                            </span>
                             <span class="dp-TagDescription">Time until resolution</span>
                         </div>
                         <div class="dp-TagItem">
-                            <span class="dp-Tag Tag--orange">10.5 hours</span>
+                            <span class="dp-TimeStatus">
+                                <span class="dp-Tag Tag--small Tag--orange">10.5 hours</span>
+                            </span>
                             <span class="dp-TagDescription">Time awaiting reply</span>
                         </div>
                     </div>
@@ -243,7 +246,7 @@ title: PageSidebar
                     <div class="dp-SectionBody-item">
                         <div class="dp-title-item dp-optical dp-Agent">
                             <div class="dp-UserAvatarName">
-                                <span class="dp-UserAvatar"></span>
+                                <span class="dp-Badge Badge--empty"></span>
                                 Chris Pattison
                             </div>
                         </div>
@@ -271,10 +274,10 @@ title: PageSidebar
                          
                     <div class="dp-TagWrapper">       
                         <div class="dp-Tag Tag--close">
-                            <span class="dp-UserAvatar"></span>Wendy Pride<span class="dp-iconClose"></span>
+                            <span class="dp-Badge Badge--empty"></span>Wendy Pride<span class="dp-iconClose"></span>
                         </div>
                         <div class="dp-Tag Tag--close">
-                            <span class="dp-UserAvatar"></span>Zack Cooper<span class="dp-iconClose"></span>
+                            <span class="dp-Badge Badge--empty"></span>Zack Cooper<span class="dp-iconClose"></span>
                         </div>
                     </div>
 
