@@ -9,12 +9,18 @@
       "components/dp-FilterResultControls",
       "components/dp-ActionButton-ContextMenu",
       "components/dp-MenuBar",
-      "components/dp-PageSidebar"
+      "components/dp-PageSidebar",
+      "components/dp-PropertyList",
+      "components/dp-Tabs",
+      "components/dp-ReplyBox",
+      "components/dp-TicketMessage",
+      "components/dp-Tickets",
+      "components/dp-Search"
     ],
     "Elements": [
       "elements/dp-Button",
       "elements/dp-Input",
-      "elements/dp-Tag"
+      "elements/dp-TagBadge"
     ]
   }
 }

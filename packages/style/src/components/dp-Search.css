@@ -1,0 +1,11 @@
+.dp-Search{
+  position: relative;
+  display: block;
+}
+
+.dp-Search .dp-Icon{
+	background-size: 18px 18px;
+  height: 18px;
+  width: 18px;
+  vertical-align: middle;
+}

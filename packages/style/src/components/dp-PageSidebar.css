@@ -2,8 +2,6 @@
   background-color: #f7f7f7;
   color: inherit;
   display: block;
-
-  /* max-width: 234px; */
   font-size: 10px;
 }
 
@@ -80,8 +78,6 @@
 }
 
 .dp-PageSidebar .dp-SidebarSection {
-
-  /* margin: 10px 0; */
   padding: 10px 0;
 }
 
@@ -139,8 +135,6 @@
 }
 
 .dp-PageSidebar .dp-SidebarWrapper {
-
-  /* padding: 0 15px 15px; */
   border: 2px solid #e1e3e4;
   border-top: none;
 }
@@ -164,17 +158,17 @@
   font-size: 12px;
 }
 
-.dp-PageSidebar .dp-logo {
+.dp-UserAvatar {
   background-color: #eff0f0;
   border-radius: 50%;
   display: block;
   height: 20px;
   margin-left: 0;
-  margin-right: 2px;
+  margin-right: 5px;
   width: 20px;
 }
 
-.dp-PageSidebar .dp-LogoName {
+.dp-UserAvatarName {
   align-items: center;
   display: flex;
 }
@@ -192,12 +186,12 @@
   width: 14px;
 }
 
-.dp-PageSidebar .dp-phone {
+.dp-PageSidebar .dp-Phone {
   align-items: center;
   display: flex;
 }
 
-.dp-PageSidebar .dp-mail a, .dp-PageSidebar .dp-phone a {
+.dp-Email a, .dp-Phone a {
   color: inherit;
 }
 
@@ -283,8 +277,6 @@
   padding: 0;
 }
 
-/* .dp-PageSidebar .dp-TicketList .dp-TitleList { */
-
 .dp-PageSidebar .dp-TitleList {
   color: #707576;
   font-size: 9px;
@@ -366,23 +358,25 @@
   background-color: #d7dadb;
 }
 
-.dp-PageSidebar .dp-Agent .dp-logo {
+.dp-PageSidebar .dp-Agent .dp-UserAvatar {
   height: 17px;
   width: 17px;
 }
 
-.dp-PageSidebar .dp-CCs {
+.dp-UserAvatarName a {
+  color: #8b9293;
+  margin-left: 3px;
   font-size: 10px;
 }
 
-.dp-PageSidebar .dp-LogoName a {
-  color: #8b9293;
-  margin-left: 3px;
+.dp-UserName {
+  font-size: 10px;
 }
 
-.dp-PageSidebar .dp-CCs .dp-logo, .dp-PageSidebar .dp-Tag .dp-logo {
+.dp-PageSidebar .dp-CCs .dp-UserAvatar, .dp-PageSidebar .dp-Tag .dp-UserAvatar {
   height: 14px;
   width: 14px;
+  margin-right: 2px;
 }
 
 .dp-BorderBottom {

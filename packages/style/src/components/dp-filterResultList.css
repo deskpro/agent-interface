@@ -52,44 +52,14 @@
   color: #fff;
   display: flex;
   font-size: 10px;
-  height: 17px;
   justify-content: center;
   margin-left: 7px;
-  width: 17px;
+  height: 18px;
+  width: 18px;
 }
 
 .dp-FilterResultItem .dp-colorWhite {
   color: #fff;
-}
-
-/* 10 */
-
-.dp-FilterResultItem .dp-red {
-  background-color: #e84954;
-}
-
-/* 9 */
-
-.dp-FilterResultItem .dp-redLight {
-  background-color: #ec6c4e;
-}
-
-/* 7 */
-
-.dp-FilterResultItem .dp-orangeLight {
-  background-color: #f18b44;
-}
-
-/* 6 */
-
-.dp-FilterResultItem .dp-yellow {
-  background-color: #f8af3c;
-}
-
-/* pink */
-
-.dp-FilterResultItem .dp-pink {
-  background-color: #dc437c;
 }
 
 .dp-FilterResultItem .dp-UserInfo {
@@ -101,17 +71,17 @@
 }
 
 .dp-FilterResultItem .dp-iconUserAvatar {
-  background-size: 17px 17px;
-  height: 17px;
+  background-size: 18px 18px;
   vertical-align: middle;
-  width: 17px;
+  height: 18px;
+  width: 18px;
 }
 
 .dp-FilterResultItem .dp-iconStar,.dp-FilterResultItem .dp-iconStarGreen {
   background-size: 20px 15px;
   display: inline-block;
-  height: 15px;
   vertical-align: top;
+  height: 15px;
   width: 18px;
 }
 
@@ -119,18 +89,6 @@
   background-color: #fff;
   background-size: 12px 12px;
   border: 1px solid #dbddde;
-  border-radius: 50%;
-  display: inline-block;
-  height: 17px;
-  width: 17px;
-}
-
-.dp-FilterResultItem .dp-empty {
-  background-color: #eff0f0;
-}
-
-.dp-FilterResultItem.is-active .dp-empty {
-  background-color: #fff;
 }
 
 .dp-FilterResultItem.is-active input[type="checkbox"] + label::before {
@@ -143,15 +101,13 @@
   border: 1px solid #dbddde;
 }
 
-.dp-FilterResultItem .dp-iconClock,.dp-FilterResultItem .dp-iconRedMin {
-  background-size: 17px 17px;
+.dp-FilterResultItem .dp-iconClock{
+  background-size: 18px 18px;
   display: inline-block;
-  height: 17px;
-  width: 17px;
 }
 
 .dp-FilterResultItem .dp-iconLock {
-  background-size: 17px 17px;
+  background-size: 18px 18px;
   border-radius: 0;
 }
 

@@ -1,0 +1,24 @@
+.dp-TabItesm {
+  border-bottom: 2px solid #d9dbdc;
+  display: flex;
+}
+.dp-TabItem {
+  font-size: 12px;
+  text-transform: uppercase;
+  padding: 10px;
+  color: #707576;
+  background-color: #f7f7f7;
+  margin-bottom: -2px;
+  border: 2px solid #d9dbdc;
+}
+.dp-TabItem:first-child {
+  border-top-left-radius: 5px;
+}
+.dp-TabItem:last-child {
+  border-top-right-radius: 5px;
+}
+.dp-TabItem.is-active {
+  background-color: #318cdd;
+  color: #fff;
+  border: 2px solid transparent;
+}

@@ -10,7 +10,12 @@
 @import "components/dp-ActionButton-ContextMenu.css";
 @import "components/dp-PageSidebar.css";
 @import "components/dp-MenuBar.css";
-@import "elements/tag.css";
+@import "components/dp-Tabs.css";
+@import "components/dp-ReplyBox.css";
+@import "components/dp-TicketMessage.css";
+@import "components/dp-Tickets.css";
+@import "components/dp-Search.css";
+@import "elements/tag-badge.css";
 @import "elements/buttons.css";
 @import "elements/icons.css";
 @import "elements/inputs.css";

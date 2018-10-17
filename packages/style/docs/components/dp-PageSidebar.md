@@ -16,7 +16,6 @@ title: PageSidebar
     </div>
 ```
 
-
 <h2>SectionTitle</h2>
 
 ```html @preview
@@ -38,7 +37,6 @@ title: PageSidebar
     </div>
 ```
 
-
 <h2>SidebarSection</h2>
 
 ```html @preview
@@ -55,29 +53,25 @@ title: PageSidebar
                     </a>
                 </div>
             </div>
-            <div class="dp-SectionBody">
-                <ul class="dp-TicketList">
-                    <li class="dp-TitleList db-m-0">Department</li>
-                    <li class="dp-SubTitleList"><i class="dp-Icon dp-SupportIcon"></i>Support</li>
+            <div class="dp-PropertyList">
+                <dl class="dp-TicketList">
+                    <dt class="dp-TitleList db-m-0">Department</dt>
+                    <dd class="dp-SubTitleList"><i class="dp-Icon dp-SupportIcon"></i>Support</dd>
 
-                    <li class="dp-TitleList">Product</li>
-                    <li class="dp-SubTitleList">Deskpro Cloud</li>
+                    <dt class="dp-TitleList">Product</dt>
+                    <dd class="dp-SubTitleList">Deskpro Cloud</dd>
 
-                    <li class="dp-TitleList">Language</li>
-                    <li class="dp-SubTitleList"><i class="dp-Icon dp-UKIcon"></i>English (UK)</li>
+                    <dt class="dp-TitleList">Language</dt>
+                    <dd class="dp-SubTitleList"><i class="dp-Icon dp-UKIcon"></i>English (UK)</dd>
 
-                    <li class="dp-TitleList">Channel</li>
-                    <li class="dp-SubTitleList"><i class="dp-Icon dp-iconVoice"></i>Voice</li>
-                </ul>
+                    <dt class="dp-TitleList">Channel</dt>
+                    <dd class="dp-SubTitleList"><i class="dp-Icon dp-iconVoice"></i>Voice</dd>
+                </dl>
             </div>
         </div>
 
     </div>
 ```
-
-
-
-
 
 
 <h2>PageSidebarList</h2>
@@ -106,8 +100,8 @@ title: PageSidebar
 
                     <div class="dp-SectionBody-item">
                         <div class="dp-title-item dp-optical">
-                            <div class="dp-LogoName">
-                                <span class="dp-logo"></span>
+                            <div class="dp-UserAvatarName">
+                                <span class="dp-UserAvatar"></span>
                                 Optical
                             </div>
                         </div>
@@ -115,12 +109,12 @@ title: PageSidebar
 
                     <div class="dp-SectionBody-item">
                         <p class="dp-title-item">
-                            <img src="/agent-interface/style/img/docs/avatar.png" alt="" class="dp-logo dp-ZackPrudent">
+                            <img src="/agent-interface/style/img/docs/avatar.png" alt="" class="dp-UserAvatar dp-ZackPrudent">
                             Zack Prudent
                         </p>
 
-                        <p class="dp-mail"><a href="mailto:zack.prudent@techcompany.com">zack.prudent@techcompany.com</a></p>
-                        <p class="dp-phone">
+                        <p class="dp-Email"><a href="mailto:zack.prudent@techcompany.com">zack.prudent@techcompany.com</a></p>
+                        <p class="dp-Phone">
                             <i class="dp-Icon dp-iconPhoneBlue"></i><a href="tel:+442035678940" >+44 20 356 789 40</a>
                         </p>
                         <p class="dp-OpenResolved">
@@ -133,9 +127,9 @@ title: PageSidebar
 
                     <div class="dp-SectionBody-item">
                         <div class="dp-title-item dp-optical dp-CCs">
-                            <div class="dp-LogoName">
-                                <span class="dp-logo"></span>
-                                <span class="">Wendy Pride</span><a href="mailto:w.pride@techcompany.com">w.pride@techco...</a>
+                            <div class="dp-UserAvatarName">
+                                <span class="dp-UserAvatar"></span>
+                                <span class="dp-UserName">Wendy Pride</span><a href="mailto:w.pride@techcompany.com">w.pride@techco...</a>
                             </div>
                             <a href="#" class="dp-Icon dp-iconVDots"></a>
                         </div>
@@ -143,9 +137,9 @@ title: PageSidebar
 
                     <div class="dp-SectionBody-item db-m-0">
                         <div class="dp-title-item dp-optical dp-CCs">
-                            <div class="dp-LogoName">
-                                <span class="dp-logo"></span>
-                                <span class="">Bob Cooper</span><a href="mailto:bob.cooper@techcompany.com">bob.cooper@tec ...</a>
+                            <div class="dp-UserAvatarName">
+                                <span class="dp-UserAvatar"></span>
+                                <span class="dp-UserName">Bob Cooper</span><a href="mailto:bob.cooper@techcompany.com">bob.cooper@tec ...</a>
                             </div>
                             <i class="dp-Icon dp-iconVDots"></i>
                         </div>
@@ -162,20 +156,20 @@ title: PageSidebar
                             </a>
                         </div>
                     </div>
-                    <div class="dp-SectionBody">
-                        <ul class="dp-TicketList">
-                            <li class="dp-TitleList db-m-0">Department</li>
-                            <li class="dp-SubTitleList"><i class="dp-Icon dp-SupportIcon"></i>Support</li>
+                    <div class="dp-PropertyList">
+                        <dl class="dp-TicketList">
+                            <dt class="dp-TitleList db-m-0">Department</dt>
+                            <dd class="dp-SubTitleList"><i class="dp-Icon dp-SupportIcon"></i>Support</dd>
 
-                            <li class="dp-TitleList">Product</li>
-                            <li class="dp-SubTitleList">Deskpro Cloud</li>
+                            <dt class="dp-TitleList">Product</dt>
+                            <dd class="dp-SubTitleList">Deskpro Cloud</dd>
 
-                            <li class="dp-TitleList">Language</li>
-                            <li class="dp-SubTitleList"><i class="dp-Icon dp-UKIcon"></i>English (UK)</li>
+                            <dt class="dp-TitleList">Language</dt>
+                            <dd class="dp-SubTitleList"><i class="dp-Icon dp-UKIcon"></i>English (UK)</dd>
 
-                            <li class="dp-TitleList">Channel</li>
-                            <li class="dp-SubTitleList"><i class="dp-Icon dp-iconVoice"></i>Voice</li>
-                        </ul>
+                            <dt class="dp-TitleList">Channel</dt>
+                            <dd class="dp-SubTitleList"><i class="dp-Icon dp-iconVoice"></i>Voice</dd>
+                        </dl>
                     </div>
 
                     <!-- 3 -->
@@ -248,8 +242,8 @@ title: PageSidebar
                     </div>
                     <div class="dp-SectionBody-item">
                         <div class="dp-title-item dp-optical dp-Agent">
-                            <div class="dp-LogoName">
-                                <span class="dp-logo"></span>
+                            <div class="dp-UserAvatarName">
+                                <span class="dp-UserAvatar"></span>
                                 Chris Pattison
                             </div>
                         </div>
@@ -261,7 +255,7 @@ title: PageSidebar
                     </div>
                     <div class="dp-SectionBody-item">
                         <div class="dp-title-item dp-optical">
-                            <div class="dp-LogoName">
+                            <div class="dp-UserAvatarName">
                                 2nd Level Support
                             </div>
                         </div>
@@ -277,10 +271,10 @@ title: PageSidebar
                          
                     <div class="dp-TagWrapper">       
                         <div class="dp-Tag Tag--close">
-                            <span class="dp-logo"></span>Wendy Pride<span class="dp-iconClose"></span>
+                            <span class="dp-UserAvatar"></span>Wendy Pride<span class="dp-iconClose"></span>
                         </div>
                         <div class="dp-Tag Tag--close">
-                            <span class="dp-logo"></span>Zack Cooper<span class="dp-iconClose"></span>
+                            <span class="dp-UserAvatar"></span>Zack Cooper<span class="dp-iconClose"></span>
                         </div>
                     </div>
 

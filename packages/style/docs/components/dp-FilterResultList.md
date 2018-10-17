@@ -18,8 +18,8 @@ title: FilterResult
                 </span>
                 <span class="dp-IconGroup">
                     <span class="dp-Circle dp-iconRocket"></span>
-                    <span class="dp-Circle dp-empty"></span>
-                    <span class="dp-Circle dp-redLight">9</span>
+                    <span class="dp-Badge Badge--empty"></span>
+                    <span class="dp-Badge Badge--redLight">9</span>
                 </span>
             </span>
             <span class="dp-ItemRow">
@@ -64,9 +64,9 @@ title: FilterResult
                     <span class="dp-Icon dp-iconStar"></span>
                 </span>
                 <span class="dp-IconGroup">
-                    <span class="dp-Icon dp-iconRocket"></span>
-                    <span class="dp-Circle dp-empty"></span>
-                    <span class="dp-Circle dp-red">10</span>
+                    <span class="dp-Circle dp-iconRocket"></span>
+                    <span class="dp-Badge Badge--empty"></span>
+                    <span class="dp-Badge Badge--red">10</span>
                 </span>
             </span>
             <span class="dp-ItemRow">
@@ -89,7 +89,7 @@ title: FilterResult
                 </span>
                 <span class="dp-IconGroup">
                     <span class="dp-Circle dp-iconBug"></span>
-                    <span class="dp-Circle dp-empty"></span>
+                    <span class="dp-Badge Badge--empty"></span>
                     <span class="dp-Circle dp-iconClock"></span>
                 </span>
             </span>
@@ -113,8 +113,8 @@ title: FilterResult
                 </span>
                 <span class="dp-IconGroup">
                     <span class="dp-Circle dp-iconRocket"></span>
-                    <span class="dp-Circle dp-empty"></span>
-                    <span class="dp-Circle dp-redLight">9</span>
+                    <span class="dp-Badge Badge--empty"></span>
+                    <span class="dp-Badge Badge--redLight">9</span>
                 </span>
             </span>
             <span class="dp-ItemRow">
@@ -136,7 +136,7 @@ title: FilterResult
                 </span>
                 <span class="dp-IconGroup">
                     <span class="dp-Circle dp-iconUserAvatar"></span>
-                    <span class="dp-Circle dp-iconRedMin"></span>
+                    <span class="dp-Badge Badge--redMin"></span>
                 </span>
             </span>
             <span class="dp-ItemRow">
@@ -160,8 +160,8 @@ title: FilterResult
                 <span class="dp-IconGroup">
                     <span class="dp-Circle dp-iconLock"></span>
                     <span class="dp-Circle dp-iconMln"></span>
-                    <span class="dp-Circle dp-empty"></span>
-                    <span class="dp-Circle dp-redLight">9</span>
+                    <span class="dp-Badge Badge--empty"></span>
+                    <span class="dp-Badge Badge--redLight">9</span>
                 </span>
             </span>
             <span class="dp-ItemRow">
@@ -184,8 +184,8 @@ title: FilterResult
                 </span>
                 <span class="dp-IconGroup">
                     <span class="dp-Circle dp-iconMln"></span>
-                    <span class="dp-Circle dp-empty"></span>
-                    <span class="dp-Circle dp-orangeLight">7</span>
+                    <span class="dp-Badge Badge--empty"></span>
+                    <span class="dp-Badge Badge--orangeLight">7</span>
                 </span>
             </span>
             <span class="dp-ItemRow">
@@ -209,8 +209,9 @@ title: FilterResult
                 </span>
                 <span class="dp-IconGroup">
                     <span class="dp-Circle dp-iconMln"></span>
-                    <span class="dp-Circle dp-empty"></span>
-                    <span class="dp-Circle dp-iconOrangeMin"></span>
+                    <span class="dp-Badge Badge--empty"></span>
+                    <!-- <span class="dp-Circle dp-iconOrangeMin"></span> -->
+                    <span class="dp-Badge Badge--yellowMin"></span>
                 </span>
             </span>
             <span class="dp-ItemRow">
@@ -233,8 +234,8 @@ title: FilterResult
                 </span>
                 <span class="dp-IconGroup">
                     <span class="dp-Circle dp-iconMln"></span>
-                    <span class="dp-Circle dp-empty"></span>
-                    <span class="dp-Circle dp-yellow">6</span>
+                    <span class="dp-Badge Badge--empty"></span>
+                    <span class="dp-Badge Badge--yellow">6</span>
                 </span>
             </span>
             <span class="dp-ItemRow">
@@ -262,8 +263,8 @@ title: FilterResult
                 </span>
                 <span class="dp-IconGroup">
                     <span class="dp-Circle dp-iconRocket"></span>
-                    <span class="dp-Circle dp-empty"></span>
-                    <span class="dp-Circle dp-redLight">9</span>
+                    <span class="dp-Badge Badge--empty"></span>
+                    <span class="dp-Badge Badge--redLight">9</span>
                 </span>
             </span>
             <span class="dp-ItemRow">
@@ -291,8 +292,8 @@ title: FilterResult
                 </span>
                 <span class="dp-IconGroup">
                     <span class="dp-Circle dp-iconMln"></span>
-                    <span class="dp-Circle dp-empty"></span>
-                    <span class="dp-Circle dp-yellow">6</span>
+                    <span class="dp-Badge Badge--empty"></span>
+                    <span class="dp-Badge Badge--yellow">6</span>
                 </span>
             </span>
             <span class="dp-ItemRow">
@@ -320,8 +321,8 @@ title: FilterResult
                 </span>
                 <span class="dp-IconGroup">
                     <span class="dp-Circle dp-iconRocket"></span>
-                    <span class="dp-Circle dp-empty"></span>
-                    <span class="dp-Circle dp-redLight">9</span>
+                    <span class="dp-Badge Badge--empty"></span>
+                    <span class="dp-Badge Badge--redLight">9</span>
                 </span>
             </span>
             <span class="dp-ItemRow">
