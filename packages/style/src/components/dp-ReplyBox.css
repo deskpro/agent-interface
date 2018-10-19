@@ -12,6 +12,7 @@
 .dp-ActionsItem {
   border-right: 1px solid #d9dbdc;
   color: #4c4f50;
+  display: flex;
   font-size: 11px;
   margin: 10px 0;
   padding: 0 10px;
@@ -27,20 +28,7 @@
   min-height: 100px;
 }
 
-.dp-ActionDropDown {
-  position: relative;
-}
-
-.dp-ActionDropDown::after {
+.dp-ReplyBox .dp-Arrow::after {
   border-color: #4c4f50 transparent transparent transparent;
-  border-style: solid;
   border-width: 3px 3px 0 3px;
-  bottom: 0;
-  content: "";
-  height: 0;
-  margin: auto;
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 0;
 }

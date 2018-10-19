@@ -1,0 +1,91 @@
+.dp-YourAccount {
+  display: block;
+  font-size: 12px;
+}
+
+.dp-YourAccount .dp-IconNoteGray {
+  height: 12px;
+  margin-right: 10px;
+  width: 12px;
+}
+
+.dp-YourAccount .dp-IconPlusAdd, .dp-YourAccount .dp-IconPlaneOrange, .dp-YourAccount .dp-IconPlaneViolet, .dp-YourAccount .dp-IconPlane {
+  height: 29px;
+  margin-right: 14px;
+  min-width: 29px;
+  width: 29px;
+}
+
+.dp-YourAccount .dp-IconTick {
+  display: none;
+  height: 14px;
+  margin-right: 15px;
+  width: 14px;
+}
+
+.is-active .dp-IconTick {
+  display: block;
+}
+
+.dp-YourAccount .dp-AccountWrap {
+  border: 2px solid #318cdd;
+  border-radius: 5px;
+  max-width: 229px;
+}
+
+.dp-YourAccount .dp-AccountTitle {
+  background-color: #318cdd;
+  color: #fff;
+  font-size: 12px;
+  width: 100%;
+}
+
+.dp-YourAccount .dp-Icon-Title {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  max-width: 150px;
+}
+
+.dp-YourAccount .dp-Icon-Title .dp-Icon {
+  cursor: pointer;
+}
+
+.dp-YourAccount .dp-raven {
+  color: #a9b0b0;
+}
+
+.dp-YourAccount  .is-active .dp-raven {
+  color: #4c4f50;
+}
+
+.dp-YourAccount .dp-AccountList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.dp-YourAccount .dp-AccountItem {
+  align-items: center;
+  border-bottom: 2px solid #e6e7e8;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 10px;
+}
+
+.dp-YourAccount .dp-AccountItem:last-child {
+  font-size: 11px;
+}
+
+.dp-AccountItem.dp-raven {
+  color: #a9b0b0;
+}
+
+.dp-AccountItem.dp-raven.is-active {
+  color: #4c4f50;
+}
+
+.dp-YourAccount .dp-BuyNow {
+  font-size: 10px;
+}

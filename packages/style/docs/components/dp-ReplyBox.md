@@ -9,7 +9,10 @@ title: ReplyBox
             <li class="dp-ActionsItem">Reply</li>
             <li class="dp-ActionsItem">Add Note</li>
             <li class="dp-ActionsItem">Forward</li>
-            <li class="dp-ActionsItem dp-ActionDropDown">Macros</li>
+            <li class="dp-ActionsItem dp-MenuBarItem">
+                Macros
+                <span class="dp-Arrow"></span>
+            </li>
         </ul>
     </div>
     <div class="dp-ReplyEditor">

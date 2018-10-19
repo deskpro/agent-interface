@@ -1,5 +1,7 @@
 .dp-TabBarList {
+  border-bottom: 2px solid #318cdd;
   display: flex;
+  margin-top: 3px;
 }
 
 .dp-TabBarItem .dp-iconClose {
@@ -34,6 +36,7 @@
 
 .dp-TabBarItem,.dp-AddTabButton {
   border: 1px solid #a9b0b0;
+  border-bottom: 2px solid #318cdd;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   display: inline-block;
@@ -42,8 +45,11 @@
 
 .dp-TabBarItem {
   background: #f7f7f7;
+  height: 43px;
+  margin-bottom: -2px;
   min-width: 160px;
-  padding: 5px 25px 5px 10px;
+  padding: 5px 25px 7px 10px;
+  z-index: -1;
 }
 
 .dp-TabBarItem:hover {
@@ -55,8 +61,12 @@
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   display: inline-block;
-  padding: 7px;
+  padding: 5px 7px 8px;
   position: relative;
+}
+
+.dp-TabBarList .dp-AddTabButton {
+  border-bottom: none;
 }
 
 .dp-TabBarItem .dp-Flex {
@@ -137,6 +147,7 @@
   background: #fff;
   border: 2px solid #318cdd;
   border-bottom: 0;
+  z-index: 1;
 }
 
 /* .dp-TabBarList .is-active:before{

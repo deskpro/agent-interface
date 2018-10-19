@@ -1,0 +1,122 @@
+.dp-TasksWrap {
+  border: 2px solid #7daddd;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  display: block;
+  padding: 10px 8px;
+}
+
+.dp-TaskEditor {
+  border: 1px solid #dfe0e1;
+  border-radius: 5px;
+  display: block;
+}
+
+.dp-TaskEditor textarea {
+  border: none;
+  font-style: italic;
+  height: 100px;
+  outline: none;
+  padding: 10px;
+  resize: none;
+  width: 100%;
+}
+
+.dp-TaskEditor textarea::placeholder {
+  color: #a9b0b0;
+}
+
+.dp-Tasks .dp-ActionsItem {
+  align-items: center;
+  cursor: pointer;
+  text-transform: none;
+}
+
+.dp-Tasks .dp-ActionsItem:last-child {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.dp-Tasks .dp-Tag, .dp-Tasks .dp-TimeStatus .dp-Tag {
+  min-width: 50px;
+  text-align: center;
+  width: 50px;
+}
+
+.dp-Tasks .dp-IconCalendar2, .dp-Tasks .dp-IconBuilding {
+  border-radius: 0;
+}
+
+.dp-Tasks .dp-Arrow::after {
+  border-width: 2px 2px 0 2px;
+  right: 8px;
+}
+
+.dp-Tasks .dp-FilterResultList {
+  border: 0;
+}
+
+.dp-Tasks .dp-FilterResultList .dp-ActionsItems {
+  background-color: transparent;
+  padding-left: 25px;
+}
+
+.dp-Tasks .dp-FilterResultList .dp-ActionsItem {
+  border: 0;
+  margin: 0 0 10px;
+  padding: 0;
+}
+
+.dp-Tasks .dp-ActionsItems .dp-Icon {
+  background-size: 15px 15px;
+  height: 15px;
+  margin-right: 5px;
+  width: 15px;
+}
+
+.dp-Tasks .dp-FilterResultItem {
+  border: 0;
+  margin-top: 10px;
+  padding: 0;
+}
+
+.dp-Tasks .dp-FilterResultItem .dp-ItemRow:last-child {
+  align-items: flex-end;
+  display: flex;
+}
+
+/*  */
+
+.dp-Tasks .dp-MenuBarList {
+  margin-bottom: 10px;
+}
+
+.dp-Tasks.dp-MenuBarIcon .dp-TasksWrap {
+  display: none;
+}
+
+.dp-Tasks.dp-MenuBarIcon .dp-MenuBarList.is-active + .dp-TasksWrap {
+  display: block;
+}
+
+.dp-MenuBarList.is-active .dp-Title {
+  color: #3a8dde;
+}
+
+.dp-Tasks .is-active .dp-Arrow::after {
+  border-color: transparent transparent #3a8dde transparent;
+  border-width: 0 2px 2px 2px;
+}
+
+.dp-MenuBarList.is-active .dp-Icon {
+  background-color: #318cdd;
+  border: 1px solid #318cdd;
+}
+
+.dp-MenuBarList.is-active .dp-iconCharger, .dp-MenuBarList .dp-iconChargerWhite {
+  display: none;
+}
+
+.dp-MenuBarList.is-active .dp-iconChargerWhite, .dp-MenuBarList .dp-iconCharger {
+  display: inline-block;
+}

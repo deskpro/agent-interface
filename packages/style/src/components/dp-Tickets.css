@@ -4,11 +4,14 @@
 }
 
 .dp-Tickets .dp-Title {
+  align-items: center;
+  border-bottom: 2px solid #318cdd;
   color: #4c4f50;
   display: flex;
   font-size: 14px;
   font-weight: 700;
   justify-content: space-between;
+  padding: 10px;
 }
 
 .dp-Tickets .dp-Icon {
@@ -53,4 +56,124 @@
 
 .dp-Tickets .dp-TicketsThumb .dp-Icon:first-child {
   border-left: 0;
+}
+
+/*  */
+
+.dp-TicketMenu {
+  background-color: #f7f7f7;
+  box-shadow: 10px 0 20px -10px rgba(0, 0, 0, 0.2);
+  display: block;
+  height: 100%;
+  height: 100%;
+  left: 0;
+  max-width: 243px;
+
+  position: absolute;
+  top: 46px;
+  width: 100%;
+}
+
+.dp-TicketMenu, .dp-SubMenu {
+  list-style: none;
+  padding: 0;
+}
+
+.dp-Tickets .dp-IconAgent {
+  background-size: 11px 8px;
+  height: 8px;
+  margin-left: 4px;
+  width: 11px;
+}
+
+.dp-Tickets .dp-TicketMenuItem {
+  align-items: flex-start;
+  border-bottom: 2px solid #d5d5d5;
+  color: #4c4f50;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  font-weight: 700;
+  justify-content: space-between;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+.dp-Tickets .dp-Arrow::after {
+  border-width: 3px 3px 0 3px;
+  right: 0;
+}
+
+.is-active .dp-Arrow::after {
+  border-color: transparent transparent #000 transparent;
+  border-width: 0 3px 3px 3px;
+}
+
+.dp-SubMenu {
+  display: none;
+  text-transform: none;
+  width: 100%;
+}
+
+.dp-MenuBarItem.is-active .dp-SubMenu {
+  display: block;
+}
+
+.dp-Tickets .dp-SubMenu a {
+  border-radius: 5px;
+  color: #707576;
+  cursor: pointer;
+  display: flex;
+  font-size: 12px;
+  font-weight: 400;
+  justify-content: space-between;
+  margin-left: -5px;
+  margin-right: -5px;
+  padding: 5px;
+}
+
+.dp-Tickets .dp-SubMenu a:hover {
+  background-color: #318cdd;
+  color: #fff;
+}
+
+.dp-Tickets .dp-SubMenu a:hover .dp-SubNum {
+  color: #fff;
+}
+
+.dp-Tickets .dp-SubNum {
+  color: #4c4f50;
+  font-size: 12px;
+}
+
+.dp-Tickets .dp-TitleMenu {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.dp-Tickets .is-active .dp-TitleMenu {
+  padding-bottom: 10px;
+}
+
+.dp-Tickets .dp-dropdownContainer {
+  height: 100%;
+  overflow: hidden;
+}
+
+.dp-dropdownContainer .dp-TicketMenu, .dp-dropdownContainer .is-active .dp-qt {
+  display: none;
+}
+
+.dp-dropdownContainer .is-active + .dp-TicketMenu {
+  display: block;
+}
+
+.dp-Tickets .dp-dropdownContainer .is-active .dp-TitleName .dp-iconArrowDown::before {
+  transform: rotate(-45deg);
+}
+
+.dp-Tickets .dp-dropdownContainer .is-active .dp-TitleName .dp-iconArrowDown::after {
+  transform: rotate(45deg);
 }

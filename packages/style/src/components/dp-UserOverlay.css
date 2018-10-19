@@ -1,0 +1,48 @@
+.dp-UserOverlay {
+  display: block;
+}
+
+.dp-UserOverlay .dp-Avatar {
+  background-size: 25px 25px;
+  height: 25px;
+  min-width: 25px;
+  width: 25px;
+}
+
+.dp-UserOverlay .dp-TitleRow {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dp-UserOverlay .dp-UserInfo {
+  align-items: center;
+  display: flex;
+}
+
+.dp-UserOverlay .dp-InfoItem {
+  margin-right: 10px;
+}
+
+.dp-UserOverlay .dp-Label {
+  align-items: center;
+  color: #808080;
+  display: flex;
+  text-transform: uppercase;
+}
+
+.dp-UserOverlay .dp-IconPlusAdd, .dp-UserOverlay .dp-IconCloseBlue {
+  background-size: 20px 20px;
+  height: 20px;
+  width: 20px;
+}
+
+.dp-UserOverlay .dp-IconCloseBlue {
+  border-left: 1px solid #a9b0b0;
+  cursor: pointer;
+  padding-left: 30px;
+}
+
+.dp-UserOverlay {
+  color: inherit;
+}

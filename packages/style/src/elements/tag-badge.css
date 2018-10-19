@@ -57,6 +57,13 @@
     &:hover { background: rgba(220, 67, 124, 0.5); }
   }
 
+  &.Tag--green {
+    background: #4fb05c;
+    border: 1px solid #4fb05c;
+    color: #fff;
+    &:hover { background: rgba(79, 176, 92, 0.5); }
+  }
+
   &.Tag--orange {
     background: #f18b44;
     border: 1px solid #f18b44;

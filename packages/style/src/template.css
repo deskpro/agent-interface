@@ -1,0 +1,41 @@
+.dp-Template {
+  display: flex;
+}
+
+.dp-TemplateLeftCol {
+  flex: 0 0 43px;
+}
+
+.dp-TemplateMainColl {
+  align-self: flex-start;
+  display: flex;
+  flex: 0 1 100%;
+  flex-wrap: wrap;
+}
+
+.dp-TopActionRow {
+  display: flex;
+  flex: 0 0 100%;
+  justify-content: space-between;
+}
+
+.dp-TopActionRowLeft {
+  flex: 1 0 auto;
+}
+
+.dp-TopActionRowRight {
+  flex: 0 1 100%;
+}
+
+.dp-TemplateMainContent {
+  display: flex;
+  flex: 1 1 100%;
+}
+
+.dp-TemplateMainContentLeft {
+  flex: 0 0 435px;
+}
+
+.dp-TemplateMainContentRight {
+  flex: 0 1 100%;
+}

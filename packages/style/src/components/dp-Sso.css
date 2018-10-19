@@ -1,0 +1,20 @@
+.dp-Sso {
+  display: block;
+}
+
+.dp-SsoWrap {
+  align-items: center;
+  display: flex;
+}
+
+.dp-SsoTxt {
+  color: #4c4f50;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.dp-Sso .dp-IconStar {
+  height: 16px;
+  margin-right: 5px;
+  width: 16px;
+}

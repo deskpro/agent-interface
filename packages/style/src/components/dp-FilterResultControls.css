@@ -3,7 +3,8 @@
   border: 1px solid #e2e1e1;
   color: inherit;
   display: flex;
-  flex-wrap: wrap;
+
+  /* flex-wrap: wrap; */
 }
 
 .dp-FilterControlsItem {
@@ -12,6 +13,7 @@
   display: flex;
   flex-wrap: wrap;
   margin: 0;
+  max-width: 175px;
   padding: 10px 5px;
 }
 

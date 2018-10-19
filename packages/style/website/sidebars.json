@@ -15,7 +15,12 @@
       "components/dp-ReplyBox",
       "components/dp-TicketMessage",
       "components/dp-Tickets",
-      "components/dp-Search"
+      "components/dp-Search",
+      "components/dp-ControlPanel",
+      "components/dp-Sso",
+      "components/dp-YourAccount",
+      "components/dp-Tasks",
+      "components/dp-UserOverlay"
     ],
     "Elements": [
       "elements/dp-Button",

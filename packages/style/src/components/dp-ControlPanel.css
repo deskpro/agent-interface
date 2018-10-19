@@ -1,0 +1,58 @@
+.dp-ControlPanel {
+  align-items: center;
+  border-bottom: 2px solid #a9b0b0;
+  display: flex;
+  height: 45px;
+  justify-content: flex-end;
+  position: relative;
+  width: 100%;
+}
+
+.dp-ControlPanel .dp-IconPhoneGreen, .dp-ControlPanel .dp-IconChatGreen, .dp-ControlPanel .dp-IconPlane, .dp-ControlPanel .dp-IconBell, .dp-ControlPanel .dp-Avatar {
+  background-size: 20px 20px;
+  height: 20px;
+  min-width: 20px;
+  width: 20px;
+}
+
+.dp-ControlPanel .dp-MenuBarItem .dp-Icon {
+  border-radius: 0;
+}
+
+.dp-ControlPanel .dp-MenuBarItem {
+  align-items: center;
+  display: flex;
+  padding: 12px 20px 12px 0;
+  position: relative;
+}
+
+.dp-ControlPanel .dp-MenuBarItem:first-child::after, .dp-ControlPanel .dp-MenuBarItem:last-child::before {
+  background-color: #bfc4c4;
+  content: "";
+  display: block;
+  height: 110%;
+  position: absolute;
+  top: 0;
+  transform: rotate(30deg);
+  width: 1px;
+}
+
+.dp-ControlPanel .dp-MenuBarItem:first-child {
+  margin-right: 20px;
+}
+
+.dp-ControlPanel .dp-MenuBarItem:first-child::after {
+  right: 0;
+}
+
+.dp-ControlPanel .dp-MenuBarItem:last-child {
+  padding: 12px 0 12px 20px;
+}
+
+.dp-ControlPanel .dp-MenuBarItem:last-child::before {
+  left: 0;
+}
+
+.dp-ControlPanel .dp-MenuBarItem, .dp-ControlPanel .dp-Icon {
+  cursor: pointer;
+}

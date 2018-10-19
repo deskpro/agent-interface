@@ -10,7 +10,7 @@ title: Tickets
 		<span class="dp-Icon dp-iconTickets2"></span>
 		<span class="dp-Icon dp-iconTickets3"></span>
 		<span class="dp-Icon dp-iconTickets2 is-active"></span>
-		<span class="dp-Icon dp-iconTickets3 is-active"></span>
+		<span class="dp-Icon dp-iconTickets4 is-active"></span>
 	</div>
 ```
 
@@ -18,42 +18,79 @@ title: Tickets
 
 ```html @preview
 	<div class="dp-Tickets" style="height: 450px;">
-
 		<div class="dp-dropdownContainer">
-			<div class="dp-Title">
-			    <div>
+			<div class="dp-Title is-active">
+				<div class="dp-TitleName">
 					<span class="dp-Icon dp-iconTickets"></span>
-					All tickets <span>(90)</span>
+					All tickets <span class="dp-qt">(90)</span>
 					<span class="dp-Icon dp-iconArrowDown"></span>
 				</div>
 				<div class="dp-TicketsThumb">
-					<span class="dp-Icon dp-iconTickets2 is-active"></span>
+					<span class="dp-Icon dp-iconTickets4 is-active"></span>
 					<span class="dp-Icon dp-iconTickets2"></span>
 					<span class="dp-Icon dp-iconTickets3"></span>
 				</div>
 			</div>
-
-		    <ul class="dp-ContextMenu is-active">
-				<li class="dp-disabledItem"><a href="#"><span class="dp-MenuIcon dp-iconLockGray"></span> Lock (permission required)</a></li>
-				<li><a href="#"><span class="dp-MenuIcon dp-iconGrayMin"></span> Put ticket on hold</a></li>
-				<li class="dp-disabledItem"><a href="#">  <span class="dp-MenuIcon dp-IconDelete"></span>   Delete (permission required)</a></li>
-				<li class="dp-DropdownDivider"></li>
-				<li><a href="#"> <span class="dp-MenuIcon dp-IconSplit"></span>  Split message to new ticket</a></li>
-				<li><a href="#"> <span class="dp-MenuIcon dp-IconMerge"></span>  Merge</a></li>
-				<li><a href="#"> <span class="dp-MenuIcon dp-iconEmail"></span>  Create linked ticket</a></li>
-				<li><a href="#"> <span class="dp-MenuIcon dp-IconLink"></span>  Link existing ticket</a></li>
-				<li class="dp-DropdownDivider"></li>
-				<li><a href="#"> <span class="dp-MenuIcon dp-IconArticle"></span>  Create new pending article</a></li>
-				<li><a href="#"> <span class="dp-MenuIcon dp-IconSnippet"></span>  Create new snippet</a></li>
-				<li class="dp-DropdownDivider"></li>
-				<li><a href="#"> <span class="dp-MenuIcon dp-IconPrint"></span>  Print</a></li>
-				<li><a href="#"> <span class="dp-MenuIcon dp-IconDownloadPDF"></span>  Download PDF</a></li>
-				<li><a href="#"><span class="dp-MenuIcon dp-iconBugGray"></span>Download Debug File</a></li>
-				<li class="dp-DropdownDivider"></li>
-				<li><a href="#"> <span class="dp-MenuIcon dp-IconSpam"></span>  Spam</a></li>
-				<li><a href="#"> <span class="dp-MenuIcon dp-IconBan"></span>  Ban</a></li>
+			<ul class="dp-TicketMenu">
+				<li class="dp-TicketMenuItem dp-MenuBarItem is-active">
+						<span class="dp-TitleMenu">
+							<span>Awaiting agent</span>
+							<span class="dp-Arrow"></span>
+						</span>
+						<ul class="dp-SubMenu">
+							<li>
+								<a href="#">
+									<span>My tickets<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">1</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span>Tickets I follow<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span>Unassigned tickets<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span>All tickets<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">90</span>
+								</a>
+							</li>
+						</ul>
+				</li>
+				<li class="dp-TicketMenuItem dp-MenuBarItem">
+					<span class="dp-TitleMenu">
+						<span>Filters</span>
+						<span class="dp-Arrow"></span>
+					</span>
+				</li>
+				<li class="dp-TicketMenuItem dp-MenuBarItem">
+					<span class="dp-TitleMenu">
+						<span>Saved Searches</span>
+						<span class="dp-Arrow"></span>
+					</span>
+				</li>
+				<li class="dp-TicketMenuItem dp-MenuBarItem">
+					<span class="dp-TitleMenu">
+						<span>Problems & incidents (2)</span>
+						<span class="dp-Arrow"></span>
+					</span>
+				</li>
+				<li class="dp-TicketMenuItem dp-MenuBarItem">
+					<span class="dp-TitleMenu">
+						<span>Labels</span>
+						<span class="dp-Arrow"></span>
+					</span>
+				</li>
+				<li class="dp-TicketMenuItem dp-MenuBarItem">
+					<span class="dp-TitleMenu">
+						<span>My stars (3)</span>
+						<span class="dp-Arrow"></span>
+					</span>
+				</li>
 			</ul>
 		</div>
-
 	</div>
 ```
