@@ -9,8 +9,9 @@
   color: #707576;
   font-size: 12px;
   margin-bottom: -2px;
-  padding: 10px;
+  padding: 5px 10px;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 .dp-TabItem:first-child {
@@ -25,4 +26,8 @@
   background-color: #318cdd;
   border: 2px solid transparent;
   color: #fff;
+}
+
+.dp-ReplyBox + .dp-TabContainer{
+  margin-top: 15px;
 }

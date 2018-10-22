@@ -7,13 +7,13 @@ title: ActionButton and ContextMenu
 	<button class="dp-ActionButton" type="button">
 		<span class="dp-Icon dp-iconRocketBlue"></span>
 		<span class="dp-Icon dp-iconRocketwhite"></span>
-		Actions
+		ACTIONS
 	</button>
 
 	<button class="dp-ActionButton is-active" type="button">
 		<span class="dp-Icon dp-iconRocketBlue"></span>
 		<span class="dp-Icon dp-iconRocketWhite"></span>
-		Actions
+		ACTIONS
 	</button>
 ```
 

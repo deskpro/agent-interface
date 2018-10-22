@@ -6,7 +6,7 @@ title: Search
 <div class="dp-Search">
     <form>
     	<button type="submit" class="dp-Icon dp-IconSearch"></button>
-    	<input type="" placeholder="Search ...">
+    	<input type="" placeholder="Search ..."></input>
     </form>
 
     <div class="dp-IconSection">

@@ -15,8 +15,6 @@ title: ReplyBox
             </li>
         </ul>
     </div>
-    <div class="dp-ReplyEditor">
-    	
-    </div>
+    <textarea class="dp-ReplyEditor"></textarea>
 </div>
 ```

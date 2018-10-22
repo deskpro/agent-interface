@@ -14,7 +14,8 @@ title: Tag/Badge
     <span class="dp-Tag Tag--close Tag--purple">Tag close color<span class="dp-iconClose"></span></span>
     <span class="dp-Tag Tag--pink">Tag color</span>
     <span class="dp-Tag Tag--orange">Tag color</span>
-
+    <span class="dp-Tag dp-TagPlus"></span>
+    
 ```
 
 # Sizes

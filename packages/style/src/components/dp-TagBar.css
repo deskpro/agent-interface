@@ -1,0 +1,7 @@
+.dp-TagBar{
+  position: relative;
+  border-left: 2px solid #d9dbdc;
+	display: inline-block;
+  padding: 0 0 0 20px;
+  margin: 0 0 0 20px;
+}

@@ -3,8 +3,8 @@ title: YourAccount
 ---
 
 ```html @preview
-<div class="dp-YourAccount">
-    <div class="dp-AccountWrap">
+<div class="dp-YourAccount is-active" style="height: 450px; position: relative;">
+    <div class="dp-AccountWrap" style="top: 0; left: 0; right: auto;">
         <ul class="dp-AccountList">
         	<li class="dp-AccountItem dp-AccountTitle">Your account</li>
         	<li class="dp-AccountItem is-active">
@@ -24,7 +24,7 @@ title: YourAccount
         			<span class="dp-Icon dp-IconPlaneViolet"></span>
 	        		<span>
 	        			RP Europe (Demo)
-	        			<span class="dp-BuyNow">12 days left | Buy now<span>
+	        			<span class="dp-BuyNow">12 days left | Buy now</span>
 	        		</span>
 	        	</span>
         	</li>

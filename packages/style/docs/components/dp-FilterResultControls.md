@@ -27,7 +27,7 @@ title: FilterResultControls
 
     <li class="dp-FilterControlsItem">
         <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-            <input type="checkbox" class="dp-ControlInput" id="customCheckbox13">
+            <input type="checkbox" class="dp-ControlInput" id="customCheckbox13"></input>
             <label for="customCheckbox13"></label>
         </span>
     </li>

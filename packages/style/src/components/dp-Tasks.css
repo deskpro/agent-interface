@@ -26,6 +26,19 @@
   color: #a9b0b0;
 }
 
+.dp-Tasks{
+  background: #fff;
+  position: absolute;
+  top: calc(100% + 5px);
+  left: 0;
+  z-index: 9;
+  display: none;
+}
+
+.dp-Tasks.is-active{
+  display: block;
+}
+
 .dp-Tasks .dp-ActionsItem {
   align-items: center;
   cursor: pointer;
@@ -47,9 +60,15 @@
   border-radius: 0;
 }
 
-.dp-Tasks .dp-Arrow::after {
+.dp-Tasks .dp-FilterResultList .dp-Arrow::after {
   border-width: 2px 2px 0 2px;
+  border-color: #000 transparent transparent transparent;
   right: 8px;
+}
+
+.dp-Tasks .dp-MenuBarItem .dp-Arrow::after{
+  border-width: 4px 4px 0 4px;
+  border-color: #000 transparent transparent transparent;
 }
 
 .dp-Tasks .dp-FilterResultList {
@@ -97,26 +116,4 @@
 
 .dp-Tasks.dp-MenuBarIcon .dp-MenuBarList.is-active + .dp-TasksWrap {
   display: block;
-}
-
-.dp-MenuBarList.is-active .dp-Title {
-  color: #3a8dde;
-}
-
-.dp-Tasks .is-active .dp-Arrow::after {
-  border-color: transparent transparent #3a8dde transparent;
-  border-width: 0 2px 2px 2px;
-}
-
-.dp-MenuBarList.is-active .dp-Icon {
-  background-color: #318cdd;
-  border: 1px solid #318cdd;
-}
-
-.dp-MenuBarList.is-active .dp-iconCharger, .dp-MenuBarList .dp-iconChargerWhite {
-  display: none;
-}
-
-.dp-MenuBarList.is-active .dp-iconChargerWhite, .dp-MenuBarList .dp-iconCharger {
-  display: inline-block;
 }

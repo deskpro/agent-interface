@@ -1,5 +1,104 @@
-.dp-UserOverlay {
-  display: block;
+.dp-UserContainer {
+	display: flex;
+}
+
+.dp-UserTitleInfo {
+	max-width: 162px;
+	border: 2px solid #dcdedf;
+	border-bottom: 0;
+	padding: 5px 5px 10px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
+.dp-UserOverlay .dp-UserTitleInfo .dp-Avatar {
+	background-size: 10px 10px;
+	height: 10px;
+	width: 10px;
+	min-width: 15px;
+}
+
+.dp-UserTitleInfo .dp-IconAvatar {
+	max-width: 10px;
+}
+
+.dp-UserNameId {
+	display: flex;
+	flex-direction: column;
+}
+
+.dp-UserTitleInfo .dp-UserName, .dp-UserTitleInfo .dp-UserId {
+	font-size: 10px;
+}
+
+.dp-UserTitleInfo .dp-UserId {
+	color: #707576;
+}
+
+.dp-UserOverlay .dp-UserTitleInfo .dp-UserInfo {
+	align-items: flex-start;
+}
+
+.dp-LeftSidebar {
+	list-style: none;
+	padding: 0;
+	width: 50px;
+	background-color: #f7f6f6;
+	border: 2px solid #dcdedf;
+	border-right: 0;
+}
+
+.dp-UserOverlay .dp-Icon {
+	cursor: pointer;
+}
+
+.dp-LeftSidebar .dp-Icon {
+	background-size: 25px 25px;
+	width: 25px;
+	height: 45px;
+	min-height: 35px;
+	width: 100%;
+}
+
+.dp-LeftSidebar .dp-iconArrowRight {
+  border-bottom: 2px solid #dcdedf;
+  position: relative;
+}
+
+.dp-LeftSidebar .dp-IconJira {
+  border-top: 2px solid #dcdedf;
+}
+
+.dp-LeftSidebar .dp-IconSalesforce {
+  border-bottom: 2px solid #dcdedf;
+  border-top: 2px solid #dcdedf;
+}
+
+.dp-iconArrowRight:before, .dp-iconArrowRight:after {
+	background-color: #aebeca;
+	content: "";
+	height: 12px;
+	position: absolute;
+	top: 12px;
+	left: 20px;
+	width: 2px;
+}
+
+.dp-iconArrowRight::before {
+  transform: rotate(-45deg);
+}
+
+.dp-iconArrowRight:after {
+	transform: rotate(45deg);
+	top: 20px;
+}
+
+.dp-OverlayContent {
+  border: 2px solid #dcdedf;
+  padding: 10px;
 }
 
 .dp-UserOverlay .dp-Avatar {
@@ -16,8 +115,9 @@
 }
 
 .dp-UserOverlay .dp-UserInfo {
-  align-items: center;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .dp-UserOverlay .dp-InfoItem {
@@ -28,7 +128,34 @@
   align-items: center;
   color: #808080;
   display: flex;
+  margin-bottom: 20px;
+  margin-top: 10px;
   text-transform: uppercase;
+}
+
+.dp-Files {
+  align-items: center;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.dp-Files .dp-LabelItem {
+  margin-left: 10px;
+}
+
+.dp-UserOverlay .dp-LabelItem {
+  margin-right: 10px;
+}
+
+.dp-OverlayContent .dp-UserName {
+	font-size: 14px;
+	color: #4c4f50;
+}
+
+.dp-UserOverlay .dp-IconCloseGrey, .dp-UserOverlay .dp-IconUserArrow {
+	background-size: 10px 10px;
+	height: 10px;
+	width: 10px;
 }
 
 .dp-UserOverlay .dp-IconPlusAdd, .dp-UserOverlay .dp-IconCloseBlue {
@@ -37,12 +164,172 @@
   width: 20px;
 }
 
+.dp-UserOverlay .dp-IconCloud {
+  background-size: 25px 25px;
+  height: 25px;
+  width: 25px;
+}
+
 .dp-UserOverlay .dp-IconCloseBlue {
   border-left: 1px solid #a9b0b0;
   cursor: pointer;
   padding-left: 30px;
 }
 
-.dp-UserOverlay {
-  color: inherit;
+.dp-UserOverlay .dp-MenuBarList {
+  border-bottom: 2px solid #dcdedf;
+  padding-bottom: 10px;
+}
+
+.dp-UserOverlay .dp-TabContainer {
+  margin-top: 15px;
+}
+
+.dp-UserOverlay .dp-TabItem {
+  border-right: 0;
+}
+
+.dp-TabItem:last-child {
+  border: 2px solid #d9dbdc;
+}
+
+.dp-TabItem.is-active:last-child {
+  border: 0;
+}
+
+.dp-TicketsInfo {
+  display: block;
+  list-style: none;
+  margin: 10px 0;
+  padding: 0;
+}
+
+.dp-TicketsInfo .dp-TicketsInfoItem.dp-TicketsInfoTitle {
+	border-radius: 5px;
+	padding: 3px 0;
+	background-color: #f2f2f2;
+	color: #4d4d4d;
+}
+
+.dp-TicketsInfo .dp-TicketsOpen {
+	display: none;
+}
+
+.dp-TicketsInfo .dp-TicketsInfoTitle.is-active + .dp-TicketsOpen {
+	display: block;
+}
+
+.dp-TicketsInfoTitle.is-active .dp-MenuBarItem .dp-Arrow:after {
+	border-color: transparent transparent #cecece transparent;
+	border-width: 0 3px 3px 3px;
+}
+
+.dp-TicketsInfoTitle .dp-MenuBarItem .dp-Arrow:after {
+	border-color: #cecece transparent transparent transparent;
+	border-width: 3px 3px 0 3px;
+}
+
+.dp-TicketsInfo .dp-TicketsInfoTitle .dp-idItem {
+  padding-left: 10px;
+}
+
+.dp-TicketsInfo .dp-TicketsInfoTitle .dp-StatusItem {
+  padding-right: 10px;
+}
+
+.dp-TicketsInfo .dp-TicketsInfoTitle .dp-SubjectItem {
+  font-size: 10px;
+}
+
+.dp-TicketsInfo .dp-TicketsInfoItem {
+  border-bottom: 1px solid #ededed;
+  display: flex;
+  font-size: 10px;
+  padding: 5px 0;
+}
+
+.dp-TicketsInfo .dp-idItem {
+  max-width: 15%;
+  width: 100%;
+}
+
+.dp-TicketsInfo .dp-SubjectItem {
+  font-size: 12px;
+  max-width: 55%;
+  width: 100%;
+}
+
+.dp-TicketsInfo .dp-StatusItem {
+  align-items: center;
+  display: flex;
+  font-size: 10px;
+  justify-content: flex-end;
+  max-width: 30%;
+  text-align: right;
+  width: 100%;
+}
+
+.dp-StatusItem .dp-qt {
+  align-items: center;
+  border: 1px solid #fbb03b;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  line-height: 1.5;
+  margin-left: 5px;
+  max-height: 18px;
+  width: 17px;
+}
+
+.dp-TicketsOpen {
+  padding: 0;
+}
+
+.dp-Green {
+  color: #57ce6b;
+}
+
+.dp-Orange {
+  color: #fbb03b;
+}
+
+.dp-UserOverlay .dp-IconDelete {
+  background-size: 15px 15px;
+  height: 15px;
+  margin-left: 5px;
+  width: 15px;
+}
+
+.dp-UserOverlay .dp-MessageContainer.dp-ColorContainer .dp-txt {
+  max-width: 100%;
+}
+
+.dp-UserOverlay .dp-TicketMessage {
+  margin-bottom: 15px;
+}
+
+.dp-FilesList .dp-FilesInfo:first-child {
+  border-top: 1px solid #ededed;
+}
+
+.dp-FilesInfo {
+  align-items: center;
+  border-bottom: 1px solid #ededed;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.dp-LeftInfo {
+  display: flex;
+  justify-content: space-between;
+  max-width: 155px;
+  width: 100%;
+}
+
+.dp-RightInfo {
+  display: flex;
+  justify-content: space-between;
+  max-width: 70px;
+  width: 100%;
 }

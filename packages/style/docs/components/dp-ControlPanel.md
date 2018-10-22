@@ -17,11 +17,11 @@ title: ControlPanel
             </li>
             <li class="dp-MenuBarItem">
                 <span class="dp-Icon dp-Avatar">
-                    <img src="/agent-interface/style/img/docs/avatar.png" class="dp-IconAvatar" alt="">
+                    <img src="/agent-interface/style/img/docs/avatar.png" class="dp-IconAvatar" alt=""></img>
                 </span>
                 <span class="dp-Arrow"></span>
             </li>
-            <li class="dp-MenuBarItem">
+            <li class="dp-MenuBarItem dp-DropMenuJs">
                 <span class="dp-Icon dp-IconPlane dp-ActionDropDown"></span>
                 <span class="dp-Arrow"></span>
             </li>

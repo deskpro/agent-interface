@@ -13,7 +13,7 @@ title: FilterResult
         <li class="dp-FilterResultItem">
             <span class="dp-ItemRow">
                 <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox12">
+                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox12"></input>
                     <label for="customCheckbox12">Inventory component</label>
                 </span>
                 <span class="dp-IconGroup">
@@ -59,7 +59,7 @@ title: FilterResult
         <li class="dp-FilterResultItem is-active">
             <span class="dp-ItemRow">
                 <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox1">
+                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox1"></input>
                     <label for="customCheckbox1">SSO Information</label>
                     <span class="dp-Icon dp-iconStar"></span>
                 </span>
@@ -84,7 +84,7 @@ title: FilterResult
         <li class="dp-FilterResultItem">
             <span class="dp-ItemRow">
                 <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox2">
+                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox2"></input>
                     <label for="customCheckbox2">Portal disabled landing message</label>
                 </span>
                 <span class="dp-IconGroup">
@@ -107,7 +107,7 @@ title: FilterResult
         <li class="dp-FilterResultItem">
             <span class="dp-ItemRow">
                 <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox3">
+                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox3"></input>
                     <label for="customCheckbox3">Inventory component</label>
                     <span class="dp-Icon dp-iconStarGreen"></span>
                 </span>
@@ -131,7 +131,7 @@ title: FilterResult
         <li class="dp-FilterResultItem">
             <span class="dp-ItemRow">
                 <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox4">
+                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox4"></input>
                     <label for="customCheckbox4">Allow anyone to email support</label>
                 </span>
                 <span class="dp-IconGroup">
@@ -154,7 +154,7 @@ title: FilterResult
         <li class="dp-FilterResultItem">
             <span class="dp-ItemRow">
                 <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox5">
+                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox5"></input>
                     <label for="customCheckbox5">AW: Need some help?</label>
                 </span>
                 <span class="dp-IconGroup">
@@ -179,7 +179,7 @@ title: FilterResult
         <li class="dp-FilterResultItem">
             <span class="dp-ItemRow">
                 <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox6">
+                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox6"></input>
                     <label for="customCheckbox6">SSO working well with Safari and IE Lorem ipsum</label>
                 </span>
                 <span class="dp-IconGroup">
@@ -203,7 +203,7 @@ title: FilterResult
         <li class="dp-FilterResultItem">
             <span class="dp-ItemRow">
                 <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox7">
+                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox7"></input>
                     <label for="customCheckbox7">Enjoying your helpdesk?</label>
                     <span class="dp-Icon dp-iconStar"></span>
                 </span>
@@ -229,7 +229,7 @@ title: FilterResult
         <li class="dp-FilterResultItem">
             <span class="dp-ItemRow">
                 <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox8">
+                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox8"></input>
                     <label for="customCheckbox8">Product enquiry</label>
                 </span>
                 <span class="dp-IconGroup">
@@ -257,7 +257,7 @@ title: FilterResult
         <li class="dp-FilterResultItem">
             <span class="dp-ItemRow">
                 <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox9">
+                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox9"></input>
                     <label for="customCheckbox9">Inventory component</label>
                     <span class="dp-Icon dp-iconStarGreen"></span>
                 </span>
@@ -286,7 +286,7 @@ title: FilterResult
         <li class="dp-FilterResultItem">
             <span class="dp-ItemRow">
                 <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox10">
+                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox10"></input>
                     <label for="customCheckbox10">Enjoying your helpdesk?</label>
                     <span class="dp-Icon dp-iconStar"></span>
                 </span>
@@ -315,7 +315,7 @@ title: FilterResult
         <li class="dp-FilterResultItem">
             <span class="dp-ItemRow">
                 <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox11">
+                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox11"></input>
                     <label for="customCheckbox11">Inventory component</label>
                     <span class="dp-Icon dp-iconStarGreen"></span>
                 </span>

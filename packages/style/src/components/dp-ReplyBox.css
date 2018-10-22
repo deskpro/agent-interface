@@ -26,6 +26,8 @@
 .dp-ReplyEditor {
   display: block;
   min-height: 100px;
+  padding: 10px;
+  width: 100%;
 }
 
 .dp-ReplyBox .dp-Arrow::after {

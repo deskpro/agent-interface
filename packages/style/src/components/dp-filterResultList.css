@@ -67,7 +67,8 @@
   padding-left: 25px;
   text-overflow: ellipsis;
   white-space: nowrap;
-  width: calc(100% - 100px);
+  width: calc(100% - 70px);
+
 }
 
 .dp-FilterResultItem .dp-iconUserAvatar {
@@ -107,7 +108,7 @@
 }
 
 .dp-FilterResultItem .dp-iconLock {
-  background-size: 18px 18px;
+  background-size: 15px 15px;
   border-radius: 0;
 }
 
@@ -117,8 +118,11 @@
 }
 
 .dp-FilterResultItem .dp-UserName {
-  color: #4c4f50;
-  font-size: 13px;
+	color: #4c4f50;
+	font-size: 13px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
 }
 
 .dp-FilterResultItem .dp-UserEmail {

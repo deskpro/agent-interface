@@ -20,7 +20,8 @@
       "components/dp-Sso",
       "components/dp-YourAccount",
       "components/dp-Tasks",
-      "components/dp-UserOverlay"
+      "components/dp-UserOverlay",
+      "components/dp-TagBar"
     ],
     "Elements": [
       "elements/dp-Button",

@@ -2,8 +2,21 @@
   display: flex;
 }
 
+.dp-Template .dp-SidebarRow {
+  padding-bottom: 100px;
+}
+
+.dp-TemplateMainContentLeft {
+  background-color: #f7f7f7;
+}
+
+.dp-TemplateMainContentLeft .dp-Tickets,
+.dp-TemplateMainContentLeft .dp-FilterResultList {
+  background-color: #fff;
+}
+
 .dp-TemplateLeftCol {
-  flex: 0 0 43px;
+  flex: 0 0 45px;
 }
 
 .dp-TemplateMainColl {
@@ -34,8 +47,34 @@
 
 .dp-TemplateMainContentLeft {
   flex: 0 0 435px;
+  position: relative;
+  overflow: hidden;
 }
 
 .dp-TemplateMainContentRight {
   flex: 0 1 100%;
+}
+
+.dp-TemplateMainBarContainer {
+  display: block;
+  padding: 3px 10px;
+  position: relative;
+}
+
+.dp-TemplateMainBarContainer .dp-ContextMenu {
+  left: 10px;
+}
+
+.dp-TemplateInnerContent {
+  display: flex;
+  flex: 1 1 100%;
+}
+
+.dp-TemplateInnerContentLeft {
+  flex: 0 0 234px;
+}
+
+.dp-TemplateInnerContentRight {
+  flex: 0 1 100%;
+  margin: 0 0 0 10px;
 }

@@ -108,7 +108,7 @@ title: PageSidebar
 
                     <div class="dp-SectionBody-item">
                         <p class="dp-title-item">
-                            <img src="/agent-interface/style/img/docs/avatar.png" alt="" class="dp-Icon dp-Avatar">
+                            <img src="/agent-interface/style/img/docs/avatar.png" alt="" class="dp-Icon dp-Avatar"></img>
                             Zack Prudent
                         </p>
 
@@ -185,7 +185,7 @@ title: PageSidebar
                     <div class="dp-SectionBody">
                         <!-- buttons -->
                         <div class="dp-ButtonWrapper">
-                            <button class="dp-ActionButton dp-BorderPink" type="button">
+                            <button class="dp-ActionButton dp-BorderPink ActionButton--large" type="button">
                                 Awaiting Agent
                             </button>
                             <button class="dp-ActionButton dp-BorderPink dp-Pink" type="button">

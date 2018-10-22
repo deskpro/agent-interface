@@ -4,11 +4,14 @@
   flex-wrap: wrap;
   list-style-type: none;
   padding: 0;
+  margin: 8px 12px;
+  position: relative;
 }
 
 .dp-MenuBarItem {
-  padding-right: 15px;
+  margin-right: 15px;
   position: relative;
+  cursor: pointer;
 }
 
 .dp-MenuBarItem .dp-iconCharger {
@@ -30,6 +33,7 @@
 .dp-MenuBarItem .dp-Icon {
   background-size: 15px 15px;
   border-radius: 50%;
+  cursor: pointer;
   display: inline-block;
   height: 24px;
   position: relative;
@@ -43,10 +47,6 @@
   font-size: 10px;
   letter-spacing: -0.5px;
   padding: 3px;
-
-  /*  position: absolute;
-  right: -7px;
-  top: -7px; */
 }
 
 .dp-MenuBarItem .dp-Badge.dp-red {
@@ -153,4 +153,9 @@
 .dp-MenuBarItem.dp-blueColor.is-active .dp-Arrow::after {
   border-color: #318cdd transparent transparent transparent;
   transform: rotate(180deg);
+}
+
+.dp-MenuBarItem.is-active .dp-Arrow::after {
+  border-width: 4px 4px 0 4px;
+  border-color: #318cdd transparent transparent transparent;
 }

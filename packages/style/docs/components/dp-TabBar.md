@@ -13,7 +13,7 @@ title: TabBar
             </span>
             <span class="dp-Flex">
                 <span class="dp-Icon dp-Avatar">
-                    <img src="/agent-interface/style/img/docs/avatar.png" class="dp-IconAvatar" alt="">
+                    <img src="/agent-interface/style/img/docs/avatar.png" class="dp-IconAvatar" alt=""></img>
                 </span>
                <span class="dp-Subtitle">James Colbert</span>
             </span>
@@ -40,7 +40,7 @@ title: TabBar
         </span>
         <span class="dp-Flex">
             <span class="dp-Icon dp-Avatar">
-                <img src="/agent-interface/style/img/docs/avatar.png" class="dp-IconAvatar" alt="">
+                <img src="/agent-interface/style/img/docs/avatar.png" class="dp-IconAvatar" alt=""></img>
             </span>
             <span class="dp-Subtitle">James Colbert</span>
         </span>
@@ -55,7 +55,7 @@ title: TabBar
         </span>
         <span class="dp-Flex">
             <span class="dp-Icon dp-Avatar">
-                <img src="/agent-interface/style/img/docs/avatar.png" class="dp-IconAvatar" alt="">
+                <img src="/agent-interface/style/img/docs/avatar.png" class="dp-IconAvatar" alt=""></img>
             </span>
            <span class="dp-Subtitle">Zack Prudent</span>
         </span>
