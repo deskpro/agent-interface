@@ -47,8 +47,8 @@
 
 .dp-TemplateMainContentLeft {
   flex: 0 0 435px;
-  position: relative;
   overflow: hidden;
+  position: relative;
 }
 
 .dp-TemplateMainContentRight {

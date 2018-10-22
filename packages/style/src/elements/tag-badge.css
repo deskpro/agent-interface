@@ -12,7 +12,7 @@
   padding: 3px 5px;
   position: relative;
   vertical-align: middle;
-  
+
   &:hover { background: var(--gray-100); }
 
   &.Tag--white {
@@ -86,22 +86,22 @@
 
 }
 
-.dp-Tag.dp-TagPlus{
+.dp-Tag.dp-TagPlus {
+  padding: 9px 9px;
   position: relative;
   vertical-align: middle;
-  padding: 9px 9px;
 }
 
-.dp-Tag.dp-TagPlus::before,.dp-Tag.dp-TagPlus::after{
-  content: '';
-  position: absolute;
+.dp-Tag.dp-TagPlus::before,.dp-Tag.dp-TagPlus::after {
+  background-color: #4e4d4d;
+  bottom: 0;
+  content: "";
+  height: 1px;
   left: 0;
+  margin: auto;
+  position: absolute;
   right: 0;
   top: 0;
-  bottom: 0;
-  margin: auto;
-  background-color: #4e4d4d;
-  height: 1px;
   width: 9px;
 }
 

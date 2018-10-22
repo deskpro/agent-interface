@@ -1,66 +1,66 @@
 .dp-UserContainer {
-	display: flex;
+  display: flex;
 }
 
 .dp-UserTitleInfo {
-	max-width: 162px;
-	border: 2px solid #dcdedf;
-	border-bottom: 0;
-	padding: 5px 5px 10px;
-	border-top-left-radius: 5px;
-	border-top-right-radius: 5px;
-	display: flex;
-	align-items: flex-start;
-	justify-content: space-between;
+  align-items: flex-start;
+  border: 2px solid #dcdedf;
+  border-bottom: 0;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 162px;
+  padding: 5px 5px 10px;
 }
 
 .dp-UserOverlay .dp-UserTitleInfo .dp-Avatar {
-	background-size: 10px 10px;
-	height: 10px;
-	width: 10px;
-	min-width: 15px;
+  background-size: 10px 10px;
+  height: 10px;
+  min-width: 15px;
+  width: 10px;
 }
 
 .dp-UserTitleInfo .dp-IconAvatar {
-	max-width: 10px;
+  max-width: 10px;
 }
 
 .dp-UserNameId {
-	display: flex;
-	flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .dp-UserTitleInfo .dp-UserName, .dp-UserTitleInfo .dp-UserId {
-	font-size: 10px;
+  font-size: 10px;
 }
 
 .dp-UserTitleInfo .dp-UserId {
-	color: #707576;
+  color: #707576;
 }
 
 .dp-UserOverlay .dp-UserTitleInfo .dp-UserInfo {
-	align-items: flex-start;
+  align-items: flex-start;
 }
 
 .dp-LeftSidebar {
-	list-style: none;
-	padding: 0;
-	width: 50px;
-	background-color: #f7f6f6;
-	border: 2px solid #dcdedf;
-	border-right: 0;
+  background-color: #f7f6f6;
+  border: 2px solid #dcdedf;
+  border-right: 0;
+  list-style: none;
+  padding: 0;
+  width: 50px;
 }
 
 .dp-UserOverlay .dp-Icon {
-	cursor: pointer;
+  cursor: pointer;
 }
 
 .dp-LeftSidebar .dp-Icon {
-	background-size: 25px 25px;
-	width: 25px;
-	height: 45px;
-	min-height: 35px;
-	width: 100%;
+  background-size: 25px 25px;
+  height: 45px;
+  min-height: 35px;
+  width: 25px;
+  width: 100%;
 }
 
 .dp-LeftSidebar .dp-iconArrowRight {
@@ -77,23 +77,23 @@
   border-top: 2px solid #dcdedf;
 }
 
-.dp-iconArrowRight:before, .dp-iconArrowRight:after {
-	background-color: #aebeca;
-	content: "";
-	height: 12px;
-	position: absolute;
-	top: 12px;
-	left: 20px;
-	width: 2px;
+.dp-iconArrowRight::before, .dp-iconArrowRight::after {
+  background-color: #aebeca;
+  content: "";
+  height: 12px;
+  left: 20px;
+  position: absolute;
+  top: 12px;
+  width: 2px;
 }
 
 .dp-iconArrowRight::before {
   transform: rotate(-45deg);
 }
 
-.dp-iconArrowRight:after {
-	transform: rotate(45deg);
-	top: 20px;
+.dp-iconArrowRight::after {
+  top: 20px;
+  transform: rotate(45deg);
 }
 
 .dp-OverlayContent {
@@ -115,8 +115,8 @@
 }
 
 .dp-UserOverlay .dp-UserInfo {
-  display: flex;
   align-items: center;
+  display: flex;
   justify-content: space-between;
 }
 
@@ -148,14 +148,14 @@
 }
 
 .dp-OverlayContent .dp-UserName {
-	font-size: 14px;
-	color: #4c4f50;
+  color: #4c4f50;
+  font-size: 14px;
 }
 
 .dp-UserOverlay .dp-IconCloseGrey, .dp-UserOverlay .dp-IconUserArrow {
-	background-size: 10px 10px;
-	height: 10px;
-	width: 10px;
+  background-size: 10px 10px;
+  height: 10px;
+  width: 10px;
 }
 
 .dp-UserOverlay .dp-IconPlusAdd, .dp-UserOverlay .dp-IconCloseBlue {
@@ -205,28 +205,28 @@
 }
 
 .dp-TicketsInfo .dp-TicketsInfoItem.dp-TicketsInfoTitle {
-	border-radius: 5px;
-	padding: 3px 0;
-	background-color: #f2f2f2;
-	color: #4d4d4d;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  color: #4d4d4d;
+  padding: 3px 0;
 }
 
 .dp-TicketsInfo .dp-TicketsOpen {
-	display: none;
+  display: none;
 }
 
 .dp-TicketsInfo .dp-TicketsInfoTitle.is-active + .dp-TicketsOpen {
-	display: block;
+  display: block;
 }
 
-.dp-TicketsInfoTitle.is-active .dp-MenuBarItem .dp-Arrow:after {
-	border-color: transparent transparent #cecece transparent;
-	border-width: 0 3px 3px 3px;
+.dp-TicketsInfoTitle.is-active .dp-MenuBarItem .dp-Arrow::after {
+  border-color: transparent transparent #cecece transparent;
+  border-width: 0 3px 3px 3px;
 }
 
-.dp-TicketsInfoTitle .dp-MenuBarItem .dp-Arrow:after {
-	border-color: #cecece transparent transparent transparent;
-	border-width: 3px 3px 0 3px;
+.dp-TicketsInfoTitle .dp-MenuBarItem .dp-Arrow::after {
+  border-color: #cecece transparent transparent transparent;
+  border-width: 3px 3px 0 3px;
 }
 
 .dp-TicketsInfo .dp-TicketsInfoTitle .dp-idItem {

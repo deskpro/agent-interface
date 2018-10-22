@@ -1,6 +1,6 @@
 .dp-YourAccount {
-  font-size: 12px;
   display: none;
+  font-size: 12px;
 }
 
 .dp-YourAccount.is-active {
@@ -32,13 +32,13 @@
 }
 
 .dp-YourAccount .dp-AccountWrap {
+  background: #fff;
   border: 2px solid #318cdd;
   border-radius: 5px;
   min-width: 229px;
-  background: #fff;
   position: absolute;
-  top: 100%;
   right: 0;
+  top: 100%;
   z-index: 99;
 }
 

@@ -118,11 +118,11 @@
 }
 
 .dp-FilterResultItem .dp-UserName {
-	color: #4c4f50;
-	font-size: 13px;
-	overflow: hidden;
-	text-overflow: ellipsis;
-	white-space: nowrap;
+  color: #4c4f50;
+  font-size: 13px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .dp-FilterResultItem .dp-UserEmail {

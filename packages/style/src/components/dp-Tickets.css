@@ -22,7 +22,7 @@
   width: 18px;
 }
 
-.dp-Tickets .dp-TitleName{
+.dp-Tickets .dp-TitleName {
   cursor: pointer;
 }
 
@@ -68,6 +68,7 @@
   background-color: #f7f7f7;
   box-shadow: 10px 0 20px -10px rgba(0, 0, 0, 0.2);
   display: block;
+  display: none;
   height: 100%;
   left: 0;
   max-width: 243px;
@@ -75,10 +76,9 @@
   top: 46px;
   width: 100%;
   z-index: 9;
-  display: none;
 }
 
-.dp-TicketMenu.is-active{
+.dp-TicketMenu.is-active {
   display: block;
 }
 
@@ -104,9 +104,9 @@
   font-size: 12px;
   font-weight: 700;
   justify-content: space-between;
+  margin: 0;
   padding: 10px;
   text-transform: uppercase;
-  margin: 0;
 }
 
 .dp-TicketMenuItem .dp-Arrow::after {
@@ -130,7 +130,7 @@
 }
 
 .dp-Tickets .dp-SubMenu a,
-.dp-TicketMenu .dp-SubMenu a{
+.dp-TicketMenu .dp-SubMenu a {
   border-radius: 5px;
   color: #707576;
   cursor: pointer;
@@ -175,7 +175,7 @@
   display: none;
 }
 
-.dp-dropdownContainer .dp-TicketMenu.is-active{
+.dp-dropdownContainer .dp-TicketMenu.is-active {
   display: block;
 }
 

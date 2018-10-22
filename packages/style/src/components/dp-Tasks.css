@@ -26,16 +26,16 @@
   color: #a9b0b0;
 }
 
-.dp-Tasks{
+.dp-Tasks {
   background: #fff;
+  display: none;
+  left: 0;
   position: absolute;
   top: calc(100% + 5px);
-  left: 0;
   z-index: 9;
-  display: none;
 }
 
-.dp-Tasks.is-active{
+.dp-Tasks.is-active {
   display: block;
 }
 
@@ -61,14 +61,14 @@
 }
 
 .dp-Tasks .dp-FilterResultList .dp-Arrow::after {
-  border-width: 2px 2px 0 2px;
   border-color: #000 transparent transparent transparent;
+  border-width: 2px 2px 0 2px;
   right: 8px;
 }
 
-.dp-Tasks .dp-MenuBarItem .dp-Arrow::after{
-  border-width: 4px 4px 0 4px;
+.dp-Tasks .dp-MenuBarItem .dp-Arrow::after {
   border-color: #000 transparent transparent transparent;
+  border-width: 4px 4px 0 4px;
 }
 
 .dp-Tasks .dp-FilterResultList {

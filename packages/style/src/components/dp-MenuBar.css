@@ -3,15 +3,15 @@
   display: flex;
   flex-wrap: wrap;
   list-style-type: none;
-  padding: 0;
   margin: 8px 12px;
+  padding: 0;
   position: relative;
 }
 
 .dp-MenuBarItem {
+  cursor: pointer;
   margin-right: 15px;
   position: relative;
-  cursor: pointer;
 }
 
 .dp-MenuBarItem .dp-iconCharger {
@@ -156,6 +156,6 @@
 }
 
 .dp-MenuBarItem.is-active .dp-Arrow::after {
-  border-width: 4px 4px 0 4px;
   border-color: #318cdd transparent transparent transparent;
+  border-width: 4px 4px 0 4px;
 }
