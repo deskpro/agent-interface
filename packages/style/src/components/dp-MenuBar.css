@@ -6,6 +6,7 @@
   margin: 8px 12px;
   padding: 0;
   position: relative;
+  color: inherit;
 }
 
 .dp-MenuBarItem {
