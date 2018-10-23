@@ -1,5 +1,4 @@
 $(document).ready(function(){
-	console.log("TEXT")
 
 	$(document).on("click", ".dp-IconPanelList .dp-DropMenuJs", function(){
 		$(this).find('.dp-YourAccount').toggleClass('is-active');

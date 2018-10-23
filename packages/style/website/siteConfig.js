@@ -31,7 +31,7 @@ const siteConfig = {
     theme: 'vs2015',
   },
 
-  scripts: ['https://buttons.github.io/buttons.js', '/agent-interface/style/js/code-collapsed-toggle.js', 'http://code.jquery.com/jquery.js', '/agent-interface/style/js/demoscript.js'],
+  scripts: ['https://buttons.github.io/buttons.js', '/agent-interface/style/js/code-collapsed-toggle.js', '/agent-interface/style/js/jquery.js', '/agent-interface/style/js/demoscript.js'],
 
   onPageNav: 'separate',
 
