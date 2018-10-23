@@ -41,6 +41,7 @@
 
   --text-color: var(--black);
 
+  --dark-red: #cc3a4a;
   --color-primary: var(--blue);
   --color-secondary: var(--gray-400);
   --color-success: var(--green);

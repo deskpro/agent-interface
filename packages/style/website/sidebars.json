@@ -27,6 +27,29 @@
       "elements/dp-Button",
       "elements/dp-Input",
       "elements/dp-TagBadge"
+    ],
+    "Apps-components": [
+      "components/apps/dpApps-Level",
+      "components/apps/dpApps-ButtonTabs",
+      "components/apps/dpApps-AppBar",
+      "components/apps/dpApps-ActionList",
+      "components/apps/dpApps-AppBody",
+      "components/apps/dpApps-AppFrame",
+      "components/apps/dpApps-AppPanel",
+      "components/apps/dpApps-ListItem",
+      "components/apps/dpApps-Scrollable",
+      "components/apps/dpApps-ActionPanel",
+      "components/apps/dpApps-TabSwitcher",
+      "components/apps/dpApps-DataTable",
+      "components/apps/dpApps-DataDefList",
+      "components/apps/dpApps-Panel"
+    ],
+    "Apps-elements": [
+      "elements/apps/dpApps-Button",
+      "elements/apps/dpApps-Forms",
+      "elements/apps/dpApps-Content",
+      "elements/apps/dpApps-Title",
+      "elements/apps/dpApps-Icons"
     ]
   }
 }
