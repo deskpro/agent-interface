@@ -19,5 +19,10 @@ $(document).ready(function(){
 		$(this).closest('.dp-MenuBarList').find('.dp-Tasks').toggleClass('is-active');
 		$(this).toggleClass('is-active');
 	});
+
+
+	$(document).on("click", ".dp-UserOverlay .dp-DropMenuJs", function(){
+		$('.dp-OverlayWrapp').toggleClass('is-active');
+	});
 	
 })

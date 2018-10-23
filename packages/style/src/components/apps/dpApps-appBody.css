@@ -100,10 +100,10 @@
   display: none;
   position: absolute;
   right: 0;
-  text-align: left;
   top: calc(var(--height-icon) + 3px);
   width: 110px;
   z-index: 1;
+  text-align: left;
 }
 
 .dpApps-AppBodyItem:hover .dpApps-AppBodySetting,

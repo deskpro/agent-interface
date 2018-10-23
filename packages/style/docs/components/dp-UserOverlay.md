@@ -4,12 +4,9 @@ title: User Overlay
 
 ```html @preview
 <div class="dp-UserOverlay">
-
 	<div class="dp-OverlayWrapp">
-
 		<div class="dp-UserContainer dp-UserTitleInfo">
 			<div class="dp-UserInfo">
-			<!-- <div class=""> -->
 				<span class="dp-Icon dp-Avatar">
 					<img src="/agent-interface/style/img/docs/avatar.png" class="dp-IconAvatar" alt=""></img>
 				</span>
@@ -22,22 +19,17 @@ title: User Overlay
 				<span class="dp-Icon dp-IconUserArrow"></span>
 				<span class="dp-Icon dp-IconCloseGrey"></span>
 			</div>
-			<!-- </div> -->
 		</div>
-
-		<div class="dp-UserContainer">
-
+		<div class="dp-UserContainer dp-BrandsInfo">
 			<ul class="dp-LeftSidebar">
-				<li><span class="dp-Icon dp-iconArrowRight"></span></li>
-				<li><span class="dp-Icon dp-IconTrello"></li>
-				<li><span class="dp-Icon dp-IconYoutrack"></li>
-				<li><span class="dp-Icon dp-IconMailchimp"></li>
-				<li><span class="dp-Icon dp-IconJira"></li>
-				<li><span class="dp-Icon dp-IconSalesforce"></li>
+				<li><span class="dp-Icon dp-iconArrowRight dp-DropMenuJs"></span></li>
+				<li><span class="dp-Icon dp-IconTrello"></span></li>
+				<li><span class="dp-Icon dp-IconYoutrack"></span></li>
+				<li><span class="dp-Icon dp-IconMailchimp"></span></li>
+				<li><span class="dp-Icon dp-IconJira"></span></li>
+				<li><span class="dp-Icon dp-IconSalesforce"></span></li>
 			</ul>
-
 			<div class="dp-OverlayContent">
-
 				<div class="dp-TitleRow">
 					<span class="dp-UserInfo">
 						<span class="dp-Icon dp-Avatar dp-InfoItem">
@@ -47,15 +39,13 @@ title: User Overlay
 						<span class="dp-InfoItem dp-UserName">Zack Prudent</span>
 					</span>
 
-					<span><span class="dp-Icon dp-IconCloseBlue"></span>
+					<span><span class="dp-Icon dp-IconCloseBlue dp-DropMenuJs"></span>
 			    </div>
-
 				<div class="dp-Label">
-					<span class="dp-LabelItem dp-LabelTitle">Labels:</span>
-					<span class="dp-LabelItem dp-Tag Tag--close Tag--purple">Vip<span class="dp-iconClose"></span></span>
-					<span class="dp-LabelItem dp-Icon dp-IconPlusAdd"></span>
+					<div class="dp-LabelItem dp-LabelTitle">Labels:</div>
+					<div class="dp-LabelItem dp-Tag Tag--close Tag--purple">Vip<span class="dp-iconClose"></span></div>
+					<div class="dp-LabelItem dp-Icon dp-IconPlusAdd"></div>
 				</div>
-
 				<ul class="dp-MenuBarList">
 					<li class="dp-MenuBarItem">
 						<span class="dp-Icon dp-IconCloud"></span>
@@ -70,7 +60,6 @@ title: User Overlay
 						<span class="dp-Title">License<span class="dp-Arrow"></span></span>
 					</li>
 				</ul>
-
 				<div class="dp-TabContainer">
 					<div class="dp-Tabs">
 						<ul class="dp-TabItesm">
@@ -81,8 +70,6 @@ title: User Overlay
 						</ul>
 					</div>
 				</div>
-
-				<!--  -->
 				<ul class="dp-TicketsInfo">
 					<li class="dp-TicketsInfoItem dp-TicketsInfoTitle is-active">
 						<span class="dp-idItem">ID</span>
@@ -134,12 +121,9 @@ title: User Overlay
 						</ul>
 					</li>
 				</ul>
-				
 				<div class="dp-Files">
 					Notes<span class="dp-LabelItem dp-Icon dp-IconPlusAdd"></span>
 				</div>
-
-				<!--  -->
 				<div class="dp-TicketMessage">
 					<div class="dp-MessageContainer dp-ColorContainer">
 						<div class="dp-MessageHeader">
@@ -168,7 +152,6 @@ title: User Overlay
 						</div>
 					</div>
 				</div>
-
 				<div class="dp-TicketMessage">
 					<div class="dp-MessageContainer dp-ColorContainer">
 						<div class="dp-MessageHeader">
@@ -197,11 +180,9 @@ title: User Overlay
 						</div>
 					</div>
 				</div>
-
 				<div class="dp-Files">
 					Files<span class="dp-LabelItem dp-Icon dp-IconPlusAdd"></span>
 				</div>
-
 				<div class="dp-FilesList">
 					<div class="dp-FilesInfo">
 						<div class="dp-LeftInfo">
@@ -224,12 +205,8 @@ title: User Overlay
 						</div>
 					</div>
 				</div>
-
 			</div>
-
 		</div>
-
-	</div> <!-- wrparrer -->
-
+	</div>
 </div>
 ```

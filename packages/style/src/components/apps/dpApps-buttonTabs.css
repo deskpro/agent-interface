@@ -10,7 +10,6 @@
 .dpApps-ButtonTabs {
   align-items: center;
   background-color: transparent;
-  border: 0;
   display: flex;
   flex: 0 0 39px;
   height: 39px;
@@ -18,6 +17,7 @@
   position: relative;
   transition: all var(--animation-speed);
   width: 39px;
+  border: 0;
 
   &::after {
     background-color: var(--blue);

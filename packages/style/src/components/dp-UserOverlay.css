@@ -1,5 +1,31 @@
+.dp-OverlayWrapp {
+    position: absolute;
+    background-color: #fff;
+    z-index: 10;
+    display: block;
+    right: -850px;
+    top: 46px;
+    height: 100%;
+}
+
+.dp-OverlayWrapp .dp-UserTitleInfo {
+    display: none;
+}
+
+.dp-OverlayWrapp .dp-UserTitleInfo {
+    display: block;
+}
+
+.dp-OverlayWrapp.is-active {
+    right: 0;
+}
+
 .dp-UserContainer {
   display: flex;
+}
+
+.dp-UserContainer.dp-BrandsInfo {
+    height: 100%;
 }
 
 .dp-UserTitleInfo {
@@ -81,19 +107,27 @@
   background-color: #aebeca;
   content: "";
   height: 12px;
-  left: 20px;
+  left: 22px;
   position: absolute;
   top: 12px;
   width: 2px;
 }
 
 .dp-iconArrowRight::before {
-  transform: rotate(-45deg);
+  transform: rotate(45deg);
 }
 
 .dp-iconArrowRight::after {
   top: 20px;
-  transform: rotate(45deg);
+  transform: rotate(-45deg);
+}
+
+.dp-OverlayWrapp.is-active .dp-iconArrowRight::before {
+    transform: rotate(-45deg);
+}
+.dp-OverlayWrapp.is-active .dp-iconArrowRight::after {
+    top: 20px;
+    transform: rotate(45deg);
 }
 
 .dp-OverlayContent {
@@ -333,3 +367,10 @@
   max-width: 70px;
   width: 100%;
 }
+
+
+.dp-TemplateMainContentRight {
+    position: relative;
+    overflow: hidden;
+}
+
