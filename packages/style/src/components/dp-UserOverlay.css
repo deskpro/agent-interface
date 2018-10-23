@@ -1,23 +1,23 @@
 .dp-OverlayWrapp {
-    position: absolute;
-    background-color: #fff;
-    z-index: 10;
-    display: block;
-    right: -850px;
-    top: 46px;
-    height: 100%;
+  background-color: #fff;
+  display: block;
+  height: 100%;
+  position: absolute;
+  right: -850px;
+  top: 46px;
+  z-index: 10;
 }
 
 .dp-OverlayWrapp .dp-UserTitleInfo {
-    display: none;
+  display: none;
 }
 
 .dp-OverlayWrapp .dp-UserTitleInfo {
-    display: block;
+  display: block;
 }
 
 .dp-OverlayWrapp.is-active {
-    right: 0;
+  right: 0;
 }
 
 .dp-UserContainer {
@@ -25,7 +25,7 @@
 }
 
 .dp-UserContainer.dp-BrandsInfo {
-    height: 100%;
+  height: 100%;
 }
 
 .dp-UserTitleInfo {
@@ -123,11 +123,12 @@
 }
 
 .dp-OverlayWrapp.is-active .dp-iconArrowRight::before {
-    transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
+
 .dp-OverlayWrapp.is-active .dp-iconArrowRight::after {
-    top: 20px;
-    transform: rotate(45deg);
+  top: 20px;
+  transform: rotate(45deg);
 }
 
 .dp-OverlayContent {
@@ -368,9 +369,7 @@
   width: 100%;
 }
 
-
 .dp-TemplateMainContentRight {
-    position: relative;
-    overflow: hidden;
+  overflow: hidden;
+  position: relative;
 }
-

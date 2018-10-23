@@ -1,12 +1,12 @@
 .dp-MenuBarList {
   align-items: center;
+  color: inherit;
   display: flex;
   flex-wrap: wrap;
   list-style-type: none;
   margin: 8px 12px;
   padding: 0;
   position: relative;
-  color: inherit;
 }
 
 .dp-MenuBarItem {
