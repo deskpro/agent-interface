@@ -53,6 +53,7 @@
 
 .dp-TemplateMainContentRight {
   flex: 0 1 100%;
+  position: relative;
 }
 
 .dp-TemplateMainBarContainer {
@@ -77,4 +78,84 @@
 .dp-TemplateInnerContentRight {
   flex: 0 1 100%;
   margin: 0 0 0 10px;
+}
+
+.dp-TemplateInnerContent {
+  padding-right: 60px;
+}
+
+.dp-Template .dp-OverlayWrapp .dpApps-AppPanel {
+  display: none;
+  left: 0;
+  position: absolute;
+  top: 43px;
+  z-index: 1;
+}
+
+.dp-Template .dpApps-AppPanel {
+  height: 100%;
+}
+
+.dp-Template .dp-OverlayWrapp .dpApps-AppPanel.is-active {
+  display: block;
+}
+
+.dp-Template .dp-OverlayWrapp {
+  display: block;
+  display: none;
+  left: 20px;
+  max-width: 460px;
+  position: absolute;
+  top: 98px;
+  z-index: 10;
+}
+
+.dp-Template .dp-OverlayWrapp.is-active {
+  display: block;
+}
+
+.dp-Template .dp-TemplateMainContentRight .dp-LeftSidebar {
+  border-right: 0;
+  border-top: 0;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 46px;
+}
+
+.dp-Template .dp-TemplateMainContentRight .dpApps-AppPanel {
+  position: absolute;
+  right: -100%;
+  top: 0;
+}
+
+.dp-Template .dp-TemplateMainContentRight .dpApps-AppPanel.is-active {
+  border-top: 0;
+  right: 0;
+  top: 46px;
+}
+
+.iconArrow--left {
+  transform: rotate(90deg);
+}
+
+.iconArrow--right {
+  transform: rotate(-90deg);
+}
+
+.dp-TemplateInnerContentLeft {
+  position: relative;
+}
+
+.dp-TemplateInnerContentLeft .dp-PageSidebar.dp-UserActivSidebar {
+  display: none;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.dp-TemplateInnerContentLeft .dp-PageSidebar.dp-UserActivSidebar.is-active {
+  display: block;
 }

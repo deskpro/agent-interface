@@ -20,8 +20,27 @@ $(document).ready(function(){
 	});
 
 
-	$(document).on("click", ".dp-UserOverlay .dp-DropMenuJs", function(){
+
+	$(document).on("click", ".dp-SidebarWrapper .dp-SectionBody-item.dp-DropMenuJs", function(){
 		$('.dp-OverlayWrapp').toggleClass('is-active');
+	});
+
+	$(document).on("click", ".dp-OverlayWrapp .dp-IconCloseBlue.dp-DropMenuJs", function(){
+		$('.dp-OverlayWrapp').removeClass('is-active');
+	});
+
+
+	$(document).on("click", ".dp-Template .dp-OverlayWrapp .ButtonTabs-arrow.dp-DropMenuJs", function(){
+		$('.dp-Template .dp-OverlayWrapp .dpApps-AppPanel').toggleClass('is-active');
+	});
+
+	$(document).on("click", ".dp-TemplateMainContentRight .ButtonTabs-arrow", function(){
+		$('.dp-TemplateMainContentRight .dpApps-AppPanel').toggleClass('is-active');
+	});
+
+
+	$(document).on("click", ".dp-SidebarWrapper .dp-SectionBody-item.dp-DropMenuJs", function(){
+		$('.dp-TemplateInnerContentLeft .dp-PageSidebar.dp-UserActivSidebar').toggleClass('is-active');
 	});
 	
 })

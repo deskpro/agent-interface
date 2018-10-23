@@ -3,26 +3,43 @@ title: User Overlay
 ---
 
 ```html @preview
+<ul class="dp-LeftSidebar">
+	<!-- <li><span class="dp-Icon dp-iconArrowRight"></span></li> -->
+	<li><button class="dpApps-ButtonTabs ButtonTabs-arrow"><i class="dpApps-IconArrow"></i></button></li>
+	<li><span class="dp-Icon dp-IconTrello"></span></li>
+	<li><span class="dp-Icon dp-IconYoutrack"></span></li>
+	<li><span class="dp-Icon dp-IconMailchimp"></span></li>
+	<li><span class="dp-Icon dp-IconJira"></span></li>
+	<li><span class="dp-Icon dp-IconSalesforce"></span></li>
+</ul>
+```
+
+```html @preview
 <div class="dp-UserOverlay">
 	<div class="dp-OverlayWrapp">
 		<div class="dp-UserContainer dp-UserTitleInfo">
-			<div class="dp-UserInfo">
-				<span class="dp-Icon dp-Avatar">
-					<img src="/agent-interface/style/img/docs/avatar.png" class="dp-IconAvatar" alt=""></img>
-				</span>
-				<span class="dp-UserNameId">
-					<span class="dp-UserName"> Zack Prudent </span>
-					<span class="dp-UserId"> #83995 </span>
-				</span>
+
+			<div class="dp-UserTabName">
+				<div class="dp-UserInfo">
+					<span class="dp-Icon dp-Avatar">
+						<img src="/agent-interface/style/img/docs/avatar.png" class="dp-IconAvatar" alt=""></img>
+					</span>
+					<span class="dp-UserNameId">
+						<span class="dp-UserName"> Zack Prudent </span>
+						<span class="dp-UserId"> #83995 </span>
+					</span>
+				</div>
+				<div>
+					<span class="dp-Icon dp-IconUserArrow"></span>
+					<span class="dp-Icon dp-IconCloseGrey"></span>
+				</div>
 			</div>
-			<div>
-				<span class="dp-Icon dp-IconUserArrow"></span>
-				<span class="dp-Icon dp-IconCloseGrey"></span>
-			</div>
+
 		</div>
 		<div class="dp-UserContainer dp-BrandsInfo">
 			<ul class="dp-LeftSidebar">
-				<li><span class="dp-Icon dp-iconArrowRight dp-DropMenuJs"></span></li>
+				<!-- <li><span class="dp-Icon dp-iconArrowRight"></span></li> -->
+				<li><button class="dpApps-ButtonTabs ButtonTabs-arrow right-arrow"><i class="dpApps-IconArrow"></i></button></li>
 				<li><span class="dp-Icon dp-IconTrello"></span></li>
 				<li><span class="dp-Icon dp-IconYoutrack"></span></li>
 				<li><span class="dp-Icon dp-IconMailchimp"></span></li>
@@ -39,7 +56,7 @@ title: User Overlay
 						<span class="dp-InfoItem dp-UserName">Zack Prudent</span>
 					</span>
 
-					<span><span class="dp-Icon dp-IconCloseBlue dp-DropMenuJs"></span>
+					<span><span class="dp-Icon dp-IconCloseBlue"></span>
 			    </div>
 				<div class="dp-Label">
 					<div class="dp-LabelItem dp-LabelTitle">Labels:</div>

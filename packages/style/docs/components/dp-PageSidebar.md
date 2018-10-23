@@ -289,3 +289,91 @@ title: PageSidebar
 
 </div>
 ```
+
+<h2>Active PageSidebarList</h2>
+
+```html @preview
+<div class="dp-PageSidebar dp-UserActivSidebar">
+
+    <div class="dp-PageWrapper">
+
+        <div class="dp-SidebarTabs">
+            <ul class="dp-SidebarTabsList">
+                <li class="dp-SidebarTab-item "><a href="#" class="dp-Icon dp-iconSettingBlue"></a></li>
+                <li class="dp-SidebarTab-item is-active"><a href="#" class="dp-Icon dp-iconUserWhite"></a></li>
+                <li class="dp-SidebarTab-item "><a href="#" class="dp-Icon dp-iconBuildingBlue"></a></li>
+            </ul>
+        </div>
+
+        <div class="dp-SidebarWrapper">
+            <div class="dp-SidebarRow">
+
+                <div class="dp-SidebarSection dp-SectionControls">
+                    <div class="dp-SectionTitle">
+                        <div class="dp-TitleControls dp-Slas">User contact information</div>
+                        <span class="dp-LineTitle"></span>
+                        <a href="#" class="dp-Controls">
+                            <i class="dp-Icon dp-DotsIcon"></i>
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="dp-SectionBody-item dp-DropMenuJs">
+                    <p class="dp-title-item">
+                        <img src="/agent-interface/style/img/docs/avatar.png" alt="" class="dp-Icon dp-Avatar"></img>
+                        Zack Prudent
+                    </p>
+
+                    <p class="dp-Email"><a href="mailto:zack.prudent@techcompany.com">zack.prudent@techcompany.com</a></p>
+                    <p class="dp-Phone">
+                        <i class="dp-Icon dp-iconPhoneBlue"></i><a href="tel:+442035678940" >+44 20 356 789 40</a>
+                    </p>
+                    <p class="dp-OpenResolved">
+                        <span class="dp-open"><i class="dp-Icon dp-iconEmailBlue"></i> Open: 7</span>
+                        <span class="dp-resolved"><i class="dp-Icon dp-iconEmail"></i> Resolved: 24</span>
+                    </p>
+                </div>
+
+                <dl class="dp-AddressList">
+                    <dt class="dp-TitleList">Website</dt>
+                    <dd class="dp-SubTitleList">www.techcompany.com</dd>
+
+                    <dt class="dp-TitleList">Address</dt>
+                    <dd class="dp-SubTitleList address">
+                        Tech Company Ltd<br></br>
+                        14 Cloud Street<br></br>
+                        London<br></br>
+                        SE1 ONG<br></br>
+                        England
+                    </dd>
+
+                    <dt class="dp-TitleList">IM</dt>
+                    <dd class="dp-SubTitleList"> - </dd>
+
+                    <dt class="dp-TitleList">Facebook</dt>
+                    <dd class="dp-SubTitleList"> - </dd>
+
+                    <dt class="dp-TitleList">Twitter</dt>
+                    <dd class="dp-SubTitleList"> - </dd>
+
+                    <dt class="dp-TitleList">LinkedIn</dt>
+                    <dd class="dp-SubTitleList"> - </dd>                       
+                </dl>
+
+                <div class="dp-SidebarSection dp-SectionControls">
+                    <div class="dp-SectionTitle">
+                        <div class="dp-TitleControls dp-Slas">Properties</div>
+                        <span class="dp-LineTitle"></span>
+                        <a href="#" class="dp-Controls">
+                            <i class="dp-Icon dp-DotsIcon"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+```

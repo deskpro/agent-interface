@@ -1,44 +1,39 @@
 .dp-OverlayWrapp {
-  background-color: #fff;
   display: block;
-  height: 100%;
-  position: absolute;
-  right: -850px;
-  top: 46px;
-  z-index: 10;
 }
 
-.dp-OverlayWrapp .dp-UserTitleInfo {
-  display: none;
-}
-
-.dp-OverlayWrapp .dp-UserTitleInfo {
-  display: block;
-  display: flex;
-}
-
+/*
 .dp-OverlayWrapp.is-active {
-  right: 0;
-}
+  display: block;
+} */
 
 .dp-UserContainer {
   display: flex;
 }
 
 .dp-UserContainer.dp-BrandsInfo {
+  background: #fff;
+  border: 2px solid #318cdd;
+  border-top: 0;
   height: 100%;
 }
 
-.dp-UserTitleInfo {
-  align-items: flex-start;
-  border: 2px solid #dcdedf;
-  border-bottom: 0;
+.dp-UserContainer.dp-UserTitleInfo {
+  border-bottom: 2px solid #318cdd;
+}
+
+.dp-UserTabName {
+  background-color: #fff;
+  border: 2px solid #318cdd;
+  border-bottom: 2px solid #dcdedf;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   display: flex;
   justify-content: space-between;
+  margin-bottom: -2px;
   max-width: 162px;
   padding: 5px 5px 10px;
+  width: 100%;
 }
 
 .dp-UserOverlay .dp-UserTitleInfo .dp-Avatar {
@@ -71,11 +66,12 @@
 
 .dp-LeftSidebar {
   background-color: #f7f6f6;
-  border: 2px solid #dcdedf;
-  border-right: 0;
+  border: 1px solid #cecece;
+  display: block;
   list-style: none;
+  max-width: 45px;
   padding: 0;
-  width: 50px;
+  width: 100%;
 }
 
 .dp-UserOverlay .dp-Icon {
@@ -90,11 +86,6 @@
   width: 100%;
 }
 
-.dp-LeftSidebar .dp-iconArrowRight {
-  border-bottom: 2px solid #dcdedf;
-  position: relative;
-}
-
 .dp-LeftSidebar .dp-IconJira {
   border-top: 2px solid #dcdedf;
 }
@@ -104,36 +95,12 @@
   border-top: 2px solid #dcdedf;
 }
 
-.dp-iconArrowRight::before, .dp-iconArrowRight::after {
-  background-color: #aebeca;
-  content: "";
-  height: 12px;
-  left: 22px;
-  position: absolute;
-  top: 12px;
-  width: 2px;
-}
-
-.dp-iconArrowRight::before {
-  transform: rotate(45deg);
-}
-
-.dp-iconArrowRight::after {
-  top: 20px;
-  transform: rotate(-45deg);
-}
-
-.dp-OverlayWrapp.is-active .dp-iconArrowRight::before {
-  transform: rotate(-45deg);
-}
-
-.dp-OverlayWrapp.is-active .dp-iconArrowRight::after {
-  top: 20px;
-  transform: rotate(45deg);
+.dp-LeftSidebar .ButtonTabs-arrow {
+  border-bottom: 2px solid #dcdedf;
+  width: 100%;
 }
 
 .dp-OverlayContent {
-  border: 2px solid #dcdedf;
   padding: 10px;
 }
 
@@ -370,7 +337,30 @@
   width: 100%;
 }
 
-.dp-TemplateMainContentRight {
-  overflow: hidden;
-  position: relative;
+.dp-OverlayWrapp .dp-LeftSidebar {
+  border-left: 0;
 }
+
+.dp-OverlayWrapp .dp-LeftSidebar {
+  border-top: 0;
+}
+
+/* .dp-TemplateInnerContent {
+  padding-right: 60px;
+}
+
+.dp-OverlayWrapp .dpApps-IconArrow {
+  transform: rotate(90deg);
+}
+
+.dp-OverlayWrapp .dpApps-AppPanel {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.dp-OverlayWrapp .dpApps-AppPanel.is-active {
+  display: block;
+} */

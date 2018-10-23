@@ -11,6 +11,13 @@
 
 .dp-PageSidebar .dp-SidebarWrapper {
   border: 2px solid #e1e3e4;
+  border-left: 0;
+  border-top: none;
+}
+
+.dp-PageSidebar.dp-UserActivSidebar .dp-SidebarWrapper {
+  border: 2px solid #318cdd;
+  border-left: 0;
   border-top: none;
 }
 
@@ -26,7 +33,7 @@
   width: 19px;
 }
 
-.dp-PageSidebar .dp-iconUserBlue {
+.dp-PageSidebar .dp-iconUserBlue, .dp-PageSidebar .dp-iconUserWhite {
   background-size: 17px 17px;
   height: 17px;
   width: 17px;
@@ -45,6 +52,12 @@
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.dp-PageSidebar.dp-UserActivSidebar .dp-SidebarTabsList {
+  border: 2px solid #318cdd;
+  border-bottom: 2px solid #e1e3e4;
+  border-left: 0;
 }
 
 .dp-PageSidebar .dp-SidebarTab-item {
@@ -72,6 +85,11 @@
   left: 0;
   position: absolute;
   width: 100%;
+}
+
+.dp-PageSidebar.dp-UserActivSidebar .dp-SidebarTab-item.is-active {
+  background-color: #318cdd;
+  border: 0;
 }
 
 .dp-PageSidebar .dp-SectionTitle {
@@ -145,10 +163,11 @@
   width: 17px;
 }
 
-.dp-PageSidebar .dp-SectionBody-item {
+.dp-SectionBody-item {
   background-color: #fff;
   border: 2px solid #e1e3e4;
   border-radius: 5px;
+  display: block;
   margin: 0 0 10px;
   padding: 5px 10px;
 }
@@ -281,10 +300,25 @@
   text-transform: uppercase;
 }
 
-.dp-PageSidebar .dp-TicketList .dp-SubTitleList {
+.dp-PageSidebar .dp-SubTitleList {
   color: #4c4f50;
   display: flex;
   font-size: 12px;
+}
+
+/* .dp-PageSidebar .dp-SubTitleList.address {
+  line-height: .7;
+  margin-top: 5px;
+} */
+
+.dp-AddressList .dp-TitleList {
+  color: #8c9395;
+  font-size: 10px;
+}
+
+.dp-AddressList .dp-SubTitleList {
+  color: #4c4f50;
+  font-size: 10px;
 }
 
 .dp-PageSidebar .dp-iconCalendar {

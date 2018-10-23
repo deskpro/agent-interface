@@ -70,6 +70,403 @@ class Demo extends React.Component {
     let language = this.props.language || '';
     return (
     <div class="dp-Template">
+
+        <div class="dp-UserOverlay">
+            <div class="dp-OverlayWrapp">
+                <div class="dp-UserContainer dp-UserTitleInfo">
+                    <div class="dp-UserTabName">
+                        <div class="dp-UserInfo">
+                            <span class="dp-Icon dp-Avatar">
+                                <img src="/agent-interface/style/img/docs/avatar.png" class="dp-IconAvatar" alt=""></img>
+                            </span>
+                            <span class="dp-UserNameId">
+                                <span class="dp-UserName"> Zack Prudent </span>
+                                <span class="dp-UserId"> #83995 </span>
+                            </span>
+                        </div>
+                        <div>
+                            <span class="dp-Icon dp-IconUserArrow"></span>
+                            <span class="dp-Icon dp-IconCloseGrey"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="dp-UserContainer dp-BrandsInfo">
+
+
+
+                    <div class="dpApps-AppPanel">
+                      <div class="dpApps-AppTabs is-horizontal">
+                        <div class="dpApps-ButtonTabs--wrap">
+                          <button class="dpApps-ButtonTabs is-selected">
+                            <span class="dpApps-IconHamburger"></span>
+                          </button>
+                          <button class="dpApps-ButtonTabs">
+                            <img class="dpApps-ButtonsImg" src="/agent-interface/style/img/docs/jira-logo.svg" alt=""></img>
+                          </button>
+                        </div>
+                        <button class="dpApps-ButtonTabs ButtonTabs-arrow">
+                          <button class="dpApps-ButtonTabs ButtonTabs-arrow dp-DropMenuJs"><i class="dpApps-IconArrow iconArrow--left"></i></button>
+                        </button>
+                      </div>
+                      <div class="dpApps-AppPanelBody">
+                        <div class="dpApps-AppFrame">
+                          <div class="dpApps-AppBar dpApps-Level">
+                            <div class="dpApps-LevelLeft">
+                              <div class="dpApps-AppBarIcon-wrap">
+                                <div class="dpApps-Icon">
+                                  <img src="/agent-interface/style/img/docs/trello-logo.svg" alt=""></img>
+                                </div>
+                              </div>
+                              <span class="dpApps-Title">Trello</span>
+                            </div>
+                            <div class="dpApps-LevelRight">
+                              <a href="" class="dpApps-ActionListIcon dpApps-Icon">
+                                <img class="dpApps-AppBarIcon" src="/agent-interface/style/img/docs/refresh-icon.jpg" alt=""></img>
+                              </a>
+                              <a href="" class="dpApps-ActionListIcon">
+                                <i class="dpApps-IconArrow iconArrow--top"></i>
+                              </a>
+                            </div>
+                          </div>
+                          <section class="dpApps-AppBody dpApps-Section">
+                            <div class="dpApps-Level">
+                              <div class="dpApps-LevelLeft">
+                                <span class="dpApps-AppBodyTitle">Linked cards</span>
+                              </div>
+                              <div class="dpApps-ActionList dpApps-LevelRight">
+                                <a href="" class="dpApps-ActionListItem">
+                                  <i class="dpApps-IconSearch"></i>
+                                  <span class="dpApps-ActionListLabel">Find</span>
+                                </a>
+                                <a href="" class="dpApps-ActionListItem">
+                                  <i class="dpApps-IconPlus"></i>
+                                  <span class="dpApps-ActionListLabel">Create</span>
+                                </a>
+                              </div>
+                            </div>
+                            <div class="dpApps-AppBodyItem">
+                              <div class="dpApps-AppBodyItemRow dpApps-AppBodyItemRow--spaceBottom">
+                                <i class="dpApps-Icon">
+                                  <img src="/agent-interface/style/img/docs/trello-logo.svg" alt=""></img>
+                                </i>
+                                <span class="dpApps-LevelItemTitle">Blog calender</span>
+                                <div class="dpApps-AppBodySetting">
+                                  <i class="dpApps-IconSettings"></i>
+                                  <div class="dpApps-AppSettingDropdown">
+                                    <div class="dpApps-AppSettingItem">
+                                      <i class="dpApps-IconOpen"></i>
+                                      <span class="dpApps-AppSettingItem--text">Open</span>
+                                    </div>
+                                    <div class="dpApps-AppSettingItem">
+                                      <i class="dpApps-IconUnlink"></i>
+                                      <span class="dpApps-AppSettingItem--text">Unlink</span>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="dpApps-AppBodyItemRow dpApps-Level">
+                                <div class="dpApps-AppBodyContent dpApps-LevelLeft">
+                                  <span>In Planning</span><span class="dpApps-AppBodySeparator"> | </span><span>Linked 12/06/2018</span>
+                                </div>
+                                <div class="dpApps-LevelRight">
+                                  <i class="dpApps-Icon dpApps-Icon--Round">
+                                    <img src="/agent-interface/style/img/docs/AppBodyIcon.jpg" alt=""></img>
+                                  </i>
+                                </div>
+                              </div>
+                            </div>
+
+                          </section>
+                        </div>
+
+                        <div class="dpApps-AppFrame">
+                          <div class="dpApps-AppBar dpApps-Level">
+                            <div class="dpApps-LevelLeft">
+                              <div class="dpApps-AppBarIcon-wrap">
+                                <div class="dpApps-Icon">
+                                  <img src="/agent-interface/style/img/docs/youtrack-logo.svg" alt=""></img>
+                                </div>
+
+                              </div>
+                              <span class="dpApps-Title">You Track</span>
+                            </div>
+                            <div class="dpApps-LevelRight">
+                              <a href="" class="dpApps-ActionListIcon dpApps-Icon">
+                                <img class="dpApps-AppBarIcon" src="/agent-interface/style/img/docs/refresh-icon.jpg" alt=""></img>
+                              </a>
+                              <a href="" class="dpApps-ActionListIcon">
+                                <i class="dpApps-IconArrow iconArrow--top"></i>
+                              </a>
+                            </div>
+                          </div>
+                          
+                        </div>
+
+                        <div class="dpApps-AppFrame is-colapsed">
+                          <div class="dpApps-AppBar dpApps-Level">
+                            <div class="dpApps-LevelLeft">
+                              <div class="dpApps-AppBarIcon-wrap">
+                                <div class="dpApps-Icon">
+                                  <img src="/agent-interface/style/img/docs/mailchimp-logo.svg" alt=""></img>
+                                </div>
+                              </div>
+                              <span class="dpApps-Title">Mailchimp</span>
+                            </div>
+                            <div class="dpApps-LevelRight">
+                              <a href="" class="dpApps-ActionListIcon dpApps-Icon">
+                                <img class="dpApps-AppBarIcon" src="/agent-interface/style/img/docs/refresh-icon.jpg" alt=""></img>
+                              </a>
+                              <a href="" class="dpApps-ActionListIcon">
+                                <i class="dpApps-IconArrow iconArrow--top"></i>
+                              </a>
+                            </div>
+                          </div>
+                          <section class="dpApps-AppBody dpApps-Section">
+                            <div class="dpApps-Level">
+                              <div class="dpApps-LevelLeft">
+                                <span class="dpApps-AppBodyTitle">Linked issues</span>
+                              </div>
+                              <div class="dpApps-ActionList dpApps-LevelRight">
+                                <a href="" class="dpApps-ActionListItem">
+                                  <i class="dpApps-IconSearch"></i>
+                                  <span class="dpApps-ActionListLabel">Find</span>
+                                </a>
+                                <a href="" class="dpApps-ActionListItem">
+                                  <i class="dpApps-IconPlus"></i>
+                                  <span class="dpApps-ActionListLabel">Create</span>
+                                </a>
+                              </div>
+                            </div>
+                            <div class="dpApps-AppBodyItem">
+                              <div class="dpApps-AppBodyItemRow dpApps-AppBodyItemRow--spaceBottom">
+                                <i class="dpApps-Icon">
+                                  <img src="/agent-interface/style/img/docs/mailchimp-logo.svg" alt=""></img>
+                                </i>
+                                <span class="dpApps-LevelItemTitle">#dpApps-1170-symfony 4/p lorem ipsum</span>
+                              </div>
+                              <div class="dpApps-AppBodyItemRow dpApps-Level">
+                                <div class="dpApps-AppBodyContent dpApps-LevelLeft">
+                                  <span>Linked 12/06/2018</span>
+                                </div>
+                                <div class="dpApps-LevelRight">
+                                  <i class="dpApps-Icon dpApps-Icon--Round">
+                                    <img src="/agent-interface/style/img/docs/AppBodyIcon.jpg" alt=""></img>
+                                  </i>
+                                </div>
+                              </div>
+                            </div>
+                          </section>
+                        </div>
+
+                        <div class="dpApps-AddApp">
+                          <div class="dpApps-Level">
+                            <a href="" class="dpApps-LevelLeft">
+                              <i class="dpApps-IconPlus"></i>
+                              <span class="dpApps-AddApp-text">Add an app</span>
+                            </a>
+                            <a href="" class="dpApps-LevelRight">
+                              <i class="dpApps-IconClose"></i>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+
+
+
+
+
+                    <ul class="dp-LeftSidebar">
+                        <li><button class="dpApps-ButtonTabs ButtonTabs-arrow dp-DropMenuJs"><i class="dpApps-IconArrow iconArrow--right"></i></button></li>
+                        <li><span class="dp-Icon dp-IconTrello"></span></li>
+                        <li><span class="dp-Icon dp-IconYoutrack"></span></li>
+                        <li><span class="dp-Icon dp-IconMailchimp"></span></li>
+                        <li><span class="dp-Icon dp-IconJira"></span></li>
+                        <li><span class="dp-Icon dp-IconSalesforce"></span></li>
+                    </ul>
+                    <div class="dp-OverlayContent">
+                        <div class="dp-TitleRow">
+                            <span class="dp-UserInfo">
+                                <span class="dp-Icon dp-Avatar dp-InfoItem">
+                                    <img src="/agent-interface/style/img/docs/avatar.png" class="dp-IconAvatar" alt=""></img>
+                                </span>
+                                <span class="dp-InfoItem dp-Tag">#83995</span>
+                                <span class="dp-InfoItem dp-UserName">Zack Prudent</span>
+                            </span>
+
+                            <span><span class="dp-Icon dp-IconCloseBlue dp-DropMenuJs"></span></span>
+                        </div>
+                        <div class="dp-Label">
+                            <div class="dp-LabelItem dp-LabelTitle">Labels:</div>
+                            <div class="dp-LabelItem dp-Tag Tag--close Tag--purple">Vip<span class="dp-iconClose"></span></div>
+                            <div class="dp-LabelItem dp-Icon dp-IconPlusAdd"></div>
+                        </div>
+                        <ul class="dp-MenuBarList">
+                            <li class="dp-MenuBarItem">
+                                <span class="dp-Icon dp-IconCloud"></span>
+                                <span class="dp-Title">Cloud<span class="dp-Arrow"></span></span>
+                            </li>
+                            <li class="dp-MenuBarItem dp-redLightColor">
+                                <span class="dp-Icon dp-iconNote"></span>
+                                <span class="dp-Title">Billing<span class="dp-Arrow"></span></span>
+                            </li>
+                            <li class="dp-MenuBarItem dp-greenColor">
+                                <span class="dp-Icon dp-iconNoteGreen"></span>
+                                <span class="dp-Title">License<span class="dp-Arrow"></span></span>
+                            </li>
+                        </ul>
+                        <div class="dp-TabContainer">
+                            <div class="dp-Tabs">
+                                <ul class="dp-TabItesm">
+                                    <li class="dp-TabItem is-active"> Tickets </li>
+                                    <li class="dp-TabItem"> Activity stream </li>
+                                    <li class="dp-TabItem"> User groups </li>
+                                    <li class="dp-TabItem"> Brands </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <ul class="dp-TicketsInfo">
+                            <li class="dp-TicketsInfoItem dp-TicketsInfoTitle is-active">
+                                <span class="dp-idItem">ID</span>
+                                <span class="dp-SubjectItem">SUBJECT</span>
+                                <span class="dp-StatusItem dp-MenuBarItem">STATUS & URGENCY<span class="dp-Arrow"></span></span>
+                            </li>
+                            <li class="dp-TicketsOpen">
+                                <ul>
+                                    <li class="dp-TicketsInfoItem">
+                                        <span class="dp-idItem">#83995</span>
+                                        <span class="dp-SubjectItem">New agent questions</span>
+                                        <span class="dp-StatusItem dp-Orange">Awaiting agent <span class="dp-qt">4</span><span class="dp-Badge Badge--empty"></span></span>
+                                    </li>
+                                    <li class="dp-TicketsInfoItem">
+                                        <span class="dp-idItem">#74562</span>
+                                        <span class="dp-SubjectItem">Translations</span>
+                                        <span class="dp-StatusItem dp-Green">Awaiting user<span class="dp-Badge Badge--empty"></span></span>
+                                    </li>
+                                    <li class="dp-TicketsInfoItem">
+                                        <span class="dp-idItem">#63331</span>
+                                        <span class="dp-SubjectItem">ASP Licensing</span>
+                                        <span class="dp-StatusItem dp-Green">Awaiting user<span class="dp-Badge Badge--empty"></span></span>
+                                    </li>
+                                    <li class="dp-TicketsInfoItem">
+                                        <span class="dp-idItem">#83995</span>
+                                        <span class="dp-SubjectItem">Ver5 Upgrade</span>
+                                        <span class="dp-StatusItem dp-Green">Awaiting user<span class="dp-Badge Badge--empty"></span></span>
+                                    </li>
+                                    <li class="dp-TicketsInfoItem">
+                                        <span class="dp-idItem">#74562</span>
+                                        <span class="dp-SubjectItem">Your Plan</span>
+                                        <span class="dp-StatusItem dp-Green">Awaiting user<span class="dp-Badge Badge--empty"></span></span>
+                                    </li>
+                                    <li class="dp-TicketsInfoItem">
+                                        <span class="dp-idItem">#63331</span>
+                                        <span class="dp-SubjectItem">New feature idea</span>
+                                        <span class="dp-StatusItem dp-Green">Resolve</span>
+                                    </li>
+                                    <li class="dp-TicketsInfoItem">
+                                        <span class="dp-idItem">#83995</span>
+                                        <span class="dp-SubjectItem">Issue creating multiple tickets</span>
+                                        <span class="dp-StatusItem dp-Green">Awaiting user<span class="dp-Badge Badge--empty"></span></span>
+                                    </li>
+                                    <li class="dp-TicketsInfoItem">
+                                        <span class="dp-idItem">#74562</span>
+                                        <span class="dp-SubjectItem">FW: DeskPRO error</span>
+                                        <span class="dp-StatusItem dp-Green">Awaiting user<span class="dp-Badge Badge--empty"></span></span>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <div class="dp-Files">
+                            Notes<span class="dp-LabelItem dp-Icon dp-IconPlusAdd"></span>
+                        </div>
+                        <div class="dp-TicketMessage">
+                            <div class="dp-MessageContainer dp-ColorContainer">
+                                <div class="dp-MessageHeader">
+                                    <div class="dp-Left">
+                                        <div class="dp-title-item dp-optical">
+
+                                            <div class="dp-UserAvatarName">
+                                                <span class="dp-Badge Badge--empty dp-DarkBadge"></span>
+                                                <span>Harry Krimbo</span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="dp-Right">
+                                        <div class="dp-Time">03/11/2016 at 09.58am</div>
+                                        <a href="#" class="dp-Icon dp-IconDelete"></a>
+                                    </div>
+                                </div>
+                                <div class="dp-MessageTitle">
+                                    <p class="dp-Type dp-Orange"></p>
+                                </div>
+                                <div class="dp-MessageBody">
+                                    <div class="Content">
+                                        <p class="dp-txt">Zack recently had some trouble setting up one of his email address. He was quite frustrated so I suggested he call us next time if he is having problems.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dp-TicketMessage">
+                            <div class="dp-MessageContainer dp-ColorContainer">
+                                <div class="dp-MessageHeader">
+                                    <div class="dp-Left">
+                                        <div class="dp-title-item dp-optical">
+
+                                            <div class="dp-UserAvatarName">
+                                                <span class="dp-Badge Badge--empty dp-DarkBadge"></span>
+                                                <span>Chris Padfield</span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="dp-Right">
+                                        <div class="dp-Time">03/11/2016 at 09.58am</div>
+                                        <a href="#" class="dp-Icon dp-IconDelete"></a>
+                                    </div>
+                                </div>
+                                <div class="dp-MessageTitle">
+                                    <p class="dp-Type dp-Orange"></p>
+                                </div>
+                                <div class="dp-MessageBody">
+                                    <div class="Content">
+                                        <p class="dp-txt">I think Tech Company are planning to add several more agents in the new year, it’s probably worth reaching out to Zack closer to the time.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dp-Files">
+                            Files<span class="dp-LabelItem dp-Icon dp-IconPlusAdd"></span>
+                        </div>
+                        <div class="dp-FilesList">
+                            <div class="dp-FilesInfo">
+                                <div class="dp-LeftInfo">
+                                    <span class="dp-TranslatItem">Translations.png</span>
+                                    <span class="dp-ExtItem">250 KB</span>
+                                </div>
+                                <div class="dp-RightInfo">
+                                    <span class="dp-DeleteItem">Delete<span class="dp-Arrow"></span></span>
+                                    <span class="dp-EditItem">Edit<span class="dp-Arrow"></span></span>             
+                                </div>
+                            </div>
+                            <div class="dp-FilesInfo">
+                                <div class="dp-LeftInfo">
+                                    <span class="dp-TranslatItem">Plan.png</span>
+                                    <span class="dp-ExtItem">456 KB</span>
+                                </div>
+                                <div class="dp-RightInfo">
+                                    <span class="dp-DeleteItem">Delete<span class="dp-Arrow"></span></span>
+                                    <span class="dp-EditItem">Edit<span class="dp-Arrow"></span></span>             
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
       <div class="dp-TemplateLeftCol">
         <ul class="dp-ModuleNav">
           <li class="dp-ModuleNavList"><a class="dp-Icon dp-iconEmail" href="#"></a></li>
@@ -519,7 +916,202 @@ class Demo extends React.Component {
               </ul>
             </form>
           </div>
-          <div class="dp-TemplateMainContentRight">
+            <div class="dp-TemplateMainContentRight">
+
+            <ul class="dp-LeftSidebar">
+                <li><button class="dpApps-ButtonTabs ButtonTabs-arrow"><i class="dpApps-IconArrow iconArrow--left"></i></button></li>
+                <li><span class="dp-Icon dp-IconTrello"></span></li>
+                <li><span class="dp-Icon dp-IconYoutrack"></span></li>
+                <li><span class="dp-Icon dp-IconMailchimp"></span></li>
+                <li><span class="dp-Icon dp-IconJira"></span></li>
+                <li><span class="dp-Icon dp-IconSalesforce"></span></li>
+            </ul>
+
+            <div class="dpApps-AppPanel">
+              <div class="dpApps-AppTabs is-horizontal">
+                <div class="dpApps-ButtonTabs--wrap">
+                  <button class="dpApps-ButtonTabs is-selected">
+                    <span class="dpApps-IconHamburger"></span>
+                  </button>
+                  <button class="dpApps-ButtonTabs">
+                    <img class="dpApps-ButtonsImg" src="/agent-interface/style/img/docs/jira-logo.svg" alt=""></img>
+                  </button>
+                </div>
+                <button class="dpApps-ButtonTabs ButtonTabs-arrow">
+                  <i class="dpApps-IconArrow iconArrow--left"></i>
+                </button>
+              </div>
+              <div class="dpApps-AppPanelBody">
+                <div class="dpApps-AppFrame">
+                  <div class="dpApps-AppBar dpApps-Level">
+                    <div class="dpApps-LevelLeft">
+                      <div class="dpApps-AppBarIcon-wrap">
+                        <div class="dpApps-Icon">
+                          <img src="/agent-interface/style/img/docs/trello-logo.svg" alt=""></img>
+                        </div>
+                      </div>
+                      <span class="dpApps-Title">Trello</span>
+                    </div>
+                    <div class="dpApps-LevelRight">
+                      <a href="" class="dpApps-ActionListIcon dpApps-Icon">
+                        <img class="dpApps-AppBarIcon" src="/agent-interface/style/img/docs/refresh-icon.jpg" alt=""></img>
+                      </a>
+                      <a href="" class="dpApps-ActionListIcon">
+                        <i class="dpApps-IconArrow iconArrow--top"></i>
+                      </a>
+                    </div>
+                  </div>
+                  <section class="dpApps-AppBody dpApps-Section">
+                    <div class="dpApps-Level">
+                      <div class="dpApps-LevelLeft">
+                        <span class="dpApps-AppBodyTitle">Linked cards</span>
+                      </div>
+                      <div class="dpApps-ActionList dpApps-LevelRight">
+                        <a href="" class="dpApps-ActionListItem">
+                          <i class="dpApps-IconSearch"></i>
+                          <span class="dpApps-ActionListLabel">Find</span>
+                        </a>
+                        <a href="" class="dpApps-ActionListItem">
+                          <i class="dpApps-IconPlus"></i>
+                          <span class="dpApps-ActionListLabel">Create</span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="dpApps-AppBodyItem">
+                      <div class="dpApps-AppBodyItemRow dpApps-AppBodyItemRow--spaceBottom">
+                        <i class="dpApps-Icon">
+                          <img src="/agent-interface/style/img/docs/trello-logo.svg" alt=""></img>
+                        </i>
+                        <span class="dpApps-LevelItemTitle">Blog calender</span>
+                        <div class="dpApps-AppBodySetting">
+                          <i class="dpApps-IconSettings"></i>
+                          <div class="dpApps-AppSettingDropdown">
+                            <div class="dpApps-AppSettingItem">
+                              <i class="dpApps-IconOpen"></i>
+                              <span class="dpApps-AppSettingItem--text">Open</span>
+                            </div>
+                            <div class="dpApps-AppSettingItem">
+                              <i class="dpApps-IconUnlink"></i>
+                              <span class="dpApps-AppSettingItem--text">Unlink</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="dpApps-AppBodyItemRow dpApps-Level">
+                        <div class="dpApps-AppBodyContent dpApps-LevelLeft">
+                          <span>In Planning</span><span class="dpApps-AppBodySeparator"> | </span><span>Linked 12/06/2018</span>
+                        </div>
+                        <div class="dpApps-LevelRight">
+                          <i class="dpApps-Icon dpApps-Icon--Round">
+                            <img src="/agent-interface/style/img/docs/AppBodyIcon.jpg" alt=""></img>
+                          </i>
+                        </div>
+                      </div>
+                    </div>
+
+                  </section>
+                </div>
+
+                <div class="dpApps-AppFrame">
+                  <div class="dpApps-AppBar dpApps-Level">
+                    <div class="dpApps-LevelLeft">
+                      <div class="dpApps-AppBarIcon-wrap">
+                        <div class="dpApps-Icon">
+                          <img src="/agent-interface/style/img/docs/youtrack-logo.svg" alt=""></img>
+                        </div>
+
+                      </div>
+                      <span class="dpApps-Title">You Track</span>
+                    </div>
+                    <div class="dpApps-LevelRight">
+                      <a href="" class="dpApps-ActionListIcon dpApps-Icon">
+                        <img class="dpApps-AppBarIcon" src="/agent-interface/style/img/docs/refresh-icon.jpg" alt=""></img>
+                      </a>
+                      <a href="" class="dpApps-ActionListIcon">
+                        <i class="dpApps-IconArrow iconArrow--top"></i>
+                      </a>
+                    </div>
+                  </div>
+                  
+                </div>
+
+                <div class="dpApps-AppFrame is-colapsed">
+                  <div class="dpApps-AppBar dpApps-Level">
+                    <div class="dpApps-LevelLeft">
+                      <div class="dpApps-AppBarIcon-wrap">
+                        <div class="dpApps-Icon">
+                          <img src="/agent-interface/style/img/docs/mailchimp-logo.svg" alt=""></img>
+                        </div>
+                      </div>
+                      <span class="dpApps-Title">Mailchimp</span>
+                    </div>
+                    <div class="dpApps-LevelRight">
+                      <a href="" class="dpApps-ActionListIcon dpApps-Icon">
+                        <img class="dpApps-AppBarIcon" src="/agent-interface/style/img/docs/refresh-icon.jpg" alt=""></img>
+                      </a>
+                      <a href="" class="dpApps-ActionListIcon">
+                        <i class="dpApps-IconArrow iconArrow--top"></i>
+                      </a>
+                    </div>
+                  </div>
+                  <section class="dpApps-AppBody dpApps-Section">
+                    <div class="dpApps-Level">
+                      <div class="dpApps-LevelLeft">
+                        <span class="dpApps-AppBodyTitle">Linked issues</span>
+                      </div>
+                      <div class="dpApps-ActionList dpApps-LevelRight">
+                        <a href="" class="dpApps-ActionListItem">
+                          <i class="dpApps-IconSearch"></i>
+                          <span class="dpApps-ActionListLabel">Find</span>
+                        </a>
+                        <a href="" class="dpApps-ActionListItem">
+                          <i class="dpApps-IconPlus"></i>
+                          <span class="dpApps-ActionListLabel">Create</span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="dpApps-AppBodyItem">
+                      <div class="dpApps-AppBodyItemRow dpApps-AppBodyItemRow--spaceBottom">
+                        <i class="dpApps-Icon">
+                          <img src="/agent-interface/style/img/docs/mailchimp-logo.svg" alt=""></img>
+                        </i>
+                        <span class="dpApps-LevelItemTitle">#dpApps-1170-symfony 4/p lorem ipsum</span>
+                      </div>
+                      <div class="dpApps-AppBodyItemRow dpApps-Level">
+                        <div class="dpApps-AppBodyContent dpApps-LevelLeft">
+                          <span>Linked 12/06/2018</span>
+                        </div>
+                        <div class="dpApps-LevelRight">
+                          <i class="dpApps-Icon dpApps-Icon--Round">
+                            <img src="/agent-interface/style/img/docs/AppBodyIcon.jpg" alt=""></img>
+                          </i>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                </div>
+
+                <div class="dpApps-AddApp">
+                  <div class="dpApps-Level">
+                    <a href="" class="dpApps-LevelLeft">
+                      <i class="dpApps-IconPlus"></i>
+                      <span class="dpApps-AddApp-text">Add an app</span>
+                    </a>
+                    <a href="" class="dpApps-LevelRight">
+                      <i class="dpApps-IconClose"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+
+
+
+
+
             <ul class="dp-TabBarList">
               <li class="dp-AddTabButton">
                 <a class="dp-Icon dp-iconAdd" href="#"></a>
@@ -561,216 +1153,6 @@ class Demo extends React.Component {
                 <span class="dp-iconClose"></span>
               </li>
             </ul>
-
-
-
-
-<div class="dp-UserOverlay">
-    <div class="dp-OverlayWrapp">
-        <div class="dp-UserContainer dp-UserTitleInfo">
-            <div class="dp-UserInfo">
-                <span class="dp-Icon dp-Avatar">
-                    <img src="/agent-interface/style/img/docs/avatar.png" class="dp-IconAvatar" alt=""></img>
-                </span>
-                <span class="dp-UserNameId">
-                    <span class="dp-UserName"> Zack Prudent </span>
-                    <span class="dp-UserId"> #83995 </span>
-                </span>
-            </div>
-            <div>
-                <span class="dp-Icon dp-IconUserArrow"></span>
-                <span class="dp-Icon dp-IconCloseGrey"></span>
-            </div>
-        </div>
-        <div class="dp-UserContainer dp-BrandsInfo">
-            <ul class="dp-LeftSidebar">
-                <li><span class="dp-Icon dp-iconArrowRight dp-DropMenuJs"></span></li>
-                <li><span class="dp-Icon dp-IconTrello"></span></li>
-                <li><span class="dp-Icon dp-IconYoutrack"></span></li>
-                <li><span class="dp-Icon dp-IconMailchimp"></span></li>
-                <li><span class="dp-Icon dp-IconJira"></span></li>
-                <li><span class="dp-Icon dp-IconSalesforce"></span></li>
-            </ul>
-            <div class="dp-OverlayContent">
-                <div class="dp-TitleRow">
-                    <span class="dp-UserInfo">
-                        <span class="dp-Icon dp-Avatar dp-InfoItem">
-                            <img src="/agent-interface/style/img/docs/avatar.png" class="dp-IconAvatar" alt=""></img>
-                        </span>
-                        <span class="dp-InfoItem dp-Tag">#83995</span>
-                        <span class="dp-InfoItem dp-UserName">Zack Prudent</span>
-                    </span>
-
-                    <span><span class="dp-Icon dp-IconCloseBlue dp-DropMenuJs"></span></span>
-                </div>
-                <div class="dp-Label">
-                    <div class="dp-LabelItem dp-LabelTitle">Labels:</div>
-                    <div class="dp-LabelItem dp-Tag Tag--close Tag--purple">Vip<span class="dp-iconClose"></span></div>
-                    <div class="dp-LabelItem dp-Icon dp-IconPlusAdd"></div>
-                </div>
-                <ul class="dp-MenuBarList">
-                    <li class="dp-MenuBarItem">
-                        <span class="dp-Icon dp-IconCloud"></span>
-                        <span class="dp-Title">Cloud<span class="dp-Arrow"></span></span>
-                    </li>
-                    <li class="dp-MenuBarItem dp-redLightColor">
-                        <span class="dp-Icon dp-iconNote"></span>
-                        <span class="dp-Title">Billing<span class="dp-Arrow"></span></span>
-                    </li>
-                    <li class="dp-MenuBarItem dp-greenColor">
-                        <span class="dp-Icon dp-iconNoteGreen"></span>
-                        <span class="dp-Title">License<span class="dp-Arrow"></span></span>
-                    </li>
-                </ul>
-                <div class="dp-TabContainer">
-                    <div class="dp-Tabs">
-                        <ul class="dp-TabItesm">
-                            <li class="dp-TabItem is-active"> Tickets </li>
-                            <li class="dp-TabItem"> Activity stream </li>
-                            <li class="dp-TabItem"> User groups </li>
-                            <li class="dp-TabItem"> Brands </li>
-                        </ul>
-                    </div>
-                </div>
-                <ul class="dp-TicketsInfo">
-                    <li class="dp-TicketsInfoItem dp-TicketsInfoTitle is-active">
-                        <span class="dp-idItem">ID</span>
-                        <span class="dp-SubjectItem">SUBJECT</span>
-                        <span class="dp-StatusItem dp-MenuBarItem">STATUS & URGENCY<span class="dp-Arrow"></span></span>
-                    </li>
-                    <li class="dp-TicketsOpen">
-                        <ul>
-                            <li class="dp-TicketsInfoItem">
-                                <span class="dp-idItem">#83995</span>
-                                <span class="dp-SubjectItem">New agent questions</span>
-                                <span class="dp-StatusItem dp-Orange">Awaiting agent <span class="dp-qt">4</span><span class="dp-Badge Badge--empty"></span></span>
-                            </li>
-                            <li class="dp-TicketsInfoItem">
-                                <span class="dp-idItem">#74562</span>
-                                <span class="dp-SubjectItem">Translations</span>
-                                <span class="dp-StatusItem dp-Green">Awaiting user<span class="dp-Badge Badge--empty"></span></span>
-                            </li>
-                            <li class="dp-TicketsInfoItem">
-                                <span class="dp-idItem">#63331</span>
-                                <span class="dp-SubjectItem">ASP Licensing</span>
-                                <span class="dp-StatusItem dp-Green">Awaiting user<span class="dp-Badge Badge--empty"></span></span>
-                            </li>
-                            <li class="dp-TicketsInfoItem">
-                                <span class="dp-idItem">#83995</span>
-                                <span class="dp-SubjectItem">Ver5 Upgrade</span>
-                                <span class="dp-StatusItem dp-Green">Awaiting user<span class="dp-Badge Badge--empty"></span></span>
-                            </li>
-                            <li class="dp-TicketsInfoItem">
-                                <span class="dp-idItem">#74562</span>
-                                <span class="dp-SubjectItem">Your Plan</span>
-                                <span class="dp-StatusItem dp-Green">Awaiting user<span class="dp-Badge Badge--empty"></span></span>
-                            </li>
-                            <li class="dp-TicketsInfoItem">
-                                <span class="dp-idItem">#63331</span>
-                                <span class="dp-SubjectItem">New feature idea</span>
-                                <span class="dp-StatusItem dp-Green">Resolve</span>
-                            </li>
-                            <li class="dp-TicketsInfoItem">
-                                <span class="dp-idItem">#83995</span>
-                                <span class="dp-SubjectItem">Issue creating multiple tickets</span>
-                                <span class="dp-StatusItem dp-Green">Awaiting user<span class="dp-Badge Badge--empty"></span></span>
-                            </li>
-                            <li class="dp-TicketsInfoItem">
-                                <span class="dp-idItem">#74562</span>
-                                <span class="dp-SubjectItem">FW: DeskPRO error</span>
-                                <span class="dp-StatusItem dp-Green">Awaiting user<span class="dp-Badge Badge--empty"></span></span>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-                <div class="dp-Files">
-                    Notes<span class="dp-LabelItem dp-Icon dp-IconPlusAdd"></span>
-                </div>
-                <div class="dp-TicketMessage">
-                    <div class="dp-MessageContainer dp-ColorContainer">
-                        <div class="dp-MessageHeader">
-                            <div class="dp-Left">
-                                <div class="dp-title-item dp-optical">
-
-                                    <div class="dp-UserAvatarName">
-                                        <span class="dp-Badge Badge--empty dp-DarkBadge"></span>
-                                        <span>Harry Krimbo</span>
-                                    </div>
-
-                                </div>
-                            </div>
-                            <div class="dp-Right">
-                                <div class="dp-Time">03/11/2016 at 09.58am</div>
-                                <a href="#" class="dp-Icon dp-IconDelete"></a>
-                            </div>
-                        </div>
-                        <div class="dp-MessageTitle">
-                            <p class="dp-Type dp-Orange"></p>
-                        </div>
-                        <div class="dp-MessageBody">
-                            <div class="Content">
-                                <p class="dp-txt">Zack recently had some trouble setting up one of his email address. He was quite frustrated so I suggested he call us next time if he is having problems.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="dp-TicketMessage">
-                    <div class="dp-MessageContainer dp-ColorContainer">
-                        <div class="dp-MessageHeader">
-                            <div class="dp-Left">
-                                <div class="dp-title-item dp-optical">
-
-                                    <div class="dp-UserAvatarName">
-                                        <span class="dp-Badge Badge--empty dp-DarkBadge"></span>
-                                        <span>Chris Padfield</span>
-                                    </div>
-
-                                </div>
-                            </div>
-                            <div class="dp-Right">
-                                <div class="dp-Time">03/11/2016 at 09.58am</div>
-                                <a href="#" class="dp-Icon dp-IconDelete"></a>
-                            </div>
-                        </div>
-                        <div class="dp-MessageTitle">
-                            <p class="dp-Type dp-Orange"></p>
-                        </div>
-                        <div class="dp-MessageBody">
-                            <div class="Content">
-                                <p class="dp-txt">I think Tech Company are planning to add several more agents in the new year, it’s probably worth reaching out to Zack closer to the time.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="dp-Files">
-                    Files<span class="dp-LabelItem dp-Icon dp-IconPlusAdd"></span>
-                </div>
-                <div class="dp-FilesList">
-                    <div class="dp-FilesInfo">
-                        <div class="dp-LeftInfo">
-                            <span class="dp-TranslatItem">Translations.png</span>
-                            <span class="dp-ExtItem">250 KB</span>
-                        </div>
-                        <div class="dp-RightInfo">
-                            <span class="dp-DeleteItem">Delete<span class="dp-Arrow"></span></span>
-                            <span class="dp-EditItem">Edit<span class="dp-Arrow"></span></span>             
-                        </div>
-                    </div>
-                    <div class="dp-FilesInfo">
-                        <div class="dp-LeftInfo">
-                            <span class="dp-TranslatItem">Plan.png</span>
-                            <span class="dp-ExtItem">456 KB</span>
-                        </div>
-                        <div class="dp-RightInfo">
-                            <span class="dp-DeleteItem">Delete<span class="dp-Arrow"></span></span>
-                            <span class="dp-EditItem">Edit<span class="dp-Arrow"></span></span>             
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 
 
 
@@ -943,6 +1325,9 @@ class Demo extends React.Component {
 
             <div class="dp-TemplateInnerContent">
               <div class="dp-TemplateInnerContentLeft">
+
+
+
                 <div class="dp-PageSidebar">
                   <div class="dp-PageWrapper">
                     <div class="dp-SidebarTabs">
@@ -966,7 +1351,7 @@ class Demo extends React.Component {
                                 </div>
                             </div>
                         </div>
-                        <div class="dp-SectionBody-item">
+                        <div class="dp-SectionBody-item dp-DropMenuJs dp-BorderBlue">
                             <p class="dp-title-item">
                                 <img src="/agent-interface/style/img/docs/avatar.png" alt="" class="dp-Icon dp-Avatar"></img>
                                 Zack Prudent
@@ -1124,6 +1509,85 @@ class Demo extends React.Component {
                     </div>
                   </div>
                 </div>
+
+
+
+
+                <div class="dp-PageSidebar dp-UserActivSidebar">
+                    <div class="dp-PageWrapper">
+                        <div class="dp-SidebarTabs">
+                            <ul class="dp-SidebarTabsList">
+                                <li class="dp-SidebarTab-item "><a href="#" class="dp-Icon dp-iconSettingBlue"></a></li>
+                                <li class="dp-SidebarTab-item is-active"><a href="#" class="dp-Icon dp-iconUserWhite"></a></li>
+                                <li class="dp-SidebarTab-item "><a href="#" class="dp-Icon dp-iconBuildingBlue"></a></li>
+                            </ul>
+                        </div>
+                        <div class="dp-SidebarWrapper">
+                            <div class="dp-SidebarRow">
+                                <div class="dp-SidebarSection dp-SectionControls">
+                                    <div class="dp-SectionTitle">
+                                        <div class="dp-TitleControls dp-Slas">User contact information</div>
+                                        <span class="dp-LineTitle"></span>
+                                        <a href="#" class="dp-Controls">
+                                            <i class="dp-Icon dp-DotsIcon"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="dp-SectionBody-item dp-DropMenuJs">
+                                    <p class="dp-title-item">
+                                        <img src="/agent-interface/style/img/docs/avatar.png" alt="" class="dp-Icon dp-Avatar"></img>
+                                        Zack Prudent
+                                    </p>
+
+                                    <p class="dp-Email"><a href="mailto:zack.prudent@techcompany.com">zack.prudent@techcompany.com</a></p>
+                                    <p class="dp-Phone">
+                                        <i class="dp-Icon dp-iconPhoneBlue"></i><a href="tel:+442035678940" >+44 20 356 789 40</a>
+                                    </p>
+                                    <p class="dp-OpenResolved">
+                                        <span class="dp-open"><i class="dp-Icon dp-iconEmailBlue"></i> Open: 7</span>
+                                        <span class="dp-resolved"><i class="dp-Icon dp-iconEmail"></i> Resolved: 24</span>
+                                    </p>
+                                </div>
+                                <dl class="dp-AddressList">
+                                    <dt class="dp-TitleList">Website</dt>
+                                    <dd class="dp-SubTitleList">www.techcompany.com</dd>
+                                    <dt class="dp-TitleList">Address</dt>
+                                    <dd class="dp-SubTitleList address">
+                                        Tech Company Ltd<br></br>
+                                        14 Cloud Street<br></br>
+                                        London<br></br>
+                                        SE1 ONG<br></br>
+                                        England
+                                    </dd>
+                                    <dt class="dp-TitleList">IM</dt>
+                                    <dd class="dp-SubTitleList"> - </dd>
+                                    <dt class="dp-TitleList">Facebook</dt>
+                                    <dd class="dp-SubTitleList"> - </dd>
+                                    <dt class="dp-TitleList">Twitter</dt>
+                                    <dd class="dp-SubTitleList"> - </dd>
+                                    <dt class="dp-TitleList">LinkedIn</dt>
+                                    <dd class="dp-SubTitleList"> - </dd>                       
+                                </dl>
+                                <div class="dp-SidebarSection dp-SectionControls">
+                                    <div class="dp-SectionTitle">
+                                        <div class="dp-TitleControls dp-Slas">Properties</div>
+                                        <span class="dp-LineTitle"></span>
+                                        <a href="#" class="dp-Controls">
+                                            <i class="dp-Icon dp-DotsIcon"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
               </div>
 
               <div class="dp-TemplateInnerContentRight">
