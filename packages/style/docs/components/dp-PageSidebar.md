@@ -318,7 +318,6 @@ title: PageSidebar
                     </div>
                 </div>
 
-
                 <div class="dp-SectionBody-item dp-DropMenuJs">
                     <p class="dp-title-item">
                         <img src="/agent-interface/style/img/docs/avatar.png" alt="" class="dp-Icon dp-Avatar"></img>
@@ -358,7 +357,7 @@ title: PageSidebar
                     <dd class="dp-SubTitleList"> - </dd>
 
                     <dt class="dp-TitleList">LinkedIn</dt>
-                    <dd class="dp-SubTitleList"> - </dd>                       
+                    <dd class="dp-SubTitleList"> - </dd>
                 </dl>
 
                 <div class="dp-SidebarSection dp-SectionControls">

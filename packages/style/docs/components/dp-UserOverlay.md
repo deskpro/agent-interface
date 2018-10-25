@@ -38,7 +38,6 @@ title: User Overlay
 		</div>
 		<div class="dp-UserContainer dp-BrandsInfo">
 			<ul class="dp-LeftSidebar">
-				<!-- <li><span class="dp-Icon dp-iconArrowRight"></span></li> -->
 				<li><button class="dpApps-ButtonTabs ButtonTabs-arrow right-arrow"><i class="dpApps-IconArrow"></i></button></li>
 				<li><span class="dp-Icon dp-IconTrello"></span></li>
 				<li><span class="dp-Icon dp-IconYoutrack"></span></li>

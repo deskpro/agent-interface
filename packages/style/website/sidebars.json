@@ -21,7 +21,8 @@
       "components/dp-YourAccount",
       "components/dp-Tasks",
       "components/dp-UserOverlay",
-      "components/dp-TagBar"
+      "components/dp-TagBar",
+      "components/dp-DropDownBar"
     ],
     "Elements": [
       "elements/dp-Button",

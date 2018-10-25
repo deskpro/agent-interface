@@ -68,15 +68,15 @@
   color: #4c4f50;
 }
 
-.dp-YourAccount .dp-AccountList {
+.dp-AccountList {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-.dp-YourAccount .dp-AccountItem {
+.dp-AccountItem {
   align-items: center;
-  border-bottom: 2px solid #e6e7e8;
+  border-bottom: 1px solid #e6e7e8;
   display: flex;
   justify-content: space-between;
   margin: 0;

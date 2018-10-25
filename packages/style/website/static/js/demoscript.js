@@ -20,7 +20,6 @@ $(document).ready(function(){
 	});
 
 
-
 	$(document).on("click", ".dp-SidebarWrapper .dp-SectionBody-item.dp-DropMenuJs", function(){
 		$('.dp-OverlayWrapp').toggleClass('is-active');
 	});

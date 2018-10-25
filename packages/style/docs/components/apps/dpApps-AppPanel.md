@@ -11,23 +11,23 @@ title: App Panel
         <span class="dpApps-IconBadge">1</span>
       </button>
       <button class="dpApps-ButtonTabs">
-        <img class="dpApps-ButtonsImg" src="/agent-interface/style/img/docs/jira-logo.svg" alt="">
+        <img class="dpApps-ButtonsImg" src="/agent-interface/style/img/docs/jira-logo.svg" alt=""></img>
         <span class="dpApps-IconBadge">3</span>
       </button>
       <button class="dpApps-ButtonTabs">
-        <img class="dpApps-ButtonsImg" src="/agent-interface/style/img/docs/salesforce-logo.svg" alt="">
+        <img class="dpApps-ButtonsImg" src="/agent-interface/style/img/docs/salesforce-logo.svg" alt=""></img>
         <span class="dpApps-IconBadge">3</span>
       </button>
       <button class="dpApps-ButtonTabs">
-        <img class="dpApps-ButtonsImg" src="/agent-interface/style/img/docs/shopify-logo.svg" alt="">
+        <img class="dpApps-ButtonsImg" src="/agent-interface/style/img/docs/shopify-logo.svg" alt=""></img>
         <span class="dpApps-IconBadge">1</span>
       </button>
       <button class="dpApps-ButtonTabs">
-        <img class="dpApps-ButtonsImg" src="/agent-interface/style/img/docs/typeform-logo.svg" alt="">
+        <img class="dpApps-ButtonsImg" src="/agent-interface/style/img/docs/typeform-logo.svg" alt=""></img>
         <span class="dpApps-IconBadge is-inactive">2</span>
       </button>
       <button class="dpApps-ButtonTabs">
-        <img class="dpApps-ButtonsImg" src="/agent-interface/style/img/docs/slack-logo.svg" alt="">
+        <img class="dpApps-ButtonsImg" src="/agent-interface/style/img/docs/slack-logo.svg" alt=""></img>
         <span class="dpApps-IconBadge">2</span>
       </button>
     </div>
@@ -41,7 +41,7 @@ title: App Panel
         <div class="dpApps-LevelLeft">
           <div class="dpApps-AppBarIcon-wrap">
             <div class="dpApps-Icon">
-              <img src="/agent-interface/style/img/docs/trello-logo.svg" alt="">
+              <img src="/agent-interface/style/img/docs/trello-logo.svg" alt=""></img>
             </div>
             <span class="dpApps-IconBadge is-inactive">2</span>
           </div>
@@ -49,7 +49,7 @@ title: App Panel
         </div>
         <div class="dpApps-LevelRight">
           <a href="" class="dpApps-ActionListIcon dpApps-Icon">
-            <img class="dpApps-AppBarIcon" src="/agent-interface/style/img/docs/refresh-icon.jpg" alt="">
+            <img class="dpApps-AppBarIcon" src="/agent-interface/style/img/docs/refresh-icon.jpg" alt=""></img>
           </a>
           <a href="" class="dpApps-ActionListIcon">
             <i class="dpApps-IconArrow iconArrow--top"></i>
@@ -75,7 +75,7 @@ title: App Panel
         <div class="dpApps-AppBodyItem">
           <div class="dpApps-AppBodyItemRow dpApps-AppBodyItemRow--spaceBottom">
             <i class="dpApps-Icon">
-              <img src="/agent-interface/style/img/docs/trello-logo.svg" alt="">
+              <img src="/agent-interface/style/img/docs/trello-logo.svg" alt=""></img>
             </i>
             <span class="dpApps-LevelItemTitle">Blog calender</span>
             <div class="dpApps-AppBodySetting">
@@ -98,7 +98,7 @@ title: App Panel
             </div>
             <div class="dpApps-LevelRight">
               <i class="dpApps-Icon dpApps-Icon--Round">
-                <img src="/agent-interface/style/img/docs/AppBodyIcon.jpg" alt="">
+                <img src="/agent-interface/style/img/docs/AppBodyIcon.jpg" alt=""></img>
               </i>
             </div>
           </div>
@@ -106,7 +106,7 @@ title: App Panel
         <div class="dpApps-AppBodyItem">
           <div class="dpApps-AppBodyItemRow dpApps-AppBodyItemRow--spaceBottom">
             <i class="dpApps-Icon">
-              <img src="/agent-interface/style/img/docs/trello-logo.svg" alt="">
+              <img src="/agent-interface/style/img/docs/trello-logo.svg" alt=""></img>
             </i>
             <span class="dpApps-LevelItemTitle">New home page design</span>
             <div class="dpApps-AppBodySetting">
@@ -129,7 +129,7 @@ title: App Panel
             </div>
             <div class="dpApps-LevelRight">
               <i class="dpApps-Icon dpApps-Icon--Round">
-                <img src="/agent-interface/style/img/docs/AppBodyIcon.jpg" alt="">
+                <img src="/agent-interface/style/img/docs/AppBodyIcon.jpg" alt=""></img>
               </i>
             </div>
           </div>
@@ -142,7 +142,7 @@ title: App Panel
         <div class="dpApps-LevelLeft">
           <div class="dpApps-AppBarIcon-wrap">
             <div class="dpApps-Icon">
-              <img src="/agent-interface/style/img/docs/youtrack-logo.svg" alt="">
+              <img src="/agent-interface/style/img/docs/youtrack-logo.svg" alt=""></img>
             </div>
             <span class="dpApps-IconBadge">1</span>
           </div>
@@ -150,7 +150,7 @@ title: App Panel
         </div>
         <div class="dpApps-LevelRight">
           <a href="" class="dpApps-ActionListIcon dpApps-Icon">
-            <img class="dpApps-AppBarIcon" src="/agent-interface/style/img/docs/refresh-icon.jpg" alt="">
+            <img class="dpApps-AppBarIcon" src="/agent-interface/style/img/docs/refresh-icon.jpg" alt=""></img>
           </a>
           <a href="" class="dpApps-ActionListIcon">
             <i class="dpApps-IconArrow iconArrow--top"></i>
@@ -176,7 +176,7 @@ title: App Panel
         <div class="dpApps-AppBodyItem">
           <div class="dpApps-AppBodyItemRow dpApps-AppBodyItemRow--spaceBottom">
             <i class="dpApps-Icon">
-              <img src="/agent-interface/style/img/docs/youtrack-logo.svg" alt="">
+              <img src="/agent-interface/style/img/docs/youtrack-logo.svg" alt=""></img>
             </i>
             <span class="dpApps-LevelItemTitle">#dpApps-1170-symfony 4/p lorem ipsum</span>
             <div class="dpApps-AppBodySetting">
@@ -199,7 +199,7 @@ title: App Panel
             </div>
             <div class="dpApps-LevelRight">
               <i class="dpApps-Icon dpApps-Icon--Round">
-                <img src="/agent-interface/style/img/docs/AppBodyIcon.jpg" alt="">
+                <img src="/agent-interface/style/img/docs/AppBodyIcon.jpg" alt=""></img>
               </i>
             </div>
           </div>
@@ -212,7 +212,7 @@ title: App Panel
         <div class="dpApps-LevelLeft">
           <div class="dpApps-AppBarIcon-wrap">
             <div class="dpApps-Icon">
-              <img src="/agent-interface/style/img/docs/mailchimp-logo.svg" alt="">
+              <img src="/agent-interface/style/img/docs/mailchimp-logo.svg" alt=""></img>
             </div>
             <span class="dpApps-IconBadge is-inactive">1</span>
           </div>
@@ -220,7 +220,7 @@ title: App Panel
         </div>
         <div class="dpApps-LevelRight">
           <a href="" class="dpApps-ActionListIcon dpApps-Icon">
-            <img class="dpApps-AppBarIcon" src="/agent-interface/style/img/docs/refresh-icon.jpg" alt="">
+            <img class="dpApps-AppBarIcon" src="/agent-interface/style/img/docs/refresh-icon.jpg" alt=""></img>
           </a>
           <a href="" class="dpApps-ActionListIcon">
             <i class="dpApps-IconArrow iconArrow--top"></i>
@@ -246,7 +246,7 @@ title: App Panel
         <div class="dpApps-AppBodyItem">
           <div class="dpApps-AppBodyItemRow dpApps-AppBodyItemRow--spaceBottom">
             <i class="dpApps-Icon">
-              <img src="/agent-interface/style/img/docs/mailchimp-logo.svg" alt="">
+              <img src="/agent-interface/style/img/docs/mailchimp-logo.svg" alt=""></img>
             </i>
             <span class="dpApps-LevelItemTitle">#dpApps-1170-symfony 4/p lorem ipsum</span>
           </div>
@@ -256,7 +256,7 @@ title: App Panel
             </div>
             <div class="dpApps-LevelRight">
               <i class="dpApps-Icon dpApps-Icon--Round">
-                <img src="/agent-interface/style/img/docs/AppBodyIcon.jpg" alt="">
+                <img src="/agent-interface/style/img/docs/AppBodyIcon.jpg" alt=""></img>
               </i>
             </div>
           </div>

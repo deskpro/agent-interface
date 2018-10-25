@@ -42,6 +42,7 @@
 @import "components/dp-Tasks.css";
 @import "components/dp-UserOverlay.css";
 @import "components/dp-TagBar.css";
+@import "components/dp-DropDownBar.css";
 @import "elements/tag-badge.css";
 @import "elements/buttons.css";
 @import "elements/icons.css";
