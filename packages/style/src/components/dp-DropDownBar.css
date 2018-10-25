@@ -3,30 +3,30 @@
 }
 
 .dp-DropDownList {
-  list-style: none;
-  display: flex;
-  padding: 10px 20px;
   align-items: center;
   background-color: #f7f7f7;
   border-radius: 5px;
+  display: flex;
   justify-content: space-between;
+  list-style: none;
+  padding: 10px 20px;
 }
 
 .dp-DropDownBar .dp-ActionButton {
   display: flex;
-  position: relative;
   padding: 8px 21px 8px 6px;
+  position: relative;
 }
 
-.dp-DropDownBar .dp-ActionButton:before {
+.dp-DropDownBar .dp-ActionButton::before {
+  background-color: #cccbcb;
+  content: "";
+  display: block;
+  height: 100%;
+  left: -25px;
   position: absolute;
   top: 0;
-  left: -25px;
-  display: block;
-  content: '';
-  background-color: #cccbcb;
   width: 1px;
-  height: 100%;
 }
 
 .dp-DropDownBar .dp-ActionButton:first-child::before {
@@ -34,7 +34,7 @@
 }
 
 .dp-DropDownBar .dp-ContextMenu {
-  box-shadow: 0 0 10px rgba(0,0,0,.2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .dp-DropDownBar .dp-ActionButton + .dp-ActionButton {
@@ -50,8 +50,7 @@
 .dp-ActionButton .dp-IconLinkWhite,
 .dp-ActionButton .dp-IconPlusWhite,
 .dp-ActionButton .dp-IconPrintWhite,
-.dp-ActionButton .dp-IconBanWhite
-{
+.dp-ActionButton .dp-IconBanWhite {
   display: none;
 }
 
@@ -60,8 +59,7 @@
 .dp-ActionButton.is-active .dp-IconLink,
 .dp-ActionButton.is-active .dp-IconPlusGrey,
 .dp-ActionButton.is-active .dp-IconPrint,
-.dp-ActionButton.is-active .dp-IconBan
-{
+.dp-ActionButton.is-active .dp-IconBan {
   display: none;
 }
 
@@ -91,10 +89,10 @@
 }
 
 .dp-ContextMenu {
-  left: 0;
-  top: calc(100% + 10px);
-  min-width: 140px;
   display: none;
+  left: 0;
+  min-width: 140px;
+  top: calc(100% + 10px);
 }
 
 .dp-ContextMenu.is-active {

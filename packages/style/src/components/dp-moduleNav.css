@@ -1,21 +1,22 @@
 .dp-ModuleNav {
   background-color: #eff0f0;
-  /*border-right: 2px solid #c4c9c9;*/
+
+  /* border-right: 2px solid #c4c9c9; */
   color: inherit;
   display: block;
   height: 100%;
-  width: 45px;
   padding: 10px 0;
+  width: 45px;
 }
 
-.dp-ModuleNav .is-borderBottom:after {
-  position: absolute;
-  bottom: -6px;
-  content: '';
-  display: block;
-  width: 100%;
-  height: 2px;
+.dp-ModuleNav .is-borderBottom::after {
   background-color: #b8bebd;
+  bottom: -6px;
+  content: "";
+  display: block;
+  height: 2px;
+  position: absolute;
+  width: 100%;
 }
 
 .dp-ModuleNav .dp-ModuleNavList {
@@ -74,22 +75,21 @@
   background-size: 23px 23px;
 }
 
+/*  */
 
-
-/**/
 .dp-ModuleNav .dp-Icon.Icon--White, .dp-ModuleNavList.is-active .dp-Icon {
   display: none;
 }
 
 .dp-ModuleNavList.is-active .dp-Icon.Icon--White {
-  display: block;
   background-size: 18px 18px;
+  display: block;
 }
 
 .dp-ModuleNav .dp-ModuleNavList {
   border-radius: 50%;
-  max-width: 35px;
   max-height: 35px;
+  max-width: 35px;
   position: relative;
 }
 
@@ -102,70 +102,69 @@
 }
 
 .dp-IconTooltip {
+  background-color: #abb4ba;
+  border-radius: 2px;
+  color: #fff;
+  display: none;
+  font-size: 9px;
+  min-width: 50px;
+  padding: 1px;
+  padding-left: 5px;
   position: absolute;
   right: -55px;
   top: 12px;
-  padding: 1px;
-  background-color: #abb4ba;
-  border-radius: 2px;
-  font-size: 9px;
-  color: #fff;
-  min-width: 50px;
-  padding-left: 5px;
-  display: none;
 }
 
 .dp-ModuleNav .dp-ModuleNavList:hover .dp-IconTooltip {
   display: block;
 }
 
-.dp-IconTooltip:before {
-  content: '';
-  display: block;
-  width: 0;
-  height: 0;
-  position: absolute;
-  border-top: 3px solid transparent;
+.dp-IconTooltip::before {
   border-bottom: 3px solid transparent;
   border-right: 5px solid #abb4ba;
+  border-top: 3px solid transparent;
+  content: "";
+  display: block;
+  height: 0;
   left: -5px;
+  position: absolute;
   top: 3px;
+  width: 0;
 }
 
 .dp-integration .dp-IconTooltip {
-  right: -185px;
   max-width: 180px;
   padding: 0;
+  right: -185px;
 }
 
 .dp-integration .dp-TitleTooltip {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   padding-left: 5px;
-  box-shadow: 0 0 10px rgba(0,0,0,.2);
 }
 
 .dp-IconTooltip .dp-AccountItem {
-  font-size: 9px;
   background-color: #fff;
   color: #abb4ba;
+  font-size: 9px;
 }
 
 .dp-IconTooltip .dp-AccountItem:hover {
-  color: #318cdd;
   background-color: #e9f6fe;
+  color: #318cdd;
 }
 
 .dp-IconTooltip .dp-Icon-Title {
-  display: flex;
   align-items: center;
+  display: flex;
 }
 
-
 .dp-ModuleNav .dp-IconPlaneOrange, .dp-ModuleNav .dp-IconPlaneViolet, .dp-ModuleNav .dp-IconPlane {
+  display: block;
   height: 15px;
   margin-right: 4px;
   min-width: 15px;
   width: 15px;
-  display: block;
 }
 
 .dp-ModuleNav .dp-iconEmail:hover {
