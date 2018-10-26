@@ -135,6 +135,7 @@
 
 .dp-Tickets .dp-SubMenu a,
 .dp-TicketMenu .dp-SubMenu a {
+  align-items: center;
   border-radius: 5px;
   color: #707576;
   cursor: pointer;

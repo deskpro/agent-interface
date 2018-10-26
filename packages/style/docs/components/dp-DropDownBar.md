@@ -7,33 +7,33 @@ title: DropDownBar
 
     <ul class="dp-DropDownList">
         <li class="dp-ActionButton is-active">
-			<span class="dp-Icon dp-iconLockGray"></span>
-			<span class="dp-Icon dp-iconLockWhite"></span>
+			<span class="dp-Icon dp-iconLockGray Icon--Gray"></span>
+			<span class="dp-Icon dp-iconLockWhite Icon--White"></span>
         	Lock
         </li>
         <li class="dp-ActionButton">
-			<span class="dp-Icon dp-IconLink"></span>
-			<span class="dp-Icon dp-IconLinkWhite"></span>
+			<span class="dp-Icon dp-IconLink Icon--Gray"></span>
+			<span class="dp-Icon dp-IconLinkWhite Icon--White"></span>
 			Link
 		</li>
         <li class="dp-ActionButton">
-			<span class="dp-Icon dp-IconPlusGrey"></span>
-			<span class="dp-Icon dp-IconPlusWhite"></span>
+			<span class="dp-Icon dp-IconPlusGrey Icon--Gray"></span>
+			<span class="dp-Icon dp-IconPlusWhite Icon--White"></span>
         	New
         </li>
         <li class="dp-ActionButton">
-			<span class="dp-Icon dp-IconPrint"></span>
-			<span class="dp-Icon dp-IconPrintWhite"></span>
+			<span class="dp-Icon dp-IconPrint Icon--Gray"></span>
+			<span class="dp-Icon dp-IconPrintWhite Icon--White"></span>
         	Print
         </li>
         <li class="dp-ActionButton">
-			<span class="dp-Icon dp-IconBan"></span>
-			<span class="dp-Icon dp-IconBanWhite"></span>
+			<span class="dp-Icon dp-IconBan Icon--Gray"></span>
+			<span class="dp-Icon dp-IconBanWhite Icon--White"></span>
         	Ban
         </li>
         <li class="dp-ActionButton">
-			<span class="dp-Icon dp-iconRocketGray"></span>
-			<span class="dp-Icon dp-iconRocketwhite"></span>
+			<span class="dp-Icon dp-iconRocketGray Icon--Gray"></span>
+			<span class="dp-Icon dp-iconRocketwhite Icon--White"></span>
         	Actions
     	</li>
     </ul>
@@ -119,21 +119,21 @@ title: DropDownBar
 
 		<ul class="dp-DropDownList">
 			<li class="dp-ActionButton is-active">
-				<span class="dp-Icon dp-iconLockGray"></span>
-				<span class="dp-Icon dp-iconLockWhite"></span>
+				<span class="dp-Icon dp-iconLockGray Icon--Gray"></span>
+				<span class="dp-Icon dp-iconLockWhite Icon--White"></span>
 	        	Lock
-				<ul class="dp-ContextMenu is-active">
-					<li class="dp-disabledItem"><a href="#"><span class="dp-MenuIcon dp-iconLockGray"></span> Lock</a></li>
-					<li><a href="#"><span class="dp-MenuIcon dp-iconGrayMin"></span> Put ticket on hold</a></li>
+				<ul class="dp-ContextMenu dp-nowrap">
+					<li class="dp-disabledItem"><a href="#"><span class="dp-MenuIcon dp-iconLockGray"></span> Lock </a></li>
+					<li><a href="#"><span class="dp-MenuIcon dp-iconGrayMin"></span> Put ticket on hold </a></li>
 					<li class="dp-disabledItem"><a href="#"><span class="dp-MenuIcon dp-IconDelete"></span> Delete </a></li>
 				</ul>
 	        </li>
 
 	        <li class="dp-ActionButton">
-				<span class="dp-Icon dp-IconLink"></span>
-				<span class="dp-Icon dp-IconLinkWhite"></span>
+				<span class="dp-Icon dp-IconLink Icon--Gray"></span>
+				<span class="dp-Icon dp-IconLinkWhite Icon--White"></span>
 				Link
-				<ul class="dp-ContextMenu dp-LinkButton">
+				<ul class="dp-ContextMenu dp-nowrap">
 					<li class="dp-disabledItem"><a href="#"><span class="dp-MenuIcon dp-iconEmail"></span> Create linked ticket </a></li>
 					<li><a href="#"><span class="dp-MenuIcon dp-IconLink"></span> Link existing ticket </a></li>
 					<li class="dp-disabledItem"><a href="#"><span class="dp-MenuIcon dp-IconSplit"></span> Split message to new ticket </a></li>
@@ -142,20 +142,20 @@ title: DropDownBar
 			</li>
 
 	        <li class="dp-ActionButton">
-				<span class="dp-Icon dp-IconPlusGrey"></span>
-				<span class="dp-Icon dp-IconPlusWhite"></span>
+				<span class="dp-Icon dp-IconPlusGrey Icon--Gray"></span>
+				<span class="dp-Icon dp-IconPlusWhite Icon--White"></span>
 	        	New
-				<ul class="dp-ContextMenu dp-NewButon">
+				<ul class="dp-ContextMenu dp-nowrap">
 					<li class="dp-disabledItem"><a href="#"><span class="dp-MenuIcon dp-IconArticle"></span> New pending article </a></li>
 					<li><a href="#"><span class="dp-MenuIcon dp-IconSnippet"></span> New Snippet </a></li>
 				</ul>
 	        </li>
 
 	        <li class="dp-ActionButton">
-				<span class="dp-Icon dp-IconPrint"></span>
-				<span class="dp-Icon dp-IconPrintWhite"></span>
+				<span class="dp-Icon dp-IconPrint Icon--Gray"></span>
+				<span class="dp-Icon dp-IconPrintWhite Icon--White"></span>
 	        	Print
-				<ul class="dp-ContextMenu dp-PrintButon">
+				<ul class="dp-ContextMenu dp-nowrap">
 					<li><a href="#"> <span class="dp-MenuIcon dp-IconPrint"></span> Print</a></li>
 					<li><a href="#"> <span class="dp-MenuIcon dp-IconDownloadPDF"></span> Download PDF</a></li>
 					<li><a href="#"><span class="dp-MenuIcon dp-iconBugGray"></span> Download Debug File</a></li>
@@ -163,20 +163,20 @@ title: DropDownBar
 	        </li>
 
 	        <li class="dp-ActionButton">
-				<span class="dp-Icon dp-IconBan"></span>
-				<span class="dp-Icon dp-IconBanWhite"></span>
+				<span class="dp-Icon dp-IconBan Icon--Gray"></span>
+				<span class="dp-Icon dp-IconBanWhite Icon--White"></span>
 	        	Ban
-				<ul class="dp-ContextMenu dp-BanButon">
+				<ul class="dp-ContextMenu dp-nowrap">
 					<li><a href="#"> <span class="dp-MenuIcon dp-IconBan"></span> Ban</a></li>
 					<li><a href="#"> <span class="dp-MenuIcon dp-IconSpam"></span> Spam</a></li>
 				</ul>
 	        </li>
 
 	        <li class="dp-ActionButton">
-				<span class="dp-Icon dp-iconRocketGray"></span>
-				<span class="dp-Icon dp-iconRocketwhite"></span>
+				<span class="dp-Icon dp-iconRocketGray Icon--Gray"></span>
+				<span class="dp-Icon dp-iconRocketwhite Icon--White"></span>
 	        	Actions
-	        	<ul class="dp-ContextMenu">
+	        	<ul class="dp-ContextMenu dp-nowrap">
 					<li><a href="#"> <span class="dp-MenuIcon dp-iconRocketGray"></span> Misc value </a></li>
 					<li><a href="#"> <span class="dp-MenuIcon dp-iconRocketGray"></span> Misc value </a></li>
 					<li><a href="#"> <span class="dp-MenuIcon dp-iconRocketGray"></span> Misc value </a></li>

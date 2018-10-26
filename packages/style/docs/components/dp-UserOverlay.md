@@ -4,8 +4,7 @@ title: User Overlay
 
 ```html @preview
 <ul class="dp-LeftSidebar">
-	<!-- <li><span class="dp-Icon dp-iconArrowRight"></span></li> -->
-	<li><button class="dpApps-ButtonTabs ButtonTabs-arrow"><i class="dpApps-IconArrow"></i></button></li>
+	<li><button class="dpApps-ButtonTabs ButtonTabs-arrow"><i class="dpApps-IconArrow iconArrow--left"></i></button></li>
 	<li><span class="dp-Icon dp-IconTrello"></span></li>
 	<li><span class="dp-Icon dp-IconYoutrack"></span></li>
 	<li><span class="dp-Icon dp-IconMailchimp"></span></li>
@@ -38,7 +37,7 @@ title: User Overlay
 		</div>
 		<div class="dp-UserContainer dp-BrandsInfo">
 			<ul class="dp-LeftSidebar">
-				<li><button class="dpApps-ButtonTabs ButtonTabs-arrow right-arrow"><i class="dpApps-IconArrow"></i></button></li>
+				<li><button class="dpApps-ButtonTabs ButtonTabs-arrow"><i class="dpApps-IconArrow iconArrow--right"></i></button></li>
 				<li><span class="dp-Icon dp-IconTrello"></span></li>
 				<li><span class="dp-Icon dp-IconYoutrack"></span></li>
 				<li><span class="dp-Icon dp-IconMailchimp"></span></li>

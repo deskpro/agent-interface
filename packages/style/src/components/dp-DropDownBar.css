@@ -33,7 +33,7 @@
   display: none;
 }
 
-.dp-DropDownBar .dp-ContextMenu {
+.dp-ContextMenu {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -45,21 +45,11 @@
   border: none;
 }
 
-.dp-ActionButton .dp-iconRocketwhite,
-.dp-ActionButton .dp-iconLockWhite,
-.dp-ActionButton .dp-IconLinkWhite,
-.dp-ActionButton .dp-IconPlusWhite,
-.dp-ActionButton .dp-IconPrintWhite,
-.dp-ActionButton .dp-IconBanWhite {
+.dp-ActionButton .Icon--White {
   display: none;
 }
 
-.dp-ActionButton.is-active .dp-iconRocketGray,
-.dp-ActionButton.is-active .dp-iconLockGray,
-.dp-ActionButton.is-active .dp-IconLink,
-.dp-ActionButton.is-active .dp-IconPlusGrey,
-.dp-ActionButton.is-active .dp-IconPrint,
-.dp-ActionButton.is-active .dp-IconBan {
+.dp-ActionButton.is-active .Icon--Gray {
   display: none;
 }
 
@@ -88,33 +78,16 @@
   display: inline-block;
 }
 
-.dp-ContextMenu {
+.dp-DropDownBar .dp-ContextMenu {
   display: none;
   left: 0;
-  min-width: 140px;
   top: calc(100% + 10px);
 }
 
-.dp-ContextMenu.is-active {
+.dp-nowrap {
+  white-space: nowrap;
+}
+
+.dp-ActionButton.is-active .dp-ContextMenu {
   display: block;
-}
-
-.dp-ContextMenu.dp-LinkButton {
-  min-width: 200px;
-}
-
-.dp-ContextMenu.dp-NewButon {
-  min-width: 155px;
-}
-
-.dp-ContextMenu.dp-PrintButon {
-  min-width: 160px;
-}
-
-.dp-ContextMenu.dp-BanButon {
-  min-width: 100px;
-}
-
-.dp-ContextMenu.dp-Buton {
-  min-width: 115px;
 }

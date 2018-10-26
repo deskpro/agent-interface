@@ -17,7 +17,7 @@ title: Tickets
 <h2>Tickets</h2>
 
 ```html @preview
-<div style="height: 550px; overflow: hidden; position: relative;">
+<div style="height: 750px; overflow: hidden; position: relative;">
 	<div class="dp-Tickets">
 		<div class="dp-dropdownContainer">
 			<div class="dp-Title is-active">
@@ -36,7 +36,7 @@ title: Tickets
 	</div>
 
 	<ul class="dp-TicketMenu is-active">
-		<li class="dp-TicketMenuItem dp-MenuBarItem is-active">
+		<li class="dp-TicketMenuItem dp-MenuBarItem is-active dp-DropMenuJs">
 			<span class="dp-TitleMenu">
 				<span>Awaiting agent</span>
 				<span class="dp-Arrow"></span>
@@ -64,35 +64,145 @@ title: Tickets
 				</li>
 			</ul>
 		</li>
-		<li class="dp-TicketMenuItem dp-MenuBarItem">
+		<li class="dp-TicketMenuItem dp-MenuBarItem dp-DropMenuJs">
 			<span class="dp-TitleMenu">
 				<span>Filters</span>
 				<span class="dp-Arrow"></span>
 			</span>
+			<ul class="dp-SubMenu">
+				<li>
+					<a href="#">
+						<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
+					</a>
+				</li>
+			</ul>
 		</li>
-		<li class="dp-TicketMenuItem dp-MenuBarItem">
+		<li class="dp-TicketMenuItem dp-MenuBarItem dp-DropMenuJs">
 			<span class="dp-TitleMenu">
 				<span>Saved Searches</span>
 				<span class="dp-Arrow"></span>
 			</span>
+			<ul class="dp-SubMenu">
+				<li>
+					<a href="#">
+						<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
+					</a>
+				</li>
+			</ul>
 		</li>
-		<li class="dp-TicketMenuItem dp-MenuBarItem">
+		<li class="dp-TicketMenuItem dp-MenuBarItem dp-DropMenuJs">
 			<span class="dp-TitleMenu">
 				<span>Problems & incidents (2)</span>
 				<span class="dp-Arrow"></span>
 			</span>
+			<ul class="dp-SubMenu">
+				<li>
+					<a href="#">
+						<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
+					</a>
+				</li>
+			</ul>
 		</li>
-		<li class="dp-TicketMenuItem dp-MenuBarItem">
+		<li class="dp-TicketMenuItem dp-MenuBarItem dp-DropMenuJs">
 			<span class="dp-TitleMenu">
 				<span>Labels</span>
 				<span class="dp-Arrow"></span>
 			</span>
+			<ul class="dp-SubMenu">
+				<li>
+					<a href="#">
+						<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
+					</a>
+				</li>
+			</ul>
 		</li>
-		<li class="dp-TicketMenuItem dp-MenuBarItem">
+		<li class="dp-TicketMenuItem dp-MenuBarItem dp-DropMenuJs">
 			<span class="dp-TitleMenu">
 				<span>My stars (3)</span>
 				<span class="dp-Arrow"></span>
 			</span>
+			<ul class="dp-SubMenu">
+				<li>
+					<a href="#">
+						<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
+					</a>
+				</li>
+			</ul>
 		</li>
 	</ul>
 </div>

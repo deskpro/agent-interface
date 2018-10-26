@@ -8,14 +8,24 @@
   display: flex;
 }
 
-.dp-SsoTxt {
-  color: #4c4f50;
-  font-size: 14px;
-  margin-left: 10px;
+.dp-SsoContent {
+  display: inline-block;
+  flex: 1 1 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .dp-Sso .dp-IconStar {
   height: 16px;
   margin-right: 5px;
+  vertical-align: middle;
   width: 16px;
+}
+
+.dp-SsoTxt {
+  color: #4c4f50;
+  font-size: 14px;
+  margin-left: 10px;
+  white-space: nowrap;
 }

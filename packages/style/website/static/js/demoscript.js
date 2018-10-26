@@ -42,4 +42,9 @@ $(document).ready(function(){
 		$('.dp-TemplateInnerContentLeft .dp-PageSidebar.dp-UserActivSidebar').toggleClass('is-active');
 	});
 	
+
+	$(document).on("click", ".dp-TicketMenuItem.dp-DropMenuJs", function(){
+		$(this).toggleClass('is-active');
+	});
+
 })

@@ -469,16 +469,86 @@ class Demo extends React.Component {
 
       <div class="dp-TemplateLeftCol">
         <ul class="dp-ModuleNav">
-          <li class="dp-ModuleNavList"><a class="dp-Icon dp-iconEmail" href="#"></a></li>
-          <li class="dp-ModuleNavList"><a class="dp-Icon dp-iconChat" href="#"></a></li>
-          <li class="dp-ModuleNavList"><a class="dp-Icon dp-iconAvatar" href="#"></a></li>
-          <li class="dp-ModuleNavList"><a class="dp-Icon dp-iconLike" href="#"></a></li>
-          <li class="dp-ModuleNavList"><a class="dp-Icon dp-iconAi" href="#"></a></li>
-          <li class="dp-ModuleNavList"><a class="dp-Icon dp-iconApprov" href="#"></a></li>
-          <li class="dp-ModuleNavList"><a class="dp-Icon dp-iconTrello" href="#"></a></li>
-          <li class="dp-ModuleNavList"><a class="dp-Icon dp-iconSetting" href="#"></a></li>
-          <li class="dp-ModuleNavList"><a class="dp-Icon dp-iconMoney is-borderBottom" href="#"></a></li>
-          <li class="dp-ModuleNavList"><a class="dp-Icon dp-iconIntegration" href="#"></a></li>
+          <li class="dp-ModuleNavList is-active">
+            <a class="dp-Icon dp-iconEmail" href="#"></a>
+            <a class="dp-Icon dp-iconEmailWhite Icon--White" href="#"></a>
+            <span class="dp-IconTooltip">Tickets</span>
+          </li>
+          <li class="dp-ModuleNavList">
+            <a class="dp-Icon dp-iconChat" href="#"></a>
+            <a class="dp-Icon dp-iconChatWhite Icon--White" href="#"></a>
+            <span class="dp-IconTooltip">Chats</span>
+          </li>
+          <li class="dp-ModuleNavList">
+            <a class="dp-Icon dp-iconAvatar" href="#"></a>
+            <a class="dp-Icon dp-iconAvatarWhite Icon--White" href="#"></a>
+            <span class="dp-IconTooltip">CRM</span>
+          </li>
+          <li class="dp-ModuleNavList">
+            <a class="dp-Icon dp-iconLike" href="#"></a>
+            <a class="dp-Icon dp-iconLikeWhite Icon--White" href="#"></a>
+            <span class="dp-IconTooltip">Feedback</span>
+          </li>
+          <li class="dp-ModuleNavList">
+            <a class="dp-Icon dp-iconAi" href="#"></a>
+            <a class="dp-Icon dp-iconAiWhite Icon--White" href="#"></a>
+            <span class="dp-IconTooltip">Publish</span>
+          </li>
+          <li class="dp-ModuleNavList">
+            <a class="dp-Icon dp-iconApprov" href="#"></a>
+            <a class="dp-Icon dp-iconApprovWhite Icon--White" href="#"></a>
+            <span class="dp-IconTooltip">Tasks</span>
+          </li>
+          <li class="dp-ModuleNavList">
+            <a class="dp-Icon dp-iconTrello" href="#"></a>
+            <a class="dp-Icon dp-iconTrelloWhite Icon--White" href="#"></a>
+            <span class="dp-IconTooltip">Reports</span>
+          </li>
+          <li class="dp-ModuleNavList">
+            <a class="dp-Icon dp-iconSetting" href="#"></a>
+            <a class="dp-Icon dp-iconSettingWhite Icon--White" href="#"></a>
+            <span class="dp-IconTooltip">Admin</span>
+          </li>
+          <li class="dp-ModuleNavList is-borderBottom">
+            <a class="dp-Icon dp-iconMoney" href="#"></a>
+            <a class="dp-Icon dp-iconMoneyWhite Icon--White" href="#"></a>
+            <span class="dp-IconTooltip">Billing</span>
+          </li>
+          <li class="dp-ModuleNavList dp-integration">
+            <a class="dp-Icon dp-iconIntegration" href="#"></a>
+            <a class="dp-Icon dp-iconIntegrationWhite Icon--White" href="#"></a>
+            <span class="dp-IconTooltip">
+                <span class="dp-TitleTooltip"> Portal </span>
+                <ul class="dp-AccountList">
+                    <li class="dp-AccountItem is-active">
+                        <a href="#" class="dp-Icon-Title dp-raven">
+                            <span class="dp-Icon dp-IconPlane"></span>
+                            <span>Raven Paper
+                                <span class="dp-BuyNow">support.ravenpaper.com</span>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="dp-AccountItem">
+                        <a href="#" class="dp-Icon-Title dp-raven">
+                            <span class="dp-Icon dp-IconPlaneOrange"></span> 
+                            <span>Raven Paper Crafts
+                                <span class="dp-BuyNow">support.ravenpapercrafts.com</span>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="dp-AccountItem">
+                        <a href="#" class="dp-Icon-Title dp-raven">
+                            <span class="dp-Icon dp-IconPlaneViolet"></span>
+                            <span>
+                                <span>RP Europe
+                                    <span class="dp-BuyNow">support.ravenpaper.com</span>
+                                </span>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </span>
+          </li>
         </ul>
       </div>
       <div class="dp-TemplateMainColl">
@@ -562,7 +632,7 @@ class Demo extends React.Component {
 
             <div class="dp-Tickets">
               <div class="dp-dropdownContainer">
-                <div class="dp-Title is-active">
+                <div class="dp-Title">
                   <div class="dp-TitleName dp-DropMenuJs">
                     <span class="dp-Icon dp-iconTickets"></span>
                     All tickets <span class="dp-qt">(90)</span>
@@ -577,26 +647,176 @@ class Demo extends React.Component {
               </div>
             </div>
 
-            <ul class="dp-TicketMenu is-active">
-              <li class="dp-TicketMenuItem dp-MenuBarItem is-active">
-                <span class="dp-TitleMenu">
-                  <span>Awaiting agent</span>
-                  <span class="dp-Arrow"></span>
-                </span>
-                <ul class="dp-SubMenu">
-                  <li><a href="#"><span>My tickets<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">1</span></a></li>
-                  <li><a href="#"><span>Tickets I follow<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span></a></li>
-                  <li><a href="#"><span>Unassigned tickets<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span></a></li>
-                  <li><a href="#"><span>All tickets<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">90</span></a></li>
-                </ul>
-              </li>
-              <li class="dp-TicketMenuItem dp-MenuBarItem"><span class="dp-TitleMenu"><span>Filters</span><span class="dp-Arrow"></span></span></li>
-              <li class="dp-TicketMenuItem dp-MenuBarItem"><span class="dp-TitleMenu"><span>Saved Searches</span><span class="dp-Arrow"></span></span></li>
-              <li class="dp-TicketMenuItem dp-MenuBarItem"><span class="dp-TitleMenu"><span>Problems & incidents (2)</span><span class="dp-Arrow"></span></span></li>
-              <li class="dp-TicketMenuItem dp-MenuBarItem"><span class="dp-TitleMenu"><span>Labels</span><span class="dp-Arrow"></span></span></li>
-              <li class="dp-TicketMenuItem dp-MenuBarItem"><span class="dp-TitleMenu"><span>My stars (3)</span><span class="dp-Arrow"></span></span></li>
+            <ul class="dp-TicketMenu">
+                <li class="dp-TicketMenuItem dp-MenuBarItem is-active dp-DropMenuJs">
+                    <span class="dp-TitleMenu">
+                        <span>Awaiting agent</span>
+                        <span class="dp-Arrow"></span>
+                    </span>
+                    <ul class="dp-SubMenu">
+                        <li>
+                            <a href="#">
+                                <span>My tickets<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">1</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>Tickets I follow<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>Unassigned tickets<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>All tickets<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">90</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dp-TicketMenuItem dp-MenuBarItem dp-DropMenuJs">
+                    <span class="dp-TitleMenu">
+                        <span>Filters</span>
+                        <span class="dp-Arrow"></span>
+                    </span>
+                    <ul class="dp-SubMenu">
+                        <li>
+                            <a href="#">
+                                <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dp-TicketMenuItem dp-MenuBarItem dp-DropMenuJs">
+                    <span class="dp-TitleMenu">
+                        <span>Saved Searches</span>
+                        <span class="dp-Arrow"></span>
+                    </span>
+                    <ul class="dp-SubMenu">
+                        <li>
+                            <a href="#">
+                                <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dp-TicketMenuItem dp-MenuBarItem dp-DropMenuJs">
+                    <span class="dp-TitleMenu">
+                        <span>Problems & incidents (2)</span>
+                        <span class="dp-Arrow"></span>
+                    </span>
+                    <ul class="dp-SubMenu">
+                        <li>
+                            <a href="#">
+                                <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dp-TicketMenuItem dp-MenuBarItem dp-DropMenuJs">
+                    <span class="dp-TitleMenu">
+                        <span>Labels</span>
+                        <span class="dp-Arrow"></span>
+                    </span>
+                    <ul class="dp-SubMenu">
+                        <li>
+                            <a href="#">
+                                <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dp-TicketMenuItem dp-MenuBarItem dp-DropMenuJs">
+                    <span class="dp-TitleMenu">
+                        <span>My stars (3)</span>
+                        <span class="dp-Arrow"></span>
+                    </span>
+                    <ul class="dp-SubMenu">
+                        <li>
+                            <a href="#">
+                                <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
             </ul>
-
 
             <ul class="dp-FilterControlsList">
               <li class="dp-FilterControlsItem">
@@ -1155,13 +1375,6 @@ class Demo extends React.Component {
             </ul>
 
 
-
-
-
-
-
-
-
             <div class="dp-Sso">
               <div class="dp-SsoWrap">
                   <span class="dp-Icon dp-IconStar"></span>
@@ -1171,13 +1384,13 @@ class Demo extends React.Component {
             </div>
 
             <div class="dp-TemplateMainBarContainer">
-              <button class="dp-ActionButton is-active dp-DropMenuJs" type="button">
+              <button class="dp-ActionButton dp-DropMenuJs" type="button">
                 <span class="dp-Icon dp-iconRocketBlue"></span>
                 <span class="dp-Icon dp-iconRocketwhite"></span>
                 ACTIONS
               </button>
 
-              <ul class="dp-ContextMenu is-active">
+              <ul class="dp-ContextMenu">
                 <li class="dp-disabledItem"><a href="#"><span class="dp-MenuIcon dp-iconLockGray"></span> Lock (permission required)</a></li>
                 <li><a href="#"><span class="dp-MenuIcon dp-iconGrayMin"></span> Put ticket on hold</a></li>
                 <li class="dp-disabledItem"><a href="#">  <span class="dp-MenuIcon dp-IconDelete"></span>   Delete (permission required)</a></li>
@@ -1594,7 +1807,7 @@ class Demo extends React.Component {
                 
                 <div class="dp-ReplyBox">
                   <div class="dp-Actions">
-                      <ul class="dp-ActionsItems">
+                      <ul class="dp-ActionsItems dp-BackgroundGray">
                           <li class="dp-ActionsItem">Reply</li>
                           <li class="dp-ActionsItem">Add Note</li>
                           <li class="dp-ActionsItem">Forward</li>

@@ -1,20 +1,26 @@
-.dp-ReplyBox {
+.dp-ReplyWrapper {
   border: 2px solid #d9dbdc;
   border-radius: 5px;
   display: block;
+  margin-bottom: 15px;
 }
 
 .dp-ActionsItems {
-  background-color: #f7f7f7;
   display: flex;
+}
+
+.dp-BackgroundGray {
+  background-color: #f7f7f7;
 }
 
 .dp-ActionsItem {
   border-right: 1px solid #d9dbdc;
   color: #4c4f50;
+  cursor: pointer;
   display: flex;
   font-size: 11px;
   margin: 10px 0;
+  margin-right: 15px;
   padding: 0 10px;
   text-transform: uppercase;
 }
@@ -33,4 +39,107 @@
 .dp-ReplyBox .dp-Arrow::after {
   border-color: #4c4f50 transparent transparent transparent;
   border-width: 3px 3px 0 3px;
+}
+
+/* ReplyBox 2 */
+
+.dp-Reply2 .dp-ActionsItem:hover, .dp-Reply2 .dp-ActionsItem.is-active {
+  border-bottom: 2px solid #318cdd;
+  color: #318cdd;
+  margin-bottom: -2px;
+  padding-bottom: 12px;
+}
+
+.dp-Reply2 .dp-ActionsItem:hover .dp-Arrow::after {
+  border-color: #318cdd transparent transparent transparent;
+}
+
+.dp-BorderBottom {
+  border-bottom: 2px solid #d9dbdc;
+  margin-bottom: 10px;
+}
+
+.dp-Reply2 .dp-ActionsItem {
+  align-items: center;
+  border-bottom: 2px solid transparent;
+  border-right: 0;
+  display: flex;
+  margin: 0 15px 0 0;
+  padding: 10px 10px;
+}
+
+.dp-Reply2 .dp-ReplyWrapper {
+  border: 2px solid #318cdd;
+}
+
+.dp-SendAs {
+  background-color: #cdcbcb;
+  border-radius: 2px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 11px;
+  max-width: 100%;
+  padding: 5px 5px 5px 10px;
+  position: relative;
+}
+
+.dp-SendAs::after {
+  background-color: #fff;
+  content: "";
+  height: 100%;
+  position: absolute;
+  right: 23px;
+  top: 0;
+  width: 1px;
+}
+
+.dp-SendAs .dp-Arrow {
+  padding-left: 25px;
+}
+
+.dp-SendAs .dp-Arrow::after {
+  border-color: #fff transparent transparent transparent;
+}
+
+.dp-ActionsItem.is-active .dp-ContextMenu {
+  display: block;
+  min-width: 140px;
+}
+
+.dp-ActionsItem.is-active .dp-Arrow::after, .dp-Reply2 .is-active.dp-ActionsItem:hover .dp-Arrow::after {
+  border-color: transparent transparent #318cdd transparent;
+  border-width: 0 3px 3px 3px;
+}
+
+.dp-ReplyBox .dp-ActionsItem:hover .dp-ContextMenu, .dp-ReplyBox .dp-ActionsItem.is-active .dp-ContextMenu {
+  top: calc(100% + 3px);
+}
+
+/* ReplyBox 3 */
+
+.dp-Reply3 .dp-ActionsItems {
+  margin-bottom: 10px;
+}
+
+.dp-Reply3 .dp-ActionsItem {
+  background-color: transparent;
+  border: 2px solid #d9dbdc;
+  border-radius: 3px;
+  border-right: 0;
+  margin: 0 15px 0 0;
+  padding: 10px 10px;
+}
+
+.dp-Reply3 .dp-ActionsItem:hover {
+  border: 2px solid #318cdd;
+}
+
+.dp-Reply3 .dp-ActionsItem.is-active {
+  background-color: #318cdd;
+  border: 2px solid #318cdd;
+  color: #fff;
+}
+
+.dp-Reply3 .dp-ActionsItem.is-active .dp-Arrow::after {
+  border-color: transparent transparent #fff transparent;
 }

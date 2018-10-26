@@ -58,7 +58,7 @@
 
 .dp-TemplateMainBarContainer {
   display: block;
-  padding: 3px 10px;
+  padding: 3px 10px 0;
   position: relative;
 }
 
@@ -123,16 +123,19 @@
   top: 46px;
 }
 
+.dp-Template {
+  overflow: hidden;
+}
+
 .dp-Template .dp-TemplateMainContentRight .dpApps-AppPanel {
   position: absolute;
   right: -100%;
-  top: 0;
+  top: 46px;
 }
 
 .dp-Template .dp-TemplateMainContentRight .dpApps-AppPanel.is-active {
   border-top: 0;
   right: 0;
-  top: 46px;
 }
 
 .iconArrow--left {
