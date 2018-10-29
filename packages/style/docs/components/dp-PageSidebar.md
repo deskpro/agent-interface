@@ -112,7 +112,7 @@ title: PageSidebar
                             Zack Prudent
                         </p>
 
-                        <p class="dp-Email"><a href="mailto:zack.prudent@techcompany.com">zack.prudent@techcompany.com</a></p>
+                        <p class="dp-Email">zack.prudent@techcompany.com</p>
                         <p class="dp-Phone">
                             <i class="dp-Icon dp-iconPhoneBlue"></i><a href="tel:+442035678940" >+44 20 356 789 40</a>
                         </p>

@@ -2,11 +2,6 @@
   display: block;
 }
 
-/*
-.dp-OverlayWrapp.is-active {
-  display: block;
-} */
-
 .dp-UserContainer {
   display: flex;
 }
@@ -97,6 +92,7 @@
 
 .dp-LeftSidebar .ButtonTabs-arrow {
   border-bottom: 2px solid #dcdedf;
+  display: block;
   width: 100%;
 }
 

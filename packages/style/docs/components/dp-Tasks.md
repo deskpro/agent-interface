@@ -153,7 +153,7 @@ title: Tasks
 					            <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-iconChat"></span>Add comment</li>
 					        </ul>
 			                <span class="dp-TimeStatus">
-			                    <span class="dp-Tag Tag--small Tag--pink is-disabled">Remove</span>
+			                    <span class="dp-Tag Tag--small Tag--pink">Remove</span>
 			                </span>
 			            </span>
 			        </li>
@@ -174,7 +174,7 @@ title: Tasks
 					            <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-iconChat"></span>Add comment</li>
 					        </ul>
 			                <span class="dp-TimeStatus">
-			                    <span class="dp-Tag Tag--small Tag--pink is-disabled">Remove</span>
+			                    <span class="dp-Tag Tag--small Tag--pink">Remove</span>
 			                </span>
 			            </span>
 			        </li>
@@ -195,7 +195,7 @@ title: Tasks
 					            <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-iconChat"></span>Add comment <a href="#" class="dp-NumLink">(1)</a></li>
 					        </ul>
 			                <span class="dp-TimeStatus">
-			                    <span class="dp-Tag Tag--small Tag--pink is-disabled">Remove</span>
+			                    <span class="dp-Tag Tag--small Tag--pink">Remove</span>
 			                </span>
 			            </span>
 

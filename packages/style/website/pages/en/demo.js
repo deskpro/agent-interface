@@ -2321,7 +2321,7 @@ class Demo extends React.Component {
                                     <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-iconUserAvatar"></span>Me<span class="dp-Arrow"></span></li>
                                 </ul>
                                 <span class="dp-TimeStatus">
-                                    <span class="dp-Tag Tag--small Tag--pink is-disabled">Remove</span>
+                                    <span class="dp-Tag Tag--small Tag--pink">Remove</span>
                                 </span>
                               </span>
                           </li>
@@ -2340,7 +2340,7 @@ class Demo extends React.Component {
                                   <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-iconUserAvatar"></span>Me<span class="dp-Arrow"></span></li>
                               </ul>
                                   <span class="dp-TimeStatus">
-                                      <span class="dp-Tag Tag--small Tag--pink is-disabled">Remove</span>
+                                      <span class="dp-Tag Tag--small Tag--pink">Remove</span>
                                   </span>
                               </span>
                           </li>
@@ -2359,7 +2359,7 @@ class Demo extends React.Component {
                                   <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-iconUserAvatar"></span>Me<span class="dp-Arrow"></span></li>
                               </ul>
                                   <span class="dp-TimeStatus">
-                                      <span class="dp-Tag Tag--small Tag--pink is-disabled">Remove</span>
+                                      <span class="dp-Tag Tag--small Tag--pink">Remove</span>
                                   </span>
                               </span>
                           </li>
@@ -2386,9 +2386,6 @@ class Demo extends React.Component {
                   </form>
                 </div>
               </div>
-
-
-
 
               <div class="dp-TicketProperties dp-MenuBarIcon">
 
@@ -2461,7 +2458,7 @@ class Demo extends React.Component {
                                 <img src="/agent-interface/style/img/docs/avatar.png" alt="" class="dp-Icon dp-Avatar"></img>
                                 Zack Prudent
                             </p>
-                            <p class="dp-Email"><a href="mailto:zack.prudent@techcompany.com">zack.prudent@techcompany.com</a></p>
+                            <p class="dp-Email">zack.prudent@techcompany.com</p>
                             <p class="dp-Phone">
                                 <i class="dp-Icon dp-iconPhoneBlue"></i><a href="tel:+442035678940" >+44 20 356 789 40</a>
                             </p>

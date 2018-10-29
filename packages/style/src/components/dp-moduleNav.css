@@ -13,6 +13,7 @@
   content: "";
   display: block;
   height: 2px;
+  left: 0;
   position: absolute;
   width: 100%;
 }
