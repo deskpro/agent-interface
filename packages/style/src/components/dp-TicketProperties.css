@@ -1,0 +1,136 @@
+.dp-TicketProperties {
+  color: #4c4f50;
+  display: block;
+  left: 0;
+  position: absolute;
+  top: 35px;
+  width: 100%;
+  z-index: 9;
+}
+
+.dp-TicketProperties .dp-BarListWrapper {
+  padding: 25px;
+}
+
+.dp-TicketProperties .dp-PropertyList {
+  display: flex;
+}
+
+.dp-PropertyTitleList, .dp-PropertySubTitleList {
+  list-style: none;
+  margin-bottom: 0;
+  margin-right: 50px;
+  padding-left: 0;
+}
+
+.dp-TitleListItem, .dp-SubTitleListItem {
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 0;
+  position: relative;
+}
+
+.dp-TitleListItem {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 2;
+  position: relative;
+}
+
+.dp-SubTitleListItem {
+  align-items: center;
+  display: flex;
+  font-size: 12px;
+  line-height: 2.4;
+}
+
+.dp-TicketProperties .dp-BarListWrapper .dp-Icon {
+  background-size: 16px 15px;
+  height: 15px;
+  margin-right: 5px;
+  width: 16px;
+}
+
+.dp-LinkShow {
+  color: #4c4f50;
+  cursor: pointer;
+  font-size: 10px;
+}
+
+.dp-SecurityDropDown {
+  background-color: #fff;
+  border: 2px solid #318cdd;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  display: none;
+  left: 0;
+  list-style-type: none;
+  padding: 5px 0;
+  position: absolute;
+  top: calc(100% + 5px);
+  z-index: 9;
+}
+
+.dp-SecurityDropDown li {
+  line-height: 1.5;
+}
+
+.dp-PropertySubTitleList form {
+  margin: 0 5px;
+  position: relative;
+}
+
+.dp-PropertySubTitleList form input {
+  border: 2px solid #318cdd;
+  border-radius: 5px;
+  outline: none;
+  padding: 5px 0 5px 25px;
+}
+
+.dp-TicketProperties .dp-IconSearch {
+  left: 5px;
+  position: absolute;
+  top: 8px;
+}
+
+.dp-AddBtn {
+  background-color: #e1f1eb;
+  display: block;
+  margin: 3px 5px 0;
+  text-align: center;
+}
+
+.dp-AddBtn a {
+  color: #79be7e;
+}
+
+.dp-SecurityDropDown .dp-RemoveBtn {
+  color: #d3125c;
+  font-size: 9px;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  top: -28px;
+}
+
+.dp-SecurityDropDown .dp-RemoveBtn:hover {
+  background-color: transparent;
+  color: #d3125c;
+}
+
+.dp-SubTitleListItem.is-active {
+  color: #318cdd;
+}
+
+.dp-SubTitleListItem.is-active .dp-SecurityDropDown {
+  display: block;
+}
+
+.dp-TicketProperties .dp-BarListWrapper {
+  display: none;
+}
+
+.dp-TicketProperties.is-active .dp-BarListWrapper {
+  display: block;
+}

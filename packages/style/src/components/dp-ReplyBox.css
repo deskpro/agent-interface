@@ -37,7 +37,8 @@
 }
 
 .dp-ReplyBox .dp-Arrow::after {
-  border-color: #4c4f50 transparent transparent transparent;
+
+  /* border-color: #4c4f50 transparent transparent transparent; */
   border-width: 3px 3px 0 3px;
 }
 
@@ -77,6 +78,7 @@
   border-radius: 2px;
   color: #fff;
   cursor: pointer;
+  cursor: not-allowed;
   font-size: 11px;
   max-width: 100%;
   padding: 5px 5px 5px 10px;
@@ -112,7 +114,7 @@
 }
 
 .dp-ReplyBox .dp-ActionsItem:hover .dp-ContextMenu, .dp-ReplyBox .dp-ActionsItem.is-active .dp-ContextMenu {
-  top: calc(100% + 3px);
+  top: calc(100% + 6px);
 }
 
 /* ReplyBox 3 */
@@ -125,7 +127,6 @@
   background-color: transparent;
   border: 2px solid #d9dbdc;
   border-radius: 3px;
-  border-right: 0;
   margin: 0 15px 0 0;
   padding: 10px 10px;
 }

@@ -22,7 +22,10 @@
       "components/dp-Tasks",
       "components/dp-UserOverlay",
       "components/dp-TagBar",
-      "components/dp-DropDownBar"
+      "components/dp-DropDownBar",
+      "components/dp-StatusComponent",
+      "components/dp-TicketProperties",
+      "components/dp-FilterResultMenu"
     ],
     "Elements": [
       "elements/dp-Button",

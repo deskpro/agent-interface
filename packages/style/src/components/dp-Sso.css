@@ -10,7 +10,7 @@
 
 .dp-SsoContent {
   display: inline-block;
-  flex: 1 1 0;
+  flex: 0 1 auto;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -28,4 +28,12 @@
   font-size: 14px;
   margin-left: 10px;
   white-space: nowrap;
+}
+
+.dp-Sso .dp-TagBar {
+  flex: 1 0 auto;
+}
+
+.dp-Sso .dp-Tag.dp-TagPlus {
+  margin-left: 5px;
 }

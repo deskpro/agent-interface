@@ -91,9 +91,6 @@ class Demo extends React.Component {
                     </div>
                 </div>
                 <div class="dp-UserContainer dp-BrandsInfo">
-
-
-
                     <div class="dpApps-AppPanel">
                       <div class="dpApps-AppTabs is-horizontal">
                         <div class="dpApps-ButtonTabs--wrap">
@@ -175,10 +172,8 @@ class Demo extends React.Component {
                                 </div>
                               </div>
                             </div>
-
                           </section>
                         </div>
-
                         <div class="dpApps-AppFrame">
                           <div class="dpApps-AppBar dpApps-Level">
                             <div class="dpApps-LevelLeft">
@@ -199,9 +194,7 @@ class Demo extends React.Component {
                               </a>
                             </div>
                           </div>
-                          
                         </div>
-
                         <div class="dpApps-AppFrame is-colapsed">
                           <div class="dpApps-AppBar dpApps-Level">
                             <div class="dpApps-LevelLeft">
@@ -257,7 +250,6 @@ class Demo extends React.Component {
                             </div>
                           </section>
                         </div>
-
                         <div class="dpApps-AddApp">
                           <div class="dpApps-Level">
                             <a href="" class="dpApps-LevelLeft">
@@ -271,13 +263,6 @@ class Demo extends React.Component {
                         </div>
                       </div>
                     </div>
-
-
-
-
-
-
-
                     <ul class="dp-LeftSidebar">
                         <li><button class="dpApps-ButtonTabs ButtonTabs-arrow dp-DropMenuJs"><i class="dpApps-IconArrow iconArrow--right"></i></button></li>
                         <li><span class="dp-Icon dp-IconTrello"></span></li>
@@ -466,55 +451,54 @@ class Demo extends React.Component {
                 </div>
             </div>
         </div>
-
       <div class="dp-TemplateLeftCol">
         <ul class="dp-ModuleNav">
-          <li class="dp-ModuleNavList is-active">
+          <li class="dp-ModuleNavList dp-DropMenuJs">
             <a class="dp-Icon dp-iconEmail" href="#"></a>
             <a class="dp-Icon dp-iconEmailWhite Icon--White" href="#"></a>
             <span class="dp-IconTooltip">Tickets</span>
           </li>
-          <li class="dp-ModuleNavList">
+          <li class="dp-ModuleNavList dp-DropMenuJs">
             <a class="dp-Icon dp-iconChat" href="#"></a>
             <a class="dp-Icon dp-iconChatWhite Icon--White" href="#"></a>
             <span class="dp-IconTooltip">Chats</span>
           </li>
-          <li class="dp-ModuleNavList">
+          <li class="dp-ModuleNavList dp-DropMenuJs">
             <a class="dp-Icon dp-iconAvatar" href="#"></a>
             <a class="dp-Icon dp-iconAvatarWhite Icon--White" href="#"></a>
             <span class="dp-IconTooltip">CRM</span>
           </li>
-          <li class="dp-ModuleNavList">
+          <li class="dp-ModuleNavList dp-DropMenuJs">
             <a class="dp-Icon dp-iconLike" href="#"></a>
             <a class="dp-Icon dp-iconLikeWhite Icon--White" href="#"></a>
             <span class="dp-IconTooltip">Feedback</span>
           </li>
-          <li class="dp-ModuleNavList">
+          <li class="dp-ModuleNavList dp-DropMenuJs">
             <a class="dp-Icon dp-iconAi" href="#"></a>
             <a class="dp-Icon dp-iconAiWhite Icon--White" href="#"></a>
             <span class="dp-IconTooltip">Publish</span>
           </li>
-          <li class="dp-ModuleNavList">
+          <li class="dp-ModuleNavList dp-DropMenuJs">
             <a class="dp-Icon dp-iconApprov" href="#"></a>
             <a class="dp-Icon dp-iconApprovWhite Icon--White" href="#"></a>
             <span class="dp-IconTooltip">Tasks</span>
           </li>
-          <li class="dp-ModuleNavList">
+          <li class="dp-ModuleNavList dp-DropMenuJs">
             <a class="dp-Icon dp-iconTrello" href="#"></a>
             <a class="dp-Icon dp-iconTrelloWhite Icon--White" href="#"></a>
             <span class="dp-IconTooltip">Reports</span>
           </li>
-          <li class="dp-ModuleNavList">
+          <li class="dp-ModuleNavList dp-DropMenuJs">
             <a class="dp-Icon dp-iconSetting" href="#"></a>
             <a class="dp-Icon dp-iconSettingWhite Icon--White" href="#"></a>
             <span class="dp-IconTooltip">Admin</span>
           </li>
-          <li class="dp-ModuleNavList is-borderBottom">
+          <li class="dp-ModuleNavList is-borderBottom dp-DropMenuJs">
             <a class="dp-Icon dp-iconMoney" href="#"></a>
             <a class="dp-Icon dp-iconMoneyWhite Icon--White" href="#"></a>
             <span class="dp-IconTooltip">Billing</span>
           </li>
-          <li class="dp-ModuleNavList dp-integration">
+          <li class="dp-ModuleNavList dp-integration dp-DropMenuJs">
             <a class="dp-Icon dp-iconIntegration" href="#"></a>
             <a class="dp-Icon dp-iconIntegrationWhite Icon--White" href="#"></a>
             <span class="dp-IconTooltip">
@@ -579,7 +563,6 @@ class Demo extends React.Component {
                     <li class="dp-MenuBarItem"><span class="dp-Icon dp-IconChatGreen"></span></li>
                     <li class="dp-MenuBarItem"><span class="dp-Icon dp-Avatar"><img src="/agent-interface/style/img/docs/avatar.png" class="dp-IconAvatar" alt=""></img></span><span class="dp-Arrow"></span></li>
                     <li class="dp-MenuBarItem dp-DropMenuJs"><span class="dp-Icon dp-IconPlane dp-ActionDropDown"></span><span class="dp-Arrow"></span>
-
                       <div class="dp-YourAccount">
                         <div class="dp-AccountWrap">
                           <ul class="dp-AccountList">
@@ -620,7 +603,6 @@ class Demo extends React.Component {
                           </ul>
                         </div>
                       </div>
-
                     </li>
                 </ul>
               </div>
@@ -646,7 +628,6 @@ class Demo extends React.Component {
                 </div>
               </div>
             </div>
-
             <ul class="dp-TicketMenu">
                 <li class="dp-TicketMenuItem dp-MenuBarItem is-active dp-DropMenuJs">
                     <span class="dp-TitleMenu">
@@ -817,7 +798,6 @@ class Demo extends React.Component {
                     </ul>
                 </li>
             </ul>
-
             <ul class="dp-FilterControlsList">
               <li class="dp-FilterControlsItem">
                 <span class="dp-CustomCheckbox dp-EmptyCheckbox">
@@ -862,29 +842,111 @@ class Demo extends React.Component {
                   <li class="dp-FilterResultTitle">
                       <span>Sales</span>
                   </li>
+
                   <li class="dp-FilterResultItem is-active">
-                      <span class="dp-ItemRow">
-                          <span class="dp-CustomCheckbox">
-                              <input type="checkbox" class="dp-ControlInput" id="customCheckbox1"></input>
-                              <label for="customCheckbox1">SSO Information</label>
-                              <span class="dp-Icon dp-iconStar"></span>
-                          </span>
-                          <span class="dp-IconGroup">
-                              <span class="dp-Circle dp-iconRocket"></span>
-                              <span class="dp-Badge Badge--empty"></span>
-                              <span class="dp-Badge Badge--red">10</span>
-                          </span>
-                      </span>
-                      <span class="dp-ItemRow">
-                          <span class="dp-UserInfo">
-                              <span class="dp-Icon dp-iconUserAvatar"></span>
-                              <span class="dp-UserName">Kenneth James  <span class="dp-UserEmail">&lt;<span class="dp-UserEmailItem">kenneth@windfarms.loremipsum</span>&gt;</span>Windfarms Windfarms Windfarms Windfarms Windfarms Windfarms Windfarms Windfarms Windfarms</span>
-                          </span>
-                          <span class="dp-TimeStatus">
-                              <span>12 hr 30 min</span>
-                          </span>
-                      </span>
+                    <span class="dp-ItemRow">
+                        <span class="dp-CustomCheckbox">
+                            <input type="checkbox" class="dp-ControlInput" id="customCheckbox1" checked="checked"></input>
+                            <label for="customCheckbox1">SSO Information</label>
+                            <span class="dp-Icon dp-iconStar"></span>
+                        </span>
+                        <span class="dp-IconGroup">
+                            <span class="dp-Circle dp-iconRocket"></span>
+                            <span class="dp-Badge Badge--empty"></span>
+                            <span class="dp-Badge Badge--red">10</span>
+                        </span>
+                    </span>
+                    <span class="dp-ItemRow">
+                        <span class="dp-UserInfo">
+                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                            <span class="dp-UserName">Kenneth James  <span class="dp-UserEmail">&lt;<span class="dp-UserEmailItem">kenneth@windfarms.loremipsum</span>&gt;</span>Windfarms Windfarms Windfarms Windfarms Windfarms Windfarms Windfarms Windfarms Windfarms</span>
+                        </span>
+                        <span class="dp-TimeStatus">
+                            <span>12 hr 30 min</span>
+                        </span>
+                    </span>
+                    <ul class="dp-FilterResultMenu dp-ContextMenu">
+                      <li>Assign to <a href="#" class="dp-listLink">me</a> or <span class="dp-Arrow"></span>
+                        <ul class="dp-SubContextMenu dp-ContextMenu">
+                          <li>
+                            <form>
+                              <div class="dp-SearchForm">
+                                <button type="submit" class="dp-Icon dp-IconSearch"></button>
+                                <input type="text" class="dp-SearchInput"></input>
+                              </div>
+                            </form>
+                          </li>
+                          <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Pride</a></li>
+                          <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bob Cooper</a></li>
+                          <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Julien Ducro</a></li>
+                          <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Lightbody</a></li>
+                          <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bobby Steiner</a></li>
+                          <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Pride</a></li>
+                          <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bob Cooper</a></li>
+                          <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Julien Ducro</a></li>
+                          <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Lightbody</a></li>
+                          <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bobby Steiner</a></li>
+                        </ul>
+                      </li>
+                      <li>Assign to <a href="#" class="dp-listLink">my team</a> or <span class="dp-Arrow"></span>
+                        <ul class="dp-SubContextMenu dp-ContextMenu">
+                          <li>
+                            <form>
+                              <div class="dp-SearchForm">
+                                <button type="submit" class="dp-Icon dp-IconSearch"></button>
+                                <input type="text" class="dp-SearchInput"></input>
+                              </div>
+                            </form>
+                          </li>
+                          <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Pride</a></li>
+                          <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bob Cooper</a></li>
+                          <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Julien Ducro</a></li>
+                          <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Lightbody</a></li>
+                          <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bobby Steiner</a></li>
+                          <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Pride</a></li>
+                          <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bob Cooper</a></li>
+                        </ul>
+                      </li>
+                      <li class="dp-DropdownDivider"></li>
+                      <li>Status <span class="dp-Arrow"></span>
+                        <ul class="dp-SubContextMenu dp-ContextMenu">
+                          <li>
+                            <form>
+                              <div class="dp-SearchForm">
+                                <button type="submit" class="dp-Icon dp-IconSearch"></button>
+                                <input type="text" class="dp-SearchInput"></input>
+                              </div>
+                            </form>
+                          </li>
+                          <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Pride</a></li>
+                          <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bob Cooper</a></li>
+                          <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Julien Ducro</a></li>
+                          <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Lightbody</a></li>
+                          <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bobby Steiner</a></li>
+                        </ul>
+                      </li>
+                      <li>Urgency <span class="dp-Arrow"></span>
+                        <ul class="dp-SubContextMenu dp-ContextMenu">
+                          <li>
+                            <form>
+                              <div class="dp-SearchForm">
+                                <button type="submit" class="dp-Icon dp-IconSearch"></button>
+                                <input type="text" class="dp-SearchInput"></input>
+                              </div>
+                            </form>
+                          </li>
+                          <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Pride</a></li>
+                          <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bob Cooper</a></li>
+                          <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Lightbody</a></li>
+                        </ul>
+                      </li>
+                      <li class="dp-DropdownDivider"></li>
+                      <li><a href="#" class="dp-listItem">Place on hold</a></li>
+                      <li><a href="#" class="dp-listItem">Lock</a></li>
+                      <li><a href="#" class="dp-listItem">Unlock</a></li>
+                    </ul>
                   </li>
+
                   <li class="dp-FilterResultItem">
                       <span class="dp-ItemRow">
                           <span class="dp-CustomCheckbox">
@@ -906,7 +968,88 @@ class Demo extends React.Component {
                               <span class="dp-Tag Tag--small Tag--pink">Failed</span>
                           </span>
                       </span>
+                      <ul class="dp-FilterResultMenu dp-ContextMenu">
+                        <li>Assign to <a href="#" class="dp-listLink">me</a> or <span class="dp-Arrow"></span>
+                          <ul class="dp-SubContextMenu dp-ContextMenu">
+                            <li>
+                              <form>
+                                <div class="dp-SearchForm">
+                                  <button type="submit" class="dp-Icon dp-IconSearch"></button>
+                                  <input type="text" class="dp-SearchInput"></input>
+                                </div>
+                              </form>
+                            </li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Pride</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bob Cooper</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Julien Ducro</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Lightbody</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bobby Steiner</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Pride</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bob Cooper</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Julien Ducro</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Lightbody</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bobby Steiner</a></li>
+                          </ul>
+                        </li>
+                        <li>Assign to <a href="#" class="dp-listLink">my team</a> or <span class="dp-Arrow"></span>
+                          <ul class="dp-SubContextMenu dp-ContextMenu">
+                            <li>
+                              <form>
+                                <div class="dp-SearchForm">
+                                  <button type="submit" class="dp-Icon dp-IconSearch"></button>
+                                  <input type="text" class="dp-SearchInput"></input>
+                                </div>
+                              </form>
+                            </li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Pride</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bob Cooper</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Julien Ducro</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Lightbody</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bobby Steiner</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Pride</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bob Cooper</a></li>
+                          </ul>
+                        </li>
+                        <li class="dp-DropdownDivider"></li>
+                        <li>Status <span class="dp-Arrow"></span>
+                          <ul class="dp-SubContextMenu dp-ContextMenu">
+                            <li>
+                              <form>
+                                <div class="dp-SearchForm">
+                                  <button type="submit" class="dp-Icon dp-IconSearch"></button>
+                                  <input type="text" class="dp-SearchInput"></input>
+                                </div>
+                              </form>
+                            </li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Pride</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bob Cooper</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Julien Ducro</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Lightbody</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bobby Steiner</a></li>
+                          </ul>
+                        </li>
+                        <li>Urgency <span class="dp-Arrow"></span>
+                          <ul class="dp-SubContextMenu dp-ContextMenu">
+                            <li>
+                              <form>
+                                <div class="dp-SearchForm">
+                                  <button type="submit" class="dp-Icon dp-IconSearch"></button>
+                                  <input type="text" class="dp-SearchInput"></input>
+                                </div>
+                              </form>
+                            </li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Pride</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bob Cooper</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Lightbody</a></li>
+                          </ul>
+                        </li>
+                        <li class="dp-DropdownDivider"></li>
+                        <li><a href="#" class="dp-listItem">Place on hold</a></li>
+                        <li><a href="#" class="dp-listItem">Lock</a></li>
+                        <li><a href="#" class="dp-listItem">Unlock</a></li>
+                      </ul>
                   </li>
+
                   <li class="dp-FilterResultItem">
                       <span class="dp-ItemRow">
                           <span class="dp-CustomCheckbox">
@@ -929,8 +1072,89 @@ class Demo extends React.Component {
                               <span class="dp-Tag Tag--small Tag--pink">3 hours</span>
                           </span>
                       </span>
+                      <ul class="dp-FilterResultMenu dp-ContextMenu">
+                        <li>Assign to <a href="#" class="dp-listLink">me</a> or <span class="dp-Arrow"></span>
+                          <ul class="dp-SubContextMenu dp-ContextMenu">
+                            <li>
+                              <form>
+                                <div class="dp-SearchForm">
+                                  <button type="submit" class="dp-Icon dp-IconSearch"></button>
+                                  <input type="text" class="dp-SearchInput"></input>
+                                </div>
+                              </form>
+                            </li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Pride</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bob Cooper</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Julien Ducro</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Lightbody</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bobby Steiner</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Pride</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bob Cooper</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Julien Ducro</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Lightbody</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bobby Steiner</a></li>
+                          </ul>
+                        </li>
+                        <li>Assign to <a href="#" class="dp-listLink">my team</a> or <span class="dp-Arrow"></span>
+                          <ul class="dp-SubContextMenu dp-ContextMenu">
+                            <li>
+                              <form>
+                                <div class="dp-SearchForm">
+                                  <button type="submit" class="dp-Icon dp-IconSearch"></button>
+                                  <input type="text" class="dp-SearchInput"></input>
+                                </div>
+                              </form>
+                            </li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Pride</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bob Cooper</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Julien Ducro</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Lightbody</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bobby Steiner</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Pride</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bob Cooper</a></li>
+                          </ul>
+                        </li>
+                        <li class="dp-DropdownDivider"></li>
+                        <li>Status <span class="dp-Arrow"></span>
+                          <ul class="dp-SubContextMenu dp-ContextMenu">
+                            <li>
+                              <form>
+                                <div class="dp-SearchForm">
+                                  <button type="submit" class="dp-Icon dp-IconSearch"></button>
+                                  <input type="text" class="dp-SearchInput"></input>
+                                </div>
+                              </form>
+                            </li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Pride</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bob Cooper</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Julien Ducro</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Lightbody</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bobby Steiner</a></li>
+                          </ul>
+                        </li>
+                        <li>Urgency <span class="dp-Arrow"></span>
+                          <ul class="dp-SubContextMenu dp-ContextMenu">
+                            <li>
+                              <form>
+                                <div class="dp-SearchForm">
+                                  <button type="submit" class="dp-Icon dp-IconSearch"></button>
+                                  <input type="text" class="dp-SearchInput"></input>
+                                </div>
+                              </form>
+                            </li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Pride</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bob Cooper</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Lightbody</a></li>
+                          </ul>
+                        </li>
+                        <li class="dp-DropdownDivider"></li>
+                        <li><a href="#" class="dp-listItem">Place on hold</a></li>
+                        <li><a href="#" class="dp-listItem">Lock</a></li>
+                        <li><a href="#" class="dp-listItem">Unlock</a></li>
+                      </ul>
                   </li>
-                  <li class="dp-FilterResultItem">
+
+                  <li class="dp-FilterResultItem" id="elem">
                       <span class="dp-ItemRow">
                           <span class="dp-CustomCheckbox">
                               <input type="checkbox" class="dp-ControlInput" id="customCheckbox4"></input>
@@ -950,7 +1174,88 @@ class Demo extends React.Component {
                               <span>2 hr 16 min</span>
                           </span>
                       </span>
+                      <ul class="dp-FilterResultMenu dp-ContextMenu">
+                        <li>Assign to <a href="#" class="dp-listLink">me</a> or <span class="dp-Arrow"></span>
+                          <ul class="dp-SubContextMenu dp-ContextMenu">
+                            <li>
+                              <form>
+                                <div class="dp-SearchForm">
+                                  <button type="submit" class="dp-Icon dp-IconSearch"></button>
+                                  <input type="text" class="dp-SearchInput"></input>
+                                </div>
+                              </form>
+                            </li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Pride</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bob Cooper</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Julien Ducro</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Lightbody</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bobby Steiner</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Pride</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bob Cooper</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Julien Ducro</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Lightbody</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bobby Steiner</a></li>
+                          </ul>
+                        </li>
+                        <li>Assign to <a href="#" class="dp-listLink">my team</a> or <span class="dp-Arrow"></span>
+                          <ul class="dp-SubContextMenu dp-ContextMenu">
+                            <li>
+                              <form>
+                                <div class="dp-SearchForm">
+                                  <button type="submit" class="dp-Icon dp-IconSearch"></button>
+                                  <input type="text" class="dp-SearchInput"></input>
+                                </div>
+                              </form>
+                            </li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Pride</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bob Cooper</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Julien Ducro</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Lightbody</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bobby Steiner</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Pride</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bob Cooper</a></li>
+                          </ul>
+                        </li>
+                        <li class="dp-DropdownDivider"></li>
+                        <li>Status <span class="dp-Arrow"></span>
+                          <ul class="dp-SubContextMenu dp-ContextMenu">
+                            <li>
+                              <form>
+                                <div class="dp-SearchForm">
+                                  <button type="submit" class="dp-Icon dp-IconSearch"></button>
+                                  <input type="text" class="dp-SearchInput"></input>
+                                </div>
+                              </form>
+                            </li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Pride</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bob Cooper</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Julien Ducro</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Lightbody</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bobby Steiner</a></li>
+                          </ul>
+                        </li>
+                        <li>Urgency <span class="dp-Arrow"></span>
+                          <ul class="dp-SubContextMenu dp-ContextMenu">
+                            <li>
+                              <form>
+                                <div class="dp-SearchForm">
+                                  <button type="submit" class="dp-Icon dp-IconSearch"></button>
+                                  <input type="text" class="dp-SearchInput"></input>
+                                </div>
+                              </form>
+                            </li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Pride</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bob Cooper</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Lightbody</a></li>
+                          </ul>
+                        </li>
+                        <li class="dp-DropdownDivider"></li>
+                        <li><a href="#" class="dp-listItem">Place on hold</a></li>
+                        <li><a href="#" class="dp-listItem">Lock</a></li>
+                        <li><a href="#" class="dp-listItem">Unlock</a></li>
+                      </ul>
                   </li>
+
                   <li class="dp-FilterResultItem">
                       <span class="dp-ItemRow">
                           <span class="dp-CustomCheckbox">
@@ -973,7 +1278,88 @@ class Demo extends React.Component {
                               <span>12 hr 43 min</span>
                           </span>
                       </span>
+                      <ul class="dp-FilterResultMenu dp-ContextMenu">
+                        <li>Assign to <a href="#" class="dp-listLink">me</a> or <span class="dp-Arrow"></span>
+                          <ul class="dp-SubContextMenu dp-ContextMenu">
+                            <li>
+                              <form>
+                                <div class="dp-SearchForm">
+                                  <button type="submit" class="dp-Icon dp-IconSearch"></button>
+                                  <input type="text" class="dp-SearchInput"></input>
+                                </div>
+                              </form>
+                            </li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Pride</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bob Cooper</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Julien Ducro</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Lightbody</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bobby Steiner</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Pride</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bob Cooper</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Julien Ducro</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Lightbody</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bobby Steiner</a></li>
+                          </ul>
+                        </li>
+                        <li>Assign to <a href="#" class="dp-listLink">my team</a> or <span class="dp-Arrow"></span>
+                          <ul class="dp-SubContextMenu dp-ContextMenu">
+                            <li>
+                              <form>
+                                <div class="dp-SearchForm">
+                                  <button type="submit" class="dp-Icon dp-IconSearch"></button>
+                                  <input type="text" class="dp-SearchInput"></input>
+                                </div>
+                              </form>
+                            </li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Pride</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bob Cooper</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Julien Ducro</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Lightbody</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bobby Steiner</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Pride</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bob Cooper</a></li>
+                          </ul>
+                        </li>
+                        <li class="dp-DropdownDivider"></li>
+                        <li>Status <span class="dp-Arrow"></span>
+                          <ul class="dp-SubContextMenu dp-ContextMenu">
+                            <li>
+                              <form>
+                                <div class="dp-SearchForm">
+                                  <button type="submit" class="dp-Icon dp-IconSearch"></button>
+                                  <input type="text" class="dp-SearchInput"></input>
+                                </div>
+                              </form>
+                            </li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Pride</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bob Cooper</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Julien Ducro</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Lightbody</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bobby Steiner</a></li>
+                          </ul>
+                        </li>
+                        <li>Urgency <span class="dp-Arrow"></span>
+                          <ul class="dp-SubContextMenu dp-ContextMenu">
+                            <li>
+                              <form>
+                                <div class="dp-SearchForm">
+                                  <button type="submit" class="dp-Icon dp-IconSearch"></button>
+                                  <input type="text" class="dp-SearchInput"></input>
+                                </div>
+                              </form>
+                            </li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Pride</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bob Cooper</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Lightbody</a></li>
+                          </ul>
+                        </li>
+                        <li class="dp-DropdownDivider"></li>
+                        <li><a href="#" class="dp-listItem">Place on hold</a></li>
+                        <li><a href="#" class="dp-listItem">Lock</a></li>
+                        <li><a href="#" class="dp-listItem">Unlock</a></li>
+                      </ul>
                   </li>
+
                   <li class="dp-FilterResultItem">
                       <span class="dp-ItemRow">
                           <span class="dp-CustomCheckbox">
@@ -995,7 +1381,88 @@ class Demo extends React.Component {
                               <span class="dp-Tag Tag--small Tag--orange">10.5 hours</span>
                           </span>
                       </span>
+                      <ul class="dp-FilterResultMenu dp-ContextMenu">
+                        <li>Assign to <a href="#" class="dp-listLink">me</a> or <span class="dp-Arrow"></span>
+                          <ul class="dp-SubContextMenu dp-ContextMenu">
+                            <li>
+                              <form>
+                                <div class="dp-SearchForm">
+                                  <button type="submit" class="dp-Icon dp-IconSearch"></button>
+                                  <input type="text" class="dp-SearchInput"></input>
+                                </div>
+                              </form>
+                            </li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Pride</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bob Cooper</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Julien Ducro</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Lightbody</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bobby Steiner</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Pride</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bob Cooper</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Julien Ducro</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Lightbody</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bobby Steiner</a></li>
+                          </ul>
+                        </li>
+                        <li>Assign to <a href="#" class="dp-listLink">my team</a> or <span class="dp-Arrow"></span>
+                          <ul class="dp-SubContextMenu dp-ContextMenu">
+                            <li>
+                              <form>
+                                <div class="dp-SearchForm">
+                                  <button type="submit" class="dp-Icon dp-IconSearch"></button>
+                                  <input type="text" class="dp-SearchInput"></input>
+                                </div>
+                              </form>
+                            </li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Pride</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bob Cooper</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Julien Ducro</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Lightbody</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bobby Steiner</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Pride</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bob Cooper</a></li>
+                          </ul>
+                        </li>
+                        <li class="dp-DropdownDivider"></li>
+                        <li>Status <span class="dp-Arrow"></span>
+                          <ul class="dp-SubContextMenu dp-ContextMenu">
+                            <li>
+                              <form>
+                                <div class="dp-SearchForm">
+                                  <button type="submit" class="dp-Icon dp-IconSearch"></button>
+                                  <input type="text" class="dp-SearchInput"></input>
+                                </div>
+                              </form>
+                            </li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Pride</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bob Cooper</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Julien Ducro</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Lightbody</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bobby Steiner</a></li>
+                          </ul>
+                        </li>
+                        <li>Urgency <span class="dp-Arrow"></span>
+                          <ul class="dp-SubContextMenu dp-ContextMenu">
+                            <li>
+                              <form>
+                                <div class="dp-SearchForm">
+                                  <button type="submit" class="dp-Icon dp-IconSearch"></button>
+                                  <input type="text" class="dp-SearchInput"></input>
+                                </div>
+                              </form>
+                            </li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Pride</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bob Cooper</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Lightbody</a></li>
+                          </ul>
+                        </li>
+                        <li class="dp-DropdownDivider"></li>
+                        <li><a href="#" class="dp-listItem">Place on hold</a></li>
+                        <li><a href="#" class="dp-listItem">Lock</a></li>
+                        <li><a href="#" class="dp-listItem">Unlock</a></li>
+                      </ul>
                   </li>
+
                   <li class="dp-FilterResultItem">
                       <span class="dp-ItemRow">
                           <span class="dp-CustomCheckbox">
@@ -1018,7 +1485,88 @@ class Demo extends React.Component {
                               <span>43 min</span>
                           </span>
                       </span>
+                      <ul class="dp-FilterResultMenu dp-ContextMenu">
+                        <li>Assign to <a href="#" class="dp-listLink">me</a> or <span class="dp-Arrow"></span>
+                          <ul class="dp-SubContextMenu dp-ContextMenu">
+                            <li>
+                              <form>
+                                <div class="dp-SearchForm">
+                                  <button type="submit" class="dp-Icon dp-IconSearch"></button>
+                                  <input type="text" class="dp-SearchInput"></input>
+                                </div>
+                              </form>
+                            </li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Pride</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bob Cooper</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Julien Ducro</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Lightbody</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bobby Steiner</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Pride</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bob Cooper</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Julien Ducro</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Lightbody</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bobby Steiner</a></li>
+                          </ul>
+                        </li>
+                        <li>Assign to <a href="#" class="dp-listLink">my team</a> or <span class="dp-Arrow"></span>
+                          <ul class="dp-SubContextMenu dp-ContextMenu">
+                            <li>
+                              <form>
+                                <div class="dp-SearchForm">
+                                  <button type="submit" class="dp-Icon dp-IconSearch"></button>
+                                  <input type="text" class="dp-SearchInput"></input>
+                                </div>
+                              </form>
+                            </li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Pride</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bob Cooper</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Julien Ducro</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Lightbody</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bobby Steiner</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Pride</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bob Cooper</a></li>
+                          </ul>
+                        </li>
+                        <li class="dp-DropdownDivider"></li>
+                        <li>Status <span class="dp-Arrow"></span>
+                          <ul class="dp-SubContextMenu dp-ContextMenu">
+                            <li>
+                              <form>
+                                <div class="dp-SearchForm">
+                                  <button type="submit" class="dp-Icon dp-IconSearch"></button>
+                                  <input type="text" class="dp-SearchInput"></input>
+                                </div>
+                              </form>
+                            </li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Pride</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bob Cooper</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Julien Ducro</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Lightbody</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bobby Steiner</a></li>
+                          </ul>
+                        </li>
+                        <li>Urgency <span class="dp-Arrow"></span>
+                          <ul class="dp-SubContextMenu dp-ContextMenu">
+                            <li>
+                              <form>
+                                <div class="dp-SearchForm">
+                                  <button type="submit" class="dp-Icon dp-IconSearch"></button>
+                                  <input type="text" class="dp-SearchInput"></input>
+                                </div>
+                              </form>
+                            </li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Pride</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bob Cooper</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Lightbody</a></li>
+                          </ul>
+                        </li>
+                        <li class="dp-DropdownDivider"></li>
+                        <li><a href="#" class="dp-listItem">Place on hold</a></li>
+                        <li><a href="#" class="dp-listItem">Lock</a></li>
+                        <li><a href="#" class="dp-listItem">Unlock</a></li>
+                      </ul>
                   </li>
+
                   <li class="dp-FilterResultItem">
                       <span class="dp-ItemRow">
                           <span class="dp-CustomCheckbox">
@@ -1040,10 +1588,92 @@ class Demo extends React.Component {
                               <span>3 days</span>
                           </span>
                       </span>
+                      <ul class="dp-FilterResultMenu dp-ContextMenu">
+                        <li>Assign to <a href="#" class="dp-listLink">me</a> or <span class="dp-Arrow"></span>
+                          <ul class="dp-SubContextMenu dp-ContextMenu">
+                            <li>
+                              <form>
+                                <div class="dp-SearchForm">
+                                  <button type="submit" class="dp-Icon dp-IconSearch"></button>
+                                  <input type="text" class="dp-SearchInput"></input>
+                                </div>
+                              </form>
+                            </li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Pride</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bob Cooper</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Julien Ducro</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Lightbody</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bobby Steiner</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Pride</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bob Cooper</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Julien Ducro</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Lightbody</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bobby Steiner</a></li>
+                          </ul>
+                        </li>
+                        <li>Assign to <a href="#" class="dp-listLink">my team</a> or <span class="dp-Arrow"></span>
+                          <ul class="dp-SubContextMenu dp-ContextMenu">
+                            <li>
+                              <form>
+                                <div class="dp-SearchForm">
+                                  <button type="submit" class="dp-Icon dp-IconSearch"></button>
+                                  <input type="text" class="dp-SearchInput"></input>
+                                </div>
+                              </form>
+                            </li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Pride</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bob Cooper</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Julien Ducro</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Lightbody</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bobby Steiner</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Pride</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bob Cooper</a></li>
+                          </ul>
+                        </li>
+                        <li class="dp-DropdownDivider"></li>
+                        <li>Status <span class="dp-Arrow"></span>
+                          <ul class="dp-SubContextMenu dp-ContextMenu">
+                            <li>
+                              <form>
+                                <div class="dp-SearchForm">
+                                  <button type="submit" class="dp-Icon dp-IconSearch"></button>
+                                  <input type="text" class="dp-SearchInput"></input>
+                                </div>
+                              </form>
+                            </li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Pride</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bob Cooper</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Julien Ducro</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Lightbody</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bobby Steiner</a></li>
+                          </ul>
+                        </li>
+                        <li>Urgency <span class="dp-Arrow"></span>
+                          <ul class="dp-SubContextMenu dp-ContextMenu">
+                            <li>
+                              <form>
+                                <div class="dp-SearchForm">
+                                  <button type="submit" class="dp-Icon dp-IconSearch"></button>
+                                  <input type="text" class="dp-SearchInput"></input>
+                                </div>
+                              </form>
+                            </li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Pride</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bob Cooper</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Lightbody</a></li>
+                          </ul>
+                        </li>
+                        <li class="dp-DropdownDivider"></li>
+                        <li><a href="#" class="dp-listItem">Place on hold</a></li>
+                        <li><a href="#" class="dp-listItem">Lock</a></li>
+                        <li><a href="#" class="dp-listItem">Unlock</a></li>
+                      </ul>
                   </li>
+
                   <li class="dp-FilterResultTitle">
                       <span>Support</span>
                   </li>
+
                   <li class="dp-FilterResultItem">
                       <span class="dp-ItemRow">
                           <span class="dp-CustomCheckbox">
@@ -1071,7 +1701,88 @@ class Demo extends React.Component {
                           <span class="dp-UserVal">Language: <span class="dp-ItemValue">Italiano</span></span>
                           <span class="dp-UserVal">Last reply: <span class="dp-ItemValue">9 weeks ago</span></span>
                       </span>
+                      <ul class="dp-FilterResultMenu dp-ContextMenu">
+                        <li>Assign to <a href="#" class="dp-listLink">me</a> or <span class="dp-Arrow"></span>
+                          <ul class="dp-SubContextMenu dp-ContextMenu">
+                            <li>
+                              <form>
+                                <div class="dp-SearchForm">
+                                  <button type="submit" class="dp-Icon dp-IconSearch"></button>
+                                  <input type="text" class="dp-SearchInput"></input>
+                                </div>
+                              </form>
+                            </li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Pride</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bob Cooper</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Julien Ducro</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Lightbody</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bobby Steiner</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Pride</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bob Cooper</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Julien Ducro</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Lightbody</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bobby Steiner</a></li>
+                          </ul>
+                        </li>
+                        <li>Assign to <a href="#" class="dp-listLink">my team</a> or <span class="dp-Arrow"></span>
+                          <ul class="dp-SubContextMenu dp-ContextMenu">
+                            <li>
+                              <form>
+                                <div class="dp-SearchForm">
+                                  <button type="submit" class="dp-Icon dp-IconSearch"></button>
+                                  <input type="text" class="dp-SearchInput"></input>
+                                </div>
+                              </form>
+                            </li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Pride</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bob Cooper</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Julien Ducro</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Lightbody</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bobby Steiner</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Pride</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bob Cooper</a></li>
+                          </ul>
+                        </li>
+                        <li class="dp-DropdownDivider"></li>
+                        <li>Status <span class="dp-Arrow"></span>
+                          <ul class="dp-SubContextMenu dp-ContextMenu">
+                            <li>
+                              <form>
+                                <div class="dp-SearchForm">
+                                  <button type="submit" class="dp-Icon dp-IconSearch"></button>
+                                  <input type="text" class="dp-SearchInput"></input>
+                                </div>
+                              </form>
+                            </li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Pride</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bob Cooper</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Julien Ducro</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Lightbody</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bobby Steiner</a></li>
+                          </ul>
+                        </li>
+                        <li>Urgency <span class="dp-Arrow"></span>
+                          <ul class="dp-SubContextMenu dp-ContextMenu">
+                            <li>
+                              <form>
+                                <div class="dp-SearchForm">
+                                  <button type="submit" class="dp-Icon dp-IconSearch"></button>
+                                  <input type="text" class="dp-SearchInput"></input>
+                                </div>
+                              </form>
+                            </li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Pride</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bob Cooper</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Lightbody</a></li>
+                          </ul>
+                        </li>
+                        <li class="dp-DropdownDivider"></li>
+                        <li><a href="#" class="dp-listItem">Place on hold</a></li>
+                        <li><a href="#" class="dp-listItem">Lock</a></li>
+                        <li><a href="#" class="dp-listItem">Unlock</a></li>
+                      </ul>
                   </li>
+
                   <li class="dp-FilterResultItem">
                       <span class="dp-ItemRow">
                           <span class="dp-CustomCheckbox">
@@ -1099,7 +1810,88 @@ class Demo extends React.Component {
                           <span class="dp-UserVal">Language: <span class="dp-ItemValue">English (US)</span></span>
                           <span class="dp-UserVal">Last reply: <span class="dp-ItemValue">5 months ago</span></span>
                       </span>
+                      <ul class="dp-FilterResultMenu dp-ContextMenu">
+                        <li>Assign to <a href="#" class="dp-listLink">me</a> or <span class="dp-Arrow"></span>
+                          <ul class="dp-SubContextMenu dp-ContextMenu">
+                            <li>
+                              <form>
+                                <div class="dp-SearchForm">
+                                  <button type="submit" class="dp-Icon dp-IconSearch"></button>
+                                  <input type="text" class="dp-SearchInput"></input>
+                                </div>
+                              </form>
+                            </li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Pride</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bob Cooper</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Julien Ducro</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Lightbody</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bobby Steiner</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Pride</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bob Cooper</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Julien Ducro</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Lightbody</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bobby Steiner</a></li>
+                          </ul>
+                        </li>
+                        <li>Assign to <a href="#" class="dp-listLink">my team</a> or <span class="dp-Arrow"></span>
+                          <ul class="dp-SubContextMenu dp-ContextMenu">
+                            <li>
+                              <form>
+                                <div class="dp-SearchForm">
+                                  <button type="submit" class="dp-Icon dp-IconSearch"></button>
+                                  <input type="text" class="dp-SearchInput"></input>
+                                </div>
+                              </form>
+                            </li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Pride</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bob Cooper</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Julien Ducro</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Lightbody</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bobby Steiner</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Pride</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bob Cooper</a></li>
+                          </ul>
+                        </li>
+                        <li class="dp-DropdownDivider"></li>
+                        <li>Status <span class="dp-Arrow"></span>
+                          <ul class="dp-SubContextMenu dp-ContextMenu">
+                            <li>
+                              <form>
+                                <div class="dp-SearchForm">
+                                  <button type="submit" class="dp-Icon dp-IconSearch"></button>
+                                  <input type="text" class="dp-SearchInput"></input>
+                                </div>
+                              </form>
+                            </li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Pride</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bob Cooper</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Julien Ducro</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Lightbody</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bobby Steiner</a></li>
+                          </ul>
+                        </li>
+                        <li>Urgency <span class="dp-Arrow"></span>
+                          <ul class="dp-SubContextMenu dp-ContextMenu">
+                            <li>
+                              <form>
+                                <div class="dp-SearchForm">
+                                  <button type="submit" class="dp-Icon dp-IconSearch"></button>
+                                  <input type="text" class="dp-SearchInput"></input>
+                                </div>
+                              </form>
+                            </li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Pride</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bob Cooper</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Lightbody</a></li>
+                          </ul>
+                        </li>
+                        <li class="dp-DropdownDivider"></li>
+                        <li><a href="#" class="dp-listItem">Place on hold</a></li>
+                        <li><a href="#" class="dp-listItem">Lock</a></li>
+                        <li><a href="#" class="dp-listItem">Unlock</a></li>
+                      </ul>
                   </li>
+
                   <li class="dp-FilterResultItem">
                       <span class="dp-ItemRow">
                           <span class="dp-CustomCheckbox">
@@ -1132,12 +1924,91 @@ class Demo extends React.Component {
                           <span class="dp-UserVal">Language: <span class="dp-ItemValue">Italiano</span></span>
                           <span class="dp-UserVal">Last reply: <span class="dp-ItemValue">9 weeks ago</span></span>
                       </span>
+                      <ul class="dp-FilterResultMenu dp-ContextMenu">
+                        <li>Assign to <a href="#" class="dp-listLink">me</a> or <span class="dp-Arrow"></span>
+                          <ul class="dp-SubContextMenu dp-ContextMenu">
+                            <li>
+                              <form>
+                                <div class="dp-SearchForm">
+                                  <button type="submit" class="dp-Icon dp-IconSearch"></button>
+                                  <input type="text" class="dp-SearchInput"></input>
+                                </div>
+                              </form>
+                            </li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Pride</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bob Cooper</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Julien Ducro</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Lightbody</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bobby Steiner</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Pride</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bob Cooper</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Julien Ducro</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Lightbody</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bobby Steiner</a></li>
+                          </ul>
+                        </li>
+                        <li>Assign to <a href="#" class="dp-listLink">my team</a> or <span class="dp-Arrow"></span>
+                          <ul class="dp-SubContextMenu dp-ContextMenu">
+                            <li>
+                              <form>
+                                <div class="dp-SearchForm">
+                                  <button type="submit" class="dp-Icon dp-IconSearch"></button>
+                                  <input type="text" class="dp-SearchInput"></input>
+                                </div>
+                              </form>
+                            </li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Pride</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bob Cooper</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Julien Ducro</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Lightbody</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bobby Steiner</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Pride</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bob Cooper</a></li>
+                          </ul>
+                        </li>
+                        <li class="dp-DropdownDivider"></li>
+                        <li>Status <span class="dp-Arrow"></span>
+                          <ul class="dp-SubContextMenu dp-ContextMenu">
+                            <li>
+                              <form>
+                                <div class="dp-SearchForm">
+                                  <button type="submit" class="dp-Icon dp-IconSearch"></button>
+                                  <input type="text" class="dp-SearchInput"></input>
+                                </div>
+                              </form>
+                            </li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Pride</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bob Cooper</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Julien Ducro</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Lightbody</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bobby Steiner</a></li>
+                          </ul>
+                        </li>
+                        <li>Urgency <span class="dp-Arrow"></span>
+                          <ul class="dp-SubContextMenu dp-ContextMenu">
+                            <li>
+                              <form>
+                                <div class="dp-SearchForm">
+                                  <button type="submit" class="dp-Icon dp-IconSearch"></button>
+                                  <input type="text" class="dp-SearchInput"></input>
+                                </div>
+                              </form>
+                            </li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Pride</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bob Cooper</a></li>
+                            <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Lightbody</a></li>
+                          </ul>
+                        </li>
+                        <li class="dp-DropdownDivider"></li>
+                        <li><a href="#" class="dp-listItem">Place on hold</a></li>
+                        <li><a href="#" class="dp-listItem">Lock</a></li>
+                        <li><a href="#" class="dp-listItem">Unlock</a></li>
+                      </ul>
                   </li>
               </ul>
             </form>
           </div>
             <div class="dp-TemplateMainContentRight">
-
             <ul class="dp-LeftSidebar">
                 <li><button class="dpApps-ButtonTabs ButtonTabs-arrow"><i class="dpApps-IconArrow iconArrow--left"></i></button></li>
                 <li><span class="dp-Icon dp-IconTrello"></span></li>
@@ -1146,7 +2017,6 @@ class Demo extends React.Component {
                 <li><span class="dp-Icon dp-IconJira"></span></li>
                 <li><span class="dp-Icon dp-IconSalesforce"></span></li>
             </ul>
-
             <div class="dpApps-AppPanel">
               <div class="dpApps-AppTabs is-horizontal">
                 <div class="dpApps-ButtonTabs--wrap">
@@ -1228,10 +2098,8 @@ class Demo extends React.Component {
                         </div>
                       </div>
                     </div>
-
                   </section>
                 </div>
-
                 <div class="dpApps-AppFrame">
                   <div class="dpApps-AppBar dpApps-Level">
                     <div class="dpApps-LevelLeft">
@@ -1239,7 +2107,6 @@ class Demo extends React.Component {
                         <div class="dpApps-Icon">
                           <img src="/agent-interface/style/img/docs/youtrack-logo.svg" alt=""></img>
                         </div>
-
                       </div>
                       <span class="dpApps-Title">You Track</span>
                     </div>
@@ -1252,9 +2119,7 @@ class Demo extends React.Component {
                       </a>
                     </div>
                   </div>
-                  
                 </div>
-
                 <div class="dpApps-AppFrame is-colapsed">
                   <div class="dpApps-AppBar dpApps-Level">
                     <div class="dpApps-LevelLeft">
@@ -1310,7 +2175,6 @@ class Demo extends React.Component {
                     </div>
                   </section>
                 </div>
-
                 <div class="dpApps-AddApp">
                   <div class="dpApps-Level">
                     <a href="" class="dpApps-LevelLeft">
@@ -1324,14 +2188,6 @@ class Demo extends React.Component {
                 </div>
               </div>
             </div>
-
-
-
-
-
-
-
-
             <ul class="dp-TabBarList">
               <li class="dp-AddTabButton">
                 <a class="dp-Icon dp-iconAdd" href="#"></a>
@@ -1373,8 +2229,6 @@ class Demo extends React.Component {
                 <span class="dp-iconClose"></span>
               </li>
             </ul>
-
-
             <div class="dp-Sso">
               <div class="dp-SsoWrap">
                   <span class="dp-Icon dp-IconStar"></span>
@@ -1382,14 +2236,12 @@ class Demo extends React.Component {
                   <span class="dp-SsoTxt">SSO working well with Safari and IE but issue with Chrome browser</span>
               </div>
             </div>
-
             <div class="dp-TemplateMainBarContainer">
               <button class="dp-ActionButton dp-DropMenuJs" type="button">
                 <span class="dp-Icon dp-iconRocketBlue"></span>
                 <span class="dp-Icon dp-iconRocketwhite"></span>
                 ACTIONS
               </button>
-
               <ul class="dp-ContextMenu">
                 <li class="dp-disabledItem"><a href="#"><span class="dp-MenuIcon dp-iconLockGray"></span> Lock (permission required)</a></li>
                 <li><a href="#"><span class="dp-MenuIcon dp-iconGrayMin"></span> Put ticket on hold</a></li>
@@ -1410,7 +2262,6 @@ class Demo extends React.Component {
                 <li><a href="#"> <span class="dp-MenuIcon dp-IconSpam"></span>  Spam</a></li>
                 <li><a href="#"> <span class="dp-MenuIcon dp-IconBan"></span>  Ban</a></li>
               </ul>
-
               <div class="dp-TagBar">
                 <span class="dp-Tag Tag--close">Custom work<span class="dp-iconClose"></span></span>
                 <span class="dp-Tag Tag--close">Report back on bug fix<span class="dp-iconClose"></span></span>
@@ -1418,9 +2269,8 @@ class Demo extends React.Component {
                 <span class="dp-Tag dp-TagPlus"></span>
               </div>
             </div>
-
             <ul class="dp-MenuBarList">
-              <li class="dp-MenuBarItem dp-purpleColor dp-DropMenuJs">
+              <li class="dp-MenuBarItem dp-TasksItem dp-purpleColor dp-DropMenuJs">
                   <span class="dp-Icon dp-iconCharger">
                       <span class="dp-Badge dp-red">10</span>
                   </span>
@@ -1434,18 +2284,20 @@ class Demo extends React.Component {
                   <span class="dp-Icon dp-iconNoteGreen"></span>
                   <span class="dp-Title">License<span class="dp-Arrow"></span></span>
               </li>
-              <li class="dp-MenuBarItem">
-                  <span class="dp-Icon dp-iconClock2"></span>
-                  <span class="dp-Title">Follow-ups<span class="dp-Arrow"></span></span>
+              <li class="dp-MenuBarItem dp-blueColor dp-PropertiesItem dp-DropMenuJs">
+                  <span class="dp-Icon dp-iconClock2">
+                      <span class="dp-Badge dp-red">5</span>
+                  </span>
+                  <span class="dp-Title">Tickets Properties<span class="dp-Arrow"></span></span>
               </li>
 
-              <div class="dp-Tasks">
-                <div class="dp-TasksWrap">
+              <div class="dp-Tasks dp-MenuBarIcon">
+                <div class="dp-BarListWrapper">
                   <form>
                       <div class="dp-Actions">
                       <div class="dp-TaskEditor">
                         <textarea name="comment" placeholder="Task description"></textarea>
-                          <ul class="dp-ActionsItems">
+                          <ul class="dp-ActionsItems dp-BackgroundGray">
                               <li class="dp-ActionsItem dp-MenuBarItem">No due date<span class="dp-Arrow"></span></li>
                               <li class="dp-ActionsItem dp-MenuBarItem">Private<span class="dp-Arrow"></span></li>
                               <li class="dp-ActionsItem dp-MenuBarItem">Me<span class="dp-Arrow"></span></li>
@@ -1462,15 +2314,15 @@ class Demo extends React.Component {
                                   </span>
                               </span>
                               <span class="dp-ItemRow">
-                              <ul class="dp-ActionsItems">
-                                  <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-IconCalendar2"></span>30/09/2018<span class="dp-Arrow"></span></li>
-                                  <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-IconClock3"></span>14:30 PM<span class="dp-Arrow"></span></li>
-                                  <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-IconBuilding"></span>Infastructure<span class="dp-Arrow"></span></li>
-                                  <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-iconUserAvatar"></span>Me<span class="dp-Arrow"></span></li>
-                              </ul>
-                                  <span class="dp-TimeStatus">
-                                      <span class="dp-Tag Tag--small Tag--pink">Remove</span>
-                                  </span>
+                                <ul class="dp-ActionsItems">
+                                    <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-IconCalendar2"></span>30/09/2018<span class="dp-Arrow"></span></li>
+                                    <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-IconClock3"></span>14:30 PM<span class="dp-Arrow"></span></li>
+                                    <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-IconBuilding"></span>Infastructure<span class="dp-Arrow"></span></li>
+                                    <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-iconUserAvatar"></span>Me<span class="dp-Arrow"></span></li>
+                                </ul>
+                                <span class="dp-TimeStatus">
+                                    <span class="dp-Tag Tag--small Tag--pink is-disabled">Remove</span>
+                                </span>
                               </span>
                           </li>
                           <li class="dp-FilterResultItem">
@@ -1488,7 +2340,7 @@ class Demo extends React.Component {
                                   <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-iconUserAvatar"></span>Me<span class="dp-Arrow"></span></li>
                               </ul>
                                   <span class="dp-TimeStatus">
-                                      <span class="dp-Tag Tag--small Tag--pink">Remove</span>
+                                      <span class="dp-Tag Tag--small Tag--pink is-disabled">Remove</span>
                                   </span>
                               </span>
                           </li>
@@ -1507,7 +2359,7 @@ class Demo extends React.Component {
                                   <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-iconUserAvatar"></span>Me<span class="dp-Arrow"></span></li>
                               </ul>
                                   <span class="dp-TimeStatus">
-                                      <span class="dp-Tag Tag--small Tag--pink">Remove</span>
+                                      <span class="dp-Tag Tag--small Tag--pink is-disabled">Remove</span>
                                   </span>
                               </span>
                           </li>
@@ -1534,13 +2386,53 @@ class Demo extends React.Component {
                   </form>
                 </div>
               </div>
-            </ul>
 
+
+
+
+              <div class="dp-TicketProperties dp-MenuBarIcon">
+
+                <div class="dp-BarListWrapper">
+                    <div class="dp-PropertyList">
+                        <ul class="dp-PropertyTitleList">
+                            <li class="dp-TitleListItem">Department</li>
+                            <li class="dp-TitleListItem">Product</li>
+                            <li class="dp-TitleListItem">Language</li>
+                            <li class="dp-TitleListItem">Channel</li>
+                            <li class="dp-TitleListItem">Problems and Incidents</li>
+                        </ul>
+                        <ul class="dp-PropertySubTitleList">
+                            <li class="dp-SubTitleListItem"><i class="dp-Icon dp-SupportIcon"></i>Support</li>
+                            <li class="dp-SubTitleListItem"><i class="dp-Icon dp-iconVoice"></i>Deskpro Cloud</li>
+                            <li class="dp-SubTitleListItem"><i class="dp-Icon dp-UKIcon"></i>English (UK)</li>
+                            <li class="dp-SubTitleListItem"><i class="dp-Icon dp-iconVoice"></i>Voice</li>
+                            <li class="dp-SubTitleListItem dp-DropMenuJs is-active">
+                                <i class="dp-Icon dp-iconVoice"></i>Security Breach
+                                <ul class="dp-SecurityDropDown dp-ContextMenu">
+                                    <li><a href="#" class="dp-RemoveBtn">Remove</a></li>
+                                    <li><form><button type="submit" class="dp-Icon dp-IconSearch"></button><input type="text"></input></form></li>
+                                    <li><a href="#">Inability to use iOS app Elasticsearch email indexing</a></li>
+                                    <li><a href="#">Security breach</a></li>
+                                    <li class="dp-AddBtn"><a href="#" class="dp-AddNew">Add new</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="#" class="dp-LinkShow"> Show empty property (7)</a>
+                </div>
+              </div>
+
+
+
+
+
+
+
+
+
+            </ul>
             <div class="dp-TemplateInnerContent">
               <div class="dp-TemplateInnerContentLeft">
-
-
-
                 <div class="dp-PageSidebar">
                   <div class="dp-PageWrapper">
                     <div class="dp-SidebarTabs">
@@ -1611,13 +2503,10 @@ class Demo extends React.Component {
                             <dl class="dp-TicketList">
                                 <dt class="dp-TitleList db-m-0">Department</dt>
                                 <dd class="dp-SubTitleList"><i class="dp-Icon dp-SupportIcon"></i>Support</dd>
-
                                 <dt class="dp-TitleList">Product</dt>
                                 <dd class="dp-SubTitleList">Deskpro Cloud</dd>
-
                                 <dt class="dp-TitleList">Language</dt>
                                 <dd class="dp-SubTitleList"><i class="dp-Icon dp-UKIcon"></i>English (UK)</dd>
-
                                 <dt class="dp-TitleList">Channel</dt>
                                 <dd class="dp-SubTitleList"><i class="dp-Icon dp-iconVoice"></i>Voice</dd>
                             </dl>
@@ -1722,10 +2611,6 @@ class Demo extends React.Component {
                     </div>
                   </div>
                 </div>
-
-
-
-
                 <div class="dp-PageSidebar dp-UserActivSidebar">
                     <div class="dp-PageWrapper">
                         <div class="dp-SidebarTabs">
@@ -1751,7 +2636,6 @@ class Demo extends React.Component {
                                         <img src="/agent-interface/style/img/docs/avatar.png" alt="" class="dp-Icon dp-Avatar"></img>
                                         Zack Prudent
                                     </p>
-
                                     <p class="dp-Email"><a href="mailto:zack.prudent@techcompany.com">zack.prudent@techcompany.com</a></p>
                                     <p class="dp-Phone">
                                         <i class="dp-Icon dp-iconPhoneBlue"></i><a href="tel:+442035678940" >+44 20 356 789 40</a>
@@ -1794,32 +2678,24 @@ class Demo extends React.Component {
                         </div>
                     </div>
                 </div>
-
-
-
-
-
-
-
               </div>
-
               <div class="dp-TemplateInnerContentRight">
-                
                 <div class="dp-ReplyBox">
-                  <div class="dp-Actions">
-                      <ul class="dp-ActionsItems dp-BackgroundGray">
-                          <li class="dp-ActionsItem">Reply</li>
-                          <li class="dp-ActionsItem">Add Note</li>
-                          <li class="dp-ActionsItem">Forward</li>
-                          <li class="dp-ActionsItem dp-MenuBarItem">
-                              Macros
-                              <span class="dp-Arrow"></span>
-                          </li>
-                      </ul>
-                  </div>
-                  <textarea class="dp-ReplyEditor"></textarea>
+                    <div class="dp-ReplyWrapper">
+                        <div class="dp-Actions">
+                            <ul class="dp-ActionsItems dp-BackgroundGray">
+                                <li class="dp-ActionsItem">Reply</li>
+                                <li class="dp-ActionsItem">Add Note</li>
+                                <li class="dp-ActionsItem">Forward</li>
+                                <li class="dp-ActionsItem dp-MenuBarItem">
+                                    Macros
+                                    <span class="dp-Arrow"></span>
+                                </li>
+                            </ul>
+                        </div>
+                        <textarea class="dp-ReplyEditor"></textarea>
+                    </div>
                 </div>
-
                 <div class="dp-TabContainer">
                   <div class="dp-Tabs">
                       <ul class="dp-TabItesm">
@@ -1828,7 +2704,6 @@ class Demo extends React.Component {
                       </ul>
                   </div>
                 </div>
-
                 <div class="dp-user dp-TicketMessage">
                   <div class="dp-MessageContainer">
                     <div class="dp-MessageHeader">
@@ -1860,17 +2735,14 @@ class Demo extends React.Component {
                       <a href="#" class="dp-ExpandButton"><span class="dp-dots">&hellip;</span></a>
                     </div>
                   </div>
-
                   <div class="dp-MessageContainer dp-ColorContainer">
                     <div class="dp-MessageHeader">
                       <div class="dp-Left">
                         <div class="dp-title-item dp-optical">
-
                           <div class="dp-UserAvatarName">
                             <span class="dp-Badge Badge--empty dp-DarkBadge"></span>
                             <span>Harry Krimbo</span>
                           </div>
-
                         </div>
                       </div>
                       <div class="dp-Right">
@@ -1887,7 +2759,6 @@ class Demo extends React.Component {
                       </div>
                     </div>
                   </div>
-
                   <div class="dp-MessageContainer">
                     <div class="dp-MessageHeader">
                       <div class="dp-Left">
@@ -1914,10 +2785,8 @@ class Demo extends React.Component {
                     </div>
                   </div>
                 </div>
-
               </div>
             </div>
-
           </div>
         </div>
       </div>

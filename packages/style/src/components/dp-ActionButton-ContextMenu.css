@@ -29,7 +29,7 @@
 }
 
 .dp-ActionButton::after {
-  border-color: #000 transparent transparent transparent;
+  border-color: #899 transparent transparent transparent;
   border-style: solid;
   border-width: 4px 4px 0 4px;
   bottom: 0;

@@ -20,7 +20,7 @@ title: ActionButton and ContextMenu
 <h2>ContextMenu</h2>
 ```html @preview
 
-	<div style="height: 450px;">
+	<div style="height: 450px; position: relative;">
 
 		<ul class="dp-ContextMenu is-active" style="top: 10px; left: 10px;">
 			<li><a href="#">Change User</a></li>

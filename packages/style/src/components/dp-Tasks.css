@@ -1,9 +1,10 @@
-.dp-TasksWrap {
+.dp-BarListWrapper {
+  background-color: #fff;
   border: 2px solid #7daddd;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   display: block;
-  padding: 10px 8px;
+  padding: 0 0 10px;
 }
 
 .dp-TaskEditor {
@@ -26,17 +27,22 @@
   color: #a9b0b0;
 }
 
-.dp-Tasks {
-  background: #fff;
+.dp-Tasks.dp-MenuBarIcon .dp-BarListWrapper {
   display: none;
   left: 0;
   position: absolute;
-  top: calc(100% + 5px);
+
+  /* top: calc(100% + 5px); */
+  top: 35px;
   z-index: 9;
 }
 
-.dp-Tasks.is-active {
+.dp-Tasks.dp-MenuBarIcon.is-active .dp-BarListWrapper {
   display: block;
+}
+
+.dp-Tasks .dp-Actions {
+  padding: 10px 8px;
 }
 
 .dp-Tasks .dp-ActionsItem {
@@ -56,19 +62,14 @@
   width: 50px;
 }
 
-.dp-Tasks .dp-IconCalendar2, .dp-Tasks .dp-IconBuilding {
+.dp-Tasks .dp-ItemRow .dp-Icon {
   border-radius: 0;
 }
 
-.dp-Tasks .dp-FilterResultList .dp-Arrow::after {
-  border-color: #000 transparent transparent transparent;
+.dp-BarListWrapper .dp-Arrow::after {
+  border-color: #777 transparent transparent transparent;
   border-width: 2px 2px 0 2px;
   right: 8px;
-}
-
-.dp-Tasks .dp-MenuBarItem .dp-Arrow::after {
-  border-color: #000 transparent transparent transparent;
-  border-width: 4px 4px 0 4px;
 }
 
 .dp-Tasks .dp-FilterResultList {
@@ -82,7 +83,7 @@
 
 .dp-Tasks .dp-FilterResultList .dp-ActionsItem {
   border: 0;
-  margin: 0 0 10px;
+  margin: 0;
   padding: 0;
 }
 
@@ -95,14 +96,18 @@
 
 .dp-Tasks .dp-FilterResultItem {
   border: 0;
-  margin-top: 10px;
-  padding: 0;
+  cursor: pointer;
+  padding: 10px 8px;
 }
 
-.dp-Tasks .dp-FilterResultItem .dp-ItemRow:last-child {
+.dp-Tasks .dp-FilterResultItem:hover {
+  background-color: #f0f4fb;
+}
+
+/* .dp-Tasks .dp-FilterResultItem .dp-ItemRow:last-child {
   align-items: flex-end;
   display: flex;
-}
+} */
 
 /*  */
 
@@ -110,10 +115,42 @@
   margin-bottom: 10px;
 }
 
-.dp-Tasks.dp-MenuBarIcon .dp-TasksWrap {
+.dp-Tasks.dp-MenuBarIcon .dp-BarListWrapper {
   display: none;
 }
 
-.dp-Tasks.dp-MenuBarIcon .dp-MenuBarList.is-active + .dp-TasksWrap {
+.dp-Tasks.dp-MenuBarIcon .dp-MenuBarList.is-active + .dp-BarListWrapper {
   display: block;
+}
+
+.dp-FilterResultItem > .dp-ControlInput:checked .dp-FilterResultItem {
+  background-color: red;
+}
+
+.dp-FilterResultItem .dp-ItemRow.dp-Comment {
+  border-radius: 5px;
+  color: #4c4f50;
+  flex-direction: column;
+  margin: 5px 0 0 25px;
+  padding: 10px;
+}
+
+.dp-Commenttxt {
+  font-size: 10px;
+  padding-left: 25px;
+  padding-top: 5px;
+}
+
+.dp-FilterResultItem .dp-Comment .dp-UserInfo {
+  padding: 0;
+}
+
+.dp-DateTime {
+  font-size: 10px;
+}
+
+.is-disabled {
+  background-color: #bbb !important;
+  border: 1px solid #bbb !important;
+  cursor: not-allowed !important;
 }

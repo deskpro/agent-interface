@@ -4,7 +4,7 @@ title: ModuleNav
 
 ```html @preview
 <ul class="dp-ModuleNav">
-  <li class="dp-ModuleNavList is-active">
+  <li class="dp-ModuleNavList">
     <a class="dp-Icon dp-iconEmail" href="#"></a>
     <a class="dp-Icon dp-iconEmailWhite Icon--White" href="#"></a>
     <span class="dp-IconTooltip">Tickets</span>

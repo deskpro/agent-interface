@@ -14,10 +14,21 @@ $(document).ready(function(){
 		$(this).toggleClass('is-active');
 	});
 	
-	$(document).on("click", ".dp-MenuBarList .dp-DropMenuJs", function(){
+	$(document).on("click", ".dp-Template .dp-TasksItem.dp-DropMenuJs", function(){
 		$(this).closest('.dp-MenuBarList').find('.dp-Tasks').toggleClass('is-active');
 		$(this).toggleClass('is-active');
 	});
+
+
+	$(document).on("click", ".dp-Template .dp-PropertiesItem.dp-DropMenuJs", function(){
+		$(this).closest('.dp-MenuBarList').find('.dp-TicketProperties').toggleClass('is-active');
+		$(this).toggleClass('is-active');
+	});
+
+	$(document).on("click", ".dp-Template .dp-SubTitleListItem.dp-DropMenuJs", function(){
+		$(this).toggleClass('is-active');
+	});
+	
 
 
 	$(document).on("click", ".dp-SidebarWrapper .dp-SectionBody-item.dp-DropMenuJs", function(){
@@ -42,9 +53,40 @@ $(document).ready(function(){
 		$('.dp-TemplateInnerContentLeft .dp-PageSidebar.dp-UserActivSidebar').toggleClass('is-active');
 	});
 	
-
 	$(document).on("click", ".dp-TicketMenuItem.dp-DropMenuJs", function(){
 		$(this).toggleClass('is-active');
 	});
+
+
+	$(document).on("click", ".dp-Template .dp-ModuleNavList.dp-DropMenuJs", function(){
+		$(this).toggleClass('is-active');
+	});
+
+	//toggle is-active class for dp-FilterResultItem/ find checkbox and toggle checked
+	$(document).on("click", ".dp-Template .dp-FilterResultItem", function(){
+		$(this).toggleClass('is-active');
+		if( $(this).hasClass('is-active') ){
+			$(this).find('input[type=checkbox]').prop( "checked", true );
+		} else {
+			$(this).find('input[type=checkbox]').prop( "checked", false );
+		}
+	});
+
+	// show menu after click right mouse button on dp-FilterResultItem
+	$(function() {
+		$("body").on("contextmenu", ".dp-Template .dp-FilterResultItem", function(e) {
+			$('.dp-FilterResultMenu').removeClass('is-active');
+			$(this).find('.dp-FilterResultMenu').addClass('is-active');
+			return false;
+		});
+		$(document).on("click", function (e){
+			var FilterResultMenu = $(".dp-FilterResultMenu");
+			if (!FilterResultMenu.is(e.target) && FilterResultMenu.has(e.target).length === 0) {
+				FilterResultMenu.removeClass('is-active');
+			}
+		});
+	});
+
+
 
 })

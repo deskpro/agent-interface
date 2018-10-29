@@ -59,7 +59,7 @@ title: FilterResult
         <li class="dp-FilterResultItem is-active">
             <span class="dp-ItemRow">
                 <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox1"></input>
+                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox1" checked="checked"></input>
                     <label for="customCheckbox1">SSO Information</label>
                     <span class="dp-Icon dp-iconStar"></span>
                 </span>

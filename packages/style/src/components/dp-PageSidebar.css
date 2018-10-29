@@ -287,13 +287,13 @@
   width: 4px;
 }
 
-.dp-PageSidebar .dp-TicketList {
+.dp-TicketList {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-.dp-PageSidebar .dp-TitleList {
+.dp-TitleList {
   color: #707576;
   font-size: 9px;
   margin: 10px 0 0;
@@ -305,11 +305,6 @@
   display: flex;
   font-size: 12px;
 }
-
-/* .dp-PageSidebar .dp-SubTitleList.address {
-  line-height: .7;
-  margin-top: 5px;
-} */
 
 .dp-AddressList .dp-TitleList {
   color: #8c9395;
@@ -420,8 +415,9 @@
   display: flex;
 }
 
-.dp-PageSidebar a.dp-NumLink {
+a.dp-NumLink {
   color: #3a8dde;
+  margin-left: 2px;
 }
 
 .dp-PageSidebar .db-m-0 {
