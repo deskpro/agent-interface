@@ -265,11 +265,21 @@ class Demo extends React.Component {
                     </div>
                     <ul class="dp-LeftSidebar">
                         <li><button class="dpApps-ButtonTabs ButtonTabs-arrow dp-DropMenuJs"><i class="dpApps-IconArrow iconArrow--right"></i></button></li>
-                        <li><span class="dp-Icon dp-IconTrello"></span></li>
-                        <li><span class="dp-Icon dp-IconYoutrack"></span></li>
-                        <li><span class="dp-Icon dp-IconMailchimp"></span></li>
-                        <li><span class="dp-Icon dp-IconJira"></span></li>
-                        <li><span class="dp-Icon dp-IconSalesforce"></span></li>
+                        <li class="dp-BarIcon-wrap">
+                            <span class="dpApps-Icon"><img src="/agent-interface/style/img/docs/trello-logo.svg" alt=""></img></span>
+                        </li>
+                        <li class="dp-BarIcon-wrap">
+                            <span class="dpApps-Icon"><img src="/agent-interface/style/img/docs/youtrack-logo.svg" alt=""></img></span>
+                        </li>
+                        <li class="dp-BarIcon-wrap">
+                            <span class="dpApps-Icon"><img src="/agent-interface/style/img/docs/mailchimp-logo.svg" alt=""></img></span>
+                        </li>
+                        <li class="dp-BarIcon-wrap">
+                            <span class="dpApps-Icon"><img src="/agent-interface/style/img/docs/jira-logo.svg" alt=""></img></span>
+                        </li>
+                        <li class="dp-BarIcon-wrap">
+                            <span class="dpApps-Icon"><img src="/agent-interface/style/img/docs/salesforce-logo.svg" alt=""></img></span>
+                        </li>
                     </ul>
                     <div class="dp-OverlayContent">
                         <div class="dp-TitleRow">
@@ -286,7 +296,7 @@ class Demo extends React.Component {
                         <div class="dp-Label">
                             <div class="dp-LabelItem dp-LabelTitle">Labels:</div>
                             <div class="dp-LabelItem dp-Tag Tag--close Tag--purple">Vip<span class="dp-iconClose"></span></div>
-                            <div class="dp-LabelItem dp-Icon dp-IconPlusAdd"></div>
+                            <div class="dp-LabelItem dp-Icon dp-add_tab"></div>
                         </div>
                         <ul class="dp-MenuBarList">
                             <li class="dp-MenuBarItem">
@@ -294,11 +304,11 @@ class Demo extends React.Component {
                                 <span class="dp-Title">Cloud<span class="dp-Arrow"></span></span>
                             </li>
                             <li class="dp-MenuBarItem dp-redLightColor">
-                                <span class="dp-Icon dp-iconNote"></span>
+                                <span class="dp-Icon dp-billing"></span>
                                 <span class="dp-Title">Billing<span class="dp-Arrow"></span></span>
                             </li>
                             <li class="dp-MenuBarItem dp-greenColor">
-                                <span class="dp-Icon dp-iconNoteGreen"></span>
+                                <span class="dp-Icon dp-liscense"></span>
                                 <span class="dp-Title">License<span class="dp-Arrow"></span></span>
                             </li>
                         </ul>
@@ -364,7 +374,7 @@ class Demo extends React.Component {
                             </li>
                         </ul>
                         <div class="dp-Files">
-                            Notes<span class="dp-LabelItem dp-Icon dp-IconPlusAdd"></span>
+                            Notes<span class="dp-LabelItem dp-Icon dp-add_tab"></span>
                         </div>
                         <div class="dp-TicketMessage">
                             <div class="dp-MessageContainer dp-ColorContainer">
@@ -423,7 +433,7 @@ class Demo extends React.Component {
                             </div>
                         </div>
                         <div class="dp-Files">
-                            Files<span class="dp-LabelItem dp-Icon dp-IconPlusAdd"></span>
+                            Files<span class="dp-LabelItem dp-Icon dp-add_tab"></span>
                         </div>
                         <div class="dp-FilesList">
                             <div class="dp-FilesInfo">
@@ -453,54 +463,53 @@ class Demo extends React.Component {
         </div>
       <div class="dp-TemplateLeftCol">
         <ul class="dp-ModuleNav">
-          <li class="dp-ModuleNavList dp-DropMenuJs">
-            <a class="dp-Icon dp-iconEmail" href="#"></a>
-            <a class="dp-Icon dp-iconEmailWhite Icon--White" href="#"></a>
+          <li class="dp-ModuleNavList">
+            <a class="dp-Icon dp-tickets" href="#"></a>
             <span class="dp-IconTooltip">Tickets</span>
           </li>
-          <li class="dp-ModuleNavList dp-DropMenuJs">
-            <a class="dp-Icon dp-iconChat" href="#"></a>
-            <a class="dp-Icon dp-iconChatWhite Icon--White" href="#"></a>
+
+          <li class="dp-ModuleNavList">
+            <a class="dp-Icon dp-chats" href="#"></a>
             <span class="dp-IconTooltip">Chats</span>
           </li>
-          <li class="dp-ModuleNavList dp-DropMenuJs">
-            <a class="dp-Icon dp-iconAvatar" href="#"></a>
-            <a class="dp-Icon dp-iconAvatarWhite Icon--White" href="#"></a>
+
+          <li class="dp-ModuleNavList">
+            <a class="dp-Icon dp-crm" href="#"></a>
             <span class="dp-IconTooltip">CRM</span>
           </li>
-          <li class="dp-ModuleNavList dp-DropMenuJs">
-            <a class="dp-Icon dp-iconLike" href="#"></a>
-            <a class="dp-Icon dp-iconLikeWhite Icon--White" href="#"></a>
+
+          <li class="dp-ModuleNavList">
+            <a class="dp-Icon dp-feedback" href="#"></a>
             <span class="dp-IconTooltip">Feedback</span>
           </li>
-          <li class="dp-ModuleNavList dp-DropMenuJs">
-            <a class="dp-Icon dp-iconAi" href="#"></a>
-            <a class="dp-Icon dp-iconAiWhite Icon--White" href="#"></a>
+
+          <li class="dp-ModuleNavList">
+            <a class="dp-Icon dp-publish" href="#"></a>
             <span class="dp-IconTooltip">Publish</span>
           </li>
-          <li class="dp-ModuleNavList dp-DropMenuJs">
-            <a class="dp-Icon dp-iconApprov" href="#"></a>
-            <a class="dp-Icon dp-iconApprovWhite Icon--White" href="#"></a>
+
+          <li class="dp-ModuleNavList">
+            <a class="dp-Icon dp-icontasks" href="#"></a>
             <span class="dp-IconTooltip">Tasks</span>
           </li>
-          <li class="dp-ModuleNavList dp-DropMenuJs">
-            <a class="dp-Icon dp-iconTrello" href="#"></a>
-            <a class="dp-Icon dp-iconTrelloWhite Icon--White" href="#"></a>
+
+          <li class="dp-ModuleNavList">
+            <a class="dp-Icon dp-reports" href="#"></a>
             <span class="dp-IconTooltip">Reports</span>
           </li>
-          <li class="dp-ModuleNavList dp-DropMenuJs">
-            <a class="dp-Icon dp-iconSetting" href="#"></a>
-            <a class="dp-Icon dp-iconSettingWhite Icon--White" href="#"></a>
+
+          <li class="dp-ModuleNavList">
+            <a class="dp-Icon dp-admin" href="#"></a>
             <span class="dp-IconTooltip">Admin</span>
           </li>
-          <li class="dp-ModuleNavList is-borderBottom dp-DropMenuJs">
-            <a class="dp-Icon dp-iconMoney" href="#"></a>
-            <a class="dp-Icon dp-iconMoneyWhite Icon--White" href="#"></a>
+
+          <li class="dp-ModuleNavList is-borderBottom">
+            <a class="dp-Icon dp-billing_money" href="#"></a>
             <span class="dp-IconTooltip">Billing</span>
           </li>
-          <li class="dp-ModuleNavList dp-integration dp-DropMenuJs">
-            <a class="dp-Icon dp-iconIntegration" href="#"></a>
-            <a class="dp-Icon dp-iconIntegrationWhite Icon--White" href="#"></a>
+
+          <li class="dp-ModuleNavList dp-integration">
+            <a class="dp-Icon dp-portal" href="#"></a>
             <span class="dp-IconTooltip">
                 <span class="dp-TitleTooltip"> Portal </span>
                 <ul class="dp-AccountList">
@@ -530,7 +539,7 @@ class Demo extends React.Component {
                             </span>
                         </a>
                     </li>
-                </ul>
+              </ul>
             </span>
           </li>
         </ul>
@@ -539,73 +548,102 @@ class Demo extends React.Component {
         <div class="dp-TopActionRow">
           <div class="dp-TopActionRowLeft">
             <div class="dp-Search">
-              <form>
-                  <button type="submit" class="dp-Icon dp-IconSearch"></button>
-                  <input type="text" placeholder="Search ..."></input>
-              </form>
-              <div class="dp-IconSection">
-                  <ul class="dp-IconPanelList">
-                      <li class="dp-MenuBarItem"><span class="dp-Icon dp-iconClockGray"></span></li>
-                      <li class="dp-MenuBarItem"><span class="dp-Badge Badge--empty"><span class="dp-Badge dp-red">3</span><span class="dp-Badge dp-green"></span></span></li>
-                      <li class="dp-MenuBarItem"><span class="dp-Badge Badge--empty"><span class="dp-Badge dp-green"></span></span></li>
-                      <li class="dp-MenuBarItem"><span class="dp-Badge Badge--empty"><span class="dp-Badge dp-red">1</span><span class="dp-Badge dp-green"></span></span></li>
-                      <li class="dp-MenuBarItem"><span class="dp-Icon dp-IconPlus"></span></li>
-                  </ul>
-              </div>
+                <form>
+                    <button type="submit" class="dp-Icon dp-find"></button>
+                    <input type="" placeholder="Search ..."></input>
+                </form>
+                <div class="dp-IconSection">
+                    <ul class="dp-IconPanelList">
+                        <li class="dp-MenuBarItem">
+                            <span class="dp-Icon dp-history"></span>
+                        </li>
+                        <li class="dp-MenuBarItem">
+                            <span class="dp-Badge Badge--empty">
+                                <span class="dp-Badge dp-red">3</span>
+                                <span class="dp-Badge dp-green"></span>
+                            </span>
+                        </li>
+                        <li class="dp-MenuBarItem">
+                            <span class="dp-Badge Badge--empty">
+                                <span class="dp-Badge dp-green"></span>
+                            </span>
+                        </li>
+                        <li class="dp-MenuBarItem">
+                            <span class="dp-Badge Badge--empty">
+                                <span class="dp-Badge dp-red">1</span>
+                                <span class="dp-Badge dp-green"></span>
+                            </span>
+                        </li>
+                        <li class="dp-MenuBarItem">
+                            <span class="dp-Icon dp-add_im"></span>
+                        </li>
+                    </ul>
+                </div>
             </div>
           </div>
           <div class="dp-TopActionRowRight">
             <div class="dp-ControlPanel">
-              <div class="dp-IconSection">
-                <ul class="dp-IconPanelList">
-                    <li class="dp-MenuBarItem"><span class="dp-Icon dp-IconBell"></span></li>
-                    <li class="dp-MenuBarItem"><span class="dp-Icon dp-IconPhoneGreen"></span></li>
-                    <li class="dp-MenuBarItem"><span class="dp-Icon dp-IconChatGreen"></span></li>
-                    <li class="dp-MenuBarItem"><span class="dp-Icon dp-Avatar"><img src="/agent-interface/style/img/docs/avatar.png" class="dp-IconAvatar" alt=""></img></span><span class="dp-Arrow"></span></li>
-                    <li class="dp-MenuBarItem dp-DropMenuJs"><span class="dp-Icon dp-IconPlane dp-ActionDropDown"></span><span class="dp-Arrow"></span>
-                      <div class="dp-YourAccount">
-                        <div class="dp-AccountWrap">
-                          <ul class="dp-AccountList">
-                            <li class="dp-AccountItem dp-AccountTitle">Your account</li>
-                            <li class="dp-AccountItem is-active">
-                              <span class="dp-Icon-Title dp-raven">
-                                <span class="dp-Icon dp-IconPlane"></span>Raven Paper
-                              </span>
-                              <span class="dp-Icon dp-IconTick"></span>
-                            </li>
-                            <li class="dp-AccountItem">
-                              <span class="dp-Icon-Title dp-raven">
-                                <span class="dp-Icon dp-IconPlaneOrange"></span>
-                                Raven Paper Crafts
-                              </span>
-                            </li>
-                            <li class="dp-AccountItem">
-                              <span class="dp-Icon-Title dp-raven">
-                                <span class="dp-Icon dp-IconPlaneViolet"></span>
-                                <span>
-                                  RP Europe (Demo)
-                                  <span class="dp-BuyNow">12 days left | Buy now</span>
-                                </span>
-                              </span>
-                            </li>
-                            <li class="dp-AccountItem">
-                              <span class="dp-Icon-Title">
-                                <span class="dp-Icon dp-IconPlusAdd"></span>
-                                Add new
-                              </span>
-                            </li>
-                            <li class="dp-AccountItem">
-                              <span class="dp-Icon-Title">
-                                <span class="dp-Icon dp-IconNoteGray"></span>
-                                Knowledgebase article
-                              </span>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </li>
-                </ul>
-              </div>
+                <div class="dp-IconSection">
+                    <ul class="dp-IconPanelList">
+                        <li class="dp-MenuBarItem">
+                            <span class="dp-Icon dp-notifications"></span>
+                        </li>
+                        <li class="dp-MenuBarItem">
+                            <span class="dp-Icon dp-voice--green"></span>
+                        </li>
+                        <li class="dp-MenuBarItem">
+                            <span class="dp-Icon dp-chat--green"></span>
+                        </li>
+                        <li class="dp-MenuBarItem">
+                            <span class="dp-Icon dp-Avatar">
+                                <img src="/agent-interface/style/img/docs/avatar.png" class="dp-IconAvatar" alt=""></img>
+                            </span>
+                            <span class="dp-Arrow"></span>
+                        </li>
+                        <li class="dp-MenuBarItem dp-DropMenuJs"><span class="dp-Icon dp-IconPlane dp-ActionDropDown"></span><span class="dp-Arrow"></span>
+                          <div class="dp-YourAccount">
+                            <div class="dp-AccountWrap">
+                              <ul class="dp-AccountList">
+                                <li class="dp-AccountItem dp-AccountTitle">Your account</li>
+                                <li class="dp-AccountItem is-active">
+                                  <span class="dp-Icon-Title dp-raven">
+                                    <span class="dp-Icon dp-IconPlane"></span>Raven Paper
+                                  </span>
+                                  <span class="dp-Icon dp-IconTick"></span>
+                                </li>
+                                <li class="dp-AccountItem">
+                                  <span class="dp-Icon-Title dp-raven">
+                                    <span class="dp-Icon dp-IconPlaneOrange"></span>
+                                    Raven Paper Crafts
+                                  </span>
+                                </li>
+                                <li class="dp-AccountItem">
+                                  <span class="dp-Icon-Title dp-raven">
+                                    <span class="dp-Icon dp-IconPlaneViolet"></span>
+                                    <span>
+                                      RP Europe (Demo)
+                                      <span class="dp-BuyNow">12 days left | Buy now</span>
+                                    </span>
+                                  </span>
+                                </li>
+                                <li class="dp-AccountItem">
+                                  <span class="dp-Icon-Title">
+                                    <span class="dp-Icon dp-add_tab"></span>
+                                    Add new
+                                  </span>
+                                </li>
+                                <li class="dp-AccountItem">
+                                  <span class="dp-Icon-Title">
+                                    <span class="dp-Icon dp-IconNoteGray"></span>
+                                    Knowledgebase article
+                                  </span>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </li>
+                    </ul>
+                </div>
             </div>
           </div>
         </div>
@@ -616,14 +654,14 @@ class Demo extends React.Component {
               <div class="dp-dropdownContainer">
                 <div class="dp-Title">
                   <div class="dp-TitleName dp-DropMenuJs">
-                    <span class="dp-Icon dp-iconTickets"></span>
+                    <span class="dp-Icon dp-menu"></span>
                     All tickets <span class="dp-qt">(90)</span>
                     <span class="dp-Icon dp-iconArrowDown"></span>
                   </div>
                   <div class="dp-TicketsThumb">
-                    <span class="dp-Icon dp-iconTickets4 is-active"></span>
-                    <span class="dp-Icon dp-iconTickets2"></span>
-                    <span class="dp-Icon dp-iconTickets3"></span>
+                    <span class="dp-Icon dp-list_view is-active"></span>
+                    <span class="dp-Icon dp-table_view"></span>
+                    <span class="dp-Icon dp-kanban_view"></span>
                   </div>
                 </div>
               </div>
@@ -2011,11 +2049,21 @@ class Demo extends React.Component {
             <div class="dp-TemplateMainContentRight">
             <ul class="dp-LeftSidebar">
                 <li><button class="dpApps-ButtonTabs ButtonTabs-arrow"><i class="dpApps-IconArrow iconArrow--left"></i></button></li>
-                <li><span class="dp-Icon dp-IconTrello"></span></li>
-                <li><span class="dp-Icon dp-IconYoutrack"></span></li>
-                <li><span class="dp-Icon dp-IconMailchimp"></span></li>
-                <li><span class="dp-Icon dp-IconJira"></span></li>
-                <li><span class="dp-Icon dp-IconSalesforce"></span></li>
+                <li class="dp-BarIcon-wrap">
+                    <span class="dpApps-Icon"><img src="/agent-interface/style/img/docs/trello-logo.svg" alt=""></img></span>
+                </li>
+                <li class="dp-BarIcon-wrap">
+                    <span class="dpApps-Icon"><img src="/agent-interface/style/img/docs/youtrack-logo.svg" alt=""></img></span>
+                </li>
+                <li class="dp-BarIcon-wrap">
+                    <span class="dpApps-Icon"><img src="/agent-interface/style/img/docs/mailchimp-logo.svg" alt=""></img></span>
+                </li>
+                <li class="dp-BarIcon-wrap">
+                    <span class="dpApps-Icon"><img src="/agent-interface/style/img/docs/jira-logo.svg" alt=""></img></span>
+                </li>
+                <li class="dp-BarIcon-wrap">
+                    <span class="dpApps-Icon"><img src="/agent-interface/style/img/docs/salesforce-logo.svg" alt=""></img></span>
+                </li>
             </ul>
             <div class="dpApps-AppPanel">
               <div class="dpApps-AppTabs is-horizontal">
@@ -2269,23 +2317,24 @@ class Demo extends React.Component {
                 <span class="dp-Tag dp-TagPlus"></span>
               </div>
             </div>
+
             <ul class="dp-MenuBarList">
-              <li class="dp-MenuBarItem dp-TasksItem dp-purpleColor dp-DropMenuJs">
-                  <span class="dp-Icon dp-iconCharger">
+              <li class="dp-MenuBarItem dp-TasksItem dp--purple dp-DropMenuJs">
+                  <span class="dp-Icon dp-tasks dp--purple">
                       <span class="dp-Badge dp-red">10</span>
                   </span>
                   <span class="dp-Title">Tasks<span class="dp-Arrow"></span></span>
               </li>
-              <li class="dp-MenuBarItem dp-redLightColor">
-                  <span class="dp-Icon dp-iconNote"></span>
+              <li class="dp-MenuBarItem">
+                  <span class="dp-Icon dp-billing"></span>
                   <span class="dp-Title">Billing<span class="dp-Arrow"></span></span>
               </li>
-              <li class="dp-MenuBarItem dp-greenColor">
-                  <span class="dp-Icon dp-iconNoteGreen"></span>
+              <li class="dp-MenuBarItem">
+                  <span class="dp-Icon dp-liscense"></span>
                   <span class="dp-Title">License<span class="dp-Arrow"></span></span>
               </li>
-              <li class="dp-MenuBarItem dp-blueColor dp-PropertiesItem dp-DropMenuJs">
-                  <span class="dp-Icon dp-iconClock2">
+              <li class="dp-MenuBarItem dp-PropertiesItem dp--redLight dp-DropMenuJs">
+                  <span class="dp-Icon dp-ticket_properties dp--redLight">
                       <span class="dp-Badge dp-red">5</span>
                   </span>
                   <span class="dp-Title">Tickets Properties<span class="dp-Arrow"></span></span>
@@ -2403,7 +2452,7 @@ class Demo extends React.Component {
                             <li class="dp-SubTitleListItem"><i class="dp-Icon dp-iconVoice"></i>Deskpro Cloud</li>
                             <li class="dp-SubTitleListItem"><i class="dp-Icon dp-UKIcon"></i>English (UK)</li>
                             <li class="dp-SubTitleListItem"><i class="dp-Icon dp-iconVoice"></i>Voice</li>
-                            <li class="dp-SubTitleListItem dp-DropMenuJs is-active">
+                            <li class="dp-SubTitleListItem dp-securityItem dp-DropMenuJs is-active">
                                 <i class="dp-Icon dp-iconVoice"></i>Security Breach
                                 <ul class="dp-SecurityDropDown dp-ContextMenu">
                                     <li><a href="#" class="dp-RemoveBtn">Remove</a></li>
@@ -2419,14 +2468,6 @@ class Demo extends React.Component {
                 </div>
               </div>
 
-
-
-
-
-
-
-
-
             </ul>
             <div class="dp-TemplateInnerContent">
               <div class="dp-TemplateInnerContentLeft">
@@ -2434,9 +2475,9 @@ class Demo extends React.Component {
                   <div class="dp-PageWrapper">
                     <div class="dp-SidebarTabs">
                       <ul class="dp-SidebarTabsList">
-                          <li class="dp-SidebarTab-item "><a href="#" class="dp-Icon dp-iconSettingBlue"></a></li>
-                          <li class="dp-SidebarTab-item is-active"><a href="#" class="dp-Icon dp-iconUserBlue"></a></li>
-                          <li class="dp-SidebarTab-item "><a href="#" class="dp-Icon dp-iconBuildingBlue"></a></li>
+                        <li class="dp-SidebarTab-item "><a href="#" class="dp-Icon dp-mass_actions dp--blue"></a></li>
+                        <li class="dp-SidebarTab-item is-active"><a href="#" class="dp-Icon dp-icon-user dp--blue"></a></li>
+                        <li class="dp-SidebarTab-item "><a href="#" class="dp-Icon dp-oranisation dp--blue"></a></li>
                       </ul>
                     </div>
                     <div class="dp-SidebarWrapper">
@@ -2612,9 +2653,9 @@ class Demo extends React.Component {
                     <div class="dp-PageWrapper">
                         <div class="dp-SidebarTabs">
                             <ul class="dp-SidebarTabsList">
-                                <li class="dp-SidebarTab-item "><a href="#" class="dp-Icon dp-iconSettingBlue"></a></li>
-                                <li class="dp-SidebarTab-item is-active"><a href="#" class="dp-Icon dp-iconUserWhite"></a></li>
-                                <li class="dp-SidebarTab-item "><a href="#" class="dp-Icon dp-iconBuildingBlue"></a></li>
+                                <li class="dp-SidebarTab-item "><a href="#" class="dp-Icon dp-mass_actions dp--blue"></a></li>
+                                <li class="dp-SidebarTab-item is-active"><a href="#" class="dp-Icon dp-icon-user dp--white"></a></li>
+                                <li class="dp-SidebarTab-item "><a href="#" class="dp-Icon dp-oranisation dp--blue"></a></li>
                             </ul>
                         </div>
                         <div class="dp-SidebarWrapper">

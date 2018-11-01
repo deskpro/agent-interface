@@ -7,13 +7,13 @@ title: ControlPanel
     <div class="dp-IconSection">
         <ul class="dp-IconPanelList">
             <li class="dp-MenuBarItem">
-                <span class="dp-Icon dp-IconBell"></span>
+                <span class="dp-Icon dp-notifications"></span>
             </li>
         	<li class="dp-MenuBarItem">
-                <span class="dp-Icon dp-IconPhoneGreen"></span>
+                <span class="dp-Icon dp-voice--green"></span>
             </li>
             <li class="dp-MenuBarItem">
-                <span class="dp-Icon dp-IconChatGreen"></span>
+                <span class="dp-Icon dp-chat--green"></span>
             </li>
             <li class="dp-MenuBarItem">
                 <span class="dp-Icon dp-Avatar">

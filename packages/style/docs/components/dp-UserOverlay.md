@@ -5,11 +5,22 @@ title: User Overlay
 ```html @preview
 <ul class="dp-LeftSidebar">
 	<li><button class="dpApps-ButtonTabs ButtonTabs-arrow"><i class="dpApps-IconArrow iconArrow--left"></i></button></li>
-	<li><span class="dp-Icon dp-IconTrello"></span></li>
-	<li><span class="dp-Icon dp-IconYoutrack"></span></li>
-	<li><span class="dp-Icon dp-IconMailchimp"></span></li>
-	<li><span class="dp-Icon dp-IconJira"></span></li>
-	<li><span class="dp-Icon dp-IconSalesforce"></span></li>
+	<li class="dp-BarIcon-wrap">
+		<span class="dpApps-Icon"><img src="/agent-interface/style/img/docs/trello-logo.svg" alt=""></span>
+	</li>
+
+	<li class="dp-BarIcon-wrap">
+		<span class="dpApps-Icon"><img src="/agent-interface/style/img/docs/youtrack-logo.svg" alt=""></span>
+	</li>
+	<li class="dp-BarIcon-wrap">
+		<span class="dpApps-Icon"><img src="/agent-interface/style/img/docs/mailchimp-logo.svg" alt=""></span>
+	</li>
+	<li class="dp-BarIcon-wrap">
+		<span class="dpApps-Icon"><img src="/agent-interface/style/img/docs/jira-logo.svg" alt=""></span>
+	</li>
+	<li class="dp-BarIcon-wrap">
+		<span class="dpApps-Icon"><img src="/agent-interface/style/img/docs/salesforce-logo.svg" alt=""></span>
+	</li>
 </ul>
 ```
 
@@ -37,12 +48,22 @@ title: User Overlay
 		</div>
 		<div class="dp-UserContainer dp-BrandsInfo">
 			<ul class="dp-LeftSidebar">
-				<li><button class="dpApps-ButtonTabs ButtonTabs-arrow"><i class="dpApps-IconArrow iconArrow--right"></i></button></li>
-				<li><span class="dp-Icon dp-IconTrello"></span></li>
-				<li><span class="dp-Icon dp-IconYoutrack"></span></li>
-				<li><span class="dp-Icon dp-IconMailchimp"></span></li>
-				<li><span class="dp-Icon dp-IconJira"></span></li>
-				<li><span class="dp-Icon dp-IconSalesforce"></span></li>
+				<li><button class="dpApps-ButtonTabs ButtonTabs-arrow"><i class="dpApps-IconArrow iconArrow--left"></i></button></li>
+				<li class="dp-BarIcon-wrap">
+					<span class="dpApps-Icon"><img src="/agent-interface/style/img/docs/trello-logo.svg" alt=""></span>
+				</li>
+				<li class="dp-BarIcon-wrap">
+					<span class="dpApps-Icon"><img src="/agent-interface/style/img/docs/youtrack-logo.svg" alt=""></span>
+				</li>
+				<li class="dp-BarIcon-wrap">
+					<span class="dpApps-Icon"><img src="/agent-interface/style/img/docs/mailchimp-logo.svg" alt=""></span>
+				</li>
+				<li class="dp-BarIcon-wrap">
+					<span class="dpApps-Icon"><img src="/agent-interface/style/img/docs/jira-logo.svg" alt=""></span>
+				</li>
+				<li class="dp-BarIcon-wrap">
+					<span class="dpApps-Icon"><img src="/agent-interface/style/img/docs/salesforce-logo.svg" alt=""></span>
+				</li>
 			</ul>
 			<div class="dp-OverlayContent">
 				<div class="dp-TitleRow">
@@ -59,7 +80,7 @@ title: User Overlay
 				<div class="dp-Label">
 					<div class="dp-LabelItem dp-LabelTitle">Labels:</div>
 					<div class="dp-LabelItem dp-Tag Tag--close Tag--purple">Vip<span class="dp-iconClose"></span></div>
-					<div class="dp-LabelItem dp-Icon dp-IconPlusAdd"></div>
+					<div class="dp-LabelItem dp-Icon dp-add_tab"></div>
 				</div>
 				<ul class="dp-MenuBarList">
 					<li class="dp-MenuBarItem">
@@ -67,11 +88,11 @@ title: User Overlay
 						<span class="dp-Title">Cloud<span class="dp-Arrow"></span></span>
 					</li>
 					<li class="dp-MenuBarItem dp-redLightColor">
-						<span class="dp-Icon dp-iconNote"></span>
+						<span class="dp-Icon dp-billing"></span>
 						<span class="dp-Title">Billing<span class="dp-Arrow"></span></span>
 					</li>
 					<li class="dp-MenuBarItem dp-greenColor">
-						<span class="dp-Icon dp-iconNoteGreen"></span>
+						<span class="dp-Icon dp-liscense"></span>
 						<span class="dp-Title">License<span class="dp-Arrow"></span></span>
 					</li>
 				</ul>
@@ -137,7 +158,7 @@ title: User Overlay
 					</li>
 				</ul>
 				<div class="dp-Files">
-					Notes<span class="dp-LabelItem dp-Icon dp-IconPlusAdd"></span>
+					Notes<span class="dp-LabelItem dp-Icon dp-add_tab"></span>
 				</div>
 				<div class="dp-TicketMessage">
 					<div class="dp-MessageContainer dp-ColorContainer">
@@ -196,7 +217,7 @@ title: User Overlay
 					</div>
 				</div>
 				<div class="dp-Files">
-					Files<span class="dp-LabelItem dp-Icon dp-IconPlusAdd"></span>
+					Files<span class="dp-LabelItem dp-Icon dp-add_tab"></span>
 				</div>
 				<div class="dp-FilesList">
 					<div class="dp-FilesInfo">

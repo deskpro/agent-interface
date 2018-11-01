@@ -6,11 +6,11 @@ title: Tickets
 
 ```html @preview
 	<div class="dp-Tickets">
-		<span class="dp-Icon dp-iconTickets"></span>
-		<span class="dp-Icon dp-iconTickets2"></span>
-		<span class="dp-Icon dp-iconTickets3"></span>
-		<span class="dp-Icon dp-iconTickets2 is-active"></span>
-		<span class="dp-Icon dp-iconTickets4 is-active"></span>
+		<span class="dp-Icon dp-menu"></span>
+		<span class="dp-Icon dp-table_view"></span>
+		<span class="dp-Icon dp-kanban_view"></span>
+		<span class="dp-Icon dp-table_view is-active"></span>
+		<span class="dp-Icon dp-list_view is-active"></span>
 	</div>
 ```
 
@@ -22,14 +22,14 @@ title: Tickets
 		<div class="dp-dropdownContainer">
 			<div class="dp-Title is-active">
 				<div class="dp-TitleName dp-DropMenuJs">
-					<span class="dp-Icon dp-iconTickets"></span>
+					<span class="dp-Icon dp-menu"></span>
 					All tickets <span class="dp-qt">(90)</span>
 					<span class="dp-Icon dp-iconArrowDown"></span>
 				</div>
 				<div class="dp-TicketsThumb">
-					<span class="dp-Icon dp-iconTickets4 is-active"></span>
-					<span class="dp-Icon dp-iconTickets2"></span>
-					<span class="dp-Icon dp-iconTickets3"></span>
+					<span class="dp-Icon dp-list_view is-active"></span>
+					<span class="dp-Icon dp-table_view"></span>
+					<span class="dp-Icon dp-kanban_view"></span>
 				</div>
 			</div>
 		</div>

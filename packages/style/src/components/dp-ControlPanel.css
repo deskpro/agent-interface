@@ -8,11 +8,9 @@
   width: 100%;
 }
 
-.dp-ControlPanel .dp-IconPhoneGreen, .dp-ControlPanel .dp-IconChatGreen, .dp-ControlPanel .dp-IconPlane, .dp-ControlPanel .dp-IconBell, .dp-ControlPanel .dp-Avatar {
-  background-size: 20px 20px;
-  height: 20px;
-  min-width: 20px;
+.dp-ControlPanel .dp-Avatar, .dp-ControlPanel .dp-IconPlane {
   width: 20px;
+  height: 20px;
 }
 
 .dp-ControlPanel .dp-MenuBarItem .dp-Icon {
@@ -30,7 +28,7 @@
   background-color: #bfc4c4;
   content: "";
   display: block;
-  height: 110%;
+  height: 100%;
   position: absolute;
   top: 0;
   transform: rotate(30deg);

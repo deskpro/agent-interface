@@ -30,7 +30,7 @@ title: YourAccount
         	</li>
         	<li class="dp-AccountItem">
 				<span class="dp-Icon-Title">
-					<span class="dp-Icon dp-IconPlusAdd"></span>
+					<span class="dp-Icon dp-add_tab"></span>
 	        		Add new
 	        	</span>
         	</li>

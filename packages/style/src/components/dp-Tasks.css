@@ -31,7 +31,6 @@
   display: none;
   left: 0;
   position: absolute;
-
   /* top: calc(100% + 5px); */
   top: 35px;
   z-index: 9;
@@ -57,9 +56,9 @@
 }
 
 .dp-Tasks .dp-Tag, .dp-Tasks .dp-TimeStatus .dp-Tag {
+  width: 50px;
   min-width: 50px;
   text-align: center;
-  width: 50px;
 }
 
 .dp-Tasks .dp-ItemRow .dp-Icon {
@@ -95,9 +94,9 @@
 }
 
 .dp-Tasks .dp-FilterResultItem {
-  border-top: 1px solid transparent;
-  cursor: pointer;
+  border-top: 1px solid #transparent;
   padding: 10px 8px;
+  cursor: pointer;
 }
 
 .dp-Tasks .dp-FilterResultItem:hover {
@@ -116,7 +115,7 @@
   display: block;
 }
 
-.dp-FilterResultItem > .dp-ControlInput:checked .dp-FilterResultItem {
+.dp-FilterResultItem > .dp-ControlInput:checked .dp-FilterResultItem{
   background-color: red;
 }
 
@@ -143,17 +142,17 @@
 }
 
 .dp-FilterResultItem .dp-Tag.Tag--pink {
+  cursor: not-allowed;
   background-color: #bbb;
   border: 1px solid #bbb;
-  cursor: not-allowed;
 }
 
 .dp-FilterResultItem.is-active .dp-Tag.Tag--pink {
+  cursor: pointer;
   background: #dc437c;
   border: 1px solid #dc437c;
-  cursor: pointer;
 }
 
 .dp-Tasks .dp-Tag.Tag--pink {
-  display: inline-block;
+  display: flex;
 }

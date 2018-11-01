@@ -60,6 +60,11 @@
   border-left: 0;
 }
 
+.dp-SidebarTabsList .dp-Icon {
+  width: 18px;
+  height: 18px;
+}
+
 .dp-PageSidebar .dp-SidebarTab-item {
   border-bottom: none;
   border-right: 2px solid #e1e3e4;

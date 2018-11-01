@@ -45,7 +45,6 @@
 }
 
 .dp-TicketProperties .dp-BarListWrapper .dp-Icon {
-  background-size: 16px 15px;
   height: 15px;
   margin-right: 5px;
   width: 16px;
@@ -101,7 +100,11 @@
   text-align: center;
 }
 
-.dp-AddBtn a {
+.dp-TicketProperties .dp-securityItem {
+  cursor: pointer;
+}
+
+.dp-ContextMenu .dp-AddBtn a {
   color: #79be7e;
 }
 

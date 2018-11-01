@@ -8,9 +8,9 @@ title: PageSidebar
     <div class="dp-PageSidebar">
         <div class="dp-SidebarTabs">
             <ul class="dp-SidebarTabsList">
-                <li class="dp-SidebarTab-item "><a href="#" class="dp-Icon dp-iconSettingBlue"></a></li>
-                <li class="dp-SidebarTab-item is-active"><a href="#" class="dp-Icon dp-iconUserBlue"></a></li>
-                <li class="dp-SidebarTab-item "><a href="#" class="dp-Icon dp-iconBuildingBlue"></a></li>
+                <li class="dp-SidebarTab-item "><a href="#" class="dp-Icon dp-mass_actions dp--blue"></a></li>
+                <li class="dp-SidebarTab-item is-active"><a href="#" class="dp-Icon dp-icon-user dp--blue"></a></li>
+                <li class="dp-SidebarTab-item "><a href="#" class="dp-Icon dp-oranisation dp--blue"></a></li>
             </ul>
         </div>
     </div>
@@ -83,9 +83,9 @@ title: PageSidebar
 
         <div class="dp-SidebarTabs">
             <ul class="dp-SidebarTabsList">
-                <li class="dp-SidebarTab-item "><a href="#" class="dp-Icon dp-iconSettingBlue"></a></li>
-                <li class="dp-SidebarTab-item is-active"><a href="#" class="dp-Icon dp-iconUserBlue"></a></li>
-                <li class="dp-SidebarTab-item "><a href="#" class="dp-Icon dp-iconBuildingBlue"></a></li>
+                <li class="dp-SidebarTab-item "><a href="#" class="dp-Icon dp-mass_actions dp--blue"></a></li>
+                <li class="dp-SidebarTab-item is-active"><a href="#" class="dp-Icon dp-icon-user dp--blue"></a></li>
+                <li class="dp-SidebarTab-item "><a href="#" class="dp-Icon dp-oranisation dp--blue"></a></li>
             </ul>
         </div>
 
@@ -299,9 +299,9 @@ title: PageSidebar
 
         <div class="dp-SidebarTabs">
             <ul class="dp-SidebarTabsList">
-                <li class="dp-SidebarTab-item "><a href="#" class="dp-Icon dp-iconSettingBlue"></a></li>
-                <li class="dp-SidebarTab-item is-active"><a href="#" class="dp-Icon dp-iconUserWhite"></a></li>
-                <li class="dp-SidebarTab-item "><a href="#" class="dp-Icon dp-iconBuildingBlue"></a></li>
+                <li class="dp-SidebarTab-item "><a href="#" class="dp-Icon dp-mass_actions dp--blue"></a></li>
+                <li class="dp-SidebarTab-item is-active"><a href="#" class="dp-Icon dp-icon-user dp--white"></a></li>
+                <li class="dp-SidebarTab-item "><a href="#" class="dp-Icon dp-oranisation dp--blue"></a></li>
             </ul>
         </div>
 

@@ -16,7 +16,6 @@
 
 .dp-Search input {
   border: 0;
-  line-height: 3;
   margin-left: 5px;
   outline: none;
   width: 100%;
@@ -107,7 +106,7 @@
   padding-right: 15px;
 }
 
-.dp-Search .dp-IconPlus, .dp-Search .dp-iconClockGray {
+.dp-Search .dp-add_im, .dp-Search .dp-history {
   background-size: 25px 25px;
   cursor: pointer;
   height: 25px;

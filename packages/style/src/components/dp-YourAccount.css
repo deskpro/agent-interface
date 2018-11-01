@@ -13,7 +13,7 @@
   width: 12px;
 }
 
-.dp-YourAccount .dp-IconPlusAdd, .dp-YourAccount .dp-IconPlaneOrange, .dp-YourAccount .dp-IconPlaneViolet, .dp-YourAccount .dp-IconPlane {
+.dp-YourAccount .dp-add_tab, .dp-YourAccount .dp-IconPlaneOrange, .dp-YourAccount .dp-IconPlaneViolet, .dp-YourAccount .dp-IconPlane {
   height: 29px;
   margin-right: 14px;
   min-width: 29px;

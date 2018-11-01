@@ -5,14 +5,14 @@ title: Search
 ```html @preview
 <div class="dp-Search">
     <form>
-    	<button type="submit" class="dp-Icon dp-IconSearch"></button>
+    	<button type="submit" class="dp-Icon dp-find"></button>
     	<input type="" placeholder="Search ..."></input>
     </form>
 
     <div class="dp-IconSection">
         <ul class="dp-IconPanelList">
             <li class="dp-MenuBarItem">
-                <span class="dp-Icon dp-iconClockGray"></span>
+                <span class="dp-Icon dp-history"></span>
             </li>
         	<li class="dp-MenuBarItem">
                 <span class="dp-Badge Badge--empty">
@@ -32,7 +32,7 @@ title: Search
                 </span>
             </li>
             <li class="dp-MenuBarItem">
-                <span class="dp-Icon dp-IconPlus"></span>
+                <span class="dp-Icon dp-add_im"></span>
             </li>
         </ul>
     </div>

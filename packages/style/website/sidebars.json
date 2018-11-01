@@ -30,7 +30,8 @@
     "Elements": [
       "elements/dp-Button",
       "elements/dp-Input",
-      "elements/dp-TagBadge"
+      "elements/dp-TagBadge",
+      "elements/dp-Icons"
     ],
     "Apps-components": [
       "components/apps/dpApps-Level",

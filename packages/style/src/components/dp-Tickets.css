@@ -91,11 +91,8 @@
   padding: 0;
 }
 
-.dp-Tickets .dp-IconAgent {
-  background-size: 11px 8px;
-  height: 8px;
+.dp-IconAgent {
   margin-left: 4px;
-  width: 11px;
 }
 
 .dp-TicketMenu .dp-TicketMenuItem {
