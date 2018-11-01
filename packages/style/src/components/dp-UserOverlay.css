@@ -63,11 +63,11 @@
   background-color: #f7f6f6;
   border: 1px solid #cecece;
   display: block;
+  flex: 0 0 100%;
   list-style: none;
   max-width: 45px;
   padding: 0;
   width: 100%;
-  flex: 0 0 100%;
 }
 
 .dp-UserOverlay .dp-Icon {
@@ -83,8 +83,8 @@
 }
 
 .dp-LeftSidebar .dp-BarIcon-wrap {
-  padding: 10px 0;
   margi: 0;
+  padding: 10px 0;
 }
 
 .dp-LeftSidebar .dp-BarIcon-wrap:nth-child(5) {
@@ -92,21 +92,22 @@
 }
 
 .dp-LeftSidebar .dp-BarIcon-wrap:last-child {
-  border-top: 2px solid #dcdedf;
   border-bottom: 2px solid #dcdedf;
+  border-top: 2px solid #dcdedf;
 }
 
 .dp-LeftSidebar .ButtonTabs-arrow {
   border-bottom: 2px solid #dcdedf;
-  width: 100%;
   display: block;
+  width: 100%;
 }
 
-.dp-LeftSidebar .dpApps-Icon{
-  width: 100%;
+.dp-LeftSidebar .dpApps-Icon {
   height: 100%;
   text-align: center;
+  width: 100%;
 }
+
 .dp-LeftSidebar .dpApps-Icon img {
   max-height: 25px;
   max-width: 25px;
@@ -179,11 +180,11 @@
   width: 20px;
 }
 
-/*.dp-UserOverlay .dp-IconCloud {
+/* .dp-UserOverlay .dp-IconCloud {
   background-size: 25px 25px;
   height: 25px;
   width: 25px;
-}*/
+} */
 
 .dp-UserOverlay .dp-IconCloseBlue {
   border-left: 1px solid #a9b0b0;

@@ -58,14 +58,14 @@
   width: 13px;
 }
 
-
 /* New design */
+
 .newControlsList .dp-FilterControlsItem .dp-Title {
+  color: #707576;
   font-size: 12px;
+  font-weight: 700;
   padding: 0;
   text-transform: none;
-  color: #707576;
-  font-weight: 700;
 }
 
 .newControlsList .dp-FilterControlsItem .dp-Select {
@@ -73,10 +73,10 @@
 }
 
 .newControlsList .dp-FilterControlsItem .dp-Icon {
-  width: 25px;
-  height: 25px;
   background-size: 23px 23px;
+  height: 25px;
   margin-right: 4px;
+  width: 25px;
 }
 
 .dp-FilterControlsItem .dp-Icon.dp-view {
@@ -84,7 +84,7 @@
 }
 
 .dp-FilterControlsItem.is-active .dp-Title,
-.dp-FilterControlsItem.is-active .dp-Select{
+.dp-FilterControlsItem.is-active .dp-Select {
   color: #318cdd;
 }
 
@@ -93,10 +93,8 @@
 }
 
 .newControlsList .dp-Select {
-  -webkit-appearance: button;
-  -moz-appearance: button;
-  -webkit-user-select: none;
-  -moz-user-select: none;
+  appearance: button;
+  user-select: none;
 }
 
 .dp-FilterControlsItem .dp-ItemRow {
@@ -106,12 +104,12 @@
 .dp-ItemRow .dp-Icon.dp-small_caret {
   background-image: url('data:image/svg+xml,<svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0)"><path d="M9.89999 1.49999C9.89999 1.59999 9.79999 1.69999 9.69999 1.89999L5.79999 5.79999C5.69999 5.89999 5.59999 5.99999 5.39999 5.99999C5.19999 5.99999 5.09999 5.89999 4.99999 5.79999L1.09999 1.89999C0.999994 1.69999 0.899994 1.59999 0.899994 1.49999C0.899994 1.39999 0.999994 1.19999 1.09999 1.09999C1.19999 0.999994 1.29999 0.899994 1.49999 0.899994H9.39999C9.59999 0.899994 9.69999 0.999994 9.79999 1.09999C9.89999 1.19999 9.89999 1.29999 9.89999 1.49999Z" fill="%23979797"/></g><defs><clipPath id="clip0"><rect width="9" height="5.1" fill="white" transform="translate(0.899994 0.899994)"/></clipPath></defs></svg>');
   background-size: 9px 5.1px;
-  position: absolute;
-  width: 10px;
-  height: 10px;
   background-size: 8px 5px;
-  top: -12px;
+  height: 10px;
+  position: absolute;
   right: 0;
+  top: -12px;
+  width: 10px;
 }
 
 .is-active .dp-ItemRow .dp-Icon.dp-small_caret {
@@ -120,18 +118,18 @@
 }
 
 .dp-btn {
+  background-color: #fff;
+  border: 2px solid #d2d2d2;
+  border-radius: 5px;
+  color: #4c4f50;
   font-size: 12px;
   font-weight: 700;
-  color: #4c4f50;
-  background-color: #fff;
-  border-radius: 5px;
-  border: 2px solid #d2d2d2;
 }
 
 .dp-btn.blue-btn {
-  color: #fff;
   background-color: #318cdd;
   border: 2px solid transparent;
+  color: #fff;
   margin-right: 10px;
 }
 
@@ -145,10 +143,10 @@
 }
 
 .dp-ViewItem {
-  max-width: 100%;
-  display: flex;
-  padding: 0 10px;
   align-items: center;
+  display: flex;
+  max-width: 100%;
+  padding: 0 10px;
 }
 
 .newControlsList .dp-CustomCheckbox.dp-EmptyCheckbox input[type="checkbox"] + label {
