@@ -7,9 +7,11 @@
 
 .dp-FilterResultList .dp-FilterResultTitle {
   border-top: 1px solid transparent;
-  color: #4c4f50;
+
+  /* color: #4c4f50; */
+  color: var(--gray-600);
   font-size: 13px;
-  font-weight: 400;
+  font-weight: var(--font-weight-normal);
   margin: 0;
   padding: 7px 13px;
   text-transform: uppercase;
@@ -33,22 +35,22 @@
 .dp-FilterResultItem.is-active,
 .dp-FilterResultItem:hover {
   background-color: #e1eefb;
-  border-top: 1px solid #318cdd;
+  border-top: 1px solid var(--blue);
 }
 
 .dp-FilterResultItem:hover + .dp-FilterResultItem,
 .dp-FilterResultItem.is-active + .dp-FilterResultItem {
-  border-top: 1px solid #318cdd;
+  border-top: 1px solid var(--blue);
 }
 
 .dp-FilterResultItem:hover + .dp-FilterResultTitle,
 .dp-FilterResultItem.is-active + .dp-FilterResultTitle {
-  border-top: 1px solid #318cdd;
+  border-top: 1px solid var(--blue);
 }
 
 .dp-FilterResultItem:last-child.is-active,
 .dp-FilterResultItem:last-child:hover {
-  border-bottom: 1px solid #318cdd;
+  border-bottom: 1px solid var(--blue);
 }
 
 .dp-FilterResultItem .dp-ItemRow {
@@ -71,9 +73,11 @@
   background-position: 50%;
   background-repeat: no-repeat;
   border-radius: 50%;
-  color: #fff;
+  color: var(--white);
   display: flex;
-  font-size: 10px;
+
+  /* font-size: 10px; */
+  font-size: var(--font-size-xs);
   height: 18px;
   justify-content: center;
   margin-left: 7px;
@@ -81,7 +85,7 @@
 }
 
 .dp-FilterResultItem .dp-colorWhite {
-  color: #fff;
+  color: var(--white);
 }
 
 .dp-FilterResultItem .dp-UserInfo {
@@ -110,17 +114,17 @@
 }
 
 .dp-FilterResultItem .dp-iconRocket {
-  background-color: #fff;
+  background-color: var(--white);
   background-size: 12px 12px;
   border: 1px solid #dbddde;
 }
 
 .dp-FilterResultItem.is-active input[type="checkbox"] + label::before {
-  border: 1px solid #318cdd;
+  border: 1px solid var(--blue);
 }
 
 .dp-FilterResultItem .dp-iconBug {
-  background-color: #fff;
+  background-color: var(--white);
   background-size: 12px 12px;
   border: 1px solid #dbddde;
 }
@@ -141,7 +145,9 @@
 }
 
 .dp-FilterResultItem .dp-UserName {
-  color: #4c4f50;
+
+  /* color: #4c4f50; */
+  color: var(--gray-600);
   font-size: 13px;
   overflow: hidden;
   text-overflow: ellipsis;

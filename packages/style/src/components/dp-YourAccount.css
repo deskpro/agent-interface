@@ -1,6 +1,6 @@
 .dp-YourAccount {
   display: none;
-  font-size: 12px;
+  font-size: var(--font-size-base);
 }
 
 .dp-YourAccount.is-active {
@@ -14,6 +14,7 @@
 }
 
 .dp-YourAccount .dp-add_tab, .dp-YourAccount .dp-IconPlaneOrange, .dp-YourAccount .dp-IconPlaneViolet, .dp-YourAccount .dp-IconPlane {
+  background-size: 100%;
   height: 29px;
   margin-right: 14px;
   min-width: 29px;
@@ -32,8 +33,8 @@
 }
 
 .dp-YourAccount .dp-AccountWrap {
-  background: #fff;
-  border: 2px solid #318cdd;
+  background: var(--white);
+  border: 2px solid var(--blue);
   border-radius: 5px;
   min-width: 229px;
   position: absolute;
@@ -43,9 +44,9 @@
 }
 
 .dp-YourAccount .dp-AccountTitle {
-  background-color: #318cdd;
-  color: #fff;
-  font-size: 12px;
+  background-color: var(--blue);
+  color: var(--white);
+  font-size: var(--font-size-base);
   width: 100%;
 }
 
@@ -65,7 +66,7 @@
 }
 
 .dp-YourAccount  .is-active .dp-raven {
-  color: #4c4f50;
+  color: var(--gray-600);
 }
 
 .dp-AccountList {
@@ -92,9 +93,11 @@
 }
 
 .dp-AccountItem.dp-raven.is-active {
-  color: #4c4f50;
+
+  /* color: #4c4f50; */
+  color: var(--gray-600);
 }
 
 .dp-YourAccount .dp-BuyNow {
-  font-size: 10px;
+  font-size: var(--font-size-xs);
 }

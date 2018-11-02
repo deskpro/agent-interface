@@ -1,5 +1,5 @@
 .dp-TicketProperties {
-  color: #4c4f50;
+  color: var(--gray-600);
   display: block;
   left: 0;
   position: absolute;
@@ -31,8 +31,8 @@
 }
 
 .dp-TitleListItem {
-  font-size: 14px;
-  font-weight: 700;
+  font-size: var(--h2);
+  font-weight: var(--font-weight-bold);
   line-height: 2;
   position: relative;
 }
@@ -40,7 +40,7 @@
 .dp-SubTitleListItem {
   align-items: center;
   display: flex;
-  font-size: 12px;
+  font-size: var(--font-size-base);
   line-height: 2.4;
 }
 
@@ -51,14 +51,14 @@
 }
 
 .dp-LinkShow {
-  color: #4c4f50;
+  color: var(--gray-600);
   cursor: pointer;
-  font-size: 10px;
+  font-size: var(--font-size-xs);
 }
 
 .dp-SecurityDropDown {
-  background-color: #fff;
-  border: 2px solid #318cdd;
+  background-color: var(--white);
+  border: 2px solidvar(--blue);
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   cursor: pointer;
@@ -81,7 +81,7 @@
 }
 
 .dp-PropertySubTitleList form input {
-  border: 2px solid #318cdd;
+  border: 2px solid var(--blue);
   border-radius: 5px;
   outline: none;
   padding: 5px 0 5px 25px;
@@ -105,12 +105,16 @@
 }
 
 .dp-ContextMenu .dp-AddBtn a {
-  color: #79be7e;
+
+  /* color: #79be7e; */
+  color: var(--green-light);
 }
 
 .dp-SecurityDropDown .dp-RemoveBtn {
-  color: #d3125c;
-  font-size: 9px;
+
+  /* color: #d3125c; */
+  color: var(--red-dark);
+  font-size: var(--p2);
   padding: 0;
   position: absolute;
   right: 0;
@@ -119,11 +123,11 @@
 
 .dp-SecurityDropDown .dp-RemoveBtn:hover {
   background-color: transparent;
-  color: #d3125c;
+  color: var(--red-dark);
 }
 
 .dp-SubTitleListItem.is-active {
-  color: #318cdd;
+  color: var(--blue);
 }
 
 .dp-SubTitleListItem.is-active .dp-SecurityDropDown {

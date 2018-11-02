@@ -7,19 +7,19 @@
 }
 
 .dp-UserContainer.dp-BrandsInfo {
-  background: #fff;
-  border: 2px solid #318cdd;
+  background: var(--white);
+  border: 2px solid var(--blue);
   border-top: 0;
   height: 100%;
 }
 
 .dp-UserContainer.dp-UserTitleInfo {
-  border-bottom: 2px solid #318cdd;
+  border-bottom: 2px solid var(--blue);
 }
 
 .dp-UserTabName {
-  background-color: #fff;
-  border: 2px solid #318cdd;
+  background-color: var(--white);
+  border: 2px solid var(--blue);
   border-bottom: 2px solid #dcdedf;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
@@ -48,11 +48,11 @@
 }
 
 .dp-UserTitleInfo .dp-UserName, .dp-UserTitleInfo .dp-UserId {
-  font-size: 10px;
+  font-size: var(--font-size-xs);
 }
 
 .dp-UserTitleInfo .dp-UserId {
-  color: #707576;
+  color: var(--gray-550);
 }
 
 .dp-UserOverlay .dp-UserTitleInfo .dp-UserInfo {
@@ -97,8 +97,18 @@
 }
 
 .dp-LeftSidebar .ButtonTabs-arrow {
-  border-bottom: 2px solid #dcdedf;
   display: block;
+  position: relative;
+  width: 100%;
+}
+
+.dp-LeftSidebar .ButtonTabs-arrow::after {
+  background-color: #dcdedf;
+  bottom: -2px;
+  content: "";
+  height: 2px;
+  left: 0;
+  position: absolute;
   width: 100%;
 }
 
@@ -164,8 +174,8 @@
 }
 
 .dp-OverlayContent .dp-UserName {
-  color: #4c4f50;
-  font-size: 14px;
+  color: var(--gray-600);
+  font-size: var(--h2);
 }
 
 .dp-UserOverlay .dp-IconCloseGrey, .dp-UserOverlay .dp-IconUserArrow {
@@ -254,13 +264,13 @@
 }
 
 .dp-TicketsInfo .dp-TicketsInfoTitle .dp-SubjectItem {
-  font-size: 10px;
+  font-size: var(--font-size-xs);
 }
 
 .dp-TicketsInfo .dp-TicketsInfoItem {
   border-bottom: 1px solid #ededed;
   display: flex;
-  font-size: 10px;
+  font-size: var(--font-size-xs);
   padding: 5px 0;
 }
 
@@ -270,7 +280,7 @@
 }
 
 .dp-TicketsInfo .dp-SubjectItem {
-  font-size: 12px;
+  font-size: var(--font-size-base);
   max-width: 55%;
   width: 100%;
 }
@@ -278,7 +288,7 @@
 .dp-TicketsInfo .dp-StatusItem {
   align-items: center;
   display: flex;
-  font-size: 10px;
+  font-size: var(--font-size-xs);
   justify-content: flex-end;
   max-width: 30%;
   text-align: right;
@@ -302,7 +312,7 @@
 }
 
 .dp-Green {
-  color: #57ce6b;
+  color: var(--green-light);
 }
 
 .dp-Orange {

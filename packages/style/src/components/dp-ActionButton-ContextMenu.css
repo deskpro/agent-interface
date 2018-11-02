@@ -3,12 +3,14 @@
 }
 
 .dp-ActionButton {
-  border: 2px solid #318cdd;
-  border-radius: 3px;
-  color: #4e4d4d;
+  border: 2px solid var(--blue);
+
+  /* border-radius: 3px; */
+  border-radius: var(--border-radius-button);
+  color: var(--gray-600);
   cursor: pointer;
-  font-size: 12px;
-  font-weight: 400;
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-normal);
   min-width: 60px;
   padding: 4px 21px 4px 6px;
   position: relative;
@@ -55,12 +57,12 @@
 }
 
 .dp-ActionButton.is-active {
-  background-color: #318cdd;
-  color: #fff;
+  background-color: var(--blue);
+  color: var(--white);
 }
 
 .dp-ActionButton.is-active::after {
-  border-color: #fff transparent transparent transparent;
+  border-color: var(--white) transparent transparent transparent;
   transform: rotate(180deg);
 }
 
@@ -74,9 +76,9 @@
 }
 
 .dp-ContextMenu {
-  background-color: #fff;
-  border: 2px solid #318cdd;
-  border-radius: 5px;
+  background-color: var(--white);
+  border: 2px solid var(--blue);
+  border-radius: var(--border-radius);
   display: block;
   display: none;
   left: 0;
@@ -96,15 +98,19 @@
 }
 
 .dp-ContextMenu > li > a {
-  color: #4e4d4d;
+  color: var(--gray-600);
   display: block;
-  font-size: 12px;
-  padding: 3.5px 10px;
+  font-size: var(--font-size-base);
+
+  /* padding: 3.5px 10px; */
+  padding: var(--padding-drop-down);
 }
 
 .dp-ContextMenu > li > a:hover {
-  background-color: #e9f7ff;
-  color: #4696dc;
+
+  /* background-color: #e9f7ff; */
+  background-color: var(--blue-light);
+  color: var(--blue);
 }
 
 .dp-ContextMenu > li > a:hover .dp-MenuIcon.dp-iconBugGray {

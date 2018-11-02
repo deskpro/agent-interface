@@ -1,5 +1,7 @@
 .dp-ModuleNav {
-  background-color: #eff0f0;
+
+  /* background-color: #eff0f0; */
+  background-color: var(--gray-100);
   color: inherit;
   display: block;
   height: 100%;
@@ -8,7 +10,9 @@
 }
 
 .dp-ModuleNav .is-borderBottom::after {
-  background-color: #b8bebd;
+
+  /* background-color: #b8bebd; */
+  background-color: var(--gray-300);
   bottom: -6px;
   content: "";
   display: block;
@@ -39,15 +43,21 @@
 }
 
 .dp-ModuleNav .dp-ModuleNavList.is-active {
-  background-color: #4688c7;
+
+  /* background-color: #4688c7; */
+  background-color: var(--blue);
 }
 
 .dp-ModuleNav .dp-ModuleNavList:hover {
-  background-color: #abb4ba;
+
+  /* background-color: #abb4ba; */
+  background-color: var(--gray-300);
 }
 
 .dp-IconTooltip {
-  background-color: #abb4ba;
+
+  /* background-color: #abb4ba; */
+  background-color: var(--gray-300);
   border-radius: 2px;
   color: #fff;
   display: none;
@@ -67,7 +77,9 @@
 
 .dp-IconTooltip::before {
   border-bottom: 3px solid transparent;
-  border-right: 5px solid #abb4ba;
+
+  /* border-right: 5px solid #abb4ba; */
+  border-right: 5px solid var(--gray-300);
   border-top: 3px solid transparent;
   content: "";
   display: block;
@@ -92,14 +104,18 @@
 }
 
 .dp-IconTooltip .dp-AccountItem {
-  background-color: #fff;
-  color: #abb4ba;
+  background-color: var(--white);
+
+  /* color: #abb4ba; */
+  color: var(--gray-300);
   font-size: 9px;
 }
 
 .dp-IconTooltip .dp-AccountItem:hover {
   background-color: #e9f6fe;
-  color: #318cdd;
+
+  /* color: #318cdd; */
+  color: var(--blue);
 }
 
 .dp-IconTooltip .dp-Icon-Title {

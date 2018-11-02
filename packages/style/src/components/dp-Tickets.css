@@ -1,15 +1,18 @@
 .dp-Tickets {
   display: block;
   position: relative;
+
+  /* height: var(--height-menu); */
 }
 
 .dp-Tickets .dp-Title {
   align-items: center;
-  border-bottom: 2px solid #318cdd;
-  color: #4c4f50;
+  border-bottom: 2px solid var(--blue);
+  color: var(--gray-600);
   display: flex;
-  font-size: 14px;
-  font-weight: 700;
+  font-size: var(--h2);
+  font-weight: var(--font-weight-bold);
+  height: var(--height-menu);
   justify-content: space-between;
   padding: 10px;
 }
@@ -27,7 +30,7 @@
 }
 
 .dp-BorderBlue {
-  border: 2px solid #318cdd;
+  border: 2px solid var(--blue);
 }
 
 .dp-Tickets .dp-iconArrowDown {
@@ -37,7 +40,7 @@
 
 .dp-Tickets .dp-iconArrowDown::before,
 .dp-Tickets .dp-iconArrowDown::after {
-  background-color: #318cdd;
+  background-color: var(--blue);
   content: "";
   height: 10px;
   position: absolute;
@@ -66,10 +69,8 @@
   border-left: 0;
 }
 
-/*  */
-
 .dp-TicketMenu {
-  background-color: #f7f7f7;
+  background-color: var(--gray-50);
   box-shadow: 10px 0 20px -10px rgba(0, 0, 0, 0.2);
   display: block;
   display: none;
@@ -98,12 +99,12 @@
 .dp-TicketMenu .dp-TicketMenuItem {
   align-items: flex-start;
   border-bottom: 2px solid #d5d5d5;
-  color: #4c4f50;
+  color: var(--gray-600);
   cursor: pointer;
   display: flex;
   flex-direction: column;
-  font-size: 12px;
-  font-weight: 700;
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-bold);
   justify-content: space-between;
   margin: 0;
   padding: 10px;
@@ -116,7 +117,7 @@
 }
 
 .dp-TicketMenuItem.is-active .dp-Arrow::after {
-  border-color: transparent transparent #000 transparent;
+  border-color: transparent transparent var(--black) transparent;
   border-width: 0 3px 3px 3px;
 }
 
@@ -134,11 +135,11 @@
 .dp-TicketMenu .dp-SubMenu a {
   align-items: center;
   border-radius: 5px;
-  color: #707576;
+  color: var(--gray-550);
   cursor: pointer;
   display: flex;
-  font-size: 12px;
-  font-weight: 400;
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-normal);
   justify-content: space-between;
   margin-left: -5px;
   margin-right: -5px;
@@ -146,17 +147,17 @@
 }
 
 .dp-TicketMenu .dp-SubMenu a:hover {
-  background-color: #318cdd;
-  color: #fff;
+  background-color: var(--blue);
+  color: var(--white);
 }
 
 .dp-TicketMenu .dp-SubMenu a:hover .dp-SubNum {
-  color: #fff;
+  color: var(--white);
 }
 
 .dp-Tickets .dp-SubNum {
-  color: #4c4f50;
-  font-size: 12px;
+  color: var(--gray-600);
+  font-size: var(--font-size-base);
 }
 
 .dp-TicketMenu .dp-TitleMenu {

@@ -1,7 +1,8 @@
 .dp-TabBarList {
-  border-bottom: 2px solid #318cdd;
+  border-bottom: 2px solid var(--blue);
   display: flex;
-  margin-top: 3px;
+  height: var(--height-menu);
+  padding-top: 3px;
 }
 
 .dp-TabBarItem .dp-iconClose {
@@ -14,7 +15,7 @@
 }
 
 .dp-TabBarItem .dp-iconClose::before,.dp-TabBarItem .dp-iconClose::after {
-  background-color: #d3d6d7;
+  background-color: var(--gray-200);
   bottom: 0;
   content: "";
   height: 2px;
@@ -36,7 +37,7 @@
 
 .dp-TabBarItem,.dp-AddTabButton {
   border: 1px solid #a9b0b0;
-  border-bottom: 2px solid #318cdd;
+  border-bottom: 2px solid var(--blue);
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   display: inline-block;
@@ -44,25 +45,21 @@
 }
 
 .dp-TabBarItem {
-  background: #f7f7f7;
-  height: 43px;
+  background: var(--gray-50);
+
+  /* height: 43px; */
   margin-bottom: -2px;
   min-width: 160px;
-  padding: 5px 25px 7px 10px;
+  padding: var(--padding-tabbar);
   z-index: -1;
 }
 
 .dp-TabBarItem:hover {
-  background: #fff;
+  background: var(--white);
 }
 
 .dp-AddTabButton {
-  border: 1px solid #a9b0b0;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  display: inline-block;
   padding: 5px 7px 8px;
-  position: relative;
 }
 
 .dp-TabBarList .dp-AddTabButton {
@@ -96,7 +93,9 @@
 }
 
 .dp-TabBarItem .dp-Title {
-  color: #4c4f50;
+
+  /* color: #4c4f50; */
+  color: var(--gray-600);
   font-size: 11px;
   max-width: 200px;
   overflow: hidden;
@@ -106,13 +105,13 @@
 }
 
 .dp-TabBarItem .dp-Subtitle {
-  color: #707576;
+  color: var(--gray-500);
   font-size: 11px;
   padding-left: 18px;
 }
 
 .dp-TabBarList .dp-AddTabButton .dp-iconAdd {
-  background-color: #4fb05c;
+  background-color: var(--green-100);
   border-radius: 5px;
   cursor: pointer;
   display: block;
@@ -123,7 +122,7 @@
 
 .dp-TabBarList .dp-AddTabButton .dp-iconAdd::before,
 .dp-TabBarList .dp-AddTabButton .dp-iconAdd::after {
-  background-color: #fff;
+  background-color: var(--white);
   bottom: 0;
   content: "";
   height: 2px;
@@ -144,27 +143,8 @@
 }
 
 .dp-TabBarList .is-active {
-  background: #fff;
-  border: 2px solid #318cdd;
+  background: var(--white);
+  border: 2px solid var(--blue);
   border-bottom: 0;
   z-index: 1;
 }
-
-/* .dp-TabBarList .is-active:before{
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: -200%;
-    background-color: #318cdd;
-    width: 200%;
-    height: 2px;
-}
-.dp-TabBarList .is-active:after{
-    content: '';
-    position: absolute;
-    bottom: 0;
-    right: -200%;
-    background-color: #318cdd;
-    width: 200%;
-    height: 2px;
-} */

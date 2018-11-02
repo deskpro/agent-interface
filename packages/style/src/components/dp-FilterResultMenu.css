@@ -2,7 +2,7 @@
   color: #4e4d4d;
   cursor: pointer;
   display: block;
-  font-size: 12px;
+  font-size: var(--font-size-base);
   padding: 3.5px 10px;
   position: relative;
 }
@@ -19,9 +19,9 @@
 }
 
 .dp-FilterResultMenu li > a {
-  color: #318cdd;
+  color: var(--blue);
   display: inline-block;
-  font-size: 12px;
+  font-size: var(--font-size-base);
   padding: 0;
   text-decoration: underline;
 }
@@ -46,16 +46,18 @@
 }
 
 .dp-FilterResultMenu li:hover {
-  background-color: #e9f7ff;
-  color: #4696dc;
+
+  /* background-color: #e9f7ff; */
+  background-color: var(--blue-light);
+  color: var(--blue);
 }
 
 .dp-FilterResultMenu li:hover .dp-Arrow::after {
-  border-color: transparent transparent transparent #4696dc;
+  border-color: transparent transparent transparent var(--blue);
 }
 
 .dp-FilterResultMenu li:hover > a.dp-listItem {
-  color: #4696dc;
+  color: var(--blue);
 }
 
 .dp-FilterResultMenu li:hover .dp-SubContextMenu {
@@ -77,7 +79,7 @@
 }
 
 .dp-FilterResultMenu .dp-SearchInput:focus {
-  border: 2px solid #318cdd;
+  border: 2px solid var(--blue);
 }
 
 .dp-FilterResultMenu .dp-IconSearch {

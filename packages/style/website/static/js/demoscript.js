@@ -88,5 +88,23 @@ $(document).ready(function(){
 	});
 
 
+	
+
+
+	$(document).on("click", ".dp-FilterControlsItem .dp-DropMenuJs", function(){
+		$('.dp-ContextMenu').removeClass('is-active');
+		$(this).closest('.dp-FilterControlsItem').find('.dp-ContextMenu').addClass('is-active');
+		// $(this).closest('.dp-FilterControlsItem').toggleClass('is-active');
+	});
+
+	$(document).on("click", ".dp-FilterControlsItem .dp-ContextMenu a", function(e){
+		e.preventDefault();
+		var thisVal = $(this).text();
+		var itemVal = $(this).closest('.dp-FilterControlsItem').find('.jsContextItem');
+		itemVal.text(thisVal);
+
+		$(this).closest('.dp-FilterControlsItem').find('.dp-ContextMenu').removeClass('is-active');
+	});
+
 
 })

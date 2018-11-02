@@ -1,5 +1,5 @@
 .dp-BarListWrapper {
-  background-color: #fff;
+  background-color: var(--white);
   border: 2px solid #7daddd;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
@@ -31,8 +31,6 @@
   display: none;
   left: 0;
   position: absolute;
-
-  /* top: calc(100% + 5px); */
   top: 35px;
   z-index: 9;
 }
@@ -114,6 +112,7 @@
 
 .dp-Tasks.dp-MenuBarIcon .dp-MenuBarList.is-active + .dp-BarListWrapper {
   display: block;
+  max-width: 100%;
 }
 
 .dp-FilterResultItem > .dp-ControlInput:checked .dp-FilterResultItem {
@@ -121,15 +120,15 @@
 }
 
 .dp-FilterResultItem .dp-ItemRow.dp-Comment {
-  border-radius: 5px;
-  color: #4c4f50;
+  border-radius: var(--border-radius-comment);
+  color: var(--gray-600);
   flex-direction: column;
   margin: 5px 0 0 25px;
-  padding: 10px;
+  padding: var(--padding-message-container);
 }
 
 .dp-Commenttxt {
-  font-size: 10px;
+  font-size: var(--font-size-xs);
   padding-left: 25px;
   padding-top: 5px;
 }
@@ -139,18 +138,22 @@
 }
 
 .dp-DateTime {
-  font-size: 10px;
+  font-size: var(--font-size-xs);
 }
 
 .dp-FilterResultItem .dp-Tag.Tag--pink {
   background-color: #bbb;
-  border: 1px solid #bbb;
+  border: 1px solid transparent;
   cursor: not-allowed;
 }
 
 .dp-FilterResultItem.is-active .dp-Tag.Tag--pink {
-  background: #dc437c;
-  border: 1px solid #dc437c;
+
+  /* background: #dc437c; */
+
+  /* border: 1px solid #dc437c; */
+  background: var(--pink);
+  border: 1px solid var(--pink);
   cursor: pointer;
 }
 

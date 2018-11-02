@@ -463,52 +463,52 @@ class Demo extends React.Component {
         </div>
       <div class="dp-TemplateLeftCol">
         <ul class="dp-ModuleNav">
-          <li class="dp-ModuleNavList">
+          <li class="dp-ModuleNavList dp-DropMenuJs">
             <a class="dp-Icon dp-tickets" href="#"></a>
             <span class="dp-IconTooltip">Tickets</span>
           </li>
 
-          <li class="dp-ModuleNavList">
+          <li class="dp-ModuleNavList dp-DropMenuJs">
             <a class="dp-Icon dp-chats" href="#"></a>
             <span class="dp-IconTooltip">Chats</span>
           </li>
 
-          <li class="dp-ModuleNavList">
+          <li class="dp-ModuleNavList dp-DropMenuJs">
             <a class="dp-Icon dp-crm" href="#"></a>
             <span class="dp-IconTooltip">CRM</span>
           </li>
 
-          <li class="dp-ModuleNavList">
+          <li class="dp-ModuleNavList dp-DropMenuJs">
             <a class="dp-Icon dp-feedback" href="#"></a>
             <span class="dp-IconTooltip">Feedback</span>
           </li>
 
-          <li class="dp-ModuleNavList">
+          <li class="dp-ModuleNavList dp-DropMenuJs">
             <a class="dp-Icon dp-publish" href="#"></a>
             <span class="dp-IconTooltip">Publish</span>
           </li>
 
-          <li class="dp-ModuleNavList">
+          <li class="dp-ModuleNavList dp-DropMenuJs">
             <a class="dp-Icon dp-icontasks" href="#"></a>
             <span class="dp-IconTooltip">Tasks</span>
           </li>
 
-          <li class="dp-ModuleNavList">
+          <li class="dp-ModuleNavList dp-DropMenuJs">
             <a class="dp-Icon dp-reports" href="#"></a>
             <span class="dp-IconTooltip">Reports</span>
           </li>
 
-          <li class="dp-ModuleNavList">
+          <li class="dp-ModuleNavList dp-DropMenuJs">
             <a class="dp-Icon dp-admin" href="#"></a>
             <span class="dp-IconTooltip">Admin</span>
           </li>
 
-          <li class="dp-ModuleNavList is-borderBottom">
+          <li class="dp-ModuleNavList is-borderBottom dp-DropMenuJs">
             <a class="dp-Icon dp-billing_money" href="#"></a>
             <span class="dp-IconTooltip">Billing</span>
           </li>
 
-          <li class="dp-ModuleNavList dp-integration">
+          <li class="dp-ModuleNavList dp-integration dp-DropMenuJs">
             <a class="dp-Icon dp-portal" href="#"></a>
             <span class="dp-IconTooltip">
                 <span class="dp-TitleTooltip"> Portal </span>
@@ -2364,9 +2364,9 @@ class Demo extends React.Component {
                               </span>
                               <span class="dp-ItemRow">
                                 <ul class="dp-ActionsItems">
-                                    <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-IconCalendar2"></span>30/09/2018<span class="dp-Arrow"></span></li>
-                                    <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-IconClock3"></span>14:30 PM<span class="dp-Arrow"></span></li>
-                                    <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-IconBuilding"></span>Infastructure<span class="dp-Arrow"></span></li>
+                                    <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-group"></span>30/09/2018<span class="dp-Arrow"></span></li>
+                                    <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-history"></span>14:30 PM<span class="dp-Arrow"></span></li>
+                                    <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-oranisation"></span>Infastructure<span class="dp-Arrow"></span></li>
                                     <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-iconUserAvatar"></span>Me<span class="dp-Arrow"></span></li>
                                 </ul>
                                 <span class="dp-TimeStatus">
@@ -2383,9 +2383,9 @@ class Demo extends React.Component {
                               </span>
                               <span class="dp-ItemRow">
                               <ul class="dp-ActionsItems">
-                                  <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-IconCalendar2"></span>29/09/2018<span class="dp-Arrow"></span></li>
-                                  <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-IconClock3"></span>11:30 PM<span class="dp-Arrow"></span></li>
-                                  <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-IconBuilding"></span>Marketing<span class="dp-Arrow"></span></li>
+                                  <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-group"></span>29/09/2018<span class="dp-Arrow"></span></li>
+                                  <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-history"></span>11:30 PM<span class="dp-Arrow"></span></li>
+                                  <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-oranisation"></span>Marketing<span class="dp-Arrow"></span></li>
                                   <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-iconUserAvatar"></span>Me<span class="dp-Arrow"></span></li>
                               </ul>
                                   <span class="dp-TimeStatus">
@@ -2402,9 +2402,9 @@ class Demo extends React.Component {
                               </span>
                               <span class="dp-ItemRow">
                               <ul class="dp-ActionsItems">
-                                  <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-IconCalendar2"></span>22/09/2018<span class="dp-Arrow"></span></li>
-                                  <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-IconClock3"></span>16:00 PM<span class="dp-Arrow"></span></li>
-                                  <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-IconBuilding"></span>Sales<span class="dp-Arrow"></span></li>
+                                  <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-group"></span>22/09/2018<span class="dp-Arrow"></span></li>
+                                  <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-history"></span>16:00 PM<span class="dp-Arrow"></span></li>
+                                  <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-oranisation"></span>Sales<span class="dp-Arrow"></span></li>
                                   <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-iconUserAvatar"></span>Me<span class="dp-Arrow"></span></li>
                               </ul>
                                   <span class="dp-TimeStatus">
@@ -2421,9 +2421,9 @@ class Demo extends React.Component {
                               </span>
                               <span class="dp-ItemRow">
                               <ul class="dp-ActionsItems">
-                                  <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-IconCalendar2"></span>19/09/2018<span class="dp-Arrow"></span></li>
-                                  <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-IconClock3"></span>10:30 PM<span class="dp-Arrow"></span></li>
-                                  <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-IconBuilding"></span>Infastructure<span class="dp-Arrow"></span></li>
+                                  <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-group"></span>19/09/2018<span class="dp-Arrow"></span></li>
+                                  <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-history"></span>10:30 PM<span class="dp-Arrow"></span></li>
+                                  <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-oranisation"></span>Infastructure<span class="dp-Arrow"></span></li>
                                   <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-iconUserAvatar"></span>Me<span class="dp-Arrow"></span></li>
                               </ul>
                                   <span class="dp-TimeStatus">

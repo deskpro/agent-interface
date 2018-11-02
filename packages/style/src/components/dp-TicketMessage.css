@@ -8,7 +8,7 @@
   align-items: center;
   color: #808080;
   display: flex;
-  font-size: 10px;
+  font-size: var(--font-size-xs);
 }
 
 .dp-TicketMessage .dp-iconSetting {
@@ -27,14 +27,16 @@
 }
 
 .dp-MessageTitle .dp-Type {
-  color: #3a8dde;
-  font-size: 12px;
+
+  /* color: #3a8dde; */
+  color: var(--blue);
+  font-size: var(--font-size-base);
   margin: 10px 0;
   text-transform: uppercase;
 }
 
 .dp-MessageBody {
-  font-size: 12px;
+  font-size: var(--font-size-base);
 }
 
 .dp-ExpandButton {
@@ -54,15 +56,21 @@
 
 .dp-MessageContainer {
   display: block;
-  padding: 10px;
+
+  /* padding: 10px; */
+  padding: var(--padding-message-container);
 }
 
 .dp-MessageContainer.dp-ColorContainer {
   background-color: #fff8e1;
-  border: 2px solid #d5d6d1;
+
+  /* border: 2px solid #d5d6d1; */
+  border: 2px solid var(--gray-200);
   border-radius: 5px;
   display: block;
-  padding: 20px 10px 10px;
+
+  /* padding: 20px 10px 10px; */
+  padding: var(--padding-message-color-container);
 }
 
 .dp-TicketMessage .dp-Badge {

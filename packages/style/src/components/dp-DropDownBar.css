@@ -4,8 +4,8 @@
 
 .dp-DropDownList {
   align-items: center;
-  background-color: #f7f7f7;
-  border-radius: 5px;
+  background-color: var(--gray-50);
+  border-radius: var(--border-radius);
   display: flex;
   justify-content: space-between;
   list-style: none;

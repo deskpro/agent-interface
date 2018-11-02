@@ -30,9 +30,9 @@ title: Tasks
 		            </span>
 		            <span class="dp-ItemRow">
 				        <ul class="dp-ActionsItems">
-				            <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-IconCalendar2"></span>30/09/2018<span class="dp-Arrow"></span></li>
-				            <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-IconClock3"></span>14:30 PM<span class="dp-Arrow"></span></li>
-				            <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-IconBuilding"></span>Infastructure<span class="dp-Arrow"></span></li>
+				            <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-group"></span>30/09/2018<span class="dp-Arrow"></span></li>
+				            <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-history"></span>14:30 PM<span class="dp-Arrow"></span></li>
+				            <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-oranisation"></span>Infastructure<span class="dp-Arrow"></span></li>
 				            <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-iconUserAvatar"></span>Me<span class="dp-Arrow"></span></li>
 				        </ul>
 		                <span class="dp-TimeStatus">
@@ -50,9 +50,9 @@ title: Tasks
 		            </span>
 		            <span class="dp-ItemRow">
 				        <ul class="dp-ActionsItems">
-				            <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-IconCalendar2"></span>29/09/2018<span class="dp-Arrow"></span></li>
-				            <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-IconClock3"></span>11:30 PM<span class="dp-Arrow"></span></li>
-				            <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-IconBuilding"></span>Marketing<span class="dp-Arrow"></span></li>
+				            <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-group"></span>29/09/2018<span class="dp-Arrow"></span></li>
+				            <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-history"></span>11:30 PM<span class="dp-Arrow"></span></li>
+				            <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-oranisation"></span>Marketing<span class="dp-Arrow"></span></li>
 				            <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-iconUserAvatar"></span>Me<span class="dp-Arrow"></span></li>
 				        </ul>
 		                <span class="dp-TimeStatus">
@@ -70,9 +70,9 @@ title: Tasks
 		            </span>
 		            <span class="dp-ItemRow">
 				        <ul class="dp-ActionsItems">
-				            <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-IconCalendar2"></span>22/09/2018<span class="dp-Arrow"></span></li>
-				            <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-IconClock3"></span>16:00 PM<span class="dp-Arrow"></span></li>
-				            <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-IconBuilding"></span>Sales<span class="dp-Arrow"></span></li>
+				            <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-group"></span>22/09/2018<span class="dp-Arrow"></span></li>
+				            <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-history"></span>16:00 PM<span class="dp-Arrow"></span></li>
+				            <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-oranisation"></span>Sales<span class="dp-Arrow"></span></li>
 				            <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-iconUserAvatar"></span>Me<span class="dp-Arrow"></span></li>
 				        </ul>
 		                <span class="dp-TimeStatus">
@@ -90,9 +90,9 @@ title: Tasks
 		            </span>
 		            <span class="dp-ItemRow">
 				        <ul class="dp-ActionsItems">
-				            <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-IconCalendar2"></span>19/09/2018<span class="dp-Arrow"></span></li>
-				            <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-IconClock3"></span>10:30 PM<span class="dp-Arrow"></span></li>
-				            <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-IconBuilding"></span>Infastructure<span class="dp-Arrow"></span></li>
+				            <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-group"></span>19/09/2018<span class="dp-Arrow"></span></li>
+				            <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-history"></span>10:30 PM<span class="dp-Arrow"></span></li>
+				            <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-oranisation"></span>Infastructure<span class="dp-Arrow"></span></li>
 				            <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-iconUserAvatar"></span>Me<span class="dp-Arrow"></span></li>
 				        </ul>
 		                <span class="dp-TimeStatus">
@@ -128,8 +128,8 @@ title: Tasks
 						<textarea name="comment" placeholder="Task description"></textarea>
 				        <ul class="dp-ActionsItems dp-BackgroundGray">
 				            <li class="dp-ActionsItem dp-MenuBarItem">No due date<span class="dp-Arrow"></span></li>
-				            <li class="dp-ActionsItem dp-MenuBarItem">Private<span class="dp-Arrow"></span></li>
-				            <li class="dp-ActionsItem dp-MenuBarItem">Me<span class="dp-Arrow"></span></li>
+				            <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-view"></span>Private<span class="dp-Arrow"></span></li>
+				            <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-iconUserAvatar"></span>Me<span class="dp-Arrow"></span></li>
 				            <li class="dp-ActionsItem"><span class="dp-Tag Tag--small Tag--green">Add</span></li>
 				        </ul>
 					</div>
@@ -146,11 +146,11 @@ title: Tasks
 			            </span>
 			            <span class="dp-ItemRow">
 					        <ul class="dp-ActionsItems">
-					            <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-IconCalendar2"></span>30/09/2018<span class="dp-Arrow"></span></li>
-					            <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-IconClock3"></span>14:30 PM<span class="dp-Arrow"></span></li>
-					            <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-IconBuilding"></span>Infastructure<span class="dp-Arrow"></span></li>
+					            <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-group"></span>30/09/2018<span class="dp-Arrow"></span></li>
+					            <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-history"></span>14:30 PM<span class="dp-Arrow"></span></li>
+					            <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-oranisation"></span>Infastructure<span class="dp-Arrow"></span></li>
 					            <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-iconUserAvatar"></span>Me<span class="dp-Arrow"></span></li>
-					            <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-iconChat"></span>Add comment</li>
+					            <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-chats"></span>Add comment</li>
 					        </ul>
 			                <span class="dp-TimeStatus">
 			                    <span class="dp-Tag Tag--small Tag--pink">Remove</span>
@@ -167,11 +167,11 @@ title: Tasks
 			            </span>
 			            <span class="dp-ItemRow">
 					        <ul class="dp-ActionsItems">
-					            <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-IconCalendar2"></span>29/09/2018<span class="dp-Arrow"></span></li>
-					            <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-IconClock3"></span>11:30 PM<span class="dp-Arrow"></span></li>
-					            <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-IconBuilding"></span>Marketing<span class="dp-Arrow"></span></li>
+					            <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-group"></span>29/09/2018<span class="dp-Arrow"></span></li>
+					            <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-history"></span>11:30 PM<span class="dp-Arrow"></span></li>
+					            <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-oranisation"></span>Marketing<span class="dp-Arrow"></span></li>
 					            <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-iconUserAvatar"></span>Me<span class="dp-Arrow"></span></li>
-					            <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-iconChat"></span>Add comment</li>
+					            <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-chats"></span>Add comment</li>
 					        </ul>
 			                <span class="dp-TimeStatus">
 			                    <span class="dp-Tag Tag--small Tag--pink">Remove</span>
@@ -188,11 +188,11 @@ title: Tasks
 			            </span>
 			            <span class="dp-ItemRow">
 					        <ul class="dp-ActionsItems">
-					            <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-IconCalendar2"></span>22/09/2018<span class="dp-Arrow"></span></li>
-					            <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-IconClock3"></span>16:00 PM<span class="dp-Arrow"></span></li>
-					            <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-IconBuilding"></span>Sales<span class="dp-Arrow"></span></li>
+					            <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-group"></span>22/09/2018<span class="dp-Arrow"></span></li>
+					            <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-history"></span>16:00 PM<span class="dp-Arrow"></span></li>
+					            <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-oranisation"></span>Sales<span class="dp-Arrow"></span></li>
 					            <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-iconUserAvatar"></span>Me<span class="dp-Arrow"></span></li>
-					            <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-iconChat"></span>Add comment <a href="#" class="dp-NumLink">(1)</a></li>
+					            <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-chats"></span>Add comment <a href="#" class="dp-NumLink">(1)</a></li>
 					        </ul>
 			                <span class="dp-TimeStatus">
 			                    <span class="dp-Tag Tag--small Tag--pink">Remove</span>
@@ -218,11 +218,11 @@ title: Tasks
 			            </span>
 			            <span class="dp-ItemRow">
 					        <ul class="dp-ActionsItems">
-					            <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-IconCalendar2"></span>19/09/2018<span class="dp-Arrow"></span></li>
-					            <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-IconClock3"></span>10:30 PM<span class="dp-Arrow"></span></li>
-					            <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-IconBuilding"></span>Infastructure<span class="dp-Arrow"></span></li>
+					            <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-group"></span>19/09/2018<span class="dp-Arrow"></span></li>
+					            <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-history"></span>10:30 PM<span class="dp-Arrow"></span></li>
+					            <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-oranisation"></span>Infastructure<span class="dp-Arrow"></span></li>
 					            <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-iconUserAvatar"></span>Me<span class="dp-Arrow"></span></li>
-					            <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-iconChat"></span>Add comment</li>
+					            <li class="dp-ActionsItem dp-MenuBarItem"><span class="dp-Icon dp-chats"></span>Add comment</li>
 					        </ul>
 			                <span class="dp-TimeStatus">
 			                    <span class="dp-Tag Tag--small Tag--pink">Remove</span>

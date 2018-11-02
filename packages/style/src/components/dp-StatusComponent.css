@@ -16,7 +16,7 @@
 }
 
 .dp-StatusTitle {
-  font-weight: 700;
+  font-weight: var(--font-weight-bold);
   text-transform: uppercase;
 }
 
@@ -28,7 +28,9 @@
 }
 
 .dp-BorderGray {
-  border: 2px solid #e1e3e4;
+
+  /* border: 2px solid #e1e3e4; */
+  border: 2px solid var(--border-color);
 }
 
 .dp-StatusComponent .dp-ActionButton {
@@ -63,7 +65,9 @@
 }
 
 .dp-TeamPart {
-  border-left: 1px solid #e1e3e4;
+
+  /* border-left: 1px solid #e1e3e4; */
+  border-left: 1px solid var(--border-color);
   margin-left: 10px;
   padding-left: 10px;
 }
@@ -115,7 +119,7 @@
 }
 
 .dp-FollowersWrapper.is-active .dp-FollowersItem .dp-Icon {
-  background-color: #f7f7f7;
+  background-color: var(--gray-50);
   background-size: 25px 25px;
   border-radius: 50%;
   height: 25px;

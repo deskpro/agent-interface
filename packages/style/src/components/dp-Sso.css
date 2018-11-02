@@ -24,8 +24,12 @@
 }
 
 .dp-SsoTxt {
-  color: #4c4f50;
-  font-size: 14px;
+
+  /* color: #4c4f50; */
+  color: var(--gray-600);
+
+  /* font-size: 14px; */
+  font-size: var(--h2);
   margin-left: 10px;
   white-space: nowrap;
 }

@@ -1,16 +1,24 @@
 .dp-TabItesm {
-  border-bottom: 2px solid #d9dbdc;
+
+  /* border-bottom: 2px solid #d9dbdc; */
+  border-bottom: 2px solid var(--gray-200);
   display: flex;
 }
 
 .dp-TabItem {
-  background-color: #f7f7f7;
-  border: 2px solid #d9dbdc;
-  color: #707576;
+  background-color: var(--gray-50);
+
+  /* border: 2px solid #d9dbdc; */
+  border: 2px solid var(--gray-200);
+
+  /* color: #707576; */
+  color: var(--gray-550);
   cursor: pointer;
-  font-size: 12px;
+  font-size: var(--font-size-base);
   margin-bottom: -2px;
-  padding: 5px 10px;
+
+  /* padding: 5px 10px; */
+  padding: var(--padding-tabs);
   text-transform: uppercase;
 }
 
@@ -23,9 +31,9 @@
 }
 
 .dp-TabItem.is-active {
-  background-color: #318cdd;
+  background-color: var(--blue);
   border: 2px solid transparent;
-  color: #fff;
+  color: var(--white);
 }
 
 .dp-ReplyBox + .dp-TabContainer {
