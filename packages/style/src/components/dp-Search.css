@@ -11,12 +11,14 @@
 .dp-Search form {
   align-items: center;
   display: flex;
+  height: 100%;
+  position: relative;
   width: 100%;
 }
 
 .dp-Search input {
   border: 0;
-  margin-left: 5px;
+  margin-left: 25px;
   outline: none;
   width: 100%;
 }

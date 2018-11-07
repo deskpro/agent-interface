@@ -44,7 +44,9 @@
   --cyan: #17a2b8;
 
   --text-light: #fefefe;
-  --text-dark: #333;
+  --text-dark: #4d4d4d;
+
+  /* --text-dark: #333; */
   --text-darkish: #555;
 
   --text-color: var(--black);
@@ -93,8 +95,8 @@
   --framework-margin: 10px;
   --button-padding: 10px;
 
-  /*  */
   --height-menu: 46px;
+  --height-search-snippet: calc(-1px - var(--height-menu));
   --height-search-control: 45px;
   --padding-tabbar: 5px 25px 7px 10px;
   --padding-tabs: 5px 10px;

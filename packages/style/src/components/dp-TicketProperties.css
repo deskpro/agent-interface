@@ -44,7 +44,9 @@
   line-height: 2.4;
 }
 
-.dp-TicketProperties .dp-BarListWrapper .dp-Icon {
+/* .dp-TicketProperties .dp-BarListWrapper .dp-Icon { */
+
+.dp-BarListWrapper .dp-Icon {
   height: 15px;
   margin-right: 5px;
   width: 16px;
@@ -77,20 +79,20 @@
 
 .dp-PropertySubTitleList form {
   margin: 0 5px;
-  position: relative;
 }
 
 .dp-PropertySubTitleList form input {
   border: 2px solid var(--blue);
-  border-radius: 5px;
-  outline: none;
-  padding: 5px 0 5px 25px;
 }
 
-.dp-TicketProperties .dp-IconSearch {
+/* .dp-TicketProperties .dp-IconSearch { */
+
+.dp-find {
   left: 5px;
   position: absolute;
-  top: 8px;
+
+  /* top: 8px; */
+  top: calc(50% - 10px);
 }
 
 .dp-AddBtn {

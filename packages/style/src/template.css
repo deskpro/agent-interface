@@ -164,3 +164,46 @@
 .dp-TemplateInnerContentLeft .dp-PageSidebar.dp-UserActivSidebar.is-active {
   display: block;
 }
+
+/* search pop-up */
+
+.dp-Template  .dp-TemplateMainContentLeft {
+  overflow: visible;
+  position: relative;
+}
+
+.dp-Template  .dp-SearchSnippets {
+  display: none;
+  left: 0;
+  position: absolute;
+  top: var(--height-search-snippet);
+}
+
+.dp-Template  .dp-SearchSnippets.is-active {
+  display: block;
+}
+
+.dp-Template .dp-PageSidebar.dp-SearchSnippets {
+  display: none;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.dp-Template  .dp-PageSidebar.dp-SearchSnippets.is-active {
+  display: block;
+}
+
+.dp-Template .dp-SearchSnippets.dp-AddSnippets {
+  display: none;
+  left: 0;
+  position: absolute;
+  top: 0;
+  z-index: 2;
+}
+
+.dp-Template .dp-SearchSnippets.dp-AddSnippets.is-active {
+  display: block;
+}

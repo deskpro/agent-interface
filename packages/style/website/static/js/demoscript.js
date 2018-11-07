@@ -107,4 +107,24 @@ $(document).ready(function(){
 	});
 
 
+
+	// focus on search
+	$(".dp-Template .dp-Search .dp-DropMenuJs" ).focus(function() {
+	  $('.dp-Template .dp-MainSnippets').addClass('is-active');
+	  $('.dp-Template .dp-PageSidebar.dp-SearchSnippets').addClass('is-active');
+	});
+	// close Snippets
+	$(document).on("click", ".dp-Template .dp-MainSnippets .dp-IconCloseBlue.dp-DropMenuJs", function(){
+		$('.dp-Template .dp-MainSnippets').removeClass('is-active');
+		$('.dp-Template .dp-PageSidebar.dp-SearchSnippets').removeClass('is-active');
+	});
+
+	// add snippets
+	$(document).on("click", ".dp-Template .dp-PageSidebar.dp-SearchSnippets .dp-btn.dp-DropMenuJs", function(){
+		$('.dp-Template .dp-AddSnippets').addClass('is-active');
+	});
+
+
+
+
 })

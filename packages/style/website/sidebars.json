@@ -16,6 +16,7 @@
       "components/dp-TicketMessage",
       "components/dp-Tickets",
       "components/dp-Search",
+      "components/dp-SearchSnippets",
       "components/dp-ControlPanel",
       "components/dp-Sso",
       "components/dp-YourAccount",
