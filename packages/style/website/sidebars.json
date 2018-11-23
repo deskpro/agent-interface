@@ -1,61 +1,71 @@
 {
   "docs": {
-    "Getting Started": ["intro", "colors"],
+    "Getting Started": [
+      "intro", 
+      "deskpro-colours",
+      "deskpro-fonts"
+    ],
     "Components": [
-      "components/dp-Level",
-      "components/dp-ModuleNav",
-      "components/dp-TabBar",
-      "components/dp-FilterResultList",
-      "components/dp-FilterResultControls",
-      "components/dp-ActionButton-ContextMenu",
-      "components/dp-MenuBar",
-      "components/dp-PageSidebar",
-      "components/dp-PropertyList",
-      "components/dp-Tabs",
-      "components/dp-ReplyBox",
-      "components/dp-TicketMessage",
-      "components/dp-Tickets",
-      "components/dp-Search",
-      "components/dp-SearchSnippets",
-      "components/dp-ControlPanel",
-      "components/dp-Sso",
-      "components/dp-YourAccount",
-      "components/dp-Tasks",
-      "components/dp-UserOverlay",
-      "components/dp-TagBar",
-      "components/dp-DropDownBar",
-      "components/dp-StatusComponent",
-      "components/dp-TicketProperties",
-      "components/dp-FilterResultMenu"
+      "components/dp-ModuleBar",
+      "components/dp-Header",
+      "components/dp-FilterList",
+      "components/dp-ListPane"
     ],
     "Elements": [
-      "elements/dp-Button",
-      "elements/dp-Input",
-      "elements/dp-TagBadge",
-      "elements/dp-Icons"
+      "elements/dp-Icons",
+      "elements/dp-TagBadge"
     ],
-    "Apps-components": [
-      "components/apps/dpApps-Level",
-      "components/apps/dpApps-ButtonTabs",
-      "components/apps/dpApps-AppBar",
-      "components/apps/dpApps-ActionList",
-      "components/apps/dpApps-AppBody",
-      "components/apps/dpApps-AppFrame",
-      "components/apps/dpApps-AppPanel",
-      "components/apps/dpApps-ListItem",
-      "components/apps/dpApps-Scrollable",
-      "components/apps/dpApps-ActionPanel",
-      "components/apps/dpApps-TabSwitcher",
-      "components/apps/dpApps-DataTable",
-      "components/apps/dpApps-DataDefList",
-      "components/apps/dpApps-Panel"
+    "Components-Old": [
+      "old/components/dp-Level",
+      "old/components/dp-ModuleNav",
+      "old/components/dp-TabBar",
+      "old/components/dp-FilterResultControls",
+      "old/components/dp-ActionButton-ContextMenu",
+      "old/components/dp-MenuBar",
+      "old/components/dp-PageSidebar",
+      "old/components/dp-PropertyList",
+      "old/components/dp-Tabs",
+      "old/components/dp-ReplyBox",
+      "old/components/dp-TicketMessage",
+      "old/components/dp-Search",
+      "old/components/dp-SearchSnippets",
+      "old/components/dp-ControlPanel",
+      "old/components/dp-Sso",
+      "old/components/dp-YourAccount",
+      "old/components/dp-Tasks",
+      "old/components/dp-UserOverlay",
+      "old/components/dp-TagBar",
+      "old/components/dp-DropDownBar",
+      "old/components/dp-StatusComponent",
+      "old/components/dp-TicketProperties"
     ],
-    "Apps-elements": [
-      "elements/apps/dpApps-Button",
-      "elements/apps/dpApps-Forms",
-      "elements/apps/dpApps-Content",
-      "elements/apps/dpApps-Title",
-      "elements/apps/dpApps-Icons"
+    "Elements-Old": [
+      "old/elements/dp-Button",
+      "old/elements/dp-Buttons(new)",
+      "old/elements/dp-Input"
+    ],
+    "Apps-components-Old": [
+      "old/components/dpApps-Level",
+      "old/components/dpApps-ButtonTabs",
+      "old/components/dpApps-AppBar",
+      "old/components/dpApps-ActionList",
+      "old/components/dpApps-AppBody",
+      "old/components/dpApps-AppFrame",
+      "old/components/dpApps-AppPanel",
+      "old/components/dpApps-ListItem",
+      "old/components/dpApps-Scrollable",
+      "old/components/dpApps-ActionPanel",
+      "old/components/dpApps-TabSwitcher",
+      "old/components/dpApps-DataTable",
+      "old/components/dpApps-DataDefList",
+      "old/components/dpApps-Panel"
+    ],
+    "Apps-elements-Old": [
+      "old/elements/dpApps-Button",
+      "old/elements/dpApps-Forms",
+      "old/elements/dpApps-Content",
+      "old/elements/dpApps-Title",
+      "old/elements/dpApps-Icons"
     ]
   }
 }

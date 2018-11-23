@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	$(document).on("click", ".dp-IconPanelList .dp-DropMenuJs", function(){
+	$(document).on("click", ".dp-Template .dp-IconPanelList .dp-DropMenuJs", function(){
 		$(this).find('.dp-YourAccount').toggleClass('is-active');
 	});
 
@@ -125,6 +125,12 @@ $(document).ready(function(){
 	});
 
 
+	// TabBar
+	$('.dp-TabBarList .dp-DropMenuJs a').on('click', function(event){
+		event.preventDefault();
+		$('.dp-TabBarList .dp-TabBarItem.dp-DropMenuJs').removeClass('is-active');
+		$(this).parent().addClass('is-active');
+	});
 
 
 })

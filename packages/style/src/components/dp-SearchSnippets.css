@@ -291,7 +291,9 @@
 }
 
 .dp-PageSidebar.dp-SearchSnippets .dp-find {
+  left: 5px;
   top: calc(50% - 8px);
+  position: absolute;
 }
 
 .dp-AddSnippets .dp-ReplyWrapper {

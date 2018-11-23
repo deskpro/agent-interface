@@ -545,6 +545,7 @@ class Demo extends React.Component {
         </ul>
       </div>
       <div class="dp-TemplateMainColl">
+
         <div class="dp-TopActionRow">
           <div class="dp-TopActionRowLeft">
             <div class="dp-Search">
@@ -647,6 +648,7 @@ class Demo extends React.Component {
             </div>
           </div>
         </div>
+        
         <div class="dp-TemplateMainContent">
           <div class="dp-TemplateMainContentLeft">
 
@@ -2369,45 +2371,51 @@ class Demo extends React.Component {
               </div>
             </div>
             <ul class="dp-TabBarList">
-              <li class="dp-AddTabButton">
-                <a class="dp-Icon dp-iconAdd" href="#"></a>
-              </li>
-              <li class="dp-TabBarItem">
-                <span class="dp-Flex">
-                  <a class="dp-Icon dp-iconEmail" href="#"></a>
-                  <span class="dp-Title">RE: Need some help?</span>
-                </span>
-                <span class="dp-Flex">
-                  <span class="dp-Icon dp-Avatar">
-                    <img src="/agent-interface/style/img/docs/avatar.png" class="dp-IconAvatar" alt=""></img>
-                  </span>
-                  <span class="dp-Subtitle">James Colbert</span>
-                </span>
-                <span class="dp-iconClose"></span>
-              </li>
-              <li class="dp-TabBarItem is-active">
-                <span class="dp-Flex">
-                  <a class="dp-Icon dp-iconEmail" href="#"></a>
-                  <span class="dp-Title">SSO working well wit...</span>
-                </span>
-                <span class="dp-Flex">
-                  <span class="dp-Icon dp-Avatar">
-                    <img src="/agent-interface/style/img/docs/avatar.png" class="dp-IconAvatar" alt=""></img>
-                  </span>
-                   <span class="dp-Subtitle">Zack Prudent</span>
-                </span>
-                <span class="dp-iconClose"></span>
-              </li>
-              <li class="dp-TabBarItem">
-                <span class="dp-Flex">
-                  <a class="dp-Icon dp-iconOrganisation" href="#"></a>
-                  <span class="dp-Title">Deskpro</span>
-                </span>
-                <span class="dp-Flex">
-                  <span class="dp-Subtitle">Organisation</span>
-                </span>
-                <span class="dp-iconClose"></span>
-              </li>
+                <li class="dp-AddTabButton">
+                    <a class="dp-Icon dp-iconAdd" href="#"></a>
+                </li>
+                <li class="dp-TabBarItem dp-DropMenuJs">
+                    <a href="#">
+                        <span class="dp-Flex">
+                            <span class="dp-Icon dp-iconEmail" ></span>
+                            <span class="dp-Title">RE: Need some help?</span>
+                        </span>
+                        <span class="dp-Flex">
+                            <span class="dp-Icon dp-Avatar">
+                                <img src="/agent-interface/style/img/docs/avatar.png" class="dp-IconAvatar" alt=""></img>
+                            </span>
+                            <span class="dp-Subtitle">James Colbert</span>
+                        </span>
+                        <span class="dp-iconClose"></span>
+                    </a>
+                </li>
+                <li class="dp-TabBarItem is-active dp-DropMenuJs">
+                    <a href="#">
+                        <span class="dp-Flex">
+                            <span class="dp-Icon dp-iconEmail"></span>
+                            <span class="dp-Title">SSO working well wit...</span>
+                        </span>
+                        <span class="dp-Flex">
+                            <span class="dp-Icon dp-Avatar">
+                                <img src="/agent-interface/style/img/docs/avatar.png" class="dp-IconAvatar" alt=""></img>
+                            </span>
+                           <span class="dp-Subtitle">Zack Prudent</span>
+                        </span>
+                        <span class="dp-iconClose"></span>
+                    </a>
+                </li>
+                <li class="dp-TabBarItem dp-DropMenuJs">
+                    <a href="#">
+                        <span class="dp-Flex">
+                            <span class="dp-Icon dp-iconOrganisation"></span>
+                            <span class="dp-Title">Deskpro</span>
+                        </span>
+                        <span class="dp-Flex">
+                           <span class="dp-Subtitle">Organisation</span>
+                        </span>
+                        <span class="dp-iconClose"></span>
+                    </a>
+                </li>
             </ul>
             <div class="dp-Sso">
               <div class="dp-SsoWrap">

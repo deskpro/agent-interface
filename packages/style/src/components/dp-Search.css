@@ -18,7 +18,8 @@
 
 .dp-Search input {
   border: 0;
-  margin-left: 25px;
+  /*margin-left: 25px;*/
+  margin-left: 5px;
   outline: none;
   width: 100%;
 }

@@ -58,11 +58,7 @@ title: Icons
     <span class="dp-Icon dp-document"></span>
     <span class="dp-Icon dp-attach"></span>
     <span class="dp-Icon dp-type_size"></span>
-    <span class="dp-Icon dp-bold"></span>
-    <span class="dp-Icon dp-italic"></span>
-    <span class="dp-Icon dp-align"></span>
-    <span class="dp-Icon dp-bulleted_list"></span>
-    <span class="dp-Icon dp-numbered_list"></span>
+
     <span class="dp-Icon dp-global"></span>
     <span class="dp-Icon dp-find"></span>
     <span class="dp-Icon dp-down_caret"></span>
@@ -70,7 +66,6 @@ title: Icons
     <span class="dp-Icon dp-add_follower"></span>
     <span class="dp-Icon dp-close"></span>
     <span class="dp-Icon dp-csv"></span>
-    <span class="dp-Icon dp-mass_actions"></span>
     <span class="dp-Icon dp-bin"></span>
     <span class="dp-Icon dp-phone_filled"></span>
     <span class="dp-Icon dp-end_call"></span>
@@ -78,8 +73,23 @@ title: Icons
     <span class="dp-Icon dp-mute"></span>
     <span class="dp-Icon dp-transfer"></span>
     <span class="dp-Icon dp-add_user"></span>
-    <span class="dp-Icon dp-search"></span>
-    <span class="dp-Icon dp-record"></span>
     <span class="dp-Icon dp-group"></span>
+    <span class="dp-Icon dp-record"></span>
+    <span class="dp-Icon dp-criteria"></span>
+    <span class="dp-Icon dp-linkedtTickets"></span>
+    <span class="dp-Icon dp-IconSupport"></span>
+    <span class="dp-Icon dp-cloud"></span>
+    <span class="dp-Icon dp-IconVoice"></span>
+    <span class="dp-Icon dp-IconSecurity"></span>
+    <span class="dp-Icon dp-scissors"></span>
+    <span class="dp-Icon dp-tick"></span>
+    <span class="dp-Icon dp-LevelDown"></span>
+    <span class="dp-Icon dp-IconTasks"></span>
+    <span class="dp-Icon dp-IconMenu"></span>
+    <span class="dp-Icon dp-IconDownload"></span>
+    <span class="dp-Icon dp-IconNews"></span>
+    <span class="dp-Icon dp-IconJump"></span>
+    <span class="dp-Icon dp-IconClose-fill"></span>
+
 </div>
 ```

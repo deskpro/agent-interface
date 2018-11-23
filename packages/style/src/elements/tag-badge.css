@@ -44,11 +44,17 @@
     &:hover { background: color-mod(#fafafa blackness(20%)); }
   }
 
-  &.Tag--purple {
+  /*  &.Tag--purple {
     background: #d0c2e0;
     border: 1px solid #9687bf;
     color: #4e4d4d;
     &:hover { background: rgba(208, 194, 224, 0.5); }
+  } */
+
+  &.Tag--purple {
+    background: var(--purple-light);
+    border: 1px solid var(--purple);
+    color: var(--grey-darkest);
   }
 
   &.Tag--pink {
@@ -65,11 +71,19 @@
     &:hover { background: rgba(79, 176, 92, 0.5); }
   }
 
-  &.Tag--orange {
+  &.Tag--warning {
     background: #f18b44;
     border: 1px solid #f18b44;
     color: #fff;
     &:hover { background: rgba(241, 139, 68, 0.5); }
+  }
+
+  &.Tag--danger {
+    background: #e84954;
+    border: 1px solid #e84954;
+    color: #fff;
+
+    /* &:hover { background: rgba(241, 139, 68, 0.5); } */
   }
 
   &.Tag--small {
@@ -87,21 +101,27 @@
 }
 
 .dp-Tag.dp-TagPlus {
-  padding: 9px 9px;
+
+  /* padding: 9px 9px; */
+  padding: 4px 20px 4px 9px;
   position: relative;
   vertical-align: middle;
 }
 
 .dp-Tag.dp-TagPlus::before,.dp-Tag.dp-TagPlus::after {
-  background-color: #4e4d4d;
-  bottom: 0;
+
+  /* background-color: #4e4d4d; */
+  background-color: var(--grey);
   content: "";
   height: 1px;
-  left: 0;
   margin: auto;
+  margin: 0;
   position: absolute;
+
+  /*  bottom: 0;
+  left: 0; */
   right: 0;
-  top: 0;
+  top: calc(50% - 4.5px);
   width: 9px;
 }
 
@@ -151,6 +171,11 @@
   transform: rotate(135deg);
 }
 
+.Tag--close.Tag--plus .dp-close {
+  top: calc(50% - 5px);
+  transform: rotate(45deg);
+}
+
 /* Badge */
 
 .dp-Badge {
@@ -173,11 +198,15 @@
     background-color: #e84954;
   }
 
-  &.Badge--redLight {
-    background-color: #ec6c4e;
+  &.Badge--warning {
+    background-color: var(--warning);
   }
 
-  &.Badge--orangeLight {
+  &.Badge--danger {
+    background-color: var(--danger);
+  }
+
+  &.Badge--warningLight {
     background-color: #f18b44;
   }
 

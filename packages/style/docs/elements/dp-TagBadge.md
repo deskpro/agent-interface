@@ -13,7 +13,7 @@ title: Tag/Badge
     <span class="dp-Tag Tag--close">Tag close<span class="dp-iconClose"></span></span>
     <span class="dp-Tag Tag--close Tag--purple">Tag close color<span class="dp-iconClose"></span></span>
     <span class="dp-Tag Tag--pink">Tag color</span>
-    <span class="dp-Tag Tag--orange">Tag color</span>
+    <span class="dp-Tag Tag--warning">Tag color</span>
     <span class="dp-Tag dp-TagPlus"></span>
     
 ```
@@ -31,8 +31,8 @@ title: Tag/Badge
 ```html @preview
     <div style="background: #e6e6e6;padding: 0.75rem;margin: -0.75rem;">
         <span class="dp-Badge Badge--red">10</span>
-        <span class="dp-Badge Badge--redLight">9</span>
-        <span class="dp-Badge Badge--orangeLight">7</span>
+        <span class="dp-Badge Badge--warning">9</span>
+        <span class="dp-Badge Badge--warningLight">7</span>
         <span class="dp-Badge Badge--yellow">6</span>
         <span class="dp-Badge Badge--empty"></span>
         <span class="dp-Badge Badge--emptyWhite"></span>

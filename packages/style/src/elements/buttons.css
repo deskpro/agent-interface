@@ -1,6 +1,6 @@
 .dp-Button {
   background: #ccc;
-  background: #fff;
+  background: var(--white);
   border: 1px solid var(--gray-200);
   border-radius: var(--border-radius);
   color: var(--text-dark);
