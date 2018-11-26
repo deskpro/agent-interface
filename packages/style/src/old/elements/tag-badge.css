@@ -44,17 +44,11 @@
     &:hover { background: color-mod(#fafafa blackness(20%)); }
   }
 
-  /*  &.Tag--purple {
+  &.Tag--purple {
     background: #d0c2e0;
     border: 1px solid #9687bf;
     color: #4e4d4d;
     &:hover { background: rgba(208, 194, 224, 0.5); }
-  } */
-
-  &.Tag--purple {
-    background: var(--purple-light);
-    border: 1px solid var(--purple);
-    color: var(--grey-darkest);
   }
 
   &.Tag--pink {
@@ -71,19 +65,11 @@
     &:hover { background: rgba(79, 176, 92, 0.5); }
   }
 
-  &.Tag--warning {
+  &.Tag--orange {
     background: #f18b44;
     border: 1px solid #f18b44;
     color: #fff;
     &:hover { background: rgba(241, 139, 68, 0.5); }
-  }
-
-  &.Tag--danger {
-    background: #e84954;
-    border: 1px solid #e84954;
-    color: #fff;
-
-    /* &:hover { background: rgba(241, 139, 68, 0.5); } */
   }
 
   &.Tag--small {
@@ -101,27 +87,21 @@
 }
 
 .dp-Tag.dp-TagPlus {
-
-  /* padding: 9px 9px; */
-  padding: 4px 20px 4px 9px;
+  padding: 9px 9px;
   position: relative;
   vertical-align: middle;
 }
 
 .dp-Tag.dp-TagPlus::before,.dp-Tag.dp-TagPlus::after {
-
-  /* background-color: #4e4d4d; */
-  background-color: var(--grey);
+  background-color: #4e4d4d;
+  bottom: 0;
   content: "";
   height: 1px;
+  left: 0;
   margin: auto;
-  margin: 0;
   position: absolute;
-
-  /*  bottom: 0;
-  left: 0; */
   right: 0;
-  top: calc(50% - 4.5px);
+  top: 0;
   width: 9px;
 }
 
@@ -171,11 +151,6 @@
   transform: rotate(135deg);
 }
 
-.Tag--close.Tag--plus .dp-close {
-  top: calc(50% - 5px);
-  transform: rotate(45deg);
-}
-
 /* Badge */
 
 .dp-Badge {
@@ -198,15 +173,11 @@
     background-color: #e84954;
   }
 
-  &.Badge--warning {
-    background-color: var(--warning);
+  &.Badge--redLight {
+    background-color: #ec6c4e;
   }
 
-  &.Badge--danger {
-    background-color: var(--danger);
-  }
-
-  &.Badge--warningLight {
+  &.Badge--orangeLight {
     background-color: #f18b44;
   }
 
@@ -231,7 +202,7 @@
     background-image: url('data:image/svg+xml,<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve"><style type="text/css">.st0{fill:%23F8AF3C;}.st1{fill:%23FFFFFF;}</style><g><path class="st0" d="M8,16L8,16c-4.4,0-8-3.6-8-8l0,0c0-4.4,3.6-8,8-8h0c4.4,0,8,3.6,8,8v0C16,12.4,12.4,16,8,16z"/></g><rect x="3" y="7" class="st1" width="10" height="2"/></svg>');
   }
 
-  &.Badge--warningMin {
+  &.Badge--redMin {
     background-image: url('data:image/svg+xml,<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve"><style type="text/css">.st0{fill:%23EC6C4E;}.st1{fill:%23FFFFFF;}</style><g><path class="st0" d="M8,16L8,16c-4.4,0-8-3.6-8-8l0,0c0-4.4,3.6-8,8-8h0c4.4,0,8,3.6,8,8v0C16,12.4,12.4,16,8,16z"/></g><rect x="3" y="7" class="st1" width="10" height="2"/></svg>');
   }
 

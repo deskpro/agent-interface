@@ -1,0 +1,249 @@
+.dp-Header {
+  background-color: var(--grey-lighter);
+}
+
+.dp-Header.Header-general {
+  align-items: flex-start;
+  height: 400px;
+  padding: 25px;
+}
+
+.dp-Header.header-wrapper {
+  height: 100px;
+}
+
+.dp-HeaderContainer {
+  background-color: var(--white);
+  display: block;
+  height: var(--height-menu);
+  height: var(--height-search-control);
+  width: 100%;
+}
+
+.dp-TopActionRow {
+  border-bottom: 1px solid var(--grey);
+}
+
+.dp-Header {
+  align-items: center;
+  display: flex;
+  height: var(--height-search-control);
+  justify-content: space-between;
+  padding: 0 15px 0 12px;
+  position: relative;
+}
+
+.dp-Header .dp-MenuBarItem {
+  margin: 0;
+}
+
+.dp-Header .dp-Badge {
+  margin: 0;
+}
+
+.dp-SearchHeader {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  padding: 0 15px 0 12px;
+}
+
+.dp-SearchHeader form {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.dp-SearchHeader input {
+  border: 0;
+  margin-left: 5px;
+  outline: none;
+  width: 100%;
+}
+
+.dp-SearchHeader input::placeholder {
+  color: var(--grey-darkest);
+  font-size: var(--font-Title-XL);
+}
+
+.dp-SearchHeader .dp-Icon {
+  background-size: 18px 18px;
+  height: 18px;
+  vertical-align: middle;
+  width: 20px;
+}
+
+.dp-SearchHeader .dp-close-darkest {
+  height: 12.05px;
+  width: 12.05px;
+}
+
+.dp-IconPanelList {
+  align-items: center;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.dp-SearchHeader .dp-IconSection {
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+.dp-SearchHeader .dp-MenuBarItem:first-child::after {
+  background-color: var(--border-color);
+  content: "";
+  display: block;
+  height: 110%;
+  position: absolute;
+  top: -2px;
+  transform: rotate(30deg);
+  width: 1px;
+}
+
+.dp-SearchHeader .dp-IconSection::before {
+  left: 0;
+}
+
+.dp-SearchHeader .dp-IconSection::after, .dp-SearchHeader .dp-MenuBarItem:first-child::after {
+  right: 0;
+}
+
+.dp-SearchHeader .dp-Badge {
+  height: 25px;
+  margin: 0;
+  width: 25px;
+}
+
+.dp-SearchHeader .dp-MenuBarItem {
+  padding: 0 0 0 15px;
+}
+
+.dp-Header .dp-red {
+  height: 16px;
+  min-width: 16px;
+  width: 16px;
+}
+
+.dp-Badge .dp-green {
+  background-color: var(--netural);
+  bottom: -2px;
+  height: 10px;
+  min-width: 10px;
+  position: absolute;
+  right: 0;
+  width: 10px;
+}
+
+.dp-Badge .dp-green:hover {
+  background-color: var(--netural);
+}
+
+.dp-SearchHeader .dp-MenuBarItem:first-child {
+  padding: 10px 15px;
+  position: relative;
+}
+
+.dp-SearchHeader .dp-MenuBarItem:last-child {
+  padding-right: 15px;
+}
+
+.dp-SearchHeader .dp-add_im, .dp-SearchHeader .dp-history {
+  background-size: 25px 25px;
+  cursor: pointer;
+  height: 25px;
+  width: 25px;
+}
+
+.dp-SearchHeader .dp-IconSearch {
+  padding: 0 10px;
+}
+
+.header-search .dp-MenuBarItem:first-child::after {
+  height: 20px;
+  top: 10px;
+  transform: rotate(0deg);
+}
+
+/* HeaderControl */
+.dp-HeaderControl {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  width: 100%;
+}
+
+.dp-HeaderControl .dp-Avatar, .dp-HeaderControl .dp-IconPlane {
+  height: 20px;
+  width: 20px;
+}
+
+.dp-HeaderControl .dp-MenuBarItem .dp-Icon {
+  border-radius: 0;
+}
+
+.dp-HeaderControl .dp-MenuBarItem {
+  align-items: center;
+  display: flex;
+  padding: 12px 20px 12px 0;
+  position: relative;
+}
+
+.dp-HeaderControl .dp-MenuBarItem:first-child::after, .dp-HeaderControl .dp-MenuBarItem:last-child::before {
+  background-color: var(--border-color);
+  content: "";
+  display: block;
+  height: 110%;
+  position: absolute;
+  top: -2px;
+  transform: rotate(30deg);
+  width: 1px;
+}
+
+.dp-HeaderControl .dp-MenuBarItem:first-child {
+  margin-right: 20px;
+}
+
+.dp-HeaderControl .dp-MenuBarItem:first-child::after {
+  right: 0;
+}
+
+.dp-HeaderControl .dp-MenuBarItem:last-child {
+  padding: 12px 0 12px 20px;
+}
+
+.dp-HeaderControl .dp-MenuBarItem:last-child::before {
+  left: 0;
+}
+
+.dp-HeaderControl .dp-MenuBarItem, .dp-HeaderControl .dp-Icon {
+  cursor: pointer;
+}
+
+.dp-IconHeader {
+  align-items: center;
+  display: flex;
+  list-style-type: none;
+}
+
+.dp-IconHeader li {
+  margin-right: 20px;
+}
+
+.dp-IconHeader .dp-Icon {
+  height: auto;
+  margin-right: 10px;
+  position: relative;
+  width: auto;
+}
+
+.dp-HeaderControl .dp-Icon, .dp-IconHeader .dp-Icon {
+  height: 22px;
+  width: 22px;
+}

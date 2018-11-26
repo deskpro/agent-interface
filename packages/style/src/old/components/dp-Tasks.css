@@ -141,11 +141,11 @@
   font-size: var(--font-size-xs);
 }
 
-.dp-FilterResultItem .dp-Tag.Tag--pink {
+/* .dp-FilterResultItem .dp-Tag.Tag--pink {
   background-color: #bbb;
   border: 1px solid transparent;
   cursor: not-allowed;
-}
+} */
 
 .dp-FilterResultItem.is-active .dp-Tag.Tag--pink {
 

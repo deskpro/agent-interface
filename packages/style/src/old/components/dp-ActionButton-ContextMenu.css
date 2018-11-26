@@ -3,7 +3,7 @@
 }
 
 .dp-ActionButton {
-  border: 2px solid var(--blue);
+  border: 2px solid var(--brand-primary);
 
   /* border-radius: 3px; */
   border-radius: var(--border-radius-button);
@@ -57,7 +57,7 @@
 }
 
 .dp-ActionButton.is-active {
-  background-color: var(--blue);
+  background-color: var(--brand-primary);
   color: var(--white);
 }
 
@@ -77,7 +77,7 @@
 
 .dp-ContextMenu {
   background-color: var(--white);
-  border: 2px solid var(--blue);
+  border: 1px solid var(--brand-primary);
   border-radius: var(--border-radius);
   display: block;
   display: none;
@@ -101,16 +101,12 @@
   color: var(--gray-600);
   display: block;
   font-size: var(--font-size-base);
-
-  /* padding: 3.5px 10px; */
   padding: var(--padding-drop-down);
 }
 
 .dp-ContextMenu > li > a:hover {
-
-  /* background-color: #e9f7ff; */
   background-color: var(--blue-light);
-  color: var(--blue);
+  color: var(--brand-primary);
 }
 
 .dp-ContextMenu > li > a:hover .dp-MenuIcon.dp-iconBugGray {
@@ -174,7 +170,7 @@
 }
 
 .dp-ContextMenu .dp-DropdownDivider {
-  border-top: 1px solid #e9ecef;
+  border-top: 1px solid var(--grey-light);
   height: 0;
   margin: 0.5rem 0;
   overflow: hidden;

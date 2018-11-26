@@ -7,7 +7,8 @@
 
 .dp-Tickets .dp-Title {
   align-items: center;
-  border-bottom: 1px solid var(--blue);
+
+  /* border-bottom: 1px solid var(--blue); */
   color: var(--gray-600);
   display: flex;
   font-size: var(--h2);

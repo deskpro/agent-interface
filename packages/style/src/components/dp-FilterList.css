@@ -1,0 +1,226 @@
+.dp-MainWrapper {
+  background-color: var(--grey-lighter);
+  display: block;
+  padding: 10px;
+  position: relative;
+}
+
+.dp-FilterlistContainer {
+  background-color: var(--grey-lightest);
+  display: block;
+  height: 100vh;
+  max-width: 242px;
+  position: relative;
+}
+
+.dp-FilterlistContainer .dp-Tickets, .dp-FilterlistContainer .dp-TicketMenu {
+  background-color: var(--white);
+}
+
+.dp-FilterlistContainer .dp-Tickets {
+  border-bottom: 1px solid var(--brand-primary);
+}
+
+.dp-Tickets .dp-Icon.dp-lock--primary {
+  background-size: 12px 15px;
+  margin: 0;
+}
+
+.dp-Tickets {
+  display: block;
+  /* height: var(--height-menu); */
+  font-size: var(--font-Title-L);
+  position: relative;
+}
+
+.dp-Tickets .dp-Title {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  height: var(--height-menu);
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.dp-Tickets .dp-Title.is-active {
+  background-color: transparent;
+}
+
+.dp-Tickets .dp-Icon {
+  background-size: 18px 15px;
+  cursor: pointer;
+  height: 15px;
+  margin-right: 8px;
+  vertical-align: middle;
+  width: 18px;
+}
+
+.dp-Tickets .dp-TitleName {
+  cursor: pointer;
+}
+
+.dp-BorderBlue {
+  border: 2px solid var(--brand-primary);
+}
+
+.dp-iconArrowDown {
+  position: relative;
+}
+
+.dp-Tickets .dp-iconArrowDown {
+  margin: 0 0 0 8px;
+}
+
+.dp-iconArrowDown::before,
+.dp-iconArrowDown::after {
+  background-color: var(--brand-primary);
+  content: "";
+  height: 10px;
+  position: absolute;
+  top: 3px;
+  width: 2px;
+}
+
+.dp-iconArrowDown::before {
+  left: 10px;
+  transform: rotate(45deg);
+}
+
+.dp-iconArrowDown::after {
+  left: 4px;
+  transform: rotate(-45deg);
+}
+
+.dp-Tickets .dp-TicketsThumb .dp-Icon {
+  border-left: 1px solid #a9b0b0;
+  display: inline-block;
+  margin: 0;
+  padding: 12px 21px 12px 21px;
+}
+
+.dp-Tickets .dp-TicketsThumb .dp-Icon:first-child {
+  border-left: 0;
+}
+
+.dp-TicketMenu {
+  display: none;
+  left: 0;
+  max-width: 243px;
+  width: 100%;
+  z-index: 9;
+}
+
+.dp-TicketMenu.is-active {
+  display: block;
+}
+
+.dp-TicketMenu, .dp-SubMenu {
+  list-style: none;
+  padding: 0;
+}
+
+.dp-IconAgent {
+  margin-left: 4px;
+}
+
+.dp-TicketMenu .dp-TicketMenuItem {
+  align-items: flex-start;
+  border-bottom: 1px solid var(--grey-light);
+  color: var(--grey-darkest);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  font-size: var(--font-Title-N);
+  justify-content: space-between;
+  margin: 0;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+.dp-MainWrapper.item-selected .dp-TicketMenuItem {
+  border: 0;
+}
+
+.dp-TicketMenuItem .dp-Arrow::after {
+  border-width: 3px 3px 0 3px;
+  right: 0;
+}
+
+.dp-TicketMenuItem.is-active .dp-Arrow::after {
+  border-color: transparent transparent var(--black) transparent;
+  border-width: 0 3px 3px 3px;
+}
+
+.dp-SubMenu {
+  display: none;
+  text-transform: none;
+  width: 100%;
+}
+
+.dp-MenuBarItem.is-active .dp-SubMenu {
+  display: block;
+}
+
+.dp-Tickets .dp-SubMenu a,
+.dp-TicketMenu .dp-SubMenu a {
+  align-items: center;
+  border-radius: 5px;
+  color: var(--grey-dark);
+  cursor: pointer;
+  display: flex;
+  font-size: var(--font-Text-L);
+  justify-content: space-between;
+  margin-left: -5px;
+  margin-right: -5px;
+  padding: 6px;
+}
+
+.dp-TicketMenu .dp-SubMenu a.is-active {
+  background-color: var(--brand-primary);
+  color: var(--white);
+}
+
+.dp-TicketMenu .dp-SubMenu a.is-active .dp-SubNum {
+  color: var(--white);
+}
+
+.dp-Tickets .dp-SubNum {
+  color: var(--grey-darkest);
+  font-size: var(--font-Title-S);
+}
+
+.dp-TicketMenu .dp-TitleMenu {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-weight: var(--is-semibold);
+}
+
+.dp-TicketMenu .dp-TicketMenuItem.is-active .dp-TitleMenu {
+  padding-bottom: 10px;
+}
+
+.dp-Tickets .dp-dropdownContainer {
+  height: 100%;
+}
+
+.dp-dropdownContainer .dp-TicketMenu {
+  display: none;
+}
+
+.dp-dropdownContainer .dp-TicketMenu.is-active {
+  display: block;
+}
+
+.dp-Tickets .dp-Title.is-active .dp-TitleName .dp-iconArrowDown::before {
+  transform: rotate(-45deg);
+}
+
+.dp-Tickets .dp-Title.is-active .dp-TitleName .dp-iconArrowDown::after {
+  transform: rotate(45deg);
+}
+
+.dp-MainWrapper.dp-TicketFilters .dp-Tickets {
+  max-width: 243px;
+  width: 100%;
+}

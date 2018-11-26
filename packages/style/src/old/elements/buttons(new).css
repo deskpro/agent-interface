@@ -1,0 +1,119 @@
+.dp-ButtonContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.dp-ButtonContainer .dp-Button {
+  margin-bottom: 10px;
+}
+
+.dp-ButtonContainer .Button--large {
+  font-size: var(--font-size-md);
+  max-width: 140px;
+  padding: 10px 1rem;
+  text-align: center;
+  width: 100%;
+}
+
+.dp-ButtonItem {
+  display: flex;
+  flex: 0 0 140px;
+  flex-direction: column;
+  margin-bottom: 30px;
+  margin-right: 50px;
+}
+
+.dp-ButtonTitle {
+  border-bottom: 0.5px solid #a9b0b0;
+  color: var(--gray);
+  font-size: var(--font-size-xs);
+  margin-bottom: 10px;
+}
+
+.dp-Button.Button--in-active {
+  background: var(--gray-in-active);
+  color: var(--white);
+}
+
+.dp-Button.Button--active {
+  background: var(--blue-active);
+  color: var(--white);
+}
+
+.dp-Button.Button--rollover {
+  background: var(--blue-rollover);
+  color: var(--white);
+}
+
+.dp-ButtonContainer .dp-Button.Button--small {
+  max-width: 54px;
+}
+
+.Button--small.Button--in-active {
+  background: var(--white);
+  color: var(--gray-600);
+  opacity: 0.5;
+}
+
+.Button--in-active {
+  cursor: not-allowed;
+}
+
+.dp-ButtonDescription {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dp-ButtonState {
+  color: var(--gray);
+  font-size: var(--font-size-xs);
+  margin-bottom: 10px;
+}
+
+.dp-ButtonItem .dp-ActionButton {
+  border: none;
+  margin: 0 0 10px;
+  max-width: 86px;
+}
+
+.dp-ActionButton.Button--in-active {
+  opacity: 0.5;
+}
+
+.dp-ActionButton.Button--active {
+  background: #eff0f0;
+}
+
+.dp-ActionButton.Button--rollover {
+  background: #d3d6d7;
+}
+
+.dp-ExpandButton.Button--in-active {
+  background: var(--gray-in-active);
+  cursor: pointer;
+}
+
+.dp-ExpandButton.dp-ExpandButton-small {
+  border-radius: var(--border-radius-small);
+  max-width: 16px;
+}
+
+.dp-ButtonContainer .dp-IconPlusBtn {
+  background-size: 10px 10px;
+  height: 10px;
+  width: 10px;
+}
+
+.dp-ButtonContainer .dp-Button.dp-ButtonPlus {
+  align-items: center;
+  background: var(--gray-50);
+  display: flex;
+  justify-content: space-between;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.dp-ButtonContainer .dp-Button.dp-LabelRollover {
+  background: #eff0f0;
+}

@@ -46,8 +46,6 @@
 }
 
 .dp-FilterResultMenu li:hover {
-
-  /* background-color: #e9f7ff; */
   background-color: var(--blue-light);
   color: var(--blue);
 }

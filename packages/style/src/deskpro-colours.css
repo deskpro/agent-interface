@@ -1,0 +1,191 @@
+.dp-Bg-ColorDemonstration {
+	max-width: 400px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.dp-Bg-ColorDemonstration *{
+	height: 40px;
+	width: 40px;
+	border-radius: 3px;
+	margin: 6px;
+}
+
+/*background color*/
+
+.Bg-Color--primary {
+	background: var(--brand-primary);
+}
+
+.Bg-Color--grey-darkest {
+	background: var(--grey-darkest);
+}
+
+.Bg-Color--grey-dark {
+	background: var(--grey-dark);
+}
+
+.Bg-Color--darkest {
+	background: var(--grey-dark);
+}
+
+.Bg-Color--grey {
+	background: var(--grey);
+}
+
+.Bg-Color--grey-light {
+	background: var(--grey-light);
+}
+
+.Bg-Color--grey-lighter {
+	background: var(--grey-lighter);
+}
+
+.Bg-Color--grey-lightest {
+	background: var(--grey-lightest);
+}
+
+.Bg-Color--danger {
+	background: var(--danger);
+}
+
+.Bg-Color--warning {
+	background: var(--warning);
+}
+
+.Bg-Color--netural {
+	background: var(--success);
+}
+
+.Bg-Color--success {
+	background: var(--netural);
+}
+
+.Bg-Color--info {
+	background: var(--info);
+}
+
+.Bg-Color--pink {
+	background: var(--pink);
+}
+
+.Bg-Color--purple {
+	background: var(--purple);
+}
+
+.Bg-Color--danger-light {
+	background: var(--danger-light);
+}
+
+.Bg-Color--warning-light {
+	background: var(--warning-light);
+}
+
+.Bg-Color--netural-light {
+	background: var(--success-light);
+}
+
+.Bg-Color--success-light {
+	background: var(--netural-light);
+}
+
+.Bg-Color--info-light {
+	background: var(--info-light);
+}
+
+.Bg-Color--pink-light {
+	background: var(--pink-light);
+}
+
+.Bg-Color--purple-light {
+	background: var(--purple-light);
+}
+
+/*color*/
+.Color--primary {
+	color: var(--brand-primary);
+}
+
+.Color--grey-darkest {
+	color: var(--grey-darkest);
+}
+
+.Color--grey-dark {
+	color: var(--grey-dark);
+}
+
+.Color--darkest {
+	color: var(--grey-dark);
+}
+
+.Color--grey {
+	color: var(--grey);
+}
+
+.Color--grey-light {
+	color: var(--grey-light);
+}
+
+.Color--grey-lighter {
+	color: var(--grey-lighter);
+}
+
+.Color--grey-lightest {
+	color: var(--grey-lightest);
+}
+
+.Color--danger {
+	color: var(--danger);
+}
+
+.Color--warning {
+	color: var(--warning);
+}
+
+.Color--netural {
+	color: var(--success);
+}
+
+.Color--success {
+	color: var(--netural);
+}
+
+.Color--info {
+	color: var(--info);
+}
+
+.Color--pink {
+	color: var(--pink);
+}
+
+.Color--purple {
+	color: var(--purple);
+}
+
+.Color--danger-light {
+	color: var(--danger-light);
+}
+
+.Color--warning-light {
+	color: var(--warning-light);
+}
+
+.Color--netural-light {
+	color: var(--success-light);
+}
+
+.Color--success-light {
+	color: var(--netural-light);
+}
+
+.Color--info-light {
+	color: var(--info-light);
+}
+
+.Color--pink-light {
+	color: var(--pink-light);
+}
+
+.Color--purple-light {
+	color: var(--purple-light);
+}

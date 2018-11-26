@@ -39,7 +39,8 @@
   min-width: 229px;
   position: absolute;
   right: 0;
-  /*top: 100%;*/
+
+  /* top: 100%; */
   top: calc(100% + 5px);
   z-index: 99;
 }
