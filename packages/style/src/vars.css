@@ -146,8 +146,7 @@
   --is-uppercase: uppercase;
   --is-italic: italic;
 
-
-/*  --font-size-h-xl: 16px;
+  /*  --font-size-h-xl: 16px;
   --font-size-h-l: 14px;
   --font-size-h-n: 13px;
   --font-size-h-s: 12px;
@@ -157,18 +156,18 @@
   --font-size-p-n: 10px;
   --font-size-p-s: 9px;
 
-  --font-size-l-n: 7px;*/
+  --font-size-l-n: 7px; */
 
   --font-Title-XL: 16px;
   --font-Title-L: 14px;
   --font-Title-N: 13px;
   --font-Title-S: 12px;
 
-  /*--font-Text-XL: 12px;*/
+  /* --font-Text-XL: 12px; */
   --font-Text-L: 11px;
   --font-Text-N: 10px;
   --font-Text-S: 9px;
-  
+
   --font-Text-XS: 7px;
 
   /* Deskpro Shadows */

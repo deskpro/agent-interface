@@ -78,10 +78,11 @@
 }
 
 .dp-Text-XS {
-  font-size: var(--font-Text-XS); 
+  font-size: var(--font-Text-XS);
 }
 
-/**/
+/*  */
+
 .dp-h-xl {
   font-family: var(--font-family-base);
   font-size: var(--font-size-h-xl);

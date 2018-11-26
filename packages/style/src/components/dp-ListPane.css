@@ -219,7 +219,8 @@
   padding-left: 0;
 }
 
-/*.dp-FilterResultList .dp-FilterResultTitle {*/
+/* .dp-FilterResultList .dp-FilterResultTitle { */
+
 .dp-FilterResultTitle {
   border-top: 1px solid transparent;
   color: var(--grey-darkest);
@@ -480,6 +481,7 @@
 }
 
 /* Pagination */
+
 .dp-Pagination {
   align-items: center;
   display: flex;
@@ -519,18 +521,19 @@
 }
 
 .dp-Icon.dp-arrowLeft--primary, .dp-Icon.dp-arrowRight--primary {
+  display: flex;
   height: 10px;
   width: 10px;
-  display: flex;
 }
 
 .dp-Pagination-two .dp-Icon.dp-arrowLeft--primary, .dp-Pagination-two .dp-Icon.dp-arrowRight--primary {
+  background-size: 14px 20px;
   height: 20px;
   width: 25px;
-  background-size: 14px 20px;
 }
 
 /* listpane/rightclick */
+
 .dp-FilterResultMenu li {
   color: var(--grey-darkest);
   cursor: pointer;
@@ -662,6 +665,7 @@
 }
 
 /* listpane/kanban-view */
+
 .dp-KanbanView .dp-UserEmailItem {
   display: inline-block;
   max-width: 70px;
@@ -672,6 +676,7 @@
 }
 
 /* Table */
+
 .dp-TableWrapper {
   display: block;
   overflow: auto;
@@ -683,41 +688,41 @@
 }
 
 .dp-Tableview th {
+  color: var(--grey-darkest);
   font-size: var(--font-Text-N);
   font-weight: var(--is-semibold);
-  color: var(--grey-darkest);
 }
 
 .dp-Tableview td {
-  font-size: var(--font-Title-S);
   color: var(--grey-darkest);
+  font-size: var(--font-Title-S);
 }
 
 .dp-Tableview .dp-SubjectItem {
-  color: var(--grey-darkest);
-  font-weight: var(--is-semibold);
-  font-size: var(--font-Title-N);
-  display: flex;
   align-items: center;
+  color: var(--grey-darkest);
+  display: flex;
+  font-size: var(--font-Title-N);
+  font-weight: var(--is-semibold);
 }
 
 .dp-Tableview .dp-FilterResultTitle {
   border-bottom: none;
   border-top: 1px solid var(--grey-light);
-  padding: 0;
   display: table-row;
+  padding: 0;
 }
 
 .dp-ColumnControls {
   color: var(--grey-darkest);
+  display: table-row;
   font-size: var(--font-Text-N);
   max-height: 24px;
-  display: table-row;
 }
 
 .dp-ColumnControls .dp-TableItem {
-  display: flex;
   align-items: center;
+  display: flex;
 }
 
 .dp-TableSubject, .dp-TableLabels, .dp-TableUser {
@@ -729,8 +734,8 @@
 }
 
 .dp-Tableview .dp-UserItem {
-  display: flex;
   align-items: center;
+  display: flex;
 }
 
 .dp-UserItem .dp-avatar {
@@ -749,7 +754,7 @@ thead .dp-ColumnControls {
 }
 
 .dp-ColumnControls.dp-TableviewBody {
-  display: table-row-group; 
+  display: table-row-group;
 }
 
 table.dp-TableviewBody tr:first-child {
@@ -768,26 +773,26 @@ table.dp-TableviewBody tr:first-child {
 .dp-TableviewBody .dp-Icon.dp-iconStar,
 .dp-TableviewBody .dp-Icon.dp-iconStar--netural,
 .dp-TableviewBody .dp-Icon.dp-iconStar--yellow {
-  width: 12px;
   height: 12px;
   margin-left: 10px;
+  width: 12px;
 }
 
 .dp-TableviewBody .dp-Icon {
-  width: 18px;
   height: 18px;
+  width: 18px;
 }
 
 .dp-ColumnControls .dp-arrowGroup {
-  width: 10px;
   height: 10px;
   margin-left: 5px;
+  width: 10px;
 }
 
 .dpCaretWrapper {
-  position: relative;
-  height: 12px;
   display: block;
+  height: 12px;
+  position: relative;
 }
 
 .dp-circle {
