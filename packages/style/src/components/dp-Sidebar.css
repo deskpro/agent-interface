@@ -1,5 +1,4 @@
 .dp-SidebarContainer {
-  background-color: transparent;
   background-color: var(--grey-lightest);
   border: 1px solid var(--grey-light);
   border-top-right-radius: 5px;
