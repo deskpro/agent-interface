@@ -14,9 +14,9 @@
 }
 
 .dpApps-PanelHeader .dpApps-IconClose {
+  color: inherit;
   height: 11px;
   width: 11px;
-  color: inherit;
 }
 
 .dpApps-PanelBody {
