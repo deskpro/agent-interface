@@ -22,9 +22,9 @@
   width: 100%;
 }
 
-/*.dp-ListPane:first-child {
+/* .dp-ListPane:first-child {
   width: auto;
-}*/
+} */
 
 .dp-ListPane:last-child {
   border-left: 1px solid #e2e1e1;
@@ -35,8 +35,8 @@
 
 .dp-ListPane .dp-ItemRow {
   display: block;
-  width: 100%;
   position: relative;
+  width: 100%;
 }
 
 .dp-ListPane .dp-Select {
@@ -46,7 +46,8 @@
 }
 
 .dp-ListPane .dp-Title {
-  /*color: #8b9293;*/
+
+  /* color: #8b9293; */
   color: var(--grey-dark);
   font-size: var(--font-Text-N);
   padding: 0 0 0 4px;
@@ -100,8 +101,8 @@
 
 .dp-ListPane .dp-Icon.dp-view {
   background-size: 20px 14px;
-  width: 20px;
   height: 14px;
+  width: 20px;
 }
 
 .newControlsList .dp-Select {
@@ -114,9 +115,10 @@
   background-size: 8px 5px;
   height: 10px;
   margin: 0;
-/*  position: absolute;
+
+  /*  position: absolute;
   right: 10px;
-  top: 2px;*/
+  top: 2px; */
   width: 10px;
 }
 
@@ -213,13 +215,15 @@
 /*  */
 
 .dp-FilterResultList {
-  /*border: 1px solid #e2e1e1;*/
+
+  /* border: 1px solid #e2e1e1; */
   display: flex;
   flex-wrap: wrap;
   padding-left: 0;
 }
 
-/*.dp-FilterResultList .dp-FilterResultTitle {*/
+/* .dp-FilterResultList .dp-FilterResultTitle { */
+
 .dp-FilterResultTitle {
   border-top: 1px solid transparent;
   color: var(--grey-darkest);
@@ -254,17 +258,15 @@
   width: 100%;
 }
 
-/*.dp-FilterResultItem:last-child {
+/* .dp-FilterResultItem:last-child {
   border-bottom: 1px solid transparent;
-}*/
+} */
 
-/*.dp-FilterResultItem.is-active,
+/* .dp-FilterResultItem.is-active,
 .dp-FilterResultItem:hover {
   background-color: #e1eefb;
   border-top: 1px solid var(--brand-primary);
-}*/
-
-
+} */
 
 .dp-HoverList .dp-FilterResultItem.is-active,
 .dp-HoverList .dp-FilterResultItem:hover {
@@ -488,6 +490,7 @@
 }
 
 /* Pagination */
+
 .dp-Pagination {
   align-items: center;
   display: flex;
@@ -527,18 +530,19 @@
 }
 
 .dp-Icon.dp-arrowLeft--primary, .dp-Icon.dp-arrowRight--primary {
+  display: flex;
   height: 10px;
   width: 10px;
-  display: flex;
 }
 
 .dp-Pagination-two .dp-Icon.dp-arrowLeft--primary, .dp-Pagination-two .dp-Icon.dp-arrowRight--primary {
+  background-size: 14px 20px;
   height: 20px;
   width: 25px;
-  background-size: 14px 20px;
 }
 
 /* listpane/rightclick */
+
 .dp-FilterResultMenu li {
   color: var(--grey-darkest);
   cursor: pointer;
@@ -670,6 +674,7 @@
 }
 
 /* listpane/kanban-view */
+
 .dp-KanbanView .dp-UserEmailItem {
   display: inline-block;
   max-width: 70px;
@@ -680,6 +685,7 @@
 }
 
 /* Table */
+
 .dp-TableWrapper {
   display: block;
   overflow: auto;
@@ -691,41 +697,41 @@
 }
 
 .dp-Tableview th {
+  color: var(--grey-darkest);
   font-size: var(--font-Text-N);
   font-weight: var(--is-semibold);
-  color: var(--grey-darkest);
 }
 
 .dp-Tableview td {
-  font-size: var(--font-Title-S);
   color: var(--grey-darkest);
+  font-size: var(--font-Title-S);
 }
 
 .dp-Tableview .dp-SubjectItem {
-  color: var(--grey-darkest);
-  font-weight: var(--is-semibold);
-  font-size: var(--font-Title-N);
-  display: flex;
   align-items: center;
+  color: var(--grey-darkest);
+  display: flex;
+  font-size: var(--font-Title-N);
+  font-weight: var(--is-semibold);
 }
 
 .dp-Tableview .dp-FilterResultTitle {
   border-bottom: none;
   border-top: 1px solid var(--grey-light);
-  padding: 0;
   display: table-row;
+  padding: 0;
 }
 
 .dp-ColumnControls {
   color: var(--grey-darkest);
+  display: table-row;
   font-size: var(--font-Text-N);
   max-height: 24px;
-  display: table-row;
 }
 
 .dp-ColumnControls .dp-TableItem {
-  display: flex;
   align-items: center;
+  display: flex;
 }
 
 .dp-TableSubject, .dp-TableLabels, .dp-TableUser {
@@ -737,8 +743,8 @@
 }
 
 .dp-Tableview .dp-UserItem {
-  display: flex;
   align-items: center;
+  display: flex;
 }
 
 .dp-UserItem .dp-avatar {
@@ -778,33 +784,33 @@ thead .dp-FilterResultTitle td {
 
 .dp-HoverList tr:hover, .dp-HoverList tr.is-active {
   background-color: #e1eefb;
-  border-top: 1px solid #3a8dde;
   border-bottom: 1px solid #3a8dde;
+  border-top: 1px solid #3a8dde;
 }
 
 .dp-TableviewBody .dp-Icon.dp-iconStar,
 .dp-TableviewBody .dp-Icon.dp-iconStar--netural,
 .dp-TableviewBody .dp-Icon.dp-iconStar--yellow {
-  width: 12px;
   height: 12px;
   margin-left: 10px;
+  width: 12px;
 }
 
 .dp-TableviewBody .dp-Icon {
-  width: 18px;
   height: 18px;
+  width: 18px;
 }
 
 .dp-ColumnControls .dp-arrowGroup {
-  width: 10px;
   height: 10px;
   margin-left: 5px;
+  width: 10px;
 }
 
 .dpCaretWrapper {
-  position: relative;
-  height: 12px;
   display: block;
+  height: 12px;
+  position: relative;
 }
 
 .dp-circle {
@@ -813,7 +819,8 @@ thead .dp-FilterResultTitle td {
   border-radius: 50%;
 }
 
-/**/
+/*  */
+
 .dp-MassSelectTitle {
   background-color: var(--grey-lightest);
 }
@@ -827,14 +834,14 @@ thead .dp-FilterResultTitle td {
 }
 
 .dp-CustomCheckbox .dp-small_caret {
-  position: absolute;
+  cursor: pointer;
   display: block;
+  height: 15px;
   left: 20px;
+  position: absolute;
   top: 0;
   width: 15px;
-  height: 15px;
   z-index: 9;
-  cursor: pointer;
 }
 
 .dp-MassSelectTitle .dp-CustomCheckbox input[type="checkbox"] + label {
@@ -842,8 +849,8 @@ thead .dp-FilterResultTitle td {
 }
 
 .dp-FilterResultTitle.dp-MassSelectTitle {
-  padding-top: 0;
   padding-bottom: 0;
+  padding-top: 0;
 }
 
 .dp-MassSelectTitle .dp-ItemRow {
@@ -864,8 +871,8 @@ thead .dp-FilterResultTitle td {
 }
 
 .dp-CardTitle.dp-CheckboxCarret {
-  font-weight: var(--is-regular);
   font-size: var(--font-Title-S);
+  font-weight: var(--is-regular);
 }
 
 .dp-FilterSubList {
@@ -882,8 +889,8 @@ thead .dp-FilterResultTitle td {
 
 .dp-ListpaneGuides .dp-FilterResultItem.is-active {
   background-color: inherit;
-  border-top: 1px solid var(--brand-primary);
   border-bottom: 1px solid var(--brand-primary);
+  border-top: 1px solid var(--brand-primary);
   padding-bottom: 0;
 }
 
@@ -896,20 +903,20 @@ thead .dp-FilterResultTitle td {
 }
 
 .dp-FilterSubList .dp-FilterResultItem {
-  border-top: 1px solid var(--grey-light);
   border-bottom: 0;
-  padding-right: 0;
+  border-top: 1px solid var(--grey-light);
   padding-left: 20px;
+  padding-right: 0;
 }
 
-.dp-FilterSubList .dp-FilterResultItem:before {
+.dp-FilterSubList .dp-FilterResultItem::before {
+  background-color: var(--grey);
+  content: "";
+  height: 103%;
+  left: -10px;
   position: absolute;
   top: -1px;
-  left: -10px;
-  content: '';
-  background-color: var(--grey);
   width: 20px;
-  height: 103%;
 }
 
 .dp-FilterSubList .dp-UserInfo {
@@ -917,37 +924,38 @@ thead .dp-FilterResultTitle td {
 }
 
 .dp-ListpaneGuides .newControlsList .dp-UserInfo {
-  display: flex;
   align-items: center;
+  display: flex;
 }
 
 .dp-ListpaneGuides .dp-Date {
   border-right: 1px solid var(--grey-light);
-  padding-right: 10px;
   margin-right: 10px;
+  padding-right: 10px;
 }
 
 .dp-ListpaneGuides .dp-UserInfo .dp-Icon {
   background-size: 15px 15px;
 }
 
-/*Listpane/tasks*/
+/* Listpane/tasks */
+
 .dp-TasksSort {
   background-color: var(--grey-light);
-  padding: 10px;
   display: block;
+  padding: 10px;
 }
 
 .dp-ListpaneTasks .dp-Icon {
-  width: 15px;
-  height: 15px;
   background-size: 15px 14px;
+  height: 15px;
+  width: 15px;
 }
 
 .dp-ListpaneTasks .dp-linkedtTickets {
-  width: 17px;
-  height: 17px;
   background-size: 17px 17px;
+  height: 17px;
+  width: 17px;
 }
 
 .dp-ListpaneTasks .dp-small_caret {
@@ -956,10 +964,10 @@ thead .dp-FilterResultTitle td {
 }
 
 .dp-ListpaneTasks .dp-IconGroup .dp-small_caret {
-  height: 15px;
-  width: 30px;
-  margin-right: 10px;
   border-right: 1px solid var(--grey-light);
+  height: 15px;
+  margin-right: 10px;
+  width: 30px;
 }
 
 .dp-ListpaneTasks .dp-CardTitle {
@@ -972,8 +980,8 @@ thead .dp-FilterResultTitle td {
 }
 
 .dp-ListpaneTasks .dp-Date {
-  margin-left: 5px;
   font-size: var(--font-Text-N);
+  margin-left: 5px;
 }
 
 .dp-FilterResultItem .dp-GroupDescription {
@@ -983,14 +991,14 @@ thead .dp-FilterResultTitle td {
 
 .dp-GroupDescription .dp-ListPane {
   background-color: inherit;
-  padding: 0;
   margin-right: 10px;
+  padding: 0;
   padding-right: 10px;
 }
 
 .dp-GroupDescription .dp-ListPane:last-child {
-  margin-left: 0;
   border: none;
+  margin-left: 0;
 }
 
 .dp-GroupDescription .dp-Title.dp-Comments {
@@ -998,57 +1006,57 @@ thead .dp-FilterResultTitle td {
 }
 
 .dp-GroupDescription .dp-Title {
-  text-transform: none;
   color: var(--grey-darkest);
+  text-transform: none;
 }
 
 .dp-ListpaneTasks .dp-UserInfo {
-  color: var(--grey-darkest);
-  font-size: var(--font-Title-S);
-  display: flex;
   align-items: center;
+  color: var(--grey-darkest);
+  display: flex;
+  font-size: var(--font-Title-S);
   padding-left: 23px;
 }
 
 .dp-ListpaneTasks .dp-UserInfo .dp-Icon {
-  margin-right: 5px;
   background-size: 17px 17px;
-  width: 17px;
   height: 17px;
+  margin-right: 5px;
+  width: 17px;
 }
 
 .dp-ListpaneTasks .dp-Txt {
+  color: var(--grey-darkest);
   font-size: var(--font-Text-N);
   padding-left: 50px;
-  color: var(--grey-darkest);
 }
 
 .dp-TasksSort .dp-settings {
-  display: block;
   cursor: pointer;
+  display: block;
 }
 
 .dp-ListpaneTasks .dp-ContextMenu {
-  right: -50px;
-  left: auto;
   border: 1px solid var(--grey-light);
-  padding: 5px 10px;
-  color: var(--grey-darkest);
   box-shadow: var(--shadow-bottom-right);
+  color: var(--grey-darkest);
   cursor: pointer;
+  left: auto;
+  padding: 5px 10px;
+  right: -50px;
 }
 
 .dp-ListpaneTasks .dp-ContextMenu .dp-Icon {
-  width: 11px;
   height: 11px;
+  width: 11px;
 }
 
 .dp-ListpaneTasks .dp-FilterResultItem.is-active {
   background-color: var(--grey-light);
 }
 
+/* inputs */
 
-/*inputs*/
 .dp-CustomCheckbox input[type="checkbox"] {
   height: 0;
   opacity: 0;

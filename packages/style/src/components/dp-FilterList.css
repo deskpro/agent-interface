@@ -28,6 +28,7 @@
 
 .dp-Tickets {
   display: block;
+
   /* height: var(--height-menu); */
   font-size: var(--font-Title-L);
   position: relative;
@@ -191,9 +192,9 @@
 
 .dp-TicketMenu .dp-TitleMenu {
   display: flex;
+  font-weight: var(--is-semibold);
   justify-content: space-between;
   width: 100%;
-  font-weight: var(--is-semibold);
 }
 
 .dp-TicketMenu .dp-TicketMenuItem.is-active .dp-TitleMenu {

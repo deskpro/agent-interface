@@ -1,14 +1,14 @@
 .dp-SidebarContainer {
   background-color: var(--grey-lightest);
+  border: 1px solid var(--grey-light);
+  border-top-right-radius: 5px;
   display: block;
   height: 100vh;
   max-width: 232px;
   position: relative;
-  border: 1px solid var(--grey-light);
-  border-top-right-radius: 5px;
 }
 
-.Sidebar-Demonstration>div{
+.Sidebar-Demonstration > div {
   margin-bottom: 10px;
 }
 
@@ -34,10 +34,10 @@
 
 .dp-SidebarPanel {
   background-color: var(--white);
-  color: var(--grey-darkest);
-  font-size: var(--font-Title-S);
   border-radius: 1px solid var(--grey-light);
+  color: var(--grey-darkest);
   display: flex;
+  font-size: var(--font-Title-S);
   padding: 5px;
 }
 
@@ -134,10 +134,10 @@
 }
 
 .dp-PageSidebar .dp-SectionTitle {
-  font-size: var(--font-Text-N);
   border-bottom: 1px solid var(--grey-light);
   color: var(--grey-darkest);
   display: flex;
+  font-size: var(--font-Text-N);
   position: relative;
   text-transform: uppercase;
   z-index: 1;
@@ -164,21 +164,25 @@
 }
 
 .dp-PageSidebar .dp-SectionControls .dp-SectionTitle {
-  /*align-items: flex-start;*/
-  /*border: none;*/
-  /*display: flex;*/
+
+  /* align-items: flex-start; */
+
+  /* border: none; */
+
+  /* display: flex; */
   justify-content: space-between;
-  /*padding: 0;*/
+
+  /* padding: 0; */
 }
 
 .dp-PageSidebar .dp-TitleControls {
   font-weight: var(--is-semibold);
 }
 
-/*.dp-PageSidebar .dp-SectionControls .dp-TitleControls {
+/* .dp-PageSidebar .dp-SectionControls .dp-TitleControls {
   border-bottom: 2px solid var(--gray-200);
   margin-right: 5px;
-}*/
+} */
 
 .dp-PageSidebar .dp-SectionControls .dp-LineTitle {
   display: flex;

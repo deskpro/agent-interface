@@ -74,11 +74,12 @@
 }
 
 .dp-Text-XS {
-  font-size: var(--font-Text-XS); 
+  font-size: var(--font-Text-XS);
 }
 
-/**/
-/*.dp-h-xl {
+/*  */
+
+/* .dp-h-xl {
   font-family: var(--font-family-base);
   font-size: var(--font-size-h-xl);
   font-weight: var(--opensans-regular);

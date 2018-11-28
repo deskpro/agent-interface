@@ -258,9 +258,9 @@
 
 .dp-small_caret {
   background-image: url('data:image/svg+xml,<svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0)"><path d="M9.89999 1.49999C9.89999 1.59999 9.79999 1.69999 9.69999 1.89999L5.79999 5.79999C5.69999 5.89999 5.59999 5.99999 5.39999 5.99999C5.19999 5.99999 5.09999 5.89999 4.99999 5.79999L1.09999 1.89999C0.999994 1.69999 0.899994 1.59999 0.899994 1.49999C0.899994 1.39999 0.999994 1.19999 1.09999 1.09999C1.19999 0.999994 1.29999 0.899994 1.49999 0.899994H9.39999C9.59999 0.899994 9.69999 0.999994 9.79999 1.09999C9.89999 1.19999 9.89999 1.29999 9.89999 1.49999Z" fill="%23979797"/></g><defs><clipPath id="clip0"><rect width="9" height="5.1" fill="white" transform="translate(0.899994 0.899994)"/></clipPath></defs></svg>');
+  background-size: 9px 5px;
   height: 5.1px;
   width: 9px;
-  background-size: 9px 5px;
 }
 
 .dp-small_caret-top {
@@ -672,8 +672,8 @@
 
 .dp-arrowTop--primary {
   background-image: url('data:image/svg+xml,<svg width="7" height="10" viewBox="0 0 7 10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0.0938049 5.03099L5.07108 9.37582C5.34381 9.56203 5.68471 9.56203 5.95744 9.37582C6.23017 9.18961 6.23017 8.8172 5.95744 8.63099L1.86653 5.03099L5.95744 1.43099C6.23017 1.24478 6.23017 0.872371 5.95744 0.686164C5.68471 0.499957 5.34381 0.499957 5.07108 0.686164L0.0938049 5.03099Z" fill="%233A8DDE"/></svg>');
+  background-size: 10px 15px;
+  height: 20px;
   transform: rotate(90deg);
   width: 20px;
-  height: 20px;
-  background-size: 10px 15px;
 }

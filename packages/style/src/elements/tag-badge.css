@@ -94,6 +94,7 @@
     background: #e84954;
     border: 1px solid #e84954;
     color: #fff;
+
     /* &:hover { background: rgba(241, 139, 68, 0.5); } */
   }
 
@@ -101,6 +102,7 @@
     background: var(--success);
     border: 1px solid var(--success);
     color: #fff;
+
     /* &:hover { background: rgba(241, 139, 68, 0.5); } */
   }
 
