@@ -61,10 +61,6 @@
   line-height: 1.5rem;
 }
 
-.dp-Text-XL {
-  font-size: var(--font-Text-XL);
-}
-
 .dp-Text-L {
   font-size: var(--font-Text-L);
 }
@@ -78,12 +74,11 @@
 }
 
 .dp-Text-XS {
-  font-size: var(--font-Text-XS);
+  font-size: var(--font-Text-XS); 
 }
 
-/*  */
-
-.dp-h-xl {
+/**/
+/*.dp-h-xl {
   font-family: var(--font-family-base);
   font-size: var(--font-size-h-xl);
   font-weight: var(--opensans-regular);
@@ -172,3 +167,4 @@
   font-size: var(--font-size-l-n);
   font-weight: var(--opensans-semibold);
 }
+*/

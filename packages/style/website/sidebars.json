@@ -9,63 +9,17 @@
       "components/dp-ModuleBar",
       "components/dp-Header",
       "components/dp-FilterList",
-      "components/dp-ListPane"
+      "components/dp-ListPane",
+      "components/dp-Sidebar",
+      "components/dp-Pagetabs",
+      "components/dp-Pageview",
+      "components/dp-SlideOutPanel",
+      "components/dp-Sidebar-Overlay",
+      "components/dp-Appsbar"
     ],
     "Elements": [
       "elements/dp-Icons",
-      "elements/dp-TagBadge"
-    ],
-    "Components-Old": [
-      "old/components/dp-Level",
-      "old/components/dp-ModuleNav",
-      "old/components/dp-TabBar",
-      "old/components/dp-FilterResultControls",
-      "old/components/dp-ActionButton-ContextMenu",
-      "old/components/dp-MenuBar",
-      "old/components/dp-PageSidebar",
-      "old/components/dp-PropertyList",
-      "old/components/dp-Tabs",
-      "old/components/dp-ReplyBox",
-      "old/components/dp-TicketMessage",
-      "old/components/dp-Search",
-      "old/components/dp-SearchSnippets",
-      "old/components/dp-ControlPanel",
-      "old/components/dp-Sso",
-      "old/components/dp-YourAccount",
-      "old/components/dp-Tasks",
-      "old/components/dp-UserOverlay",
-      "old/components/dp-TagBar",
-      "old/components/dp-DropDownBar",
-      "old/components/dp-StatusComponent",
-      "old/components/dp-TicketProperties"
-    ],
-    "Elements-Old": [
-      "old/elements/dp-Button",
-      "old/elements/dp-Buttons(new)",
-      "old/elements/dp-Input"
-    ],
-    "Apps-components-Old": [
-      "old/components/dpApps-Level",
-      "old/components/dpApps-ButtonTabs",
-      "old/components/dpApps-AppBar",
-      "old/components/dpApps-ActionList",
-      "old/components/dpApps-AppBody",
-      "old/components/dpApps-AppFrame",
-      "old/components/dpApps-AppPanel",
-      "old/components/dpApps-ListItem",
-      "old/components/dpApps-Scrollable",
-      "old/components/dpApps-ActionPanel",
-      "old/components/dpApps-TabSwitcher",
-      "old/components/dpApps-DataTable",
-      "old/components/dpApps-DataDefList",
-      "old/components/dpApps-Panel"
-    ],
-    "Apps-elements-Old": [
-      "old/elements/dpApps-Button",
-      "old/elements/dpApps-Forms",
-      "old/elements/dpApps-Content",
-      "old/elements/dpApps-Title",
-      "old/elements/dpApps-Icons"
+      "elements/dp-Buttons"
     ]
   }
 }

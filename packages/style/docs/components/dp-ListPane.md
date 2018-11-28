@@ -131,8 +131,6 @@ title: List Pane
 </ul>
 ```
 
-
-
 <h4>listpane/dsc</h4>
 ```html @preview
 <ul class="dp-FilterControlsList newControlsList">
@@ -195,7 +193,6 @@ title: List Pane
     </li>
 </ul>
 ```
-
 
 <h4>listpane/asc</h4>
 ```html @preview
@@ -260,9 +257,7 @@ title: List Pane
 </ul>
 ```
 
-
 <h4>listpane/header</h4>
-
 ```html @preview
 <div class="dp-MainWrapper">
     <span class="dp-FilterResultTitle">
@@ -273,7 +268,6 @@ title: List Pane
 
 <h4>list-pane/agent-viewing-small</h4>
 ```html @preview
-
 <div class="dp-MainWrapper">
     <form>
         <ul class="dp-FilterResultList">
@@ -362,7 +356,7 @@ title: List Pane
                 <span class="dp-ItemRow">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-3"></input>
-                        <label for="customCheckbox1-3">Card title here</label>
+                        <label for="customCheckbox1-3" class="dp-CardTitle">Card title here</label>
                     </span>
                     <span class="dp-IconGroup">
 
@@ -473,7 +467,7 @@ title: List Pane
 <h2>listpane/header</h2>
 ```html @preview
 <form>
-    <ul class="dp-FilterResultList">
+    <ul class="dp-FilterResultList dp-HoverList">
         
         <li class="dp-FilterResultTitle">
             <span>Sales</span>
@@ -543,7 +537,7 @@ title: List Pane
                 </span>
                 <span class="dp-IconGroup">
                     <span class="dp-Circle dp-iconUserAvatar"></span>
-                    <span class="dp-Badge Badge--redMin"></span>
+                    <span class="dp-Badge Badge--warningMin"></span>
                 </span>
             </span>
             <span class="dp-ItemRow">
@@ -939,7 +933,7 @@ title: List Pane
 <h2>listpane/kanban-view</h2>
 ```html @preview
 <form>
-    <ul class="dp-FilterResultList dp-KanbanView">
+    <ul class="dp-FilterResultList dp-KanbanView dp-HoverList">
         
         <li class="dp-FilterResultItem is-active">
             <span class="dp-ItemRow">
@@ -1041,7 +1035,6 @@ title: List Pane
                 </span>
             </span>
         </li>
-
 
         <li class="dp-FilterResultItem">
             <span class="dp-ItemRow">
@@ -1224,7 +1217,6 @@ title: List Pane
 </form>
 ```
 
-
 <h2>Listpane/tableview</h2>
 <h4>listpane/grouping-and-sorting-bar</h4>
 
@@ -1232,8 +1224,8 @@ title: List Pane
 <ul class="dp-FilterControlsList newControlsList dp-GroupSortBar">
     <li class="dp-ListPane">
         <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-            <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-04"></input>
-            <label for="customCheckbox1-04"></label>
+            <input type="checkbox" class="dp-ControlInput" id="dp-Listpane-tableview"></input>
+            <label for="dp-Listpane-tableview"></label>
         </span>
     </li>
     <li class="dp-ListPane dp-DropDownItem">
@@ -1398,8 +1390,8 @@ title: List Pane
                 <th>
                     <span class="dp-TableItem">
                         <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                            <input type="checkbox" class="dp-ControlInput" id="tableview-1"></input>
-                            <label for="tableview-1"></label>
+                            <input type="checkbox" class="dp-ControlInput" id="tableview-1-1"></input>
+                            <label for="tableview-1-1"></label>
                         </span>
                     </span>
                 </th>
@@ -1468,7 +1460,7 @@ title: List Pane
             </tr>
         </thead>
 
-        <tbody class="dp-ColumnControls dp-TableviewBody">
+        <tbody class="dp-ColumnControls dp-TableviewBody dp-HoverList">
 
             <tr>
                 <td>
@@ -1754,14 +1746,13 @@ title: List Pane
                     <span class="dp-Badge Badge--yellow">4</span>
                 </td>
             </tr>
+        </tbody>
 
+        <thead>
             <tr class="dp-FilterResultTitle">
                 <td colspan="12">Sales</td>
             </tr>
 
-        </tbody>
-
-        <thead>
             <tr class="dp-ColumnControls">
                 <th>
                     <span class="dp-TableItem">
@@ -1836,7 +1827,7 @@ title: List Pane
             </tr>
         </thead>
 
-        <tbody class="dp-ColumnControls dp-TableviewBody">
+        <tbody class="dp-ColumnControls dp-TableviewBody dp-HoverList">
             <tr>
                 <td>
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
@@ -1966,19 +1957,41 @@ title: List Pane
 </div>
 ```
 
-
-
-
-
 <h2>Listpane/mass-select</h2>
 ```html @preview
-<form class="dp-MassSelect">
+<form class="dp-MassSelect newControlsList">
+
+    <span class="dp-FilterResultTitle dp-MassSelectTitle">
+        <span class="dp-ItemRow">
+            <span class="dp-CustomCheckbox">
+                <span class="dp-Icon dp-small_caret"></span>
+                <input type="checkbox" class="dp-ControlInput" id="listpaneCheckbox0" checked="checked"></input>
+                <label for="listpaneCheckbox0" class="dp-CardTitle dp-CheckboxCarret">(48 items selected)</label>
+                <ul class="dp-ContextMenu is-active">
+                    <li><a href="#">Uncheck all</a></li>
+                    <li><a href="#">Select all</a></li>
+                </ul>
+            </span>
+
+            <span class="dp-ListPane">
+                <span class="dp-Icon dp-grouped_by"></span>
+                <span class="dp-SelectGroup">
+                    <span class="dp-ItemRow">
+                        <span class="dp-Title">Grouped by</span>
+                        <span class="dp-Icon dp-small_caret"></span>
+                    </span>
+                    <span class="dp-ItemRow">
+                        <span class="dp-Subtitle">Department</span>
+                    </span>
+                </span>
+            </span>
+        </span>
+    </span>
 
     <span class="dp-FilterResultTitle">
         <span>Sales</span>
     </span>
-
-    <ul class="dp-FilterResultList">
+    <ul class="dp-FilterResultList newControlsList dp-HoverList">
         
         <li class="dp-FilterResultItem is-active">
             <span class="dp-ItemRow">
@@ -2178,4 +2191,364 @@ title: List Pane
 
     </ul>
 </form>
+```
+
+
+<h2>Listpane/guides</h2>
+```html @preview
+
+<div class="dp-MassSelect dp-ListpaneGuides">
+
+    <ul class="dp-FilterResultList newControlsList">
+
+        <li class="dp-FilterResultTitle">
+            <span>DPQL REFERENCE</span>
+        </li>
+
+        <li class="dp-FilterResultItem">
+            <span class="dp-ItemRow">
+                <span class="dp-CardTitle"><span class="dp-Icon dp-IconNews"></span>Making a report</span>
+            </span>
+
+            <span class="dp-ItemRow">
+                <span class="dp-UserInfo">
+                    <span class="dp-Icon dp-group"></span>
+                    <span class="dp-UserName dp-Date">23/3/18</span>
+
+                    <span class="dp-Icon dp-history"></span>
+                    <span class="dp-UserName">3 weeks ago</span>
+                </span>
+            </span>
+        </li>
+
+        <li class="dp-FilterResultItem is-active">
+            <span class="dp-ItemRow">
+                <span class="dp-CardTitle"><span class="dp-Icon dp-IconNews"></span>Anatomy of a DPQL query</span>
+
+                <span class="dp-IconGroup">
+                    <span class="dp-Icon dp-arrowTop--primary"></span>
+                </span>
+            </span>
+
+            <span class="dp-ItemRow">
+                <span class="dp-UserInfo">
+                    <span class="dp-Icon dp-group"></span>
+                    <span class="dp-UserName dp-Date">23/3/18</span>
+
+                    <span class="dp-Icon dp-history"></span>
+                    <span class="dp-UserName">1 day ago</span>
+                </span>
+
+                <span class="dp-TimeStatus">
+                    <span class="dp-Tag Tag--small Tag--success">Updated</span>
+                </span>
+            </span>
+
+            <ul class="dp-FilterSubList">
+                <li class="dp-FilterResultItem">
+                    <span class="dp-ItemRow">
+                        <span class="dp-CardTitle"><span class="dp-Icon dp-LevelDown"></span>Item IDs</span>
+                    </span>
+
+                    <span class="dp-ItemRow">
+                        <span class="dp-UserInfo">
+                            <span class="dp-Icon dp-group"></span>
+                            <span class="dp-UserName dp-Date">23/3/18</span>
+
+                            <span class="dp-Icon dp-history"></span>
+                            <span class="dp-UserName">3 weeks ago</span>
+                        </span>
+                    </span>
+                </li>
+
+                <li class="dp-FilterResultItem">
+                    <span class="dp-ItemRow">
+                        <span class="dp-CardTitle"><span class="dp-Icon dp-LevelDown"></span>Select</span>
+                    </span>
+
+                    <span class="dp-ItemRow">
+                        <span class="dp-UserInfo">
+                            <span class="dp-Icon dp-group"></span>
+                            <span class="dp-UserName dp-Date">23/3/18</span>
+
+                            <span class="dp-Icon dp-history"></span>
+                            <span class="dp-UserName">2 hrs ago</span>
+                        </span>
+
+                        <span class="dp-TimeStatus">
+                            <span class="dp-Tag Tag--small Tag--netural">Published</span>
+                        </span>
+                    </span>
+                </li>
+            </ul>        
+
+        </li>
+
+        <li class="dp-FilterResultItem">
+            <span class="dp-ItemRow">
+                <span class="dp-CardTitle"><span class="dp-Icon dp-IconNews"></span>General expression format</span>
+            </span>
+
+            <span class="dp-ItemRow">
+                <span class="dp-UserInfo">
+                    <span class="dp-Icon dp-group"></span>
+                    <span class="dp-UserName dp-Date">23/3/18</span>
+
+                    <span class="dp-Icon dp-history"></span>
+                    <span class="dp-UserName">3 weeks ago</span>
+                </span>
+
+                <span class="dp-TimeStatus">
+                    <span class="dp-Tag Tag--small Tag--grey">Draft</span>
+                </span>
+            </span>
+        </li>
+
+    </ul>
+</div>
+```
+
+<h2>Listpane/tasks</h2>
+<h4>listpane/tasks-sort</h4>
+```html @preview
+
+    <div class="dp-TasksSort">
+        <span class="dp-Tag Tag--small Tag--grey-lighter">DATE</span>
+        <span class="dp-Tag Tag--small Tag--grey-lighter">ASSIGNED</span>
+        <span class="dp-Tag Tag--small Tag--grey-lighter">CREATOR</span>
+    </div>
+```
+
+<h4>listpane/tasks</h4>
+```html @preview
+<div class="dp-ListpaneTasks">
+    <ul class="dp-FilterResultList">
+
+        <li class="dp-FilterResultTitle">
+            <span>TASK GROUPING</span>
+        </li>
+
+        <li class="dp-FilterResultItem">
+            <span class="dp-ItemRow">
+                <span class="dp-CustomCheckbox">
+                    <input type="checkbox" class="dp-ControlInput" id="dp-ListpanTasks"></input>
+                    <label for="dp-ListpanTasks" class="dp-CardTitle">First task title here</label>
+                </span>
+                <span class="dp-IconGroup">
+                    <span class="dp-Icon dp-group"></span>
+                    <span class="dp-Date">23/3/18 - 11:15AM</span>
+                    <span class="dp-Icon dp-small_caret"></span>
+                    <span class="dp-Icon dp-settings"></span>
+                    <span class="dp-ContextMenu is-active">
+                        <span>
+                            <span class="dp-Icon dp-close"></span>Delete
+                        </span>
+                    </span>
+                </span>
+            </span>
+
+            <span class="dp-ItemRow">
+                <span class="dp-UserInfo">
+                    <span class="dp-Icon dp-linkedtTickets--brand-primary"></span>
+                    Linked ticket name goes here
+                </span>
+            </span>
+
+            <ul class="dp-ItemRow dp-GroupDescription">
+                <li class="dp-ListPane">
+                    <div class="dp-SortIconDescription">
+                        <span class="dp-Icon dp-add_follower--netural"></span>
+                    </div>
+                    <span class="dp-SelectGroup">
+                        <span class="dp-ItemRow">
+                            <span class="dp-Title dp-Comments">Comments (2)</span>
+                            <span class="dp-Icon dp-small_caret"></span>
+                        </span>
+                    </span>
+                </li>
+                <li class="dp-ListPane">
+                    <div class="dp-SortIconDescription">
+                        <span class="dp-Icon dp-view"></span>
+                    </div>
+                    <span class="dp-SelectGroup">
+                        <span class="dp-ItemRow">
+                            <span class="dp-Title">Department</span>
+                            <span class="dp-Icon dp-small_caret"></span>
+                        </span>
+                    </span>
+                </li>
+                <li class="dp-ListPane">
+                    <span class="dp-Icon dp-iconUserAvatar"></span>
+                    <span class="dp-SelectGroup">
+                        <span class="dp-ItemRow">
+                            <span class="dp-Title">Me</span>
+                            <span class="dp-Icon dp-small_caret"></span>
+                        </span>
+                    </span>
+                </li>
+            </ul>
+        </li>
+
+        <li class="dp-FilterResultItem">
+            <span class="dp-ItemRow">
+                <span class="dp-UserInfo">
+                    <span class="dp-Icon dp-iconUserAvatar"></span>
+                    <span class="dp-UserName">Toby falkirk</span>
+                </span>
+                <span class="dp-TimeStatus">
+                    <span>4 days ago</span>
+                </span>
+            </span>
+
+            <span class="dp-ItemRow">
+                <span class="dp-UserInfo dp-Txt">
+                    The door led right into it. 'That's very curious!' she thought. 'I must be getting somewhere near the King had said that day.
+                </span>
+            </span>
+        </li>
+
+        <li class="dp-FilterResultItem">
+            <span class="dp-ItemRow">
+                <span class="dp-UserInfo">
+                    <span class="dp-Icon dp-iconUserAvatar"></span>
+                    <span class="dp-UserName">Kenneth James</span>
+                </span>
+                <span class="dp-TimeStatus">
+                    <span>23 mins ago</span>
+                </span>
+            </span>
+
+            <span class="dp-ItemRow">
+                <span class="dp-UserInfo dp-Txt">
+                    The door led right into it. 'That's very curious!' she thought. 'I must be getting somewhere near the King had said that day.
+                </span>
+            </span>
+        </li>
+
+        <li class="dp-FilterResultItem">
+            <span class="dp-ItemRow">
+                <span class="dp-CustomCheckbox">
+                    <input type="checkbox" class="dp-ControlInput" id="dp-ListpanTasks-2"></input>
+                    <label for="dp-ListpanTasks-2" class="dp-CardTitle">Second task title underneath</label>
+                </span>
+                <span class="dp-IconGroup">
+                    <span class="dp-Icon dp-group"></span>
+                    <span class="dp-Date">23/3/18 - 11:15AM</span>
+                    <span class="dp-Icon dp-small_caret"></span>
+                    <span class="dp-Icon dp-settings"></span>
+                    <span class="dp-ContextMenu is-active">
+                        <span>
+                            <span class="dp-Icon dp-close"></span>Delete
+                        </span>
+                    </span>
+                </span>
+            </span>
+
+            <span class="dp-ItemRow">
+                <span class="dp-UserInfo">
+                    <span class="dp-Icon dp-linkedtTickets--brand-primary"></span>
+                    Linked ticket name goes here
+                </span>
+            </span>
+
+            <ul class="dp-ItemRow dp-GroupDescription">
+                <li class="dp-ListPane">
+                    <div class="dp-SortIconDescription">
+                        <span class="dp-Icon dp-add_follower--netural"></span>
+                    </div>
+                    <span class="dp-SelectGroup">
+                        <span class="dp-ItemRow">
+                            <span class="dp-Title dp-Comments">Comments (2)</span>
+                            <span class="dp-Icon dp-small_caret"></span>
+                        </span>
+                    </span>
+                </li>
+                <li class="dp-ListPane">
+                    <div class="dp-SortIconDescription">
+                        <span class="dp-Icon dp-view"></span>
+                    </div>
+                    <span class="dp-SelectGroup">
+                        <span class="dp-ItemRow">
+                            <span class="dp-Title">Department</span>
+                            <span class="dp-Icon dp-small_caret"></span>
+                        </span>
+                    </span>
+                </li>
+                <li class="dp-ListPane">
+                    <span class="dp-Icon dp-iconUserAvatar"></span>
+                    <span class="dp-SelectGroup">
+                        <span class="dp-ItemRow">
+                            <span class="dp-Title">Me</span>
+                            <span class="dp-Icon dp-small_caret"></span>
+                        </span>
+                    </span>
+                </li>
+            </ul>
+        </li>
+
+        <li class="dp-FilterResultItem">
+            <span class="dp-ItemRow">
+                <span class="dp-UserInfo">
+                    <span class="dp-Icon dp-iconUserAvatar"></span>
+                    <span class="dp-UserName">Toby falkirk</span>
+                </span>
+                <span class="dp-TimeStatus">
+                    <span>4 days ago</span>
+                </span>
+            </span>
+
+            <span class="dp-ItemRow">
+                <span class="dp-Txt">
+                    The door led right into it. 'That's very curious!' she thought. 'I must be getting somewhere near the King had said that day.
+                </span>
+            </span>
+        </li>
+
+        <li class="dp-FilterResultItem">
+            <span class="dp-ItemRow">
+                <span class="dp-UserInfo">
+                    <span class="dp-Icon dp-iconUserAvatar"></span>
+                    <span class="dp-UserName">Kenneth James</span>
+                </span>
+                <span class="dp-TimeStatus">
+                    <span>23 mins ago</span>
+                </span>
+            </span>
+
+            <span class="dp-ItemRow">
+                <span class="dp-Txt">
+                    The door led right into it. 'That's very curious!' she thought. 'I must be getting somewhere near the King had said that day.
+                </span>
+            </span>
+        </li>
+
+        <li class="dp-FilterResultItem is-active">
+            <span class="dp-ItemRow">
+                <span class="dp-CustomCheckbox">
+                    <input type="checkbox" class="dp-ControlInput" id="dp-ListpanTasks-3" checked="checked"></input>
+                    <label for="dp-ListpanTasks-3" class="dp-CardTitle">Second task title underneath</label>
+                </span>
+                <span class="dp-IconGroup">
+                    <span class="dp-Icon dp-group"></span>
+                    <span class="dp-Date">23/3/18 - 11:15AM</span>
+                    <span class="dp-Icon dp-small_caret"></span>
+                    <span class="dp-Icon dp-settings"></span>
+                    <span class="dp-ContextMenu">
+                        <span>
+                            <span class="dp-Icon dp-close"></span>Delete
+                        </span>
+                    </span>
+                </span>
+            </span>
+
+            <span class="dp-ItemRow">
+                <span class="dp-UserInfo">
+                    <span class="dp-Icon dp-linkedtTickets--brand-primary"></span>
+                    Linked ticket name goes here
+                </span>
+            </span>
+        </li>
+
+    </ul>
+</div>
 ```

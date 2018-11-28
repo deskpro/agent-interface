@@ -51,6 +51,18 @@
     &:hover { background: rgba(208, 194, 224, 0.5); }
   } */
 
+  &.Tag--grey-lighter {
+    background: var(--grey-lighter);
+    border: 1px solid var(--grey-lighter);
+    color: var(--grey-dark);
+  }
+
+  &.Tag--grey {
+    background: var(--grey);
+    border: 1px solid var(--grey);
+    color: var(--white);
+  }
+
   &.Tag--purple {
     background: var(--purple-light);
     border: 1px solid var(--purple);
@@ -64,9 +76,9 @@
     &:hover { background: rgba(220, 67, 124, 0.5); }
   }
 
-  &.Tag--green {
-    background: #4fb05c;
-    border: 1px solid #4fb05c;
+  &.Tag--netural {
+    background: var(--netural);
+    border: 1px solid var(--netural);
     color: #fff;
     &:hover { background: rgba(79, 176, 92, 0.5); }
   }
@@ -82,7 +94,13 @@
     background: #e84954;
     border: 1px solid #e84954;
     color: #fff;
+    /* &:hover { background: rgba(241, 139, 68, 0.5); } */
+  }
 
+  &.Tag--success {
+    background: var(--success);
+    border: 1px solid var(--success);
+    color: #fff;
     /* &:hover { background: rgba(241, 139, 68, 0.5); } */
   }
 
