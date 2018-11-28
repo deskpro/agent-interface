@@ -1,5 +1,5 @@
 ---
-title: Slide-Out Panel
+title: Slide-Out Panel (developing)
 ---
 
 <h2> Status </h2>

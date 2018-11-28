@@ -15,8 +15,8 @@
 .dp-HeaderContainer {
   background-color: var(--white);
   display: block;
-  height: var(--height-menu);
-  height: var(--height-search-control);
+
+  /* height: var(--height-menu); */
   width: 100%;
 }
 
@@ -114,7 +114,7 @@
   right: 0;
 }
 
-.dp-SearchHeader .dp-Badge {
+.dp-SearchHeader .dp-Badge, .dp-HeaderControl .dp-Badge {
   height: 25px;
   margin: 0;
   width: 25px;
@@ -176,6 +176,7 @@
   align-items: center;
   display: flex;
   justify-content: flex-end;
+  padding-right: 5px;
   position: relative;
   width: 100%;
 }
@@ -245,6 +246,93 @@
 }
 
 .dp-HeaderControl .dp-Icon, .dp-IconHeader .dp-Icon {
-  height: 22px;
-  width: 22px;
+  height: 25px;
+  width: 25px;
+}
+
+.dp-AccountWrap  .dp-Icon {
+  background-size: 25px 25px;
+}
+
+/*  */
+
+.dp-MenuBarList {
+  align-items: center;
+  color: inherit;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: 8px 12px;
+  padding: 0;
+  position: relative;
+}
+
+.dp-MenuBarItem {
+  cursor: pointer;
+  margin-right: 15px;
+  position: relative;
+}
+
+.dp-MenuBarItem .dp-iconClock2 {
+  border: 1px solid var(--brand-primary);
+}
+
+.dp-MenuBarList .dp-MenuBarItem .dp-Icon {
+  cursor: pointer;
+  display: inline-block;
+  height: 24px;
+  position: relative;
+  vertical-align: middle;
+  width: 24px;
+}
+
+.dp-MenuBarItem .dp-Badge {
+  border-radius: 50%;
+  color: var(--white);
+  font-size: var(--font-Text-N);
+  letter-spacing: -0.5px;
+  padding: 3px;
+}
+
+.dp-MenuBarItem .dp-Badge.dp-red {
+  background-color: var(--danger);
+  position: absolute;
+  right: -7px;
+  top: -7px;
+}
+
+.dp-MenuBarItem .dp-Title {
+  color: var(--grey-darkest);
+  display: inline-block;
+  font-size: var(--font-Title-S);
+  padding: 5px 0 0 4px;
+  position: relative;
+}
+
+.dp-MenuBarItem .dp-Arrow {
+  padding-left: 17px;
+  position: relative;
+}
+
+.dp-MenuBarItem .dp-Arrow::after {
+  border-color: #899 transparent transparent transparent;
+  border-style: solid;
+  border-width: 4px 4px 0 4px;
+  bottom: 0;
+  content: "";
+  height: 0;
+  margin: auto;
+  position: absolute;
+  right: 4px;
+  top: 0;
+  width: 0;
+}
+
+.dp-MenuBarList .dp-MenuBarItem.is-active .dp-Title {
+  color: var(--brand-primary);
+}
+
+.dp-MenuBarList .dp-MenuBarItem.is-active .dp-Arrow::after {
+  border-color: var(--brand-primary) transparent transparent transparent;
+  transform: rotate(180deg);
 }

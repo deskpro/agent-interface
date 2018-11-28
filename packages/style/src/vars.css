@@ -30,7 +30,6 @@
   --gray-550: #707576;
   --gray-600: #4c4f50;
   --gray-in-active: #a9b0b0;
-
   --gray-light: #afc0cc;
 
   --blue-active: #3a8dde;
@@ -52,8 +51,6 @@
 
   --text-light: #fefefe;
   --text-dark: #4d4d4d;
-
-  /* --text-dark: #333; */
   --text-darkish: #555;
 
   --text-color: var(--black);

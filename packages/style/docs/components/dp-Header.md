@@ -201,17 +201,18 @@ title: Header
                                 <li class="dp-AccountItem dp-AccountTitle">Your account</li>
                                 <li class="dp-AccountItem is-active">
                                   <span class="dp-Icon-Title dp-raven">
-                                    <span class="dp-Icon dp-IconPlane"></span>Raven Paper
+                                    <span class="dp-Icon dp-IconPlane"></span>
+                                    Raven Paper
                                   </span>
                                   <span class="dp-Icon dp-IconTick"></span>
                                 </li>
-                                <li class="dp-AccountItem">
+                                <li class="dp-AccountItem is-disabled">
                                   <span class="dp-Icon-Title dp-raven">
                                     <span class="dp-Icon dp-IconPlaneOrange"></span>
                                     Raven Paper Crafts
                                   </span>
                                 </li>
-                                <li class="dp-AccountItem">
+                                <li class="dp-AccountItem is-disabled">
                                   <span class="dp-Icon-Title dp-raven">
                                     <span class="dp-Icon dp-IconPlaneViolet"></span>
                                     <span>

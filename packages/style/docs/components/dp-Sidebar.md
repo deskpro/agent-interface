@@ -1,5 +1,5 @@
 ---
-title: PageSidebar
+title: PageSidebar (developing)
 ---
 
 <h2>SIDE-BAR</h2>

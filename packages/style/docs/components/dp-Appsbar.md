@@ -1,5 +1,5 @@
 ---
-title: App Panel
+title: App Panel (developing)
 ---
 
 ```html @preview
