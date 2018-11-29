@@ -20,12 +20,12 @@
 
 [class*="dp-Title"] {
   font-family: var(--font-family-base);
-  font-weight: var(--font-weight-normal);
+  font-weight: var(--is-regular);
 }
 
 [class*="dp-Text"] {
   font-family: var(--font-family-base);
-  font-weight: var(--font-weight-normal);
+  font-weight: var(--is-regular);
 }
 
 [class*="is-semibold"] {

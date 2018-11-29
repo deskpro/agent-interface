@@ -118,6 +118,26 @@
   background: #eff0f0;
 }
 
+.dp-BorderPink {
+  border-color: var(--pink);
+}
+
+.dp-Pink {
+  color: var(--pink);
+}
+
+.dp--danger {
+  color: var(--danger);
+}
+
+.dp-Border--danger {
+  border-color: var(--danger);
+}
+
+.dp-Border--brand-primary {
+  border-color: var(--brand-primary);
+}
+
 /* main buttons style */
 
 .dp-Button {
@@ -128,7 +148,7 @@
   color: var(--text-dark);
   cursor: pointer;
   display: inline-block;
-  font-size: var(--h4);
+  font-size: var(--font-Title-S);
   line-height: 100%;
   padding: var(--button-padding) 1rem;
 
@@ -232,4 +252,8 @@
     font-size: calc(var(--font-size-base) * 1.4);
     padding: calc(0.7rem * 1.4) calc(1rem * 1.4);
   }
+}
+
+.is-semibold {
+  font-weight: var(--is-semibold);
 }

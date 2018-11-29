@@ -124,7 +124,7 @@
   padding: 0 0 0 15px;
 }
 
-.dp-Header .dp-red {
+.dp-Header .dp-danger {
   height: 16px;
   min-width: 16px;
   width: 16px;
@@ -294,7 +294,7 @@
   padding: 3px;
 }
 
-.dp-MenuBarItem .dp-Badge.dp-red {
+.dp-MenuBarItem .dp-Badge.dp-danger {
   background-color: var(--danger);
   position: absolute;
   right: -7px;

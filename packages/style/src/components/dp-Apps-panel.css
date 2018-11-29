@@ -10,7 +10,7 @@
 
 .dpApps-PanelHeaderTitle {
   color: var(--gray-500);
-  font-size: var(--h2);
+  font-size: var(--font-Title-L);
 }
 
 .dpApps-PanelHeader .dpApps-IconClose {
@@ -29,7 +29,7 @@
 }
 
 .dpApps-DataDefListAddress {
-  font-size: var(--h4);
+  font-size: var(--font-Title-S);
 }
 
 .dpApps-DataDefListShipping {

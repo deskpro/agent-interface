@@ -8,18 +8,16 @@
   --font-size-lg: calc(var(--font-size-base) * 1.25);
   --font-size-sm: calc(var(--font-size-base) * 0.85);
 
-  --font-weight-light: 300;
+  /*  --font-weight-light: 300;
   --font-weight-normal: 400;
   --font-weight-medium: 500;
   --font-weight-semibold: 600;
   --font-weight-bold: 700;
-  --font-italic: italic;
+  --font-italic: italic; */
 
-  --font-weight-base: var(--font-weight-normal);
+  --font-weight-base: var(--is-regular);
   --line-height-base: 1.2;
 
-  --white: #fff;
-  --black: #000;
   --gray: #8b9293;
   --gray-50: #f7f7f7;
   --gray-100: #eceef0;
@@ -84,14 +82,14 @@
   --height-icon: 15px;
   --width-icon: 15px;
 
-  --h1: 16px;
+  /*  --h1: 16px;
   --h2: 14px;
   --h3: 13px;
   --h4: 12px;
 
   --p1: 10px;
   --p2: 9px;
-  --p3: 8px;
+  --p3: 8px; */
 
   --card-border: 2px;
   --card-padding: 4px;
@@ -109,6 +107,9 @@
   --padding-message-color-container: 20px 10px 10px;
 
   /* Deskpro Colours */
+  --white: #fff;
+  --black: #000;
+
   --brand-primary: #3a8dde;
   --grey-darkest: #4c4f50;
   --grey-dark: #8b9293;

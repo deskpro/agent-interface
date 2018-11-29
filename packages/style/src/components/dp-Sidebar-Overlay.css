@@ -175,7 +175,7 @@
 
 .dp-OverlayContent .dp-UserName {
   color: var(--gray-600);
-  font-size: var(--h2);
+  font-size: var(--font-Title-L);
 }
 
 .dp-UserOverlay .dp-IconCloseGrey, .dp-UserOverlay .dp-IconUserArrow {

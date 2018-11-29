@@ -28,7 +28,7 @@ title: Header
                         </li>
                         <li class="dp-MenuBarItem">
                             <span class="dp-Badge Badge--empty">
-                                <span class="dp-Badge dp-red">3</span>
+                                <span class="dp-Badge dp-danger">3</span>
                                 <span class="dp-Badge dp-green"></span>
                             </span>
                         </li>
@@ -39,7 +39,7 @@ title: Header
                         </li>
                         <li class="dp-MenuBarItem">
                             <span class="dp-Badge Badge--empty">
-                                <span class="dp-Badge dp-red">1</span>
+                                <span class="dp-Badge dp-danger">1</span>
                                 <span class="dp-Badge dp-green"></span>
                             </span>
                         </li>
@@ -155,7 +155,7 @@ title: Header
                         </li>
                         <li class="dp-MenuBarItem">
                             <span class="dp-Badge Badge--empty">
-                                <span class="dp-Badge dp-red">3</span>
+                                <span class="dp-Badge dp-danger">3</span>
                                 <span class="dp-Badge dp-green"></span>
                             </span>
                         </li>
@@ -166,7 +166,7 @@ title: Header
                         </li>
                         <li class="dp-MenuBarItem">
                             <span class="dp-Badge Badge--empty">
-                                <span class="dp-Badge dp-red">1</span>
+                                <span class="dp-Badge dp-danger">1</span>
                                 <span class="dp-Badge dp-green"></span>
                             </span>
                         </li>
@@ -272,11 +272,11 @@ title: Header
             <span class="dp-Icon dp-notifications"></span>
 
             <span class="dp-Icon dp-notifications--dark">
-                <span class="dp-Badge dp-red">5</span>
+                <span class="dp-Badge dp-danger">5</span>
             </span>
 
             <span class="dp-Icon dp-notifications--primary">
-                <span class="dp-Badge dp-red">5</span>
+                <span class="dp-Badge dp-danger">5</span>
             </span>
         </li>
 
@@ -288,11 +288,11 @@ title: Header
         <li>
             <span class="dp-Icon dp-chat"></span>
             <span class="dp-Icon dp-chat--dark">
-                <span class="dp-Badge dp-red">5</span>
+                <span class="dp-Badge dp-danger">5</span>
             </span>
             <span class="dp-Icon dp-chat--danger"></span>
             <span class="dp-Icon dp-chat--primary">
-                <span class="dp-Badge dp-red">5</span>
+                <span class="dp-Badge dp-danger">5</span>
             </span>
         </li>
 

@@ -30,14 +30,14 @@ title: Tag/Badge
 
 ```html @preview
     <div style="background: #e6e6e6;padding: 0.75rem;margin: -0.75rem;">
-        <span class="dp-Badge Badge--red">10</span>
+        <span class="dp-Badge Badge--danger">10</span>
         <span class="dp-Badge Badge--warning">9</span>
         <span class="dp-Badge Badge--warningLight">7</span>
         <span class="dp-Badge Badge--yellow">6</span>
         <span class="dp-Badge Badge--empty"></span>
         <span class="dp-Badge Badge--emptyWhite"></span>
         <span class="dp-Badge Badge--white">10</span>
-        <span class="dp-Badge Badge--redMin"></span>
+        <span class="dp-Badge Badge--dangerMin"></span>
         <span class="dp-Badge Badge--yellowMin"></span>
     </div>
 ```

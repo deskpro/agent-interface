@@ -1,7 +1,7 @@
 /* Tag */
 
 .dp-Tag {
-  background: #fff;
+  background: var(--white);
   border: 1px solid var(--gray-200);
   border-radius: var(--border-radius);
   color: var(--text-dark);
@@ -72,7 +72,7 @@
   &.Tag--pink {
     background: #dc437c;
     border: 1px solid #dc437c;
-    color: #fff;
+    color: var(--white);
     &:hover { background: rgba(220, 67, 124, 0.5); }
   }
 
@@ -86,14 +86,14 @@
   &.Tag--warning {
     background: #f18b44;
     border: 1px solid #f18b44;
-    color: #fff;
+    color: var(--white);
     &:hover { background: rgba(241, 139, 68, 0.5); }
   }
 
   &.Tag--danger {
     background: #e84954;
     border: 1px solid #e84954;
-    color: #fff;
+    color: var(--white);
 
     /* &:hover { background: rgba(241, 139, 68, 0.5); } */
   }
@@ -101,7 +101,7 @@
   &.Tag--success {
     background: var(--success);
     border: 1px solid var(--success);
-    color: #fff;
+    color: var(--white);
 
     /* &:hover { background: rgba(241, 139, 68, 0.5); } */
   }
@@ -201,7 +201,7 @@
 .dp-Badge {
   background-position: 50%;
   border-radius: 50%;
-  color: #fff;
+  color: var(--white);
   display: inline-block;
   font-size: 10px;
   height: 18px;
@@ -214,9 +214,9 @@
 
   &:hover { background: var(--gray-100); }
 
-  &.Badge--red {
-    background-color: #e84954;
-  }
+  /*  &.Badge--red {
+    background-color: var(--danger);
+  } */
 
   &.Badge--warning {
     background-color: var(--warning);
@@ -235,16 +235,18 @@
   }
 
   &.Badge--white {
-    background-color: #fff;
+    background-color: var(--white);
     color: #4e4d4d;
   }
 
   &.Badge--empty {
-    background-color: #eff0f0;
+
+    /* background-color: #eff0f0; */
+    background-color: var(--grey-light);
   }
 
   &.Badge--emptyWhite {
-    background-color: #fff;
+    background-color: var(--white);
   }
 
   &.Badge--yellowMin {
@@ -258,5 +260,5 @@
 }
 
 /* .is-active .dp-Badge.Badge--empty {
-  background-color: #fff;
+  background-color: var(--white);
 } */

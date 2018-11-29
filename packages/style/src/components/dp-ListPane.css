@@ -1310,10 +1310,14 @@ thead .dp-FilterResultTitle td {
 }
 
 .dp-ActionButton {
-  border: 2px solid var(--brand-primary);
+  background-color: var(--white);
+
+  /* border: 1px solid var(--brand-primary); */
+  border: 1px solid var(--grey-light);
   border-radius: var(--border-radius-button);
   color: var(--grey-darkest);
   cursor: pointer;
+  display: block;
   font-size: var(--font-Title-S);
   font-weight: var(--is-regular);
   min-width: 60px;
@@ -1327,13 +1331,13 @@ thead .dp-FilterResultTitle td {
 
 }
 
-.dp-ActionButton + .dp-ActionButton {
+/* .dp-ActionButton + .dp-ActionButton {
   margin-left: 5px;
 }
 
 .dp-ActionButton:first-child {
   margin-left: 0;
-}
+} */
 
 .dp-ActionButton::after {
   border-color: #899 transparent transparent transparent;

@@ -1,5 +1,5 @@
 .dp-TabBarList {
-  border-bottom: 1px solid var(--blue);
+  border-bottom: 1px solid var(--brand-primary);
   display: flex;
   height: var(--height-menu);
   padding-top: 3px;
@@ -37,7 +37,7 @@
 
 .dp-TabBarItem,.dp-AddTabButton {
   border: 1px solid #a9b0b0;
-  border-bottom: 1px solid var(--blue);
+  border-bottom: 1px solid var(--brand-primary);
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   display: inline-block;
@@ -147,7 +147,7 @@
 
 .dp-TabBarList .is-active {
   background: var(--white);
-  border: 1px solid var(--blue);
+  border: 1px solid var(--brand-primary);
   border-bottom: 0;
   z-index: 1;
 }
