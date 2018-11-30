@@ -237,7 +237,9 @@
 
   &.Button--small {
     border-radius: calc(var(--border-radius) * 0.7);
-    font-size: calc(var(--font-size-base) * 0.7);
+    font-size: var(--font-Text-N);
+
+    /* font-size: calc(var(--font-size-base) * 0.7); */
     padding: calc(0.7rem * 0.7) calc(1rem * 0.7);
   }
 
@@ -249,7 +251,9 @@
 
   &.Button--large {
     border-radius: calc(var(--border-radius) * 1.4);
-    font-size: calc(var(--font-size-base) * 1.4);
+    font-size: var(--font-Title-S);
+
+    /* font-size: calc(var(--font-size-base) * 1.4); */
     padding: calc(0.7rem * 1.4) calc(1rem * 1.4);
   }
 }

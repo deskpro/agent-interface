@@ -44,13 +44,6 @@
     &:hover { background: color-mod(#fafafa blackness(20%)); }
   }
 
-  /*  &.Tag--purple {
-    background: #d0c2e0;
-    border: 1px solid #9687bf;
-    color: #4e4d4d;
-    &:hover { background: rgba(208, 194, 224, 0.5); }
-  } */
-
   &.Tag--grey-lighter {
     background: var(--grey-lighter);
     border: 1px solid var(--grey-lighter);
@@ -121,25 +114,18 @@
 }
 
 .dp-Tag.dp-TagPlus {
-
-  /* padding: 9px 9px; */
   padding: 4px 20px 4px 9px;
   position: relative;
   vertical-align: middle;
 }
 
 .dp-Tag.dp-TagPlus::before,.dp-Tag.dp-TagPlus::after {
-
-  /* background-color: #4e4d4d; */
   background-color: var(--grey);
   content: "";
   height: 1px;
   margin: auto;
   margin: 0;
   position: absolute;
-
-  /*  bottom: 0;
-  left: 0; */
   right: 0;
   top: calc(50% - 4.5px);
   width: 9px;

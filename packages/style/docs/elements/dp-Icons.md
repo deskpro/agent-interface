@@ -91,5 +91,24 @@ title: Icons
     <span class="dp-Icon dp-IconJump"></span>
     <span class="dp-Icon dp-IconClose-fill"></span>
 
+    <span class="dp-Icon dp-Merge"></span>
+    <span class="dp-Icon dp-Owner"></span>
+    <span class="dp-Icon dp-Swap"></span>
+    <span class="dp-Icon dp-Edit"></span>
+    <span class="dp-Icon dp-Visibility"></span>
+    <span class="dp-Icon dp-Play"></span>
+    <span class="dp-Icon dp-Question"></span>
+    <span class="dp-Icon dp-Info"></span>
+    <span class="dp-Icon dp-Warning"></span>
+    <span class="dp-Icon dp-Approve"></span>
+    <span class="dp-Icon dp-Delete"></span>
+    <span class="dp-Icon dp-CreateTicket"></span>
+    <span class="dp-Icon dp-Cursor"></span>
+    <span class="dp-Icon dp-Insert"></span>
+    <span class="dp-Icon dp-InsertLink"></span>
+    <span class="dp-Icon dp-Drag"></span>
+    <span class="dp-Icon dp-Acrobat"></span>
+    <span class="dp-Icon dp-Unlock"></span>
+
 </div>
 ```

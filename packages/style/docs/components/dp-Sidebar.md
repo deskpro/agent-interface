@@ -1,9 +1,8 @@
 ---
-title: PageSidebar (developing)
+title: PageSidebar
 ---
 
 <h2>SIDE-BAR</h2>
-
 
 <h4>sidebar/container</h4>
 ```html @preview
@@ -137,6 +136,7 @@ title: PageSidebar (developing)
 <h2>TICKETS</h2>
 <h4>sidebar/tab-header</h4>
 ```html @preview
+<div class="dp-MainWrapper">
     <div class="dp-PageSidebar">
         <div class="dp-SidebarTabs">
             <ul class="dp-SidebarTabsList">
@@ -146,6 +146,7 @@ title: PageSidebar (developing)
             </ul>
         </div>
     </div>
+</div>
 ```
 
 <h4>sidebar/org-panel</h4>
@@ -166,20 +167,20 @@ title: PageSidebar (developing)
 ```html @preview
 <div class="dp-MainWrapper">
     <div class="dp-PageSidebar">
-        <div class="dp-SectionBody-item">
-            <p class="dp-title-item">
+        <div class="dp-SectionBody-item dp-UserPanel">
+            <div class="dp-title-item">
                 <span class="dp-Icon dp-iconUserAvatar"></span>
                 Zack Prudent
-            </p>
+            </div>
 
-            <p class="dp-Email">zack.prudent@techcompany.com</p>
-            <p class="dp-Phone">
+            <div class="dp-Email">zack.prudent@techcompany.com</div>
+            <div class="dp-Phone">
                 <i class="dp-Icon dp-phone_filled"></i><a href="tel:+442035678940" >+44 20 356 789 40</a>
-            </p>
-            <p class="dp-OpenResolved">
+            </div>
+            <div class="dp-OpenResolved">
                 <span class="dp-open"><i class="dp-Icon dp-tickets--primary"></i> Open: 7</span>
                 <span class="dp-resolved"><i class="dp-Icon dp-tickets"></i> Resolved: 24</span>
-            </p>
+            </div>
         </div>
     </div>
 </div>
@@ -191,7 +192,7 @@ title: PageSidebar (developing)
     <div class="dp-PageSidebar">
 
         <div class="dp-SectionControls">
-            <div class="dp-SectionTitle dp-CcsHeader">
+            <div class="dp-SectionTitle dp-CcRow">
                 <div class="dp-TitleControls">
                     <span class="dp-open">CC’s</span>
                     <span>Add</span>
@@ -207,15 +208,13 @@ title: PageSidebar (developing)
 </div>
 ```
 
-
-
 <h4>sidebar/cc-row</h4>
 ```html @preview
 <div class="dp-MainWrapper">
     <div class="dp-PageSidebar">
         <div class="dp-SectionControls">
             <div class="dp-title-item dp-SectionTitle">
-                <div class="dp-UserAvatarName">
+                <div>
                     <span class="dp-Badge Badge--empty"></span>
                     <span class="dp-UserName">Wendy Pride</span>
                     <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">w.pride@techcompany.co.uk</a>
@@ -256,7 +255,6 @@ title: PageSidebar (developing)
 ```html @preview
 <div class="dp-MainWrapper">
     <div class="dp-SectionBody">
-        <!-- buttons -->
         <div class="dp-ButtonWrapper">
             <button class="dp-ActionButton dp-Border--danger dp--danger is-semibold" type="button">
                 10
@@ -291,8 +289,8 @@ title: PageSidebar (developing)
     <div class="dp-PageSidebar">
 
         <div class="dp-SidebarSection dp-SectionControls">
-            <div class="dp-SectionTitle">
-                <div class="dp-TitleControls">
+            <div class="dp-SectionTitle dp-TimesRow">
+                <div class="dp-title-item">
                     <span class="dp-Icon dp-CurrentUser"></span>
                     Current user wait
                 </div>
@@ -305,207 +303,230 @@ title: PageSidebar (developing)
 ```
 
 
-
-
-
-
-<!-- <h2>SectionTitle</h2>
+<h4>sidebar/SLAs-extended</h4>
 ```html @preview
+<div class="dp-MainWrapper">
     <div class="dp-PageSidebar">
+        <div class="dp-Slas">
 
-        <div class="dp-SidebarRow">
-            <div class="dp-SidebarSection dp-SectionControls">
-                <div class="dp-SectionTitle">
-                    <div class="dp-TitleControls">Ticket properties</div>
-                    <span class="dp-LineTitle"></span>
-                    <a href="#" class="dp-Controls">
-                        <span class="dp-qt"> +5 </span> 
-                        <i class="dp-Icon dp-DotsIcon"></i>
-                    </a>
+            <div class="dp-TitleControls">COMPLETED SLAS</div>
+
+            <div class="dp-SectionBody">
+                <div class="dp-TagItem">
+                    <span class="dp-TimeStatus">
+                        <span class="dp-Tag Tag--small Tag--pink">27/24 hrs</span>
+                    </span>
+                    <span class="dp-TagDescription">Time until first respon...</span>
+                </div>
+                <div class="dp-TagItem">
+                    <span class="dp-TimeStatus">
+                        <span class="dp-Tag Tag--small Tag--netural">14/72 hrs</span>
+                    </span>
+                    <span class="dp-TagDescription">Resolution</span>
+                </div>
+                <div class="dp-TagItem">
+                    <span class="dp-TimeStatus">
+                        <span class="dp-Tag Tag--small Tag--warning">x3</span>
+                    </span>
+                    <span class="dp-TagDescription">Time awaiting reply</span>
+                </div>
+                <div class="dp-TagItem">
+                    <span class="dp-TimeStatus dp-StatusGroup">
+                        <span class="dp-Tag Tag--small Tag--netural">1</span>
+                        <span class="dp-Tag Tag--small Tag--warning">3</span>
+                        <span class="dp-Tag Tag--small Tag--pink">1</span>
+                    </span>
+                    <span class="dp-TagDescription">Time awaiting reply</span>
                 </div>
             </div>
-        </div>
 
-    </div>
-``` -->
+            <div class="dp-TitleControls">APPLY AN SLA</div>
 
-
-
-<h2>SidebarSection</h2>
-```html @preview
-    <div class="dp-PageSidebar">
-
-        <div class="dp-SidebarRow">
-            <div class="dp-SidebarSection dp-SectionControls">
-                <div class="dp-SectionTitle">
-                    <div class="dp-TitleControls">Ticket properties</div>
-                    <span class="dp-LineTitle"></span>
-                    <a href="#" class="dp-Controls">
-                        <span class="dp-qt"> +5 </span> 
-                        <i class="dp-Icon dp-DotsIcon"></i>
-                    </a>
-                </div>
+            <div class="dp-ButtonWrapper">
+                <button class="dp-ActionButton ActionButton--large is-italic" type="button">
+                    Select SLA
+                </button>
+                <button class="dp-Button Button--small" type="button">
+                    Apply
+                </button>
             </div>
-            <div class="dp-PropertyList">
-                <dl class="dp-TicketList">
-                    <dt class="dp-TitleList db-m-0">Department</dt>
-                    <dd class="dp-SubTitleList"><i class="dp-Icon dp-SupportIcon"></i>Support</dd>
 
-                    <dt class="dp-TitleList">Product</dt>
-                    <dd class="dp-SubTitleList">Deskpro Cloud</dd>
-
-                    <dt class="dp-TitleList">Language</dt>
-                    <dd class="dp-SubTitleList"><i class="dp-Icon dp-UKIcon"></i>English (UK)</dd>
-
-                    <dt class="dp-TitleList">Channel</dt>
-                    <dd class="dp-SubTitleList"><i class="dp-Icon dp-iconVoice"></i>Voice</dd>
-                </dl>
-            </div>
         </div>
-
     </div>
+</div>
 ```
 
-
-<h2>PageSidebarList</h2>
-
+<h4>sidebar/ticket-version</h4>
 ```html @preview
-<div class="dp-PageSidebar">
+<div class="dp-MainWrapper">
+    <div class="dp-SidebarContainer">
+        <div class="dp-PageSidebar">
 
-    <div class="dp-PageWrapper">
+            <div class="dp-SidebarTabs">
+                <ul class="dp-SidebarTabsList">
+                    <li class="dp-SidebarTab-item is-active"><a href="#" class="dp-Icon dp-tickets"></a></li>
+                    <li class="dp-SidebarTab-item"><a href="#" class="dp-Icon dp-icon-user"></a></li>
+                    <li class="dp-SidebarTab-item"><a href="#" class="dp-Icon dp-oranisation"></a></li>
+                </ul>
+            </div>
 
-        <div class="dp-SidebarTabs">
-            <ul class="dp-SidebarTabsList">
-                <li class="dp-SidebarTab-item "><a href="#" class="dp-Icon dp-mass_actions dp--blue"></a></li>
-                <li class="dp-SidebarTab-item is-active"><a href="#" class="dp-Icon dp-icon-user dp--blue"></a></li>
-                <li class="dp-SidebarTab-item "><a href="#" class="dp-Icon dp-oranisation dp--blue"></a></li>
-            </ul>
-        </div>
+            <div class="dp-SidebarBody">
 
-        <div class="dp-SidebarWrapper">
-                <div class="dp-SidebarRow">
-
-                    <div class="dp-SidebarSection">
-                        <div class="dp-SectionTitle">Organization & user</div>
-                        <span class="dp-LineTitle"></span>
+                <div class="dp-SidebarSection">
+                    <div class="dp-SectionTitle">
+                        <div class="dp-TitleControls">ORGANIZATION & USER</div>
                     </div>
+                </div>
 
-                    <div class="dp-SectionBody-item">
-                        <div class="dp-title-item dp-optical">
-                            <div class="dp-UserAvatarName">
-                                <span class="dp-Badge Badge--empty"></span>
-                                Optical
-                            </div>
+                <div class="dp-SidebarSection">
+                    <div class="dp-SectionBody-item ">
+                        <div class="dp-title-item">
+                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                            Optical
                         </div>
                     </div>
-
-                    <div class="dp-SectionBody-item">
-                        <p class="dp-title-item">
-                            <img src="/agent-interface/style/img/docs/avatar.png" alt="" class="dp-Icon dp-Avatar"></img>
+                    <div class="dp-SectionBody-item dp-UserPanel">
+                        <div class="dp-title-item">
+                            <span class="dp-Icon dp-iconUserAvatar"></span>
                             Zack Prudent
-                        </p>
-
-                        <p class="dp-Email">zack.prudent@techcompany.com</p>
-                        <p class="dp-Phone">
-                            <i class="dp-Icon dp-iconPhoneBlue"></i><a href="tel:+442035678940" >+44 20 356 789 40</a>
-                        </p>
-                        <p class="dp-OpenResolved">
-                            <span class="dp-open"><i class="dp-Icon dp-iconEmailBlue"></i> Open: 7</span>
-                            <span class="dp-resolved"><i class="dp-Icon dp-iconEmail"></i> Resolved: 24</span>
-                        </p>
-                    </div>
-
-                    <div class="dp-OrganizationSubtitle"><div>CC's <a href="#" class="dp-NumLink">(2)</a></div>  <a href="#" class="dp-BorderLeft">+Add</a></div>
-
-                    <div class="dp-SectionBody-item">
-                        <div class="dp-title-item dp-optical dp-CCs">
-                            <div class="dp-UserAvatarName">
-                                <span class="dp-Badge Badge--empty"></span>
-                                <span class="dp-UserName">Wendy Pride</span><a href="mailto:w.pride@techcompany.com">w.pride@techco...</a>
-                            </div>
-                            <a href="#" class="dp-Icon dp-iconVDots"></a>
+                        </div>
+                        <div class="dp-Email">zack.prudent@techcompany.com</div>
+                        <div class="dp-Phone">
+                            <i class="dp-Icon dp-phone_filled"></i><a href="tel:+442035678940" >+44 20 356 789 40</a>
+                        </div>
+                        <div class="dp-OpenResolved">
+                            <span class="dp-open"><i class="dp-Icon dp-tickets--primary"></i> Open: 7</span>
+                            <span class="dp-resolved"><i class="dp-Icon dp-tickets"></i> Resolved: 24</span>
                         </div>
                     </div>
+                </div>
 
-                    <div class="dp-SectionBody-item db-m-0">
-                        <div class="dp-title-item dp-optical dp-CCs">
-                            <div class="dp-UserAvatarName">
-                                <span class="dp-Badge Badge--empty"></span>
-                                <span class="dp-UserName">Bob Cooper</span><a href="mailto:bob.cooper@techcompany.com">bob.cooper@tec ...</a>
+                <div class="dp-SidebarSection dp-CCmenu">
+                    <div class="dp-SectionControls">
+                        <div class="dp-SectionTitle dp-CcRow">
+                            <div class="dp-TitleControls">
+                                <span class="dp-open">CC’s</span>
+                                <span>Add</span>
                             </div>
-                            <i class="dp-Icon dp-iconVDots"></i>
-                        </div>
-                    </div>
-
-                    <!-- 2 -->
-                    <div class="dp-SidebarSection dp-SectionControls">
-                        <div class="dp-SectionTitle">
-                            <div class="dp-TitleControls">Ticket properties</div>
-                            <span class="dp-LineTitle"></span>
                             <a href="#" class="dp-Controls">
                                 <span class="dp-qt"> +5 </span> 
                                 <i class="dp-Icon dp-DotsIcon"></i>
                             </a>
                         </div>
                     </div>
-                    <div class="dp-PropertyList">
-                        <dl class="dp-TicketList">
-                            <dt class="dp-TitleList db-m-0">Department</dt>
-                            <dd class="dp-SubTitleList"><i class="dp-Icon dp-SupportIcon"></i>Support</dd>
+                </div>
 
-                            <dt class="dp-TitleList">Product</dt>
-                            <dd class="dp-SubTitleList">Deskpro Cloud</dd>
+                <div class="dp-SidebarSection">
+                    <div class="dp-SectionControls">
 
-                            <dt class="dp-TitleList">Language</dt>
-                            <dd class="dp-SubTitleList"><i class="dp-Icon dp-UKIcon"></i>English (UK)</dd>
-
-                            <dt class="dp-TitleList">Channel</dt>
-                            <dd class="dp-SubTitleList"><i class="dp-Icon dp-iconVoice"></i>Voice</dd>
-                        </dl>
-                    </div>
-
-                    <!-- 3 -->
-                    <div class="dp-SidebarSection dp-SectionControls">
-                        <div class="dp-SectionTitle">
-                            <div class="dp-TitleControls dp-StatusTimes">Status &amp; times</div>
-                            <span class="dp-LineTitle"></span>
-                            <a href="#" class="dp-Controls">
-                                <i class="dp-Icon dp-DotsIcon"></i>
-                            </a>
+                        <div class="dp-title-item dp-SectionTitle">
+                            <div>
+                                <span class="dp-Badge Badge--empty"></span>
+                                <span class="dp-UserName">Wendy Pride</span>
+                                <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">w.pride@techcompany.co.uk</a>
+                            </div>
+                            <a href="#" class="dp-Icon dp-iconVDots"></a>
                         </div>
-                    </div>
 
-                    <div class="dp-SectionBody">
-                        <!-- buttons -->
+                        <div class="dp-title-item dp-SectionTitle">
+                            <div>
+                                <span class="dp-Badge Badge--empty"></span>
+                                <span class="dp-UserName">Wendy Pride</span>
+                                <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">w.pride@techcompany.co.uk</a>
+                            </div>
+                            <a href="#" class="dp-Icon dp-iconVDots"></a>
+                        </div>
+
+                        <div class="dp-title-item dp-SectionTitle">
+                            <div>
+                                <span class="dp-Badge Badge--empty"></span>
+                                <span class="dp-UserName">Wendy Pride</span>
+                                <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">w.pride@techcompany.co.uk</a>
+                            </div>
+                            <a href="#" class="dp-Icon dp-iconVDots"></a>
+                        </div>
+
+                        <div class="dp-title-item dp-SectionTitle">
+                            <div>
+                                <span class="dp-Badge Badge--empty"></span>
+                                <span class="dp-UserName">Wendy Pride</span>
+                                <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">w.pride@techcompany.co.uk</a>
+                            </div>
+                            <a href="#" class="dp-Icon dp-iconVDots"></a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="dp-SidebarSection">
+                    <div class="dp-SectionTitle">
+                        <div class="dp-TitleControls">STATUS</div>
+                    </div>
+                </div>
+
+                <div class="dp-SidebarSection">
+
+                    <div class="dp-Selectbelow">
                         <div class="dp-ButtonWrapper">
-                            <button class="dp-ActionButton dp-BorderPink ActionButton--large" type="button">
-                                Awaiting Agent
+                            <button class="dp-ActionButton dp-Border--danger ActionButton--large is-semibold" type="button">
+                                On Hold
                             </button>
-                            <button class="dp-ActionButton dp-BorderPink dp-Pink" type="button">
+
+                            <button class="dp-ActionButton dp-Border--danger dp--danger is-semibold" type="button">
                                 10
                             </button>
                         </div>
 
-                        <div class="dp-DataWrapper">
-                            <span class="dp-DateItem">
-                                <i class="dp-Icon dp-iconCalendar"></i>2 weeks ago
-                            </span>
-                            <span class="dp-DateItem">
-                                <i class="dp-Icon dp-iconUserTime"></i>12 hr 43 min
-                            </span>
+                        <div class="dp-ButtonWrapper">
+                            <span class="dp-Icon dp-LevelDown"></span>
+
+                            <button class="dp-ActionButton ActionButton--large is-semibold" type="button">
+                                Awaiting order confirmation
+                            </button>
                         </div>
                     </div>
 
-                    <!-- 4 -->
-                    <div class="dp-SidebarSection dp-SectionControls">
-                        <div class="dp-SectionTitle">
-                            <div class="dp-TitleControls dp-Slas">SLAS</div>
-                            <span class="dp-LineTitle"></span>
-                            <a href="#" class="dp-Controls">
-                                <i class="dp-Icon dp-DotsIcon"></i>
-                            </a>
-                        </div>
+                </div>
+
+                <div class="dp-SidebarSection dp-SectionControls">
+                    <div class="dp-SectionTitle">
+                        <div class="dp-TitleControls">TIMES</div>
+                        <a href="#" class="dp-Controls">
+                            <span class="dp-qt"> +6 </span> 
+                            <i class="dp-Icon dp-DotsIcon"></i>
+                        </a>
                     </div>
+                </div>
+
+                <div class="dp-SidebarSection dp-SectionControls">
+                    <div class="dp-SectionTitle dp-TimesRow">
+                        <div class="dp-title-item">
+                            <span class="dp-Icon dp-ticket_created"></span>
+                            Created
+                        </div>
+                        <span class="dp-TimesStatus">2 weeks ago</span>
+                    </div>
+                    <div class="dp-SectionTitle dp-TimesRow">
+                        <div class="dp-title-item">
+                            <span class="dp-Icon dp-CurrentUser"></span>
+                            Current user wait
+                        </div>
+                        <span class="dp-TimesStatus">12 hrs 43 mins</span>
+                    </div>
+                </div>
+
+                <div class="dp-SidebarSection dp-SectionControls">
+                    <div class="dp-SectionTitle">
+                        <div class="dp-TitleControls">SLAS</div>
+                        <a href="#" class="dp-Controls">
+                            <span class="dp-qt"> +5 </span> 
+                            <i class="dp-Icon dp-DotsIcon"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="dp-Slas">
+                    <div class="dp-TitleControls">ACTIVE SLAS</div>
 
                     <div class="dp-SectionBody">
                         <div class="dp-TagItem">
@@ -516,156 +537,557 @@ title: PageSidebar (developing)
                         </div>
                         <div class="dp-TagItem">
                             <span class="dp-TimeStatus">
-                                <span class="dp-Tag Tag--small Tag--orange">10.5 hours</span>
+                                <span class="dp-Tag Tag--small Tag--warning">10.5 hours</span>
                             </span>
                             <span class="dp-TagDescription">Time awaiting reply</span>
                         </div>
                     </div>
+                </div>
 
-                    <!-- 5 -->
-                    <div class="dp-SidebarSection">
-                        <div class="dp-SectionTitle">Agents &amp; team</div>
-                        <span class="dp-LineTitle"></span>
-                    </div>
-
-
-                    <div class="dp-OrganizationSubtitle">
-                        <div>AGENT</div>  
-                        <div>
-                            <a href="#">Assign to me</a>
-                            <a href="#" class="dp-BorderLeft">Unassign</a>
-                        </div>
-                    </div>
-                    <div class="dp-SectionBody-item">
-                        <div class="dp-title-item dp-optical dp-Agent">
-                            <div class="dp-UserAvatarName">
-                                <span class="dp-Badge Badge--empty"></span>
-                                Chris Pattison
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="dp-OrganizationSubtitle">
-                        <span>TEAM</span>  
-                        <a href="#">Unassign</a>
-                    </div>
-                    <div class="dp-SectionBody-item">
-                        <div class="dp-title-item dp-optical">
-                            <div class="dp-UserAvatarName">
-                                2nd Level Support
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="dp-OrganizationSubtitle">
-                        <div>FOLLOWERS <a href="#" class="dp-NumLink">(2)</a></div>  
-                        <div>
-                            <a href="#">Add</a>
-                            <a href="#" class="dp-BorderLeft">Add me</a>
-                        </div>
-                    </div>
-                         
-                    <div class="dp-TagWrapper">       
-                        <div class="dp-Tag Tag--close">
-                            <span class="dp-Badge Badge--empty"></span>Wendy Pride<span class="dp-iconClose"></span>
-                        </div>
-                        <div class="dp-Tag Tag--close">
-                            <span class="dp-Badge Badge--empty"></span>Zack Cooper<span class="dp-iconClose"></span>
-                        </div>
-                    </div>
-
-                    <div class="dp-BorderBottom"></div>
-
-            </div>
+            </div> <!-- Sidebar body -->
         </div>
     </div>
-
 </div>
 ```
 
-<h2>Active PageSidebarList</h2>
 
+<h4>sidebar/ticket-version-overlay</h4>
 ```html @preview
-<div class="dp-PageSidebar dp-UserActivSidebar">
+<div class="dp-MainWrapper">
+    <div class="dp-SidebarContainer">
+        <div class="dp-PageSidebar dp-TicketOverlay">
 
-    <div class="dp-PageWrapper">
-
-        <div class="dp-SidebarTabs">
-            <ul class="dp-SidebarTabsList">
-                <li class="dp-SidebarTab-item "><a href="#" class="dp-Icon dp-mass_actions dp--blue"></a></li>
-                <li class="dp-SidebarTab-item is-active"><a href="#" class="dp-Icon dp-icon-user dp--white"></a></li>
-                <li class="dp-SidebarTab-item "><a href="#" class="dp-Icon dp-oranisation dp--blue"></a></li>
-            </ul>
-        </div>
-
-        <div class="dp-SidebarWrapper">
-            <div class="dp-SidebarRow">
-
-                <div class="dp-SidebarSection dp-SectionControls">
-                    <div class="dp-SectionTitle">
-                        <div class="dp-TitleControls dp-Slas">User contact information</div>
-                        <span class="dp-LineTitle"></span>
-                        <a href="#" class="dp-Controls">
-                            <i class="dp-Icon dp-DotsIcon"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="dp-SectionBody-item dp-DropMenuJs">
-                    <p class="dp-title-item">
-                        <img src="/agent-interface/style/img/docs/avatar.png" alt="" class="dp-Icon dp-Avatar"></img>
-                        Zack Prudent
-                    </p>
-
-                    <p class="dp-Email"><a href="mailto:zack.prudent@techcompany.com">zack.prudent@techcompany.com</a></p>
-                    <p class="dp-Phone">
-                        <i class="dp-Icon dp-iconPhoneBlue"></i><a href="tel:+442035678940" >+44 20 356 789 40</a>
-                    </p>
-                    <p class="dp-OpenResolved">
-                        <span class="dp-open"><i class="dp-Icon dp-iconEmailBlue"></i> Open: 7</span>
-                        <span class="dp-resolved"><i class="dp-Icon dp-iconEmail"></i> Resolved: 24</span>
-                    </p>
-                </div>
-
-                <dl class="dp-AddressList">
-                    <dt class="dp-TitleList">Website</dt>
-                    <dd class="dp-SubTitleList">www.techcompany.com</dd>
-
-                    <dt class="dp-TitleList">Address</dt>
-                    <dd class="dp-SubTitleList address">
-                        Tech Company Ltd<br></br>
-                        14 Cloud Street<br></br>
-                        London<br></br>
-                        SE1 ONG<br></br>
-                        England
-                    </dd>
-
-                    <dt class="dp-TitleList">IM</dt>
-                    <dd class="dp-SubTitleList"> - </dd>
-
-                    <dt class="dp-TitleList">Facebook</dt>
-                    <dd class="dp-SubTitleList"> - </dd>
-
-                    <dt class="dp-TitleList">Twitter</dt>
-                    <dd class="dp-SubTitleList"> - </dd>
-
-                    <dt class="dp-TitleList">LinkedIn</dt>
-                    <dd class="dp-SubTitleList"> - </dd>
-                </dl>
-
-                <div class="dp-SidebarSection dp-SectionControls">
-                    <div class="dp-SectionTitle">
-                        <div class="dp-TitleControls dp-Slas">Properties</div>
-                        <span class="dp-LineTitle"></span>
-                        <a href="#" class="dp-Controls">
-                            <i class="dp-Icon dp-DotsIcon"></i>
-                        </a>
-                    </div>
-                </div>
-
+            <div class="dp-SidebarTabs">
+                <ul class="dp-SidebarTabsList">
+                    <li class="dp-SidebarTab-item"><a href="#" class="dp-Icon dp-tickets"></a></li>
+                    <li class="dp-SidebarTab-item is-active"><a href="#" class="dp-Icon dp-icon-user"></a></li>
+                    <li class="dp-SidebarTab-item"><a href="#" class="dp-Icon dp-oranisation"></a></li>
+                </ul>
             </div>
+
+            <div class="dp-SidebarBody">
+
+                <div class="dp-SidebarSection">
+                    <div class="dp-SectionTitle">
+                        <div class="dp-TitleControls">ORGANIZATION & USER</div>
+                    </div>
+                </div>
+
+                <div class="dp-SidebarSection">
+                    <div class="dp-SectionBody-item is-disabled">
+                        <div class="dp-title-item">
+                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                            Optical
+                        </div>
+                    </div>
+                    <div class="dp-SectionBody-item dp-UserPanel">
+                        <div class="dp-title-item">
+                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                            Zack Prudent
+                        </div>
+                        <div class="dp-Email">zack.prudent@techcompany.com</div>
+                        <div class="dp-Phone">
+                            <i class="dp-Icon dp-phone_filled"></i><a href="tel:+442035678940" >+44 20 356 789 40</a>
+                        </div>
+                        <div class="dp-OpenResolved">
+                            <span class="dp-open"><i class="dp-Icon dp-tickets--primary"></i> Open: 7</span>
+                            <span class="dp-resolved"><i class="dp-Icon dp-tickets"></i> Resolved: 24</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dp-SidebarSection">
+                    <dl class="dp-AddressList">
+                        <dt class="dp-TitleList">Website</dt>
+                        <dd class="dp-SubTitleList">www.techcompany.com</dd>
+
+                        <dt class="dp-TitleList">Address</dt>
+                        <dd class="dp-SubTitleList address">
+                            Tech Company Ltd<br></br>
+                            14 Cloud Street<br></br>
+                            London<br></br>
+                            SE1 ONG<br></br>
+                            England
+                        </dd>
+
+                        <dt class="dp-TitleList">IM</dt>
+                        <dd class="dp-SubTitleList"> - </dd>
+
+                        <dt class="dp-TitleList">Facebook</dt>
+                        <dd class="dp-SubTitleList"> - </dd>
+
+                        <dt class="dp-TitleList">Twitter</dt>
+                        <dd class="dp-SubTitleList"> - </dd>
+
+                        <dt class="dp-TitleList">LinkedIn</dt>
+                        <dd class="dp-SubTitleList"> - </dd>
+                    </dl>
+
+                </div>
+
+                <div class="dp-SidebarSection dp-SectionControls">
+                    <div class="dp-SectionTitle">
+                        <div class="dp-TitleControls">PROPERTIES</div>
+                        <a href="#" class="dp-Controls">
+                            <span class="dp-qt"> +6 </span> 
+                            <i class="dp-Icon dp-DotsIcon"></i>
+                        </a>
+                    </div>
+                </div>
+                
+            </div> <!-- Sidebar body -->
         </div>
     </div>
+</div>
+```
 
+<h4>sidebar/ticket-version-times</h4>
+```html @preview
+<div class="dp-MainWrapper">
+    <div class="dp-SidebarContainer">
+        <div class="dp-PageSidebar">
+
+            <div class="dp-SidebarTabs">
+                <ul class="dp-SidebarTabsList">
+                    <li class="dp-SidebarTab-item is-active"><a href="#" class="dp-Icon dp-tickets"></a></li>
+                    <li class="dp-SidebarTab-item"><a href="#" class="dp-Icon dp-icon-user"></a></li>
+                    <li class="dp-SidebarTab-item"><a href="#" class="dp-Icon dp-oranisation"></a></li>
+                </ul>
+            </div>
+
+            <div class="dp-SidebarBody">
+
+                <div class="dp-SidebarSection">
+                    <div class="dp-SectionTitle">
+                        <div class="dp-TitleControls">ORGANIZATION & USER</div>
+                    </div>
+                </div>
+
+                <div class="dp-SidebarSection">
+                    <div class="dp-SectionBody-item ">
+                        <div class="dp-title-item">
+                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                            Optical
+                        </div>
+                    </div>
+                    <div class="dp-SectionBody-item dp-UserPanel">
+                        <div class="dp-title-item">
+                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                            Zack Prudent
+                        </div>
+                        <div class="dp-Email">zack.prudent@techcompany.com</div>
+                        <div class="dp-Phone">
+                            <i class="dp-Icon dp-phone_filled"></i><a href="tel:+442035678940" >+44 20 356 789 40</a>
+                        </div>
+                        <div class="dp-OpenResolved">
+                            <span class="dp-open"><i class="dp-Icon dp-tickets--primary"></i> Open: 7</span>
+                            <span class="dp-resolved"><i class="dp-Icon dp-tickets"></i> Resolved: 24</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dp-SidebarSection dp-CCmenu">
+                    <div class="dp-SectionControls">
+                        <div class="dp-SectionTitle dp-CcRow">
+                            <div class="dp-TitleControls">
+                                <span class="dp-open">CC’s</span>
+                                <span>Add</span>
+                            </div>
+                            <a href="#" class="dp-Controls">
+                                <span class="dp-qt"> +5 </span> 
+                                <i class="dp-Icon dp-DotsIcon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dp-SidebarSection">
+                    <div class="dp-SectionControls">
+
+                        <div class="dp-title-item dp-SectionTitle">
+                            <div>
+                                <span class="dp-Badge Badge--empty"></span>
+                                <span class="dp-UserName">Wendy Pride</span>
+                                <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">w.pride@techcompany.co.uk</a>
+                            </div>
+                            <a href="#" class="dp-Icon dp-iconVDots"></a>
+                        </div>
+
+                        <div class="dp-title-item dp-SectionTitle">
+                            <div>
+                                <span class="dp-Badge Badge--empty"></span>
+                                <span class="dp-UserName">Wendy Pride</span>
+                                <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">w.pride@techcompany.co.uk</a>
+                            </div>
+                            <a href="#" class="dp-Icon dp-iconVDots"></a>
+                        </div>
+
+                        <div class="dp-title-item dp-SectionTitle">
+                            <div>
+                                <span class="dp-Badge Badge--empty"></span>
+                                <span class="dp-UserName">Wendy Pride</span>
+                                <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">w.pride@techcompany.co.uk</a>
+                            </div>
+                            <a href="#" class="dp-Icon dp-iconVDots"></a>
+                        </div>
+
+                        <div class="dp-title-item dp-SectionTitle">
+                            <div>
+                                <span class="dp-Badge Badge--empty"></span>
+                                <span class="dp-UserName">Wendy Pride</span>
+                                <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">w.pride@techcompany.co.uk</a>
+                            </div>
+                            <a href="#" class="dp-Icon dp-iconVDots"></a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="dp-SidebarSection">
+                    <div class="dp-SectionTitle">
+                        <div class="dp-TitleControls">STATUS</div>
+                    </div>
+                </div>
+
+                <div class="dp-SidebarSection">
+
+                    <div class="dp-Selectbelow">
+                        <div class="dp-ButtonWrapper">
+                            <button class="dp-ActionButton dp-Border--danger ActionButton--large is-semibold" type="button">
+                                On Hold
+                            </button>
+
+                            <button class="dp-ActionButton dp-Border--danger dp--danger is-semibold" type="button">
+                                10
+                            </button>
+                        </div>
+
+                        <div class="dp-ButtonWrapper">
+                            <span class="dp-Icon dp-LevelDown"></span>
+
+                            <button class="dp-ActionButton ActionButton--large is-semibold" type="button">
+                                Awaiting order confirmation
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="dp-SidebarSection dp-SectionControls">
+                    <div class="dp-SectionTitle">
+                        <div class="dp-TitleControls">TIMES</div>
+                        <a href="#" class="dp-Controls">
+                            <span class="dp-qt"> +6 </span> 
+                            <i class="dp-Icon dp-DotsIcon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="dp-SidebarSection dp-SectionControls">
+                    <!-- 1 -->
+                    <div class="dp-SectionTitle dp-TimesRow">
+                        <div class="dp-title-item">
+                            <span class="dp-Icon dp-ticket_created"></span>
+                            Created
+                        </div>
+                        <span class="dp-TimesStatus">2 weeks ago</span>
+                    </div>
+                    <!-- 2 -->
+                    <div class="dp-SectionTitle dp-TimesRow">
+                        <div class="dp-title-item">
+                            <span class="dp-Icon dp-CurrentUser"></span>
+                            Current user wait
+                        </div>
+                        <span class="dp-TimesStatus">12 hrs 43 mins</span>
+                    </div>
+                    <!-- 3 -->
+                    <div class="dp-SectionTitle dp-TimesRow">
+                        <div class="dp-title-item">
+                            <span class="dp-Icon dp-history"></span>
+                            Total user wait
+                        </div>
+                        <span class="dp-TimesStatus">2 weeks</span>
+                    </div>
+                    <!-- 4 -->
+                    <div class="dp-SectionTitle dp-TimesRow">
+                        <div class="dp-title-item">
+                            <span class="dp-Icon dp-WaitUntill"></span>
+                            Wait until first reply
+                        </div>
+                        <span class="dp-TimesStatus">1 hr 3 mins</span>
+                    </div>
+                    <!-- 5 -->
+                    <div class="dp-SectionTitle dp-TimesRow">
+                        <div class="dp-title-item">
+                            <span class="dp-Icon dp-Assignment"></span>
+                            First assignment
+                        </div>
+                        <span class="dp-TimesStatus">2 weeks ago</span>
+                    </div>
+                    <!-- 6 -->
+                    <div class="dp-SectionTitle dp-TimesRow">
+                        <div class="dp-title-item">
+                            <span class="dp-Icon dp-FirstAgent"></span>
+                            First agent reply
+                        </div>
+                        <span class="dp-TimesStatus">2 weeks ago</span>
+                    </div>
+                    <!-- 7 -->
+                    <div class="dp-SectionTitle dp-TimesRow">
+                        <div class="dp-title-item">
+                            <span class="dp-Icon dp-LastAgent"></span>
+                            Last agent reply
+                        </div>
+                        <span class="dp-TimesStatus">4 days ago</span>
+                    </div>
+                    <!-- 8 -->
+                    <div class="dp-SectionTitle dp-TimesRow">
+                        <div class="dp-title-item">
+                            <span class="dp-Icon dp-LastUser"></span>
+                            Last user reply
+                        </div>
+                        <span class="dp-TimesStatus">6 hrs 37 mins</span>
+                    </div>                    
+
+                </div>
+
+                <div class="dp-SidebarSection dp-SectionControls">
+                    <div class="dp-SectionTitle">
+                        <div class="dp-TitleControls">SLAS</div>
+                        <a href="#" class="dp-Controls">
+                            <span class="dp-qt"> +5 </span> 
+                            <i class="dp-Icon dp-DotsIcon"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="dp-Slas">
+                    <div class="dp-TitleControls">ACTIVE SLAS</div>
+
+                    <div class="dp-SectionBody">
+                        <div class="dp-TagItem">
+                            <span class="dp-TimeStatus">
+                                <span class="dp-Tag Tag--small Tag--pink">3 hours</span>
+                            </span>
+                            <span class="dp-TagDescription">Time until resolution</span>
+                        </div>
+                        <div class="dp-TagItem">
+                            <span class="dp-TimeStatus">
+                                <span class="dp-Tag Tag--small Tag--warning">10.5 hours</span>
+                            </span>
+                            <span class="dp-TagDescription">Time awaiting reply</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div> <!-- Sidebar body -->
+        </div>
+    </div>
+</div>
+```
+
+
+
+
+<h4>sidebar/ticket-version-CCmenu</h4>
+```html @preview
+<div class="dp-MainWrapper">
+    <div class="dp-SidebarContainer">
+        <div class="dp-PageSidebar">
+
+            <div class="dp-SidebarTabs">
+                <ul class="dp-SidebarTabsList">
+                    <li class="dp-SidebarTab-item is-active"><a href="#" class="dp-Icon dp-tickets"></a></li>
+                    <li class="dp-SidebarTab-item"><a href="#" class="dp-Icon dp-icon-user"></a></li>
+                    <li class="dp-SidebarTab-item"><a href="#" class="dp-Icon dp-oranisation"></a></li>
+                </ul>
+            </div>
+
+            <div class="dp-SidebarBody dp-VersionCCmenu">
+
+                <div class="dp-SidebarSection">
+                    <div class="dp-SectionTitle">
+                        <div class="dp-TitleControls">ORGANIZATION & USER</div>
+                    </div>
+                </div>
+
+                <div class="dp-SidebarSection">
+                    <div class="dp-SectionBody-item ">
+                        <div class="dp-title-item">
+                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                            Optical
+                        </div>
+                    </div>
+                    <div class="dp-SectionBody-item dp-UserPanel">
+                        <div class="dp-title-item">
+                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                            Zack Prudent
+                        </div>
+                        <div class="dp-Email">zack.prudent@techcompany.com</div>
+                        <div class="dp-Phone">
+                            <i class="dp-Icon dp-phone_filled"></i><a href="tel:+442035678940" >+44 20 356 789 40</a>
+                        </div>
+                        <div class="dp-OpenResolved">
+                            <span class="dp-open"><i class="dp-Icon dp-tickets--primary"></i> Open: 7</span>
+                            <span class="dp-resolved"><i class="dp-Icon dp-tickets"></i> Resolved: 24</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dp-SidebarSection dp-CCmenu">
+                    <div class="dp-SectionControls">
+                        <div class="dp-SectionTitle dp-CcRow">
+                            <div class="dp-TitleControls">
+                                <span class="dp-open">CC’s</span>
+                                <span>Add</span>
+                            </div>
+                            <a href="#" class="dp-Controls">
+                                <span class="dp-qt"> +5 </span> 
+                                <i class="dp-Icon dp-DotsIcon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dp-SidebarSection">
+                    <div class="dp-SectionControls">
+
+                        <div class="dp-title-item dp-SectionTitle">
+                            <div>
+                                <span class="dp-Badge Badge--empty"></span>
+                                <span class="dp-UserName">Wendy Pride</span>
+                                <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">w.pride@techcompany.co.uk</a>
+                            </div>
+                            <a href="#" class="dp-Icon dp-iconVDots"></a>
+                        </div>
+
+                        <div class="dp-title-item dp-SectionTitle">
+                            <div>
+                                <span class="dp-Badge Badge--empty"></span>
+                                <span class="dp-UserName">Bob Cooper</span>
+                                <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">bob.cooper@techcompany.co</a>
+                            </div>
+                            <a href="#" class="dp-Icon dp-iconVDots"></a>
+                        </div>
+
+                        <div class="dp-title-item dp-SectionTitle is-active">
+                            <div>
+                                <span class="dp-Badge Badge--empty"></span>
+                                <span class="dp-UserName">Wendy Pride</span>
+                                <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">w.pride@techcompany.co.uk</a>
+                            </div>
+                            <a href="#" class="dp-Icon dp-iconVDots"></a>
+
+                            <ul class="dp-ContextMenu">
+                                <li><a href="#"><span class="dp-Icon dp-Swap"></span>Swap with ticket owner</a></li>
+                                <li><a href="#"><span class="dp-Icon dp-Owner"></span>Set as ticket owner</a></li>
+                                <li><a href="#"><span class="dp-Icon dp-Merge"></span>Merge into ticket owner</a></li>
+                                <li><a href="#"><span class="dp-Icon dp-Bin"></span>Remove CC</a></li>
+                                <li><a href="#"><span class="dp-Icon dp-iconGrayMin"></span>Remove CC & Block from ticket</a></li>
+                            </ul>
+
+                        </div>
+
+                        <div class="dp-title-item dp-SectionTitle">
+                            <div>
+                                <span class="dp-Badge Badge--empty"></span>
+                                <span class="dp-UserName">Bob Cooper</span>
+                                <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">bob.cooper@techcompany.co</a>
+                            </div>
+                            <a href="#" class="dp-Icon dp-iconVDots"></a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="dp-SidebarSection">
+                    <div class="dp-SectionTitle">
+                        <div class="dp-TitleControls">STATUS</div>
+                    </div>
+                </div>
+
+                <div class="dp-SidebarSection">
+
+                    <div class="dp-Selectbelow">
+                        <div class="dp-ButtonWrapper">
+                            <button class="dp-ActionButton dp-Border--danger ActionButton--large is-semibold" type="button">
+                                On Hold
+                            </button>
+
+                            <button class="dp-ActionButton dp-Border--danger dp--danger is-semibold" type="button">
+                                10
+                            </button>
+                        </div>
+
+                        <div class="dp-ButtonWrapper">
+                            <span class="dp-Icon dp-LevelDown"></span>
+
+                            <button class="dp-ActionButton ActionButton--large is-semibold" type="button">
+                                Awaiting order confirmation
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="dp-SidebarSection dp-SectionControls">
+                    <div class="dp-SectionTitle">
+                        <div class="dp-TitleControls">TIMES</div>
+                        <a href="#" class="dp-Controls">
+                            <span class="dp-qt"> +6 </span> 
+                            <i class="dp-Icon dp-DotsIcon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="dp-SidebarSection dp-SectionControls">
+                    <div class="dp-SectionTitle dp-TimesRow">
+                        <div class="dp-title-item">
+                            <span class="dp-Icon dp-ticket_created"></span>
+                            Created
+                        </div>
+                        <span class="dp-TimesStatus">2 weeks ago</span>
+                    </div>
+                    <div class="dp-SectionTitle dp-TimesRow">
+                        <div class="dp-title-item">
+                            <span class="dp-Icon dp-CurrentUser"></span>
+                            Current user wait
+                        </div>
+                        <span class="dp-TimesStatus">12 hrs 43 mins</span>
+                    </div>
+                </div>
+
+                <div class="dp-SidebarSection dp-SectionControls">
+                    <div class="dp-SectionTitle">
+                        <div class="dp-TitleControls">SLAS</div>
+                        <a href="#" class="dp-Controls">
+                            <span class="dp-qt"> +5 </span> 
+                            <i class="dp-Icon dp-DotsIcon"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="dp-Slas">
+                    <div class="dp-TitleControls">ACTIVE SLAS</div>
+
+                    <div class="dp-SectionBody">
+                        <div class="dp-TagItem">
+                            <span class="dp-TimeStatus">
+                                <span class="dp-Tag Tag--small Tag--pink">3 hours</span>
+                            </span>
+                            <span class="dp-TagDescription">Time until resolution</span>
+                        </div>
+                        <div class="dp-TagItem">
+                            <span class="dp-TimeStatus">
+                                <span class="dp-Tag Tag--small Tag--warning">10.5 hours</span>
+                            </span>
+                            <span class="dp-TagDescription">Time awaiting reply</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div> <!-- Sidebar body -->
+        </div>
+    </div>
 </div>
 ```
