@@ -226,7 +226,6 @@ title: PageSidebar
 </div>
 ```
 
-
 <h4>sidebar/select-selectbelow</h4>
 ```html @preview
 <div class="dp-MainWrapper">
@@ -301,7 +300,6 @@ title: PageSidebar
     </div>
 </div>
 ```
-
 
 <h4>sidebar/SLAs-extended</h4>
 ```html @preview
@@ -549,7 +547,6 @@ title: PageSidebar
     </div>
 </div>
 ```
-
 
 <h4>sidebar/ticket-version-overlay</h4>
 ```html @preview
@@ -886,9 +883,6 @@ title: PageSidebar
 </div>
 ```
 
-
-
-
 <h4>sidebar/ticket-version-CCmenu</h4>
 ```html @preview
 <div class="dp-MainWrapper">
@@ -947,30 +941,9 @@ title: PageSidebar
                             </a>
                         </div>
                     </div>
-                </div>
 
-                <div class="dp-SidebarSection">
                     <div class="dp-SectionControls">
-
                         <div class="dp-title-item dp-SectionTitle">
-                            <div>
-                                <span class="dp-Badge Badge--empty"></span>
-                                <span class="dp-UserName">Wendy Pride</span>
-                                <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">w.pride@techcompany.co.uk</a>
-                            </div>
-                            <a href="#" class="dp-Icon dp-iconVDots"></a>
-                        </div>
-
-                        <div class="dp-title-item dp-SectionTitle">
-                            <div>
-                                <span class="dp-Badge Badge--empty"></span>
-                                <span class="dp-UserName">Bob Cooper</span>
-                                <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">bob.cooper@techcompany.co</a>
-                            </div>
-                            <a href="#" class="dp-Icon dp-iconVDots"></a>
-                        </div>
-
-                        <div class="dp-title-item dp-SectionTitle is-active">
                             <div>
                                 <span class="dp-Badge Badge--empty"></span>
                                 <span class="dp-UserName">Wendy Pride</span>
@@ -985,7 +958,6 @@ title: PageSidebar
                                 <li><a href="#"><span class="dp-Icon dp-Bin"></span>Remove CC</a></li>
                                 <li><a href="#"><span class="dp-Icon dp-iconGrayMin"></span>Remove CC & Block from ticket</a></li>
                             </ul>
-
                         </div>
 
                         <div class="dp-title-item dp-SectionTitle">
@@ -995,6 +967,48 @@ title: PageSidebar
                                 <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">bob.cooper@techcompany.co</a>
                             </div>
                             <a href="#" class="dp-Icon dp-iconVDots"></a>
+
+                            <ul class="dp-ContextMenu">
+                                <li><a href="#"><span class="dp-Icon dp-Swap"></span>Swap with ticket owner</a></li>
+                                <li><a href="#"><span class="dp-Icon dp-Owner"></span>Set as ticket owner</a></li>
+                                <li><a href="#"><span class="dp-Icon dp-Merge"></span>Merge into ticket owner</a></li>
+                                <li><a href="#"><span class="dp-Icon dp-Bin"></span>Remove CC</a></li>
+                                <li><a href="#"><span class="dp-Icon dp-iconGrayMin"></span>Remove CC & Block from ticket</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="dp-title-item dp-SectionTitle is-active">
+                            <div>
+                                <span class="dp-Badge Badge--empty"></span>
+                                <span class="dp-UserName">Wendy Pride</span>
+                                <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">w.pride@techcompany.co.uk</a>
+                            </div>
+                            <a href="#" class="dp-Icon dp-iconVDots is-active"></a>
+
+                            <ul class="dp-ContextMenu">
+                                <li><a href="#"><span class="dp-Icon dp-Swap"></span>Swap with ticket owner</a></li>
+                                <li><a href="#"><span class="dp-Icon dp-Owner"></span>Set as ticket owner</a></li>
+                                <li><a href="#"><span class="dp-Icon dp-Merge"></span>Merge into ticket owner</a></li>
+                                <li><a href="#"><span class="dp-Icon dp-Bin"></span>Remove CC</a></li>
+                                <li><a href="#"><span class="dp-Icon dp-iconGrayMin"></span>Remove CC & Block from ticket</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="dp-title-item dp-SectionTitle">
+                            <div>
+                                <span class="dp-Badge Badge--empty"></span>
+                                <span class="dp-UserName">Bob Cooper</span>
+                                <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">bob.cooper@techcompany.co</a>
+                            </div>
+                            <a href="#" class="dp-Icon dp-iconVDots"></a>
+
+                            <ul class="dp-ContextMenu">
+                                <li><a href="#"><span class="dp-Icon dp-Swap"></span>Swap with ticket owner</a></li>
+                                <li><a href="#"><span class="dp-Icon dp-Owner"></span>Set as ticket owner</a></li>
+                                <li><a href="#"><span class="dp-Icon dp-Merge"></span>Merge into ticket owner</a></li>
+                                <li><a href="#"><span class="dp-Icon dp-Bin"></span>Remove CC</a></li>
+                                <li><a href="#"><span class="dp-Icon dp-iconGrayMin"></span>Remove CC & Block from ticket</a></li>
+                            </ul>
                         </div>
 
                     </div>

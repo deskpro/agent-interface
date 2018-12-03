@@ -2,53 +2,131 @@
 title: Page View (developing)
 ---
 
+<h4>buttons/actions</h4>
 ```html @preview
-<div class="dp-DropDownBar">
-
-    <ul class="dp-DropDownList">
-        <li class="dp-ActionButton is-active">
-			<span class="dp-Icon dp-iconLockGray Icon--Gray"></span>
-			<span class="dp-Icon dp-iconLockWhite Icon--White"></span>
-        	Lock
-        </li>
-        <li class="dp-ActionButton">
-			<span class="dp-Icon dp-IconLink Icon--Gray"></span>
-			<span class="dp-Icon dp-IconLinkWhite Icon--White"></span>
-			Link
-		</li>
-        <li class="dp-ActionButton">
-			<span class="dp-Icon dp-IconPlusGrey Icon--Gray"></span>
-			<span class="dp-Icon dp-IconPlusWhite Icon--White"></span>
-        	New
-        </li>
-        <li class="dp-ActionButton">
-			<span class="dp-Icon dp-IconPrint Icon--Gray"></span>
-			<span class="dp-Icon dp-IconPrintWhite Icon--White"></span>
-        	Print
-        </li>
-        <li class="dp-ActionButton">
-			<span class="dp-Icon dp-IconBan Icon--Gray"></span>
-			<span class="dp-Icon dp-IconBanWhite Icon--White"></span>
-        	Ban
-        </li>
-        <li class="dp-ActionButton">
-			<span class="dp-Icon dp-iconRocketGray Icon--Gray"></span>
-			<span class="dp-Icon dp-iconRocketwhite Icon--White"></span>
-        	Actions
-    	</li>
-    </ul>
-
+<div class="dp-MainWrapper">
+	<div class="dp-DropDownBar">
+		<ul class="dp-DropDownList">
+			<li class="dp-ActionButton">
+				<span class="dp-Icon dp-lock"></span>
+				Lock
+			</li>
+			<li class="dp-ActionButton is-disabled">
+				<span class="dp-Icon dp-IconLink"></span>
+				Link
+			</li>
+			<li class="dp-ActionButton">
+				<span class="dp-Icon dp-IconPlusGrey"></span>
+				New
+			</li>
+			<li class="dp-ActionButton">
+				<span class="dp-Icon dp-IconPrint"></span>
+				Print
+			</li>
+			<li class="dp-ActionButton">
+				<span class="dp-Icon dp-ban"></span>
+				Ban
+			</li>
+			<li class="dp-ActionButton">
+				<span class="dp-Icon dp-iconRocketGray"></span>
+				Actions
+			</li>
+		</ul>
+	</div>
 </div>
 ```
 
-<h2>Lock Drpodown</h2>
+```html @preview
+<div class="dp-MainWrapper" style="height: 150px;">
+	<div class="dp-DropDownBar">
 
+		<ul class="dp-DropDownList">
+			<li class="dp-ActionButton is-active">
+				<span class="dp-Icon dp-lock"></span>
+				Lock
+                <ul class="dp-ContextMenu">
+                    <li><a href="#"><span class="dp-Icon dp-lock"></span>Lock</a></li>
+                    <li><a href="#"><span class="dp-Icon dp-iconGrayMin"></span>Put ticket on hold</a></li>
+                    <li><a href="#"><span class="dp-Icon dp-Bin"></span>Delete</a></li>
+                </ul>
+			</li>
+			<li class="dp-ActionButton">
+				<span class="dp-Icon dp-IconLink"></span>
+				Link
+			</li>
+			<li class="dp-ActionButton">
+				<span class="dp-Icon dp-IconPlusGrey"></span>
+				New
+			</li>
+			<li class="dp-ActionButton">
+				<span class="dp-Icon dp-IconPrint"></span>
+				Print
+			</li>
+			<li class="dp-ActionButton">
+				<span class="dp-Icon dp-ban"></span>
+				Ban
+			</li>
+			<li class="dp-ActionButton">
+				<span class="dp-Icon dp-iconRocketGray"></span>
+				Actions
+			</li>
+		</ul>
+
+	</div>
+</div>
+```
+
+```html @preview
+<div class="dp-MainWrapper" style="height: 150px;">
+	<div class="dp-DropDownBar">
+
+		<ul class="dp-DropDownList">
+			<li class="dp-ActionButton is-active">
+				<span class="dp-Icon dp-lock"></span>
+				Lock
+                <ul class="dp-ContextMenu">
+                    <li><a href="#"><span class="dp-Icon dp-lock"></span>Lock</a></li>
+                    <li><a href="#"><span class="dp-Icon dp-iconGrayMin"></span>Put ticket on hold</a></li>
+                    <li><a href="#"><span class="dp-Icon dp-Bin"></span>Delete</a></li>
+                </ul>
+			</li>
+			<li class="dp-ActionButton">
+				<span class="dp-Icon dp-IconLink"></span>
+				Link
+			</li>
+			<li class="dp-ActionButton">
+				<span class="dp-Icon dp-IconPlusGrey"></span>
+				New
+			</li>
+			<li class="dp-ActionButton">
+				<span class="dp-Icon dp-IconPrint"></span>
+				Print
+			</li>
+			<li class="dp-ActionButton">
+				<span class="dp-Icon dp-ban"></span>
+				Ban
+			</li>
+			<li class="dp-ActionButton">
+				<span class="dp-Icon dp-iconRocketGray"></span>
+				Actions
+			</li>
+		</ul>
+
+	</div>
+</div>
+```
+
+
+
+
+
+<h2>Lock Drpodown</h2>
 ```html @preview
 <div style="height: 100px;">
 	<ul class="dp-ContextMenu is-active" style="top: 10px; left: 10px;">
-		<li class="dp-disabledItem"><a href="#"><span class="dp-MenuIcon dp-iconLockGray"></span> Lock</a></li>
+		<li class="dp-disabledItem"><a href="#"><span class="dp-MenuIcon dp-lock"></span> Lock</a></li>
 		<li><a href="#"><span class="dp-MenuIcon dp-iconGrayMin"></span> Put ticket on hold</a></li>
-		<li class="dp-disabledItem"><a href="#">  <span class="dp-MenuIcon dp-IconDelete"></span> Delete </a></li>
+		<li class="dp-disabledItem"><a href="#">  <span class="dp-MenuIcon dp-Bin"></span> Delete </a></li>
 	</ul>
 </div>
 ```
@@ -119,13 +197,13 @@ title: Page View (developing)
 
 		<ul class="dp-DropDownList">
 			<li class="dp-ActionButton is-active">
-				<span class="dp-Icon dp-iconLockGray Icon--Gray"></span>
+				<span class="dp-Icon dp-lock Icon--Gray"></span>
 				<span class="dp-Icon dp-iconLockWhite Icon--White"></span>
-	        	Lock
+				Lock
 				<ul class="dp-ContextMenu dp-nowrap">
-					<li class="dp-disabledItem"><a href="#"><span class="dp-MenuIcon dp-iconLockGray"></span> Lock </a></li>
+					<li class="dp-disabledItem"><a href="#"><span class="dp-MenuIcon dp-lock"></span> Lock </a></li>
 					<li><a href="#"><span class="dp-MenuIcon dp-iconGrayMin"></span> Put ticket on hold </a></li>
-					<li class="dp-disabledItem"><a href="#"><span class="dp-MenuIcon dp-IconDelete"></span> Delete </a></li>
+					<li class="dp-disabledItem"><a href="#"><span class="dp-MenuIcon dp-Bin"></span> Delete </a></li>
 				</ul>
 	        </li>
 

@@ -66,7 +66,7 @@ title: Icons
     <span class="dp-Icon dp-add_follower"></span>
     <span class="dp-Icon dp-close"></span>
     <span class="dp-Icon dp-csv"></span>
-    <span class="dp-Icon dp-bin"></span>
+    <span class="dp-Icon dp-Bin"></span>
     <span class="dp-Icon dp-phone_filled"></span>
     <span class="dp-Icon dp-end_call"></span>
     <span class="dp-Icon dp-hold"></span>

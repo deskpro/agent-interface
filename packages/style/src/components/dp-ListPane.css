@@ -8,7 +8,7 @@
 
 .dp-ListPane {
   align-items: center;
-  border-right: 1px solid #e2e1e1;
+  border-right: 1px solid var(--grey-light);
   cursor: pointer;
   display: flex;
   flex-wrap: wrap;
@@ -22,12 +22,8 @@
   width: 100%;
 }
 
-/* .dp-ListPane:first-child {
-  width: auto;
-} */
-
 .dp-ListPane:last-child {
-  border-left: 1px solid #e2e1e1;
+  border-left: 1px solid var(--grey-light);
   border-right: 0;
   margin-left: auto;
   margin-right: 0;
@@ -46,18 +42,16 @@
 }
 
 .dp-ListPane .dp-Title {
-
-  /* color: #8b9293; */
   color: var(--grey-dark);
   font-size: var(--font-Text-N);
   padding: 0 0 0 4px;
   text-transform: uppercase;
 }
 
-.dp-ListPane .dp-Select {
+/* .dp-ListPane .dp-Select {
   color: var(--gray-550);
   font-size: var(--font-Title-S);
-}
+} */
 
 .dp-ListPane .dp-iconEye {
   background-size: 19px 19px;
@@ -72,8 +66,6 @@
   height: 13px;
   width: 13px;
 }
-
-/* New design */
 
 .newControlsList .dp-ListPane .dp-Title {
   color: var(--grey-darkest);
@@ -115,10 +107,6 @@
   background-size: 8px 5px;
   height: 10px;
   margin: 0;
-
-  /*  position: absolute;
-  right: 10px;
-  top: 2px; */
   width: 10px;
 }
 
@@ -171,8 +159,6 @@
   padding-left: 20px;
 }
 
-/*  */
-
 .dp-SortIconDescription {
   align-items: center;
   color: var(--grey);
@@ -212,17 +198,11 @@
   width: 100%;
 }
 
-/*  */
-
 .dp-FilterResultList {
-
-  /* border: 1px solid #e2e1e1; */
   display: flex;
   flex-wrap: wrap;
   padding-left: 0;
 }
-
-/* .dp-FilterResultList .dp-FilterResultTitle { */
 
 .dp-FilterResultTitle {
   border-top: 1px solid transparent;
@@ -257,16 +237,6 @@
   position: relative;
   width: 100%;
 }
-
-/* .dp-FilterResultItem:last-child {
-  border-bottom: 1px solid transparent;
-} */
-
-/* .dp-FilterResultItem.is-active,
-.dp-FilterResultItem:hover {
-  background-color: #e1eefb;
-  border-top: 1px solid var(--brand-primary);
-} */
 
 .dp-HoverList .dp-FilterResultItem.is-active,
 .dp-HoverList .dp-FilterResultItem:hover {
@@ -427,10 +397,6 @@
   padding-left: 25px;
 }
 
-/* .dp-FilterResultItem .dp-CustomCheckbox input[type="checkbox"] + label {
-  pointer-events: none;
-} */
-
 .dp-AgentViewing {
   align-items: center;
   background-color: var(--grey-lighter);
@@ -590,7 +556,7 @@
 }
 
 .dp-FilterResultMenu li:hover {
-  background-color: var(--blue-light);
+  background-color: var(--primary-light);
   color: var(--brand-primary);
 }
 
@@ -866,7 +832,7 @@ thead .dp-FilterResultTitle td {
 
 .dp-FilterResultItem.dp-MassSelectTitle:hover {
   background-color: var(--grey-lightest);
-  border-bottom: 1px solid #d3d6d7;
+  border-bottom: 1px solid var(--grey-light);
   border-top: 1px solid transparent;
 }
 
@@ -1065,7 +1031,7 @@ thead .dp-FilterResultTitle td {
 }
 
 .dp-CustomCheckbox input[type="checkbox"] + label {
-  color: #4c4f50;
+  color: var(--grey-darkest);
   cursor: pointer;
   display: inline-block;
   font-size: 14px;
@@ -1082,8 +1048,8 @@ thead .dp-FilterResultTitle td {
 }
 
 .dp-CustomCheckbox input[type="checkbox"] + label::before {
-  background-color: #fff;
-  border: 1px solid #dcdedf;
+  background-color: var(--white);
+  border: 1px solid var(--grey-light);
   content: "";
   display: block;
   height: 13px;
@@ -1119,15 +1085,15 @@ thead .dp-FilterResultTitle td {
 /* filter result controls */
 
 .dp-FilterControlsList {
-  background-color: var(--gray-50);
-  border: 1px solid #e2e1e1;
+  background-color: var(--grey-lightest);
+  border: 1px solid var(--grey-light);
   color: inherit;
   display: flex;
 }
 
 .dp-FilterControlsItem {
   align-items: center;
-  border-right: 1px solid #e2e1e1;
+  border-right: 1px solid var(--grey-light);
   cursor: pointer;
   display: flex;
   flex-wrap: wrap;
@@ -1162,7 +1128,7 @@ thead .dp-FilterResultTitle td {
 
 .dp-FilterControlsItem .dp-Title {
   color: #8b9293;
-  font-size: var(--font-size-xs);
+  font-size: var(--font-Text-N);
   padding: 0 0 0 4px;
   text-transform: uppercase;
 }
@@ -1186,8 +1152,6 @@ thead .dp-FilterResultTitle td {
   width: 13px;
 }
 
-/* New design */
-
 .newControlsList .dp-FilterControlsItem .dp-Title {
   font-size: var(--font-Title-S);
   font-weight: var(--is-bold);
@@ -1196,7 +1160,7 @@ thead .dp-FilterResultTitle td {
 }
 
 .newControlsList .dp-FilterControlsItem .dp-Subtitle {
-  font-size: var(--font-size-xs);
+  font-size: var(--font-Text-N);
 }
 
 .newControlsList .dp-FilterControlsItem .dp-Icon {
@@ -1255,7 +1219,7 @@ thead .dp-FilterResultTitle td {
   background-image: url('data:image/svg+xml,<svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0)"><path d="M9.89999 1.49999C9.89999 1.59999 9.79999 1.69999 9.69999 1.89999L5.79999 5.79999C5.69999 5.89999 5.59999 5.99999 5.39999 5.99999C5.19999 5.99999 5.09999 5.89999 4.99999 5.79999L1.09999 1.89999C0.999994 1.69999 0.899994 1.59999 0.899994 1.49999C0.899994 1.39999 0.999994 1.19999 1.09999 1.09999C1.19999 0.999994 1.29999 0.899994 1.49999 0.899994H9.39999C9.59999 0.899994 9.69999 0.999994 9.79999 1.09999C9.89999 1.19999 9.89999 1.29999 9.89999 1.49999Z" fill="%23318cdd"/></g><defs><clipPath id="clip0"><rect width="9" height="5.1" fill="white" transform="translate(0.899994 0.899994)"/></clipPath></defs></svg>');
 }
 
-.dp-btn {
+/* .dp-btn {
   background-color: var(--white);
   border: 2px solid #d2d2d2;
   border-radius: var(--border-radius);
@@ -1269,7 +1233,7 @@ thead .dp-FilterResultTitle td {
   border: 2px solid transparent;
   color: var(--white);
   margin-right: 10px;
-}
+} */
 
 .dp-RowBtn {
   display: flex;
@@ -1303,16 +1267,12 @@ thead .dp-FilterResultTitle td {
   padding-left: 20px;
 }
 
-/*  */
-
 .dp-dropdownContainer {
   position: relative;
 }
 
 .dp-ActionButton {
   background-color: var(--white);
-
-  /* border: 1px solid var(--brand-primary); */
   border: 1px solid var(--grey-light);
   border-radius: var(--border-radius-button);
   color: var(--grey-darkest);
@@ -1331,14 +1291,6 @@ thead .dp-FilterResultTitle td {
 
 }
 
-/* .dp-ActionButton + .dp-ActionButton {
-  margin-left: 5px;
-}
-
-.dp-ActionButton:first-child {
-  margin-left: 0;
-} */
-
 .dp-ActionButton::after {
   border-color: #899 transparent transparent transparent;
   border-style: solid;
@@ -1354,7 +1306,8 @@ thead .dp-FilterResultTitle td {
 }
 
 .dp-ActionButton .dp-Icon {
-  background-size: 13px 13px;
+
+  /* background-size: 13px 13px; */
   display: inline-block;
   height: 13px;
   margin-right: 5px;
@@ -1403,18 +1356,22 @@ thead .dp-FilterResultTitle td {
 }
 
 .dp-ContextMenu > li:last-child {
+  border-bottom-left-radius: var(--border-radius);
+  border-bottom-right-radius: var(--border-radius);
   padding-bottom: 0;
 }
 
 .dp-ContextMenu > li > a {
   color: var(--grey-darkest);
-  display: block;
+
+  /* display: block; */
+  display: flex;
   font-size: var(--font-Title-S);
   padding: var(--padding-drop-down);
 }
 
 .dp-ContextMenu > li > a:hover {
-  background-color: var(--blue-light);
+  background-color: var(--primary-light);
   color: var(--brand-primary);
 }
 

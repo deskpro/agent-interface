@@ -3,15 +3,12 @@ title: Filter list
 ---
 
 <h2>filterlist/tickets</h2>
-
-
 <h4>filterlist/container</h4>
 ```html @preview
 <div class="dp-MainWrapper">
 	<div class="dp-FilterlistContainer"></div>
 </div>
 ```
-
 
 <h4>filterlist/filters-and-views</h4>
 ```html @preview
