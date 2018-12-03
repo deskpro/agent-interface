@@ -1,0 +1,30 @@
+{
+  "name": "@deskpro/agent-interface-components",
+  "version": "0.0.1",
+  "description": "react components for agent interface",
+  "author": "Artem Berdyshev <berdartem@gmail.com>",
+  "homepage": "https://github.com/deskpro/agent-interface#readme",
+  "license": "BSD-3-Clause",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "jest",
+    "build": "rollup -c",
+    "dev": "rollup -cw"
+  },
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "rollup": "^0.67.4",
+    "rollup-plugin-babel": "^4.0.3",
+    "rollup-plugin-node-resolve": "^3.4.0",
+    "typescript": "^3.2.1"
+  },
+  "peerDependencies": {
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
+  }
+}

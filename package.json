@@ -1,13 +1,57 @@
 {
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
   "devDependencies": {
-    "lerna": "^2.11.0"
+    "@babel/core": "^7.2.0",
+    "@babel/plugin-proposal-class-properties": "^7.2.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.1.0",
+    "@types/node": "^10.12.11",
+    "@types/prop-types": "^15.5.6",
+    "@types/react": "^16.7.11",
+    "@types/react-dom": "^16.0.11",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-prettier": "^3.0.0",
+    "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-typescript": "^0.14.0",
+    "husky": "^1.2.0",
+    "lerna": "^2.11.0",
+    "lint-staged": "^8.1.0",
+    "prettier": "^1.15.3",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "typescript": "^3.2.1",
+    "typescript-eslint-parser": "^21.0.2"
   },
   "scripts": {
     "bootstrap": "lerna bootstrap",
+    "dev": "lerna run dev --scope @deskpro/agent-interface-components*",
     "build": "lerna run --stream build",
     "lint": "lerna run --stream lint",
     "test": "lerna run --stream test",
     "publish-git": "lerna publish --force-publish --skip-npm --yes",
     "publish-npm": "lerna publish --force-publish --skip-git --yes"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,ts,tsx}": [
+      "eslint --ext js,ts,tsx --fix",
+      "git add"
+    ]
   }
 }
