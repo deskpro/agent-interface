@@ -2,6 +2,219 @@
 title: Page View (developing)
 ---
 
+<h4>ticket/agentselect</h4>
+```html @preview
+<div class="dp-MainWrapper">
+	<div class="dp-TicketSelect dp-TicketSmall">
+		<div class="dp-SectionControls">
+			<div class="dp-SectionTitle">
+				<div class="dp-TitleControls">Agent</div>
+				<div class="dp-StatusTimes dp-MenuBarItem">
+					Assign to me | Unassign
+				</div>
+			</div>
+		</div>
+		<button class="dp-ActionButton ActionButton--Xlarge dp-SectionBody-item" type="button">
+			<span class="dp-title-item">
+				<span class="dp-Icon dp-iconUserAvatar"></span>
+				Zack Prudent
+			<span>
+		</button>
+	</div>
+</div>
+```
+
+<h4>ticket/teamselect</h4>
+```html @preview
+<div class="dp-MainWrapper">
+	<div class="dp-TicketSelect dp-TicketSmall">
+		<div class="dp-SectionControls">
+			<div class="dp-SectionTitle">
+				<div class="dp-TitleControls">TEAM</div>
+				<div class="dp-StatusTimes dp-MenuBarItem">
+					Unassign
+				</div>
+			</div>
+		</div>
+		<button class="dp-ActionButton ActionButton--Xlarge dp-SectionBody-item" type="button">
+			<span class="dp-title-item">
+				<span class="dp-Icon dp-iconUserAvatar"></span>
+				Support
+			<span>
+		</button>
+	</div>
+</div>
+```
+
+<h4>ticket/new-agentselect</h4>
+```html @preview
+<div class="dp-MainWrapper">
+	<div class="dp-TicketSelect">
+		<div class="dp-SectionControls">
+			<div class="dp-SectionTitle">
+				<div class="dp-TitleControls">Agent</div>
+				<div class="dp-StatusTimes dp-MenuBarItem">
+					Assign to me | Unassign
+				</div>
+			</div>
+		</div>
+		<button class="dp-ActionButton ActionButton--XXlarge dp-SectionBody-item" type="button">
+			<span class="dp-title-item">
+				<span class="dp-Icon dp-iconUserAvatar"></span>
+				Kenneth James
+			<span>
+		</button>
+	</div>
+</div>
+```
+
+<h4>new ticket/new-agentselect</h4>
+```html @preview
+<div class="dp-MainWrapper">
+	<div class="dp-TicketSelect">
+		<div class="dp-SectionControls">
+			<div class="dp-SectionTitle dp-title-item">
+				<div class="dp-TitleControls">Agent</div>
+				<div class="dp-StatusTimes dp-MenuBarItem">
+					Assign to me | Unassign
+				</div>
+			</div>
+		</div>
+		<button class="dp-ActionButton ActionButton--XXlarge dp-SectionBody-item" type="button">
+			<span class="dp-title-item">
+				<span class="dp-Icon dp-iconUserAvatar"></span>
+				Kenneth James
+			<span>
+		</button>
+	</div>
+</div>
+```
+
+<h4>ticket/new-teamselect</h4>
+```html @preview
+<div class="dp-MainWrapper">
+	<div class="dp-TicketSelect">
+		<div class="dp-SectionControls">
+			<div class="dp-SectionTitle">
+				<div class="dp-TitleControls">TEAM</div>
+				<div class="dp-StatusTimes dp-MenuBarItem">
+					Unassign
+				</div>
+			</div>
+		</div>
+		<button class="dp-ActionButton ActionButton--XXlarge dp-SectionBody-item" type="button">
+			<span class="dp-title-item is-italic">
+				Add team
+			<span>
+		</button>
+	</div>
+</div>
+```
+
+<h4>ticket/new-statusselect</h4>
+```html @preview
+<div class="dp-MainWrapper">
+	<div class="dp-TicketSelect">
+		<div class="dp-SectionControls">
+			<div class="dp-SectionTitle">
+				<div class="dp-TitleControls">STATUS</div>
+			</div>
+		</div>
+		<div class="dp-ButtonWrapper">
+			<button class="dp-ActionButton ActionButton--XXlarge" type="button">Awaiting Agent</button>
+			<button class="dp-ActionButton" type="button">1</button>
+		</div>
+	</div>
+</div>
+```
+
+```html @preview
+<div class="dp-MainWrapper">
+	<div class="dp-ControlBar dp-DropDownBar">
+		<ul class="dp-DropDownList">
+			<li class="dp-TitileControl dp-ActionButton"><span class="dp-Icon dp-phone_filled--netural"></span>Duration: 00:00:01</li>
+			<li class="dp-ActionButton"><span class="dp-Icon dp-hold"></span>Hold</li>
+			<li class="dp-ActionButton"><span class="dp-Icon dp-mute"></span>Mute</li>
+			<li class="dp-ActionButton"><span class="dp-Icon dp-transfer"></span>Transfer</li>
+			<li class="dp-ActionButton"><span class="dp-Icon dp-AddUser"></span>Add</li>
+		</ul>
+	</div>
+</div>
+```
+
+<h4>ticket/new-teamselect</h4>
+```html @preview
+<div class="dp-MainWrapper">
+	<div class="dp-TicketSelect">
+		<div class="dp-SectionControls">
+			<div class="dp-SectionTitle">
+				<div class="dp-TitleControls">FOLLOWERS (5)</div>
+				<div class="dp-StatusTimes dp-FollowersStatus">
+					Following
+					<span class="dp-Icon dp-following--primary"></span>
+				</div>
+			</div>
+		</div>
+		<div class="dp-Followers">
+			<ul class="dp-FollowersWrapper">
+				<li class="dp-FollowersItem">
+					<span class="dp-LogoName">
+						<span class="dp-Icon dp-iconUserAvatar"></span>
+						<span class="dp-UserName"> Wendy pride </span>
+					</span>
+					<a href="#"><i class="dp-Icon dp-close"></i></a>
+				</li>
+				<li class="dp-FollowersItem">
+					<span class="dp-LogoName">
+						<span class="dp-Icon dp-iconUserAvatar"></span>
+						<span class="dp-UserName"> Me </span>
+					</span>
+					<a href="#"><i class="dp-Icon dp-close"></i></a>
+				</li>
+				<li class="dp-FollowersItem">
+					<span class="dp-LogoName">
+						<span class="dp-Icon dp-iconUserAvatar"></span>
+						<span class="dp-UserName"> Peter Fergers... </span>
+					</span>
+					<a href="#"><i class="dp-Icon dp-close"></i></a>
+				</li>
+				<li class="dp-FollowersItem">
+					<span class="dp-LogoName">
+						<span class="dp-Icon dp-iconUserAvatar"></span>
+						<span class="dp-UserName"> John Richards... </span>
+					</span>
+					<a href="#"><i class="dp-Icon dp-close"></i></a>
+				</li>
+				<li class="dp-FollowersItem">
+					<span class="dp-LogoName">
+						<span class="dp-Icon dp-iconUserAvatar"></span>
+						<span class="dp-UserName"> Peter Fergers... </span>
+					</span>
+					<a href="#"><i class="dp-Icon dp-close"></i></a>
+				</li>
+
+				<li class="dp-FollowersItem">
+					<span class="dp-LogoName">
+						<span class="dp-Icon dp-add_follower--primary"></span>
+						<span class="dp-UserName"> Add </span>
+					</span>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+```
+
+<h4>ticket/new-teamselect</h4>
+```html @preview
+<span class="dp-TagBar">
+	<span class="dp-Tag Tag--close">Custom work<span class="dp-Icon dp-close"></span></span>
+	<span class="dp-Tag Tag--close">Report back on bug fix<span class="dp-Icon dp-close"></span></span>
+	<span class="dp-Tag Tag--close Tag--purple">VIP<span class="dp-Icon dp-close"></span></span>
+	<span class="dp-Tag Tag--close Tag--plus">Labels<span class="dp-Icon dp-close"></span></span>
+</span>
+```
+
 <h4>buttons/actions</h4>
 ```html @preview
 <div class="dp-MainWrapper">
@@ -28,13 +241,15 @@ title: Page View (developing)
 				Ban
 			</li>
 			<li class="dp-ActionButton">
-				<span class="dp-Icon dp-iconRocketGray"></span>
+				<span class="dp-Icon dp-rocket"></span>
 				Actions
 			</li>
 		</ul>
 	</div>
 </div>
 ```
+
+<!-- Lock -->
 
 ```html @preview
 <div class="dp-MainWrapper" style="height: 150px;">
@@ -44,224 +259,995 @@ title: Page View (developing)
 			<li class="dp-ActionButton is-active">
 				<span class="dp-Icon dp-lock"></span>
 				Lock
-                <ul class="dp-ContextMenu">
-                    <li><a href="#"><span class="dp-Icon dp-lock"></span>Lock</a></li>
-                    <li><a href="#"><span class="dp-Icon dp-iconGrayMin"></span>Put ticket on hold</a></li>
-                    <li><a href="#"><span class="dp-Icon dp-Bin"></span>Delete</a></li>
+                <ul class="dp-ContextMenu dp-nowrap">
+                    <li><a href="#"><span class="dp-MenuIcon dp-lock"></span>Lock</a></li>
+                    <li><a href="#"><span class="dp-MenuIcon dp-iconGrayMin"></span>Put ticket on hold</a></li>
+                    <li><a href="#"><span class="dp-MenuIcon dp-Bin"></span>Delete</a></li>
                 </ul>
 			</li>
 			<li class="dp-ActionButton">
 				<span class="dp-Icon dp-IconLink"></span>
 				Link
-			</li>
-			<li class="dp-ActionButton">
-				<span class="dp-Icon dp-IconPlusGrey"></span>
-				New
-			</li>
-			<li class="dp-ActionButton">
-				<span class="dp-Icon dp-IconPrint"></span>
-				Print
-			</li>
-			<li class="dp-ActionButton">
-				<span class="dp-Icon dp-ban"></span>
-				Ban
-			</li>
-			<li class="dp-ActionButton">
-				<span class="dp-Icon dp-iconRocketGray"></span>
-				Actions
-			</li>
-		</ul>
-
-	</div>
-</div>
-```
-
-```html @preview
-<div class="dp-MainWrapper" style="height: 150px;">
-	<div class="dp-DropDownBar">
-
-		<ul class="dp-DropDownList">
-			<li class="dp-ActionButton is-active">
-				<span class="dp-Icon dp-lock"></span>
-				Lock
-                <ul class="dp-ContextMenu">
-                    <li><a href="#"><span class="dp-Icon dp-lock"></span>Lock</a></li>
-                    <li><a href="#"><span class="dp-Icon dp-iconGrayMin"></span>Put ticket on hold</a></li>
-                    <li><a href="#"><span class="dp-Icon dp-Bin"></span>Delete</a></li>
-                </ul>
-			</li>
-			<li class="dp-ActionButton">
-				<span class="dp-Icon dp-IconLink"></span>
-				Link
-			</li>
-			<li class="dp-ActionButton">
-				<span class="dp-Icon dp-IconPlusGrey"></span>
-				New
-			</li>
-			<li class="dp-ActionButton">
-				<span class="dp-Icon dp-IconPrint"></span>
-				Print
-			</li>
-			<li class="dp-ActionButton">
-				<span class="dp-Icon dp-ban"></span>
-				Ban
-			</li>
-			<li class="dp-ActionButton">
-				<span class="dp-Icon dp-iconRocketGray"></span>
-				Actions
-			</li>
-		</ul>
-
-	</div>
-</div>
-```
-
-
-
-
-
-<h2>Lock Drpodown</h2>
-```html @preview
-<div style="height: 100px;">
-	<ul class="dp-ContextMenu is-active" style="top: 10px; left: 10px;">
-		<li class="dp-disabledItem"><a href="#"><span class="dp-MenuIcon dp-lock"></span> Lock</a></li>
-		<li><a href="#"><span class="dp-MenuIcon dp-iconGrayMin"></span> Put ticket on hold</a></li>
-		<li class="dp-disabledItem"><a href="#">  <span class="dp-MenuIcon dp-Bin"></span> Delete </a></li>
-	</ul>
-</div>
-```
-
-<h2>Link Dropdown</h2>
-
-```html @preview
-<div style="height: 100px;">
-	<ul class="dp-ContextMenu is-active" style="top: 10px; left: 10px;">
-		<li class="dp-disabledItem"><a href="#"><span class="dp-MenuIcon dp-iconEmail"></span> Create linked ticket </a></li>
-		<li><a href="#"><span class="dp-MenuIcon dp-IconLink"></span> Link existing ticket </a></li>
-		<li class="dp-disabledItem"><a href="#">  <span class="dp-MenuIcon dp-IconSplit"></span> Split message to new ticket </a></li>
-		<li class="dp-disabledItem"><a href="#">  <span class="dp-MenuIcon dp-IconMerge"></span> Merge </a></li>
-	</ul>
-</div>
-```
-
-<h2>New Dropdown</h2>
-
-```html @preview
-<div style="height: 100px;">
-	<ul class="dp-ContextMenu is-active" style="top: 10px; left: 10px;">
-		<li class="dp-disabledItem"><a href="#"><span class="dp-MenuIcon dp-IconArticle"></span> New pending article </a></li>
-		<li><a href="#"><span class="dp-MenuIcon dp-IconSnippet"></span> New Snippet </a></li>
-	</ul>
-</div>
-```
-
-<h2>Print Dropdown</h2>
-
-```html @preview
-<div style="height: 100px;">
-	<ul class="dp-ContextMenu is-active" style="top: 10px; left: 10px;">
-		<li><a href="#"> <span class="dp-MenuIcon dp-IconPrint"></span> Print</a></li>
-		<li><a href="#"> <span class="dp-MenuIcon dp-IconDownloadPDF"></span> Download PDF</a></li>
-		<li><a href="#"><span class="dp-MenuIcon dp-iconBugGray"></span> Download Debug File</a></li>
-	</ul>
-</div>
-```
-
-<h2>Ban Dropdown</h2>
-
-```html @preview
-<div style="height: 100px;">
-	<ul class="dp-ContextMenu is-active" style="top: 10px; left: 10px;">
-		<li><a href="#"> <span class="dp-MenuIcon dp-IconBan"></span> Ban</a></li>
-		<li><a href="#"> <span class="dp-MenuIcon dp-IconSpam"></span> Spam</a></li>
-	</ul>
-</div>
-```
-
-<h2>Actions Dropdown</h2>
-
-```html @preview
-<div style="height: 100px;">
-	<ul class="dp-ContextMenu is-active" style="top: 10px; left: 10px;">
-		<li><a href="#"> <span class="dp-MenuIcon dp-iconRocketGray"></span> Misc value</a></li>
-		<li><a href="#"> <span class="dp-MenuIcon dp-iconRocketGray"></span> Misc value</a></li>
-		<li><a href="#"> <span class="dp-MenuIcon dp-iconRocketGray"></span> Misc value</a></li>
-	</ul>
-</div>
-```
-
-
-```html @preview
-<div style="height: 200px;">
-	<div class="dp-DropDownBar">
-
-		<ul class="dp-DropDownList">
-			<li class="dp-ActionButton is-active">
-				<span class="dp-Icon dp-lock Icon--Gray"></span>
-				<span class="dp-Icon dp-iconLockWhite Icon--White"></span>
-				Lock
 				<ul class="dp-ContextMenu dp-nowrap">
-					<li class="dp-disabledItem"><a href="#"><span class="dp-MenuIcon dp-lock"></span> Lock </a></li>
-					<li><a href="#"><span class="dp-MenuIcon dp-iconGrayMin"></span> Put ticket on hold </a></li>
-					<li class="dp-disabledItem"><a href="#"><span class="dp-MenuIcon dp-Bin"></span> Delete </a></li>
-				</ul>
-	        </li>
-
-	        <li class="dp-ActionButton">
-				<span class="dp-Icon dp-IconLink Icon--Gray"></span>
-				<span class="dp-Icon dp-IconLinkWhite Icon--White"></span>
-				Link
-				<ul class="dp-ContextMenu dp-nowrap">
-					<li class="dp-disabledItem"><a href="#"><span class="dp-MenuIcon dp-iconEmail"></span> Create linked ticket </a></li>
+					<li><a href="#"><span class="dp-MenuIcon dp-lock"></span> Create linked ticket </a></li>
 					<li><a href="#"><span class="dp-MenuIcon dp-IconLink"></span> Link existing ticket </a></li>
-					<li class="dp-disabledItem"><a href="#"><span class="dp-MenuIcon dp-IconSplit"></span> Split message to new ticket </a></li>
-					<li class="dp-disabledItem"><a href="#"><span class="dp-MenuIcon dp-IconMerge"></span> Merge </a></li>
+					<li><a href="#"><span class="dp-MenuIcon dp-IconSplit"></span> Split message to new ticket </a></li>
+					<li><a href="#"><span class="dp-MenuIcon dp-IconMerge"></span> Merge </a></li>
 				</ul>
 			</li>
-
-	        <li class="dp-ActionButton">
-				<span class="dp-Icon dp-IconPlusGrey Icon--Gray"></span>
-				<span class="dp-Icon dp-IconPlusWhite Icon--White"></span>
-	        	New
+			<li class="dp-ActionButton">
+				<span class="dp-Icon dp-IconPlusGrey"></span>
+				New
 				<ul class="dp-ContextMenu dp-nowrap">
-					<li class="dp-disabledItem"><a href="#"><span class="dp-MenuIcon dp-IconArticle"></span> New pending article </a></li>
+					<li><a href="#"><span class="dp-MenuIcon dp-IconArticle"></span> New pending article </a></li>
 					<li><a href="#"><span class="dp-MenuIcon dp-IconSnippet"></span> New Snippet </a></li>
 				</ul>
-	        </li>
-
-	        <li class="dp-ActionButton">
-				<span class="dp-Icon dp-IconPrint Icon--Gray"></span>
-				<span class="dp-Icon dp-IconPrintWhite Icon--White"></span>
-	        	Print
+			</li>
+			<li class="dp-ActionButton">
+				<span class="dp-Icon dp-IconPrint"></span>
+				Print
 				<ul class="dp-ContextMenu dp-nowrap">
 					<li><a href="#"> <span class="dp-MenuIcon dp-IconPrint"></span> Print</a></li>
 					<li><a href="#"> <span class="dp-MenuIcon dp-IconDownloadPDF"></span> Download PDF</a></li>
 					<li><a href="#"><span class="dp-MenuIcon dp-iconBugGray"></span> Download Debug File</a></li>
 				</ul>
-	        </li>
-
-	        <li class="dp-ActionButton">
-				<span class="dp-Icon dp-IconBan Icon--Gray"></span>
-				<span class="dp-Icon dp-IconBanWhite Icon--White"></span>
-	        	Ban
+			</li>
+			<li class="dp-ActionButton">
+				<span class="dp-Icon dp-ban"></span>
+				Ban
 				<ul class="dp-ContextMenu dp-nowrap">
-					<li><a href="#"> <span class="dp-MenuIcon dp-IconBan"></span> Ban</a></li>
+					<li><a href="#"> <span class="dp-MenuIcon dp-ban"></span> Ban</a></li>
 					<li><a href="#"> <span class="dp-MenuIcon dp-IconSpam"></span> Spam</a></li>
 				</ul>
-	        </li>
-
-	        <li class="dp-ActionButton">
-				<span class="dp-Icon dp-iconRocketGray Icon--Gray"></span>
-				<span class="dp-Icon dp-iconRocketwhite Icon--White"></span>
-	        	Actions
-	        	<ul class="dp-ContextMenu dp-nowrap">
-					<li><a href="#"> <span class="dp-MenuIcon dp-iconRocketGray"></span> Misc value </a></li>
-					<li><a href="#"> <span class="dp-MenuIcon dp-iconRocketGray"></span> Misc value </a></li>
-					<li><a href="#"> <span class="dp-MenuIcon dp-iconRocketGray"></span> Misc value </a></li>
+			</li>
+			<li class="dp-ActionButton">
+				<span class="dp-Icon dp-rocket"></span>
+				Actions
+				<ul class="dp-ContextMenu dp-nowrap">
+					<li><a href="#"> <span class="dp-MenuIcon dp-rocket"></span> Misc value</a></li>
+					<li><a href="#"> <span class="dp-MenuIcon dp-rocket"></span> Misc value</a></li>
+					<li><a href="#"> <span class="dp-MenuIcon dp-rocket"></span> Misc value</a></li>
 				</ul>
-	    	</li>
-	    </ul>
+			</li>
+		</ul>
 
 	</div>
+</div>
+```
+
+<!-- Link -->
+
+```html @preview
+<div class="dp-MainWrapper" style="height: 200px;">
+	<div class="dp-DropDownBar">
+		<ul class="dp-DropDownList">
+			<li class="dp-ActionButton">
+				<span class="dp-Icon dp-lock"></span>
+				Lock
+                <ul class="dp-ContextMenu dp-nowrap">
+                    <li><a href="#"><span class="dp-Icon dp-lock"></span>Lock</a></li>
+                    <li><a href="#"><span class="dp-Icon dp-iconGrayMin"></span>Put ticket on hold</a></li>
+                    <li><a href="#"><span class="dp-Icon dp-Bin"></span>Delete</a></li>
+                </ul>
+			</li>
+			<li class="dp-ActionButton dp-DropDownLink is-active">
+				<span class="dp-Icon dp-IconLink"></span>
+				Link
+				<ul class="dp-ContextMenu dp-nowrap">
+					<li><a href="#"><span class="dp-MenuIcon dp-lock"></span> Create linked ticket </a></li>
+					<li><a href="#"><span class="dp-MenuIcon dp-IconLink"></span> Link existing ticket </a></li>
+					<li><a href="#"><span class="dp-MenuIcon dp-IconSplit"></span> Split message to new ticket </a></li>
+					<li><a href="#"><span class="dp-MenuIcon dp-IconMerge"></span> Merge </a></li>
+				</ul>
+			</li>
+			<li class="dp-ActionButton">
+				<span class="dp-Icon dp-IconPlusGrey"></span>
+				New
+				<ul class="dp-ContextMenu dp-nowrap">
+					<li><a href="#"><span class="dp-MenuIcon dp-IconArticle"></span> New pending article </a></li>
+					<li><a href="#"><span class="dp-MenuIcon dp-IconSnippet"></span> New Snippet </a></li>
+				</ul>
+			</li>
+			<li class="dp-ActionButton">
+				<span class="dp-Icon dp-IconPrint"></span>
+				Print
+				<ul class="dp-ContextMenu dp-nowrap">
+					<li><a href="#"> <span class="dp-MenuIcon dp-IconPrint"></span> Print</a></li>
+					<li><a href="#"> <span class="dp-MenuIcon dp-IconDownloadPDF"></span> Download PDF</a></li>
+					<li><a href="#"><span class="dp-MenuIcon dp-iconBugGray"></span> Download Debug File</a></li>
+				</ul>
+			</li>
+			<li class="dp-ActionButton">
+				<span class="dp-Icon dp-ban"></span>
+				Ban
+				<ul class="dp-ContextMenu dp-nowrap">
+					<li><a href="#"> <span class="dp-MenuIcon dp-ban"></span> Ban</a></li>
+					<li><a href="#"> <span class="dp-MenuIcon dp-IconSpam"></span> Spam</a></li>
+				</ul>
+			</li>
+			<li class="dp-ActionButton">
+				<span class="dp-Icon dp-rocket"></span>
+				Actions
+				<ul class="dp-ContextMenu dp-nowrap">
+					<li><a href="#"> <span class="dp-MenuIcon dp-rocket"></span> Misc value</a></li>
+					<li><a href="#"> <span class="dp-MenuIcon dp-rocket"></span> Misc value</a></li>
+					<li><a href="#"> <span class="dp-MenuIcon dp-rocket"></span> Misc value</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+</div>
+```
+
+<!-- New -->
+
+```html @preview
+<div class="dp-MainWrapper" style="height: 200px;">
+	<div class="dp-DropDownBar">
+		<ul class="dp-DropDownList">
+			<li class="dp-ActionButton">
+				<span class="dp-Icon dp-lock"></span>
+				Lock
+                <ul class="dp-ContextMenu dp-nowrap">
+                    <li><a href="#"><span class="dp-Icon dp-lock"></span>Lock</a></li>
+                    <li><a href="#"><span class="dp-Icon dp-iconGrayMin"></span>Put ticket on hold</a></li>
+                    <li><a href="#"><span class="dp-Icon dp-Bin"></span>Delete</a></li>
+                </ul>
+			</li>
+			<li class="dp-ActionButton dp-DropDownLink">
+				<span class="dp-Icon dp-IconLink"></span>
+				Link
+				<ul class="dp-ContextMenu dp-nowrap">
+					<li><a href="#"><span class="dp-MenuIcon dp-lock"></span> Create linked ticket </a></li>
+					<li><a href="#"><span class="dp-MenuIcon dp-IconLink"></span> Link existing ticket </a></li>
+					<li><a href="#"><span class="dp-MenuIcon dp-IconSplit"></span> Split message to new ticket </a></li>
+					<li><a href="#"><span class="dp-MenuIcon dp-IconMerge"></span> Merge </a></li>
+				</ul>
+			</li>
+			<li class="dp-ActionButton is-active">
+				<span class="dp-Icon dp-IconPlusGrey"></span>
+				New
+				<ul class="dp-ContextMenu dp-nowrap">
+					<li><a href="#"><span class="dp-MenuIcon dp-IconArticle"></span> New pending article </a></li>
+					<li><a href="#"><span class="dp-MenuIcon dp-IconSnippet"></span> New Snippet </a></li>
+				</ul>
+			</li>
+			<li class="dp-ActionButton">
+				<span class="dp-Icon dp-IconPrint"></span>
+				Print
+				<ul class="dp-ContextMenu dp-nowrap">
+					<li><a href="#"> <span class="dp-MenuIcon dp-IconPrint"></span> Print</a></li>
+					<li><a href="#"> <span class="dp-MenuIcon dp-IconDownloadPDF"></span> Download PDF</a></li>
+					<li><a href="#"><span class="dp-MenuIcon dp-iconBugGray"></span> Download Debug File</a></li>
+				</ul>
+			</li>
+			<li class="dp-ActionButton">
+				<span class="dp-Icon dp-ban"></span>
+				Ban
+				<ul class="dp-ContextMenu dp-nowrap">
+					<li><a href="#"> <span class="dp-MenuIcon dp-ban"></span> Ban</a></li>
+					<li><a href="#"> <span class="dp-MenuIcon dp-IconSpam"></span> Spam</a></li>
+				</ul>
+			</li>
+			<li class="dp-ActionButton">
+				<span class="dp-Icon dp-rocket"></span>
+				Actions
+				<ul class="dp-ContextMenu dp-nowrap">
+					<li><a href="#"> <span class="dp-MenuIcon dp-rocket"></span> Misc value</a></li>
+					<li><a href="#"> <span class="dp-MenuIcon dp-rocket"></span> Misc value</a></li>
+					<li><a href="#"> <span class="dp-MenuIcon dp-rocket"></span> Misc value</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+</div>
+```
+
+<!-- Print -->
+
+```html @preview
+<div class="dp-MainWrapper" style="height: 200px;">
+	<div class="dp-DropDownBar">
+		<ul class="dp-DropDownList">
+			<li class="dp-ActionButton">
+				<span class="dp-Icon dp-lock"></span>
+				Lock
+                <ul class="dp-ContextMenu dp-nowrap">
+                    <li><a href="#"><span class="dp-Icon dp-lock"></span>Lock</a></li>
+                    <li><a href="#"><span class="dp-Icon dp-iconGrayMin"></span>Put ticket on hold</a></li>
+                    <li><a href="#"><span class="dp-Icon dp-Bin"></span>Delete</a></li>
+                </ul>
+			</li>
+			<li class="dp-ActionButton dp-DropDownLink">
+				<span class="dp-Icon dp-IconLink"></span>
+				Link
+				<ul class="dp-ContextMenu dp-nowrap">
+					<li><a href="#"><span class="dp-MenuIcon dp-lock"></span> Create linked ticket </a></li>
+					<li><a href="#"><span class="dp-MenuIcon dp-IconLink"></span> Link existing ticket </a></li>
+					<li><a href="#"><span class="dp-MenuIcon dp-IconSplit"></span> Split message to new ticket </a></li>
+					<li><a href="#"><span class="dp-MenuIcon dp-IconMerge"></span> Merge </a></li>
+				</ul>
+			</li>
+			<li class="dp-ActionButton">
+				<span class="dp-Icon dp-IconPlusGrey"></span>
+				New
+				<ul class="dp-ContextMenu dp-nowrap">
+					<li><a href="#"><span class="dp-MenuIcon dp-IconArticle"></span> New pending article </a></li>
+					<li><a href="#"><span class="dp-MenuIcon dp-IconSnippet"></span> New Snippet </a></li>
+				</ul>
+			</li>
+			<li class="dp-ActionButton is-active">
+				<span class="dp-Icon dp-IconPrint"></span>
+				Print
+				<ul class="dp-ContextMenu dp-nowrap">
+					<li><a href="#"> <span class="dp-MenuIcon dp-IconPrint"></span> Print</a></li>
+					<li><a href="#"> <span class="dp-MenuIcon dp-IconDownloadPDF"></span> Download PDF</a></li>
+					<li><a href="#"><span class="dp-MenuIcon dp-iconBugGray"></span> Download Debug File</a></li>
+				</ul>
+			</li>
+			<li class="dp-ActionButton">
+				<span class="dp-Icon dp-ban"></span>
+				Ban
+				<ul class="dp-ContextMenu dp-nowrap">
+					<li><a href="#"> <span class="dp-MenuIcon dp-ban"></span> Ban</a></li>
+					<li><a href="#"> <span class="dp-MenuIcon dp-IconSpam"></span> Spam</a></li>
+				</ul>
+			</li>
+			<li class="dp-ActionButton">
+				<span class="dp-Icon dp-rocket"></span>
+				Actions
+				<ul class="dp-ContextMenu dp-nowrap">
+					<li><a href="#"> <span class="dp-MenuIcon dp-rocket"></span> Misc value</a></li>
+					<li><a href="#"> <span class="dp-MenuIcon dp-rocket"></span> Misc value</a></li>
+					<li><a href="#"> <span class="dp-MenuIcon dp-rocket"></span> Misc value</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+</div>
+```
+
+<!-- Ban -->
+
+```html @preview
+<div class="dp-MainWrapper" style="height: 200px;">
+	<div class="dp-DropDownBar">
+		<ul class="dp-DropDownList">
+			<li class="dp-ActionButton">
+				<span class="dp-Icon dp-lock"></span>
+				Lock
+                <ul class="dp-ContextMenu dp-nowrap">
+                    <li><a href="#"><span class="dp-Icon dp-lock"></span>Lock</a></li>
+                    <li><a href="#"><span class="dp-Icon dp-iconGrayMin"></span>Put ticket on hold</a></li>
+                    <li><a href="#"><span class="dp-Icon dp-Bin"></span>Delete</a></li>
+                </ul>
+			</li>
+			<li class="dp-ActionButton dp-DropDownLink">
+				<span class="dp-Icon dp-IconLink"></span>
+				Link
+				<ul class="dp-ContextMenu dp-nowrap">
+					<li><a href="#"><span class="dp-MenuIcon dp-lock"></span> Create linked ticket </a></li>
+					<li><a href="#"><span class="dp-MenuIcon dp-IconLink"></span> Link existing ticket </a></li>
+					<li><a href="#"><span class="dp-MenuIcon dp-IconSplit"></span> Split message to new ticket </a></li>
+					<li><a href="#"><span class="dp-MenuIcon dp-IconMerge"></span> Merge </a></li>
+				</ul>
+			</li>
+			<li class="dp-ActionButton">
+				<span class="dp-Icon dp-IconPlusGrey"></span>
+				New
+				<ul class="dp-ContextMenu dp-nowrap">
+					<li><a href="#"><span class="dp-MenuIcon dp-IconArticle"></span> New pending article </a></li>
+					<li><a href="#"><span class="dp-MenuIcon dp-IconSnippet"></span> New Snippet </a></li>
+				</ul>
+			</li>
+			<li class="dp-ActionButton">
+				<span class="dp-Icon dp-IconPrint"></span>
+				Print
+				<ul class="dp-ContextMenu dp-nowrap">
+					<li><a href="#"> <span class="dp-MenuIcon dp-IconPrint"></span> Print</a></li>
+					<li><a href="#"> <span class="dp-MenuIcon dp-IconDownloadPDF"></span> Download PDF</a></li>
+					<li><a href="#"><span class="dp-MenuIcon dp-iconBugGray"></span> Download Debug File</a></li>
+				</ul>
+			</li>
+			<li class="dp-ActionButton is-active">
+				<span class="dp-Icon dp-ban"></span>
+				Ban
+				<ul class="dp-ContextMenu dp-nowrap">
+					<li><a href="#"> <span class="dp-MenuIcon dp-ban"></span> Ban</a></li>
+					<li><a href="#"> <span class="dp-MenuIcon dp-IconSpam"></span> Spam</a></li>
+				</ul>
+			</li>
+			<li class="dp-ActionButton">
+				<span class="dp-Icon dp-rocket"></span>
+				Actions
+				<ul class="dp-ContextMenu dp-nowrap">
+					<li><a href="#"> <span class="dp-MenuIcon dp-rocket"></span> Misc value</a></li>
+					<li><a href="#"> <span class="dp-MenuIcon dp-rocket"></span> Misc value</a></li>
+					<li><a href="#"> <span class="dp-MenuIcon dp-rocket"></span> Misc value</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+</div>
+```
+
+<!-- Actions -->
+
+```html @preview
+<div class="dp-MainWrapper" style="height: 200px;">
+	<div class="dp-DropDownBar">
+		<ul class="dp-DropDownList">
+			<li class="dp-ActionButton">
+				<span class="dp-Icon dp-lock"></span>
+				Lock
+                <ul class="dp-ContextMenu dp-nowrap">
+                    <li><a href="#"><span class="dp-Icon dp-lock"></span>Lock</a></li>
+                    <li><a href="#"><span class="dp-Icon dp-iconGrayMin"></span>Put ticket on hold</a></li>
+                    <li><a href="#"><span class="dp-Icon dp-Bin"></span>Delete</a></li>
+                </ul>
+			</li>
+			<li class="dp-ActionButton dp-DropDownLink">
+				<span class="dp-Icon dp-IconLink"></span>
+				Link
+				<ul class="dp-ContextMenu dp-nowrap">
+					<li><a href="#"><span class="dp-MenuIcon dp-lock"></span> Create linked ticket </a></li>
+					<li><a href="#"><span class="dp-MenuIcon dp-IconLink"></span> Link existing ticket </a></li>
+					<li><a href="#"><span class="dp-MenuIcon dp-IconSplit"></span> Split message to new ticket </a></li>
+					<li><a href="#"><span class="dp-MenuIcon dp-IconMerge"></span> Merge </a></li>
+				</ul>
+			</li>
+			<li class="dp-ActionButton">
+				<span class="dp-Icon dp-IconPlusGrey"></span>
+				New
+				<ul class="dp-ContextMenu dp-nowrap">
+					<li><a href="#"><span class="dp-MenuIcon dp-IconArticle"></span> New pending article </a></li>
+					<li><a href="#"><span class="dp-MenuIcon dp-IconSnippet"></span> New Snippet </a></li>
+				</ul>
+			</li>
+			<li class="dp-ActionButton">
+				<span class="dp-Icon dp-IconPrint"></span>
+				Print
+				<ul class="dp-ContextMenu dp-nowrap">
+					<li><a href="#"> <span class="dp-MenuIcon dp-IconPrint"></span> Print</a></li>
+					<li><a href="#"> <span class="dp-MenuIcon dp-IconDownloadPDF"></span> Download PDF</a></li>
+					<li><a href="#"><span class="dp-MenuIcon dp-iconBugGray"></span> Download Debug File</a></li>
+				</ul>
+			</li>
+			<li class="dp-ActionButton">
+				<span class="dp-Icon dp-ban"></span>
+				Ban
+				<ul class="dp-ContextMenu dp-nowrap">
+					<li><a href="#"> <span class="dp-MenuIcon dp-ban"></span> Ban</a></li>
+					<li><a href="#"> <span class="dp-MenuIcon dp-IconSpam"></span> Spam</a></li>
+				</ul>
+			</li>
+			<li class="dp-ActionButton is-active">
+				<span class="dp-Icon dp-rocket"></span>
+				Actions
+				<ul class="dp-ContextMenu dp-nowrap">
+					<li><a href="#"> <span class="dp-MenuIcon dp-rocket"></span> Misc value</a></li>
+					<li><a href="#"> <span class="dp-MenuIcon dp-rocket"></span> Misc value</a></li>
+					<li><a href="#"> <span class="dp-MenuIcon dp-rocket"></span> Misc value</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+</div>
+```
+
+<h4>Action bar</h4>
+```html @preview
+<div class="dp-MainWrapper">
+	<div class="dp-DropDownBar">
+		<ul class="dp-DropDownList">
+			<li class="dp-ActionButton">
+				<span class="dp-Icon dp-lock"></span>
+				Lock
+			</li>
+			<li class="dp-ActionButton">
+				<span class="dp-Icon dp-IconLink"></span>
+				Link
+			</li>
+			<li class="dp-ActionButton">
+				<span class="dp-Icon dp-IconPlusGrey"></span>
+				New
+			</li>
+			<li class="dp-ActionButton">
+				<span class="dp-Icon dp-IconPrint"></span>
+				Print
+			</li>
+			<li class="dp-ActionButton">
+				<span class="dp-Icon dp-ban"></span>
+				Ban
+			</li>
+			<li class="dp-ActionButton">
+				<span class="dp-Icon dp-rocket"></span>
+				Actions
+			</li>
+		</ul>
+	</div>
+</div>
+```
+
+<h4>Apps Horizontal Bar</h4>
+```html @preview
+<div class="dp-MainWrapper">
+	<ul class="dp-MenuBarList">
+		<li class="dp-MenuBarItem dp-TasksItem">
+			<span class="dp-Icon dp-tasks"></span>
+			<span class="dp-Title">Tasks<span class="dp-Arrow"></span></span>
+		</li>
+		<li class="dp-MenuBarItem">
+			<span class="dp-Icon dp-billing"></span>
+			<span class="dp-Title">Billing<span class="dp-Arrow"></span></span>
+		</li>
+		<li class="dp-MenuBarItem">
+			<span class="dp-Icon dp-liscense"></span>
+			<span class="dp-Title">License<span class="dp-Arrow"></span></span>
+		</li>
+		<li class="dp-MenuBarItem dp-PropertiesItem">
+			<span class="dp-Icon dp-ticket_properties"></span>
+			<span class="dp-Title">Ticket Properties<span class="dp-Arrow"></span></span>
+		</li>
+			<li class="dp-MenuBarItem dp-PropertiesItem">
+			<span class="dp-Icon dp-follow_up"></span>
+			<span class="dp-Title">Follow-ups<span class="dp-Arrow"></span></span>
+		</li>
+	</ul>
+</div>
+```
+
+<h4>Agent Team Followers</h4>
+```html @preview
+<div class="dp-MainWrapper">
+
+	<div class="dp-TeamFollowersWrapper">
+
+		<div class="dp-TicketSelect dp-TicketSmall">
+			<div class="dp-SectionControls">
+				<div class="dp-SectionTitle">
+					<div class="dp-TitleControls">Agent</div>
+					<div class="dp-StatusTimes dp-MenuBarItem">
+						Assign to me | Unassign
+					</div>
+				</div>
+			</div>
+			<button class="dp-ActionButton ActionButton--Xlarge dp-SectionBody-item" type="button">
+				<span class="dp-title-item">
+					<span class="dp-Icon dp-iconUserAvatar"></span>
+					Zack Prudent
+				<span>
+			</button>
+		</div>
+
+		<div class="dp-TicketSelect dp-TicketSmall">
+			<div class="dp-SectionControls">
+				<div class="dp-SectionTitle">
+					<div class="dp-TitleControls">TEAM</div>
+					<div class="dp-StatusTimes dp-MenuBarItem">
+						Unassign
+					</div>
+				</div>
+			</div>
+			<button class="dp-ActionButton ActionButton--Xlarge dp-SectionBody-item" type="button">
+				<span class="dp-title-item">
+					<span class="dp-Icon dp-iconUserAvatar"></span>
+					Support
+				<span>
+			</button>
+		</div>
+
+		<div class="dp-TicketSelect">
+			<div class="dp-SectionControls">
+				<div class="dp-SectionTitle">
+					<div class="dp-TitleControls">FOLLOWERS (5)</div>
+					<div class="dp-StatusTimes dp-FollowersStatus">
+						Following
+						<span class="dp-Icon dp-following--primary"></span>
+					</div>
+				</div>
+			</div>
+			<div class="dp-Followers">
+				<ul class="dp-FollowersWrapper">
+					<li class="dp-FollowersItem">
+						<span class="dp-LogoName">
+							<span class="dp-Icon dp-iconUserAvatar"></span>
+							<span class="dp-UserName"> Wendy pride </span>
+						</span>
+						<a href="#"><i class="dp-Icon dp-close"></i></a>
+					</li>
+					<li class="dp-FollowersItem">
+						<span class="dp-LogoName">
+							<span class="dp-Icon dp-iconUserAvatar"></span>
+							<span class="dp-UserName"> Me </span>
+						</span>
+						<a href="#"><i class="dp-Icon dp-close"></i></a>
+					</li>
+					<li class="dp-FollowersItem">
+						<span class="dp-LogoName">
+							<span class="dp-Icon dp-iconUserAvatar"></span>
+							<span class="dp-UserName"> Peter Fergers... </span>
+						</span>
+						<a href="#"><i class="dp-Icon dp-close"></i></a>
+					</li>
+					<li class="dp-FollowersItem">
+						<span class="dp-LogoName">
+							<span class="dp-Icon dp-iconUserAvatar"></span>
+							<span class="dp-UserName"> John Richards... </span>
+						</span>
+						<a href="#"><i class="dp-Icon dp-close"></i></a>
+					</li>
+					<li class="dp-FollowersItem">
+						<span class="dp-LogoName">
+							<span class="dp-Icon dp-iconUserAvatar"></span>
+							<span class="dp-UserName"> Peter Fergers... </span>
+						</span>
+						<a href="#"><i class="dp-Icon dp-close"></i></a>
+					</li>
+
+					<li class="dp-FollowersItem">
+						<span class="dp-LogoName">
+							<span class="dp-Icon dp-add_follower--primary"></span>
+							<span class="dp-UserName"> Add </span>
+						</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div> <!-- dp-FollowersWrapper -->
+</div>
+```
+
+<h2> ReplyBox </h2>
+```html @preview
+<div class="dp-MainWrapper">
+	<div class="dp-ReplyBox">
+	    <div class="dp-Actions">
+	        <ul class="dp-ActionsItems dp-BorderBottom">
+	            <li class="dp-ActionsItem dp-MenuBarItem is-active">
+	                Reply
+	                <span class="dp-Arrow"></span>
+	            </li>
+	            <li class="dp-ActionsItem dp-MenuBarItem">Add Note</li>
+	            <li class="dp-ActionsItem dp-MenuBarItem">
+	                Macros
+	                <span class="dp-Arrow"></span>
+	            </li>
+	        </ul>
+	    </div>
+	    <div class="dp-ReplyWrapper">
+	        <textarea class="dp-ReplyEditor" placeholder="Reply"></textarea>
+	    </div>
+	    <div class="dp-SendAs dp-MenuBarItem">
+	        <span class="dp-Sendtxt"> Send reply as </span>
+	        <span class="dp-Arrow"></span>
+	    </div>
+
+	</div>
+</div>
+```
+
+<h2> ReplyBox </h2>
+```html @preview
+<div class="dp-TicketMessage">
+	<div class="dp-MessageContainer dp-ColorContainer">
+		<div class="dp-MessageHeader">
+			<div class="dp-Left">
+				<span class="dp-Icon dp-iconUserAvatar"></span>
+				<span>Zack Prudent</span>
+			</div>
+			<div class="dp-Right">
+				<div class="dp-Time">03/11/2016 at 09.58am</div>
+				<a href="#" class="dp-Icon dp-settings"></a>
+			</div>
+		</div>
+		<div class="dp-MessageTitle">
+			<p class="dp-Type">Agent note</p>
+		</div>
+		<div class="dp-MessageBody">
+			<p class="dp-txt">I’ve asked one of the tech guys to take a look but don’t want to reply until we know the timeframe for a resolution.</p>
+		</div>
+	</div>
+</div>
+```
+
+
+
+
+
+<h4>ticket/agentselect</h4>
+```html @preview
+<div class="dp-Pageview-Demonstration">
+	<div class="dp-MainWrapper">
+
+		<!-- Sso -->
+		<div class="dp-SsoWrap">
+			<div class="dp-SsoContent">
+				<span class="dp-Icon dp-IconStarSso"></span>
+				<span class="dp-Tag">#14355</span>
+				<span class="dp-SsoTxt">SSO working well with Safari and IE but issue with Chrome browser</span>
+			</div>
+			<span class="dp-TagBar">
+				<span class="dp-Tag Tag--close">Custom work<span class="dp-Icon dp-close"></span></span>
+				<span class="dp-Tag Tag--close">Report back on bug fix<span class="dp-Icon dp-close"></span></span>
+				<span class="dp-Tag Tag--close Tag--purple">VIP<span class="dp-Icon dp-close"></span></span>
+				<span class="dp-Tag Tag--close Tag--plus">Labels<span class="dp-Icon dp-close"></span></span>
+			</span>
+		</div>
+
+
+		<div class="dp-DropDownBar">
+			<ul class="dp-DropDownList">
+				<li class="dp-ActionButton">
+					<span class="dp-Icon dp-lock"></span>
+					Lock
+				</li>
+				<li class="dp-ActionButton">
+					<span class="dp-Icon dp-IconLink"></span>
+					Link
+				</li>
+				<li class="dp-ActionButton">
+					<span class="dp-Icon dp-IconPlusGrey"></span>
+					New
+				</li>
+				<li class="dp-ActionButton">
+					<span class="dp-Icon dp-IconPrint"></span>
+					Print
+				</li>
+				<li class="dp-ActionButton">
+					<span class="dp-Icon dp-ban"></span>
+					Ban
+				</li>
+				<li class="dp-ActionButton">
+					<span class="dp-Icon dp-rocket"></span>
+					Actions
+				</li>
+			</ul>
+		</div>
+
+		<ul class="dp-MenuBarList">
+			<li class="dp-MenuBarItem dp-TasksItem">
+				<span class="dp-Icon dp-tasks"></span>
+				<span class="dp-Title">Tasks<span class="dp-Arrow"></span></span>
+			</li>
+			<li class="dp-MenuBarItem">
+				<span class="dp-Icon dp-billing"></span>
+				<span class="dp-Title">Billing<span class="dp-Arrow"></span></span>
+			</li>
+			<li class="dp-MenuBarItem">
+				<span class="dp-Icon dp-liscense"></span>
+				<span class="dp-Title">License<span class="dp-Arrow"></span></span>
+			</li>
+			<li class="dp-MenuBarItem dp-PropertiesItem">
+				<span class="dp-Icon dp-ticket_properties"></span>
+				<span class="dp-Title">Ticket Properties<span class="dp-Arrow"></span></span>
+			</li>
+				<li class="dp-MenuBarItem dp-PropertiesItem">
+				<span class="dp-Icon dp-follow_up"></span>
+				<span class="dp-Title">Follow-ups<span class="dp-Arrow"></span></span>
+			</li>
+		</ul>
+
+
+		<div class="dp-MainContainer">
+
+			<!-- Sidebar -->
+			<div class="dp-SidebarContainer">
+		        <div class="dp-PageSidebar">
+
+		            <div class="dp-SidebarTabs">
+		                <ul class="dp-SidebarTabsList">
+		                    <li class="dp-SidebarTab-item is-active"><a href="#" class="dp-Icon dp-tickets"></a></li>
+		                    <li class="dp-SidebarTab-item"><a href="#" class="dp-Icon dp-icon-user"></a></li>
+		                    <li class="dp-SidebarTab-item"><a href="#" class="dp-Icon dp-oranisation"></a></li>
+		                </ul>
+		            </div>
+
+		            <div class="dp-SidebarBody dp-VersionCCmenu">
+
+		                <div class="dp-SidebarSection">
+		                    <div class="dp-SectionTitle">
+		                        <div class="dp-TitleControls">ORGANIZATION & USER</div>
+		                    </div>
+		                </div>
+
+		                <div class="dp-SidebarSection">
+		                    <div class="dp-SectionBody-item ">
+		                        <div class="dp-title-item">
+		                            <span class="dp-Icon dp-iconUserAvatar"></span>
+		                            Optical
+		                        </div>
+		                    </div>
+		                    <div class="dp-SectionBody-item dp-UserPanel">
+		                        <div class="dp-title-item">
+		                            <span class="dp-Icon dp-iconUserAvatar"></span>
+		                            Zack Prudent
+		                        </div>
+		                        <div class="dp-Email">zack.prudent@techcompany.com</div>
+		                        <div class="dp-Phone">
+		                            <i class="dp-Icon dp-phone_filled"></i><a href="tel:+442035678940" >+44 20 356 789 40</a>
+		                        </div>
+		                        <div class="dp-OpenResolved">
+		                            <span class="dp-open"><i class="dp-Icon dp-tickets--primary"></i> Open: 7</span>
+		                            <span class="dp-resolved"><i class="dp-Icon dp-tickets"></i> Resolved: 24</span>
+		                        </div>
+		                    </div>
+		                </div>
+
+		                <div class="dp-SidebarSection dp-CCmenu">
+		                    <div class="dp-SectionControls">
+		                        <div class="dp-SectionTitle dp-CcRow">
+		                            <div class="dp-TitleControls">
+		                                <span class="dp-open">CC’s</span>
+		                                <span>Add</span>
+		                            </div>
+		                            <a href="#" class="dp-Controls">
+		                                <span class="dp-qt"> +5 </span> 
+		                                <i class="dp-Icon dp-DotsIcon"></i>
+		                            </a>
+		                        </div>
+		                    </div>
+
+		                    <div class="dp-SectionControls">
+		                        <div class="dp-title-item dp-SectionTitle">
+		                            <div>
+		                                <span class="dp-Badge Badge--empty"></span>
+		                                <span class="dp-UserName">Wendy Pride</span>
+		                                <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">w.pride@techcompany.co.uk</a>
+		                            </div>
+		                            <a href="#" class="dp-Icon dp-iconVDots"></a>
+
+		                            <ul class="dp-ContextMenu">
+		                                <li><a href="#"><span class="dp-Icon dp-Swap"></span>Swap with ticket owner</a></li>
+		                                <li><a href="#"><span class="dp-Icon dp-Owner"></span>Set as ticket owner</a></li>
+		                                <li><a href="#"><span class="dp-Icon dp-Merge"></span>Merge into ticket owner</a></li>
+		                                <li><a href="#"><span class="dp-Icon dp-Bin"></span>Remove CC</a></li>
+		                                <li><a href="#"><span class="dp-Icon dp-iconGrayMin"></span>Remove CC & Block from ticket</a></li>
+		                            </ul>
+		                        </div>
+
+		                        <div class="dp-title-item dp-SectionTitle">
+		                            <div>
+		                                <span class="dp-Badge Badge--empty"></span>
+		                                <span class="dp-UserName">Bob Cooper</span>
+		                                <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">bob.cooper@techcompany.co</a>
+		                            </div>
+		                            <a href="#" class="dp-Icon dp-iconVDots"></a>
+
+		                            <ul class="dp-ContextMenu">
+		                                <li><a href="#"><span class="dp-Icon dp-Swap"></span>Swap with ticket owner</a></li>
+		                                <li><a href="#"><span class="dp-Icon dp-Owner"></span>Set as ticket owner</a></li>
+		                                <li><a href="#"><span class="dp-Icon dp-Merge"></span>Merge into ticket owner</a></li>
+		                                <li><a href="#"><span class="dp-Icon dp-Bin"></span>Remove CC</a></li>
+		                                <li><a href="#"><span class="dp-Icon dp-iconGrayMin"></span>Remove CC & Block from ticket</a></li>
+		                            </ul>
+		                        </div>
+
+		                        <div class="dp-title-item dp-SectionTitle">
+		                            <div>
+		                                <span class="dp-Badge Badge--empty"></span>
+		                                <span class="dp-UserName">Wendy Pride</span>
+		                                <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">w.pride@techcompany.co.uk</a>
+		                            </div>
+		                            <a href="#" class="dp-Icon dp-iconVDots"></a>
+
+		                            <ul class="dp-ContextMenu">
+		                                <li><a href="#"><span class="dp-Icon dp-Swap"></span>Swap with ticket owner</a></li>
+		                                <li><a href="#"><span class="dp-Icon dp-Owner"></span>Set as ticket owner</a></li>
+		                                <li><a href="#"><span class="dp-Icon dp-Merge"></span>Merge into ticket owner</a></li>
+		                                <li><a href="#"><span class="dp-Icon dp-Bin"></span>Remove CC</a></li>
+		                                <li><a href="#"><span class="dp-Icon dp-iconGrayMin"></span>Remove CC & Block from ticket</a></li>
+		                            </ul>
+		                        </div>
+
+		                        <div class="dp-title-item dp-SectionTitle">
+		                            <div>
+		                                <span class="dp-Badge Badge--empty"></span>
+		                                <span class="dp-UserName">Bob Cooper</span>
+		                                <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">bob.cooper@techcompany.co</a>
+		                            </div>
+		                            <a href="#" class="dp-Icon dp-iconVDots"></a>
+
+		                            <ul class="dp-ContextMenu">
+		                                <li><a href="#"><span class="dp-Icon dp-Swap"></span>Swap with ticket owner</a></li>
+		                                <li><a href="#"><span class="dp-Icon dp-Owner"></span>Set as ticket owner</a></li>
+		                                <li><a href="#"><span class="dp-Icon dp-Merge"></span>Merge into ticket owner</a></li>
+		                                <li><a href="#"><span class="dp-Icon dp-Bin"></span>Remove CC</a></li>
+		                                <li><a href="#"><span class="dp-Icon dp-iconGrayMin"></span>Remove CC & Block from ticket</a></li>
+		                            </ul>
+		                        </div>
+
+		                    </div>
+		                </div>
+
+		                <div class="dp-SidebarSection">
+		                    <div class="dp-SectionTitle">
+		                        <div class="dp-TitleControls">STATUS</div>
+		                    </div>
+		                </div>
+
+		                <div class="dp-SidebarSection">
+
+		                    <div class="dp-Selectbelow">
+		                        <div class="dp-ButtonWrapper">
+		                            <button class="dp-ActionButton dp-Border--danger ActionButton--large is-semibold" type="button">
+		                                On Hold
+		                            </button>
+
+		                            <button class="dp-ActionButton dp-Border--danger dp--danger is-semibold" type="button">
+		                                10
+		                            </button>
+		                        </div>
+
+		                        <div class="dp-ButtonWrapper">
+		                            <span class="dp-Icon dp-LevelDown"></span>
+
+		                            <button class="dp-ActionButton ActionButton--large is-semibold" type="button">
+		                                Awaiting order confirmation
+		                            </button>
+		                        </div>
+		                    </div>
+
+		                </div>
+
+		                <div class="dp-SidebarSection dp-SectionControls">
+		                    <div class="dp-SectionTitle">
+		                        <div class="dp-TitleControls">TIMES</div>
+		                        <a href="#" class="dp-Controls">
+		                            <span class="dp-qt"> +6 </span> 
+		                            <i class="dp-Icon dp-DotsIcon"></i>
+		                        </a>
+		                    </div>
+		                </div>
+
+		                <div class="dp-SidebarSection dp-SectionControls">
+		                    <div class="dp-SectionTitle dp-TimesRow">
+		                        <div class="dp-title-item">
+		                            <span class="dp-Icon dp-ticket_created"></span>
+		                            Created
+		                        </div>
+		                        <span class="dp-TimesStatus">2 weeks ago</span>
+		                    </div>
+		                    <div class="dp-SectionTitle dp-TimesRow">
+		                        <div class="dp-title-item">
+		                            <span class="dp-Icon dp-CurrentUser"></span>
+		                            Current user wait
+		                        </div>
+		                        <span class="dp-TimesStatus">12 hrs 43 mins</span>
+		                    </div>
+		                </div>
+
+		                <div class="dp-SidebarSection dp-SectionControls">
+		                    <div class="dp-SectionTitle">
+		                        <div class="dp-TitleControls">SLAS</div>
+		                        <a href="#" class="dp-Controls">
+		                            <span class="dp-qt"> +5 </span> 
+		                            <i class="dp-Icon dp-DotsIcon"></i>
+		                        </a>
+		                    </div>
+		                </div>
+		                
+		                <div class="dp-Slas">
+		                    <div class="dp-TitleControls">ACTIVE SLAS</div>
+
+		                    <div class="dp-SectionBody">
+		                        <div class="dp-TagItem">
+		                            <span class="dp-TimeStatus">
+		                                <span class="dp-Tag Tag--small Tag--pink">3 hours</span>
+		                            </span>
+		                            <span class="dp-TagDescription">Time until resolution</span>
+		                        </div>
+		                        <div class="dp-TagItem">
+		                            <span class="dp-TimeStatus">
+		                                <span class="dp-Tag Tag--small Tag--warning">10.5 hours</span>
+		                            </span>
+		                            <span class="dp-TagDescription">Time awaiting reply</span>
+		                        </div>
+		                    </div>
+		                </div>
+
+		            </div> <!-- Sidebar body -->
+		        </div>
+		    </div>
+		
+
+			<div class="dp-MainRightContainer">
+				
+				<div class="dp-TeamFollowersWrapper">
+					<div class="dp-TicketSelect dp-TicketSmall">
+						<div class="dp-SectionControls">
+							<div class="dp-SectionTitle">
+								<div class="dp-TitleControls">Agent</div>
+								<div class="dp-StatusTimes dp-MenuBarItem">
+									Assign to me | Unassign
+								</div>
+							</div>
+						</div>
+						<button class="dp-ActionButton ActionButton--Xlarge dp-SectionBody-item" type="button">
+							<span class="dp-title-item">
+								<span class="dp-Icon dp-iconUserAvatar"></span>
+								Zack Prudent
+							<span>
+						</button>
+					</div>
+					<div class="dp-TicketSelect dp-TicketSmall">
+						<div class="dp-SectionControls">
+							<div class="dp-SectionTitle">
+								<div class="dp-TitleControls">TEAM</div>
+								<div class="dp-StatusTimes dp-MenuBarItem">
+									Unassign
+								</div>
+							</div>
+						</div>
+						<button class="dp-ActionButton ActionButton--Xlarge dp-SectionBody-item" type="button">
+							<span class="dp-title-item">
+								<span class="dp-Icon dp-iconUserAvatar"></span>
+								Support
+							<span>
+						</button>
+					</div>
+
+					<div class="dp-TicketSelect">
+						<div class="dp-SectionControls">
+							<div class="dp-SectionTitle">
+								<div class="dp-TitleControls">FOLLOWERS (5)</div>
+								<div class="dp-StatusTimes dp-FollowersStatus">
+									Following
+									<span class="dp-Icon dp-following--primary"></span>
+								</div>
+							</div>
+						</div>
+						<div class="dp-Followers">
+							<ul class="dp-FollowersWrapper">
+								<li class="dp-FollowersItem">
+									<span class="dp-LogoName">
+										<span class="dp-Icon dp-iconUserAvatar"></span>
+										<span class="dp-UserName"> Wendy pride </span>
+									</span>
+									<a href="#"><i class="dp-Icon dp-close"></i></a>
+								</li>
+								<li class="dp-FollowersItem">
+									<span class="dp-LogoName">
+										<span class="dp-Icon dp-iconUserAvatar"></span>
+										<span class="dp-UserName"> Me </span>
+									</span>
+									<a href="#"><i class="dp-Icon dp-close"></i></a>
+								</li>
+								<li class="dp-FollowersItem">
+									<span class="dp-LogoName">
+										<span class="dp-Icon dp-iconUserAvatar"></span>
+										<span class="dp-UserName"> Peter Fergers... </span>
+									</span>
+									<a href="#"><i class="dp-Icon dp-close"></i></a>
+								</li>
+								<li class="dp-FollowersItem">
+									<span class="dp-LogoName">
+										<span class="dp-Icon dp-iconUserAvatar"></span>
+										<span class="dp-UserName"> John Richards... </span>
+									</span>
+									<a href="#"><i class="dp-Icon dp-close"></i></a>
+								</li>
+								<li class="dp-FollowersItem">
+									<span class="dp-LogoName">
+										<span class="dp-Icon dp-iconUserAvatar"></span>
+										<span class="dp-UserName"> Peter Fergers... </span>
+									</span>
+									<a href="#"><i class="dp-Icon dp-close"></i></a>
+								</li>
+
+								<li class="dp-FollowersItem">
+									<span class="dp-LogoName">
+										<span class="dp-Icon dp-add_follower--primary"></span>
+										<span class="dp-UserName"> Add </span>
+									</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div> <!-- dp-FollowersWrapper -->
+
+			</div> <!-- MainRightContainer -->
+		</div> <!-- MainContainer -->
+	</div> <!-- MainWrapper -->
 </div>
 ```

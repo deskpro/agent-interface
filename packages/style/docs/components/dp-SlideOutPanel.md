@@ -57,12 +57,7 @@ title: Slide-Out Panel (developing)
 <h2> Followers Column </h2>
 ```html @preview
 <div class="dp-StatusComponent dp-Followers dp-BorderGray">
-    <div class="dp-TitleWrapper">
-        <span class="dp-StatusTitle">Followers (4)</span>
-        <span class="dp-StatusTimes dp-MenuBarItem">
-            Add | Add me
-        </span>
-    </div>
+
     <ul class="dp-FollowersWrapper">
         <li class="dp-FollowersItem">
             <span class="dp-LogoName">

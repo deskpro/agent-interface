@@ -22,6 +22,7 @@
 }
 
 .dp-SidebarBody .dp-title-item.dp-SectionTitle {
+  margin: 0;
   padding: 5px 0;
 }
 
@@ -130,22 +131,24 @@
   padding: 5px 15px 5px;
 }
 
-.dp-PageSidebar .dp-SectionTitle {
+.dp-SectionTitle {
   border-bottom: 1px solid var(--grey-light);
   color: var(--grey-darkest);
   display: flex;
   font-size: var(--font-Text-N);
+  margin-bottom: 10px;
+  padding-bottom: 2px;
   position: relative;
   text-transform: uppercase;
   z-index: 1;
 }
 
-.dp-PageSidebar .dp-SectionControls .dp-SectionTitle {
+.dp-SectionControls .dp-SectionTitle {
   align-items: center;
   justify-content: space-between;
 }
 
-.dp-PageSidebar .dp-TitleControls {
+.dp-SectionTitle .dp-TitleControls {
   font-weight: var(--is-semibold);
 }
 
@@ -182,7 +185,7 @@
   margin-bottom: 5px;
 }
 
-.dp-PageSidebar .dp-title-item {
+.dp-title-item {
   align-items: center;
   border: none;
   display: flex;
@@ -359,8 +362,11 @@
   background-size: 13px 9px;
 }
 
+.dp-PageSidebar .dp-SectionTitle.dp-CcRow,
 .dp-SidebarSection.dp-CCmenu {
-  margin-bottom: 5px;
+
+  /* margin-bottom: 5px; */
+  margin-bottom: 0;
 }
 
 .dp-CCmenu .dp-title-item.dp-SectionTitle {

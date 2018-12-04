@@ -101,6 +101,7 @@ title: Icons
     <span class="dp-Icon dp-Info"></span>
     <span class="dp-Icon dp-Warning"></span>
     <span class="dp-Icon dp-Approve"></span>
+    <span class="dp-Icon dp-Tick"></span>
     <span class="dp-Icon dp-Delete"></span>
     <span class="dp-Icon dp-CreateTicket"></span>
     <span class="dp-Icon dp-Cursor"></span>

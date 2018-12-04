@@ -747,7 +747,7 @@ title: List Pane
                     <span>12 hr 43 min</span>
                 </span>
             </span>
-            <span class="dp-ItemRow dp-JustifyStart">
+            <span class="dp-TagBar dp-ItemRow dp-JustifyStart">
                 <span class="dp-Tag Tag--close">Custom work<span class="dp-Icon dp-close"></span></span>
                 <span class="dp-Tag Tag--close">Report back on bug fix<span class="dp-Icon dp-close"></span></span>
                 <span class="dp-Tag Tag--close Tag--purple">VIP<span class="dp-Icon dp-close"></span></span>

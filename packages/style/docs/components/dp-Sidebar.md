@@ -414,7 +414,7 @@ title: PageSidebar
                     </div>
                 </div>
 
-                <div class="dp-SidebarSection">
+                <!-- <div class="dp-SidebarSection"> -->
                     <div class="dp-SectionControls">
 
                         <div class="dp-title-item dp-SectionTitle">
@@ -454,7 +454,7 @@ title: PageSidebar
                         </div>
 
                     </div>
-                </div>
+                <!-- </div> -->
 
                 <div class="dp-SidebarSection">
                     <div class="dp-SectionTitle">
@@ -698,7 +698,7 @@ title: PageSidebar
                     </div>
                 </div>
 
-                <div class="dp-SidebarSection">
+                <!-- <div class="dp-SidebarSection"> -->
                     <div class="dp-SectionControls">
 
                         <div class="dp-title-item dp-SectionTitle">
@@ -738,7 +738,7 @@ title: PageSidebar
                         </div>
 
                     </div>
-                </div>
+                <!-- </div> -->
 
                 <div class="dp-SidebarSection">
                     <div class="dp-SectionTitle">
