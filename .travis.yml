@@ -1,7 +1,11 @@
+---
+dist: trusty
 language: node_js
 node_js:
-  - 'node'
+  - 10
 before_install:
+  - curl -o- -L https://yarnpkg.com/install.sh | bash -s -- --nightly
+  - export PATH="$HOME/.yarn/bin:$PATH"
   - echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > .npmrc
   - echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > packages/style/.npmrc
 before_script:
@@ -17,7 +21,9 @@ script:
   - test "${TRAVIS_BRANCH}" = "${TRAVIS_TAG}" || yarn lint
   - test "${TRAVIS_BRANCH}" = "${TRAVIS_TAG}" || yarn test
 cache:
+  yarn: true
   directories:
+    - .npm
     - node_modules
     - packages/style/website/node_modules
     - packages/style/node_modules
