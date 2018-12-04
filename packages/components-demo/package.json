@@ -1,0 +1,24 @@
+{
+  "name": "@deskpro/agent-interface-components-demo",
+  "version": "0.0.1",
+  "description": "storybook demo of the react components",
+  "author": "Artem Berdyshev <berdartem@gmail.com>",
+  "license": "BSD-3-Clause",
+  "scripts": {
+    "dev": "start-storybook -p 6006",
+    "build": "build-storybook"
+  },
+  "dependencies": {
+    "@deskpro/agent-interface-components": "^0.0.1",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.0",
+    "@storybook/addon-actions": "^4.0.11",
+    "@storybook/addon-links": "^4.0.11",
+    "@storybook/addons": "^4.0.11",
+    "@storybook/react": "^4.0.11",
+    "babel-loader": "^8.0.4"
+  }
+}
