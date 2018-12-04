@@ -1,8 +1,14 @@
 import * as React from "react";
 
-export type ButtonProps = {};
+export type ButtonProps = {
+  onClick(e: React.MouseEvent<HTMLElement>): void;
+};
 
-const Button = (props: ButtonProps) => (
+const Button: React.SFC<ButtonProps> = ({
+  onClick: handleClick,
+  children,
+  ...props
+}) => (
   <button
     type="button"
     style={{
@@ -12,8 +18,11 @@ const Button = (props: ButtonProps) => (
       outline: "none",
       padding: "10px"
     }}
+    onClick={handleClick}
     {...props}
-  />
+  >
+    {children}
+  </button>
 );
 
 export default Button;
