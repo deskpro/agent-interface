@@ -12,9 +12,9 @@
   ],
   "types": "dist/index.d.ts",
   "scripts": {
-    "test": "jest",
     "build": "rollup -c",
-    "dev": "rollup -cw"
+    "dev": "rollup -cw",
+    "lint": "eslint ./src --ext js,jsx,ts,tsx"
   },
   "devDependencies": {
     "eslint": "^5.9.0",
