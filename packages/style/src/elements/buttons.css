@@ -31,7 +31,7 @@
 }
 
 .dp-Button.Button--in-active {
-  background: var(--gray-in-active);
+  background: var(--grey);
   color: var(--white);
 }
 
@@ -107,7 +107,7 @@
 
 .dp-ButtonContainer .dp-Button.dp-ButtonPlus {
   align-items: center;
-  background: var(--gray-50);
+  background: var(--grey-lightest);
   display: flex;
   justify-content: space-between;
   padding-left: 5px;
@@ -184,10 +184,10 @@
   }
 
   &.Button--primary {
-    background: var(--color-primary);
-    border: 1px solid var(--color-primary);
+    background: var(--brand-primary);
+    border: 1px solid var(--brand-primary);
     color: var(--text-light);
-    &:hover { background: color-mod(var(--color-primary) blackness(20%)); }
+    &:hover { background: color-mod(var(--brand-primary) blackness(20%)); }
   }
 
   &.Button--secondary {
@@ -238,8 +238,6 @@
   &.Button--small {
     border-radius: calc(var(--border-radius) * 0.7);
     font-size: var(--font-Text-N);
-
-    /* font-size: calc(var(--font-size-base) * 0.7); */
     padding: calc(0.7rem * 0.7) calc(1rem * 0.7);
   }
 
@@ -253,11 +251,14 @@
     border-radius: calc(var(--border-radius) * 1.4);
     font-size: var(--font-Title-S);
 
-    /* font-size: calc(var(--font-size-base) * 1.4); */
-    padding: calc(0.7rem * 1.4) calc(1rem * 1.4);
+    /* padding: calc(0.7rem * 1.4) calc(1rem * 1.4); */
   }
 }
 
 .is-semibold {
   font-weight: var(--is-semibold);
+}
+
+.dp-ButtonWrapper .dp-Button + .dp-Button {
+  margin-left: 10px;
 }

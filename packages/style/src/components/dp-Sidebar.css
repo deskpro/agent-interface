@@ -6,6 +6,7 @@
   max-width: 232px;
   min-height: 100vh;
   position: relative;
+  width: 100%;
 }
 
 .dp-SidebarBody {
@@ -194,6 +195,7 @@
 
 .dp-PageSidebar .dp-title-item .dp-Badge {
   height: 10px;
+  margin-left: 0;
   min-width: 10px;
 }
 

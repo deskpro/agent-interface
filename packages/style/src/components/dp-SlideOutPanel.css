@@ -1,135 +1,81 @@
-/* Status */
+.dp-SlideOutPanel {
+  background-color: var(--white);
+  border-radius: 0;
+  max-width: 360px;
+}
 
-/* .dp-StatusComponent {
-  border-radius: 5px;
-  display: inline-block;
-  margin: 0 0 10px;
-  max-width: 230px;
-  padding: 10px;
-} */
-
-/* .dp-TitleWrapper {
-  align-items: center;
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 10px;
-} */
-
-/* .dp-StatusTitle {
-  font-weight: var(--is-semibold);
-  text-transform: uppercase;
-  font-size: var(--font-Text-N);
+.dp-SlideOutPanel .dp-TitleSidebar {
   color: var(--grey-darkest);
-} */
+  font-size: var(--font-Title-N);
+  font-weight: var(--is-semibold);
+  justify-content: space-between;
+  text-transform: none;
+}
 
-/* .dp-StatusTimes {
+.dp-SlideOutPanel .dp-SectionTitle {
+  text-transform: none;
+}
+
+.dp-SlideOutPanel .dp-TitleControls .dp-Arrow::after {
+  border-color: var(--grey-darkest) transparent transparent transparent;
+}
+
+.dp-SlideOutPanel .dp-Select {
+  color: var(--grey-dark);
   font-size: var(--font-Text-N);
-  color: var(--gray);
-  align-items: center;
-  display: flex;
-  margin: 0;
-} */
-
-.dp-BorderGray {
-  border: 1px solid var(--border-color);
-}
-
-/* .dp-StatusComponent .dp-ActionButton {
-  align-items: center;
-  display: flex;
-} */
-
-.dp-StatusComponent .dp-Icon {
-  background-size: 15px 15px;
-  height: 15px;
-  margin-right: 5px;
-  width: 15px;
-}
-
-/* .dp-StatusComponent .dp-ActionButton {
-  line-height: 1.7;
-} */
-
-/* Agent */
-
-.dp-StatusComponent.dp-Agent {
-  max-width: 415px;
-}
-
-.dp-ButtonWrapper {
-  align-items: center;
-  display: flex;
-}
-
-/* .dp-StatusComponent .dp-ActionButton.ActionButton--xlarge {
-  min-width: 185px;
-} */
-
-.dp-TeamPart {
-  border-left: 1px solid var(--border-color);
-  margin-left: 10px;
+  font-style: var(--is-italic);
+  margin-bottom: 10px;
   padding-left: 10px;
 }
 
-.dp-Agent .dp-Icon {
-  background-size: 20px 20px;
-  height: 20px;
-  width: 20px;
-}
-
-/* Followers */
-
-/* .dp-StatusComponent.dp-Followers {
-  display: inline-block;
-}
-
-.dp-FollowersWrapper {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.dp-FollowersItem {
-  align-items: center;
-  display: flex;
-  flex: 0 0 50%;
-  justify-content: space-between;
-  margin-bottom: 5px;
-  padding-right: 10px;
-}
-
-.dp-LogoName {
-  align-items: center;
-  display: flex;
-} */
-
-/* column */
-
-.dp-FollowersWrapper.is-active {
-  flex-wrap: nowrap;
-}
-
-.dp-FollowersWrapper.is-active .dp-UserName {
-  display: none;
-}
-
-.dp-FollowersWrapper.is-active .dp-FollowersItem {
-  flex: 1 0 0;
-  padding: 0;
-}
-
-.dp-FollowersWrapper.is-active .dp-FollowersItem .dp-Icon {
-  background-color: var(--gray-50);
-  background-size: 25px 25px;
-  border-radius: 50%;
-  height: 25px;
-  margin-left: -5px;
-  margin-right: 0;
-  margin-right: 0;
+.dp-Signature {
+  background-color: var(--primary-light);
+  border: 1px solid var(--brand-primary);
+  border-radius: var(--border-radius);
+  bottom: 10px;
+  color: var(--brand-primary);
+  cursor: pointer;
+  font-size: var(--font-Text-L);
+  left: 10px;
   padding: 2px;
-  width: 25px;
+  position: absolute;
+  width: 100px;
 }
 
-.dp-StatusComponent .dpApps-IconClose {
-  height: 5px;
-  width: 5px;
+.dp-SlideOutPanel .dp-TicketSelect .ActionButton--XXlarge,
+.dp-SlideOutPanel .dp-TicketSelect .ActionButton--Xlarge {
+  width: 100%;
+}
+
+.dp-SlideOutPanel .dp-TicketSelect {
+  margin-bottom: 10px;
+}
+
+.dp-SecurityBreach {
+  align-items: center;
+  color: var(--grey-darkest);
+  display: flex;
+  font-size: var(--font-Text-L);
+}
+
+.dp-SecurityBreach .dp-Icon {
+  background-size: 14px 18px;
+  height: 20px;
+  width: 15px;
+}
+
+.dp-FlagsWrapper .dp-Icon {
+  background-size: 18px 22px;
+  height: 18px;
+  width: 22px;
+}
+
+.dp-SlideOutPanel .dp-SearchInput {
+  border: 1px solid var(--grey);
+  border-radius: 2px;
+  width: 100%;
+}
+
+.dp-SearchInput::placeholder {
+  color: var(--grey-dark);
 }

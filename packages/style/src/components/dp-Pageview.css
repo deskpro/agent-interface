@@ -60,6 +60,7 @@
 
 .dp-Followers {
   display: inline-block;
+  width: 100%;
 }
 
 .dp-FollowersWrapper {
@@ -93,6 +94,7 @@
 
 .dp-DropDownBar {
   display: block;
+  margin: 8px 12px;
 }
 
 .dp-DropDownList {
@@ -210,6 +212,7 @@
   border-radius: var(--border-radius);
   display: block;
   margin-bottom: 15px;
+  position: relative;
 }
 
 .dp-ActionsItems {
@@ -232,6 +235,11 @@
   width: 100%;
 }
 
+.dp-ReplyBox {
+  display: block;
+  margin-bottom: 15px;
+}
+
 .dp-ReplyBox .dp-Arrow::after {
   border-width: 3px 3px 0 3px;
 }
@@ -241,8 +249,6 @@
   border-radius: 2px;
   color: var(--white);
   cursor: pointer;
-
-  /* cursor: not-allowed; */
   font-size: var(--font-Title-S);
   max-width: 100%;
   padding: 5px 5px 5px 10px;
@@ -286,7 +292,7 @@
   font-style: italic;
 }
 
-/* Reply ox 2 */
+/* Reply Box 2 */
 
 .dp-TicketMessage .dp-MessageHeader {
   display: flex;
@@ -298,6 +304,13 @@
   align-items: center;
   display: flex;
   font-size: var(--font-Text-L);
+}
+
+.dp-TicketMessage .dp-Left > a {
+  align-items: center;
+  color: var(--grey);
+  display: flex;
+  margin-left: 15px;
 }
 
 .dp-TicketMessage .dp-Right {
@@ -334,11 +347,30 @@
 }
 
 .dp-MessageTitle .dp-Type {
-  color: var(--grey-dark);
+  color: var(--brand-primary);
   font-size: var(--font-Title-S);
   font-weight: var(--is-semibold);
   margin-bottom: 5px;
   text-transform: uppercase;
+}
+
+.dp-ColorContainer .dp-MessageTitle .dp-Type {
+  color: var(--grey-dark);
+}
+
+.dp-ExpandButton {
+  background-color: var(--grey-light);
+  cursor: pointer;
+  display: block;
+  height: 14px;
+  line-height: 7px;
+  margin: 10px 0;
+  max-width: 80px;
+  text-align: center;
+}
+
+.dp-ExpandButton .dp-dots {
+  vertical-align: middle;
 }
 
 /* ticket/agentselect */
@@ -355,6 +387,7 @@
 .dp-SsoWrap {
   display: flex;
   justify-content: space-between;
+  margin: 8px 12px;
 }
 
 .dp-SsoContent {
@@ -372,11 +405,11 @@
   font-weight: var(--is-semibold);
 }
 
-.dp-TagBar .dp-Tag + .dp-Tag:last-child {
+.dp-TagBar .dp-Tag.Tag--plus {
   margin-left: 15px;
 }
 
-.dp-TagBar .dp-Tag + .dp-Tag:last-child::after {
+.dp-TagBar .Tag--plus::after {
   background-color: var(--grey);
   content: "";
   height: 24px;
@@ -389,4 +422,8 @@
 .dp-MainContainer {
   align-items: flex-start;
   display: flex;
+}
+
+.dp-MainRightContainer {
+  margin-left: 10px;
 }
