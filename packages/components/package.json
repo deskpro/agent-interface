@@ -6,11 +6,7 @@
   "homepage": "https://github.com/deskpro/agent-interface#readme",
   "license": "BSD-3-Clause",
   "main": "dist/index.js",
-  "module": "dist/index.es.js",
-  "files": [
-    "dist"
-  ],
-  "types": "dist/index.d.ts",
+  "files": ["dist"],
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "tsc -p tsconfig.json",

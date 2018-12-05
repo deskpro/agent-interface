@@ -14,7 +14,7 @@ const Button: React.SFC<ButtonProps> = ({
     style={{
       border: "1px solid #ddd",
       borderRadius: "3px",
-      backgroundColor: "transparent",
+      backgroundColor: "#efefef",
       outline: "none",
       padding: "10px"
     }}
