@@ -1,10 +1,10 @@
 ---
-title: Slide-Out Panel (developing)
+title: Slide-Out Panel
 ---
 
 ```html @preview
 <div class="dp-MainWrapper">
-    <div class="dp-SidebarContainer dp-SlideOutPanel">
+    <div class="dp-SlideOutPanel">
         <div class="dp-PageSidebar">
 
             <div class="dp-SidebarBody">
@@ -74,7 +74,7 @@ title: Slide-Out Panel (developing)
 
 ```html @preview
 <div class="dp-MainWrapper">
-    <div class="dp-SidebarContainer dp-SlideOutPanel">
+    <div class="dp-SlideOutPanel">
         <div class="dp-PageSidebar">
 
             <div class="dp-SidebarBody">
@@ -295,10 +295,9 @@ title: Slide-Out Panel (developing)
 </div>
 ```
 
-
 ```html @preview
 <div class="dp-MainWrapper">
-    <div class="dp-SidebarContainer dp-SlideOutPanel">
+    <div class="dp-SlideOutPanel">
         <div class="dp-PageSidebar">
 
             <div class="dp-SidebarBody">
@@ -309,17 +308,86 @@ title: Slide-Out Panel (developing)
                         <span class="dp-Icon dp-close"></span>
                     </div>
                 </div>
-                <!-- 1 -->
 
-                <div>
-                    <form>
-                        <div class="dp-SearchForm">
-                            <button type="submit" class="dp-Icon dp-IconSearch"></button>
-                            <input type="text" placeholder="Search" class="dp-SearchInput is-italic">
+                <!-- 1 -->
+                <form>
+                    <div class="dp-SearchForm">
+                        <button type="submit" class="dp-Icon dp-IconSearch"></button>
+                        <input type="text" placeholder="Search" class="dp-SearchInput is-italic">
+                    </div>
+                </form>
+
+                <!-- 2 -->
+                <div class="dp-Tickets">
+                    <div class="dp-dropdownContainer">
+                        <div class="dp-TitleName is-semibold dp-BorderBottom is-active">
+                            Change user from ticket cc’s
+                            <span class="dp-Icon dp-DownCaret"></span>
+
+                            <ul class="dp-ContextMenu">
+                                <li><a href="#">Change user from ticket CC’s</a></li>
+                                <li><a href="#">Change user from open tabs</a></li>
+                                <li><a href="#">Change user from selected messages</a></li>
+                                <li><a href="#">Change user from same organisation</a></li>
+                            </ul>
+
                         </div>
-                    </form>
+
+                        <ul class="dp-TicketSelect">
+                            <li class="dp-FollowersItem">
+                                <span class="dp-LogoName">
+                                    <span class="dp-Icon dp-iconUserAvatar"></span>
+                                    <span class="dp-UserName"> Peter Fergerson </span>
+                                </span>
+                            </li>                        
+                            <li class="dp-FollowersItem">
+                                <span class="dp-LogoName">
+                                    <span class="dp-Icon dp-iconUserAvatar"></span>
+                                    <span class="dp-UserName"> Wendy Pride </span>
+                                </span>
+                            </li>                        
+                            <li class="dp-FollowersItem">
+                                <span class="dp-LogoName">
+                                    <span class="dp-Icon dp-iconUserAvatar"></span>
+                                    <span class="dp-UserName"> Zack Prudent </span>
+                                </span>
+                            </li>                        
+                            <li class="dp-FollowersItem">
+                                <span class="dp-LogoName">
+                                    <span class="dp-Icon dp-iconUserAvatar"></span>
+                                    <span class="dp-UserName"> John Richardson </span>
+                                </span>
+                            </li>
+                            <li class="dp-FollowersItem">
+                                <span class="dp-LogoName">
+                                    <span class="dp-Icon dp-iconUserAvatar"></span>
+                                    <span class="dp-UserName"> Leanne Spencer </span>
+                                </span>
+                            </li>
+                            <li class="dp-FollowersItem">
+                                <span class="dp-LogoName">
+                                    <span class="dp-Icon dp-iconUserAvatar"></span>
+                                    <span class="dp-UserName"> Laura Thomas </span>
+                                </span>
+                            </li>
+                            <li class="dp-FollowersItem">
+                                <span class="dp-LogoName">
+                                    <span class="dp-Icon dp-iconUserAvatar"></span>
+                                    <span class="dp-UserName"> Geoff Volts </span>
+                                </span>
+                            </li>
+                            <li class="dp-FollowersItem">
+                                <span class="dp-LogoName">
+                                    <span class="dp-Icon dp-iconUserAvatar"></span>
+                                    <span class="dp-UserName"> Michael Zamba </span>
+                                </span>
+                            </li>
+                        </ul>
+
+                    </div>
                 </div>
 
+                <!-- 3 -->
                 <div class="dp-TicketSelect">
                     <div class="dp-SectionControls">
                         <div class="dp-SectionTitle"></div>
@@ -346,6 +414,253 @@ title: Slide-Out Panel (developing)
                     </button>
                 </div>
 
+            </div> <!-- Sidebar body -->
+        </div>
+    </div>
+</div>
+```
+
+```html @preview
+<div class="dp-MainWrapper">
+    <div class="dp-SlideOutPanel dp-WarningContainer">
+        <div class="dp-PageSidebar">
+
+            <div class="dp-SidebarBody">
+
+                <div class="dp-SidebarSection">
+                    <div class="dp-SectionTitle dp-TitleSidebar">
+                        <span class="dp-Icon dp-Warning--danger"></span>
+                        <div> Warning </div>
+                    </div>
+                </div>
+
+                <p>
+                    You are about to override the admin field settings for this view. Would you like to continue or return to the the view?
+                </p>
+
+                <div class="dp-ButtonWrapper">
+                    <button class="dp-Button ActionButton--large Button--active" type="button">
+                        Override settings
+                    </button>
+                    <button class="dp-Button Button--small" type="button">
+                        Return to view
+                    </button>
+                </div>
+
+            </div> <!-- Sidebar body -->
+        </div>
+    </div>
+</div>
+```
+
+
+```html @preview
+<div class="dp-MainWrapper">
+    <div class="dp-SlideOutPanel dp-SlideTicket">
+        <div class="dp-PageSidebar">
+
+            <div class="dp-SidebarBody">
+
+                <div class="dp-SectionTitle dp-TitleSidebar">
+                    <div class="">Split messages into a new ticket</div>
+                    <span class="dp-Icon dp-close"></span>
+                </div>
+
+                <div class="dp-TicketTitle">
+                    New ticket title
+                </div>
+
+                <!-- 1 -->
+                <form>
+                    <div>
+                        <input type="text" class="dp-NewTitle">
+                    </div>
+                </form>
+
+                <!-- 2 -->
+                <div class="dp-TicketMessage dp-SplitMessages dp-BorderBottom">
+
+                    <div class="dp-CustomCheckbox dp-EmptyCheckbox">
+                        <input type="checkbox" class="dp-ControlInput" id="dp-CheckboxTicket-1"></input>
+                        <label for="dp-CheckboxTicket-1"></label>
+                    </div>
+
+                    <div class="dp-MessageContainer">
+                        <div class="dp-MessageHeader">
+                            <div class="dp-Left">
+                                <span class="dp-Icon dp-iconUserAvatar"></span>
+                                <span>Zach Prudent</span>
+                            </div>
+                            <div class="dp-Right">
+                                <div class="dp-Time">03/11/2016 at 09.58am</div>
+                                <a href="#" class="dp-Icon dp-settings"></a>
+                            </div>
+                        </div>
+
+                        <div class="dp-MessageBody">
+                            <div class="Content">
+                                <p>Good day Brian,</p>
+                                <p>We’ve been having another issue with this version of DeskPro. I’ve been doing some troubleshooting with our SSO partner but no luck so far so I thought it wouldn’t hurt to bounce it off of you. The thing is, we configured both Agent and User modules to use SSO and it was working great for a few days. When I came into the office last week Friday I realized that I wasn’t able to log into the Admin/Agent portals but I was able to log in to the User portal.</p>
+                            </div>
+                            <a href="#" class="dp-ExpandButton"><span class="dp-dots">&hellip;</span></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3 -->
+                <div class="dp-TicketMessage dp-SplitMessages dp-BorderBottom">
+
+                    <div class="dp-CustomCheckbox dp-EmptyCheckbox">
+                        <input type="checkbox" class="dp-ControlInput" id="dp-CheckboxTicket-2"></input>
+                        <label for="dp-CheckboxTicket-2"></label>
+                    </div>
+
+                    <div class="dp-MessageContainer">
+                        <div class="dp-MessageHeader">
+                            <div class="dp-Left">
+                                <span class="dp-Icon dp-iconUserAvatar"></span>
+                                <span>Zach Prudent</span>
+                            </div>
+                            <div class="dp-Right">
+                                <div class="dp-Time">03/11/2016 at 09.58am</div>
+                                <a href="#" class="dp-Icon dp-settings"></a>
+                            </div>
+                        </div>
+
+                        <div class="dp-MessageBody">
+                            <div class="Content">
+                                <p>Good day Brian,</p>
+                                <p>We’ve been having another issue with this version of DeskPro. I’ve been doing some troubleshooting with our SSO partner but no luck so far so I thought it wouldn’t hurt to bounce it off of you. The thing is, we configured both Agent and User modules to use SSO and it was working great for a few days. When I came into the office last week Friday I realized that I wasn’t able to log into the Admin/Agent portals but I was able to log in to the User portal.</p>
+                            </div>
+                            <a href="#" class="dp-ExpandButton"><span class="dp-dots">&hellip;</span></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dp-ButtonWrapper">
+                    <button class="dp-Button ActionButton--large Button--active" type="button">
+                        Split selected messages
+                    </button>
+                </div>
+
+
+            </div> <!-- Sidebar body -->
+        </div>
+    </div>
+</div>
+```
+
+<!-- Merge tickets -->
+
+```html @preview
+<div class="dp-MainWrapper">
+    <div class="dp-SlideOutPanel dp-SlideTicket dp-MergeTickets">
+        <div class="dp-PageSidebar">
+
+            <div class="dp-SidebarBody">
+                <div class="dp-SectionTitle dp-TitleSidebar">
+                    <div class="">Merge tickets</div>
+                    <span class="dp-Icon dp-close"></span>
+                </div>
+
+                <!-- 1 -->
+                <form>
+                    <div class="dp-SearchForm">
+                        <button type="submit" class="dp-Icon dp-IconSearch"></button>
+                        <input type="text" placeholder="Search" class="dp-SearchInput is-italic">
+                    </div>
+                </form>
+
+                <!-- 2 -->
+                <div class="dp-ButtonWrapper">
+                    <button class="dp-Button ActionButton--large" type="button">
+                        Switch tickets
+                    </button>
+                </div>
+
+                <div class="dp-Actions">
+                    <ul class="dp-ActionsItems dp-BorderBottom">
+                        <li class="dp-ActionsItem dp-MenuBarItem is-active">
+                            KEEP THIS TICKET
+                        </li>
+                        <li class="dp-ActionsItem dp-MenuBarItem">
+                            MERGE THIS TICKET
+                        </li>
+                    </ul>
+                </div>
+
+                <table class="dp-BorderBottom">
+                    <tr>
+                        <td>ID</td>
+                        <td>57 221</td>
+                    </tr>
+                    <tr>
+                        <td>Subject</td>
+                        <td>Et sed qui perspiciatis accusamus </td>
+                    </tr>
+                    <tr>
+                        <td>Person</td>
+                        <td>Jovan Greenholt Katelyn Lowe</td>
+                    </tr>
+                    <tr>
+                        <td>Date created</td>
+                        <td>Tue, 9th Oct 2018 8:52pm</td>
+                    </tr>
+                    <tr>
+                        <td>Department</td>
+                        <td>Sales Support</td>
+                    </tr>
+                    <tr>
+                        <td>Status</td>
+                        <td>Awaiting Agent</td>
+                    </tr>
+                    <tr>
+                        <td>Language</td>
+                        <td>English</td>
+                    </tr>
+                    <tr>
+                        <td>Category</td>
+                        <td>Ticket Category 1</td>
+                    </tr>
+                    <tr>
+                        <td>Product</td>
+                        <td>Product 3</td>
+                    </tr>
+                    <tr>
+                        <td>Workflow</td>
+                        <td>Workflow 2</td>
+                    </tr>
+                    <tr>
+                        <td>Widget type</td>
+                        <td>Disagree</td>
+                    </tr>
+                    <tr>
+                        <td>Widget description</td>
+                        <td>Agree</td>
+                    </tr>
+                    <tr>
+                        <td>Desired sizes</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>Manufacture date</td>
+                        <td>Tue, 9th Oct 2018 8:52pm</td>
+                    </tr>
+                    <tr>
+                        <td>Reason for complaint</td>
+                        <td>What sort of knot, and then keep tight hold of it; so, after hunting all about as curious as it left no mark on the table</td>
+                    </tr>
+                    <tr>
+                        <td>Other remarks</td>
+                        <td>What sort of knot, and then keep tight hold of it; so, after hunting all about as curious as it left no mark on the table</td>
+                    </tr>
+                </table>
+
+                <div class="dp-ButtonWrapper">
+                    <button class="dp-Button ActionButton--large Button--active" type="button">
+                        Merge tickets
+                    </button>
+                </div>
 
             </div> <!-- Sidebar body -->
         </div>

@@ -307,16 +307,12 @@
   position: relative;
 }
 
-/* .dp-MenuBarItem .dp-Arrow { */
-
 .dp-Arrow {
   display: inline-block;
   padding-left: 17px;
   position: relative;
   vertical-align: middle;
 }
-
-/* .dp-MenuBarItem .dp-Arrow::after { */
 
 .dp-Arrow::after {
   border-color: var(--grey-dark) transparent transparent transparent;

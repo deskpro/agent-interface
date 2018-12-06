@@ -46,10 +46,10 @@
 }
 
 .dp-TicketSelect .dp-Icon {
-  background-size: 10px 10px;
-  height: 10px;
+  background-size: 12px 12px;
+  height: 12px;
   margin-right: 5px;
-  width: 10px;
+  width: 14px;
 }
 
 .dp-TicketSelect .dp-StatusTimes .dp-Icon {
@@ -77,7 +77,6 @@
   display: flex;
   flex: 0 0 33%;
   justify-content: space-between;
-  margin-bottom: 5px;
   padding-right: 10px;
 }
 
@@ -90,11 +89,17 @@
   color: var(--brand-primary);
 }
 
+.dp-FollowersStatus .dp-Icon {
+  background-size: 10px 10px;
+}
+
 /* buttons/actions */
 
 .dp-DropDownBar {
   display: block;
-  margin: 8px 12px;
+  margin: 10px 0;
+
+  /* margin: 8px 12px; */
 }
 
 .dp-DropDownList {
@@ -273,7 +278,10 @@
   border-color: var(--white) transparent transparent transparent;
 }
 
-.dp-ReplyBox .dp-ActionsItem:hover, .dp-ReplyBox .dp-ActionsItem.is-active {
+/* .dp-ReplyBox .dp-ActionsItem:hover,
+.dp-ReplyBox .dp-ActionsItem.is-active { */
+
+.dp-ActionsItem:hover, .dp-ActionsItem.is-active {
   border-bottom: 1px solid var(--brand-primary);
   color: var(--brand-primary);
   margin-bottom: -1px;
@@ -285,6 +293,7 @@
 
 .dp-BorderBottom {
   border-bottom: 1px solid var(--grey-light);
+  display: flex;
   margin-bottom: 10px;
 }
 
@@ -426,4 +435,8 @@
 
 .dp-MainRightContainer {
   margin-left: 10px;
+}
+
+.dp-Pageview-Demonstration .dp-DropDownBar {
+  margin: 8px 12px;
 }

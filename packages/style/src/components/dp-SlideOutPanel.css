@@ -1,10 +1,16 @@
 .dp-SlideOutPanel {
   background-color: var(--white);
+  border: 1px solid var(--grey-light);
   border-radius: 0;
+  display: block;
   max-width: 360px;
+  min-height: 100vh;
+  position: relative;
+  width: 100%;
 }
 
 .dp-SlideOutPanel .dp-TitleSidebar {
+  align-items: center;
   color: var(--grey-darkest);
   font-size: var(--font-Title-N);
   font-weight: var(--is-semibold);
@@ -49,6 +55,11 @@
 
 .dp-SlideOutPanel .dp-TicketSelect {
   margin-bottom: 10px;
+  padding: 0;
+}
+
+.dp-SlideOutPanel .dp-TicketSelect li {
+  margin-bottom: 10px;
 }
 
 .dp-SecurityBreach {
@@ -70,12 +81,148 @@
   width: 22px;
 }
 
-.dp-SlideOutPanel .dp-SearchInput {
+.dp-SlideOutPanel form {
+  border-bottom: 1px solid var(--grey-light);
+  margin: 0 -10px 10px;
+  padding: 0 10px 10px;
+}
+
+.dp-SlideOutPanel .dp-SearchInput, input.dp-NewTitle {
   border: 1px solid var(--grey);
   border-radius: 2px;
   width: 100%;
 }
 
+input.dp-NewTitle {
+  outline: none;
+  padding: 5px;
+}
+
 .dp-SearchInput::placeholder {
   color: var(--grey-dark);
+}
+
+.dp-SlideOutPanel .dp-Tickets .dp-TitleName {
+  color: var(--grey-darkest);
+  display: flex;
+  font-size: var(--font-Text-N);
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.dp-TitleName.is-active .dp-ContextMenu {
+  display: block;
+}
+
+.dp-SlideOutPanel .dp-TitleName .dp-DownCaret {
+  background-size: 12px 7px;
+}
+
+.dp-SlideOutPanel.dp-WarningContainer {
+  border: 1px solid var(--danger);
+  border-radius: 3px;
+  box-shadow: var(--shadow-bottom);
+  min-height: auto;
+}
+
+.dp-SlideOutPanel.dp-WarningContainer .dp-TitleSidebar {
+  justify-content: flex-start;
+}
+
+.dp-WarningContainer .dp-SidebarBody {
+  color: var(--grey-darkest);
+  font-size: var(--font-Title-S);
+  padding: 20px;
+}
+
+.dp-WarningContainer .dp-SectionTitle {
+  border-bottom: 0;
+}
+
+.dp-WarningContainer .dp-SectionTitle .dp-Icon {
+  margin-right: 10px;
+}
+
+/*  */
+
+.dp-SlideOutPanel.dp-SlideTicket {
+  background-color: var(--grey-lightest);
+}
+
+.dp-SlideTicket .dp-TitleSidebar {
+  background-color: var(--grey-lighter);
+  border: 0;
+  margin: -10px -10px 10px;
+  padding: 10px;
+}
+
+.dp-SlideTicket .dp-TicketTitle {
+  color: var(--grey-darkest);
+  font-size: var(--font-Title-S);
+  margin-bottom: 10px;
+}
+
+.dp-SplitMessages {
+  display: flex;
+  margin: 0 -10px;
+  padding: 10px;
+  position: relative;
+}
+
+.dp-SplitMessages .dp-Left {
+  color: var(--grey-dark);
+}
+
+.dp-SplitMessages .dp-CustomCheckbox {
+  margin-right: 10px;
+}
+
+.dp-SlideTicket .dp-ButtonWrapper {
+  width: 100%;
+}
+
+.dp-SlideTicket .dp-ButtonWrapper .dp-Button {
+  margin: 10px auto;
+}
+
+/* Merge Tickets */
+
+.dp-MergeTickets .dp-ActionsItem {
+  flex: 0 0 50%;
+  margin-right: 0;
+  max-width: 50%;
+}
+
+.dp-MergeTickets table {
+  margin: 0 -10px;
+  padding: 0 10px 10px;
+}
+
+.dp-MergeTickets table tr,
+.dp-MergeTickets table td {
+  border: 0;
+}
+
+.dp-MergeTickets table tr {
+  display: flex;
+}
+
+.dp-MergeTickets table td {
+  color: var(--grey-dark);
+}
+
+.dp-MergeTickets table td:nth-child(odd) {
+  background-color: var(--grey-lighter);
+  flex: 0 0 35%;
+  font-size: var(--font-Text-S);
+  text-align: right;
+}
+
+.dp-MergeTickets table td:nth-child(even) {
+  flex: 0 0 65%;
+  font-size: var(--font-Text-L);
+}
+
+.dp-SlideOutPanel .dp-ContextMenu > li > a:hover {
+  color: var(--grey-darkest);
 }

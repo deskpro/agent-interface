@@ -252,7 +252,7 @@ title: Page View
 <!-- Lock -->
 
 ```html @preview
-<div class="dp-MainWrapper" style="height: 150px;">
+<div class="dp-MainWrapper" style="height: 200px;">
 	<div class="dp-DropDownBar">
 
 		<ul class="dp-DropDownList">
@@ -1242,20 +1242,20 @@ title: Page View
 				<!-- Reply Box -->
 				<div class="dp-ReplyBox">
 				    <div class="dp-Actions">
-				        <ul class="dp-ActionsItems dp-BorderBottom">
-				            <li class="dp-ActionsItem dp-MenuBarItem is-active">
-				                Reply
-				                <span class="dp-Arrow"></span>
+						<ul class="dp-ActionsItems dp-BorderBottom">
+							<li class="dp-ActionsItem dp-MenuBarItem is-active">
+								Reply
+								<span class="dp-Arrow"></span>
 				            </li>
 				            <li class="dp-ActionsItem dp-MenuBarItem">Add Note</li>
 				            <li class="dp-ActionsItem dp-MenuBarItem">
-				                Macros
-				                <span class="dp-Arrow"></span>
+								Macros
+								<span class="dp-Arrow"></span>
 				            </li>
 				        </ul>
 				    </div>
 				    <div class="dp-ReplyWrapper">
-				        <textarea class="dp-ReplyEditor" placeholder="Reply"></textarea>
+						<textarea class="dp-ReplyEditor" placeholder="Reply"></textarea>
 				    </div>
 				    <div class="dp-SendAs dp-MenuBarItem">
 				        <span class="dp-Sendtxt"> Send reply as </span>
@@ -1263,71 +1263,68 @@ title: Page View
 				    </div>
 				</div> <!-- Reply Box -->
 
-				<div class="dp-ReplyBox">
-				    <div class="dp-Actions">
-				        <ul class="dp-ActionsItems dp-BorderBottom">
-				            <li class="dp-ActionsItem dp-MenuBarItem is-active">
-				                MESSAGES AND NOTES
-				            </li>
-				            <li class="dp-ActionsItem dp-MenuBarItem">
-				                FULL LOG
-				            </li>
-				        </ul>
-				    </div>
+				<div class="dp-Actions">
+					<ul class="dp-ActionsItems dp-BorderBottom">
+						<li class="dp-ActionsItem dp-MenuBarItem is-active">
+							MESSAGES AND NOTES
+						</li>
+						<li class="dp-ActionsItem dp-MenuBarItem">
+							FULL LOG
+					</li>
+					</ul>
+				</div>
 
-					<div class="dp-TicketMessage">
-						<div class="dp-MessageContainer">
-							<div class="dp-MessageHeader">
-								<div class="dp-Left">
-									<span class="dp-Icon dp-iconUserAvatar"></span>
-									<span>Zach Prudent</span>
-									<a href="mailto:zack.prudent@techcompany.com">
-										<i class="dp-Icon dp-email_small"></i>zack.prudent@techcompany.com
-									</a>
-								</div>
-								<div class="dp-Right">
-									<div class="dp-Time">03/11/2016 at 09.58am</div>
-									<a href="#" class="dp-Icon dp-settings"></a>
-								</div>
+				<div class="dp-TicketMessage">
+					<div class="dp-MessageContainer">
+						<div class="dp-MessageHeader">
+							<div class="dp-Left">
+								<span class="dp-Icon dp-iconUserAvatar"></span>
+								<span>Zach Prudent</span>
+								<a href="mailto:zack.prudent@techcompany.com">
+									<i class="dp-Icon dp-email_small"></i>zack.prudent@techcompany.com
+								</a>
 							</div>
-							<div class="dp-MessageTitle">
-								<p class="dp-Type">User Reply</p>
-							</div>
-							<div class="dp-MessageBody">
-								<div class="Content">
-									<p>Good day Brian,</p>
-									<p>We’ve been having another issue with this version of DeskPro. I’ve been doing some troubleshooting with our SSO partner but no luck so far so I thought it wouldn’t hurt to bounce it off of you. The thing is, we configured both Agent and User modules to use SSO and it was working great for a few days. When I came into the office last week Friday I realized that I wasn’t able to log into the Admin/Agent portals but I was able to log in to the User portal. Upon further investigation, we realized that we weren’t able to log in if the SSO URLs were the same.</p>
-									<p>We tried clearing browser data in Chrome and trying incognito but no luck. Have you ever seen anything like this before?<br>
-									Let me know if anything pops up in your head.</p>
-									Thanks, Zack
-								</div>
-								<a href="#" class="dp-ExpandButton"><span class="dp-dots">&hellip;</span></a>
+							<div class="dp-Right">
+								<div class="dp-Time">03/11/2016 at 09.58am</div>
+								<a href="#" class="dp-Icon dp-settings"></a>
 							</div>
 						</div>
-					</div>
-					<!-- 2 -->
-					<div class="dp-TicketMessage">
-						<div class="dp-MessageContainer dp-ColorContainer">
-							<div class="dp-MessageHeader">
-								<div class="dp-Left">
-									<span class="dp-Icon dp-iconUserAvatar"></span>
-									<span>Zack Prudent</span>
-								</div>
-								<div class="dp-Right">
-									<div class="dp-Time">03/11/2016 at 09.58am</div>
-									<a href="#" class="dp-Icon dp-settings"></a>
-								</div>
+						<div class="dp-MessageTitle">
+							<p class="dp-Type">User Reply</p>
+						</div>
+						<div class="dp-MessageBody">
+							<div class="Content">
+								<p>Good day Brian,</p>
+								<p>We’ve been having another issue with this version of DeskPro. I’ve been doing some troubleshooting with our SSO partner but no luck so far so I thought it wouldn’t hurt to bounce it off of you. The thing is, we configured both Agent and User modules to use SSO and it was working great for a few days. When I came into the office last week Friday I realized that I wasn’t able to log into the Admin/Agent portals but I was able to log in to the User portal. Upon further investigation, we realized that we weren’t able to log in if the SSO URLs were the same.</p>
+								<p>We tried clearing browser data in Chrome and trying incognito but no luck. Have you ever seen anything like this before?<br>
+								Let me know if anything pops up in your head.</p>
+								Thanks, Zack
 							</div>
-							<div class="dp-MessageTitle">
-								<p class="dp-Type">Agent note</p>
-							</div>
-							<div class="dp-MessageBody">
-								<p class="dp-txt">I’ve asked one of the tech guys to take a look but don’t want to reply until we know the timeframe for a resolution.</p>
-							</div>
+							<a href="#" class="dp-ExpandButton"><span class="dp-dots">&hellip;</span></a>
 						</div>
 					</div>
-
-				</div> <!-- Reply Box -->
+				</div>
+				<!-- 2 -->
+				<div class="dp-TicketMessage">
+					<div class="dp-MessageContainer dp-ColorContainer">
+						<div class="dp-MessageHeader">
+							<div class="dp-Left">
+								<span class="dp-Icon dp-iconUserAvatar"></span>
+								<span>Zack Prudent</span>
+							</div>
+							<div class="dp-Right">
+								<div class="dp-Time">03/11/2016 at 09.58am</div>
+								<a href="#" class="dp-Icon dp-settings"></a>
+							</div>
+						</div>
+						<div class="dp-MessageTitle">
+							<p class="dp-Type">Agent note</p>
+						</div>
+						<div class="dp-MessageBody">
+							<p class="dp-txt">I’ve asked one of the tech guys to take a look but don’t want to reply until we know the timeframe for a resolution.</p>
+						</div>
+					</div>
+				</div>
 
 			</div> <!-- MainRightContainer -->
 		</div> <!-- MainContainer -->

@@ -2,7 +2,7 @@
 title: Side-bar Overlay (developing)
 ---
 
-```html @preview
+<!-- ```html @preview
 <ul class="dp-LeftSidebar">
 	<li><button class="dpApps-ButtonTabs ButtonTabs-arrow"><i class="dpApps-IconArrow iconArrow--left"></i></button></li>
 	<li class="dp-BarIcon-wrap">
@@ -22,66 +22,88 @@ title: Side-bar Overlay (developing)
 		<span class="dpApps-Icon"><img src="/agent-interface/style/img/docs/salesforce-logo.svg" alt=""></span>
 	</li>
 </ul>
-```
+``` -->
 
+<h2> side-bar-overlay/apps </h2>
 ```html @preview
 <div class="dp-UserOverlay">
 	<div class="dp-OverlayWrapp">
 		<div class="dp-UserContainer dp-UserTitleInfo">
-
 			<div class="dp-UserTabName">
-				<div class="dp-UserInfo">
-					<span class="dp-Icon dp-Avatar">
-						<img src="/agent-interface/style/img/docs/avatar.png" class="dp-IconAvatar" alt=""></img>
-					</span>
-					<span class="dp-UserNameId">
-						<span class="dp-UserName"> Zack Prudent </span>
-						<span class="dp-UserId"> #83995 </span>
-					</span>
-				</div>
-				<div>
-					<span class="dp-Icon dp-IconUserArrow"></span>
-					<span class="dp-Icon dp-IconCloseGrey"></span>
-				</div>
-			</div>
+				<div class="dp-UserNameId">
+					<div class="dp-UserInfo">
+						<span class="dp-Icon dp-iconUserAvatar"></span>
+						<span class="dp-UserName"> Zac Prudent </span>
+					</div>
 
+					<div class="dp-TabsBtn">
+						<span class="dp-Icon dp-IconJump"></span>
+						<span class="dp-Icon dp-IconCloseGrey"></span>
+					</div>
+				</div>
+				<span class="dp-UserId"> #14355 </span>
+			</div>
 		</div>
 		<div class="dp-UserContainer dp-BrandsInfo">
+
 			<ul class="dp-LeftSidebar">
-				<li><button class="dpApps-ButtonTabs ButtonTabs-arrow"><i class="dpApps-IconArrow iconArrow--left"></i></button></li>
+				<li class="dp-BarIcon-wrap dp-BorderBottom">
+					<span class="dp-Icon dp-LeftCaret"></span>
+				</li>
 				<li class="dp-BarIcon-wrap">
 					<span class="dpApps-Icon"><img src="/agent-interface/style/img/docs/trello-logo.svg" alt=""></span>
 				</li>
 				<li class="dp-BarIcon-wrap">
 					<span class="dpApps-Icon"><img src="/agent-interface/style/img/docs/youtrack-logo.svg" alt=""></span>
 				</li>
-				<li class="dp-BarIcon-wrap">
+				<li class="dp-BarIcon-wrap dp-BorderBottom">
 					<span class="dpApps-Icon"><img src="/agent-interface/style/img/docs/mailchimp-logo.svg" alt=""></span>
 				</li>
-				<li class="dp-BarIcon-wrap">
+				<li class="dp-BarIcon-wrap dp-BorderBottom">
 					<span class="dpApps-Icon"><img src="/agent-interface/style/img/docs/jira-logo.svg" alt=""></span>
 				</li>
-				<li class="dp-BarIcon-wrap">
+				<li class="dp-BarIcon-wrap dp-BorderBottom">
 					<span class="dpApps-Icon"><img src="/agent-interface/style/img/docs/salesforce-logo.svg" alt=""></span>
 				</li>
 			</ul>
+
 			<div class="dp-OverlayContent">
+
 				<div class="dp-TitleRow">
 					<span class="dp-UserInfo">
-						<span class="dp-Icon dp-Avatar dp-InfoItem">
-							<img src="/agent-interface/style/img/docs/avatar.png" class="dp-IconAvatar" alt=""></img>
-						</span>
-						<span class="dp-InfoItem dp-Tag">#83995</span>
+						<span class="dp-Icon dp-iconUserAvatar dp-InfoItem"></span>
+						<span class="dp-InfoItem dp-Tag">#14355</span>
 						<span class="dp-InfoItem dp-UserName">Zack Prudent</span>
 					</span>
-
-					<span><span class="dp-Icon dp-IconCloseBlue"></span>
 			    </div>
-				<div class="dp-Label">
-					<div class="dp-LabelItem dp-LabelTitle">Labels:</div>
-					<div class="dp-LabelItem dp-Tag Tag--close Tag--purple">Vip<span class="dp-iconClose"></span></div>
-					<div class="dp-LabelItem dp-Icon dp-add_tab"></div>
+
+				<!-- Action bar -->
+				<div class="dp-DropDownBar">
+					<ul class="dp-DropDownList">
+						<li class="dp-ActionButton">
+							<span class="dp-Icon dp-lock"></span>
+							Lock
+						</li>
+						<li class="dp-ActionButton">
+							<span class="dp-Icon dp-IconLink"></span>
+							Link
+						</li>
+						<li class="dp-ActionButton">
+							<span class="dp-Icon dp-IconPlusGrey"></span>
+							New
+						</li>
+						<li class="dp-ActionButton">
+							<span class="dp-Icon dp-IconPrint"></span>
+							Print
+						</li>
+						<li class="dp-ActionButton">
+							<span class="dp-Icon dp-rocket"></span>
+							Actions
+						</li>
+					</ul>
 				</div>
+
+				<!-- Menu Bar List -->
 				<ul class="dp-MenuBarList">
 					<li class="dp-MenuBarItem">
 						<span class="dp-Icon dp-IconCloud"></span>
@@ -96,22 +118,25 @@ title: Side-bar Overlay (developing)
 						<span class="dp-Title">License<span class="dp-Arrow"></span></span>
 					</li>
 				</ul>
-				<div class="dp-TabContainer">
-					<div class="dp-Tabs">
-						<ul class="dp-TabItesm">
-							<li class="dp-TabItem is-active"> Tickets </li>
-							<li class="dp-TabItem"> Activity stream </li>
-							<li class="dp-TabItem"> User groups </li>
-							<li class="dp-TabItem"> Brands </li>
-						</ul>
-					</div>
-				</div>
+
+
+				<!-- Table -->
+				<ul class="dp-ActionsItems dp-BorderBottom">
+				    <li class="dp-ActionsItem dp-MenuBarItem is-active">Tickets</li>
+				    <li class="dp-ActionsItem dp-MenuBarItem">Activity stream</li>
+				    <li class="dp-ActionsItem dp-MenuBarItem">User groups</li>
+				    <li class="dp-ActionsItem dp-MenuBarItem">Brands</li>
+				</ul>
+
+
 				<ul class="dp-TicketsInfo">
+
 					<li class="dp-TicketsInfoItem dp-TicketsInfoTitle is-active">
 						<span class="dp-idItem">ID</span>
 						<span class="dp-SubjectItem">SUBJECT</span>
 						<span class="dp-StatusItem dp-MenuBarItem">STATUS & URGENCY<span class="dp-Arrow"></span></span>
 					</li>
+
 					<li class="dp-TicketsOpen">
 						<ul>
 							<li class="dp-TicketsInfoItem">

@@ -592,6 +592,7 @@
 }
 
 .dp-SearchInput {
+  background-color: var(--white);
   outline: none;
   padding: 5px 0 5px 25px;
 }
