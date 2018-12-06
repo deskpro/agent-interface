@@ -1,0 +1,156 @@
+:root {
+  --font-family-sans-serif: "Roboto", "Helvetica", "Arial", sans-serif;
+  --font-family-base: var(--font-family-sans-serif);
+
+  --font-size-xs: 0.625rem; /* 10px */
+  --font-size-base: 0.75rem; /* 12px */
+  --font-size-md: 0.815rem; /* 13px */
+  --font-size-lg: calc(var(--font-size-base) * 1.25);
+  --font-size-sm: calc(var(--font-size-base) * 0.85);
+
+  /*  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-italic: italic; */
+
+  --font-weight-base: var(--is-regular);
+  --line-height-base: 1.2;
+
+  --gray: #8b9293;
+  --gray-50: #f7f7f7;
+  --gray-100: #eceef0;
+  --gray-200: #d0dae2;
+  --gray-300: #b0c0cc;
+  --gray-400: #798d9d;
+  --gray-500: #5f768a;
+  --gray-550: #707576;
+  --gray-600: #4c4f50;
+  --gray-in-active: #a9b0b0;
+  --gray-light: #afc0cc;
+
+  --blue-active: #3a8dde;
+  --blue-rollover: #4b93cf;
+  --blue-light: #e9f7ff;
+  --blue: #4696dc;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #f14154;
+  --red-dark: #d3125c;
+  --orange: #faaf3a;
+  --yellow: #ffc107;
+  --green-light: #57ce6b;
+  --green: #94be46;
+  --green-100: #4fb05c;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+
+  --text-light: #fefefe;
+  --text-dark: #4d4d4d;
+  --text-darkish: #555;
+
+  --text-color: var(--black);
+
+  --dark-red: #cc3a4a;
+  --color-primary: var(--blue);
+  --color-secondary: var(--gray-400);
+  --color-success: var(--green);
+  --color-info: var(--cyan);
+  --color-warning: var(--yellow);
+  --color-danger: var(--red);
+
+  --link-color: var(--color-primary);
+  --link-hover-color: color-mod(var(--color-primary) blackness(50%));
+
+  --border-radius-button: calc(var(--border-radius) * 0.75);
+  --border-radius: 0.25rem; /* 4px based on 16px document */
+  --border-radius-small: calc(var(--border-radius) * 0.5); /* 4px based on 16px document */
+  --border-radius-comment: 0.25rem;
+
+  --animation-speed: 0.2s;
+
+  --bg-app-panel: #edeff1;
+  --bg-app-panel-hover: #d5dde3;
+  --border-color-light: #d2dce4;
+  --border-color-dark: #b2c2ce;
+  --border-color: #cecece;
+  --normal-font-size: 1rem;
+  --border-color-input: #cecece;
+
+  --height-icon: 15px;
+  --width-icon: 15px;
+
+  --card-border: 2px;
+  --card-padding: 4px;
+  --card-element-margin: 13px;
+  --framework-margin: 10px;
+  --button-padding: 10px;
+
+  --height-menu: 46px;
+  --height-search-snippet: calc(-1px - var(--height-menu));
+  --height-search-control: 45px;
+  --padding-tabbar: 5px 25px 7px 10px;
+  --padding-tabs: 5px 10px;
+  --padding-drop-down: 3.5px 10px;
+  --padding-message-container: 10px;
+  --padding-message-color-container: 20px 10px 10px;
+
+  /* Deskpro Colours */
+  --white: #fff;
+  --black: #000;
+
+  --brand-primary: #3a8dde;
+  --primary-light: #e9f7ff;
+  --grey-darkest: #4c4f50;
+  --grey-dark: #8b9293;
+  --grey: #a9b0b0;
+  --grey-light: #d3d6d7;
+  --grey-lighter: #eff0f0;
+  --grey-lightest: #f7f7f7;
+
+  --danger: #e84954;
+  --warning: #ec6c4e;
+  --netural: #54b162;
+  --success: #f8af3c;
+  --info: #4b93cf;
+  --pink: #df5e9c;
+  --purple: #9384bd;
+
+  --danger-light: #fbe1e3;
+  --warning-light: #f9e6e1;
+  --netural-light: #fff8e1;
+  --success-light: #efd;
+  --info-light: #e1eefb;
+  --pink-light: #fae8f0;
+  --purple-light: #ebe4f2;
+
+  /* Fonts */
+  --font-family-open-sans: "Open Sans", sans-serif;
+  --font-family-base: var(--font-family-open-sans);
+
+  --is-regular: 400;
+  --is-semibold: 600;
+  --is-bold: 700;
+  --is-uppercase: uppercase;
+  --is-italic: italic;
+
+  --font-Title-XL: 16px;
+  --font-Title-L: 14px;
+  --font-Title-N: 13px;
+  --font-Title-S: 12px;
+
+  --font-Text-L: 11px;
+  --font-Text-N: 10px;
+  --font-Text-S: 9px;
+
+  --font-Text-XS: 7px;
+
+  /* Deskpro Shadows */
+  --shadow-bottom: 0 5px 5px rgba(0, 0, 0, 0.15);
+  --shadow-bottom-left: -5px 5px 5px rgba(0, 0, 0, 0.15);
+  --shadow-bottom-right: 5px 5px 5px rgba(0, 0, 0, 0.15);
+  --shadow-left: -5px 0 5px rgba(0, 0, 0, 0.15);
+  --shadow-right: 5px 0 5px rgba(0, 0, 0, 0.15);
+}
