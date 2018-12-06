@@ -1,4 +1,5 @@
 import * as React from "react";
+import "./Button.css";
 
 export type ButtonProps = {
   onClick(e: React.MouseEvent<HTMLElement>): void;
@@ -9,18 +10,7 @@ const Button: React.SFC<ButtonProps> = ({
   children,
   ...props
 }) => (
-  <button
-    type="button"
-    style={{
-      border: "1px solid #ddd",
-      borderRadius: "3px",
-      backgroundColor: "#efefef",
-      outline: "none",
-      padding: "10px"
-    }}
-    onClick={handleClick}
-    {...props}
-  >
+  <button type="button" className="btn" onClick={handleClick} {...props}>
     {children}
   </button>
 );
