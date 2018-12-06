@@ -1,0 +1,51 @@
+{
+  "name": "@deskpro/agent-interface-components",
+  "version": "0.0.1",
+  "description": "react components for agent interface",
+  "author": "Artem Berdyshev <berdartem@gmail.com>",
+  "homepage": "https://github.com/deskpro/agent-interface#readme",
+  "license": "BSD-3-Clause",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build:js": "tsc -p tsconfig.json",
+    "build:css": "postcss src/**/*.css --base src --dir dist",
+    "build": "npm-run-all build:*",
+    "watch:ts": "tsc -w",
+    "watch:css": "postcss src/**/*.css --base src --dir dist --watch",
+    "dev": "npm-run-all watch:* --parallel",
+    "test": "jest --env=jsdom",
+    "lint": "eslint ./src --ext js,jsx,ts,tsx"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.10",
+    "@types/prop-types": "^15.5.6",
+    "@types/react": "^16.7.13",
+    "@types/react-dom": "^16.0.11",
+    "eslint": "^5.9.0",
+    "jest": "^23.6.0",
+    "jest-dom": "^3.0.0",
+    "postcss-autoreset": "^2.0.2",
+    "postcss-cli": "^6.0.1",
+    "postcss-extend-rule": "^2.0.0",
+    "postcss-flexbugs-fixes": "^4.1.0",
+    "postcss-import": "^12.0.1",
+    "postcss-inline-svg": "^3.1.1",
+    "postcss-preset-env": "^6.4.0",
+    "postcss-reporter": "^6.0.0",
+    "postcss-svgo": "^4.0.1",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-testing-library": "^5.3.1",
+    "rimraf": "^2.6.2",
+    "ts-jest": "^23.10.5",
+    "typescript": "^3.2.1"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "prop-types": "^15.6.2"
+  }
+}

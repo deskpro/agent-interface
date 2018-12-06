@@ -18,6 +18,7 @@ fi
 mkdir -p ./target/gh-pages
 
 mv ./packages/style/website/build/style ./target/gh-pages/style
+mv ./packages/components-demo/storybook-static ./target/gh-pages/demo
 
 cat << EOF > ./target/gh-pages/index.html
 <html>
@@ -37,6 +38,9 @@ cat << EOF > ./target/gh-pages/index.html
               <div class="pluginRowBlock">
                 <div class="pluginWrapper buttonWrapper">
                   <a class="button" href="./style/">CSS and Styling</a>
+                </div>
+                <div class="pluginWrapper buttonWrapper">
+                  <a class="button" href="./demo/">React Components Demo</a>
                 </div>
 
                 <div class="pluginWrapper buttonWrapper">
