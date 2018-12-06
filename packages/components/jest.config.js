@@ -7,6 +7,7 @@ module.exports = {
   collectCoverageFrom: ["./src/**/*.{js,ts,tsx}", "!**/*.test.{js,ts,tsx}"],
   setupTestFrameworkScriptFile: "./jest.setup.js",
   moduleFileExtensions: ["js", "jsx", "ts", "tsx"],
+  moduleNameMapper: { "\\.css$": "<rootDir>/__mocks__/stylesMock.js" },
   transform: {
     "^.+\\.tsx?$": "ts-jest"
   },
