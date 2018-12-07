@@ -1,3 +1,6 @@
+@import "../fonts.css";
+@import "../vars.css";
+
 .dpApps-Panel {
   border: 1px solid var(--gray-200);
   display: block;

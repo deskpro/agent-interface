@@ -1,3 +1,6 @@
+@import "fonts.css";
+@import "vars.css";
+
 .is-regular {
   font-weight: var(--is-regular);
 }

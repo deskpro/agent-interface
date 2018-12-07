@@ -1,3 +1,6 @@
+@import "../fonts.css";
+@import "../vars.css";
+
 .dpApps-ActionList {
   display: flex;
 }

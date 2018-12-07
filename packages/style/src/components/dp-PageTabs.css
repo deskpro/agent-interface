@@ -1,3 +1,6 @@
+@import "../fonts.css";
+@import "../vars.css";
+
 .dp-TabBarList .dp-TabBarItem .dp-Icon {
   height: 15px;
   margin-right: 5px;

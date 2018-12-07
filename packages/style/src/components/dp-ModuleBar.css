@@ -1,3 +1,6 @@
+@import "../fonts.css";
+@import "../vars.css";
+
 .dp-ModulebarContainer {
   background-color: var(--grey-lighter);
   color: inherit;
