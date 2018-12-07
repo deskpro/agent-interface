@@ -1,7 +1,7 @@
 import * as React from "react";
 // import * as PropTypes from "prop-types";
 import classNames from "classnames";
-import "./Button.css";
+import "@deskpro/agent-interface-style/dist/elements/buttons.css";
 
 const colors = ["primary", "secondary", "success", "info", "warning", "danger"];
 const sizes = ["small", "medium", "large"];
