@@ -278,9 +278,6 @@
   border-color: var(--white) transparent transparent transparent;
 }
 
-/* .dp-ReplyBox .dp-ActionsItem:hover,
-.dp-ReplyBox .dp-ActionsItem.is-active { */
-
 .dp-ActionsItem:hover, .dp-ActionsItem.is-active {
   border-bottom: 1px solid var(--brand-primary);
   color: var(--brand-primary);
@@ -365,21 +362,6 @@
 
 .dp-ColorContainer .dp-MessageTitle .dp-Type {
   color: var(--grey-dark);
-}
-
-.dp-ExpandButton {
-  background-color: var(--grey-light);
-  cursor: pointer;
-  display: block;
-  height: 14px;
-  line-height: 7px;
-  margin: 10px 0;
-  max-width: 80px;
-  text-align: center;
-}
-
-.dp-ExpandButton .dp-dots {
-  vertical-align: middle;
 }
 
 /* ticket/agentselect */

@@ -349,12 +349,6 @@
 
 /* 7 */
 
-/**
- * This can be used to set base styles for a tree of elements/components.
- * This should typically be the root of the app
- * (e.g. on the actual <body> tag itself usually).
- */
-
 .dpApps-Body {
   color: var(--text-dark);
   font-family: var(--font-family-sans-serif);

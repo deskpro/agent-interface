@@ -25,8 +25,6 @@
   border-top-right-radius: 5px;
   display: flex;
   flex-direction: column;
-
-  /* justify-content: space-between; */
   margin-bottom: -1px;
   margin-left: 45px;
   max-width: 162px;
@@ -145,6 +143,7 @@
 .dp-Files {
   align-items: center;
   display: flex;
+  font-size: var(--font-Title-S);
   margin-bottom: 10px;
 }
 
@@ -176,28 +175,6 @@
   background-size: 9px 12px;
 }
 
-/* .dp-UserOverlay .dp-IconPlusAdd, .dp-UserOverlay .dp-IconCloseBlue {
-  background-size: 20px 20px;
-  height: 20px;
-  width: 20px;
-} */
-
-/* .dp-UserOverlay .dp-IconCloud {
-  background-size: 25px 25px;
-  height: 25px;
-  width: 25px;
-} */
-
-/* .dp-UserOverlay .dp-IconCloseBlue {
-  border-left: 1px solid #a9b0b0;
-  cursor: pointer;
-  padding-left: 30px;
-} */
-
-/* .dp-UserOverlay .dp-MenuBarList {
-  padding-bottom: 10px;
-} */
-
 .dp-UserOverlay .dp-TabContainer {
   margin-top: 15px;
 }
@@ -226,10 +203,21 @@
 }
 
 .dp-TicketsInfo .dp-TicketsInfoItem.dp-TicketsInfoTitle {
+  align-items: center;
   background-color: var(--grey-lighter);
-  border-radius: 5px;
+  border: 0;
+  border-radius: var(--border-radius);
   color: var(--grey-darkest);
-  padding: 3px 0;
+  padding: 5px 0;
+}
+
+.dp-BodyTicket .dp-MainItem {
+  color: var(--grey-darkest);
+  font-size: var(--font-Text-N);
+}
+
+.dp-TicketsInfoTitle .dp-MainItem {
+  font-size: var(--font-Text-S);
 }
 
 .dp-TicketsInfo .dp-TicketsOpen {
@@ -250,18 +238,6 @@
   border-width: 3px 3px 0 3px;
 }
 
-.dp-TicketsInfo .dp-TicketsInfoTitle .dp-idItem {
-  padding-left: 10px;
-}
-
-.dp-TicketsInfo .dp-TicketsInfoTitle .dp-StatusItem {
-  padding-right: 10px;
-}
-
-.dp-TicketsInfo .dp-TicketsInfoTitle .dp-SubjectItem {
-  font-size: var(--font-size-xs);
-}
-
 .dp-TicketsInfo .dp-TicketsInfoItem {
   border-bottom: 1px solid var(--grey-light);
   display: flex;
@@ -274,8 +250,11 @@
   width: 100%;
 }
 
+.dp-TicketsInfo .dp-TicketsInfoTitle .dp-idItem {
+  padding-left: 10px;
+}
+
 .dp-TicketsInfo .dp-SubjectItem {
-  font-size: var(--font-size-base);
   max-width: 55%;
   width: 100%;
 }
@@ -283,7 +262,6 @@
 .dp-TicketsInfo .dp-StatusItem {
   align-items: center;
   display: flex;
-  font-size: var(--font-size-xs);
   justify-content: flex-end;
   max-width: 30%;
   text-align: right;
@@ -292,7 +270,7 @@
 
 .dp-StatusItem .dp-qt {
   align-items: center;
-  border: 1px solid #fbb03b;
+  border: 1px solid var(--success);
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -306,19 +284,12 @@
   padding: 0;
 }
 
-.dp-Green {
+.dp-Green, .dp-MainItem.dp-Green {
   color: var(--green-light);
 }
 
-.dp-Orange {
-  color: #fbb03b;
-}
-
-.dp-UserOverlay .dp-IconDelete {
-  background-size: 15px 15px;
-  height: 15px;
-  margin-left: 5px;
-  width: 15px;
+.dp-Orange, .dp-MainItem.dp-Orange {
+  color: var(--success);
 }
 
 .dp-UserOverlay .dp-MessageContainer.dp-ColorContainer .dp-txt {
@@ -329,14 +300,20 @@
   margin-bottom: 15px;
 }
 
+.dp-UserOverlay .dp-TicketMessage .dp-Badge {
+  margin-left: 0;
+  margin-right: 5px;
+}
+
 .dp-FilesList .dp-FilesInfo:first-child {
-  border-top: 1px solid #ededed;
+  border-top: 1px solid var(--grey-light);
 }
 
 .dp-FilesInfo {
   align-items: center;
-  border-bottom: 1px solid #ededed;
+  border-bottom: 1px solid var(--grey-light);
   display: flex;
+  font-size: var(--font-Text-N);
   justify-content: space-between;
   padding: 10px 0;
 }
@@ -359,23 +336,3 @@
   border-left: 0;
   border-top: 0;
 }
-
-/* .dp-TemplateInnerContent {
-  padding-right: 60px;
-}
-
-.dp-OverlayWrapp .dpApps-IconArrow {
-  transform: rotate(90deg);
-}
-
-.dp-OverlayWrapp .dpApps-AppPanel {
-  display: none;
-  position: absolute;
-  left: 0;
-  top: 0;
-  z-index: 1;
-}
-
-.dp-OverlayWrapp .dpApps-AppPanel.is-active {
-  display: block;
-} */

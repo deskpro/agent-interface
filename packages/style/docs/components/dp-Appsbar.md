@@ -1,5 +1,5 @@
 ---
-title: Apps bar
+title: Apps bar (developing)
 ---
 
 ```html @preview

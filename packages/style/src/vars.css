@@ -2,20 +2,6 @@
   --font-family-sans-serif: "Roboto", "Helvetica", "Arial", sans-serif;
   --font-family-base: var(--font-family-sans-serif);
 
-  --font-size-xs: 0.625rem; /* 10px */
-  --font-size-base: 0.75rem; /* 12px */
-  --font-size-md: 0.815rem; /* 13px */
-  --font-size-lg: calc(var(--font-size-base) * 1.25);
-  --font-size-sm: calc(var(--font-size-base) * 0.85);
-
-  /*  --font-weight-light: 300;
-  --font-weight-normal: 400;
-  --font-weight-medium: 500;
-  --font-weight-semibold: 600;
-  --font-weight-bold: 700;
-  --font-italic: italic; */
-
-  --font-weight-base: var(--is-regular);
   --line-height-base: 1.2;
 
   --gray: #8b9293;
@@ -30,8 +16,9 @@
   --gray-in-active: #a9b0b0;
   --gray-light: #afc0cc;
 
-  --blue-active: #3a8dde;
-  --blue-rollover: #4b93cf;
+  /* --blue-active: #3a8dde; */
+
+  /* --blue-rollover: #4b93cf; */
   --blue-light: #e9f7ff;
   --blue: #4696dc;
   --indigo: #6610f2;
@@ -146,6 +133,30 @@
   --font-Text-S: 9px;
 
   --font-Text-XS: 7px;
+
+  /* New Fonts */
+  --h-xl: var(--is-regular) 16px/1.2 "Open Sans", sans-serif;
+  --h-l-semibold: var(--is-semibold) 14px/1.2 "Open Sans", sans-serif;
+  --h-l-bold: var(--is-bold) 14px/1.2 "Open Sans", sans-serif;
+  --h-n-semibold: var(--is-semibold) 13px/1.2 "Open Sans", sans-serif;
+  --h-s-semibold: var(--is-semibold) 12px/1.2 "Open Sans", sans-serif;
+
+  --p-xl: var(--is-regular) 12px/1.2 "Open Sans", sans-serif;
+  --p-xl-italic: var(--is-regular) var(--is-italic) 12px/1.2 "Open Sans", sans-serif;
+
+  --p-l: var(--is-regular) 11px/1.2 "Open Sans", sans-serif;
+  --p-l-semibold: var(--is-semibold) 11px/1.2 "Open Sans", sans-serif;
+
+  --p-n: var(--is-regular) 10px/1.2 "Open Sans", sans-serif;
+  --p-n-semibold-caps: var(--is-semibold) 10px/1.2 "Open Sans", sans-serif;
+  --p-n-semibold: var(--is-semibold) 10px/1.2 "Open Sans", sans-serif;
+  --p-n-caps: var(--is-regular) 10px/1.2 "Open Sans", sans-serif;
+
+  --p-s: var(--is-regular) 9px/1.2 "Open Sans", sans-serif;
+  --p-s-semibold: var(--is-semibold) 9px/1.2 "Open Sans", sans-serif;
+
+  --l-n: var(--is-regular) 7px/1.2 "Open Sans", sans-serif;
+  --l-n-semibold: var(--is-semibold) 7px/1.2 "Open Sans", sans-serif;
 
   /* Deskpro Shadows */
   --shadow-bottom: 0 5px 5px rgba(0, 0, 0, 0.15);

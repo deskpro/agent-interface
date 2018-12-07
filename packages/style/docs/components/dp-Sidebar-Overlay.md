@@ -2,28 +2,6 @@
 title: Side-bar Overlay (developing)
 ---
 
-<!-- ```html @preview
-<ul class="dp-LeftSidebar">
-	<li><button class="dpApps-ButtonTabs ButtonTabs-arrow"><i class="dpApps-IconArrow iconArrow--left"></i></button></li>
-	<li class="dp-BarIcon-wrap">
-		<span class="dpApps-Icon"><img src="/agent-interface/style/img/docs/trello-logo.svg" alt=""></span>
-	</li>
-
-	<li class="dp-BarIcon-wrap">
-		<span class="dpApps-Icon"><img src="/agent-interface/style/img/docs/youtrack-logo.svg" alt=""></span>
-	</li>
-	<li class="dp-BarIcon-wrap">
-		<span class="dpApps-Icon"><img src="/agent-interface/style/img/docs/mailchimp-logo.svg" alt=""></span>
-	</li>
-	<li class="dp-BarIcon-wrap">
-		<span class="dpApps-Icon"><img src="/agent-interface/style/img/docs/jira-logo.svg" alt=""></span>
-	</li>
-	<li class="dp-BarIcon-wrap">
-		<span class="dpApps-Icon"><img src="/agent-interface/style/img/docs/salesforce-logo.svg" alt=""></span>
-	</li>
-</ul>
-``` -->
-
 <h2> side-bar-overlay/apps </h2>
 ```html @preview
 <div class="dp-UserOverlay">
@@ -119,7 +97,6 @@ title: Side-bar Overlay (developing)
 					</li>
 				</ul>
 
-
 				<!-- Table -->
 				<ul class="dp-ActionsItems dp-BorderBottom">
 				    <li class="dp-ActionsItem dp-MenuBarItem is-active">Tickets</li>
@@ -128,62 +105,62 @@ title: Side-bar Overlay (developing)
 				    <li class="dp-ActionsItem dp-MenuBarItem">Brands</li>
 				</ul>
 
-
 				<ul class="dp-TicketsInfo">
 
 					<li class="dp-TicketsInfoItem dp-TicketsInfoTitle is-active">
-						<span class="dp-idItem">ID</span>
-						<span class="dp-SubjectItem">SUBJECT</span>
-						<span class="dp-StatusItem dp-MenuBarItem">STATUS & URGENCY<span class="dp-Arrow"></span></span>
+						<span class="dp-idItem dp-MainItem">ID</span>
+						<span class="dp-SubjectItem dp-MainItem">SUBJECT</span>
+						<span class="dp-StatusItem dp-MenuBarItem dp-MainItem">STATUS & URGENCY<span class="dp-Arrow"></span></span>
 					</li>
 
 					<li class="dp-TicketsOpen">
-						<ul>
+						<ul class="dp-BodyTicket">
 							<li class="dp-TicketsInfoItem">
-								<span class="dp-idItem">#83995</span>
-								<span class="dp-SubjectItem">New agent questions</span>
-								<span class="dp-StatusItem dp-Orange">Awaiting agent <span class="dp-qt">4</span><span class="dp-Badge Badge--empty"></span></span>
+								<span class="dp-idItem dp-MainItem">#83995</span>
+								<span class="dp-SubjectItem dp-MainItem">New agent questions</span>
+								<span class="dp-StatusItem dp-Orange dp-MainItem">Awaiting agent <span class="dp-qt">4</span><span class="dp-Badge Badge--empty"></span></span>
 							</li>
 							<li class="dp-TicketsInfoItem">
-								<span class="dp-idItem">#74562</span>
-								<span class="dp-SubjectItem">Translations</span>
-								<span class="dp-StatusItem dp-Green">Awaiting user<span class="dp-Badge Badge--empty"></span></span>
+								<span class="dp-idItem dp-MainItem">#74562</span>
+								<span class="dp-SubjectItem dp-MainItem">Translations</span>
+								<span class="dp-StatusItem dp-Green dp-MainItem">Awaiting user<span class="dp-Badge Badge--empty"></span></span>
 							</li>
 							<li class="dp-TicketsInfoItem">
-								<span class="dp-idItem">#63331</span>
-								<span class="dp-SubjectItem">ASP Licensing</span>
-								<span class="dp-StatusItem dp-Green">Awaiting user<span class="dp-Badge Badge--empty"></span></span>
+								<span class="dp-idItem dp-MainItem">#63331</span>
+								<span class="dp-SubjectItem dp-MainItem">ASP Licensing</span>
+								<span class="dp-StatusItem dp-Green dp-MainItem">Awaiting user<span class="dp-Badge Badge--empty"></span></span>
 							</li>
 							<li class="dp-TicketsInfoItem">
-								<span class="dp-idItem">#83995</span>
-								<span class="dp-SubjectItem">Ver5 Upgrade</span>
-								<span class="dp-StatusItem dp-Green">Awaiting user<span class="dp-Badge Badge--empty"></span></span>
+								<span class="dp-idItem dp-MainItem">#83995</span>
+								<span class="dp-SubjectItem dp-MainItem">Ver5 Upgrade</span>
+								<span class="dp-StatusItem dp-Green dp-MainItem">Awaiting user<span class="dp-Badge Badge--empty"></span></span>
 							</li>
 							<li class="dp-TicketsInfoItem">
-								<span class="dp-idItem">#74562</span>
-								<span class="dp-SubjectItem">Your Plan</span>
-								<span class="dp-StatusItem dp-Green">Awaiting user<span class="dp-Badge Badge--empty"></span></span>
+								<span class="dp-idItem dp-MainItem">#74562</span>
+								<span class="dp-SubjectItem dp-MainItem">Your Plan</span>
+								<span class="dp-StatusItem dp-Green dp-MainItem">Awaiting user<span class="dp-Badge Badge--empty"></span></span>
 							</li>
 							<li class="dp-TicketsInfoItem">
-								<span class="dp-idItem">#63331</span>
-								<span class="dp-SubjectItem">New feature idea</span>
-								<span class="dp-StatusItem dp-Green">Resolve</span>
+								<span class="dp-idItem dp-MainItem">#63331</span>
+								<span class="dp-SubjectItem dp-MainItem">New feature idea</span>
+								<span class="dp-StatusItem dp-MainItem">Resolve</span>
 							</li>
 							<li class="dp-TicketsInfoItem">
-								<span class="dp-idItem">#83995</span>
-								<span class="dp-SubjectItem">Issue creating multiple tickets</span>
-								<span class="dp-StatusItem dp-Green">Awaiting user<span class="dp-Badge Badge--empty"></span></span>
+								<span class="dp-idItem dp-MainItem">#83995</span>
+								<span class="dp-SubjectItem dp-MainItem">Issue creating multiple tickets</span>
+								<span class="dp-StatusItem dp-Green dp-MainItem">Awaiting user<span class="dp-Badge Badge--empty"></span></span>
 							</li>
 							<li class="dp-TicketsInfoItem">
-								<span class="dp-idItem">#74562</span>
-								<span class="dp-SubjectItem">FW: DeskPRO error</span>
-								<span class="dp-StatusItem dp-Green">Awaiting user<span class="dp-Badge Badge--empty"></span></span>
+								<span class="dp-idItem dp-MainItem">#74562</span>
+								<span class="dp-SubjectItem dp-MainItem">FW: DeskPRO error</span>
+								<span class="dp-StatusItem dp-Green dp-MainItem">Awaiting user<span class="dp-Badge Badge--empty"></span></span>
 							</li>
 						</ul>
 					</li>
 				</ul>
+
 				<div class="dp-Files">
-					Notes<span class="dp-LabelItem dp-Icon dp-add_tab"></span>
+					Notes<span class="dp-LabelItem dp-Icon dp-add_tab--reverse"></span>
 				</div>
 				<div class="dp-TicketMessage">
 					<div class="dp-MessageContainer dp-ColorContainer">
@@ -200,7 +177,7 @@ title: Side-bar Overlay (developing)
 							</div>
 							<div class="dp-Right">
 								<div class="dp-Time">03/11/2016 at 09.58am</div>
-								<a href="#" class="dp-Icon dp-IconDelete"></a>
+								<a href="#" class="dp-Icon dp-Bin"></a>
 							</div>
 						</div>
 						<div class="dp-MessageTitle">
@@ -228,7 +205,7 @@ title: Side-bar Overlay (developing)
 							</div>
 							<div class="dp-Right">
 								<div class="dp-Time">03/11/2016 at 09.58am</div>
-								<a href="#" class="dp-Icon dp-IconDelete"></a>
+								<a href="#" class="dp-Icon dp-Bin"></a>
 							</div>
 						</div>
 						<div class="dp-MessageTitle">
@@ -242,7 +219,7 @@ title: Side-bar Overlay (developing)
 					</div>
 				</div>
 				<div class="dp-Files">
-					Files<span class="dp-LabelItem dp-Icon dp-add_tab"></span>
+					Files<span class="dp-LabelItem dp-Icon dp-add_tab--reverse"></span>
 				</div>
 				<div class="dp-FilesList">
 					<div class="dp-FilesInfo">
@@ -251,8 +228,8 @@ title: Side-bar Overlay (developing)
 							<span class="dp-ExtItem">250 KB</span>
 						</div>
 						<div class="dp-RightInfo">
-							<span class="dp-DeleteItem">Delete<span class="dp-Arrow"></span></span>
-							<span class="dp-EditItem">Edit<span class="dp-Arrow"></span></span>				
+							<span class="dp-DeleteItem">Delete</span>
+							<span class="dp-EditItem">Edit</span></span>				
 						</div>
 					</div>
 					<div class="dp-FilesInfo">
@@ -261,8 +238,8 @@ title: Side-bar Overlay (developing)
 							<span class="dp-ExtItem">456 KB</span>
 						</div>
 						<div class="dp-RightInfo">
-							<span class="dp-DeleteItem">Delete<span class="dp-Arrow"></span></span>
-							<span class="dp-EditItem">Edit<span class="dp-Arrow"></span></span>				
+							<span class="dp-DeleteItem">Delete</span>
+							<span class="dp-EditItem">Edit</span>				
 						</div>
 					</div>
 				</div>
