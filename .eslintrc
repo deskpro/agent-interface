@@ -14,7 +14,8 @@
       "node": {
         "extensions": [".js", ".jsx", ".ts", ".tsx"]
       }
-    }
+    },
+    "import/ignore": ["\\.css$"]
   },
   "rules": {
     "no-use-before-define": "off",
@@ -22,9 +23,13 @@
     "import/prefer-default-export": "off",
     "import/no-named-as-default": "off",
     "import/no-webpack-loader-syntax": "off",
+    "import/no-unresolved": ["error", {
+      "ignore": ["\\.css$"]
+    }],
     "import/no-extraneous-dependencies": "off",
     "react/forbid-prop-types": "off",
-    "react/jsx-filename-extension": "off"
+    "react/jsx-filename-extension": "off",
+    "react/prop-types": "off"
   },
   "overrides": [{
     "files": ["**/*.ts", "**/*.tsx"],

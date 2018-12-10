@@ -1,17 +1,16 @@
 import * as React from "react";
-// import * as PropTypes from "prop-types";
 import classNames from "classnames";
 import "@deskpro/agent-interface-style/dist/elements/buttons.css";
 
 const colors = ["primary", "secondary", "success", "info", "warning", "danger"];
 const sizes = ["small", "medium", "large"];
 
-export type ButtonProps = {
+export interface ButtonProps {
   size?: string;
   color?: string;
-  rounded?: boolean;
+  rounded?: boolean | null;
   onClick(e: React.MouseEvent<HTMLElement>): void;
-};
+}
 
 const Button: React.SFC<ButtonProps> = ({
   onClick: handleClick,
@@ -35,12 +34,10 @@ const Button: React.SFC<ButtonProps> = ({
   </button>
 );
 
-// @ts-ignore
-// Button.propTypes = {
-//   size: PropTypes.oneOf(sizes),
-//   color: PropTypes.oneOf(colors),
-//   onClick: PropTypes.func.isRequired,
-//   rounded: PropTypes.bool
-// };
+Button.defaultProps = {
+  size: "",
+  color: "",
+  rounded: false
+};
 
 export default Button;
