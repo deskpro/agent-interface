@@ -68,7 +68,7 @@
   align-items: center;
   color: var(--grey-darkest);
   display: flex;
-  font: var(--p-l)
+  font: var(--p-l);
 }
 
 .dp-SecurityBreach .dp-Icon {
@@ -222,7 +222,8 @@ input.dp-NewTitle {
 
 .dp-MergeTickets table td:nth-child(even) {
   flex: 0 0 65%;
-  /*font: var(--p-l)*/
+
+  /* font: var(--p-l) */
   font: var(--p-l);
 }
 

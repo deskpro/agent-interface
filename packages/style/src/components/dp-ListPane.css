@@ -1258,9 +1258,9 @@ thead .dp-FilterResultTitle td {
 }
 
 .dp-ContextMenu > li > a {
-  font: var(--p-l);
   color: var(--grey-darkest);
   display: flex;
+  font: var(--p-l);
   padding: var(--padding-drop-down);
 }
 

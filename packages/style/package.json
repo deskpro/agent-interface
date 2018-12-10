@@ -5,7 +5,9 @@
   "license": "Commercial",
   "description": "Styling for for Deskpro Agent Interface",
   "main": "dist/style.css",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "publishConfig": {
     "access": "public"
   },

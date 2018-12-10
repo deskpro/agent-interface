@@ -40,8 +40,8 @@
 }
 
 .dp-TicketSelect .dp-UserName {
-  font: var(--p-n);
   color: var(--grey-darkest);
+  font: var(--p-n);
   max-width: 100%;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -227,10 +227,10 @@
 }
 
 .dp-ActionsItem {
-  font: var(--p-n);
   color: var(--grey-dark);
   cursor: pointer;
   display: flex;
+  font: var(--p-n);
   padding: 5px 0;
   text-transform: uppercase;
 }
@@ -252,11 +252,11 @@
 }
 
 .dp-SendAs {
-  font: var(--p-xl);
   background-color: var(--grey);
   border-radius: 2px;
   color: var(--white);
   cursor: pointer;
+  font: var(--p-xl);
   max-width: 100%;
   padding: 5px 5px 5px 10px;
   position: relative;
@@ -264,7 +264,7 @@
 
 .dp-SendAs::after {
   background-color: var(--white);
-  content: '';
+  content: "";
   height: 100%;
   position: absolute;
   right: 23px;
@@ -297,8 +297,8 @@
 }
 
 .dp-ReplyBox textarea::placeholder {
-  font-style: italic;
   font: var(--h-l-semibold);
+  font-style: italic;
 }
 
 /* Reply Box 2 */
@@ -356,8 +356,8 @@
 }
 
 .dp-MessageTitle .dp-Type {
-  font: var(--p-xl);
   color: var(--brand-primary);
+  font: var(--p-xl);
   font-weight: var(--is-semibold);
   margin-bottom: 5px;
   text-transform: uppercase;
