@@ -18,8 +18,8 @@ title: Header
           <div class="dp-TopActionRowLeft">
             <div class="dp-SearchHeader">
                 <form>
-                    <button type="submit" class="dp-Icon dp-find"></button>
                     <input type="" placeholder="Search ..."></input>
+                    <button type="submit" class="dp-Icon dp-find"></button>
                 </form>
                 <div class="dp-IconSection">
                     <ul class="dp-IconPanelList">
@@ -88,14 +88,14 @@ title: Header
           <div class="dp-TopActionRowLeft">
             <div class="dp-SearchHeader">
                 <form>
-                    <button type="submit" class="dp-Icon dp-find--primary"></button>
-                    <input type="" placeholder="Pricing" class="dp-DropMenuJs"></input>
+                    <input type="" placeholder="Search ..." value="Pricing"></input>
+                    <button type="submit" class="dp-Icon dp-find"></button>
                 </form>
                 <div class="dp-IconSection">
 
                     <ul class="dp-IconPanelList">
                         <li class="dp-MenuBarItem">
-                            <span class="dp-Icon dp-IconStar"></span>
+                            <span class="dp-Icon dp-IconStarSearch"></span>
                         </li>
                         <li class="dp-MenuBarItem">
                             <span class="dp-Icon dp-close-darkest"></span>
@@ -145,8 +145,8 @@ title: Header
           <div class="dp-TopActionRowLeft">
             <div class="dp-SearchHeader">
                 <form>
+                    <input type="" placeholder="Search ..."></input>
                     <button type="submit" class="dp-Icon dp-find"></button>
-                    <input type="" placeholder="Search ..." class="dp-DropMenuJs"></input>
                 </form>
                 <div class="dp-IconSection">
                     <ul class="dp-IconPanelList">
@@ -255,27 +255,26 @@ title: Header
 
         <li>
             <span class="dp-Icon dp-find"></span>
-            <span class="dp-Icon dp-find--primary"></span>
+            <span class="dp-Icon dp-find is-active"></span>
         </li>
 
         <li>
             <span class="dp-Icon dp-history"></span>
-            <span class="dp-Icon dp-history--primary"></span>
+            <span class="dp-Icon dp-history is-active"></span>
         </li>
 
         <li>
             <span class="dp-Icon dp-add_im"></span>
-            <span class="dp-Icon dp-add_im--primary"></span>
+            <span class="dp-Icon dp-add_im is-active"></span>
         </li>
 
         <li>
-            <span class="dp-Icon dp-notifications"></span>
-
-            <span class="dp-Icon dp-notifications--dark">
+            <span disabled class="dp-Icon dp-notifications"></span>
+            <span class="dp-Icon dp-notifications">
                 <span class="dp-Badge dp-danger">5</span>
             </span>
 
-            <span class="dp-Icon dp-notifications--primary">
+            <span class="dp-Icon dp-notifications is-active">
                 <span class="dp-Badge dp-danger">5</span>
             </span>
         </li>
@@ -286,12 +285,12 @@ title: Header
         </li>
 
         <li>
-            <span class="dp-Icon dp-chat"></span>
-            <span class="dp-Icon dp-chat--dark">
+            <span disabled class="dp-Icon dp-chat"></span>
+            <span class="dp-Icon dp-chat">
                 <span class="dp-Badge dp-danger">5</span>
             </span>
             <span class="dp-Icon dp-chat--danger"></span>
-            <span class="dp-Icon dp-chat--primary">
+            <span class="dp-Icon dp-chat is-active">
                 <span class="dp-Badge dp-danger">5</span>
             </span>
         </li>

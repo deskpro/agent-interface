@@ -1,0 +1,22 @@
+@import "../fonts.css";
+@import "../vars.css";
+
+.dp-Header {
+  background-color: var(--grey-lighter);
+}
+
+.dp-Header.Header-general {
+  align-items: flex-start;
+  height: 400px;
+  padding: 25px;
+}
+
+.dp-Header.header-wrapper {
+  height: 100px;
+}
+
+.dp-HeaderContainer {
+  background-color: var(--white);
+  display: block;
+  width: 100%;
+}

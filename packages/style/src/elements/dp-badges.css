@@ -160,6 +160,7 @@
   background-position: 50%;
   border-radius: 50%;
   color: var(--white);
+  cursor: pointer;
   display: inline-block;
   font-size: 10px;
   height: 18px;

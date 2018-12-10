@@ -170,12 +170,15 @@
   border-top: 1px solid transparent;
   color: var(--grey-darkest);
   display: flex;
-  display: flex;
   font: var(--h-s-semibold);
   margin: 0;
   padding: 7px 13px;
   text-transform: uppercase;
   width: 100%;
+}
+
+.dp-Tableview .dp-FilterResultTitle td {
+  font: var(--h-s-semibold);
 }
 
 .dp-FilterResultTitle .dp-SortIconDescription {
@@ -681,7 +684,7 @@
 }
 
 .dp-TableSubject, .dp-TableLabels, .dp-TableUser {
-  width: 215px;
+  width: 230px;
 }
 
 .dp-TableDepartment, .dp-TableLanguage, .dp-TableLastreply {
