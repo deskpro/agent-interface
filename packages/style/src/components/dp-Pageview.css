@@ -5,9 +5,9 @@
 
 .dp-StatusTimes {
   align-items: center;
-  color: var(--gray);
+  color: var(--grey-dark);
   display: flex;
-  font-size: var(--font-Text-N);
+  font: var(--p-n);
   margin: 0;
 }
 
@@ -32,7 +32,7 @@
 }
 
 .dp-TicketSmall .dp-title-item {
-  font-size: var(--font-Text-N);
+  font: var(--p-n);
 }
 
 .dp-TicketSelect .dp-title-item {
@@ -40,8 +40,8 @@
 }
 
 .dp-TicketSelect .dp-UserName {
+  font: var(--p-n);
   color: var(--grey-darkest);
-  font-size: var(--font-Text-N);
   max-width: 100%;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -101,8 +101,6 @@
 .dp-DropDownBar {
   display: block;
   margin: 10px 0;
-
-  /* margin: 8px 12px; */
 }
 
 .dp-DropDownList {
@@ -115,6 +113,7 @@
 }
 
 .dp-DropDownBar .dp-ActionButton .dp-Icon {
+  cursor: pointer;
   display: inline-block;
   margin-right: 5px;
 }
@@ -228,10 +227,10 @@
 }
 
 .dp-ActionsItem {
+  font: var(--p-n);
   color: var(--grey-dark);
   cursor: pointer;
   display: flex;
-  font-size: var(--font-Text-N);
   padding: 5px 0;
   text-transform: uppercase;
 }
@@ -253,11 +252,11 @@
 }
 
 .dp-SendAs {
-  background-color: var(--grey-light);
+  font: var(--p-xl);
+  background-color: var(--grey);
   border-radius: 2px;
   color: var(--white);
   cursor: pointer;
-  font-size: var(--font-Title-S);
   max-width: 100%;
   padding: 5px 5px 5px 10px;
   position: relative;
@@ -265,7 +264,7 @@
 
 .dp-SendAs::after {
   background-color: var(--white);
-  content: "";
+  content: '';
   height: 100%;
   position: absolute;
   right: 23px;
@@ -299,6 +298,7 @@
 
 .dp-ReplyBox textarea::placeholder {
   font-style: italic;
+  font: var(--h-l-semibold);
 }
 
 /* Reply Box 2 */
@@ -312,7 +312,7 @@
 .dp-TicketMessage .dp-Left {
   align-items: center;
   display: flex;
-  font-size: var(--font-Text-L);
+  font: var(--p-l);
 }
 
 .dp-TicketMessage .dp-Left > a {
@@ -326,7 +326,7 @@
   align-items: center;
   color: var(--grey);
   display: flex;
-  font-size: var(--font-Text-N);
+  font: var(--p-n);
 }
 
 .dp-Left .dp-Icon {
@@ -339,7 +339,7 @@
 
 .dp-MessageBody {
   color: var(--grey-darkest);
-  font-size: var(--font-Title-S);
+  font: var(--p-xl);
 }
 
 .dp-MessageContainer.dp-ColorContainer {
@@ -351,13 +351,13 @@
 }
 
 .dp-MessageContainer.dp-ColorContainer .dp-txt {
-  font-size: var(--font-Title-S);
+  font: var(--p-xl);
   margin-bottom: 0;
 }
 
 .dp-MessageTitle .dp-Type {
+  font: var(--p-xl);
   color: var(--brand-primary);
-  font-size: var(--font-Title-S);
   font-weight: var(--is-semibold);
   margin-bottom: 5px;
   text-transform: uppercase;
@@ -395,8 +395,7 @@
 }
 
 .dp-SsoTxt {
-  font-size: var(--font-Title-L);
-  font-weight: var(--is-semibold);
+  font: var(--h-l-semibold);
 }
 
 .dp-TagBar .dp-Tag.Tag--plus {

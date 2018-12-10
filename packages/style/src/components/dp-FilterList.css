@@ -31,9 +31,7 @@
 
 .dp-Tickets {
   display: block;
-
-  /* height: var(--height-menu); */
-  font-size: var(--font-Title-L);
+  font: var(--h-l-semibold);
   position: relative;
 }
 
@@ -134,7 +132,7 @@
   cursor: pointer;
   display: flex;
   flex-direction: column;
-  font-size: var(--font-Title-N);
+  font: var(--p-n);
   justify-content: space-between;
   margin: 0;
   padding: 10px;
@@ -172,7 +170,7 @@
   color: var(--grey-dark);
   cursor: pointer;
   display: flex;
-  font-size: var(--font-Text-L);
+  font: var(--p-l);
   justify-content: space-between;
   margin-left: -5px;
   margin-right: -5px;
@@ -182,6 +180,7 @@
 .dp-TicketMenu .dp-SubMenu a.is-active {
   background-color: var(--brand-primary);
   color: var(--white);
+  font: var(--p-xl);
 }
 
 .dp-TicketMenu .dp-SubMenu a.is-active .dp-SubNum {
@@ -190,12 +189,12 @@
 
 .dp-Tickets .dp-SubNum {
   color: var(--grey-darkest);
-  font-size: var(--font-Title-S);
+  font: var(--p-xl);
 }
 
 .dp-TicketMenu .dp-TitleMenu {
   display: flex;
-  font-weight: var(--is-semibold);
+  font: var(--h-n-semibold);
   justify-content: space-between;
   width: 100%;
 }

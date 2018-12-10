@@ -1,0 +1,10 @@
+@import "../fonts.css";
+@import "../vars.css";
+
+.dp-Tag + .dp-Tag {
+  margin-left: 5px;
+}
+
+.dp-Tag:first-child {
+  margin-left: 0;
+}

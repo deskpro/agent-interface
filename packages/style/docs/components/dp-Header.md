@@ -19,7 +19,7 @@ title: Header
             <div class="dp-SearchHeader">
                 <form>
                     <button type="submit" class="dp-Icon dp-find"></button>
-                    <input type="" placeholder="Search ..." class="dp-DropMenuJs"></input>
+                    <input type="" placeholder="Search ..."></input>
                 </form>
                 <div class="dp-IconSection">
                     <ul class="dp-IconPanelList">

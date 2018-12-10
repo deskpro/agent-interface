@@ -46,6 +46,10 @@
   position: relative;
 }
 
+.dp-ModuleBar .dp-ModuleBarList:last-child {
+  margin-top: 15px;
+}
+
 .dp-ModuleBar .dp-ModuleBarList.is-active,.dp-ModuleBar .dp-ModuleBarList.is-active:hover {
   background-color: var(--brand-primary);
 }
@@ -56,14 +60,15 @@
 
 .dp-ModuleBar .dp-IconTooltip {
   background-color: var(--grey);
+  border: 1px solid var(--grey-light);
   border-radius: 2px;
-  color: #fff;
+  color: var(--white);
   display: none;
-  font-size: var(--font-Text-N);
+  font: var(--p-s);
   left: 40px;
   line-height: 1;
   min-width: 50px;
-  padding: 1px 0 2px 5px;
+  padding: 2px 0 2px 5px;
   position: absolute;
   top: 10px;
   z-index: 10;
@@ -101,12 +106,22 @@
 
 .dp-IconTooltip .dp-AccountItem {
   background-color: var(--white);
-  color: var(--grey);
-  font-size: var(--font-Text-S);
 }
 
-.dp-IconTooltip .dp-AccountItem:hover {
-  background-color: #e9f6fe;
+.dp-AccountItem .dp-raven {
+  color: var(--grey);
+  font: var(--p-s);
+}
+
+.dp-raven .dp-BuyNow {
+  font: var(--l-n);
+}
+
+.dp-IconTooltip .dp-AccountItem:hover, .dp-AccountItem.is-active {
+  background-color: var(--primary-light);
+}
+
+.dp-IconTooltip .dp-AccountItem:hover .dp-raven, .dp-AccountItem.is-active .dp-raven {
   color: var(--brand-primary);
 }
 
@@ -118,7 +133,7 @@
 .dp-ModuleBar .dp-IconPlaneOrange, .dp-ModuleBar .dp-IconPlaneViolet, .dp-ModuleBar .dp-IconPlane {
   display: block;
   height: 15px;
-  margin-right: 4px;
+  margin-right: 5px;
   min-width: 15px;
   width: 15px;
 }
@@ -192,7 +207,7 @@
 
 .dp-YourAccount {
   display: none;
-  font-size: var(--font-size-base);
+  font: var(--p-xl);
 }
 
 .dp-YourAccount.is-active {
@@ -236,7 +251,7 @@
 .dp-YourAccount .dp-AccountTitle {
   background-color: var(--brand-primary);
   color: var(--white);
-  font-size: var(--font-Title-S);
+  font: var(--p-l);
   width: 100%;
 }
 
@@ -245,15 +260,12 @@
   color: var(--grey-darkest);
   cursor: pointer;
   display: flex;
+  font: var(--p-xl);
   max-width: 150px;
 }
 
 .dp-YourAccount .dp-Icon-Title .dp-Icon {
   cursor: pointer;
-}
-
-.dp-YourAccount  .is-disabled .dp-raven {
-  color: var(--grey);
 }
 
 .dp-AccountList {
@@ -264,25 +276,17 @@
 
 .dp-AccountItem {
   align-items: center;
-  border-bottom: 1px solid #e6e7e8;
+  border-bottom: 1px solid var(--grey-light);
   display: flex;
   justify-content: space-between;
   margin: 0;
   padding: 10px;
 }
 
-.dp-YourAccount .dp-AccountItem:last-child {
-  font-size: 11px;
+.dp-AccountItem:last-child {
+  border-bottom: 0;
 }
 
-.dp-AccountItem.dp-raven {
-  color: #a9b0b0;
-}
-
-.dp-AccountItem.dp-raven.is-active {
-  color: var(--grey-darkest);
-}
-
-.dp-YourAccount .dp-BuyNow {
-  font-size: var(--font-size-xs);
+.dp-YourAccount .dp-AccountItem:last-child .dp-Icon-Title {
+  font: var(--p-l);
 }

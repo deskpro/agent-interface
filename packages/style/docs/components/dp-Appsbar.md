@@ -15,8 +15,6 @@ title: Apps bar (developing)
 </div>
 ```
 
-
-
 ```html @preview
 <div class="dpApps-ActionPanel">
   <div class="dpApps-HeaderAppPanel dpApps-Level">
@@ -967,7 +965,7 @@ title: Apps bar (developing)
     <tr class="dpApps-DateTableRow">
       <td class="dpApps-DateTableSku">#4356</td>
       <td class="dpApps-DateTableText">Mens shirts</td>
-      <td class="dpApps-DateTableTag"><span class="dpApps-Tag dpApps-Tag--orange">On hold</span></td>
+      <td class="dpApps-DateTableTag"><span class="dpApps-Tag dpApps-Tag--warning">On hold</span></td>
     </tr>
     <tr class="dpApps-DateTableRow">
       <td class="dpApps-DateTableSku">#4357</td>

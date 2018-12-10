@@ -19,7 +19,9 @@
     ],
     "Elements": [
       "elements/dp-Icons",
-      "elements/dp-Buttons"
+      "elements/dp-Buttons",
+      "elements/dp-Badges",
+      "elements/dp-Input"
     ]
   }
 }

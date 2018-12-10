@@ -23,6 +23,7 @@
 
 .dp-TopActionRow {
   border-bottom: 1px solid var(--grey);
+  display: flex;
 }
 
 .dp-Header {
@@ -67,7 +68,7 @@
 
 .dp-SearchHeader input::placeholder {
   color: var(--grey-darkest);
-  font-size: var(--font-Title-XL);
+  font: var(--h-xl);
 }
 
 .dp-SearchHeader .dp-Icon {
@@ -290,7 +291,7 @@
 .dp-MenuBarItem .dp-Badge {
   border-radius: 50%;
   color: var(--white);
-  font-size: var(--font-Text-N);
+  font: var(--p-n);
   letter-spacing: -0.5px;
   padding: 3px;
 }
@@ -305,7 +306,7 @@
 .dp-MenuBarItem .dp-Title {
   color: var(--grey-darkest);
   display: inline-block;
-  font-size: var(--font-Title-S);
+  font: var(--h-s-semibold);
   padding: 5px 0 0 4px;
   position: relative;
 }

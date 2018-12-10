@@ -2,57 +2,11 @@
 
   --line-height-base: 1.2;
 
-  --gray: #8b9293;
-  --gray-50: #f7f7f7;
-  --gray-100: #eceef0;
-  --gray-200: #d0dae2;
-  --gray-300: #b0c0cc;
-  --gray-400: #798d9d;
-  --gray-500: #5f768a;
-  --gray-550: #707576;
-  --gray-600: #4c4f50;
-  --gray-in-active: #a9b0b0;
-  --gray-light: #afc0cc;
-
-  /* --blue-active: #3a8dde; */
-
-  /* --blue-rollover: #4b93cf; */
-  --blue-light: #e9f7ff;
-  --blue: #4696dc;
-  --indigo: #6610f2;
-  --purple: #6f42c1;
-  --pink: #e83e8c;
-  --red: #f14154;
-  --red-dark: #d3125c;
-  --orange: #faaf3a;
-  --yellow: #ffc107;
-  --green-light: #57ce6b;
-  --green: #94be46;
-  --green-100: #4fb05c;
-  --teal: #20c997;
-  --cyan: #17a2b8;
-
-  --text-light: #fefefe;
-  --text-dark: #4d4d4d;
-  --text-darkish: #555;
-
-  --text-color: var(--black);
-
-  --dark-red: #cc3a4a;
-  --color-primary: var(--blue);
-  --color-secondary: var(--gray-400);
-  --color-success: var(--green);
-  --color-info: var(--cyan);
-  --color-warning: var(--yellow);
-  --color-danger: var(--red);
-
-  --link-color: var(--color-primary);
-  --link-hover-color: color-mod(var(--color-primary) blackness(50%));
-
   --border-radius-button: calc(var(--border-radius) * 0.75);
   --border-radius: 0.25rem; /* 4px based on 16px document */
   --border-radius-small: calc(var(--border-radius) * 0.5); /* 4px based on 16px document */
   --border-radius-comment: 0.25rem;
+  --border-radius-button: 3px;
 
   --animation-speed: 0.2s;
 
@@ -85,9 +39,11 @@
   /* Deskpro Colours */
   --white: #fff;
   --black: #000;
+  --text-color: var(--black);
 
   --brand-primary: #3a8dde;
   --primary-light: #e9f7ff;
+
   --grey-darkest: #4c4f50;
   --grey-dark: #8b9293;
   --grey: #a9b0b0;
@@ -133,28 +89,28 @@
   --font-Text-XS: 7px;
 
   /* New Fonts */
-  --h-xl: var(--is-regular) 16px/1.2 "Open Sans", sans-serif;
-  --h-l-semibold: var(--is-semibold) 14px/1.2 "Open Sans", sans-serif;
-  --h-l-bold: var(--is-bold) 14px/1.2 "Open Sans", sans-serif;
-  --h-n-semibold: var(--is-semibold) 13px/1.2 "Open Sans", sans-serif;
-  --h-s-semibold: var(--is-semibold) 12px/1.2 "Open Sans", sans-serif;
+  --h-xl: var(--is-regular) var(--font-Title-XL)/var(--line-height-base) "Open Sans", sans-serif;
+  --h-l-semibold: var(--is-semibold) var(--font-Title-L)/var(--line-height-base) "Open Sans", sans-serif;
+  --h-l-bold: var(--is-bold) var(--font-Title-L)/var(--line-height-base) "Open Sans", sans-serif;
+  --h-n-semibold: var(--is-semibold) var(--font-Title-N)/var(--line-height-base) "Open Sans", sans-serif;
+  --h-s-semibold: var(--is-semibold) var(--font-Title-S)/var(--line-height-base) "Open Sans", sans-serif;
 
-  --p-xl: var(--is-regular) 12px/1.2 "Open Sans", sans-serif;
-  --p-xl-italic: var(--is-regular) var(--is-italic) 12px/1.2 "Open Sans", sans-serif;
+  --p-xl: var(--is-regular) var(--font-Title-S)/var(--line-height-base) "Open Sans", sans-serif;
+  --p-xl-italic: var(--is-regular) var(--is-italic) var(--font-Title-S)/var(--line-height-base) "Open Sans", sans-serif;
 
-  --p-l: var(--is-regular) 11px/1.2 "Open Sans", sans-serif;
-  --p-l-semibold: var(--is-semibold) 11px/1.2 "Open Sans", sans-serif;
+  --p-l: var(--is-regular) var(--font-Text-L)/var(--line-height-base) "Open Sans", sans-serif;
+  --p-l-semibold: var(--is-semibold) var(--font-Text-L)/var(--line-height-base) "Open Sans", sans-serif;
 
-  --p-n: var(--is-regular) 10px/1.2 "Open Sans", sans-serif;
-  --p-n-semibold-caps: var(--is-semibold) 10px/1.2 "Open Sans", sans-serif;
-  --p-n-semibold: var(--is-semibold) 10px/1.2 "Open Sans", sans-serif;
-  --p-n-caps: var(--is-regular) 10px/1.2 "Open Sans", sans-serif;
+  --p-n: var(--is-regular) var(--font-Text-N)/var(--line-height-base) "Open Sans", sans-serif;
+  --p-n-semibold-caps: var(--is-semibold) var(--font-Text-N)/var(--line-height-base) "Open Sans", sans-serif;
+  --p-n-semibold: var(--is-semibold) var(--font-Text-N)/var(--line-height-base) "Open Sans", sans-serif;
+  --p-n-caps: var(--is-regular) var(--font-Text-N)/var(--line-height-base) "Open Sans", sans-serif;
 
-  --p-s: var(--is-regular) 9px/1.2 "Open Sans", sans-serif;
-  --p-s-semibold: var(--is-semibold) 9px/1.2 "Open Sans", sans-serif;
+  --p-s: var(--is-regular) var(--font-Text-S)/var(--line-height-base) "Open Sans", sans-serif;
+  --p-s-semibold: var(--is-semibold) var(--font-Text-S)/var(--line-height-base) "Open Sans", sans-serif;
 
-  --l-n: var(--is-regular) 7px/1.2 "Open Sans", sans-serif;
-  --l-n-semibold: var(--is-semibold) 7px/1.2 "Open Sans", sans-serif;
+  --l-n: var(--is-regular) var(--font-Text-XS)/var(--line-height-base) "Open Sans", sans-serif;
+  --l-n-semibold: var(--is-semibold) var(--font-Text-XS)/var(--line-height-base) "Open Sans", sans-serif;
 
   /* Deskpro Shadows */
   --shadow-bottom: 0 5px 5px rgba(0, 0, 0, 0.15);

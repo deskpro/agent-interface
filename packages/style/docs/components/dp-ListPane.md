@@ -15,7 +15,7 @@ title: List Pane
     </li>
     <li class="dp-ListPane dp-DropDownItem">
         <span class="dp-Icon dp-grouped_by"></span>
-        <span class="dp-SelectGroup dp-DropMenuJs">
+        <span class="dp-SelectGroup">
             <span class="dp-ItemRow">
                 <span class="dp-Title">Grouped by</span>
                 <span class="dp-Icon dp-small_caret"></span>
@@ -30,7 +30,7 @@ title: List Pane
             <span class="dp-Icon dp-sort"></span>
             <span class="dp-SortDescription">DSC</span>
         </div>
-        <span class="dp-SelectGroup dp-DropMenuJs">
+        <span class="dp-SelectGroup">
             <span class="dp-ItemRow">
                 <span class="dp-Title">Sort by</span>
                 <span class="dp-Icon dp-small_caret"></span>
@@ -42,7 +42,7 @@ title: List Pane
     </li>
     <li class="dp-ListPane dp-DropDownItem">
         <span class="dp-Icon dp-faceted_by"></span>
-        <span class="dp-SelectGroup dp-DropMenuJs">
+        <span class="dp-SelectGroup">
             <span class="dp-ItemRow">
                 <span class="dp-Title">Faceted by</span>
                 <span class="dp-Icon dp-small_caret"></span>
@@ -54,7 +54,7 @@ title: List Pane
     </li>
     <li class="dp-ListPane dp-DropDownItem">
         <span class="dp-Icon dp-view"></span>
-        <span class="dp-SelectGroup dp-DropMenuJs">
+        <span class="dp-SelectGroup">
             <span class="dp-ItemRow">
                 <span class="dp-Title">Fields</span>
                 <span class="dp-Icon dp-small_caret"></span>
@@ -79,7 +79,7 @@ title: List Pane
     </li>
     <li class="dp-ListPane dp-DropDownItem">
         <span class="dp-Icon dp-grouped_by"></span>
-        <span class="dp-SelectGroup dp-DropMenuJs">
+        <span class="dp-SelectGroup">
             <span class="dp-ItemRow">
                 <span class="dp-Title">Grouped by</span>
                 <span class="dp-Icon dp-small_caret"></span>
@@ -94,7 +94,7 @@ title: List Pane
             <span class="dp-Icon dp-sort"></span>
             <span class="dp-SortDescription">DSC</span>
         </div>
-        <span class="dp-SelectGroup dp-DropMenuJs">
+        <span class="dp-SelectGroup">
             <span class="dp-ItemRow">
                 <span class="dp-Title">Sort by</span>
                 <span class="dp-Icon dp-small_caret"></span>
@@ -106,7 +106,7 @@ title: List Pane
     </li>
     <li class="dp-ListPane dp-DropDownItem">
         <span class="dp-Icon dp-faceted_by"></span>
-        <span class="dp-SelectGroup dp-DropMenuJs">
+        <span class="dp-SelectGroup">
             <span class="dp-ItemRow">
                 <span class="dp-Title">Faceted by</span>
                 <span class="dp-Icon dp-small_caret"></span>
@@ -118,7 +118,7 @@ title: List Pane
     </li>
     <li class="dp-ListPane dp-DropDownItem">
         <span class="dp-Icon dp-view"></span>
-        <span class="dp-SelectGroup dp-DropMenuJs">
+        <span class="dp-SelectGroup">
             <span class="dp-ItemRow">
                 <span class="dp-Title">Fields</span>
                 <span class="dp-Icon dp-small_caret"></span>
@@ -142,7 +142,7 @@ title: List Pane
     </li>
     <li class="dp-ListPane dp-DropDownItem">
         <span class="dp-Icon dp-grouped_by"></span>
-        <span class="dp-SelectGroup dp-DropMenuJs">
+        <span class="dp-SelectGroup">
             <span class="dp-ItemRow">
                 <span class="dp-Title">Grouped by</span>
                 <span class="dp-Icon dp-small_caret"></span>
@@ -157,7 +157,7 @@ title: List Pane
             <span class="dp-Icon dp-sort"></span>
             <span class="dp-SortDescription">DSC</span>
         </div>
-        <span class="dp-SelectGroup dp-DropMenuJs">
+        <span class="dp-SelectGroup">
             <span class="dp-ItemRow">
                 <span class="dp-Title">Sort by</span>
                 <span class="dp-Icon dp-small_caret"></span>
@@ -169,7 +169,7 @@ title: List Pane
     </li>
     <li class="dp-ListPane dp-DropDownItem">
         <span class="dp-Icon dp-faceted_by"></span>
-        <span class="dp-SelectGroup dp-DropMenuJs">
+        <span class="dp-SelectGroup">
             <span class="dp-ItemRow">
                 <span class="dp-Title">Faceted by</span>
                 <span class="dp-Icon dp-small_caret"></span>
@@ -181,7 +181,7 @@ title: List Pane
     </li>
     <li class="dp-ListPane dp-DropDownItem">
         <span class="dp-Icon dp-view"></span>
-        <span class="dp-SelectGroup dp-DropMenuJs">
+        <span class="dp-SelectGroup">
             <span class="dp-ItemRow">
                 <span class="dp-Title">Fields</span>
                 <span class="dp-Icon dp-small_caret"></span>
@@ -205,7 +205,7 @@ title: List Pane
     </li>
     <li class="dp-ListPane dp-DropDownItem">
         <span class="dp-Icon dp-grouped_by"></span>
-        <span class="dp-SelectGroup dp-DropMenuJs">
+        <span class="dp-SelectGroup">
             <span class="dp-ItemRow">
                 <span class="dp-Title">Grouped by</span>
                 <span class="dp-Icon dp-small_caret"></span>
@@ -220,7 +220,7 @@ title: List Pane
             <span class="dp-Icon dp-sort"></span>
             <span class="dp-SortDescription">ASC</span>
         </div>
-        <span class="dp-SelectGroup dp-DropMenuJs">
+        <span class="dp-SelectGroup">
             <span class="dp-ItemRow">
                 <span class="dp-Title">Sort by</span>
                 <span class="dp-Icon dp-small_caret"></span>
@@ -232,7 +232,7 @@ title: List Pane
     </li>
     <li class="dp-ListPane dp-DropDownItem">
         <span class="dp-Icon dp-faceted_by"></span>
-        <span class="dp-SelectGroup dp-DropMenuJs">
+        <span class="dp-SelectGroup">
             <span class="dp-ItemRow">
                 <span class="dp-Title">Faceted by</span>
                 <span class="dp-Icon dp-small_caret"></span>
@@ -244,7 +244,7 @@ title: List Pane
     </li>
     <li class="dp-ListPane dp-DropDownItem">
         <span class="dp-Icon dp-view"></span>
-        <span class="dp-SelectGroup dp-DropMenuJs">
+        <span class="dp-SelectGroup">
             <span class="dp-ItemRow">
                 <span class="dp-Title">Fields</span>
                 <span class="dp-Icon dp-small_caret"></span>
@@ -426,43 +426,42 @@ title: List Pane
 </div>
 ```
 
-<h2>listpane/pagination_one</h2>
+<h2>listpane/pagination-start</h2>
 ```html @preview
-<div class="dp-MainWrapper">
-    <div class="dp-Pagination">
-        <a href="#" class="dp-PageNumber"><span class="dp-Icon dp-arrowLeft--primary"></span></a>
-        <a href="#" class="dp-PageNumber">1</a>
-        <span class="dp-BreakPagination">...</span>
-        <a href="#" class="dp-PageNumber">5</a>
-        <a href="#" class="dp-PageNumber">6</a>
-        <span class="dp-PageNumber is-active">7</span>
-        <a href="#" class="dp-PageNumber">8</a>
-        <a href="#" class="dp-PageNumber">9</a>
-        <span class="dp-BreakPagination">...</span>
-        <a href="#" class="dp-PageNumber">14</a>
-        <a href="#" class="dp-PageNumber"><span class="dp-Icon dp-arrowRight--primary"></span></a>
-    </div>
+<div class="dp-Pagination">
+    <a href="#" class="dp-PageNumber  is-active">1</a>
+    <a href="#" class="dp-PageNumber">2</a>
+    <a href="#" class="dp-PageNumber">3</a>
+    <a href="#" class="dp-PageNumber">4</a>
+    <a href="#" class="dp-PageNumber">5</a>
+    <a href="#" class="dp-PageNumber">6</a>
+    <a href="#" class="dp-PageNumber">7</a>
+    <span class="dp-BreakPagination">...</span>
+    <a href="#" class="dp-PageNumber">
+        <span class="dp-Icon dp-Infinity"></span>
+    </a>
+    <a href="#" class="dp-PaginationArrows"><span class="dp-Icon dp-arrowRight"></span></a>
 </div>
 ```
 
-<h2>listpane/pagination_two</h2>
+<h2>listpane/pagination-midpage</h2>
 ```html @preview
-<div class="dp-MainWrapper">
-    <div class="dp-Pagination dp-Pagination-two">
-        <a href="#"><span class="dp-Icon dp-arrowLeft--primary"></span></a>
-        <a href="#" class="dp-PageNumber">1</a>
-        <span class="dp-BreakPagination">...</span>
-        <a href="#" class="dp-PageNumber">5</a>
-        <a href="#" class="dp-PageNumber">6</a>
-        <span class="dp-PageNumber is-active">7</span>
-        <a href="#" class="dp-PageNumber">8</a>
-        <a href="#" class="dp-PageNumber">9</a>
-        <a href="#"><span class="dp-Icon dp-arrowRight--primary"></span></a>
-    </div>
+<div class="dp-Pagination dp-Pagination-two">
+    <a href="#" class="dp-PaginationArrows"><span class="dp-Icon dp-arrowLeft"></span></a>
+    <a href="#" class="dp-PageNumber">1</a>
+    <span class="dp-BreakPagination">...</span>
+    <a href="#" class="dp-PageNumber">5</a>
+    <a href="#" class="dp-PageNumber">6</a>
+    <span class="dp-PageNumber is-active">7</span>
+    <a href="#" class="dp-PageNumber">8</a>
+    <a href="#" class="dp-PageNumber">9</a>
+    <span class="dp-BreakPagination">...</span>
+    <a href="#" class="dp-PageNumber">
+        <span class="dp-Icon dp-Infinity"></span>
+    </a>
+    <a href="#" class="dp-PaginationArrows"><span class="dp-Icon dp-arrowRight"></span></a>
 </div>
 ```
-
-
 
 <h2>listpane/header</h2>
 ```html @preview
@@ -872,7 +871,7 @@ title: List Pane
     </li>
     <li class="dp-ListPane dp-DropDownItem">
         <span class="dp-Icon dp-grouped_by"></span>
-        <span class="dp-SelectGroup dp-DropMenuJs">
+        <span class="dp-SelectGroup">
             <span class="dp-ItemRow">
                 <span class="dp-Title">Grouped by</span>
                 <span class="dp-Icon dp-small_caret"></span>
@@ -887,7 +886,7 @@ title: List Pane
             <span class="dp-Icon dp-sort"></span>
             <span class="dp-SortDescription">DSC</span>
         </div>
-        <span class="dp-SelectGroup dp-DropMenuJs">
+        <span class="dp-SelectGroup">
             <span class="dp-ItemRow">
                 <span class="dp-Title">Sort by</span>
                 <span class="dp-Icon dp-small_caret"></span>
@@ -899,7 +898,7 @@ title: List Pane
     </li>
     <li class="dp-ListPane dp-DropDownItem">
         <span class="dp-Icon dp-faceted_by"></span>
-        <span class="dp-SelectGroup dp-DropMenuJs">
+        <span class="dp-SelectGroup">
             <span class="dp-ItemRow">
                 <span class="dp-Title">Faceted by</span>
                 <span class="dp-Icon dp-small_caret"></span>
@@ -911,7 +910,7 @@ title: List Pane
     </li>
     <li class="dp-ListPane dp-DropDownItem">
         <span class="dp-Icon dp-view"></span>
-        <span class="dp-SelectGroup dp-DropMenuJs">
+        <span class="dp-SelectGroup">
             <span class="dp-ItemRow">
                 <span class="dp-Title">Fields</span>
                 <span class="dp-Icon dp-small_caret"></span>
@@ -1230,7 +1229,7 @@ title: List Pane
     </li>
     <li class="dp-ListPane dp-DropDownItem">
         <span class="dp-Icon dp-grouped_by"></span>
-        <span class="dp-SelectGroup dp-DropMenuJs">
+        <span class="dp-SelectGroup">
             <span class="dp-ItemRow">
                 <span class="dp-Title">Grouped by</span>
                 <span class="dp-Icon dp-small_caret"></span>
@@ -1245,7 +1244,7 @@ title: List Pane
             <span class="dp-Icon dp-sort"></span>
             <span class="dp-SortDescription">DSC</span>
         </div>
-        <span class="dp-SelectGroup dp-DropMenuJs">
+        <span class="dp-SelectGroup">
             <span class="dp-ItemRow">
                 <span class="dp-Title">Sort by</span>
                 <span class="dp-Icon dp-small_caret"></span>
@@ -1257,7 +1256,7 @@ title: List Pane
     </li>
     <li class="dp-ListPane dp-DropDownItem">
         <span class="dp-Icon dp-faceted_by"></span>
-        <span class="dp-SelectGroup dp-DropMenuJs">
+        <span class="dp-SelectGroup">
             <span class="dp-ItemRow">
                 <span class="dp-Title">Faceted by</span>
                 <span class="dp-Icon dp-small_caret"></span>
@@ -1269,7 +1268,7 @@ title: List Pane
     </li>
     <li class="dp-ListPane dp-DropDownItem">
         <span class="dp-Icon dp-view"></span>
-        <span class="dp-SelectGroup dp-DropMenuJs">
+        <span class="dp-SelectGroup">
             <span class="dp-ItemRow">
                 <span class="dp-Title">Fields</span>
                 <span class="dp-Icon dp-small_caret"></span>

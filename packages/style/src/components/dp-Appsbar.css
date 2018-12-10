@@ -20,8 +20,9 @@
 }
 
 .dpApps-ActionListLabel {
-  color: var(--gray-500);
-  font-size: var(--h4);
+
+  /* color: var(--gray-500); */
+  font-size: var(--font-Title-S);
   padding-left: 3px;
 }
 
@@ -30,17 +31,16 @@
 }
 
 .dpApps-ActionList--grey .dpApps-ActionListLabel {
-  color: var(--gray-light);
+  color: var(--grey-lighter);
 }
 
 .dpApps-ActionList--grey svg {
-  fill: var(--gray-light);
+  fill: var(--grey-lighter);
 }
 
 .dpApps-ActionPanel {
   border: 1px solid var(--border-color);
   display: block;
-  width: var(--width-app);
 }
 
 .dpApps-HeaderAppPanel {
@@ -49,8 +49,9 @@
 }
 
 .dpApps-HeaderTitle {
-  color: var(--gray-500);
-  font-size: var(--h2);
+
+  /* color: var(--gray-500); */
+  font-size: var(--font-Title-L);
   margin-bottom: -4px;
   padding-left: 5px;
 }
@@ -76,9 +77,10 @@
 }
 
 .dpApps-ActionPanelTitle {
-  color: var(--gray-500);
+
+  /* color: var(--gray-500); */
   display: block;
-  font-size: var(--h3);
+  font-size: var(--font-Title-N);
   padding: 0 0 13px 0;
 }
 
@@ -88,7 +90,7 @@
 }
 
 .dpApps-AppBar {
-  border-bottom: var(--card-border) solid var(--gray-300);
+  border-bottom: var(--card-border) solid var(--grey);
   padding-bottom: 3px;
 }
 
@@ -103,8 +105,9 @@
 }
 
 .dpApps-AppBar .dpApps-Title {
-  color: var(--gray-500);
-  font-size: var(--h1);
+
+  /* color: var(--gray-500); */
+  font-size: var(--font-Title-XL);
   margin-bottom: 3px;
   margin-left: 8px;
 }
@@ -133,17 +136,18 @@
 }
 
 .dpApps-AppBody .dpApps-ActionListLabel {
-  font-size: var(--p1);
+  font-size: var(--font-Text-L);
 }
 
 .dpApps-AppBodyTitle {
-  color: var(--gray-500);
-  font-size: var(--h2);
+
+  /* color: var(--gray-500); */
+  font-size: var(--font-Title-L);
   line-height: 0.8;
 }
 
 .dpApps-AppBodyItem {
-  border: 1px solid var(--blue);
+  border: 1px solid var(--brand-primary);
   border-radius: var(--border-radius);
   display: block;
   margin-top: var(--card-element-margin);
@@ -171,7 +175,7 @@
 }
 
 .dpApps-LevelItemTitle {
-  color: var(--blue);
+  color: var(--brand-primary);
   font-size: 12.35px;
   font-weight: 600;
   line-height: 1;
@@ -183,7 +187,8 @@
 }
 
 .dpApps-AppBodyContent {
-  color: var(--gray-500);
+
+  /* color: var(--gray-500); */
   display: block;
   max-width: 100%;
   overflow: hidden;
@@ -192,7 +197,8 @@
 }
 
 .dpApps-AppBodySeparator {
-  color: var(--gray-500);
+
+  /* color: var(--gray-500); */
   font-size: 13px;
   padding: 0 6.5px;
 }
@@ -251,7 +257,7 @@
   }
 
   &:hover {
-    color: var(--blue);
+    color: var(--brand-primary);
   }
 }
 
@@ -318,7 +324,7 @@
 
 .dpApps-AddApp-text {
   color: #5f768a;
-  font-size: var(--h4);
+  font-size: var(--font-Title-S);
   padding-left: 15px;
 }
 
@@ -342,7 +348,6 @@
   background-color: var(--bg-app-panel);
   border: 1px solid var(--border-color);
   display: block;
-  width: var(--width-app);
 }
 
 .dpApps-AppPanelBody {
@@ -352,10 +357,9 @@
 
 /* 7 */
 
-.dpApps-Body {
+/* .dpApps-Body {
   color: var(--text-dark);
-  font-family: var(--font-family-sans-serif);
-  font-size: var(--font-size-base);
+  font-size: var(--font-Title-S);
   line-height: var(--line-height-base);
 
   & a {
@@ -365,10 +369,10 @@
       color: var(--link-hover-color);
     }
   }
-}
+} */
 
 body.dpApps-Body {
-  background: #fff;
+  background: var(--white);
   margin: 0;
   padding: 0;
 }
@@ -397,7 +401,7 @@ body.dpApps-Body {
   width: 39px;
 
   &::after {
-    background-color: var(--blue);
+    background-color: var(--brand-primary);
     bottom: -2px;
     content: "";
     display: block;
@@ -447,7 +451,7 @@ body.dpApps-Body {
 .dpApps-IconHamburger,
 .dpApps-IconHamburger::after,
 .dpApps-IconHamburger::before {
-  background-color: var(--blue);
+  background-color: var(--brand-primary);
   display: block;
   height: 4px;
   width: 13px;
@@ -506,7 +510,7 @@ body.dpApps-Body {
 }
 
 .ButtonTabs-arrow:hover svg {
-  fill: var(--blue);
+  fill: var(--brand-primary);
 }
 
 .dpApps-AppTabs.is-vertical .dpApps-ButtonTabs--wrap {
@@ -514,7 +518,7 @@ body.dpApps-Body {
 }
 
 .dpApps-AppTabs.is-vertical .dpApps-ButtonTabs {
-  border-bottom: 2px solid var(--gray-100);
+  border-bottom: 2px solid var(--grey-light);
   height: 36px;
   padding: 2px;
   width: 30px;
@@ -551,8 +555,9 @@ body.dpApps-Body {
 /* 9 */
 
 .dpApps-SectionTitle {
-  color: var(--gray-500);
-  font-size: var(--h2);
+
+  /* color: var(--gray-500); */
+  font-size: var(--font-Title-L);
 }
 
 .dpApps-DataDefList {
@@ -562,14 +567,15 @@ body.dpApps-Body {
 .dpApps-DataDefListKey {
   color: #9ca0ad;
   display: block;
-  font-size: var(--h4);
+  font-size: var(--font-Title-S);
   padding-top: 10px;
 }
 
 .dpApps-DataDefListValue {
-  color: var(--gray-500);
+
+  /* color: var(--gray-500); */
   display: block;
-  font-size: var(--h3);
+  font-size: var(--font-Title-N);
   padding-top: 1px;
 }
 
@@ -577,7 +583,6 @@ body.dpApps-Body {
 
 .dpApps-DateTable {
   display: block;
-  margin: 0 calc(var(--padding-app) * -1);
 }
 
 table tr.dpApps-DateTableRow {
@@ -601,8 +606,7 @@ table tr.dpApps-DateTableRow {
 
 .dpApps-DateTable td {
   display: table-cell;
-  font-size: var(--h4);
-  padding: 3px var(--padding-app);
+  font-size: var(--font-Title-S);
 }
 
 .dpApps-DateTable tr,
@@ -619,15 +623,15 @@ table tr.dpApps-DateTableRow {
 }
 
 .dpApps-DateTableText {
-  font-size: var(--h4);
+  font-size: var(--font-Title-S);
 }
 
 .dpApps-DateTableSku {
-  color: var(--blue);
+  color: var(--brand-primary);
 }
 
 .dpApps-DateTableRow:hover .dpApps-DateTableText {
-  color: var(--blue);
+  color: var(--brand-primary);
 }
 
 .dpApps-Tag {
@@ -643,19 +647,19 @@ table tr.dpApps-DateTableRow {
 }
 
 .dpApps-Tag--green {
-  background-color: var(--green);
+  background-color: var(--netural);
 }
 
 .dpApps-Tag--blue {
-  background-color: var(--blue);
+  background-color: var(--brand-primary);
 }
 
 .dpApps-Tag--blue {
-  background-color: var(--blue);
+  background-color: var(--brand-primary);
 }
 
-.dpApps-Tag--orange {
-  background-color: var(--orange);
+.dpApps-Tag--warning {
+  background-color: var(--warning);
 }
 
 /* 11 */
@@ -738,8 +742,9 @@ table tr.dpApps-DateTableRow {
 }
 
 .dpApps-ListItemTitle {
-  color: var(--gray-500);
-  font-size: var(--h3);
+
+  /* color: var(--gray-500); */
+  font-size: var(--font-Title-N);
   letter-spacing: 0.5px;
   line-height: 1.2;
   overflow: hidden;
@@ -750,9 +755,10 @@ table tr.dpApps-DateTableRow {
 }
 
 .dpApps-ListItemContent {
-  color: var(--gray-500);
+
+  /* color: var(--gray-500); */
   display: block;
-  font-size: var(--h4);
+  font-size: var(--font-Title-S);
   max-width: 100%;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -760,7 +766,8 @@ table tr.dpApps-DateTableRow {
 }
 
 .dpApps-ListItemContent .dpApps-Divider {
-  color: var(--gray-500);
+
+  /* color: var(--gray-500); */
   font-size: 13px;
   padding: 0 6.5px;
 }
@@ -800,7 +807,7 @@ table tr.dpApps-DateTableRow {
   }
 
   &:hover {
-    color: var(--blue);
+    color: var(--brand-primary);
   }
 }
 
@@ -812,7 +819,7 @@ table tr.dpApps-DateTableRow {
 
   &.is-opening,
   &:hover {
-    border-color: var(--blue);
+    border-color: var(--brand-primary);
     box-shadow: 4px 4px 10px 0 rgba(0, 0, 0, 0.1);
     transition: var(--animation-speed);
   }
@@ -820,7 +827,7 @@ table tr.dpApps-DateTableRow {
 
 .dpApps-ListItem:hover .dpApps-ListItemTitle,
 .is-opening .dpApps-ListItemTitle {
-  color: var(--blue);
+  color: var(--brand-primary);
   font-weight: 600;
   letter-spacing: 0;
   transition: color var(--animation-speed);
@@ -830,7 +837,7 @@ table tr.dpApps-DateTableRow {
 .is-opening .dpApps-ListItemContent,
 .dpApps-ListItem:hover .dpApps-Divider,
 .is-opening .dpApps-Divider {
-  color: var(--blue);
+  color: var(--brand-primary);
   transition: var(--animation-speed);
 }
 
@@ -872,18 +879,19 @@ table tr.dpApps-DateTableRow {
 /* 13 */
 
 .dpApps-Panel {
-  border: 1px solid var(--gray-200);
+  border: 1px solid var(--grey-lighter);
   display: block;
 }
 
 .dpApps-PanelHeader {
-  border-bottom: 1px solid var(--gray-200);
+  border-bottom: 1px solid var(--grey-lighter);
   padding: var(--card-padding);
 }
 
 .dpApps-PanelHeaderTitle {
-  color: var(--gray-500);
-  font-size: var(--h2);
+
+  /* color: var(--gray-500); */
+  font-size: var(--font-Title-L);
 }
 
 .dpApps-PanelHeader .dpApps-IconClose {
@@ -901,7 +909,7 @@ table tr.dpApps-DateTableRow {
 }
 
 .dpApps-DataDefListAddress {
-  font-size: var(--h4);
+  font-size: var(--font-Title-S);
 }
 
 .dpApps-DataDefListShipping {
@@ -910,7 +918,8 @@ table tr.dpApps-DateTableRow {
 
 .dpApps-DataDefListShipping,
 .dpApps-DataDefListBilling {
-  color: var(--gray-500);
+
+  /* color: var(--gray-500); */
   display: inline-block;
   font-weight: 600;
   padding-bottom: 2px;
@@ -982,78 +991,78 @@ table tr.dpApps-DateTableRow {
   }
 
   &.ColorSwatchItem--primary {
-    background-color: var(--color-primary);
+    background-color: var(--brand-primary);
 
     & .ColorSwatchItemTitle, & .ColorSwatchItemValue {
-      color: contrast(var(--color-primary));
+      color: contrast(var(--brand-primary));
     }
   }
 
   &.ColorSwatchItem--secondary {
-    background-color: var(--color-secondary);
+    background-color: var(--brand-primary);
 
     & .ColorSwatchItemTitle, & .ColorSwatchItemValue {
-      color: contrast(var(--color-secondary));
+      color: contrast(var(--brand-primary));
     }
   }
 
   &.ColorSwatchItem--success {
-    background-color: var(--color-success);
+    background-color: var(--netural);
 
     & .ColorSwatchItemTitle, & .ColorSwatchItemValue {
-      color: contrast(var(--color-success));
+      color: contrast(var(--netural));
     }
   }
 
   &.ColorSwatchItem--info {
-    background-color: var(--color-info);
+    background-color: var(--info-light);
 
     & .ColorSwatchItemTitle, & .ColorSwatchItemValue {
-      color: contrast(var(--color-info));
+      color: contrast(var(--info-light));
     }
   }
 
   &.ColorSwatchItem--warning {
-    background-color: var(--color-warning);
+    background-color: var(--success);
 
     & .ColorSwatchItemTitle, & .ColorSwatchItemValue {
-      color: contrast(var(--color-warning));
+      color: contrast(var(--success));
     }
   }
 
   &.ColorSwatchItem--danger {
-    background-color: var(--color-danger);
+    background-color: var(--danger);
 
     & .ColorSwatchItemTitle, & .ColorSwatchItemValue {
-      color: contrast(var(--color-danger));
+      color: contrast(var(--danger));
     }
   }
 
   &.ColorSwatchItem--gray-100 {
-    background-color: var(--gray-100);
+    background-color: var(--grey-light);
 
     & .ColorSwatchItemTitle, & .ColorSwatchItemValue {
-      color: contrast(var(--gray-100));
+      color: contrast(var(--grey-light));
     }
   }
 
-  &.ColorSwatchItem--gray-200 {
-    background-color: var(--gray-200);
+  &.ColorSwatchItem--grey-lighter {
+    background-color: var(--grey-lighter);
 
     & .ColorSwatchItemTitle, & .ColorSwatchItemValue {
-      color: contrast(var(--gray-200));
+      color: contrast(var(--grey-lighter));
     }
   }
 
-  &.ColorSwatchItem--gray-300 {
-    background-color: var(--gray-300);
+  &.ColorSwatchItem--grey {
+    background-color: var(--grey);
 
     & .ColorSwatchItemTitle, & .ColorSwatchItemValue {
-      color: contrast(var(--gray-300));
+      color: contrast(var(--grey));
     }
   }
 
-  &.ColorSwatchItem--gray-400 {
+  /*  &.ColorSwatchItem--gray-400 {
     background-color: var(--gray-400);
 
     & .ColorSwatchItemTitle, & .ColorSwatchItemValue {
@@ -1067,7 +1076,7 @@ table tr.dpApps-DateTableRow {
     & .ColorSwatchItemTitle, & .ColorSwatchItemValue {
       color: contrast(var(--gray-500));
     }
-  }
+  } */
 }
 
 /* 16 */
@@ -1081,7 +1090,7 @@ table tr.dpApps-DateTableRow {
 }
 
 .dpApps-TabLabel {
-  font-size: var(--h4);
+  font-size: var(--font-Title-S);
 }
 
 .dpApps-TabItem {
@@ -1095,7 +1104,7 @@ table tr.dpApps-DateTableRow {
   text-align: center;
 
   &::after {
-    background-color: var(--blue);
+    background-color: var(--brand-primary);
     bottom: -2px;
     content: "";
     display: block;
@@ -1137,5 +1146,5 @@ table tr.dpApps-DateTableRow {
 }
 
 .dpApps-TabCount {
-  color: var(--blue);
+  color: var(--brand-primary);
 }

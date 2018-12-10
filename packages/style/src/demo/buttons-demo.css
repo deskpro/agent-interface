@@ -1,0 +1,44 @@
+@import "../fonts.css";
+@import "../vars.css";
+
+.dp-ButtonContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.dp-ButtonContainer .dp-Button {
+  margin-bottom: 10px;
+}
+
+.dp-ButtonItem {
+  display: flex;
+  flex: 0 0 140px;
+  flex-direction: column;
+  margin-bottom: 30px;
+  margin-right: 50px;
+}
+
+.dp-ButtonTitle {
+  border-bottom: 0.5px solid var(--grey-dark);
+  color: var(--grey-dark);
+  font: var(--p-s);
+  margin-bottom: 10px;
+}
+
+.dp-ButtonWrapper .dp-Button + .dp-Button {
+  margin-left: 10px;
+}
+
+.dp-ButtonItem .dp-ActionButton {
+  margin: 0 0 10px;
+}
+
+.dp-ButtonDescription {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dp-ButtonItem .dp-DropDownBar {
+  margin: 0;
+}

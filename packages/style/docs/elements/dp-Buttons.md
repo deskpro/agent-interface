@@ -7,40 +7,42 @@ title: Buttons
 
 	<div class="dp-ButtonItem">
 		<div class="dp-ButtonTitle">Button/large</div>
-		<button class="dp-Button Button--large Button--in-active">Button in-active</button>
-		<button class="dp-Button Button--large Button--active">Button active</button>
+		<button disabled class="dp-Button Button--large">Button in-active</button>
+		<button class="dp-Button Button--large">Button active</button>
 	</div>
 
 	<div class="dp-ButtonItem">
 		<div class="dp-ButtonTitle">Button/small</div>
-		<div class="dp-ButtonDescription"><button class="dp-Button Button--small Button--in-active">Button</button> <span class="dp-ButtonState">inactive</span></div>
-		<div class="dp-ButtonDescription"><button class="dp-Button Button--small">Button</button> <span class="dp-ButtonState">active</span></div>
+		<div class="dp-ButtonDescription">
+			<button disabled class="dp-Button Button--small">Button</button>
+			<span class="dp-ButtonState">inactive</span>
+		</div>
+		<div class="dp-ButtonDescription">
+			<button class="dp-Button Button--small">Button</button>
+			<span class="dp-ButtonState">active</span>
+		</div>
 	</div>
 
 	<div class="dp-ButtonItem">
 		<div class="dp-ButtonTitle">Button/icon-text</div>
-		<button class="dp-ActionButton Button--in-active"><span class="dp-Icon dp-transfer"></span>Button</button>
-		<button class="dp-ActionButton Button--active"><span class="dp-Icon dp-transfer"></span>Button</button>
+		<button disabled class="dp-Button dp-ActionButton"><span class="dp-Icon dp-transfer"></span>Button</button>
+		<button class="dp-Button dp-ActionButton"><span class="dp-Icon dp-transfer"></span>Button</button>
 	</div>
 
 	<div class="dp-ButtonItem">
 		<div class="dp-ButtonTitle">Button/more</div>
-		<a href="#" class="dp-ExpandButton"><span class="dp-dots">…</span></a>
-		<a href="#" class="dp-ExpandButton Button--in-active"><span class="dp-dots">…</span></a>
+		<a class="dp-ExpandButton"><span class="dp-Icon dp-ButtonMore"></span></a>
 	</div>
 
 	<div class="dp-ButtonItem">
 		<div class="dp-ButtonTitle">Button/more-small</div>
-		<a href="#" class="dp-ExpandButton dp-ExpandButton-small"><span class="dp-dots">…</span></a>
-		<a href="#" class="dp-ExpandButton dp-ExpandButton-small Button--in-active"><span class="dp-dots">…</span></a>
+		<a class="dp-ExpandButton"><span class="dp-Icon dp-ButtonMore--Small"></span></a>
 	</div>
 
 	<div class="dp-ButtonItem">
 		<div class="dp-ButtonTitle">Button/label</div>
-		<button class="dp-Button Button--small dp-ButtonPlus">Button<span class="dp-Icon dp-IconPlusBtn"></span></button>
-		<button class="dp-Button Button--small dp-ButtonPlus dp-LabelRollover">Button<span class="dp-Icon dp-IconPlusBtn"></span></button>
+		<span class="dp-Button dp-Tag Tag--plus">Button<span class="dp-Icon dp-close"></span></span>
 	</div>
-
 
 	<div class="dp-ButtonItem">
 		<div class="dp-ButtonTitle">Button/add-round</div>
@@ -64,6 +66,13 @@ title: Buttons
                 Button
             </span>
        </div>
+
+		<div class="dp-DropDownBar">
+            <span class="dp-ActionButton is-active">
+                <span class="dp-Icon dp-lock"></span>
+                Button
+            </span>
+       </div>
 	</div>
 
 	<div class="dp-ButtonItem">
@@ -75,8 +84,6 @@ title: Buttons
 		<div class="dp-ButtonTitle">Button/add-square</div>
 		<div class="dp-Icon dp-add_tab--reverse"></div>
 	</div>
-
-
 
 </div>
 

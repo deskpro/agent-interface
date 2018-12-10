@@ -84,7 +84,7 @@
 
 .dp-DemonstrationEements .dp-DemonstrationIcon li {
   color: var(--grey-dark);
-  font-size: var(--font-Text-S);
+  font: var(--p-s);
   margin: 0;
   padding: 10px 0;
   text-align: center;
@@ -98,7 +98,7 @@
 }
 
 .dp-TimesRow .dp-TimesStatus {
-  font-weight: var(--is-semibold);
+  font: var(--p-n-semibold);
 }
 
 .dp-TimesRow .dp-Icon {
@@ -107,7 +107,7 @@
 
 .dp-TagDescription {
   color: var(--grey-darkest);
-  font-size: var(--font-Text-L);
+  font: var(--p-l);
 }
 
 .dp-TicketOverlay .dp-SectionBody-item.dp-UserPanel {
@@ -139,11 +139,10 @@
   border-bottom: 1px solid var(--grey-light);
   color: var(--grey-darkest);
   display: flex;
-  font-size: var(--font-Text-N);
+  font: var(--p-n-caps);
   margin-bottom: 10px;
   padding-bottom: 2px;
   position: relative;
-  text-transform: uppercase;
   z-index: 1;
 }
 
@@ -158,13 +157,14 @@
 
 .dp-PageSidebar .dp-Slas .dp-TitleControls {
   color: var(--grey-dark);
-  font-size: var(--font-Text-N);
+  font: var(--p-n);
   margin: 0 0 7px;
 }
 
 .dp-PageSidebar .dp-Controls {
   align-items: center;
   display: flex;
+  font: var(--p-s-semibold);
 }
 
 .dp-PageSidebar .dp-qt {
@@ -246,17 +246,18 @@
 
 .dp-AddressList .dp-TitleList {
   color: var(--grey-dark);
-  font-size: var(--font-Text-N);
+  font: var(--p-n);
   margin-bottom: 5px;
 }
 
 .dp-AddressList .dp-SubTitleList {
   color: var(--grey-darkest);
-  font-size: var(--font-Text-S);
+  font: var(--p-s);
   margin-bottom: 5px;
 }
 
 .dp-Selectbelow > .dp-ActionButton {
+  font: var(--h-s-semibold);
   margin: 0 0 5px;
 }
 
@@ -269,8 +270,12 @@
   display: flex;
 }
 
-.dp-ButtonWrapper .dp-Icon {
+.dp-ButtonWrapper .dp-LevelDown {
   margin: 0 5px 0 10px;
+}
+
+.dp-ButtonWrapper .dp-LevelDown + .dp-ActionButton {
+  font: var(--p-n-semibold);
 }
 
 .dp-PageSidebar .dp-DataWrapper {
@@ -286,7 +291,7 @@
   color: var(--grey);
 }
 
-.dp-ButtonWrapper .dp-Button.Button--small {
+.dp-Slas .dp-ButtonWrapper .dp-Button.Button--small {
   font-size: var(--font-Title-L);
 }
 
@@ -345,8 +350,7 @@
 .dp-MailAddress {
   color: var(--grey-dark);
   cursor: pointer;
-  font-size: var(--font-Text-S);
-  text-transform: none;
+  font: var(--p-s);
 }
 
 .dp-iconVDots.is-active + .dp-ContextMenu {
@@ -369,8 +373,6 @@
 
 .dp-PageSidebar .dp-SectionTitle.dp-CcRow,
 .dp-SidebarSection.dp-CCmenu {
-
-  /* margin-bottom: 5px; */
   margin-bottom: 0;
 }
 
