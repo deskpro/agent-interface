@@ -40,7 +40,7 @@ import Find from "../../icons/Find.svg";
 import Following from "../../icons/Following.svg";
 import FollowUp from "../../icons/FollowUp.svg";
 import Forms from "../../icons/Forms.svg";
-import Frame from "../../icons/Frame.svg";
+import CloseFill from "../../icons/CloseFill.svg";
 import Global from "../../icons/Global.svg";
 import GroupedBy from "../../icons/GroupedBy.svg";
 import History from "../../icons/History.svg";
@@ -143,7 +143,7 @@ export default {
   following: Following,
   "follow-up": FollowUp,
   forms: Forms,
-  frame: Frame,
+  "close-fill": CloseFill,
   global: Global,
   "grouped-by": GroupedBy,
   history: History,
