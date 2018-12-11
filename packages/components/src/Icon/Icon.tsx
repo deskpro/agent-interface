@@ -4,9 +4,7 @@ import icons from "./icons";
 
 export type IconProps = {
   name: string;
-  width?: number;
-  height?: number;
-  fill?: string;
+  size?: number;
   color?: "default" | "primary" | "dark";
 };
 
@@ -16,39 +14,25 @@ const colors = {
   dark: "#8B9293"
 };
 
-const Icon: React.SFC<IconProps> = ({
-  name,
-  width = 24,
-  height = 24,
-  fill = "none",
-  color = "default"
-}) => {
-  const icon = icons[name] || [];
-  const [viewBoxWidth, viewBoxHeight, paths] = icon;
-  const colorCode = colors[color] || colors.default;
-
+const Icon: React.SFC<IconProps> = ({ name, size = 24, color = "default" }) => {
+  const SvgIcon = icons[name];
+  if (!SvgIcon) {
+    return null;
+  }
   return (
-    <span className="dp-Icon">
-      <svg
-        width={width}
-        height={height}
-        viewBox={`0 0 ${viewBoxWidth} ${viewBoxHeight}`}
-        fill={fill}
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        {paths.map(path => (
-          <path key={path} d={path} fill={colorCode} />
-        ))}
-      </svg>
+    <span className={`dp-Icon dp-Icon--${name}`}>
+      <SvgIcon
+        fill={colors[color] || colors.default}
+        width={size}
+        height={size}
+      />
     </span>
   );
 };
 
 Icon.defaultProps = {
   color: "default",
-  fill: "none",
-  height: 24,
-  width: 24
+  size: 24
 };
 
 export default Icon;
