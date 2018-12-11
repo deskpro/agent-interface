@@ -5,7 +5,7 @@ import { storiesOf } from "@storybook/react";
 import "../styles/icons.css";
 import { Icon } from "@deskpro/agent-interface-components";
 
-storiesOf("Icons", module).add("Icons", () => (
+storiesOf("Elements", module).add("Icons", () => (
   <>
     <h1>Icons</h1>
     <div className="dp-IconContainer">
@@ -182,8 +182,8 @@ storiesOf("Icons", module).add("Icons", () => (
         <pre className="dp-IconTitle">forms</pre>
       </span>
       <span className="dp-IconWrapper">
-        <Icon name="frame" />
-        <pre className="dp-IconTitle">frame</pre>
+        <Icon name="close-fill" />
+        <pre className="dp-IconTitle">close-fill</pre>
       </span>
       <span className="dp-IconWrapper">
         <Icon name="global" />

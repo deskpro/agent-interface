@@ -3,74 +3,60 @@ import React from "react";
 import { storiesOf } from "@storybook/react";
 import { action } from "@storybook/addon-actions";
 
-import { Button } from "@deskpro/agent-interface-components";
+import { Button, Icon } from "@deskpro/agent-interface-components";
 
 storiesOf("Button", module).add("Buttons", () => (
   <>
     <div className="dp-ButtonContainer">
-      <h2>Button Sizes</h2>
+      <h2>Contained Button</h2>
       <div className="dp-ButtonGroup">
-        <Button onClick={action("small button")} size="small">
+        <Button onClick={action("click")} disabled>
+          Contained Button
+        </Button>
+        <Button onClick={action("click")}>Contained Button</Button>
+        <Button onClick={action("click")} disabled size="small">
           Small
         </Button>
-        <Button onClick={action("normal button")}>Normal</Button>
-        <Button onClick={action("medium button")} size="medium">
-          Medium
-        </Button>
-        <Button onClick={action("large button")} size="large">
-          Large
+        <Button onClick={action("click")} size="small">
+          Small
         </Button>
       </div>
     </div>
     <div className="dp-ButtonContainer">
-      <h2>Rounded</h2>
+      <h2>Outlined Button</h2>
       <div className="dp-ButtonGroup">
-        <Button onClick={action("default button")} rounded>
-          Default
+        <Button onClick={action("click")} disabled variant="outlined">
+          Outlined Button
         </Button>
-        <Button onClick={action("primary button")} rounded color="primary">
-          Primary
+        <Button onClick={action("click")} variant="outlined">
+          Outlined Button
         </Button>
-        <Button onClick={action("secondary button")} rounded color="secondary">
-          Secondary
+        <Button
+          onClick={action("click")}
+          variant="outlined"
+          disabled
+          size="small"
+        >
+          Small
         </Button>
-        <Button onClick={action("success button")} rounded color="success">
-          Success
-        </Button>
-        <Button onClick={action("info button")} rounded color="info">
-          Info
-        </Button>
-        <Button onClick={action("warning button")} rounded color="warning">
-          Warning
-        </Button>
-        <Button onClick={action("danger button")} rounded color="danger">
-          Danger
+        <Button onClick={action("click")} variant="outlined" size="small">
+          Small
         </Button>
       </div>
     </div>
     <div className="dp-ButtonContainer">
-      <h2>Disabled</h2>
+      <h2>More Button</h2>
       <div className="dp-ButtonGroup">
-        <Button onClick={action("default button")} disabled>
-          Default
-        </Button>
-        <Button onClick={action("primary button")} disabled color="primary">
-          Primary
-        </Button>
-        <Button onClick={action("secondary button")} disabled color="secondary">
-          Secondary
-        </Button>
-        <Button onClick={action("success button")} disabled color="success">
-          Success
-        </Button>
-        <Button onClick={action("info button")} disabled color="info">
-          Info
-        </Button>
-        <Button onClick={action("warning button")} disabled color="warning">
-          Warning
-        </Button>
-        <Button onClick={action("danger button")} disabled color="danger">
-          Danger
+        <Button onClick={action("click")} variant="more" />
+        <Button onClick={action("click")} variant="more" size="small" />
+      </div>
+    </div>
+    <div className="dp-ButtonContainer">
+      <h2>Button Actions</h2>
+      <div className="dp-ButtonGroup">
+        <Button onClick={action("click")} variant="actions">
+          <Icon name="transfer" size={16} />
+          Actions
         </Button>
       </div>
     </div>
