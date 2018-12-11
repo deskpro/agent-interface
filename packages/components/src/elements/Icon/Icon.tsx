@@ -5,13 +5,15 @@ import icons from "./icons";
 export type IconProps = {
   name: string;
   size?: number;
-  color?: "default" | "primary" | "dark";
+  color?: "default" | "primary" | "dark" | "active";
 };
 
 const colors = {
   default: "#979797",
   primary: "#3a8dde",
-  dark: "#8B9293"
+  dark: "#8B9293",
+  active: "#4e4d4d",
+  white: "#fff"
 };
 
 const Icon: React.SFC<IconProps> = ({ name, size = 24, color = "default" }) => {
