@@ -11,6 +11,22 @@ module.exports = {
       {
         test: /\.css$/,
         loaders: ['style-loader', 'css-loader']
+      },
+      {
+        test: /\.svg$/,
+        use: [
+          'babel-loader',
+          {
+            loader: 'react-svg-loader',
+            options: {
+              svgo: {
+                plugins: [
+                  { removeDimensions: true, removeUselessStrokeAndFill: true }
+                ]
+              }
+            }
+          }
+        ]
       }
     ]
   }
