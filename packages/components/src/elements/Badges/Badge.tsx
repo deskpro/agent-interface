@@ -1,7 +1,7 @@
 import * as React from "react";
 import classNames from "classnames";
 
-import "@deskpro/agent-interface-style/dist/elements/tag-badge.css";
+import "@deskpro/agent-interface-style/dist/elements/dp-badges.css";
 
 export type BadgeProps = {
   color?: "danger" | "warning" | "warningLight" | "empty" | "yellow" | "white";
