@@ -10,7 +10,9 @@
   margin-bottom: 10px;
 }
 
-.dp-ButtonContainer .Button--small, .dp-ButtonContainer .dp-ButtonItem .dp-ActionButton {
+.dp-ButtonContainer .Button--small,
+.dp-ButtonContainer .dp-ButtonItem .dp-ActionButton,
+.dp-ButtonContainer .dp-IconTextButton {
   margin: 5px 0 15px;
 }
 

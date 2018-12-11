@@ -1200,7 +1200,7 @@ thead .dp-FilterResultTitle td {
 
 }
 
-.dp-ActionButton::after {
+.dp-ActionButton::after, .dp-IconTextButton::after {
   border-color: #899 transparent transparent transparent;
   border-style: solid;
   border-width: 4px 4px 0 4px;
