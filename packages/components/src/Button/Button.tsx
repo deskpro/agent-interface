@@ -2,38 +2,45 @@ import * as React from "react";
 import classNames from "classnames";
 import "@deskpro/agent-interface-style/dist/elements/buttons.css";
 
-// const colors = ["primary", "secondary", "success", "info", "warning", "danger"];
-const sizes = ["small", "medium", "large"];
-
 export interface ButtonProps {
-  size: "large" | "small";
-  isActions?: boolean;
+  size?: "default" | "small";
+  variant?:
+    | "outlined"
+    | "contained"
+    | "label"
+    | "more"
+    | "actions"
+    | "link"
+    | "round"
+    | "square";
   onClick(e: React.MouseEvent<HTMLElement>): void;
 }
 
 const Button: React.SFC<ButtonProps> = ({
   onClick: handleClick,
   children,
-  size = "large",
-  isActions = false,
+  size = "default",
+  variant = "contained",
   ...props
 }) => (
   <button
     type="button"
     className={classNames("dp-Button", {
-      [`Button--${size}`]: sizes.includes(size),
-      "dp-ActionButton": isActions
+      [`Button--${size}`]: !!size && size !== "default",
+      [`Button--${variant}`]: !!variant && variant !== "contained",
+      "dp-ActionButton": variant === "actions",
+      "dp-ExpandButton": variant === "more"
     })}
     onClick={handleClick}
     {...props}
   >
-    {children}
+    {variant === "more" ? <span className="dp-dots">...</span> : children}
   </button>
 );
 
 Button.defaultProps = {
-  size: "large",
-  isActions: false
+  size: "default",
+  variant: "contained"
 };
 
 export default Button;
