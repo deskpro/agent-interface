@@ -269,9 +269,9 @@
 
 .dp-Template .dp-IconTooltip .dp-AccountItem:hover {
   background-color: #e9f6fe;
-  color: var(--blue);
+  color: var(--brand-primary);
 }
 
 .dp-Template .dp-ModuleNav .dp-ModuleNavList:hover {
-  background-color: var(--gray-300);
+  background-color: var(--grey);
 }

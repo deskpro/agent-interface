@@ -10,12 +10,20 @@
   margin-bottom: 10px;
 }
 
+.dp-ButtonContainer .Button--small, .dp-ButtonContainer .dp-ButtonItem .dp-ActionButton {
+  margin: 5px 0 15px;
+}
+
 .dp-ButtonItem {
   display: flex;
   flex: 0 0 140px;
   flex-direction: column;
   margin-bottom: 30px;
   margin-right: 50px;
+}
+
+.dp-m-0 {
+  margin: 0;
 }
 
 .dp-ButtonTitle {
@@ -41,4 +49,17 @@
 
 .dp-ButtonItem .dp-DropDownBar {
   margin: 0;
+}
+
+.dp-StateWrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 33px 0 0;
+}
+
+.dp-ButtonState {
+  color: var(--grey);
+  font: var(--p-s);
+  margin-bottom: 30px;
+  margin-right: 10px;
 }

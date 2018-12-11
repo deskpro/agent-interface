@@ -73,7 +73,7 @@ title: PageSidebar
                 <li class="dp-SidebarTab-item is-active"><a href="#" class="dp-Icon dp-Icon dp-tickets"></a></li>
             </ul>
 
-            <ul class="dp-SidebarTabsList dp-DemonstrationIcon">
+            <ul class="dp-SidebarTabsList dp-DemonstrationTitle">
                 <li>Static</li>
                 <li>Rollover</li>
                 <li>Selected</li>

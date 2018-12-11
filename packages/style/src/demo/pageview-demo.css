@@ -1,0 +1,11 @@
+@import "../fonts.css";
+@import "../vars.css";
+
+.dp-Pageview-Demonstration {
+  display: block;
+  overflow: auto;
+}
+
+.dp-Pageview-Demonstration .dp-MainWrapper {
+  width: 1100px;
+}

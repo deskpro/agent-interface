@@ -100,10 +100,6 @@ input.dp-NewTitle {
   padding: 5px;
 }
 
-.dp-SearchInput::placeholder {
-  color: var(--grey-dark);
-}
-
 .dp-SlideOutPanel .dp-Tickets .dp-TitleName {
   color: var(--grey-darkest);
   display: flex;

@@ -9,15 +9,25 @@
   display: flex;
 }
 
-.dp-UserContainer.dp-BrandsInfo {
+.dp-UserContainer .dp-BrandsInfo {
   background: var(--white);
   border: 1px solid var(--brand-primary);
-  border-top: 0;
+  display: flex;
   height: 100%;
+  z-index: 1;
 }
 
 .dp-UserContainer.dp-UserTitleInfo {
-  border-bottom: 1px solid var(--brand-primary);
+  border: none;
+}
+
+.dp-OverlayWrapp .dp-UserContainer .dp-SidebarContainer {
+  border: 1px solid var(--brand-primary);
+  border-left: 1px solid var(--grey-light);
+  margin-left: -1px;
+  margin-top: 130px;
+  min-height: auto;
+  z-index: 2;
 }
 
 .dp-UserTabName {
@@ -29,10 +39,14 @@
   display: flex;
   flex-direction: column;
   margin-bottom: -1px;
-  margin-left: 45px;
   max-width: 162px;
   padding: 5px 5px 10px;
   width: 100%;
+  z-index: 2;
+}
+
+.dp-OverlaAapps .dp-UserTabName {
+  margin-left: 45px;
 }
 
 .dp-UserTabName .dp-Icon {
@@ -57,12 +71,13 @@
 
 .dp-UserTitleInfo .dp-UserName {
   color: var(--grey-darkest);
-  font-size: var(--font-Text-L);
+  font: var(--p-l);
 }
 
 .dp-UserTitleInfo .dp-UserId {
   color: var(--grey-dark);
-  font-size: var(--font-Text-N);
+  font: var(--p-n);
+  font: var(--p-n);
   padding-left: 20px;
 }
 
@@ -109,6 +124,7 @@
 }
 
 .dp-OverlayContent {
+  min-height: 100vh;
   padding: 10px;
 }
 
@@ -146,7 +162,7 @@
 .dp-Files {
   align-items: center;
   display: flex;
-  font-size: var(--font-Title-S);
+  font: var(--p-xl);
   margin-bottom: 10px;
 }
 
@@ -160,8 +176,7 @@
 
 .dp-OverlayContent .dp-UserName {
   color: var(--grey-darkest);
-  font-size: var(--font-Title-N);
-  font-weight: var(--is-semibold);
+  font: var(--h-n-semibold);
 }
 
 .dp-TabsBtn .dp-Icon {
@@ -216,11 +231,11 @@
 
 .dp-BodyTicket .dp-MainItem {
   color: var(--grey-darkest);
-  font-size: var(--font-Text-N);
+  font: var(--p-n);
 }
 
 .dp-TicketsInfoTitle .dp-MainItem {
-  font-size: var(--font-Text-S);
+  font: var(--p-s);
 }
 
 .dp-TicketsInfo .dp-TicketsOpen {
@@ -244,7 +259,7 @@
 .dp-TicketsInfo .dp-TicketsInfoItem {
   border-bottom: 1px solid var(--grey-light);
   display: flex;
-  font-size: var(--font-Text-N);
+  font: var(--p-n);
   padding: 5px 0;
 }
 
@@ -315,14 +330,15 @@
 .dp-FilesInfo {
   align-items: center;
   border-bottom: 1px solid var(--grey-light);
+  color: var(--grey-darkest);
   display: flex;
-  font-size: var(--font-Text-N);
   justify-content: space-between;
   padding: 10px 0;
 }
 
 .dp-LeftInfo {
   display: flex;
+  font: var(--p-n);
   justify-content: space-between;
   max-width: 155px;
   width: 100%;
@@ -330,6 +346,7 @@
 
 .dp-RightInfo {
   display: flex;
+  font: var(--p-n);
   justify-content: space-between;
   max-width: 70px;
   width: 100%;
@@ -338,4 +355,11 @@
 .dp-OverlayWrapp .dp-LeftSidebar {
   border-left: 0;
   border-top: 0;
+}
+
+/* side-bar-overlay/search-org */
+
+.dp-SearchOrganization .dp-SectionBody-item {
+  border: 1px solid var(--brand-primary);
+  font: var(--p-l);
 }

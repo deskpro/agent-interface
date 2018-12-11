@@ -1,0 +1,15 @@
+@import "../fonts.css";
+@import "../vars.css";
+
+.dp-PageSidebar.dp-DemonstrationEements .dp-DemonstrationTitle {
+  border: none;
+}
+
+.dp-DemonstrationEements .dp-DemonstrationTitle li {
+  color: var(--grey-dark);
+  font: var(--p-s);
+  margin: 0;
+  padding: 10px 0;
+  text-align: center;
+  width: 50px;
+}

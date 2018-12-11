@@ -307,7 +307,6 @@ title: Filter list
 ```
 
 <h4>filterlist/ticket-filters-locked</h4>
-
 ```html @preview
 <div class="dp-MainWrapper">
 

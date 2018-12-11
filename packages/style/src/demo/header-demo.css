@@ -14,9 +14,3 @@
 .dp-Header.header-wrapper {
   height: 100px;
 }
-
-.dp-HeaderContainer {
-  background-color: var(--white);
-  display: block;
-  width: 100%;
-}

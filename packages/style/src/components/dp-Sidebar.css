@@ -78,19 +78,6 @@
   border-right: 0;
 }
 
-.dp-PageSidebar.dp-DemonstrationEements .dp-DemonstrationIcon {
-  border: none;
-}
-
-.dp-DemonstrationEements .dp-DemonstrationIcon li {
-  color: var(--grey-dark);
-  font: var(--p-s);
-  margin: 0;
-  padding: 10px 0;
-  text-align: center;
-  width: 50px;
-}
-
 .dp-PageSidebar .dp-SectionTitle.dp-TimesRow, .dp-PageSidebar .dp-SectionTitle.dp-CcRow {
   border: none;
   color: var(--grey-dark);

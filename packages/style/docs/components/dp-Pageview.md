@@ -701,7 +701,7 @@ title: Page View
 ```html @preview
 <div class="dp-MainWrapper">
 
-	<div class="dp-TeamFollowersWrapper">
+	<div class="dp-TeamFollowersWrapper" style="height: 75px;">
 
 		<div class="dp-TicketSelect dp-TicketSmall">
 			<div class="dp-SectionControls">

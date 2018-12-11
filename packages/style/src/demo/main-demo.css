@@ -1,0 +1,9 @@
+@import "../fonts.css";
+@import "../vars.css";
+
+.dp-MainWrapper {
+  background-color: var(--grey-lighter);
+  display: block;
+  padding: 10px;
+  position: relative;
+}

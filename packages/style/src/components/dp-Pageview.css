@@ -204,7 +204,8 @@
 
 .dp-TeamFollowersWrapper {
   display: flex;
-  overflow: auto;
+
+  /* overflow: auto; */
 }
 
 .dp-TeamFollowersWrapper > .dp-TicketSelect {
@@ -296,7 +297,13 @@
   margin-bottom: 10px;
 }
 
+.dp-ReplyBox textarea {
+  color: var(--grey-darkest);
+  font: var(--p-xl);
+}
+
 .dp-ReplyBox textarea::placeholder {
+  color: var(--grey);
   font: var(--h-l-semibold);
   font-style: italic;
 }
@@ -327,6 +334,10 @@
   color: var(--grey);
   display: flex;
   font: var(--p-n);
+}
+
+.dp-TicketMessage .dp-Right .dp-Icon {
+  cursor: pointer;
 }
 
 .dp-Left .dp-Icon {
@@ -368,15 +379,6 @@
 }
 
 /* ticket/agentselect */
-
-.dp-Pageview-Demonstration {
-  display: block;
-  overflow: auto;
-}
-
-.dp-Pageview-Demonstration .dp-MainWrapper {
-  width: 1100px;
-}
 
 .dp-SsoWrap {
   display: flex;

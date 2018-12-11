@@ -1,20 +1,6 @@
 @import "../fonts.css";
 @import "../vars.css";
 
-/* .dp-Header {
-  background-color: var(--grey-lighter);
-} */
-
-/* .dp-Header.Header-general {
-  align-items: flex-start;
-  height: 400px;
-  padding: 25px;
-} */
-
-/* .dp-Header.header-wrapper {
-  height: 100px;
-} */
-
 .dp-HeaderContainer {
   background-color: var(--white);
   display: block;
@@ -79,6 +65,12 @@
 .dp-SearchHeader input::placeholder {
   color: var(--grey-darkest);
   font: var(--h-xl);
+}
+
+::placeholder {
+  color: var(--grey-dark);
+  font: var(--p-n);
+  font-style: var(--is-italic);
 }
 
 .dp-SearchHeader input:focus + .dp-find {
@@ -321,6 +313,7 @@
 }
 
 .dp-Arrow {
+  cursor: pointer;
   display: inline-block;
   padding-left: 17px;
   position: relative;

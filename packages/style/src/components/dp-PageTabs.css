@@ -96,10 +96,6 @@
   z-index: 1;
 }
 
-.dp-Oneselected {
-  overflow: auto;
-}
-
 .dp-MoreTabButton.is-open .dp-ContextMenu {
   display: block;
 }

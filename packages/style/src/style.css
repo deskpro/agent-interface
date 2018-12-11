@@ -14,6 +14,10 @@
 @import "elements/dp-badges.css";
 @import "elements/dp-inputs.css";
 @import "elements/buttons.css";
+@import "demo/main-demo.css";
 @import "demo/buttons-demo.css";
 @import "demo/badges-demo.css";
 @import "demo/header-demo.css";
+@import "demo/sidebar-demo.css";
+@import "demo/page-tabs-demo.css";
+@import "demo/pageview-demo.css";

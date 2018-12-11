@@ -58,7 +58,8 @@ title: Slide-Out Panel
                 </div>
 
                 <div class="dp-ButtonWrapper">
-                    <button class="dp-Button ActionButton--large Button--in-active" type="button">
+                    <!-- <button disabled class="dp-Button ActionButton--large Button--in-active" type="button"> -->
+                    <button disabled class="dp-Button Button--large" type="button">
                         Send & apply actions
                     </button>
                     <button class="dp-Button Button--small" type="button">
@@ -279,10 +280,12 @@ title: Slide-Out Panel
                         <a href="#" class="dp-Signature">% Signature %</a>
                     </div>
                     <div class="dp-ButtonWrapper">
-                        <button class="dp-Button ActionButton--large Button--active" type="button">
+                        <!-- <button class="dp-Button ActionButton--large Button--active" type="button"> -->
+                        <button class="dp-Button Button--large" type="button">
                             Send to: 256 recipients
                         </button>
-                        <button class="dp-Button Button--small" type="button">
+                        <!-- <button class="dp-Button Button--small" type="button"> -->
+                        <button class="dp-Button Button--large" type="button">
                             Cancel
                         </button>
                     </div>
@@ -313,7 +316,7 @@ title: Slide-Out Panel
                 <form>
                     <div class="dp-SearchForm">
                         <button type="submit" class="dp-Icon dp-IconSearch"></button>
-                        <input type="text" placeholder="Search" class="dp-SearchInput is-italic">
+                        <input type="text" placeholder="Search" class="dp-SearchInput">
                     </div>
                 </form>
 
@@ -406,7 +409,8 @@ title: Slide-Out Panel
                 </div>
 
                 <div class="dp-ButtonWrapper">
-                    <button class="dp-Button ActionButton--large Button--active" type="button">
+                    <!-- <button class="dp-Button ActionButton--large Button--active" type="button"> -->
+                    <button class="dp-Button Button--large" type="button">
                         Change user
                     </button>
                     <button class="dp-Button Button--small" type="button">
@@ -439,10 +443,11 @@ title: Slide-Out Panel
                 </p>
 
                 <div class="dp-ButtonWrapper">
-                    <button class="dp-Button ActionButton--large Button--active" type="button">
+                    <!-- <button class="dp-Button ActionButton--large Button--active" type="button"> -->
+                    <button class="dp-Button Button--large" type="button">
                         Override settings
                     </button>
-                    <button class="dp-Button Button--small" type="button">
+                    <button class="dp-Button Button--large" type="button">
                         Return to view
                     </button>
                 </div>
@@ -538,7 +543,7 @@ title: Slide-Out Panel
                 </div>
 
                 <div class="dp-ButtonWrapper">
-                    <button class="dp-Button ActionButton--large Button--active" type="button">
+                    <button class="dp-Button Button--large" type="button">
                         Split selected messages
                     </button>
                 </div>
@@ -657,7 +662,8 @@ title: Slide-Out Panel
                 </table>
 
                 <div class="dp-ButtonWrapper">
-                    <button class="dp-Button ActionButton--large Button--active" type="button">
+                    <!-- <button class="dp-Button ActionButton--large Button--active" type="button"> -->
+                    <button class="dp-Button Button--large" type="button">
                         Merge tickets
                     </button>
                 </div>
