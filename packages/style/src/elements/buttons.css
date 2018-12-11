@@ -182,7 +182,7 @@
     border: 1px solid var(--grey);
     color: var(--grey-darkest);
     font: var(--p-s);
-    padding: 3px 20px 5px;
+    padding: 3px 25px 3px 5px;
 
     &:hover {
       background: #eff6fc;
@@ -204,7 +204,7 @@
     height: 10px;
     position: absolute;
     right: 5px;
-    top: calc(50% - 5px);
+    top: calc(50% - 4.5px);
     width: 10px;
   }
 
