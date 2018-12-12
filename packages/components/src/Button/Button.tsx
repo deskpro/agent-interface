@@ -1,6 +1,6 @@
 import * as React from "react";
 import classNames from "classnames";
-import "@deskpro/agent-interface-style/dist/elements/buttons.css";
+import "@deskpro/agent-interface-style/dist/elements/dp-buttons.css";
 
 export interface ButtonProps {
   size?: "default" | "small";
