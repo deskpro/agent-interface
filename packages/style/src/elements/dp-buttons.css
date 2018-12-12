@@ -134,10 +134,10 @@
     font: var(--h-s-semibold);
     height: 12px;
     justify-content: center;
+    opacity: 1;
     overflow: hidden;
     padding: 0;
     width: 80px;
-    opacity: 1;
 
     &:hover {
       background: var(--grey);
