@@ -567,6 +567,10 @@
   position: relative;
 }
 
+.dp-ContextMenu .dp-SearchForm {
+  padding: 0 3px;
+}
+
 .dp-SearchInput {
   background-color: var(--white);
   font: var(--p-n);
@@ -574,7 +578,9 @@
   padding: 5px 0 5px 25px;
 }
 
-.dp-FilterResultMenu .dp-SearchInput {
+/* .dp-FilterResultMenu .dp-SearchInput { */
+
+.dp-ContextMenu .dp-SearchInput {
   border: 2px solid var(--grey-light);
   border-radius: 5px;
 }
@@ -586,7 +592,7 @@
 .dp-SearchForm .dp-Icon.dp-IconSearch {
   cursor: pointer;
   height: 13px;
-  left: 5px;
+  left: 10px;
   position: absolute;
   top: calc(50% - 6.5px);
   width: 13px;
@@ -1245,9 +1251,10 @@ thead .dp-FilterResultTitle td {
   display: none;
   left: 0;
   list-style-type: none;
-  padding: 10px 0;
+  padding: 5px 0;
   position: absolute;
   top: calc(100% + 5px);
+  white-space: nowrap;
   z-index: 9;
 }
 

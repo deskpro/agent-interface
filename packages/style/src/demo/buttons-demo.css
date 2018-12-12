@@ -43,11 +43,11 @@
   margin: 0 0 10px;
 }
 
-.dp-ButtonDescription {
+/* .dp-ButtonDescription {
   align-items: center;
   display: flex;
   justify-content: space-between;
-}
+} */
 
 .dp-ButtonItem .dp-DropDownBar {
   margin: 0;

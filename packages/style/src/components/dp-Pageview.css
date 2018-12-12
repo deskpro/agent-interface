@@ -192,7 +192,8 @@
   white-space: nowrap;
 }
 
-.dp-ActionButton.is-active .dp-ContextMenu {
+.dp-ActionButton.is-active .dp-ContextMenu,
+.dp-ActionsItem.is-active .dp-ContextMenu {
   display: block;
 }
 

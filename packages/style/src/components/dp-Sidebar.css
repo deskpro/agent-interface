@@ -106,7 +106,7 @@
   opacity: 0.6;
 }
 
-.dp-PageSidebar .dp-SidebarTabsList {
+.dp-SidebarTabsList {
   border-bottom: 1px solid var(--grey-light);
   display: flex;
   list-style: none;
@@ -114,12 +114,21 @@
   padding: 0;
 }
 
-.dp-PageSidebar .dp-SidebarTab-item {
+.dp-SidebarTab-item {
   border-bottom: none;
   border-right: 1px solid var(--grey-light);
   cursor: pointer;
   margin: 0;
   padding: 5px 15px 5px;
+}
+
+.dp-SidebarTab-item:hover, .dp-SidebarTab-item.is-active {
+  border-bottom: 1px solid var(--brand-primary);
+  margin-bottom: -1px;
+}
+
+.dp-SidebarTab-item > .dp-Icon {
+  cursor: pointer;
 }
 
 .dp-SectionTitle {

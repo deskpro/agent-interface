@@ -1,0 +1,225 @@
+@import "../fonts.css";
+@import "../vars.css";
+
+/* Tag */
+
+.dp-Tag {
+  background: var(--white);
+  border: 1px solid var(--grey-light);
+  border-radius: var(--border-radius);
+  color: var(--grey-darkest);
+  cursor: pointer;
+  display: inline-block;
+  font-size: 11px;
+  line-height: 100%;
+  padding: 3px 5px;
+  position: relative;
+  vertical-align: middle;
+
+  &:hover { background: var(--grey-light); }
+
+  &.Tag--white {
+    background: var(--white);
+    border: 1px solid var(--white);
+    color: var(--grey-darkest);
+    &:hover { background: var(--grey-light); }
+  }
+
+  &.Tag--transparent {
+    background: transparent;
+    border: 1px solid #6e8293;
+    color: #6e8293;
+    &:hover { background: var(--grey-light); }
+  }
+
+  &.Tag--disabled {
+    background-color: #e1e0e0;
+    border: 1px solid #d3d6d7;
+    color: #4e4d4d;
+    &:hover { background-color: rgba(225, 224, 224, 0.5); }
+  }
+
+  &.Tag--close {
+    background: #fafafa;
+    border: 1px solid #dde0e0;
+    color: #4e4d4d;
+    padding: 4px 20px 4px 9px;
+    &:hover { background: color-mod(#fafafa blackness(20%)); }
+  }
+
+  &.Tag--grey-lighter {
+    background: var(--grey-lighter);
+    border: 1px solid var(--grey-lighter);
+    color: var(--grey-dark);
+  }
+
+  &.Tag--grey {
+    background: var(--grey);
+    border: 1px solid var(--grey);
+    color: var(--white);
+  }
+
+  &.Tag--purple {
+    background: var(--purple-light);
+    border: 1px solid var(--purple);
+    color: var(--grey-darkest);
+  }
+
+  &.Tag--pink {
+    background: var(--pink);
+    border: 1px solid var(--pink);
+    color: var(--white);
+
+    /* &:hover { background: rgba(220, 67, 124, 0.5); } */
+  }
+
+  &.Tag--netural {
+    background: var(--netural);
+    border: 1px solid var(--netural);
+    color: #fff;
+
+    /* &:hover { background: rgba(79, 176, 92, 0.5); } */
+  }
+
+  &.Tag--warning {
+    background: #f18b44;
+    border: 1px solid #f18b44;
+    color: var(--white);
+
+    /* &:hover { background: rgba(241, 139, 68, 0.5); } */
+  }
+
+  &.Tag--danger {
+    background: #e84954;
+    border: 1px solid #e84954;
+    color: var(--white);
+
+    /* &:hover { background: rgba(241, 139, 68, 0.5); } */
+  }
+
+  &.Tag--success {
+    background: var(--success);
+    border: 1px solid var(--success);
+    color: var(--white);
+
+    /* &:hover { background: rgba(241, 139, 68, 0.5); } */
+  }
+
+  &.Tag--small {
+    border-radius: calc(var(--border-radius) * 0.7);
+    font-size: 10px;
+    padding: 1.5px 5px;
+  }
+
+  &.Tag--medium {
+    border-radius: calc(var(--border-radius) * 0.7);
+    font-size: 11px;
+    padding: 5px 5px;
+  }
+
+}
+
+.dp-Tag .dp-iconClose {
+  cursor: pointer;
+  height: 100%;
+  position: absolute;
+  right: 3px;
+  top: 0;
+  width: 15px;
+}
+
+.dp-Tag .dp-iconClose::before, .dp-Tag .dp-iconClose::after {
+  background-color: #4e4d4d;
+  bottom: 0;
+  content: "";
+  height: 2px;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 7px;
+}
+
+.dp-Tag .dp-iconClose::before {
+  transform: rotate(45deg);
+}
+
+.dp-Tag .dp-iconClose::after {
+  transform: rotate(135deg);
+}
+
+.Tag--plus .dp-close {
+  top: calc(50% - 5px);
+  transform: rotate(45deg);
+}
+
+/* Badge */
+
+.dp-Badge {
+  background-position: 50%;
+  border-radius: 50%;
+  color: var(--white);
+  cursor: pointer;
+  display: inline-block;
+  font-size: 10px;
+  height: 18px;
+  line-height: 100%;
+  margin-left: 7px;
+  min-width: 18px;
+  padding: 4px 0;
+  text-align: center;
+  vertical-align: middle;
+
+  &:hover { background: var(--grey-light); }
+
+  &.Badge--warning {
+    background-color: var(--warning);
+  }
+
+  &.Badge--danger {
+    background-color: var(--danger);
+  }
+
+  &.Badge--warningLight {
+    background-color: #f18b44;
+  }
+
+  &.Badge--yellow {
+    background-color: #f8af3c;
+  }
+
+  &.Badge--white {
+    background-color: var(--white);
+    color: #4e4d4d;
+  }
+
+  /*  &.Badge--empty {
+    background-color: var(--grey-light);
+  } */
+
+  &.Badge--grey {
+    background-color: var(--grey-light);
+  }
+
+  &.Badge--grey-lighter {
+    background-color: var(--grey-lighter);
+  }
+
+  /*  &.Badge--emptyWhite {
+    background-color: var(--white);
+  } */
+
+  /*  &.Badge--yellowMin {
+    background-image: url('data:image/svg+xml,<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve"><style type="text/css">.st0{fill:%23F8AF3C;}.st1{fill:%23FFFFFF;}</style><g><path class="st0" d="M8,16L8,16c-4.4,0-8-3.6-8-8l0,0c0-4.4,3.6-8,8-8h0c4.4,0,8,3.6,8,8v0C16,12.4,12.4,16,8,16z"/></g><rect x="3" y="7" class="st1" width="10" height="2"/></svg>');
+  }  */
+
+  &.Badge--dangerMin {
+    background-image: url('data:image/svg+xml,<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve"><style type="text/css">.st0{fill:%23F8AF3C;}.st1{fill:%23FFFFFF;}</style><g><path class="st0" d="M8,16L8,16c-4.4,0-8-3.6-8-8l0,0c0-4.4,3.6-8,8-8h0c4.4,0,8,3.6,8,8v0C16,12.4,12.4,16,8,16z"/></g><rect x="3" y="7" class="st1" width="10" height="2"/></svg>');
+  }
+
+  &.Badge--warningMin {
+    background-image: url('data:image/svg+xml,<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve"><style type="text/css">.st0{fill:%23EC6C4E;}.st1{fill:%23FFFFFF;}</style><g><path class="st0" d="M8,16L8,16c-4.4,0-8-3.6-8-8l0,0c0-4.4,3.6-8,8-8h0c4.4,0,8,3.6,8,8v0C16,12.4,12.4,16,8,16z"/></g><rect x="3" y="7" class="st1" width="10" height="2"/></svg>');
+  }
+
+}

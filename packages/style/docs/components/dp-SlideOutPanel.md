@@ -572,7 +572,7 @@ title: Slide-Out Panel
                 <form>
                     <div class="dp-SearchForm">
                         <button type="submit" class="dp-Icon dp-IconSearch"></button>
-                        <input type="text" placeholder="Search" class="dp-SearchInput is-italic">
+                        <input type="text" placeholder="Search" class="dp-SearchInput">
                     </div>
                 </form>
 

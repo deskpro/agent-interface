@@ -28,23 +28,15 @@ title: Buttons
 	<!-- Button/small-contained  -->
 	<div class="dp-ButtonItem">
 		<div class="dp-ButtonTitle">Button/small</div>
-		<div class="dp-ButtonDescription">
-			<button disabled class="dp-Button Button--small">Button</button>
-		</div>
-		<div class="dp-ButtonDescription">
-			<button class="dp-Button Button--small">Button</button>
-		</div>
+		<button disabled class="dp-Button Button--small">Button</button>
+		<button class="dp-Button Button--small">Button</button>
 	</div>
 
 	<!-- Button/small-outlined  -->
 	<div class="dp-ButtonItem dp-m-0">
 		<div class="dp-ButtonTitle">Button/small</div>
-		<div class="dp-ButtonDescription">
-			<button disabled class="dp-Button Button--small Button--outlined">Button</button>
-		</div>
-		<div class="dp-ButtonDescription">
-			<button class="dp-Button Button--small Button--outlined">Button</button>
-		</div>
+		<button disabled class="dp-Button Button--small Button--outlined">Button</button>
+		<button class="dp-Button Button--small Button--outlined">Button</button>
 	</div>
 
 	<!-- demonstration text -->
@@ -81,11 +73,9 @@ title: Buttons
 	<!-- Button/label -->
 	<div class="dp-ButtonItem">
 		<div class="dp-ButtonTitle">Button/label</div>
-		<div class="dp-ButtonDescription">
-			<button class="dp-Button Button--label">
-				Button<span class="dp-Icon dp-IconPlusBtn"></span>
-			</button>
-		</div>
+		<button class="dp-Button Button--label">
+			Button<span class="dp-Icon dp-IconPlusBtn"></span>
+		</button>
 	</div>
 
 	<!-- Button/add-round -->
@@ -126,12 +116,11 @@ title: Buttons
 		<div class="dp-ButtonTitle">Button/action</div>
 
 		<div class="dp-DropDownBar">
-            <!-- <button class="dp-Button dp-ActionButton"> -->
-            <button class="dp-Button Button--actions">
-                <span class="dp-Icon dp-lock"></span>
-                <span id="text">Button</span>
-            </button>
-       </div>
+			<button class="dp-Button Button--actions">
+				<span class="dp-Icon dp-lock"></span>
+				<span id="text">Button</span>
+			</button>
+		</div>
 
 	</div>
 

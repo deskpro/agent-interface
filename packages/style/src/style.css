@@ -11,9 +11,10 @@
 @import "components/dp-Sidebar-Overlay.css";
 @import "components/dp-Appsbar.css";
 @import "elements/dp-Icons.css";
-@import "elements/dp-badges.css";
+@import "elements/dp-tags-badges.css";
 @import "elements/dp-inputs.css";
-@import "elements/buttons.css";
+@import "elements/dp-buttons.css";
+@import "elements/dp-tabs-headers.css";
 @import "demo/main-demo.css";
 @import "demo/buttons-demo.css";
 @import "demo/badges-demo.css";
