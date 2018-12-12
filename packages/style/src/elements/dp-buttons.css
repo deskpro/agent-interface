@@ -134,7 +134,7 @@
     font: var(--h-s-semibold);
     height: 12px;
     justify-content: center;
-    max-width: 80px;
+    width: 80px;
     overflow: hidden;
     padding: 0;
 
