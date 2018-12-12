@@ -27,9 +27,7 @@ const Button: React.SFC<ButtonProps> = ({
     type="button"
     className={classNames("dp-Button", {
       [`Button--${size}`]: !!size && size !== "default",
-      [`Button--${variant}`]: !!variant && variant !== "contained",
-      "dp-ActionButton": variant === "actions",
-      "dp-ExpandButton": variant === "more"
+      [`Button--${variant}`]: !!variant && variant !== "contained"
     })}
     onClick={handleClick}
     {...props}
