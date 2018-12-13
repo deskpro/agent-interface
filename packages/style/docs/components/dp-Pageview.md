@@ -132,7 +132,7 @@ title: Page View
 <div class="dp-MainWrapper">
 	<div class="dp-ControlBar dp-DropDownBar">
 		<ul class="dp-DropDownList">
-			<li class="dp-TitileControl dp-ActionButton"><span class="dp-Icon dp-phone_filled--netural"></span>Duration: 00:00:01</li>
+			<li class="dp-TitileControl dp-ActionButton"><span class="dp-Icon dp-phone_filled Icon-netural"></span>Duration: 00:00:01</li>
 			<li class="dp-ActionButton"><span class="dp-Icon dp-hold"></span>Hold</li>
 			<li class="dp-ActionButton"><span class="dp-Icon dp-mute"></span>Mute</li>
 			<li class="dp-ActionButton"><span class="dp-Icon dp-transfer"></span>Transfer</li>
@@ -151,7 +151,7 @@ title: Page View
 				<div class="dp-TitleControls">FOLLOWERS (5)</div>
 				<div class="dp-StatusTimes dp-FollowersStatus">
 					Following
-					<span class="dp-Icon dp-following--primary"></span>
+					<span class="dp-Icon dp-following Icon-primary"></span>
 				</div>
 			</div>
 		</div>
@@ -194,10 +194,10 @@ title: Page View
 				</li>
 
 				<li class="dp-FollowersItem">
-					<span class="dp-LogoName">
-						<span class="dp-Icon dp-add_follower--primary"></span>
-						<span class="dp-UserName"> Add </span>
-					</span>
+					<button class="dp-Button Button--link Button--small">
+						<span class="dp-Icon dp-add_follower Icon-primary"></span>
+						<span id="text">Add</span>
+					</button>
 				</li>
 			</ul>
 		</div>
@@ -743,7 +743,7 @@ title: Page View
 					<div class="dp-TitleControls">FOLLOWERS (5)</div>
 					<div class="dp-StatusTimes dp-FollowersStatus">
 						Following
-						<span class="dp-Icon dp-following--primary"></span>
+						<span class="dp-Icon dp-following Icon-primary"></span>
 					</div>
 				</div>
 			</div>
@@ -786,10 +786,10 @@ title: Page View
 					</li>
 
 					<li class="dp-FollowersItem">
-						<span class="dp-LogoName">
-							<span class="dp-Icon dp-add_follower--primary"></span>
-							<span class="dp-UserName"> Add </span>
-						</span>
+						<button class="dp-Button Button--link Button--small">
+							<span class="dp-Icon dp-add_follower Icon-primary"></span>
+							<span id="text">Add</span>
+						</button>
 					</li>
 				</ul>
 			</div>
@@ -962,7 +962,7 @@ title: Page View
 		                            <i class="dp-Icon dp-phone_filled"></i><a href="tel:+442035678940" >+44 20 356 789 40</a>
 		                        </div>
 		                        <div class="dp-OpenResolved">
-		                            <span class="dp-open"><i class="dp-Icon dp-tickets--primary"></i> Open: 7</span>
+		                            <span class="dp-open"><i class="dp-Icon dp-tickets Icon-primary"></i> Open: 7</span>
 		                            <span class="dp-resolved"><i class="dp-Icon dp-tickets"></i> Resolved: 24</span>
 		                        </div>
 		                    </div>
@@ -1186,7 +1186,7 @@ title: Page View
 								<div class="dp-TitleControls">FOLLOWERS (5)</div>
 								<div class="dp-StatusTimes dp-FollowersStatus">
 									Following
-									<span class="dp-Icon dp-following--primary"></span>
+									<span class="dp-Icon dp-following Icon-primary"></span>
 								</div>
 							</div>
 						</div>
@@ -1229,10 +1229,10 @@ title: Page View
 								</li>
 
 								<li class="dp-FollowersItem">
-									<span class="dp-LogoName">
-										<span class="dp-Icon dp-add_follower--primary"></span>
-										<span class="dp-UserName"> Add </span>
-									</span>
+									<button class="dp-Button Button--link Button--small">
+										<span class="dp-Icon dp-add_follower Icon-primary"></span>
+										<span id="text">Add</span>
+									</button>
 								</li>
 							</ul>
 						</div>

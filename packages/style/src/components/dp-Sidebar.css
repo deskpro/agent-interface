@@ -148,6 +148,7 @@
 }
 
 .dp-SectionTitle .dp-TitleControls {
+  display: flex;
   font-weight: var(--is-semibold);
 }
 
@@ -219,6 +220,12 @@
 
 .dp-Email a, .dp-Phone a {
   color: inherit;
+}
+
+.dp-OpenResolved {
+  color: var(--grey-darkest);
+  display: flex;
+  font: var(--p-l);
 }
 
 .dp-OpenResolved .dp-Icon {

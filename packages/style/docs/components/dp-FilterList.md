@@ -319,7 +319,7 @@ title: Filter list
 						All tickets <span class="dp-qt">(90)</span>
 						<span class="dp-Icon dp-iconArrowDown"></span>
 					</div>
-					<span class="dp-Icon dp-lock--primary"></span>
+					<span class="dp-Icon dp-lock Icon-primary"></span>
 				</div>
 			</div>
 		</div>

@@ -132,26 +132,6 @@
   padding: 0 0 0 15px;
 }
 
-.dp-Header .dp-danger {
-  height: 16px;
-  min-width: 16px;
-  width: 16px;
-}
-
-.dp-Badge .dp-green {
-  background-color: var(--netural);
-  bottom: -2px;
-  height: 10px;
-  min-width: 10px;
-  position: absolute;
-  right: 0;
-  width: 10px;
-}
-
-.dp-Badge .dp-green:hover {
-  background-color: var(--netural);
-}
-
 .dp-SearchHeader .dp-MenuBarItem:first-child {
   padding: 10px 15px;
   position: relative;
@@ -286,22 +266,6 @@
   position: relative;
   vertical-align: middle;
   width: 24px;
-}
-
-.dp-MenuBarItem .dp-Badge {
-  align-items: center;
-  border-radius: 50%;
-  color: var(--white);
-  display: flex;
-  font: var(--p-n);
-  justify-content: center;
-}
-
-.dp-MenuBarItem .dp-Badge.dp-danger {
-  background-color: var(--danger);
-  position: absolute;
-  right: -7px;
-  top: -7px;
 }
 
 .dp-MenuBarItem .dp-Title {

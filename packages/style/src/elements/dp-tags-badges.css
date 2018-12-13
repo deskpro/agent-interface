@@ -73,9 +73,9 @@
     /* &:hover { background: rgba(220, 67, 124, 0.5); } */
   }
 
-  &.Tag--netural {
-    background: var(--netural);
-    border: 1px solid var(--netural);
+  &.Tag--success {
+    background: var(--success);
+    border: 1px solid var(--success);
     color: #fff;
 
     /* &:hover { background: rgba(79, 176, 92, 0.5); } */

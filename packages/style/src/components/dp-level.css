@@ -1,0 +1,52 @@
+.dpApps-Level {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dpApps-LevelItem {
+  align-items: center;
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 0;
+  justify-content: center;
+}
+
+.dpApps-LevelBottom {
+  align-items: center;
+  align-self: flex-end;
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 0;
+  justify-content: center;
+}
+
+.dpApps-LevelTop {
+  align-items: center;
+  align-self: flex-start;
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 0;
+  justify-content: center;
+}
+
+.dpApps-LevelLeft {
+  align-items: center;
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 0;
+  flex-shrink: 1;
+  justify-content: flex-start;
+}
+
+.dpApps-LevelRight {
+  align-items: center;
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 0;
+  flex-shrink: 0;
+  justify-content: flex-end;
+}

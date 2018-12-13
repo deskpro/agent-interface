@@ -4,6 +4,7 @@
       "intro", 
       "deskpro-colours",
       "deskpro-fonts"
+      "components/dp-Level"
     ],
     "Components": [
       "components/dp-ModuleBar",
@@ -21,6 +22,7 @@
       "elements/dp-Icons",
       "elements/dp-Buttons",
       "elements/dp-Badges",
+      "elements/dp-TagsBadges",
       "elements/dp-Input",
       "elements/dp-TabsHeaders"
     ]

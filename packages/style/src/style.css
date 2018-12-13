@@ -1,6 +1,7 @@
 @import "deskpro-colours.css";
 @import "deskpro-fonts.css";
 @import "components/dp-ModuleBar.css";
+@import "components/dp-Level.css";
 @import "components/dp-Header.css";
 @import "components/dp-FilterList.css";
 @import "components/dp-ListPane.css";

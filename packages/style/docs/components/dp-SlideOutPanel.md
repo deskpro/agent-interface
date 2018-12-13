@@ -139,7 +139,7 @@ title: Slide-Out Panel
                             <div class="dp-TitleControls">FOLLOWERS (5)</div>
                             <div class="dp-StatusTimes dp-FollowersStatus">
                                 Following
-                                <span class="dp-Icon dp-following--primary"></span>
+                                <span class="dp-Icon dp-following Icon-primary"></span>
                             </div>
                         </div>
                     </div>
@@ -182,10 +182,10 @@ title: Slide-Out Panel
                             </li>
 
                             <li class="dp-FollowersItem">
-                                <span class="dp-LogoName">
-                                    <span class="dp-Icon dp-add_follower--primary"></span>
-                                    <span class="dp-UserName"> Add </span>
-                                </span>
+                                <button class="dp-Button Button--link Button--small">
+                                    <span class="dp-Icon dp-add_follower Icon-primary"></span>
+                                    <span id="text">Add</span>
+                                </button>
                             </li>
                         </ul>
                     </div>
@@ -250,12 +250,11 @@ title: Slide-Out Panel
                     </div>
                     <div class="dp-Followers">
                         <ul class="dp-FollowersWrapper">
-
                             <li class="dp-FollowersItem">
-                                <span class="dp-LogoName">
-                                    <span class="dp-Icon dp-add_follower--primary"></span>
-                                    <span class="dp-UserName"> Add action </span>
-                                </span>
+                                <button class="dp-Button Button--link Button--small">
+                                    <span class="dp-Icon dp-add_follower Icon-primary"></span>
+                                    <span id="text">Add action</span>
+                                </button>
                             </li>
                         </ul>
                     </div>
@@ -397,12 +396,11 @@ title: Slide-Out Panel
                     </div>
                     <div class="dp-Followers">
                         <ul class="dp-FollowersWrapper">
-
                             <li class="dp-FollowersItem">
-                                <span class="dp-LogoName">
-                                    <span class="dp-Icon dp-add_follower--primary"></span>
-                                    <span class="dp-UserName"> Add new user </span>
-                                </span>
+                                <button class="dp-Button Button--link Button--small">
+                                    <span class="dp-Icon dp-add_follower Icon-primary"></span>
+                                    <span id="text">Add new user</span>
+                                </button>
                             </li>
                         </ul>
                     </div>

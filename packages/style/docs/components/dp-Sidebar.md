@@ -178,7 +178,7 @@ title: PageSidebar
                 <i class="dp-Icon dp-phone_filled"></i><a href="tel:+442035678940" >+44 20 356 789 40</a>
             </div>
             <div class="dp-OpenResolved">
-                <span class="dp-open"><i class="dp-Icon dp-tickets--primary"></i> Open: 7</span>
+                <span class="dp-open"><i class="dp-Icon dp-tickets Icon-primary"></i> Open: 7</span>
                 <span class="dp-resolved"><i class="dp-Icon dp-tickets"></i> Resolved: 24</span>
             </div>
         </div>
@@ -318,7 +318,7 @@ title: PageSidebar
                 </div>
                 <div class="dp-TagItem">
                     <span class="dp-TimeStatus">
-                        <span class="dp-Tag Tag--small Tag--netural">14/72 hrs</span>
+                        <span class="dp-Tag Tag--small Tag--success">14/72 hrs</span>
                     </span>
                     <span class="dp-TagDescription">Resolution</span>
                 </div>
@@ -330,7 +330,7 @@ title: PageSidebar
                 </div>
                 <div class="dp-TagItem">
                     <span class="dp-TimeStatus dp-StatusGroup">
-                        <span class="dp-Tag Tag--small Tag--netural">1</span>
+                        <span class="dp-Tag Tag--small Tag--success">1</span>
                         <span class="dp-Tag Tag--small Tag--warning">3</span>
                         <span class="dp-Tag Tag--small Tag--pink">1</span>
                     </span>
@@ -393,7 +393,7 @@ title: PageSidebar
                             <i class="dp-Icon dp-phone_filled"></i><a href="tel:+442035678940" >+44 20 356 789 40</a>
                         </div>
                         <div class="dp-OpenResolved">
-                            <span class="dp-open"><i class="dp-Icon dp-tickets--primary"></i> Open: 7</span>
+                            <span class="dp-open"><i class="dp-Icon dp-tickets Icon-primary"></i> Open: 7</span>
                             <span class="dp-resolved"><i class="dp-Icon dp-tickets"></i> Resolved: 24</span>
                         </div>
                     </div>
@@ -587,7 +587,7 @@ title: PageSidebar
                             <i class="dp-Icon dp-phone_filled"></i><a href="tel:+442035678940" >+44 20 356 789 40</a>
                         </div>
                         <div class="dp-OpenResolved">
-                            <span class="dp-open"><i class="dp-Icon dp-tickets--primary"></i> Open: 7</span>
+                            <span class="dp-open"><i class="dp-Icon dp-tickets Icon-primary"></i> Open: 7</span>
                             <span class="dp-resolved"><i class="dp-Icon dp-tickets"></i> Resolved: 24</span>
                         </div>
                     </div>
@@ -677,7 +677,7 @@ title: PageSidebar
                             <i class="dp-Icon dp-phone_filled"></i><a href="tel:+442035678940" >+44 20 356 789 40</a>
                         </div>
                         <div class="dp-OpenResolved">
-                            <span class="dp-open"><i class="dp-Icon dp-tickets--primary"></i> Open: 7</span>
+                            <span class="dp-open"><i class="dp-Icon dp-tickets Icon-primary"></i> Open: 7</span>
                             <span class="dp-resolved"><i class="dp-Icon dp-tickets"></i> Resolved: 24</span>
                         </div>
                     </div>
@@ -922,7 +922,7 @@ title: PageSidebar
                             <i class="dp-Icon dp-phone_filled"></i><a href="tel:+442035678940" >+44 20 356 789 40</a>
                         </div>
                         <div class="dp-OpenResolved">
-                            <span class="dp-open"><i class="dp-Icon dp-tickets--primary"></i> Open: 7</span>
+                            <span class="dp-open"><i class="dp-Icon dp-tickets Icon-primary"></i> Open: 7</span>
                             <span class="dp-resolved"><i class="dp-Icon dp-tickets"></i> Resolved: 24</span>
                         </div>
                     </div>

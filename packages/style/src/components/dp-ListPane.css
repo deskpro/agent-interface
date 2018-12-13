@@ -184,8 +184,6 @@
   font: var(--h-s-semibold);
 }
 
-/* .dp-CardTitle .dp-SortIconDescription { */
-
 .dp-SectionCardTitle .dp-SortIconDescription {
   align-items: center;
   color: var(--grey);
@@ -202,8 +200,6 @@
   border-top: 1px solid transparent;
   cursor: pointer;
   display: flex;
-
-  /* flex-wrap: wrap; */
   padding: 10px 10px;
   position: relative;
   width: 100%;
@@ -216,7 +212,7 @@
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  width: calc(100% - 25px);
+  width: calc(100% - 10px);
 }
 
 .dp-HoverList .dp-Card.is-active,
@@ -240,21 +236,6 @@
   border-bottom: 1px solid var(--brand-primary);
 }
 
-/* .dp-Card .dp-ItemRow {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 6px;
-  width: 100%;
-} */
-
-/* .dp-Card .dp-ItemRow:last-child {
-  margin-bottom: 0;
-}
-
-.dp-Card .dp-ItemRow .dp-CustomCheckbox {
-  display: flex;
-} */
-
 .dp-Card .dp-IconGroup {
   display: flex;
   margin-bottom: 10px;
@@ -265,6 +246,7 @@
   background-color: var(--white);
   background-position: 50%;
   background-repeat: no-repeat;
+  border: 1px solid var(--grey-light);
   border-radius: 50%;
   color: var(--white);
   display: flex;
@@ -325,7 +307,6 @@
 
 .dp-Card .dp-iconMln {
   background-size: 12px 12px;
-  border: 1px solid #dbddde;
 }
 
 .dp-Card .dp-UserName {

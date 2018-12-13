@@ -7,7 +7,7 @@ title: Page Tabs (developing)
 <div class="dp-MainWrapper">
     <ul class="dp-TabBarList">
         <li class="dp-AddTabButton">
-            <span class="dp-Icon dp-add_tab--netural"></span>
+            <span class="dp-Icon dp-add_tab Icon-success"></span>
         </li>
         <li class="dp-TabBarItem">
             <span class="dp-Flex">
@@ -29,7 +29,7 @@ title: Page Tabs (developing)
     <ul class="dp-TabBarList dp-Selected">
 
         <li class="dp-AddTabButton">
-            <span class="dp-Icon dp-add_tab--netural"></span>
+            <span class="dp-Icon dp-add_tab Icon-success"></span>
         </li>
 
         <li class="dp-TabBarItem">
@@ -77,7 +77,7 @@ title: Page Tabs (developing)
     <ul class="dp-TabBarList dp-Selected">
 
         <li class="dp-AddTabButton">
-            <span class="dp-Icon dp-add_tab--netural"></span>
+            <span class="dp-Icon dp-add_tab Icon-success"></span>
         </li>
 
         <li class="dp-TabBarItem">
@@ -173,7 +173,7 @@ title: Page Tabs (developing)
     <ul class="dp-TabBarList dp-Selected">
 
         <li class="dp-AddTabButton">
-            <span class="dp-Icon dp-add_tab--netural"></span>
+            <span class="dp-Icon dp-add_tab Icon-success"></span>
         </li>
 
         <li class="dp-TabBarItem">
@@ -314,7 +314,7 @@ title: Page Tabs (developing)
     <ul class="dp-TabBarList dp-Selected">
 
         <li class="dp-AddTabButton">
-            <span class="dp-Icon dp-add_tab--netural"></span>
+            <span class="dp-Icon dp-add_tab Icon-success"></span>
 
             <ul class="dp-ContextMenu is-active">
                 <li class="dp-TitleList">Add</li>
@@ -375,7 +375,7 @@ title: Page Tabs (developing)
     <ul class="dp-TabBarList dp-Selected">
 
         <li class="dp-AddTabButton">
-            <span class="dp-Icon dp-add_tab--netural"></span>
+            <span class="dp-Icon dp-add_tab Icon-success"></span>
         </li>
 
         <li class="dp-TabBarItem">

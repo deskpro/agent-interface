@@ -27,20 +27,20 @@ title: Header
                             <span class="dp-Icon dp-history"></span>
                         </li>
                         <li class="dp-MenuBarItem">
-                            <span class="dp-Badge Badge--grey">
-                                <span class="dp-Badge dp-danger">3</span>
-                                <span class="dp-Badge dp-green"></span>
+                            <span class="dp-Badge dp-Badge-round Badge--grey-lighter">
+                                <span class="dp-Badge dp-Badge-round Badge--top Badge--danger">3</span>
+                                <span class="dp-Badge dp-Badge-round Badge--bottom Badge--success"></span>
                             </span>
                         </li>
                         <li class="dp-MenuBarItem">
-                            <span class="dp-Badge Badge--grey">
-                                <span class="dp-Badge dp-green"></span>
+                            <span class="dp-Badge dp-Badge-round Badge--grey-lighter">
+                                <span class="dp-Badge dp-Badge-round Badge--bottom Badge--success"></span>
                             </span>
                         </li>
                         <li class="dp-MenuBarItem">
-                            <span class="dp-Badge Badge--grey">
-                                <span class="dp-Badge dp-danger">1</span>
-                                <span class="dp-Badge dp-green"></span>
+                            <span class="dp-Badge dp-Badge-round Badge--grey-lighter">
+                                <span class="dp-Badge dp-Badge-round Badge--top Badge--danger">1</span>
+                                <span class="dp-Badge dp-Badge-round Badge--bottom Badge--success"></span>
                             </span>
                         </li>
                         <li class="dp-MenuBarItem">
@@ -58,13 +58,13 @@ title: Header
                             <span class="dp-Icon dp-notifications"></span>
                         </li>
                         <li class="dp-MenuBarItem">
-                            <span class="dp-Icon dp-voice--netural"></span>
+                            <span class="dp-Icon dp-voice Icon-success"></span>
                         </li>
                         <li class="dp-MenuBarItem">
                             <span class="dp-Icon dp-chat"></span>
                         </li>
                         <li class="dp-MenuBarItem">
-                            <span class="dp-Badge Badge--grey" alt=""></span>
+                            <span class="dp-Badge dp-Badge-round Badge--grey-lighter" alt=""></span>
                             <span class="dp-Arrow"></span>
                         </li>
                         <li class="dp-MenuBarItem dp-DropMenuJs"><span class="dp-Icon dp-IconPlane dp-ActionDropDown"></span><span class="dp-Arrow"></span>
@@ -113,13 +113,13 @@ title: Header
                             <span class="dp-Icon dp-notifications"></span>
                         </li>
                         <li class="dp-MenuBarItem">
-                            <span class="dp-Icon dp-voice--netural"></span>
+                            <span class="dp-Icon dp-voice Icon-success"></span>
                         </li>
                         <li class="dp-MenuBarItem">
-                            <span class="dp-Icon dp-chat--netural"></span>
+                            <span class="dp-Icon dp-chat Icon-success"></span>
                         </li>
                         <li class="dp-MenuBarItem">
-                            <span class="dp-Badge Badge--grey" alt=""></span>
+                            <span class="dp-Badge dp-Badge-round Badge--grey-lighter" alt=""></span>
                             <span class="dp-Arrow"></span>
                         </li>
                         <li class="dp-MenuBarItem dp-DropMenuJs"><span class="dp-Icon dp-IconPlane dp-ActionDropDown"></span><span class="dp-Arrow"></span>
@@ -133,8 +133,6 @@ title: Header
     </div>
 </div>
 ```
-
-
 
 <h2>header/your-account</h2>
 ```html @preview
@@ -154,20 +152,20 @@ title: Header
                             <span class="dp-Icon dp-history"></span>
                         </li>
                         <li class="dp-MenuBarItem">
-                            <span class="dp-Badge Badge--grey">
-                                <span class="dp-Badge dp-danger">3</span>
-                                <span class="dp-Badge dp-green"></span>
+                            <span class="dp-Badge dp-Badge-round Badge--grey-lighter">
+                                <span class="dp-Badge dp-Badge-round Badge--top Badge--danger">3</span>
+                                <span class="dp-Badge dp-Badge-round Badge--bottom Badge--success"></span>
                             </span>
                         </li>
                         <li class="dp-MenuBarItem">
-                            <span class="dp-Badge Badge--grey">
-                                <span class="dp-Badge dp-green"></span>
+                            <span class="dp-Badge dp-Badge-round Badge--grey-lighter">
+                                <span class="dp-Badge dp-Badge-round Badge--bottom Badge--success"></span>
                             </span>
                         </li>
                         <li class="dp-MenuBarItem">
-                            <span class="dp-Badge Badge--grey">
-                                <span class="dp-Badge dp-danger">1</span>
-                                <span class="dp-Badge dp-green"></span>
+                            <span class="dp-Badge dp-Badge-round Badge--grey-lighter">
+                                <span class="dp-Badge dp-Badge-round Badge--top Badge--danger">1</span>
+                                <span class="dp-Badge dp-Badge-round Badge--bottom Badge--success"></span>
                             </span>
                         </li>
                         <li class="dp-MenuBarItem">
@@ -185,13 +183,13 @@ title: Header
                             <span class="dp-Icon dp-notifications"></span>
                         </li>
                         <li class="dp-MenuBarItem">
-                            <span class="dp-Icon dp-voice--netural"></span>
+                            <span class="dp-Icon dp-voice Icon-success"></span>
                         </li>
                         <li class="dp-MenuBarItem">
                             <span class="dp-Icon dp-chat"></span>
                         </li>
                         <li class="dp-MenuBarItem">
-                            <span class="dp-Badge Badge--grey" alt=""></span>
+                            <span class="dp-Badge dp-Badge-round Badge--grey-lighter" alt=""></span>
                             <span class="dp-Arrow"></span>
                         </li>
                         <li class="dp-MenuBarItem dp-DropMenuJs"><span class="dp-Icon dp-IconPlane dp-ActionDropDown"></span><span class="dp-Arrow"></span>
@@ -271,27 +269,27 @@ title: Header
         <li>
             <span disabled class="dp-Icon dp-notifications"></span>
             <span class="dp-Icon dp-notifications">
-                <span class="dp-Badge dp-danger">5</span>
+                <span class="dp-Badge dp-Badge-round Badge--top Badge--danger">5</span>
             </span>
 
             <span class="dp-Icon dp-notifications is-active">
-                <span class="dp-Badge dp-danger">5</span>
+                <span class="dp-Badge dp-Badge-round Badge--top Badge--danger">5</span>
             </span>
         </li>
 
         <li>
             <span class="dp-Icon dp-voice"></span>
-            <span class="dp-Icon dp-voice--netural"></span>
+            <span class="dp-Icon dp-voice Icon-success"></span>
         </li>
 
         <li>
             <span disabled class="dp-Icon dp-chat"></span>
             <span class="dp-Icon dp-chat">
-                <span class="dp-Badge dp-danger">5</span>
+                <span class="dp-Badge dp-Badge-round Badge--top Badge--danger">5</span>
             </span>
-            <span class="dp-Icon dp-chat--danger"></span>
+            <span class="dp-Icon dp-chat Icon-danger"></span>
             <span class="dp-Icon dp-chat is-active">
-                <span class="dp-Badge dp-danger">5</span>
+                <span class="dp-Badge dp-Badge-round Badge--top Badge--danger">1</span>
             </span>
         </li>
 

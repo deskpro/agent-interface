@@ -30,14 +30,15 @@ title: Tag/Badge
 
 ```html @preview
 <div class="dp-MainWrapper">
-    <span class="dp-Badge Badge--danger">10</span>
-    <span class="dp-Badge Badge--warning">9</span>
-    <span class="dp-Badge Badge--warningLight">7</span>
-    <span class="dp-Badge Badge--yellow">6</span>
-    <span class="dp-Badge Badge--grey"></span>
-    <span class="dp-Badge Badge--white"></span>
-    <span class="dp-Badge Badge--white">10</span>
-    <span class="dp-Badge Badge--dangerMin"></span>
-    <span class="dp-Badge Badge--warningMin"></span>
+    <!-- <span class="dp-Badge Badge--danger">10</span> -->
+    <span class="dp-Badge-round Badge--danger">10</span>
+    <span class="dp-Badge-round Badge--warning">9</span>
+    <span class="dp-Badge-round Badge--warningLight">7</span>
+    <span class="dp-Badge-round Badge--success">6</span>
+    <span class="dp-Badge-round Badge--grey"></span>
+    <span class="dp-Badge-round Badge--white"></span>
+    <span class="dp-Badge-round Badge--white">10</span>
+    <span class="dp-Badge-round Badge-Min Icon-warning"></span>
+    <span class="dp-Badge-round Badge-Min Icon-success"></span>
 </div>
 ```

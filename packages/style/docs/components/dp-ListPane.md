@@ -384,7 +384,7 @@ title: List Pane
                     <span class="dp-IconGroup">
 
                         <span class="dp-AgentViewing dp-AgentWriting">
-                            <span class="dp-Icon dp-IconEdit--primary"></span>
+                            <span class="dp-Icon dp-IconEdit Icon-primary"></span>
                             <span class="dp-Badge dp-Badge-round Badge--grey"></span>
                         </span>
 
@@ -432,7 +432,7 @@ title: List Pane
                     <span class="dp-IconGroup">
 
                         <span class="dp-AgentViewing dp-AgentWriting">
-                            <span class="dp-Icon dp-IconEdit--primary"></span>
+                            <span class="dp-Icon dp-IconEdit Icon-primary"></span>
                             <span class="dp-Badge dp-Badge-round Badge--grey"></span>
                             <span class="dp-Badge dp-Badge-round Badge--grey"></span>
                         </span>
@@ -577,7 +577,7 @@ title: List Pane
             </span>
 
             <span class="dp-ItemCol">
-                <span class="dp-CardTitle">Inventory component<span class="dp-Icon dp-iconStar--netural"></span></span>
+                <span class="dp-CardTitle">Inventory component<span class="dp-Icon dp-iconStar Icon-netural"></span></span>
 
                 <span class="dp-UserInfo">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
@@ -592,7 +592,7 @@ title: List Pane
             <span class="dp-ItemCol">
                 <span class="dp-IconGroup">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-Badge-round Badge--warningMin"></span>
+                    <span class="dp-Badge-round Badge-Min Icon-warning"></span>
                 </span>
                 <span class="dp-TimeStatus">
                     <span>2 hr 16 min</span>
@@ -694,7 +694,7 @@ title: List Pane
                 <span class="dp-IconGroup">
                     <span class="dp-Icon--circle dp-iconMln"></span>
                     <span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>
-                    <span class="dp-Badge-round Badge--successMin"></span>
+                    <span class="dp-Badge-round Badge-Min Icon-neutral"></span>
                 </span>
                 <span class="dp-TimeStatus">
                     <span>43 mins</span>
@@ -746,7 +746,7 @@ title: List Pane
             </span>
 
             <span class="dp-ItemCol">
-                <span class="dp-CardTitle">Allow anyone to email support<span class="dp-Icon dp-iconStar--netural"></span></span>
+                <span class="dp-CardTitle">Allow anyone to email support<span class="dp-Icon dp-iconStar Icon-netural"></span></span>
                 <span class="dp-UserInfo">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
                     <span class="dp-UserName">Mark Jarvis
@@ -761,7 +761,7 @@ title: List Pane
                 <span class="dp-IconGroup">
                     <span class="dp-Icon--circle dp-iconMln"></span>
                     <span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>
-                    <span class="dp-Badge-round Badge--success">6</span>
+                    <span class="dp-Badge-round Badge--neutral">6</span>
                 </span>
                 <span class="dp-TimeStatus">
                     <span>43 mins</span>
@@ -841,7 +841,7 @@ title: List Pane
                 <span class="dp-IconGroup">
                     <span class="dp-Icon--circle dp-iconMln"></span>
                     <span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>
-                    <span class="dp-Badge-round Badge--successMin"></span>
+                    <span class="dp-Badge-round Badge-Min Icon-neutral"></span>
                 </span>
                 <span class="dp-TimeStatus">
                     <span>4 weeks</span>
@@ -1151,7 +1151,7 @@ title: List Pane
                 </span>
 
                 <span class="dp-ItemCol">
-                    <span class="dp-CardTitle">Inventory component<span class="dp-Icon dp-iconStar--netural"></span></span>
+                    <span class="dp-CardTitle">Inventory component<span class="dp-Icon dp-iconStar Icon-netural"></span></span>
 
                     <span class="dp-UserInfo">
                         <span class="dp-Icon dp-iconUserAvatar"></span>
@@ -1200,7 +1200,7 @@ title: List Pane
                 <span class="dp-ItemCol">
                     <span class="dp-IconGroup">
                         <span class="dp-Icon dp-iconUserAvatar"></span>
-                        <span class="dp-Badge-round Badge--warningMin"></span>
+                        <span class="dp-Badge-round Badge-Min Icon-warning"></span>
                     </span>
                     <span class="dp-TimeStatus">
                         <span>2 hr 16min</span>
@@ -1302,7 +1302,7 @@ title: List Pane
 
                         <span class="dp-Icon--circle dp-iconMln"></span>
                         <span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>
-                        <span class="dp-Badge-round Badge--successMin"></span>
+                        <span class="dp-Badge-round Badge-Min Icon-neutral"></span>
                     </span>
                     <span class="dp-TimeStatus">
                         <span>43 mins</span>
@@ -1335,7 +1335,7 @@ title: List Pane
                     <span class="dp-IconGroup">
                         <span class="dp-Icon--circle dp-iconMln"></span>
                         <span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>
-                        <span class="dp-Badge-round Badge--success">6</span>
+                        <span class="dp-Badge-round Badge--neutral">6</span>
                     </span>
                     <span class="dp-TimeStatus">
                         <span>3 days</span>
@@ -1353,7 +1353,7 @@ title: List Pane
                 </span>
 
                 <span class="dp-ItemCol">
-                    <span class="dp-CardTitle">Inventory component<span class="dp-Icon dp-iconStar--netural"></span></span>
+                    <span class="dp-CardTitle">Inventory component<span class="dp-Icon dp-iconStar Icon-netural"></span></span>
 
                     <span class="dp-UserInfo">
                         <span class="dp-Icon dp-iconUserAvatar"></span>
@@ -1408,7 +1408,7 @@ title: List Pane
                     <span class="dp-IconGroup">
                         <span class="dp-Icon--circle dp-iconMln"></span>
                         <span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>
-                        <span class="dp-Badge-round Badge--successMin"></span>
+                        <span class="dp-Badge-round Badge-Min Icon-neutral"></span>
                     </span>
                     <span class="dp-TimeStatus">
                         <span>4 weeks</span>
@@ -1801,7 +1801,7 @@ title: List Pane
                 <td>83995</td>
                 <td class="dp-SubjectItem">
                     <span>AW: Need some help?</span>
-                    <span class="dp-Icon dp-iconStar--netural"></span>
+                    <span class="dp-Icon dp-iconStar Icon-netural"></span>
                 </td>
                 <td>&nbsp;</td>
                 <td>Sales</td>
@@ -1838,7 +1838,7 @@ title: List Pane
                 </td>
                 <td>&nbsp;</td>
                 <td>
-                    <span class="dp-Badge Badge--success"></span>
+                    <span class="dp-Badge Badge--neutral"></span>
                 </td>
             </tr>
             <tr>
@@ -1875,7 +1875,7 @@ title: List Pane
                     </span>
                 </td>
                 <td>65347</td>
-                <td class="dp-SubjectItem"><span>Portal disabled landing page</span><span class="dp-Icon dp-iconStar--yellow"></span></td>
+                <td class="dp-SubjectItem"><span>Portal disabled landing page</span><span class="dp-Icon dp-iconStar Icon-neutral"></span></td>
                 <td>&nbsp;</td>
                 <td>Support</td>
                 <td>Italiano</td>
@@ -1980,7 +1980,7 @@ title: List Pane
                 <td>76473</td>
                 <td class="dp-SubjectItem">
                     <span>SSO Information</span>
-                    <span class="dp-Icon dp-iconStar--netural"></span>
+                    <span class="dp-Icon dp-iconStar Icon-netural"></span>
                 </td>
                 <td>&nbsp;</td>
                 <td>Support</td>
@@ -1993,7 +1993,7 @@ title: List Pane
                 </td>
                 <td>&nbsp;</td>
                 <td>
-                    <span class="dp-Badge Badge--success">4</span>
+                    <span class="dp-Badge Badge--neutral">4</span>
                 </td>
             </tr>
         </tbody>
@@ -2161,7 +2161,7 @@ title: List Pane
                 <td>83995</td>
                 <td class="dp-SubjectItem">
                     <span>AW: Need some help?</span>
-                    <span class="dp-Icon dp-iconStar--netural"></span>
+                    <span class="dp-Icon dp-iconStar Icon-netural"></span>
                 </td>
                 <td>&nbsp;</td>
                 <td>Sales</td>
@@ -2198,7 +2198,7 @@ title: List Pane
                 </td>
                 <td>&nbsp;</td>
                 <td>
-                    <span class="dp-Badge Badge--success"></span>
+                    <span class="dp-Badge Badge--neutral"></span>
                 </td>
             </tr>
 
@@ -2323,7 +2323,7 @@ title: List Pane
             </span>
 
             <span class="dp-ItemCol">
-                <span class="dp-CardTitle">Inventory component<span class="dp-Icon dp-iconStar--netural"></span></span>
+                <span class="dp-CardTitle">Inventory component<span class="dp-Icon dp-iconStar Icon-netural"></span></span>
 
                 <span class="dp-UserInfo">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
@@ -2338,7 +2338,7 @@ title: List Pane
             <span class="dp-ItemCol">
                 <span class="dp-IconGroup">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-Badge-round Badge--warningMin"></span>
+                    <span class="dp-Badge-round Badge-Min Icon-warning"></span>
                 </span>
                 <span class="dp-TimeStatus">
                     <span>2 hr 16 min</span>
@@ -2440,7 +2440,7 @@ title: List Pane
                 <span class="dp-IconGroup">
                     <span class="dp-Icon--circle dp-iconMln"></span>
                     <span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>
-                    <span class="dp-Badge-round Badge--successMin"></span>
+                    <span class="dp-Badge-round Badge-Min Icon-neutral"></span>
                 </span>
                 <span class="dp-TimeStatus">
                     <span>43 mins</span>
@@ -2492,7 +2492,7 @@ title: List Pane
             </span>
 
             <span class="dp-ItemCol">
-                <span class="dp-CardTitle">Allow anyone to email support<span class="dp-Icon dp-iconStar--netural"></span></span>
+                <span class="dp-CardTitle">Allow anyone to email support<span class="dp-Icon dp-iconStar Icon-netural"></span></span>
                 <span class="dp-UserInfo">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
                     <span class="dp-UserName">Mark Jarvis
@@ -2507,7 +2507,7 @@ title: List Pane
                 <span class="dp-IconGroup">
                     <span class="dp-Icon--circle dp-iconMln"></span>
                     <span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>
-                    <span class="dp-Badge-round Badge--success">6</span>
+                    <span class="dp-Badge-round Badge--neutral">6</span>
                 </span>
                 <span class="dp-TimeStatus">
                     <span>43 mins</span>
@@ -2566,7 +2566,7 @@ title: List Pane
                 </span>
 
                 <span class="dp-TimeStatus">
-                    <span class="dp-Tag Tag--small Tag--success">Updated</span>
+                    <span class="dp-Tag Tag--small Tag--neutral">Updated</span>
                 </span>
             </span>
 
@@ -2683,7 +2683,7 @@ title: List Pane
             <ul class="dp-ItemRow dp-GroupDescription">
                 <li class="dp-ListPane">
                     <div class="dp-SortIconDescription">
-                        <span class="dp-Icon dp-add_follower--netural"></span>
+                        <span class="dp-Icon dp-add_follower Icon-netural"></span>
                     </div>
                     <span class="dp-SelectGroup">
                         <span class="dp-ItemRow">
@@ -2780,7 +2780,7 @@ title: List Pane
             <ul class="dp-ItemRow dp-GroupDescription">
                 <li class="dp-ListPane">
                     <div class="dp-SortIconDescription">
-                        <span class="dp-Icon dp-add_follower--netural"></span>
+                        <span class="dp-Icon dp-add_follower Icon-netural"></span>
                     </div>
                     <span class="dp-SelectGroup">
                         <span class="dp-ItemRow">
