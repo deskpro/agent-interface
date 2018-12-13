@@ -58,6 +58,10 @@ storiesOf("Button", module).add("Buttons", () => (
           <Icon name="transfer" size={16} />
           Actions
         </Button>
+        <Button onClick={action("click")} variant="actions">
+          <Icon name="lock" size={16} />
+          Actions
+        </Button>
       </div>
     </div>
   </>
