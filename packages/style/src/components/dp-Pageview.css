@@ -401,11 +401,11 @@
   font: var(--h-l-semibold);
 }
 
-.dp-TagBar .dp-Tag.Tag--plus {
+.dp-TagBar .Button--label {
   margin-left: 15px;
 }
 
-.dp-TagBar .Tag--plus::after {
+.dp-TagBar .Button--label::after {
   background-color: var(--grey);
   content: "";
   height: 24px;

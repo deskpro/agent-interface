@@ -260,7 +260,7 @@ title: List Pane
 <h4>listpane/header</h4>
 ```html @preview
 <div class="dp-MainWrapper">
-    <span class="dp-FilterResultTitle">
+    <span class="dp-SectionCardTitle">
         <span>Sales</span>
     </span>
 </div>
@@ -270,115 +270,133 @@ title: List Pane
 ```html @preview
 <div class="dp-MainWrapper">
     <form>
-        <ul class="dp-FilterResultList">
-            <li class="dp-FilterResultItem">
-                <span class="dp-ItemRow">
+        <ul class="dp-CardList">
+            <li class="dp-Card">
+
+                <span class="dp-ItemCol">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-1"></input>
-                        <label for="customCheckbox1-1" class="dp-CardTitle">Card title here</label>
-                    </span>
-                    <span class="dp-IconGroup">
-
-                        <span class="dp-AgentViewing">
-                            <span class="dp-Icon dp-view"></span>
-                            <span class="dp-Badge Badge--empty"></span>
-                        </span>
-
-                        <span class="dp-Circle dp-iconBug"></span>
-                        <span class="dp-Badge Badge--empty"></span>
-                        <span class="dp-Circle dp-iconClock"></span>
+                        <label for="customCheckbox1-1" class="dp-CardTitle"></label>
                     </span>
                 </span>
-                <span class="dp-ItemRow">
+
+                <span class="dp-ItemCol">
+                    <span class="dp-CardTitle">Card title here</span>
+
                     <span class="dp-UserInfo">
                         <span class="dp-Icon dp-iconUserAvatar"></span>
                         <span class="dp-UserName">Single-line item</span>
+                    </span>
+                </span>
+
+                <span class="dp-ItemCol">
+                    <span class="dp-IconGroup">
+                        <span class="dp-AgentViewing">
+                            <span class="dp-Icon dp-view"></span>
+                            <span class="dp-Badge dp-Badge-round Badge--grey"></span>
+                        </span>
+                        <span class="dp-Icon--circle dp-iconBug"></span>
+                        <span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>
+                        <span class="dp-Icon--circle dp-iconClock"></span>
                     </span>
                     <span class="dp-TimeStatus">
                         <span class="dp-Tag Tag--small Tag--danger">Failed</span>
                     </span>
                 </span>
+
             </li>
         </ul>
     </form>
 </div>
 ```
-
 
 <h4>list-pane/agent-viewing-large</h4>
 ```html @preview
-
 <div class="dp-MainWrapper">
     <form>
-        <ul class="dp-FilterResultList">
-            <li class="dp-FilterResultItem">
-                <span class="dp-ItemRow">
+        <ul class="dp-CardList">
+            <li class="dp-Card">
+
+                <span class="dp-ItemCol">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-2"></input>
-                        <label for="customCheckbox1-2" class="dp-CardTitle">Card title here</label>
-                    </span>
-                    <span class="dp-IconGroup">
-
-                        <span class="dp-AgentViewing">
-                            <span class="dp-Icon dp-view"></span>
-                            <span class="dp-Badge Badge--empty"></span>
-                            <span class="dp-Badge Badge--empty"></span>
-                        </span>
-
-                        <span class="dp-Circle dp-iconBug"></span>
-                        <span class="dp-Badge Badge--empty"></span>
-                        <span class="dp-Circle dp-iconClock"></span>
+                        <label for="customCheckbox1-2" class="dp-CardTitle"></label>
                     </span>
                 </span>
-                <span class="dp-ItemRow">
+
+                <span class="dp-ItemCol">
+                    <span class="dp-CardTitle">Card title here</span>
+
                     <span class="dp-UserInfo">
                         <span class="dp-Icon dp-iconUserAvatar"></span>
                         <span class="dp-UserName">Single-line item</span>
+                    </span>
+                </span>
+
+                <span class="dp-ItemCol">
+                    <span class="dp-IconGroup">
+                        <span class="dp-AgentViewing">
+                            <span class="dp-Icon dp-view"></span>
+                            <span class="dp-Badge dp-Badge-round Badge--grey"></span>
+                            <span class="dp-Badge dp-Badge-round Badge--grey"></span>
+                        </span>
+                        <span class="dp-Icon--circle dp-iconBug"></span>
+                        <span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>
+                        <span class="dp-Icon--circle dp-iconClock"></span>
                     </span>
                     <span class="dp-TimeStatus">
                         <span class="dp-Tag Tag--small Tag--danger">Failed</span>
                     </span>
                 </span>
+
             </li>
         </ul>
     </form>
 </div>
 ```
-
 
 <h4>list-pane/agent-writing-small</h4>
 ```html @preview
 
+<!--  -->
 <div class="dp-MainWrapper">
     <form>
-        <ul class="dp-FilterResultList">
-            <li class="dp-FilterResultItem">
-                <span class="dp-ItemRow">
+        <ul class="dp-CardList">
+            <li class="dp-Card">
+
+                <span class="dp-ItemCol">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-3"></input>
-                        <label for="customCheckbox1-3" class="dp-CardTitle">Card title here</label>
+                        <label for="customCheckbox1-3" class="dp-CardTitle"></label>
                     </span>
+                </span>
+
+                <span class="dp-ItemCol">
+                    <span class="dp-CardTitle">Card title here</span>
+
+                    <span class="dp-UserInfo">
+                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                        <span class="dp-UserName">Single-line item</span>
+                    </span>
+                </span>
+
+                <span class="dp-ItemCol">
                     <span class="dp-IconGroup">
 
                         <span class="dp-AgentViewing dp-AgentWriting">
                             <span class="dp-Icon dp-IconEdit--primary"></span>
-                            <span class="dp-Badge Badge--empty"></span>
+                            <span class="dp-Badge dp-Badge-round Badge--grey"></span>
                         </span>
 
-                        <span class="dp-Circle dp-iconBug"></span>
-                        <span class="dp-Badge Badge--empty"></span>
-                        <span class="dp-Circle dp-iconClock"></span>
-                    </span>
-                </span>
-                <span class="dp-ItemRow">
-                    <span class="dp-UserInfo">
-                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                        <span class="dp-UserName">Single-line item</span>
+                        <span class="dp-Icon--circle dp-iconBug"></span>
+                        <span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>
+                        <span class="dp-Icon--circle dp-iconClock"></span>
                     </span>
                     <span class="dp-TimeStatus">
                         <span class="dp-Tag Tag--small Tag--danger">Failed</span>
                     </span>
                 </span>
+
             </li>
         </ul>
     </form>
@@ -391,35 +409,43 @@ title: List Pane
 
 <div class="dp-MainWrapper">
     <form>
-        <ul class="dp-FilterResultList">
-            <li class="dp-FilterResultItem">
-                <span class="dp-ItemRow">
+        <ul class="dp-CardList">
+            <li class="dp-Card">
+
+                <span class="dp-ItemCol">
                     <span class="dp-CustomCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-4"></input>
-                        <label for="customCheckbox1-4" class="dp-CardTitle">Card title here</label>
+                        <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-3"></input>
+                        <label for="customCheckbox1-3" class="dp-CardTitle"></label>
                     </span>
+                </span>
+
+                <span class="dp-ItemCol">
+                    <span class="dp-CardTitle">Card title here</span>
+
+                    <span class="dp-UserInfo">
+                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                        <span class="dp-UserName">Single-line item</span>
+                    </span>
+                </span>
+
+                <span class="dp-ItemCol">
                     <span class="dp-IconGroup">
 
                         <span class="dp-AgentViewing dp-AgentWriting">
                             <span class="dp-Icon dp-IconEdit--primary"></span>
-                            <span class="dp-Badge Badge--empty"></span>
-                            <span class="dp-Badge Badge--empty"></span>
+                            <span class="dp-Badge dp-Badge-round Badge--grey"></span>
+                            <span class="dp-Badge dp-Badge-round Badge--grey"></span>
                         </span>
 
-                        <span class="dp-Circle dp-iconBug"></span>
-                        <span class="dp-Badge Badge--empty"></span>
-                        <span class="dp-Circle dp-iconClock"></span>
-                    </span>
-                </span>
-                <span class="dp-ItemRow">
-                    <span class="dp-UserInfo">
-                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                        <span class="dp-UserName">Single-line item</span>
+                        <span class="dp-Icon--circle dp-iconBug"></span>
+                        <span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>
+                        <span class="dp-Icon--circle dp-iconClock"></span>
                     </span>
                     <span class="dp-TimeStatus">
                         <span class="dp-Tag Tag--small Tag--danger">Failed</span>
                     </span>
                 </span>
+
             </li>
         </ul>
     </form>
@@ -463,36 +489,43 @@ title: List Pane
 </div>
 ```
 
-<h2>listpane/header</h2>
+<h2>listpane/tickets</h2>
 ```html @preview
 <form>
-    <ul class="dp-FilterResultList dp-HoverList">
+    <ul class="dp-CardList dp-HoverList">
         
-        <li class="dp-FilterResultTitle">
+        <li class="dp-SectionCardTitle">
             <span>Sales</span>
-            <span class="dp-SortIconDescription"><span class="dp-Icon dp-sort"></span>DSC</span>
+            <!-- <span class="dp-SortIconDescription"><span class="dp-Icon dp-sort"></span>DSC</span> -->
         </li>
-        <li class="dp-FilterResultItem is-active">
-            <span class="dp-ItemRow">
+
+        <!-- 1 -->
+        <li class="dp-Card is-active">
+            <span class="dp-ItemCol">
                 <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox1" checked="checked"></input>
-                    <label for="customCheckbox1" class="dp-CardTitle">SSO Information</label>
-                    <span class="dp-Icon dp-iconStar"></span>
-                </span>
-                <span class="dp-IconGroup">
-                    <span class="dp-Circle dp-iconBug"></span>
-                    <span class="dp-Badge Badge--empty"></span>
-                    <span class="dp-Circle dp-iconClock"></span>
+                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-4"></input>
+                    <label for="customCheckbox1-4" class="dp-CardTitle"></label>
                 </span>
             </span>
-            <span class="dp-ItemRow">
+
+            <span class="dp-ItemCol">
+                <span class="dp-CardTitle">SSO Information<span class="dp-Icon dp-iconStar"></span></span>
                 <span class="dp-UserInfo">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
                     <span class="dp-UserName">Kenneth James
-                        <span class="dp-UserEmail">&lt;
-                            <span class="dp-UserEmailItem">kenneth@windfarms.com</span>&gt;
-                        </span>
                     </span>
+                    <a href="mailto:kenneth@windfarms.com" class="dp-UserEmail">
+                        &lt;kenneth@windfarms.com&gt;
+                    </a>
+                </span>
+            </span>
+
+            <span class="dp-ItemCol">
+                <span class="dp-IconGroup">
+
+                    <span class="dp-Icon--circle dp-iconBug"></span>
+                    <span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>
+                    <span class="dp-Icon--circle dp-iconClock"></span>
                 </span>
                 <span class="dp-TimeStatus">
                     <span class="dp-Tag Tag--small Tag--danger">Failed</span>
@@ -500,26 +533,33 @@ title: List Pane
             </span>
         </li>
 
-        <li class="dp-FilterResultItem">
-            <span class="dp-ItemRow">
+        <!-- 2 -->
+        <li class="dp-Card">
+            <span class="dp-ItemCol">
                 <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox2"></input>
-                    <label for="customCheckbox2" class="dp-CardTitle">Portal disabled landing page</label>
-                </span>
-                <span class="dp-IconGroup">
-                    <span class="dp-Circle dp-iconRocket"></span>
-                    <span class="dp-Badge Badge--empty"></span>
-                    <span class="dp-Badge Badge--warning">9</span>
+                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-5"></input>
+                    <label for="customCheckbox1-5" class="dp-CardTitle"></label>
                 </span>
             </span>
-            <span class="dp-ItemRow">
+
+            <span class="dp-ItemCol">
+                <span class="dp-CardTitle">Portal disabled landing page</span>
+
                 <span class="dp-UserInfo">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-UserName">Mark Jarvisk
-                        <span class="dp-UserEmail">&lt;
-                            <span class="dp-UserEmailItem">mjarvis@econorob.nl</span>&gt;
-                        </span>
+                    <span class="dp-UserName">Mark Jarvis
                     </span>
+                    <a href="mailto:mjarvis@econorob.nl" class="dp-UserEmail">
+                        &lt;mjarvis@econorob.nl&gt;
+                    </a>
+                </span>
+            </span>
+
+            <span class="dp-ItemCol">
+                <span class="dp-IconGroup">
+                    <span class="dp-Icon--circle dp-iconRocket"></span>
+                    <span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>
+                    <span class="dp-Badge-round Badge--warning">9</span>
                 </span>
                 <span class="dp-TimeStatus">
                     <span class="dp-Tag Tag--small Tag--pink">3 hours</span>
@@ -527,22 +567,32 @@ title: List Pane
             </span>
         </li>
 
-        <li class="dp-FilterResultItem">
-            <span class="dp-ItemRow">
+        <!-- 3 -->
+        <li class="dp-Card">
+            <span class="dp-ItemCol">
                 <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox3"></input>
-                    <label for="customCheckbox3" class="dp-CardTitle">Inventory component</label>
-                    <span class="dp-Icon dp-iconStar--netural"></span>
-                </span>
-                <span class="dp-IconGroup">
-                    <span class="dp-Circle dp-iconUserAvatar"></span>
-                    <span class="dp-Badge Badge--warningMin"></span>
+                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-6"></input>
+                    <label for="customCheckbox1-6" class="dp-CardTitle"></label>
                 </span>
             </span>
-            <span class="dp-ItemRow">
+
+            <span class="dp-ItemCol">
+                <span class="dp-CardTitle">Inventory component<span class="dp-Icon dp-iconStar--netural"></span></span>
+
                 <span class="dp-UserInfo">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-UserName">Toby Falkirk <span class="dp-UserEmail">&lt;<span class="dp-UserEmailItem">t.falkirk@rambling.com </span>&gt; </span> </span>
+                    <span class="dp-UserName">Toby Falkirk
+                    </span>
+                    <a href="mailto:t.falkirk@rambling.com" class="dp-UserEmail">
+                        &lt;t.falkirk@rambling.com&gt;
+                    </a>
+                </span>
+            </span>
+
+            <span class="dp-ItemCol">
+                <span class="dp-IconGroup">
+                    <span class="dp-Icon dp-iconUserAvatar"></span>
+                    <span class="dp-Badge-round Badge--warningMin"></span>
                 </span>
                 <span class="dp-TimeStatus">
                     <span>2 hr 16 min</span>
@@ -550,71 +600,101 @@ title: List Pane
             </span>
         </li>
 
-        <li class="dp-FilterResultItem">
-            <span class="dp-ItemRow">
+        <!-- 4 -->
+        <li class="dp-Card">
+            <span class="dp-ItemCol">
                 <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox4"></input>
-                    <label for="customCheckbox4" class="dp-CardTitle">AW: Need some help?</label>
-                </span>
-                <span class="dp-IconGroup">
-                    <span class="dp-Circle dp-iconLock"></span>
-                    <span class="dp-Circle dp-iconMln"></span>
-                    <span class="dp-Badge Badge--empty"></span>
-                    <span class="dp-Badge Badge--warning">9</span>
+                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-7"></input>
+                    <label for="customCheckbox1-7" class="dp-CardTitle"></label>
                 </span>
             </span>
-            <span class="dp-ItemRow">
+
+            <span class="dp-ItemCol">
+                <span class="dp-CardTitle">AW: Need some help?</span>
+
                 <span class="dp-UserInfo">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-UserName">Kenneth James<span class="dp-UserEmail">&lt;<span class="dp-UserEmailItem">kenneth@windfarms.com</span>&gt;</span></span>
+                    <span class="dp-UserName">Kenneth James
+                    </span>
+                    <a href="mailto:kenneth@windfarms.com" class="dp-UserEmail">
+                        &lt;kenneth@windfarms.com&gt;
+                    </a>
+                </span>
+            </span>
+
+            <span class="dp-ItemCol">
+                <span class="dp-IconGroup">
+                    <span class="dp-Icon--circle dp-iconLock"></span>
+                    <span class="dp-Icon--circle dp-iconMln"></span>
+                    <span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>
+                    <span class="dp-Badge-round Badge--warning">9</span>
                 </span>
                 <span class="dp-TimeStatus">
-                   <span>57 mins</span>
+                    <span>57 mins</span>
                 </span>
             </span>
         </li>
 
-
-        <li class="dp-FilterResultItem">
-            <span class="dp-ItemRow">
+        <!-- 5 -->
+        <li class="dp-Card">
+            <span class="dp-ItemCol">
                 <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox5"></input>
-                    <label for="customCheckbox5" class="dp-CardTitle">Portal disabled landing page</label>
-                </span>
-                <span class="dp-IconGroup">
-                    <span class="dp-Circle dp-iconMln"></span>
-                    <span class="dp-Badge Badge--empty"></span>
-                    <span class="dp-Badge Badge--warning">7</span>
+                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-8"></input>
+                    <label for="customCheckbox1-8" class="dp-CardTitle"></label>
                 </span>
             </span>
-            <span class="dp-ItemRow">
+
+            <span class="dp-ItemCol">
+                <span class="dp-CardTitle">Portal disabled landing page</span>
+
                 <span class="dp-UserInfo">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-UserName">Mark Jarvis<span class="dp-UserEmail">&lt;<span class="dp-UserEmailItem">mjarvis@econorob.nl</span>&gt;</span></span>
+                    <span class="dp-UserName">Mark Jarvis
+                    </span>
+                    <a href="mailto:mjarvis@econorob.nl" class="dp-UserEmail">
+                        &lt;mjarvis@econorob.nl&gt;
+                    </a>
+                </span>
+            </span>
+
+            <span class="dp-ItemCol">
+                <span class="dp-IconGroup">
+                    <span class="dp-Icon--circle dp-iconMln"></span>
+                    <span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>
+                    <span class="dp-Badge-round Badge--warning">7</span>
                 </span>
                 <span class="dp-TimeStatus">
                     <span class="dp-Tag Tag--small Tag--danger">2 hours</span>
                 </span>
             </span>
         </li>
-
-        <li class="dp-FilterResultItem">
-            <span class="dp-ItemRow">
+        
+        <!-- 6 -->
+        <li class="dp-Card">
+            <span class="dp-ItemCol">
                 <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox6"></input>
-                    <label for="customCheckbox6" class="dp-CardTitle">Enjoying your helpdesk?</label>
-                    <span class="dp-Icon dp-iconStar"></span>
-                </span>
-                <span class="dp-IconGroup">
-                    <span class="dp-Circle dp-iconMln"></span>
-                    <span class="dp-Badge Badge--empty"></span>
-                    <span class="dp-Badge Badge--yellowMin"></span>
+                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-9"></input>
+                    <label for="customCheckbox1-9" class="dp-CardTitle"></label>
                 </span>
             </span>
-            <span class="dp-ItemRow">
+
+            <span class="dp-ItemCol">
+                <span class="dp-CardTitle">Enjoying your helpdesk?<span class="dp-Icon dp-iconStar"></span></span>
                 <span class="dp-UserInfo">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-UserName">Toby Falkirk <span class="dp-UserEmail">&lt;<span class="dp-UserEmailItem">t.falkirk@rambling.com </span>&gt; </span> </span>
+                    <span class="dp-UserName">Toby Falkirk
+                    </span>
+                    <a href="mailto:t.falkirk@rambling.com" class="dp-UserEmail">
+                        &lt;t.falkirk@rambling.com&gt;
+                    </a>
+                </span>
+            </span>
+
+            <span class="dp-ItemCol">
+                <span class="dp-IconGroup">
+                    <span class="dp-Icon--circle dp-iconMln"></span>
+                    <span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>
+                    <span class="dp-Badge-round Badge--successMin"></span>
                 </span>
                 <span class="dp-TimeStatus">
                     <span>43 mins</span>
@@ -622,22 +702,33 @@ title: List Pane
             </span>
         </li>
 
-        <li class="dp-FilterResultItem">
-            <span class="dp-ItemRow">
+        <!-- 7 -->
+        <li class="dp-Card">
+            <span class="dp-ItemCol">
                 <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox7"></input>
-                    <label for="customCheckbox7" class="dp-CardTitle">Product enquiry</label>
-                </span>
-                <span class="dp-IconGroup">
-                    <span class="dp-Circle dp-iconBug"></span>
-                    <span class="dp-Badge Badge--empty"></span>
-                    <span class="dp-Circle dp-iconClock"></span>
+                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-10"></input>
+                    <label for="customCheckbox1-10" class="dp-CardTitle"></label>
                 </span>
             </span>
-            <span class="dp-ItemRow">
+
+            <span class="dp-ItemCol">
+                <span class="dp-CardTitle">Product enquiry</span>
                 <span class="dp-UserInfo">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-UserName">Kenneth James <span class="dp-UserEmail">&lt;<span class="dp-UserEmailItem">kenneth@windfarms.com </span>&gt; </span> </span>
+                    <span class="dp-UserName">Kenneth James
+                    </span>
+                    <a href="mailto:kenneth@windfarms.com" class="dp-UserEmail">
+                        &lt;kenneth@windfarms.com&gt;
+                    </a>
+                </span>
+            </span>
+
+            <span class="dp-ItemCol">
+                <span class="dp-IconGroup">
+
+                    <span class="dp-Icon--circle dp-iconBug"></span>
+                    <span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>
+                    <span class="dp-Icon--circle dp-iconClock"></span>
                 </span>
                 <span class="dp-TimeStatus">
                     <span class="dp-Tag Tag--small Tag--danger">Failed</span>
@@ -645,50 +736,72 @@ title: List Pane
             </span>
         </li>
 
-        <li class="dp-FilterResultItem">
-            <span class="dp-ItemRow">
+        <!-- 8 -->
+        <li class="dp-Card">
+            <span class="dp-ItemCol">
                 <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox8"></input>
-                    <label for="customCheckbox8" class="dp-CardTitle">Allow anyone to email support</label>
-                    <span class="dp-Icon dp-iconStar--netural"></span>
-                </span>
-                <span class="dp-IconGroup">
-                    <span class="dp-Circle dp-iconMln"></span>
-                    <span class="dp-Badge Badge--empty"></span>
-                    <span class="dp-Badge Badge--yellow">6</span>
+                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-11"></input>
+                    <label for="customCheckbox1-11" class="dp-CardTitle"></label>
                 </span>
             </span>
-            <span class="dp-ItemRow">
+
+            <span class="dp-ItemCol">
+                <span class="dp-CardTitle">Allow anyone to email support<span class="dp-Icon dp-iconStar--netural"></span></span>
                 <span class="dp-UserInfo">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-UserName">Mark Jarvis <span class="dp-UserEmail">&lt;<span class="dp-UserEmailItem">mjarvis@econorob.nl </span>&gt; </span> </span>
+                    <span class="dp-UserName">Mark Jarvis
+                    </span>
+                    <a href="mailto:mjarvis@econorob.nl" class="dp-UserEmail">
+                        &lt;mjarvis@econorob.nl&gt;
+                    </a>
+                </span>
+            </span>
+
+            <span class="dp-ItemCol">
+                <span class="dp-IconGroup">
+                    <span class="dp-Icon--circle dp-iconMln"></span>
+                    <span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>
+                    <span class="dp-Badge-round Badge--success">6</span>
                 </span>
                 <span class="dp-TimeStatus">
-                    <span>3 days</span>
+                    <span>43 mins</span>
                 </span>
             </span>
         </li>
 
-        <li class="dp-FilterResultTitle">
+
+        <li class="dp-SectionCardTitle">
             <span>Sales</span>
-            <span class="dp-SortIconDescription"><span class="dp-Icon dp-sort"></span>DSC</span>
+            <!-- <span class="dp-SortIconDescription"><span class="dp-Icon dp-sort"></span>DSC</span> -->
         </li>
-        <li class="dp-FilterResultItem">
-            <span class="dp-ItemRow">
+
+        <!-- 9 -->
+        <li class="dp-Card">
+            <span class="dp-ItemCol">
                 <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox9"></input>
-                    <label for="customCheckbox9" class="dp-CardTitle">Inventory component</label>
-                </span>
-                <span class="dp-IconGroup">
-                    <span class="dp-Circle dp-iconRocket"></span>
-                    <span class="dp-Badge Badge--empty"></span>
-                    <span class="dp-Badge Badge--warning">9</span>
+                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-12"></input>
+                    <label for="customCheckbox1-12" class="dp-CardTitle"></label>
                 </span>
             </span>
-            <span class="dp-ItemRow">
+
+            <span class="dp-ItemCol">
+                <span class="dp-CardTitle">Inventory component</span>
+
                 <span class="dp-UserInfo">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-UserName">Toby Falkirk <span class="dp-UserEmail">&lt;<span class="dp-UserEmailItem">t.falkirk@rambling.com </span>&gt; </span> </span>
+                    <span class="dp-UserName">Toby Falkirk
+                    </span>
+                    <a href="mailto:t.falkirk@rambling.com" class="dp-UserEmail">
+                        &lt;t.falkirk@rambling.com&gt;
+                    </a>
+                </span>
+            </span>
+
+            <span class="dp-ItemCol">
+                <span class="dp-IconGroup">
+                    <span class="dp-Icon--circle dp-iconRocket"></span>
+                    <span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>
+                    <span class="dp-Badge-round Badge--warning">9</span>
                 </span>
                 <span class="dp-TimeStatus">
                     <span>12 hr 43 min</span>
@@ -696,66 +809,93 @@ title: List Pane
             </span>
         </li>
 
-        <li class="dp-FilterResultItem">
-            <span class="dp-ItemRow">
+        <!-- 10 -->
+        <li class="dp-Card">
+            <span class="dp-ItemCol">
                 <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox10"></input>
-                    <label for="customCheckbox10" class="dp-CardTitle dp-StarAlign">Enjoying your helpdesk?</label>
-                    <span class="dp-Icon dp-iconStar"></span>
-                </span>
-                <span class="dp-IconGroup">
-                    <span class="dp-Circle dp-iconMln"></span>
-                    <span class="dp-Badge Badge--empty"></span>
-                    <span class="dp-Badge Badge--yellow">6</span>
+                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-13"></input>
+                    <label for="customCheckbox1-13" class="dp-CardTitle"></label>
                 </span>
             </span>
-            <span class="dp-ItemRow">
+
+            <span class="dp-ItemCol">
+                <span class="dp-CardTitle">Enjoying your helpdesk?<span class="dp-Icon dp-iconStar"></span></span>
                 <span class="dp-UserInfo">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-UserName">Kenneth James <span class="dp-UserEmail">&lt;<span class="dp-UserEmailItem">kenneth@windfarms.com </span>&gt; </span> </span>
+                    <span class="dp-UserName">Kenneth James
+                    </span>
+                    <a href="mailto:kenneth@windfarms.com" class="dp-UserEmail">
+                        &lt;kenneth@windfarms.com&gt;
+                    </a>
+                </span>
+
+                <span class="dp-JustifyStart">
+                    <span class="dp-UserVal">Department: <span class="dp-ItemValue">Support</span></span>
+                    <span class="dp-UserVal">Language: <span class="dp-ItemValue">Italiano</span></span>
+                    <span class="dp-UserVal">Last reply: <span class="dp-ItemValue">9 weeks ago</span></span>
+                </span>
+
+            </span>
+
+            <span class="dp-ItemCol">
+                <span class="dp-IconGroup">
+                    <span class="dp-Icon--circle dp-iconMln"></span>
+                    <span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>
+                    <span class="dp-Badge-round Badge--successMin"></span>
                 </span>
                 <span class="dp-TimeStatus">
                     <span>4 weeks</span>
                 </span>
             </span>
-            <span class="dp-ItemRow dp-JustifyStart">
-                <span class="dp-UserVal">Department: <span class="dp-ItemValue">Support</span></span>
-                <span class="dp-UserVal">Language: <span class="dp-ItemValue">Italiano</span></span>
-                <span class="dp-UserVal">Last reply: <span class="dp-ItemValue">9 weeks ago</span></span>
-            </span>
         </li>
 
-        <li class="dp-FilterResultItem">
-            <span class="dp-ItemRow">
+        <!-- 11 -->
+        <li class="dp-Card">
+            <span class="dp-ItemCol">
                 <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox11"></input>
-                    <label for="customCheckbox11" class="dp-CardTitle">Inventory component</label>
-                </span>
-                <span class="dp-IconGroup">
-                    <span class="dp-Circle dp-iconRocket"></span>
-                    <span class="dp-Badge Badge--empty"></span>
-                    <span class="dp-Badge Badge--warning">9</span>
+                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-14"></input>
+                    <label for="customCheckbox1-14" class="dp-CardTitle"></label>
                 </span>
             </span>
-            <span class="dp-ItemRow">
+
+            <span class="dp-ItemCol">
+                <span class="dp-CardTitle">Inventory component</span>
+
                 <span class="dp-UserInfo">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-UserName">Mark Jarvis <span class="dp-UserEmail">&lt;<span class="dp-UserEmailItem">mjarvis@econorob.nl </span>&gt; </span> </span>
+                    <span class="dp-UserName">Mark Jarvis
+                    </span>
+                    <a href="mailto:mjarvis@econorob.nl" class="dp-UserEmail">
+                        &lt;mjarvis@econorob.nl&gt;
+                    </a>
+                </span>
+
+                <span class="dp-TagBar dp-JustifyStart">
+                    <span class="dp-Tag Tag--close">Custom work<span class="dp-Icon dp-close"></span></span>
+                    <span class="dp-Tag Tag--close">Report back on bug fix<span class="dp-Icon dp-close"></span></span>
+                    <span class="dp-Tag Tag--close Tag--purple">VIP<span class="dp-Icon dp-close"></span></span>
+                    <button class="dp-Button Button--label">
+                        Labels<span class="dp-Icon dp-IconPlusBtn"></span>
+                    </button>
+                </span>
+
+                <span class="dp-JustifyStart">
+                    <span class="dp-UserVal">Department: <span class="dp-ItemValue">Support</span></span>
+                    <span class="dp-UserVal">Language: <span class="dp-ItemValue">Italiano</span></span>
+                    <span class="dp-UserVal">Last reply: <span class="dp-ItemValue">9 weeks ago</span></span>
+                </span>
+
+            </span>
+
+            <span class="dp-ItemCol">
+                <span class="dp-IconGroup">
+                    <span class="dp-Icon--circle dp-iconRocket"></span>
+                    <span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>
+                    <span class="dp-Badge-round Badge--warning">9</span>
                 </span>
                 <span class="dp-TimeStatus">
                     <span>12 hr 43 min</span>
                 </span>
-            </span>
-            <span class="dp-TagBar dp-ItemRow dp-JustifyStart">
-                <span class="dp-Tag Tag--close">Custom work<span class="dp-Icon dp-close"></span></span>
-                <span class="dp-Tag Tag--close">Report back on bug fix<span class="dp-Icon dp-close"></span></span>
-                <span class="dp-Tag Tag--close Tag--purple">VIP<span class="dp-Icon dp-close"></span></span>
-                <span class="dp-Tag Tag--close Tag--plus">Labels<span class="dp-Icon dp-close"></span></span>
-            </span>
-            <span class="dp-ItemRow dp-JustifyStart">
-                <span class="dp-UserVal">Department: <span class="dp-ItemValue">Support</span></span>
-                <span class="dp-UserVal">Language: <span class="dp-ItemValue">Italiano</span></span>
-                <span class="dp-UserVal">Last reply: <span class="dp-ItemValue">9 weeks ago</span></span>
             </span>
         </li>
 
@@ -768,7 +908,7 @@ title: List Pane
 <div class="dp-MainWrapper">
     <div style="height: 450px; position: relative;">
 
-        <ul class="dp-FilterResultMenu dp-ContextMenu is-active" style="top: 0; left: 0;">
+        <ul class="dp-CardMenu dp-ContextMenu is-active" style="top: 0; left: 0;">
             <li>Assign to <a href="#" class="dp-listLink">me</a> or <span class="dp-Arrow"></span>
                 <ul class="dp-SubContextMenu dp-ContextMenu">
                     <li>
@@ -779,16 +919,16 @@ title: List Pane
                             </div>
                         </form>
                     </li>
-                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Pride</a></li>
-                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bob Cooper</a></li>
-                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Julien Ducro</a></li>
-                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Lightbody</a></li>
-                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bobby Steiner</a></li>
-                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Pride</a></li>
-                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bob Cooper</a></li>
-                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Julien Ducro</a></li>
-                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Lightbody</a></li>
-                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bobby Steiner</a></li>
+                    <li><a href="#" class="dp-listItem"><span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>Wendy Pride</a></li>
+                    <li><a href="#" class="dp-listItem"><span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>Bob Cooper</a></li>
+                    <li><a href="#" class="dp-listItem"><span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>Julien Ducro</a></li>
+                    <li><a href="#" class="dp-listItem"><span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>Wendy Lightbody</a></li>
+                    <li><a href="#" class="dp-listItem"><span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>Bobby Steiner</a></li>
+                    <li><a href="#" class="dp-listItem"><span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>Wendy Pride</a></li>
+                    <li><a href="#" class="dp-listItem"><span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>Bob Cooper</a></li>
+                    <li><a href="#" class="dp-listItem"><span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>Julien Ducro</a></li>
+                    <li><a href="#" class="dp-listItem"><span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>Wendy Lightbody</a></li>
+                    <li><a href="#" class="dp-listItem"><span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>Bobby Steiner</a></li>
                 </ul>
             </li>
             <li>Assign to <a href="#" class="dp-listLink">my team</a> or <span class="dp-Arrow"></span>
@@ -801,13 +941,13 @@ title: List Pane
                             </div>
                         </form>
                     </li>
-                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Pride</a></li>
-                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bob Cooper</a></li>
-                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Julien Ducro</a></li>
-                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Lightbody</a></li>
-                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bobby Steiner</a></li>
-                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Pride</a></li>
-                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bob Cooper</a></li>
+                    <li><a href="#" class="dp-listItem"><span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>Wendy Pride</a></li>
+                    <li><a href="#" class="dp-listItem"><span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>Bob Cooper</a></li>
+                    <li><a href="#" class="dp-listItem"><span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>Julien Ducro</a></li>
+                    <li><a href="#" class="dp-listItem"><span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>Wendy Lightbody</a></li>
+                    <li><a href="#" class="dp-listItem"><span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>Bobby Steiner</a></li>
+                    <li><a href="#" class="dp-listItem"><span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>Wendy Pride</a></li>
+                    <li><a href="#" class="dp-listItem"><span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>Bob Cooper</a></li>
                 </ul>
             </li>
             <li class="dp-DropdownDivider"></li>
@@ -852,10 +992,6 @@ title: List Pane
     </div>
 </div>
 ```
-
-
-
-
 
 
 <h2>Listpane/kanbanview</h2>
@@ -931,290 +1067,405 @@ title: List Pane
 
 <h2>listpane/kanban-view</h2>
 ```html @preview
-<form>
-    <ul class="dp-FilterResultList dp-KanbanView dp-HoverList">
-        
-        <li class="dp-FilterResultItem is-active">
-            <span class="dp-ItemRow">
-                <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox1" checked="checked"></input>
-                    <label for="customCheckbox1" class="dp-CardTitle">SSO Information</label>
-                    <span class="dp-Icon dp-iconStar"></span>
-                </span>
-                <span class="dp-IconGroup">
-                    <span class="dp-Circle dp-iconRocket"></span>
-                    <span class="dp-Badge Badge--empty"></span>
-                    <span class="dp-Badge Badge--danger">5</span>
-                </span>
-            </span>
-            <span class="dp-ItemRow">
-                <span class="dp-UserInfo">
-                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-UserName">Kenneth James
-                        <span class="dp-UserEmail">&lt;
-                            <span class="dp-UserEmailItem">kenneth@windfarms.com</span>&gt;
-                        </span>
+
+<!-- New kanban-view -->
+<div class="dp-MainWrapper">
+    <form>
+        <ul class="dp-CardList dp-KanbanView dp-HoverList">
+            
+            <!-- 1 -->
+            <li class="dp-Card">
+                <span class="dp-ItemCol">
+                    <span class="dp-CustomCheckbox">
+                        <input type="checkbox" class="dp-ControlInput" id="customCheckbox2-1"></input>
+                        <label for="customCheckbox2-1" class="dp-CardTitle"></label>
                     </span>
                 </span>
-                <span class="dp-TimeStatus">
-                    <span>12 hr 30 min</span>
-                </span>
-            </span>
-        </li>
 
-        <li class="dp-FilterResultItem">
-            <span class="dp-ItemRow">
-                <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox2"></input>
-                    <label for="customCheckbox2" class="dp-CardTitle">Portal disabled landing mess...</label>
-                </span>
-                <span class="dp-IconGroup">
-                    <span class="dp-Circle dp-iconBug"></span>
-                    <span class="dp-Badge Badge--empty"></span>
-                    <span class="dp-Circle dp-iconClock"></span>
-                </span>
-            </span>
-            <span class="dp-ItemRow">
-                <span class="dp-UserInfo">
-                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-UserName">Mike Jarvis
-                        <span class="dp-UserEmail">&lt;
-                            <span class="dp-UserEmailItem">mjarvis@econorob.nl</span>&gt;
+                <span class="dp-ItemCol">
+                    <span class="dp-CardTitle">SSO Information<span class="dp-Icon dp-iconStar"></span></span>
+                    <span class="dp-UserInfo">
+                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                        <span class="dp-UserName">Kenneth James
                         </span>
+                        <a href="mailto:kenneth@windfarms.com" class="dp-UserEmail">
+                            &lt;kenneth@windfarms.com&gt;
+                        </a>
                     </span>
                 </span>
-                <span class="dp-TimeStatus">
-                    <span class="dp-Tag Tag--small Tag--danger">Failed</span>
-                </span>
-            </span>
-        </li>
 
-        <li class="dp-FilterResultItem">
-            <span class="dp-ItemRow">
-                <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox3"></input>
-                    <label for="customCheckbox3" class="dp-CardTitle">Inventory component</label>
-                    <span class="dp-Icon dp-iconStar--netural"></span>
-                </span>
-                <span class="dp-IconGroup">
-                    <span class="dp-Circle dp-iconRocket"></span>
-                    <span class="dp-Badge Badge--empty"></span>
-                    <span class="dp-Badge Badge--warning">9</span>
-                </span>
-            </span>
-            <span class="dp-ItemRow">
-                <span class="dp-UserInfo">
-                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-UserName">Tony Falkirk <span class="dp-UserEmail">&lt;<span class="dp-UserEmailItem">t.falkirk@rambling.com </span>&gt; </span> </span>
-                </span>
-                <span class="dp-TimeStatus">
-                    <span class="dp-Tag Tag--small Tag--danger">3 hours</span>
-                </span>
-            </span>
-        </li>
+                <span class="dp-ItemCol">
+                    <span class="dp-IconGroup">
+                        <span class="dp-Icon--circle dp-iconRocket"></span>
+                        <span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>
+                        <span class="dp-Badge dp-Badge-round Badge--danger">5</span>
+                    </span>
 
-        <li class="dp-FilterResultItem">
-            <span class="dp-ItemRow">
-                <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox4"></input>
-                    <label for="customCheckbox4" class="dp-CardTitle">AW: Need some help?</label>
+                    <span class="dp-TimeStatus">
+                        <span>12hr 30min</span>
+                    </span>
                 </span>
-                <span class="dp-IconGroup">
-                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-Badge Badge--warningMin"></span>
-                </span>
-            </span>
-            <span class="dp-ItemRow">
-                <span class="dp-UserInfo">
-                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-UserName">Kenneth James<span class="dp-UserEmail">&lt;<span class="dp-UserEmailItem">kenneth@windfarms.com</span>&gt;</span></span>
-                </span>
-                <span class="dp-TimeStatus">
-                   <span>2 hr 16 min</span>
-                </span>
-            </span>
-        </li>
+            </li>
 
-        <li class="dp-FilterResultItem">
-            <span class="dp-ItemRow">
-                <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox5"></input>
-                    <label for="customCheckbox5" class="dp-CardTitle">Portal disabled landing page</label>
+            <!-- 2 -->
+            <li class="dp-Card">
+                <span class="dp-ItemCol">
+                    <span class="dp-CustomCheckbox">
+                        <input type="checkbox" class="dp-ControlInput" id="customCheckbox2-2"></input>
+                        <label for="customCheckbox2-2" class="dp-CardTitle"></label>
+                    </span>
                 </span>
-                <span class="dp-IconGroup">
-                    <span class="dp-Circle dp-iconLock"></span>
-                    <span class="dp-Circle dp-iconMln"></span>
-                    <span class="dp-Badge Badge--empty"></span>
-                    <span class="dp-Badge Badge--warning">9</span>
-                </span>
-            </span>
-            <span class="dp-ItemRow">
-                <span class="dp-UserInfo">
-                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-UserName">Mark Jarvis<span class="dp-UserEmail">&lt;<span class="dp-UserEmailItem">mjarvis@econorob.nl</span>&gt;</span></span>
-                </span>
-                <span class="dp-TimeStatus">
-                    <span>12hr 43min</span>
-                </span>
-            </span>
-        </li>
 
-        <li class="dp-FilterResultItem">
-            <span class="dp-ItemRow">
-                <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox6"></input>
-                    <label for="customCheckbox6" class="dp-CardTitle">Enjoying your helpdesk?</label>
-                </span>
-                <span class="dp-IconGroup">
-                    <span class="dp-Circle dp-iconMln"></span>
-                    <span class="dp-Badge Badge--empty"></span>
-                    <span class="dp-Badge Badge--warning">7</span>
-                </span>
-            </span>
-            <span class="dp-ItemRow">
-                <span class="dp-UserInfo">
-                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-UserName">Tony Falkirk <span class="dp-UserEmail">&lt;<span class="dp-UserEmailItem">t.falkirk@rambling.com </span>&gt; </span> </span>
-                </span>
-                <span class="dp-TimeStatus">
-                    <span class="dp-Tag Tag--small Tag--danger">10.5 hours</span>
-                </span>
-            </span>
-        </li>
+                <span class="dp-ItemCol">
+                    <span class="dp-CardTitle">Portal disabled landing message</span>
 
-        <li class="dp-FilterResultItem">
-            <span class="dp-ItemRow">
-                <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox7"></input>
-                    <label for="customCheckbox7" class="dp-CardTitle">Product enquiry</label>
-                    <span class="dp-Icon dp-iconStar"></span>
+                    <span class="dp-UserInfo">
+                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                        <span class="dp-UserName">Mark Jarvis
+                        </span>
+                        <a href="mailto:mjarvis@econorob.nl" class="dp-UserEmail">
+                            &lt;mjarvis@econorob.nl&gt;
+                        </a>
+                    </span>
                 </span>
-                <span class="dp-IconGroup">
-                    <span class="dp-Circle dp-iconMln"></span>
-                    <span class="dp-Badge Badge--empty"></span>
-                    <span class="dp-Badge Badge--yellowMin"></span>
-                </span>
-            </span>
-            <span class="dp-ItemRow">
-                <span class="dp-UserInfo">
-                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-UserName">Kenneth James <span class="dp-UserEmail">&lt;<span class="dp-UserEmailItem">kenneth@windfarms.com </span>&gt; </span> </span>
-                </span>
-                <span class="dp-TimeStatus">
-                    <span>43 mins</span>
-                </span>
-            </span>
-        </li>
 
-        <li class="dp-FilterResultItem">
-            <span class="dp-ItemRow">
-                <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox8"></input>
-                    <label for="customCheckbox8" class="dp-CardTitle">Allow anyone to email suppo...</label>
+                <span class="dp-ItemCol">
+                    <span class="dp-IconGroup">
+                        <span class="dp-Icon--circle dp-iconBug"></span>
+                        <span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>
+                        <span class="dp-Icon--circle dp-iconClock"></span>
+                    </span>
+                    <span class="dp-TimeStatus">
+                        <span class="dp-Tag Tag--small Tag--danger">Failed</span>
+                    </span>
                 </span>
-                <span class="dp-IconGroup">
-                    <span class="dp-Circle dp-iconMln"></span>
-                    <span class="dp-Badge Badge--empty"></span>
-                    <span class="dp-Badge Badge--yellow">6</span>
-                </span>
-            </span>
-            <span class="dp-ItemRow">
-                <span class="dp-UserInfo">
-                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-UserName">Mike Jarvis <span class="dp-UserEmail">&lt;<span class="dp-UserEmailItem">mjarvis@econorob.nl </span>&gt; </span> </span>
-                </span>
-                <span class="dp-TimeStatus">
-                    <span>3 days</span>
-                </span>
-            </span>
-        </li>
+            </li>
 
-        <li class="dp-FilterResultItem">
-            <span class="dp-ItemRow">
-                <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox9"></input>
-                    <label for="customCheckbox9" class="dp-CardTitle">Inventory component</label>
-                    <span class="dp-Icon dp-iconStar--netural"></span>
+            <!-- 3 -->
+            <li class="dp-Card">
+                <span class="dp-ItemCol">
+                    <span class="dp-CustomCheckbox">
+                        <input type="checkbox" class="dp-ControlInput" id="customCheckbox2-3"></input>
+                        <label for="customCheckbox2-3" class="dp-CardTitle"></label>
+                    </span>
                 </span>
-                <span class="dp-IconGroup">
-                    <span class="dp-Circle dp-iconRocket"></span>
-                    <span class="dp-Badge Badge--empty"></span>
-                    <span class="dp-Badge Badge--warning">9</span>
-                </span>
-            </span>
-            <span class="dp-ItemRow">
-                <span class="dp-UserInfo">
-                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-UserName">Kenneth James <span class="dp-UserEmail">&lt;<span class="dp-UserEmailItem">kenneth@... </span>&gt; </span> </span>
-                </span>
-                <span class="dp-TimeStatus">
-                    <span>12 hr 43 min</span>
-                </span>
-            </span>
-        </li>
 
-        <li class="dp-FilterResultItem">
-            <span class="dp-ItemRow">
-                <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox10"></input>
-                    <label for="customCheckbox10" class="dp-CardTitle dp-StarAlign">Enjoying your helpdesk?</label>
-                    <span class="dp-Icon dp-iconStar"></span>
-                </span>
-                <span class="dp-IconGroup">
-                    <span class="dp-Circle dp-iconMln"></span>
-                    <span class="dp-Badge Badge--empty"></span>
-                    <span class="dp-Badge Badge--yellow">6</span>
-                </span>
-            </span>
-            <span class="dp-ItemRow">
-                <span class="dp-UserInfo">
-                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-UserName">Tony Falkirk <span class="dp-UserEmail">&lt;<span class="dp-UserEmailItem">t.falkirk@ram... </span>&gt; </span> </span>
-                </span>
-                <span class="dp-TimeStatus">
-                    <span>4 weeks</span>
-                </span>
-            </span>
-            <span class="dp-ItemRow dp-JustifyStart">
-                <span class="dp-UserVal">Department: <span class="dp-ItemValue">Sales</span></span>
-                <span class="dp-UserVal">Language: <span class="dp-ItemValue">English (US)</span></span>
-            </span>
-        </li>
+                <span class="dp-ItemCol">
+                    <span class="dp-CardTitle">Inventory component<span class="dp-Icon dp-iconStar--netural"></span></span>
 
-        <li class="dp-FilterResultItem">
-            <span class="dp-ItemRow">
-                <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox11"></input>
-                    <label for="customCheckbox11" class="dp-CardTitle">AW: Need some help?</label>
+                    <span class="dp-UserInfo">
+                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                        <span class="dp-UserName">Tony Falkirk
+                        </span>
+                        <a href="mailto:t.falkirk@rambling.com" class="dp-UserEmail">
+                            &lt;t.falkirk@rambling.com&gt;
+                        </a>
+                    </span>
                 </span>
-                <span class="dp-IconGroup">
-                    <span class="dp-Circle dp-iconRocket"></span>
-                    <span class="dp-Badge Badge--empty"></span>
-                    <span class="dp-Badge Badge--warning">9</span>
-                </span>
-            </span>
-            <span class="dp-ItemRow">
-                <span class="dp-UserInfo">
-                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-UserName">Mike Jarvis <span class="dp-UserEmail">&lt;<span class="dp-UserEmailItem">mjarvis@econorob.nl </span>&gt; </span> </span>
-                </span>
-                <span class="dp-TimeStatus">
-                    <span>12 hr 43 min</span>
-                </span>
-            </span>
-            <span class="dp-ItemRow dp-JustifyStart">
-                <span class="dp-Tag Tag--close Tag--plus">Report back on bug fix<span class="dp-Icon dp-close"></span></span>
-                <span class="dp-Tag Tag--close Tag--plus Tag--purple">VIP<span class="dp-Icon dp-close"></span></span>
-            </span>
-            <span class="dp-ItemRow dp-JustifyStart">
-                <span class="dp-UserVal">Department: <span class="dp-ItemValue">Sales</span></span>
-                <span class="dp-UserVal">Language: <span class="dp-ItemValue">English (US)</span></span>
-            </span>
-        </li>
 
-    </ul>
-</form>
+                <span class="dp-ItemCol">
+                    <span class="dp-IconGroup">
+                        <span class="dp-Icon--circle dp-iconRocket"></span>
+                        <span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>
+                        <span class="dp-Badge-round Badge--warning">9</span>
+                    </span>
+                    <span class="dp-TimeStatus">
+                        <span class="dp-Tag Tag--small Tag--danger">3 hours</span>
+                    </span>
+                </span>
+            </li>
+
+            <!-- 4 -->
+            <li class="dp-Card">
+                <span class="dp-ItemCol">
+                    <span class="dp-CustomCheckbox">
+                        <input type="checkbox" class="dp-ControlInput" id="customCheckbox2-4"></input>
+                        <label for="customCheckbox2-4" class="dp-CardTitle"></label>
+                    </span>
+                </span>
+
+                <span class="dp-ItemCol">
+                    <span class="dp-CardTitle">AW: Need some help?</span>
+
+                    <span class="dp-UserInfo">
+                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                        <span class="dp-UserName">Kenneth James
+                        </span>
+                        <a href="mailto:kenneth@windfarms.com" class="dp-UserEmail">
+                            &lt;kenneth@windfarms.com&gt;
+                        </a>
+                    </span>
+                </span>
+
+                <span class="dp-ItemCol">
+                    <span class="dp-IconGroup">
+                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                        <span class="dp-Badge-round Badge--warningMin"></span>
+                    </span>
+                    <span class="dp-TimeStatus">
+                        <span>2 hr 16min</span>
+                    </span>
+                </span>
+            </li>
+
+            <!-- 5 -->
+            <li class="dp-Card">
+                <span class="dp-ItemCol">
+                    <span class="dp-CustomCheckbox">
+                        <input type="checkbox" class="dp-ControlInput" id="customCheckbox2-5"></input>
+                        <label for="customCheckbox2-5" class="dp-CardTitle"></label>
+                    </span>
+                </span>
+
+                <span class="dp-ItemCol">
+                    <span class="dp-CardTitle">Portal disabled landing page</span>
+
+                    <span class="dp-UserInfo">
+                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                        <span class="dp-UserName">Mark Jarvis
+                        </span>
+                        <a href="mailto:mjarvis@econorob.nl" class="dp-UserEmail">
+                            &lt;mjarvis@econorob.nl&gt;
+                        </a>
+                    </span>
+                </span>
+
+                <span class="dp-ItemCol">
+                    <span class="dp-IconGroup">
+                        <span class="dp-Icon--circle dp-iconLock"></span>
+                        <span class="dp-Icon--circle dp-iconMln"></span>
+                        <span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>
+                        <span class="dp-Badge-round Badge--warning">9</span>
+                    </span>
+                    <span class="dp-TimeStatus">
+                        <span>12 hr 43min</span>
+                    </span>
+                </span>
+            </li>
+            
+            <!-- 6 -->
+            <li class="dp-Card">
+                <span class="dp-ItemCol">
+                    <span class="dp-CustomCheckbox">
+                        <input type="checkbox" class="dp-ControlInput" id="customCheckbox2-6"></input>
+                        <label for="customCheckbox2-6" class="dp-CardTitle"></label>
+                    </span>
+                </span>
+
+                <span class="dp-ItemCol">
+                    <span class="dp-CardTitle">Enjoying your helpdesk?</span>
+                    <span class="dp-UserInfo">
+                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                        <span class="dp-UserName">Tony Falkirk
+                        </span>
+                        <a href="mailto:t.falkirk@rambling.com" class="dp-UserEmail">
+                            &lt;t.falkirk@rambling.com&gt;
+                        </a>
+                    </span>
+                </span>
+
+                <span class="dp-ItemCol">
+                    <span class="dp-IconGroup">
+                        <span class="dp-Icon--circle dp-iconMln"></span>
+                        <span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>
+                        <span class="dp-Badge-round Badge--warning">7</span>
+                    </span>
+                    <span class="dp-TimeStatus">
+                        <span class="dp-Tag Tag--small Tag--danger">10.5 hours</span>
+                    </span>
+                </span>
+            </li>
+
+            <!-- 7 -->
+            <li class="dp-Card">
+                <span class="dp-ItemCol">
+                    <span class="dp-CustomCheckbox">
+                        <input type="checkbox" class="dp-ControlInput" id="customCheckbox2-7"></input>
+                        <label for="customCheckbox2-7" class="dp-CardTitle"></label>
+                    </span>
+                </span>
+
+                <span class="dp-ItemCol">
+                    <span class="dp-CardTitle">Product enquiry<span class="dp-Icon dp-iconStar"></span></span>
+                    <span class="dp-UserInfo">
+                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                        <span class="dp-UserName">Kenneth James
+                        </span>
+                        <a href="mailto:kenneth@windfarms.com" class="dp-UserEmail">
+                            &lt;kenneth@windfarms.com&gt;
+                        </a>
+                    </span>
+                </span>
+
+                <span class="dp-ItemCol">
+                    <span class="dp-IconGroup">
+
+                        <span class="dp-Icon--circle dp-iconMln"></span>
+                        <span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>
+                        <span class="dp-Badge-round Badge--successMin"></span>
+                    </span>
+                    <span class="dp-TimeStatus">
+                        <span>43 mins</span>
+                    </span>
+                </span>
+            </li>
+
+            <!-- 8 -->
+            <li class="dp-Card">
+                <span class="dp-ItemCol">
+                    <span class="dp-CustomCheckbox">
+                        <input type="checkbox" class="dp-ControlInput" id="customCheckbox2-8"></input>
+                        <label for="customCheckbox2-8" class="dp-CardTitle"></label>
+                    </span>
+                </span>
+
+                <span class="dp-ItemCol">
+                    <span class="dp-CardTitle">Allow anyone to email support</span>
+                    <span class="dp-UserInfo">
+                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                        <span class="dp-UserName">Mike Jarvis
+                        </span>
+                        <a href="mailto:mjarvis@econorob.nl" class="dp-UserEmail">
+                            &lt;mjarvis@econorob.nl&gt;
+                        </a>
+                    </span>
+                </span>
+
+                <span class="dp-ItemCol">
+                    <span class="dp-IconGroup">
+                        <span class="dp-Icon--circle dp-iconMln"></span>
+                        <span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>
+                        <span class="dp-Badge-round Badge--success">6</span>
+                    </span>
+                    <span class="dp-TimeStatus">
+                        <span>3 days</span>
+                    </span>
+                </span>
+            </li>
+
+            <!-- 9 -->
+            <li class="dp-Card">
+                <span class="dp-ItemCol">
+                    <span class="dp-CustomCheckbox">
+                        <input type="checkbox" class="dp-ControlInput" id="customCheckbox2-9"></input>
+                        <label for="customCheckbox2-9" class="dp-CardTitle"></label>
+                    </span>
+                </span>
+
+                <span class="dp-ItemCol">
+                    <span class="dp-CardTitle">Inventory component<span class="dp-Icon dp-iconStar--netural"></span></span>
+
+                    <span class="dp-UserInfo">
+                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                        <span class="dp-UserName">Kenneth James
+                        </span>
+                        <a href="mailto:kenneth@windfarms.com" class="dp-UserEmail">
+                            &lt;kenneth@windfarms.com&gt;
+                        </a>
+                    </span>
+                </span>
+
+                <span class="dp-ItemCol">
+                    <span class="dp-IconGroup">
+                        <span class="dp-Icon--circle dp-iconRocket"></span>
+                        <span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>
+                        <span class="dp-Badge-round Badge--warning">9</span>
+                    </span>
+                    <span class="dp-TimeStatus">
+                        <span>12 hr 43 min</span>
+                    </span>
+                </span>
+            </li>
+
+            <!-- 10 -->
+            <li class="dp-Card">
+                <span class="dp-ItemCol">
+                    <span class="dp-CustomCheckbox">
+                        <input type="checkbox" class="dp-ControlInput" id="customCheckbox2-10"></input>
+                        <label for="customCheckbox3-10" class="dp-CardTitle"></label>
+                    </span>
+                </span>
+
+                <span class="dp-ItemCol">
+                    <span class="dp-CardTitle">Enjoying your helpdesk?<span class="dp-Icon dp-iconStar"></span></span>
+                    <span class="dp-UserInfo">
+                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                        <span class="dp-UserName">Tony Falkirk
+                        </span>
+                        <a href="mailto:t.falkirk@rambling.com" class="dp-UserEmail">
+                            &lt;t.falkirk@rambling.com&gt;
+                        </a>
+                    </span>
+
+                    <span class="dp-JustifyStart">
+                        <span class="dp-UserVal">Department: <span class="dp-ItemValue">Sales</span></span>
+                        <span class="dp-UserVal">Language: <span class="dp-ItemValue">English(US)</span></span>
+                    </span>
+
+                </span>
+
+                <span class="dp-ItemCol">
+                    <span class="dp-IconGroup">
+                        <span class="dp-Icon--circle dp-iconMln"></span>
+                        <span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>
+                        <span class="dp-Badge-round Badge--successMin"></span>
+                    </span>
+                    <span class="dp-TimeStatus">
+                        <span>4 weeks</span>
+                    </span>
+                </span>
+            </li>
+
+            <!-- 11 -->
+            <li class="dp-Card">
+                <span class="dp-ItemCol">
+                    <span class="dp-CustomCheckbox">
+                        <input type="checkbox" class="dp-ControlInput" id="customCheckbox2-11"></input>
+                        <label for="customCheckbox2-11" class="dp-CardTitle"></label>
+                    </span>
+                </span>
+
+                <span class="dp-ItemCol">
+                    <span class="dp-CardTitle">AW: Need some help?</span>
+
+                    <span class="dp-UserInfo">
+                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                        <span class="dp-UserName">Mike Jarvis
+                        </span>
+                        <a href="mailto:mjarvis@econorob.nl" class="dp-UserEmail">
+                            &lt;mjarvis@econorob.nl&gt;
+                        </a>
+                    </span>
+
+                    <span class="dp-ItemRow dp-JustifyStart">
+                        <span class="dp-Tag Tag--close Tag--plus">Report back on bug fix<span class="dp-Icon dp-close"></span></span>
+                        <span class="dp-Tag Tag--close Tag--plus Tag--purple">VIP<span class="dp-Icon dp-close"></span></span>
+                    </span>
+                    <span class="dp-ItemRow dp-JustifyStart">
+                        <span class="dp-UserVal">Department: <span class="dp-ItemValue">Sales</span></span>
+                        <span class="dp-UserVal">Language: <span class="dp-ItemValue">English (US)</span></span>
+                    </span>
+
+                </span>
+
+                <span class="dp-ItemCol">
+                    <span class="dp-IconGroup">
+                        <span class="dp-Icon--circle dp-iconRocket"></span>
+                        <span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>
+                        <span class="dp-Badge-round Badge--warning">9</span>
+                    </span>
+                    <span class="dp-TimeStatus">
+                        <span>12 hr 43 min</span>
+                    </span>
+                </span>
+            </li>
+
+        </ul>
+    </form>
+</div>
 ```
+
+
 
 <h2>Listpane/tableview</h2>
 <h4>listpane/grouping-and-sorting-bar</h4>
@@ -1374,7 +1625,7 @@ title: List Pane
 
 ```html @preview
 <div class="dp-MainWrapper">
-    <span class="dp-FilterResultTitle">
+    <span class="dp-CardTitle">
         <span>Sales</span>
     </span>
 </div>
@@ -1483,7 +1734,7 @@ title: List Pane
                 </td>
                 <td>12 hr 30 min</td>
                 <td>
-                    <span class="dp-Icon dp-rocket--black dp-circle"></span>
+                    <span class="dp-Icon dp-rocket--black dp-Icon--circle"></span>
                 </td>
                 <td>&nbsp;</td>
                 <td>
@@ -1534,7 +1785,7 @@ title: List Pane
                 <td class="dp-UserItem"><span class="dp-Icon dp-avatar"></span><span>Mark Jarvis</span></td>
                 <td>12 hr 30 min</td>
                 <td>
-                    <span class="dp-Icon dp-beetle--black dp-circle"></span>
+                    <span class="dp-Icon dp-beetle--black dp-Icon--circle"></span>
                 </td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
@@ -1583,11 +1834,11 @@ title: List Pane
                 <td class="dp-UserItem"><span class="dp-Icon dp-avatar"></span><span>Mark Jarvis</span></td>
                 <td>43 min</td>
                 <td>
-                    <span class="dp-Icon dp-beetle--black dp-circle"></span>
+                    <span class="dp-Icon dp-beetle--black dp-Icon--circle"></span>
                 </td>
                 <td>&nbsp;</td>
                 <td>
-                    <span class="dp-Badge Badge--yellow"></span>
+                    <span class="dp-Badge Badge--success"></span>
                 </td>
             </tr>
             <tr>
@@ -1606,7 +1857,7 @@ title: List Pane
                 <td class="dp-UserItem"><span class="dp-Icon dp-avatar"></span><span>Toby Falkirk</span></td>
                 <td>12 hr 30 min</td>
                 <td>
-                    <span class="dp-Icon dp-rocket--black dp-circle"></span>
+                    <span class="dp-Icon dp-rocket--black dp-Icon--circle"></span>
                 </td>
                 <td>
                     <span class="dp-Icon dp-avatar"></span>
@@ -1632,7 +1883,7 @@ title: List Pane
                 <td class="dp-UserItem"><span class="dp-Icon dp-avatar"></span><span>Kenneth James</span></td>
                 <td>3 days</td>
                 <td>
-                    <span class="dp-Icon dp-rocket--black dp-circle"></span>
+                    <span class="dp-Icon dp-rocket--black dp-Icon--circle"></span>
                 </td>
                 <td>&nbsp;</td>
                 <td>
@@ -1658,7 +1909,7 @@ title: List Pane
                 <td class="dp-UserItem"><span class="dp-Icon dp-avatar"></span><span>Mark Jarvis</span></td>
                 <td>12 hr 30 min</td>
                 <td>
-                    <span class="dp-Icon dp-rocket--black dp-circle"></span>
+                    <span class="dp-Icon dp-rocket--black dp-Icon--circle"></span>
                 </td>
                 <td>&nbsp;</td>
                 <td>
@@ -1711,7 +1962,7 @@ title: List Pane
                 <td class="dp-UserItem"><span class="dp-Icon dp-avatar"></span><span>Kenneth James</span></td>
                 <td>12 hr 30 min</td>
                 <td>
-                    <span class="dp-Icon dp-beetle--black dp-circle"></span>
+                    <span class="dp-Icon dp-beetle--black dp-Icon--circle"></span>
                 </td>
                 <td>&nbsp;</td>
                 <td>
@@ -1738,17 +1989,17 @@ title: List Pane
                 <td class="dp-UserItem"><span class="dp-Icon dp-avatar"></span><span>Toby Falkirk</span></td>
                 <td>2 hr 16 min</td>
                 <td>
-                    <span class="dp-Icon dp-rocket--black dp-circle"></span>
+                    <span class="dp-Icon dp-rocket--black dp-Icon--circle"></span>
                 </td>
                 <td>&nbsp;</td>
                 <td>
-                    <span class="dp-Badge Badge--yellow">4</span>
+                    <span class="dp-Badge Badge--success">4</span>
                 </td>
             </tr>
         </tbody>
 
         <thead>
-            <tr class="dp-FilterResultTitle">
+            <tr class="dp-CardTitle">
                 <td colspan="12">Sales</td>
             </tr>
 
@@ -1846,7 +2097,7 @@ title: List Pane
                 <td class="dp-UserItem"><span class="dp-Icon dp-avatar"></span><span>Kenneth James</span></td>
                 <td>12 hr 30 min</td>
                 <td>
-                    <span class="dp-Icon dp-rocket--black dp-circle"></span>
+                    <span class="dp-Icon dp-rocket--black dp-Icon--circle"></span>
                 </td>
                 <td>&nbsp;</td>
                 <td>
@@ -1894,7 +2145,7 @@ title: List Pane
                 <td class="dp-UserItem"><span class="dp-Icon dp-avatar"></span><span>Mark Jarvis</span></td>
                 <td>12 hr 30 min</td>
                 <td>
-                    <span class="dp-Icon dp-beetle--black dp-circle"></span>
+                    <span class="dp-Icon dp-beetle--black dp-Icon--circle"></span>
                 </td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
@@ -1943,11 +2194,11 @@ title: List Pane
                 <td class="dp-UserItem"><span class="dp-Icon dp-avatar"></span><span>Mark Jarvis</span></td>
                 <td>43 min</td>
                 <td>
-                    <span class="dp-Icon dp-beetle--black dp-circle"></span>
+                    <span class="dp-Icon dp-beetle--black dp-Icon--circle"></span>
                 </td>
                 <td>&nbsp;</td>
                 <td>
-                    <span class="dp-Badge Badge--yellow"></span>
+                    <span class="dp-Badge Badge--success"></span>
                 </td>
             </tr>
 
@@ -1960,12 +2211,13 @@ title: List Pane
 ```html @preview
 <form class="dp-MassSelect newControlsList">
 
-    <span class="dp-FilterResultTitle dp-MassSelectTitle">
+    <span class="dp-MassSelectTitle">
         <span class="dp-ItemRow">
             <span class="dp-CustomCheckbox">
                 <span class="dp-Icon dp-small_caret"></span>
                 <input type="checkbox" class="dp-ControlInput" id="listpaneCheckbox0" checked="checked"></input>
-                <label for="listpaneCheckbox0" class="dp-CardTitle dp-CheckboxCarret">(48 items selected)</label>
+                <label for="listpaneCheckbox0" class="dp-CheckboxCarret"></label>
+                <span class="dp-CardTitle">(48 items selected)</span>
                 <ul class="dp-ContextMenu is-active">
                     <li><a href="#">Uncheck all</a></li>
                     <li><a href="#">Select all</a></li>
@@ -1987,32 +2239,39 @@ title: List Pane
         </span>
     </span>
 
-    <span class="dp-FilterResultTitle">
-        <span>Sales</span>
-    </span>
-    <ul class="dp-FilterResultList newControlsList dp-HoverList">
-        
-        <li class="dp-FilterResultItem is-active">
-            <span class="dp-ItemRow">
+    <ul class="dp-CardList newControlsList dp-HoverList">
+
+        <li class="dp-SectionCardTitle">
+            <span>Sales</span>
+        </li>
+
+        <!-- 1 -->
+        <li class="dp-Card is-active">
+            <span class="dp-ItemCol">
                 <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="listpaneCheckbox1" checked="checked"></input>
-                    <label for="listpaneCheckbox1" class="dp-CardTitle">SSO Information</label>
-                    <span class="dp-Icon dp-iconStar"></span>
-                </span>
-                <span class="dp-IconGroup">
-                    <span class="dp-Circle dp-iconBug"></span>
-                    <span class="dp-Badge Badge--empty"></span>
-                    <span class="dp-Circle dp-iconClock"></span>
+                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-4"></input>
+                    <label for="customCheckbox1-4" class="dp-CardTitle"></label>
                 </span>
             </span>
-            <span class="dp-ItemRow">
+
+            <span class="dp-ItemCol">
+                <span class="dp-CardTitle">SSO Information<span class="dp-Icon dp-iconStar"></span></span>
                 <span class="dp-UserInfo">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
                     <span class="dp-UserName">Kenneth James
-                        <span class="dp-UserEmail">&lt;
-                            <span class="dp-UserEmailItem">kenneth@windfarms.com</span>&gt;
-                        </span>
                     </span>
+                    <a href="mailto:kenneth@windfarms.com" class="dp-UserEmail">
+                        &lt;kenneth@windfarms.com&gt;
+                    </a>
+                </span>
+            </span>
+
+            <span class="dp-ItemCol">
+                <span class="dp-IconGroup">
+
+                    <span class="dp-Icon--circle dp-iconBug"></span>
+                    <span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>
+                    <span class="dp-Icon--circle dp-iconClock"></span>
                 </span>
                 <span class="dp-TimeStatus">
                     <span class="dp-Tag Tag--small Tag--danger">Failed</span>
@@ -2020,26 +2279,33 @@ title: List Pane
             </span>
         </li>
 
-        <li class="dp-FilterResultItem">
-            <span class="dp-ItemRow">
+        <!-- 2 -->
+        <li class="dp-Card">
+            <span class="dp-ItemCol">
                 <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="listpaneCheckbox2"></input>
-                    <label for="listpaneCheckbox2" class="dp-CardTitle">Portal disabled landing page</label>
-                </span>
-                <span class="dp-IconGroup">
-                    <span class="dp-Circle dp-iconRocket"></span>
-                    <span class="dp-Badge Badge--empty"></span>
-                    <span class="dp-Badge Badge--warning">9</span>
+                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-5"></input>
+                    <label for="customCheckbox1-5" class="dp-CardTitle"></label>
                 </span>
             </span>
-            <span class="dp-ItemRow">
+
+            <span class="dp-ItemCol">
+                <span class="dp-CardTitle">Portal disabled landing page</span>
+
                 <span class="dp-UserInfo">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
                     <span class="dp-UserName">Mark Jarvis
-                        <span class="dp-UserEmail">&lt;
-                            <span class="dp-UserEmailItem">mjarvis@econorob.nl</span>&gt;
-                        </span>
                     </span>
+                    <a href="mailto:mjarvis@econorob.nl" class="dp-UserEmail">
+                        &lt;mjarvis@econorob.nl&gt;
+                    </a>
+                </span>
+            </span>
+
+            <span class="dp-ItemCol">
+                <span class="dp-IconGroup">
+                    <span class="dp-Icon--circle dp-iconRocket"></span>
+                    <span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>
+                    <span class="dp-Badge-round Badge--warning">9</span>
                 </span>
                 <span class="dp-TimeStatus">
                     <span class="dp-Tag Tag--small Tag--pink">3 hours</span>
@@ -2047,22 +2313,32 @@ title: List Pane
             </span>
         </li>
 
-        <li class="dp-FilterResultItem">
-            <span class="dp-ItemRow">
+        <!-- 3 -->
+        <li class="dp-Card">
+            <span class="dp-ItemCol">
                 <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="listpaneCheckbox3"></input>
-                    <label for="listpaneCheckbox3" class="dp-CardTitle">Inventory component</label>
-                    <span class="dp-Icon dp-iconStar--netural"></span>
-                </span>
-                <span class="dp-IconGroup">
-                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-Badge Badge--warningMin"></span>
+                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-6"></input>
+                    <label for="customCheckbox1-6" class="dp-CardTitle"></label>
                 </span>
             </span>
-            <span class="dp-ItemRow">
+
+            <span class="dp-ItemCol">
+                <span class="dp-CardTitle">Inventory component<span class="dp-Icon dp-iconStar--netural"></span></span>
+
                 <span class="dp-UserInfo">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-UserName">Toby Falkirk<span class="dp-UserEmail">&lt;<span class="dp-UserEmailItem">t.falkirk@rambling.com </span>&gt; </span> </span>
+                    <span class="dp-UserName">Toby Falkirk
+                    </span>
+                    <a href="mailto:t.falkirk@rambling.com" class="dp-UserEmail">
+                        &lt;t.falkirk@rambling.com&gt;
+                    </a>
+                </span>
+            </span>
+
+            <span class="dp-ItemCol">
+                <span class="dp-IconGroup">
+                    <span class="dp-Icon dp-iconUserAvatar"></span>
+                    <span class="dp-Badge-round Badge--warningMin"></span>
                 </span>
                 <span class="dp-TimeStatus">
                     <span>2 hr 16 min</span>
@@ -2070,70 +2346,101 @@ title: List Pane
             </span>
         </li>
 
-        <li class="dp-FilterResultItem">
-            <span class="dp-ItemRow">
+        <!-- 4 -->
+        <li class="dp-Card">
+            <span class="dp-ItemCol">
                 <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="listpaneCheckbox4"></input>
-                    <label for="listpaneCheckbox4" class="dp-CardTitle">AW: Need some help?</label>
-                </span>
-                <span class="dp-IconGroup">
-                    <span class="dp-Circle dp-iconLock"></span>
-                    <span class="dp-Circle dp-iconMln"></span>
-                    <span class="dp-Badge Badge--empty"></span>
-                    <span class="dp-Badge Badge--warning">9</span>
+                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-7"></input>
+                    <label for="customCheckbox1-7" class="dp-CardTitle"></label>
                 </span>
             </span>
-            <span class="dp-ItemRow">
+
+            <span class="dp-ItemCol">
+                <span class="dp-CardTitle">AW: Need some help?</span>
+
                 <span class="dp-UserInfo">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-UserName">Kenneth James<span class="dp-UserEmail">&lt;<span class="dp-UserEmailItem">kenneth@windfarms.com</span>&gt;</span></span>
+                    <span class="dp-UserName">Kenneth James
+                    </span>
+                    <a href="mailto:kenneth@windfarms.com" class="dp-UserEmail">
+                        &lt;kenneth@windfarms.com&gt;
+                    </a>
+                </span>
+            </span>
+
+            <span class="dp-ItemCol">
+                <span class="dp-IconGroup">
+                    <span class="dp-Icon--circle dp-iconLock"></span>
+                    <span class="dp-Icon--circle dp-iconMln"></span>
+                    <span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>
+                    <span class="dp-Badge-round Badge--warning">9</span>
                 </span>
                 <span class="dp-TimeStatus">
-                   <span>57 min</span>
+                    <span>57 mins</span>
                 </span>
             </span>
         </li>
 
-        <li class="dp-FilterResultItem">
-            <span class="dp-ItemRow">
+        <!-- 5 -->
+        <li class="dp-Card">
+            <span class="dp-ItemCol">
                 <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="listpaneCheckbox5"></input>
-                    <label for="listpaneCheckbox5" class="dp-CardTitle">Portal disabled landing page</label>
-                </span>
-                <span class="dp-IconGroup">
-                    <span class="dp-Circle dp-iconMln"></span>
-                    <span class="dp-Badge Badge--empty"></span>
-                    <span class="dp-Badge Badge--warning">7</span>
+                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-8"></input>
+                    <label for="customCheckbox1-8" class="dp-CardTitle"></label>
                 </span>
             </span>
-            <span class="dp-ItemRow">
+
+            <span class="dp-ItemCol">
+                <span class="dp-CardTitle">Portal disabled landing page</span>
+
                 <span class="dp-UserInfo">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-UserName">Mark Jarvis<span class="dp-UserEmail">&lt;<span class="dp-UserEmailItem">mjarvis@econorob.nl</span>&gt;</span></span>
+                    <span class="dp-UserName">Mark Jarvis
+                    </span>
+                    <a href="mailto:mjarvis@econorob.nl" class="dp-UserEmail">
+                        &lt;mjarvis@econorob.nl&gt;
+                    </a>
+                </span>
+            </span>
+
+            <span class="dp-ItemCol">
+                <span class="dp-IconGroup">
+                    <span class="dp-Icon--circle dp-iconMln"></span>
+                    <span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>
+                    <span class="dp-Badge-round Badge--warning">7</span>
                 </span>
                 <span class="dp-TimeStatus">
                     <span class="dp-Tag Tag--small Tag--danger">2 hours</span>
                 </span>
             </span>
         </li>
-
-        <li class="dp-FilterResultItem">
-            <span class="dp-ItemRow">
+        
+        <!-- 6 -->
+        <li class="dp-Card">
+            <span class="dp-ItemCol">
                 <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="listpaneCheckbox6"></input>
-                    <label for="listpaneCheckbox6" class="dp-CardTitle">Enjoying your helpdesk?</label>
-                    <span class="dp-Icon dp-iconStar"></span>
-                </span>
-                <span class="dp-IconGroup">
-                    <span class="dp-Circle dp-iconMln"></span>
-                    <span class="dp-Badge Badge--empty"></span>
-                    <span class="dp-Badge Badge--yellowMin"></span>
+                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-9"></input>
+                    <label for="customCheckbox1-9" class="dp-CardTitle"></label>
                 </span>
             </span>
-            <span class="dp-ItemRow">
+
+            <span class="dp-ItemCol">
+                <span class="dp-CardTitle">Enjoying your helpdesk?<span class="dp-Icon dp-iconStar"></span></span>
                 <span class="dp-UserInfo">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-UserName">Toby Falkirk<span class="dp-UserEmail">&lt;<span class="dp-UserEmailItem">t.falkirk@rambling.com </span>&gt; </span> </span>
+                    <span class="dp-UserName">Toby Falkirk
+                    </span>
+                    <a href="mailto:t.falkirk@rambling.com" class="dp-UserEmail">
+                        &lt;t.falkirk@rambling.com&gt;
+                    </a>
+                </span>
+            </span>
+
+            <span class="dp-ItemCol">
+                <span class="dp-IconGroup">
+                    <span class="dp-Icon--circle dp-iconMln"></span>
+                    <span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>
+                    <span class="dp-Badge-round Badge--successMin"></span>
                 </span>
                 <span class="dp-TimeStatus">
                     <span>43 mins</span>
@@ -2141,22 +2448,33 @@ title: List Pane
             </span>
         </li>
 
-        <li class="dp-FilterResultItem">
-            <span class="dp-ItemRow">
+        <!-- 7 -->
+        <li class="dp-Card">
+            <span class="dp-ItemCol">
                 <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="listpaneCheckbox7"></input>
-                    <label for="listpaneCheckbox7" class="dp-CardTitle">Product enquiry</label>
-                </span>
-                <span class="dp-IconGroup">
-                    <span class="dp-Circle dp-iconBug"></span>
-                    <span class="dp-Badge Badge--empty"></span>
-                    <span class="dp-Circle dp-iconClock"></span>
+                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-10"></input>
+                    <label for="customCheckbox1-10" class="dp-CardTitle"></label>
                 </span>
             </span>
-            <span class="dp-ItemRow">
+
+            <span class="dp-ItemCol">
+                <span class="dp-CardTitle">Product enquiry</span>
                 <span class="dp-UserInfo">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-UserName">Kenneth James <span class="dp-UserEmail">&lt;<span class="dp-UserEmailItem">kenneth@windfarms.com </span>&gt; </span> </span>
+                    <span class="dp-UserName">Kenneth James
+                    </span>
+                    <a href="mailto:kenneth@windfarms.com" class="dp-UserEmail">
+                        &lt;kenneth@windfarms.com&gt;
+                    </a>
+                </span>
+            </span>
+
+            <span class="dp-ItemCol">
+                <span class="dp-IconGroup">
+
+                    <span class="dp-Icon--circle dp-iconBug"></span>
+                    <span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>
+                    <span class="dp-Icon--circle dp-iconClock"></span>
                 </span>
                 <span class="dp-TimeStatus">
                     <span class="dp-Tag Tag--small Tag--danger">Failed</span>
@@ -2164,26 +2482,35 @@ title: List Pane
             </span>
         </li>
 
-        <li class="dp-FilterResultItem">
-            <span class="dp-ItemRow">
+        <!-- 8 -->
+        <li class="dp-Card">
+            <span class="dp-ItemCol">
                 <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="listpaneCheckbox8"></input>
-                    <label for="listpaneCheckbox8" class="dp-CardTitle">Allow anyone to email support</label>
-                    <span class="dp-Icon dp-iconStar--netural"></span>
-                </span>
-                <span class="dp-IconGroup">
-                    <span class="dp-Circle dp-iconMln"></span>
-                    <span class="dp-Badge Badge--empty"></span>
-                    <span class="dp-Badge Badge--yellow">6</span>
+                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-11"></input>
+                    <label for="customCheckbox1-11" class="dp-CardTitle"></label>
                 </span>
             </span>
-            <span class="dp-ItemRow">
+
+            <span class="dp-ItemCol">
+                <span class="dp-CardTitle">Allow anyone to email support<span class="dp-Icon dp-iconStar--netural"></span></span>
                 <span class="dp-UserInfo">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-UserName">Mark Jarvis<span class="dp-UserEmail">&lt;<span class="dp-UserEmailItem">mjarvis@econorob.nl</span>&gt; </span> </span>
+                    <span class="dp-UserName">Mark Jarvis
+                    </span>
+                    <a href="mailto:mjarvis@econorob.nl" class="dp-UserEmail">
+                        &lt;mjarvis@econorob.nl&gt;
+                    </a>
+                </span>
+            </span>
+
+            <span class="dp-ItemCol">
+                <span class="dp-IconGroup">
+                    <span class="dp-Icon--circle dp-iconMln"></span>
+                    <span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>
+                    <span class="dp-Badge-round Badge--success">6</span>
                 </span>
                 <span class="dp-TimeStatus">
-                    <span>3 days</span>
+                    <span>43 mins</span>
                 </span>
             </span>
         </li>
@@ -2198,13 +2525,13 @@ title: List Pane
 
 <div class="dp-MassSelect dp-ListpaneGuides">
 
-    <ul class="dp-FilterResultList newControlsList">
+    <ul class="dp-CardList newControlsList">
 
-        <li class="dp-FilterResultTitle">
+        <li class="dp-SectionCardTitle">
             <span>DPQL REFERENCE</span>
         </li>
 
-        <li class="dp-FilterResultItem">
+        <li class="dp-Card">
             <span class="dp-ItemRow">
                 <span class="dp-CardTitle"><span class="dp-Icon dp-IconNews"></span>Making a report</span>
             </span>
@@ -2220,7 +2547,7 @@ title: List Pane
             </span>
         </li>
 
-        <li class="dp-FilterResultItem is-active">
+        <li class="dp-Card is-active">
             <span class="dp-ItemRow">
                 <span class="dp-CardTitle"><span class="dp-Icon dp-IconNews"></span>Anatomy of a DPQL query</span>
 
@@ -2244,7 +2571,7 @@ title: List Pane
             </span>
 
             <ul class="dp-FilterSubList">
-                <li class="dp-FilterResultItem">
+                <li class="dp-Card">
                     <span class="dp-ItemRow">
                         <span class="dp-CardTitle"><span class="dp-Icon dp-LevelDown"></span>Item IDs</span>
                     </span>
@@ -2260,7 +2587,7 @@ title: List Pane
                     </span>
                 </li>
 
-                <li class="dp-FilterResultItem">
+                <li class="dp-Card">
                     <span class="dp-ItemRow">
                         <span class="dp-CardTitle"><span class="dp-Icon dp-LevelDown"></span>Select</span>
                     </span>
@@ -2283,7 +2610,7 @@ title: List Pane
 
         </li>
 
-        <li class="dp-FilterResultItem">
+        <li class="dp-Card">
             <span class="dp-ItemRow">
                 <span class="dp-CardTitle"><span class="dp-Icon dp-IconNews"></span>General expression format</span>
             </span>
@@ -2321,13 +2648,13 @@ title: List Pane
 <h4>listpane/tasks</h4>
 ```html @preview
 <div class="dp-ListpaneTasks">
-    <ul class="dp-FilterResultList">
+    <ul class="dp-CardList">
 
-        <li class="dp-FilterResultTitle">
+        <li class="dp-CardTitle">
             <span>TASK GROUPING</span>
         </li>
 
-        <li class="dp-FilterResultItem">
+        <li class="dp-Card">
             <span class="dp-ItemRow">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="dp-ListpanTasks"></input>
@@ -2388,7 +2715,7 @@ title: List Pane
             </ul>
         </li>
 
-        <li class="dp-FilterResultItem">
+        <li class="dp-Card">
             <span class="dp-ItemRow">
                 <span class="dp-UserInfo">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
@@ -2406,7 +2733,7 @@ title: List Pane
             </span>
         </li>
 
-        <li class="dp-FilterResultItem">
+        <li class="dp-Card">
             <span class="dp-ItemRow">
                 <span class="dp-UserInfo">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
@@ -2424,7 +2751,7 @@ title: List Pane
             </span>
         </li>
 
-        <li class="dp-FilterResultItem">
+        <li class="dp-Card">
             <span class="dp-ItemRow">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="dp-ListpanTasks-2"></input>
@@ -2485,7 +2812,7 @@ title: List Pane
             </ul>
         </li>
 
-        <li class="dp-FilterResultItem">
+        <li class="dp-Card">
             <span class="dp-ItemRow">
                 <span class="dp-UserInfo">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
@@ -2503,7 +2830,7 @@ title: List Pane
             </span>
         </li>
 
-        <li class="dp-FilterResultItem">
+        <li class="dp-Card">
             <span class="dp-ItemRow">
                 <span class="dp-UserInfo">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
@@ -2521,7 +2848,7 @@ title: List Pane
             </span>
         </li>
 
-        <li class="dp-FilterResultItem is-active">
+        <li class="dp-Card is-active">
             <span class="dp-ItemRow">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="dp-ListpanTasks-3" checked="checked"></input>
