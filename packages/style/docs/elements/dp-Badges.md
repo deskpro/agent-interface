@@ -44,14 +44,14 @@ title: Badges
 # Badges
 ```html @preview
 <div class="dp-MainWrapper">
-    <span class="dp-Badge-round Badge--danger">10</span>
-    <span class="dp-Badge-round Badge--warning">9</span>
-    <span class="dp-Badge-round Badge--warningLight">7</span>
-    <span class="dp-Badge-round Badge--neutral">6</span>
-    <span class="dp-Badge-round Badge--grey"></span>
-    <span class="dp-Badge-round Badge--white"></span>
-    <span class="dp-Badge-round Badge--white">10</span>
-    <span class="dp-Badge-round Badge-Min Icon-warning"></span>
-    <span class="dp-Badge-round Badge-Min Icon-neutral"></span>
+    <span class="dp-Badge Badge--round Badge--danger">10</span>
+    <span class="dp-Badge Badge--round Badge--warning">9</span>
+    <span class="dp-Badge Badge--round Badge--warningLight">7</span>
+    <span class="dp-Badge Badge--round Badge--neutral">6</span>
+    <span class="dp-Badge Badge--round Badge--grey"></span>
+    <span class="dp-Badge Badge--round Badge--white"></span>
+    <span class="dp-Badge Badge--round Badge--white">10</span>
+    <span class="dp-Badge Badge--round Badge-Min Icon-warning"></span>
+    <span class="dp-Badge Badge--round Badge-Min Icon-neutral"></span>
 </div>
 ```
