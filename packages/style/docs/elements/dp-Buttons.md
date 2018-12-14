@@ -99,7 +99,7 @@ title: Buttons
 	<div class="dp-ButtonItem">
 		<div class="dp-ButtonTitle">Button/add-square-large</div>
 		<button class="dp-Button Button--large Button--square">
-			<span class="dp-Icon dp-add_tab--netural"></span>
+			<span class="dp-Icon dp-add_tab--neutral"></span>
 		</button>
 	</div>
 

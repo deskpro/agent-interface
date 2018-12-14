@@ -8,7 +8,7 @@ title: Tabs & Headers
     <ul class="dp-TabBarList dp-Selected">
 
         <li class="dp-AddTabButton">
-            <span class="dp-Icon dp-add_tab--netural"></span>
+            <span class="dp-Icon dp-add_tab--neutral"></span>
         </li>
 
         <li class="dp-TabBarItem">
@@ -55,7 +55,7 @@ title: Tabs & Headers
 <div class="dp-MainWrapper">
     <ul class="dp-TabBarList">
         <li class="dp-AddTabButton">
-            <span class="dp-Icon dp-add_tab--netural"></span>
+            <span class="dp-Icon dp-add_tab--neutral"></span>
         </li>
         <li class="dp-TabBarItem">
             <span class="dp-Flex">

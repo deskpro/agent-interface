@@ -16,7 +16,7 @@ title: Deskpro Colours
 
     <div class="Bg-Color--danger"></div>
     <div class="Bg-Color--warning"></div>
-    <div class="Bg-Color--netural"></div>
+    <div class="Bg-Color--neutral"></div>
     <div class="Bg-Color--success"></div>
     <div class="Bg-Color--info"></div>
     <div class="Bg-Color--pink"></div>
@@ -24,7 +24,7 @@ title: Deskpro Colours
 
     <div class="Bg-Color--danger-light"></div>
     <div class="Bg-Color--warning-light"></div>
-    <div class="Bg-Color--netural-light"></div>
+    <div class="Bg-Color--neutral-light"></div>
     <div class="Bg-Color--success-light"></div>
     <div class="Bg-Color--info-light"></div>
     <div class="Bg-Color--pink-light"></div>
@@ -45,7 +45,7 @@ title: Deskpro Colours
 
     <div class="Color--danger"></div>
     <div class="Color--warning"></div>
-    <div class="Color--netural"></div>
+    <div class="Color--neutral"></div>
     <div class="Color--success"></div>
     <div class="Color--info"></div>
     <div class="Color--pink"></div>
@@ -53,7 +53,7 @@ title: Deskpro Colours
 
     <div class="Color--danger-light"></div>
     <div class="Color--warning-light"></div>
-    <div class="Color--netural-light"></div>
+    <div class="Color--neutral-light"></div>
     <div class="Color--success-light"></div>
     <div class="Color--info-light"></div>
     <div class="Color--pink-light"></div>

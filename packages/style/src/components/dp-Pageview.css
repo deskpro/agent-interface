@@ -355,7 +355,7 @@
 }
 
 .dp-MessageContainer.dp-ColorContainer {
-  background-color: var(--netural-light);
+  background-color: var(--neutral-light);
   border: 1px solid var(--grey-light);
   border-radius: var(--border-radius);
   display: block;

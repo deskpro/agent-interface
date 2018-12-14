@@ -260,11 +260,106 @@ title: List Pane
 <h4>listpane/header</h4>
 ```html @preview
 <div class="dp-MainWrapper">
-    <span class="dp-SectionCardTitle">
+    <span class="dp-Card-SectionTitle">
         <span>Sales</span>
     </span>
 </div>
 ```
+
+<!-- Demo grid Level -->
+
+<h4>Demo grid Level - Col </h4>
+```html @preview
+<div class="dp-MainWrapper">
+    <form>
+        <ul class="dp-CardList">
+            <li class="dp-Card dp-Level">
+
+                <span class="dp-ItemCol dp-LevelTop">
+                    <span class="dp-CustomCheckbox">
+                        <input type="checkbox" class="dp-ControlInput" id="customCheckbox0-0"></input>
+                        <label for="customCheckbox0-0" class="dp-Card-title"></label>
+                    </span>
+                </span>
+
+                <span class="dp-ItemCol">
+                    <span class="dp-Card-title">Card title here</span>
+
+                    <span class="dp-UserInfo">
+                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                        <span class="dp-UserName">Single-line item</span>
+                    </span>
+                </span>
+
+                <span class="dp-ItemCol dp-LevelRight">
+                    <span class="dp-IconGroup">
+
+                        <span class="dp-ActivityStatus ActivityStatus--viewing">
+                            <span class="dp-Icon"></span>
+                            <span class="dp-Badge Badge--round Badge--grey"></span>
+                        </span>
+
+                        <span class="dp-Icon--circle dp-iconBug"></span>
+                        <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
+                        <span class="dp-Icon--circle dp-iconClock"></span>
+                    </span>
+                    <span class="dp-TimeStatus">
+                        <span class="dp-Tag Tag--small Tag--danger">Failed</span>
+                    </span>
+                </span>
+
+            </li>
+        </ul>
+    </form>
+</div>
+```
+
+<!-- Demo grid Level - Row -->
+
+<h4>Demo grid Level - Row </h4>
+```html @preview
+<div class="dp-MainWrapper">
+    <form>
+        <ul class="dp-CardList">
+            <li class="dp-Card dp-Level Level-column">
+
+                <span class="dp-LevelItem Level-justify-between">
+
+                    <span class="dp-CustomCheckbox">
+                        <input type="checkbox" class="dp-ControlInput" id="customCheckbox0-1"></input>
+                        <label for="customCheckbox0-1" class="dp-CardTitle">Card title here</label>
+                    </span>
+
+                    <span class="dp-IconGroup">
+
+                        <span class="dp-ActivityStatus ActivityStatus--viewing">
+                            <span class="dp-Icon"></span>
+                            <span class="dp-Badge Badge--round Badge--grey"></span>
+                        </span>
+
+                        <span class="dp-Icon--circle dp-iconBug"></span>
+                        <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
+                        <span class="dp-Icon--circle dp-iconClock"></span>
+                    </span>
+
+                </span>
+
+                <span class="dp-LevelItem Level-justify-between">
+                    <span class="dp-UserInfo">
+                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                        <span class="dp-UserName">Single-line item</span>
+                    </span>
+                    <span class="dp-TimeStatus">
+                        <span class="dp-Tag Tag--small Tag--danger">Failed</span>
+                    </span>
+                </span>
+                
+            </li>
+        </ul>
+    </form>
+</div>
+```
+<!--  -->
 
 <h4>list-pane/agent-viewing-small</h4>
 ```html @preview
@@ -276,12 +371,12 @@ title: List Pane
                 <span class="dp-ItemCol">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-1"></input>
-                        <label for="customCheckbox1-1" class="dp-CardTitle"></label>
+                        <label for="customCheckbox1-1" class="dp-Card-title"></label>
                     </span>
                 </span>
 
                 <span class="dp-ItemCol">
-                    <span class="dp-CardTitle">Card title here</span>
+                    <span class="dp-Card-title">Card title here</span>
 
                     <span class="dp-UserInfo">
                         <span class="dp-Icon dp-iconUserAvatar"></span>
@@ -291,12 +386,14 @@ title: List Pane
 
                 <span class="dp-ItemCol">
                     <span class="dp-IconGroup">
-                        <span class="dp-AgentViewing">
-                            <span class="dp-Icon dp-view"></span>
-                            <span class="dp-Badge dp-Badge-round Badge--grey"></span>
+
+                        <span class="dp-ActivityStatus ActivityStatus--viewing">
+                            <span class="dp-Icon"></span>
+                            <span class="dp-Badge Badge--round Badge--grey"></span>
                         </span>
+
                         <span class="dp-Icon--circle dp-iconBug"></span>
-                        <span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>
+                        <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
                         <span class="dp-Icon--circle dp-iconClock"></span>
                     </span>
                     <span class="dp-TimeStatus">
@@ -320,12 +417,12 @@ title: List Pane
                 <span class="dp-ItemCol">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-2"></input>
-                        <label for="customCheckbox1-2" class="dp-CardTitle"></label>
+                        <label for="customCheckbox1-2" class="dp-Card-title"></label>
                     </span>
                 </span>
 
                 <span class="dp-ItemCol">
-                    <span class="dp-CardTitle">Card title here</span>
+                    <span class="dp-Card-title">Card title here</span>
 
                     <span class="dp-UserInfo">
                         <span class="dp-Icon dp-iconUserAvatar"></span>
@@ -335,13 +432,13 @@ title: List Pane
 
                 <span class="dp-ItemCol">
                     <span class="dp-IconGroup">
-                        <span class="dp-AgentViewing">
-                            <span class="dp-Icon dp-view"></span>
-                            <span class="dp-Badge dp-Badge-round Badge--grey"></span>
-                            <span class="dp-Badge dp-Badge-round Badge--grey"></span>
+                        <span class="dp-ActivityStatus ActivityStatus--viewing">
+                            <span class="dp-Icon"></span>
+                            <span class="dp-Badge Badge--round Badge--grey"></span>
+                            <span class="dp-Badge Badge--round Badge--grey"></span>
                         </span>
                         <span class="dp-Icon--circle dp-iconBug"></span>
-                        <span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>
+                        <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
                         <span class="dp-Icon--circle dp-iconClock"></span>
                     </span>
                     <span class="dp-TimeStatus">
@@ -367,12 +464,12 @@ title: List Pane
                 <span class="dp-ItemCol">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-3"></input>
-                        <label for="customCheckbox1-3" class="dp-CardTitle"></label>
+                        <label for="customCheckbox1-3" class="dp-Card-title"></label>
                     </span>
                 </span>
 
                 <span class="dp-ItemCol">
-                    <span class="dp-CardTitle">Card title here</span>
+                    <span class="dp-Card-title">Card title here</span>
 
                     <span class="dp-UserInfo">
                         <span class="dp-Icon dp-iconUserAvatar"></span>
@@ -383,13 +480,13 @@ title: List Pane
                 <span class="dp-ItemCol">
                     <span class="dp-IconGroup">
 
-                        <span class="dp-AgentViewing dp-AgentWriting">
-                            <span class="dp-Icon dp-IconEdit Icon-primary"></span>
-                            <span class="dp-Badge dp-Badge-round Badge--grey"></span>
+                        <span class="dp-ActivityStatus ActivityStatus--writing ActivityStatus--primary">
+                            <span class="dp-Icon Icon--primary"></span>
+                            <span class="dp-Badge Badge--round Badge--grey"></span>
                         </span>
 
                         <span class="dp-Icon--circle dp-iconBug"></span>
-                        <span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>
+                        <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
                         <span class="dp-Icon--circle dp-iconClock"></span>
                     </span>
                     <span class="dp-TimeStatus">
@@ -415,12 +512,12 @@ title: List Pane
                 <span class="dp-ItemCol">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-3"></input>
-                        <label for="customCheckbox1-3" class="dp-CardTitle"></label>
+                        <label for="customCheckbox1-3" class="dp-Card-title"></label>
                     </span>
                 </span>
 
                 <span class="dp-ItemCol">
-                    <span class="dp-CardTitle">Card title here</span>
+                    <span class="dp-Card-title">Card title here</span>
 
                     <span class="dp-UserInfo">
                         <span class="dp-Icon dp-iconUserAvatar"></span>
@@ -431,14 +528,14 @@ title: List Pane
                 <span class="dp-ItemCol">
                     <span class="dp-IconGroup">
 
-                        <span class="dp-AgentViewing dp-AgentWriting">
-                            <span class="dp-Icon dp-IconEdit Icon-primary"></span>
-                            <span class="dp-Badge dp-Badge-round Badge--grey"></span>
-                            <span class="dp-Badge dp-Badge-round Badge--grey"></span>
+                        <span class="dp-ActivityStatus ActivityStatus--writing ActivityStatus--primary">
+                            <span class="dp-Icon Icon--primary"></span>
+                            <span class="dp-Badge Badge--round Badge--grey"></span>
+                            <span class="dp-Badge Badge--round Badge--grey"></span>
                         </span>
 
                         <span class="dp-Icon--circle dp-iconBug"></span>
-                        <span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>
+                        <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
                         <span class="dp-Icon--circle dp-iconClock"></span>
                     </span>
                     <span class="dp-TimeStatus">
@@ -492,9 +589,9 @@ title: List Pane
 <h2>listpane/tickets</h2>
 ```html @preview
 <form>
-    <ul class="dp-CardList dp-HoverList">
+    <ul class="dp-CardList is-hoverable">
         
-        <li class="dp-SectionCardTitle">
+        <li class="dp-Card-SectionTitle">
             <span>Sales</span>
             <!-- <span class="dp-SortIconDescription"><span class="dp-Icon dp-sort"></span>DSC</span> -->
         </li>
@@ -504,12 +601,12 @@ title: List Pane
             <span class="dp-ItemCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-4"></input>
-                    <label for="customCheckbox1-4" class="dp-CardTitle"></label>
+                    <label for="customCheckbox1-4" class="dp-Card-title"></label>
                 </span>
             </span>
 
             <span class="dp-ItemCol">
-                <span class="dp-CardTitle">SSO Information<span class="dp-Icon dp-iconStar"></span></span>
+                <span class="dp-Card-title">SSO Information<span class="dp-Icon"></span></span>
                 <span class="dp-UserInfo">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
                     <span class="dp-UserName">Kenneth James
@@ -524,7 +621,7 @@ title: List Pane
                 <span class="dp-IconGroup">
 
                     <span class="dp-Icon--circle dp-iconBug"></span>
-                    <span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>
+                    <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
                     <span class="dp-Icon--circle dp-iconClock"></span>
                 </span>
                 <span class="dp-TimeStatus">
@@ -538,12 +635,12 @@ title: List Pane
             <span class="dp-ItemCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-5"></input>
-                    <label for="customCheckbox1-5" class="dp-CardTitle"></label>
+                    <label for="customCheckbox1-5" class="dp-Card-title"></label>
                 </span>
             </span>
 
             <span class="dp-ItemCol">
-                <span class="dp-CardTitle">Portal disabled landing page</span>
+                <span class="dp-Card-title">Portal disabled landing page</span>
 
                 <span class="dp-UserInfo">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
@@ -558,8 +655,8 @@ title: List Pane
             <span class="dp-ItemCol">
                 <span class="dp-IconGroup">
                     <span class="dp-Icon--circle dp-iconRocket"></span>
-                    <span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>
-                    <span class="dp-Badge-round Badge--warning">9</span>
+                    <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
+                    <span class="dp-Badge Badge--round Badge--warning">9</span>
                 </span>
                 <span class="dp-TimeStatus">
                     <span class="dp-Tag Tag--small Tag--pink">3 hours</span>
@@ -572,12 +669,12 @@ title: List Pane
             <span class="dp-ItemCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-6"></input>
-                    <label for="customCheckbox1-6" class="dp-CardTitle"></label>
+                    <label for="customCheckbox1-6" class="dp-Card-title"></label>
                 </span>
             </span>
 
             <span class="dp-ItemCol">
-                <span class="dp-CardTitle">Inventory component<span class="dp-Icon dp-iconStar Icon-netural"></span></span>
+                <span class="dp-Card-title">Inventory component<span class="dp-Icon"></span></span>
 
                 <span class="dp-UserInfo">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
@@ -592,7 +689,7 @@ title: List Pane
             <span class="dp-ItemCol">
                 <span class="dp-IconGroup">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-Badge-round Badge-Min Icon-warning"></span>
+                    <span class="dp-Badge Badge--round Badge-Min Icon-warning"></span>
                 </span>
                 <span class="dp-TimeStatus">
                     <span>2 hr 16 min</span>
@@ -605,12 +702,12 @@ title: List Pane
             <span class="dp-ItemCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-7"></input>
-                    <label for="customCheckbox1-7" class="dp-CardTitle"></label>
+                    <label for="customCheckbox1-7" class="dp-Card-title"></label>
                 </span>
             </span>
 
             <span class="dp-ItemCol">
-                <span class="dp-CardTitle">AW: Need some help?</span>
+                <span class="dp-Card-title">AW: Need some help?</span>
 
                 <span class="dp-UserInfo">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
@@ -624,10 +721,10 @@ title: List Pane
 
             <span class="dp-ItemCol">
                 <span class="dp-IconGroup">
-                    <span class="dp-Icon--circle dp-iconLock"></span>
+                    <span class="dp-Icon dp-iconLock"></span>
                     <span class="dp-Icon--circle dp-iconMln"></span>
-                    <span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>
-                    <span class="dp-Badge-round Badge--warning">9</span>
+                    <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
+                    <span class="dp-Badge Badge--round Badge--warning">9</span>
                 </span>
                 <span class="dp-TimeStatus">
                     <span>57 mins</span>
@@ -640,12 +737,12 @@ title: List Pane
             <span class="dp-ItemCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-8"></input>
-                    <label for="customCheckbox1-8" class="dp-CardTitle"></label>
+                    <label for="customCheckbox1-8" class="dp-Card-title"></label>
                 </span>
             </span>
 
             <span class="dp-ItemCol">
-                <span class="dp-CardTitle">Portal disabled landing page</span>
+                <span class="dp-Card-title">Portal disabled landing page</span>
 
                 <span class="dp-UserInfo">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
@@ -660,8 +757,8 @@ title: List Pane
             <span class="dp-ItemCol">
                 <span class="dp-IconGroup">
                     <span class="dp-Icon--circle dp-iconMln"></span>
-                    <span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>
-                    <span class="dp-Badge-round Badge--warning">7</span>
+                    <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
+                    <span class="dp-Badge Badge--round Badge--warning">7</span>
                 </span>
                 <span class="dp-TimeStatus">
                     <span class="dp-Tag Tag--small Tag--danger">2 hours</span>
@@ -674,12 +771,12 @@ title: List Pane
             <span class="dp-ItemCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-9"></input>
-                    <label for="customCheckbox1-9" class="dp-CardTitle"></label>
+                    <label for="customCheckbox1-9" class="dp-Card-title"></label>
                 </span>
             </span>
 
             <span class="dp-ItemCol">
-                <span class="dp-CardTitle">Enjoying your helpdesk?<span class="dp-Icon dp-iconStar"></span></span>
+                <span class="dp-Card-title">Enjoying your helpdesk?<span class="dp-Icon"></span></span>
                 <span class="dp-UserInfo">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
                     <span class="dp-UserName">Toby Falkirk
@@ -693,8 +790,8 @@ title: List Pane
             <span class="dp-ItemCol">
                 <span class="dp-IconGroup">
                     <span class="dp-Icon--circle dp-iconMln"></span>
-                    <span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>
-                    <span class="dp-Badge-round Badge-Min Icon-neutral"></span>
+                    <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
+                    <span class="dp-Badge Badge--round Badge-Min Icon-neutral"></span>
                 </span>
                 <span class="dp-TimeStatus">
                     <span>43 mins</span>
@@ -707,12 +804,12 @@ title: List Pane
             <span class="dp-ItemCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-10"></input>
-                    <label for="customCheckbox1-10" class="dp-CardTitle"></label>
+                    <label for="customCheckbox1-10" class="dp-Card-title"></label>
                 </span>
             </span>
 
             <span class="dp-ItemCol">
-                <span class="dp-CardTitle">Product enquiry</span>
+                <span class="dp-Card-title">Product enquiry</span>
                 <span class="dp-UserInfo">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
                     <span class="dp-UserName">Kenneth James
@@ -727,7 +824,7 @@ title: List Pane
                 <span class="dp-IconGroup">
 
                     <span class="dp-Icon--circle dp-iconBug"></span>
-                    <span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>
+                    <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
                     <span class="dp-Icon--circle dp-iconClock"></span>
                 </span>
                 <span class="dp-TimeStatus">
@@ -741,12 +838,12 @@ title: List Pane
             <span class="dp-ItemCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-11"></input>
-                    <label for="customCheckbox1-11" class="dp-CardTitle"></label>
+                    <label for="customCheckbox1-11" class="dp-Card-title"></label>
                 </span>
             </span>
 
             <span class="dp-ItemCol">
-                <span class="dp-CardTitle">Allow anyone to email support<span class="dp-Icon dp-iconStar Icon-netural"></span></span>
+                <span class="dp-Card-title">Allow anyone to email support<span class="dp-Icon"></span></span>
                 <span class="dp-UserInfo">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
                     <span class="dp-UserName">Mark Jarvis
@@ -760,8 +857,8 @@ title: List Pane
             <span class="dp-ItemCol">
                 <span class="dp-IconGroup">
                     <span class="dp-Icon--circle dp-iconMln"></span>
-                    <span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>
-                    <span class="dp-Badge-round Badge--neutral">6</span>
+                    <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
+                    <span class="dp-Badge Badge--round Badge--neutral">6</span>
                 </span>
                 <span class="dp-TimeStatus">
                     <span>43 mins</span>
@@ -770,7 +867,7 @@ title: List Pane
         </li>
 
 
-        <li class="dp-SectionCardTitle">
+        <li class="dp-Card-SectionTitle">
             <span>Sales</span>
             <!-- <span class="dp-SortIconDescription"><span class="dp-Icon dp-sort"></span>DSC</span> -->
         </li>
@@ -780,12 +877,12 @@ title: List Pane
             <span class="dp-ItemCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-12"></input>
-                    <label for="customCheckbox1-12" class="dp-CardTitle"></label>
+                    <label for="customCheckbox1-12" class="dp-Card-title"></label>
                 </span>
             </span>
 
             <span class="dp-ItemCol">
-                <span class="dp-CardTitle">Inventory component</span>
+                <span class="dp-Card-title">Inventory component</span>
 
                 <span class="dp-UserInfo">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
@@ -800,8 +897,8 @@ title: List Pane
             <span class="dp-ItemCol">
                 <span class="dp-IconGroup">
                     <span class="dp-Icon--circle dp-iconRocket"></span>
-                    <span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>
-                    <span class="dp-Badge-round Badge--warning">9</span>
+                    <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
+                    <span class="dp-Badge Badge--round Badge--warning">9</span>
                 </span>
                 <span class="dp-TimeStatus">
                     <span>12 hr 43 min</span>
@@ -814,12 +911,12 @@ title: List Pane
             <span class="dp-ItemCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-13"></input>
-                    <label for="customCheckbox1-13" class="dp-CardTitle"></label>
+                    <label for="customCheckbox1-13" class="dp-Card-title"></label>
                 </span>
             </span>
 
             <span class="dp-ItemCol">
-                <span class="dp-CardTitle">Enjoying your helpdesk?<span class="dp-Icon dp-iconStar"></span></span>
+                <span class="dp-Card-title">Enjoying your helpdesk?<span class="dp-Icon"></span></span>
                 <span class="dp-UserInfo">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
                     <span class="dp-UserName">Kenneth James
@@ -830,9 +927,9 @@ title: List Pane
                 </span>
 
                 <span class="dp-JustifyStart">
-                    <span class="dp-UserVal">Department: <span class="dp-ItemValue">Support</span></span>
-                    <span class="dp-UserVal">Language: <span class="dp-ItemValue">Italiano</span></span>
-                    <span class="dp-UserVal">Last reply: <span class="dp-ItemValue">9 weeks ago</span></span>
+                    <span class="dp-Meta">Department: <span class="dp-Meta-value">Support</span></span>
+                    <span class="dp-Meta">Language: <span class="dp-Meta-value">Italiano</span></span>
+                    <span class="dp-Meta">Last reply: <span class="dp-Meta-value">9 weeks ago</span></span>
                 </span>
 
             </span>
@@ -840,8 +937,8 @@ title: List Pane
             <span class="dp-ItemCol">
                 <span class="dp-IconGroup">
                     <span class="dp-Icon--circle dp-iconMln"></span>
-                    <span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>
-                    <span class="dp-Badge-round Badge-Min Icon-neutral"></span>
+                    <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
+                    <span class="dp-Badge Badge--round Badge-Min Icon-neutral"></span>
                 </span>
                 <span class="dp-TimeStatus">
                     <span>4 weeks</span>
@@ -854,12 +951,12 @@ title: List Pane
             <span class="dp-ItemCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-14"></input>
-                    <label for="customCheckbox1-14" class="dp-CardTitle"></label>
+                    <label for="customCheckbox1-14" class="dp-Card-title"></label>
                 </span>
             </span>
 
             <span class="dp-ItemCol">
-                <span class="dp-CardTitle">Inventory component</span>
+                <span class="dp-Card-title">Inventory component</span>
 
                 <span class="dp-UserInfo">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
@@ -880,9 +977,9 @@ title: List Pane
                 </span>
 
                 <span class="dp-JustifyStart">
-                    <span class="dp-UserVal">Department: <span class="dp-ItemValue">Support</span></span>
-                    <span class="dp-UserVal">Language: <span class="dp-ItemValue">Italiano</span></span>
-                    <span class="dp-UserVal">Last reply: <span class="dp-ItemValue">9 weeks ago</span></span>
+                    <span class="dp-Meta">Department: <span class="dp-Meta-value">Support</span></span>
+                    <span class="dp-Meta">Language: <span class="dp-Meta-value">Italiano</span></span>
+                    <span class="dp-Meta">Last reply: <span class="dp-Meta-value">9 weeks ago</span></span>
                 </span>
 
             </span>
@@ -890,8 +987,8 @@ title: List Pane
             <span class="dp-ItemCol">
                 <span class="dp-IconGroup">
                     <span class="dp-Icon--circle dp-iconRocket"></span>
-                    <span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>
-                    <span class="dp-Badge-round Badge--warning">9</span>
+                    <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
+                    <span class="dp-Badge Badge--round Badge--warning">9</span>
                 </span>
                 <span class="dp-TimeStatus">
                     <span>12 hr 43 min</span>
@@ -919,16 +1016,16 @@ title: List Pane
                             </div>
                         </form>
                     </li>
-                    <li><a href="#" class="dp-listItem"><span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>Wendy Pride</a></li>
-                    <li><a href="#" class="dp-listItem"><span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>Bob Cooper</a></li>
-                    <li><a href="#" class="dp-listItem"><span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>Julien Ducro</a></li>
-                    <li><a href="#" class="dp-listItem"><span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>Wendy Lightbody</a></li>
-                    <li><a href="#" class="dp-listItem"><span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>Bobby Steiner</a></li>
-                    <li><a href="#" class="dp-listItem"><span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>Wendy Pride</a></li>
-                    <li><a href="#" class="dp-listItem"><span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>Bob Cooper</a></li>
-                    <li><a href="#" class="dp-listItem"><span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>Julien Ducro</a></li>
-                    <li><a href="#" class="dp-listItem"><span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>Wendy Lightbody</a></li>
-                    <li><a href="#" class="dp-listItem"><span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>Bobby Steiner</a></li>
+                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--round Badge--grey-lighter"></span>Wendy Pride</a></li>
+                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--round Badge--grey-lighter"></span>Bob Cooper</a></li>
+                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--round Badge--grey-lighter"></span>Julien Ducro</a></li>
+                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--round Badge--grey-lighter"></span>Wendy Lightbody</a></li>
+                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--round Badge--grey-lighter"></span>Bobby Steiner</a></li>
+                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--round Badge--grey-lighter"></span>Wendy Pride</a></li>
+                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--round Badge--grey-lighter"></span>Bob Cooper</a></li>
+                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--round Badge--grey-lighter"></span>Julien Ducro</a></li>
+                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--round Badge--grey-lighter"></span>Wendy Lightbody</a></li>
+                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--round Badge--grey-lighter"></span>Bobby Steiner</a></li>
                 </ul>
             </li>
             <li>Assign to <a href="#" class="dp-listLink">my team</a> or <span class="dp-Arrow"></span>
@@ -941,13 +1038,13 @@ title: List Pane
                             </div>
                         </form>
                     </li>
-                    <li><a href="#" class="dp-listItem"><span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>Wendy Pride</a></li>
-                    <li><a href="#" class="dp-listItem"><span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>Bob Cooper</a></li>
-                    <li><a href="#" class="dp-listItem"><span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>Julien Ducro</a></li>
-                    <li><a href="#" class="dp-listItem"><span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>Wendy Lightbody</a></li>
-                    <li><a href="#" class="dp-listItem"><span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>Bobby Steiner</a></li>
-                    <li><a href="#" class="dp-listItem"><span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>Wendy Pride</a></li>
-                    <li><a href="#" class="dp-listItem"><span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>Bob Cooper</a></li>
+                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--round Badge--grey-lighter"></span>Wendy Pride</a></li>
+                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--round Badge--grey-lighter"></span>Bob Cooper</a></li>
+                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--round Badge--grey-lighter"></span>Julien Ducro</a></li>
+                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--round Badge--grey-lighter"></span>Wendy Lightbody</a></li>
+                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--round Badge--grey-lighter"></span>Bobby Steiner</a></li>
+                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--round Badge--grey-lighter"></span>Wendy Pride</a></li>
+                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--round Badge--grey-lighter"></span>Bob Cooper</a></li>
                 </ul>
             </li>
             <li class="dp-DropdownDivider"></li>
@@ -1068,22 +1165,21 @@ title: List Pane
 <h2>listpane/kanban-view</h2>
 ```html @preview
 
-<!-- New kanban-view -->
 <div class="dp-MainWrapper">
     <form>
-        <ul class="dp-CardList dp-KanbanView dp-HoverList">
+        <ul class="dp-CardList dp-KanbanView is-hoverable">
             
             <!-- 1 -->
             <li class="dp-Card">
                 <span class="dp-ItemCol">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="customCheckbox2-1"></input>
-                        <label for="customCheckbox2-1" class="dp-CardTitle"></label>
+                        <label for="customCheckbox2-1" class="dp-Card-title"></label>
                     </span>
                 </span>
 
                 <span class="dp-ItemCol">
-                    <span class="dp-CardTitle">SSO Information<span class="dp-Icon dp-iconStar"></span></span>
+                    <span class="dp-Card-title">SSO Information<span class="dp-Icon"></span></span>
                     <span class="dp-UserInfo">
                         <span class="dp-Icon dp-iconUserAvatar"></span>
                         <span class="dp-UserName">Kenneth James
@@ -1097,8 +1193,8 @@ title: List Pane
                 <span class="dp-ItemCol">
                     <span class="dp-IconGroup">
                         <span class="dp-Icon--circle dp-iconRocket"></span>
-                        <span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>
-                        <span class="dp-Badge dp-Badge-round Badge--danger">5</span>
+                        <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
+                        <span class="dp-Badge Badge--round Badge--danger">5</span>
                     </span>
 
                     <span class="dp-TimeStatus">
@@ -1112,12 +1208,12 @@ title: List Pane
                 <span class="dp-ItemCol">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="customCheckbox2-2"></input>
-                        <label for="customCheckbox2-2" class="dp-CardTitle"></label>
+                        <label for="customCheckbox2-2" class="dp-Card-title"></label>
                     </span>
                 </span>
 
                 <span class="dp-ItemCol">
-                    <span class="dp-CardTitle">Portal disabled landing message</span>
+                    <span class="dp-Card-title">Portal disabled landing message</span>
 
                     <span class="dp-UserInfo">
                         <span class="dp-Icon dp-iconUserAvatar"></span>
@@ -1132,7 +1228,7 @@ title: List Pane
                 <span class="dp-ItemCol">
                     <span class="dp-IconGroup">
                         <span class="dp-Icon--circle dp-iconBug"></span>
-                        <span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>
+                        <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
                         <span class="dp-Icon--circle dp-iconClock"></span>
                     </span>
                     <span class="dp-TimeStatus">
@@ -1146,12 +1242,12 @@ title: List Pane
                 <span class="dp-ItemCol">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="customCheckbox2-3"></input>
-                        <label for="customCheckbox2-3" class="dp-CardTitle"></label>
+                        <label for="customCheckbox2-3" class="dp-Card-title"></label>
                     </span>
                 </span>
 
                 <span class="dp-ItemCol">
-                    <span class="dp-CardTitle">Inventory component<span class="dp-Icon dp-iconStar Icon-netural"></span></span>
+                    <span class="dp-Card-title">Inventory component<span class="dp-Icon"></span></span>
 
                     <span class="dp-UserInfo">
                         <span class="dp-Icon dp-iconUserAvatar"></span>
@@ -1166,8 +1262,8 @@ title: List Pane
                 <span class="dp-ItemCol">
                     <span class="dp-IconGroup">
                         <span class="dp-Icon--circle dp-iconRocket"></span>
-                        <span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>
-                        <span class="dp-Badge-round Badge--warning">9</span>
+                        <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
+                        <span class="dp-Badge Badge--round Badge--warning">9</span>
                     </span>
                     <span class="dp-TimeStatus">
                         <span class="dp-Tag Tag--small Tag--danger">3 hours</span>
@@ -1180,12 +1276,12 @@ title: List Pane
                 <span class="dp-ItemCol">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="customCheckbox2-4"></input>
-                        <label for="customCheckbox2-4" class="dp-CardTitle"></label>
+                        <label for="customCheckbox2-4" class="dp-Card-title"></label>
                     </span>
                 </span>
 
                 <span class="dp-ItemCol">
-                    <span class="dp-CardTitle">AW: Need some help?</span>
+                    <span class="dp-Card-title">AW: Need some help?</span>
 
                     <span class="dp-UserInfo">
                         <span class="dp-Icon dp-iconUserAvatar"></span>
@@ -1200,7 +1296,7 @@ title: List Pane
                 <span class="dp-ItemCol">
                     <span class="dp-IconGroup">
                         <span class="dp-Icon dp-iconUserAvatar"></span>
-                        <span class="dp-Badge-round Badge-Min Icon-warning"></span>
+                        <span class="dp-Badge Badge--round Badge-Min Icon-warning"></span>
                     </span>
                     <span class="dp-TimeStatus">
                         <span>2 hr 16min</span>
@@ -1213,12 +1309,12 @@ title: List Pane
                 <span class="dp-ItemCol">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="customCheckbox2-5"></input>
-                        <label for="customCheckbox2-5" class="dp-CardTitle"></label>
+                        <label for="customCheckbox2-5" class="dp-Card-title"></label>
                     </span>
                 </span>
 
                 <span class="dp-ItemCol">
-                    <span class="dp-CardTitle">Portal disabled landing page</span>
+                    <span class="dp-Card-title">Portal disabled landing page</span>
 
                     <span class="dp-UserInfo">
                         <span class="dp-Icon dp-iconUserAvatar"></span>
@@ -1232,10 +1328,10 @@ title: List Pane
 
                 <span class="dp-ItemCol">
                     <span class="dp-IconGroup">
-                        <span class="dp-Icon--circle dp-iconLock"></span>
+                        <span class="dp-Icon dp-iconLock"></span>
                         <span class="dp-Icon--circle dp-iconMln"></span>
-                        <span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>
-                        <span class="dp-Badge-round Badge--warning">9</span>
+                        <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
+                        <span class="dp-Badge Badge--round Badge--warning">9</span>
                     </span>
                     <span class="dp-TimeStatus">
                         <span>12 hr 43min</span>
@@ -1248,12 +1344,12 @@ title: List Pane
                 <span class="dp-ItemCol">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="customCheckbox2-6"></input>
-                        <label for="customCheckbox2-6" class="dp-CardTitle"></label>
+                        <label for="customCheckbox2-6" class="dp-Card-title"></label>
                     </span>
                 </span>
 
                 <span class="dp-ItemCol">
-                    <span class="dp-CardTitle">Enjoying your helpdesk?</span>
+                    <span class="dp-Card-title">Enjoying your helpdesk?</span>
                     <span class="dp-UserInfo">
                         <span class="dp-Icon dp-iconUserAvatar"></span>
                         <span class="dp-UserName">Tony Falkirk
@@ -1267,8 +1363,8 @@ title: List Pane
                 <span class="dp-ItemCol">
                     <span class="dp-IconGroup">
                         <span class="dp-Icon--circle dp-iconMln"></span>
-                        <span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>
-                        <span class="dp-Badge-round Badge--warning">7</span>
+                        <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
+                        <span class="dp-Badge Badge--round Badge--warning">7</span>
                     </span>
                     <span class="dp-TimeStatus">
                         <span class="dp-Tag Tag--small Tag--danger">10.5 hours</span>
@@ -1281,12 +1377,12 @@ title: List Pane
                 <span class="dp-ItemCol">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="customCheckbox2-7"></input>
-                        <label for="customCheckbox2-7" class="dp-CardTitle"></label>
+                        <label for="customCheckbox2-7" class="dp-Card-title"></label>
                     </span>
                 </span>
 
                 <span class="dp-ItemCol">
-                    <span class="dp-CardTitle">Product enquiry<span class="dp-Icon dp-iconStar"></span></span>
+                    <span class="dp-Card-title">Product enquiry<span class="dp-Icon"></span></span>
                     <span class="dp-UserInfo">
                         <span class="dp-Icon dp-iconUserAvatar"></span>
                         <span class="dp-UserName">Kenneth James
@@ -1301,8 +1397,8 @@ title: List Pane
                     <span class="dp-IconGroup">
 
                         <span class="dp-Icon--circle dp-iconMln"></span>
-                        <span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>
-                        <span class="dp-Badge-round Badge-Min Icon-neutral"></span>
+                        <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
+                        <span class="dp-Badge Badge--round Badge-Min Icon-neutral"></span>
                     </span>
                     <span class="dp-TimeStatus">
                         <span>43 mins</span>
@@ -1315,12 +1411,12 @@ title: List Pane
                 <span class="dp-ItemCol">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="customCheckbox2-8"></input>
-                        <label for="customCheckbox2-8" class="dp-CardTitle"></label>
+                        <label for="customCheckbox2-8" class="dp-Card-title"></label>
                     </span>
                 </span>
 
                 <span class="dp-ItemCol">
-                    <span class="dp-CardTitle">Allow anyone to email support</span>
+                    <span class="dp-Card-title">Allow anyone to email support</span>
                     <span class="dp-UserInfo">
                         <span class="dp-Icon dp-iconUserAvatar"></span>
                         <span class="dp-UserName">Mike Jarvis
@@ -1334,8 +1430,8 @@ title: List Pane
                 <span class="dp-ItemCol">
                     <span class="dp-IconGroup">
                         <span class="dp-Icon--circle dp-iconMln"></span>
-                        <span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>
-                        <span class="dp-Badge-round Badge--neutral">6</span>
+                        <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
+                        <span class="dp-Badge Badge--round Badge--neutral">6</span>
                     </span>
                     <span class="dp-TimeStatus">
                         <span>3 days</span>
@@ -1348,12 +1444,12 @@ title: List Pane
                 <span class="dp-ItemCol">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="customCheckbox2-9"></input>
-                        <label for="customCheckbox2-9" class="dp-CardTitle"></label>
+                        <label for="customCheckbox2-9" class="dp-Card-title"></label>
                     </span>
                 </span>
 
                 <span class="dp-ItemCol">
-                    <span class="dp-CardTitle">Inventory component<span class="dp-Icon dp-iconStar Icon-netural"></span></span>
+                    <span class="dp-Card-title">Inventory component<span class="dp-Icon"></span></span>
 
                     <span class="dp-UserInfo">
                         <span class="dp-Icon dp-iconUserAvatar"></span>
@@ -1368,8 +1464,8 @@ title: List Pane
                 <span class="dp-ItemCol">
                     <span class="dp-IconGroup">
                         <span class="dp-Icon--circle dp-iconRocket"></span>
-                        <span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>
-                        <span class="dp-Badge-round Badge--warning">9</span>
+                        <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
+                        <span class="dp-Badge Badge--round Badge--warning">9</span>
                     </span>
                     <span class="dp-TimeStatus">
                         <span>12 hr 43 min</span>
@@ -1382,12 +1478,12 @@ title: List Pane
                 <span class="dp-ItemCol">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="customCheckbox2-10"></input>
-                        <label for="customCheckbox3-10" class="dp-CardTitle"></label>
+                        <label for="customCheckbox3-10" class="dp-Card-title"></label>
                     </span>
                 </span>
 
                 <span class="dp-ItemCol">
-                    <span class="dp-CardTitle">Enjoying your helpdesk?<span class="dp-Icon dp-iconStar"></span></span>
+                    <span class="dp-Card-title">Enjoying your helpdesk?<span class="dp-Icon"></span></span>
                     <span class="dp-UserInfo">
                         <span class="dp-Icon dp-iconUserAvatar"></span>
                         <span class="dp-UserName">Tony Falkirk
@@ -1398,8 +1494,8 @@ title: List Pane
                     </span>
 
                     <span class="dp-JustifyStart">
-                        <span class="dp-UserVal">Department: <span class="dp-ItemValue">Sales</span></span>
-                        <span class="dp-UserVal">Language: <span class="dp-ItemValue">English(US)</span></span>
+                        <span class="dp-Meta">Department: <span class="dp-Meta-value">Sales</span></span>
+                        <span class="dp-Meta">Language: <span class="dp-Meta-value">English(US)</span></span>
                     </span>
 
                 </span>
@@ -1407,8 +1503,8 @@ title: List Pane
                 <span class="dp-ItemCol">
                     <span class="dp-IconGroup">
                         <span class="dp-Icon--circle dp-iconMln"></span>
-                        <span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>
-                        <span class="dp-Badge-round Badge-Min Icon-neutral"></span>
+                        <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
+                        <span class="dp-Badge Badge--round Badge-Min Icon-neutral"></span>
                     </span>
                     <span class="dp-TimeStatus">
                         <span>4 weeks</span>
@@ -1421,12 +1517,12 @@ title: List Pane
                 <span class="dp-ItemCol">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="customCheckbox2-11"></input>
-                        <label for="customCheckbox2-11" class="dp-CardTitle"></label>
+                        <label for="customCheckbox2-11" class="dp-Card-title"></label>
                     </span>
                 </span>
 
                 <span class="dp-ItemCol">
-                    <span class="dp-CardTitle">AW: Need some help?</span>
+                    <span class="dp-Card-title">AW: Need some help?</span>
 
                     <span class="dp-UserInfo">
                         <span class="dp-Icon dp-iconUserAvatar"></span>
@@ -1442,8 +1538,8 @@ title: List Pane
                         <span class="dp-Tag Tag--close Tag--plus Tag--purple">VIP<span class="dp-Icon dp-close"></span></span>
                     </span>
                     <span class="dp-ItemRow dp-JustifyStart">
-                        <span class="dp-UserVal">Department: <span class="dp-ItemValue">Sales</span></span>
-                        <span class="dp-UserVal">Language: <span class="dp-ItemValue">English (US)</span></span>
+                        <span class="dp-Meta">Department: <span class="dp-Meta-value">Sales</span></span>
+                        <span class="dp-Meta">Language: <span class="dp-Meta-value">English (US)</span></span>
                     </span>
 
                 </span>
@@ -1451,8 +1547,8 @@ title: List Pane
                 <span class="dp-ItemCol">
                     <span class="dp-IconGroup">
                         <span class="dp-Icon--circle dp-iconRocket"></span>
-                        <span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>
-                        <span class="dp-Badge-round Badge--warning">9</span>
+                        <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
+                        <span class="dp-Badge Badge--round Badge--warning">9</span>
                     </span>
                     <span class="dp-TimeStatus">
                         <span>12 hr 43 min</span>
@@ -1464,8 +1560,6 @@ title: List Pane
     </form>
 </div>
 ```
-
-
 
 <h2>Listpane/tableview</h2>
 <h4>listpane/grouping-and-sorting-bar</h4>
@@ -1625,7 +1719,7 @@ title: List Pane
 
 ```html @preview
 <div class="dp-MainWrapper">
-    <span class="dp-CardTitle">
+    <span class="dp-Card-title">
         <span>Sales</span>
     </span>
 </div>
@@ -1710,7 +1804,7 @@ title: List Pane
             </tr>
         </thead>
 
-        <tbody class="dp-ColumnControls dp-TableviewBody dp-HoverList">
+        <tbody class="dp-ColumnControls dp-TableviewBody is-hoverable">
 
             <tr>
                 <td>
@@ -1722,7 +1816,7 @@ title: List Pane
                 <td>83995</td>
                 <td class="dp-SubjectItem">
                     <span>SSO Information</span>
-                    <span class="dp-Icon dp-iconStar"></span>
+                    <span class="dp-Icon"></span>
                 </td>
                 <td>&nbsp;</td>
                 <td>Sales</td>
@@ -1734,11 +1828,11 @@ title: List Pane
                 </td>
                 <td>12 hr 30 min</td>
                 <td>
-                    <span class="dp-Icon dp-rocket--black dp-Icon--circle"></span>
+                    <span class="dp-Icon dp-iconRocket dp-Icon--circle"></span>
                 </td>
                 <td>&nbsp;</td>
                 <td>
-                    <span class="dp-Badge Badge--danger">10</span>
+                    <span class="dp-Badge Badge--round Badge--danger">10</span>
                 </td>
             </tr>
 
@@ -1765,7 +1859,7 @@ title: List Pane
                     <span class="dp-Icon dp-avatar"></span>
                 </td>
                 <td>
-                    <span class="dp-Badge Badge--danger">8</span>
+                    <span class="dp-Badge Badge--round Badge--danger">8</span>
                 </td>
             </tr>
 
@@ -1785,7 +1879,7 @@ title: List Pane
                 <td class="dp-UserItem"><span class="dp-Icon dp-avatar"></span><span>Mark Jarvis</span></td>
                 <td>12 hr 30 min</td>
                 <td>
-                    <span class="dp-Icon dp-beetle--black dp-Icon--circle"></span>
+                    <span class="dp-Icon dp-beetle Icon-black dp-Icon--circle"></span>
                 </td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
@@ -1801,7 +1895,7 @@ title: List Pane
                 <td>83995</td>
                 <td class="dp-SubjectItem">
                     <span>AW: Need some help?</span>
-                    <span class="dp-Icon dp-iconStar Icon-netural"></span>
+                    <span class="dp-Icon"></span>
                 </td>
                 <td>&nbsp;</td>
                 <td>Sales</td>
@@ -1814,7 +1908,7 @@ title: List Pane
                     <span class="dp-Icon dp-avatar"></span>
                 </td>
                 <td>
-                    <span class="dp-Badge Badge--warning">7</span>
+                    <span class="dp-Badge Badge--round Badge--warning">7</span>
                 </td>
             </tr>
 
@@ -1834,11 +1928,11 @@ title: List Pane
                 <td class="dp-UserItem"><span class="dp-Icon dp-avatar"></span><span>Mark Jarvis</span></td>
                 <td>43 min</td>
                 <td>
-                    <span class="dp-Icon dp-beetle--black dp-Icon--circle"></span>
+                    <span class="dp-Icon dp-beetle Icon-black dp-Icon--circle"></span>
                 </td>
                 <td>&nbsp;</td>
                 <td>
-                    <span class="dp-Badge Badge--neutral"></span>
+                    <span class="dp-Badge Badge--round Badge--neutral"></span>
                 </td>
             </tr>
             <tr>
@@ -1849,7 +1943,7 @@ title: List Pane
                     </span>
                 </td>
                 <td>83995</td>
-                <td class="dp-SubjectItem"><span>SSO Information</span><span class="dp-Icon dp-iconStar"></span></td>
+                <td class="dp-SubjectItem"><span>SSO Information</span><span class="dp-Icon"></span></td>
                 <td>&nbsp;</td>
                 <td>Support</td>
                 <td>English (US)</td>
@@ -1857,13 +1951,13 @@ title: List Pane
                 <td class="dp-UserItem"><span class="dp-Icon dp-avatar"></span><span>Toby Falkirk</span></td>
                 <td>12 hr 30 min</td>
                 <td>
-                    <span class="dp-Icon dp-rocket--black dp-Icon--circle"></span>
+                    <span class="dp-Icon dp-iconRocket dp-Icon--circle"></span>
                 </td>
                 <td>
                     <span class="dp-Icon dp-avatar"></span>
                 </td>
                 <td>
-                    <span class="dp-Badge Badge--danger">10</span>
+                    <span class="dp-Badge Badge--round Badge--danger">10</span>
                 </td>
             </tr>
 
@@ -1875,7 +1969,7 @@ title: List Pane
                     </span>
                 </td>
                 <td>65347</td>
-                <td class="dp-SubjectItem"><span>Portal disabled landing page</span><span class="dp-Icon dp-iconStar Icon-neutral"></span></td>
+                <td class="dp-SubjectItem"><span>Portal disabled landing page</span><span class="dp-Icon"></span></td>
                 <td>&nbsp;</td>
                 <td>Support</td>
                 <td>Italiano</td>
@@ -1883,11 +1977,11 @@ title: List Pane
                 <td class="dp-UserItem"><span class="dp-Icon dp-avatar"></span><span>Kenneth James</span></td>
                 <td>3 days</td>
                 <td>
-                    <span class="dp-Icon dp-rocket--black dp-Icon--circle"></span>
+                    <span class="dp-Icon dp-iconRocket dp-Icon--circle"></span>
                 </td>
                 <td>&nbsp;</td>
                 <td>
-                    <span class="dp-Badge Badge--warning">6</span>
+                    <span class="dp-Badge Badge--round Badge--warning">6</span>
                 </td>
             </tr>
 
@@ -1909,11 +2003,11 @@ title: List Pane
                 <td class="dp-UserItem"><span class="dp-Icon dp-avatar"></span><span>Mark Jarvis</span></td>
                 <td>12 hr 30 min</td>
                 <td>
-                    <span class="dp-Icon dp-rocket--black dp-Icon--circle"></span>
+                    <span class="dp-Icon dp-iconRocket dp-Icon--circle"></span>
                 </td>
                 <td>&nbsp;</td>
                 <td>
-                    <span class="dp-Badge Badge--danger">10</span>
+                    <span class="dp-Badge Badge--round Badge--danger">10</span>
                 </td>
             </tr>
 
@@ -1939,7 +2033,7 @@ title: List Pane
                     <span class="dp-Icon dp-avatar"></span>
                 </td>
                 <td>
-                    <span class="dp-Badge Badge--danger">8</span>
+                    <span class="dp-Badge Badge--round Badge--danger">8</span>
                 </td>
             </tr>
 
@@ -1953,7 +2047,7 @@ title: List Pane
                 <td>43563</td>
                 <td class="dp-SubjectItem">
                     <span>Enjoying your helpdesk?</span>
-                    <span class="dp-Icon dp-iconStar"></span>
+                    <span class="dp-Icon"></span>
                 </td>
                 <td>&nbsp;</td>
                 <td>Sales</td>
@@ -1962,11 +2056,11 @@ title: List Pane
                 <td class="dp-UserItem"><span class="dp-Icon dp-avatar"></span><span>Kenneth James</span></td>
                 <td>12 hr 30 min</td>
                 <td>
-                    <span class="dp-Icon dp-beetle--black dp-Icon--circle"></span>
+                    <span class="dp-Icon dp-beetle Icon-black dp-Icon--circle"></span>
                 </td>
                 <td>&nbsp;</td>
                 <td>
-                    <span class="dp-Badge Badge--danger">10</span>
+                    <span class="dp-Badge Badge--round Badge--danger">10</span>
                 </td>
             </tr>
 
@@ -1980,7 +2074,7 @@ title: List Pane
                 <td>76473</td>
                 <td class="dp-SubjectItem">
                     <span>SSO Information</span>
-                    <span class="dp-Icon dp-iconStar Icon-netural"></span>
+                    <span class="dp-Icon"></span>
                 </td>
                 <td>&nbsp;</td>
                 <td>Support</td>
@@ -1989,17 +2083,17 @@ title: List Pane
                 <td class="dp-UserItem"><span class="dp-Icon dp-avatar"></span><span>Toby Falkirk</span></td>
                 <td>2 hr 16 min</td>
                 <td>
-                    <span class="dp-Icon dp-rocket--black dp-Icon--circle"></span>
+                    <span class="dp-Icon dp-iconRocket dp-Icon--circle"></span>
                 </td>
                 <td>&nbsp;</td>
                 <td>
-                    <span class="dp-Badge Badge--neutral">4</span>
+                    <span class="dp-Badge Badge--round Badge--neutral">4</span>
                 </td>
             </tr>
         </tbody>
 
         <thead>
-            <tr class="dp-CardTitle">
+            <tr class="dp-Card-title">
                 <td colspan="12">Sales</td>
             </tr>
 
@@ -2077,7 +2171,7 @@ title: List Pane
             </tr>
         </thead>
 
-        <tbody class="dp-ColumnControls dp-TableviewBody dp-HoverList">
+        <tbody class="dp-ColumnControls dp-TableviewBody is-hoverable">
             <tr>
                 <td>
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
@@ -2088,7 +2182,7 @@ title: List Pane
                 <td>83995</td>
                 <td class="dp-SubjectItem">
                     <span>SSO Information</span>
-                    <span class="dp-Icon dp-iconStar"></span>
+                    <span class="dp-Icon"></span>
                 </td>
                 <td>&nbsp;</td>
                 <td>Sales</td>
@@ -2097,11 +2191,12 @@ title: List Pane
                 <td class="dp-UserItem"><span class="dp-Icon dp-avatar"></span><span>Kenneth James</span></td>
                 <td>12 hr 30 min</td>
                 <td>
-                    <span class="dp-Icon dp-rocket--black dp-Icon--circle"></span>
+                    <!-- <span class="dp-Icon dp-rockett dp-Icon--circle"></span> -->
+                    <span class="dp-Icon dp-Icon--circle dp-iconRocket"></span>
                 </td>
                 <td>&nbsp;</td>
                 <td>
-                    <span class="dp-Badge Badge--danger">10</span>
+                    <span class="dp-Badge Badge--round Badge--danger">10</span>
                 </td>
             </tr>
 
@@ -2125,7 +2220,7 @@ title: List Pane
                     <span class="dp-Icon dp-avatar"></span>
                 </td>
                 <td>
-                    <span class="dp-Badge Badge--danger">8</span>
+                    <span class="dp-Badge Badge--round Badge--danger">8</span>
                 </td>
             </tr>
 
@@ -2145,7 +2240,7 @@ title: List Pane
                 <td class="dp-UserItem"><span class="dp-Icon dp-avatar"></span><span>Mark Jarvis</span></td>
                 <td>12 hr 30 min</td>
                 <td>
-                    <span class="dp-Icon dp-beetle--black dp-Icon--circle"></span>
+                    <span class="dp-Icon dp-beetle Icon-black dp-Icon--circle"></span>
                 </td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
@@ -2161,7 +2256,7 @@ title: List Pane
                 <td>83995</td>
                 <td class="dp-SubjectItem">
                     <span>AW: Need some help?</span>
-                    <span class="dp-Icon dp-iconStar Icon-netural"></span>
+                    <span class="dp-Icon"></span>
                 </td>
                 <td>&nbsp;</td>
                 <td>Sales</td>
@@ -2174,7 +2269,7 @@ title: List Pane
                     <span class="dp-Icon dp-avatar"></span>
                 </td>
                 <td>
-                    <span class="dp-Badge Badge--warning">7</span>
+                    <span class="dp-Badge Badge--round Badge--warning">7</span>
                 </td>
             </tr>
 
@@ -2194,11 +2289,11 @@ title: List Pane
                 <td class="dp-UserItem"><span class="dp-Icon dp-avatar"></span><span>Mark Jarvis</span></td>
                 <td>43 min</td>
                 <td>
-                    <span class="dp-Icon dp-beetle--black dp-Icon--circle"></span>
+                    <span class="dp-Icon dp-beetle Icon-black dp-Icon--circle"></span>
                 </td>
                 <td>&nbsp;</td>
                 <td>
-                    <span class="dp-Badge Badge--neutral"></span>
+                    <span class="dp-Badge Badge--round Badge--neutral"></span>
                 </td>
             </tr>
 
@@ -2217,7 +2312,7 @@ title: List Pane
                 <span class="dp-Icon dp-small_caret"></span>
                 <input type="checkbox" class="dp-ControlInput" id="listpaneCheckbox0" checked="checked"></input>
                 <label for="listpaneCheckbox0" class="dp-CheckboxCarret"></label>
-                <span class="dp-CardTitle">(48 items selected)</span>
+                <span class="dp-Card-title">(48 items selected)</span>
                 <ul class="dp-ContextMenu is-active">
                     <li><a href="#">Uncheck all</a></li>
                     <li><a href="#">Select all</a></li>
@@ -2239,9 +2334,9 @@ title: List Pane
         </span>
     </span>
 
-    <ul class="dp-CardList newControlsList dp-HoverList">
+    <ul class="dp-CardList newControlsList is-hoverable">
 
-        <li class="dp-SectionCardTitle">
+        <li class="dp-Card-SectionTitle">
             <span>Sales</span>
         </li>
 
@@ -2250,12 +2345,12 @@ title: List Pane
             <span class="dp-ItemCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-4"></input>
-                    <label for="customCheckbox1-4" class="dp-CardTitle"></label>
+                    <label for="customCheckbox1-4" class="dp-Card-title"></label>
                 </span>
             </span>
 
             <span class="dp-ItemCol">
-                <span class="dp-CardTitle">SSO Information<span class="dp-Icon dp-iconStar"></span></span>
+                <span class="dp-Card-title">SSO Information<span class="dp-Icon"></span></span>
                 <span class="dp-UserInfo">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
                     <span class="dp-UserName">Kenneth James
@@ -2270,7 +2365,7 @@ title: List Pane
                 <span class="dp-IconGroup">
 
                     <span class="dp-Icon--circle dp-iconBug"></span>
-                    <span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>
+                    <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
                     <span class="dp-Icon--circle dp-iconClock"></span>
                 </span>
                 <span class="dp-TimeStatus">
@@ -2284,12 +2379,12 @@ title: List Pane
             <span class="dp-ItemCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-5"></input>
-                    <label for="customCheckbox1-5" class="dp-CardTitle"></label>
+                    <label for="customCheckbox1-5" class="dp-Card-title"></label>
                 </span>
             </span>
 
             <span class="dp-ItemCol">
-                <span class="dp-CardTitle">Portal disabled landing page</span>
+                <span class="dp-Card-title">Portal disabled landing page</span>
 
                 <span class="dp-UserInfo">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
@@ -2304,8 +2399,8 @@ title: List Pane
             <span class="dp-ItemCol">
                 <span class="dp-IconGroup">
                     <span class="dp-Icon--circle dp-iconRocket"></span>
-                    <span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>
-                    <span class="dp-Badge-round Badge--warning">9</span>
+                    <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
+                    <span class="dp-Badge Badge--round Badge--warning">9</span>
                 </span>
                 <span class="dp-TimeStatus">
                     <span class="dp-Tag Tag--small Tag--pink">3 hours</span>
@@ -2318,12 +2413,12 @@ title: List Pane
             <span class="dp-ItemCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-6"></input>
-                    <label for="customCheckbox1-6" class="dp-CardTitle"></label>
+                    <label for="customCheckbox1-6" class="dp-Card-title"></label>
                 </span>
             </span>
 
             <span class="dp-ItemCol">
-                <span class="dp-CardTitle">Inventory component<span class="dp-Icon dp-iconStar Icon-netural"></span></span>
+                <span class="dp-Card-title">Inventory component<span class="dp-Icon"></span></span>
 
                 <span class="dp-UserInfo">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
@@ -2338,7 +2433,7 @@ title: List Pane
             <span class="dp-ItemCol">
                 <span class="dp-IconGroup">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-Badge-round Badge-Min Icon-warning"></span>
+                    <span class="dp-Badge Badge--round Badge-Min Icon-warning"></span>
                 </span>
                 <span class="dp-TimeStatus">
                     <span>2 hr 16 min</span>
@@ -2351,12 +2446,12 @@ title: List Pane
             <span class="dp-ItemCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-7"></input>
-                    <label for="customCheckbox1-7" class="dp-CardTitle"></label>
+                    <label for="customCheckbox1-7" class="dp-Card-title"></label>
                 </span>
             </span>
 
             <span class="dp-ItemCol">
-                <span class="dp-CardTitle">AW: Need some help?</span>
+                <span class="dp-Card-title">AW: Need some help?</span>
 
                 <span class="dp-UserInfo">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
@@ -2370,10 +2465,10 @@ title: List Pane
 
             <span class="dp-ItemCol">
                 <span class="dp-IconGroup">
-                    <span class="dp-Icon--circle dp-iconLock"></span>
+                    <span class="dp-Icon dp-iconLock"></span>
                     <span class="dp-Icon--circle dp-iconMln"></span>
-                    <span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>
-                    <span class="dp-Badge-round Badge--warning">9</span>
+                    <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
+                    <span class="dp-Badge Badge--round Badge--warning">9</span>
                 </span>
                 <span class="dp-TimeStatus">
                     <span>57 mins</span>
@@ -2386,12 +2481,12 @@ title: List Pane
             <span class="dp-ItemCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-8"></input>
-                    <label for="customCheckbox1-8" class="dp-CardTitle"></label>
+                    <label for="customCheckbox1-8" class="dp-Card-title"></label>
                 </span>
             </span>
 
             <span class="dp-ItemCol">
-                <span class="dp-CardTitle">Portal disabled landing page</span>
+                <span class="dp-Card-title">Portal disabled landing page</span>
 
                 <span class="dp-UserInfo">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
@@ -2406,8 +2501,8 @@ title: List Pane
             <span class="dp-ItemCol">
                 <span class="dp-IconGroup">
                     <span class="dp-Icon--circle dp-iconMln"></span>
-                    <span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>
-                    <span class="dp-Badge-round Badge--warning">7</span>
+                    <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
+                    <span class="dp-Badge Badge--round Badge--warning">7</span>
                 </span>
                 <span class="dp-TimeStatus">
                     <span class="dp-Tag Tag--small Tag--danger">2 hours</span>
@@ -2420,12 +2515,12 @@ title: List Pane
             <span class="dp-ItemCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-9"></input>
-                    <label for="customCheckbox1-9" class="dp-CardTitle"></label>
+                    <label for="customCheckbox1-9" class="dp-Card-title"></label>
                 </span>
             </span>
 
             <span class="dp-ItemCol">
-                <span class="dp-CardTitle">Enjoying your helpdesk?<span class="dp-Icon dp-iconStar"></span></span>
+                <span class="dp-Card-title">Enjoying your helpdesk?<span class="dp-Icon"></span></span>
                 <span class="dp-UserInfo">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
                     <span class="dp-UserName">Toby Falkirk
@@ -2439,8 +2534,8 @@ title: List Pane
             <span class="dp-ItemCol">
                 <span class="dp-IconGroup">
                     <span class="dp-Icon--circle dp-iconMln"></span>
-                    <span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>
-                    <span class="dp-Badge-round Badge-Min Icon-neutral"></span>
+                    <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
+                    <span class="dp-Badge Badge--round Badge-Min Icon-neutral"></span>
                 </span>
                 <span class="dp-TimeStatus">
                     <span>43 mins</span>
@@ -2453,12 +2548,12 @@ title: List Pane
             <span class="dp-ItemCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-10"></input>
-                    <label for="customCheckbox1-10" class="dp-CardTitle"></label>
+                    <label for="customCheckbox1-10" class="dp-Card-title"></label>
                 </span>
             </span>
 
             <span class="dp-ItemCol">
-                <span class="dp-CardTitle">Product enquiry</span>
+                <span class="dp-Card-title">Product enquiry</span>
                 <span class="dp-UserInfo">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
                     <span class="dp-UserName">Kenneth James
@@ -2473,7 +2568,7 @@ title: List Pane
                 <span class="dp-IconGroup">
 
                     <span class="dp-Icon--circle dp-iconBug"></span>
-                    <span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>
+                    <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
                     <span class="dp-Icon--circle dp-iconClock"></span>
                 </span>
                 <span class="dp-TimeStatus">
@@ -2487,12 +2582,12 @@ title: List Pane
             <span class="dp-ItemCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-11"></input>
-                    <label for="customCheckbox1-11" class="dp-CardTitle"></label>
+                    <label for="customCheckbox1-11" class="dp-Card-title"></label>
                 </span>
             </span>
 
             <span class="dp-ItemCol">
-                <span class="dp-CardTitle">Allow anyone to email support<span class="dp-Icon dp-iconStar Icon-netural"></span></span>
+                <span class="dp-Card-title">Allow anyone to email support<span class="dp-Icon"></span></span>
                 <span class="dp-UserInfo">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
                     <span class="dp-UserName">Mark Jarvis
@@ -2506,8 +2601,8 @@ title: List Pane
             <span class="dp-ItemCol">
                 <span class="dp-IconGroup">
                     <span class="dp-Icon--circle dp-iconMln"></span>
-                    <span class="dp-Badge dp-Badge-round Badge--grey-lighter"></span>
-                    <span class="dp-Badge-round Badge--neutral">6</span>
+                    <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
+                    <span class="dp-Badge Badge--round Badge--neutral">6</span>
                 </span>
                 <span class="dp-TimeStatus">
                     <span>43 mins</span>
@@ -2527,13 +2622,13 @@ title: List Pane
 
     <ul class="dp-CardList newControlsList">
 
-        <li class="dp-SectionCardTitle">
+        <li class="dp-Card-SectionTitle">
             <span>DPQL REFERENCE</span>
         </li>
 
         <li class="dp-Card">
             <span class="dp-ItemRow">
-                <span class="dp-CardTitle"><span class="dp-Icon dp-IconNews"></span>Making a report</span>
+                <span class="dp-Card-title"><span class="dp-Icon dp-IconNews"></span>Making a report</span>
             </span>
 
             <span class="dp-ItemRow">
@@ -2549,7 +2644,7 @@ title: List Pane
 
         <li class="dp-Card is-active">
             <span class="dp-ItemRow">
-                <span class="dp-CardTitle"><span class="dp-Icon dp-IconNews"></span>Anatomy of a DPQL query</span>
+                <span class="dp-Card-title"><span class="dp-Icon dp-IconNews"></span>Anatomy of a DPQL query</span>
 
                 <span class="dp-IconGroup">
                     <span class="dp-Icon dp-arrowTop--primary"></span>
@@ -2573,7 +2668,7 @@ title: List Pane
             <ul class="dp-FilterSubList">
                 <li class="dp-Card">
                     <span class="dp-ItemRow">
-                        <span class="dp-CardTitle"><span class="dp-Icon dp-LevelDown"></span>Item IDs</span>
+                        <span class="dp-Card-title"><span class="dp-Icon dp-LevelDown"></span>Item IDs</span>
                     </span>
 
                     <span class="dp-ItemRow">
@@ -2589,7 +2684,7 @@ title: List Pane
 
                 <li class="dp-Card">
                     <span class="dp-ItemRow">
-                        <span class="dp-CardTitle"><span class="dp-Icon dp-LevelDown"></span>Select</span>
+                        <span class="dp-Card-title"><span class="dp-Icon dp-LevelDown"></span>Select</span>
                     </span>
 
                     <span class="dp-ItemRow">
@@ -2602,7 +2697,7 @@ title: List Pane
                         </span>
 
                         <span class="dp-TimeStatus">
-                            <span class="dp-Tag Tag--small Tag--netural">Published</span>
+                            <span class="dp-Tag Tag--small Tag--neutral">Published</span>
                         </span>
                     </span>
                 </li>
@@ -2612,7 +2707,7 @@ title: List Pane
 
         <li class="dp-Card">
             <span class="dp-ItemRow">
-                <span class="dp-CardTitle"><span class="dp-Icon dp-IconNews"></span>General expression format</span>
+                <span class="dp-Card-title"><span class="dp-Icon dp-IconNews"></span>General expression format</span>
             </span>
 
             <span class="dp-ItemRow">
@@ -2650,7 +2745,7 @@ title: List Pane
 <div class="dp-ListpaneTasks">
     <ul class="dp-CardList">
 
-        <li class="dp-CardTitle">
+        <li class="dp-Card-title">
             <span>TASK GROUPING</span>
         </li>
 
@@ -2658,7 +2753,7 @@ title: List Pane
             <span class="dp-ItemRow">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="dp-ListpanTasks"></input>
-                    <label for="dp-ListpanTasks" class="dp-CardTitle">First task title here</label>
+                    <label for="dp-ListpanTasks" class="dp-Card-title">First task title here</label>
                 </span>
                 <span class="dp-IconGroup">
                     <span class="dp-Icon dp-group"></span>
@@ -2683,7 +2778,7 @@ title: List Pane
             <ul class="dp-ItemRow dp-GroupDescription">
                 <li class="dp-ListPane">
                     <div class="dp-SortIconDescription">
-                        <span class="dp-Icon dp-add_follower Icon-netural"></span>
+                        <span class="dp-Icon dp-add_follower Icon-neutral"></span>
                     </div>
                     <span class="dp-SelectGroup">
                         <span class="dp-ItemRow">
@@ -2755,7 +2850,7 @@ title: List Pane
             <span class="dp-ItemRow">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="dp-ListpanTasks-2"></input>
-                    <label for="dp-ListpanTasks-2" class="dp-CardTitle">Second task title underneath</label>
+                    <label for="dp-ListpanTasks-2" class="dp-Card-title">Second task title underneath</label>
                 </span>
                 <span class="dp-IconGroup">
                     <span class="dp-Icon dp-group"></span>
@@ -2780,7 +2875,7 @@ title: List Pane
             <ul class="dp-ItemRow dp-GroupDescription">
                 <li class="dp-ListPane">
                     <div class="dp-SortIconDescription">
-                        <span class="dp-Icon dp-add_follower Icon-netural"></span>
+                        <span class="dp-Icon dp-add_follower Icon-neutral"></span>
                     </div>
                     <span class="dp-SelectGroup">
                         <span class="dp-ItemRow">
@@ -2852,7 +2947,7 @@ title: List Pane
             <span class="dp-ItemRow">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="dp-ListpanTasks-3" checked="checked"></input>
-                    <label for="dp-ListpanTasks-3" class="dp-CardTitle">Second task title underneath</label>
+                    <label for="dp-ListpanTasks-3" class="dp-Card-title">Second task title underneath</label>
                 </span>
                 <span class="dp-IconGroup">
                     <span class="dp-Icon dp-group"></span>

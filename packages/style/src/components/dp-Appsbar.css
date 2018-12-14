@@ -647,7 +647,7 @@ table tr.dpApps-DateTableRow {
 }
 
 .dpApps-Tag--green {
-  background-color: var(--netural);
+  background-color: var(--neutral);
 }
 
 .dpApps-Tag--blue {
@@ -1007,10 +1007,10 @@ table tr.dpApps-DateTableRow {
   }
 
   &.ColorSwatchItem--success {
-    background-color: var(--netural);
+    background-color: var(--neutral);
 
     & .ColorSwatchItemTitle, & .ColorSwatchItemValue {
-      color: contrast(var(--netural));
+      color: contrast(var(--neutral));
     }
   }
 

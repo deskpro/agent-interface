@@ -3,7 +3,7 @@
     "Getting Started": [
       "intro", 
       "deskpro-colours",
-      "deskpro-fonts"
+      "deskpro-fonts",
       "components/dp-Level"
     ],
     "Components": [
@@ -22,7 +22,6 @@
       "elements/dp-Icons",
       "elements/dp-Buttons",
       "elements/dp-Badges",
-      "elements/dp-TagsBadges",
       "elements/dp-Input",
       "elements/dp-TabsHeaders"
     ]

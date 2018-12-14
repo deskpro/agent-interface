@@ -56,12 +56,12 @@
   background: var(--warning);
 }
 
-.Bg-Color--netural {
+.Bg-Color--neutral {
   background: var(--success);
 }
 
 .Bg-Color--success {
-  background: var(--netural);
+  background: var(--neutral);
 }
 
 .Bg-Color--info {
@@ -84,12 +84,12 @@
   background: var(--warning-light);
 }
 
-.Bg-Color--netural-light {
+.Bg-Color--neutral-light {
   background: var(--success-light);
 }
 
 .Bg-Color--success-light {
-  background: var(--netural-light);
+  background: var(--neutral-light);
 }
 
 .Bg-Color--info-light {
@@ -146,12 +146,12 @@
   color: var(--warning);
 }
 
-.Color--netural {
+.Color--neutral {
   color: var(--success);
 }
 
 .Color--success {
-  color: var(--netural);
+  color: var(--neutral);
 }
 
 .Color--info {
@@ -174,12 +174,12 @@
   color: var(--warning-light);
 }
 
-.Color--netural-light {
+.Color--neutral-light {
   color: var(--success-light);
 }
 
 .Color--success-light {
-  color: var(--netural-light);
+  color: var(--neutral-light);
 }
 
 .Color--info-light {

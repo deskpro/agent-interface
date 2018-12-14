@@ -145,7 +145,7 @@
   cursor: pointer;
 }
 
-.newControlsList .dp-ListPane .dp-sort, .dp-CardTitle .dp-sort {
+.newControlsList .dp-ListPane .dp-sort, .dp-Card-title .dp-sort {
   background-size: 13.2px 10.4px;
   height: 15px;
   width: 15px;
@@ -156,8 +156,16 @@
   display: inline-block;
 }
 
-.dp-CardTitle .dp-sort {
+.dp-Card-title .dp-sort {
   margin-right: 4px;
+}
+
+.dp-Card-title > .dp-Icon {
+  background-image: url('data:image/svg+xml,<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 12 11.5" style="enable-background:new 0 0 12 11.5;" xml:space="preserve"><style type="text/css">.st0{fill:%233A8DDE;}</style><g><polygon class="st0" points="6,8.8 9.7,11.5 8.3,7.1 12,4.5 7.4,4.5 6,0 4.6,4.5 0,4.5 3.7,7.1 2.3,11.5  "/></g></svg>');
+  height: 15px;
+  margin-left: 15px;
+  vertical-align: top;
+  width: 15px;
 }
 
 .dp-CardList {
@@ -166,9 +174,7 @@
   padding-left: 0;
 }
 
-/* .dp-CardTitle { */
-
-.dp-SectionCardTitle {
+.dp-Card-SectionTitle {
   border-bottom: 1px solid var(--grey-light);
   border-top: 1px solid transparent;
   color: var(--grey-darkest);
@@ -180,11 +186,11 @@
   width: 100%;
 }
 
-.dp-Tableview .dp-CardTitle td {
+.dp-Tableview .dp-Card-title td {
   font: var(--h-s-semibold);
 }
 
-.dp-SectionCardTitle .dp-SortIconDescription {
+.dp-Card-SectionTitle .dp-SortIconDescription {
   align-items: center;
   color: var(--grey);
   display: flex;
@@ -205,7 +211,7 @@
   width: 100%;
 }
 
-.dp-CardTitle {
+.dp-Card-title {
   color: var(--grey-darkest);
   font: var(--h-n-semibold);
   margin: 0 0 10px;
@@ -215,30 +221,25 @@
   width: calc(100% - 10px);
 }
 
-.dp-HoverList .dp-Card.is-active,
-.dp-HoverList .dp-Card:hover {
+.is-hoverable .dp-Card.is-active,
+.is-hoverable .dp-Card:hover {
   background-color: #e1eefb;
   border-top: 1px solid var(--brand-primary);
 }
 
-.dp-HoverList .dp-Card:hover + .dp-Card,
-.dp-HoverList .dp-Card.is-active + .dp-Card {
+.is-hoverable .dp-Card:hover + .dp-Card,
+.is-hoverable .dp-Card.is-active + .dp-Card {
   border-top: 1px solid var(--brand-primary);
 }
 
-.dp-HoverList .dp-Card:hover + .dp-CardTitle,
-.dp-HoverList .dp-Card.is-active + .dp-CardTitle {
+.is-hoverable .dp-Card:hover + .dp-Card-title,
+.is-hoverable .dp-Card.is-active + .dp-Card-title {
   border-top: 1px solid var(--brand-primary);
 }
 
-.dp-HoverList .dp-Card:last-child.is-active,
-.dp-HoverList .dp-Card:last-child:hover {
+.is-hoverable .dp-Card:last-child.is-active,
+.is-hoverable .dp-Card:last-child:hover {
   border-bottom: 1px solid var(--brand-primary);
-}
-
-.dp-Card .dp-IconGroup {
-  display: flex;
-  margin-bottom: 10px;
 }
 
 .dp-Icon--circle {
@@ -246,7 +247,7 @@
   background-color: var(--white);
   background-position: 50%;
   background-repeat: no-repeat;
-  border: 1px solid var(--grey-light);
+  border: 1px solid #d3d6d7;
   border-radius: 50%;
   color: var(--white);
   display: flex;
@@ -261,10 +262,12 @@
   color: var(--white);
 }
 
+.dp-Card.Level-column .dp-UserInfo {
+  padding-left: 25px;
+}
+
 .dp-Card .dp-UserInfo {
   overflow: hidden;
-
-  /* padding-left: 25px; */
   text-overflow: ellipsis;
   white-space: nowrap;
   width: calc(100% - 25px);
@@ -277,7 +280,7 @@
   width: 18px;
 }
 
-.dp-Card .dp-iconStar,.dp-Card .dp-iconStar--netural {
+.dp-Card .dp-iconStar,.dp-Card .dp-iconStar--neutral {
   background-size: 20px 15px;
   display: inline-block;
   height: 15px;
@@ -286,10 +289,8 @@
   width: 18px;
 }
 
-.dp-Card .dp-iconRocket, .dp-Card .dp-iconBug {
-  background-color: var(--white);
+.dp-Card .dp-iconRocket, .dp-Card .dp-iconBug, .dp-Card .dp-iconMln {
   background-size: 12px 12px;
-  border: 1px solid var(--grey-light);
 }
 
 .dp-Card.is-active input[type="checkbox"] + label::before {
@@ -303,10 +304,8 @@
 
 .dp-Card .dp-iconLock {
   background-size: 12px 12px;
-}
-
-.dp-Card .dp-iconMln {
-  background-size: 12px 12px;
+  height: 18px;
+  width: 12px;
 }
 
 .dp-Card .dp-UserName {
@@ -331,18 +330,18 @@
   text-align: center;
 }
 
-.dp-Card .dp-UserVal {
+.dp-Card .dp-Meta {
   color: var(--grey-dark);
   display: flex;
   font: var(--p-s);
 }
 
-.dp-Card .dp-ItemValue {
+.dp-Card .dp-Meta-value {
   color: var(--grey-darkest);
   margin-left: 2px;
 }
 
-.dp-Card .dp-UserVal::after {
+.dp-Card .dp-Meta::after {
   border-right: 1px solid var(--grey-dark);
   content: "";
   height: 10px;
@@ -350,7 +349,7 @@
   width: 1px;
 }
 
-.dp-Card .dp-UserVal:last-child::after {
+.dp-Card .dp-Meta:last-child::after {
   display: none;
 }
 
@@ -358,46 +357,6 @@
   display: flex;
   justify-content: flex-start;
   margin-top: 10px;
-}
-
-.dp-AgentViewing {
-  align-items: center;
-  background-color: var(--grey-lighter);
-  border: 1px solid var(--grey-light);
-  border-radius: 50px;
-  display: flex;
-  justify-content: space-between;
-  min-width: 40px;
-  padding: 0 4px;
-  position: relative;
-}
-
-.dp-AgentViewing .dp-Icon {
-  background-size: 15px 11px;
-  border-radius: 50px;
-  width: 15px;
-}
-
-.dp-AgentViewing .dp-Badge.Badge--grey {
-  background-color: var(--grey);
-  height: 11px;
-  margin-left: 3px;
-  min-width: 11px;
-}
-
-.dp-AgentWriting {
-  background-color: var(--white);
-  position: relative;
-}
-
-.dp-AgentWriting::before {
-  background-color: var(--white);
-  content: "";
-  height: 2px;
-  left: 13px;
-  position: absolute;
-  top: -2px;
-  width: 4px;
 }
 
 .dp-Tag .dp-close {
@@ -408,7 +367,7 @@
   width: 12px;
 }
 
-.dp-CardTitle.dp-StarAlign {
+.dp-Card-title.dp-StarAlign {
   margin-right: 50px;
 }
 
@@ -670,7 +629,7 @@
   font: var(--h-n-semibold);
 }
 
-.dp-Tableview .dp-CardTitle {
+.dp-Tableview .dp-Card-title {
   border-bottom: none;
   border-top: 1px solid var(--grey-light);
   display: table-row;
@@ -725,7 +684,7 @@ table.dp-TableviewBody tr:first-child {
   border-top: none;
 }
 
-thead .dp-CardTitle td {
+thead .dp-Card-title td {
   border: none;
 }
 
@@ -737,23 +696,27 @@ thead .dp-CardTitle td {
   background-color: transparent;
 }
 
-.dp-HoverList tr:hover, .dp-HoverList tr.is-active {
+.is-hoverable tr:hover, .is-hoverable tr.is-active {
   background-color: var(--info-light);
   border-bottom: 1px solid var(--brand-primary);
   border-top: 1px solid var(--brand-primary);
 }
 
-.dp-TableviewBody .dp-Icon.dp-iconStar,
-.dp-TableviewBody .dp-Icon.dp-iconStar--netural,
+/* .dp-TableviewBody .dp-Icon.dp-iconStar,
+.dp-TableviewBody .dp-Icon.dp-iconStar--neutral,
 .dp-TableviewBody .dp-Icon.dp-iconStar--yellow {
   height: 12px;
   margin-left: 10px;
   width: 12px;
-}
+} */
 
 .dp-TableviewBody .dp-Icon {
   height: 18px;
   width: 18px;
+}
+
+.dp-TableviewBody .dp-Icon--circle {
+  background-size: 11px 11px;
 }
 
 .dp-ColumnControls .dp-arrowGroup {
@@ -782,7 +745,7 @@ thead .dp-CardTitle td {
   position: relative;
 }
 
-.dp-CustomCheckbox .dp-CardTitle {
+.dp-CustomCheckbox .dp-Card-title {
   margin: 0;
 }
 
@@ -801,7 +764,7 @@ thead .dp-CardTitle td {
   padding-left: 40px;
 }
 
-.dp-CardTitle.dp-MassSelectTitle {
+.dp-Card-title.dp-MassSelectTitle {
   padding-bottom: 0;
   padding-top: 0;
 }
@@ -823,7 +786,7 @@ thead .dp-CardTitle td {
   border-top: 1px solid transparent;
 }
 
-.dp-CardTitle.dp-CheckboxCarret {
+.dp-Card-title.dp-CheckboxCarret {
   font: var(--p-xl);
 }
 
@@ -831,7 +794,7 @@ thead .dp-CardTitle td {
   width: 100%;
 }
 
-.dp-ListpaneGuides .dp-CardTitle {
+.dp-ListpaneGuides .dp-Card-title {
   display: flex;
 }
 
@@ -915,20 +878,8 @@ thead .dp-CardTitle td {
   height: 10px;
 }
 
-.dp-ListpaneTasks .dp-IconGroup .dp-small_caret {
-  border-right: 1px solid var(--grey-light);
-  height: 15px;
-  margin-right: 10px;
-  width: 30px;
-}
-
-.dp-ListpaneTasks .dp-CardTitle {
+.dp-ListpaneTasks .dp-Card-title {
   font: var(--p-xl);
-}
-
-.dp-ListpaneTasks .dp-IconGroup {
-  align-items: center;
-  position: relative;
 }
 
 .dp-ListpaneTasks .dp-Date {
@@ -1370,22 +1321,14 @@ thead .dp-CardTitle td {
   flex-direction: column;
 }
 
-/* .dp-ItemCol:first-child {
-  flex: 1 0 3%;
-  flex: 0 0 25px;
-} */
+.dp-ItemCol:first-child {
+  flex: 0 0 auto;
+}
 
 .dp-ItemCol:nth-child(2) {
-
-  /* flex: 1 0 80%; */
-
-  /* padding-left: 15px; */
-  flex: 1 0 200px;
+  flex: 0 1 100%;
 }
 
 .dp-ItemCol:last-child {
-
-  /*  flex: 1 0 17%;
-  flex: 0 0 70px; */
-  align-items: flex-end;
+  flex: 1 0 auto;
 }

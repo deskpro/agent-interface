@@ -132,7 +132,7 @@ title: Page View
 <div class="dp-MainWrapper">
 	<div class="dp-ControlBar dp-DropDownBar">
 		<ul class="dp-DropDownList">
-			<li class="dp-TitileControl dp-ActionButton"><span class="dp-Icon dp-phone_filled Icon-netural"></span>Duration: 00:00:01</li>
+			<li class="dp-TitileControl dp-ActionButton"><span class="dp-Icon dp-phone_filled Icon-neutral"></span>Duration: 00:00:01</li>
 			<li class="dp-ActionButton"><span class="dp-Icon dp-hold"></span>Hold</li>
 			<li class="dp-ActionButton"><span class="dp-Icon dp-mute"></span>Mute</li>
 			<li class="dp-ActionButton"><span class="dp-Icon dp-transfer"></span>Transfer</li>

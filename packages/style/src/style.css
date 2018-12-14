@@ -11,11 +11,11 @@
 @import "components/dp-SlideOutPanel.css";
 @import "components/dp-Sidebar-Overlay.css";
 @import "components/dp-Appsbar.css";
+@import "components/dp-icons.css";
 @import "elements/dp-Icons.css";
 @import "elements/dp-inputs.css";
 @import "elements/dp-buttons.css";
 @import "elements/dp-tabs-headers.css";
-@import "elements/dp-tags-badges.css";
 @import "elements/dp-badges.css";
 @import "demo/main-demo.css";
 @import "demo/buttons-demo.css";

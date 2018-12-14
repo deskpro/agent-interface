@@ -122,7 +122,7 @@
   right: 0;
 }
 
-.dp-SearchHeader .dp-Badge, .dp-HeaderControl .dp-Badge {
+.dp-SearchHeader .dp-Badge.Badge--round, .dp-HeaderControl .dp-Badge.Badge--round {
   height: 25px;
   margin: 0;
   width: 25px;
