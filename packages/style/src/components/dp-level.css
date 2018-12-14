@@ -3,9 +3,6 @@
 
 .dp-Level {
   display: flex;
-
-  /*  align-items: center;
-  justify-content: space-between; */
 }
 
 .dp-LevelItem {
@@ -13,9 +10,6 @@
   flex-basis: auto;
   flex-grow: 1;
   flex-shrink: 0;
-
-  /*  align-items: center;
-  justify-content: center; */
 }
 
 .dp-LevelBottom {
