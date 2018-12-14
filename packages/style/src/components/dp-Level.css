@@ -1,0 +1,61 @@
+@import "../fonts.css";
+@import "../vars.css";
+
+.dp-Level {
+  display: flex;
+}
+
+.dp-LevelItem {
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+
+.dp-LevelBottom {
+  align-items: center;
+  align-self: flex-end;
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 0;
+  justify-content: center;
+}
+
+.dp-LevelTop {
+  align-items: center;
+  align-self: flex-start;
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 0;
+  justify-content: center;
+}
+
+.dp-LevelLeft {
+  align-items: center;
+  align-items: flex-start;
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 0;
+  flex-shrink: 1;
+  justify-content: flex-start;
+}
+
+.dp-LevelRight {
+  align-items: center;
+  align-items: flex-end;
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 0;
+  flex-shrink: 0;
+  justify-content: flex-end;
+}
+
+.Level-column {
+  flex-direction: column;
+}
+
+.Level-justify-between {
+  justify-content: space-between;
+}
