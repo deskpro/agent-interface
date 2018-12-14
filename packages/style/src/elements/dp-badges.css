@@ -145,6 +145,15 @@
       width: 10px;
     }
 
+    .Badge--round svg {
+      align-items: center;
+      display: flex;
+      fill: #fff;
+      height: 10px;
+      justify-content: center;
+      width: 10px;
+    }
+
   }
 
 }
@@ -169,8 +178,6 @@
   margin-left: 1px;
   width: 20px;
 }
-
-/* Old */
 
 /* Tag */
 
