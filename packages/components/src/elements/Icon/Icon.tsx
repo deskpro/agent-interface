@@ -1,39 +1,35 @@
 import * as React from "react";
+import classNames from "classnames";
+
 import "@deskpro/agent-interface-style/dist/elements/dp-Icons.css";
 import icons from "./icons";
 
 export type IconProps = {
   name: string;
   size?: number;
-  color?: "default" | "primary" | "dark" | "active";
+  circle?: boolean;
+  color?: DPColor;
 };
 
-const colors = {
-  default: "#979797",
-  primary: "#3a8dde",
-  dark: "#8B9293",
-  active: "#4e4d4d",
-  white: "#fff"
-};
-
-const Icon: React.SFC<IconProps> = ({ name, size = 24, color = "default" }) => {
+const Icon: React.SFC<IconProps> = ({ name, size = 24, color, circle }) => {
   const SvgIcon = icons[name];
   if (!SvgIcon) {
     return null;
   }
   return (
-    <span className={`dp-Icon dp-Icon--${name}`}>
-      <SvgIcon
-        fill={colors[color] || colors.default}
-        width={size}
-        height={size}
-      />
+    <span
+      className={classNames(`dp-Icon Icon--${name}`, {
+        "Icon--circle": circle,
+        [`Icon--${color}`]: !!color
+      })}
+    >
+      <SvgIcon width={size} height={size} />
     </span>
   );
 };
 
 Icon.defaultProps = {
-  color: "default",
+  color: undefined,
   size: 24
 };
 

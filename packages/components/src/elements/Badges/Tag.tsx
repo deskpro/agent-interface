@@ -4,14 +4,7 @@ import classNames from "classnames";
 import "@deskpro/agent-interface-style/dist/elements/dp-badges.css";
 
 export type TagProps = {
-  color?:
-    | "white"
-    | "transparent"
-    | "disabled"
-    | "purple"
-    | "pink"
-    | "warning"
-    | "success";
+  color?: DPColor;
   size?: "small" | "medium";
 };
 
