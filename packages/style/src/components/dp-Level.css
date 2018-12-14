@@ -13,9 +13,7 @@
   flex-basis: auto;
   flex-grow: 1;
   flex-shrink: 0;
-
-  /*  align-items: center;
-  justify-content: center; */
+  justify-content: center;
 }
 
 .dp-LevelBottom {
@@ -58,7 +56,9 @@
   justify-content: flex-end;
 }
 
-.Level-column {
+/* .Level-column { */
+
+.LevelCol {
   flex-direction: column;
 }
 

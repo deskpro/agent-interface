@@ -1315,21 +1315,27 @@ thead .dp-Card-title td {
   color: rgba(76, 79, 80, 0.5);
 }
 
-/* new style */
+/* Level Grid */
 
-.dp-ItemCol {
+.dp-Level .dp-LevelCol {
   display: flex;
   flex-direction: column;
 }
 
-.dp-ItemCol:first-child {
+.dp-Level .dp-LevelCol:first-child {
   flex: 0 0 auto;
 }
 
-.dp-ItemCol:nth-child(2) {
+.dp-Level .dp-LevelCol:nth-child(2) {
   flex: 0 1 100%;
 }
 
-.dp-ItemCol:last-child {
+.dp-Level .dp-LevelCol:last-child {
   flex: 1 0 auto;
+}
+
+/* listpane/kanban-view */
+
+.dp-KanbanView .dp-Level .dp-LevelCol:nth-child(2) {
+  max-width: 180px;
 }

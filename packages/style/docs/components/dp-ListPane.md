@@ -67,7 +67,6 @@ title: List Pane
 </ul>
 ```
 
-
 <h4>listpane/grouped-by-emptystate</h4>
 ```html @preview
 <ul class="dp-FilterControlsList newControlsList">
@@ -275,14 +274,14 @@ title: List Pane
         <ul class="dp-CardList">
             <li class="dp-Card dp-Level">
 
-                <span class="dp-ItemCol dp-LevelTop">
+                <span class="dp-LevelItem dp-LevelCol dp-LevelTop">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="customCheckbox0-0"></input>
                         <label for="customCheckbox0-0" class="dp-Card-title"></label>
                     </span>
                 </span>
 
-                <span class="dp-ItemCol">
+                <span class="dp-LevelCol">
                     <span class="dp-Card-title">Card title here</span>
 
                     <span class="dp-UserInfo">
@@ -291,7 +290,7 @@ title: List Pane
                     </span>
                 </span>
 
-                <span class="dp-ItemCol dp-LevelRight">
+                <span class="dp-LevelCol dp-LevelRight">
                     <span class="dp-IconGroup">
 
                         <span class="dp-ActivityStatus ActivityStatus--viewing">
@@ -321,7 +320,7 @@ title: List Pane
 <div class="dp-MainWrapper">
     <form>
         <ul class="dp-CardList">
-            <li class="dp-Card dp-Level Level-column">
+            <li class="dp-Card dp-Level LevelCol">
 
                 <span class="dp-LevelItem Level-justify-between">
 
@@ -366,16 +365,16 @@ title: List Pane
 <div class="dp-MainWrapper">
     <form>
         <ul class="dp-CardList">
-            <li class="dp-Card">
+            <li class="dp-Card dp-Level">
 
-                <span class="dp-ItemCol">
+                <span class="dp-LevelCol">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-1"></input>
                         <label for="customCheckbox1-1" class="dp-Card-title"></label>
                     </span>
                 </span>
 
-                <span class="dp-ItemCol">
+                <span class="dp-LevelCol">
                     <span class="dp-Card-title">Card title here</span>
 
                     <span class="dp-UserInfo">
@@ -384,7 +383,7 @@ title: List Pane
                     </span>
                 </span>
 
-                <span class="dp-ItemCol">
+                <span class="dp-LevelCol dp-LevelRight">
                     <span class="dp-IconGroup">
 
                         <span class="dp-ActivityStatus ActivityStatus--viewing">
@@ -412,16 +411,16 @@ title: List Pane
 <div class="dp-MainWrapper">
     <form>
         <ul class="dp-CardList">
-            <li class="dp-Card">
+            <li class="dp-Card dp-Level">
 
-                <span class="dp-ItemCol">
+                <span class="dp-LevelCol">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-2"></input>
                         <label for="customCheckbox1-2" class="dp-Card-title"></label>
                     </span>
                 </span>
 
-                <span class="dp-ItemCol">
+                <span class="dp-LevelCol">
                     <span class="dp-Card-title">Card title here</span>
 
                     <span class="dp-UserInfo">
@@ -430,7 +429,7 @@ title: List Pane
                     </span>
                 </span>
 
-                <span class="dp-ItemCol">
+                <span class="dp-LevelCol dp-LevelRight">
                     <span class="dp-IconGroup">
                         <span class="dp-ActivityStatus ActivityStatus--viewing">
                             <span class="dp-Icon"></span>
@@ -459,16 +458,16 @@ title: List Pane
 <div class="dp-MainWrapper">
     <form>
         <ul class="dp-CardList">
-            <li class="dp-Card">
+            <li class="dp-Card dp-Level">
 
-                <span class="dp-ItemCol">
+                <span class="dp-LevelCol">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-3"></input>
                         <label for="customCheckbox1-3" class="dp-Card-title"></label>
                     </span>
                 </span>
 
-                <span class="dp-ItemCol">
+                <span class="dp-LevelCol">
                     <span class="dp-Card-title">Card title here</span>
 
                     <span class="dp-UserInfo">
@@ -477,7 +476,7 @@ title: List Pane
                     </span>
                 </span>
 
-                <span class="dp-ItemCol">
+                <span class="dp-LevelCol dp-LevelRight">
                     <span class="dp-IconGroup">
 
                         <span class="dp-ActivityStatus ActivityStatus--writing ActivityStatus--primary">
@@ -507,16 +506,16 @@ title: List Pane
 <div class="dp-MainWrapper">
     <form>
         <ul class="dp-CardList">
-            <li class="dp-Card">
+            <li class="dp-Card dp-Level">
 
-                <span class="dp-ItemCol">
+                <span class="dp-LevelCol">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-3"></input>
                         <label for="customCheckbox1-3" class="dp-Card-title"></label>
                     </span>
                 </span>
 
-                <span class="dp-ItemCol">
+                <span class="dp-LevelCol">
                     <span class="dp-Card-title">Card title here</span>
 
                     <span class="dp-UserInfo">
@@ -525,7 +524,7 @@ title: List Pane
                     </span>
                 </span>
 
-                <span class="dp-ItemCol">
+                <span class="dp-LevelCol dp-LevelRight">
                     <span class="dp-IconGroup">
 
                         <span class="dp-ActivityStatus ActivityStatus--writing ActivityStatus--primary">
@@ -597,15 +596,15 @@ title: List Pane
         </li>
 
         <!-- 1 -->
-        <li class="dp-Card is-active">
-            <span class="dp-ItemCol">
+        <li class="dp-Card dp-Level is-active">
+            <span class="dp-LevelCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-4"></input>
                     <label for="customCheckbox1-4" class="dp-Card-title"></label>
                 </span>
             </span>
 
-            <span class="dp-ItemCol">
+            <span class="dp-LevelCol">
                 <span class="dp-Card-title">SSO Information<span class="dp-Icon"></span></span>
                 <span class="dp-UserInfo">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
@@ -617,7 +616,7 @@ title: List Pane
                 </span>
             </span>
 
-            <span class="dp-ItemCol">
+            <span class="dp-LevelCol dp-LevelRight">
                 <span class="dp-IconGroup">
 
                     <span class="dp-Icon--circle dp-iconBug"></span>
@@ -631,15 +630,15 @@ title: List Pane
         </li>
 
         <!-- 2 -->
-        <li class="dp-Card">
-            <span class="dp-ItemCol">
+        <li class="dp-Card dp-Level">
+            <span class="dp-LevelCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-5"></input>
                     <label for="customCheckbox1-5" class="dp-Card-title"></label>
                 </span>
             </span>
 
-            <span class="dp-ItemCol">
+            <span class="dp-LevelCol">
                 <span class="dp-Card-title">Portal disabled landing page</span>
 
                 <span class="dp-UserInfo">
@@ -652,7 +651,7 @@ title: List Pane
                 </span>
             </span>
 
-            <span class="dp-ItemCol">
+            <span class="dp-LevelCol dp-LevelRight">
                 <span class="dp-IconGroup">
                     <span class="dp-Icon--circle dp-iconRocket"></span>
                     <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
@@ -665,15 +664,15 @@ title: List Pane
         </li>
 
         <!-- 3 -->
-        <li class="dp-Card">
-            <span class="dp-ItemCol">
+        <li class="dp-Card dp-Level">
+            <span class="dp-LevelCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-6"></input>
                     <label for="customCheckbox1-6" class="dp-Card-title"></label>
                 </span>
             </span>
 
-            <span class="dp-ItemCol">
+            <span class="dp-LevelCol">
                 <span class="dp-Card-title">Inventory component<span class="dp-Icon"></span></span>
 
                 <span class="dp-UserInfo">
@@ -686,7 +685,7 @@ title: List Pane
                 </span>
             </span>
 
-            <span class="dp-ItemCol">
+            <span class="dp-LevelCol dp-LevelRight">
                 <span class="dp-IconGroup">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
                     <span class="dp-Badge Badge--round Badge-Min Icon-warning"></span>
@@ -698,15 +697,15 @@ title: List Pane
         </li>
 
         <!-- 4 -->
-        <li class="dp-Card">
-            <span class="dp-ItemCol">
+        <li class="dp-Card dp-Level">
+            <span class="dp-LevelCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-7"></input>
                     <label for="customCheckbox1-7" class="dp-Card-title"></label>
                 </span>
             </span>
 
-            <span class="dp-ItemCol">
+            <span class="dp-LevelCol">
                 <span class="dp-Card-title">AW: Need some help?</span>
 
                 <span class="dp-UserInfo">
@@ -719,7 +718,7 @@ title: List Pane
                 </span>
             </span>
 
-            <span class="dp-ItemCol">
+            <span class="dp-LevelCol dp-LevelRight">
                 <span class="dp-IconGroup">
                     <span class="dp-Icon dp-iconLock"></span>
                     <span class="dp-Icon--circle dp-iconMln"></span>
@@ -733,15 +732,15 @@ title: List Pane
         </li>
 
         <!-- 5 -->
-        <li class="dp-Card">
-            <span class="dp-ItemCol">
+        <li class="dp-Card dp-Level">
+            <span class="dp-LevelCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-8"></input>
                     <label for="customCheckbox1-8" class="dp-Card-title"></label>
                 </span>
             </span>
 
-            <span class="dp-ItemCol">
+            <span class="dp-LevelCol">
                 <span class="dp-Card-title">Portal disabled landing page</span>
 
                 <span class="dp-UserInfo">
@@ -754,7 +753,7 @@ title: List Pane
                 </span>
             </span>
 
-            <span class="dp-ItemCol">
+            <span class="dp-LevelCol dp-LevelRight">
                 <span class="dp-IconGroup">
                     <span class="dp-Icon--circle dp-iconMln"></span>
                     <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
@@ -767,15 +766,15 @@ title: List Pane
         </li>
         
         <!-- 6 -->
-        <li class="dp-Card">
-            <span class="dp-ItemCol">
+        <li class="dp-Card dp-Level">
+            <span class="dp-LevelCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-9"></input>
                     <label for="customCheckbox1-9" class="dp-Card-title"></label>
                 </span>
             </span>
 
-            <span class="dp-ItemCol">
+            <span class="dp-LevelCol">
                 <span class="dp-Card-title">Enjoying your helpdesk?<span class="dp-Icon"></span></span>
                 <span class="dp-UserInfo">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
@@ -787,7 +786,7 @@ title: List Pane
                 </span>
             </span>
 
-            <span class="dp-ItemCol">
+            <span class="dp-LevelCol dp-LevelRight">
                 <span class="dp-IconGroup">
                     <span class="dp-Icon--circle dp-iconMln"></span>
                     <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
@@ -800,15 +799,15 @@ title: List Pane
         </li>
 
         <!-- 7 -->
-        <li class="dp-Card">
-            <span class="dp-ItemCol">
+        <li class="dp-Card dp-Level">
+            <span class="dp-LevelCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-10"></input>
                     <label for="customCheckbox1-10" class="dp-Card-title"></label>
                 </span>
             </span>
 
-            <span class="dp-ItemCol">
+            <span class="dp-LevelCol">
                 <span class="dp-Card-title">Product enquiry</span>
                 <span class="dp-UserInfo">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
@@ -820,7 +819,7 @@ title: List Pane
                 </span>
             </span>
 
-            <span class="dp-ItemCol">
+            <span class="dp-LevelCol dp-LevelRight">
                 <span class="dp-IconGroup">
 
                     <span class="dp-Icon--circle dp-iconBug"></span>
@@ -834,15 +833,15 @@ title: List Pane
         </li>
 
         <!-- 8 -->
-        <li class="dp-Card">
-            <span class="dp-ItemCol">
+        <li class="dp-Card dp-Level">
+            <span class="dp-LevelCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-11"></input>
                     <label for="customCheckbox1-11" class="dp-Card-title"></label>
                 </span>
             </span>
 
-            <span class="dp-ItemCol">
+            <span class="dp-LevelCol">
                 <span class="dp-Card-title">Allow anyone to email support<span class="dp-Icon"></span></span>
                 <span class="dp-UserInfo">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
@@ -854,7 +853,7 @@ title: List Pane
                 </span>
             </span>
 
-            <span class="dp-ItemCol">
+            <span class="dp-LevelCol dp-LevelRight">
                 <span class="dp-IconGroup">
                     <span class="dp-Icon--circle dp-iconMln"></span>
                     <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
@@ -873,15 +872,15 @@ title: List Pane
         </li>
 
         <!-- 9 -->
-        <li class="dp-Card">
-            <span class="dp-ItemCol">
+        <li class="dp-Card dp-Level">
+            <span class="dp-LevelCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-12"></input>
                     <label for="customCheckbox1-12" class="dp-Card-title"></label>
                 </span>
             </span>
 
-            <span class="dp-ItemCol">
+            <span class="dp-LevelCol">
                 <span class="dp-Card-title">Inventory component</span>
 
                 <span class="dp-UserInfo">
@@ -894,7 +893,7 @@ title: List Pane
                 </span>
             </span>
 
-            <span class="dp-ItemCol">
+            <span class="dp-LevelCol dp-LevelRight">
                 <span class="dp-IconGroup">
                     <span class="dp-Icon--circle dp-iconRocket"></span>
                     <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
@@ -907,15 +906,15 @@ title: List Pane
         </li>
 
         <!-- 10 -->
-        <li class="dp-Card">
-            <span class="dp-ItemCol">
+        <li class="dp-Card dp-Level">
+            <span class="dp-LevelCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-13"></input>
                     <label for="customCheckbox1-13" class="dp-Card-title"></label>
                 </span>
             </span>
 
-            <span class="dp-ItemCol">
+            <span class="dp-LevelCol">
                 <span class="dp-Card-title">Enjoying your helpdesk?<span class="dp-Icon"></span></span>
                 <span class="dp-UserInfo">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
@@ -934,7 +933,7 @@ title: List Pane
 
             </span>
 
-            <span class="dp-ItemCol">
+            <span class="dp-LevelCol dp-LevelRight">
                 <span class="dp-IconGroup">
                     <span class="dp-Icon--circle dp-iconMln"></span>
                     <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
@@ -947,15 +946,15 @@ title: List Pane
         </li>
 
         <!-- 11 -->
-        <li class="dp-Card">
-            <span class="dp-ItemCol">
+        <li class="dp-Card dp-Level">
+            <span class="dp-LevelCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-14"></input>
                     <label for="customCheckbox1-14" class="dp-Card-title"></label>
                 </span>
             </span>
 
-            <span class="dp-ItemCol">
+            <span class="dp-LevelCol">
                 <span class="dp-Card-title">Inventory component</span>
 
                 <span class="dp-UserInfo">
@@ -984,7 +983,7 @@ title: List Pane
 
             </span>
 
-            <span class="dp-ItemCol">
+            <span class="dp-LevelCol dp-LevelRight">
                 <span class="dp-IconGroup">
                     <span class="dp-Icon--circle dp-iconRocket"></span>
                     <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
@@ -1058,11 +1057,11 @@ title: List Pane
                             </div>
                         </form>
                     </li>
-                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Pride</a></li>
-                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bob Cooper</a></li>
-                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Julien Ducro</a></li>
-                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Lightbody</a></li>
-                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bobby Steiner</a></li>
+                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--round Badge--grey-lighter"></span>Wendy Pride</a></li>
+                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--round Badge--grey-lighter"></span>Bob Cooper</a></li>
+                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--round Badge--grey-lighter"></span>Julien Ducro</a></li>
+                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--round Badge--grey-lighter"></span>Wendy Lightbody</a></li>
+                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--round Badge--grey-lighter"></span>Bobby Steiner</a></li>
                 </ul>
             </li>
             <li>Urgency <span class="dp-Arrow"></span>
@@ -1075,9 +1074,9 @@ title: List Pane
                             </div>
                         </form>
                     </li>
-                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Pride</a></li>
-                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Bob Cooper</a></li>
-                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--empty"></span>Wendy Lightbody</a></li>
+                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--round Badge--grey-lighter"></span>Wendy Pride</a></li>
+                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--round Badge--grey-lighter"></span>Bob Cooper</a></li>
+                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--round Badge--grey-lighter"></span>Wendy Lightbody</a></li>
                 </ul>
             </li>
             <li class="dp-DropdownDivider"></li>
@@ -1170,15 +1169,15 @@ title: List Pane
         <ul class="dp-CardList dp-KanbanView is-hoverable">
             
             <!-- 1 -->
-            <li class="dp-Card">
-                <span class="dp-ItemCol">
+            <li class="dp-Card dp-Level">
+                <span class="dp-LevelCol">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="customCheckbox2-1"></input>
                         <label for="customCheckbox2-1" class="dp-Card-title"></label>
                     </span>
                 </span>
 
-                <span class="dp-ItemCol">
+                <span class="dp-LevelCol">
                     <span class="dp-Card-title">SSO Information<span class="dp-Icon"></span></span>
                     <span class="dp-UserInfo">
                         <span class="dp-Icon dp-iconUserAvatar"></span>
@@ -1190,7 +1189,7 @@ title: List Pane
                     </span>
                 </span>
 
-                <span class="dp-ItemCol">
+                <span class="dp-LevelCol dp-LevelRight dp-LevelTop">
                     <span class="dp-IconGroup">
                         <span class="dp-Icon--circle dp-iconRocket"></span>
                         <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
@@ -1204,15 +1203,15 @@ title: List Pane
             </li>
 
             <!-- 2 -->
-            <li class="dp-Card">
-                <span class="dp-ItemCol">
+            <li class="dp-Card dp-Level">
+                <span class="dp-LevelCol">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="customCheckbox2-2"></input>
                         <label for="customCheckbox2-2" class="dp-Card-title"></label>
                     </span>
                 </span>
 
-                <span class="dp-ItemCol">
+                <span class="dp-LevelCol">
                     <span class="dp-Card-title">Portal disabled landing message</span>
 
                     <span class="dp-UserInfo">
@@ -1225,7 +1224,7 @@ title: List Pane
                     </span>
                 </span>
 
-                <span class="dp-ItemCol">
+                <span class="dp-LevelCol dp-LevelRight dp-LevelTop">
                     <span class="dp-IconGroup">
                         <span class="dp-Icon--circle dp-iconBug"></span>
                         <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
@@ -1238,15 +1237,15 @@ title: List Pane
             </li>
 
             <!-- 3 -->
-            <li class="dp-Card">
-                <span class="dp-ItemCol">
+            <li class="dp-Card dp-Level">
+                <span class="dp-LevelCol">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="customCheckbox2-3"></input>
                         <label for="customCheckbox2-3" class="dp-Card-title"></label>
                     </span>
                 </span>
 
-                <span class="dp-ItemCol">
+                <span class="dp-LevelCol">
                     <span class="dp-Card-title">Inventory component<span class="dp-Icon"></span></span>
 
                     <span class="dp-UserInfo">
@@ -1259,7 +1258,7 @@ title: List Pane
                     </span>
                 </span>
 
-                <span class="dp-ItemCol">
+                <span class="dp-LevelCol dp-LevelRight dp-LevelTop">
                     <span class="dp-IconGroup">
                         <span class="dp-Icon--circle dp-iconRocket"></span>
                         <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
@@ -1272,15 +1271,15 @@ title: List Pane
             </li>
 
             <!-- 4 -->
-            <li class="dp-Card">
-                <span class="dp-ItemCol">
+            <li class="dp-Card dp-Level">
+                <span class="dp-LevelCol">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="customCheckbox2-4"></input>
                         <label for="customCheckbox2-4" class="dp-Card-title"></label>
                     </span>
                 </span>
 
-                <span class="dp-ItemCol">
+                <span class="dp-LevelCol">
                     <span class="dp-Card-title">AW: Need some help?</span>
 
                     <span class="dp-UserInfo">
@@ -1293,7 +1292,7 @@ title: List Pane
                     </span>
                 </span>
 
-                <span class="dp-ItemCol">
+                <span class="dp-LevelCol dp-LevelRight dp-LevelTop">
                     <span class="dp-IconGroup">
                         <span class="dp-Icon dp-iconUserAvatar"></span>
                         <span class="dp-Badge Badge--round Badge-Min Icon-warning"></span>
@@ -1305,15 +1304,15 @@ title: List Pane
             </li>
 
             <!-- 5 -->
-            <li class="dp-Card">
-                <span class="dp-ItemCol">
+            <li class="dp-Card dp-Level">
+                <span class="dp-LevelCol">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="customCheckbox2-5"></input>
                         <label for="customCheckbox2-5" class="dp-Card-title"></label>
                     </span>
                 </span>
 
-                <span class="dp-ItemCol">
+                <span class="dp-LevelCol">
                     <span class="dp-Card-title">Portal disabled landing page</span>
 
                     <span class="dp-UserInfo">
@@ -1326,7 +1325,7 @@ title: List Pane
                     </span>
                 </span>
 
-                <span class="dp-ItemCol">
+                <span class="dp-LevelCol dp-LevelRight dp-LevelTop">
                     <span class="dp-IconGroup">
                         <span class="dp-Icon dp-iconLock"></span>
                         <span class="dp-Icon--circle dp-iconMln"></span>
@@ -1340,15 +1339,15 @@ title: List Pane
             </li>
             
             <!-- 6 -->
-            <li class="dp-Card">
-                <span class="dp-ItemCol">
+            <li class="dp-Card dp-Level">
+                <span class="dp-LevelCol">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="customCheckbox2-6"></input>
                         <label for="customCheckbox2-6" class="dp-Card-title"></label>
                     </span>
                 </span>
 
-                <span class="dp-ItemCol">
+                <span class="dp-LevelCol">
                     <span class="dp-Card-title">Enjoying your helpdesk?</span>
                     <span class="dp-UserInfo">
                         <span class="dp-Icon dp-iconUserAvatar"></span>
@@ -1360,7 +1359,7 @@ title: List Pane
                     </span>
                 </span>
 
-                <span class="dp-ItemCol">
+                <span class="dp-LevelCol dp-LevelRight dp-LevelTop">
                     <span class="dp-IconGroup">
                         <span class="dp-Icon--circle dp-iconMln"></span>
                         <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
@@ -1373,15 +1372,15 @@ title: List Pane
             </li>
 
             <!-- 7 -->
-            <li class="dp-Card">
-                <span class="dp-ItemCol">
+            <li class="dp-Card dp-Level">
+                <span class="dp-LevelCol">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="customCheckbox2-7"></input>
                         <label for="customCheckbox2-7" class="dp-Card-title"></label>
                     </span>
                 </span>
 
-                <span class="dp-ItemCol">
+                <span class="dp-LevelCol">
                     <span class="dp-Card-title">Product enquiry<span class="dp-Icon"></span></span>
                     <span class="dp-UserInfo">
                         <span class="dp-Icon dp-iconUserAvatar"></span>
@@ -1393,7 +1392,7 @@ title: List Pane
                     </span>
                 </span>
 
-                <span class="dp-ItemCol">
+                <span class="dp-LevelCol dp-LevelRight dp-LevelTop">
                     <span class="dp-IconGroup">
 
                         <span class="dp-Icon--circle dp-iconMln"></span>
@@ -1407,15 +1406,15 @@ title: List Pane
             </li>
 
             <!-- 8 -->
-            <li class="dp-Card">
-                <span class="dp-ItemCol">
+            <li class="dp-Card dp-Level">
+                <span class="dp-LevelCol">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="customCheckbox2-8"></input>
                         <label for="customCheckbox2-8" class="dp-Card-title"></label>
                     </span>
                 </span>
 
-                <span class="dp-ItemCol">
+                <span class="dp-LevelCol">
                     <span class="dp-Card-title">Allow anyone to email support</span>
                     <span class="dp-UserInfo">
                         <span class="dp-Icon dp-iconUserAvatar"></span>
@@ -1427,7 +1426,7 @@ title: List Pane
                     </span>
                 </span>
 
-                <span class="dp-ItemCol">
+                <span class="dp-LevelCol dp-LevelRight dp-LevelTop">
                     <span class="dp-IconGroup">
                         <span class="dp-Icon--circle dp-iconMln"></span>
                         <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
@@ -1440,15 +1439,15 @@ title: List Pane
             </li>
 
             <!-- 9 -->
-            <li class="dp-Card">
-                <span class="dp-ItemCol">
+            <li class="dp-Card dp-Level">
+                <span class="dp-LevelCol">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="customCheckbox2-9"></input>
                         <label for="customCheckbox2-9" class="dp-Card-title"></label>
                     </span>
                 </span>
 
-                <span class="dp-ItemCol">
+                <span class="dp-LevelCol">
                     <span class="dp-Card-title">Inventory component<span class="dp-Icon"></span></span>
 
                     <span class="dp-UserInfo">
@@ -1461,7 +1460,7 @@ title: List Pane
                     </span>
                 </span>
 
-                <span class="dp-ItemCol">
+                <span class="dp-LevelCol dp-LevelRight dp-LevelTop">
                     <span class="dp-IconGroup">
                         <span class="dp-Icon--circle dp-iconRocket"></span>
                         <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
@@ -1474,15 +1473,15 @@ title: List Pane
             </li>
 
             <!-- 10 -->
-            <li class="dp-Card">
-                <span class="dp-ItemCol">
+            <li class="dp-Card dp-Level">
+                <span class="dp-LevelCol">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="customCheckbox2-10"></input>
                         <label for="customCheckbox3-10" class="dp-Card-title"></label>
                     </span>
                 </span>
 
-                <span class="dp-ItemCol">
+                <span class="dp-LevelCol">
                     <span class="dp-Card-title">Enjoying your helpdesk?<span class="dp-Icon"></span></span>
                     <span class="dp-UserInfo">
                         <span class="dp-Icon dp-iconUserAvatar"></span>
@@ -1500,7 +1499,7 @@ title: List Pane
 
                 </span>
 
-                <span class="dp-ItemCol">
+                <span class="dp-LevelCol dp-LevelRight dp-LevelTop">
                     <span class="dp-IconGroup">
                         <span class="dp-Icon--circle dp-iconMln"></span>
                         <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
@@ -1513,15 +1512,15 @@ title: List Pane
             </li>
 
             <!-- 11 -->
-            <li class="dp-Card">
-                <span class="dp-ItemCol">
+            <li class="dp-Card dp-Level">
+                <span class="dp-LevelCol">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="customCheckbox2-11"></input>
                         <label for="customCheckbox2-11" class="dp-Card-title"></label>
                     </span>
                 </span>
 
-                <span class="dp-ItemCol">
+                <span class="dp-LevelCol">
                     <span class="dp-Card-title">AW: Need some help?</span>
 
                     <span class="dp-UserInfo">
@@ -1544,7 +1543,7 @@ title: List Pane
 
                 </span>
 
-                <span class="dp-ItemCol">
+                <span class="dp-LevelCol dp-LevelRight dp-LevelTop">
                     <span class="dp-IconGroup">
                         <span class="dp-Icon--circle dp-iconRocket"></span>
                         <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
@@ -2341,15 +2340,15 @@ title: List Pane
         </li>
 
         <!-- 1 -->
-        <li class="dp-Card is-active">
-            <span class="dp-ItemCol">
+        <li class="dp-Card dp-Level is-active">
+            <span class="dp-LevelCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-4"></input>
                     <label for="customCheckbox1-4" class="dp-Card-title"></label>
                 </span>
             </span>
 
-            <span class="dp-ItemCol">
+            <span class="dp-LevelCol">
                 <span class="dp-Card-title">SSO Information<span class="dp-Icon"></span></span>
                 <span class="dp-UserInfo">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
@@ -2361,7 +2360,7 @@ title: List Pane
                 </span>
             </span>
 
-            <span class="dp-ItemCol">
+            <span class="dp-LevelCol dp-LevelRight">
                 <span class="dp-IconGroup">
 
                     <span class="dp-Icon--circle dp-iconBug"></span>
@@ -2375,15 +2374,15 @@ title: List Pane
         </li>
 
         <!-- 2 -->
-        <li class="dp-Card">
-            <span class="dp-ItemCol">
+        <li class="dp-Card dp-Level">
+            <span class="dp-LevelCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-5"></input>
                     <label for="customCheckbox1-5" class="dp-Card-title"></label>
                 </span>
             </span>
 
-            <span class="dp-ItemCol">
+            <span class="dp-LevelCol">
                 <span class="dp-Card-title">Portal disabled landing page</span>
 
                 <span class="dp-UserInfo">
@@ -2396,7 +2395,7 @@ title: List Pane
                 </span>
             </span>
 
-            <span class="dp-ItemCol">
+            <span class="dp-LevelCol dp-LevelRight">
                 <span class="dp-IconGroup">
                     <span class="dp-Icon--circle dp-iconRocket"></span>
                     <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
@@ -2409,15 +2408,15 @@ title: List Pane
         </li>
 
         <!-- 3 -->
-        <li class="dp-Card">
-            <span class="dp-ItemCol">
+        <li class="dp-Card dp-Level">
+            <span class="dp-LevelCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-6"></input>
                     <label for="customCheckbox1-6" class="dp-Card-title"></label>
                 </span>
             </span>
 
-            <span class="dp-ItemCol">
+            <span class="dp-LevelCol">
                 <span class="dp-Card-title">Inventory component<span class="dp-Icon"></span></span>
 
                 <span class="dp-UserInfo">
@@ -2430,7 +2429,7 @@ title: List Pane
                 </span>
             </span>
 
-            <span class="dp-ItemCol">
+            <span class="dp-LevelCol dp-LevelRight">
                 <span class="dp-IconGroup">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
                     <span class="dp-Badge Badge--round Badge-Min Icon-warning"></span>
@@ -2442,15 +2441,15 @@ title: List Pane
         </li>
 
         <!-- 4 -->
-        <li class="dp-Card">
-            <span class="dp-ItemCol">
+        <li class="dp-Card dp-Level">
+            <span class="dp-LevelCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-7"></input>
                     <label for="customCheckbox1-7" class="dp-Card-title"></label>
                 </span>
             </span>
 
-            <span class="dp-ItemCol">
+            <span class="dp-LevelCol">
                 <span class="dp-Card-title">AW: Need some help?</span>
 
                 <span class="dp-UserInfo">
@@ -2463,7 +2462,7 @@ title: List Pane
                 </span>
             </span>
 
-            <span class="dp-ItemCol">
+            <span class="dp-LevelCol dp-LevelRight">
                 <span class="dp-IconGroup">
                     <span class="dp-Icon dp-iconLock"></span>
                     <span class="dp-Icon--circle dp-iconMln"></span>
@@ -2477,15 +2476,15 @@ title: List Pane
         </li>
 
         <!-- 5 -->
-        <li class="dp-Card">
-            <span class="dp-ItemCol">
+        <li class="dp-Card dp-Level">
+            <span class="dp-LevelCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-8"></input>
                     <label for="customCheckbox1-8" class="dp-Card-title"></label>
                 </span>
             </span>
 
-            <span class="dp-ItemCol">
+            <span class="dp-LevelCol">
                 <span class="dp-Card-title">Portal disabled landing page</span>
 
                 <span class="dp-UserInfo">
@@ -2498,7 +2497,7 @@ title: List Pane
                 </span>
             </span>
 
-            <span class="dp-ItemCol">
+            <span class="dp-LevelCol dp-LevelRight">
                 <span class="dp-IconGroup">
                     <span class="dp-Icon--circle dp-iconMln"></span>
                     <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
@@ -2511,15 +2510,15 @@ title: List Pane
         </li>
         
         <!-- 6 -->
-        <li class="dp-Card">
-            <span class="dp-ItemCol">
+        <li class="dp-Card dp-Level">
+            <span class="dp-LevelCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-9"></input>
                     <label for="customCheckbox1-9" class="dp-Card-title"></label>
                 </span>
             </span>
 
-            <span class="dp-ItemCol">
+            <span class="dp-LevelCol">
                 <span class="dp-Card-title">Enjoying your helpdesk?<span class="dp-Icon"></span></span>
                 <span class="dp-UserInfo">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
@@ -2531,7 +2530,7 @@ title: List Pane
                 </span>
             </span>
 
-            <span class="dp-ItemCol">
+            <span class="dp-LevelCol dp-LevelRight">
                 <span class="dp-IconGroup">
                     <span class="dp-Icon--circle dp-iconMln"></span>
                     <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
@@ -2544,15 +2543,15 @@ title: List Pane
         </li>
 
         <!-- 7 -->
-        <li class="dp-Card">
-            <span class="dp-ItemCol">
+        <li class="dp-Card dp-Level">
+            <span class="dp-LevelCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-10"></input>
                     <label for="customCheckbox1-10" class="dp-Card-title"></label>
                 </span>
             </span>
 
-            <span class="dp-ItemCol">
+            <span class="dp-LevelCol">
                 <span class="dp-Card-title">Product enquiry</span>
                 <span class="dp-UserInfo">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
@@ -2564,7 +2563,7 @@ title: List Pane
                 </span>
             </span>
 
-            <span class="dp-ItemCol">
+            <span class="dp-LevelCol dp-LevelRight">
                 <span class="dp-IconGroup">
 
                     <span class="dp-Icon--circle dp-iconBug"></span>
@@ -2578,15 +2577,15 @@ title: List Pane
         </li>
 
         <!-- 8 -->
-        <li class="dp-Card">
-            <span class="dp-ItemCol">
+        <li class="dp-Card dp-Level">
+            <span class="dp-LevelCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-11"></input>
                     <label for="customCheckbox1-11" class="dp-Card-title"></label>
                 </span>
             </span>
 
-            <span class="dp-ItemCol">
+            <span class="dp-LevelCol">
                 <span class="dp-Card-title">Allow anyone to email support<span class="dp-Icon"></span></span>
                 <span class="dp-UserInfo">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
@@ -2598,7 +2597,7 @@ title: List Pane
                 </span>
             </span>
 
-            <span class="dp-ItemCol">
+            <span class="dp-LevelCol dp-LevelRight">
                 <span class="dp-IconGroup">
                     <span class="dp-Icon--circle dp-iconMln"></span>
                     <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
