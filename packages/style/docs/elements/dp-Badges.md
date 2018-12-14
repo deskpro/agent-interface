@@ -46,7 +46,7 @@ title: Badges
 <div class="dp-MainWrapper">
     <span class="dp-Badge Badge--round Badge--danger">10</span>
     <span class="dp-Badge Badge--round Badge--warning">9</span>
-    <span class="dp-Badge Badge--round Badge--warningLight">7</span>
+    <span class="dp-Badge Badge--round Badge--warning-light">7</span>
     <span class="dp-Badge Badge--round Badge--neutral">6</span>
     <span class="dp-Badge Badge--round Badge--grey"></span>
     <span class="dp-Badge Badge--round Badge--white"></span>

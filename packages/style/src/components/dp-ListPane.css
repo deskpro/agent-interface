@@ -218,7 +218,8 @@
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  width: calc(100% - 10px);
+
+  /* width: calc(100% - 10px); */
 }
 
 .is-hoverable .dp-Card.is-active,

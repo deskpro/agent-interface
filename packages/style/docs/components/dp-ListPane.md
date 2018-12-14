@@ -327,7 +327,7 @@ title: List Pane
 
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="customCheckbox0-1"></input>
-                        <label for="customCheckbox0-1" class="dp-CardTitle">Card title here</label>
+                        <label for="customCheckbox0-1" class="dp-Card-title">Card title here</label>
                     </span>
 
                     <span class="dp-IconGroup">
