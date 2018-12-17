@@ -1,8 +1,6 @@
 @import "../fonts.css";
 @import "../vars.css";
 
-/* .dp-FilterControlsList { */
-
 .dp-ListPane {
   align-items: center;
   background-color: var(--grey-lightest);
@@ -446,20 +444,13 @@
   cursor: pointer;
   display: block;
   font: var(--p-xl);
+  margin: 0;
   padding: 3.5px 10px;
   position: relative;
 }
 
 .dp-CardMenu li.dp-DropdownDivider {
   padding: 0;
-}
-
-.dp-CardMenu li > a.dp-listItem {
-  color: var(--grey-darkest);
-  cursor: pointer;
-  display: block;
-  padding: 0;
-  text-decoration: none;
 }
 
 .dp-CardMenu .dp-listLink {
@@ -506,10 +497,6 @@
   border-color: transparent transparent transparent var(--brand-primary);
 }
 
-.dp-CardMenu li:hover > a.dp-listItem {
-  color: var(--brand-primary);
-}
-
 .dp-CardMenu li:hover .dp-SubContextMenu {
   display: block;
   left: 100%;
@@ -517,14 +504,18 @@
   top: 0;
 }
 
+.dp-CardMenu .dp-SubContextMenu li > a {
+  font: var(--p-n);
+}
+
 .dp-SearchForm {
   display: block;
   position: relative;
 }
 
-.dp-ContextMenu .dp-SearchForm {
+/* .dp-ContextMenu .dp-SearchForm {
   padding: 0 3px;
-}
+} */
 
 .dp-SearchInput {
   background-color: var(--white);
@@ -533,11 +524,10 @@
   padding: 5px 0 5px 25px;
 }
 
-/* .dp-CardMenu .dp-SearchInput { */
-
 .dp-ContextMenu .dp-SearchInput {
   border: 2px solid var(--grey-light);
   border-radius: 5px;
+  width: 100%;
 }
 
 .dp-CardMenu .dp-SearchInput:focus {
@@ -553,13 +543,11 @@
   width: 13px;
 }
 
-.dp-CardMenu .dp-Badge {
+.dp-CardMenu .dp-Badge.Badge--round {
+  height: 12px;
   margin-left: 0;
   margin-right: 5px;
-}
-
-.is-active.dp-CardMenu .dp-Badge.Badge--empty {
-  background-color: #eff0f0;
+  min-width: 12px;
 }
 
 .dp-CardMenu .dp-SubContextMenu .dp-listItem::after {
@@ -703,14 +691,6 @@ thead .dp-Card-title td {
   border-top: 1px solid var(--brand-primary);
 }
 
-/* .dp-TableviewBody .dp-Icon.dp-iconStar,
-.dp-TableviewBody .dp-Icon.dp-iconStar--neutral,
-.dp-TableviewBody .dp-Icon.dp-iconStar--yellow {
-  height: 12px;
-  margin-left: 10px;
-  width: 12px;
-} */
-
 .dp-TableviewBody .dp-Icon {
   height: 18px;
   width: 18px;
@@ -769,13 +749,6 @@ thead .dp-Card-title td {
   padding-bottom: 0;
   padding-top: 0;
 }
-
-/* .dp-MassSelectTitle .dp-ItemRow {
-  align-items: center;
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-} */
 
 .dp-MassSelectTitle .dp-ListPane {
   background-color: transparent;
@@ -1214,19 +1187,12 @@ thead .dp-Card-title td {
 .dp-ContextMenu > li:last-child {
   border-bottom-left-radius: var(--border-radius);
   border-bottom-right-radius: var(--border-radius);
-  padding-bottom: 0;
 }
 
 .dp-ContextMenu > li > a {
+  align-items: center;
   color: var(--grey-darkest);
   display: flex;
-  font: var(--p-l);
-  padding: var(--padding-drop-down);
-}
-
-.dp-ContextMenu > li > a:hover {
-  background-color: var(--primary-light);
-  color: var(--brand-primary);
 }
 
 .dp-ContextMenu > li > a:hover .dp-MenuIcon.dp-iconBugGray {

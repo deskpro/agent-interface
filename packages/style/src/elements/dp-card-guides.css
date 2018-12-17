@@ -1,0 +1,63 @@
+@import "../fonts.css";
+@import "../vars.css";
+
+/*  */
+
+.dp-Card-guides .dp-CardList .dp-Card {
+  border: 0;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.dp-Card-guides .dp-CardList .dp-UserInfo {
+  align-items: center;
+  display: flex;
+  overflow: visible;
+}
+
+.dp-Card-guides .dp-CardList .dp-UserInfo .dp-Icon {
+  background-size: contain;
+  margin-right: 15px;
+  min-width: 18px;
+}
+
+.dp-Card-guides .dp-CardList .dp-UserInfo .dp-UserName {
+  border-right: 1px solid var(--grey-light);
+  margin-right: 9px;
+  padding: 0 15px 0 0;
+}
+
+.dp-Card-guides .dp-CardList .dp-UserInfo .dp-UserName:last-child {
+  border-right: 0;
+  margin-right: 0;
+  padding: 0;
+}
+
+.dp-Card-guides .dp-CardList .dp-Level .dp-LevelCol:last-child {
+  justify-content: space-between;
+  padding: 3px 0 0 0;
+}
+
+.dp-Card-guides .dp-CardList .dp-CardListInner {
+  width: 100%;
+}
+
+.dp-Card-guides .dp-CardList .dp-LevelItem {
+  border-bottom: 1px solid var(--grey-light);
+  padding: 10px;
+}
+
+.dp-Card-guides .dp-CardListInner .dp-LevelDown {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='14' height='19' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M.575 1.103v12.2h10.5' stroke='%238B9293' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M9.387 9.897A379.865 379.865 0 0 1 10.94 11.4a136.88 136.88 0 0 0 1.628 1.558c.135.126.26.24.369.339l-3.55 3.549v-6.95z' fill='%238B9293' stroke='%238B9293'/%3E%3C/svg%3E");
+}
+
+.dp-Card-guides .dp-CardListInner .dp-LevelDownInner {
+  background-image: url('data:image/svg+xml,<svg width="27" height="18" viewBox="0 0 27 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13.5 0.5V12.7H24" stroke="#8B9293" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M22.3125 9.29336C22.5877 9.55837 22.9103 9.8713 23.2513 10.2021C23.4514 10.3961 23.6578 10.5964 23.8647 10.7966C24.4521 11.3652 25.0426 11.9338 25.4932 12.3544C25.6284 12.4807 25.7528 12.5953 25.8618 12.6935L22.3125 16.2428V9.29336Z" fill="#8B9293" stroke="#8B9293"/><path d="M0.5 0.25V6.75H13" stroke="#8B9293" stroke-linejoin="round"/></svg>');
+  background-size: 27px 17px;
+  height: 20px;
+  width: 30px;
+}
+
+.dp-Card-guides .dp-CardListInner .dp-Card-title > .dp-Icon {
+  margin-left: 0;
+}

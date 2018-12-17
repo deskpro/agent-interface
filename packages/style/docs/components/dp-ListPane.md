@@ -1015,16 +1015,16 @@ title: List Pane
                             </div>
                         </form>
                     </li>
-                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--round Badge--grey-lighter"></span>Wendy Pride</a></li>
-                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--round Badge--grey-lighter"></span>Bob Cooper</a></li>
-                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--round Badge--grey-lighter"></span>Julien Ducro</a></li>
-                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--round Badge--grey-lighter"></span>Wendy Lightbody</a></li>
-                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--round Badge--grey-lighter"></span>Bobby Steiner</a></li>
-                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--round Badge--grey-lighter"></span>Wendy Pride</a></li>
-                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--round Badge--grey-lighter"></span>Bob Cooper</a></li>
-                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--round Badge--grey-lighter"></span>Julien Ducro</a></li>
-                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--round Badge--grey-lighter"></span>Wendy Lightbody</a></li>
-                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--round Badge--grey-lighter"></span>Bobby Steiner</a></li>
+                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--round Badge--grey-light"></span>Wendy Pride</a></li>
+                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--round Badge--grey-light"></span>Bob Cooper</a></li>
+                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--round Badge--grey-light"></span>Julien Ducro</a></li>
+                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--round Badge--grey-light"></span>Wendy Lightbody</a></li>
+                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--round Badge--grey-light"></span>Bobby Steiner</a></li>
+                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--round Badge--grey-light"></span>Wendy Pride</a></li>
+                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--round Badge--grey-light"></span>Bob Cooper</a></li>
+                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--round Badge--grey-light"></span>Julien Ducro</a></li>
+                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--round Badge--grey-light"></span>Wendy Lightbody</a></li>
+                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--round Badge--grey-light"></span>Bobby Steiner</a></li>
                 </ul>
             </li>
             <li>Assign to <a href="#" class="dp-listLink">my team</a> or <span class="dp-Arrow"></span>
@@ -1037,13 +1037,13 @@ title: List Pane
                             </div>
                         </form>
                     </li>
-                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--round Badge--grey-lighter"></span>Wendy Pride</a></li>
-                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--round Badge--grey-lighter"></span>Bob Cooper</a></li>
-                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--round Badge--grey-lighter"></span>Julien Ducro</a></li>
-                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--round Badge--grey-lighter"></span>Wendy Lightbody</a></li>
-                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--round Badge--grey-lighter"></span>Bobby Steiner</a></li>
-                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--round Badge--grey-lighter"></span>Wendy Pride</a></li>
-                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--round Badge--grey-lighter"></span>Bob Cooper</a></li>
+                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--round Badge--grey-light"></span>Wendy Pride</a></li>
+                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--round Badge--grey-light"></span>Bob Cooper</a></li>
+                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--round Badge--grey-light"></span>Julien Ducro</a></li>
+                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--round Badge--grey-light"></span>Wendy Lightbody</a></li>
+                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--round Badge--grey-light"></span>Bobby Steiner</a></li>
+                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--round Badge--grey-light"></span>Wendy Pride</a></li>
+                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--round Badge--grey-light"></span>Bob Cooper</a></li>
                 </ul>
             </li>
             <li class="dp-DropdownDivider"></li>
@@ -1057,11 +1057,11 @@ title: List Pane
                             </div>
                         </form>
                     </li>
-                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--round Badge--grey-lighter"></span>Wendy Pride</a></li>
-                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--round Badge--grey-lighter"></span>Bob Cooper</a></li>
-                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--round Badge--grey-lighter"></span>Julien Ducro</a></li>
-                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--round Badge--grey-lighter"></span>Wendy Lightbody</a></li>
-                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--round Badge--grey-lighter"></span>Bobby Steiner</a></li>
+                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--round Badge--grey-light"></span>Wendy Pride</a></li>
+                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--round Badge--grey-light"></span>Bob Cooper</a></li>
+                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--round Badge--grey-light"></span>Julien Ducro</a></li>
+                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--round Badge--grey-light"></span>Wendy Lightbody</a></li>
+                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--round Badge--grey-light"></span>Bobby Steiner</a></li>
                 </ul>
             </li>
             <li>Urgency <span class="dp-Arrow"></span>
@@ -1074,21 +1074,22 @@ title: List Pane
                             </div>
                         </form>
                     </li>
-                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--round Badge--grey-lighter"></span>Wendy Pride</a></li>
-                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--round Badge--grey-lighter"></span>Bob Cooper</a></li>
-                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--round Badge--grey-lighter"></span>Wendy Lightbody</a></li>
+                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--round Badge--grey-light"></span>Wendy Pride</a></li>
+                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--round Badge--grey-light"></span>Bob Cooper</a></li>
+                    <li><a href="#" class="dp-listItem"><span class="dp-Badge Badge--round Badge--grey-light"></span>Wendy Lightbody</a></li>
                 </ul>
             </li>
+
             <li class="dp-DropdownDivider"></li>
-            <li><a href="#" class="dp-listItem">Place on hold</a></li>
-            <li><a href="#" class="dp-listItem">Lock</a></li>
-            <li><a href="#" class="dp-listItem">Unlock</a></li>
+            <li>Place on hold</li>
+            <li>Lock</li>
+            <li>Unlock</li>
+
         </ul>
 
     </div>
 </div>
 ```
-
 
 <h2>Listpane/kanbanview</h2>
 

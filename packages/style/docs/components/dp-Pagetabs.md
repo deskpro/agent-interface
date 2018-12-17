@@ -1,5 +1,5 @@
 ---
-title: Page Tabs (developing)
+title: Page Tabs
 ---
 
 <h2>pagetabs/singluar</h2>
@@ -257,7 +257,7 @@ title: Page Tabs (developing)
             <span class="dp-TitleButton">+3</span>
 
             <!-- sublist -->
-            <ul class="dp-SelectedMore dp-ContextMenu">
+            <ul class="dp-SelectedMore dp-CardMenu dp-ContextMenu">
                 <li class="dp-TabBarItem">
                     <span class="dp-TabInfoItem">
                         <span class="dp-Flex">
@@ -307,7 +307,6 @@ title: Page Tabs (developing)
 </div>
 ```
 
-
 <h2>pagetabs/three-oneselected</h2>
 ```html @preview
 <div class="dp-MainWrapper" style="height: 300px">
@@ -316,8 +315,8 @@ title: Page Tabs (developing)
         <li class="dp-AddTabButton">
             <span class="dp-Icon dp-add_tab Icon-success"></span>
 
-            <ul class="dp-ContextMenu is-active">
-                <li class="dp-TitleList">Add</li>
+            <ul class="dp-CardMenu dp-ContextMenu dp-CardMenuTitle is-active">
+                <li>Add</li>
                 <li><a href="#"><span class="dp-Icon dp-email_small"></span>Ticket</a></li>
                 <li><a href="#"><span class="dp-Icon dp-icon-user"></span>Person</a></li>
                 <li><a href="#"><span class="dp-Icon dp-organisation_small"></span>Organisation</a></li>
@@ -367,7 +366,6 @@ title: Page Tabs (developing)
     </ul>
 </div>
 ```
-
 
 <h2>pagetabs/three-oneselected-rightclick</h2>
 ```html @preview

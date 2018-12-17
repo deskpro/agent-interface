@@ -24,7 +24,10 @@
       "elements/dp-Badges",
       "elements/dp-Input",
       "elements/dp-TabsHeaders",
-      "elements/dp-Actions"
+      "elements/dp-Actions",
+      "elements/dp-CardGuides",
+      "elements/dp-ToolTips",
+      "elements/dp-Menus"
     ]
   }
 }
