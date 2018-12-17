@@ -22,13 +22,17 @@ const Card: React.SFC<CardProps> = ({
   title
   // onClick
 }) => (
-  <div className={classNames("dp-Card", className, { "is-active": selected })}>
-    <span className="dp-ItemCol">{leftColumn}</span>
-    <span className="dp-ItemCol">
+  <div
+    className={classNames("dp-Card dp-Level", className, {
+      "is-active": selected
+    })}
+  >
+    <span className="dp-LevelItem dp-LevelCol dp-LevelTop">{leftColumn}</span>
+    <span className="dp-LevelCol">
       <span className="dp-Card-title">{title}</span>
       {children}
     </span>
-    <span className="dp-ItemCol">{rightColumn}</span>
+    <span className="dp-LevelCol dp-LevelRight">{rightColumn}</span>
   </div>
 );
 
