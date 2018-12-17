@@ -589,7 +589,7 @@
 /* listpane/kanban-view */
 
 .dp-KanbanView {
-  max-width: 310px;
+  max-width: 330px;
 }
 
 .dp-KanbanView .dp-UserEmailItem {
@@ -1337,5 +1337,5 @@ thead .dp-Card-title td {
 /* listpane/kanban-view */
 
 .dp-KanbanView .dp-Level .dp-LevelCol:nth-child(2) {
-  max-width: 180px;
+  max-width: 200px;
 }

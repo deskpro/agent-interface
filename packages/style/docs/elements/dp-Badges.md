@@ -5,20 +5,33 @@ title: Badges
 <h2>Badges/ID</h4>
 ```html @preview
 <div class="dp-BadgeWrapper">
-	<span class="dp-Badge Badge--id">#14355</span>
-
-	<span class="dp-Icon dp-tablets"></span>
-	<span class="dp-Icon dp-link"></span>
+    <span class="dp-Badge Badge--id">#14355</span>
+    <!-- <span class="dp-IconGroup"> -->
+    	<span class="dp-Icon dp-tablets"></span>
+    	<span class="dp-Icon dp-link"></span>
+    <!-- </span> -->
 </div>
 ```
 
 <h2>Badges/filter-pill</h4>
 ```html @preview
-
-<span class="dp-Badge Filter--pill"> 
+<span class="dp-Badge Badge--filterPill">
 	All <span class="dp-Num">80</span>
 </span>
 ```
+
+<h2>Badges/round</h4>
+```html @preview
+<span class="dp-Badge Badge--round Badge--danger">5</span>
+```
+
+<h2>Badges/pill</h4>
+```html @preview
+<!-- <span class="dp-Badge Badge--filterPill"> -->
+<span class="dp-Tag Tag--danger">badges-pill</span>
+```
+
+
 
 # Tags/Badges
 ```html @preview

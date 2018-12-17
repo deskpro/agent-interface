@@ -1,8 +1,8 @@
-@import "../fonts.css";
-@import "../vars.css";
+.dp-IconGroup {
+  display: flex;
+}
 
 .dp-Card .dp-IconGroup {
-  display: flex;
   margin-bottom: 10px;
 }
 

@@ -23,7 +23,8 @@
       "elements/dp-Buttons",
       "elements/dp-Badges",
       "elements/dp-Input",
-      "elements/dp-TabsHeaders"
+      "elements/dp-TabsHeaders",
+      "elements/dp-Actions"
     ]
   }
 }

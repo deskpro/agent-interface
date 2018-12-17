@@ -510,8 +510,8 @@ title: List Pane
 
                 <span class="dp-LevelCol">
                     <span class="dp-CustomCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-3"></input>
-                        <label for="customCheckbox1-3" class="dp-Card-title"></label>
+                        <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-4"></input>
+                        <label for="customCheckbox1-4" class="dp-Card-title"></label>
                     </span>
                 </span>
 
@@ -599,8 +599,8 @@ title: List Pane
         <li class="dp-Card dp-Level is-active">
             <span class="dp-LevelCol">
                 <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-4"></input>
-                    <label for="customCheckbox1-4" class="dp-Card-title"></label>
+                    <input type="checkbox" class="dp-ControlInput" id="listpane-tickets-1"></input>
+                    <label for="listpane-tickets-1" class="dp-Card-title"></label>
                 </span>
             </span>
 
@@ -633,8 +633,8 @@ title: List Pane
         <li class="dp-Card dp-Level">
             <span class="dp-LevelCol">
                 <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-5"></input>
-                    <label for="customCheckbox1-5" class="dp-Card-title"></label>
+                    <input type="checkbox" class="dp-ControlInput" id="listpane-tickets-2"></input>
+                    <label for="listpane-tickets-2" class="dp-Card-title"></label>
                 </span>
             </span>
 
@@ -653,7 +653,7 @@ title: List Pane
 
             <span class="dp-LevelCol dp-LevelRight">
                 <span class="dp-IconGroup">
-                    <span class="dp-Icon--circle dp-iconRocket"></span>
+                    <span class="dp-Icon--circle dp-rocket Icon-grey-darkest"></span>
                     <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
                     <span class="dp-Badge Badge--round Badge--warning">9</span>
                 </span>
@@ -667,8 +667,8 @@ title: List Pane
         <li class="dp-Card dp-Level">
             <span class="dp-LevelCol">
                 <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-6"></input>
-                    <label for="customCheckbox1-6" class="dp-Card-title"></label>
+                    <input type="checkbox" class="dp-ControlInput" id="listpane-tickets-3"></input>
+                    <label for="listpane-tickets-3" class="dp-Card-title"></label>
                 </span>
             </span>
 
@@ -700,8 +700,8 @@ title: List Pane
         <li class="dp-Card dp-Level">
             <span class="dp-LevelCol">
                 <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-7"></input>
-                    <label for="customCheckbox1-7" class="dp-Card-title"></label>
+                    <input type="checkbox" class="dp-ControlInput" id="listpane-tickets-4"></input>
+                    <label for="listpane-tickets-4" class="dp-Card-title"></label>
                 </span>
             </span>
 
@@ -735,8 +735,8 @@ title: List Pane
         <li class="dp-Card dp-Level">
             <span class="dp-LevelCol">
                 <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-8"></input>
-                    <label for="customCheckbox1-8" class="dp-Card-title"></label>
+                    <input type="checkbox" class="dp-ControlInput" id="listpane-tickets-5"></input>
+                    <label for="listpane-tickets-5" class="dp-Card-title"></label>
                 </span>
             </span>
 
@@ -769,8 +769,8 @@ title: List Pane
         <li class="dp-Card dp-Level">
             <span class="dp-LevelCol">
                 <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-9"></input>
-                    <label for="customCheckbox1-9" class="dp-Card-title"></label>
+                    <input type="checkbox" class="dp-ControlInput" id="listpane-tickets-6"></input>
+                    <label for="listpane-tickets-6" class="dp-Card-title"></label>
                 </span>
             </span>
 
@@ -802,8 +802,8 @@ title: List Pane
         <li class="dp-Card dp-Level">
             <span class="dp-LevelCol">
                 <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-10"></input>
-                    <label for="customCheckbox1-10" class="dp-Card-title"></label>
+                    <input type="checkbox" class="dp-ControlInput" id="listpane-tickets-7"></input>
+                    <label for="listpane-tickets-7" class="dp-Card-title"></label>
                 </span>
             </span>
 
@@ -836,8 +836,8 @@ title: List Pane
         <li class="dp-Card dp-Level">
             <span class="dp-LevelCol">
                 <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-11"></input>
-                    <label for="customCheckbox1-11" class="dp-Card-title"></label>
+                    <input type="checkbox" class="dp-ControlInput" id="listpane-tickets-8"></input>
+                    <label for="listpane-tickets-8" class="dp-Card-title"></label>
                 </span>
             </span>
 
@@ -875,8 +875,8 @@ title: List Pane
         <li class="dp-Card dp-Level">
             <span class="dp-LevelCol">
                 <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-12"></input>
-                    <label for="customCheckbox1-12" class="dp-Card-title"></label>
+                    <input type="checkbox" class="dp-ControlInput" id="listpane-tickets-9"></input>
+                    <label for="listpane-tickets-9" class="dp-Card-title"></label>
                 </span>
             </span>
 
@@ -895,7 +895,7 @@ title: List Pane
 
             <span class="dp-LevelCol dp-LevelRight">
                 <span class="dp-IconGroup">
-                    <span class="dp-Icon--circle dp-iconRocket"></span>
+                    <span class="dp-Icon--circle dp-rocket Icon-grey-darkest"></span>
                     <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
                     <span class="dp-Badge Badge--round Badge--warning">9</span>
                 </span>
@@ -909,8 +909,8 @@ title: List Pane
         <li class="dp-Card dp-Level">
             <span class="dp-LevelCol">
                 <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-13"></input>
-                    <label for="customCheckbox1-13" class="dp-Card-title"></label>
+                    <input type="checkbox" class="dp-ControlInput" id="listpane-tickets-10"></input>
+                    <label for="listpane-tickets-10" class="dp-Card-title"></label>
                 </span>
             </span>
 
@@ -933,7 +933,7 @@ title: List Pane
 
             </span>
 
-            <span class="dp-LevelCol dp-LevelRight">
+            <span class="dp-LevelCol dp-LevelRight dp-LevelTop">
                 <span class="dp-IconGroup">
                     <span class="dp-Icon--circle dp-iconMln"></span>
                     <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
@@ -949,8 +949,8 @@ title: List Pane
         <li class="dp-Card dp-Level">
             <span class="dp-LevelCol">
                 <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-14"></input>
-                    <label for="customCheckbox1-14" class="dp-Card-title"></label>
+                    <input type="checkbox" class="dp-ControlInput" id="listpane-tickets-11"></input>
+                    <label for="listpane-tickets-11" class="dp-Card-title"></label>
                 </span>
             </span>
 
@@ -983,9 +983,9 @@ title: List Pane
 
             </span>
 
-            <span class="dp-LevelCol dp-LevelRight">
+            <span class="dp-LevelCol dp-LevelRight dp-LevelTop">
                 <span class="dp-IconGroup">
-                    <span class="dp-Icon--circle dp-iconRocket"></span>
+                    <span class="dp-Icon--circle dp-rocket Icon-grey-darkest"></span>
                     <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
                     <span class="dp-Badge Badge--round Badge--warning">9</span>
                 </span>
@@ -1191,7 +1191,7 @@ title: List Pane
 
                 <span class="dp-LevelCol dp-LevelRight dp-LevelTop">
                     <span class="dp-IconGroup">
-                        <span class="dp-Icon--circle dp-iconRocket"></span>
+                        <span class="dp-Icon--circle dp-rocket Icon-grey-darkest"></span>
                         <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
                         <span class="dp-Badge Badge--round Badge--danger">5</span>
                     </span>
@@ -1260,7 +1260,7 @@ title: List Pane
 
                 <span class="dp-LevelCol dp-LevelRight dp-LevelTop">
                     <span class="dp-IconGroup">
-                        <span class="dp-Icon--circle dp-iconRocket"></span>
+                        <span class="dp-Icon--circle dp-rocket Icon-grey-darkest"></span>
                         <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
                         <span class="dp-Badge Badge--round Badge--warning">9</span>
                     </span>
@@ -1462,7 +1462,7 @@ title: List Pane
 
                 <span class="dp-LevelCol dp-LevelRight dp-LevelTop">
                     <span class="dp-IconGroup">
-                        <span class="dp-Icon--circle dp-iconRocket"></span>
+                        <span class="dp-Icon--circle dp-rocket Icon-grey-darkest"></span>
                         <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
                         <span class="dp-Badge Badge--round Badge--warning">9</span>
                     </span>
@@ -1545,7 +1545,7 @@ title: List Pane
 
                 <span class="dp-LevelCol dp-LevelRight dp-LevelTop">
                     <span class="dp-IconGroup">
-                        <span class="dp-Icon--circle dp-iconRocket"></span>
+                        <span class="dp-Icon--circle dp-rocket Icon-grey-darkest"></span>
                         <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
                         <span class="dp-Badge Badge--round Badge--warning">9</span>
                     </span>
@@ -1827,7 +1827,7 @@ title: List Pane
                 </td>
                 <td>12 hr 30 min</td>
                 <td>
-                    <span class="dp-Icon dp-iconRocket dp-Icon--circle"></span>
+                    <span class="dp-Icon dp-rocket Icon-grey-darkest dp-Icon--circle"></span>
                 </td>
                 <td>&nbsp;</td>
                 <td>
@@ -1950,7 +1950,7 @@ title: List Pane
                 <td class="dp-UserItem"><span class="dp-Icon dp-avatar"></span><span>Toby Falkirk</span></td>
                 <td>12 hr 30 min</td>
                 <td>
-                    <span class="dp-Icon dp-iconRocket dp-Icon--circle"></span>
+                    <span class="dp-Icon dp-rocket Icon-grey-darkest dp-Icon--circle"></span>
                 </td>
                 <td>
                     <span class="dp-Icon dp-avatar"></span>
@@ -1976,7 +1976,7 @@ title: List Pane
                 <td class="dp-UserItem"><span class="dp-Icon dp-avatar"></span><span>Kenneth James</span></td>
                 <td>3 days</td>
                 <td>
-                    <span class="dp-Icon dp-iconRocket dp-Icon--circle"></span>
+                    <span class="dp-Icon dp-rocket Icon-grey-darkest dp-Icon--circle"></span>
                 </td>
                 <td>&nbsp;</td>
                 <td>
@@ -2002,7 +2002,7 @@ title: List Pane
                 <td class="dp-UserItem"><span class="dp-Icon dp-avatar"></span><span>Mark Jarvis</span></td>
                 <td>12 hr 30 min</td>
                 <td>
-                    <span class="dp-Icon dp-iconRocket dp-Icon--circle"></span>
+                    <span class="dp-Icon dp-rocket Icon-grey-darkest dp-Icon--circle"></span>
                 </td>
                 <td>&nbsp;</td>
                 <td>
@@ -2082,7 +2082,7 @@ title: List Pane
                 <td class="dp-UserItem"><span class="dp-Icon dp-avatar"></span><span>Toby Falkirk</span></td>
                 <td>2 hr 16 min</td>
                 <td>
-                    <span class="dp-Icon dp-iconRocket dp-Icon--circle"></span>
+                    <span class="dp-Icon dp-rocket Icon-grey-darkest dp-Icon--circle"></span>
                 </td>
                 <td>&nbsp;</td>
                 <td>
@@ -2191,7 +2191,7 @@ title: List Pane
                 <td>12 hr 30 min</td>
                 <td>
                     <!-- <span class="dp-Icon dp-rockett dp-Icon--circle"></span> -->
-                    <span class="dp-Icon dp-Icon--circle dp-iconRocket"></span>
+                    <span class="dp-Icon dp-Icon--circle dp-rocket Icon-grey-darkest"></span>
                 </td>
                 <td>&nbsp;</td>
                 <td>
@@ -2397,7 +2397,7 @@ title: List Pane
 
             <span class="dp-LevelCol dp-LevelRight">
                 <span class="dp-IconGroup">
-                    <span class="dp-Icon--circle dp-iconRocket"></span>
+                    <span class="dp-Icon--circle dp-rocket Icon-grey-darkest"></span>
                     <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
                     <span class="dp-Badge Badge--round Badge--warning">9</span>
                 </span>
