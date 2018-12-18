@@ -14,7 +14,7 @@ title: Page View
 				</div>
 			</div>
 		</div>
-		<button class="dp-ActionButton ActionButton--Xlarge dp-SectionBody-item" type="button">
+		<button class="dp-ActionButton ActionButton--Xlarge" type="button">
 			<span class="dp-title-item">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
 				Zack Prudent
@@ -36,9 +36,8 @@ title: Page View
 				</div>
 			</div>
 		</div>
-		<button class="dp-ActionButton ActionButton--Xlarge dp-SectionBody-item" type="button">
+		<button class="dp-ActionButton ActionButton--Xlarge" type="button">
 			<span class="dp-title-item">
-				<span class="dp-Icon dp-iconUserAvatar"></span>
 				Support
 			<span>
 		</button>
@@ -259,16 +258,16 @@ title: Page View
 			<li class="dp-ActionButton is-active">
 				<span class="dp-Icon dp-lock"></span>
 				Lock
-                <ul class="dp-ContextMenu dp-nowrap">
+                <ul class="dp-CardMenu dp-ContextMenu dp-nowrap">
                     <li><a href="#"><span class="dp-MenuIcon dp-lock"></span>Lock</a></li>
-                    <li><a href="#"><span class="dp-MenuIcon dp-iconGrayMin"></span>Put ticket on hold</a></li>
+                    <li><a href="#"><span class="dp-MenuIcon dp-iconMin"></span>Put ticket on hold</a></li>
                     <li><a href="#"><span class="dp-MenuIcon dp-Bin"></span>Delete</a></li>
                 </ul>
 			</li>
 			<li class="dp-ActionButton">
 				<span class="dp-Icon dp-IconLink"></span>
 				Link
-				<ul class="dp-ContextMenu dp-nowrap">
+				<ul class="dp-CardMenu dp-ContextMenu dp-nowrap">
 					<li><a href="#"><span class="dp-MenuIcon dp-lock"></span> Create linked ticket </a></li>
 					<li><a href="#"><span class="dp-MenuIcon dp-IconLink"></span> Link existing ticket </a></li>
 					<li><a href="#"><span class="dp-MenuIcon dp-IconSplit"></span> Split message to new ticket </a></li>
@@ -278,7 +277,7 @@ title: Page View
 			<li class="dp-ActionButton">
 				<span class="dp-Icon dp-IconPlusGrey"></span>
 				New
-				<ul class="dp-ContextMenu dp-nowrap">
+				<ul class="dp-CardMenu dp-ContextMenu dp-nowrap">
 					<li><a href="#"><span class="dp-MenuIcon dp-IconArticle"></span> New pending article </a></li>
 					<li><a href="#"><span class="dp-MenuIcon dp-IconSnippet"></span> New Snippet </a></li>
 				</ul>
@@ -286,7 +285,7 @@ title: Page View
 			<li class="dp-ActionButton">
 				<span class="dp-Icon dp-IconPrint"></span>
 				Print
-				<ul class="dp-ContextMenu dp-nowrap">
+				<ul class="dp-CardMenu dp-ContextMenu dp-nowrap">
 					<li><a href="#"> <span class="dp-MenuIcon dp-IconPrint"></span> Print</a></li>
 					<li><a href="#"> <span class="dp-MenuIcon dp-IconDownloadPDF"></span> Download PDF</a></li>
 					<li><a href="#"><span class="dp-MenuIcon dp-iconBugGray"></span> Download Debug File</a></li>
@@ -295,7 +294,7 @@ title: Page View
 			<li class="dp-ActionButton">
 				<span class="dp-Icon dp-ban"></span>
 				Ban
-				<ul class="dp-ContextMenu dp-nowrap">
+				<ul class="dp-CardMenu dp-ContextMenu dp-nowrap">
 					<li><a href="#"> <span class="dp-MenuIcon dp-ban"></span> Ban</a></li>
 					<li><a href="#"> <span class="dp-MenuIcon dp-IconSpam"></span> Spam</a></li>
 				</ul>
@@ -303,7 +302,7 @@ title: Page View
 			<li class="dp-ActionButton">
 				<span class="dp-Icon dp-rocket"></span>
 				Actions
-				<ul class="dp-ContextMenu dp-nowrap">
+				<ul class="dp-CardMenu dp-ContextMenu dp-nowrap">
 					<li><a href="#"> <span class="dp-MenuIcon dp-rocket"></span> Misc value</a></li>
 					<li><a href="#"> <span class="dp-MenuIcon dp-rocket"></span> Misc value</a></li>
 					<li><a href="#"> <span class="dp-MenuIcon dp-rocket"></span> Misc value</a></li>
@@ -324,16 +323,16 @@ title: Page View
 			<li class="dp-ActionButton">
 				<span class="dp-Icon dp-lock"></span>
 				Lock
-                <ul class="dp-ContextMenu dp-nowrap">
+                <ul class="dp-CardMenu dp-ContextMenu dp-nowrap">
                     <li><a href="#"><span class="dp-Icon dp-lock"></span>Lock</a></li>
-                    <li><a href="#"><span class="dp-Icon dp-iconGrayMin"></span>Put ticket on hold</a></li>
+                    <li><a href="#"><span class="dp-Icon dp-iconMin"></span>Put ticket on hold</a></li>
                     <li><a href="#"><span class="dp-Icon dp-Bin"></span>Delete</a></li>
                 </ul>
 			</li>
 			<li class="dp-ActionButton dp-DropDownLink is-active">
 				<span class="dp-Icon dp-IconLink"></span>
 				Link
-				<ul class="dp-ContextMenu dp-nowrap">
+				<ul class="dp-CardMenu dp-ContextMenu dp-nowrap">
 					<li><a href="#"><span class="dp-MenuIcon dp-lock"></span> Create linked ticket </a></li>
 					<li><a href="#"><span class="dp-MenuIcon dp-IconLink"></span> Link existing ticket </a></li>
 					<li><a href="#"><span class="dp-MenuIcon dp-IconSplit"></span> Split message to new ticket </a></li>
@@ -343,7 +342,7 @@ title: Page View
 			<li class="dp-ActionButton">
 				<span class="dp-Icon dp-IconPlusGrey"></span>
 				New
-				<ul class="dp-ContextMenu dp-nowrap">
+				<ul class="dp-CardMenu dp-ContextMenu dp-nowrap">
 					<li><a href="#"><span class="dp-MenuIcon dp-IconArticle"></span> New pending article </a></li>
 					<li><a href="#"><span class="dp-MenuIcon dp-IconSnippet"></span> New Snippet </a></li>
 				</ul>
@@ -351,7 +350,7 @@ title: Page View
 			<li class="dp-ActionButton">
 				<span class="dp-Icon dp-IconPrint"></span>
 				Print
-				<ul class="dp-ContextMenu dp-nowrap">
+				<ul class="dp-CardMenu dp-ContextMenu dp-nowrap">
 					<li><a href="#"> <span class="dp-MenuIcon dp-IconPrint"></span> Print</a></li>
 					<li><a href="#"> <span class="dp-MenuIcon dp-IconDownloadPDF"></span> Download PDF</a></li>
 					<li><a href="#"><span class="dp-MenuIcon dp-iconBugGray"></span> Download Debug File</a></li>
@@ -360,7 +359,7 @@ title: Page View
 			<li class="dp-ActionButton">
 				<span class="dp-Icon dp-ban"></span>
 				Ban
-				<ul class="dp-ContextMenu dp-nowrap">
+				<ul class="dp-CardMenu dp-ContextMenu dp-nowrap">
 					<li><a href="#"> <span class="dp-MenuIcon dp-ban"></span> Ban</a></li>
 					<li><a href="#"> <span class="dp-MenuIcon dp-IconSpam"></span> Spam</a></li>
 				</ul>
@@ -368,7 +367,7 @@ title: Page View
 			<li class="dp-ActionButton">
 				<span class="dp-Icon dp-rocket"></span>
 				Actions
-				<ul class="dp-ContextMenu dp-nowrap">
+				<ul class="dp-CardMenu dp-ContextMenu dp-nowrap">
 					<li><a href="#"> <span class="dp-MenuIcon dp-rocket"></span> Misc value</a></li>
 					<li><a href="#"> <span class="dp-MenuIcon dp-rocket"></span> Misc value</a></li>
 					<li><a href="#"> <span class="dp-MenuIcon dp-rocket"></span> Misc value</a></li>
@@ -388,16 +387,16 @@ title: Page View
 			<li class="dp-ActionButton">
 				<span class="dp-Icon dp-lock"></span>
 				Lock
-                <ul class="dp-ContextMenu dp-nowrap">
+                <ul class="dp-CardMenu dp-ContextMenu dp-nowrap">
                     <li><a href="#"><span class="dp-Icon dp-lock"></span>Lock</a></li>
-                    <li><a href="#"><span class="dp-Icon dp-iconGrayMin"></span>Put ticket on hold</a></li>
+                    <li><a href="#"><span class="dp-Icon dp-iconMin"></span>Put ticket on hold</a></li>
                     <li><a href="#"><span class="dp-Icon dp-Bin"></span>Delete</a></li>
                 </ul>
 			</li>
 			<li class="dp-ActionButton dp-DropDownLink">
 				<span class="dp-Icon dp-IconLink"></span>
 				Link
-				<ul class="dp-ContextMenu dp-nowrap">
+				<ul class="dp-CardMenu dp-ContextMenu dp-nowrap">
 					<li><a href="#"><span class="dp-MenuIcon dp-lock"></span> Create linked ticket </a></li>
 					<li><a href="#"><span class="dp-MenuIcon dp-IconLink"></span> Link existing ticket </a></li>
 					<li><a href="#"><span class="dp-MenuIcon dp-IconSplit"></span> Split message to new ticket </a></li>
@@ -407,7 +406,7 @@ title: Page View
 			<li class="dp-ActionButton is-active">
 				<span class="dp-Icon dp-IconPlusGrey"></span>
 				New
-				<ul class="dp-ContextMenu dp-nowrap">
+				<ul class="dp-CardMenu dp-ContextMenu dp-nowrap">
 					<li><a href="#"><span class="dp-MenuIcon dp-IconArticle"></span> New pending article </a></li>
 					<li><a href="#"><span class="dp-MenuIcon dp-IconSnippet"></span> New Snippet </a></li>
 				</ul>
@@ -415,7 +414,7 @@ title: Page View
 			<li class="dp-ActionButton">
 				<span class="dp-Icon dp-IconPrint"></span>
 				Print
-				<ul class="dp-ContextMenu dp-nowrap">
+				<ul class="dp-CardMenu dp-ContextMenu dp-nowrap">
 					<li><a href="#"> <span class="dp-MenuIcon dp-IconPrint"></span> Print</a></li>
 					<li><a href="#"> <span class="dp-MenuIcon dp-IconDownloadPDF"></span> Download PDF</a></li>
 					<li><a href="#"><span class="dp-MenuIcon dp-iconBugGray"></span> Download Debug File</a></li>
@@ -424,7 +423,7 @@ title: Page View
 			<li class="dp-ActionButton">
 				<span class="dp-Icon dp-ban"></span>
 				Ban
-				<ul class="dp-ContextMenu dp-nowrap">
+				<ul class="dp-CardMenu dp-ContextMenu dp-nowrap">
 					<li><a href="#"> <span class="dp-MenuIcon dp-ban"></span> Ban</a></li>
 					<li><a href="#"> <span class="dp-MenuIcon dp-IconSpam"></span> Spam</a></li>
 				</ul>
@@ -432,7 +431,7 @@ title: Page View
 			<li class="dp-ActionButton">
 				<span class="dp-Icon dp-rocket"></span>
 				Actions
-				<ul class="dp-ContextMenu dp-nowrap">
+				<ul class="dp-CardMenu dp-ContextMenu dp-nowrap">
 					<li><a href="#"> <span class="dp-MenuIcon dp-rocket"></span> Misc value</a></li>
 					<li><a href="#"> <span class="dp-MenuIcon dp-rocket"></span> Misc value</a></li>
 					<li><a href="#"> <span class="dp-MenuIcon dp-rocket"></span> Misc value</a></li>
@@ -452,16 +451,16 @@ title: Page View
 			<li class="dp-ActionButton">
 				<span class="dp-Icon dp-lock"></span>
 				Lock
-                <ul class="dp-ContextMenu dp-nowrap">
+                <ul class="dp-CardMenu dp-ContextMenu dp-nowrap">
                     <li><a href="#"><span class="dp-Icon dp-lock"></span>Lock</a></li>
-                    <li><a href="#"><span class="dp-Icon dp-iconGrayMin"></span>Put ticket on hold</a></li>
+                    <li><a href="#"><span class="dp-Icon dp-iconMin"></span>Put ticket on hold</a></li>
                     <li><a href="#"><span class="dp-Icon dp-Bin"></span>Delete</a></li>
                 </ul>
 			</li>
 			<li class="dp-ActionButton dp-DropDownLink">
 				<span class="dp-Icon dp-IconLink"></span>
 				Link
-				<ul class="dp-ContextMenu dp-nowrap">
+				<ul class="dp-CardMenu dp-ContextMenu dp-nowrap">
 					<li><a href="#"><span class="dp-MenuIcon dp-lock"></span> Create linked ticket </a></li>
 					<li><a href="#"><span class="dp-MenuIcon dp-IconLink"></span> Link existing ticket </a></li>
 					<li><a href="#"><span class="dp-MenuIcon dp-IconSplit"></span> Split message to new ticket </a></li>
@@ -471,7 +470,7 @@ title: Page View
 			<li class="dp-ActionButton">
 				<span class="dp-Icon dp-IconPlusGrey"></span>
 				New
-				<ul class="dp-ContextMenu dp-nowrap">
+				<ul class="dp-CardMenu dp-ContextMenu dp-nowrap">
 					<li><a href="#"><span class="dp-MenuIcon dp-IconArticle"></span> New pending article </a></li>
 					<li><a href="#"><span class="dp-MenuIcon dp-IconSnippet"></span> New Snippet </a></li>
 				</ul>
@@ -479,7 +478,7 @@ title: Page View
 			<li class="dp-ActionButton is-active">
 				<span class="dp-Icon dp-IconPrint"></span>
 				Print
-				<ul class="dp-ContextMenu dp-nowrap">
+				<ul class="dp-CardMenu dp-ContextMenu dp-nowrap">
 					<li><a href="#"> <span class="dp-MenuIcon dp-IconPrint"></span> Print</a></li>
 					<li><a href="#"> <span class="dp-MenuIcon dp-IconDownloadPDF"></span> Download PDF</a></li>
 					<li><a href="#"><span class="dp-MenuIcon dp-iconBugGray"></span> Download Debug File</a></li>
@@ -488,7 +487,7 @@ title: Page View
 			<li class="dp-ActionButton">
 				<span class="dp-Icon dp-ban"></span>
 				Ban
-				<ul class="dp-ContextMenu dp-nowrap">
+				<ul class="dp-CardMenu dp-ContextMenu dp-nowrap">
 					<li><a href="#"> <span class="dp-MenuIcon dp-ban"></span> Ban</a></li>
 					<li><a href="#"> <span class="dp-MenuIcon dp-IconSpam"></span> Spam</a></li>
 				</ul>
@@ -496,7 +495,7 @@ title: Page View
 			<li class="dp-ActionButton">
 				<span class="dp-Icon dp-rocket"></span>
 				Actions
-				<ul class="dp-ContextMenu dp-nowrap">
+				<ul class="dp-CardMenu dp-ContextMenu dp-nowrap">
 					<li><a href="#"> <span class="dp-MenuIcon dp-rocket"></span> Misc value</a></li>
 					<li><a href="#"> <span class="dp-MenuIcon dp-rocket"></span> Misc value</a></li>
 					<li><a href="#"> <span class="dp-MenuIcon dp-rocket"></span> Misc value</a></li>
@@ -516,16 +515,16 @@ title: Page View
 			<li class="dp-ActionButton">
 				<span class="dp-Icon dp-lock"></span>
 				Lock
-                <ul class="dp-ContextMenu dp-nowrap">
+                <ul class="dp-CardMenu dp-ContextMenu dp-nowrap">
                     <li><a href="#"><span class="dp-Icon dp-lock"></span>Lock</a></li>
-                    <li><a href="#"><span class="dp-Icon dp-iconGrayMin"></span>Put ticket on hold</a></li>
+                    <li><a href="#"><span class="dp-Icon dp-iconMin"></span>Put ticket on hold</a></li>
                     <li><a href="#"><span class="dp-Icon dp-Bin"></span>Delete</a></li>
                 </ul>
 			</li>
 			<li class="dp-ActionButton dp-DropDownLink">
 				<span class="dp-Icon dp-IconLink"></span>
 				Link
-				<ul class="dp-ContextMenu dp-nowrap">
+				<ul class="dp-CardMenu dp-ContextMenu dp-nowrap">
 					<li><a href="#"><span class="dp-MenuIcon dp-lock"></span> Create linked ticket </a></li>
 					<li><a href="#"><span class="dp-MenuIcon dp-IconLink"></span> Link existing ticket </a></li>
 					<li><a href="#"><span class="dp-MenuIcon dp-IconSplit"></span> Split message to new ticket </a></li>
@@ -535,7 +534,7 @@ title: Page View
 			<li class="dp-ActionButton">
 				<span class="dp-Icon dp-IconPlusGrey"></span>
 				New
-				<ul class="dp-ContextMenu dp-nowrap">
+				<ul class="dp-CardMenu dp-ContextMenu dp-nowrap">
 					<li><a href="#"><span class="dp-MenuIcon dp-IconArticle"></span> New pending article </a></li>
 					<li><a href="#"><span class="dp-MenuIcon dp-IconSnippet"></span> New Snippet </a></li>
 				</ul>
@@ -543,7 +542,7 @@ title: Page View
 			<li class="dp-ActionButton">
 				<span class="dp-Icon dp-IconPrint"></span>
 				Print
-				<ul class="dp-ContextMenu dp-nowrap">
+				<ul class="dp-CardMenu dp-ContextMenu dp-nowrap">
 					<li><a href="#"> <span class="dp-MenuIcon dp-IconPrint"></span> Print</a></li>
 					<li><a href="#"> <span class="dp-MenuIcon dp-IconDownloadPDF"></span> Download PDF</a></li>
 					<li><a href="#"><span class="dp-MenuIcon dp-iconBugGray"></span> Download Debug File</a></li>
@@ -552,7 +551,7 @@ title: Page View
 			<li class="dp-ActionButton is-active">
 				<span class="dp-Icon dp-ban"></span>
 				Ban
-				<ul class="dp-ContextMenu dp-nowrap">
+				<ul class="dp-CardMenu dp-ContextMenu dp-nowrap">
 					<li><a href="#"> <span class="dp-MenuIcon dp-ban"></span> Ban</a></li>
 					<li><a href="#"> <span class="dp-MenuIcon dp-IconSpam"></span> Spam</a></li>
 				</ul>
@@ -560,7 +559,7 @@ title: Page View
 			<li class="dp-ActionButton">
 				<span class="dp-Icon dp-rocket"></span>
 				Actions
-				<ul class="dp-ContextMenu dp-nowrap">
+				<ul class="dp-CardMenu dp-ContextMenu dp-nowrap">
 					<li><a href="#"> <span class="dp-MenuIcon dp-rocket"></span> Misc value</a></li>
 					<li><a href="#"> <span class="dp-MenuIcon dp-rocket"></span> Misc value</a></li>
 					<li><a href="#"> <span class="dp-MenuIcon dp-rocket"></span> Misc value</a></li>
@@ -580,16 +579,16 @@ title: Page View
 			<li class="dp-ActionButton">
 				<span class="dp-Icon dp-lock"></span>
 				Lock
-                <ul class="dp-ContextMenu dp-nowrap">
+                <ul class="dp-CardMenu dp-ContextMenu dp-nowrap">
                     <li><a href="#"><span class="dp-Icon dp-lock"></span>Lock</a></li>
-                    <li><a href="#"><span class="dp-Icon dp-iconGrayMin"></span>Put ticket on hold</a></li>
+                    <li><a href="#"><span class="dp-Icon dp-iconMin"></span>Put ticket on hold</a></li>
                     <li><a href="#"><span class="dp-Icon dp-Bin"></span>Delete</a></li>
                 </ul>
 			</li>
 			<li class="dp-ActionButton dp-DropDownLink">
 				<span class="dp-Icon dp-IconLink"></span>
 				Link
-				<ul class="dp-ContextMenu dp-nowrap">
+				<ul class="dp-CardMenu dp-ContextMenu dp-nowrap">
 					<li><a href="#"><span class="dp-MenuIcon dp-lock"></span> Create linked ticket </a></li>
 					<li><a href="#"><span class="dp-MenuIcon dp-IconLink"></span> Link existing ticket </a></li>
 					<li><a href="#"><span class="dp-MenuIcon dp-IconSplit"></span> Split message to new ticket </a></li>
@@ -599,7 +598,7 @@ title: Page View
 			<li class="dp-ActionButton">
 				<span class="dp-Icon dp-IconPlusGrey"></span>
 				New
-				<ul class="dp-ContextMenu dp-nowrap">
+				<ul class="dp-CardMenu dp-ContextMenu dp-nowrap">
 					<li><a href="#"><span class="dp-MenuIcon dp-IconArticle"></span> New pending article </a></li>
 					<li><a href="#"><span class="dp-MenuIcon dp-IconSnippet"></span> New Snippet </a></li>
 				</ul>
@@ -607,7 +606,7 @@ title: Page View
 			<li class="dp-ActionButton">
 				<span class="dp-Icon dp-IconPrint"></span>
 				Print
-				<ul class="dp-ContextMenu dp-nowrap">
+				<ul class="dp-CardMenu dp-ContextMenu dp-nowrap">
 					<li><a href="#"> <span class="dp-MenuIcon dp-IconPrint"></span> Print</a></li>
 					<li><a href="#"> <span class="dp-MenuIcon dp-IconDownloadPDF"></span> Download PDF</a></li>
 					<li><a href="#"><span class="dp-MenuIcon dp-iconBugGray"></span> Download Debug File</a></li>
@@ -616,7 +615,7 @@ title: Page View
 			<li class="dp-ActionButton">
 				<span class="dp-Icon dp-ban"></span>
 				Ban
-				<ul class="dp-ContextMenu dp-nowrap">
+				<ul class="dp-CardMenu dp-ContextMenu dp-nowrap">
 					<li><a href="#"> <span class="dp-MenuIcon dp-ban"></span> Ban</a></li>
 					<li><a href="#"> <span class="dp-MenuIcon dp-IconSpam"></span> Spam</a></li>
 				</ul>
@@ -624,7 +623,7 @@ title: Page View
 			<li class="dp-ActionButton is-active">
 				<span class="dp-Icon dp-rocket"></span>
 				Actions
-				<ul class="dp-ContextMenu dp-nowrap">
+				<ul class="dp-CardMenu dp-ContextMenu dp-nowrap">
 					<li><a href="#"> <span class="dp-MenuIcon dp-rocket"></span> Misc value</a></li>
 					<li><a href="#"> <span class="dp-MenuIcon dp-rocket"></span> Misc value</a></li>
 					<li><a href="#"> <span class="dp-MenuIcon dp-rocket"></span> Misc value</a></li>
@@ -991,12 +990,12 @@ title: Page View
 		                            </div>
 		                            <a href="#" class="dp-Icon dp-iconVDots"></a>
 
-		                            <ul class="dp-ContextMenu">
+		                            <ul class="dp-CardMenu dp-ContextMenu">
 		                                <li><a href="#"><span class="dp-Icon dp-Swap"></span>Swap with ticket owner</a></li>
 		                                <li><a href="#"><span class="dp-Icon dp-Owner"></span>Set as ticket owner</a></li>
 		                                <li><a href="#"><span class="dp-Icon dp-Merge"></span>Merge into ticket owner</a></li>
 		                                <li><a href="#"><span class="dp-Icon dp-Bin"></span>Remove CC</a></li>
-		                                <li><a href="#"><span class="dp-Icon dp-iconGrayMin"></span>Remove CC & Block from ticket</a></li>
+		                                <li><a href="#"><span class="dp-Icon dp-iconMin"></span>Remove CC & Block from ticket</a></li>
 		                            </ul>
 		                        </div>
 
@@ -1008,12 +1007,12 @@ title: Page View
 		                            </div>
 		                            <a href="#" class="dp-Icon dp-iconVDots"></a>
 
-		                            <ul class="dp-ContextMenu">
+		                            <ul class="dp-CardMenu dp-ContextMenu">
 		                                <li><a href="#"><span class="dp-Icon dp-Swap"></span>Swap with ticket owner</a></li>
 		                                <li><a href="#"><span class="dp-Icon dp-Owner"></span>Set as ticket owner</a></li>
 		                                <li><a href="#"><span class="dp-Icon dp-Merge"></span>Merge into ticket owner</a></li>
 		                                <li><a href="#"><span class="dp-Icon dp-Bin"></span>Remove CC</a></li>
-		                                <li><a href="#"><span class="dp-Icon dp-iconGrayMin"></span>Remove CC & Block from ticket</a></li>
+		                                <li><a href="#"><span class="dp-Icon dp-iconMin"></span>Remove CC & Block from ticket</a></li>
 		                            </ul>
 		                        </div>
 
@@ -1025,12 +1024,12 @@ title: Page View
 		                            </div>
 		                            <a href="#" class="dp-Icon dp-iconVDots"></a>
 
-		                            <ul class="dp-ContextMenu">
+		                            <ul class="dp-CardMenu dp-ContextMenu">
 		                                <li><a href="#"><span class="dp-Icon dp-Swap"></span>Swap with ticket owner</a></li>
 		                                <li><a href="#"><span class="dp-Icon dp-Owner"></span>Set as ticket owner</a></li>
 		                                <li><a href="#"><span class="dp-Icon dp-Merge"></span>Merge into ticket owner</a></li>
 		                                <li><a href="#"><span class="dp-Icon dp-Bin"></span>Remove CC</a></li>
-		                                <li><a href="#"><span class="dp-Icon dp-iconGrayMin"></span>Remove CC & Block from ticket</a></li>
+		                                <li><a href="#"><span class="dp-Icon dp-iconMin"></span>Remove CC & Block from ticket</a></li>
 		                            </ul>
 		                        </div>
 
@@ -1042,12 +1041,12 @@ title: Page View
 		                            </div>
 		                            <a href="#" class="dp-Icon dp-iconVDots"></a>
 
-		                            <ul class="dp-ContextMenu">
+		                            <ul class="dp-CardMenu dp-ContextMenu">
 		                                <li><a href="#"><span class="dp-Icon dp-Swap"></span>Swap with ticket owner</a></li>
 		                                <li><a href="#"><span class="dp-Icon dp-Owner"></span>Set as ticket owner</a></li>
 		                                <li><a href="#"><span class="dp-Icon dp-Merge"></span>Merge into ticket owner</a></li>
 		                                <li><a href="#"><span class="dp-Icon dp-Bin"></span>Remove CC</a></li>
-		                                <li><a href="#"><span class="dp-Icon dp-iconGrayMin"></span>Remove CC & Block from ticket</a></li>
+		                                <li><a href="#"><span class="dp-Icon dp-iconMin"></span>Remove CC & Block from ticket</a></li>
 		                            </ul>
 		                        </div>
 

@@ -313,7 +313,7 @@ title: Slide-Out Panel
 
                 <!-- 1 -->
                 <form>
-                    <div class="dp-SearchForm">
+                    <div class="dp-Form dp-SearchForm">
                         <button type="submit" class="dp-Icon dp-IconSearch"></button>
                         <input type="text" placeholder="Search" class="dp-SearchInput">
                     </div>
@@ -326,7 +326,7 @@ title: Slide-Out Panel
                             Change user from ticket cc’s
                             <span class="dp-Icon dp-DownCaret"></span>
 
-                            <ul class="dp-ContextMenu">
+                            <ul class="dp-CardMenu dp-ContextMenu">
                                 <li><a href="#">Change user from ticket CC’s</a></li>
                                 <li><a href="#">Change user from open tabs</a></li>
                                 <li><a href="#">Change user from selected messages</a></li>
@@ -568,7 +568,7 @@ title: Slide-Out Panel
 
                 <!-- 1 -->
                 <form>
-                    <div class="dp-SearchForm">
+                    <div class="dp-Form dp-SearchForm">
                         <button type="submit" class="dp-Icon dp-IconSearch"></button>
                         <input type="text" placeholder="Search" class="dp-SearchInput">
                     </div>

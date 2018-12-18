@@ -510,6 +510,8 @@
 
 .dp-SearchForm {
   display: block;
+  margin: 0 -5px;
+  min-width: 100px;
   position: relative;
 }
 
@@ -534,13 +536,28 @@
   border: 2px solid var(--brand-primary);
 }
 
-.dp-SearchForm .dp-Icon.dp-IconSearch {
+/* .dp-SearchForm .dp-Icon.dp-IconSearch {
   cursor: pointer;
   height: 13px;
   left: 10px;
   position: absolute;
   top: calc(50% - 6.5px);
   width: 13px;
+} */
+
+.dp-ContextMenu .dp-Form .dp-Icon {
+  cursor: pointer;
+  height: 13px;
+  left: 10px;
+  position: absolute;
+
+  /* top: calc(50% - 6.5px); */
+  top: calc(50% - 5px);
+  width: 13px;
+}
+
+.dp-ContextMenu .dp-Form .dp-SearchInput {
+  padding-left: 25px;
 }
 
 .dp-CardMenu .dp-Badge.Badge--round {

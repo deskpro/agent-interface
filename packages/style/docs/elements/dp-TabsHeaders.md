@@ -94,7 +94,7 @@ title: Tabs & Headers
                 Reply
                 <span class="dp-Arrow"></span>
 
-                <ul class="dp-ContextMenu">
+                <ul class="dp-CardMenu dp-ContextMenu">
                     <li><a href="#">Reply</a></li>
                     <li><a href="#">Forward</a></li>
                 </ul>
@@ -105,9 +105,9 @@ title: Tabs & Headers
                 Macros
                 <span class="dp-Arrow"></span>
 
-               <ul class="dp-ContextMenu">
+               <ul class="dp-CardMenu dp-ContextMenu">
                     <li>
-                        <form class="dp-SearchForm">
+                        <form class="dp-Form dp-SearchForm">
                             <button type="submit" class="dp-Icon dp-IconSearch"></button>
                             <input type="text" class="dp-SearchInput"></input>
                         </form>

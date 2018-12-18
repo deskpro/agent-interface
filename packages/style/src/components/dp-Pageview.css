@@ -48,7 +48,7 @@
   white-space: nowrap;
 }
 
-.dp-TicketSelect .dp-Icon {
+.dp-TicketSelect.dp-TicketSmall .dp-Icon {
   background-size: 12px 12px;
   height: 12px;
   margin-right: 5px;

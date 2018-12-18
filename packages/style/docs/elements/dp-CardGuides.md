@@ -2,6 +2,17 @@
 title: Cards
 ---
 
+<h4>Cards/guides-header</h4>
+```html @preview
+
+<div class="dp-MainWrapper">
+    <span class="dp-Card-SectionTitle">
+        <span>INTRODUCING DESKPRO</span>
+    </span>
+</div>
+
+```
+
 <h4>Cards/guides</h4>
 ```html @preview
 <div class="dp-MainWrapper">

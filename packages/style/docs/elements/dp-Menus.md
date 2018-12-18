@@ -7,16 +7,22 @@ title: Menus
 <div class="dp-MainWrapper" style="height: 200px;">
     <ul class="dp-CardMenu dp-ContextMenu is-active" style="top: 0; left: 0;">
         <li>
-            <span class="dp-Icon dp-lock"></span> 
-            Rollover list item
+            <a href="#">
+                <span class="dp-Icon dp-lock"></span> 
+                Rollover list item
+            </a>
         </li>
         <li>
-            <span class="dp-Icon dp-IconStop"></span>
-            List item
+            <a href="#">
+                <span class="dp-Icon dp-iconMin"></span>
+                List item
+            </a>
         </li>
         <li>
-            <span class="dp-Icon dp-Bin"></span>
-            List item
+            <a href="#">
+                <span class="dp-Icon dp-Bin"></span>
+                List item
+            </a>
         </li>
     </ul>
 </div>
@@ -30,17 +36,23 @@ title: Menus
             Menu title
         </li>
         <li>
-            <span class="dp-Icon dp-lock"></span> 
-            Rollover list item
+            <a href="#">
+                <span class="dp-Icon dp-lock"></span> 
+                Rollover list item
+            </a>
         </li>
 
         <li>
-            <span class="dp-Icon dp-IconStop"></span>
-            List item
+            <a href="#">
+                <span class="dp-Icon dp-iconMin"></span>
+                List item
+            </a>
         </li>
         <li>
-            <span class="dp-Icon dp-Bin"></span>
-            List item
+            <a href="#">
+                <span class="dp-Icon dp-Bin"></span>
+                List item
+            </a>
         </li>
     </ul>
 </div>
@@ -52,7 +64,7 @@ title: Menus
     <ul class="dp-CardMenu dp-ContextMenu is-active" style="top: 0; left: 0;">
         <li>
             <form>
-                <div class="dp-SearchForm">
+                <div class="dp-Form dp-SearchForm">
                     <button type="submit" class="dp-Icon dp-IconSearch"></button>
                     <input type="text" class="dp-SearchInput">
                 </div>
@@ -60,16 +72,22 @@ title: Menus
         </li>
 
         <li>
-            <span class="dp-Icon dp-lock"></span> 
-            Rollover list item
+            <a href="#">
+                <span class="dp-Icon dp-lock"></span> 
+                Rollover list item
+            </a>
         </li>
         <li>
-            <span class="dp-Icon dp-IconStop"></span>
-            List item
+            <a href="#">
+                <span class="dp-Icon dp-iconMin"></span>
+                List item
+            </a>
         </li>
         <li>
-            <span class="dp-Icon dp-Bin"></span>
-            List item
+            <a href="#">
+                <span class="dp-Icon dp-Bin"></span>
+                List item
+            </a>
         </li>
     </ul>
 </div>
@@ -84,23 +102,29 @@ title: Menus
         </li>
         <li>
             <form>
-                <div class="dp-SearchForm">
+                <div class="dp-Form dp-SearchForm">
                     <button type="submit" class="dp-Icon dp-IconSearch"></button>
                     <input type="text" class="dp-SearchInput">
                 </div>
             </form>
         </li>
         <li>
-            <span class="dp-Icon dp-lock"></span> 
-            Rollover list item
+            <a href="#">
+                <span class="dp-Icon dp-lock"></span> 
+                Rollover list item
+            </a>
         </li>
         <li>
-            <span class="dp-Icon dp-IconStop"></span>
-            List item
+            <a href="#">
+                <span class="dp-Icon dp-iconMin"></span>
+                List item
+            </a>
         </li>
         <li>
-            <span class="dp-Icon dp-Bin"></span>
-            List item
+            <a href="#">
+                <span class="dp-Icon dp-Bin"></span>
+                List item
+            </a>
         </li>
     </ul>
 </div>

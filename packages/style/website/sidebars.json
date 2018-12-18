@@ -27,7 +27,8 @@
       "elements/dp-Actions",
       "elements/dp-CardGuides",
       "elements/dp-ToolTips",
-      "elements/dp-Menus"
+      "elements/dp-Menus",
+      "elements/dp-Forms"
     ]
   }
 }

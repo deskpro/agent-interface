@@ -951,12 +951,12 @@ title: PageSidebar
                             </div>
                             <a href="#" class="dp-Icon dp-iconVDots"></a>
 
-                            <ul class="dp-ContextMenu">
+                            <ul class="dp-CardMenu dp-ContextMenu">
                                 <li><a href="#"><span class="dp-Icon dp-Swap"></span>Swap with ticket owner</a></li>
                                 <li><a href="#"><span class="dp-Icon dp-Owner"></span>Set as ticket owner</a></li>
                                 <li><a href="#"><span class="dp-Icon dp-Merge"></span>Merge into ticket owner</a></li>
                                 <li><a href="#"><span class="dp-Icon dp-Bin"></span>Remove CC</a></li>
-                                <li><a href="#"><span class="dp-Icon dp-iconGrayMin"></span>Remove CC & Block from ticket</a></li>
+                                <li><a href="#"><span class="dp-Icon dp-iconMin"></span>Remove CC & Block from ticket</a></li>
                             </ul>
                         </div>
 
@@ -968,12 +968,12 @@ title: PageSidebar
                             </div>
                             <a href="#" class="dp-Icon dp-iconVDots"></a>
 
-                            <ul class="dp-ContextMenu">
+                            <ul class="dp-CardMenu dp-ContextMenu">
                                 <li><a href="#"><span class="dp-Icon dp-Swap"></span>Swap with ticket owner</a></li>
                                 <li><a href="#"><span class="dp-Icon dp-Owner"></span>Set as ticket owner</a></li>
                                 <li><a href="#"><span class="dp-Icon dp-Merge"></span>Merge into ticket owner</a></li>
                                 <li><a href="#"><span class="dp-Icon dp-Bin"></span>Remove CC</a></li>
-                                <li><a href="#"><span class="dp-Icon dp-iconGrayMin"></span>Remove CC & Block from ticket</a></li>
+                                <li><a href="#"><span class="dp-Icon dp-iconMin"></span>Remove CC & Block from ticket</a></li>
                             </ul>
                         </div>
 
@@ -985,12 +985,12 @@ title: PageSidebar
                             </div>
                             <a href="#" class="dp-Icon dp-iconVDots is-active"></a>
 
-                            <ul class="dp-ContextMenu">
+                            <ul class="dp-CardMenu dp-ContextMenu">
                                 <li><a href="#"><span class="dp-Icon dp-Swap"></span>Swap with ticket owner</a></li>
                                 <li><a href="#"><span class="dp-Icon dp-Owner"></span>Set as ticket owner</a></li>
                                 <li><a href="#"><span class="dp-Icon dp-Merge"></span>Merge into ticket owner</a></li>
                                 <li><a href="#"><span class="dp-Icon dp-Bin"></span>Remove CC</a></li>
-                                <li><a href="#"><span class="dp-Icon dp-iconGrayMin"></span>Remove CC & Block from ticket</a></li>
+                                <li><a href="#"><span class="dp-Icon dp-iconMin"></span>Remove CC & Block from ticket</a></li>
                             </ul>
                         </div>
 
@@ -1002,12 +1002,12 @@ title: PageSidebar
                             </div>
                             <a href="#" class="dp-Icon dp-iconVDots"></a>
 
-                            <ul class="dp-ContextMenu">
+                            <ul class="dp-CardMenu dp-ContextMenu">
                                 <li><a href="#"><span class="dp-Icon dp-Swap"></span>Swap with ticket owner</a></li>
                                 <li><a href="#"><span class="dp-Icon dp-Owner"></span>Set as ticket owner</a></li>
                                 <li><a href="#"><span class="dp-Icon dp-Merge"></span>Merge into ticket owner</a></li>
                                 <li><a href="#"><span class="dp-Icon dp-Bin"></span>Remove CC</a></li>
-                                <li><a href="#"><span class="dp-Icon dp-iconGrayMin"></span>Remove CC & Block from ticket</a></li>
+                                <li><a href="#"><span class="dp-Icon dp-iconMin"></span>Remove CC & Block from ticket</a></li>
                             </ul>
                         </div>
 

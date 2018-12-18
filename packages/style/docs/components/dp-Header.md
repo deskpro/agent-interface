@@ -17,7 +17,7 @@ title: Header
         <div class="dp-TopActionRow">
           <div class="dp-TopActionRowLeft">
             <div class="dp-SearchHeader">
-                <form>
+                <form class="dp-SearchForm">
                     <input type="" placeholder="Search ..."></input>
                     <button type="submit" class="dp-Icon dp-find"></button>
                 </form>
@@ -79,7 +79,6 @@ title: Header
 </div>
 ```
 
-
 <h2>header/search</h2>
 ```html @preview
 <div class="dp-Header header-wrapper header-search">
@@ -87,7 +86,7 @@ title: Header
         <div class="dp-TopActionRow">
           <div class="dp-TopActionRowLeft">
             <div class="dp-SearchHeader">
-                <form>
+                <form class="dp-SearchForm">
                     <input type="" placeholder="Search ..." value="Pricing"></input>
                     <button type="submit" class="dp-Icon dp-find"></button>
                 </form>
@@ -142,7 +141,7 @@ title: Header
         <div class="dp-TopActionRow">
           <div class="dp-TopActionRowLeft">
             <div class="dp-SearchHeader">
-                <form>
+                <form class="dp-SearchForm">
                     <input type="" placeholder="Search ..."></input>
                     <button type="submit" class="dp-Icon dp-find"></button>
                 </form>
@@ -248,24 +247,19 @@ title: Header
 <h2>Icon rollovers and active states</h2>
 ```html @preview
 <div class="dp-Header header-wrapper">
-
     <ul class="dp-IconHeader dp-MenuBarItem ">
-
         <li>
             <span class="dp-Icon dp-find"></span>
             <span class="dp-Icon dp-find is-active"></span>
         </li>
-
         <li>
             <span class="dp-Icon dp-history"></span>
             <span class="dp-Icon dp-history is-active"></span>
         </li>
-
         <li>
             <span class="dp-Icon dp-add_im"></span>
             <span class="dp-Icon dp-add_im is-active"></span>
         </li>
-
         <li>
             <span disabled class="dp-Icon dp-notifications"></span>
             <span class="dp-Icon dp-notifications">
@@ -276,12 +270,10 @@ title: Header
                 <span class="dp-Badge Badge--round Badge--top Badge--danger">5</span>
             </span>
         </li>
-
         <li>
             <span class="dp-Icon dp-voice"></span>
             <span class="dp-Icon dp-voice Icon-success"></span>
         </li>
-
         <li>
             <span disabled class="dp-Icon dp-chat"></span>
             <span class="dp-Icon dp-chat">
@@ -292,8 +284,6 @@ title: Header
                 <span class="dp-Badge Badge--round Badge--top Badge--danger">1</span>
             </span>
         </li>
-
     </ul>
-
 </div>
 ```

@@ -1009,7 +1009,7 @@ title: List Pane
                 <ul class="dp-SubContextMenu dp-ContextMenu">
                     <li>
                         <form>
-                            <div class="dp-SearchForm">
+                            <div class="dp-Form dp-SearchForm">
                                 <button type="submit" class="dp-Icon dp-IconSearch"></button>
                                 <input type="text" class="dp-SearchInput"></input>
                             </div>
@@ -1031,7 +1031,7 @@ title: List Pane
                 <ul class="dp-SubContextMenu dp-ContextMenu">
                     <li>
                         <form>
-                            <div class="dp-SearchForm">
+                            <div class="dp-Form dp-SearchForm">
                                 <button type="submit" class="dp-Icon dp-IconSearch"></button>
                                 <input type="text" class="dp-SearchInput"></input>
                             </div>
@@ -1051,7 +1051,7 @@ title: List Pane
                 <ul class="dp-SubContextMenu dp-ContextMenu">
                     <li>
                         <form>
-                            <div class="dp-SearchForm">
+                            <div class="dp-Form dp-SearchForm">
                                 <button type="submit" class="dp-Icon dp-IconSearch"></button>
                                 <input type="text" class="dp-SearchInput"></input>
                             </div>
@@ -1068,7 +1068,7 @@ title: List Pane
                 <ul class="dp-SubContextMenu dp-ContextMenu">
                     <li>
                         <form>
-                            <div class="dp-SearchForm">
+                            <div class="dp-Form dp-SearchForm">
                                 <button type="submit" class="dp-Icon dp-IconSearch"></button>
                                 <input type="text" class="dp-SearchInput"></input>
                             </div>
@@ -2313,7 +2313,7 @@ title: List Pane
                 <input type="checkbox" class="dp-ControlInput" id="listpaneCheckbox0" checked="checked"></input>
                 <label for="listpaneCheckbox0" class="dp-CheckboxCarret"></label>
                 <span class="dp-Card-title">(48 items selected)</span>
-                <ul class="dp-ContextMenu is-active">
+                <ul class="dp-CardMenu dp-ContextMenu is-active">
                     <li><a href="#">Uncheck all</a></li>
                     <li><a href="#">Select all</a></li>
                 </ul>
@@ -2760,7 +2760,7 @@ title: List Pane
                     <span class="dp-Date">23/3/18 - 11:15AM</span>
                     <span class="dp-Icon dp-small_caret"></span>
                     <span class="dp-Icon dp-settings"></span>
-                    <span class="dp-ContextMenu is-active">
+                    <span class="dp-CardMenu dp-ContextMenu is-active">
                         <span>
                             <span class="dp-Icon dp-close"></span>Delete
                         </span>
