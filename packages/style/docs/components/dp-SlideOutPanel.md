@@ -58,7 +58,6 @@ title: Slide-Out Panel
                 </div>
 
                 <div class="dp-ButtonWrapper">
-                    <!-- <button disabled class="dp-Button ActionButton--large Button--in-active" type="button"> -->
                     <button disabled class="dp-Button Button--large" type="button">
                         Send & apply actions
                     </button>
@@ -313,9 +312,10 @@ title: Slide-Out Panel
 
                 <!-- 1 -->
                 <form>
-                    <div class="dp-Form dp-SearchForm">
-                        <button type="submit" class="dp-Icon dp-IconSearch"></button>
-                        <input type="text" placeholder="Search" class="dp-SearchInput">
+                    <div class="dp-Form dp-Menu-search">
+                        <span class="dp-Icon dp-IconSearch"></span>
+                        <!-- <input type="text" placeholder="Search" class="dp-SearchInput"> -->
+                        <input type="text" placeholder="Search" class="dp-Input Input--search">
                     </div>
                 </form>
 
@@ -326,11 +326,19 @@ title: Slide-Out Panel
                             Change user from ticket cc’s
                             <span class="dp-Icon dp-DownCaret"></span>
 
-                            <ul class="dp-CardMenu dp-ContextMenu">
-                                <li><a href="#">Change user from ticket CC’s</a></li>
-                                <li><a href="#">Change user from open tabs</a></li>
-                                <li><a href="#">Change user from selected messages</a></li>
-                                <li><a href="#">Change user from same organisation</a></li>
+                            <ul class="dp-Menu is-visible">
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-Menu-link">Change user from ticket CC’s</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-Menu-link">Change user from open tabs</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-Menu-link">Change user from selected messages</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-Menu-link">Change user from same organisation</a>
+                                </li>
                             </ul>
 
                         </div>
@@ -407,7 +415,6 @@ title: Slide-Out Panel
                 </div>
 
                 <div class="dp-ButtonWrapper">
-                    <!-- <button class="dp-Button ActionButton--large Button--active" type="button"> -->
                     <button class="dp-Button Button--large" type="button">
                         Change user
                     </button>
@@ -441,7 +448,6 @@ title: Slide-Out Panel
                 </p>
 
                 <div class="dp-ButtonWrapper">
-                    <!-- <button class="dp-Button ActionButton--large Button--active" type="button"> -->
                     <button class="dp-Button Button--large" type="button">
                         Override settings
                     </button>
@@ -455,7 +461,6 @@ title: Slide-Out Panel
     </div>
 </div>
 ```
-
 
 ```html @preview
 <div class="dp-MainWrapper">
@@ -546,7 +551,6 @@ title: Slide-Out Panel
                     </button>
                 </div>
 
-
             </div> <!-- Sidebar body -->
         </div>
     </div>
@@ -567,10 +571,17 @@ title: Slide-Out Panel
                 </div>
 
                 <!-- 1 -->
-                <form>
+<!--                 <form>
                     <div class="dp-Form dp-SearchForm">
-                        <button type="submit" class="dp-Icon dp-IconSearch"></button>
+                        <span class="dp-Icon dp-IconSearch"></span>
                         <input type="text" placeholder="Search" class="dp-SearchInput">
+                    </div>
+                </form>
+ -->
+                <form>
+                    <div class="dp-Form dp-Menu-search">
+                        <span class="dp-Icon dp-IconSearch"></span>
+                        <input type="text" placeholder="Search" class="dp-Input Input--search">
                     </div>
                 </form>
 

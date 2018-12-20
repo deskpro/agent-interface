@@ -89,7 +89,9 @@
   padding: 0 10px 10px;
 }
 
-.dp-SlideOutPanel .dp-SearchInput, input.dp-NewTitle {
+/* .dp-SlideOutPanel .dp-SearchInput, input.dp-NewTitle { */
+
+.dp-SlideOutPanel .Input--search, input.dp-NewTitle {
   border: 1px solid var(--grey);
   border-radius: 2px;
   width: 100%;

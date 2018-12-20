@@ -5,22 +5,22 @@ title: Menus
 <h4>Menus/standard</h4>
 ```html @preview
 <div class="dp-MainWrapper" style="height: 200px;">
-    <ul class="dp-CardMenu dp-ContextMenu is-active" style="top: 0; left: 0;">
-        <li>
-            <a href="#">
-                <span class="dp-Icon dp-lock"></span> 
+    <ul class="dp-Menu is-visible" style="top: 0; left: 0;">
+        <li class="dp-Menu-linkItem">
+            <span class="dp-Icon dp-lock"></span> 
+            <a href="#" class="dp-Menu-link">
                 Rollover list item
             </a>
         </li>
-        <li>
-            <a href="#">
-                <span class="dp-Icon dp-iconMin"></span>
+        <li class="dp-Menu-linkItem">
+            <span class="dp-Icon dp-iconMin"></span>
+            <a href="#" class="dp-Menu-link">
                 List item
             </a>
         </li>
-        <li>
-            <a href="#">
-                <span class="dp-Icon dp-Bin"></span>
+        <li class="dp-Menu-linkItem">
+            <span class="dp-Icon dp-Bin"></span>
+            <a href="#" class="dp-Menu-link">
                 List item
             </a>
         </li>
@@ -31,26 +31,26 @@ title: Menus
 <h4>Menus/with-title</h4>
 ```html @preview
 <div class="dp-MainWrapper" style="height: 200px;">
-    <ul class="dp-CardMenu dp-ContextMenu dp-CardMenuTitle is-active" style="top: 0; left: 0;">
-        <li>
+    <ul class="dp-Menu dp-Menu-title is-visible" style="top: 0; left: 0;">
+        <li class="dp-Menu-linkItem">
             Menu title
         </li>
-        <li>
-            <a href="#">
-                <span class="dp-Icon dp-lock"></span> 
+        <li class="dp-Menu-linkItem">
+            <span class="dp-Icon dp-lock"></span> 
+            <a href="#" class="dp-Menu-link">
                 Rollover list item
             </a>
         </li>
 
-        <li>
-            <a href="#">
-                <span class="dp-Icon dp-iconMin"></span>
+        <li class="dp-Menu-linkItem">
+            <span class="dp-Icon dp-iconMin"></span>
+            <a href="#" class="dp-Menu-link">
                 List item
             </a>
         </li>
-        <li>
-            <a href="#">
-                <span class="dp-Icon dp-Bin"></span>
+        <li class="dp-Menu-linkItem">
+            <span class="dp-Icon dp-Bin"></span>
+            <a href="#" class="dp-Menu-link">
                 List item
             </a>
         </li>
@@ -61,31 +61,33 @@ title: Menus
 <h4>Menus/with-search</h4>
 ```html @preview
 <div class="dp-MainWrapper" style="height: 200px;">
-    <ul class="dp-CardMenu dp-ContextMenu is-active" style="top: 0; left: 0;">
-        <li>
+    <ul class="dp-Menu is-visible" style="top: 0; left: 0;">
+        <li class="dp-Menu-linkItem">
             <form>
-                <div class="dp-Form dp-SearchForm">
-                    <button type="submit" class="dp-Icon dp-IconSearch"></button>
-                    <input type="text" class="dp-SearchInput">
+                <!-- <div class="dp-Form dp-SearchForm"> -->
+                <div class="dp-Form dp-Menu-search">
+                    <span class="dp-Icon dp-IconSearch"></span>
+                    <!-- <input type="text" class="dp-SearchInput"> -->
+                    <input type="text" class="dp-Input Input--search">
                 </div>
             </form>
         </li>
 
-        <li>
-            <a href="#">
-                <span class="dp-Icon dp-lock"></span> 
+        <li class="dp-Menu-linkItem">
+            <span class="dp-Icon dp-lock"></span> 
+            <a href="#" class="dp-Menu-link">
                 Rollover list item
             </a>
         </li>
-        <li>
-            <a href="#">
-                <span class="dp-Icon dp-iconMin"></span>
+        <li class="dp-Menu-linkItem">
+            <span class="dp-Icon dp-iconMin"></span>
+            <a href="#" class="dp-Menu-link">
                 List item
             </a>
         </li>
-        <li>
-            <a href="#">
-                <span class="dp-Icon dp-Bin"></span>
+        <li class="dp-Menu-linkItem">
+            <span class="dp-Icon dp-Bin"></span>
+            <a href="#" class="dp-Menu-link">
                 List item
             </a>
         </li>
@@ -96,33 +98,35 @@ title: Menus
 <h4>Menus/search-with-title</h4>
 ```html @preview
 <div class="dp-MainWrapper" style="height: 200px;">
-    <ul class="dp-CardMenu dp-ContextMenu dp-CardMenuTitle is-active" style="top: 0; left: 0;">
-        <li>
+    <ul class="dp-Menu dp-Menu-title is-visible" style="top: 0; left: 0;">
+        <li class="dp-Menu-linkItem">
             Menu title
         </li>
-        <li>
+        <li class="dp-Menu-linkItem">
             <form>
-                <div class="dp-Form dp-SearchForm">
-                    <button type="submit" class="dp-Icon dp-IconSearch"></button>
-                    <input type="text" class="dp-SearchInput">
+                <!-- <div class="dp-Form dp-SearchForm"> -->
+                <div class="dp-Form dp-Menu-search">
+                    <span class="dp-Icon dp-IconSearch"></span>
+                    <!-- <input type="text" class="dp-SearchInput"> -->
+                    <input type="text" class="dp-Input Input--search">
                 </div>
             </form>
         </li>
-        <li>
-            <a href="#">
-                <span class="dp-Icon dp-lock"></span> 
+        <li class="dp-Menu-linkItem">
+            <span class="dp-Icon dp-lock"></span> 
+            <a href="#" class="dp-Menu-link">
                 Rollover list item
             </a>
         </li>
-        <li>
-            <a href="#">
-                <span class="dp-Icon dp-iconMin"></span>
+        <li class="dp-Menu-linkItem">
+            <span class="dp-Icon dp-iconMin"></span>
+            <a href="#" class="dp-Menu-link">
                 List item
             </a>
         </li>
-        <li>
-            <a href="#">
-                <span class="dp-Icon dp-Bin"></span>
+        <li class="dp-Menu-linkItem">
+            <span class="dp-Icon dp-Bin"></span>
+            <a href="#" class="dp-Menu-link">
                 List item
             </a>
         </li>

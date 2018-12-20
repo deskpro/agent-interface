@@ -17,63 +17,63 @@ title: PageSidebar
 
     <div class="dp-PageSidebar">
         <div class="dp-SidebarTabs">
-            <ul class="dp-SidebarTabsList">
-                <li class="dp-SidebarTab-item is-active"><a href="#" class="dp-Icon dp-tickets"></a></li>
+            <ul class="dp-Tabs Tabs--icons">
+                <li class="dp-Tabs-item Tabs--primary"><a href="#" class="dp-Icon dp-tickets"></a></li>
             </ul>
         </div>
     </div>
 
     <div class="dp-PageSidebar">
         <div class="dp-SidebarTabs">
-            <ul class="dp-SidebarTabsList">
-                <li class="dp-SidebarTab-item is-active"><a href="#" class="dp-Icon dp-tickets"></a></li>
-                <li class="dp-SidebarTab-item"><a href="#" class="dp-Icon dp-icon-user"></a></li>
+            <ul class="dp-Tabs Tabs--icons">
+                <li class="dp-Tabs-item Tabs--primary"><a href="#" class="dp-Icon dp-tickets"></a></li>
+                <li class="dp-Tabs-item"><a href="#" class="dp-Icon dp-icon-user"></a></li>
             </ul>
         </div>
     </div>
 
     <div class="dp-PageSidebar">
         <div class="dp-SidebarTabs">
-            <ul class="dp-SidebarTabsList">
-                <li class="dp-SidebarTab-item is-active"><a href="#" class="dp-Icon dp-tickets"></a></li>
-                <li class="dp-SidebarTab-item"><a href="#" class="dp-Icon dp-icon-user"></a></li>
-                <li class="dp-SidebarTab-item"><a href="#" class="dp-Icon dp-oranisation"></a></li>
+            <ul class="dp-Tabs Tabs--icons">
+                <li class="dp-Tabs-item Tabs--primary"><a href="#" class="dp-Icon dp-tickets"></a></li>
+                <li class="dp-Tabs-item"><a href="#" class="dp-Icon dp-icon-user"></a></li>
+                <li class="dp-Tabs-item"><a href="#" class="dp-Icon dp-oranisation"></a></li>
             </ul>
         </div>
     </div>
 
     <div class="dp-PageSidebar">
         <div class="dp-SidebarTabs">
-            <ul class="dp-SidebarTabsList">
-                <li class="dp-SidebarTab-item is-active"><a href="#" class="dp-Icon dp-tickets"></a></li>
-                <li class="dp-SidebarTab-item"><a href="#" class="dp-Icon dp-icon-user"></a></li>
-                <li class="dp-SidebarTab-item"><a href="#" class="dp-Icon dp-oranisation"></a></li>
-                <li class="dp-SidebarTab-item"><a href="#" class="dp-Icon dp-publish"></a></li>
+            <ul class="dp-Tabs Tabs--icons">
+                <li class="dp-Tabs-item Tabs--primary"><a href="#" class="dp-Icon dp-tickets"></a></li>
+                <li class="dp-Tabs-item"><a href="#" class="dp-Icon dp-icon-user"></a></li>
+                <li class="dp-Tabs-item"><a href="#" class="dp-Icon dp-oranisation"></a></li>
+                <li class="dp-Tabs-item"><a href="#" class="dp-Icon dp-publish"></a></li>
             </ul>
         </div>
     </div>
 
     <div class="dp-PageSidebar">
         <div class="dp-SidebarTabs">
-            <ul class="dp-SidebarTabsList">
-                <li class="dp-SidebarTab-item is-active"><a href="#" class="dp-Icon dp-tickets"></a></li>
-                <li class="dp-SidebarTab-item"><a href="#" class="dp-Icon dp-icon-user"></a></li>
-                <li class="dp-SidebarTab-item"><a href="#" class="dp-Icon dp-oranisation"></a></li>
-                <li class="dp-SidebarTab-item"><a href="#" class="dp-Icon dp-publish"></a></li>
-                <li class="dp-SidebarTab-item"><a href="#" class="dp-Icon dp-history"></a></li>
+            <ul class="dp-Tabs Tabs--icons">
+                <li class="dp-Tabs-item Tabs--primary"><a href="#" class="dp-Icon dp-tickets"></a></li>
+                <li class="dp-Tabs-item"><a href="#" class="dp-Icon dp-icon-user"></a></li>
+                <li class="dp-Tabs-item"><a href="#" class="dp-Icon dp-oranisation"></a></li>
+                <li class="dp-Tabs-item"><a href="#" class="dp-Icon dp-publish"></a></li>
+                <li class="dp-Tabs-item"><a href="#" class="dp-Icon dp-history"></a></li>
             </ul>
         </div>
     </div>
 
     <div class="dp-PageSidebar dp-DemonstrationEements">
         <div class="dp-SidebarTabs">
-            <ul class="dp-SidebarTabsList">
-                <li class="dp-SidebarTab-item"><a href="#" class="dp-Icon dp-tickets"></a></li>
-                <li class="dp-SidebarTab-item"><a href="#" class="dp-Icon dp-Icon dp-tickets"></a></li>
-                <li class="dp-SidebarTab-item is-active"><a href="#" class="dp-Icon dp-Icon dp-tickets"></a></li>
+            <ul class="dp-Tabs Tabs--icons">
+                <li class="dp-Tabs-item"><a href="#" class="dp-Icon dp-tickets"></a></li>
+                <li class="dp-Tabs-item"><a href="#" class="dp-Icon dp-Icon dp-tickets"></a></li>
+                <li class="dp-Tabs-item Tabs--primary"><a href="#" class="dp-Icon dp-Icon dp-tickets"></a></li>
             </ul>
 
-            <ul class="dp-SidebarTabsList dp-DemonstrationTitle">
+            <ul class="dp-Tabs Tabs--icons dp-DemonstrationTitle">
                 <li>Static</li>
                 <li>Rollover</li>
                 <li>Selected</li>
@@ -139,10 +139,10 @@ title: PageSidebar
 <div class="dp-MainWrapper">
     <div class="dp-PageSidebar">
         <div class="dp-SidebarTabs">
-            <ul class="dp-SidebarTabsList">
-                <li class="dp-SidebarTab-item is-active"><a href="#" class="dp-Icon dp-tickets"></a></li>
-                <li class="dp-SidebarTab-item"><a href="#" class="dp-Icon dp-icon-user"></a></li>
-                <li class="dp-SidebarTab-item"><a href="#" class="dp-Icon dp-oranisation"></a></li>
+            <ul class="dp-Tabs Tabs--icons">
+                <li class="dp-Tabs-item Tabs--primary"><a href="#" class="dp-Icon dp-tickets"></a></li>
+                <li class="dp-Tabs-item"><a href="#" class="dp-Icon dp-icon-user"></a></li>
+                <li class="dp-Tabs-item"><a href="#" class="dp-Icon dp-oranisation"></a></li>
             </ul>
         </div>
     </div>
@@ -361,10 +361,10 @@ title: PageSidebar
         <div class="dp-PageSidebar">
 
             <div class="dp-SidebarTabs">
-                <ul class="dp-SidebarTabsList">
-                    <li class="dp-SidebarTab-item is-active"><a href="#" class="dp-Icon dp-tickets"></a></li>
-                    <li class="dp-SidebarTab-item"><a href="#" class="dp-Icon dp-icon-user"></a></li>
-                    <li class="dp-SidebarTab-item"><a href="#" class="dp-Icon dp-oranisation"></a></li>
+                <ul class="dp-Tabs Tabs--icons">
+                    <li class="dp-Tabs-item Tabs--primary"><a href="#" class="dp-Icon dp-tickets"></a></li>
+                    <li class="dp-Tabs-item"><a href="#" class="dp-Icon dp-icon-user"></a></li>
+                    <li class="dp-Tabs-item"><a href="#" class="dp-Icon dp-oranisation"></a></li>
                 </ul>
             </div>
 
@@ -555,10 +555,10 @@ title: PageSidebar
         <div class="dp-PageSidebar dp-TicketOverlay">
 
             <div class="dp-SidebarTabs">
-                <ul class="dp-SidebarTabsList">
-                    <li class="dp-SidebarTab-item"><a href="#" class="dp-Icon dp-tickets"></a></li>
-                    <li class="dp-SidebarTab-item is-active"><a href="#" class="dp-Icon dp-icon-user"></a></li>
-                    <li class="dp-SidebarTab-item"><a href="#" class="dp-Icon dp-oranisation"></a></li>
+                <ul class="dp-Tabs Tabs--icons">
+                    <li class="dp-Tabs-item"><a href="#" class="dp-Icon dp-tickets"></a></li>
+                    <li class="dp-Tabs-item Tabs--primary"><a href="#" class="dp-Icon dp-icon-user"></a></li>
+                    <li class="dp-Tabs-item"><a href="#" class="dp-Icon dp-oranisation"></a></li>
                 </ul>
             </div>
 
@@ -645,10 +645,10 @@ title: PageSidebar
         <div class="dp-PageSidebar">
 
             <div class="dp-SidebarTabs">
-                <ul class="dp-SidebarTabsList">
-                    <li class="dp-SidebarTab-item is-active"><a href="#" class="dp-Icon dp-tickets"></a></li>
-                    <li class="dp-SidebarTab-item"><a href="#" class="dp-Icon dp-icon-user"></a></li>
-                    <li class="dp-SidebarTab-item"><a href="#" class="dp-Icon dp-oranisation"></a></li>
+                <ul class="dp-Tabs Tabs--icons">
+                    <li class="dp-Tabs-item Tabs--primary"><a href="#" class="dp-Icon dp-tickets"></a></li>
+                    <li class="dp-Tabs-item"><a href="#" class="dp-Icon dp-icon-user"></a></li>
+                    <li class="dp-Tabs-item"><a href="#" class="dp-Icon dp-oranisation"></a></li>
                 </ul>
             </div>
 
@@ -890,10 +890,10 @@ title: PageSidebar
         <div class="dp-PageSidebar">
 
             <div class="dp-SidebarTabs">
-                <ul class="dp-SidebarTabsList">
-                    <li class="dp-SidebarTab-item is-active"><a href="#" class="dp-Icon dp-tickets"></a></li>
-                    <li class="dp-SidebarTab-item"><a href="#" class="dp-Icon dp-icon-user"></a></li>
-                    <li class="dp-SidebarTab-item"><a href="#" class="dp-Icon dp-oranisation"></a></li>
+                <ul class="dp-Tabs Tabs--icons">
+                    <li class="dp-Tabs-item Tabs--primary"><a href="#" class="dp-Icon dp-tickets"></a></li>
+                    <li class="dp-Tabs-item"><a href="#" class="dp-Icon dp-icon-user"></a></li>
+                    <li class="dp-Tabs-item"><a href="#" class="dp-Icon dp-oranisation"></a></li>
                 </ul>
             </div>
 
@@ -951,12 +951,27 @@ title: PageSidebar
                             </div>
                             <a href="#" class="dp-Icon dp-iconVDots"></a>
 
-                            <ul class="dp-CardMenu dp-ContextMenu">
-                                <li><a href="#"><span class="dp-Icon dp-Swap"></span>Swap with ticket owner</a></li>
-                                <li><a href="#"><span class="dp-Icon dp-Owner"></span>Set as ticket owner</a></li>
-                                <li><a href="#"><span class="dp-Icon dp-Merge"></span>Merge into ticket owner</a></li>
-                                <li><a href="#"><span class="dp-Icon dp-Bin"></span>Remove CC</a></li>
-                                <li><a href="#"><span class="dp-Icon dp-iconMin"></span>Remove CC & Block from ticket</a></li>
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-Swap"></span>
+                                    <a href="#" class="dp-Menu-link">Swap with ticket owner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-Owner"></span>
+                                    <a href="#" class="dp-Menu-link">Set as ticket owner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-Merge"></span>
+                                    <a href="#" class="dp-Menu-link">Merge into ticket owner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-Bin"></span>
+                                    <a href="#" class="dp-Menu-link">Remove CC</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-iconMin"></span>
+                                    <a href="#" class="dp-Menu-link">Remove CC & Block from ticket</a>
+                                </li>
                             </ul>
                         </div>
 
@@ -968,12 +983,27 @@ title: PageSidebar
                             </div>
                             <a href="#" class="dp-Icon dp-iconVDots"></a>
 
-                            <ul class="dp-CardMenu dp-ContextMenu">
-                                <li><a href="#"><span class="dp-Icon dp-Swap"></span>Swap with ticket owner</a></li>
-                                <li><a href="#"><span class="dp-Icon dp-Owner"></span>Set as ticket owner</a></li>
-                                <li><a href="#"><span class="dp-Icon dp-Merge"></span>Merge into ticket owner</a></li>
-                                <li><a href="#"><span class="dp-Icon dp-Bin"></span>Remove CC</a></li>
-                                <li><a href="#"><span class="dp-Icon dp-iconMin"></span>Remove CC & Block from ticket</a></li>
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-Swap"></span>
+                                    <a href="#" class="dp-Menu-link">Swap with ticket owner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-Menu-link">Set as ticket owner</a>
+                                    <span class="dp-Icon dp-Owner"></span>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-Merge"></span>
+                                    <a href="#" class="dp-Menu-link">Merge into ticket owner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-Bin"></span>
+                                    <a href="#" class="dp-Menu-link">Remove CC</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-iconMin"></span>
+                                    <a href="#" class="dp-Menu-link">Remove CC & Block from ticket</a>
+                                </li>
                             </ul>
                         </div>
 
@@ -983,14 +1013,29 @@ title: PageSidebar
                                 <span class="dp-UserName">Wendy Pride</span>
                                 <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">w.pride@techcompany.co.uk</a>
                             </div>
-                            <a href="#" class="dp-Icon dp-iconVDots is-active"></a>
+                            <a href="#" class="dp-Icon dp-iconVDots is-visible"></a>
 
-                            <ul class="dp-CardMenu dp-ContextMenu">
-                                <li><a href="#"><span class="dp-Icon dp-Swap"></span>Swap with ticket owner</a></li>
-                                <li><a href="#"><span class="dp-Icon dp-Owner"></span>Set as ticket owner</a></li>
-                                <li><a href="#"><span class="dp-Icon dp-Merge"></span>Merge into ticket owner</a></li>
-                                <li><a href="#"><span class="dp-Icon dp-Bin"></span>Remove CC</a></li>
-                                <li><a href="#"><span class="dp-Icon dp-iconMin"></span>Remove CC & Block from ticket</a></li>
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-Swap"></span>
+                                    <a href="#" class="dp-Menu-link">Swap with ticket owner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-Owner"></span>
+                                    <a href="#" class="dp-Menu-link">Set as ticket owner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-Merge"></span>
+                                    <a href="#" class="dp-Menu-link">Merge into ticket owner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-Bin"></span>
+                                    <a href="#" class="dp-Menu-link">Remove CC</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-iconMin"></span>
+                                    <a href="#" class="dp-Menu-link">Remove CC & Block from ticket</a>
+                                </li>
                             </ul>
                         </div>
 
@@ -1002,12 +1047,27 @@ title: PageSidebar
                             </div>
                             <a href="#" class="dp-Icon dp-iconVDots"></a>
 
-                            <ul class="dp-CardMenu dp-ContextMenu">
-                                <li><a href="#"><span class="dp-Icon dp-Swap"></span>Swap with ticket owner</a></li>
-                                <li><a href="#"><span class="dp-Icon dp-Owner"></span>Set as ticket owner</a></li>
-                                <li><a href="#"><span class="dp-Icon dp-Merge"></span>Merge into ticket owner</a></li>
-                                <li><a href="#"><span class="dp-Icon dp-Bin"></span>Remove CC</a></li>
-                                <li><a href="#"><span class="dp-Icon dp-iconMin"></span>Remove CC & Block from ticket</a></li>
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-Swap"></span>
+                                    <a href="#" class="dp-Menu-link">Swap with ticket owner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-Owner"></span>
+                                    <a href="#" class="dp-Menu-link">Set as ticket owner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-Merge"></span>
+                                    <a href="#" class="dp-Menu-link">Merge into ticket owner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-Bin"></span>
+                                    <a href="#" class="dp-Menu-link">Remove CC</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-iconMin"></span>
+                                    <a href="#" class="dp-Menu-link">Remove CC & Block from ticket</a>
+                                </li>
                             </ul>
                         </div>
 

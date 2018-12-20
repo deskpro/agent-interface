@@ -255,10 +255,10 @@ title: Side-bar Overlay
 			    <div class="dp-PageSidebar dp-TicketOverlay">
 
 			        <div class="dp-SidebarTabs">
-			            <ul class="dp-SidebarTabsList">
-			                <li class="dp-SidebarTab-item"><a href="#" class="dp-Icon dp-tickets"></a></li>
-			                <li class="dp-SidebarTab-item is-active"><a href="#" class="dp-Icon dp-icon-user"></a></li>
-			                <li class="dp-SidebarTab-item"><a href="#" class="dp-Icon dp-oranisation"></a></li>
+			            <ul class="dp-Tabs Tabs--icons">
+			                <li class="dp-Tabs-item"><a href="#" class="dp-Icon dp-tickets"></a></li>
+			                <li class="dp-Tabs-item Tabs--primary"><a href="#" class="dp-Icon dp-icon-user"></a></li>
+			                <li class="dp-Tabs-item"><a href="#" class="dp-Icon dp-oranisation"></a></li>
 			            </ul>
 			        </div>
 
@@ -576,10 +576,10 @@ title: Side-bar Overlay
 			    <div class="dp-PageSidebar dp-TicketOverlay">
 
 			        <div class="dp-SidebarTabs">
-			            <ul class="dp-SidebarTabsList">
-			                <li class="dp-SidebarTab-item"><a href="#" class="dp-Icon dp-tickets"></a></li>
-			                <li class="dp-SidebarTab-item is-active"><a href="#" class="dp-Icon dp-icon-user"></a></li>
-			                <li class="dp-SidebarTab-item"><a href="#" class="dp-Icon dp-oranisation"></a></li>
+			            <ul class="dp-Tabs Tabs--icons">
+			                <li class="dp-Tabs-item"><a href="#" class="dp-Icon dp-tickets"></a></li>
+			                <li class="dp-Tabs-item Tabs--primary"><a href="#" class="dp-Icon dp-icon-user"></a></li>
+			                <li class="dp-Tabs-item"><a href="#" class="dp-Icon dp-oranisation"></a></li>
 			            </ul>
 			        </div>
 

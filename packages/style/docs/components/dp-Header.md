@@ -19,7 +19,7 @@ title: Header
             <div class="dp-SearchHeader">
                 <form class="dp-SearchForm">
                     <input type="" placeholder="Search ..."></input>
-                    <button type="submit" class="dp-Icon dp-find"></button>
+                    <span class="dp-Icon dp-find"></span>
                 </form>
                 <div class="dp-IconSection">
                     <ul class="dp-IconPanelList">
@@ -88,7 +88,7 @@ title: Header
             <div class="dp-SearchHeader">
                 <form class="dp-SearchForm">
                     <input type="" placeholder="Search ..." value="Pricing"></input>
-                    <button type="submit" class="dp-Icon dp-find"></button>
+                    <span class="dp-Icon dp-find"></span>
                 </form>
                 <div class="dp-IconSection">
 
@@ -143,7 +143,7 @@ title: Header
             <div class="dp-SearchHeader">
                 <form class="dp-SearchForm">
                     <input type="" placeholder="Search ..."></input>
-                    <button type="submit" class="dp-Icon dp-find"></button>
+                    <span class="dp-Icon dp-find"></span>
                 </form>
                 <div class="dp-IconSection">
                     <ul class="dp-IconPanelList">

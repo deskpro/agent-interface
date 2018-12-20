@@ -5,13 +5,13 @@ title: Tabs & Headers
 <h2>Tabs/general</h2>
 ```html @preview
 <div class="dp-MainWrapper">
-    <ul class="dp-TabBarList dp-Selected">
+    <ul class="dp-Tabs Tabs-General dp-Selected">
 
-        <li class="dp-AddTabButton">
-            <span class="dp-Icon dp-add_tab Icon-success"></span>
+        <li class="dp-Tabs-item Tabs--button">
+            <span class="dp-Icon"></span>
         </li>
 
-        <li class="dp-TabBarItem">
+        <li class="dp-Tabs-item">
             <span class="dp-Flex">
                 <span class="dp-Icon dp-email_small"></span>
                 <span class="dp-Title">Single-line-item</span>
@@ -22,7 +22,7 @@ title: Tabs & Headers
             </span>
         </li>
 
-        <li class="dp-TabBarItem is-active">
+        <li class="dp-Tabs-item Tabs--primary">
             <span class="dp-Flex">
                 <span class="dp-Icon dp-email_small"></span>
                 <span class="dp-Title">Single-line-item</span>
@@ -33,7 +33,7 @@ title: Tabs & Headers
             </span>
         </li>
 
-        <li class="dp-TabBarItem">
+        <li class="dp-Tabs-item">
             <a href="#">
                 <span class="dp-Flex">
                     <span class="dp-Icon dp-iconOrganisation"></span>
@@ -53,11 +53,11 @@ title: Tabs & Headers
 <h2>Tabs/generalsingle</h2>
 ```html @preview
 <div class="dp-MainWrapper">
-    <ul class="dp-TabBarList">
-        <li class="dp-AddTabButton">
-            <span class="dp-Icon dp-add_tab Icon-success"></span>
+    <ul class="dp-Tabs Tabs-General">
+        <li class="dp-Tabs-item Tabs--button">
+            <span class="dp-Icon"></span>
         </li>
-        <li class="dp-TabBarItem">
+        <li class="dp-Tabs-item">
             <span class="dp-Flex">
                 <span class="dp-Icon dp-email_small"></span>
                 <span class="dp-Title">Single-line-item</span>
@@ -73,51 +73,49 @@ title: Tabs & Headers
 
 <h2>Tabs</h2>
 ```html @preview
-<!-- Table -->
-<ul class="dp-ActionsItems dp-BorderBottom">
-    <li class="dp-ActionsItem dp-MenuBarItem is-active">MESSAGES AND NOTES</li>
-    <li class="dp-ActionsItem dp-MenuBarItem">FULL LOG</li>
-</ul>
+<div class="dp-MainWrapper">
+    <ul class="dp-Tabs Tabs--single">
+        <li class="dp-Tabs-item Tabs--primary">MESSAGES AND NOTES</li>
+        <li class="dp-Tabs-item">FULL LOG</li>
+    </ul>
 
-<ul class="dp-ActionsItems dp-BorderBottom">
-    <li class="dp-ActionsItem dp-MenuBarItem">MESSAGES AND NOTES</li>
-    <li class="dp-ActionsItem dp-MenuBarItem is-active">FULL LOG</li>
-</ul>
+    <ul class="dp-Tabs Tabs--single">
+        <li class="dp-Tabs-item">MESSAGES AND NOTES</li>
+        <li class="dp-Tabs-item Tabs--primary">FULL LOG</li>
+    </ul>
+</div>
 ```
 
 <h2>Tabs/dropdowns</h2>
 ```html @preview
-<div style="height: 100px">
-    <div class="dp-Actions">
-        <ul class="dp-ActionsItems dp-BorderBottom">
-            <li class="dp-ActionsItem dp-MenuBarItem is-active">
-                Reply
-                <span class="dp-Arrow"></span>
-
-                <ul class="dp-CardMenu dp-ContextMenu">
-                    <li><a href="#">Reply</a></li>
-                    <li><a href="#">Forward</a></li>
-                </ul>
-
-            </li>
-            <li class="dp-ActionsItem dp-MenuBarItem">Add Note</li>
-            <li class="dp-ActionsItem dp-MenuBarItem dp-Macros is-active">
-                Macros
-                <span class="dp-Arrow"></span>
-
-               <ul class="dp-CardMenu dp-ContextMenu">
-                    <li>
-                        <form class="dp-Form dp-SearchForm">
-                            <button type="submit" class="dp-Icon dp-IconSearch"></button>
-                            <input type="text" class="dp-SearchInput"></input>
-                        </form>
-                    </li>
-                    <li><a href="#">Macro 1</a></li>
-                    <li><a href="#">Macro 2</a></li>
-                </ul>
-            </li>
-        </ul>
-    </div>
+<div class="dp-MainWrapper" style="height: 100px">
+    <ul class="dp-Tabs Tabs--single">
+        <li class="dp-Tabs-item Tabs--primary is-expandable is-visible">
+            Reply
+            <span class="dp-Arrow"></span>
+            <ul class="dp-Menu">
+                <li><a href="#">Reply</a></li>
+                <li><a href="#">Forward</a></li>
+            </ul>
+        </li>
+        <li class="dp-Tabs-item is-expandable">
+            Add Note
+        </li>
+        <li class="dp-Tabs-item Tabs--primary is-expandable is-visible">
+            Macros
+            <span class="dp-Arrow"></span>
+            <ul class="dp-Menu">
+                <li>
+                    <form class="dp-Form dp-SearchForm">
+                        <span class="dp-Icon dp-IconSearch"></span>
+                        <input type="text" class="dp-SearchInput">
+                    </form>
+                </li>
+                <li><a href="#">Macro 1</a></li>
+                <li><a href="#">Macro 2</a></li>
+            </ul>
+        </li>
+    </ul>
 </div>
 ```
 
@@ -133,13 +131,15 @@ title: Tabs & Headers
 <h2>Tabs/apps</h2>
 ```html @preview
 <div class="dp-MainWrapper">
-    <ul class="dp-MenuBarList">
-
-        <li class="dp-MenuBarItem">
+    <ul class="dp-Tabs is-vertical">
+        <li class="dp-Tabs-item is-expandable">
             <span class="dp-Icon dp-billing"></span>
-            <span class="dp-Title">Text<span class="dp-Arrow"></span></span>
+            <span class="dp-Title dp-Arrow">Text</span>
         </li>
-
+        <li class="dp-Tabs-item is-expandable Tabs--primary">
+            <span class="dp-Icon dp-billing"></span>
+            <span class="dp-Title dp-Arrow">Text</span>
+        </li>
     </ul>
 </div>
 ```
@@ -149,10 +149,10 @@ title: Tabs & Headers
 <div class="dp-MainWrapper">
     <div class="dp-PageSidebar">
         <div class="dp-SidebarTabs">
-            <ul class="dp-SidebarTabsList">
-                <li class="dp-SidebarTab-item is-active"><a href="#" class="dp-Icon dp-tickets"></a></li>
-                <li class="dp-SidebarTab-item"><a href="#" class="dp-Icon dp-icon-user"></a></li>
-                <li class="dp-SidebarTab-item"><a href="#" class="dp-Icon dp-oranisation"></a></li>
+            <ul class="dp-Tabs Tabs--icons">
+                <li class="dp-Tabs-item Tabs--primary"><a href="#" class="dp-Icon dp-tickets"></a></li>
+                <li class="dp-Tabs-item"><a href="#" class="dp-Icon dp-icon-user"></a></li>
+                <li class="dp-Tabs-item"><a href="#" class="dp-Icon dp-oranisation"></a></li>
             </ul>
         </div>
     </div>
