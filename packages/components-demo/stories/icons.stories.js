@@ -106,6 +106,10 @@ storiesOf("Elements", module).add("Icons", () => (
         <pre className="dp-IconTitle">cloud</pre>
       </span>
       <span className="dp-IconWrapper">
+        <Icon name="copy" />
+        <pre className="dp-IconTitle">copy</pre>
+      </span>
+      <span className="dp-IconWrapper">
         <Icon name="create-ticket" />
         <pre className="dp-IconTitle">create-ticket</pre>
       </span>
@@ -268,6 +272,10 @@ storiesOf("Elements", module).add("Icons", () => (
       <span className="dp-IconWrapper">
         <Icon name="notifications" />
         <pre className="dp-IconTitle">notifications</pre>
+      </span>
+      <span className="dp-IconWrapper">
+        <Icon name="on-hold" />
+        <pre className="dp-IconTitle">on-hold</pre>
       </span>
       <span className="dp-IconWrapper">
         <Icon name="organisation" />

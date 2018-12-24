@@ -21,6 +21,7 @@ import CaretFilled from "../../../icons/CaretFilled.svg";
 import Chat from "../../../icons/Chat.svg";
 import Close from "../../../icons/Close.svg";
 import Cloud from "../../../icons/Cloud.svg";
+import Copy from "../../../icons/Copy.svg";
 import CreateTicket from "../../../icons/CreateTicket.svg";
 import Criteria from "../../../icons/Criteria.svg";
 import CRM from "../../../icons/CRM.svg";
@@ -61,6 +62,7 @@ import Mute from "../../../icons/Mute.svg";
 import New from "../../../icons/New.svg";
 import News from "../../../icons/News.svg";
 import Notifications from "../../../icons/Notifications.svg";
+import OnHold from "../../../icons/Onhold.svg";
 import Organisation from "../../../icons/Organisation.svg";
 import Owner from "../../../icons/Owner.svg";
 import Phone from "../../../icons/Phone.svg";
@@ -124,6 +126,7 @@ export default {
   chat: Chat,
   close: Close,
   cloud: Cloud,
+  copy: Copy,
   "create-ticket": CreateTicket,
   criteria: Criteria,
   crm: CRM,
@@ -164,6 +167,7 @@ export default {
   new: New,
   news: News,
   notifications: Notifications,
+  "on-hold": OnHold,
   organisation: Organisation,
   owner: Owner,
   phone: Phone,
