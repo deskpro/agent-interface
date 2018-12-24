@@ -6,10 +6,8 @@ title: Badges
 ```html @preview
 <div class="dp-BadgeWrapper">
     <span class="dp-Badge Badge--id">#14355</span>
-    <!-- <span class="dp-IconGroup"> -->
-    	<span class="dp-Icon dp-tablets"></span>
-    	<span class="dp-Icon dp-link"></span>
-    <!-- </span> -->
+    <span class="dp-Icon dp-tablets"></span>
+    <span class="dp-Icon dp-link"></span>
 </div>
 ```
 
@@ -27,11 +25,8 @@ title: Badges
 
 <h2>Badges/pill</h4>
 ```html @preview
-<!-- <span class="dp-Badge Badge--filterPill"> -->
 <span class="dp-Tag Tag--danger">badges-pill</span>
 ```
-
-
 
 # Tags/Badges
 ```html @preview
@@ -44,7 +39,7 @@ title: Badges
 <span class="dp-Tag Tag--danger">Tag color</span>
 <span class="dp-Tag Tag--warning">Tag color</span>
 <span class="dp-Tag Tag--pink">Tag color</span>
-<span class="dp-Tag Tag--neutral">Tag color</span>
+<span class="dp-Tag Tag--success">Tag color</span>
 ```
 
 # Sizes
@@ -56,7 +51,7 @@ title: Badges
 
 # Badges
 ```html @preview
-<div class="dp-MainWrapper">
+<div class="dp-MainWrapper Badge--round">
     <span class="dp-Badge Badge--round Badge--danger">10</span>
     <span class="dp-Badge Badge--round Badge--warning">9</span>
     <span class="dp-Badge Badge--round Badge--warning-light">7</span>

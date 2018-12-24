@@ -62,6 +62,15 @@
     }
   }
 
+  &.Button--outborder {
+    border: none;
+
+    &:hover {
+      background-color: transparent;
+      border: none;
+    }
+  }
+
   /* Button/icon-text */
 
   &.dp-IconTextButton {

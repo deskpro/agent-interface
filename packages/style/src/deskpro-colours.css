@@ -57,11 +57,11 @@
 }
 
 .Bg-Color--neutral {
-  background: var(--success);
+  background: var(--neutral);
 }
 
 .Bg-Color--success {
-  background: var(--neutral);
+  background: var(--success);
 }
 
 .Bg-Color--info {

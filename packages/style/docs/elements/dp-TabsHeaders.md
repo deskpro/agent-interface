@@ -94,8 +94,12 @@ title: Tabs & Headers
             Reply
             <span class="dp-Arrow"></span>
             <ul class="dp-Menu is-visible">
-                <li class="dp-Menu-linkItem"><a href="#">Reply</a></li>
-                <li class="dp-Menu-linkItem"><a href="#">Forward</a></li>
+                <li class="dp-Menu-linkItem">
+                    <a href="#" class="dp-Menu-link">Reply</a>
+                </li>
+                <li class="dp-Menu-linkItem">
+                    <a href="#" class="dp-Menu-link">Forward</a>
+                </li>
             </ul>
         </li>
         <li class="dp-Tabs-item is-expandable">
@@ -104,17 +108,21 @@ title: Tabs & Headers
         <li class="dp-Tabs-item Tabs--primary is-expandable is-visible">
             Macros
             <span class="dp-Arrow"></span>
-            <ul class="dp-Menu">
-                <li class="dp-Menu-linkItem">
+            <ul class="dp-Menu dp-Menu-search is-visible">
+                <li class="dp-Menu-linkItem dp-Form">
                     <form>
-                        <div class="dp-Form dp-Menu-search">
+                        <div class="dp-Form ">
                             <span class="dp-Icon dp-IconSearch"></span>
                             <input type="text" class="dp-Input Input--search">
                         </div>
                     </form>
                 </li>
-                <li class="dp-Menu-linkItem"><a href="#">Macro 1</a></li>
-                <li class="dp-Menu-linkItem"><a href="#">Macro 2</a></li>
+                <li class="dp-Menu-linkItem">
+                    <a href="#" class="dp-Menu-link">Macro 1</a>
+                </li>
+                <li class="dp-Menu-linkItem">
+                    <a href="#" class="dp-Menu-link">Macro 2</a>
+                </li>
             </ul>
         </li>
     </ul>

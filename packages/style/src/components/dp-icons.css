@@ -47,7 +47,7 @@
 .dp-ActivityStatus .dp-Badge.Badge--round {
   height: 11px;
   margin-left: 3px;
-  min-width: 11px;
+  width: 11px;
 }
 
 .ActivityStatus--writing::before {

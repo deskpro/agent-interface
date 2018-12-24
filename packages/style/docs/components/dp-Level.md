@@ -31,7 +31,7 @@ In a dp-LevelItem, you can then insert almost anything you want: a title, a butt
     <button class="dp-Button">dp-LevelLeft</button>
   </div>
   <div class="dp-LevelItem">
-    <button class="dp-Button Button--small">dp-LevelItem</button>
+    <button class="dp-Button">dp-LevelItem</button>
   </div>
   <div class="dp-LevelRight">
     <button class="dp-Button">dp-LevelRight</button>
@@ -42,13 +42,14 @@ In a dp-LevelItem, you can then insert almost anything you want: a title, a butt
 # Vertical
 ```html @preview
 
-<div class="dp-Level">
+<div class="dp-Level" style="height:100px">
 
   <div class="dp-LevelTop">
     <button class="dp-Button Button--small">dp-LevelTop</button>
   </div>
-  <div class="dp-LevelItem">
-    <button class="dp-Button Button--large">dp-LevelItem</button>
+  <!-- <div class="dp-LevelItem"> -->
+  <div class="dp-LevelMiddle">
+    <button class="dp-Button Button--small">dp-LevelItem</button>
   </div>
   <div class="dp-LevelBottom">
     <button class="dp-Button Button--small">dp-LevelBottom</button>

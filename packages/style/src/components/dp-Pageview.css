@@ -102,18 +102,13 @@
 }
 
 .Tabs--actions .dp-Tabs-item .dp-Icon {
+  background-size: 12px 12px;
   cursor: pointer;
   display: inline-block;
-  margin-right: 5px;
-}
 
-.Tabs--actions .dp-Tabs-item .dp-phone_filled {
-  background-size: 12px 12px;
-}
-
-.Tabs--actions .dp-Tabs-item:nth-child(n+2) .dp-Icon {
   height: 13px;
-  width: 13px;
+  margin-right: 5px;
+  width: 15px;
 }
 
 .Tabs--actions .dp-Tabs-item {
@@ -280,7 +275,7 @@
 .dp-ReplyBox textarea::placeholder {
   color: var(--grey);
   font: var(--h-l-semibold);
-  font-style: italic;
+  font-style: var(--is-italic);;
 }
 
 /* Reply Box 2 */

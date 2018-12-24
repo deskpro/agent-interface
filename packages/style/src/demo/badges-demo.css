@@ -8,3 +8,7 @@
 .dp-Tag:first-child {
   margin-left: 0;
 }
+
+.dp-MainWrapper.Badge--round {
+  display: flex;
+}

@@ -55,16 +55,14 @@ title: Page Tabs
         </li>
 
         <li class="dp-Tabs-item">
-            <a href="#">
-                <span class="dp-Flex">
-                    <span class="dp-Icon dp-iconOrganisation"></span>
-                    <span class="dp-Title">Techcompany</span>
-                </span>
-                <span class="dp-Flex">
-                    <span class="dp-Icon"></span>
-                    <span class="dp-Subtitle">Organisation</span>
-                </span>
-            </a>
+            <span class="dp-Flex">
+                <span class="dp-Icon dp-iconOrganisation"></span>
+                <span class="dp-Title">Techcompany</span>
+            </span>
+            <span class="dp-Flex">
+                <span class="dp-Icon"></span>
+                <span class="dp-Subtitle">Organisation</span>
+            </span>
         </li>
 
     </ul>
@@ -103,16 +101,14 @@ title: Page Tabs
         </li>
 
         <li class="dp-Tabs-item">
-            <a href="#">
-                <span class="dp-Flex">
-                    <span class="dp-Icon dp-iconOrganisation"></span>
-                    <span class="dp-Title">Techcompany</span>
-                </span>
-                <span class="dp-Flex">
-                    <span class="dp-Icon"></span>
-                    <span class="dp-Subtitle">Organisation</span>
-                </span>
-            </a>
+            <span class="dp-Flex">
+                <span class="dp-Icon dp-iconOrganisation"></span>
+                <span class="dp-Title">Techcompany</span>
+            </span>
+            <span class="dp-Flex">
+                <span class="dp-Icon"></span>
+                <span class="dp-Subtitle">Organisation</span>
+            </span>
         </li>
 
         <li class="dp-Tabs-item">
@@ -160,7 +156,7 @@ title: Page Tabs
         </li>
 
         <li class="dp-Tabs-item Tabs--button">
-            <span class="dp-Title">+5</span>
+            <span class="dp-TitleButton">+5</span>
         </li>
 
     </ul>
@@ -368,16 +364,14 @@ title: Page Tabs
         </li>
 
         <li class="dp-Tabs-item">
-            <a href="#">
-                <span class="dp-Flex">
-                    <span class="dp-Icon dp-iconOrganisation"></span>
-                    <span class="dp-Title">Techcompany</span>
-                </span>
-                <span class="dp-Flex">
-                    <span class="dp-Icon"></span>
-                    <span class="dp-Subtitle">Organisation</span>
-                </span>
-            </a>
+            <span class="dp-Flex">
+                <span class="dp-Icon dp-iconOrganisation"></span>
+                <span class="dp-Title">Techcompany</span>
+            </span>
+            <span class="dp-Flex">
+                <span class="dp-Icon"></span>
+                <span class="dp-Subtitle">Organisation</span>
+            </span>
         </li>
 
     </ul>
@@ -416,16 +410,14 @@ title: Page Tabs
         </li>
 
         <li class="dp-Tabs-item">
-            <a href="#">
-                <span class="dp-Flex">
-                    <span class="dp-Icon dp-iconOrganisation"></span>
-                    <span class="dp-Title">Techcompany</span>
-                </span>
-                <span class="dp-Flex">
-                    <span class="dp-Icon"></span>
-                    <span class="dp-Subtitle">Organisation</span>
-                </span>
-            </a>
+            <span class="dp-Flex">
+                <span class="dp-Icon dp-iconOrganisation"></span>
+                <span class="dp-Title">Techcompany</span>
+            </span>
+            <span class="dp-Flex">
+                <span class="dp-Icon"></span>
+                <span class="dp-Subtitle">Organisation</span>
+            </span>
         </li>
 
     </ul>

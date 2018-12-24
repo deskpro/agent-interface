@@ -157,6 +157,7 @@
   display: flex;
   flex-wrap: wrap;
   padding-left: 0;
+  width: 100%;
 }
 
 .dp-Card-SectionTitle {
@@ -166,7 +167,9 @@
   display: flex;
   font: var(--h-s-semibold);
   margin: 0;
-  padding: 7px 13px;
+  padding: 10px 10px;
+
+  /* padding: 7px 13px; */
   text-transform: uppercase;
   width: 100%;
 }
@@ -203,17 +206,21 @@
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
 
-  /* width: calc(100% - 10px); */
+.dp-CustomCheckbox input[type="checkbox"] + label.dp-Card-title {
+  font: var(--h-n-semibold);
 }
 
 .is-hoverable .dp-Card.is-active,
 .is-hoverable .dp-Card:hover {
-  background-color: #e1eefb;
-  border-top: 1px solid var(--brand-primary);
+  background-color: var(--info-light);
+
+  /* border-top: 1px solid var(--brand-primary); */
+
 }
 
-.is-hoverable .dp-Card:hover + .dp-Card,
+/* .is-hoverable .dp-Card:hover + .dp-Card,
 .is-hoverable .dp-Card.is-active + .dp-Card {
   border-top: 1px solid var(--brand-primary);
 }
@@ -226,14 +233,14 @@
 .is-hoverable .dp-Card:last-child.is-active,
 .is-hoverable .dp-Card:last-child:hover {
   border-bottom: 1px solid var(--brand-primary);
-}
+} */
 
 .dp-Icon--circle {
   align-items: center;
   background-color: var(--white);
   background-position: 50%;
   background-repeat: no-repeat;
-  border: 1px solid #d3d6d7;
+  border: 1px solid var(--grey-light);
   border-radius: 50%;
   color: var(--white);
   display: flex;
@@ -256,7 +263,8 @@
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  width: calc(100% - 25px);
+
+  /* width: calc(100% - 25px); */
 }
 
 .dp-Card .dp-iconUserAvatar {
@@ -279,9 +287,9 @@
   background-size: 12px 12px;
 }
 
-.dp-Card.is-active input[type="checkbox"] + label::before {
+/* .dp-Card.is-active input[type="checkbox"] + label::before {
   border: 1px solid var(--brand-primary);
-}
+} */
 
 .dp-Card .dp-iconClock {
   background-size: 18px 18px;
@@ -297,6 +305,14 @@
 .dp-Card .dp-UserName {
   color: var(--grey-darkest);
   font: var(--p-xl);
+}
+
+.dp-Card .dp-Icon + .dp-UserName,
+.dp-Card .dp-Icon + .dp-Card-link,
+.dp-Card .dp-Icon + .dp-Date-link,
+.dp-Card .dp-Icon + .dp-Comments-title,
+.dp-Tasks-list .dp-Icon + .dp-UserName {
+  margin-left: 5px;
 }
 
 .dp-Card .dp-UserEmail {
@@ -532,9 +548,9 @@ thead .dp-Card-title td {
   border: none;
 }
 
-.dp-TableviewBody tr:last-child {
+/* .dp-TableviewBody tr:last-child {
   border-bottom: 1px solid var(--grey-light);
-}
+} */
 
 .dp-Tableview tr:nth-child(2n) {
   background-color: transparent;
@@ -542,8 +558,9 @@ thead .dp-Card-title td {
 
 .is-hoverable tr:hover, .is-hoverable tr.is-active {
   background-color: var(--info-light);
-  border-bottom: 1px solid var(--brand-primary);
-  border-top: 1px solid var(--brand-primary);
+
+  /*  border-bottom: 1px solid var(--brand-primary);
+  border-top: 1px solid var(--brand-primary); */
 }
 
 .dp-TableviewBody .dp-Icon {
@@ -567,7 +584,7 @@ thead .dp-Card-title td {
   position: relative;
 }
 
-/*  */
+/* Listpane/guides */
 
 .dp-MassSelectTitle .dp-ItemRow {
   align-items: center;
@@ -619,11 +636,7 @@ thead .dp-Card-title td {
   font: var(--p-xl);
 }
 
-.dp-FilterSubList {
-  width: 100%;
-}
-
-.dp-ListpaneGuides .dp-Card-title {
+/* .dp-ListpaneGuides .dp-Card-title {
   display: flex;
 }
 
@@ -636,6 +649,10 @@ thead .dp-Card-title td {
   border-bottom: 1px solid var(--brand-primary);
   border-top: 1px solid var(--brand-primary);
   padding-bottom: 0;
+} */
+
+/* .dp-FilterSubList {
+  width: 100%;
 }
 
 .dp-ListpaneGuides .dp-Card .dp-FilterSubList {
@@ -644,16 +661,16 @@ thead .dp-Card-title td {
 
 .dp-ListpaneGuides .dp-Card.is-active .dp-FilterSubList {
   display: block;
-}
+} */
 
-.dp-FilterSubList .dp-Card {
+/* .dp-FilterSubList .dp-Card {
   border-bottom: 0;
   border-top: 1px solid var(--grey-light);
   padding-left: 20px;
   padding-right: 0;
-}
+} */
 
-.dp-FilterSubList .dp-Card::before {
+/* .dp-FilterSubList .dp-Card::before {
   background-color: var(--grey);
   content: "";
   height: 103%;
@@ -661,13 +678,13 @@ thead .dp-Card-title td {
   position: absolute;
   top: -1px;
   width: 20px;
-}
+} */
 
-.dp-FilterSubList .dp-UserInfo {
+/* .dp-FilterSubList .dp-UserInfo {
   padding: 0;
-}
+} */
 
-.dp-ListpaneGuides .newControlsList .dp-UserInfo {
+/* .dp-ListpaneGuides .newControlsList .dp-UserInfo {
   align-items: center;
   display: flex;
 }
@@ -680,11 +697,11 @@ thead .dp-Card-title td {
 
 .dp-ListpaneGuides .dp-UserInfo .dp-Icon {
   background-size: 15px 15px;
-}
+} */
 
 /* Listpane/tasks */
 
-.dp-TasksSort {
+/* .dp-TasksSort {
   background-color: var(--grey-light);
   display: block;
   padding: 10px;
@@ -770,7 +787,7 @@ thead .dp-Card-title td {
 
 .dp-ListpaneTasks .dp-Card.is-active {
   background-color: var(--grey-light);
-}
+} */
 
 /* filter result controls */
 
@@ -963,8 +980,6 @@ thead .dp-Card-title td {
 
 }
 
-/* .dp-ActionButton::after, .dp-IconTextButton::after { */
-
 .Tabs--actions .dp-Tabs-item.dp-Arrow::after, .dp-ActionButton.dp-Arrow::after, .dp-IconTextButton.dp-Arrow::after {
   border-color: var(--grey-dark) transparent transparent transparent;
   border-style: solid;
@@ -979,34 +994,24 @@ thead .dp-Card-title td {
   width: 0;
 }
 
-/* .dp-ActionButton .dp-iconRocketwhite { */
-
 .dp-Tabs-item .dp-iconRocketwhite {
   display: none;
 }
-
-/* .dp-DropDownBar .dp-ActionButton.is-active { */
 
 .Tabs--actions .dp-Tabs-item.is-active {
   background-color: var(--brand-primary);
   color: var(--white);
 }
 
-/* .dp-ActionButton.is-active::after { */
-
 .dp-Tabs-item.dp-Arrow.is-active::after {
   border-color: var(--white) transparent transparent transparent;
   transform: rotate(180deg);
 }
 
-/* .dp-ActionButton.is-active .dp-iconRocketwhite { */
-
 .dp-Tabs-item.is-active .dp-iconRocketwhite {
   background-image: url('data:image/svg+xml,<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 11 11" style="enable-background:new 0 0 11 11;" xml:space="preserve"><style type="text/css">.st0{fill:%23ffffff;}</style><path class="st0" d="M9.5,2.2c0-0.2-0.1-0.3-0.2-0.5S9,1.5,8.8,1.5S8.5,1.6,8.4,1.7S8.2,2,8.2,2.2s0.1,0.3,0.2,0.5s0.3,0.2,0.5,0.2 s0.3-0.1,0.5-0.2S9.5,2.3,9.5,2.2z M11,0.2c0,1.1-0.2,2.1-0.5,2.9S9.6,4.7,8.8,5.5C8.4,5.9,8,6.3,7.5,6.7L7.3,9.3 c0,0.1,0,0.1-0.1,0.2L4.6,11c0,0-0.1,0-0.1,0c-0.1,0-0.1,0-0.2-0.1l-0.4-0.4c-0.1-0.1-0.1-0.1-0.1-0.2l0.6-1.9L2.6,6.5L0.7,7.1 c0,0,0,0-0.1,0c-0.1,0-0.1,0-0.2-0.1L0.1,6.6C0,6.5,0,6.5,0,6.4l1.5-2.6c0-0.1,0.1-0.1,0.2-0.1l2.6-0.1c0.4-0.5,0.8-1,1.2-1.3 c0.8-0.8,1.6-1.4,2.4-1.7S9.6,0,10.8,0c0.1,0,0.1,0,0.2,0.1C11,0.1,11,0.2,11,0.2z"/></svg>');
   display: inline-block;
 }
-
-/* .dp-ActionButton.is-active .dp-iconRocketBlue { */
 
 .dp-Tabs-item.is-active .dp-iconRocketBlue {
   display: none;
@@ -1033,6 +1038,306 @@ thead .dp-Card-title td {
 
 /* listpane/kanban-view */
 
-.dp-KanbanView .dp-Level .dp-LevelCol:nth-child(2) {
+.dp-KanbanView .dp-Level .dp-LevelCol:nth-child(2),
+.dp-KanbanView .dp-CustomCheckbox {
   max-width: 200px;
+}
+
+/* Listpane/guides */
+
+.dp-CardList.dp-Listpane-guides > .dp-Card.dp-Level:first-child {
+  border: 1px dashed var(--grey-light);
+  border-bottom: 1px solid var(--grey-light);
+}
+
+.dp-CardList.dp-Listpane-guides > .dp-Card {
+  border-right: 1px dashed var(--grey-light);
+}
+
+.dp-Listpane-guides .dp-Card {
+  border-left: 1px solid var(--grey-light);
+  border-top: 0;
+}
+
+.dp-CardList.dp-Listpane-guides > .dp-Card.Level--down {
+  border-left: 0;
+}
+
+.dp-Listpane-guides .Level--down {
+  border-bottom: 0;
+  display: none;
+  padding: 0 0 0 30px;
+  position: relative;
+}
+
+.dp-Listpane-guides .dp-Card.is-active + .Level--down {
+  display: block;
+}
+
+.dp-Card.dp-Level.is-active > .dp-LevelCol .dp-down_caret {
+  background-image: url('data:image/svg+xml,<svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0)"><path d="M8.05001 8.94999L15.05 1.64999C15.35 1.24999 15.35 0.749988 15.05 0.349988C14.75 -0.0500122 14.15 -0.0500122 13.85 0.349988L8.05001 6.34999L2.25001 0.349988C1.95001 -0.0500122 1.35001 -0.0500122 1.05001 0.349988C0.750012 0.749988 0.750012 1.24999 1.05001 1.64999L8.05001 8.94999Z" fill="%233a8dde"/></g><defs><clipPath id="clip0"><rect width="14.5" height="8.8" fill="white" transform="translate(0.750015 0.149994)"/></clipPath></defs></svg>');
+  transform: rotate(-180deg);
+}
+
+.dp-Listpane-guides .Level--down::after {
+  background-color: var(--grey-lightest);
+  content: "";
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 30px;
+}
+
+.dp-Listpane-guides .Level--down .dp-sub_field {
+  left: -20px;
+  position: absolute;
+  top: 5px;
+  z-index: 1;
+}
+
+.dp-Card .dp-drag {
+  height: 12px;
+  margin-right: 5px;
+  width: 12px;
+}
+
+.Level--down .dp-Card.dp-Level .dp-sub_field::after {
+  background-color: var(--grey);
+  content: "";
+  height: 60px;
+  left: 0;
+  position: absolute;
+  top: -55px;
+  width: 1px;
+}
+
+.Level--down .dp-Card.dp-Level:first-child .dp-sub_field::after {
+  display: none;
+}
+
+.Card--primary {
+  background-color: var(--info-light);
+}
+
+.dp-Listpane-guides .dp-Card .dp-iconUserAvatar + .dp-iconUserAvatar {
+  background-color: var(--white);
+  border-radius: 50%;
+  margin-left: -5px;
+  padding: 10px;
+}
+
+/* listpane/tasksnew */
+
+.dp-CardList.dp-Tasks-list .dp-Card-title > .dp-Approve {
+  background-image: url('data:image/svg+xml,<svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11 0.500002C4.92537 0.500002 0 5.42537 0 11.5C0 17.5746 4.92537 22.5 11 22.5C17.0746 22.5 22 17.5746 22 11.5C22 5.42537 17.0746 0.500002 11 0.500002ZM11 21.1455C5.66418 21.1455 1.35448 16.7948 1.35448 11.5C1.35448 6.16418 5.70523 1.85448 11 1.85448C16.2948 1.85448 20.6455 6.20523 20.6455 11.5C20.6455 16.7948 16.3358 21.1455 11 21.1455Z" fill="%23A9B0B0"/><path d="M9.4038 16.5569C9.06612 16.5838 8.72988 16.4651 8.48272 16.225L5.35678 13.2336C4.87682 12.7743 4.86295 12.0174 5.31765 11.5385C5.77696 11.0585 6.53382 11.0446 7.01276 11.4993L9.17312 13.5685L14.0803 7.20317C14.4857 6.67712 15.2389 6.58178 15.764 6.98265C16.29 7.38812 16.3853 8.14133 15.9845 8.66635L10.2628 16.0895C10.0274 16.4663 9.46119 16.5538 9.4038 16.5569Z" fill="%23A9B0B0"/></svg>');
+  background-size: 16px 16px;
+  height: 16px;
+  margin: 0 5px 0 0;
+  width: 16px;
+}
+
+.dp-CardList.dp-Tasks-list .dp-Card-title > .dp-Approve.is-active {
+  background-image: url('data:image/svg+xml,<svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="8.18848" cy="8.625" r="7.75" fill="%2354B162"/><path d="M8.18848 0.5C3.76742 0.5 0.188477 4.07895 0.188477 8.5C0.188477 12.9211 3.76742 16.5 8.18848 16.5C12.6095 16.5 16.1885 12.9211 16.1885 8.5C16.1885 4.07895 12.6095 0.5 8.18848 0.5ZM8.18848 15.8684C4.1183 15.8684 0.820055 12.5702 0.820055 8.5C0.820055 4.42982 4.1183 1.13158 8.18848 1.13158C12.2587 1.13158 15.5569 4.42982 15.5569 8.5C15.5569 12.5702 12.2587 15.8684 8.18848 15.8684Z" fill="%2354B162"/><g clip-path="url(#clip0)"><path d="M3.83915 9.68578C3.63825 9.48258 3.63825 9.13716 3.83915 8.93396L3.94964 8.82221C4.15053 8.61901 4.49205 8.61901 4.69294 8.82221L6.62151 10.7729L11.684 5.65239C11.8849 5.4492 12.2264 5.4492 12.4273 5.65239L12.5378 5.76415C12.7387 5.96734 12.7387 6.31277 12.5378 6.51597L6.62151 12.5L3.83915 9.68578Z" fill="%23F7F7F7"/></g><defs><clipPath id="clip0"><rect width="9" height="7" fill="white" transform="matrix(1 0 0 -1 3.68848 12.5)"/></clipPath></defs></svg>');
+}
+
+.dp-CardList.dp-Tasks-list .dp-Card {
+  border: 1px dashed var(--grey-light);
+  border-bottom: 1px solid var(--grey-light);
+  position: relative;
+}
+
+.dp-CardList.dp-Tasks-list .dp-Card:hover {
+  background-color: var(--info-light);
+  border-right: 1px solid var(--grey-light);
+}
+
+/* .dp-CardList.dp-Tasks-list .dp-Card:hover .dp-LevelItem > .dp-Icon { */
+
+.dp-Card.is-active .dp-settings,
+.dp-Card:hover .dp-LevelItem > .dp-settings {
+  display: block;
+}
+
+/* .dp-Tasks-list > .dp-Card .dp-UserInfo + .dp-Icon { */
+
+.dp-Card .dp-settings {
+  background-color: var(--info-light);
+  border: 1px solid var(--grey-light);
+  border-radius: 50%;
+  display: none;
+  left: calc(100% - 10px);
+  padding: 8px;
+  position: absolute;
+  top: calc(50% - 8.5px);
+}
+
+.dp-Tasks-list .dp-CustomCheckbox input[type="checkbox"] + label {
+  display: block;
+  max-width: 100%;
+  padding-left: 20px;
+}
+
+.dp-Tasks-list .dp-Card-link {
+  color: var(--brand-primary);
+  font: var(--p-xl);
+  text-decoration: underline;
+}
+
+.dp-Tasks-list .dp-link {
+  background-size: 12px 12px;
+}
+
+.dp-Tasks-list .dp-UserInfo {
+  display: flex;
+}
+
+.dp-CardList .dp-DateGroup {
+  align-items: center;
+  display: flex;
+}
+
+.dp-CardList .dp-DateGroup .dp-Icon {
+  background-size: 15px 16px;
+}
+
+.dp-CardList .dp-Date-link,
+.dp-Tasks-list .dp-UserInfo > .dp-UserName {
+  color: var(--brand-primary);
+  font: var(--p-n);
+}
+
+.dp-Tasks-list .dp-Card > .dp-LevelItem {
+  margin-bottom: 10px;
+}
+
+.dp-Tasks-list .dp-Card > .dp-LevelItem:last-child {
+  margin-bottom: 0;
+}
+
+.dp-Tasks-list .dp-LevelItem:nth-child(n+2) {
+  padding-left: 20px;
+}
+
+.dp-UserInfo.dp-LevelLeft,
+.dp-UserInfo.dp-LevelRight {
+  flex: 0 1 auto;
+}
+
+.dp-settings.is-active {
+  background-image: url('data:image/svg+xml,<svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0)"><path d="M8.69999 6.34999C8.69999 5.74999 8.49999 5.34999 8.09999 4.94999C7.69999 4.54999 7.29999 4.34999 6.69999 4.34999C6.09999 4.34999 5.69999 4.54999 5.29999 4.94999C4.89999 5.34999 4.69999 5.74999 4.69999 6.34999C4.69999 6.94999 4.89999 7.34999 5.29999 7.74999C5.69999 8.14999 6.09999 8.34999 6.69999 8.34999C7.29999 8.34999 7.69999 8.14999 8.09999 7.74999C8.49999 7.34999 8.69999 6.94999 8.69999 6.34999ZM12.7 5.44999V7.14999C12.7 7.24999 12.7 7.24999 12.6 7.34999C12.5 7.44999 12.5 7.44999 12.4 7.44999L11 7.64999C10.9 7.94999 10.8 8.14999 10.7 8.34999C10.9 8.64999 11.2 8.94999 11.5 9.44999C11.6 9.54999 11.6 9.54999 11.6 9.64999C11.6 9.74999 11.6 9.74999 11.5 9.84999C11.4 10.05 11.1 10.35 10.7 10.65C10.3 10.95 10.1 11.25 9.99999 11.25C9.89999 11.25 9.89999 11.25 9.79999 11.15L8.79999 10.35C8.59999 10.45 8.29999 10.55 8.09999 10.65C7.99999 11.35 7.89999 11.85 7.89999 12.15C7.79999 12.25 7.69999 12.35 7.59999 12.35H5.79999C5.69999 12.35 5.69999 12.35 5.59999 12.25C5.49999 12.15 5.49999 12.15 5.49999 12.05L5.29999 10.65C4.99999 10.55 4.79999 10.45 4.59999 10.35L3.49999 11.15C3.39999 11.15 3.39999 11.25 3.29999 11.25C3.19999 11.25 3.19999 11.25 3.09999 11.15C2.39999 10.55 1.99999 10.15 1.79999 9.84999C1.79999 9.74999 1.69999 9.74999 1.69999 9.64999C1.69999 9.54999 1.69999 9.54999 1.79999 9.44999C1.89999 9.34999 1.99999 9.14999 2.19999 8.94999C2.39999 8.74999 2.59999 8.54999 2.69999 8.44999C2.49999 8.24999 2.39999 7.94999 2.39999 7.64999L0.899993 7.44999C0.799993 7.44999 0.799993 7.44999 0.699993 7.34999C0.599993 7.24999 0.699993 7.24999 0.699993 7.24999V5.44999C0.699993 5.44999 0.699993 5.34999 0.799993 5.24999C0.899993 5.14999 0.899993 5.14999 0.899993 5.14999L2.39999 4.94999C2.39999 4.74999 2.49999 4.44999 2.69999 4.24999C2.49999 3.94999 2.19999 3.54999 1.79999 3.14999C1.79999 3.14999 1.79999 3.04999 1.79999 2.94999C1.79999 2.84999 1.79999 2.84999 1.89999 2.74999C1.99999 2.64999 2.19999 2.34999 2.59999 1.94999C2.99999 1.54999 3.19999 1.34999 3.29999 1.34999C3.39999 1.34999 3.39999 1.34999 3.49999 1.44999L4.59999 2.34999C4.79999 2.24999 5.09999 2.14999 5.29999 2.04999C5.39999 1.34999 5.49999 0.849991 5.59999 0.549991C5.59999 0.449991 5.69999 0.349991 5.79999 0.349991H7.49999C7.59999 0.349991 7.69999 0.349991 7.79999 0.449991C7.89999 0.549991 7.89999 0.549991 7.89999 0.649991L8.09999 2.04999C8.29999 2.14999 8.59999 2.24999 8.79999 2.34999L9.89999 1.54999C9.89999 1.54999 9.99999 1.44999 10.1 1.44999C10.2 1.44999 10.2 1.44999 10.3 1.54999C11 2.14999 11.4 2.64999 11.6 2.84999C11.6 2.84999 11.7 2.94999 11.7 3.04999C11.7 3.14999 11.7 3.14999 11.6 3.24999C11.5 3.34999 11.4 3.54999 11.2 3.74999C11 3.94999 10.8 4.14999 10.7 4.24999C10.8 4.54999 10.9 4.74999 11 5.04999L12.4 5.24999C12.5 5.24999 12.5 5.24999 12.6 5.34999C12.7 5.44999 12.7 5.44999 12.7 5.44999Z" fill="%233a8dde"/></g><defs><clipPath id="clip0"><rect width="12" height="12" fill="white" transform="translate(0.699997 0.349991)"/></clipPath></defs></svg>');
+}
+
+.is-active > .dp-Menu,
+.is-active + .dp-Comments {
+  display: block;
+}
+
+.dp-Comments {
+  background-color: var(--white);
+  border: 1px solid var(--brand-primary);
+  border-bottom-left-radius: var(--border-radius);
+  border-bottom-right-radius: var(--border-radius);
+  box-shadow: var(--shadow-bottom-right);
+  display: none;
+  left: 0;
+  left: 2.5%;
+  padding: 10px;
+  position: absolute;
+  top: 100%;
+  white-space: nowrap;
+  width: 95%;
+  z-index: 9;
+}
+
+.dp-Comments-title {
+  color: var(--grey-darkest);
+  font: var(--p-n);
+}
+
+.dp-Comments::before {
+  border-color: transparent transparent var(--brand-primary) transparent;
+  border-style: solid;
+  border-width: 10px;
+  content: "";
+  height: 0;
+  position: absolute;
+  right: 50px;
+  top: -20px;
+  width: 0;
+}
+
+.dp-Comments::after {
+  border-color: transparent transparent var(--white) transparent;
+  border-style: solid;
+  border-width: 11px;
+  content: "";
+  height: 0;
+  position: absolute;
+  right: 49px;
+  top: -20px;
+  width: 0;
+}
+
+.dp-Comments .dp-txt {
+  color: var(--grey-dark);
+  font: var(--p-n);
+  padding-bottom: 10px;
+  width: 100%;
+}
+
+.dp-Comments-item {
+  margin: 0;
+}
+
+.dp-Comments-item > .dp-Level {
+  justify-content: space-between;
+}
+
+.dp-Comments-item {
+  display: block;
+}
+
+.dp-Comments-item:first-child {
+  border-bottom: 1px solid var(--grey-light);
+  margin-bottom: 10px;
+}
+
+.dp-Comments .dp-ReplyWrapper {
+  border-color: var(--grey-light);
+}
+
+.Task--completed .dp-Card {
+  background-color: var(--grey-lighter);
+  filter: grayscale(100%);
+}
+
+.dp-CardList.dp-Tasks-list.Task--completed .dp-Card:hover .dp-LevelItem > .dp-Icon {
+  display: none;
+}
+
+.Task--completed .dp-CustomCheckbox input[type="checkbox"] + label::before {
+  background-color: transparent;
+}
+
+.dp-Department:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* Card Row */
+
+.dp-CardList.Card--row .dp-UserInfo {
+  padding-left: 25px;
+}
+
+/* Listpane/settings-cog */
+
+.CardList-settings-cog {
+  border: 1px dashed var(--grey-light);
+}
+
+.dp-General-Articles {
+  padding-left: 35px;
 }

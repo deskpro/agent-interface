@@ -311,13 +311,14 @@ title: Slide-Out Panel
                 </div>
 
                 <!-- 1 -->
-                <form>
-                    <div class="dp-Form dp-Menu-search">
-                        <span class="dp-Icon dp-IconSearch"></span>
-                        <!-- <input type="text" placeholder="Search" class="dp-SearchInput"> -->
-                        <input type="text" placeholder="Search" class="dp-Input Input--search">
-                    </div>
-                </form>
+                <div class="dp-Menu-search">
+                    <form>
+                        <div class="dp-Form">
+                            <span class="dp-Icon dp-IconSearch"></span>
+                            <input type="text" placeholder="Search" class="dp-Input Input--search">
+                        </div>
+                    </form>
+                </div>
 
                 <!-- 2 -->
                 <div class="dp-Tickets">
@@ -571,19 +572,14 @@ title: Slide-Out Panel
                 </div>
 
                 <!-- 1 -->
-<!--                 <form>
-                    <div class="dp-Form dp-SearchForm">
-                        <span class="dp-Icon dp-IconSearch"></span>
-                        <input type="text" placeholder="Search" class="dp-SearchInput">
-                    </div>
-                </form>
- -->
-                <form>
-                    <div class="dp-Form dp-Menu-search">
-                        <span class="dp-Icon dp-IconSearch"></span>
-                        <input type="text" placeholder="Search" class="dp-Input Input--search">
-                    </div>
-                </form>
+                <div class="dp-Menu-search">
+                    <form>
+                        <div class="dp-Form">
+                            <span class="dp-Icon dp-IconSearch"></span>
+                            <input type="text" placeholder="Search" class="dp-Input Input--search">
+                        </div>
+                    </form>
+                </div>
 
                 <!-- 2 -->
                 <div class="dp-ButtonWrapper">

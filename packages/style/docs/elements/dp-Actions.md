@@ -11,20 +11,20 @@ title: Actions
 			<li class="dp-Tabs-item dp-Arrow is-active">
 				<span class="dp-Icon dp-lock"></span>
 				Lock
-                <ul class="dp-Menu is-visible">
-                    <li class="dp-Menu-linkItem">
-                    	<span class="dp-MenuIcon dp-lock"></span>
-                    	<a href="#">Lock</a>
-                    </li>
-                    <li class="dp-Menu-linkItem">
-                    	<span class="dp-MenuIcon dp-iconMin"></span>
-                    	<a href="#"> Put ticket on hold</a>
-                    </li>
-                    <li class="dp-Menu-linkItem">
-                    	<span class="dp-MenuIcon dp-Bin"></span>
-                    	<a href="#"> Delete </a>
-                    </li>
-                </ul>
+				<ul class="dp-Menu is-visible">
+					<li class="dp-Menu-linkItem">
+						<span class="dp-MenuIcon dp-lock"></span>
+						<a href="#">Lock</a>
+					</li>
+					<li class="dp-Menu-linkItem">
+						<span class="dp-MenuIcon dp-iconMin"></span>
+						<a href="#"> Put ticket on hold</a>
+					</li>
+					<li class="dp-Menu-linkItem">
+						<span class="dp-MenuIcon dp-Bin"></span>
+						<a href="#"> Delete </a>
+					</li>
+				</ul>
 			</li>
 			<li class="dp-Tabs-item dp-Arrow">
 				<span class="dp-Icon dp-IconLink"></span>

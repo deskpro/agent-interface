@@ -8,8 +8,6 @@
   color: var(--grey-dark);
   cursor: pointer;
   font: var(--p-n-semibold);
-
-  /* padding: 1px 1px 1px 5px; */
   padding: 2px 5px;
 
   &.Badge--id {
@@ -117,19 +115,21 @@
   /* Badge--round */
 
   &.Badge--round {
+    align-items: center;
     background-position: 50%;
     border-radius: 50%;
     color: var(--white);
     cursor: pointer;
-    display: inline-block;
-    font-size: 10px;
+    display: flex;
+    font: var(--p-n);
     height: 18px;
-    line-height: 100%;
+    justify-content: center;
     margin-left: 7px;
-    min-width: 18px;
-    padding: 4px 0;
-    text-align: center;
-    vertical-align: middle;
+    width: 18px;
+
+    &.Badge--white {
+      color: var(--grey-darkest);
+    }
 
     &.Badge-Min.Icon-warning {
       background-image: url('data:image/svg+xml,<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve"><style type="text/css">.st0{fill:%23EC6C4E;}.st1{fill:%23FFFFFF;}</style><g><path class="st0" d="M8,16L8,16c-4.4,0-8-3.6-8-8l0,0c0-4.4,3.6-8,8-8h0c4.4,0,8,3.6,8,8v0C16,12.4,12.4,16,8,16z"/></g><rect x="3" y="7" class="st1" width="10" height="2"/></svg>');

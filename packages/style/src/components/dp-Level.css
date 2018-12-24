@@ -17,8 +17,7 @@
 }
 
 .dp-LevelBottom {
-  align-items: center;
-  align-self: flex-end;
+  align-items: flex-end;
   display: flex;
   flex-basis: auto;
   flex-grow: 1;
@@ -36,9 +35,17 @@
   justify-content: center;
 }
 
-.dp-LevelLeft {
+.dp-LevelMiddle {
   align-items: center;
-  align-items: flex-start;
+  align-self: center;
+  display: flex;
+}
+
+.dp-LevelLeft {
+
+  /* align-items: center; */
+
+  align-self: flex-start;
   display: flex;
   flex-basis: auto;
   flex-grow: 0;
@@ -47,8 +54,9 @@
 }
 
 .dp-LevelRight {
-  align-items: center;
-  align-items: flex-end;
+
+  /* align-items: center; */
+
   display: flex;
   flex-basis: auto;
   flex-grow: 0;

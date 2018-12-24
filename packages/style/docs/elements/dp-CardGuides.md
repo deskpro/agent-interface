@@ -4,20 +4,17 @@ title: Cards
 
 <h4>Cards/guides-header</h4>
 ```html @preview
-
 <div class="dp-MainWrapper">
     <span class="dp-Card-SectionTitle">
         <span>INTRODUCING DESKPRO</span>
     </span>
 </div>
-
 ```
 
 <h4>Cards/guides</h4>
 ```html @preview
 <div class="dp-MainWrapper">
 	<div class="dp-Card-guides">
-
         <ul class="dp-CardList">
             <li class="dp-Card dp-Level">
             	<span class="dp-LevelItem">
@@ -32,7 +29,7 @@ title: Cards
 	                    </span>
 	                </span>
 
-	                <span class="dp-LevelCol dp-LevelRight">
+	                <span class="dp-LevelCol dp-LevelBottom">
 	                    <span class="dp-IconGroup">
 	                        <span class="dp-Icon dp-down_caret"></span>
 	                    </span>
@@ -41,10 +38,8 @@ title: Cards
 	                    </span>
 	                </span>
 	            </span>
-
 			</li>
 		</ul>
-
 	</div>
 </div>
 ```
@@ -70,7 +65,8 @@ title: Cards
 		                    <span class="dp-UserName">3 weeks ago</span>
 	                    </span>
 	                </span>
-	                <span class="dp-LevelCol dp-LevelRight">
+
+	                <span class="dp-LevelCol dp-LevelBottom">
 	                    <span class="dp-IconGroup">
 	                        <span class="dp-Icon dp-down_caret"></span>
 	                    </span>
@@ -109,7 +105,7 @@ title: Cards
 	                    </span>
 	                </span>
 
-	                <span class="dp-LevelCol dp-LevelRight">
+	                <span class="dp-LevelCol dp-LevelBottom">
 	                    <span class="dp-IconGroup">
 	                        <span class="dp-Icon dp-down_caret"></span>
 	                    </span>
