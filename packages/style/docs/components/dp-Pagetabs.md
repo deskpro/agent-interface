@@ -5,7 +5,7 @@ title: Page Tabs
 <h2>pagetabs/singluar</h2>
 ```html @preview
 <div class="dp-MainWrapper">
-    <ul class="dp-Tabs Tabs-General">
+    <ul class="dp-Tabs Tabs--general">
         <li class="dp-Tabs-item Tabs--button">
             <span class="dp-Icon"></span>
         </li>
@@ -26,7 +26,7 @@ title: Page Tabs
 <h2>pagetabs/three-oneselected</h2>
 ```html @preview
 <div class="dp-MainWrapper">
-    <ul class="dp-Tabs Tabs-General dp-Selected">
+    <ul class="dp-Tabs Tabs--general">
 
         <li class="dp-Tabs-item Tabs--button">
             <span class="dp-Icon"></span>
@@ -43,7 +43,7 @@ title: Page Tabs
             </span>
         </li>
 
-        <li class="dp-Tabs-item Tabs--primary">
+        <li class="dp-Tabs-item is-active">
             <span class="dp-Flex">
                 <span class="dp-Icon dp-email_small"></span>
                 <span class="dp-Title">SSO working well wit...</span>
@@ -72,7 +72,7 @@ title: Page Tabs
 <h2>pagetabs/alltabs-oneselected</h2>
 ```html @preview
 <div class="dp-MainWrapper dp-Oneselected">
-    <ul class="dp-Tabs Tabs-General dp-Selected">
+    <ul class="dp-Tabs Tabs--general">
 
         <li class="dp-Tabs-item Tabs--button">
             <span class="dp-Icon"></span>
@@ -89,7 +89,7 @@ title: Page Tabs
             </span>
         </li>
 
-        <li class="dp-Tabs-item Tabs--primary">
+        <li class="dp-Tabs-item is-active">
             <span class="dp-Flex">
                 <span class="dp-Icon dp-email_small"></span>
                 <span class="dp-Title">SSO working well wit...</span>
@@ -166,7 +166,7 @@ title: Page Tabs
 <h2>pagetabs/alltabs-oneselected-more</h2>
 ```html @preview
 <div class="dp-MainWrapper dp-Oneselected" style="height: 250px">
-    <ul class="dp-Tabs Tabs-General dp-Selected">
+    <ul class="dp-Tabs Tabs--general">
 
         <li class="dp-Tabs-item Tabs--button">
             <span class="dp-Icon"></span>
@@ -183,7 +183,7 @@ title: Page Tabs
             </span>
         </li>
 
-        <li class="dp-Tabs-item Tabs--primary">
+        <li class="dp-Tabs-item is-active">
             <span class="dp-Flex">
                 <span class="dp-Icon dp-email_small"></span>
                 <span class="dp-Title">SSO working well wit...</span>
@@ -306,7 +306,7 @@ title: Page Tabs
 <h2>pagetabs/three-oneselected</h2>
 ```html @preview
 <div class="dp-MainWrapper" style="height: 300px">
-    <ul class="dp-Tabs Tabs-General dp-Selected">
+    <ul class="dp-Tabs Tabs--general">
 
         <li class="dp-Tabs-item Tabs--button">
             <span class="dp-Icon"></span>
@@ -352,7 +352,7 @@ title: Page Tabs
             </span>
         </li>
 
-        <li class="dp-Tabs-item Tabs--primary">
+        <li class="dp-Tabs-item is-active">
             <span class="dp-Flex">
                 <span class="dp-Icon dp-email_small"></span>
                 <span class="dp-Title">SSO working well wit...</span>
@@ -381,7 +381,7 @@ title: Page Tabs
 <h2>pagetabs/three-oneselected-rightclick</h2>
 ```html @preview
 <div class="dp-MainWrapper" style="height: 300px">
-    <ul class="dp-Tabs Tabs-General dp-Selected">
+    <ul class="dp-Tabs Tabs--general">
 
         <li class="dp-Tabs-item Tabs--button">
             <span class="dp-Icon"></span>
@@ -398,7 +398,7 @@ title: Page Tabs
             </span>
         </li>
 
-        <li class="dp-Tabs-item Tabs--primary">
+        <li class="dp-Tabs-item is-active">
             <span class="dp-Flex">
                 <span class="dp-Icon dp-email_small"></span>
                 <span class="dp-Title">SSO working well wit...</span>

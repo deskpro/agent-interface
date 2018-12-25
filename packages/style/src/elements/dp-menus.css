@@ -32,25 +32,6 @@
   width: 12px;
 }
 
-.dp-Menu .dp-SubContextMenu .dp-listItem::after {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%23318cdd' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3E%3C/svg%3E");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: 50% 50%;
-  content: "";
-  display: block;
-  height: 25px;
-  opacity: 0;
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 25px;
-}
-
-.dp-Menu .dp-SubContextMenu li:hover .dp-listItem::after {
-  opacity: 1;
-}
-
 .dp-Menu .Input--search:focus {
   border: 2px solid var(--brand-primary);
 }
@@ -311,17 +292,6 @@
   border-color: transparent transparent transparent var(--brand-primary);
 }
 
-.dp-Menu .dp-Menu-linkItem:hover .dp-SubContextMenu {
-  display: block;
-  left: 100%;
-  min-width: 180px;
-  top: 0;
-}
-
-.dp-Menu .dp-SubContextMenu li > a {
-  font: var(--p-n);
-}
-
 .dp-iconVDots.is-visible + .dp-Menu {
   display: block;
   left: calc(100% - 5px);
@@ -453,4 +423,40 @@
   outline: none;
   padding: 5px 0 5px 25px;
   width: 100%;
+}
+
+/* Sub menu */
+
+/* .dp-Menu .dp-SubContextMenu .dp-listItem::after { */
+
+.dp-Menu .dp-Menu .dp-listItem::after {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%23318cdd' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3E%3C/svg%3E");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 50% 50%;
+  content: "";
+  display: block;
+  height: 25px;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 25px;
+}
+
+/* .dp-Menu .dp-SubContextMenu li:hover .dp-listItem::after { */
+
+.dp-Menu .dp-Menu li:hover .dp-listItem::after {
+  opacity: 1;
+}
+
+.dp-Menu .dp-Menu-linkItem:hover > .dp-Menu {
+  display: block;
+  left: 100%;
+  min-width: 180px;
+  top: 0;
+}
+
+.dp-Menu .dp-Menu li > a {
+  font: var(--p-n);
 }

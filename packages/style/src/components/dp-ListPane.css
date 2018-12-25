@@ -1017,6 +1017,22 @@ thead .dp-Card-title td {
   display: none;
 }
 
+.dp-Tabs.Tabs--actions .dp-Tabs-item.is-active {
+  border: 0;
+  color: var(--white);
+  margin-bottom: 0;
+}
+
+.dp-Tabs.Tabs--actions .dp-Tabs-item.is-active:hover {
+  color: var(--white);
+}
+
+.dp-Tabs.Tabs--actions .dp-Tabs-item:hover {
+  border: 0;
+  color: var(--grey-darkest);
+  margin-bottom: 0;
+}
+
 /* Level Grid */
 
 .dp-Level .dp-LevelCol {

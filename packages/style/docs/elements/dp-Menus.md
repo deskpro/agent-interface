@@ -95,7 +95,7 @@ title: Menus
 ```html @preview
 <div class="dp-MainWrapper" style="height: 200px;">
     <ul class="dp-Menu dp-Menu-search dp-Menu-title is-visible" style="top: 0; left: 0;">
-        <li class="dp-Menu-linkItem dp-Form">
+        <li class="dp-Menu-linkItem">
             Menu title
         </li>
         <li class="dp-Menu-linkItem dp-Form">

@@ -1005,7 +1005,7 @@ title: List Pane
         <ul class="dp-Menu is-visible" style="top: 0; left: 0;">
 
             <li class="dp-Menu-linkItem">Assign to <a href="#" class="dp-listLink">me</a> or <span class="dp-Arrow"></span>
-                <ul class="dp-Menu dp-Menu-search dp-SubContextMenu">
+                <ul class="dp-Menu dp-Menu-search">
                     <li class="dp-Menu-linkItem  dp-Form">
                         <form>
                             <span class="dp-Icon dp-IconSearch"></span>
@@ -1056,7 +1056,7 @@ title: List Pane
             </li>
 
             <li class="dp-Menu-linkItem">Assign to <a href="#" class="dp-listLink">my team</a> or <span class="dp-Arrow"></span>
-                <ul class="dp-Menu dp-Menu-search dp-SubContextMenu">
+                <ul class="dp-Menu dp-Menu-search">
                     <li class="dp-Menu-linkItem dp-Form">
                         <form>
                             <span class="dp-Icon dp-IconSearch"></span>
@@ -1097,7 +1097,7 @@ title: List Pane
             <li class="dp-DropdownDivider"></li>
 
             <li class="dp-Menu-linkItem">Status <span class="dp-Arrow"></span>
-                <ul class="dp-Menu dp-Menu-search dp-SubContextMenu">
+                <ul class="dp-Menu dp-Menu-search">
                     <li class="dp-Menu-linkItem dp-Form">
                         <form>
                             <span class="dp-Icon dp-IconSearch"></span>
@@ -1128,7 +1128,7 @@ title: List Pane
             </li>
 
             <li class="dp-Menu-linkItem"> Urgency <span class="dp-Arrow"></span>
-                <ul class="dp-Menu dp-Menu-search dp-SubContextMenu">
+                <ul class="dp-Menu dp-Menu-search">
                     <li class="dp-Menu-linkItem dp-Form">
                         <form>
                             <span class="dp-Icon dp-IconSearch"></span>
@@ -1162,7 +1162,6 @@ title: List Pane
 ```
 
 <h2>Listpane/kanbanview</h2>
-
 <h4>listpane/grouping-and-sorting-bar</h4>
 ```html @preview
 <ul class="dp-FilterControlsList newControlsList dp-GroupSortBar">
@@ -1260,7 +1259,6 @@ title: List Pane
                     </span>
                 </span>
 
-                <!-- <span class="dp-LevelCol dp-LevelRight dp-LevelTop"> -->
                 <span class="dp-LevelCol dp-LevelLeft dp-LevelBottom">
                     <span class="dp-IconGroup">
                         <span class="dp-Icon--circle dp-rocket Icon-grey-darkest"></span>
@@ -3154,7 +3152,7 @@ title: List Pane
                 <ul class="dp-Menu is-visible">
 
                     <li class="dp-Menu-linkItem">Assign to <a href="#" class="dp-listLink">me</a> or <span class="dp-Arrow"></span>
-                        <ul class="dp-Menu dp-Menu-search dp-SubContextMenu">
+                        <ul class="dp-Menu dp-Menu-search">
                             <li class="dp-Menu-linkItem  dp-Form">
                                 <form>
                                     <span class="dp-Icon dp-IconSearch"></span>
@@ -3205,7 +3203,7 @@ title: List Pane
                     </li>
 
                     <li class="dp-Menu-linkItem">Assign to <a href="#" class="dp-listLink">my team</a> or <span class="dp-Arrow"></span>
-                        <ul class="dp-Menu dp-Menu-search dp-SubContextMenu">
+                        <ul class="dp-Menu dp-Menu-search">
                             <li class="dp-Menu-linkItem dp-Form">
                                 <form>
                                     <span class="dp-Icon dp-IconSearch"></span>
@@ -3246,7 +3244,7 @@ title: List Pane
                     <li class="dp-DropdownDivider"></li>
 
                     <li class="dp-Menu-linkItem">Status <span class="dp-Arrow"></span>
-                        <ul class="dp-Menu dp-Menu-search dp-SubContextMenu">
+                        <ul class="dp-Menu dp-Menu-search">
                             <li class="dp-Menu-linkItem dp-Form">
                                 <form>
                                     <span class="dp-Icon dp-IconSearch"></span>
@@ -3277,7 +3275,7 @@ title: List Pane
                     </li>
 
                     <li class="dp-Menu-linkItem"> Urgency <span class="dp-Arrow"></span>
-                        <ul class="dp-Menu dp-Menu-search dp-SubContextMenu">
+                        <ul class="dp-Menu dp-Menu-search">
                             <li class="dp-Menu-linkItem dp-Form">
                                 <form>
                                     <span class="dp-Icon dp-IconSearch"></span>
