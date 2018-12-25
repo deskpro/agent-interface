@@ -311,9 +311,8 @@ title: Page Tabs
         <li class="dp-Tabs-item Tabs--button">
             <span class="dp-Icon"></span>
 
-            <ul class="dp-Menu dp-Menu-title is-visible">
-                <li class="dp-Menu-linkItem">
-                Add</li>
+            <ul class="dp-Menu is-visible">
+                <li class="dp-Menu-title">Add</li>
                 <li class="dp-Menu-linkItem">
                     <a href="#" class="dp-Menu-link"><span class="dp-Icon dp-email_small"></span>Ticket</a>
                 </li>

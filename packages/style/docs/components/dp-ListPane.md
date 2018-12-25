@@ -290,7 +290,7 @@ title: List Pane
                     </span>
                 </span>
 
-                <span class="dp-LevelCol dp-LevelRight">
+                <span class="dp-LevelCol dp-LevelBottom">
                     <span class="dp-IconGroup">
 
                         <span class="dp-ActivityStatus ActivityStatus--viewing">
@@ -356,7 +356,6 @@ title: List Pane
     </form>
 </div>
 ```
-<!--  -->
 
 <h4>list-pane/agent-viewing-small</h4>
 ```html @preview
@@ -381,7 +380,7 @@ title: List Pane
                     </span>
                 </span>
 
-                <span class="dp-LevelCol dp-LevelRight">
+                <span class="dp-LevelCol dp-LevelBottom">
                     <span class="dp-IconGroup">
 
                         <span class="dp-ActivityStatus ActivityStatus--viewing">
@@ -427,7 +426,7 @@ title: List Pane
                     </span>
                 </span>
 
-                <span class="dp-LevelCol dp-LevelRight">
+                <span class="dp-LevelCol dp-LevelBottom">
                     <span class="dp-IconGroup">
                         <span class="dp-ActivityStatus ActivityStatus--viewing">
                             <span class="dp-Icon"></span>
@@ -474,7 +473,7 @@ title: List Pane
                     </span>
                 </span>
 
-                <span class="dp-LevelCol dp-LevelRight">
+                <span class="dp-LevelCol dp-LevelBottom">
                     <span class="dp-IconGroup">
 
                         <span class="dp-ActivityStatus ActivityStatus--writing ActivityStatus--primary">
@@ -500,7 +499,6 @@ title: List Pane
 
 <h4>list-pane/agent-writing-large</h4>
 ```html @preview
-
 <div class="dp-MainWrapper">
     <form>
         <ul class="dp-CardList">
@@ -522,7 +520,7 @@ title: List Pane
                     </span>
                 </span>
 
-                <span class="dp-LevelCol dp-LevelRight">
+                <span class="dp-LevelCol dp-LevelBottom">
                     <span class="dp-IconGroup">
 
                         <span class="dp-ActivityStatus ActivityStatus--writing ActivityStatus--primary">
@@ -1003,10 +1001,9 @@ title: List Pane
     <div style="height: 450px; position: relative;">
 
         <ul class="dp-Menu is-visible" style="top: 0; left: 0;">
-
             <li class="dp-Menu-linkItem">Assign to <a href="#" class="dp-listLink">me</a> or <span class="dp-Arrow"></span>
-                <ul class="dp-Menu dp-Menu-search">
-                    <li class="dp-Menu-linkItem  dp-Form">
+                <ul class="dp-Menu">
+                    <li class="dp-Menu-search">
                         <form>
                             <span class="dp-Icon dp-IconSearch"></span>
                             <input type="text" class="dp-Input Input--search">
@@ -1056,8 +1053,8 @@ title: List Pane
             </li>
 
             <li class="dp-Menu-linkItem">Assign to <a href="#" class="dp-listLink">my team</a> or <span class="dp-Arrow"></span>
-                <ul class="dp-Menu dp-Menu-search">
-                    <li class="dp-Menu-linkItem dp-Form">
+                <ul class="dp-Menu">
+                    <li class="dp-Menu-search">
                         <form>
                             <span class="dp-Icon dp-IconSearch"></span>
                             <input type="text" class="dp-Input Input--search">
@@ -1097,8 +1094,8 @@ title: List Pane
             <li class="dp-DropdownDivider"></li>
 
             <li class="dp-Menu-linkItem">Status <span class="dp-Arrow"></span>
-                <ul class="dp-Menu dp-Menu-search">
-                    <li class="dp-Menu-linkItem dp-Form">
+                <ul class="dp-Menu">
+                    <li class="dp-Menu-search">
                         <form>
                             <span class="dp-Icon dp-IconSearch"></span>
                             <input type="text" class="dp-Input Input--search">
@@ -1128,8 +1125,8 @@ title: List Pane
             </li>
 
             <li class="dp-Menu-linkItem"> Urgency <span class="dp-Arrow"></span>
-                <ul class="dp-Menu dp-Menu-search">
-                    <li class="dp-Menu-linkItem dp-Form">
+                <ul class="dp-Menu">
+                    <li class="dp-Menu-search">
                         <form>
                             <span class="dp-Icon dp-IconSearch"></span>
                             <input type="text" class="dp-Input Input--search">
@@ -2425,7 +2422,7 @@ title: List Pane
                 </span>
             </span>
 
-            <span class="dp-LevelCol dp-LevelRight">
+            <span class="dp-LevelCol dp-LevelBottom">
                 <span class="dp-IconGroup">
                     <span class="dp-Icon--circle dp-iconBug"></span>
                     <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
@@ -2459,7 +2456,7 @@ title: List Pane
                 </span>
             </span>
 
-            <span class="dp-LevelCol dp-LevelRight">
+            <span class="dp-LevelCol dp-LevelBottom">
                 <span class="dp-IconGroup">
                     <span class="dp-Icon--circle dp-rocket Icon-grey-darkest"></span>
                     <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
@@ -2493,7 +2490,7 @@ title: List Pane
                 </span>
             </span>
 
-            <span class="dp-LevelCol dp-LevelRight">
+            <span class="dp-LevelCol dp-LevelBottom">
                 <span class="dp-IconGroup">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
                     <span class="dp-Badge Badge--round Badge-Min Icon-warning"></span>
@@ -2526,7 +2523,7 @@ title: List Pane
                 </span>
             </span>
 
-            <span class="dp-LevelCol dp-LevelRight">
+            <span class="dp-LevelCol dp-LevelBottom">
                 <span class="dp-IconGroup">
                     <span class="dp-Icon dp-iconLock"></span>
                     <span class="dp-Icon--circle dp-iconMln"></span>
@@ -2561,7 +2558,7 @@ title: List Pane
                 </span>
             </span>
 
-            <span class="dp-LevelCol dp-LevelRight">
+            <span class="dp-LevelCol dp-LevelBottom">
                 <span class="dp-IconGroup">
                     <span class="dp-Icon--circle dp-iconMln"></span>
                     <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
@@ -2594,7 +2591,7 @@ title: List Pane
                 </span>
             </span>
 
-            <span class="dp-LevelCol dp-LevelRight">
+            <span class="dp-LevelCol dp-LevelBottom">
                 <span class="dp-IconGroup">
                     <span class="dp-Icon--circle dp-iconMln"></span>
                     <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
@@ -2627,7 +2624,7 @@ title: List Pane
                 </span>
             </span>
 
-            <span class="dp-LevelCol dp-LevelRight">
+            <span class="dp-LevelCol dp-LevelBottom">
                 <span class="dp-IconGroup">
 
                     <span class="dp-Icon--circle dp-iconBug"></span>
@@ -2661,7 +2658,7 @@ title: List Pane
                 </span>
             </span>
 
-            <span class="dp-LevelCol dp-LevelRight">
+            <span class="dp-LevelCol dp-LevelBottom">
                 <span class="dp-IconGroup">
                     <span class="dp-Icon--circle dp-iconMln"></span>
                     <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
@@ -3152,8 +3149,8 @@ title: List Pane
                 <ul class="dp-Menu is-visible">
 
                     <li class="dp-Menu-linkItem">Assign to <a href="#" class="dp-listLink">me</a> or <span class="dp-Arrow"></span>
-                        <ul class="dp-Menu dp-Menu-search">
-                            <li class="dp-Menu-linkItem  dp-Form">
+                        <ul class="dp-Menu">
+                            <li class="dp-Menu-search">
                                 <form>
                                     <span class="dp-Icon dp-IconSearch"></span>
                                     <input type="text" class="dp-Input Input--search">
@@ -3203,8 +3200,8 @@ title: List Pane
                     </li>
 
                     <li class="dp-Menu-linkItem">Assign to <a href="#" class="dp-listLink">my team</a> or <span class="dp-Arrow"></span>
-                        <ul class="dp-Menu dp-Menu-search">
-                            <li class="dp-Menu-linkItem dp-Form">
+                        <ul class="dp-Menu">
+                            <li class="dp-Menu-search">
                                 <form>
                                     <span class="dp-Icon dp-IconSearch"></span>
                                     <input type="text" class="dp-Input Input--search">
@@ -3244,8 +3241,8 @@ title: List Pane
                     <li class="dp-DropdownDivider"></li>
 
                     <li class="dp-Menu-linkItem">Status <span class="dp-Arrow"></span>
-                        <ul class="dp-Menu dp-Menu-search">
-                            <li class="dp-Menu-linkItem dp-Form">
+                        <ul class="dp-Menu">
+                            <li class="dp-Menu-search">
                                 <form>
                                     <span class="dp-Icon dp-IconSearch"></span>
                                     <input type="text" class="dp-Input Input--search">
@@ -3275,8 +3272,8 @@ title: List Pane
                     </li>
 
                     <li class="dp-Menu-linkItem"> Urgency <span class="dp-Arrow"></span>
-                        <ul class="dp-Menu dp-Menu-search">
-                            <li class="dp-Menu-linkItem dp-Form">
+                        <ul class="dp-Menu">
+                            <li class="dp-Menu-search">
                                 <form>
                                     <span class="dp-Icon dp-IconSearch"></span>
                                     <input type="text" class="dp-Input Input--search">

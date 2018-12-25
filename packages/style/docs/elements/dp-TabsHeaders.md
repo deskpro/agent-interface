@@ -5,7 +5,6 @@ title: Tabs & Headers
 <h2>Tabs/general</h2>
 ```html @preview
 <div class="dp-MainWrapper">
-    <!-- <ul class="dp-Tabs Tabs-General dp-Selected"> -->
     <ul class="dp-Tabs Tabs--general">
 
         <li class="dp-Tabs-item Tabs--button">
@@ -89,10 +88,11 @@ title: Tabs & Headers
 ```html @preview
 <div class="dp-MainWrapper" style="height: 100px">
     <ul class="dp-Tabs">
-        <li class="dp-Tabs-item is-active is-expandable is-visible">
+
+        <li class="dp-Tabs-item is-expanded">
             Reply
-            <!-- <span class="dp-Arrow"></span> -->
-            <ul class="dp-Menu is-visible">
+            <span class="dp-Arrow"></span>
+            <ul class="dp-Menu">
                 <li class="dp-Menu-linkItem">
                     <a href="#" class="dp-Menu-link">Reply</a>
                 </li>
@@ -101,24 +101,26 @@ title: Tabs & Headers
                 </li>
             </ul>
         </li>
-        <li class="dp-Tabs-item is-expandable">
+
+        <li class="dp-Tabs-item">
             Add Note
         </li>
-        <li class="dp-Tabs-item is-active is-expandable is-visible">
+
+        <li class="dp-Tabs-item is-active is-expanded">
             Macros
-            <!-- <span class="dp-Arrow"></span> -->
-            <ul class="dp-Menu dp-Menu-search is-visible">
-                <li class="dp-Menu-linkItem dp-Form">
+            <span class="dp-Arrow"></span>
+            <ul class="dp-Menu">
+                <li class="dp-Menu-search">
                     <form>
-                        <div class="dp-Form ">
-                            <span class="dp-Icon dp-IconSearch"></span>
-                            <input type="text" class="dp-Input Input--search">
-                        </div>
+                        <span class="dp-Icon dp-IconSearch"></span>
+                        <input type="text" class="dp-Input Input--search">
                     </form>
                 </li>
+
                 <li class="dp-Menu-linkItem">
                     <a href="#" class="dp-Menu-link">Macro 1</a>
                 </li>
+
                 <li class="dp-Menu-linkItem">
                     <a href="#" class="dp-Menu-link">Macro 2</a>
                 </li>

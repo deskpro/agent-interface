@@ -11,9 +11,14 @@
   position: relative;
 }
 
-.dp-Tabs .dp-Tabs-item:hover, .dp-Tabs .dp-Tabs-item.is-active {
+.dp-Tabs .dp-Tabs-item:hover, .dp-Tabs .dp-Tabs-item.is-active, .dp-Tabs .dp-Tabs-item.is-expanded {
   border-bottom: 1px solid var(--brand-primary);
   color: var(--brand-primary);
+  margin-bottom: -1px;
+}
+
+.dp-SelectedMore .dp-Tabs-item:hover, .dp-SelectedMore .dp-Tabs-item.is-active {
+  margin-bottom: 0;
 }
 
 .dp-Tabs-item:hover .dp-Arrow::after, .dp-Tabs-item.is-active .dp-Arrow::after {
@@ -163,11 +168,12 @@
 
 /* Arrow */
 
-.dp-Tabs .is-expandable {
+/* .dp-Tabs .is-expandable {
   align-items: center;
   cursor: pointer;
   display: flex;
   position: relative;
+  padding-right: 15px;
 }
 
 .dp-Tabs .is-expandable::after {
@@ -189,11 +195,7 @@
 .is-active.is-expandable::after {
   border-color: var(--brand-primary) transparent transparent transparent;
   transform: rotate(180deg);
-}
-
-.dp-Tabs .is-expandable {
-  padding-right: 15px;
-}
+} */
 
 /* Vetical Tabs */
 
