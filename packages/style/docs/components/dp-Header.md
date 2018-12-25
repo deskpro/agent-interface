@@ -65,16 +65,15 @@ title: Header
                         </li>
                         <li class="dp-MenuBarItem">
                             <span class="dp-Badge Badge--round Badge--grey-lighter" alt=""></span>
-                            <span class="dp-Arrow"></span>
+                            <button class="dp-Arrow"></button>
                         </li>
-                        <li class="dp-MenuBarItem dp-DropMenuJs"><span class="dp-Icon dp-IconPlane dp-ActionDropDown"></span><span class="dp-Arrow"></span>
+                        <li class="dp-MenuBarItem dp-DropMenuJs"><span class="dp-Icon dp-IconPlane dp-ActionDropDown"></span><button class="dp-Arrow"></button>
                         </li>
                     </ul>
                 </div>
             </div>
           </div>
         </div>
-
     </div>
 </div>
 ```
@@ -119,9 +118,9 @@ title: Header
                         </li>
                         <li class="dp-MenuBarItem">
                             <span class="dp-Badge Badge--round Badge--grey-lighter" alt=""></span>
-                            <span class="dp-Arrow"></span>
+                            <button class="dp-Arrow"></button>
                         </li>
-                        <li class="dp-MenuBarItem dp-DropMenuJs"><span class="dp-Icon dp-IconPlane dp-ActionDropDown"></span><span class="dp-Arrow"></span>
+                        <li class="dp-MenuBarItem dp-DropMenuJs"><span class="dp-Icon dp-IconPlane dp-ActionDropDown"></span><button class="dp-Arrow"></button>
                         </li>
                     </ul>
                 </div>
@@ -189,9 +188,9 @@ title: Header
                         </li>
                         <li class="dp-MenuBarItem">
                             <span class="dp-Badge Badge--round Badge--grey-lighter" alt=""></span>
-                            <span class="dp-Arrow"></span>
+                            <button class="dp-Arrow"></button>
                         </li>
-                        <li class="dp-MenuBarItem dp-DropMenuJs"><span class="dp-Icon dp-IconPlane dp-ActionDropDown"></span><span class="dp-Arrow"></span>
+                        <li class="dp-MenuBarItem dp-DropMenuJs"><span class="dp-Icon dp-IconPlane dp-ActionDropDown"></span><button class="dp-Arrow"></button>
                           <div class="dp-YourAccount is-active">
                             <div class="dp-AccountWrap ">
                               <ul class="dp-AccountList">

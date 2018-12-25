@@ -233,14 +233,14 @@ title: PageSidebar
         <!-- buttons -->
         <div class="dp-Selectbelow">
 
-            <button class="dp-ActionButton dp-Border--danger ActionButton--large is-semibold" type="button">
+            <button class="dp-ActionButton dp-Border--danger ActionButton--large is-semibold dp-Arrow" type="button">
                 On Hold
             </button>
 
             <div class="dp-ButtonWrapper">
                 <span class="dp-Icon dp-LevelDown"></span>
 
-                <button class="dp-ActionButton ActionButton--large is-semibold" type="button">
+                <button class="dp-ActionButton ActionButton--large is-semibold dp-Arrow" type="button">
                     Awaiting order confirmation
                 </button>
             </div>
@@ -255,7 +255,7 @@ title: PageSidebar
 <div class="dp-MainWrapper">
     <div class="dp-SectionBody">
         <div class="dp-ButtonWrapper">
-            <button class="dp-ActionButton dp-Border--danger dp--danger is-semibold" type="button">
+            <button class="dp-ActionButton dp-Border--danger dp--danger is-semibold dp-Arrow" type="button">
                 10
             </button>
         </div>
@@ -341,10 +341,10 @@ title: PageSidebar
             <div class="dp-TitleControls">APPLY AN SLA</div>
 
             <div class="dp-ButtonWrapper">
-                <button class="dp-ActionButton ActionButton--large is-italic" type="button">
+                <button class="dp-ActionButton ActionButton--large is-italic dp-Arrow" type="button">
                     Select SLA
                 </button>
-                <button class="dp-Button Button--small" type="button">
+                <button class="dp-Button Button--small Button--outlined" type="button">
                     Apply
                 </button>
             </div>
@@ -414,47 +414,45 @@ title: PageSidebar
                     </div>
                 </div>
 
-                <!-- <div class="dp-SidebarSection"> -->
-                    <div class="dp-SectionControls">
+                <div class="dp-SectionControls">
 
-                        <div class="dp-title-item dp-SectionTitle">
-                            <div>
-                                <span class="dp-Badge Badge--empty"></span>
-                                <span class="dp-UserName">Wendy Pride</span>
-                                <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">w.pride@techcompany.co.uk</a>
-                            </div>
-                            <a href="#" class="dp-Icon dp-iconVDots"></a>
+                    <div class="dp-title-item dp-SectionTitle">
+                        <div>
+                            <span class="dp-Badge Badge--empty"></span>
+                            <span class="dp-UserName">Wendy Pride</span>
+                            <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">w.pride@techcompany.co.uk</a>
                         </div>
-
-                        <div class="dp-title-item dp-SectionTitle">
-                            <div>
-                                <span class="dp-Badge Badge--empty"></span>
-                                <span class="dp-UserName">Wendy Pride</span>
-                                <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">w.pride@techcompany.co.uk</a>
-                            </div>
-                            <a href="#" class="dp-Icon dp-iconVDots"></a>
-                        </div>
-
-                        <div class="dp-title-item dp-SectionTitle">
-                            <div>
-                                <span class="dp-Badge Badge--empty"></span>
-                                <span class="dp-UserName">Wendy Pride</span>
-                                <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">w.pride@techcompany.co.uk</a>
-                            </div>
-                            <a href="#" class="dp-Icon dp-iconVDots"></a>
-                        </div>
-
-                        <div class="dp-title-item dp-SectionTitle">
-                            <div>
-                                <span class="dp-Badge Badge--empty"></span>
-                                <span class="dp-UserName">Wendy Pride</span>
-                                <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">w.pride@techcompany.co.uk</a>
-                            </div>
-                            <a href="#" class="dp-Icon dp-iconVDots"></a>
-                        </div>
-
+                        <a href="#" class="dp-Icon dp-iconVDots"></a>
                     </div>
-                <!-- </div> -->
+
+                    <div class="dp-title-item dp-SectionTitle">
+                        <div>
+                            <span class="dp-Badge Badge--empty"></span>
+                            <span class="dp-UserName">Wendy Pride</span>
+                            <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">w.pride@techcompany.co.uk</a>
+                        </div>
+                        <a href="#" class="dp-Icon dp-iconVDots"></a>
+                    </div>
+
+                    <div class="dp-title-item dp-SectionTitle">
+                        <div>
+                            <span class="dp-Badge Badge--empty"></span>
+                            <span class="dp-UserName">Wendy Pride</span>
+                            <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">w.pride@techcompany.co.uk</a>
+                        </div>
+                        <a href="#" class="dp-Icon dp-iconVDots"></a>
+                    </div>
+
+                    <div class="dp-title-item dp-SectionTitle">
+                        <div>
+                            <span class="dp-Badge Badge--empty"></span>
+                            <span class="dp-UserName">Wendy Pride</span>
+                            <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">w.pride@techcompany.co.uk</a>
+                        </div>
+                        <a href="#" class="dp-Icon dp-iconVDots"></a>
+                    </div>
+
+                </div>
 
                 <div class="dp-SidebarSection">
                     <div class="dp-SectionTitle">
@@ -466,11 +464,11 @@ title: PageSidebar
 
                     <div class="dp-Selectbelow">
                         <div class="dp-ButtonWrapper">
-                            <button class="dp-ActionButton dp-Border--danger ActionButton--large is-semibold" type="button">
+                            <button class="dp-ActionButton dp-Border--danger ActionButton--large is-semibold dp-Arrow" type="button">
                                 On Hold
                             </button>
 
-                            <button class="dp-ActionButton dp-Border--danger dp--danger is-semibold" type="button">
+                            <button class="dp-ActionButton dp-Border--danger dp--danger is-semibold dp-Arrow" type="button">
                                 10
                             </button>
                         </div>
@@ -478,7 +476,7 @@ title: PageSidebar
                         <div class="dp-ButtonWrapper">
                             <span class="dp-Icon dp-LevelDown"></span>
 
-                            <button class="dp-ActionButton ActionButton--large is-semibold" type="button">
+                            <button class="dp-ActionButton ActionButton--large is-semibold dp-Arrow" type="button">
                                 Awaiting order confirmation
                             </button>
                         </div>
@@ -698,47 +696,45 @@ title: PageSidebar
                     </div>
                 </div>
 
-                <!-- <div class="dp-SidebarSection"> -->
-                    <div class="dp-SectionControls">
+                <div class="dp-SectionControls">
 
-                        <div class="dp-title-item dp-SectionTitle">
-                            <div>
-                                <span class="dp-Badge Badge--empty"></span>
-                                <span class="dp-UserName">Wendy Pride</span>
-                                <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">w.pride@techcompany.co.uk</a>
-                            </div>
-                            <a href="#" class="dp-Icon dp-iconVDots"></a>
+                    <div class="dp-title-item dp-SectionTitle">
+                        <div>
+                            <span class="dp-Badge Badge--empty"></span>
+                            <span class="dp-UserName">Wendy Pride</span>
+                            <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">w.pride@techcompany.co.uk</a>
                         </div>
-
-                        <div class="dp-title-item dp-SectionTitle">
-                            <div>
-                                <span class="dp-Badge Badge--empty"></span>
-                                <span class="dp-UserName">Wendy Pride</span>
-                                <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">w.pride@techcompany.co.uk</a>
-                            </div>
-                            <a href="#" class="dp-Icon dp-iconVDots"></a>
-                        </div>
-
-                        <div class="dp-title-item dp-SectionTitle">
-                            <div>
-                                <span class="dp-Badge Badge--empty"></span>
-                                <span class="dp-UserName">Wendy Pride</span>
-                                <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">w.pride@techcompany.co.uk</a>
-                            </div>
-                            <a href="#" class="dp-Icon dp-iconVDots"></a>
-                        </div>
-
-                        <div class="dp-title-item dp-SectionTitle">
-                            <div>
-                                <span class="dp-Badge Badge--empty"></span>
-                                <span class="dp-UserName">Wendy Pride</span>
-                                <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">w.pride@techcompany.co.uk</a>
-                            </div>
-                            <a href="#" class="dp-Icon dp-iconVDots"></a>
-                        </div>
-
+                        <a href="#" class="dp-Icon dp-iconVDots"></a>
                     </div>
-                <!-- </div> -->
+
+                    <div class="dp-title-item dp-SectionTitle">
+                        <div>
+                            <span class="dp-Badge Badge--empty"></span>
+                            <span class="dp-UserName">Wendy Pride</span>
+                            <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">w.pride@techcompany.co.uk</a>
+                        </div>
+                        <a href="#" class="dp-Icon dp-iconVDots"></a>
+                    </div>
+
+                    <div class="dp-title-item dp-SectionTitle">
+                        <div>
+                            <span class="dp-Badge Badge--empty"></span>
+                            <span class="dp-UserName">Wendy Pride</span>
+                            <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">w.pride@techcompany.co.uk</a>
+                        </div>
+                        <a href="#" class="dp-Icon dp-iconVDots"></a>
+                    </div>
+
+                    <div class="dp-title-item dp-SectionTitle">
+                        <div>
+                            <span class="dp-Badge Badge--empty"></span>
+                            <span class="dp-UserName">Wendy Pride</span>
+                            <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">w.pride@techcompany.co.uk</a>
+                        </div>
+                        <a href="#" class="dp-Icon dp-iconVDots"></a>
+                    </div>
+
+                </div>
 
                 <div class="dp-SidebarSection">
                     <div class="dp-SectionTitle">
@@ -747,27 +743,24 @@ title: PageSidebar
                 </div>
 
                 <div class="dp-SidebarSection">
-
                     <div class="dp-Selectbelow">
                         <div class="dp-ButtonWrapper">
-                            <button class="dp-ActionButton dp-Border--danger ActionButton--large is-semibold" type="button">
+                            <button class="dp-ActionButton dp-Border--danger ActionButton--large is-semibold dp-Arrow" type="button">
                                 On Hold
                             </button>
 
-                            <button class="dp-ActionButton dp-Border--danger dp--danger is-semibold" type="button">
+                            <button class="dp-ActionButton dp-Border--danger dp--danger is-semibold dp-Arrow" type="button">
                                 10
                             </button>
                         </div>
-
                         <div class="dp-ButtonWrapper">
                             <span class="dp-Icon dp-LevelDown"></span>
 
-                            <button class="dp-ActionButton ActionButton--large is-semibold" type="button">
+                            <button class="dp-ActionButton ActionButton--large is-semibold dp-Arrow" type="button">
                                 Awaiting order confirmation
                             </button>
                         </div>
                     </div>
-
                 </div>
 
                 <div class="dp-SidebarSection dp-SectionControls">

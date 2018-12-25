@@ -214,12 +214,13 @@
 }
 
 .Tabs--apps .dp-Tabs-item .dp-Title {
+  align-items: center;
   color: var(--grey-darkest);
   cursor: pointer;
   display: inline-block;
+  display: flex;
   font: var(--h-s-semibold);
   margin-left: 5px;
-  position: relative;
 }
 
 .Tabs--apps .dp-Tabs-item .dp-Icon {

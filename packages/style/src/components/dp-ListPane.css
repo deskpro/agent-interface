@@ -96,15 +96,6 @@
   user-select: none;
 }
 
-.newControlsList .dp-ListPane .dp-Icon.dp-small_caret {
-  background-image: url('data:image/svg+xml,<svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0)"><path d="M9.89999 1.49999C9.89999 1.59999 9.79999 1.69999 9.69999 1.89999L5.79999 5.79999C5.69999 5.89999 5.59999 5.99999 5.39999 5.99999C5.19999 5.99999 5.09999 5.89999 4.99999 5.79999L1.09999 1.89999C0.999994 1.69999 0.899994 1.59999 0.899994 1.49999C0.899994 1.39999 0.999994 1.19999 1.09999 1.09999C1.19999 0.999994 1.29999 0.899994 1.49999 0.899994H9.39999C9.59999 0.899994 9.69999 0.999994 9.79999 1.09999C9.89999 1.19999 9.89999 1.29999 9.89999 1.49999Z" fill="%23979797"/></g><defs><clipPath id="clip0"><rect width="9" height="5.1" fill="white" transform="translate(0.899994 0.899994)"/></clipPath></defs></svg>');
-  background-size: 9px 5.1px;
-  background-size: 8px 5px;
-  height: 10px;
-  margin: 0;
-  width: 10px;
-}
-
 .dp-ViewItem {
   align-items: center;
   display: flex;
@@ -168,8 +159,6 @@
   font: var(--h-s-semibold);
   margin: 0;
   padding: 10px 10px;
-
-  /* padding: 7px 13px; */
   text-transform: uppercase;
   width: 100%;
 }
@@ -215,25 +204,7 @@
 .is-hoverable .dp-Card.is-active,
 .is-hoverable .dp-Card:hover {
   background-color: var(--info-light);
-
-  /* border-top: 1px solid var(--brand-primary); */
-
 }
-
-/* .is-hoverable .dp-Card:hover + .dp-Card,
-.is-hoverable .dp-Card.is-active + .dp-Card {
-  border-top: 1px solid var(--brand-primary);
-}
-
-.is-hoverable .dp-Card:hover + .dp-Card-title,
-.is-hoverable .dp-Card.is-active + .dp-Card-title {
-  border-top: 1px solid var(--brand-primary);
-}
-
-.is-hoverable .dp-Card:last-child.is-active,
-.is-hoverable .dp-Card:last-child:hover {
-  border-bottom: 1px solid var(--brand-primary);
-} */
 
 .dp-Icon--circle {
   align-items: center;
@@ -263,8 +234,6 @@
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-
-  /* width: calc(100% - 25px); */
 }
 
 .dp-Card .dp-iconUserAvatar {
@@ -286,10 +255,6 @@
 .dp-Card .dp-iconRocket, .dp-Card .dp-iconBug, .dp-Card .dp-iconMln {
   background-size: 12px 12px;
 }
-
-/* .dp-Card.is-active input[type="checkbox"] + label::before {
-  border: 1px solid var(--brand-primary);
-} */
 
 .dp-Card .dp-iconClock {
   background-size: 18px 18px;
@@ -548,19 +513,12 @@ thead .dp-Card-title td {
   border: none;
 }
 
-/* .dp-TableviewBody tr:last-child {
-  border-bottom: 1px solid var(--grey-light);
-} */
-
 .dp-Tableview tr:nth-child(2n) {
   background-color: transparent;
 }
 
 .is-hoverable tr:hover, .is-hoverable tr.is-active {
   background-color: var(--info-light);
-
-  /*  border-bottom: 1px solid var(--brand-primary);
-  border-top: 1px solid var(--brand-primary); */
 }
 
 .dp-TableviewBody .dp-Icon {
@@ -590,7 +548,6 @@ thead .dp-Card-title td {
   align-items: center;
   background-color: var(--grey-lightest);
   display: flex;
-  padding-left: 10px;
 }
 
 .dp-MassSelect .dp-CustomCheckbox {
@@ -602,19 +559,8 @@ thead .dp-Card-title td {
   margin: 0;
 }
 
-.dp-CustomCheckbox .dp-small_caret {
-  cursor: pointer;
-  display: block;
-  height: 15px;
-  left: 20px;
-  position: absolute;
-  top: 0;
-  width: 15px;
-  z-index: 9;
-}
-
-.dp-MassSelectTitle .dp-CustomCheckbox input[type="checkbox"] + label {
-  padding-left: 40px;
+.dp-CustomCheckbox input[type="checkbox"] + label.dp-Input-arrow {
+  padding: 0;
 }
 
 .dp-Card-title.dp-MassSelectTitle {
@@ -631,163 +577,6 @@ thead .dp-Card-title td {
   border-bottom: 1px solid var(--grey-light);
   border-top: 1px solid transparent;
 }
-
-.dp-Card-title.dp-CheckboxCarret {
-  font: var(--p-xl);
-}
-
-/* .dp-ListpaneGuides .dp-Card-title {
-  display: flex;
-}
-
-.dp-ListpaneGuides .dp-Card .dp-Icon {
-  margin-right: 5px;
-}
-
-.dp-ListpaneGuides .dp-Card.is-active {
-  background-color: inherit;
-  border-bottom: 1px solid var(--brand-primary);
-  border-top: 1px solid var(--brand-primary);
-  padding-bottom: 0;
-} */
-
-/* .dp-FilterSubList {
-  width: 100%;
-}
-
-.dp-ListpaneGuides .dp-Card .dp-FilterSubList {
-  display: none;
-}
-
-.dp-ListpaneGuides .dp-Card.is-active .dp-FilterSubList {
-  display: block;
-} */
-
-/* .dp-FilterSubList .dp-Card {
-  border-bottom: 0;
-  border-top: 1px solid var(--grey-light);
-  padding-left: 20px;
-  padding-right: 0;
-} */
-
-/* .dp-FilterSubList .dp-Card::before {
-  background-color: var(--grey);
-  content: "";
-  height: 103%;
-  left: -10px;
-  position: absolute;
-  top: -1px;
-  width: 20px;
-} */
-
-/* .dp-FilterSubList .dp-UserInfo {
-  padding: 0;
-} */
-
-/* .dp-ListpaneGuides .newControlsList .dp-UserInfo {
-  align-items: center;
-  display: flex;
-}
-
-.dp-ListpaneGuides .dp-Date {
-  border-right: 1px solid var(--grey-light);
-  margin-right: 10px;
-  padding-right: 10px;
-}
-
-.dp-ListpaneGuides .dp-UserInfo .dp-Icon {
-  background-size: 15px 15px;
-} */
-
-/* Listpane/tasks */
-
-/* .dp-TasksSort {
-  background-color: var(--grey-light);
-  display: block;
-  padding: 10px;
-}
-
-.dp-ListpaneTasks .dp-Icon {
-  background-size: 15px 14px;
-  height: 15px;
-  width: 15px;
-}
-
-.dp-ListpaneTasks .dp-linkedtTickets {
-  background-size: 17px 17px;
-  height: 17px;
-  width: 17px;
-}
-
-.dp-ListpaneTasks .dp-small_caret {
-  background-size: 9px 5px;
-  height: 10px;
-}
-
-.dp-ListpaneTasks .dp-Card-title {
-  font: var(--p-xl);
-}
-
-.dp-ListpaneTasks .dp-Date {
-  font: var(--p-xl);
-  margin-left: 5px;
-}
-
-.dp-Card .dp-GroupDescription {
-  display: flex;
-  justify-content: flex-start;
-}
-
-.dp-GroupDescription .dp-ListPane {
-  background-color: inherit;
-  margin-right: 10px;
-  padding: 0;
-  padding-right: 10px;
-}
-
-.dp-GroupDescription .dp-ListPane:last-child {
-  border: none;
-  margin-left: 0;
-}
-
-.dp-GroupDescription .dp-Title.dp-Comments {
-  color: var(--grey-dark);
-}
-
-.dp-GroupDescription .dp-Title {
-  color: var(--grey-darkest);
-  text-transform: none;
-}
-
-.dp-ListpaneTasks .dp-UserInfo {
-  align-items: center;
-  color: var(--grey-darkest);
-  display: flex;
-  font: var(--p-xl);
-  padding-left: 23px;
-}
-
-.dp-ListpaneTasks .dp-UserInfo .dp-Icon {
-  background-size: 17px 17px;
-  height: 17px;
-  margin-right: 5px;
-  width: 17px;
-}
-
-.dp-ListpaneTasks .dp-Txt {
-  color: var(--grey-darkest);
-  font: var(--p-n);
-  padding-left: 45px;
-}
-
-.dp-TasksSort .dp-settings {
-  cursor: pointer;
-  display: block;
-}
-
-.dp-ListpaneTasks .dp-Card.is-active {
-  background-color: var(--grey-light);
-} */
 
 /* filter result controls */
 
@@ -909,7 +698,7 @@ thead .dp-Card-title td {
   position: relative;
 }
 
-.newControlsList .dp-FilterControlsItem .dp-Icon.dp-small_caret {
+/* .newControlsList .dp-FilterControlsItem .dp-Icon.dp-small_caret {
   background-image: url('data:image/svg+xml,<svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0)"><path d="M9.89999 1.49999C9.89999 1.59999 9.79999 1.69999 9.69999 1.89999L5.79999 5.79999C5.69999 5.89999 5.59999 5.99999 5.39999 5.99999C5.19999 5.99999 5.09999 5.89999 4.99999 5.79999L1.09999 1.89999C0.999994 1.69999 0.899994 1.59999 0.899994 1.49999C0.899994 1.39999 0.999994 1.19999 1.09999 1.09999C1.19999 0.999994 1.29999 0.899994 1.49999 0.899994H9.39999C9.59999 0.899994 9.69999 0.999994 9.79999 1.09999C9.89999 1.19999 9.89999 1.29999 9.89999 1.49999Z" fill="%23979797"/></g><defs><clipPath id="clip0"><rect width="9" height="5.1" fill="white" transform="translate(0.899994 0.899994)"/></clipPath></defs></svg>');
   background-size: 9px 5.1px;
   background-size: 8px 5px;
@@ -923,7 +712,7 @@ thead .dp-Card-title td {
 
 .newControlsList .dp-FilterControlsItem.is-active .dp-Icon.dp-small_caret {
   background-image: url('data:image/svg+xml,<svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0)"><path d="M9.89999 1.49999C9.89999 1.59999 9.79999 1.69999 9.69999 1.89999L5.79999 5.79999C5.69999 5.89999 5.59999 5.99999 5.39999 5.99999C5.19999 5.99999 5.09999 5.89999 4.99999 5.79999L1.09999 1.89999C0.999994 1.69999 0.899994 1.59999 0.899994 1.49999C0.899994 1.39999 0.999994 1.19999 1.09999 1.09999C1.19999 0.999994 1.29999 0.899994 1.49999 0.899994H9.39999C9.59999 0.899994 9.69999 0.999994 9.79999 1.09999C9.89999 1.19999 9.89999 1.29999 9.89999 1.49999Z" fill="%23318cdd"/></g><defs><clipPath id="clip0"><rect width="9" height="5.1" fill="white" transform="translate(0.899994 0.899994)"/></clipPath></defs></svg>');
-}
+} */
 
 .dp-RowBtn {
   display: flex;
@@ -945,13 +734,21 @@ thead .dp-Card-title td {
   position: relative;
 }
 
-/* .dp-ActionButton { */
-
 .dp-ActionButton + .dp-ActionButton {
   margin-left: 10px;
 }
 
-.Tabs--actions .dp-Tabs-item, .dp-ActionButton {
+.dp-Tabs.Tabs--actions .dp-Tabs-item {
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  border-radius: var(--border-radius-button);
+  display: flex;
+  padding: 8px 6px;
+  position: relative;
+}
+
+.dp-ActionButton {
   background-color: var(--white);
   border: 1px solid var(--grey-light);
   border-radius: var(--border-radius-button);
@@ -980,30 +777,18 @@ thead .dp-Card-title td {
 
 }
 
-.Tabs--actions .dp-Tabs-item.dp-Arrow::after, .dp-ActionButton.dp-Arrow::after, .dp-IconTextButton.dp-Arrow::after {
-  border-color: var(--grey-dark) transparent transparent transparent;
-  border-style: solid;
-  border-width: 4px 4px 0 4px;
-  bottom: 0;
-  content: "";
-  height: 0;
-  margin: auto;
-  position: absolute;
-  right: 6px;
-  top: 0;
-  width: 0;
-}
-
 .dp-Tabs-item .dp-iconRocketwhite {
   display: none;
 }
 
-.Tabs--actions .dp-Tabs-item.is-active {
+.dp-Tabs.Tabs--actions .dp-Tabs-item.is-active {
   background-color: var(--brand-primary);
+  border: 0;
   color: var(--white);
+  margin-bottom: 0;
 }
 
-.dp-Tabs-item.dp-Arrow.is-active::after {
+.Tabs--actions .dp-Tabs-item.is-active .dp-Arrow::after {
   border-color: var(--white) transparent transparent transparent;
   transform: rotate(180deg);
 }
@@ -1017,20 +802,22 @@ thead .dp-Card-title td {
   display: none;
 }
 
-.dp-Tabs.Tabs--actions .dp-Tabs-item.is-active {
-  border: 0;
-  color: var(--white);
-  margin-bottom: 0;
-}
-
 .dp-Tabs.Tabs--actions .dp-Tabs-item.is-active:hover {
   color: var(--white);
 }
 
 .dp-Tabs.Tabs--actions .dp-Tabs-item:hover {
   border: 0;
-  color: var(--grey-darkest);
+  color: var(--grey-dark);
   margin-bottom: 0;
+}
+
+.Tabs--actions .dp-Tabs-item:hover .dp-Arrow::after {
+  border-color: var(--grey-dark) transparent transparent transparent;
+}
+
+.Tabs--actions .dp-Tabs-item.is-active:hover .dp-Arrow::after {
+  border-color: var(--white) transparent transparent transparent;
 }
 
 /* Level Grid */
@@ -1169,14 +956,10 @@ thead .dp-Card-title td {
   border-right: 1px solid var(--grey-light);
 }
 
-/* .dp-CardList.dp-Tasks-list .dp-Card:hover .dp-LevelItem > .dp-Icon { */
-
 .dp-Card.is-active .dp-settings,
 .dp-Card:hover .dp-LevelItem > .dp-settings {
   display: block;
 }
-
-/* .dp-Tasks-list > .dp-Card .dp-UserInfo + .dp-Icon { */
 
 .dp-Card .dp-settings {
   background-color: var(--info-light);

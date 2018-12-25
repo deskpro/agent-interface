@@ -56,7 +56,7 @@ title: Filter list
 		<li class="dp-TicketMenuItem dp-MenuBarItem is-active">
 			<span class="dp-TitleMenu">
 				<span>Awaiting agent</span>
-				<span class="dp-Arrow"></span>
+				<button class="dp-Arrow"></button>
 			</span>
 			<ul class="dp-SubMenu">
 				<li>
@@ -109,7 +109,7 @@ title: Filter list
 		<li class="dp-TicketMenuItem dp-MenuBarItem">
 			<span class="dp-TitleMenu">
 				<span>Filters</span>
-				<span class="dp-Arrow"></span>
+				<button class="dp-Arrow"></button>
 			</span>
 		</li>
 	</ul>
@@ -136,7 +136,7 @@ title: Filter list
 			<li class="dp-TicketMenuItem dp-MenuBarItem is-active">
 				<span class="dp-TitleMenu">
 					<span>Awaiting agent</span>
-					<span class="dp-Arrow"></span>
+					<button class="dp-Arrow"></button>
 				</span>
 				<ul class="dp-SubMenu">
 					<li>
@@ -164,7 +164,7 @@ title: Filter list
 			<li class="dp-TicketMenuItem dp-MenuBarItem">
 				<span class="dp-TitleMenu">
 					<span>Filters</span>
-					<span class="dp-Arrow"></span>
+					<button class="dp-Arrow"></button>
 				</span>
 				<ul class="dp-SubMenu">
 					<li>
@@ -192,7 +192,7 @@ title: Filter list
 			<li class="dp-TicketMenuItem dp-MenuBarItem">
 				<span class="dp-TitleMenu">
 					<span>Saved Searches</span>
-					<span class="dp-Arrow"></span>
+					<button class="dp-Arrow"></button>
 				</span>
 				<ul class="dp-SubMenu">
 					<li>
@@ -220,7 +220,7 @@ title: Filter list
 			<li class="dp-TicketMenuItem dp-MenuBarItem">
 				<span class="dp-TitleMenu">
 					<span>Problems & incidents (2)</span>
-					<span class="dp-Arrow"></span>
+					<button class="dp-Arrow"></button>
 				</span>
 				<ul class="dp-SubMenu">
 					<li>
@@ -248,7 +248,7 @@ title: Filter list
 			<li class="dp-TicketMenuItem dp-MenuBarItem">
 				<span class="dp-TitleMenu">
 					<span>Labels</span>
-					<span class="dp-Arrow"></span>
+					<button class="dp-Arrow"></button>
 				</span>
 				<ul class="dp-SubMenu">
 					<li>
@@ -276,7 +276,7 @@ title: Filter list
 			<li class="dp-TicketMenuItem dp-MenuBarItem">
 				<span class="dp-TitleMenu">
 					<span>My stars (3)</span>
-					<span class="dp-Arrow"></span>
+					<button class="dp-Arrow"></button>
 				</span>
 				<ul class="dp-SubMenu">
 					<li>
@@ -328,7 +328,7 @@ title: Filter list
 			<li class="dp-TicketMenuItem dp-MenuBarItem is-active">
 				<span class="dp-TitleMenu">
 					<span>Awaiting agent</span>
-					<span class="dp-Arrow"></span>
+					<button class="dp-Arrow"></button>
 				</span>
 				<ul class="dp-SubMenu">
 					<li>
@@ -356,7 +356,7 @@ title: Filter list
 			<li class="dp-TicketMenuItem dp-MenuBarItem">
 				<span class="dp-TitleMenu">
 					<span>Filters</span>
-					<span class="dp-Arrow"></span>
+					<button class="dp-Arrow"></button>
 				</span>
 				<ul class="dp-SubMenu">
 					<li>
@@ -384,7 +384,7 @@ title: Filter list
 			<li class="dp-TicketMenuItem dp-MenuBarItem">
 				<span class="dp-TitleMenu">
 					<span>Saved Searches</span>
-					<span class="dp-Arrow"></span>
+					<button class="dp-Arrow"></button>
 				</span>
 				<ul class="dp-SubMenu">
 					<li>
@@ -412,7 +412,7 @@ title: Filter list
 			<li class="dp-TicketMenuItem dp-MenuBarItem">
 				<span class="dp-TitleMenu">
 					<span>Problems & incidents (2)</span>
-					<span class="dp-Arrow"></span>
+					<button class="dp-Arrow"></button>
 				</span>
 				<ul class="dp-SubMenu">
 					<li>
@@ -440,7 +440,7 @@ title: Filter list
 			<li class="dp-TicketMenuItem dp-MenuBarItem">
 				<span class="dp-TitleMenu">
 					<span>Labels</span>
-					<span class="dp-Arrow"></span>
+					<button class="dp-Arrow"></button>
 				</span>
 				<ul class="dp-SubMenu">
 					<li>
@@ -468,7 +468,7 @@ title: Filter list
 			<li class="dp-TicketMenuItem dp-MenuBarItem">
 				<span class="dp-TitleMenu">
 					<span>My stars (3)</span>
-					<span class="dp-Arrow"></span>
+					<button class="dp-Arrow"></button>
 				</span>
 				<ul class="dp-SubMenu">
 					<li>

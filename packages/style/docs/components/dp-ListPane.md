@@ -18,7 +18,7 @@ title: List Pane
         <span class="dp-SelectGroup">
             <span class="dp-ItemRow">
                 <span class="dp-Title">Grouped by</span>
-                <span class="dp-Icon dp-small_caret"></span>
+                <button class="dp-Arrow"></button>
             </span>
             <span class="dp-ItemRow">
                 <span class="dp-Subtitle">Department</span>
@@ -33,7 +33,7 @@ title: List Pane
         <span class="dp-SelectGroup">
             <span class="dp-ItemRow">
                 <span class="dp-Title">Sort by</span>
-                <span class="dp-Icon dp-small_caret"></span>
+                <button class="dp-Arrow"></button>
             </span>
             <span class="dp-ItemRow">
                 <span class="dp-Subtitle">Variable long...</span>
@@ -45,7 +45,7 @@ title: List Pane
         <span class="dp-SelectGroup">
             <span class="dp-ItemRow">
                 <span class="dp-Title">Faceted by</span>
-                <span class="dp-Icon dp-small_caret"></span>
+                <button class="dp-Arrow"></button>
             </span>
             <span class="dp-ItemRow">
                 <span class="dp-Subtitle">Department</span>
@@ -57,7 +57,7 @@ title: List Pane
         <span class="dp-SelectGroup">
             <span class="dp-ItemRow">
                 <span class="dp-Title">Fields</span>
-                <span class="dp-Icon dp-small_caret"></span>
+                <button class="dp-Arrow"></button>
             </span>
             <span class="dp-ItemRow">
                 <span class="dp-Subtitle">4 fields</span>
@@ -81,7 +81,7 @@ title: List Pane
         <span class="dp-SelectGroup">
             <span class="dp-ItemRow">
                 <span class="dp-Title">Grouped by</span>
-                <span class="dp-Icon dp-small_caret"></span>
+                <button class="dp-Arrow"></button>
             </span>
             <span class="dp-ItemRow">
                 <span class="dp-Subtitle">None</span>
@@ -96,7 +96,7 @@ title: List Pane
         <span class="dp-SelectGroup">
             <span class="dp-ItemRow">
                 <span class="dp-Title">Sort by</span>
-                <span class="dp-Icon dp-small_caret"></span>
+                <button class="dp-Arrow"></button>
             </span>
             <span class="dp-ItemRow">
                 <span class="dp-Subtitle">Variable long...</span>
@@ -108,7 +108,7 @@ title: List Pane
         <span class="dp-SelectGroup">
             <span class="dp-ItemRow">
                 <span class="dp-Title">Faceted by</span>
-                <span class="dp-Icon dp-small_caret"></span>
+                <button class="dp-Arrow"></button>
             </span>
             <span class="dp-ItemRow">
                 <span class="dp-Subtitle">Department</span>
@@ -120,7 +120,7 @@ title: List Pane
         <span class="dp-SelectGroup">
             <span class="dp-ItemRow">
                 <span class="dp-Title">Fields</span>
-                <span class="dp-Icon dp-small_caret"></span>
+                <button class="dp-Arrow"></button>
             </span>
             <span class="dp-ItemRow">
                 <span class="dp-Subtitle">4 fields</span>
@@ -144,7 +144,7 @@ title: List Pane
         <span class="dp-SelectGroup">
             <span class="dp-ItemRow">
                 <span class="dp-Title">Grouped by</span>
-                <span class="dp-Icon dp-small_caret"></span>
+                <button class="dp-Arrow"></button>
             </span>
             <span class="dp-ItemRow">
                 <span class="dp-Subtitle">Department</span>
@@ -159,7 +159,7 @@ title: List Pane
         <span class="dp-SelectGroup">
             <span class="dp-ItemRow">
                 <span class="dp-Title">Sort by</span>
-                <span class="dp-Icon dp-small_caret"></span>
+                <button class="dp-Arrow"></button>
             </span>
             <span class="dp-ItemRow">
                 <span class="dp-Subtitle">Variable long...</span>
@@ -171,7 +171,7 @@ title: List Pane
         <span class="dp-SelectGroup">
             <span class="dp-ItemRow">
                 <span class="dp-Title">Faceted by</span>
-                <span class="dp-Icon dp-small_caret"></span>
+                <button class="dp-Arrow"></button>
             </span>
             <span class="dp-ItemRow">
                 <span class="dp-Subtitle">Department</span>
@@ -183,7 +183,7 @@ title: List Pane
         <span class="dp-SelectGroup">
             <span class="dp-ItemRow">
                 <span class="dp-Title">Fields</span>
-                <span class="dp-Icon dp-small_caret"></span>
+                <button class="dp-Arrow"></button>
             </span>
             <span class="dp-ItemRow">
                 <span class="dp-Subtitle">4 fields</span>
@@ -207,7 +207,7 @@ title: List Pane
         <span class="dp-SelectGroup">
             <span class="dp-ItemRow">
                 <span class="dp-Title">Grouped by</span>
-                <span class="dp-Icon dp-small_caret"></span>
+                <button class="dp-Arrow"></button>
             </span>
             <span class="dp-ItemRow">
                 <span class="dp-Subtitle">Department</span>
@@ -222,7 +222,7 @@ title: List Pane
         <span class="dp-SelectGroup">
             <span class="dp-ItemRow">
                 <span class="dp-Title">Sort by</span>
-                <span class="dp-Icon dp-small_caret"></span>
+                <button class="dp-Arrow"></button>
             </span>
             <span class="dp-ItemRow">
                 <span class="dp-Subtitle">Variable long...</span>
@@ -234,7 +234,7 @@ title: List Pane
         <span class="dp-SelectGroup">
             <span class="dp-ItemRow">
                 <span class="dp-Title">Faceted by</span>
-                <span class="dp-Icon dp-small_caret"></span>
+                <button class="dp-Arrow"></button>
             </span>
             <span class="dp-ItemRow">
                 <span class="dp-Subtitle">Department</span>
@@ -246,7 +246,7 @@ title: List Pane
         <span class="dp-SelectGroup">
             <span class="dp-ItemRow">
                 <span class="dp-Title">Fields</span>
-                <span class="dp-Icon dp-small_caret"></span>
+                <button class="dp-Arrow"></button>
             </span>
             <span class="dp-ItemRow">
                 <span class="dp-Subtitle">4 fields</span>
@@ -861,10 +861,8 @@ title: List Pane
             </span>
         </li>
 
-
         <li class="dp-Card-SectionTitle">
             <span>Sales</span>
-            <!-- <span class="dp-SortIconDescription"><span class="dp-Icon dp-sort"></span>DSC</span> -->
         </li>
 
         <!-- 9 -->
@@ -952,7 +950,6 @@ title: List Pane
 
             <span class="dp-LevelCol">
                 <span class="dp-Card-title">Inventory component</span>
-
                 <span class="dp-UserInfo">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
                     <span class="dp-UserName">Mark Jarvis
@@ -961,7 +958,6 @@ title: List Pane
                         &lt;mjarvis@econorob.nl&gt;
                     </a>
                 </span>
-
                 <span class="dp-TagBar dp-JustifyStart">
                     <span class="dp-Tag Tag--close">Custom work<span class="dp-Icon dp-close"></span></span>
                     <span class="dp-Tag Tag--close">Report back on bug fix<span class="dp-Icon dp-close"></span></span>
@@ -970,13 +966,11 @@ title: List Pane
                         Labels<span class="dp-Icon dp-IconPlusBtn"></span>
                     </button>
                 </span>
-
                 <span class="dp-JustifyStart">
                     <span class="dp-Meta">Department: <span class="dp-Meta-value">Support</span></span>
                     <span class="dp-Meta">Language: <span class="dp-Meta-value">Italiano</span></span>
                     <span class="dp-Meta">Last reply: <span class="dp-Meta-value">9 weeks ago</span></span>
                 </span>
-
             </span>
 
             <span class="dp-LevelCol dp-LevelLeft dp-LevelBottom">
@@ -1001,7 +995,7 @@ title: List Pane
     <div style="height: 450px; position: relative;">
 
         <ul class="dp-Menu is-visible" style="top: 0; left: 0;">
-            <li class="dp-Menu-linkItem">Assign to <a href="#" class="dp-listLink">me</a> or <span class="dp-Arrow"></span>
+            <li class="dp-Menu-linkItem">Assign to <a href="#" class="dp-listLink">me</a> or <button class="dp-Arrow"></button>
                 <ul class="dp-Menu">
                     <li class="dp-Menu-search">
                         <form>
@@ -1052,7 +1046,7 @@ title: List Pane
                 </ul>
             </li>
 
-            <li class="dp-Menu-linkItem">Assign to <a href="#" class="dp-listLink">my team</a> or <span class="dp-Arrow"></span>
+            <li class="dp-Menu-linkItem">Assign to <a href="#" class="dp-listLink">my team</a> or <button class="dp-Arrow"></button>
                 <ul class="dp-Menu">
                     <li class="dp-Menu-search">
                         <form>
@@ -1124,7 +1118,7 @@ title: List Pane
                 </ul>
             </li>
 
-            <li class="dp-Menu-linkItem"> Urgency <span class="dp-Arrow"></span>
+            <li class="dp-Menu-linkItem"> Urgency <button class="dp-Arrow"></button>
                 <ul class="dp-Menu">
                     <li class="dp-Menu-search">
                         <form>
@@ -1173,7 +1167,7 @@ title: List Pane
         <span class="dp-SelectGroup">
             <span class="dp-ItemRow">
                 <span class="dp-Title">Grouped by</span>
-                <span class="dp-Icon dp-small_caret"></span>
+                <button class="dp-Arrow"></button>
             </span>
             <span class="dp-ItemRow">
                 <span class="dp-Subtitle">Department</span>
@@ -1188,7 +1182,7 @@ title: List Pane
         <span class="dp-SelectGroup">
             <span class="dp-ItemRow">
                 <span class="dp-Title">Sort by</span>
-                <span class="dp-Icon dp-small_caret"></span>
+                <button class="dp-Arrow"></button>
             </span>
             <span class="dp-ItemRow">
                 <span class="dp-Subtitle">Variable long name</span>
@@ -1200,7 +1194,7 @@ title: List Pane
         <span class="dp-SelectGroup">
             <span class="dp-ItemRow">
                 <span class="dp-Title">Faceted by</span>
-                <span class="dp-Icon dp-small_caret"></span>
+                <button class="dp-Arrow"></button>
             </span>
             <span class="dp-ItemRow">
                 <span class="dp-Subtitle">Agent: Julien Durco</span>
@@ -1212,7 +1206,7 @@ title: List Pane
         <span class="dp-SelectGroup">
             <span class="dp-ItemRow">
                 <span class="dp-Title">Fields</span>
-                <span class="dp-Icon dp-small_caret"></span>
+                <button class="dp-Arrow"></button>
             </span>
             <span class="dp-ItemRow">
                 <span class="dp-Subtitle">4 fields</span>
@@ -1642,7 +1636,7 @@ title: List Pane
         <span class="dp-SelectGroup">
             <span class="dp-ItemRow">
                 <span class="dp-Title">Grouped by</span>
-                <span class="dp-Icon dp-small_caret"></span>
+                <button class="dp-Arrow"></button>
             </span>
             <span class="dp-ItemRow">
                 <span class="dp-Subtitle">Department</span>
@@ -1657,7 +1651,7 @@ title: List Pane
         <span class="dp-SelectGroup">
             <span class="dp-ItemRow">
                 <span class="dp-Title">Sort by</span>
-                <span class="dp-Icon dp-small_caret"></span>
+                <button class="dp-Arrow"></button>
             </span>
             <span class="dp-ItemRow">
                 <span class="dp-Subtitle">Variable long name</span>
@@ -1669,7 +1663,7 @@ title: List Pane
         <span class="dp-SelectGroup">
             <span class="dp-ItemRow">
                 <span class="dp-Title">Faceted by</span>
-                <span class="dp-Icon dp-small_caret"></span>
+                <button class="dp-Arrow"></button>
             </span>
             <span class="dp-ItemRow">
                 <span class="dp-Subtitle">Agent: Julien Durco</span>
@@ -1681,7 +1675,7 @@ title: List Pane
         <span class="dp-SelectGroup">
             <span class="dp-ItemRow">
                 <span class="dp-Title">Fields</span>
-                <span class="dp-Icon dp-small_caret"></span>
+                <button class="dp-Arrow"></button>
             </span>
             <span class="dp-ItemRow">
                 <span class="dp-Subtitle">4 fields</span>
@@ -2370,9 +2364,10 @@ title: List Pane
     <span class="dp-MassSelectTitle">
         <span class="dp-ItemRow">
             <span class="dp-CustomCheckbox">
-                <span class="dp-Icon dp-small_caret"></span>
                 <input type="checkbox" class="dp-ControlInput" id="listpaneCheckbox0" checked="checked"></input>
-                <label for="listpaneCheckbox0" class="dp-CheckboxCarret"></label>
+                <label for="listpaneCheckbox0" class="dp-Input-arrow"></label>
+
+                <button class="dp-Arrow"></button>
                 <span class="dp-Card-title">(48 items selected)</span>
                 <ul class="dp-Menu is-visible">
                     <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Uncheck all</a></li>
@@ -2385,7 +2380,7 @@ title: List Pane
                 <span class="dp-SelectGroup">
                     <span class="dp-ItemRow">
                         <span class="dp-Title">Grouped by</span>
-                        <span class="dp-Icon dp-small_caret"></span>
+                        <button class="dp-Arrow"></button>
                     </span>
                     <span class="dp-ItemRow">
                         <span class="dp-Subtitle">Department</span>
@@ -2838,7 +2833,7 @@ title: List Pane
                     </span>
                     <span class="dp-UserInfo">
                         <span class="dp-Icon dp-iconComents"></span>
-                        <span class="dp-Comments-title is-active">Comment <a href="#" class="dp-qt">(2)</a><span class="dp-Arrow"></span></span>
+                        <span class="dp-Comments-title is-active">Comment <a href="#" class="dp-qt">(2)</a><button class="dp-Arrow"></button></span>
                         <ul class="dp-Comments">
                             <li class="dp-Comments-item">
                                 <span class="dp-Level">
@@ -3040,7 +3035,7 @@ title: List Pane
                     </span>
                     <span class="dp-UserInfo">
                         <span class="dp-Icon dp-iconComents"></span>
-                        <span class="dp-Comments-title is-active">Comment <a href="#" class="dp-qt">(2)</a><span class="dp-Arrow"></span></span>
+                        <span class="dp-Comments-title is-active">Comment <a href="#" class="dp-qt">(2)</a><button class="dp-Arrow"></button></span>
                         <ul class="dp-Comments">
                             <li class="dp-Comments-item">
                                 <span class="dp-Level">
@@ -3148,7 +3143,7 @@ title: List Pane
             <span class="dp-Icon dp-settings is-active">
                 <ul class="dp-Menu is-visible">
 
-                    <li class="dp-Menu-linkItem">Assign to <a href="#" class="dp-listLink">me</a> or <span class="dp-Arrow"></span>
+                    <li class="dp-Menu-linkItem">Assign to <a href="#" class="dp-listLink">me</a> or <button class="dp-Arrow"></button>
                         <ul class="dp-Menu">
                             <li class="dp-Menu-search">
                                 <form>
@@ -3199,7 +3194,7 @@ title: List Pane
                         </ul>
                     </li>
 
-                    <li class="dp-Menu-linkItem">Assign to <a href="#" class="dp-listLink">my team</a> or <span class="dp-Arrow"></span>
+                    <li class="dp-Menu-linkItem">Assign to <a href="#" class="dp-listLink">my team</a> or <button class="dp-Arrow"></button>
                         <ul class="dp-Menu">
                             <li class="dp-Menu-search">
                                 <form>
@@ -3240,7 +3235,7 @@ title: List Pane
 
                     <li class="dp-DropdownDivider"></li>
 
-                    <li class="dp-Menu-linkItem">Status <span class="dp-Arrow"></span>
+                    <li class="dp-Menu-linkItem">Status <button class="dp-Arrow"></button>
                         <ul class="dp-Menu">
                             <li class="dp-Menu-search">
                                 <form>
@@ -3271,7 +3266,7 @@ title: List Pane
                         </ul>
                     </li>
 
-                    <li class="dp-Menu-linkItem"> Urgency <span class="dp-Arrow"></span>
+                    <li class="dp-Menu-linkItem"> Urgency <button class="dp-Arrow"></button>
                         <ul class="dp-Menu">
                             <li class="dp-Menu-search">
                                 <form>

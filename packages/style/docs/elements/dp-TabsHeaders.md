@@ -91,7 +91,7 @@ title: Tabs & Headers
 
         <li class="dp-Tabs-item is-expanded">
             Reply
-            <span class="dp-Arrow"></span>
+            <button class="dp-Arrow"></button>
             <ul class="dp-Menu">
                 <li class="dp-Menu-linkItem">
                     <a href="#" class="dp-Menu-link">Reply</a>
@@ -108,7 +108,7 @@ title: Tabs & Headers
 
         <li class="dp-Tabs-item is-active is-expanded">
             Macros
-            <span class="dp-Arrow"></span>
+            <button class="dp-Arrow"></button>
             <ul class="dp-Menu">
                 <li class="dp-Menu-search">
                     <form>
@@ -143,13 +143,15 @@ title: Tabs & Headers
 ```html @preview
 <div class="dp-MainWrapper">
     <ul class="dp-Tabs Tabs--apps">
-        <li class="dp-Tabs-item is-expandable">
+        <li class="dp-Tabs-item">
             <span class="dp-Icon dp-billing"></span>
             <span class="dp-Title">Text</span>
+            <button class="dp-Arrow"></button>
         </li>
-        <li class="dp-Tabs-item is-expandable is-active">
+        <li class="dp-Tabs-item is-active">
             <span class="dp-Icon dp-billing"></span>
             <span class="dp-Title">Text</span>
+            <button class="dp-Arrow"></button>
         </li>
     </ul>
 </div>

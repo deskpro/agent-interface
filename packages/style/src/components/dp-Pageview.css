@@ -94,6 +94,7 @@
 .Tabs--actions {
   align-items: center;
   background-color: var(--grey-lightest);
+  border: 0;
   border-radius: var(--border-radius);
   display: flex;
   list-style: none;
@@ -102,23 +103,14 @@
 }
 
 .Tabs--actions .dp-Tabs-item .dp-Icon {
-  background-size: 12px 12px;
+
+  /* background-size: 12px 12px; */
+
   cursor: pointer;
   display: inline-block;
-
   height: 13px;
   margin-right: 5px;
   width: 15px;
-}
-
-.Tabs--actions .dp-Tabs-item {
-  align-items: center;
-  background-color: transparent;
-  border: none;
-  color: var(--grey-darkest);
-  display: flex;
-  padding: 8px 21px 8px 6px;
-  position: relative;
 }
 
 .Tabs--actions .dp-Tabs-item.is-disabled {
@@ -126,7 +118,7 @@
 }
 
 .Tabs--actions .dp-Tabs-item::before {
-  background-color: #cccbcb;
+  background-color: var(--grey-light);
   content: "";
   display: block;
   height: 100%;
@@ -143,10 +135,6 @@
 .dp-Tabs-item.is-disabled::after {
   display: none;
 }
-
-/* .Tabs--actions .dp-Tabs-item + .dp-Tabs-item {
-  margin-left: 20px;
-} */
 
 .Tabs--actions .dp-Tabs-item.is-active > .dp-lock {
   background-image: url('data:image/svg+xml,<svg width="11" height="14" viewBox="0 0 11 14" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0)"><path d="M10.3 6.14998H9.79997V4.94998C9.79997 2.74998 7.99997 0.949982 5.79997 0.949982C3.59997 0.949982 1.79997 2.74998 1.79997 4.94998V6.04998H1.19997C0.799969 6.14998 0.499969 6.34998 0.499969 6.74998V13.25C0.499969 13.65 0.799969 13.95 1.19997 13.95H10.3C10.7 13.95 11 13.65 11 13.25V6.74998C10.9 6.34998 10.6 6.14998 10.3 6.14998ZM2.99997 4.94998C2.99997 3.44998 4.19997 2.24998 5.69997 2.24998C7.19997 2.24998 8.49997 3.44998 8.49997 4.94998V6.04998H2.99997V4.94998ZM9.59997 12.65H1.79997V7.44998H2.29997H9.09997H9.59997V12.65Z" fill="%23fff"/><path d="M5.69997 11.35C6.36271 11.35 6.89997 10.8127 6.89997 10.15C6.89997 9.48724 6.36271 8.94998 5.69997 8.94998C5.03723 8.94998 4.49997 9.48724 4.49997 10.15C4.49997 10.8127 5.03723 11.35 5.69997 11.35Z" fill="%23fff"/></g><defs><clipPath id="clip0"><rect width="10.4" height="13" fill="white" transform="translate(0.499969 0.949982)"/></clipPath></defs></svg>');
@@ -193,18 +181,22 @@
   position: relative;
 }
 
-.dp-ActionsItems {
-  display: flex;
+.dp-Tabs + .dp-ReplyWrapper, .dp-Tabs + .dp-TicketMessage {
+  margin-top: 10px;
 }
 
-.dp-ActionsItem {
+/* .dp-ActionsItems {
+  display: flex;
+} */
+
+/* .dp-ActionsItem {
   color: var(--grey-dark);
   cursor: pointer;
   display: flex;
   font: var(--p-n);
   padding: 5px 0;
   text-transform: uppercase;
-}
+} */
 
 .dp-ReplyEditor {
   display: block;

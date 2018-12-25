@@ -62,9 +62,10 @@ title: Side-bar Overlay
 					<div class="dp-DropDownBar">
 
 						<ul class="dp-Tabs Tabs--actions">
-							<li class="dp-Tabs-item dp-Arrow">
+							<li class="dp-Tabs-item">
 								<span class="dp-Icon dp-lock"></span>
 								Lock
+								<button class="dp-Arrow"></button>
 								<ul class="dp-Menu">
 									<li class="dp-Menu-linkItem">
 										<span class="dp-MenuIcon dp-lock"></span>
@@ -80,9 +81,10 @@ title: Side-bar Overlay
 									</li>
 								</ul>
 							</li>
-							<li class="dp-Tabs-item dp-Arrow">
+							<li class="dp-Tabs-item">
 								<span class="dp-Icon dp-IconLink"></span>
 								Link
+								<button class="dp-Arrow"></button>
 								<ul class="dp-Menu">
 									<li class="dp-Menu-linkItem">
 										<span class="dp-MenuIcon dp-lock"></span>
@@ -102,9 +104,10 @@ title: Side-bar Overlay
 									</li>
 								</ul>
 							</li>
-							<li class="dp-Tabs-item dp-Arrow">
+							<li class="dp-Tabs-item">
 								<span class="dp-Icon dp-IconPlusGrey"></span>
 								New
+								<button class="dp-Arrow"></button>
 								<ul class="dp-Menu">
 									<li class="dp-Menu-linkItem">
 										<span class="dp-MenuIcon dp-IconArticle"></span>
@@ -116,9 +119,10 @@ title: Side-bar Overlay
 									</li>
 								</ul>
 							</li>
-							<li class="dp-Tabs-item dp-Arrow">
+							<li class="dp-Tabs-item">
 								<span class="dp-Icon dp-IconPrint"></span>
 								Print
+								<button class="dp-Arrow"></button>
 								<ul class="dp-Menu">
 									<li class="dp-Menu-linkItem">
 										<span class="dp-MenuIcon dp-IconPrint"></span>
@@ -134,9 +138,10 @@ title: Side-bar Overlay
 									</li>
 								</ul>
 							</li>
-							<li class="dp-Tabs-item dp-Arrow">
+							<li class="dp-Tabs-item">
 								<span class="dp-Icon dp-ban"></span>
 								Ban
+								<button class="dp-Arrow"></button>
 								<ul class="dp-Menu">
 									<li class="dp-Menu-linkItem">
 										<span class="dp-MenuIcon dp-ban"></span>
@@ -148,9 +153,10 @@ title: Side-bar Overlay
 									</li>
 								</ul>
 							</li>
-							<li class="dp-Tabs-item dp-Arrow">
+							<li class="dp-Tabs-item">
 								<span class="dp-Icon dp-rocket"></span>
 								Actions
+								<button class="dp-Arrow"></button>
 								<ul class="dp-Menu">
 									<li class="dp-Menu-linkItem">
 										<span class="dp-MenuIcon dp-rocket"></span>
@@ -187,11 +193,26 @@ title: Side-bar Overlay
 					</ul>
 
 					<!-- Table -->
-					<ul class="dp-ActionsItems dp-BorderBottom">
+<!-- 					<ul class="dp-ActionsItems dp-BorderBottom">
 					    <li class="dp-ActionsItem dp-MenuBarItem is-active">Tickets</li>
 					    <li class="dp-ActionsItem dp-MenuBarItem">Activity stream</li>
 					    <li class="dp-ActionsItem dp-MenuBarItem">User groups</li>
 					    <li class="dp-ActionsItem dp-MenuBarItem">Brands</li>
+					</ul> -->
+					
+					<ul class="dp-Tabs">
+						<li class="dp-Tabs-item">
+							TICKETS
+						</li>
+						<li class="dp-Tabs-item">
+							ACTIVITY STREAM
+						</li>
+						<li class="dp-Tabs-item">
+							USER GROUPS
+						</li>
+						<li class="dp-Tabs-item">
+							BRANDS
+						</li>
 					</ul>
 
 					<ul class="dp-TicketsInfo">
@@ -469,9 +490,10 @@ title: Side-bar Overlay
 					<div class="dp-DropDownBar">
 
 						<ul class="dp-Tabs Tabs--actions">
-							<li class="dp-Tabs-item dp-Arrow">
+							<li class="dp-Tabs-item">
 								<span class="dp-Icon dp-lock"></span>
 								Lock
+								<button class="dp-Arrow"></button>
 								<ul class="dp-Menu">
 									<li class="dp-Menu-linkItem">
 										<span class="dp-MenuIcon dp-lock"></span>
@@ -487,9 +509,10 @@ title: Side-bar Overlay
 									</li>
 								</ul>
 							</li>
-							<li class="dp-Tabs-item dp-Arrow">
+							<li class="dp-Tabs-item">
 								<span class="dp-Icon dp-IconLink"></span>
 								Link
+								<button class="dp-Arrow"></button>
 								<ul class="dp-Menu">
 									<li class="dp-Menu-linkItem">
 										<span class="dp-MenuIcon dp-lock"></span>
@@ -509,9 +532,10 @@ title: Side-bar Overlay
 									</li>
 								</ul>
 							</li>
-							<li class="dp-Tabs-item dp-Arrow">
+							<li class="dp-Tabs-item">
 								<span class="dp-Icon dp-IconPlusGrey"></span>
 								New
+								<button class="dp-Arrow"></button>
 								<ul class="dp-Menu">
 									<li class="dp-Menu-linkItem">
 										<span class="dp-MenuIcon dp-IconArticle"></span>
@@ -523,9 +547,10 @@ title: Side-bar Overlay
 									</li>
 								</ul>
 							</li>
-							<li class="dp-Tabs-item dp-Arrow">
+							<li class="dp-Tabs-item">
 								<span class="dp-Icon dp-IconPrint"></span>
 								Print
+								<button class="dp-Arrow"></button>
 								<ul class="dp-Menu">
 									<li class="dp-Menu-linkItem">
 										<span class="dp-MenuIcon dp-IconPrint"></span>
@@ -541,9 +566,10 @@ title: Side-bar Overlay
 									</li>
 								</ul>
 							</li>
-							<li class="dp-Tabs-item dp-Arrow">
+							<li class="dp-Tabs-item">
 								<span class="dp-Icon dp-ban"></span>
 								Ban
+								<button class="dp-Arrow"></button>
 								<ul class="dp-Menu">
 									<li class="dp-Menu-linkItem">
 										<span class="dp-MenuIcon dp-ban"></span>
@@ -555,9 +581,10 @@ title: Side-bar Overlay
 									</li>
 								</ul>
 							</li>
-							<li class="dp-Tabs-item dp-Arrow">
+							<li class="dp-Tabs-item">
 								<span class="dp-Icon dp-rocket"></span>
 								Actions
+								<button class="dp-Arrow"></button>
 								<ul class="dp-Menu">
 									<li class="dp-Menu-linkItem">
 										<span class="dp-MenuIcon dp-rocket"></span>
@@ -593,22 +620,27 @@ title: Side-bar Overlay
 						</li>
 					</ul>
 
-					<!-- Table -->
-					<ul class="dp-ActionsItems dp-BorderBottom">
-					    <li class="dp-ActionsItem dp-MenuBarItem is-active">Tickets</li>
-					    <li class="dp-ActionsItem dp-MenuBarItem">Activity stream</li>
-					    <li class="dp-ActionsItem dp-MenuBarItem">User groups</li>
-					    <li class="dp-ActionsItem dp-MenuBarItem">Brands</li>
+					<ul class="dp-Tabs">
+						<li class="dp-Tabs-item">
+							TICKETS
+						</li>
+						<li class="dp-Tabs-item">
+							ACTIVITY STREAM
+						</li>
+						<li class="dp-Tabs-item">
+							USER GROUPS
+						</li>
+						<li class="dp-Tabs-item">
+							BRANDS
+						</li>
 					</ul>
 
 					<ul class="dp-TicketsInfo">
-
 						<li class="dp-TicketsInfoItem dp-TicketsInfoTitle is-active">
 							<span class="dp-idItem dp-MainItem">ID</span>
 							<span class="dp-SubjectItem dp-MainItem">SUBJECT</span>
 							<span class="dp-StatusItem dp-MenuBarItem dp-MainItem">STATUS & URGENCY<span class="dp-Arrow"></span></span>
 						</li>
-
 						<li class="dp-TicketsOpen">
 							<ul class="dp-BodyTicket">
 								<li class="dp-TicketsInfoItem">

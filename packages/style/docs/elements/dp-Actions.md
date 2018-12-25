@@ -8,9 +8,10 @@ title: Actions
 	<div class="dp-DropDownBar">
 
 		<ul class="dp-Tabs Tabs--actions">
-			<li class="dp-Tabs-item dp-Arrow is-active">
+			<li class="dp-Tabs-item is-active">
 				<span class="dp-Icon dp-lock"></span>
 				Lock
+				<button class="dp-Arrow"></button>
 				<ul class="dp-Menu is-visible">
 					<li class="dp-Menu-linkItem">
 						<span class="dp-MenuIcon dp-lock"></span>
@@ -26,9 +27,10 @@ title: Actions
 					</li>
 				</ul>
 			</li>
-			<li class="dp-Tabs-item dp-Arrow">
+			<li class="dp-Tabs-item">
 				<span class="dp-Icon dp-IconLink"></span>
 				Link
+				<button class="dp-Arrow"></button>
 				<ul class="dp-Menu">
 					<li class="dp-Menu-linkItem">
 						<span class="dp-MenuIcon dp-lock"></span>
@@ -48,9 +50,10 @@ title: Actions
 					</li>
 				</ul>
 			</li>
-			<li class="dp-Tabs-item dp-Arrow">
+			<li class="dp-Tabs-item">
 				<span class="dp-Icon dp-IconPlusGrey"></span>
 				New
+				<button class="dp-Arrow"></button>
 				<ul class="dp-Menu">
 					<li class="dp-Menu-linkItem">
 						<span class="dp-MenuIcon dp-IconArticle"></span>
@@ -62,9 +65,10 @@ title: Actions
 					</li>
 				</ul>
 			</li>
-			<li class="dp-Tabs-item dp-Arrow">
+			<li class="dp-Tabs-item">
 				<span class="dp-Icon dp-IconPrint"></span>
 				Print
+				<button class="dp-Arrow"></button>
 				<ul class="dp-Menu">
 					<li class="dp-Menu-linkItem">
 						<span class="dp-MenuIcon dp-IconPrint"></span>
@@ -80,9 +84,10 @@ title: Actions
 					</li>
 				</ul>
 			</li>
-			<li class="dp-Tabs-item dp-Arrow">
+			<li class="dp-Tabs-item">
 				<span class="dp-Icon dp-ban"></span>
 				Ban
+				<button class="dp-Arrow"></button>
 				<ul class="dp-Menu">
 					<li class="dp-Menu-linkItem">
 						<span class="dp-MenuIcon dp-ban"></span>
@@ -94,9 +99,10 @@ title: Actions
 					</li>
 				</ul>
 			</li>
-			<li class="dp-Tabs-item dp-Arrow">
+			<li class="dp-Tabs-item">
 				<span class="dp-Icon dp-rocket"></span>
 				Actions
+				<button class="dp-Arrow"></button>
 				<ul class="dp-Menu">
 					<li class="dp-Menu-linkItem">
 						<span class="dp-MenuIcon dp-rocket"></span>

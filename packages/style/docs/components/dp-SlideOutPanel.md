@@ -93,8 +93,8 @@ title: Slide-Out Panel
                         </div>
                     </div>
                     <div class="dp-ButtonWrapper">
-                        <button class="dp-ActionButton ActionButton--XXlarge dp--danger dp-Border--danger is-semibold" type="button">Set resolved</button>
-                        <button class="dp-ActionButton dp--danger dp-Border--danger is-semibold" type="button">10</button>
+                        <button class="dp-ActionButton ActionButton--XXlarge dp--danger dp-Border--danger is-semibold dp-Arrow" type="button">Set resolved</button>
+                        <button class="dp-ActionButton dp--danger dp-Border--danger is-semibold dp-Arrow" type="button">10</button>
                     </div>
                 </div>
                 <!-- 2 -->
@@ -107,7 +107,7 @@ title: Slide-Out Panel
                             </div>
                         </div>
                     </div>
-                    <button class="dp-ActionButton ActionButton--XXlarge dp-SectionBody-item" type="button">
+                    <button class="dp-ActionButton ActionButton--XXlarge dp-SectionBody-item dp-Arrow" type="button">
                         <span class="dp-title-item">
                             <span class="dp-Icon dp-iconUserAvatar"></span>
                             Zack Prudent
@@ -124,7 +124,7 @@ title: Slide-Out Panel
                             </div>
                         </div>
                     </div>
-                    <button class="dp-ActionButton ActionButton--Xlarge dp-SectionBody-item" type="button">
+                    <button class="dp-ActionButton ActionButton--Xlarge dp-SectionBody-item dp-Arrow" type="button">
                         <span class="dp-title-item">
                             <span class="dp-Icon dp-iconUserAvatar"></span>
                             Support
@@ -260,19 +260,44 @@ title: Slide-Out Panel
                 </div>
 
                 <div class="dp-ReplyBox">
-                    <div class="dp-Actions">
-                        <ul class="dp-ActionsItems dp-BorderBottom">
-                            <li class="dp-ActionsItem dp-MenuBarItem is-active">
-                                MASS REPLY
-                                <span class="dp-Arrow"></span>
-                            </li>
-                            <li class="dp-ActionsItem dp-MenuBarItem">Add Note</li>
-                            <li class="dp-ActionsItem dp-MenuBarItem">
-                                Macros
-                                <span class="dp-Arrow"></span>
-                            </li>
-                        </ul>
-                    </div>
+                    <ul class="dp-Tabs">
+                        <li class="dp-Tabs-item">
+                            MASS REPLY
+                            <button class="dp-Arrow"></button>
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-Menu-link">MASS REPLY</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-Menu-link">Forward</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dp-Tabs-item">
+                            ADD NOTE
+                        </li>
+                        <li class="dp-Tabs-item">
+                            MACROS
+                            <button class="dp-Arrow"></button>
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-search">
+                                    <form>
+                                        <span class="dp-Icon dp-IconSearch"></span>
+                                        <input type="text" class="dp-Input Input--search">
+                                    </form>
+                                </li>
+
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-Menu-link">Macro 1</a>
+                                </li>
+
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-Menu-link">Macro 2</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+
                     <div class="dp-ReplyWrapper">
                         <textarea class="dp-ReplyEditor"></textarea>
                         <a href="#" class="dp-Signature">% Signature %</a>

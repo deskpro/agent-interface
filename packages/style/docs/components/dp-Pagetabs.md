@@ -253,7 +253,7 @@ title: Page Tabs
             <span class="dp-TitleButton">+3</span>
 
             <!-- sublist -->
-            <ul class="dp-SelectedMore dp-Menu">
+            <ul class="dp-SelectedMore dp-Menu is-active">
                 <li class="dp-Tabs-item">
                     <span class="dp-TabInfoItem">
                         <span class="dp-Flex">

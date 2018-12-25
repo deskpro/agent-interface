@@ -31,9 +31,7 @@ title: Menus
 <h4>Menus/with-title</h4>
 ```html @preview
 <div class="dp-MainWrapper" style="height: 200px;">
-    <!-- <ul class="dp-Menu dp-Menu-title is-visible" style="top: 0; left: 0;"> -->
     <ul class="dp-Menu is-visible" style="top: 0; left: 0;">
-        <!-- <li class="dp-Menu-linkItem"> -->
         <li class="dp-Menu-title">
             Menu title
         </li>
@@ -63,9 +61,7 @@ title: Menus
 <h4>Menus/with-search</h4>
 ```html @preview
 <div class="dp-MainWrapper" style="height: 200px;">
-    <!-- <ul class="dp-Menu dp-Menu-search is-visible" style="top: 0; left: 0;"> -->
     <ul class="dp-Menu is-visible" style="top: 0; left: 0;">
-        <!-- <li class="dp-Menu-linkItem dp-Form"> -->
         <li class="dp-Menu-search">
             <form>
                 <span class="dp-Icon dp-IconSearch"></span>
@@ -98,12 +94,10 @@ title: Menus
 <h4>Menus/search-with-title</h4>
 ```html @preview
 <div class="dp-MainWrapper" style="height: 200px;">
-    <!-- <ul class="dp-Menu dp-Menu-search dp-Menu-title is-visible" style="top: 0; left: 0;"> -->
     <ul class="dp-Menu is-visible" style="top: 0; left: 0;">
         <li class="dp-Menu-title">
             Menu title
         </li>
-        <!-- <li class="dp-Menu-linkItem dp-Form"> -->
         <li class="dp-Menu-search">
             <form>
                 <span class="dp-Icon dp-IconSearch"></span>
