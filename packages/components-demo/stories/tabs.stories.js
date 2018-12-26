@@ -13,25 +13,18 @@ storiesOf("Tabs", module)
       <Tabs.TabItem
         key="3"
         renderMenu={() => (
-          <Menu
-            title="Menu Title"
-            isVisible
-            enableSearch
-            items={[
-              { name: "copy", icon: "copy", text: "Copy" },
-              { name: "cut", icon: "scissors", text: "Cut" },
-              {
-                name: "paste",
-                icon: "insert-link",
-                text: "Paste",
-                subItems: [
-                  { name: "word", text: "From Word" },
-                  { name: "text", text: "From Text" },
-                  { name: "without-styles", text: "Without Styles" }
-                ]
-              }
-            ]}
-          />
+          <Menu title="Menu Title" isVisible>
+            <Menu.MenuSearch placeholder="Search..." />
+            <Menu.MenuItem key="lock" icon="lock" text="Copy" />
+            <Menu.MenuItem key="cut" icon="scissors" text="Cut" />
+            <Menu.MenuItem key="paste" icon="insert-link" text="Paste">
+              <Menu>
+                <Menu.MenuItem key="word" text="From Word" />
+                <Menu.MenuItem key="text" text="From Text" />
+                <Menu.MenuItem key="without-style" text="Without Styles" />
+              </Menu>
+            </Menu.MenuItem>
+          </Menu>
         )}
       >
         View
@@ -68,14 +61,15 @@ storiesOf("Tabs", module)
         key="1"
         icon="document"
         renderMenu={() => (
-          <Menu
-            isVisible
-            items={[
-              { name: "lock", icon: "lock", text: "Lock" },
-              { name: "hold", icon: "on-hold", text: "Put the ticket on hold" },
-              { name: "delete", icon: "bin", text: "Delete" }
-            ]}
-          />
+          <Menu isVisible>
+            <Menu.MenuItem key="lock" icon="lock" text="Lock" />
+            <Menu.MenuItem
+              key="hold"
+              icon="on-hold"
+              text="Put the ticket on hold"
+            />
+            <Menu.MenuItem key="delete" icon="bin" text="Delete" />
+          </Menu>
         )}
       >
         <Tabs.TabTitle>Text</Tabs.TabTitle>
@@ -91,14 +85,15 @@ storiesOf("Tabs", module)
         key="1"
         icon="lock"
         renderMenu={() => (
-          <Menu
-            isVisible
-            items={[
-              { name: "lock", icon: "lock", text: "Lock" },
-              { name: "hold", icon: "on-hold", text: "Put the ticket on hold" },
-              { name: "delete", icon: "bin", text: "Delete" }
-            ]}
-          />
+          <Menu isVisible>
+            <Menu.MenuItem key="lock" icon="lock" text="Lock" />
+            <Menu.MenuItem
+              key="hold"
+              icon="on-hold"
+              text="Put the ticket on hold"
+            />
+            <Menu.MenuItem key="delete" icon="bin" text="Delete" />
+          </Menu>
         )}
       >
         Lock
