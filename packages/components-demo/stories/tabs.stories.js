@@ -55,6 +55,13 @@ storiesOf("Tabs", module)
       </Tabs.TabItem>
     </Tabs>
   ))
+  .add("Icon Tabs", () => (
+    <Tabs type="icons">
+      <Tabs.TabItem key="1" icon="email" iconOnly />
+      <Tabs.TabItem key="2" icon="user" iconOnly />
+      <Tabs.TabItem key="3" icon="organisation" iconOnly />
+    </Tabs>
+  ))
   .add("Apps", () => (
     <Tabs type="apps">
       <Tabs.TabItem
@@ -105,7 +112,9 @@ storiesOf("Tabs", module)
       <Tabs.TabItem key="4" icon="print" renderMenu={() => null}>
         Print
       </Tabs.TabItem>
-      <Tabs.TabItem key="5" label="Ban" icon="ban" renderMenu={() => null} />
+      <Tabs.TabItem key="5" icon="ban" renderMenu={() => null}>
+        Ban
+      </Tabs.TabItem>
       <Tabs.TabItem key="6" icon="rocket" renderMenu={() => null}>
         Actions
       </Tabs.TabItem>
