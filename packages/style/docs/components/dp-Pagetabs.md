@@ -154,7 +154,7 @@ title: Page Tabs
             </span>
         </li>
 
-        <li class="dp-Tabs-item Tabs--button">
+        <li class="dp-Tabs-item Tabs-item--button">
             <span class="dp-TitleButton">+5</span>
         </li>
 
@@ -247,7 +247,7 @@ title: Page Tabs
             </span>
         </li>
 
-        <li class="dp-Tabs-item Tabs--button is-visible">
+        <li class="dp-Tabs-item Tabs-item--button is-visible">
             <span class="dp-TitleButton">+3</span>
 
             <!-- sublist -->
