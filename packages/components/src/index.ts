@@ -18,3 +18,4 @@ export {
 
 export { default as Tabs } from "./elements/Tabs/Tabs";
 export { default as Menu } from "./elements/Menu/Menu";
+export { default as Header } from "./elements/Header/Header";
