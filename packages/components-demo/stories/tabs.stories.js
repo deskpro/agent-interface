@@ -6,8 +6,8 @@ import { storiesOf } from "@storybook/react";
 import { Tabs, Menu } from "@deskpro/agent-interface-components";
 
 storiesOf("Tabs", module)
-  .add("Tabs", () => (
-    <Tabs type="single">
+  .add("Default Tabs", () => (
+    <Tabs>
       <Tabs.TabItem key="1" label="File" />
       <Tabs.TabItem key="2" label="Edit" />
       <Tabs.TabItem
@@ -15,7 +15,6 @@ storiesOf("Tabs", module)
         label="View"
         renderMenu={() => (
           <Menu
-            isVisible
             title="Menu Title"
             enableSearch
             items={[
@@ -35,6 +34,16 @@ storiesOf("Tabs", module)
           />
         )}
       />
+    </Tabs>
+  ))
+  .add("General Tabs", () => (
+    <Tabs type="general">
+      <Tabs.TabItem key="1" label="Lock" icon="lock" />
+      <Tabs.TabItem key="2" label="Link" icon="link" />
+      <Tabs.TabItem key="3" label="New" icon="plus" />
+      <Tabs.TabItem key="4" label="Print" />
+      <Tabs.TabItem key="5" label="Ban" icon="ban" />
+      <Tabs.TabItem key="6" label="Actions" />
     </Tabs>
   ))
   .add("Actions", () => (

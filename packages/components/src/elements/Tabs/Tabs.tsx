@@ -8,9 +8,8 @@ import "@deskpro/agent-interface-style/dist/components/dp-Pageview.css";
 
 export type TabsProps = {
   className?: string;
-  type?: "primary" | "actions" | "dropdowns" | "icons" | "apps";
+  type?: "general" | "actions" | "dropdowns" | "icons" | "apps";
   defaultActiveKey?: React.Key | null;
-  isVertical?: boolean;
   children: React.ReactElement<any>[];
 };
 
@@ -33,9 +32,7 @@ export default class Tabs extends React.PureComponent<TabsProps, TabsState> {
   static TabItem = TabItem;
 
   static defaultProps: Partial<TabsProps> = {
-    defaultActiveKey: null,
-    isVertical: false,
-    type: "primary"
+    defaultActiveKey: null
   };
 
   readonly state: TabsState = {
@@ -64,13 +61,13 @@ export default class Tabs extends React.PureComponent<TabsProps, TabsState> {
   };
 
   render() {
-    const { type = "dropdowns", isVertical = false, children } = this.props;
+    const { type, children } = this.props;
     const { activeKey, openedMenu } = this.state;
 
     return (
       <ul
-        className={classNames("dp-Tabs", `Tabs--${type}`, {
-          "is-vertical": isVertical
+        className={classNames("dp-Tabs", {
+          [`Tabs--${type}`]: !!type
         })}
       >
         {React.Children.map(
