@@ -2,6 +2,8 @@ import * as React from "react";
 import classNames from "classnames";
 
 import TabItem, { TabItemProps } from "./TabItem";
+import TabTitle from "./TabTitle";
+import TabSubtitle from "./TabSubtitle";
 
 import "@deskpro/agent-interface-style/dist/components/dp-PageTabs.css";
 import "@deskpro/agent-interface-style/dist/components/dp-Pageview.css";
@@ -31,6 +33,10 @@ const getDefaultActiveKey = (props: TabsProps) => {
 export default class Tabs extends React.PureComponent<TabsProps, TabsState> {
   static TabItem = TabItem;
 
+  static TabTitle = TabTitle;
+
+  static TabSubtitle = TabSubtitle;
+
   static defaultProps: Partial<TabsProps> = {
     defaultActiveKey: null
   };
@@ -41,6 +47,11 @@ export default class Tabs extends React.PureComponent<TabsProps, TabsState> {
       this.props.defaultActiveKey || getDefaultActiveKey(this.props) || null,
     openedMenu: null
   };
+
+  get isMenu() {
+    const { type } = this.props;
+    return ["actions", "apps"].includes(type as string);
+  }
 
   handleTabClick = (targetKey: React.Key, e: React.MouseEvent<HTMLElement>) => {
     const { activeKey } = this.state;
@@ -75,10 +86,14 @@ export default class Tabs extends React.PureComponent<TabsProps, TabsState> {
           (child: React.ReactElement<TabItemProps>, index) => {
             const key = child.key || index;
             return React.cloneElement(child, {
-              isActive: activeKey === key,
+              isActive:
+                (activeKey === key && !this.isMenu) ||
+                (this.isMenu && openedMenu === key),
               isExpanded: openedMenu === key,
               onTabClick: (e: React.MouseEvent<HTMLElement>) =>
-                this.handleTabClick(key, e),
+                this.isMenu
+                  ? this.handleMenuToggle(key, e)
+                  : this.handleTabClick(key, e),
               onMenuToggle: (e: React.MouseEvent<HTMLElement>) =>
                 this.handleMenuToggle(key, e)
             });

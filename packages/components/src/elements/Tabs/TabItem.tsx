@@ -5,7 +5,8 @@ import Icon from "../Icon/Icon";
 export type TabItemProps = {
   className?: string;
   icon?: string;
-  label: string;
+  iconColor?: DPColor;
+  iconOnly?: boolean;
   isActive?: boolean;
   isExpanded?: boolean;
   onTabClick?(e: React.SyntheticEvent<HTMLElement>): void;
@@ -15,7 +16,9 @@ export type TabItemProps = {
 
 const TabItem: React.SFC<TabItemProps> = ({
   icon,
-  label,
+  iconOnly = false,
+  iconColor,
+  children,
   className = "",
   isActive = false,
   isExpanded = false,
@@ -25,6 +28,7 @@ const TabItem: React.SFC<TabItemProps> = ({
 }) => (
   <li
     className={classNames("dp-Tabs-item", className, {
+      "Tabs--button": iconOnly,
       "is-active": isActive,
       "is-visible": isExpanded,
       "is-expandable": !!renderMenu
@@ -33,8 +37,8 @@ const TabItem: React.SFC<TabItemProps> = ({
     onClick={onTabClick}
     onKeyPress={e => e.key === "Enter" && onTabClick && onTabClick(e)}
   >
-    {!!icon && <Icon name={icon} size={13} />}
-    {label}
+    {!!icon && <Icon name={icon} size={iconOnly ? 24 : 13} color={iconColor} />}
+    {children}
     {!!renderMenu && (
       <button className="dp-Arrow" type="button" onClick={onMenuToggle} />
     )}
