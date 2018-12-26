@@ -104,9 +104,6 @@
 }
 
 .Tabs--actions .dp-Tabs-item .dp-Icon {
-
-  /* background-size: 12px 12px; */
-
   cursor: pointer;
   display: inline-block;
   height: 13px;
@@ -185,19 +182,6 @@
 .dp-Tabs + .dp-ReplyWrapper, .dp-Tabs + .dp-TicketMessage {
   margin-top: 10px;
 }
-
-/* .dp-ActionsItems {
-  display: flex;
-} */
-
-/* .dp-ActionsItem {
-  color: var(--grey-dark);
-  cursor: pointer;
-  display: flex;
-  font: var(--p-n);
-  padding: 5px 0;
-  text-transform: uppercase;
-} */
 
 .dp-ReplyEditor {
   display: block;

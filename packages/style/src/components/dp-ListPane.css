@@ -207,7 +207,9 @@
   background-color: var(--info-light);
 }
 
-.dp-Icon--circle {
+/* .dp-Icon--circle { */
+
+.Icon--circle {
   align-items: center;
   background-color: var(--white);
   background-position: 50%;
@@ -527,7 +529,9 @@ thead .dp-Card-title td {
   width: 18px;
 }
 
-.dp-TableviewBody .dp-Icon--circle {
+/* .dp-TableviewBody .dp-Icon--circle { */
+
+.dp-TableviewBody .Icon--circle {
   background-size: 11px 11px;
 }
 
@@ -1023,6 +1027,10 @@ thead .dp-Card-title td {
 .dp-UserInfo.dp-LevelLeft,
 .dp-UserInfo.dp-LevelRight {
   flex: 0 1 auto;
+}
+
+.dp-LevelCol.dp-LevelRight {
+  align-items: flex-end;
 }
 
 .dp-settings.is-active {

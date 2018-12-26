@@ -107,18 +107,6 @@
   opacity: 0.6;
 }
 
-/* .dp-SidebarTabsList { */
-
-/* .Tabs--icons {
-  border-bottom: 1px solid var(--grey-light);
-  display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-} */
-
-/* .dp-SidebarTab-item { */
-
 .dp-Tabs.Tabs--icons .dp-Tabs-item {
   border-bottom: none;
   border-right: 1px solid var(--grey-light);

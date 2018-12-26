@@ -7,39 +7,38 @@ title: Tabs & Headers
 <div class="dp-MainWrapper">
     <ul class="dp-Tabs Tabs--general">
 
-        <li class="dp-Tabs-item Tabs--button">
-            <span class="dp-Icon"></span>
+        <li class="dp-Tabs-item Tabs-item--button">
+            <span class="dp-Icon dp-add_tab Icon-success"></span>
         </li>
 
         <li class="dp-Tabs-item">
-            <span class="dp-Flex">
+            <span class="Tabs-item--row">
                 <span class="dp-Icon dp-email_small"></span>
                 <span class="dp-Title">Single-line-item</span>
             </span>
-            <span class="dp-Flex">
+            <span class="Tabs-item--row">
                 <span class="dp-Icon dp-iconUserAvatar"></span>
                 <span class="dp-Subtitle">Single-line-item</span>
             </span>
         </li>
 
         <li class="dp-Tabs-item is-active">
-            <span class="dp-Flex">
+            <span class="Tabs-item--row">
                 <span class="dp-Icon dp-email_small"></span>
                 <span class="dp-Title">Single-line-item</span>
             </span>
-            <span class="dp-Flex">
+            <span class="Tabs-item--row">
                 <span class="dp-Icon dp-iconUserAvatar"></span>
                 <span class="dp-Subtitle">Single-line-item</span>
             </span>
         </li>
 
         <li class="dp-Tabs-item">
-            <span class="dp-Flex">
+            <span class="Tabs-item--row">
                 <span class="dp-Icon dp-iconOrganisation"></span>
                 <span class="dp-Title">Single-line-item</span>
             </span>
-            <span class="dp-Flex">
-                <span class="dp-Icon"></span>
+            <span class="Tabs-item--row">
                 <span class="dp-Subtitle">Single-line-item</span>
             </span>
         </li>
@@ -52,15 +51,15 @@ title: Tabs & Headers
 ```html @preview
 <div class="dp-MainWrapper">
     <ul class="dp-Tabs Tabs--general">
-        <li class="dp-Tabs-item Tabs--button">
-            <span class="dp-Icon"></span>
+        <li class="dp-Tabs-item Tabs-item--button">
+            <span class="dp-Icon dp-add_tab Icon-success"></span>
         </li>
         <li class="dp-Tabs-item">
-            <span class="dp-Flex">
+            <span class="Tabs-item--row">
                 <span class="dp-Icon dp-email_small"></span>
                 <span class="dp-Title">Single-line-item</span>
             </span>
-            <span class="dp-Flex">
+            <span class="Tabs-item--row">
                 <span class="dp-Icon dp-iconUserAvatar"></span>
                 <span class="dp-Subtitle">Single-line-item</span>
             </span>

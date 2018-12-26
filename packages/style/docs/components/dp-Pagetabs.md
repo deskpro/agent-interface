@@ -6,15 +6,16 @@ title: Page Tabs
 ```html @preview
 <div class="dp-MainWrapper">
     <ul class="dp-Tabs Tabs--general">
-        <li class="dp-Tabs-item Tabs--button">
-            <span class="dp-Icon"></span>
+        <!-- <li class="dp-Tabs-item Tabs--button"> -->
+        <li class="dp-Tabs-item Tabs-item--button">
+            <span class="dp-Icon dp-add_tab Icon-success"></span>
         </li>
         <li class="dp-Tabs-item">
-            <span class="dp-Flex">
+            <span class="Tabs-item--row">
                 <span class="dp-Icon dp-email_small"></span>
                 <span class="dp-Title">RE: Need some help?</span>
             </span>
-            <span class="dp-Flex">
+            <span class="Tabs-item--row">
                 <span class="dp-Icon dp-iconUserAvatar"></span>
                 <span class="dp-Subtitle">Zack Prudent</span>
             </span>
@@ -28,39 +29,38 @@ title: Page Tabs
 <div class="dp-MainWrapper">
     <ul class="dp-Tabs Tabs--general">
 
-        <li class="dp-Tabs-item Tabs--button">
-            <span class="dp-Icon"></span>
+        <li class="dp-Tabs-item Tabs-item--button">
+            <span class="dp-Icon dp-add_tab Icon-success"></span>
         </li>
 
         <li class="dp-Tabs-item">
-            <span class="dp-Flex">
+            <span class="Tabs-item--row">
                 <span class="dp-Icon dp-email_small"></span>
                 <span class="dp-Title">RE: Need some help?</span>
             </span>
-            <span class="dp-Flex">
+            <span class="Tabs-item--row">
                 <span class="dp-Icon dp-iconUserAvatar"></span>
                 <span class="dp-Subtitle">Zack Prudent</span>
             </span>
         </li>
 
         <li class="dp-Tabs-item is-active">
-            <span class="dp-Flex">
+            <span class="Tabs-item--row">
                 <span class="dp-Icon dp-email_small"></span>
                 <span class="dp-Title">SSO working well wit...</span>
             </span>
-            <span class="dp-Flex">
+            <span class="Tabs-item--row">
                 <span class="dp-Icon dp-iconUserAvatar"></span>
                 <span class="dp-Subtitle">Zack Prudent</span>
             </span>
         </li>
 
         <li class="dp-Tabs-item">
-            <span class="dp-Flex">
+            <span class="Tabs-item--row">
                 <span class="dp-Icon dp-iconOrganisation"></span>
                 <span class="dp-Title">Techcompany</span>
             </span>
-            <span class="dp-Flex">
-                <span class="dp-Icon"></span>
+            <span class="Tabs-item--row">
                 <span class="dp-Subtitle">Organisation</span>
             </span>
         </li>
@@ -74,82 +74,81 @@ title: Page Tabs
 <div class="dp-MainWrapper dp-Oneselected">
     <ul class="dp-Tabs Tabs--general">
 
-        <li class="dp-Tabs-item Tabs--button">
-            <span class="dp-Icon"></span>
+        <li class="dp-Tabs-item Tabs-item--button">
+            <span class="dp-Icon dp-add_tab Icon-success"></span>
         </li>
 
         <li class="dp-Tabs-item">
-            <span class="dp-Flex">
+            <span class="Tabs-item--row">
                 <span class="dp-Icon dp-email_small"></span>
                 <span class="dp-Title">RE: Need some help?</span>
             </span>
-            <span class="dp-Flex">
+            <span class="Tabs-item--row">
                 <span class="dp-Icon dp-iconUserAvatar"></span>
                 <span class="dp-Subtitle">Zack Prudent</span>
             </span>
         </li>
 
         <li class="dp-Tabs-item is-active">
-            <span class="dp-Flex">
+            <span class="Tabs-item--row">
                 <span class="dp-Icon dp-email_small"></span>
                 <span class="dp-Title">SSO working well wit...</span>
             </span>
-            <span class="dp-Flex">
+            <span class="Tabs-item--row">
                 <span class="dp-Icon dp-iconUserAvatar"></span>
                 <span class="dp-Subtitle">Zack Prudent</span>
             </span>
         </li>
 
         <li class="dp-Tabs-item">
-            <span class="dp-Flex">
+            <span class="Tabs-item--row">
                 <span class="dp-Icon dp-iconOrganisation"></span>
                 <span class="dp-Title">Techcompany</span>
             </span>
-            <span class="dp-Flex">
-                <span class="dp-Icon"></span>
+            <span class="Tabs-item--row">
                 <span class="dp-Subtitle">Organisation</span>
             </span>
         </li>
 
         <li class="dp-Tabs-item">
-            <span class="dp-Flex">
+            <span class="Tabs-item--row">
                 <span class="dp-Icon dp-email_small"></span>
                 <span class="dp-Title">RE: Need some help?</span>
             </span>
-            <span class="dp-Flex">
+            <span class="Tabs-item--row">
                 <span class="dp-Icon dp-iconUserAvatar"></span>
                 <span class="dp-Subtitle">Zack Prudent</span>
             </span>
         </li>
 
         <li class="dp-Tabs-item">
-            <span class="dp-Flex">
+            <span class="Tabs-item--row">
                 <span class="dp-Icon dp-email_small"></span>
                 <span class="dp-Title">Single-line-item</span>
             </span>
-            <span class="dp-Flex">
+            <span class="Tabs-item--row">
                 <span class="dp-Icon dp-iconUserAvatar"></span>
                 <span class="dp-Subtitle">Single-line-item</span>
             </span>
         </li>
 
         <li class="dp-Tabs-item">
-            <span class="dp-Flex">
+            <span class="Tabs-item--row">
                 <span class="dp-Icon dp-email_small"></span>
                 <span class="dp-Title">Single-line-item</span>
             </span>
-            <span class="dp-Flex">
+            <span class="Tabs-item--row">
                 <span class="dp-Icon dp-iconUserAvatar"></span>
                 <span class="dp-Subtitle">Single-line-item</span>
             </span>
         </li>
 
         <li class="dp-Tabs-item">
-            <span class="dp-Flex">
+            <span class="Tabs-item--row">
                 <span class="dp-Icon dp-email_small"></span>
                 <span class="dp-Title">Single-line-item</span>
             </span>
-            <span class="dp-Flex">
+            <span class="Tabs-item--row">
                 <span class="dp-Icon dp-iconUserAvatar"></span>
                 <span class="dp-Subtitle">Single-line-item</span>
             </span>
@@ -168,82 +167,81 @@ title: Page Tabs
 <div class="dp-MainWrapper dp-Oneselected" style="height: 250px">
     <ul class="dp-Tabs Tabs--general">
 
-        <li class="dp-Tabs-item Tabs--button">
-            <span class="dp-Icon"></span>
+        <li class="dp-Tabs-item Tabs-item--button">
+            <span class="dp-Icon dp-add_tab Icon-success"></span>
         </li>
 
         <li class="dp-Tabs-item">
-            <span class="dp-Flex">
+            <span class="Tabs-item--row">
                 <span class="dp-Icon dp-email_small"></span>
                 <span class="dp-Title">RE: Need some help?</span>
             </span>
-            <span class="dp-Flex">
+            <span class="Tabs-item--row">
                 <span class="dp-Icon dp-iconUserAvatar"></span>
                 <span class="dp-Subtitle">Zack Prudent</span>
             </span>
         </li>
 
         <li class="dp-Tabs-item is-active">
-            <span class="dp-Flex">
+            <span class="Tabs-item--row">
                 <span class="dp-Icon dp-email_small"></span>
                 <span class="dp-Title">SSO working well wit...</span>
             </span>
-            <span class="dp-Flex">
+            <span class="Tabs-item--row">
                 <span class="dp-Icon dp-iconUserAvatar"></span>
                 <span class="dp-Subtitle">Zack Prudent</span>
             </span>
         </li>
 
         <li class="dp-Tabs-item">
-            <span class="dp-Flex">
+            <span class="Tabs-item--row">
                 <span class="dp-Icon dp-iconOrganisation"></span>
                 <span class="dp-Title">Techcompany</span>
             </span>
-            <span class="dp-Flex">
-                <span class="dp-Icon"></span>
+            <span class="Tabs-item--row">
                 <span class="dp-Subtitle">Organisation</span>
             </span>
         </li>
 
         <li class="dp-Tabs-item">
-            <span class="dp-Flex">
+            <span class="Tabs-item--row">
                 <span class="dp-Icon dp-email_small"></span>
                 <span class="dp-Title">RE: Need some help?</span>
             </span>
-            <span class="dp-Flex">
+            <span class="Tabs-item--row">
                 <span class="dp-Icon dp-iconUserAvatar"></span>
                 <span class="dp-Subtitle">Zack Prudent</span>
             </span>
         </li>
 
         <li class="dp-Tabs-item">
-            <span class="dp-Flex">
+            <span class="Tabs-item--row">
                 <span class="dp-Icon dp-email_small"></span>
                 <span class="dp-Title">Single-line-item</span>
             </span>
-            <span class="dp-Flex">
+            <span class="Tabs-item--row">
                 <span class="dp-Icon dp-iconUserAvatar"></span>
                 <span class="dp-Subtitle">Single-line-item</span>
             </span>
         </li>
 
         <li class="dp-Tabs-item">
-            <span class="dp-Flex">
+            <span class="Tabs-item--row">
                 <span class="dp-Icon dp-email_small"></span>
                 <span class="dp-Title">Single-line-item</span>
             </span>
-            <span class="dp-Flex">
+            <span class="Tabs-item--row">
                 <span class="dp-Icon dp-iconUserAvatar"></span>
                 <span class="dp-Subtitle">Single-line-item</span>
             </span>
         </li>
 
         <li class="dp-Tabs-item">
-            <span class="dp-Flex">
+            <span class="Tabs-item--row">
                 <span class="dp-Icon dp-email_small"></span>
                 <span class="dp-Title">Single-line-item</span>
             </span>
-            <span class="dp-Flex">
+            <span class="Tabs-item--row">
                 <span class="dp-Icon dp-iconUserAvatar"></span>
                 <span class="dp-Subtitle">Single-line-item</span>
             </span>
@@ -256,11 +254,11 @@ title: Page Tabs
             <ul class="dp-SelectedMore dp-Menu is-active">
                 <li class="dp-Tabs-item">
                     <span class="dp-TabInfoItem">
-                        <span class="dp-Flex">
+                        <span class="Tabs-item--row">
                             <span class="dp-Icon dp-email_small"></span>
                             <span class="dp-Title">RE: Need some help?</span>
                         </span>
-                        <span class="dp-Flex">
+                        <span class="Tabs-item--row">
                             <span class="dp-Icon dp-iconUserAvatar"></span>
                             <span class="dp-Subtitle">Zack Prudent</span>
                         </span>
@@ -269,12 +267,11 @@ title: Page Tabs
 
                 <li class="dp-Tabs-item">
                     <span class="dp-TabInfoItem">
-                        <span class="dp-Flex">
+                        <span class="Tabs-item--row">
                             <span class="dp-Icon dp-iconOrganisation"></span>
                             <span class="dp-Title">Techcompany</span>
                         </span>
-                        <span class="dp-Flex">
-                            <span class="dp-Icon"></span>
+                        <span class="Tabs-item--row">
                             <span class="dp-Subtitle">Organisation</span>
                         </span>
                     </span>
@@ -282,11 +279,11 @@ title: Page Tabs
 
                 <li class="dp-Tabs-item is-active">
                     <span class="dp-TabInfoItem">
-                        <span class="dp-Flex">
+                        <span class="Tabs-item--row">
                             <span class="dp-Icon dp-email_small"></span>
                             <span class="dp-Title">SSO working well wit...</span>
                         </span>
-                        <span class="dp-Flex">
+                        <span class="Tabs-item--row">
                             <span class="dp-Icon dp-iconUserAvatar"></span>
                             <span class="dp-Subtitle">Zack Prudent</span>
                         </span>
@@ -308,8 +305,8 @@ title: Page Tabs
 <div class="dp-MainWrapper" style="height: 300px">
     <ul class="dp-Tabs Tabs--general">
 
-        <li class="dp-Tabs-item Tabs--button">
-            <span class="dp-Icon"></span>
+        <li class="dp-Tabs-item Tabs-item--button">
+            <span class="dp-Icon dp-add_tab Icon-success"></span>
 
             <ul class="dp-Menu is-visible">
                 <li class="dp-Menu-title">Add</li>
@@ -341,34 +338,33 @@ title: Page Tabs
         </li>
 
         <li class="dp-Tabs-item">
-            <span class="dp-Flex">
+            <span class="Tabs-item--row">
                 <span class="dp-Icon dp-email_small"></span>
                 <span class="dp-Title">RE: Need some help?</span>
             </span>
-            <span class="dp-Flex">
+            <span class="Tabs-item--row">
                 <span class="dp-Icon dp-iconUserAvatar"></span>
                 <span class="dp-Subtitle">Zack Prudent</span>
             </span>
         </li>
 
         <li class="dp-Tabs-item is-active">
-            <span class="dp-Flex">
+            <span class="Tabs-item--row">
                 <span class="dp-Icon dp-email_small"></span>
                 <span class="dp-Title">SSO working well wit...</span>
             </span>
-            <span class="dp-Flex">
+            <span class="Tabs-item--row">
                 <span class="dp-Icon dp-iconUserAvatar"></span>
                 <span class="dp-Subtitle">Zack Prudent</span>
             </span>
         </li>
 
         <li class="dp-Tabs-item">
-            <span class="dp-Flex">
+            <span class="Tabs-item--row">
                 <span class="dp-Icon dp-iconOrganisation"></span>
                 <span class="dp-Title">Techcompany</span>
             </span>
-            <span class="dp-Flex">
-                <span class="dp-Icon"></span>
+            <span class="Tabs-item--row">
                 <span class="dp-Subtitle">Organisation</span>
             </span>
         </li>
@@ -382,39 +378,38 @@ title: Page Tabs
 <div class="dp-MainWrapper" style="height: 300px">
     <ul class="dp-Tabs Tabs--general">
 
-        <li class="dp-Tabs-item Tabs--button">
-            <span class="dp-Icon"></span>
+        <li class="dp-Tabs-item Tabs-item--button">
+            <span class="dp-Icon dp-add_tab Icon-success"></span>
         </li>
 
         <li class="dp-Tabs-item">
-            <span class="dp-Flex">
+            <span class="Tabs-item--row">
                 <span class="dp-Icon dp-email_small"></span>
                 <span class="dp-Title">RE: Need some help?</span>
             </span>
-            <span class="dp-Flex">
+            <span class="Tabs-item--row">
                 <span class="dp-Icon dp-iconUserAvatar"></span>
                 <span class="dp-Subtitle">Zack Prudent</span>
             </span>
         </li>
 
         <li class="dp-Tabs-item is-active">
-            <span class="dp-Flex">
+            <span class="Tabs-item--row">
                 <span class="dp-Icon dp-email_small"></span>
                 <span class="dp-Title">SSO working well wit...</span>
             </span>
-            <span class="dp-Flex">
+            <span class="Tabs-item--row">
                 <span class="dp-Icon dp-iconUserAvatar"></span>
                 <span class="dp-Subtitle">Zack Prudent</span>
             </span>
         </li>
 
         <li class="dp-Tabs-item">
-            <span class="dp-Flex">
+            <span class="Tabs-item--row">
                 <span class="dp-Icon dp-iconOrganisation"></span>
                 <span class="dp-Title">Techcompany</span>
             </span>
-            <span class="dp-Flex">
-                <span class="dp-Icon"></span>
+            <span class="Tabs-item--row">
                 <span class="dp-Subtitle">Organisation</span>
             </span>
         </li>

@@ -290,7 +290,8 @@ title: List Pane
                     </span>
                 </span>
 
-                <span class="dp-LevelCol dp-LevelBottom">
+                <!-- <span class="dp-LevelCol dp-LevelBottom"> -->
+                <span class="dp-LevelCol dp-LevelRight">
                     <span class="dp-IconGroup">
 
                         <span class="dp-ActivityStatus ActivityStatus--viewing">
@@ -298,9 +299,9 @@ title: List Pane
                             <span class="dp-Badge Badge--round Badge--grey"></span>
                         </span>
 
-                        <span class="dp-Icon--circle dp-iconBug"></span>
+                        <span class="Icon--circle dp-iconBug"></span>
                         <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
-                        <span class="dp-Icon--circle dp-iconClock"></span>
+                        <span class="Icon--circle dp-iconClock"></span>
                     </span>
                     <span class="dp-TimeStatus">
                         <span class="dp-Tag Tag--small Tag--danger">Failed</span>
@@ -334,9 +335,9 @@ title: List Pane
                             <span class="dp-Badge Badge--round Badge--grey"></span>
                         </span>
 
-                        <span class="dp-Icon--circle dp-iconBug"></span>
+                        <span class="Icon--circle dp-iconBug"></span>
                         <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
-                        <span class="dp-Icon--circle dp-iconClock"></span>
+                        <span class="Icon--circle dp-iconClock"></span>
                     </span>
 
                 </span>
@@ -380,7 +381,7 @@ title: List Pane
                     </span>
                 </span>
 
-                <span class="dp-LevelCol dp-LevelBottom">
+                <span class="dp-LevelCol dp-LevelRight">
                     <span class="dp-IconGroup">
 
                         <span class="dp-ActivityStatus ActivityStatus--viewing">
@@ -388,9 +389,9 @@ title: List Pane
                             <span class="dp-Badge Badge--round Badge--grey"></span>
                         </span>
 
-                        <span class="dp-Icon--circle dp-iconBug"></span>
+                        <span class="Icon--circle dp-iconBug"></span>
                         <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
-                        <span class="dp-Icon--circle dp-iconClock"></span>
+                        <span class="Icon--circle dp-iconClock"></span>
                     </span>
                     <span class="dp-TimeStatus">
                         <span class="dp-Tag Tag--small Tag--danger">Failed</span>
@@ -426,16 +427,16 @@ title: List Pane
                     </span>
                 </span>
 
-                <span class="dp-LevelCol dp-LevelBottom">
+                <span class="dp-LevelCol dp-LevelRight">
                     <span class="dp-IconGroup">
                         <span class="dp-ActivityStatus ActivityStatus--viewing">
                             <span class="dp-Icon"></span>
                             <span class="dp-Badge Badge--round Badge--grey"></span>
                             <span class="dp-Badge Badge--round Badge--grey"></span>
                         </span>
-                        <span class="dp-Icon--circle dp-iconBug"></span>
+                        <span class="Icon--circle dp-iconBug"></span>
                         <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
-                        <span class="dp-Icon--circle dp-iconClock"></span>
+                        <span class="Icon--circle dp-iconClock"></span>
                     </span>
                     <span class="dp-TimeStatus">
                         <span class="dp-Tag Tag--small Tag--danger">Failed</span>
@@ -451,7 +452,6 @@ title: List Pane
 <h4>list-pane/agent-writing-small</h4>
 ```html @preview
 
-<!--  -->
 <div class="dp-MainWrapper">
     <form>
         <ul class="dp-CardList">
@@ -473,7 +473,7 @@ title: List Pane
                     </span>
                 </span>
 
-                <span class="dp-LevelCol dp-LevelBottom">
+                <span class="dp-LevelCol dp-LevelRight">
                     <span class="dp-IconGroup">
 
                         <span class="dp-ActivityStatus ActivityStatus--writing ActivityStatus--primary">
@@ -481,9 +481,9 @@ title: List Pane
                             <span class="dp-Badge Badge--round Badge--grey"></span>
                         </span>
 
-                        <span class="dp-Icon--circle dp-iconBug"></span>
+                        <span class="Icon--circle dp-iconBug"></span>
                         <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
-                        <span class="dp-Icon--circle dp-iconClock"></span>
+                        <span class="Icon--circle dp-iconClock"></span>
                     </span>
                     <span class="dp-TimeStatus">
                         <span class="dp-Tag Tag--small Tag--danger">Failed</span>
@@ -520,7 +520,7 @@ title: List Pane
                     </span>
                 </span>
 
-                <span class="dp-LevelCol dp-LevelBottom">
+                <span class="dp-LevelCol dp-LevelRight">
                     <span class="dp-IconGroup">
 
                         <span class="dp-ActivityStatus ActivityStatus--writing ActivityStatus--primary">
@@ -529,9 +529,9 @@ title: List Pane
                             <span class="dp-Badge Badge--round Badge--grey"></span>
                         </span>
 
-                        <span class="dp-Icon--circle dp-iconBug"></span>
+                        <span class="Icon--circle dp-iconBug"></span>
                         <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
-                        <span class="dp-Icon--circle dp-iconClock"></span>
+                        <span class="Icon--circle dp-iconClock"></span>
                     </span>
                     <span class="dp-TimeStatus">
                         <span class="dp-Tag Tag--small Tag--danger">Failed</span>
@@ -612,12 +612,12 @@ title: List Pane
                 </span>
             </span>
 
-            <span class="dp-LevelCol dp-LevelBottom">
+            <span class="dp-LevelCol dp-LevelRight">
                 <span class="dp-IconGroup">
 
-                    <span class="dp-Icon--circle dp-iconBug"></span>
+                    <span class="Icon--circle dp-iconBug"></span>
                     <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
-                    <span class="dp-Icon--circle dp-iconClock"></span>
+                    <span class="Icon--circle dp-iconClock"></span>
                 </span>
                 <span class="dp-TimeStatus">
                     <span class="dp-Tag Tag--small Tag--danger">Failed</span>
@@ -647,9 +647,9 @@ title: List Pane
                 </span>
             </span>
 
-            <span class="dp-LevelCol dp-LevelBottom">
+            <span class="dp-LevelCol dp-LevelRight">
                 <span class="dp-IconGroup">
-                    <span class="dp-Icon--circle dp-rocket Icon-grey-darkest"></span>
+                    <span class="Icon--circle dp-rocket Icon-grey-darkest"></span>
                     <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
                     <span class="dp-Badge Badge--round Badge--warning">9</span>
                 </span>
@@ -681,7 +681,7 @@ title: List Pane
                 </span>
             </span>
 
-            <span class="dp-LevelCol dp-LevelBottom">
+            <span class="dp-LevelCol dp-LevelRight">
                 <span class="dp-IconGroup">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
                     <span class="dp-Badge Badge--round Badge-Min Icon-warning"></span>
@@ -714,10 +714,10 @@ title: List Pane
                 </span>
             </span>
 
-            <span class="dp-LevelCol dp-LevelBottom">
+            <span class="dp-LevelCol dp-LevelRight">
                 <span class="dp-IconGroup">
                     <span class="dp-Icon dp-iconLock"></span>
-                    <span class="dp-Icon--circle dp-iconMln"></span>
+                    <span class="Icon--circle dp-iconMln"></span>
                     <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
                     <span class="dp-Badge Badge--round Badge--warning">9</span>
                 </span>
@@ -749,9 +749,9 @@ title: List Pane
                 </span>
             </span>
 
-            <span class="dp-LevelCol dp-LevelBottom">
+            <span class="dp-LevelCol dp-LevelRight">
                 <span class="dp-IconGroup">
-                    <span class="dp-Icon--circle dp-iconMln"></span>
+                    <span class="Icon--circle dp-iconMln"></span>
                     <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
                     <span class="dp-Badge Badge--round Badge--warning">7</span>
                 </span>
@@ -782,9 +782,9 @@ title: List Pane
                 </span>
             </span>
 
-            <span class="dp-LevelCol dp-LevelBottom">
+            <span class="dp-LevelCol dp-LevelRight">
                 <span class="dp-IconGroup">
-                    <span class="dp-Icon--circle dp-iconMln"></span>
+                    <span class="Icon--circle dp-iconMln"></span>
                     <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
                     <span class="dp-Badge Badge--round Badge-Min Icon-neutral"></span>
                 </span>
@@ -815,12 +815,12 @@ title: List Pane
                 </span>
             </span>
 
-            <span class="dp-LevelCol dp-LevelBottom">
+            <span class="dp-LevelCol dp-LevelRight">
                 <span class="dp-IconGroup">
 
-                    <span class="dp-Icon--circle dp-iconBug"></span>
+                    <span class="Icon--circle dp-iconBug"></span>
                     <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
-                    <span class="dp-Icon--circle dp-iconClock"></span>
+                    <span class="Icon--circle dp-iconClock"></span>
                 </span>
                 <span class="dp-TimeStatus">
                     <span class="dp-Tag Tag--small Tag--danger">Failed</span>
@@ -849,9 +849,9 @@ title: List Pane
                 </span>
             </span>
 
-            <span class="dp-LevelCol dp-LevelBottom">
+            <span class="dp-LevelCol dp-LevelRight">
                 <span class="dp-IconGroup">
-                    <span class="dp-Icon--circle dp-iconMln"></span>
+                    <span class="Icon--circle dp-iconMln"></span>
                     <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
                     <span class="dp-Badge Badge--round Badge--neutral">6</span>
                 </span>
@@ -887,9 +887,9 @@ title: List Pane
                 </span>
             </span>
 
-            <span class="dp-LevelCol dp-LevelBottom">
+            <span class="dp-LevelCol dp-LevelRight">
                 <span class="dp-IconGroup">
-                    <span class="dp-Icon--circle dp-rocket Icon-grey-darkest"></span>
+                    <span class="Icon--circle dp-rocket Icon-grey-darkest"></span>
                     <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
                     <span class="dp-Badge Badge--round Badge--warning">9</span>
                 </span>
@@ -927,9 +927,9 @@ title: List Pane
 
             </span>
 
-            <span class="dp-LevelCol dp-LevelLeft dp-LevelBottom">
+            <span class="dp-LevelCol dp-LevelTop dp-LevelRight">
                 <span class="dp-IconGroup">
-                    <span class="dp-Icon--circle dp-iconMln"></span>
+                    <span class="Icon--circle dp-iconMln"></span>
                     <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
                     <span class="dp-Badge Badge--round Badge-Min Icon-neutral"></span>
                 </span>
@@ -973,9 +973,9 @@ title: List Pane
                 </span>
             </span>
 
-            <span class="dp-LevelCol dp-LevelLeft dp-LevelBottom">
+            <span class="dp-LevelCol dp-LevelTop dp-LevelRight">
                 <span class="dp-IconGroup">
-                    <span class="dp-Icon--circle dp-rocket Icon-grey-darkest"></span>
+                    <span class="Icon--circle dp-rocket Icon-grey-darkest"></span>
                     <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
                     <span class="dp-Badge Badge--round Badge--warning">9</span>
                 </span>
@@ -1250,9 +1250,9 @@ title: List Pane
                     </span>
                 </span>
 
-                <span class="dp-LevelCol dp-LevelLeft dp-LevelBottom">
+                <span class="dp-LevelCol dp-LevelTop dp-LevelRight">
                     <span class="dp-IconGroup">
-                        <span class="dp-Icon--circle dp-rocket Icon-grey-darkest"></span>
+                        <span class="Icon--circle dp-rocket Icon-grey-darkest"></span>
                         <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
                         <span class="dp-Badge Badge--round Badge--danger">5</span>
                     </span>
@@ -1285,11 +1285,11 @@ title: List Pane
                     </span>
                 </span>
 
-                <span class="dp-LevelCol dp-LevelLeft dp-LevelBottom">
+                <span class="dp-LevelCol dp-LevelTop dp-LevelRight">
                     <span class="dp-IconGroup">
-                        <span class="dp-Icon--circle dp-iconBug"></span>
+                        <span class="Icon--circle dp-iconBug"></span>
                         <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
-                        <span class="dp-Icon--circle dp-iconClock"></span>
+                        <span class="Icon--circle dp-iconClock"></span>
                     </span>
                     <span class="dp-TimeStatus">
                         <span class="dp-Tag Tag--small Tag--danger">Failed</span>
@@ -1319,9 +1319,9 @@ title: List Pane
                     </span>
                 </span>
 
-                <span class="dp-LevelCol dp-LevelLeft dp-LevelBottom">
+                <span class="dp-LevelCol dp-LevelTop dp-LevelRight">
                     <span class="dp-IconGroup">
-                        <span class="dp-Icon--circle dp-rocket Icon-grey-darkest"></span>
+                        <span class="Icon--circle dp-rocket Icon-grey-darkest"></span>
                         <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
                         <span class="dp-Badge Badge--round Badge--warning">9</span>
                     </span>
@@ -1353,7 +1353,7 @@ title: List Pane
                     </span>
                 </span>
 
-                <span class="dp-LevelCol dp-LevelLeft dp-LevelBottom">
+                <span class="dp-LevelCol dp-LevelTop dp-LevelRight">
                     <span class="dp-IconGroup">
                         <span class="dp-Icon dp-iconUserAvatar"></span>
                         <span class="dp-Badge Badge--round Badge-Min Icon-warning"></span>
@@ -1386,10 +1386,10 @@ title: List Pane
                     </span>
                 </span>
 
-                <span class="dp-LevelCol dp-LevelLeft dp-LevelBottom">
+                <span class="dp-LevelCol dp-LevelTop dp-LevelRight">
                     <span class="dp-IconGroup">
                         <span class="dp-Icon dp-iconLock"></span>
-                        <span class="dp-Icon--circle dp-iconMln"></span>
+                        <span class="Icon--circle dp-iconMln"></span>
                         <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
                         <span class="dp-Badge Badge--round Badge--warning">9</span>
                     </span>
@@ -1420,9 +1420,9 @@ title: List Pane
                     </span>
                 </span>
 
-                <span class="dp-LevelCol dp-LevelLeft dp-LevelBottom">
+                <span class="dp-LevelCol dp-LevelTop dp-LevelRight">
                     <span class="dp-IconGroup">
-                        <span class="dp-Icon--circle dp-iconMln"></span>
+                        <span class="Icon--circle dp-iconMln"></span>
                         <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
                         <span class="dp-Badge Badge--round Badge--warning">7</span>
                     </span>
@@ -1453,10 +1453,10 @@ title: List Pane
                     </span>
                 </span>
 
-                <span class="dp-LevelCol dp-LevelLeft dp-LevelBottom">
+                <span class="dp-LevelCol dp-LevelTop dp-LevelRight">
                     <span class="dp-IconGroup">
 
-                        <span class="dp-Icon--circle dp-iconMln"></span>
+                        <span class="Icon--circle dp-iconMln"></span>
                         <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
                         <span class="dp-Badge Badge--round Badge-Min Icon-neutral"></span>
                     </span>
@@ -1487,9 +1487,9 @@ title: List Pane
                     </span>
                 </span>
 
-                <span class="dp-LevelCol dp-LevelLeft dp-LevelBottom">
+                <span class="dp-LevelCol dp-LevelTop dp-LevelRight">
                     <span class="dp-IconGroup">
-                        <span class="dp-Icon--circle dp-iconMln"></span>
+                        <span class="Icon--circle dp-iconMln"></span>
                         <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
                         <span class="dp-Badge Badge--round Badge--neutral">6</span>
                     </span>
@@ -1521,9 +1521,9 @@ title: List Pane
                     </span>
                 </span>
 
-                <span class="dp-LevelCol dp-LevelLeft dp-LevelBottom">
+                <span class="dp-LevelCol dp-LevelTop dp-LevelRight">
                     <span class="dp-IconGroup">
-                        <span class="dp-Icon--circle dp-rocket Icon-grey-darkest"></span>
+                        <span class="Icon--circle dp-rocket Icon-grey-darkest"></span>
                         <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
                         <span class="dp-Badge Badge--round Badge--warning">9</span>
                     </span>
@@ -1560,9 +1560,9 @@ title: List Pane
 
                 </span>
 
-                <span class="dp-LevelCol dp-LevelLeft dp-LevelBottom">
+                <span class="dp-LevelCol dp-LevelTop dp-LevelRight">
                     <span class="dp-IconGroup">
-                        <span class="dp-Icon--circle dp-iconMln"></span>
+                        <span class="Icon--circle dp-iconMln"></span>
                         <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
                         <span class="dp-Badge Badge--round Badge-Min Icon-neutral"></span>
                     </span>
@@ -1604,9 +1604,9 @@ title: List Pane
 
                 </span>
 
-                <span class="dp-LevelCol dp-LevelLeft dp-LevelBottom">
+                <span class="dp-LevelCol dp-LevelTop dp-LevelRight">
                     <span class="dp-IconGroup">
-                        <span class="dp-Icon--circle dp-rocket Icon-grey-darkest"></span>
+                        <span class="Icon--circle dp-rocket Icon-grey-darkest"></span>
                         <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
                         <span class="dp-Badge Badge--round Badge--warning">9</span>
                     </span>
@@ -1884,7 +1884,7 @@ title: List Pane
                 </td>
                 <td>12 hr 30 min</td>
                 <td>
-                    <span class="dp-Icon dp-rocket Icon-grey-darkest dp-Icon--circle"></span>
+                    <span class="dp-Icon dp-rocket Icon-grey-darkest Icon--circle"></span>
                 </td>
                 <td>&nbsp;</td>
                 <td>
@@ -1935,7 +1935,7 @@ title: List Pane
                 <td class="dp-UserItem"><span class="dp-Icon dp-avatar"></span><span>Mark Jarvis</span></td>
                 <td>12 hr 30 min</td>
                 <td>
-                    <span class="dp-Icon dp-beetle Icon-black dp-Icon--circle"></span>
+                    <span class="dp-Icon dp-beetle Icon-black Icon--circle"></span>
                 </td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
@@ -1984,7 +1984,7 @@ title: List Pane
                 <td class="dp-UserItem"><span class="dp-Icon dp-avatar"></span><span>Mark Jarvis</span></td>
                 <td>43 min</td>
                 <td>
-                    <span class="dp-Icon dp-beetle Icon-black dp-Icon--circle"></span>
+                    <span class="dp-Icon dp-beetle Icon-black Icon--circle"></span>
                 </td>
                 <td>&nbsp;</td>
                 <td>
@@ -2007,7 +2007,7 @@ title: List Pane
                 <td class="dp-UserItem"><span class="dp-Icon dp-avatar"></span><span>Toby Falkirk</span></td>
                 <td>12 hr 30 min</td>
                 <td>
-                    <span class="dp-Icon dp-rocket Icon-grey-darkest dp-Icon--circle"></span>
+                    <span class="dp-Icon dp-rocket Icon-grey-darkest Icon--circle"></span>
                 </td>
                 <td>
                     <span class="dp-Icon dp-avatar"></span>
@@ -2033,7 +2033,7 @@ title: List Pane
                 <td class="dp-UserItem"><span class="dp-Icon dp-avatar"></span><span>Kenneth James</span></td>
                 <td>3 days</td>
                 <td>
-                    <span class="dp-Icon dp-rocket Icon-grey-darkest dp-Icon--circle"></span>
+                    <span class="dp-Icon dp-rocket Icon-grey-darkest Icon--circle"></span>
                 </td>
                 <td>&nbsp;</td>
                 <td>
@@ -2059,7 +2059,7 @@ title: List Pane
                 <td class="dp-UserItem"><span class="dp-Icon dp-avatar"></span><span>Mark Jarvis</span></td>
                 <td>12 hr 30 min</td>
                 <td>
-                    <span class="dp-Icon dp-rocket Icon-grey-darkest dp-Icon--circle"></span>
+                    <span class="dp-Icon dp-rocket Icon-grey-darkest Icon--circle"></span>
                 </td>
                 <td>&nbsp;</td>
                 <td>
@@ -2112,7 +2112,7 @@ title: List Pane
                 <td class="dp-UserItem"><span class="dp-Icon dp-avatar"></span><span>Kenneth James</span></td>
                 <td>12 hr 30 min</td>
                 <td>
-                    <span class="dp-Icon dp-beetle Icon-black dp-Icon--circle"></span>
+                    <span class="dp-Icon dp-beetle Icon-black Icon--circle"></span>
                 </td>
                 <td>&nbsp;</td>
                 <td>
@@ -2139,7 +2139,7 @@ title: List Pane
                 <td class="dp-UserItem"><span class="dp-Icon dp-avatar"></span><span>Toby Falkirk</span></td>
                 <td>2 hr 16 min</td>
                 <td>
-                    <span class="dp-Icon dp-rocket Icon-grey-darkest dp-Icon--circle"></span>
+                    <span class="dp-Icon dp-rocket Icon-grey-darkest Icon--circle"></span>
                 </td>
                 <td>&nbsp;</td>
                 <td>
@@ -2247,7 +2247,7 @@ title: List Pane
                 <td class="dp-UserItem"><span class="dp-Icon dp-avatar"></span><span>Kenneth James</span></td>
                 <td>12 hr 30 min</td>
                 <td>
-                    <span class="dp-Icon dp-Icon--circle dp-rocket Icon-grey-darkest"></span>
+                    <span class="dp-Icon Icon--circle dp-rocket Icon-grey-darkest"></span>
                 </td>
                 <td>&nbsp;</td>
                 <td>
@@ -2295,7 +2295,7 @@ title: List Pane
                 <td class="dp-UserItem"><span class="dp-Icon dp-avatar"></span><span>Mark Jarvis</span></td>
                 <td>12 hr 30 min</td>
                 <td>
-                    <span class="dp-Icon dp-beetle Icon-black dp-Icon--circle"></span>
+                    <span class="dp-Icon dp-beetle Icon-black Icon--circle"></span>
                 </td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
@@ -2344,7 +2344,7 @@ title: List Pane
                 <td class="dp-UserItem"><span class="dp-Icon dp-avatar"></span><span>Mark Jarvis</span></td>
                 <td>43 min</td>
                 <td>
-                    <span class="dp-Icon dp-beetle Icon-black dp-Icon--circle"></span>
+                    <span class="dp-Icon dp-beetle Icon-black Icon--circle"></span>
                 </td>
                 <td>&nbsp;</td>
                 <td>
@@ -2417,11 +2417,11 @@ title: List Pane
                 </span>
             </span>
 
-            <span class="dp-LevelCol dp-LevelBottom">
+            <span class="dp-LevelCol dp-LevelRight">
                 <span class="dp-IconGroup">
-                    <span class="dp-Icon--circle dp-iconBug"></span>
+                    <span class="Icon--circle dp-iconBug"></span>
                     <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
-                    <span class="dp-Icon--circle dp-iconClock"></span>
+                    <span class="Icon--circle dp-iconClock"></span>
                 </span>
                 <span class="dp-TimeStatus">
                     <span class="dp-Tag Tag--small Tag--danger">Failed</span>
@@ -2451,9 +2451,9 @@ title: List Pane
                 </span>
             </span>
 
-            <span class="dp-LevelCol dp-LevelBottom">
+            <span class="dp-LevelCol dp-LevelRight">
                 <span class="dp-IconGroup">
-                    <span class="dp-Icon--circle dp-rocket Icon-grey-darkest"></span>
+                    <span class="Icon--circle dp-rocket Icon-grey-darkest"></span>
                     <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
                     <span class="dp-Badge Badge--round Badge--warning">9</span>
                 </span>
@@ -2485,7 +2485,7 @@ title: List Pane
                 </span>
             </span>
 
-            <span class="dp-LevelCol dp-LevelBottom">
+            <span class="dp-LevelCol dp-LevelRight">
                 <span class="dp-IconGroup">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
                     <span class="dp-Badge Badge--round Badge-Min Icon-warning"></span>
@@ -2518,10 +2518,10 @@ title: List Pane
                 </span>
             </span>
 
-            <span class="dp-LevelCol dp-LevelBottom">
+            <span class="dp-LevelCol dp-LevelRight">
                 <span class="dp-IconGroup">
                     <span class="dp-Icon dp-iconLock"></span>
-                    <span class="dp-Icon--circle dp-iconMln"></span>
+                    <span class="Icon--circle dp-iconMln"></span>
                     <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
                     <span class="dp-Badge Badge--round Badge--warning">9</span>
                 </span>
@@ -2553,9 +2553,9 @@ title: List Pane
                 </span>
             </span>
 
-            <span class="dp-LevelCol dp-LevelBottom">
+            <span class="dp-LevelCol dp-LevelRight">
                 <span class="dp-IconGroup">
-                    <span class="dp-Icon--circle dp-iconMln"></span>
+                    <span class="Icon--circle dp-iconMln"></span>
                     <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
                     <span class="dp-Badge Badge--round Badge--warning">7</span>
                 </span>
@@ -2586,9 +2586,9 @@ title: List Pane
                 </span>
             </span>
 
-            <span class="dp-LevelCol dp-LevelBottom">
+            <span class="dp-LevelCol dp-LevelRight">
                 <span class="dp-IconGroup">
-                    <span class="dp-Icon--circle dp-iconMln"></span>
+                    <span class="Icon--circle dp-iconMln"></span>
                     <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
                     <span class="dp-Badge Badge--round Badge-Min Icon-neutral"></span>
                 </span>
@@ -2619,12 +2619,12 @@ title: List Pane
                 </span>
             </span>
 
-            <span class="dp-LevelCol dp-LevelBottom">
+            <span class="dp-LevelCol dp-LevelRight">
                 <span class="dp-IconGroup">
 
-                    <span class="dp-Icon--circle dp-iconBug"></span>
+                    <span class="Icon--circle dp-iconBug"></span>
                     <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
-                    <span class="dp-Icon--circle dp-iconClock"></span>
+                    <span class="Icon--circle dp-iconClock"></span>
                 </span>
                 <span class="dp-TimeStatus">
                     <span class="dp-Tag Tag--small Tag--danger">Failed</span>
@@ -2653,9 +2653,9 @@ title: List Pane
                 </span>
             </span>
 
-            <span class="dp-LevelCol dp-LevelBottom">
+            <span class="dp-LevelCol dp-LevelRight">
                 <span class="dp-IconGroup">
-                    <span class="dp-Icon--circle dp-iconMln"></span>
+                    <span class="Icon--circle dp-iconMln"></span>
                     <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
                     <span class="dp-Badge Badge--round Badge--neutral">6</span>
                 </span>
@@ -3128,11 +3128,11 @@ title: List Pane
                 </span>
             </span>
 
-            <span class="dp-LevelCol dp-LevelBottom">
+            <span class="dp-LevelCol dp-LevelRight">
                 <span class="dp-IconGroup">
-                    <span class="dp-Icon--circle dp-iconBug"></span>
+                    <span class="Icon--circle dp-iconBug"></span>
                     <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
-                    <span class="dp-Icon--circle dp-iconClock"></span>
+                    <span class="Icon--circle dp-iconClock"></span>
                 </span>
                 <span class="dp-TimeStatus">
                     <span class="dp-Tag Tag--small Tag--danger">Failed</span>
@@ -3320,9 +3320,9 @@ title: List Pane
                 </span>
             </span>
 
-            <span class="dp-LevelCol dp-LevelBottom">
+            <span class="dp-LevelCol dp-LevelRight">
                 <span class="dp-IconGroup">
-                    <span class="dp-Icon--circle dp-rocket Icon-grey-darkest"></span>
+                    <span class="Icon--circle dp-rocket Icon-grey-darkest"></span>
                     <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
                     <span class="dp-Badge Badge--round Badge--warning">9</span>
                 </span>
@@ -3353,7 +3353,7 @@ title: List Pane
                 </span>
             </span>
 
-            <span class="dp-LevelCol dp-LevelBottom">
+            <span class="dp-LevelCol dp-LevelRight">
                 <span class="dp-IconGroup">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
                     <span class="dp-Badge Badge--round Badge-Min Icon-warning"></span>
@@ -3385,10 +3385,10 @@ title: List Pane
                 </span>
             </span>
 
-            <span class="dp-LevelCol dp-LevelBottom">
+            <span class="dp-LevelCol dp-LevelRight">
                 <span class="dp-IconGroup">
                     <span class="dp-Icon dp-iconLock"></span>
-                    <span class="dp-Icon--circle dp-iconMln"></span>
+                    <span class="Icon--circle dp-iconMln"></span>
                     <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
                     <span class="dp-Badge Badge--round Badge--warning">9</span>
                 </span>
@@ -3419,9 +3419,9 @@ title: List Pane
                 </span>
             </span>
 
-            <span class="dp-LevelCol dp-LevelBottom">
+            <span class="dp-LevelCol dp-LevelRight">
                 <span class="dp-IconGroup">
-                    <span class="dp-Icon--circle dp-iconMln"></span>
+                    <span class="Icon--circle dp-iconMln"></span>
                     <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
                     <span class="dp-Badge Badge--round Badge--warning">7</span>
                 </span>
@@ -3434,8 +3434,6 @@ title: List Pane
     </ul>
 </form>
 ```
-
-
 
 ```html @preview
 <form>
@@ -3465,7 +3463,7 @@ title: List Pane
                 </span>
             </span>
 
-            <span class="dp-LevelCol dp-LevelBottom">
+            <span class="dp-LevelCol dp-LevelRight dp-LevelTop">
                 <span class="dp-TimeStatus">
                     <span class="dp-Tag Tag--small Tag--success">Published</span>
                 </span>
@@ -3512,7 +3510,7 @@ title: List Pane
                 </span>
             </span>
 
-            <span class="dp-LevelCol dp-LevelBottom">
+            <span class="dp-LevelCol dp-LevelRight dp-LevelTop">
                 <span class="dp-TimeStatus">
                     <span class="dp-Tag Tag--small Tag--success">Published</span>
                 </span>
@@ -3540,7 +3538,7 @@ title: List Pane
                 </span>
             </span>
 
-            <span class="dp-LevelCol dp-LevelBottom">
+            <span class="dp-LevelCol dp-LevelRight dp-LevelBottom">
                 <span class="dp-TimeStatus">
                     <span class="dp-Tag Tag--small Tag--disabled">Archived</span>
                 </span>
