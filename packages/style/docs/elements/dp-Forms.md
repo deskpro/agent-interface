@@ -6,7 +6,7 @@ title: Forms
 ```html @preview
 <div class="dp-MainWrapper">
     <div class="dp-TicketSelect dp-TicketSmall">
-        <button class="dp-ActionButton ActionButton--Xlarge" type="button">
+        <button class="dp-ActionButton ActionButton--Xlarge dp-Arrow" type="button">
             <span class="dp-title-item">
                 Select
             </span>
@@ -19,7 +19,7 @@ title: Forms
 ```html @preview
 <div class="dp-MainWrapper">
     <div class="dp-TicketSelect dp-TicketSmall">
-        <button class="dp-ActionButton ActionButton--Xlarge" type="button">
+        <button class="dp-ActionButton ActionButton--Xlarge dp-Arrow" type="button">
             <span class="dp-title-item">
                 <span class="dp-Icon dp-iconUserAvatar"></span>
                 Select
@@ -95,7 +95,7 @@ title: Forms
 ```html @preview
 <div class="dp-MainWrapper">
     <form action="#" class="dp-Form dp-TicketSelect dp-FieldMenu">
-        <button type="button" class="dp-ActionButton ActionButton--Xlarge">
+        <button type="button" class="dp-ActionButton ActionButton--Xlarge dp-Arrow">
             <span class="dp-title-item">
                 <span class="dp-Icon dp-IconSupport Icon-grey-darkest"></span>
                 <span class="dp-Fields"> Support </span>
@@ -112,7 +112,7 @@ title: Forms
 <div class="dp-MainWrapper">
 
     <form action="#" class="dp-Form dp-TicketSelect dp-FieldMenu">
-        <button type="button" class="dp-ActionButton ActionButton--Xlarge dp-Valid">
+        <button type="button" class="dp-ActionButton ActionButton--Xlarge dp-Arrow dp-Valid">
             <span class="dp-title-item">
                 <span class="dp-Fields"> Support </span>
             </span>
@@ -129,7 +129,7 @@ title: Forms
 <div class="dp-MainWrapper">
 
     <form action="#" class="dp-Form dp-TicketSelect dp-FieldMenu">
-        <button type="button" class="dp-ActionButton ActionButton--Xlarge dp-Valid">
+        <button type="button" class="dp-ActionButton ActionButton--Xlarge dp-Arrow dp-Valid">
             <span class="dp-title-item">
                 <span class="dp-Icon dp-IconSupport Icon-grey-darkest"></span>
                 <span class="dp-Fields"> Support </span>

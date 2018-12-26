@@ -1,5 +1,6 @@
 @import "../fonts.css";
 @import "../vars.css";
+@import "../dp-Arrow.css";
 
 /* inputs */
 
@@ -37,9 +38,6 @@
   position: absolute;
   top: 2px;
   width: 10px;
-
-  /*  height: 13px;
-  width: 13px; */
 }
 
 .dp-CustomCheckbox input[type="checkbox"] + label::after {
@@ -56,9 +54,6 @@
   position: absolute;
   top: 2px;
   width: 12px;
-
-  /*  height: 1rem;
-  width: 1rem; */
 }
 
 .dp-CustomCheckbox input[type="checkbox"]:checked + label::after {

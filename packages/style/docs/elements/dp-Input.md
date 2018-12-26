@@ -34,6 +34,6 @@ title: Inputs
 ```html @preview
 <span class="dp-CustomCheckbox dp-EmptyCheckbox dp-SelectedCheckbox">
     <input type="checkbox" class="dp-ControlInput" id="DemoCheckbox-4"></input>
-    <label for="DemoCheckbox-4"><span class="dp-Arrow"></span> (3 items selected) </label>
+    <label for="DemoCheckbox-4"><button class="dp-Arrow"></button> (3 items selected) </label>
 </span>
 ```

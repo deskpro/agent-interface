@@ -1,5 +1,6 @@
 @import "../fonts.css";
 @import "../vars.css";
+@import "../dp-Arrow.css";
 
 .dp-Tabs {
   border-bottom: 1px solid var(--grey-light);
@@ -165,37 +166,6 @@
   margin: 0;
   width: 21.7px;
 }
-
-/* Arrow */
-
-/* .dp-Tabs .is-expandable {
-  align-items: center;
-  cursor: pointer;
-  display: flex;
-  position: relative;
-  padding-right: 15px;
-}
-
-.dp-Tabs .is-expandable::after {
-  border-color: var(--grey-dark) transparent transparent transparent;
-  border-style: solid;
-  border-width: 4px 4px 0 4px;
-  content: "";
-  height: 0;
-  position: absolute;
-  right: 0;
-  top: calc(50% - 2px);
-  width: 0;
-}
-
-.dp-Tabs .is-expandable:hover::after {
-  border-color: var(--brand-primary) transparent transparent transparent;
-}
-
-.is-active.is-expandable::after {
-  border-color: var(--brand-primary) transparent transparent transparent;
-  transform: rotate(180deg);
-} */
 
 /* Vetical Tabs */
 
