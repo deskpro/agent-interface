@@ -150,7 +150,7 @@ title: Page View
 				<div class="dp-TitleControls">FOLLOWERS (5)</div>
 				<div class="dp-StatusTimes dp-FollowersStatus">
 					Following
-					<span class="dp-Icon dp-following Icon-primary"></span>
+					<span class="dp-Icon dp-following Icon--primary"></span>
 				</div>
 			</div>
 		</div>
@@ -194,7 +194,7 @@ title: Page View
 
 				<li class="dp-FollowersItem">
 					<button class="dp-Button Button--link Button--small">
-						<span class="dp-Icon dp-add_follower Icon-primary"></span>
+						<span class="dp-Icon dp-add_follower Icon--primary"></span>
 						<span id="text">Add</span>
 					</button>
 				</li>
@@ -1026,23 +1026,28 @@ title: Page View
 	<ul class="dp-MenuBarList">
 		<li class="dp-MenuBarItem dp-TasksItem">
 			<span class="dp-Icon dp-tasks"></span>
-			<span class="dp-Title">Tasks<span class="dp-Arrow"></span></span>
+			<span class="dp-Title">Tasks</span>
+			<button class="dp-Arrow"></button>
 		</li>
 		<li class="dp-MenuBarItem">
 			<span class="dp-Icon dp-billing"></span>
-			<span class="dp-Title">Billing<span class="dp-Arrow"></span></span>
+			<span class="dp-Title">Billing</span>
+			<button class="dp-Arrow"></button>
 		</li>
 		<li class="dp-MenuBarItem">
 			<span class="dp-Icon dp-liscense"></span>
-			<span class="dp-Title">License<span class="dp-Arrow"></span></span>
+			<span class="dp-Title">License</span>
+			<button class="dp-Arrow"></button>
 		</li>
 		<li class="dp-MenuBarItem dp-PropertiesItem">
 			<span class="dp-Icon dp-ticket_properties"></span>
-			<span class="dp-Title">Ticket Properties<span class="dp-Arrow"></span></span>
+			<span class="dp-Title">Ticket Properties</span>
+			<button class="dp-Arrow"></button>
 		</li>
 			<li class="dp-MenuBarItem dp-PropertiesItem">
 			<span class="dp-Icon dp-follow_up"></span>
-			<span class="dp-Title">Follow-ups<span class="dp-Arrow"></span></span>
+			<span class="dp-Title">Follow-ups</span>
+			<button class="dp-Arrow"></button>
 		</li>
 	</ul>
 </div>
@@ -1094,7 +1099,7 @@ title: Page View
 					<div class="dp-TitleControls">FOLLOWERS (5)</div>
 					<div class="dp-StatusTimes dp-FollowersStatus">
 						Following
-						<span class="dp-Icon dp-following Icon-primary"></span>
+						<span class="dp-Icon dp-following Icon--primary"></span>
 					</div>
 				</div>
 			</div>
@@ -1138,7 +1143,7 @@ title: Page View
 
 					<li class="dp-FollowersItem">
 						<button class="dp-Button Button--link Button--small">
-							<span class="dp-Icon dp-add_follower Icon-primary"></span>
+							<span class="dp-Icon dp-add_follower Icon--primary"></span>
 							<span id="text">Add</span>
 						</button>
 					</li>
@@ -1197,7 +1202,7 @@ title: Page View
 
 	    <div class="dp-SendAs dp-MenuBarItem">
 	        <span class="dp-Sendtxt"> Send reply as </span>
-	        <span class="dp-Arrow"></span>
+	        <button class="dp-Arrow"></button>
 	    </div>
 	</div>
 </div>
@@ -1284,23 +1289,28 @@ title: Page View
 		<ul class="dp-MenuBarList">
 			<li class="dp-MenuBarItem dp-TasksItem">
 				<span class="dp-Icon dp-tasks"></span>
-				<span class="dp-Title">Tasks<span class="dp-Arrow"></span></span>
+				<span class="dp-Title">Tasks</span>
+				<button class="dp-Arrow"></button>
 			</li>
 			<li class="dp-MenuBarItem">
 				<span class="dp-Icon dp-billing"></span>
-				<span class="dp-Title">Billing<span class="dp-Arrow"></span></span>
+				<span class="dp-Title">Billing</span>
+				<button class="dp-Arrow"></button>
 			</li>
 			<li class="dp-MenuBarItem">
 				<span class="dp-Icon dp-liscense"></span>
-				<span class="dp-Title">License<span class="dp-Arrow"></span></span>
+				<span class="dp-Title">License</span>
+				<button class="dp-Arrow"></button>
 			</li>
 			<li class="dp-MenuBarItem dp-PropertiesItem">
 				<span class="dp-Icon dp-ticket_properties"></span>
-				<span class="dp-Title">Ticket Properties<span class="dp-Arrow"></span></span>
+				<span class="dp-Title">Ticket Properties</span>
+				<button class="dp-Arrow"></button>
 			</li>
 				<li class="dp-MenuBarItem dp-PropertiesItem">
 				<span class="dp-Icon dp-follow_up"></span>
-				<span class="dp-Title">Follow-ups<span class="dp-Arrow"></span></span>
+				<span class="dp-Title">Follow-ups</span>
+				<button class="dp-Arrow"></button>
 			</li>
 		</ul>
 
@@ -1310,13 +1320,11 @@ title: Page View
 			<div class="dp-SidebarContainer">
 		        <div class="dp-PageSidebar">
 
-		            <div class="dp-SidebarTabs">
-		                <ul class="dp-Tabs Tabs--icons">
-		                    <li class="dp-Tabs-item Tabs--primary"><a href="#" class="dp-Icon dp-tickets"></a></li>
-		                    <li class="dp-Tabs-item"><a href="#" class="dp-Icon dp-icon-user"></a></li>
-		                    <li class="dp-Tabs-item"><a href="#" class="dp-Icon dp-oranisation"></a></li>
-		                </ul>
-		            </div>
+		            <ul class="dp-Tabs Tabs--icons">
+		                <li class="dp-Tabs-item is-active"><a href="#" class="dp-Icon Icon--email"></a></li>
+		                <li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--user"></a></li>
+		                <li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--organisation"></a></li>
+		            </ul>
 
 		            <div class="dp-SidebarBody dp-VersionCCmenu">
 
@@ -1343,8 +1351,8 @@ title: Page View
 		                            <i class="dp-Icon dp-phone_filled"></i><a href="tel:+442035678940" >+44 20 356 789 40</a>
 		                        </div>
 		                        <div class="dp-OpenResolved">
-		                            <span class="dp-open"><i class="dp-Icon dp-tickets Icon-primary"></i> Open: 7</span>
-		                            <span class="dp-resolved"><i class="dp-Icon dp-tickets"></i> Resolved: 24</span>
+		                            <span class="dp-open"><i class="dp-Icon dp-tickets Icon--email"></i> Open: 7</span>
+		                            <span class="dp-resolved"><i class="dp-Icon Icon--email"></i> Resolved: 24</span>
 		                        </div>
 		                    </div>
 		                </div>
@@ -1365,13 +1373,77 @@ title: Page View
 
 		                    <div class="dp-SectionControls">
 		                        <div class="dp-title-item dp-SectionTitle">
-		                            <div>
-		                                <span class="dp-Badge Badge--empty"></span>
-		                                <span class="dp-UserName">Wendy Pride</span>
+									<span class="dp-UserName">
+									    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+									    Wendy Pride
+									    <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">w.pride@techcompany.co.uk</a>
+									</span>
+									<a href="#" class="dp-Icon dp-iconVDots"></a>
+									<!-- hide menu -->
+		                            <ul class="dp-Menu">
+		                                <li class="dp-Menu-linkItem">
+		                                	<span class="dp-Icon dp-Swap"></span>
+		                                	<a href="#" class="dp-Menu-link">Swap with ticket owner</a>
+		                                </li>
+		                                <li class="dp-Menu-linkItem">
+		                                	<span class="dp-Icon dp-Owner"></span>
+		                                	<a href="#" class="dp-Menu-link">Set as ticket owner</a>
+		                                </li>
+		                                <li class="dp-Menu-linkItem">
+		                                	<span class="dp-Icon dp-Merge"></span>
+		                                	<a href="#" class="dp-Menu-link">Merge into ticket owner</a>
+		                                </li>
+		                                <li class="dp-Menu-linkItem">
+		                                	<span class="dp-Icon dp-Bin"></span>
+		                                	<a href="#" class="dp-Menu-link">Remove CC</a>
+		                                </li>
+		                                <li class="dp-Menu-linkItem">
+		                                	<span class="dp-Icon dp-iconMin"></span>
+		                                	<a href="#" class="dp-Menu-link">Remove CC & Block from ticket</a>
+		                                </li>
+		                            </ul>
+		                        </div>
+
+		                        <div class="dp-title-item dp-SectionTitle">
+									<span class="dp-UserName">
+										<span class="dp-Badge Badge--round Badge--grey-light"></span>
+										Bob Cooper
+										<a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">bob.cooper@techcompany.co</a>
+									</span>
+									<a href="#" class="dp-Icon dp-iconVDots"></a>
+									<!-- hide menu -->
+		                            <ul class="dp-Menu">
+		                                <li class="dp-Menu-linkItem">
+		                                	<span class="dp-Icon dp-Swap"></span>
+		                                	<a href="#" class="dp-Menu-link">Swap with ticket owner</a>
+		                                </li>
+		                                <li class="dp-Menu-linkItem">
+		                                	<span class="dp-Icon dp-Owner"></span>
+		                                	<a href="#" class="dp-Menu-link">Set as ticket owner</a>
+		                                </li>
+		                                <li class="dp-Menu-linkItem">
+		                                	<span class="dp-Icon dp-Merge"></span>
+		                                	<a href="#" class="dp-Menu-link">Merge into ticket owner</a>
+		                                </li>
+		                                <li class="dp-Menu-linkItem">
+		                                	<span class="dp-Icon dp-Bin"></span>
+		                                	<a href="#" class="dp-Menu-link">Remove CC</a>
+		                                </li>
+		                                <li class="dp-Menu-linkItem">
+		                                	<span class="dp-Icon dp-iconMin"></span>
+		                                	<a href="#" class="dp-Menu-link">Remove CC & Block from ticket</a>
+		                                </li>
+		                            </ul>
+		                        </div>
+
+		                        <div class="dp-title-item dp-SectionTitle">
+		                            <span class="dp-UserName">
+		                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+		                                Wendy Pride
 		                                <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">w.pride@techcompany.co.uk</a>
-		                            </div>
+		                            </span>
 		                            <a href="#" class="dp-Icon dp-iconVDots"></a>
-
+									<!-- hide menu -->
 		                            <ul class="dp-Menu">
 		                                <li class="dp-Menu-linkItem">
 		                                	<span class="dp-Icon dp-Swap"></span>
@@ -1397,77 +1469,13 @@ title: Page View
 		                        </div>
 
 		                        <div class="dp-title-item dp-SectionTitle">
-		                            <div>
-		                                <span class="dp-Badge Badge--empty"></span>
-		                                <span class="dp-UserName">Bob Cooper</span>
-		                                <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">bob.cooper@techcompany.co</a>
-		                            </div>
-		                            <a href="#" class="dp-Icon dp-iconVDots"></a>
-
-		                            <ul class="dp-Menu">
-		                                <li class="dp-Menu-linkItem">
-		                                	<span class="dp-Icon dp-Swap"></span>
-		                                	<a href="#" class="dp-Menu-link">Swap with ticket owner</a>
-		                                </li>
-		                                <li class="dp-Menu-linkItem">
-		                                	<span class="dp-Icon dp-Owner"></span>
-		                                	<a href="#" class="dp-Menu-link">Set as ticket owner</a>
-		                                </li>
-		                                <li class="dp-Menu-linkItem">
-		                                	<span class="dp-Icon dp-Merge"></span>
-		                                	<a href="#" class="dp-Menu-link">Merge into ticket owner</a>
-		                                </li>
-		                                <li class="dp-Menu-linkItem">
-		                                	<span class="dp-Icon dp-Bin"></span>
-		                                	<a href="#" class="dp-Menu-link">Remove CC</a>
-		                                </li>
-		                                <li class="dp-Menu-linkItem">
-		                                	<span class="dp-Icon dp-iconMin"></span>
-		                                	<a href="#" class="dp-Menu-link">Remove CC & Block from ticket</a>
-		                                </li>
-		                            </ul>
-		                        </div>
-
-		                        <div class="dp-title-item dp-SectionTitle">
-		                            <div>
-		                                <span class="dp-Badge Badge--empty"></span>
-		                                <span class="dp-UserName">Wendy Pride</span>
-		                                <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">w.pride@techcompany.co.uk</a>
-		                            </div>
-		                            <a href="#" class="dp-Icon dp-iconVDots"></a>
-
-		                            <ul class="dp-Menu">
-		                                <li class="dp-Menu-linkItem">
-		                                	<span class="dp-Icon dp-Swap"></span>
-		                                	<a href="#" class="dp-Menu-link">Swap with ticket owner</a>
-		                                </li>
-		                                <li class="dp-Menu-linkItem">
-		                                	<span class="dp-Icon dp-Owner"></span>
-		                                	<a href="#" class="dp-Menu-link">Set as ticket owner</a>
-		                                </li>
-		                                <li class="dp-Menu-linkItem">
-		                                	<span class="dp-Icon dp-Merge"></span>
-		                                	<a href="#" class="dp-Menu-link">Merge into ticket owner</a>
-		                                </li>
-		                                <li class="dp-Menu-linkItem">
-		                                	<span class="dp-Icon dp-Bin"></span>
-		                                	<a href="#" class="dp-Menu-link">Remove CC</a>
-		                                </li>
-		                                <li class="dp-Menu-linkItem">
-		                                	<span class="dp-Icon dp-iconMin"></span>
-		                                	<a href="#" class="dp-Menu-link">Remove CC & Block from ticket</a>
-		                                </li>
-		                            </ul>
-		                        </div>
-
-		                        <div class="dp-title-item dp-SectionTitle">
-		                            <div>
-		                                <span class="dp-Badge Badge--empty"></span>
-		                                <span class="dp-UserName">Bob Cooper</span>
-		                                <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">bob.cooper@techcompany.co</a>
-		                            </div>
-		                            <a href="#" class="dp-Icon dp-iconVDots"></a>
-
+									<span class="dp-UserName">
+									    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+									    Bob Cooper
+									    <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">bob.cooper@techcompany.co</a>
+									</span>
+									<a href="#" class="dp-Icon dp-iconVDots"></a>
+									<!-- hide menu -->
 		                            <ul class="dp-Menu">
 		                                <li class="dp-Menu-linkItem">
 		                                	<span class="dp-Icon dp-Swap"></span>
@@ -1504,11 +1512,11 @@ title: Page View
 
 		                    <div class="dp-Selectbelow">
 		                        <div class="dp-ButtonWrapper">
-		                            <button class="dp-ActionButton dp-Border--danger ActionButton--large is-semibold" type="button">
+		                            <button class="dp-ActionButton dp-Border--danger ActionButton--large dp-Arrow" type="button">
 		                                On Hold
 		                            </button>
 
-		                            <button class="dp-ActionButton dp-Border--danger dp--danger is-semibold" type="button">
+		                            <button class="dp-ActionButton dp-Border--danger dp--danger dp-Arrow" type="button">
 		                                10
 		                            </button>
 		                        </div>
@@ -1516,7 +1524,7 @@ title: Page View
 		                        <div class="dp-ButtonWrapper">
 		                            <span class="dp-Icon dp-LevelDown"></span>
 
-		                            <button class="dp-ActionButton ActionButton--large is-semibold" type="button">
+		                            <button class="dp-ActionButton ActionButton--large dp-Arrow" type="button">
 		                                Awaiting order confirmation
 		                            </button>
 		                        </div>
@@ -1596,7 +1604,7 @@ title: Page View
 								</div>
 							</div>
 						</div>
-						<button class="dp-ActionButton ActionButton--Xlarge dp-SectionBody-item" type="button">
+						<button class="dp-ActionButton ActionButton--Xlarge dp-SectionBody-item dp-Arrow" type="button">
 							<span class="dp-title-item">
 								<span class="dp-Icon dp-iconUserAvatar"></span>
 								Zack Prudent
@@ -1612,7 +1620,7 @@ title: Page View
 								</div>
 							</div>
 						</div>
-						<button class="dp-ActionButton ActionButton--Xlarge dp-SectionBody-item" type="button">
+						<button class="dp-ActionButton ActionButton--Xlarge dp-SectionBody-item dp-Arrow" type="button">
 							<span class="dp-title-item">
 								<span class="dp-Icon dp-iconUserAvatar"></span>
 								Support
@@ -1626,7 +1634,7 @@ title: Page View
 								<div class="dp-TitleControls">FOLLOWERS (5)</div>
 								<div class="dp-StatusTimes dp-FollowersStatus">
 									Following
-									<span class="dp-Icon dp-following Icon-primary"></span>
+									<span class="dp-Icon dp-following Icon--primary"></span>
 								</div>
 							</div>
 						</div>
@@ -1670,7 +1678,7 @@ title: Page View
 
 								<li class="dp-FollowersItem">
 									<button class="dp-Button Button--link Button--small">
-										<span class="dp-Icon dp-add_follower Icon-primary"></span>
+										<span class="dp-Icon dp-add_follower Icon--primary"></span>
 										<span id="text">Add</span>
 									</button>
 								</li>
@@ -1724,20 +1732,9 @@ title: Page View
 				    </div>
 				    <div class="dp-SendAs dp-MenuBarItem">
 				        <span class="dp-Sendtxt"> Send reply as </span>
-				        <span class="dp-Arrow"></span>
+				        <button class="dp-Arrow"></button>
 				    </div>
 				</div> <!-- Reply Box -->
-
-<!-- 				<div class="dp-Actions">
-					<ul class="dp-ActionsItems dp-BorderBottom">
-						<li class="dp-ActionsItem dp-MenuBarItem is-active">
-							MESSAGES AND NOTES
-						</li>
-						<li class="dp-ActionsItem dp-MenuBarItem">
-							FULL LOG
-						</li>
-					</ul>
-				</div> -->
 
 				<ul class="dp-Tabs">
 					<li class="dp-Tabs-item">

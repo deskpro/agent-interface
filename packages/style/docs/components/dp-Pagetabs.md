@@ -6,7 +6,6 @@ title: Page Tabs
 ```html @preview
 <div class="dp-MainWrapper">
     <ul class="dp-Tabs Tabs--general">
-        <!-- <li class="dp-Tabs-item Tabs--button"> -->
         <li class="dp-Tabs-item Tabs-item--button">
             <span class="dp-Icon dp-add_tab Icon-success"></span>
         </li>
@@ -314,7 +313,7 @@ title: Page Tabs
                     <a href="#" class="dp-Menu-link"><span class="dp-Icon dp-email_small"></span>Ticket</a>
                 </li>
                 <li class="dp-Menu-linkItem">
-                    <a href="#" class="dp-Menu-link"><span class="dp-Icon dp-icon-user"></span>Person</a>
+                    <a href="#" class="dp-Menu-link"><span class="dp-Icon Icon--user"></span>Person</a>
                 </li>
                 <li class="dp-Menu-linkItem">
                     <a href="#" class="dp-Menu-link"><span class="dp-Icon dp-organisation_small"></span>Organisation</a>

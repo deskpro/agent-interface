@@ -180,25 +180,20 @@ title: Side-bar Overlay
 					<ul class="dp-MenuBarList">
 						<li class="dp-MenuBarItem">
 							<span class="dp-Icon dp-IconCloud"></span>
-							<span class="dp-Title">Cloud<span class="dp-Arrow"></span></span>
+							<span class="dp-Title">Cloud</span>
+							<button class="dp-Arrow"></button>
 						</li>
 						<li class="dp-MenuBarItem dp-redLightColor">
 							<span class="dp-Icon dp-billing"></span>
-							<span class="dp-Title">Billing<span class="dp-Arrow"></span></span>
+							<span class="dp-Title">Billing</span>
+							<button class="dp-Arrow"></button>
 						</li>
 						<li class="dp-MenuBarItem dp-greenColor">
 							<span class="dp-Icon dp-liscense"></span>
-							<span class="dp-Title">License<span class="dp-Arrow"></span></span>
+							<span class="dp-Title">License</span>
+							<button class="dp-Arrow"></button>
 						</li>
 					</ul>
-
-					<!-- Table -->
-<!-- 					<ul class="dp-ActionsItems dp-BorderBottom">
-					    <li class="dp-ActionsItem dp-MenuBarItem is-active">Tickets</li>
-					    <li class="dp-ActionsItem dp-MenuBarItem">Activity stream</li>
-					    <li class="dp-ActionsItem dp-MenuBarItem">User groups</li>
-					    <li class="dp-ActionsItem dp-MenuBarItem">Brands</li>
-					</ul> -->
 					
 					<ul class="dp-Tabs">
 						<li class="dp-Tabs-item">
@@ -361,13 +356,11 @@ title: Side-bar Overlay
 			<div class="dp-SidebarContainer">
 			    <div class="dp-PageSidebar dp-TicketOverlay">
 
-			        <div class="dp-SidebarTabs">
-			            <ul class="dp-Tabs Tabs--icons">
-			                <li class="dp-Tabs-item"><a href="#" class="dp-Icon dp-tickets"></a></li>
-			                <li class="dp-Tabs-item Tabs--primary"><a href="#" class="dp-Icon dp-icon-user"></a></li>
-			                <li class="dp-Tabs-item"><a href="#" class="dp-Icon dp-oranisation"></a></li>
-			            </ul>
-			        </div>
+					<ul class="dp-Tabs Tabs--icons">
+						<li class="dp-Tabs-item is-active"><a href="#" class="dp-Icon Icon--email"></a></li>
+						<li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--user"></a></li>
+						<li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--organisation"></a></li>
+					</ul>
 
 			        <div class="dp-SidebarBody">
 
@@ -394,8 +387,8 @@ title: Side-bar Overlay
 			                        <i class="dp-Icon dp-phone_filled"></i><a href="tel:+442035678940" >+44 20 356 789 40</a>
 			                    </div>
 			                    <div class="dp-OpenResolved">
-			                        <span class="dp-open"><i class="dp-Icon dp-tickets--primary"></i> Open: 7</span>
-			                        <span class="dp-resolved"><i class="dp-Icon dp-tickets"></i> Resolved: 24</span>
+			                        <span class="dp-open"><i class="dp-Icon Icon--email Icon--primary"></i> Open: 7</span>
+			                        <span class="dp-resolved"><i class="dp-Icon Icon--email"></i> Resolved: 24</span>
 			                    </div>
 			                </div>
 			            </div>
@@ -778,14 +771,11 @@ title: Side-bar Overlay
 			<!--  -->
 			<div class="dp-SidebarContainer">
 			    <div class="dp-PageSidebar dp-TicketOverlay">
-
-			        <div class="dp-SidebarTabs">
-			            <ul class="dp-Tabs Tabs--icons">
-			                <li class="dp-Tabs-item"><a href="#" class="dp-Icon dp-tickets"></a></li>
-			                <li class="dp-Tabs-item Tabs--primary"><a href="#" class="dp-Icon dp-icon-user"></a></li>
-			                <li class="dp-Tabs-item"><a href="#" class="dp-Icon dp-oranisation"></a></li>
-			            </ul>
-			        </div>
+					<ul class="dp-Tabs Tabs--icons">
+						<li class="dp-Tabs-item is-active"><a href="#" class="dp-Icon Icon--email"></a></li>
+						<li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--user"></a></li>
+						<li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--organisation"></a></li>
+					</ul>
 
 			        <div class="dp-SidebarBody">
 
@@ -812,8 +802,8 @@ title: Side-bar Overlay
 			                        <i class="dp-Icon dp-phone_filled"></i><a href="tel:+442035678940" >+44 20 356 789 40</a>
 			                    </div>
 			                    <div class="dp-OpenResolved">
-			                        <span class="dp-open"><i class="dp-Icon dp-tickets--primary"></i> Open: 7</span>
-			                        <span class="dp-resolved"><i class="dp-Icon dp-tickets"></i> Resolved: 24</span>
+			                        <span class="dp-open"><i class="dp-Icon Icon--email Icon--primary"></i> Open: 7</span>
+			                        <span class="dp-resolved"><i class="dp-Icon Icon--email"></i> Resolved: 24</span>
 			                    </div>
 			                </div>
 			            </div>

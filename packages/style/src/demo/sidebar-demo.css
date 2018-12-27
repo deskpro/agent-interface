@@ -1,7 +1,7 @@
 @import "../fonts.css";
 @import "../vars.css";
 
-.dp-PageSidebar.dp-DemonstrationEements .dp-DemonstrationTitle {
+.dp-DemonstrationEements .dp-DemonstrationTitle {
   border: none;
 }
 
@@ -11,5 +11,17 @@
   margin: 0;
   padding: 10px 0;
   text-align: center;
-  width: 50px;
+  width: 46px;
+}
+
+.Sidebar-Demonstration > ul {
+  margin-bottom: 10px;
+}
+
+.dp-DemonstrationEements {
+  margin-top: 20px;
+}
+
+.dp-DemonstrationEements .dp-Tabs .dp-Tabs-item {
+  border-right: 0;
 }

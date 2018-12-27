@@ -156,17 +156,13 @@ title: Tabs & Headers
 </div>
 ```
 
-<h2>Tabs/icon</h2>
+ <h2>Tabs/icon</h2>
 ```html @preview
 <div class="dp-MainWrapper">
-    <div class="dp-PageSidebar">
-        <div class="dp-SidebarTabs">
-            <ul class="dp-Tabs Tabs--icons">
-                <li class="dp-Tabs-item is-active"><a href="#" class="dp-Icon dp-tickets"></a></li>
-                <li class="dp-Tabs-item"><a href="#" class="dp-Icon dp-icon-user"></a></li>
-                <li class="dp-Tabs-item"><a href="#" class="dp-Icon dp-oranisation"></a></li>
-            </ul>
-        </div>
-    </div>
+    <ul class="dp-Tabs Tabs--icons">
+        <li class="dp-Tabs-item is-active"><a href="#" class="dp-Icon Icon--email"></a></li>
+        <li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--user"></a></li>
+        <li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--organisation"></a></li>
+    </ul>
 </div>
 ```

@@ -15,71 +15,48 @@ title: PageSidebar
 ```html @preview
 <div class="dp-MainWrapper Sidebar-Demonstration">
 
-    <div class="dp-PageSidebar">
-        <div class="dp-SidebarTabs">
-            <ul class="dp-Tabs Tabs--icons">
-                <li class="dp-Tabs-item Tabs--primary"><a href="#" class="dp-Icon dp-tickets"></a></li>
-            </ul>
-        </div>
-    </div>
+    <ul class="dp-Tabs Tabs--icons">
+        <li class="dp-Tabs-item is-active"><a href="#" class="dp-Icon Icon--email"></a></li>
+    </ul>
 
-    <div class="dp-PageSidebar">
-        <div class="dp-SidebarTabs">
-            <ul class="dp-Tabs Tabs--icons">
-                <li class="dp-Tabs-item Tabs--primary"><a href="#" class="dp-Icon dp-tickets"></a></li>
-                <li class="dp-Tabs-item"><a href="#" class="dp-Icon dp-icon-user"></a></li>
-            </ul>
-        </div>
-    </div>
+    <ul class="dp-Tabs Tabs--icons">
+        <li class="dp-Tabs-item is-active"><a href="#" class="dp-Icon Icon--email"></a></li>
+        <li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--user"></a></li>
+    </ul>
 
-    <div class="dp-PageSidebar">
-        <div class="dp-SidebarTabs">
-            <ul class="dp-Tabs Tabs--icons">
-                <li class="dp-Tabs-item Tabs--primary"><a href="#" class="dp-Icon dp-tickets"></a></li>
-                <li class="dp-Tabs-item"><a href="#" class="dp-Icon dp-icon-user"></a></li>
-                <li class="dp-Tabs-item"><a href="#" class="dp-Icon dp-oranisation"></a></li>
-            </ul>
-        </div>
-    </div>
+    <ul class="dp-Tabs Tabs--icons">
+        <li class="dp-Tabs-item is-active"><a href="#" class="dp-Icon Icon--email"></a></li>
+        <li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--user"></a></li>
+        <li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--organisation"></a></li>
+    </ul>
 
-    <div class="dp-PageSidebar">
-        <div class="dp-SidebarTabs">
-            <ul class="dp-Tabs Tabs--icons">
-                <li class="dp-Tabs-item Tabs--primary"><a href="#" class="dp-Icon dp-tickets"></a></li>
-                <li class="dp-Tabs-item"><a href="#" class="dp-Icon dp-icon-user"></a></li>
-                <li class="dp-Tabs-item"><a href="#" class="dp-Icon dp-oranisation"></a></li>
-                <li class="dp-Tabs-item"><a href="#" class="dp-Icon dp-publish"></a></li>
-            </ul>
-        </div>
-    </div>
+    <ul class="dp-Tabs Tabs--icons">
+        <li class="dp-Tabs-item is-active"><a href="#" class="dp-Icon Icon--email"></a></li>
+        <li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--user"></a></li>
+        <li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--organisation"></a></li>
+        <li class="dp-Tabs-item"><a href="#" class="dp-Icon dp-publish"></a></li>
+    </ul>
 
-    <div class="dp-PageSidebar">
-        <div class="dp-SidebarTabs">
-            <ul class="dp-Tabs Tabs--icons">
-                <li class="dp-Tabs-item Tabs--primary"><a href="#" class="dp-Icon dp-tickets"></a></li>
-                <li class="dp-Tabs-item"><a href="#" class="dp-Icon dp-icon-user"></a></li>
-                <li class="dp-Tabs-item"><a href="#" class="dp-Icon dp-oranisation"></a></li>
-                <li class="dp-Tabs-item"><a href="#" class="dp-Icon dp-publish"></a></li>
-                <li class="dp-Tabs-item"><a href="#" class="dp-Icon dp-history"></a></li>
-            </ul>
-        </div>
-    </div>
+    <ul class="dp-Tabs Tabs--icons">
+        <li class="dp-Tabs-item is-active"><a href="#" class="dp-Icon Icon--email"></a></li>
+        <li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--user"></a></li>
+        <li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--organisation"></a></li>
+        <li class="dp-Tabs-item"><a href="#" class="dp-Icon dp-publish"></a></li>
+        <li class="dp-Tabs-item"><a href="#" class="dp-Icon dp-history"></a></li>
+    </ul>
 
-    <div class="dp-PageSidebar dp-DemonstrationEements">
-        <div class="dp-SidebarTabs">
-            <ul class="dp-Tabs Tabs--icons">
-                <li class="dp-Tabs-item"><a href="#" class="dp-Icon dp-tickets"></a></li>
-                <li class="dp-Tabs-item"><a href="#" class="dp-Icon dp-Icon dp-tickets"></a></li>
-                <li class="dp-Tabs-item Tabs--primary"><a href="#" class="dp-Icon dp-Icon dp-tickets"></a></li>
-            </ul>
+    <div class="dp-DemonstrationEements">
+        <ul class="dp-Tabs Tabs--icons">
+            <li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--email"></a></li>
+            <li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--email"></a></li>
+            <li class="dp-Tabs-item is-active"><a href="#" class="dp-Icon Icon--email"></a></li>
+        </ul>
 
-            <ul class="dp-Tabs Tabs--icons dp-DemonstrationTitle">
-                <li>Static</li>
-                <li>Rollover</li>
-                <li>Selected</li>
-            </ul>
-
-        </div>
+        <ul class="dp-Tabs Tabs--icons dp-DemonstrationTitle">
+            <li>Static</li>
+            <li>Rollover</li>
+            <li>Selected</li>
+        </ul>
     </div>
 
 </div>
@@ -88,7 +65,7 @@ title: PageSidebar
 <h4>sidebar/header</h4>
 ```html @preview
 <div class="dp-MainWrapper">
-    <div class="dp-PageSidebar">
+    <div>
 
         <div class="dp-SidebarSection">
             <div class="dp-SectionTitle">
@@ -137,15 +114,11 @@ title: PageSidebar
 <h4>sidebar/tab-header</h4>
 ```html @preview
 <div class="dp-MainWrapper">
-    <div class="dp-PageSidebar">
-        <div class="dp-SidebarTabs">
-            <ul class="dp-Tabs Tabs--icons">
-                <li class="dp-Tabs-item Tabs--primary"><a href="#" class="dp-Icon dp-tickets"></a></li>
-                <li class="dp-Tabs-item"><a href="#" class="dp-Icon dp-icon-user"></a></li>
-                <li class="dp-Tabs-item"><a href="#" class="dp-Icon dp-oranisation"></a></li>
-            </ul>
-        </div>
-    </div>
+    <ul class="dp-Tabs Tabs--icons">
+        <li class="dp-Tabs-item is-active"><a href="#" class="dp-Icon Icon--email"></a></li>
+        <li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--user"></a></li>
+        <li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--organisation"></a></li>
+    </ul>
 </div>
 ```
 
@@ -178,8 +151,8 @@ title: PageSidebar
                 <i class="dp-Icon dp-phone_filled"></i><a href="tel:+442035678940" >+44 20 356 789 40</a>
             </div>
             <div class="dp-OpenResolved">
-                <span class="dp-open"><i class="dp-Icon dp-tickets Icon-primary"></i> Open: 7</span>
-                <span class="dp-resolved"><i class="dp-Icon dp-tickets"></i> Resolved: 24</span>
+                <span class="dp-open"><i class="dp-Icon Icon--email Icon--primary"></i> Open: 7</span>
+                <span class="dp-resolved"><i class="dp-Icon Icon--email"></i> Resolved: 24</span>
             </div>
         </div>
     </div>
@@ -214,11 +187,13 @@ title: PageSidebar
     <div class="dp-PageSidebar">
         <div class="dp-SectionControls">
             <div class="dp-title-item dp-SectionTitle">
-                <div>
-                    <span class="dp-Badge Badge--empty"></span>
-                    <span class="dp-UserName">Wendy Pride</span>
+
+                <span class="dp-UserName">
+                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                    Wendy Pride
                     <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">w.pride@techcompany.co.uk</a>
-                </div>
+                </span>
+
                 <a href="#" class="dp-Icon dp-iconVDots"></a>
             </div>
         </div>
@@ -232,15 +207,12 @@ title: PageSidebar
     <div class="dp-PageSidebar">
         <!-- buttons -->
         <div class="dp-Selectbelow">
-
-            <button class="dp-ActionButton dp-Border--danger ActionButton--large is-semibold dp-Arrow" type="button">
+            <button class="dp-ActionButton dp-Border--danger ActionButton--large dp-Arrow" type="button">
                 On Hold
             </button>
-
             <div class="dp-ButtonWrapper">
                 <span class="dp-Icon dp-LevelDown"></span>
-
-                <button class="dp-ActionButton ActionButton--large is-semibold dp-Arrow" type="button">
+                <button class="dp-ActionButton ActionButton--large dp-Arrow" type="button">
                     Awaiting order confirmation
                 </button>
             </div>
@@ -360,13 +332,11 @@ title: PageSidebar
     <div class="dp-SidebarContainer">
         <div class="dp-PageSidebar">
 
-            <div class="dp-SidebarTabs">
-                <ul class="dp-Tabs Tabs--icons">
-                    <li class="dp-Tabs-item Tabs--primary"><a href="#" class="dp-Icon dp-tickets"></a></li>
-                    <li class="dp-Tabs-item"><a href="#" class="dp-Icon dp-icon-user"></a></li>
-                    <li class="dp-Tabs-item"><a href="#" class="dp-Icon dp-oranisation"></a></li>
-                </ul>
-            </div>
+            <ul class="dp-Tabs Tabs--icons">
+                <li class="dp-Tabs-item is-active"><a href="#" class="dp-Icon Icon--email"></a></li>
+                <li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--user"></a></li>
+                <li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--organisation"></a></li>
+            </ul>
 
             <div class="dp-SidebarBody">
 
@@ -393,7 +363,7 @@ title: PageSidebar
                             <i class="dp-Icon dp-phone_filled"></i><a href="tel:+442035678940" >+44 20 356 789 40</a>
                         </div>
                         <div class="dp-OpenResolved">
-                            <span class="dp-open"><i class="dp-Icon dp-tickets Icon-primary"></i> Open: 7</span>
+                            <span class="dp-open"><i class="dp-Icon dp-tickets Icon--primary"></i> Open: 7</span>
                             <span class="dp-resolved"><i class="dp-Icon dp-tickets"></i> Resolved: 24</span>
                         </div>
                     </div>
@@ -417,38 +387,38 @@ title: PageSidebar
                 <div class="dp-SectionControls">
 
                     <div class="dp-title-item dp-SectionTitle">
-                        <div>
-                            <span class="dp-Badge Badge--empty"></span>
-                            <span class="dp-UserName">Wendy Pride</span>
+                        <span class="dp-UserName">
+                            <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                            Wendy Pride
                             <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">w.pride@techcompany.co.uk</a>
-                        </div>
+                        </span>
                         <a href="#" class="dp-Icon dp-iconVDots"></a>
                     </div>
 
                     <div class="dp-title-item dp-SectionTitle">
-                        <div>
-                            <span class="dp-Badge Badge--empty"></span>
-                            <span class="dp-UserName">Wendy Pride</span>
+                        <span class="dp-UserName">
+                            <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                            Wendy Pride
                             <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">w.pride@techcompany.co.uk</a>
-                        </div>
+                        </span>
                         <a href="#" class="dp-Icon dp-iconVDots"></a>
                     </div>
 
                     <div class="dp-title-item dp-SectionTitle">
-                        <div>
-                            <span class="dp-Badge Badge--empty"></span>
-                            <span class="dp-UserName">Wendy Pride</span>
+                        <span class="dp-UserName">
+                            <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                            Wendy Pride
                             <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">w.pride@techcompany.co.uk</a>
-                        </div>
+                        </span>
                         <a href="#" class="dp-Icon dp-iconVDots"></a>
                     </div>
 
                     <div class="dp-title-item dp-SectionTitle">
-                        <div>
-                            <span class="dp-Badge Badge--empty"></span>
-                            <span class="dp-UserName">Wendy Pride</span>
+                        <span class="dp-UserName">
+                            <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                            Wendy Pride
                             <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">w.pride@techcompany.co.uk</a>
-                        </div>
+                        </span>
                         <a href="#" class="dp-Icon dp-iconVDots"></a>
                     </div>
 
@@ -464,7 +434,7 @@ title: PageSidebar
 
                     <div class="dp-Selectbelow">
                         <div class="dp-ButtonWrapper">
-                            <button class="dp-ActionButton dp-Border--danger ActionButton--large is-semibold dp-Arrow" type="button">
+                            <button class="dp-ActionButton dp-Border--danger ActionButton--large dp-Arrow" type="button">
                                 On Hold
                             </button>
 
@@ -552,13 +522,11 @@ title: PageSidebar
     <div class="dp-SidebarContainer">
         <div class="dp-PageSidebar dp-TicketOverlay">
 
-            <div class="dp-SidebarTabs">
-                <ul class="dp-Tabs Tabs--icons">
-                    <li class="dp-Tabs-item"><a href="#" class="dp-Icon dp-tickets"></a></li>
-                    <li class="dp-Tabs-item Tabs--primary"><a href="#" class="dp-Icon dp-icon-user"></a></li>
-                    <li class="dp-Tabs-item"><a href="#" class="dp-Icon dp-oranisation"></a></li>
-                </ul>
-            </div>
+            <ul class="dp-Tabs Tabs--icons">
+                <li class="dp-Tabs-item is-active"><a href="#" class="dp-Icon Icon--email"></a></li>
+                <li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--user"></a></li>
+                <li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--organisation"></a></li>
+            </ul>
 
             <div class="dp-SidebarBody">
 
@@ -585,8 +553,8 @@ title: PageSidebar
                             <i class="dp-Icon dp-phone_filled"></i><a href="tel:+442035678940" >+44 20 356 789 40</a>
                         </div>
                         <div class="dp-OpenResolved">
-                            <span class="dp-open"><i class="dp-Icon dp-tickets Icon-primary"></i> Open: 7</span>
-                            <span class="dp-resolved"><i class="dp-Icon dp-tickets"></i> Resolved: 24</span>
+                            <span class="dp-open"><i class="dp-Icon Icon--email Icon--primary"></i> Open: 7</span>
+                            <span class="dp-resolved"><i class="dp-Icon Icon--email"></i> Resolved: 24</span>
                         </div>
                     </div>
                 </div>
@@ -642,13 +610,11 @@ title: PageSidebar
     <div class="dp-SidebarContainer">
         <div class="dp-PageSidebar">
 
-            <div class="dp-SidebarTabs">
-                <ul class="dp-Tabs Tabs--icons">
-                    <li class="dp-Tabs-item Tabs--primary"><a href="#" class="dp-Icon dp-tickets"></a></li>
-                    <li class="dp-Tabs-item"><a href="#" class="dp-Icon dp-icon-user"></a></li>
-                    <li class="dp-Tabs-item"><a href="#" class="dp-Icon dp-oranisation"></a></li>
-                </ul>
-            </div>
+            <ul class="dp-Tabs Tabs--icons">
+                <li class="dp-Tabs-item is-active"><a href="#" class="dp-Icon Icon--email"></a></li>
+                <li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--user"></a></li>
+                <li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--organisation"></a></li>
+            </ul>
 
             <div class="dp-SidebarBody">
 
@@ -675,8 +641,8 @@ title: PageSidebar
                             <i class="dp-Icon dp-phone_filled"></i><a href="tel:+442035678940" >+44 20 356 789 40</a>
                         </div>
                         <div class="dp-OpenResolved">
-                            <span class="dp-open"><i class="dp-Icon dp-tickets Icon-primary"></i> Open: 7</span>
-                            <span class="dp-resolved"><i class="dp-Icon dp-tickets"></i> Resolved: 24</span>
+                            <span class="dp-open"><i class="dp-Icon Icon--email Icon--primary"></i> Open: 7</span>
+                            <span class="dp-resolved"><i class="dp-Icon Icon--email"></i> Resolved: 24</span>
                         </div>
                     </div>
                 </div>
@@ -699,38 +665,38 @@ title: PageSidebar
                 <div class="dp-SectionControls">
 
                     <div class="dp-title-item dp-SectionTitle">
-                        <div>
-                            <span class="dp-Badge Badge--empty"></span>
-                            <span class="dp-UserName">Wendy Pride</span>
+                        <span class="dp-UserName">
+                            <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                            Wendy Pride
                             <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">w.pride@techcompany.co.uk</a>
-                        </div>
+                        </span>
                         <a href="#" class="dp-Icon dp-iconVDots"></a>
                     </div>
 
                     <div class="dp-title-item dp-SectionTitle">
-                        <div>
-                            <span class="dp-Badge Badge--empty"></span>
-                            <span class="dp-UserName">Wendy Pride</span>
+                        <span class="dp-UserName">
+                            <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                            Wendy Pride
                             <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">w.pride@techcompany.co.uk</a>
-                        </div>
+                        </span>
                         <a href="#" class="dp-Icon dp-iconVDots"></a>
                     </div>
 
                     <div class="dp-title-item dp-SectionTitle">
-                        <div>
-                            <span class="dp-Badge Badge--empty"></span>
-                            <span class="dp-UserName">Wendy Pride</span>
+                        <span class="dp-UserName">
+                            <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                            Wendy Pride
                             <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">w.pride@techcompany.co.uk</a>
-                        </div>
+                        </span>
                         <a href="#" class="dp-Icon dp-iconVDots"></a>
                     </div>
 
                     <div class="dp-title-item dp-SectionTitle">
-                        <div>
-                            <span class="dp-Badge Badge--empty"></span>
-                            <span class="dp-UserName">Wendy Pride</span>
+                        <span class="dp-UserName">
+                            <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                            Wendy Pride
                             <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">w.pride@techcompany.co.uk</a>
-                        </div>
+                        </span>
                         <a href="#" class="dp-Icon dp-iconVDots"></a>
                     </div>
 
@@ -745,18 +711,18 @@ title: PageSidebar
                 <div class="dp-SidebarSection">
                     <div class="dp-Selectbelow">
                         <div class="dp-ButtonWrapper">
-                            <button class="dp-ActionButton dp-Border--danger ActionButton--large is-semibold dp-Arrow" type="button">
+                            <button class="dp-ActionButton dp-Border--danger ActionButton--large dp-Arrow" type="button">
                                 On Hold
                             </button>
 
-                            <button class="dp-ActionButton dp-Border--danger dp--danger is-semibold dp-Arrow" type="button">
+                            <button class="dp-ActionButton dp-Border--danger dp--danger dp-Arrow" type="button">
                                 10
                             </button>
                         </div>
                         <div class="dp-ButtonWrapper">
                             <span class="dp-Icon dp-LevelDown"></span>
 
-                            <button class="dp-ActionButton ActionButton--large is-semibold dp-Arrow" type="button">
+                            <button class="dp-ActionButton ActionButton--large dp-Arrow" type="button">
                                 Awaiting order confirmation
                             </button>
                         </div>
@@ -882,14 +848,11 @@ title: PageSidebar
     <div class="dp-SidebarContainer">
         <div class="dp-PageSidebar">
 
-            <div class="dp-SidebarTabs">
-                <ul class="dp-Tabs Tabs--icons">
-                    <li class="dp-Tabs-item Tabs--primary"><a href="#" class="dp-Icon dp-tickets"></a></li>
-                    <li class="dp-Tabs-item"><a href="#" class="dp-Icon dp-icon-user"></a></li>
-                    <li class="dp-Tabs-item"><a href="#" class="dp-Icon dp-oranisation"></a></li>
-                </ul>
-            </div>
-
+            <ul class="dp-Tabs Tabs--icons">
+                <li class="dp-Tabs-item is-active"><a href="#" class="dp-Icon Icon--email"></a></li>
+                <li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--user"></a></li>
+                <li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--organisation"></a></li>
+            </ul>
             <div class="dp-SidebarBody dp-VersionCCmenu">
 
                 <div class="dp-SidebarSection">
@@ -915,8 +878,8 @@ title: PageSidebar
                             <i class="dp-Icon dp-phone_filled"></i><a href="tel:+442035678940" >+44 20 356 789 40</a>
                         </div>
                         <div class="dp-OpenResolved">
-                            <span class="dp-open"><i class="dp-Icon dp-tickets Icon-primary"></i> Open: 7</span>
-                            <span class="dp-resolved"><i class="dp-Icon dp-tickets"></i> Resolved: 24</span>
+                            <span class="dp-open"><i class="dp-Icon Icon--email Icon--primary"></i> Open: 7</span>
+                            <span class="dp-resolved"><i class="dp-Icon Icon--email"></i> Resolved: 24</span>
                         </div>
                     </div>
                 </div>
@@ -937,13 +900,14 @@ title: PageSidebar
 
                     <div class="dp-SectionControls">
                         <div class="dp-title-item dp-SectionTitle">
-                            <div>
-                                <span class="dp-Badge Badge--empty"></span>
-                                <span class="dp-UserName">Wendy Pride</span>
-                                <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">w.pride@techcompany.co.uk</a>
-                            </div>
-                            <a href="#" class="dp-Icon dp-iconVDots"></a>
 
+                            <span class="dp-UserName">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                Wendy Pride
+                                <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">w.pride@techcompany.co.uk</a>
+                            </span>
+                            <a href="#" class="dp-Icon dp-iconVDots"></a>
+                            <!-- hide menu -->
                             <ul class="dp-Menu">
                                 <li class="dp-Menu-linkItem">
                                     <span class="dp-Icon dp-Swap"></span>
@@ -969,13 +933,13 @@ title: PageSidebar
                         </div>
 
                         <div class="dp-title-item dp-SectionTitle">
-                            <div>
-                                <span class="dp-Badge Badge--empty"></span>
-                                <span class="dp-UserName">Bob Cooper</span>
+                            <span class="dp-UserName">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                Bob Cooper
                                 <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">bob.cooper@techcompany.co</a>
-                            </div>
+                            </span>
                             <a href="#" class="dp-Icon dp-iconVDots"></a>
-
+                            <!-- hide menu -->
                             <ul class="dp-Menu">
                                 <li class="dp-Menu-linkItem">
                                     <span class="dp-Icon dp-Swap"></span>
@@ -1001,13 +965,13 @@ title: PageSidebar
                         </div>
 
                         <div class="dp-title-item dp-SectionTitle is-active">
-                            <div>
-                                <span class="dp-Badge Badge--empty"></span>
-                                <span class="dp-UserName">Wendy Pride</span>
+                            <span class="dp-UserName">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                Wendy Pride
                                 <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">w.pride@techcompany.co.uk</a>
-                            </div>
+                            </span>
                             <a href="#" class="dp-Icon dp-iconVDots is-visible"></a>
-
+                            <!-- hide menu -->
                             <ul class="dp-Menu">
                                 <li class="dp-Menu-linkItem">
                                     <span class="dp-Icon dp-Swap"></span>
@@ -1033,13 +997,13 @@ title: PageSidebar
                         </div>
 
                         <div class="dp-title-item dp-SectionTitle">
-                            <div>
-                                <span class="dp-Badge Badge--empty"></span>
-                                <span class="dp-UserName">Bob Cooper</span>
+                            <span class="dp-UserName">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                Bob Cooper
                                 <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">bob.cooper@techcompany.co</a>
-                            </div>
+                            </span>
                             <a href="#" class="dp-Icon dp-iconVDots"></a>
-
+                            <!-- hide menu -->
                             <ul class="dp-Menu">
                                 <li class="dp-Menu-linkItem">
                                     <span class="dp-Icon dp-Swap"></span>
@@ -1077,11 +1041,11 @@ title: PageSidebar
 
                     <div class="dp-Selectbelow">
                         <div class="dp-ButtonWrapper">
-                            <button class="dp-ActionButton dp-Border--danger ActionButton--large is-semibold" type="button">
+                            <button class="dp-ActionButton dp-Border--danger ActionButton--large dp-Arrow" type="button">
                                 On Hold
                             </button>
 
-                            <button class="dp-ActionButton dp-Border--danger dp--danger is-semibold" type="button">
+                            <button class="dp-ActionButton dp-Border--danger dp--danger dp-Arrow" type="button">
                                 10
                             </button>
                         </div>
@@ -1089,7 +1053,7 @@ title: PageSidebar
                         <div class="dp-ButtonWrapper">
                             <span class="dp-Icon dp-LevelDown"></span>
 
-                            <button class="dp-ActionButton ActionButton--large is-semibold" type="button">
+                            <button class="dp-ActionButton ActionButton--large dp-Arrow" type="button">
                                 Awaiting order confirmation
                             </button>
                         </div>

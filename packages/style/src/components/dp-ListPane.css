@@ -834,6 +834,7 @@ thead .dp-Card-title td {
 
 .dp-Level .dp-LevelCol:first-child {
   flex: 0 0 auto;
+  max-width: 25px;
 }
 
 .dp-Level .dp-LevelCol:nth-child(2) {

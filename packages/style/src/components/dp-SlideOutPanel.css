@@ -86,11 +86,9 @@
 
 .dp-SlideOutPanel form {
   border-bottom: 1px solid var(--grey-light);
-  margin: 0 -10px 10px;
+  margin: 0 -10px 0;
   padding: 0 10px 10px;
 }
-
-/* .dp-SlideOutPanel .dp-SearchInput, input.dp-NewTitle { */
 
 .dp-SlideOutPanel .Input--search, input.dp-NewTitle {
   border: 1px solid var(--grey);
@@ -188,7 +186,7 @@ input.dp-NewTitle {
 
 /* Merge Tickets */
 
-.dp-MergeTickets .dp-ActionsItem {
+.dp-MergeTickets .dp-Tabs .dp-Tabs-item {
   flex: 0 0 50%;
   margin-right: 0;
   max-width: 50%;
@@ -221,9 +219,11 @@ input.dp-NewTitle {
 
 .dp-MergeTickets table td:nth-child(even) {
   flex: 0 0 65%;
-
-  /* font: var(--p-l) */
   font: var(--p-l);
+}
+
+.dp-PageSidebar .dp-Input.Input--search {
+  padding: 5px 0 5px 25px;
 }
 
 .dp-SlideOutPanel .dp-ContextMenu > li > a:hover {

@@ -58,10 +58,10 @@ title: Slide-Out Panel
                 </div>
 
                 <div class="dp-ButtonWrapper">
-                    <button disabled class="dp-Button Button--large" type="button">
+                    <button disabled class="dp-Button" type="button">
                         Send & apply actions
                     </button>
-                    <button class="dp-Button Button--small" type="button">
+                    <button class="dp-Button Button--outlined" type="button">
                         Cancel
                     </button>
                 </div>
@@ -138,7 +138,7 @@ title: Slide-Out Panel
                             <div class="dp-TitleControls">FOLLOWERS (5)</div>
                             <div class="dp-StatusTimes dp-FollowersStatus">
                                 Following
-                                <span class="dp-Icon dp-following Icon-primary"></span>
+                                <span class="dp-Icon dp-following Icon--primary"></span>
                             </div>
                         </div>
                     </div>
@@ -182,7 +182,7 @@ title: Slide-Out Panel
 
                             <li class="dp-FollowersItem">
                                 <button class="dp-Button Button--link Button--small">
-                                    <span class="dp-Icon dp-add_follower Icon-primary"></span>
+                                    <span class="dp-Icon dp-add_follower Icon--primary"></span>
                                     <span id="text">Add</span>
                                 </button>
                             </li>
@@ -251,7 +251,7 @@ title: Slide-Out Panel
                         <ul class="dp-FollowersWrapper">
                             <li class="dp-FollowersItem">
                                 <button class="dp-Button Button--link Button--small">
-                                    <span class="dp-Icon dp-add_follower Icon-primary"></span>
+                                    <span class="dp-Icon dp-add_follower Icon--primary"></span>
                                     <span id="text">Add action</span>
                                 </button>
                             </li>
@@ -302,13 +302,12 @@ title: Slide-Out Panel
                         <textarea class="dp-ReplyEditor"></textarea>
                         <a href="#" class="dp-Signature">% Signature %</a>
                     </div>
+
                     <div class="dp-ButtonWrapper">
-                        <!-- <button class="dp-Button ActionButton--large Button--active" type="button"> -->
-                        <button class="dp-Button Button--large" type="button">
+                        <button class="dp-Button" type="button">
                             Send to: 256 recipients
                         </button>
-                        <!-- <button class="dp-Button Button--small" type="button"> -->
-                        <button class="dp-Button Button--large" type="button">
+                        <button class="dp-Button Button--outlined" type="button">
                             Cancel
                         </button>
                     </div>
@@ -432,7 +431,7 @@ title: Slide-Out Panel
                         <ul class="dp-FollowersWrapper">
                             <li class="dp-FollowersItem">
                                 <button class="dp-Button Button--link Button--small">
-                                    <span class="dp-Icon dp-add_follower Icon-primary"></span>
+                                    <span class="dp-Icon dp-add_follower Icon--primary"></span>
                                     <span id="text">Add new user</span>
                                 </button>
                             </li>
@@ -441,10 +440,10 @@ title: Slide-Out Panel
                 </div>
 
                 <div class="dp-ButtonWrapper">
-                    <button class="dp-Button Button--large" type="button">
+                    <button class="dp-Button" type="button">
                         Change user
                     </button>
-                    <button class="dp-Button Button--small" type="button">
+                    <button class="dp-Button Button--outlined" type="button">
                         Cancel
                     </button>
                 </div>
@@ -474,10 +473,10 @@ title: Slide-Out Panel
                 </p>
 
                 <div class="dp-ButtonWrapper">
-                    <button class="dp-Button Button--large" type="button">
+                    <button class="dp-Button" type="button">
                         Override settings
                     </button>
-                    <button class="dp-Button Button--large" type="button">
+                    <button class="dp-Button Button--outlined" type="button">
                         Return to view
                     </button>
                 </div>
@@ -572,7 +571,7 @@ title: Slide-Out Panel
                 </div>
 
                 <div class="dp-ButtonWrapper">
-                    <button class="dp-Button Button--large" type="button">
+                    <button class="dp-Button" type="button">
                         Split selected messages
                     </button>
                 </div>
@@ -608,21 +607,19 @@ title: Slide-Out Panel
 
                 <!-- 2 -->
                 <div class="dp-ButtonWrapper">
-                    <button class="dp-Button ActionButton--large" type="button">
+                    <button class="dp-Button Button--outlined" type="button">
                         Switch tickets
                     </button>
                 </div>
 
-                <div class="dp-Actions">
-                    <ul class="dp-ActionsItems dp-BorderBottom">
-                        <li class="dp-ActionsItem dp-MenuBarItem is-active">
-                            KEEP THIS TICKET
-                        </li>
-                        <li class="dp-ActionsItem dp-MenuBarItem">
-                            MERGE THIS TICKET
-                        </li>
-                    </ul>
-                </div>
+                <ul class="dp-Tabs">
+                    <li class="dp-Tabs-item is-active">
+                        KEEP THIS TICKET
+                    </li>
+                    <li class="dp-Tabs-item">
+                        MERGE THIS TICKET
+                    </li>
+                </ul>
 
                 <table class="dp-BorderBottom">
                     <tr>
@@ -692,8 +689,7 @@ title: Slide-Out Panel
                 </table>
 
                 <div class="dp-ButtonWrapper">
-                    <!-- <button class="dp-Button ActionButton--large Button--active" type="button"> -->
-                    <button class="dp-Button Button--large" type="button">
+                    <button class="dp-Button" type="button">
                         Merge tickets
                     </button>
                 </div>

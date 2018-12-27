@@ -90,7 +90,7 @@ title: Buttons
 	<div class="dp-ButtonItem">
 		<div class="dp-ButtonTitle">Button/add-round-small</div>
 		<button class="dp-Button Button--link Button--small">
-			<span class="dp-Icon dp-add_follower Icon-primary"></span>
+			<span class="dp-Icon dp-add_follower Icon--primary"></span>
 			<span id="text">Add</span>
 		</button>
 	</div>
