@@ -2,7 +2,7 @@ import React from "react";
 
 import { storiesOf } from "@storybook/react";
 
-import { Tag, Badge, Icon } from "@deskpro/agent-interface-components";
+import { Tag, Badge, Icon, Header } from "@deskpro/agent-interface-components";
 
 storiesOf("Elements", module)
   .add("Tags", () => (
@@ -66,4 +66,5 @@ storiesOf("Elements", module)
         </Badge>
       </div>
     </>
-  ));
+  ))
+  .add("Header", () => <Header>Header</Header>);

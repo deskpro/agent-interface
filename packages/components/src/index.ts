@@ -15,3 +15,7 @@ export { default as UserInfo } from "./User/UserInfo/UserInfo";
 export {
   default as ActivityStatus
 } from "./User/ActivityStatus/ActivityStatus";
+
+export { default as Tabs } from "./elements/Tabs/Tabs";
+export { default as Menu } from "./elements/Menu/Menu";
+export { default as Header } from "./elements/Header/Header";
