@@ -4,7 +4,8 @@ title: Icons
 
 ```html @preview
 <div class="dp-IconsWrapper">
-    <span class="dp-Icon dp-tickets"></span>
+    <!-- <span class="dp-Icon dp-tickets"></span> -->
+    <span class="dp-Icon Icon--email"></span>
     <span class="dp-Icon dp-chats"></span>
     <span class="dp-Icon dp-crm"></span>
     <span class="dp-Icon dp-feedback"></span>
@@ -19,7 +20,7 @@ title: Icons
     <span class="dp-Icon dp-notifications"></span>
     <span class="dp-Icon dp-grouped_by"></span>
     <span class="dp-Icon dp-faceted_by"></span>
-    <span class="dp-Icon dp-view"></span>
+    <span class="dp-Icon Icon--view"></span>
     <span class="dp-Icon dp-sort"></span>
     <span class="dp-Icon dp-list_view"></span>
     <span class="dp-Icon dp-table_view"></span>
@@ -44,8 +45,8 @@ title: Icons
     <span class="dp-Icon dp-ticket_properties"></span>
     <span class="dp-Icon dp-snippet"></span>
     <span class="dp-Icon dp-follow_up"></span>
-    <span class="dp-Icon dp-icon-user"></span>
-    <span class="dp-Icon dp-oranisation"></span>
+    <span class="dp-Icon Icon--user"></span>
+    <span class="dp-Icon Icon--organisation"></span>
     <span class="dp-Icon dp-beetle"></span>
     <span class="dp-Icon dp-bolt"></span>
     <span class="dp-Icon dp-star"></span>
@@ -94,7 +95,7 @@ title: Icons
     <span class="dp-Icon dp-Merge"></span>
     <span class="dp-Icon dp-Owner"></span>
     <span class="dp-Icon dp-Swap"></span>
-    <span class="dp-Icon dp-Edit"></span>
+    <span class="dp-Icon Icon--edit"></span>
     <span class="dp-Icon dp-Visibility"></span>
     <span class="dp-Icon dp-Play"></span>
     <span class="dp-Icon dp-Question"></span>
@@ -110,6 +111,8 @@ title: Icons
     <span class="dp-Icon dp-Drag"></span>
     <span class="dp-Icon dp-Acrobat"></span>
     <span class="dp-Icon dp-Unlock"></span>
+
+    <span class="dp-Icon Icon--hold"></span>
 
 </div>
 ```

@@ -12,7 +12,7 @@ title: Modulebar/general
 <div class="dp-ModulebarContainer Modulebar--rollover">
     <ul class="dp-ModuleBar">
       <li class="dp-ModuleBarList">
-        <a class="dp-Icon dp-tickets" href="#"></a>
+        <a class="dp-Icon Icon--email" href="#"></a>
         <span class="dp-IconTooltip">Tickets</span>
       </li>
 
@@ -99,7 +99,7 @@ title: Modulebar/general
 <div class="dp-ModulebarContainer Modulebar--selected">
     <ul class="dp-ModuleBar">
       <li class="dp-ModuleBarList is-active">
-        <a class="dp-Icon dp-tickets" href="#"></a>
+        <a class="dp-Icon Icon--email" href="#"></a>
       </li>
 
       <li class="dp-ModuleBarList is-active">

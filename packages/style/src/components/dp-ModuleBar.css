@@ -138,7 +138,7 @@
   width: 15px;
 }
 
-.dp-ModuleBar .dp-ModuleBarList:hover .dp-tickets, .dp-ModuleBarList.is-active .dp-tickets {
+.dp-ModuleBar .dp-ModuleBarList:hover .Icon--email, .dp-ModuleBarList.is-active .Icon--email {
   background-image: url('data:image/svg+xml,<svg width="21" height="14" viewBox="0 0 21 14" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0)"><path d="M20.1 0H0.8C0.4 0 0 0.4 0 0.8V12.9C0 13.4 0.4 13.7 0.8 13.7H20.1C20.6 13.7 20.9 13.3 20.9 12.9V0.8C21 0.4 20.6 0 20.1 0ZM19.8 2.8V12.5H1.2V2.8L10.1 9.8C10.3 10 10.6 10 10.8 9.8L19.8 2.8ZM1.2 1.3L19.8 1.2V1.3L10.5 8.5L1.2 1.3Z" fill="%23fff"/></g><defs><clipPath id="clip0"><rect width="21" height="13.8" fill="white"/></clipPath></defs></svg>');
   display: inline-block;
 }

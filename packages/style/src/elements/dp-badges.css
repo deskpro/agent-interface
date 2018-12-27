@@ -29,7 +29,9 @@
   }
 
   &.Badge--id:hover ~ .dp-Icon {
+    align-items: center;
     display: flex;
+    justify-content: center;
   }
 
   &.Badge--filterPill {
@@ -131,6 +133,10 @@
       color: var(--grey-darkest);
     }
 
+    &.Badge-Min.Icon-grey {
+      background-image: url('data:image/svg+xml,<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve"><style type="text/css">.st0{fill:%238b9293;}.st1{fill:%23FFFFFF;}</style><g><path class="st0" d="M8,16L8,16c-4.4,0-8-3.6-8-8l0,0c0-4.4,3.6-8,8-8h0c4.4,0,8,3.6,8,8v0C16,12.4,12.4,16,8,16z"/></g><rect x="3" y="7" class="st1" width="10" height="2"/></svg>');
+    }
+
     &.Badge-Min.Icon-warning {
       background-image: url('data:image/svg+xml,<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve"><style type="text/css">.st0{fill:%23EC6C4E;}.st1{fill:%23FFFFFF;}</style><g><path class="st0" d="M8,16L8,16c-4.4,0-8-3.6-8-8l0,0c0-4.4,3.6-8,8-8h0c4.4,0,8,3.6,8,8v0C16,12.4,12.4,16,8,16z"/></g><rect x="3" y="7" class="st1" width="10" height="2"/></svg>');
     }
@@ -162,29 +168,14 @@
       width: 10px;
     }
 
-    .Badge--round svg {
-      align-items: center;
-      display: flex;
-      fill: #fff;
-      height: 10px;
-      justify-content: center;
-      width: 10px;
-    }
-
   }
 
-}
+  &.Badge--round .dp-Icon {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
 
-.Badge--filterPill .dp-Num {
-  background-color: var(--white);
-  border-radius: 2px;
-  margin-left: 5px;
-  padding: 0 5px;
-}
-
-.dp-BadgeWrapper {
-  align-items: center;
-  display: flex;
 }
 
 /* Tag */
@@ -337,6 +328,18 @@
     padding: 5px 5px;
   }
 
+}
+
+.Badge--filterPill .dp-Num {
+  background-color: var(--white);
+  border-radius: 2px;
+  margin-left: 5px;
+  padding: 0 5px;
+}
+
+.dp-BadgeWrapper {
+  align-items: center;
+  display: flex;
 }
 
 .dp-Tag .dp-iconClose {

@@ -53,7 +53,7 @@ title: List Pane
         </span>
     </li>
     <li class="dp-ListPane dp-DropDownItem">
-        <span class="dp-Icon dp-view"></span>
+        <span class="dp-Icon Icon--view"></span>
         <span class="dp-SelectGroup">
             <span class="dp-ItemRow">
                 <span class="dp-Title">Fields</span>
@@ -116,7 +116,7 @@ title: List Pane
         </span>
     </li>
     <li class="dp-ListPane dp-DropDownItem">
-        <span class="dp-Icon dp-view"></span>
+        <span class="dp-Icon Icon--view"></span>
         <span class="dp-SelectGroup">
             <span class="dp-ItemRow">
                 <span class="dp-Title">Fields</span>
@@ -179,7 +179,7 @@ title: List Pane
         </span>
     </li>
     <li class="dp-ListPane dp-DropDownItem">
-        <span class="dp-Icon dp-view"></span>
+        <span class="dp-Icon Icon--view"></span>
         <span class="dp-SelectGroup">
             <span class="dp-ItemRow">
                 <span class="dp-Title">Fields</span>
@@ -242,7 +242,7 @@ title: List Pane
         </span>
     </li>
     <li class="dp-ListPane dp-DropDownItem">
-        <span class="dp-Icon dp-view"></span>
+        <span class="dp-Icon Icon--view"></span>
         <span class="dp-SelectGroup">
             <span class="dp-ItemRow">
                 <span class="dp-Title">Fields</span>
@@ -290,12 +290,11 @@ title: List Pane
                     </span>
                 </span>
 
-                <!-- <span class="dp-LevelCol dp-LevelBottom"> -->
                 <span class="dp-LevelCol dp-LevelRight">
                     <span class="dp-IconGroup">
 
                         <span class="dp-ActivityStatus ActivityStatus--viewing">
-                            <span class="dp-Icon"></span>
+                            <span class="dp-Icon Icon--view"></span>
                             <span class="dp-Badge Badge--round Badge--grey"></span>
                         </span>
 
@@ -322,24 +321,20 @@ title: List Pane
             <li class="dp-Card dp-Level LevelCol">
 
                 <span class="dp-LevelItem Level-justify-between">
-
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="customCheckbox0-1"></input>
                         <label for="customCheckbox0-1" class="dp-Card-title">Card title here</label>
                     </span>
 
                     <span class="dp-IconGroup">
-
                         <span class="dp-ActivityStatus ActivityStatus--viewing">
-                            <span class="dp-Icon"></span>
+                            <span class="dp-Icon Icon--view"></span>
                             <span class="dp-Badge Badge--round Badge--grey"></span>
                         </span>
-
                         <span class="Icon--circle dp-iconBug"></span>
                         <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
                         <span class="Icon--circle dp-iconClock"></span>
                     </span>
-
                 </span>
 
                 <span class="dp-LevelItem Level-justify-between">
@@ -385,7 +380,7 @@ title: List Pane
                     <span class="dp-IconGroup">
 
                         <span class="dp-ActivityStatus ActivityStatus--viewing">
-                            <span class="dp-Icon"></span>
+                            <span class="dp-Icon Icon--view"></span>
                             <span class="dp-Badge Badge--round Badge--grey"></span>
                         </span>
 
@@ -430,7 +425,7 @@ title: List Pane
                 <span class="dp-LevelCol dp-LevelRight">
                     <span class="dp-IconGroup">
                         <span class="dp-ActivityStatus ActivityStatus--viewing">
-                            <span class="dp-Icon"></span>
+                            <span class="dp-Icon Icon--view"></span>
                             <span class="dp-Badge Badge--round Badge--grey"></span>
                             <span class="dp-Badge Badge--round Badge--grey"></span>
                         </span>
@@ -477,7 +472,7 @@ title: List Pane
                     <span class="dp-IconGroup">
 
                         <span class="dp-ActivityStatus ActivityStatus--writing ActivityStatus--primary">
-                            <span class="dp-Icon Icon--primary"></span>
+                            <span class="dp-Icon Icon--edit Icon--primary"></span>
                             <span class="dp-Badge Badge--round Badge--grey"></span>
                         </span>
 
@@ -524,7 +519,7 @@ title: List Pane
                     <span class="dp-IconGroup">
 
                         <span class="dp-ActivityStatus ActivityStatus--writing ActivityStatus--primary">
-                            <span class="dp-Icon Icon--primary"></span>
+                            <span class="dp-Icon Icon--edit Icon--primary"></span>
                             <span class="dp-Badge Badge--round Badge--grey"></span>
                             <span class="dp-Badge Badge--round Badge--grey"></span>
                         </span>
@@ -1202,7 +1197,7 @@ title: List Pane
         </span>
     </li>
     <li class="dp-ListPane dp-DropDownItem">
-        <span class="dp-Icon dp-view"></span>
+        <span class="dp-Icon Icon--view"></span>
         <span class="dp-SelectGroup">
             <span class="dp-ItemRow">
                 <span class="dp-Title">Fields</span>
@@ -1671,7 +1666,7 @@ title: List Pane
         </span>
     </li>
     <li class="dp-ListPane dp-DropDownItem">
-        <span class="dp-Icon dp-view"></span>
+        <span class="dp-Icon Icon--view"></span>
         <span class="dp-SelectGroup">
             <span class="dp-ItemRow">
                 <span class="dp-Title">Fields</span>
