@@ -14,15 +14,15 @@ title: Actions
 				<button class="dp-Arrow"></button>
 				<ul class="dp-Menu is-visible">
 					<li class="dp-Menu-linkItem">
-						<span class="dp-MenuIcon dp-lock"></span>
+						<span class="dp-Icon dp-lock"></span>
 						<a href="#">Lock</a>
 					</li>
 					<li class="dp-Menu-linkItem">
-						<span class="dp-MenuIcon dp-iconMin"></span>
+						<span class="dp-Icon dp-iconMin"></span>
 						<a href="#"> Put ticket on hold</a>
 					</li>
 					<li class="dp-Menu-linkItem">
-						<span class="dp-MenuIcon dp-Bin"></span>
+						<span class="dp-Icon dp-Bin"></span>
 						<a href="#"> Delete </a>
 					</li>
 				</ul>
@@ -33,19 +33,19 @@ title: Actions
 				<button class="dp-Arrow"></button>
 				<ul class="dp-Menu">
 					<li class="dp-Menu-linkItem">
-						<span class="dp-MenuIcon dp-lock"></span>
+						<span class="dp-Icon dp-lock"></span>
 						<a href="#"> Create linked ticket </a>
 					</li>
 					<li class="dp-Menu-linkItem">
-						<span class="dp-MenuIcon dp-IconLink"></span>
+						<span class="dp-Icon dp-IconLink"></span>
 						<a href="#"> Link existing ticket </a>
 					</li>
 					<li class="dp-Menu-linkItem">
-						<span class="dp-MenuIcon dp-IconSplit"></span>
+						<span class="dp-Icon dp-IconSplit"></span>
 						<a href="#"> Split message to new ticket </a>
 					</li>
 					<li class="dp-Menu-linkItem">
-						<span class="dp-MenuIcon dp-IconMerge"></span>
+						<span class="dp-Icon dp-IconMerge"></span>
 						<a href="#"> Merge </a>
 					</li>
 				</ul>
@@ -56,11 +56,11 @@ title: Actions
 				<button class="dp-Arrow"></button>
 				<ul class="dp-Menu">
 					<li class="dp-Menu-linkItem">
-						<span class="dp-MenuIcon dp-IconArticle"></span>
+						<span class="dp-Icon dp-IconArticle"></span>
 						<a href="#">New pending article</a>
 					</li>
 					<li class="dp-Menu-linkItem">
-						<span class="dp-MenuIcon dp-IconSnippet"></span>
+						<span class="dp-Icon dp-IconSnippet"></span>
 						<a href="#">New Snippet</a>
 					</li>
 				</ul>
@@ -71,15 +71,15 @@ title: Actions
 				<button class="dp-Arrow"></button>
 				<ul class="dp-Menu">
 					<li class="dp-Menu-linkItem">
-						<span class="dp-MenuIcon dp-IconPrint"></span>
+						<span class="dp-Icon dp-IconPrint"></span>
 						<a href="#">Print</a>
 					</li>
 					<li class="dp-Menu-linkItem">
-						<span class="dp-MenuIcon dp-IconDownloadPDF"></span>
+						<span class="dp-Icon dp-IconDownloadPDF"></span>
 						<a href="#">Download PDF</a>
 					</li>
 					<li class="dp-Menu-linkItem">
-						<span class="dp-MenuIcon dp-iconBugGray"></span>
+						<span class="dp-Icon dp-iconBugGray"></span>
 						<a href="#">Download Debug File</a>
 					</li>
 				</ul>
@@ -90,11 +90,11 @@ title: Actions
 				<button class="dp-Arrow"></button>
 				<ul class="dp-Menu">
 					<li class="dp-Menu-linkItem">
-						<span class="dp-MenuIcon dp-ban"></span>
+						<span class="dp-Icon dp-ban"></span>
 						<a href="#">Ban</a>
 					</li>
 					<li class="dp-Menu-linkItem">
-						<span class="dp-MenuIcon dp-IconSpam"></span>
+						<span class="dp-Icon dp-IconSpam"></span>
 						<a href="#">Spam</a>
 					</li>
 				</ul>
@@ -105,15 +105,15 @@ title: Actions
 				<button class="dp-Arrow"></button>
 				<ul class="dp-Menu">
 					<li class="dp-Menu-linkItem">
-						<span class="dp-MenuIcon dp-rocket"></span>
+						<span class="dp-Icon dp-rocket"></span>
 						<a href="#">Misc value</a>
 					</li>
 					<li class="dp-Menu-linkItem">
-						<span class="dp-MenuIcon dp-rocket"></span> 
+						<span class="dp-Icon dp-rocket"></span> 
 						<a href="#">Misc value</a>
 					</li>
 					<li class="dp-Menu-linkItem">
-						<span class="dp-MenuIcon dp-rocket"></span>
+						<span class="dp-Icon dp-rocket"></span>
 						<a href="#">Misc value</a>
 					</li>
 				</ul>

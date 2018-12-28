@@ -3,10 +3,11 @@
 
 .dp-IconGroup {
   display: flex;
+  margin-bottom: 10px;
 }
 
-.dp-Card .dp-IconGroup {
-  margin-bottom: 10px;
+.dp-IconGroup > span + span {
+  margin-left: 7px;
 }
 
 .dp-ListpaneTasks .dp-IconGroup .dp-small_caret {
@@ -42,9 +43,9 @@
 }
 
 .dp-ActivityStatus .dp-Icon {
+  align-items: center;
   cursor: pointer;
-  height: 12px;
-  width: 15px;
+  display: flex;
 }
 
 .dp-ActivityStatus .dp-Icon + .dp-Icon {

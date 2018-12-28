@@ -12,18 +12,24 @@
   position: relative;
 }
 
-.dp-Tabs .dp-Tabs-item:hover, .dp-Tabs .dp-Tabs-item.is-active, .dp-Tabs .dp-Tabs-item.is-expanded {
+.dp-SelectedMore .dp-Tabs-item:hover, .dp-SelectedMore .dp-Tabs-item.is-active {
+  margin-bottom: 0;
+}
+
+.dp-Tabs .dp-Tabs-item:hover,
+.dp-Tabs .dp-Tabs-item.is-expanded {
   border-bottom: 1px solid var(--brand-primary);
   color: var(--brand-primary);
   margin-bottom: -1px;
 }
 
-.dp-SelectedMore .dp-Tabs-item:hover, .dp-SelectedMore .dp-Tabs-item.is-active {
-  margin-bottom: 0;
+.dp-Tabs-item:hover .dp-Arrow::after,
+.dp-Tabs .dp-Tabs-item.is-expanded .dp-Arrow::after {
+  border-color: var(--brand-primary) transparent transparent transparent;
 }
 
-.dp-Tabs-item:hover .dp-Arrow::after, .dp-Tabs-item.is-active .dp-Arrow::after {
-  border-color: var(--brand-primary) transparent transparent transparent;
+.dp-Tabs-item .dp-Arrow::after {
+  right: 0;
 }
 
 .dp-Tabs .dp-Tabs-item {
@@ -48,12 +54,6 @@
   padding: var(--padding-tabbar);
   position: relative;
 }
-
-/* .dp-Tabs.Tabs--general .dp-Tabs-item .dp-Icon {
-  height: 15px;
-  margin-right: 5px;
-  width: 15px;
-} */
 
 .dp-Tabs.Tabs--general {
   border-bottom: 1px solid var(--brand-primary);
@@ -197,40 +197,11 @@
   margin-left: 5px;
 }
 
-.Tabs--apps .dp-Tabs-item .dp-Icon {
-  height: 22px;
-  width: 22px;
-}
-
-.is-expandable:hover .dp-Title {
-  color: var(--grey-darkest);
-}
-
-.is-expandable:hover .dp-Arrow::after, .is-expandable.Tabs--general .dp-Arrow::after {
+.Tabs--apps .dp-Tabs-item .dp-Arrow::after {
   border-color: var(--grey-dark) transparent transparent transparent;
 }
 
 /* Tabs--icons */
-
-.Tabs--icons .Icon--email {
-  background-size: 15px 10px;
-}
-
-.Tabs--icons .Icon--user {
-  background-size: 14px 15px;
-}
-
-.Tabs--icons .Icon--organisation {
-  background-size: 15px 15px;
-}
-
-.Tabs--icons .dp-publish {
-  background-size: 14px 13px;
-}
-
-.Tabs--icons .dp-history {
-  background-size: 13px 13px;
-}
 
 .dp-Tabs.Tabs--icons .dp-Tabs-item {
   border-bottom: none;
@@ -250,27 +221,53 @@
   cursor: pointer;
 }
 
-.Tabs--icons .dp-Tabs-item:hover .Icon--email, .Tabs--icons .dp-Tabs-item.is-active .Icon--email {
-  background-image: url('data:image/svg+xml,<svg width="21" height="14" viewBox="0 0 21 14" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0)"><path d="M20.1 0H0.8C0.4 0 0 0.4 0 0.8V12.9C0 13.4 0.4 13.7 0.8 13.7H20.1C20.6 13.7 20.9 13.3 20.9 12.9V0.8C21 0.4 20.6 0 20.1 0ZM19.8 2.8V12.5H1.2V2.8L10.1 9.8C10.3 10 10.6 10 10.8 9.8L19.8 2.8ZM1.2 1.3L19.8 1.2V1.3L10.5 8.5L1.2 1.3Z" fill="%233a8dde"/></g><defs><clipPath id="clip0"><rect width="21" height="13.8" fill="white"/></clipPath></defs></svg>');
-  display: inline-block;
+.Tabs--icons .dp-Tabs-item:hover .dp-Icon svg {
+  fill: var(--brand-primary);
 }
 
-.Tabs--icons .dp-Tabs-item:hover .Icon--user, .Tabs--icons .dp-Tabs-item.is-active .Icon--user {
-  background-image: url('data:image/svg+xml,<svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0)"><path d="M8.19999 0C6.09999 0 4.29999 1.7 4.29999 3.9C4.29999 6 5.99999 7.8 8.19999 7.8C10.3 7.8 12.1 6.1 12.1 3.9C12.1 1.7 10.4 0 8.19999 0ZM8.19999 6.7C6.69999 6.7 5.39999 5.5 5.39999 3.9C5.39999 2.4 6.59999 1.1 8.19999 1.1C9.69999 1.1 11 2.3 11 3.9C11 5.4 9.79999 6.7 8.19999 6.7Z" fill="%233a8dde"/><path d="M8.39999 8.2C4.19999 8.2 0.799988 11.6 0.799988 15.7V16.3H1.89999V15.7C1.89999 12.1 4.79999 9.2 8.39999 9.2C12 9.2 14.9 12.1 14.9 15.7V16.3H16V15.7C16 11.6 12.6 8.2 8.39999 8.2Z" fill="%233a8dde"/></g><defs><clipPath id="clip0"><rect width="15.2" height="16.3" fill="white" transform="translate(0.799988)"/></clipPath></defs></svg>');
-  display: inline-block;
+/* buttons/actions */
+
+.Tabs--actions {
+  align-items: center;
+  background-color: var(--grey-lightest);
+  border: 0;
+  border-radius: var(--border-radius);
+  display: flex;
+  list-style: none;
+  margin: 10px 0;
+  padding: 5px 10px;
 }
 
-.Tabs--icons .dp-Tabs-item:hover .Icon--organisation, .Tabs--icons .dp-Tabs-item.is-active .Icon--organisation {
-  background-image: url('data:image/svg+xml,<svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0)"><path d="M15.35 4.7H9.15001V1.2C9.15001 0.6 8.55001 0 7.95001 0H1.55001C0.850006 0 0.350006 0.6 0.350006 1.2V15C0.350006 15.7 0.850006 16.2 1.55001 16.2H15.35C16.05 16.2 16.55 15.7 16.55 15V6C16.55 5.3 15.95 4.7 15.35 4.7ZM2.85001 15.4V13.1C2.85001 12.9 3.05001 12.7 3.25001 12.7H4.25001V15.4H2.85001ZM6.55001 15.4H5.15001V12.7H6.15001C6.35001 12.7 6.55001 12.9 6.55001 13.1V15.4ZM8.35001 15.4H7.35001V13.1C7.35001 12.4 6.85001 11.9 6.15001 11.9H3.35001C2.65001 11.9 2.15001 12.4 2.15001 13.1V15.4H1.55001C1.35001 15.4 1.15001 15.2 1.15001 15V1.2C1.15001 1 1.35001 0.8 1.55001 0.8H7.85001C8.15001 0.8 8.35001 1 8.35001 1.2V15.4ZM15.75 15C15.75 15.2 15.55 15.4 15.35 15.4H9.15001V5.5H15.35C15.55 5.5 15.75 5.7 15.75 5.9V15Z" fill="%233a8dde"/><path d="M6.95002 2.69999H2.45002C2.25002 2.69999 2.05002 2.49999 2.05002 2.29999C2.05002 2.09999 2.25002 1.89999 2.45002 1.89999H6.85002C7.15002 1.89999 7.35002 2.09999 7.35002 2.29999C7.35002 2.49999 7.15002 2.69999 6.95002 2.69999Z" fill="%233a8dde"/><path d="M6.95002 4.8H2.45002C2.25002 4.8 2.05002 4.6 2.05002 4.4C2.05002 4.2 2.25002 4 2.45002 4H6.85002C7.15002 4 7.35002 4.1 7.35002 4.4C7.35002 4.7 7.15002 4.8 6.95002 4.8Z" fill="%233a8dde"/><path d="M6.95002 6.8H2.45002C2.25002 6.8 2.05002 6.6 2.05002 6.4C2.05002 6.1 2.25002 6 2.45002 6H6.85002C7.15002 6 7.35002 6.1 7.35002 6.4C7.35002 6.6 7.15002 6.8 6.95002 6.8Z" fill="%233a8dde"/><path d="M6.95002 8.8H2.45002C2.25002 8.8 2.05002 8.6 2.05002 8.4C2.05002 8.2 2.25002 8 2.45002 8H6.85002C7.15002 8 7.35002 8.2 7.35002 8.4C7.35002 8.7 7.15002 8.8 6.95002 8.8Z" fill="%233a8dde"/><path d="M14.65 7.6H10.15C9.95 7.6 9.75 7.4 9.75 7.2C9.75 7 9.95 6.8 10.15 6.8H14.55C14.75 6.8 14.95 7 14.95 7.2C14.95 7.4 14.85 7.6 14.65 7.6Z" fill="%233a8dde"/><path d="M14.65 9.6H10.15C9.95 9.6 9.75 9.4 9.75 9.2C9.75 9 9.95 8.8 10.15 8.8H14.55C14.75 8.8 14.95 9 14.95 9.2C15.05 9.5 14.85 9.6 14.65 9.6Z" fill="%233a8dde"/><path d="M14.65 11.6H10.15C9.95 11.6 9.75 11.4 9.75 11.2C9.75 11 9.95 10.8 10.15 10.8H14.55C14.75 10.8 14.95 11 14.95 11.2C14.95 11.4 14.85 11.6 14.65 11.6Z" fill="%233a8dde"/></g><defs><clipPath id="clip0"><rect width="16.2" height="16.2" fill="white" transform="translate(0.350006)"/></clipPath></defs></svg>');
-  display: inline-block;
+.Tabs--actions .dp-Tabs-item .dp-Icon {
+  cursor: pointer;
+  height: 15px;
+  margin-right: 3px;
+  width: 15px;
 }
 
-.Tabs--icons .dp-Tabs-item:hover .dp-publish, .Tabs--icons .dp-Tabs-item.is-active .dp-publish {
-  background-image: url('data:image/svg+xml,<svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0)"><path d="M13.9 15.9C13.9 16.1 13.7 16.3 13.5 16.3H1.6C1.4 16.3 1.2 16.1 1.2 15.9V2.20001C1.2 2.00001 1.4 1.80001 1.6 1.80001H13.2L14.2 0.800006C14 0.700006 13.7 0.600006 13.4 0.600006H1.6C0.7 0.600006 0 1.30001 0 2.20001V16C0 16.9 0.7 17.6 1.6 17.6H13.5C14.4 17.6 15.1 16.9 15.1 16V9.30001L13.9 10.5V15.9Z" fill="%233a8dde"/><path d="M4.7 13.5C5.1 13.5 5.4 13.2 5.4 12.8C5.4 12.4 5.1 12 4.7 12H3.9C3.5 12 3.2 12.3 3.2 12.7C3.2 13.1 3.5 13.4 3.9 13.4H4.7V13.5Z" fill="%233a8dde"/><path d="M19 0.7C18.6 0.2 18 0 17.4 0C16.7 0 15.9 0.4 15.3 1L11.5 4.8H3.90001C3.50001 4.8 3.10001 5.1 3.10001 5.6C3.10001 6.1 3.40001 6.4 3.90001 6.4H10L7.90001 8.4H3.90001C3.50001 8.4 3.10001 8.7 3.10001 9.2C3.10001 9.7 3.40001 10 3.90001 10H7.20001L6.30001 12.7C6.20001 12.9 6.30001 13.2 6.50001 13.3C6.60001 13.4 6.80001 13.5 6.90001 13.5C7.00001 13.5 7.00001 13.5 7.10001 13.5L10.8 12.2C10.8 12.2 10.9 12.2 10.9 12.1C10.9 12.1 11 12.1 11 12L18.7 4.3C20 3 19.8 1.5 19 0.7ZM7.80001 11.9L8.30001 10.3L9.40001 11.4L7.80001 11.9ZM12.2 9.1L11.4 9.9L10.6 10.7L9.70001 9.9L8.90001 9.1L9.60001 8.4L11.8 6.2L12.1 5.9L15.7 2.3L17.3 3.9L12.2 9.1ZM18.2 3L16.7 1.5C17.3 1.1 17.8 1.1 18.2 1.5C18.5 1.9 18.5 2.5 18.2 3Z" fill="%233a8dde"/></g><defs><clipPath id="clip0"><rect width="19.7" height="17.6" fill="white"/></clipPath></defs></svg>');
-  display: inline-block;
+.Tabs--actions .dp-Tabs-item.is-disabled {
+  background-color: var(--grey-lighter);
 }
 
-.Tabs--icons .dp-Tabs-item:hover .dp-history, .Tabs--icons .dp-Tabs-item.is-active .dp-history {
-  background-image: url('data:image/svg+xml,<svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0)"><path d="M10.5 0C5 0 0.5 4.5 0.5 10C0.5 15.5 5 20 10.5 20C16 20 20.5 15.5 20.5 10C20.5 4.5 16 0 10.5 0ZM10.5 18.3333C5.91667 18.3333 2.16667 14.5833 2.16667 10C2.16667 5.41667 5.91667 1.66667 10.5 1.66667C15.0833 1.66667 18.8333 5.41667 18.8333 10C18.8333 14.5833 15.0833 18.3333 10.5 18.3333Z" fill="%233a8dde"/><path d="M10.8333 5C10.3333 5 10 5.33333 10 5.83333V10.6667L7.08333 9.5C6.66667 9.33333 6.16667 9.58333 6 10C5.83333 10.4167 6.08333 10.9167 6.5 11.0833L10.5833 12.6667C10.6667 12.6667 10.75 12.75 10.9167 12.75C11.0833 12.75 11.25 12.6667 11.4167 12.5833C11.6667 12.4167 11.75 12.1667 11.75 11.9167V5.83333C11.6667 5.33333 11.3333 5 10.8333 5Z" fill="%233a8dde"/></g><defs><clipPath id="clip0"><rect width="20" height="20" fill="white" transform="translate(0.5)"/></clipPath></defs></svg>');
-  display: inline-block;
+.Tabs--actions .dp-Tabs-item::before {
+  background-color: var(--grey-light);
+  content: "";
+  display: block;
+  height: 100%;
+  left: -10px;
+  position: absolute;
+  top: 0;
+  width: 1px;
+}
+
+.Tabs--actions .dp-Tabs-item:first-child::before {
+  display: none;
+}
+
+.dp-Tabs-item.is-disabled::after {
+  display: none;
+}
+
+.dp-Tabs-item.is-active .dp-Icon > svg {
+  fill: var(--white);
 }

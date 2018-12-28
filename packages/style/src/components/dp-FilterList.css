@@ -42,48 +42,27 @@
   background-color: transparent;
 }
 
-.dp-Tickets .dp-Icon {
-  background-size: 18px 15px;
+.dp-Tickets .dp-TitleName {
+  align-items: center;
   cursor: pointer;
-  height: 15px;
-  vertical-align: middle;
-  width: 18px;
+  display: flex;
+  font: var(--h-l-semibold);
 }
 
-.dp-Tickets .dp-TitleName {
-  cursor: pointer;
+.dp-TitleName .dp-Icon.dp-menu {
+  margin-right: 8px;
+}
+
+.dp-TitleName .dp-qt {
+  margin-right: 8px;
 }
 
 .dp-BorderBlue {
   border: 2px solid var(--brand-primary);
 }
 
-.dp-iconArrowDown {
-  position: relative;
-}
-
-.dp-Tickets .dp-iconArrowDown {
-  margin: 0 0 0 8px;
-}
-
-.dp-iconArrowDown::before,
-.dp-iconArrowDown::after {
-  background-color: var(--brand-primary);
-  content: "";
-  height: 10px;
-  position: absolute;
-  top: 3px;
-  width: 2px;
-}
-
-.dp-iconArrowDown::before {
-  left: 10px;
-  transform: rotate(45deg);
-}
-
-.dp-iconArrowDown::after {
-  left: 4px;
-  transform: rotate(-45deg);
+.dp-Title.is-active .dp-Icon.Icon--down-caret {
+  transform: rotate(-180deg);
 }
 
 .dp-Tickets .dp-TicketsThumb .dp-Icon {
@@ -206,14 +185,6 @@
 
 .dp-dropdownContainer .dp-TicketMenu.is-active {
   display: block;
-}
-
-.dp-Tickets .dp-Title.is-active .dp-TitleName .dp-iconArrowDown::before {
-  transform: rotate(-45deg);
-}
-
-.dp-Tickets .dp-Title.is-active .dp-TitleName .dp-iconArrowDown::after {
-  transform: rotate(45deg);
 }
 
 .dp-MainWrapper.dp-TicketFilters .dp-Tickets {

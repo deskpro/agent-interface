@@ -72,13 +72,13 @@ title: Tabs & Headers
 ```html @preview
 <div class="dp-MainWrapper">
     <ul class="dp-Tabs">
-        <li class="dp-Tabs-item is-active">MESSAGES AND NOTES</li>
+        <li class="dp-Tabs-item is-expanded">MESSAGES AND NOTES</li>
         <li class="dp-Tabs-item">FULL LOG</li>
     </ul>
 
     <ul class="dp-Tabs">
         <li class="dp-Tabs-item">MESSAGES AND NOTES</li>
-        <li class="dp-Tabs-item is-active">FULL LOG</li>
+        <li class="dp-Tabs-item is-expanded">FULL LOG</li>
     </ul>
 </div>
 ```
@@ -105,7 +105,7 @@ title: Tabs & Headers
             Add Note
         </li>
 
-        <li class="dp-Tabs-item is-active is-expanded">
+        <li class="dp-Tabs-item is-expanded">
             Macros
             <button class="dp-Arrow"></button>
             <ul class="dp-Menu">
@@ -143,12 +143,14 @@ title: Tabs & Headers
 <div class="dp-MainWrapper">
     <ul class="dp-Tabs Tabs--apps">
         <li class="dp-Tabs-item">
-            <span class="dp-Icon dp-billing"></span>
+            <!-- <span class="dp-Icon dp-billing"></span> -->
+            <span class="dp-Icon Icon--document"></span>
             <span class="dp-Title">Text</span>
             <button class="dp-Arrow"></button>
         </li>
         <li class="dp-Tabs-item is-active">
-            <span class="dp-Icon dp-billing"></span>
+            <!-- <span class="dp-Icon dp-billing"></span> -->
+            <span class="dp-Icon Icon--document"></span>
             <span class="dp-Title">Text</span>
             <button class="dp-Arrow"></button>
         </li>

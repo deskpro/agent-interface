@@ -40,7 +40,7 @@ title: Icons
     <span class="dp-Icon dp-ban"></span>
     <span class="dp-Icon dp-rocket"></span>
     <span class="dp-Icon dp-tasks"></span>
-    <span class="dp-Icon dp-billing"></span>
+    <span class="dp-Icon Icon--document"></span>
     <span class="dp-Icon dp-liscense"></span>
     <span class="dp-Icon dp-ticket_properties"></span>
     <span class="dp-Icon dp-snippet"></span>
@@ -62,7 +62,7 @@ title: Icons
 
     <span class="dp-Icon dp-global"></span>
     <span class="dp-Icon dp-find"></span>
-    <span class="dp-Icon dp-down_caret"></span>
+    <span class="dp-Icon Icon--down-caret"></span>
     <span class="dp-Icon dp-following"></span>
     <span class="dp-Icon dp-add_follower"></span>
     <span class="dp-Icon dp-close"></span>

@@ -16,10 +16,11 @@ title: Filter list
 	<div class="dp-Tickets">
 		<div class="dp-dropdownContainer">
 			<div class="dp-Title">
-				<div class="dp-TitleName is-semibold">
+				<div class="dp-TitleName">
 					<span class="dp-Icon dp-menu"></span>
 					All tickets <span class="dp-qt">(90)</span>
-					<span class="dp-Icon dp-iconArrowDown"></span>
+					<!-- <span class="dp-Icon Icon--down-caret Icon--primary"></span> -->
+					<span class="dp-Icon Icon--down-caret Icon--primary"></span>
 				</div>
 				<div class="dp-TicketsThumb">
 					<span class="dp-Icon dp-list_view"></span>
@@ -38,10 +39,10 @@ title: Filter list
 	<div class="dp-Tickets">
 		<div class="dp-dropdownContainer">
 			<div class="dp-Title is-active">
-				<div class="dp-TitleName is-semibold">
+				<div class="dp-TitleName">
 					<span class="dp-Icon dp-menu"></span>
 					All tickets <span class="dp-qt">(90)</span>
-					<span class="dp-Icon dp-iconArrowDown"></span>
+					<span class="dp-Icon Icon--down-caret Icon--primary"></span>
 				</div>
 			</div>
 		</div>
@@ -124,10 +125,10 @@ title: Filter list
 		<div class="dp-Tickets">
 			<div class="dp-dropdownContainer">
 				<div class="dp-Title is-active">
-					<div class="dp-TitleName is-semibold">
+					<div class="dp-TitleName">
 						<span class="dp-Icon dp-menu"></span>
 						All tickets <span class="dp-qt">(90)</span>
-						<span class="dp-Icon dp-iconArrowDown"></span>
+						<span class="dp-Icon Icon--down-caret Icon--primary"></span>
 					</div>
 				</div>
 			</div>
@@ -155,7 +156,7 @@ title: Filter list
 						</a>
 					</li>
 					<li>
-						<a href="#">
+						<a href="#" class="is-active">
 							<span>All tickets<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">90</span>
 						</a>
 					</li>
@@ -314,10 +315,10 @@ title: Filter list
 		<div class="dp-Tickets">
 			<div class="dp-dropdownContainer">
 				<div class="dp-Title is-active">
-					<div class="dp-TitleName is-semibold ">
+					<div class="dp-TitleName">
 						<span class="dp-Icon dp-menu"></span>
 						All tickets <span class="dp-qt">(90)</span>
-						<span class="dp-Icon dp-iconArrowDown"></span>
+						<span class="dp-Icon Icon--down-caret Icon--primary"></span>
 					</div>
 					<span class="dp-Icon dp-lock Icon--primary"></span>
 				</div>
@@ -347,7 +348,7 @@ title: Filter list
 						</a>
 					</li>
 					<li>
-						<a href="#">
+						<a href="#" class="is-active">
 							<span>All tickets<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">90</span>
 						</a>
 					</li>
