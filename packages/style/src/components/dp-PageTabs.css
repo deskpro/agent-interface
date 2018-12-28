@@ -221,8 +221,14 @@
   cursor: pointer;
 }
 
-.Tabs--icons .dp-Tabs-item:hover .dp-Icon svg {
+.Tabs--general .dp-Tabs-item.is-active > .dp-Icon svg,
+.Tabs--icons .dp-Tabs-item:hover .dp-Icon svg,
+.Tabs--icons .dp-Tabs-item.is-active .dp-Icon svg {
   fill: var(--brand-primary);
+}
+
+.Tabs--general .dp-Tabs-item.Tabs--button.is-active > .dp-Icon svg {
+  fill: var(--success);
 }
 
 /* buttons/actions */
@@ -268,6 +274,6 @@
   display: none;
 }
 
-.dp-Tabs-item.is-active .dp-Icon > svg {
+.dp-Tabs-item.is-active > .dp-Icon svg {
   fill: var(--white);
 }

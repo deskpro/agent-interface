@@ -27,10 +27,6 @@
   cursor: pointer;
   display: flex;
   margin-right: 5px;
-
-  /*  background-size: 13px 13px;
-  width: 14px;
-  height: 13px; */
 }
 
 .dp-Menu .dp-Menu-linkItem:hover {
@@ -80,21 +76,6 @@
   margin: 0.5rem 0;
   overflow: hidden;
 }
-
-/* .dp-Menu .dp-MenuIcon {
-  background-position: 50%;
-  background-repeat: no-repeat;
-  background-size: 13px 13px;
-  display: inline-block;
-  height: 13px;
-  margin-right: 5px;
-  vertical-align: top;
-  width: 13px;
-} */
-
-/* .dp-Menu .dp-MenuIcon.dp-lock {
-  background-size: 11px 13px;
-} */
 
 .dp-Menu .dp-disabledItem > a {
   color: rgba(76, 79, 80, 0.5);
@@ -165,7 +146,7 @@
 }
 
 .dp-Menu .dp-Menu-linkItem .dp-Arrow::after {
-  border-color: transparent transparent transparent #899;
+  border-color: transparent transparent transparent var(--grey-dark);
   border-style: solid;
   border-width: 4px 4px 4px 4px;
   bottom: 0;
