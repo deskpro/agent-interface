@@ -140,6 +140,8 @@
   margin-right: 4px;
 }
 
+/* Star */
+
 .dp-Card-title > .dp-Icon {
   background-image: url('data:image/svg+xml,<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 12 11.5" style="enable-background:new 0 0 12 11.5;" xml:space="preserve"><style type="text/css">.st0{fill:%233A8DDE;}</style><g><polygon class="st0" points="6,8.8 9.7,11.5 8.3,7.1 12,4.5 7.4,4.5 6,0 4.6,4.5 0,4.5 3.7,7.1 2.3,11.5  "/></g></svg>');
   height: 15px;
@@ -664,22 +666,6 @@ thead .dp-Card-title td {
 .dp-FilterControlsItem .dp-ItemRow {
   position: relative;
 }
-
-/* .newControlsList .dp-FilterControlsItem .dp-Icon.dp-small_caret {
-  background-image: url('data:image/svg+xml,<svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0)"><path d="M9.89999 1.49999C9.89999 1.59999 9.79999 1.69999 9.69999 1.89999L5.79999 5.79999C5.69999 5.89999 5.59999 5.99999 5.39999 5.99999C5.19999 5.99999 5.09999 5.89999 4.99999 5.79999L1.09999 1.89999C0.999994 1.69999 0.899994 1.59999 0.899994 1.49999C0.899994 1.39999 0.999994 1.19999 1.09999 1.09999C1.19999 0.999994 1.29999 0.899994 1.49999 0.899994H9.39999C9.59999 0.899994 9.69999 0.999994 9.79999 1.09999C9.89999 1.19999 9.89999 1.29999 9.89999 1.49999Z" fill="%23979797"/></g><defs><clipPath id="clip0"><rect width="9" height="5.1" fill="white" transform="translate(0.899994 0.899994)"/></clipPath></defs></svg>');
-  background-size: 9px 5.1px;
-  background-size: 8px 5px;
-  height: 10px;
-  margin: 0;
-  position: absolute;
-  right: 15px;
-  top: 2px;
-  width: 10px;
-}
-
-.newControlsList .dp-FilterControlsItem.is-active .dp-Icon.dp-small_caret {
-  background-image: url('data:image/svg+xml,<svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0)"><path d="M9.89999 1.49999C9.89999 1.59999 9.79999 1.69999 9.69999 1.89999L5.79999 5.79999C5.69999 5.89999 5.59999 5.99999 5.39999 5.99999C5.19999 5.99999 5.09999 5.89999 4.99999 5.79999L1.09999 1.89999C0.999994 1.69999 0.899994 1.59999 0.899994 1.49999C0.899994 1.39999 0.999994 1.19999 1.09999 1.09999C1.19999 0.999994 1.29999 0.899994 1.49999 0.899994H9.39999C9.59999 0.899994 9.69999 0.999994 9.79999 1.09999C9.89999 1.19999 9.89999 1.29999 9.89999 1.49999Z" fill="%23318cdd"/></g><defs><clipPath id="clip0"><rect width="9" height="5.1" fill="white" transform="translate(0.899994 0.899994)"/></clipPath></defs></svg>');
-} */
 
 .dp-RowBtn {
   display: flex;

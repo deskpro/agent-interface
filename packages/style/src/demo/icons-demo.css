@@ -20,7 +20,7 @@
 
 .Icon--email {
   background-image: url('data:image/svg+xml,<svg width="21" height="14" viewBox="0 0 21 14" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0)"><path d="M20.1 0H0.8C0.4 0 0 0.4 0 0.8V12.9C0 13.4 0.4 13.7 0.8 13.7H20.1C20.6 13.7 20.9 13.3 20.9 12.9V0.8C21 0.4 20.6 0 20.1 0ZM19.8 2.8V12.5H1.2V2.8L10.1 9.8C10.3 10 10.6 10 10.8 9.8L19.8 2.8ZM1.2 1.3L19.8 1.2V1.3L10.5 8.5L1.2 1.3Z" fill="%23979797"/></g><defs><clipPath id="clip0"><rect width="21" height="13.8" fill="white"/></clipPath></defs></svg>');
-  height: 14.8px;
+  height: 15px;
   width: 21px;
 }
 
@@ -1156,6 +1156,7 @@
 
 .dp-IconDownload {
   background-image: url('data:image/svg+xml,<svg width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M17.2273 8.42596V14.1516C17.2273 14.803 16.7182 15.3496 16.0682 15.3496H2.47727C1.82727 15.3496 1.27273 14.8076 1.27273 14.1516V8.42596H0V14.1516C0 15.509 1.12273 16.625 2.47727 16.625H16.0682C17.4227 16.625 18.5 15.509 18.5 14.1516V8.42596H17.2273Z" fill="%23A9B0B0"/><path d="M9.08181 10.9221C9.24544 10.9221 9.40908 10.8583 9.53181 10.7354L13.6182 6.64039L12.7227 5.73849L9.72726 8.74481V-0.000854492H8.45453V8.74026L5.44999 5.73393L4.54544 6.64039L8.6318 10.7354C8.75453 10.8583 8.91817 10.9221 9.08181 10.9221Z" fill="%23A9B0B0"/></svg>');
+
 }
 
 .dp-IconNews {
@@ -1665,4 +1666,32 @@
 
 .dp-Menu > li:hover .dp-iconInsert {
   background-image: url('data:image/svg+xml,<svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0)"><path d="M12.1277 7.92857V15.6429H1.65495V5.35714H9.21859V4.5H0.782227V16.5H13.0004V7.92857H12.1277Z" fill="%233a8dde"/><path d="M16.7822 7.92857V0.5H9.21852V6.87143L7.21125 8.84286L5.55306 7.21429L5.1167 12.0714L10.0912 11.6429L8.43306 10.0143L10.5858 7.9H16.7822V7.92857ZM10.0912 1.35714H15.9094V7.07143H10.0912V1.35714Z" fill="%233a8dde"/><path d="M14.7458 2.5H11.2549V5.92857H14.7458V2.5Z" fill="%233a8dde"/></g><defs><clipPath id="clip0"><rect width="16" height="16" fill="white" transform="translate(0.782227 0.5)"/></clipPath></defs></svg>');
+}
+
+/* Tabs--general */
+
+.dp-Tabs-item:hover > .Tabs-item--row .Icon--email,
+.dp-TabInfoItem:hover > .Tabs-item--row .Icon--email,
+.dp-Tabs-item.is-active > .dp-TabInfoItem .Icon--email {
+  background-image: url('data:image/svg+xml,<svg width="21" height="14" viewBox="0 0 21 14" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0)"><path d="M20.1 0H0.8C0.4 0 0 0.4 0 0.8V12.9C0 13.4 0.4 13.7 0.8 13.7H20.1C20.6 13.7 20.9 13.3 20.9 12.9V0.8C21 0.4 20.6 0 20.1 0ZM19.8 2.8V12.5H1.2V2.8L10.1 9.8C10.3 10 10.6 10 10.8 9.8L19.8 2.8ZM1.2 1.3L19.8 1.2V1.3L10.5 8.5L1.2 1.3Z" fill="%233a8dde"/></g><defs><clipPath id="clip0"><rect width="21" height="13.8" fill="white"/></clipPath></defs></svg>');
+}
+
+.Tabs--general .dp-Tabs-item .Icon--email {
+  background-size: 13px 9px;
+  height: 9px;
+  width: 15px;
+}
+
+/* Tab Selected More */
+
+.dp-SelectedMore .dp-Tabs-item:hover .dp-iconUserAvatar, .dp-SelectedMore .dp-Tabs-item.is-active .dp-iconUserAvatar {
+  background-image: url('data:image/svg+xml,<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve"><style type="text/css">.st0{fill:%233a8dde;}</style><path class="st0" d="M8,0C3.6,0,0,3.6,0,8s3.6,8,8,8s8-3.6,8-8S12.4,0,8,0z M8,2.4c1.3,0,2.4,1.1,2.4,2.4S9.3,7.2,8,7.2 S5.6,6.1,5.6,4.8S6.7,2.4,8,2.4z M8,13.8c-2,0-3.8-1-4.8-2.6c0-1.6,3.2-2.5,4.8-2.5c1.6,0,4.8,0.9,4.8,2.5C11.8,12.7,10,13.8,8,13.8 z"/></svg>');
+}
+
+/* Add button on Tabs--general */
+
+.Tabs-item--button .dp-Menu-linkItem .dp-Icon {
+  background-size: 12px 12px;
+  height: 12px;
+  width: 14px;
 }

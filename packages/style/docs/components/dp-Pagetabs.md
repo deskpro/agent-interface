@@ -11,7 +11,7 @@ title: Page Tabs
         </li>
         <li class="dp-Tabs-item">
             <span class="Tabs-item--row">
-                <span class="dp-Icon dp-email_small"></span>
+                <span class="dp-Icon Icon--email"></span>
                 <span class="dp-Title">RE: Need some help?</span>
             </span>
             <span class="Tabs-item--row">
@@ -34,7 +34,7 @@ title: Page Tabs
 
         <li class="dp-Tabs-item">
             <span class="Tabs-item--row">
-                <span class="dp-Icon dp-email_small"></span>
+                <span class="dp-Icon Icon--email"></span>
                 <span class="dp-Title">RE: Need some help?</span>
             </span>
             <span class="Tabs-item--row">
@@ -45,7 +45,7 @@ title: Page Tabs
 
         <li class="dp-Tabs-item is-active">
             <span class="Tabs-item--row">
-                <span class="dp-Icon dp-email_small"></span>
+                <span class="dp-Icon Icon--email"></span>
                 <span class="dp-Title">SSO working well wit...</span>
             </span>
             <span class="Tabs-item--row">
@@ -79,7 +79,7 @@ title: Page Tabs
 
         <li class="dp-Tabs-item">
             <span class="Tabs-item--row">
-                <span class="dp-Icon dp-email_small"></span>
+                <span class="dp-Icon Icon--email"></span>
                 <span class="dp-Title">RE: Need some help?</span>
             </span>
             <span class="Tabs-item--row">
@@ -90,7 +90,7 @@ title: Page Tabs
 
         <li class="dp-Tabs-item is-active">
             <span class="Tabs-item--row">
-                <span class="dp-Icon dp-email_small"></span>
+                <span class="dp-Icon Icon--email"></span>
                 <span class="dp-Title">SSO working well wit...</span>
             </span>
             <span class="Tabs-item--row">
@@ -111,7 +111,7 @@ title: Page Tabs
 
         <li class="dp-Tabs-item">
             <span class="Tabs-item--row">
-                <span class="dp-Icon dp-email_small"></span>
+                <span class="dp-Icon Icon--email"></span>
                 <span class="dp-Title">RE: Need some help?</span>
             </span>
             <span class="Tabs-item--row">
@@ -122,7 +122,7 @@ title: Page Tabs
 
         <li class="dp-Tabs-item">
             <span class="Tabs-item--row">
-                <span class="dp-Icon dp-email_small"></span>
+                <span class="dp-Icon Icon--email"></span>
                 <span class="dp-Title">Single-line-item</span>
             </span>
             <span class="Tabs-item--row">
@@ -133,7 +133,7 @@ title: Page Tabs
 
         <li class="dp-Tabs-item">
             <span class="Tabs-item--row">
-                <span class="dp-Icon dp-email_small"></span>
+                <span class="dp-Icon Icon--email"></span>
                 <span class="dp-Title">Single-line-item</span>
             </span>
             <span class="Tabs-item--row">
@@ -144,7 +144,7 @@ title: Page Tabs
 
         <li class="dp-Tabs-item">
             <span class="Tabs-item--row">
-                <span class="dp-Icon dp-email_small"></span>
+                <span class="dp-Icon Icon--email"></span>
                 <span class="dp-Title">Single-line-item</span>
             </span>
             <span class="Tabs-item--row">
@@ -172,7 +172,7 @@ title: Page Tabs
 
         <li class="dp-Tabs-item">
             <span class="Tabs-item--row">
-                <span class="dp-Icon dp-email_small"></span>
+                <span class="dp-Icon Icon--email"></span>
                 <span class="dp-Title">RE: Need some help?</span>
             </span>
             <span class="Tabs-item--row">
@@ -183,7 +183,7 @@ title: Page Tabs
 
         <li class="dp-Tabs-item is-active">
             <span class="Tabs-item--row">
-                <span class="dp-Icon dp-email_small"></span>
+                <span class="dp-Icon Icon--email"></span>
                 <span class="dp-Title">SSO working well wit...</span>
             </span>
             <span class="Tabs-item--row">
@@ -204,7 +204,7 @@ title: Page Tabs
 
         <li class="dp-Tabs-item">
             <span class="Tabs-item--row">
-                <span class="dp-Icon dp-email_small"></span>
+                <span class="dp-Icon Icon--email"></span>
                 <span class="dp-Title">RE: Need some help?</span>
             </span>
             <span class="Tabs-item--row">
@@ -215,7 +215,7 @@ title: Page Tabs
 
         <li class="dp-Tabs-item">
             <span class="Tabs-item--row">
-                <span class="dp-Icon dp-email_small"></span>
+                <span class="dp-Icon Icon--email"></span>
                 <span class="dp-Title">Single-line-item</span>
             </span>
             <span class="Tabs-item--row">
@@ -226,7 +226,7 @@ title: Page Tabs
 
         <li class="dp-Tabs-item">
             <span class="Tabs-item--row">
-                <span class="dp-Icon dp-email_small"></span>
+                <span class="dp-Icon Icon--email"></span>
                 <span class="dp-Title">Single-line-item</span>
             </span>
             <span class="Tabs-item--row">
@@ -237,7 +237,7 @@ title: Page Tabs
 
         <li class="dp-Tabs-item">
             <span class="Tabs-item--row">
-                <span class="dp-Icon dp-email_small"></span>
+                <span class="dp-Icon Icon--email"></span>
                 <span class="dp-Title">Single-line-item</span>
             </span>
             <span class="Tabs-item--row">
@@ -254,7 +254,7 @@ title: Page Tabs
                 <li class="dp-Tabs-item">
                     <span class="dp-TabInfoItem">
                         <span class="Tabs-item--row">
-                            <span class="dp-Icon dp-email_small"></span>
+                            <span class="dp-Icon Icon--email"></span>
                             <span class="dp-Title">RE: Need some help?</span>
                         </span>
                         <span class="Tabs-item--row">
@@ -279,7 +279,7 @@ title: Page Tabs
                 <li class="dp-Tabs-item is-active">
                     <span class="dp-TabInfoItem">
                         <span class="Tabs-item--row">
-                            <span class="dp-Icon dp-email_small"></span>
+                            <span class="dp-Icon Icon--email"></span>
                             <span class="dp-Title">SSO working well wit...</span>
                         </span>
                         <span class="Tabs-item--row">
@@ -310,7 +310,7 @@ title: Page Tabs
             <ul class="dp-Menu is-visible">
                 <li class="dp-Menu-title">Add</li>
                 <li class="dp-Menu-linkItem">
-                    <a href="#" class="dp-Menu-link"><span class="dp-Icon dp-email_small"></span>Ticket</a>
+                    <a href="#" class="dp-Menu-link"><span class="dp-Icon Icon--email"></span>Ticket</a>
                 </li>
                 <li class="dp-Menu-linkItem">
                     <a href="#" class="dp-Menu-link"><span class="dp-Icon Icon--user"></span>Person</a>
@@ -338,7 +338,7 @@ title: Page Tabs
 
         <li class="dp-Tabs-item">
             <span class="Tabs-item--row">
-                <span class="dp-Icon dp-email_small"></span>
+                <span class="dp-Icon Icon--email"></span>
                 <span class="dp-Title">RE: Need some help?</span>
             </span>
             <span class="Tabs-item--row">
@@ -349,7 +349,7 @@ title: Page Tabs
 
         <li class="dp-Tabs-item is-active">
             <span class="Tabs-item--row">
-                <span class="dp-Icon dp-email_small"></span>
+                <span class="dp-Icon Icon--email"></span>
                 <span class="dp-Title">SSO working well wit...</span>
             </span>
             <span class="Tabs-item--row">
@@ -383,7 +383,7 @@ title: Page Tabs
 
         <li class="dp-Tabs-item">
             <span class="Tabs-item--row">
-                <span class="dp-Icon dp-email_small"></span>
+                <span class="dp-Icon Icon--email"></span>
                 <span class="dp-Title">RE: Need some help?</span>
             </span>
             <span class="Tabs-item--row">
@@ -394,7 +394,7 @@ title: Page Tabs
 
         <li class="dp-Tabs-item is-active">
             <span class="Tabs-item--row">
-                <span class="dp-Icon dp-email_small"></span>
+                <span class="dp-Icon Icon--email"></span>
                 <span class="dp-Title">SSO working well wit...</span>
             </span>
             <span class="Tabs-item--row">

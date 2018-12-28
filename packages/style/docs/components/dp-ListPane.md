@@ -583,7 +583,6 @@ title: List Pane
         
         <li class="dp-Card-SectionTitle">
             <span>Sales</span>
-            <!-- <span class="dp-SortIconDescription"><span class="dp-Icon dp-sort"></span>DSC</span> -->
         </li>
 
         <!-- 1 -->

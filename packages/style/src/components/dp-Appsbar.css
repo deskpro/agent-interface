@@ -21,8 +21,6 @@
 }
 
 .dpApps-ActionListLabel {
-
-  /* color: var(--gray-500); */
   font-size: var(--font-Title-S);
   padding-left: 3px;
 }
@@ -50,8 +48,6 @@
 }
 
 .dpApps-HeaderTitle {
-
-  /* color: var(--gray-500); */
   font-size: var(--font-Title-L);
   margin-bottom: -4px;
   padding-left: 5px;
@@ -78,8 +74,6 @@
 }
 
 .dpApps-ActionPanelTitle {
-
-  /* color: var(--gray-500); */
   display: block;
   font-size: var(--font-Title-N);
   padding: 0 0 13px 0;
@@ -106,8 +100,6 @@
 }
 
 .dpApps-AppBar .dpApps-Title {
-
-  /* color: var(--gray-500); */
   font-size: var(--font-Title-XL);
   margin-bottom: 3px;
   margin-left: 8px;
@@ -141,8 +133,6 @@
 }
 
 .dpApps-AppBodyTitle {
-
-  /* color: var(--gray-500); */
   font-size: var(--font-Title-L);
   line-height: 0.8;
 }
@@ -188,8 +178,6 @@
 }
 
 .dpApps-AppBodyContent {
-
-  /* color: var(--gray-500); */
   display: block;
   max-width: 100%;
   overflow: hidden;
@@ -198,8 +186,6 @@
 }
 
 .dpApps-AppBodySeparator {
-
-  /* color: var(--gray-500); */
   font-size: 13px;
   padding: 0 6.5px;
 }
@@ -556,8 +542,6 @@ body.dpApps-Body {
 /* 9 */
 
 .dpApps-SectionTitle {
-
-  /* color: var(--gray-500); */
   font-size: var(--font-Title-L);
 }
 
@@ -573,8 +557,6 @@ body.dpApps-Body {
 }
 
 .dpApps-DataDefListValue {
-
-  /* color: var(--gray-500); */
   display: block;
   font-size: var(--font-Title-N);
   padding-top: 1px;
@@ -743,8 +725,6 @@ table tr.dpApps-DateTableRow {
 }
 
 .dpApps-ListItemTitle {
-
-  /* color: var(--gray-500); */
   font-size: var(--font-Title-N);
   letter-spacing: 0.5px;
   line-height: 1.2;
@@ -756,8 +736,6 @@ table tr.dpApps-DateTableRow {
 }
 
 .dpApps-ListItemContent {
-
-  /* color: var(--gray-500); */
   display: block;
   font-size: var(--font-Title-S);
   max-width: 100%;
@@ -767,8 +745,6 @@ table tr.dpApps-DateTableRow {
 }
 
 .dpApps-ListItemContent .dpApps-Divider {
-
-  /* color: var(--gray-500); */
   font-size: 13px;
   padding: 0 6.5px;
 }
@@ -890,8 +866,6 @@ table tr.dpApps-DateTableRow {
 }
 
 .dpApps-PanelHeaderTitle {
-
-  /* color: var(--gray-500); */
   font-size: var(--font-Title-L);
 }
 
@@ -919,8 +893,6 @@ table tr.dpApps-DateTableRow {
 
 .dpApps-DataDefListShipping,
 .dpApps-DataDefListBilling {
-
-  /* color: var(--gray-500); */
   display: inline-block;
   font-weight: 600;
   padding-bottom: 2px;
@@ -1062,22 +1034,6 @@ table tr.dpApps-DateTableRow {
       color: contrast(var(--grey));
     }
   }
-
-  /*  &.ColorSwatchItem--gray-400 {
-    background-color: var(--gray-400);
-
-    & .ColorSwatchItemTitle, & .ColorSwatchItemValue {
-      color: contrast(var(--gray-400));
-    }
-  }
-
-  &.ColorSwatchItem--gray-500 {
-    background-color: var(--gray-500);
-
-    & .ColorSwatchItemTitle, & .ColorSwatchItemValue {
-      color: contrast(var(--gray-500));
-    }
-  } */
 }
 
 /* 16 */

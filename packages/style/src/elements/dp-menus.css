@@ -199,7 +199,7 @@
   display: block;
 }
 
-/* Page Tabs */
+/* Page Tabs SelectedMore */
 
 .dp-SelectedMore.dp-Menu > li {
   border-bottom: 1px solid var(--grey);
@@ -212,6 +212,10 @@
 .dp-Menu .dp-Tabs-item {
   display: flex;
   padding: 0;
+}
+
+.dp-SelectedMore .dp-Icon {
+  margin: 0;
 }
 
 /* Page View */
@@ -241,6 +245,10 @@
   min-width: 100px;
   padding: 3.5px 5px;
   position: relative;
+}
+
+.dp-Menu-search input:focus + .dp-Icon svg {
+  fill: var(--brand-primary);
 }
 
 .dp-Menu-search .dp-Icon {

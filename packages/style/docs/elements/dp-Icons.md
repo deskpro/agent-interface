@@ -4,7 +4,6 @@ title: Icons
 
 ```html @preview
 <div class="dp-IconsWrapper">
-    <!-- <span class="dp-Icon dp-tickets"></span> -->
     <span class="dp-Icon Icon--email"></span>
     <span class="dp-Icon dp-chats"></span>
     <span class="dp-Icon dp-crm"></span>

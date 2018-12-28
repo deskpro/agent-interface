@@ -13,7 +13,7 @@ title: Tabs & Headers
 
         <li class="dp-Tabs-item">
             <span class="Tabs-item--row">
-                <span class="dp-Icon dp-email_small"></span>
+                <span class="dp-Icon Icon--email"></span>
                 <span class="dp-Title">Single-line-item</span>
             </span>
             <span class="Tabs-item--row">
@@ -24,7 +24,7 @@ title: Tabs & Headers
 
         <li class="dp-Tabs-item is-active">
             <span class="Tabs-item--row">
-                <span class="dp-Icon dp-email_small"></span>
+                <span class="dp-Icon Icon--email"></span>
                 <span class="dp-Title">Single-line-item</span>
             </span>
             <span class="Tabs-item--row">
@@ -56,7 +56,7 @@ title: Tabs & Headers
         </li>
         <li class="dp-Tabs-item">
             <span class="Tabs-item--row">
-                <span class="dp-Icon dp-email_small"></span>
+                <span class="dp-Icon Icon--email"></span>
                 <span class="dp-Title">Single-line-item</span>
             </span>
             <span class="Tabs-item--row">
@@ -143,13 +143,11 @@ title: Tabs & Headers
 <div class="dp-MainWrapper">
     <ul class="dp-Tabs Tabs--apps">
         <li class="dp-Tabs-item">
-            <!-- <span class="dp-Icon dp-billing"></span> -->
             <span class="dp-Icon Icon--document"></span>
             <span class="dp-Title">Text</span>
             <button class="dp-Arrow"></button>
         </li>
         <li class="dp-Tabs-item is-active">
-            <!-- <span class="dp-Icon dp-billing"></span> -->
             <span class="dp-Icon Icon--document"></span>
             <span class="dp-Title">Text</span>
             <button class="dp-Arrow"></button>
@@ -158,7 +156,7 @@ title: Tabs & Headers
 </div>
 ```
 
- <h2>Tabs/icon</h2>
+<h2>Tabs/icon</h2>
 ```html @preview
 <div class="dp-MainWrapper">
     <ul class="dp-Tabs Tabs--icons">
