@@ -214,8 +214,8 @@
 }
 
 .Tabs--general .dp-Tabs-item.is-active > .dp-Icon.Icon--email svg,
-.Tabs--icons .dp-Tabs-item:hover .dp-Icon.Icon--email svg,
-.Tabs--icons .dp-Tabs-item.is-active .dp-Icon.Icon--email svg {
+.Tabs--icons .dp-Tabs-item:hover .dp-Icon svg,
+.Tabs--icons .dp-Tabs-item.is-active .dp-Icon svg {
   fill: var(--brand-primary);
 }
 
