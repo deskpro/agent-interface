@@ -52,60 +52,10 @@ title: Apps bar
 </ul>
 ```
 
-
-
 ```html @preview
-<!-- <ul class="dp-Tabs Tabs--apps-bar">
-
-  <li class="dp-Tabs-item">
-    <ul class="dp-LevelLeft">
-
-      <li class="dp-Tabs-item is-expanded">
-        <button class="dp-Button Button--Apps is-selected">
-          <span class="dpApps-IconHamburger"></span>
-        </button>
-      </li>
-
-      <li class="dp-Tabs-item">
-        <button class="dp-Button Button--Apps">
-          <span class="dp-Icon Icon-jira"></span>
-        </button>
-      </li>
-
-    </ul>
-  </li>
-
-  <li class="dp-Tabs-item">
-    <button class="dp-Button Button--Apps">
-      <span class="dp-Icon Icon--down-caret Icon--left-caret"></span>
-    </button>
-  </li>
-
-</ul> -->
-
-
-
-
-
 <div class="dpApps-AppPanel">
 
-<!--     <div class="dpApps-AppTabs is-horizontal">
-        <div class="dpApps-ButtonTabs--wrap">
-            <button class="dpApps-ButtonTabs is-selected">
-                <span class="dpApps-IconHamburger"></span>
-            </button>
-            <button class="dpApps-ButtonTabs">
-                <img class="dpApps-ButtonsImg" src="/agent-interface/style/img/docs/jira-logo.svg" alt=""></img>
-            </button>
-        </div>
-        <button class="dpApps-ButtonTabs ButtonTabs-arrow">
-            <button class="dpApps-ButtonTabs ButtonTabs-arrow dp-DropMenuJs"><i class="dpApps-IconArrow iconArrow--left"></i></button>
-        </button>
-    </div> -->
-
-
     <ul class="dp-Tabs Tabs--apps-bar">
-
         <li class="dp-Tabs-item">
             <ul class="dp-LevelLeft">
                 <li class="dp-Tabs-item is-expanded">
@@ -127,15 +77,11 @@ title: Apps bar
                 <span class="dp-Icon Icon--down-caret Icon--left-caret"></span>
             </button>
         </li>
-
     </ul>
 
-
     <div class="dpApps-AppPanelBody">
-
-
         <div class="dpApps-AppFrame">
-            <div class="dpApps-AppBar dpApps-Level">
+            <div class="dpApps-AppBar dpApps-Level is-active">
                 <div class="dpApps-LevelLeft">
                     <span class="dp-Icon Icon-trello"></span>
                     <span class="dpApps-Title">Trello</span>
@@ -158,6 +104,7 @@ title: Apps bar
                             <span class="dp-Icon dp-search"></span>
                             <span class="dpApps-ActionListLabel">Find</span>
                         </a>
+                        <span class="dpApps-AppBodySeparator"> | </span>
                         <a href="" class="dpApps-ActionListItem">
                             <span class="dp-Icon dp-new"></span>
                             <span class="dpApps-ActionListLabel">Create</span>
@@ -182,10 +129,8 @@ title: Apps bar
                     </div>
                 </div>
             </section>
-
         </div>
 
-        
         <div class="dpApps-AppFrame">
             <div class="dpApps-AppBar dpApps-Level">
                 <div class="dpApps-LevelLeft">
@@ -198,7 +143,6 @@ title: Apps bar
                 </div>
             </div>
         </div>
-
 
         <div class="dpApps-AppFrame">
             <div class="dpApps-AppBar dpApps-Level">
@@ -229,11 +173,7 @@ title: Apps bar
         <div class="dpApps-AppFrame">
             <div class="dpApps-AppBar dpApps-Level">
                 <div class="dpApps-LevelLeft">
-                    <div class="dpApps-AppBarIcon-wrap">
-                        <div class="dpApps-Icon">
-                            <span class="dp-Icon Icon-mailchimp"></span>
-                        </div>
-                    </div>
+                    <span class="dp-Icon Icon-mailchimp"></span>
                     <span class="dpApps-Title">Mailchimp</span>
                 </div>
                 <div class="dpApps-LevelRight">
@@ -254,9 +194,7 @@ title: Apps bar
                 </div>
             </div>
         </div>
-
     </div>
 
 </div>
 ```
-

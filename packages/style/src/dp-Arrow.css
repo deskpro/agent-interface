@@ -19,3 +19,8 @@
   top: 0;
   width: 0;
 }
+
+.is-active .dp-Arrow::after {
+  border-color: transparent transparent var(--brand-primary) transparent;
+  border-width: 0 4px 4px 4px;
+}

@@ -128,14 +128,14 @@
 
 .dpApps-AppFrame {
   background-color: var(--white);
-  border: 2px solid var(--border-color-light);
+  border: 1px solid var(--grey-light);
   border-radius: var(--border-radius);
   display: block;
-  padding: var(--card-padding);
+  padding: 10px;
 }
 
 .dpApps-AppFrame:not(:last-child) {
-  margin-bottom: 13px;
+  margin-bottom: 10px;
 }
 
 .dpApps-AppFrame .dpApps-AppBody {
@@ -149,6 +149,8 @@
 }
 
 .dpApps-Title {
+  color: var(--grey-dark);
+  font: var(--p-xl);
   padding-left: 10px;
 }
 
@@ -171,16 +173,17 @@
 
 .dpApps-AddApp {
   background-color: var(--white);
-  border: 2px solid var(--border-color-light);
+  border: 1px solid var(--grey-light);
   border-radius: var(--border-radius);
-  border-radius: 0.25rem;
   display: block;
-  padding: 8px;
+  padding: 10px;
 }
 
 .dpApps-Level {
   align-items: center;
+  color: var(--grey);
   display: flex;
+  font: var(--p-s);
   justify-content: space-between;
 }
 
@@ -214,6 +217,7 @@
 }
 
 .dpApps-LevelLeft {
+  align-items: center;
   display: flex;
   flex-basis: auto;
   flex-grow: 0;
@@ -238,28 +242,15 @@
 .dpApps-ActionListItem {
   align-items: center;
   display: flex;
-  padding-left: 8px;
-
-  &:first-child {
-    padding-left: 0;
-  }
 }
 
-.dpApps-ActionListItem * {
+/* .dpApps-ActionListItem * {
   cursor: pointer;
-}
+} */
 
 .dpApps-ActionListLabel {
-  font-size: var(--font-Title-S);
+  color: var(--grey);
   padding-left: 3px;
-}
-
-.dpApps-ActionList--grey .dpApps-ActionListLabel {
-  color: var(--grey-lighter);
-}
-
-.dpApps-ActionList--grey svg {
-  fill: var(--grey-lighter);
 }
 
 .dpApps-ActionPanel {
@@ -302,33 +293,27 @@
 
 .dpApps-AppBar {
   border-bottom: 1px solid var(--grey-light);
-  margin: 0 0 10px;
   padding: 0 0 3px;
 }
 
 /* 4 */
 
 .dpApps-Section {
+  display: none;
+}
+
+.dpApps-AppBar.is-active + .dpApps-Section {
   display: block;
 }
 
 .dpApps-AppBody.dpApps-Section > .dpApps-Level {
-  padding-top: 11px;
-}
-
-.dpApps-AppBody .dpApps-ActionListLabel {
-  font-size: var(--font-Text-L);
-}
-
-.dpApps-AppBodyTitle {
-  font-size: var(--font-Title-L);
+  padding: 7px 0;
 }
 
 .dpApps-AppBodyItem {
   border: 1px solid var(--brand-primary);
   border-radius: var(--border-radius);
   display: block;
-  margin-top: var(--card-element-margin);
   padding: var(--card-padding);
 }
 
@@ -337,13 +322,9 @@
   display: flex;
 }
 
-.dpApps-AppBodyItemRow--spaceBottom {
-  padding-bottom: 4px;
-}
-
 .dpApps-LevelItemTitle {
   color: var(--brand-primary);
-  font: var(--h-s-semibold);
+  font: var(--p-s-semibold);
   overflow: hidden;
   padding-left: 7px;
   text-overflow: ellipsis;
