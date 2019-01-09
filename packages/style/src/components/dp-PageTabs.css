@@ -21,7 +21,10 @@
 
 .dp-Tabs-item:hover > .dp-Arrow::after,
 .dp-Tabs .dp-Tabs-item.is-expanded .dp-Arrow::after {
-  border-color: var(--brand-primary) transparent transparent transparent;
+  border-color: transparent transparent var(--brand-primary) transparent;
+
+  /* border-color: var(--brand-primary) transparent transparent transparent; */
+  border-width: 0 4px 4px 4px;
 }
 
 .dp-Tabs-item .dp-Arrow::after {
@@ -191,6 +194,18 @@
 
 .Tabs--apps .dp-Tabs-item .dp-Arrow::after {
   border-color: var(--grey-dark) transparent transparent transparent;
+}
+
+.dp-Tabs.Tabs--apps .dp-Tabs-item.is-active .dp-Arrow::after {
+  border-color: transparent transparent var(--grey-dark) transparent;
+}
+
+.dp-Tabs.Tabs--apps .dp-Tabs-item:hover .dp-Arrow::after {
+  border-color: transparent transparent var(--grey-dark) transparent;
+}
+
+.Tabs--apps .dp-Tabs-item.is-active > .dp-Icon svg {
+  fill: var(--grey);
 }
 
 /* Tabs--icons */

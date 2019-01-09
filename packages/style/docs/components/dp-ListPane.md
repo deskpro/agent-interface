@@ -172,30 +172,31 @@ title: List Pane
             <li class="dp-Menu-linkItem">
                 <span class="dp-Icon dp-Drag"></span>
                 <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="fields-01"></input>
+                    <input type="checkbox" checked="checked" disabled="disabled" class="dp-ControlInput" id="fields-01"></input>
                     <label for="fields-01">Agent</label>
                 </span>
             </li>
             <li class="dp-Menu-linkItem">
                 <span class="dp-Icon dp-Drag"></span>
                 <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="fields-02"></input>
+                    <input type="checkbox" checked="checked" disabled="disabled" class="dp-ControlInput" id="fields-02"></input>
                     <label for="fields-02">Title</label>
                 </span>
             </li>
             <li class="dp-Menu-linkItem">
                 <span class="dp-Icon dp-Drag"></span>
                 <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="fields-03"></input>
+                    <input type="checkbox" checked="checked" disabled="disabled" class="dp-ControlInput" id="fields-03"></input>
                     <label for="fields-03">User</label>
                 </span>
             </li>
             <li class="dp-Menu-linkItem">
                 <span class="dp-Icon dp-Drag"></span>
                 <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="fields-04"></input>
+                    <input type="checkbox" checked="checked" disabled="disabled" class="dp-ControlInput" id="fields-04"></input>
                     <label for="fields-04">Agent team</label>
-                </span>            </li>
+                </span>            
+            </li>
             <li class="dp-Menu-linkItem">
                 <span class="dp-Icon dp-Drag"></span>
                 <span class="dp-CustomCheckbox">
@@ -320,7 +321,7 @@ title: List Pane
             <li class="dp-Menu-linkItem">
                 <span class="dp-Icon dp-Drag"></span>
                 <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="fields-17"></input>
+                    <input type="checkbox" checked="checked" disabled="disabled" class="dp-ControlInput" id="fields-17"></input>
                     <label for="fields-17">Date of last user reply</label>
                 </span>
                 <span class="dp-Icon dp-settings"></span>
@@ -339,7 +340,7 @@ title: List Pane
             <li class="dp-Menu-linkItem">
                 <span class="dp-Icon dp-Drag"></span>
                 <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="fields-18"></input>
+                    <input type="checkbox" checked="checked" disabled="disabled" class="dp-ControlInput" id="fields-18"></input>
                     <label for="fields-18">Date of last agent reply</label>
                 </span>
                 <span class="dp-Icon dp-settings"></span>
@@ -361,7 +362,7 @@ title: List Pane
                     <input type="checkbox" class="dp-ControlInput" id="fields-19"></input>
                     <label for="fields-19">Date resolved</label>
                 </span>
-                <span class="dp-Icon dp-settings"></span>
+                <span class="dp-Icon dp-settings is-active"></span>
                 <ul class="dp-Menu">
                     <li class="dp-Menu-linkItem">
                         <a href="#">Date</a>

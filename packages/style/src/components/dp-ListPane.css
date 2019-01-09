@@ -752,8 +752,17 @@ thead .dp-Card-title td {
 }
 
 .Tabs--actions .dp-Tabs-item.is-active .dp-Arrow::after {
+
+  /* border-color: var(--white) transparent transparent transparent; */
+
+  /* transform: rotate(180deg); */
+
   border-color: var(--white) transparent transparent transparent;
-  transform: rotate(180deg);
+  border-width: 4px 4px 0 4px;
+}
+
+.Tabs--actions .dp-Tabs-item:hover .dp-Arrow::after {
+  border-color: transparent transparent var(--grey-dark) transparent;
 }
 
 .dp-Tabs.Tabs--actions .dp-Tabs-item.is-active:hover {
@@ -768,6 +777,7 @@ thead .dp-Card-title td {
 
 .Tabs--actions .dp-Tabs-item:hover .dp-Arrow::after {
   border-color: var(--grey-dark) transparent transparent transparent;
+  border-width: 4px 4px 0 4px;
 }
 
 .Tabs--actions .dp-Tabs-item.is-active:hover .dp-Arrow::after {
@@ -911,7 +921,8 @@ thead .dp-Card-title td {
 
 .dp-Card:hover > .dp-settings,
 .dp-Card:hover .dp-LevelItem > .dp-settings,
-.dp-Card.is-active .dp-settings {
+.dp-Card.is-active .dp-settings,
+.is-active .dp-settings {
   display: block;
 }
 
@@ -1100,4 +1111,15 @@ thead .dp-Card-title td {
 
 .dp-General-Articles {
   padding-left: 35px;
+}
+
+/* Menu-fields */
+
+input:disabled + label {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.dp-CustomCheckbox input[type="checkbox"]:disabled + label::after {
+  background-color: var(--grey-light);
 }
