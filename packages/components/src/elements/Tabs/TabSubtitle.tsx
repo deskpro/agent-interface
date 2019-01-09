@@ -12,7 +12,7 @@ const TabSubtitle: React.SFC<TabSubtitleProps> = ({
   children,
   className = ""
 }) => (
-  <span className={classNames("dp-Flex", className)}>
+  <span className={classNames("Tabs-item--row", className)}>
     <Icon name={icon} size={15} />
     <span className="dp-Subtitle">{children}</span>
   </span>

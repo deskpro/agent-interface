@@ -28,10 +28,9 @@ const TabItem: React.SFC<TabItemProps> = ({
 }) => (
   <li
     className={classNames("dp-Tabs-item", className, {
-      "Tabs--button": iconOnly,
+      "Tabs-item--button": iconOnly,
       "is-active": isActive,
-      "is-visible": isExpanded,
-      "is-expandable": !!renderMenu
+      "is-visible": isExpanded
     })}
     role="menuitem"
     onClick={onTabClick}

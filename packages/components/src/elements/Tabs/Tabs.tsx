@@ -48,10 +48,32 @@ export default class Tabs extends React.PureComponent<TabsProps, TabsState> {
     openedMenu: null
   };
 
+  menuRef: React.RefObject<HTMLUListElement> = React.createRef();
+
+  componentDidMount() {
+    document.addEventListener("mousedown", this.handleMouseDown);
+  }
+
+  componentWillUnmount() {
+    document.removeEventListener("mousedown", this.handleMouseDown);
+  }
+
   get isMenu() {
     const { type } = this.props;
     return ["actions", "apps"].includes(type as string);
   }
+
+  handleMouseDown = (e: Event) => {
+    const { openedMenu } = this.state;
+    if (
+      openedMenu &&
+      this.menuRef.current &&
+      !this.menuRef.current.contains(e.target as Node)
+    ) {
+      e.stopPropagation();
+      this.setState({ openedMenu: null });
+    }
+  };
 
   handleTabClick = (targetKey: React.Key, e: React.MouseEvent<HTMLElement>) => {
     const { activeKey } = this.state;
@@ -80,6 +102,7 @@ export default class Tabs extends React.PureComponent<TabsProps, TabsState> {
         className={classNames("dp-Tabs", {
           [`Tabs--${type}`]: !!type
         })}
+        ref={this.menuRef}
       >
         {React.Children.map(
           children as React.ReactElement<TabItemProps>[],
