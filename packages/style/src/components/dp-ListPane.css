@@ -776,7 +776,11 @@ thead .dp-Card-title td {
 }
 
 .Tabs--actions .dp-Tabs-item.is-active:hover .dp-Arrow::after {
-  border-color: var(--white) transparent transparent transparent;
+
+  /* border-color: var(--white) transparent transparent transparent; */
+
+  border-color: transparent transparent var(--white) transparent;
+  border-width: 0 4px 4px 4px;
 }
 
 /* Level Grid */
@@ -823,6 +827,16 @@ thead .dp-Card-title td {
 
 .dp-CardList.dp-Listpane-guides > .dp-Card.Level--down {
   border-left: 0;
+}
+
+.dp-Card.Card--selected {
+  background-color: var(--info-light);
+  border-bottom: 1px solid var(--brand-primary);
+}
+
+.dp-Card.Card--selected-items {
+  background-color: var(--grey-lighter);
+  border-bottom: 1px solid var(--grey-dark);
 }
 
 .dp-CardList .dp-Card {

@@ -199,7 +199,7 @@
   border-color: transparent transparent var(--grey-dark) transparent;
 }
 
-.Tabs--general.dp-Tabs-item.is-active > .dp-Icon svg {
+.Tabs--general .dp-Tabs-item.is-active > .dp-Icon svg {
   fill: var(--success);
 }
 

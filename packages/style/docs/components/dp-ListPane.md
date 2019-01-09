@@ -714,7 +714,7 @@ title: List Pane
 <div class="dp-MainWrapper">
     <form>
         <ul class="dp-CardList Card--row">
-            <li class="dp-Card dp-Level LevelCol">
+            <li class="dp-Card dp-Level LevelCol Card--selected">
 
                 <span class="dp-LevelItem Level-justify-between">
                     <span class="dp-CustomCheckbox">
@@ -754,7 +754,7 @@ title: List Pane
 <div class="dp-MainWrapper">
     <form>
         <ul class="dp-CardList">
-            <li class="dp-Card dp-Level">
+            <li class="dp-Card dp-Level Card--selected-items">
 
                 <span class="dp-LevelCol">
                     <span class="dp-CustomCheckbox">
