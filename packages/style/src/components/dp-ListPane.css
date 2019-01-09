@@ -194,7 +194,9 @@
 .dp-Card {
   background-color: var(--white);
   border-bottom: 1px solid var(--grey-light);
-  border-top: 1px solid transparent;
+
+  /* border-top: 1px solid transparent; */
+
   cursor: pointer;
   display: flex;
   padding: 10px 10px;
@@ -215,10 +217,10 @@
   font: var(--h-n-semibold);
 }
 
-.is-hoverable .dp-Card.is-active,
+/* .is-hoverable .dp-Card.is-active,
 .is-hoverable .dp-Card:hover {
   background-color: var(--info-light);
-}
+} */
 
 .Icon--circle {
   align-items: center;
@@ -232,8 +234,6 @@
   font: var(--p-n);
   height: 18px;
   justify-content: center;
-
-  /* margin-left: 7px; */
   width: 18px;
 }
 
@@ -752,13 +752,8 @@ thead .dp-Card-title td {
 }
 
 .Tabs--actions .dp-Tabs-item.is-active .dp-Arrow::after {
-
-  /* border-color: var(--white) transparent transparent transparent; */
-
-  /* transform: rotate(180deg); */
-
-  border-color: var(--white) transparent transparent transparent;
-  border-width: 4px 4px 0 4px;
+  border-color: transparent transparent var(--white) transparent;
+  border-width: 0 4px 4px 4px;
 }
 
 .Tabs--actions .dp-Tabs-item:hover .dp-Arrow::after {
@@ -828,6 +823,21 @@ thead .dp-Card-title td {
 
 .dp-CardList.dp-Listpane-guides > .dp-Card.Level--down {
   border-left: 0;
+}
+
+.dp-CardList .dp-Card {
+  position: relative;
+}
+
+.dp-CardList .dp-Card:hover::after {
+  background-color: var(--brand-primary);
+  content: "";
+  height: 100%;
+  left: 0;
+  opacity: 0.07;
+  position: absolute;
+  top: 0;
+  width: 100%;
 }
 
 .dp-Listpane-guides .Level--down {

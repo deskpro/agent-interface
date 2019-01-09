@@ -26,6 +26,7 @@
   text-overflow: ellipsis;
   user-select: none;
   white-space: nowrap;
+  z-index: 1;
 }
 
 .dp-CustomCheckbox input[type="checkbox"] + label::before {

@@ -13,7 +13,8 @@
 }
 
 .dp-Tabs .dp-Tabs-item:hover,
-.dp-Tabs .dp-Tabs-item.is-expanded {
+.dp-Tabs .dp-Tabs-item.is-expanded,
+.dp-Tabs .dp-Tabs-item.is-active {
   border-bottom: 1px solid var(--brand-primary);
   color: var(--brand-primary);
   margin-bottom: -1px;
@@ -22,8 +23,6 @@
 .dp-Tabs-item:hover > .dp-Arrow::after,
 .dp-Tabs .dp-Tabs-item.is-expanded .dp-Arrow::after {
   border-color: transparent transparent var(--brand-primary) transparent;
-
-  /* border-color: var(--brand-primary) transparent transparent transparent; */
   border-width: 0 4px 4px 4px;
 }
 
@@ -154,10 +153,6 @@
   right: 0;
 }
 
-/* .dp-SelectedMore.dp-Menu .dp-Icon {
-  margin: 0;
-} */
-
 .Tabs--general .dp-Tabs-item.Tabs-item--button {
   align-items: center;
   display: flex;
@@ -202,6 +197,10 @@
 
 .dp-Tabs.Tabs--apps .dp-Tabs-item:hover .dp-Arrow::after {
   border-color: transparent transparent var(--grey-dark) transparent;
+}
+
+.Tabs--general.dp-Tabs-item.is-active > .dp-Icon svg {
+  fill: var(--success);
 }
 
 .Tabs--apps .dp-Tabs-item.is-active > .dp-Icon svg {
