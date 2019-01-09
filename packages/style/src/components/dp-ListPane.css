@@ -83,7 +83,7 @@
   font: var(--p-s);
 }
 
-.newControlsList .dp-ListPane .dp-Icon {
+.newControlsList .dp-ListPane > .dp-Icon {
   background-size: 23px 23px;
   height: 25px;
   margin-right: 4px;
@@ -292,7 +292,11 @@
   margin-left: 2px;
 }
 
-.dp-Card .dp-Meta::after {
+.dp-Meta.is-active {
+  color: var(--brand-primary);
+}
+
+.dp-Meta::after {
   border-right: 1px solid var(--grey-dark);
   content: "";
   height: 10px;
@@ -300,7 +304,7 @@
   width: 1px;
 }
 
-.dp-Card .dp-Meta:last-child::after {
+.dp-Meta:last-child::after {
   display: none;
 }
 

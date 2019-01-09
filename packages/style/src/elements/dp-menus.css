@@ -29,11 +29,6 @@
   margin-right: 5px;
 }
 
-.dp-Menu .dp-Menu-linkItem:hover {
-  background-color: var(--info-light);
-  color: var(--brand-primary);
-}
-
 .dp-Menu .dp-Menu-title {
   background-color: var(--brand-primary);
   color: var(--white);
@@ -161,6 +156,7 @@
 
 .dp-Menu .dp-Menu-linkItem:hover {
   background-color: var(--primary-light);
+  color: var(--brand-primary);
 }
 
 .dp-Menu-linkItem:hover > .dp-listItem, .dp-Menu .dp-Menu-linkItem:hover .dp-Menu-link {
@@ -197,6 +193,138 @@
 
 .dp-Menu.is-visible {
   display: block;
+}
+
+.newControlsList .dp-ListPane .dp-Menu-linkItem > .dp-settings {
+  background-size: 12px;
+  height: 12px;
+  margin: 0;
+  width: 12px;
+}
+
+/* listpane dropdown Menu */
+
+.dp-DropDownItem.is-active > .dp-Menu {
+  display: block;
+}
+
+/* Menu-grouped */
+
+.dp-Menu.Menu-grouped .dp-Menu-linkItem {
+  justify-content: space-between;
+}
+
+.dp-Menu.Menu-grouped .dp-Menu-linkItem:hover > .dp-Menu {
+  display: none;
+}
+
+/* Menu-sort */
+
+.dp-Menu.Menu-sort .is-active + .dp-Menu {
+  display: block;
+  left: 100%;
+  min-width: 125px;
+  top: 0;
+}
+
+.dp-Menu.Menu-sort .dp-Menu-linkItem .dp-listItem::after {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='9' height='8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M.925 4.342a.568.568 0 0 1 0-.726l.096-.108a.43.43 0 0 1 .648 0l1.682 1.885L7.765.446a.43.43 0 0 1 .648 0l.096.108a.568.568 0 0 1 0 .726L3.351 7.061.925 4.342z' fill='%233A8DDE'/%3E%3C/svg%3E");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 50% 50%;
+  content: "";
+  display: block;
+  height: 25px;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  width: 25px;
+}
+
+.dp-Menu.Menu-sort .dp-Menu-linkItem:hover .dp-listItem::after {
+  opacity: 1;
+}
+
+.dp-Menu.Menu-sort .dp-Menu-linkItem {
+  padding: 3.5px 10px 3.5px 25px;
+}
+
+.dp-Menu.Menu-sort .dp-Menu-linkItem:hover {
+  background-color: transparent;
+}
+
+/* Menu-fields */
+
+.dp-Menu.Menu-fields {
+  min-width: 235px;
+  padding: 0;
+}
+
+.dp-Menu.Menu-fields .dp-Menu-title {
+  background-color: transparent;
+  border-bottom: 1px solid var(--grey-light);
+  color: var(--grey-dark);
+  font: var(--p-l-semibold);
+  margin: 0;
+  padding: 0;
+}
+
+.dp-Menu-subtitle {
+  align-items: center;
+  color: var(--grey-darkest);
+  display: flex;
+  font: var(--p-xl);
+  justify-content: space-between;
+  padding: 3.5px 10px;
+}
+
+.dp-Menu-subtitle .dp-Meta {
+  font: var(--p-s);
+}
+
+.dp-Menu.Menu-fields .dp-Menu-title > ul {
+  align-items: center;
+  display: flex;
+  padding: 0;
+}
+
+.dp-Menu.Menu-fields .dp-Menu-titleItem {
+  border-right: 1px solid var(--grey-light);
+  display: flex;
+  margin: 0;
+  padding: 10px;
+}
+
+.dp-Menu.Menu-fields .dp-Menu-titleItem.is-active {
+  color: var(--brand-primary);
+}
+
+.dp-Menu-linkItem > .dp-Icon {
+  background-size: 14px 11px;
+  margin-right: 10px;
+}
+
+.Menu-fields .dp-CustomCheckbox {
+  flex: 1 0 auto;
+}
+
+.Menu-fields .dp-CustomCheckbox input[type="checkbox"] + label {
+  padding-left: 17px;
+}
+
+.dp-Icon.dp-settings {
+  flex: 1 0 auto;
+  max-width: 12px;
+}
+
+.dp-Menu-linkItem.dp-ButtonWrapper {
+  justify-content: space-around;
+  padding: 0 10px 10px 10px;
+}
+
+.dp-Menu-linkItem.dp-ButtonWrapper .dp-CustomCheckbox {
+  flex: 0 0 auto;
 }
 
 /* Page Tabs SelectedMore */
@@ -270,7 +398,14 @@
 
 /* Sub menu */
 
-.dp-Menu .dp-Menu .dp-listItem::after {
+.dp-Menu .dp-Menu {
+  left: 100%;
+  top: 0;
+}
+
+/* .dp-Menu .dp-Menu .dp-listItem::after { */
+
+.dp-Menu .dp-listItem::after {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%23318cdd' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3E%3C/svg%3E");
   background-position: center center;
   background-repeat: no-repeat;
@@ -285,14 +420,19 @@
   width: 25px;
 }
 
-.dp-Menu .dp-Menu li:hover .dp-listItem::after {
+/* .dp-Menu .dp-Menu li:hover .dp-listItem::after { */
+
+.dp-Menu li:hover .dp-listItem::after {
   opacity: 1;
+}
+
+.dp-Menu .dp-Menu-linkItem .dp-Menu {
+  min-width: 180px;
 }
 
 .dp-Menu .dp-Menu-linkItem:hover > .dp-Menu {
   display: block;
   left: 100%;
-  min-width: 180px;
   top: 0;
 }
 
