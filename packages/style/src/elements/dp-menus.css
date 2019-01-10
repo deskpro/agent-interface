@@ -317,10 +317,10 @@
   padding-left: 17px;
 }
 
-.dp-Icon.dp-settings {
+/* .dp-Icon.dp-settings {
   flex: 1 0 auto;
   max-width: 12px;
-}
+} */
 
 .Menu-fields .dp-settings.is-active + .dp-Menu {
   display: block;

@@ -387,7 +387,6 @@ title: List Pane
 
             <li class="dp-Menu-linkItem dp-ButtonWrapper">
                 <button class="dp-Button" type="button">Apply changes</button>
-
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="fields-21"></input>
                     <label for="fields-21">all filters</label>
@@ -395,7 +394,6 @@ title: List Pane
             </li>
 
         </ul>
-
     </li>
 </ul>
 ```
@@ -688,12 +686,10 @@ title: List Pane
 
                 <span class="dp-LevelCol dp-LevelRight">
                     <span class="dp-IconGroup">
-
                         <span class="dp-ActivityStatus ActivityStatus--viewing">
                             <span class="dp-Icon Icon--view"></span>
                             <span class="dp-Badge Badge--round Badge--grey"></span>
                         </span>
-
                         <span class="Icon--circle dp-iconBug"></span>
                         <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
                         <span class="dp-Icon Icon--clock Icon--primary"></span>
@@ -714,7 +710,7 @@ title: List Pane
 <div class="dp-MainWrapper">
     <form>
         <ul class="dp-CardList Card--row">
-            <li class="dp-Card dp-Level LevelCol Card--selected">
+            <li class="dp-Card Card--selected dp-Level LevelCol">
 
                 <span class="dp-LevelItem Level-justify-between">
                     <span class="dp-CustomCheckbox">
@@ -754,7 +750,7 @@ title: List Pane
 <div class="dp-MainWrapper">
     <form>
         <ul class="dp-CardList">
-            <li class="dp-Card dp-Level Card--selected-items">
+            <li class="dp-Card Card--selected-items dp-Level">
 
                 <span class="dp-LevelCol">
                     <span class="dp-CustomCheckbox">
@@ -800,11 +796,11 @@ title: List Pane
 <div class="dp-MainWrapper">
     <form>
         <ul class="dp-CardList">
-            <li class="dp-Card dp-Level">
+            <li class="dp-Card Card--checked dp-Level">
 
                 <span class="dp-LevelCol">
                     <span class="dp-CustomCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-2"></input>
+                        <input type="checkbox" checked="checked" class="dp-ControlInput" id="customCheckbox1-2"></input>
                         <label for="customCheckbox1-2" class="dp-Card-title"></label>
                     </span>
                 </span>
@@ -846,7 +842,7 @@ title: List Pane
 <div class="dp-MainWrapper">
     <form>
         <ul class="dp-CardList">
-            <li class="dp-Card dp-Level">
+            <li class="dp-Card Card--Draggable dp-Level">
 
                 <span class="dp-LevelCol">
                     <span class="dp-CustomCheckbox">
@@ -886,7 +882,6 @@ title: List Pane
     </form>
 </div>
 ```
-
 
 <h4>list-pane/agent-writing-large</h4>
 ```html @preview
@@ -3182,8 +3177,8 @@ title: List Pane
 ```html @preview
 <div class="dp-MainWrapper" style="height: 400px">
     <form>
-        <ul class="dp-CardList dp-Tasks-list">
-            <li class="dp-Card dp-Level LevelCol">
+        <ul class="dp-CardList">
+            <li class="dp-Card dp-Level LevelCol dp-Tasks-list">
                 <span class="dp-LevelItem Level-justify-between">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="tasksnew-1">
@@ -3198,12 +3193,13 @@ title: List Pane
                     </span>
                 </span>
                 <span class="dp-LevelItem dp-LevelLeft">
-                    <span class="dp-UserInfo">
+                    <span class="dp-Diagnose">
                         <span class="dp-Icon dp-link Icon--primary"></span>
                         <a href="" class="dp-Card-link">Diagnose And Repair Electrical Systems</a>
                     </span>
                     <!-- Icon hover -->
-                    <span class="dp-Icon dp-settings is-active">
+                    <span class="dp-Cog">
+                        <span class="dp-Icon dp-settings is-active"></span>
                         <ul class="dp-Menu">
                             <li class="dp-Menu-linkItem">
                                 <span class="dp-Icon dp-Bin"></span>
@@ -3221,7 +3217,8 @@ title: List Pane
                         <span class="dp-Icon dp-iconUserAvatar"></span>
                         <span class="dp-UserName">Me</span>
                     </span>
-                    <span class="dp-UserInfo">
+                    <!-- comment -->
+                    <span class="dp-CommentWrap">
                         <span class="dp-Icon dp-iconComents"></span>
                         <span class="dp-Comments-title is-active">Comment <a href="#" class="dp-qt">(2)</a><button class="dp-Arrow"></button></span>
                         <ul class="dp-Comments">
@@ -3280,8 +3277,8 @@ title: List Pane
 <h4>COMPLETED TASK</h4>
 ```html @preview
 <form>
-    <ul class="dp-CardList dp-Tasks-list Task--completed">
-        <li class="dp-Card dp-Level LevelCol">
+    <ul class="dp-CardList Task--completed">
+        <li class="dp-Card dp-Level LevelCol dp-Tasks-list">
 
             <span class="dp-LevelItem Level-justify-between">
                 <span class="dp-CustomCheckbox">
@@ -3299,13 +3296,14 @@ title: List Pane
             </span>
 
             <span class="dp-LevelItem dp-LevelLeft">
-                <span class="dp-UserInfo">
+                <span class="dp-Diagnose">
                     <span class="dp-Icon dp-link Icon--primary"></span>
                     <a href="" class="dp-Card-link">Diagnose And Repair Electrical Systems</a>
                 </span>
 
                 <!-- Icon hover -->
-                <span class="dp-Icon dp-settings is-active">
+                <span class="dp-Cog">
+                    <span class="dp-Icon dp-settings is-active"></span>
                     <ul class="dp-Menu">
                         <li class="dp-Menu-linkItem">
                             <span class="dp-Icon dp-Bin"></span>
@@ -3325,7 +3323,7 @@ title: List Pane
                     <span class="dp-Icon dp-iconUserAvatar"></span>
                     <span class="dp-UserName">Me</span>
                 </span>
-                <span class="dp-UserInfo">
+                <span class="dp-CommentWrap">
                     <span class="dp-Icon dp-iconComents"></span>
                     <span class="dp-Comments-title">Add comment</span>
                     <ul class="dp-Comments">
@@ -3384,8 +3382,8 @@ title: List Pane
 ```html @preview
 <div class="dp-MainWrapper" style="height: 400px">
     <form>
-        <ul class="dp-CardList dp-Tasks-list dp-KanbanView">
-            <li class="dp-Card dp-Level LevelCol">
+        <ul class="dp-CardList dp-KanbanView">
+            <li class="dp-Card dp-Level LevelCol dp-Tasks-list">
                 <span class="dp-LevelItem Level-justify-between">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="taskskanban-1"></input>
@@ -3400,12 +3398,13 @@ title: List Pane
                     </span>
                 </span>
                 <span class="dp-LevelItem dp-LevelLeft">
-                    <span class="dp-UserInfo">
+                    <span class="dp-Diagnose">
                         <span class="dp-Icon dp-link Icon--primary"></span>
                         <a href="" class="dp-Card-link">Diagnose And Repair Electrical Systems</a>
                     </span>
                     <!-- Icon hover -->
-                    <span class="dp-Icon dp-settings">
+                    <span class="dp-Cog">
+                        <span class="dp-Icon dp-settings"></span>
                         <ul class="dp-Menu">
                             <li class="dp-Menu-linkItem">
                                 <span class="dp-Icon dp-Bin"></span>
@@ -3423,7 +3422,7 @@ title: List Pane
                         <span class="dp-Icon dp-iconUserAvatar"></span>
                         <span class="dp-UserName">Me</span>
                     </span>
-                    <span class="dp-UserInfo">
+                    <span class="dp-CommentWrap">
                         <span class="dp-Icon dp-iconComents"></span>
                         <span class="dp-Comments-title is-active">Comment <a href="#" class="dp-qt">(2)</a><button class="dp-Arrow"></button></span>
                         <ul class="dp-Comments">
@@ -3528,7 +3527,8 @@ title: List Pane
             </span>
 
             <!-- Icon hover -->
-            <span class="dp-Icon dp-settings">
+            <span class="dp-Cog">
+                <span class="dp-Icon dp-settings"></span>
                 <ul class="dp-Menu">
 
                     <li class="dp-Menu-linkItem">Assign to <a href="#" class="dp-listLink">me</a> or <button class="dp-Arrow"></button>
@@ -3720,7 +3720,8 @@ title: List Pane
             </span>
 
             <!-- Icon hover -->
-            <span class="dp-Icon dp-settings">
+            <span class="dp-Cog">
+                <span class="dp-Icon dp-settings"></span>
                 <ul class="dp-Menu">
 
                     <li class="dp-Menu-linkItem">Assign to <a href="#" class="dp-listLink">me</a> or <button class="dp-Arrow"></button>
@@ -3911,7 +3912,8 @@ title: List Pane
             </span>
 
             <!-- Icon hover -->
-            <span class="dp-Icon dp-settings">
+            <span class="dp-Cog">
+                <span class="dp-Icon dp-settings"></span>
                 <ul class="dp-Menu">
 
                     <li class="dp-Menu-linkItem">Assign to <a href="#" class="dp-listLink">me</a> or <button class="dp-Arrow"></button>
@@ -4104,7 +4106,8 @@ title: List Pane
             </span>
 
             <!-- Icon hover -->
-            <span class="dp-Icon dp-settings">
+            <span class="dp-Cog">
+                <span class="dp-Icon dp-settings"></span>
                 <ul class="dp-Menu">
 
                     <li class="dp-Menu-linkItem">Assign to <a href="#" class="dp-listLink">me</a> or <button class="dp-Arrow"></button>
@@ -4296,7 +4299,8 @@ title: List Pane
             </span>
 
             <!-- Icon hover -->
-            <span class="dp-Icon dp-settings is-active">
+            <span class="dp-Cog">
+                <span class="dp-Icon dp-settings is-active"></span>
                 <ul class="dp-Menu is-visible">
 
                     <li class="dp-Menu-linkItem">Assign to <a href="#" class="dp-listLink">me</a> or <button class="dp-Arrow"></button>
@@ -4452,9 +4456,7 @@ title: List Pane
 
                 </ul>
             </span>
-
         </li>
-
     </ul>
 </form>
 ```
@@ -4494,7 +4496,8 @@ title: List Pane
             </span>
 
             <!-- Icon hover -->
-            <span class="dp-Icon dp-settings">
+            <span class="dp-Cog">
+                <span class="dp-Icon dp-settings"></span>
                 <ul class="dp-Menu">
                     <li class="dp-Menu-linkItem">
                         <span class="dp-Icon dp-iconInsert-Link"></span>
@@ -4541,7 +4544,8 @@ title: List Pane
             </span>
 
             <!-- Icon hover -->
-            <span class="dp-Icon dp-settings">
+            <span class="dp-Cog">
+                <span class="dp-Icon dp-settings"></span>
                 <ul class="dp-Menu">
                     <li class="dp-Menu-linkItem">
                         <span class="dp-Icon dp-iconInsert-Link"></span>
@@ -4588,7 +4592,8 @@ title: List Pane
             </span>
 
             <!-- Icon hover -->
-            <span class="dp-Icon dp-settings is-active">
+            <span class="dp-Cog">
+                <span class="dp-Icon dp-settings is-active"></span>
                 <ul class="dp-Menu">
                     <li class="dp-Menu-linkItem">
                         <span class="dp-Icon dp-iconInsert-Link"></span>
@@ -4622,9 +4627,9 @@ title: List Pane
 ```html @preview
 <div class="dp-MainWrapper">
     <form>
-        <ul class="dp-CardList dp-Tasks-list CardList-settings-cog is-hoverable">
+        <ul class="dp-CardList CardList-settings-cog is-hoverable">
 
-            <li class="dp-Card-SectionTitle">
+            <li class="dp-Card-SectionTitle dp-Tasks-list">
                 <span class="dp-LevelCol">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="my-task-0"></input>
@@ -4636,7 +4641,7 @@ title: List Pane
                 </span>
             </li>
             <!-- 1 -->
-            <li class="dp-Card dp-Level LevelCol">
+            <li class="dp-Card dp-Level LevelCol dp-Tasks-list">
                 <span class="dp-LevelItem Level-justify-between">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="my-task-1">
@@ -4651,12 +4656,13 @@ title: List Pane
                     </span>
                 </span>
                 <span class="dp-LevelItem dp-LevelLeft">
-                    <span class="dp-UserInfo">
+                    <span class="dp-Diagnose">
                         <span class="dp-Icon dp-link Icon--primary"></span>
                         <a href="" class="dp-Card-link">Diagnose And Repair Electrical Systems</a>
                     </span>
                     <!-- Icon hover -->
-                    <span class="dp-Icon dp-settings">
+                    <span class="dp-Cog">
+                        <span class="dp-Icon dp-settings"></span>
                         <ul class="dp-Menu">
                             <li class="dp-Menu-linkItem">
                                 <span class="dp-Icon dp-Bin"></span>
@@ -4674,7 +4680,7 @@ title: List Pane
                         <span class="dp-Icon dp-iconUserAvatar"></span>
                         <span class="dp-UserName">Me</span>
                     </span>
-                    <span class="dp-UserInfo">
+                    <span class="dp-CommentWrap">
                         <span class="dp-Icon dp-iconComents"></span>
                         <span class="dp-Comments-title">Comment <a href="#" class="dp-qt">(2)</a><button class="dp-Arrow"></button></span>
                         <ul class="dp-Comments">
@@ -4727,7 +4733,7 @@ title: List Pane
             </li>
 
             <!-- 2 -->
-            <li class="dp-Card dp-Level LevelCol">
+            <li class="dp-Card dp-Level LevelCol dp-Tasks-list">
                 <span class="dp-LevelItem Level-justify-between">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="my-task-2">
@@ -4742,12 +4748,13 @@ title: List Pane
                     </span>
                 </span>
                 <span class="dp-LevelItem dp-LevelLeft">
-                    <span class="dp-UserInfo">
+                    <span class="dp-Diagnose">
                         <span class="dp-Icon dp-link Icon--primary"></span>
                         <a href="" class="dp-Card-link">Diagnose And Repair Electrical Systems</a>
                     </span>
                     <!-- Icon hover -->
-                    <span class="dp-Icon dp-settings">
+                    <span class="dp-Cog">
+                        <span class="dp-Icon dp-settings"></span>
                         <ul class="dp-Menu">
                             <li class="dp-Menu-linkItem">
                                 <span class="dp-Icon dp-Bin"></span>
@@ -4765,7 +4772,7 @@ title: List Pane
                         <span class="dp-Icon dp-iconUserAvatar"></span>
                         <span class="dp-UserName">Me</span>
                     </span>
-                    <span class="dp-UserInfo">
+                    <span class="dp-CommentWrap">
                         <span class="dp-Icon dp-iconComents"></span>
                         <span class="dp-Comments-title">Comment <a href="#" class="dp-qt">(2)</a><button class="dp-Arrow"></button></span>
                         <ul class="dp-Comments">
@@ -4818,7 +4825,7 @@ title: List Pane
             </li>
 
             <!-- 3 -->
-            <li class="dp-Card dp-Level LevelCol">
+            <li class="dp-Card dp-Level LevelCol dp-Tasks-list">
                 <span class="dp-LevelItem Level-justify-between">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="my-task-3">
@@ -4833,12 +4840,13 @@ title: List Pane
                     </span>
                 </span>
                 <span class="dp-LevelItem dp-LevelLeft">
-                    <span class="dp-UserInfo">
+                    <span class="dp-Diagnose">
                         <span class="dp-Icon dp-link Icon--primary"></span>
                         <a href="" class="dp-Card-link">Diagnose And Repair Electrical Systems</a>
                     </span>
                     <!-- Icon hover -->
-                    <span class="dp-Icon dp-settings">
+                    <span class="dp-Cog">
+                        <span class="dp-Icon dp-settings"></span>
                         <ul class="dp-Menu">
                             <li class="dp-Menu-linkItem">
                                 <span class="dp-Icon dp-Bin"></span>
@@ -4856,7 +4864,7 @@ title: List Pane
                         <span class="dp-Icon dp-iconUserAvatar"></span>
                         <span class="dp-UserName">Me</span>
                     </span>
-                    <span class="dp-UserInfo">
+                    <span class="dp-CommentWrap">
                         <span class="dp-Icon dp-iconComents"></span>
                         <span class="dp-Comments-title">Comment <a href="#" class="dp-qt">(2)</a><button class="dp-Arrow"></button></span>
                         <ul class="dp-Comments">
@@ -4909,7 +4917,7 @@ title: List Pane
             </li>
 
             <!-- 4 -->
-            <li class="dp-Card dp-Level LevelCol is-active">
+            <li class="dp-Card dp-Level LevelCol is-active dp-Tasks-list">
                 <span class="dp-LevelItem Level-justify-between">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="my-task-4">
@@ -4924,12 +4932,13 @@ title: List Pane
                     </span>
                 </span>
                 <span class="dp-LevelItem dp-LevelLeft">
-                    <span class="dp-UserInfo">
+                    <span class="dp-Diagnose">
                         <span class="dp-Icon dp-link Icon--primary"></span>
                         <a href="" class="dp-Card-link">Diagnose And Repair Electrical Systems</a>
                     </span>
                     <!-- Icon hover -->
-                    <span class="dp-Icon dp-settings is-active">
+                    <span class="dp-Cog">
+                        <span class="dp-Icon dp-settings is-active"></span>
                         <ul class="dp-Menu">
                             <li class="dp-Menu-linkItem">
                                 <span class="dp-Icon dp-Bin"></span>
@@ -4959,7 +4968,7 @@ title: List Pane
                         <span class="dp-Icon dp-iconUserAvatar"></span>
                         <span class="dp-UserName">Me</span>
                     </span>
-                    <span class="dp-UserInfo">
+                    <span class="dp-CommentWrap">
                         <span class="dp-Icon dp-iconComents"></span>
                         <span class="dp-Comments-title">Comment <a href="#" class="dp-qt">(2)</a><button class="dp-Arrow"></button></span>
                         <ul class="dp-Comments">

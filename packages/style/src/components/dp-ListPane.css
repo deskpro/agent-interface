@@ -194,9 +194,6 @@
 .dp-Card {
   background-color: var(--white);
   border-bottom: 1px solid var(--grey-light);
-
-  /* border-top: 1px solid transparent; */
-
   cursor: pointer;
   display: flex;
   padding: 10px 10px;
@@ -245,7 +242,8 @@
   padding-left: 25px;
 }
 
-.dp-Card .dp-UserInfo {
+.dp-Card .dp-UserInfo,
+.dp-Card .dp-Diagnose {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -776,9 +774,6 @@ thead .dp-Card-title td {
 }
 
 .Tabs--actions .dp-Tabs-item.is-active:hover .dp-Arrow::after {
-
-  /* border-color: var(--white) transparent transparent transparent; */
-
   border-color: transparent transparent var(--white) transparent;
   border-width: 0 4px 4px 4px;
 }
@@ -837,6 +832,16 @@ thead .dp-Card-title td {
 .dp-Card.Card--selected-items {
   background-color: var(--grey-lighter);
   border-bottom: 1px solid var(--grey-dark);
+}
+
+.dp-Card.Card--checked {
+  border: 1px dashed var(--grey-lighter);
+  border-bottom: 1px solid var(--grey-light);
+}
+
+.dp-Card.Card--Draggable {
+  border: 1px solid var(--brand-primary);
+  box-shadow: var(--shadow-bottom-right);
 }
 
 .dp-CardList .dp-Card {
@@ -920,7 +925,7 @@ thead .dp-Card-title td {
 
 /* listpane/tasksnew */
 
-.dp-CardList.dp-Tasks-list .dp-Card-title > .dp-Approve {
+.dp-Card.dp-Tasks-list .dp-Card-title > .dp-Approve {
   background-size: 16px 16px;
   cursor: pointer;
   height: 16px;
@@ -928,18 +933,18 @@ thead .dp-Card-title td {
   width: 16px;
 }
 
-.dp-CardList.dp-Tasks-list .dp-Card-title > .dp-Approve:hover {
+.dp-Card.dp-Tasks-list .dp-Card-title > .dp-Approve:hover {
   fill: var(--brand-primary);
 }
 
-.dp-CardList.dp-Tasks-list {
+.dp-Card.dp-Tasks-list:first-child {
   border: 1px dashed var(--grey-light);
   border-bottom: 1px solid var(--grey-light);
   border-right: 1px solid var(--grey-light);
   position: relative;
 }
 
-.dp-CardList.dp-Tasks-list .dp-Card:hover {
+.dp-Card.dp-Tasks-list .dp-Card:hover {
   background-color: var(--info-light);
 }
 
@@ -950,16 +955,28 @@ thead .dp-Card-title td {
   display: block;
 }
 
+.dp-Card:hover .dp-Cog {
+  display: block;
+}
+
+.dp-Card .dp-Cog {
+  display: none;
+  left: calc(100% - 9px);
+  position: absolute;
+  top: calc(50% - 9px);
+}
+
 .dp-Card .dp-settings {
   background-color: var(--info-light);
   border: 1px solid var(--grey-light);
   border-radius: 50%;
   cursor: pointer;
-  display: none;
-  left: calc(100% - 10px);
   padding: 8px;
-  position: absolute;
-  top: calc(50% - 8.5px);
+}
+
+.dp-Cog .is-active + .dp-Menu {
+  display: block;
+  top: 100%;
 }
 
 .dp-Tasks-list .dp-CustomCheckbox input[type="checkbox"] + label {
@@ -997,15 +1014,15 @@ thead .dp-Card-title td {
   font: var(--p-n);
 }
 
-.dp-Tasks-list .dp-Card > .dp-LevelItem {
+.dp-Tasks-list.dp-Card > .dp-LevelItem {
   margin-bottom: 10px;
 }
 
-.dp-Tasks-list .dp-Card > .dp-LevelItem:last-child {
+.dp-Tasks-list.dp-Card > .dp-LevelItem:last-child {
   margin-bottom: 0;
 }
 
-.dp-Tasks-list .dp-LevelItem:nth-child(n+2) {
+.dp-Tasks-list.dp-LevelItem:nth-child(n+2) {
   padding-left: 20px;
 }
 
@@ -1110,7 +1127,7 @@ thead .dp-Card-title td {
   filter: grayscale(100%);
 }
 
-.dp-CardList.dp-Tasks-list.Task--completed .dp-Card:hover .dp-LevelItem > .dp-Icon {
+.dp-Card.dp-Tasks-list.Task--completed .dp-Card:hover .dp-LevelItem > .dp-Icon {
   display: none;
 }
 
