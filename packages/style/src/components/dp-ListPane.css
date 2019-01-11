@@ -262,11 +262,15 @@
 }
 
 .dp-Card .dp-Icon + .dp-UserName,
-.dp-Card .dp-Icon + .dp-Card-link,
+/*.dp-Card .dp-Icon + .dp-Card-link,*/
 .dp-Card .dp-Icon + .dp-Date-link,
 .dp-Card .dp-Icon + .dp-Comments-title,
 .dp-Tasks-list .dp-Icon + .dp-UserName {
   margin-left: 5px;
+}
+
+.dp-Card-link > .dp-Icon {
+  margin-right: 5px;
 }
 
 .dp-Card .dp-UserEmail {
@@ -276,7 +280,6 @@
 
   overflow: hidden;
   text-overflow: ellipsis;
-  white-space: nowrap;
 }
 
 .dp-Card .dp-TimeStatus {
@@ -802,6 +805,8 @@ thead .dp-Card-title td {
 
 .dp-Level .dp-LevelCol:nth-child(2) {
   flex: 0 1 100%;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .dp-Level .dp-LevelCol:last-child {
@@ -810,17 +815,17 @@ thead .dp-Card-title td {
 
 /* listpane/kanban-view */
 
-.dp-KanbanView .dp-Level .dp-LevelCol:nth-child(2),
+/* .dp-KanbanView .dp-Level .dp-LevelCol:nth-child(2),
 .dp-KanbanView .dp-CustomCheckbox {
   max-width: 200px;
-}
+} */
 
 /* Listpane/guides */
 
-.dp-CardList.dp-Listpane-guides > .dp-Card.dp-Level:first-child {
+/* .dp-CardList.dp-Listpane-guides > .dp-Card.dp-Level:first-child {
   border: 1px dashed var(--grey-light);
   border-bottom: 1px solid var(--grey-light);
-}
+} */
 
 /* .dp-CardList.dp-Listpane-guides > .dp-Card {
   border-right: 1px dashed var(--grey-light);
@@ -856,30 +861,34 @@ thead .dp-Card-title td {
   box-shadow: var(--shadow-bottom-right);
 }
 
-.dp-CardList .dp-Card {
+/* .dp-CardList .dp-Card {
   position: relative;
-}
+} */
 
-.dp-CardList .dp-Card:hover::after {
+/* .dp-CardList .dp-Card:hover::after {
   background-color: var(--brand-primary);
-  content: "";
+  content: '';
   height: 100%;
   left: 0;
   opacity: 0.07;
   position: absolute;
   top: 0;
   width: 100%;
+} */
+
+.dp-CardList .dp-Card:hover {
+  background-color: rgba(58, 141, 222, 0.07);
 }
 
 .dp-Listpane-guides .Level--down {
   border-bottom: 0;
-
-  border-right: 1px dashed var(--grey-light);
   display: none;
   margin: 0;
   padding: 0 0 0 30px;
   position: relative;
   width: 100%;
+
+  /* border-right: 1px dashed var(--grey-light); */
 }
 
 .Level--down .Level--down {
@@ -958,12 +967,16 @@ thead .dp-Card-title td {
   fill: var(--brand-primary);
 }
 
-.dp-Card.dp-Tasks-list:first-child {
+.dp-Card.dp-Tasks-list {
+  border-right: 1px solid var(--grey-light);
+}
+
+/* .dp-Card.dp-Tasks-list:first-child {
   border: 1px dashed var(--grey-light);
   border-bottom: 1px solid var(--grey-light);
   border-right: 1px solid var(--grey-light);
   position: relative;
-}
+} */
 
 .dp-Card.dp-Tasks-list .dp-Card:hover {
   background-color: var(--info-light);
@@ -1009,12 +1022,14 @@ thead .dp-Card-title td {
 
 .dp-Tasks-list .dp-CustomCheckbox input[type="checkbox"] + label {
   display: block;
-  max-width: 100%;
   padding-left: 20px;
 }
 
 .dp-Tasks-list .dp-Card-link {
+  align-items: center;
   color: var(--brand-primary);
+
+  display: flex;
   font: var(--p-xl);
   text-decoration: underline;
 }
@@ -1030,6 +1045,8 @@ thead .dp-Card-title td {
 .dp-CardList .dp-DateGroup {
   align-items: center;
   display: flex;
+  justify-content: flex-end;
+  min-width: 100px;
 }
 
 .dp-CardList .dp-DateGroup .dp-Icon {
@@ -1092,6 +1109,7 @@ thead .dp-Card-title td {
 
 .dp-Comments-title .dp-Arrow::after {
   border-color: var(--brand-primary) transparent transparent transparent;
+  border-width: 4px 4px 0 4px;
 }
 
 .dp-Comments::before {
@@ -1118,6 +1136,38 @@ thead .dp-Card-title td {
   width: 0;
 }
 
+.dp-Label-title {
+  color: var(--grey-darkest);
+  font: var(--h-n-semibold);
+  vertical-align: text-top;
+
+  white-space: nowrap;
+}
+
+.dp-LevelWrap {
+  align-items: center;
+  display: flex;
+  list-style: none;
+}
+
+.dp-LevelWrap li {
+  align-items: center;
+  color: var(--brand-primary);
+  display: flex;
+  font: var(--p-n);
+  margin: 0;
+  margin-right: 9px;
+  padding: 0 15px 0 0;
+}
+
+.dp-LevelWrap li:not(:last-child) {
+  border-right: 1px solid var(--grey-light);
+}
+
+.dp-LevelWrap li .dp-Icon {
+  margin-right: 5px;
+}
+
 .dp-Comments .dp-txt {
   color: var(--grey-dark);
   font: var(--p-n);
@@ -1126,15 +1176,12 @@ thead .dp-Card-title td {
 }
 
 .dp-Comments-item {
+  display: block;
   margin: 0;
 }
 
 .dp-Comments-item > .dp-Level {
   justify-content: space-between;
-}
-
-.dp-Comments-item {
-  display: block;
 }
 
 .dp-Comments-item:first-child {
@@ -1179,9 +1226,9 @@ thead .dp-Card-title td {
   padding-left: 25px;
 }
 
-.CardList-settings-cog {
+/* .CardList-settings-cog {
   border: 1px dashed var(--grey-light);
-}
+} */
 
 .dp-General-Articles {
   padding-left: 35px;
@@ -1220,6 +1267,15 @@ input:disabled + label {
   padding: 0 15px 0 0;
 }
 
+.dp-Comment-control > li:hover {
+  color: var(--brand-primary);
+}
+
+.dp-Cog > svg.is-active,
+.dp-Comment-control > li:hover svg {
+  fill: var(--brand-primary);
+}
+
 .dp-Comment-control > li:last-child {
   border: none;
 }
@@ -1234,9 +1290,13 @@ input:disabled + label {
   position: relative;
 }
 
-.dp-Card-comment.is-active .dp-Menu {
-  display: block;
+.dp-Card-comment.is-active {
+  color: var(--brand-primary);
 }
+
+/* .dp-Card-comment.is-active .dp-Menu {
+  display: block;
+} */
 
 .dp-Card-comment .dp-Menu {
   padding: 10px;
@@ -1253,6 +1313,9 @@ input:disabled + label {
 
 .dp-Card .dp-CustomCheckbox {
   display: flex;
+  overflow: hidden;
+
+  /* padding-right: 20px; */
 }
 
 .dp-CardList .dp-Card-comment .dp-UserInfo .dp-UserName {

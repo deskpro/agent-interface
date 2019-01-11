@@ -118,6 +118,7 @@
 
 .dp-ReplyEditor {
   display: block;
+  font: var(--p-xl);
   min-height: 100px;
   padding: 10px;
   width: 100%;

@@ -17,16 +17,17 @@
   cursor: pointer;
   display: flex;
   font: var(--p-xl);
-  max-width: 252px;
   min-height: 15px;
   min-width: 15px;
-  overflow: hidden;
   padding-left: 25px;
   position: relative;
-  text-overflow: ellipsis;
   user-select: none;
-  white-space: nowrap;
   z-index: 1;
+
+  /*  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 252px; */
 }
 
 .dp-CustomCheckbox input[type="checkbox"] + label::before {
