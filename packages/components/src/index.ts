@@ -11,8 +11,6 @@ export { default as Radio } from "./inputs/Radio/Radio";
 export { default as RadioGroup } from "./inputs/Radio/RadioGroup";
 
 export { default as Card } from "./ListPane/Card/Card";
-export { default as CardList } from "./ListPane/Card/CardList";
-export { default as CardSectionTitle } from "./ListPane/Card/CardSectionTitle";
 
 export { default as UserInfo } from "./User/UserInfo/UserInfo";
 export {

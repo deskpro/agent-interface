@@ -9,9 +9,18 @@ export type IconProps = {
   size?: number;
   circle?: boolean;
   color?: DPColor;
+  onClick?(
+    e: React.MouseEvent<HTMLElement> | React.KeyboardEvent<HTMLElement>
+  ): void;
 };
 
-const Icon: React.SFC<IconProps> = ({ name, size = 24, color, circle }) => {
+const Icon: React.FunctionComponent<IconProps> = ({
+  name,
+  size = 24,
+  color,
+  circle,
+  onClick
+}) => {
   const SvgIcon = icons[name];
   if (!SvgIcon) {
     return null;
@@ -22,6 +31,10 @@ const Icon: React.SFC<IconProps> = ({ name, size = 24, color, circle }) => {
         "Icon--circle": circle,
         [`Icon--${color}`]: !!color
       })}
+      role="button"
+      tabIndex={-1}
+      onClick={onClick}
+      onKeyDown={onClick}
     >
       <SvgIcon width={size} height={size} />
     </span>
