@@ -149,12 +149,20 @@
 
 /* Star */
 
-.dp-Card-title > .dp-Icon {
+/* .dp-Card-title > .dp-Icon {
   background-image: url('data:image/svg+xml,<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 12 11.5" style="enable-background:new 0 0 12 11.5;" xml:space="preserve"><style type="text/css">.st0{fill:%233A8DDE;}</style><g><polygon class="st0" points="6,8.8 9.7,11.5 8.3,7.1 12,4.5 7.4,4.5 6,0 4.6,4.5 0,4.5 3.7,7.1 2.3,11.5  "/></g></svg>');
   height: 15px;
   margin-left: 15px;
   vertical-align: top;
   width: 15px;
+} */
+
+.dp-Card-title .Icon--star,
+.dp-SubjectItem .Icon--star {
+  background-size: 12px 12px;
+  height: 12px;
+  margin-left: 15px;
+  width: 12px;
 }
 
 .dp-CardList {
@@ -242,7 +250,6 @@
   padding-left: 25px;
 }
 
-.dp-Card .dp-UserInfo,
 .dp-Card .dp-Diagnose {
   overflow: hidden;
   text-overflow: ellipsis;
@@ -266,6 +273,10 @@
   color: var(--grey-dark);
   font: var(--p-xl);
   margin-left: 5px;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .dp-Card .dp-TimeStatus {
@@ -811,35 +822,36 @@ thead .dp-Card-title td {
   border-bottom: 1px solid var(--grey-light);
 }
 
-.dp-CardList.dp-Listpane-guides > .dp-Card {
+/* .dp-CardList.dp-Listpane-guides > .dp-Card {
   border-right: 1px dashed var(--grey-light);
-}
+} */
 
 .dp-Listpane-guides .dp-Card {
   border-left: 1px solid var(--grey-light);
-  border-top: 0;
+
+  /* border-top: 0; */
 }
 
 .dp-CardList.dp-Listpane-guides > .dp-Card.Level--down {
   border-left: 0;
 }
 
-.dp-Card.Card--selected {
+.is-select {
   background-color: var(--info-light);
   border-bottom: 1px solid var(--brand-primary);
 }
 
-.dp-Card.Card--selected-items {
+.is-select-items {
   background-color: var(--grey-lighter);
   border-bottom: 1px solid var(--grey-dark);
 }
 
-.dp-Card.Card--checked {
+.is-checked {
   border: 1px dashed var(--grey-lighter);
   border-bottom: 1px solid var(--grey-light);
 }
 
-.dp-Card.Card--Draggable {
+.is-dragging {
   border: 1px solid var(--brand-primary);
   box-shadow: var(--shadow-bottom-right);
 }
@@ -861,9 +873,18 @@ thead .dp-Card-title td {
 
 .dp-Listpane-guides .Level--down {
   border-bottom: 0;
+
+  border-right: 1px dashed var(--grey-light);
   display: none;
+  margin: 0;
   padding: 0 0 0 30px;
   position: relative;
+  width: 100%;
+}
+
+.Level--down .Level--down {
+  border-left: 1px solid var(--grey-light);
+  border-right: 0;
 }
 
 .dp-Listpane-guides .dp-Card.is-active + .Level--down {
@@ -964,6 +985,7 @@ thead .dp-Card-title td {
   left: calc(100% - 9px);
   position: absolute;
   top: calc(50% - 9px);
+  z-index: 9;
 }
 
 .dp-Card .dp-settings {
@@ -971,12 +993,18 @@ thead .dp-Card-title td {
   border: 1px solid var(--grey-light);
   border-radius: 50%;
   cursor: pointer;
+  margin-bottom: 2px;
   padding: 8px;
 }
 
 .dp-Cog .is-active + .dp-Menu {
   display: block;
-  top: 100%;
+}
+
+.dp-Cog .dp-Menu {
+  min-width: 125px;
+  position: relative;
+  width: 100%;
 }
 
 .dp-Tasks-list .dp-CustomCheckbox input[type="checkbox"] + label {
@@ -1022,7 +1050,7 @@ thead .dp-Card-title td {
   margin-bottom: 0;
 }
 
-.dp-Tasks-list.dp-LevelItem:nth-child(n+2) {
+.dp-Tasks-list .dp-LevelItem:nth-child(n+2) {
   padding-left: 20px;
 }
 
@@ -1135,7 +1163,12 @@ thead .dp-Card-title td {
   background-color: transparent;
 }
 
-.dp-Department:hover {
+.dp-Department {
+  position: relative;
+}
+
+.dp-Department:hover,
+.dp-Department.is-active {
   cursor: pointer;
   text-decoration: underline;
 }
@@ -1163,4 +1196,69 @@ input:disabled + label {
 
 .dp-CustomCheckbox input[type="checkbox"]:disabled + label::after {
   background-color: var(--grey-light);
+}
+
+/* COMMENTS */
+
+.dp-Comment-control {
+  align-items: center;
+  background-color: var(--grey-lightest);
+  color: var(--grey-darkest);
+  display: flex;
+  font: var(--p-n);
+  justify-content: center;
+  margin: 0 -10px -10px -10px;
+  padding: 5px;
+}
+
+.dp-Comment-control > li {
+  align-items: center;
+  border-right: 1px solid var(--grey-light);
+  display: flex;
+  margin: 0;
+  margin-right: 9px;
+  padding: 0 15px 0 0;
+}
+
+.dp-Comment-control > li:last-child {
+  border: none;
+}
+
+.dp-Comment-control .dp-Icon {
+  margin-right: 5px;
+}
+
+.dp-Card-comment {
+  color: var(--grey-darkest);
+  font: var(--p-l);
+  position: relative;
+}
+
+.dp-Card-comment.is-active .dp-Menu {
+  display: block;
+}
+
+.dp-Card-comment .dp-Menu {
+  padding: 10px;
+  width: 425px;
+}
+
+.dp-UserDescription {
+  color: var(--grey-darkest);
+  display: block;
+  font: var(--p-xl);
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.dp-Card .dp-CustomCheckbox {
+  display: flex;
+}
+
+.dp-CardList .dp-Card-comment .dp-UserInfo .dp-UserName {
+  align-items: center;
+  border: 0;
+  color: var(--grey-darkest);
+  display: flex;
+  padding: 0;
 }

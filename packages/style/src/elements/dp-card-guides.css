@@ -23,6 +23,8 @@
   border-right: 1px solid var(--grey-light);
   margin-right: 9px;
   padding: 0 15px 0 0;
+
+  white-space: nowrap;
 }
 
 .dp-CardList .dp-UserInfo .dp-UserName:last-child {

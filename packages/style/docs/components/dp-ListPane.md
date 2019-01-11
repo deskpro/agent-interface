@@ -710,7 +710,7 @@ title: List Pane
 <div class="dp-MainWrapper">
     <form>
         <ul class="dp-CardList Card--row">
-            <li class="dp-Card Card--selected dp-Level LevelCol">
+            <li class="dp-Card is-select dp-Level LevelCol">
 
                 <span class="dp-LevelItem Level-justify-between">
                     <span class="dp-CustomCheckbox">
@@ -750,7 +750,7 @@ title: List Pane
 <div class="dp-MainWrapper">
     <form>
         <ul class="dp-CardList">
-            <li class="dp-Card Card--selected-items dp-Level">
+            <li class="dp-Card is-select-items dp-Level">
 
                 <span class="dp-LevelCol">
                     <span class="dp-CustomCheckbox">
@@ -796,7 +796,7 @@ title: List Pane
 <div class="dp-MainWrapper">
     <form>
         <ul class="dp-CardList">
-            <li class="dp-Card Card--checked dp-Level">
+            <li class="dp-Card is-checked dp-Level">
 
                 <span class="dp-LevelCol">
                     <span class="dp-CustomCheckbox">
@@ -842,7 +842,7 @@ title: List Pane
 <div class="dp-MainWrapper">
     <form>
         <ul class="dp-CardList">
-            <li class="dp-Card Card--Draggable dp-Level">
+            <li class="dp-Card is-dragging dp-Level">
 
                 <span class="dp-LevelCol">
                     <span class="dp-CustomCheckbox">
@@ -986,7 +986,7 @@ title: List Pane
             </span>
 
             <span class="dp-LevelCol">
-                <span class="dp-Card-title">SSO Information<span class="dp-Icon"></span></span>
+                <span class="dp-Card-title">SSO Information<span class="dp-Icon Icon--star"></span></span>
                 <span class="dp-UserInfo">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
                     <span class="dp-UserName">Kenneth James
@@ -1054,7 +1054,7 @@ title: List Pane
             </span>
 
             <span class="dp-LevelCol">
-                <span class="dp-Card-title">Inventory component<span class="dp-Icon"></span></span>
+                <span class="dp-Card-title">Inventory component<span class="dp-Icon Icon--star"></span></span>
 
                 <span class="dp-UserInfo">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
@@ -1156,7 +1156,7 @@ title: List Pane
             </span>
 
             <span class="dp-LevelCol">
-                <span class="dp-Card-title">Enjoying your helpdesk?<span class="dp-Icon"></span></span>
+                <span class="dp-Card-title">Enjoying your helpdesk?<span class="dp-Icon Icon--star"></span></span>
                 <span class="dp-UserInfo">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
                     <span class="dp-UserName">Toby Falkirk
@@ -1223,7 +1223,7 @@ title: List Pane
             </span>
 
             <span class="dp-LevelCol">
-                <span class="dp-Card-title">Allow anyone to email support<span class="dp-Icon"></span></span>
+                <span class="dp-Card-title">Allow anyone to email support<span class="dp-Icon Icon--star"></span></span>
                 <span class="dp-UserInfo">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
                     <span class="dp-UserName">Mark Jarvis
@@ -1294,7 +1294,7 @@ title: List Pane
             </span>
 
             <span class="dp-LevelCol">
-                <span class="dp-Card-title">Enjoying your helpdesk?<span class="dp-Icon"></span></span>
+                <span class="dp-Card-title">Enjoying your helpdesk?<span class="dp-Icon Icon--star"></span></span>
                 <span class="dp-UserInfo">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
                     <span class="dp-UserName">Kenneth James
@@ -1624,7 +1624,7 @@ title: List Pane
                 </span>
 
                 <span class="dp-LevelCol">
-                    <span class="dp-Card-title">SSO Information<span class="dp-Icon"></span></span>
+                    <span class="dp-Card-title">SSO Information<span class="dp-Icon Icon--star"></span></span>
                     <span class="dp-UserInfo">
                         <span class="dp-Icon dp-iconUserAvatar"></span>
                         <span class="dp-UserName">Kenneth James
@@ -1692,7 +1692,7 @@ title: List Pane
                 </span>
 
                 <span class="dp-LevelCol">
-                    <span class="dp-Card-title">Inventory component<span class="dp-Icon"></span></span>
+                    <span class="dp-Card-title">Inventory component<span class="dp-Icon Icon--star"></span></span>
 
                     <span class="dp-UserInfo">
                         <span class="dp-Icon dp-iconUserAvatar"></span>
@@ -1827,7 +1827,7 @@ title: List Pane
                 </span>
 
                 <span class="dp-LevelCol">
-                    <span class="dp-Card-title">Product enquiry<span class="dp-Icon"></span></span>
+                    <span class="dp-Card-title">Product enquiry<span class="dp-Icon Icon--star"></span></span>
                     <span class="dp-UserInfo">
                         <span class="dp-Icon dp-iconUserAvatar"></span>
                         <span class="dp-UserName">Kenneth James
@@ -1894,7 +1894,7 @@ title: List Pane
                 </span>
 
                 <span class="dp-LevelCol">
-                    <span class="dp-Card-title">Inventory component<span class="dp-Icon"></span></span>
+                    <span class="dp-Card-title">Inventory component<span class="dp-Icon Icon--star"></span></span>
 
                     <span class="dp-UserInfo">
                         <span class="dp-Icon dp-iconUserAvatar"></span>
@@ -1928,7 +1928,7 @@ title: List Pane
                 </span>
 
                 <span class="dp-LevelCol">
-                    <span class="dp-Card-title">Enjoying your helpdesk?<span class="dp-Icon"></span></span>
+                    <span class="dp-Card-title">Enjoying your helpdesk?<span class="dp-Icon Icon--star"></span></span>
                     <span class="dp-UserInfo">
                         <span class="dp-Icon dp-iconUserAvatar"></span>
                         <span class="dp-UserName">Tony Falkirk
@@ -2257,7 +2257,7 @@ title: List Pane
                 <td>83995</td>
                 <td class="dp-SubjectItem">
                     <span>SSO Information</span>
-                    <span class="dp-Icon"></span>
+                    <span class="dp-Icon Icon--star"></span>
                 </td>
                 <td>&nbsp;</td>
                 <td>Sales</td>
@@ -2336,7 +2336,7 @@ title: List Pane
                 <td>83995</td>
                 <td class="dp-SubjectItem">
                     <span>AW: Need some help?</span>
-                    <span class="dp-Icon"></span>
+                    <span class="dp-Icon Icon--star"></span>
                 </td>
                 <td>&nbsp;</td>
                 <td>Sales</td>
@@ -2384,7 +2384,7 @@ title: List Pane
                     </span>
                 </td>
                 <td>83995</td>
-                <td class="dp-SubjectItem"><span>SSO Information</span><span class="dp-Icon"></span></td>
+                <td class="dp-SubjectItem"><span>SSO Information</span><span class="dp-Icon Icon--star"></span></td>
                 <td>&nbsp;</td>
                 <td>Support</td>
                 <td>English (US)</td>
@@ -2410,7 +2410,7 @@ title: List Pane
                     </span>
                 </td>
                 <td>65347</td>
-                <td class="dp-SubjectItem"><span>Portal disabled landing page</span><span class="dp-Icon"></span></td>
+                <td class="dp-SubjectItem"><span>Portal disabled landing page</span><span class="dp-Icon Icon--star"></span></td>
                 <td>&nbsp;</td>
                 <td>Support</td>
                 <td>Italiano</td>
@@ -2488,7 +2488,7 @@ title: List Pane
                 <td>43563</td>
                 <td class="dp-SubjectItem">
                     <span>Enjoying your helpdesk?</span>
-                    <span class="dp-Icon"></span>
+                    <span class="dp-Icon Icon--star"></span>
                 </td>
                 <td>&nbsp;</td>
                 <td>Sales</td>
@@ -2515,7 +2515,7 @@ title: List Pane
                 <td>76473</td>
                 <td class="dp-SubjectItem">
                     <span>SSO Information</span>
-                    <span class="dp-Icon"></span>
+                    <span class="dp-Icon Icon--star"></span>
                 </td>
                 <td>&nbsp;</td>
                 <td>Support</td>
@@ -2623,7 +2623,7 @@ title: List Pane
                 <td>83995</td>
                 <td class="dp-SubjectItem">
                     <span>SSO Information</span>
-                    <span class="dp-Icon"></span>
+                    <span class="dp-Icon Icon--star"></span>
                 </td>
                 <td>&nbsp;</td>
                 <td>Sales</td>
@@ -2696,7 +2696,7 @@ title: List Pane
                 <td>83995</td>
                 <td class="dp-SubjectItem">
                     <span>AW: Need some help?</span>
-                    <span class="dp-Icon"></span>
+                    <span class="dp-Icon Icon--star"></span>
                 </td>
                 <td>&nbsp;</td>
                 <td>Sales</td>
@@ -2791,7 +2791,7 @@ title: List Pane
             </span>
 
             <span class="dp-LevelCol">
-                <span class="dp-Card-title">SSO Information<span class="dp-Icon"></span></span>
+                <span class="dp-Card-title">SSO Information<span class="dp-Icon Icon--star"></span></span>
                 <span class="dp-UserInfo">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
                     <span class="dp-UserName">Kenneth James
@@ -2858,7 +2858,7 @@ title: List Pane
             </span>
 
             <span class="dp-LevelCol">
-                <span class="dp-Card-title">Inventory component<span class="dp-Icon"></span></span>
+                <span class="dp-Card-title">Inventory component<span class="dp-Icon Icon--star"></span></span>
 
                 <span class="dp-UserInfo">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
@@ -2960,7 +2960,7 @@ title: List Pane
             </span>
 
             <span class="dp-LevelCol">
-                <span class="dp-Card-title">Enjoying your helpdesk?<span class="dp-Icon"></span></span>
+                <span class="dp-Card-title">Enjoying your helpdesk?<span class="dp-Icon Icon--star"></span></span>
                 <span class="dp-UserInfo">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
                     <span class="dp-UserName">Toby Falkirk
@@ -3027,7 +3027,7 @@ title: List Pane
             </span>
 
             <span class="dp-LevelCol">
-                <span class="dp-Card-title">Allow anyone to email support<span class="dp-Icon"></span></span>
+                <span class="dp-Card-title">Allow anyone to email support<span class="dp-Icon Icon--star"></span></span>
                 <span class="dp-UserInfo">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
                     <span class="dp-UserName">Mark Jarvis
@@ -3093,7 +3093,8 @@ title: List Pane
         </li>
 
         <!-- 2 -->
-        <li class="dp-Card dp-Level Level--down">
+        <!-- <li class="dp-Card dp-Level Level--down"> -->
+        <li class="Level--down">
             <ul class="dp-CardList">
 
                 <li class="dp-Card dp-Level">
@@ -3138,7 +3139,8 @@ title: List Pane
                 </li>
                 
                 <!-- 3 -->
-                <li class="dp-Card dp-Level Level--down">
+                <!-- <li class="dp-Card dp-Level Level--down"> -->
+                <li class="Level--down">
                     <ul class="dp-CardList">
 
                         <li class="dp-Card dp-Level Card--primary">
@@ -3505,7 +3507,7 @@ title: List Pane
             </span>
 
             <span class="dp-LevelCol">
-                <span class="dp-Card-title">SSO Information<span class="dp-Icon"></span></span>
+                <span class="dp-Card-title">SSO Information<span class="dp-Icon Icon--star"></span></span>
                 <span class="dp-UserInfo">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
                     <span class="dp-UserName">Kenneth James</span>
@@ -3890,7 +3892,7 @@ title: List Pane
             </span>
 
             <span class="dp-LevelCol">
-                <span class="dp-Card-title">Inventory component<span class="dp-Icon"></span></span>
+                <span class="dp-Card-title">Inventory component<span class="dp-Icon Icon--star"></span></span>
 
                 <span class="dp-UserInfo">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
@@ -4616,13 +4618,6 @@ title: List Pane
 </form>
 ```
 
-
-
-
-
-
-
-
 <h4>MY TASKS</h4>
 ```html @preview
 <div class="dp-MainWrapper">
@@ -4655,6 +4650,9 @@ title: List Pane
                         <a href="#" class="dp-Date-link">Today : 4pm</a>
                     </span>
                 </span>
+
+
+
                 <span class="dp-LevelItem dp-LevelLeft">
                     <span class="dp-Diagnose">
                         <span class="dp-Icon dp-link Icon--primary"></span>
@@ -4676,7 +4674,16 @@ title: List Pane
                 <span class="dp-LevelItem Level-justify-between">
                     <span class="dp-UserInfo">
                         <span class="dp-Icon dp-Visibility"></span>
-                        <span class="dp-UserName dp-Department">Department</span>
+                        <span class="dp-UserName dp-Department is-active">
+                            Department
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-linkItem">Private</li>
+                                <li class="dp-Menu-linkItem">Public</li>
+                                <li class="dp-Menu-linkItem">Department</li>
+                                <li class="dp-Menu-linkItem">Support</li>
+                                <li class="dp-Menu-linkItem">Sales</li>
+                            </ul>
+                        </span>
                         <span class="dp-Icon dp-iconUserAvatar"></span>
                         <span class="dp-UserName">Me</span>
                     </span>
@@ -5018,6 +5025,132 @@ title: List Pane
                         </ul>
                     </span>
                 </span>
+            </li>
+
+        </ul>
+    </form>
+</div>
+```
+
+<!-- COMMENTS -->
+
+<h4>COMMENTS</h4>
+```html @preview
+<div class="dp-MainWrapper">
+    <form>
+        <ul class="dp-CardList CardList-settings-cog is-hoverable">
+
+            <li class="dp-Card-SectionTitle">
+                <span class="dp-LevelCol">
+                    <span class="dp-CustomCheckbox">
+                        <input type="checkbox" class="dp-ControlInput" id="comment-0"></input>
+                        <label for="comment-0" class="dp-Card-title"></label>
+                    </span>
+                </span>
+                <span class="dp-LevelCol">
+                    <span class="dp-Card-title">COMMENTS <span>(123)</span></span>
+                </span>
+            </li>
+            <!-- 1 -->
+            <li class="dp-Card dp-Level LevelCol dp-Tasks-list">
+                <span class="dp-LevelItem Level-justify-between">
+                    <span class="dp-CustomCheckbox">
+                        <input type="checkbox" class="dp-ControlInput" id="comment-1">
+                        <label for="comment-1" class="dp-UserName">
+                            Mark Jarvis
+                        </label>
+                        <a href="" class="dp-UserEmail">mark.javis@customercompany.net</a>
+                    </span>
+                </span>
+                <span class="dp-LevelItem dp-LevelLeft">
+                    <span class="dp-Card-comment is-active">I wish I could show you our cat Dinah: I think I must go back by railw...
+                        <span class="dp-Menu">
+                            <span class="dp-UserInfo">
+                                <span class="dp-UserName"><span class="dp-Icon dp-iconUserAvatar"></span>Mark Jarvis</span>
+                                <a href="" class="dp-UserEmail">mark.javis@customercompany.net</a>
+                            </span>
+                            <span class="dp-UserDescription">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                            </span>
+                        </span>
+                    </span>
+                </span>
+    
+                <ul class="dp-Comment-control">
+                    <li><span class="dp-Icon dp-Approve"></span>Approve</li>
+                    <li><span class="dp-Icon dp-Delete"></span>Delete</li>
+                    <li><span class="dp-Icon dp-CreateTicket"></span>Create ticket</li>
+                    <li><span class="dp-Icon Icon--edit"></span>Edit</li>
+                </ul>
+            </li>
+
+            <!-- 2 -->
+            <li class="dp-Card dp-Level LevelCol dp-Tasks-list">
+                <span class="dp-LevelItem Level-justify-between">
+                    <span class="dp-CustomCheckbox">
+                        <input type="checkbox" class="dp-ControlInput" id="comment-2">
+                        <label for="comment-2" class="dp-UserName">
+                            Mark Jarvis
+                        </label>
+                        <a href="" class="dp-UserEmail">mark.javis@customercompany.net</a>
+                    </span>
+                </span>
+                <span class="dp-LevelItem dp-LevelLeft">
+                    <span class="dp-Card-comment">I wish I could show you our cat Dinah: I think I must go back by railw...</span>
+                </span>
+    
+                <ul class="dp-Comment-control">
+                    <li><span class="dp-Icon dp-Approve"></span>Approve</li>
+                    <li><span class="dp-Icon dp-Delete"></span>Delete</li>
+                    <li><span class="dp-Icon dp-CreateTicket"></span>Create ticket</li>
+                    <li><span class="dp-Icon Icon--edit"></span>Edit</li>
+                </ul>
+            </li>
+
+            <!-- 3 -->
+            <li class="dp-Card dp-Level LevelCol dp-Tasks-list">
+                <span class="dp-LevelItem Level-justify-between">
+                    <span class="dp-CustomCheckbox">
+                        <input type="checkbox" class="dp-ControlInput" id="comment-3">
+                        <label for="comment-3" class="dp-UserName">
+                            Mark Jarvis
+                        </label>
+                        <a href="" class="dp-UserEmail">mark.javis@customercompany.net</a>
+                    </span>
+                </span>
+                <span class="dp-LevelItem dp-LevelLeft">
+                    <span class="dp-Card-comment">I wish I could show you our cat Dinah: I think I must go back by railw...</span>
+                </span>
+    
+                <ul class="dp-Comment-control">
+                    <li><span class="dp-Icon dp-Approve"></span>Approve</li>
+                    <li><span class="dp-Icon dp-Delete"></span>Delete</li>
+                    <li><span class="dp-Icon dp-CreateTicket"></span>Create ticket</li>
+                    <li><span class="dp-Icon Icon--edit"></span>Edit</li>
+                </ul>
+            </li>
+
+            <!-- 4 -->
+            <li class="dp-Card dp-Level LevelCol dp-Tasks-list">
+                <span class="dp-LevelItem Level-justify-between">
+                    <span class="dp-CustomCheckbox">
+                        <input type="checkbox" class="dp-ControlInput" id="comment-4">
+                        <label for="comment-4" class="dp-UserName">
+                            Mark Jarvis
+                        </label>
+                        <a href="" class="dp-UserEmail">mark.javis@customercompany.net</a>
+                    </span>
+                </span>
+                <span class="dp-LevelItem dp-LevelLeft">
+                    <span class="dp-Card-comment">I wish I could show you our cat Dinah: I think I must go back by railw...</span>
+                </span>
+    
+                <ul class="dp-Comment-control">
+                    <li><span class="dp-Icon dp-Approve"></span>Approve</li>
+                    <li><span class="dp-Icon dp-Delete"></span>Delete</li>
+                    <li><span class="dp-Icon dp-CreateTicket"></span>Create ticket</li>
+                    <li><span class="dp-Icon Icon--edit"></span>Edit</li>
+                </ul>
             </li>
 
         </ul>
