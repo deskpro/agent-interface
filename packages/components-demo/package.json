@@ -11,7 +11,9 @@
     "build-storybook": "build-storybook"
   },
   "dependencies": {
-    "@deskpro/agent-interface-components": "^0.0.1"
+    "@deskpro/agent-interface-components": "^0.0.1",
+    "react": "^16.8.0-alpha.0",
+    "react-dom": "^16.8.0-alpha.0"
   },
   "devDependencies": {
     "@babel/core": "^7.2.0",
