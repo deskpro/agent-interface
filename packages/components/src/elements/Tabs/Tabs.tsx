@@ -8,121 +8,109 @@ import TabSubtitle from "./TabSubtitle";
 import "@deskpro/agent-interface-style/dist/components/dp-PageTabs.css";
 import "@deskpro/agent-interface-style/dist/components/dp-Pageview.css";
 
+type TabsSubComponents = {
+  TabItem: typeof TabItem;
+  TabTitle: typeof TabTitle;
+  TabSubtitle: typeof TabSubtitle;
+};
+
+type MenuItemKey = React.Key | null;
+
 export type TabsProps = {
   className?: string;
   type?: "general" | "actions" | "dropdowns" | "icons" | "apps";
-  defaultActiveKey?: React.Key | null;
+  defaultActiveKey?: MenuItemKey;
   children: React.ReactElement<any>[];
 };
 
-export type TabsState = Readonly<{
-  activeKey: React.Key | null;
-  openedMenu: React.Key | null;
-}>;
+const Tabs: React.FC<TabsProps> & TabsSubComponents = ({
+  type,
+  defaultActiveKey = null,
+  children
+}) => {
+  const isMenu = ["actions", "apps"].includes(type as string);
 
-const getDefaultActiveKey = (props: TabsProps) => {
-  let activeKey: React.Key | null = null;
-  React.Children.forEach(props.children, child => {
-    if (!activeKey && (child as React.ReactElement<any>).key) {
-      activeKey = (child as React.ReactElement<any>).key;
+  const [activeKey, setActiveKey] = React.useState<MenuItemKey>(() => {
+    if (defaultActiveKey) {
+      return defaultActiveKey;
     }
+    let key: MenuItemKey = null;
+
+    React.Children.forEach(children, child => {
+      if (!key && (child as React.ReactElement<any>).key) {
+        ({ key } = child as React.ReactElement<any>);
+      }
+    });
+
+    return key;
   });
-  return activeKey;
-};
 
-export default class Tabs extends React.PureComponent<TabsProps, TabsState> {
-  static TabItem = TabItem;
+  const [openedMenu, setOpenedMenu] = React.useState<MenuItemKey>(null);
 
-  static TabTitle = TabTitle;
+  const menuRef = React.useRef<HTMLUListElement>(null);
 
-  static TabSubtitle = TabSubtitle;
+  React.useEffect(() => {
+    const handleMouseDown = (e: Event) => {
+      if (
+        openedMenu &&
+        menuRef.current &&
+        !menuRef.current.contains(e.target as Node)
+      ) {
+        e.stopPropagation();
+        setOpenedMenu(null);
+      }
+    };
+    document.addEventListener("mousedown", handleMouseDown);
 
-  static defaultProps: Partial<TabsProps> = {
-    defaultActiveKey: null
-  };
+    return () => document.removeEventListener("mousedown", handleMouseDown);
+  }, []);
 
-  readonly state: TabsState = {
-    activeKey:
-      // eslint-disable-next-line react/destructuring-assignment
-      this.props.defaultActiveKey || getDefaultActiveKey(this.props) || null,
-    openedMenu: null
-  };
-
-  menuRef: React.RefObject<HTMLUListElement> = React.createRef();
-
-  componentDidMount() {
-    document.addEventListener("mousedown", this.handleMouseDown);
-  }
-
-  componentWillUnmount() {
-    document.removeEventListener("mousedown", this.handleMouseDown);
-  }
-
-  get isMenu() {
-    const { type } = this.props;
-    return ["actions", "apps"].includes(type as string);
-  }
-
-  handleMouseDown = (e: Event) => {
-    const { openedMenu } = this.state;
-    if (
-      openedMenu &&
-      this.menuRef.current &&
-      !this.menuRef.current.contains(e.target as Node)
-    ) {
-      e.stopPropagation();
-      this.setState({ openedMenu: null });
-    }
-  };
-
-  handleTabClick = (targetKey: React.Key, e: React.MouseEvent<HTMLElement>) => {
-    const { activeKey } = this.state;
+  const handleTabClick = (
+    targetKey: MenuItemKey,
+    e: React.MouseEvent<HTMLElement>
+  ) => {
     e.preventDefault();
     if (targetKey !== activeKey) {
-      this.setState({ activeKey: targetKey });
+      setActiveKey(targetKey);
     }
   };
 
-  handleMenuToggle = (
-    targetMenu: React.Key,
+  const handleMenuToggle = (
+    targetMenu: MenuItemKey,
     e: React.MouseEvent<HTMLElement>
   ) => {
     e.stopPropagation();
-    this.setState(({ openedMenu }: TabsState) => ({
-      openedMenu: openedMenu === targetMenu ? null : targetMenu
-    }));
+    setOpenedMenu(openedMenu === targetMenu ? null : targetMenu);
   };
 
-  render() {
-    const { type, children } = this.props;
-    const { activeKey, openedMenu } = this.state;
+  return (
+    <ul
+      className={classNames("dp-Tabs", {
+        [`Tabs--${type}`]: !!type
+      })}
+      ref={menuRef}
+    >
+      {React.Children.map(
+        children as React.ReactElement<TabItemProps>[],
+        (child: React.ReactElement<TabItemProps>, index) => {
+          const key = child.key || index;
+          return React.cloneElement(child, {
+            isActive:
+              (activeKey === key && !isMenu) || (isMenu && openedMenu === key),
+            isExpanded: openedMenu === key,
+            onTabClick: (e: React.MouseEvent<HTMLElement>) =>
+              isMenu ? handleMenuToggle(key, e) : handleTabClick(key, e),
+            onMenuToggle: (e: React.MouseEvent<HTMLElement>) =>
+              handleMenuToggle(key, e)
+          });
+        }
+      )}
+    </ul>
+  );
+};
 
-    return (
-      <ul
-        className={classNames("dp-Tabs", {
-          [`Tabs--${type}`]: !!type
-        })}
-        ref={this.menuRef}
-      >
-        {React.Children.map(
-          children as React.ReactElement<TabItemProps>[],
-          (child: React.ReactElement<TabItemProps>, index) => {
-            const key = child.key || index;
-            return React.cloneElement(child, {
-              isActive:
-                (activeKey === key && !this.isMenu) ||
-                (this.isMenu && openedMenu === key),
-              isExpanded: openedMenu === key,
-              onTabClick: (e: React.MouseEvent<HTMLElement>) =>
-                this.isMenu
-                  ? this.handleMenuToggle(key, e)
-                  : this.handleTabClick(key, e),
-              onMenuToggle: (e: React.MouseEvent<HTMLElement>) =>
-                this.handleMenuToggle(key, e)
-            });
-          }
-        )}
-      </ul>
-    );
-  }
-}
+Tabs.TabItem = TabItem;
+Tabs.TabTitle = TabTitle;
+Tabs.TabSubtitle = TabSubtitle;
+
+export default Tabs;

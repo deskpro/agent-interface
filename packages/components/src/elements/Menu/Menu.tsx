@@ -5,6 +5,11 @@ import "@deskpro/agent-interface-style/dist/elements/dp-menus.css";
 import MenuItem from "./MenuItem";
 import MenuSearchItem from "./MenuSearch";
 
+type MenuSubComponents = {
+  MenuItem: typeof MenuItem;
+  MenuSearch: typeof MenuSearchItem;
+};
+
 export type MenuProps = {
   className?: string;
   title?: string;
@@ -18,40 +23,33 @@ const hasIcons = (children: React.ReactNodeArray) =>
     (child: React.ReactElement<any>) => !!child.props.icon
   );
 
-class Menu extends React.PureComponent<MenuProps> {
-  static MenuItem = MenuItem;
+const Menu: React.FC<MenuProps> & MenuSubComponents = ({
+  className,
+  title,
+  children,
+  linkComponent = "a",
+  isVisible = false,
+  ...otherProps
+}) => (
+  <ul
+    className={classNames("dp-Menu", className, {
+      [`Menu--icons`]: hasIcons(children),
+      "is-visible": isVisible
+    })}
+    {...otherProps}
+  >
+    {!!title && <li className="dp-Menu-title">{title}</li>}
+    {React.Children.map(
+      children as React.ReactElement<any>[],
+      (child: React.ReactElement<any>) =>
+        React.cloneElement(child, {
+          linkComponent
+        })
+    )}
+  </ul>
+);
 
-  static MenuSearch = MenuSearchItem;
-
-  render() {
-    const {
-      className,
-      title,
-      children,
-      linkComponent = "a",
-      isVisible = false,
-      ...otherProps
-    } = this.props;
-
-    return (
-      <ul
-        className={classNames("dp-Menu", className, {
-          [`Menu--icons`]: hasIcons(children),
-          "is-visible": isVisible
-        })}
-        {...otherProps}
-      >
-        {!!title && <li className="dp-Menu-title">{title}</li>}
-        {React.Children.map(
-          children as React.ReactElement<any>[],
-          (child: React.ReactElement<any>) =>
-            React.cloneElement(child, {
-              linkComponent
-            })
-        )}
-      </ul>
-    );
-  }
-}
+Menu.MenuItem = MenuItem;
+Menu.MenuSearch = MenuSearchItem;
 
 export default Menu;
