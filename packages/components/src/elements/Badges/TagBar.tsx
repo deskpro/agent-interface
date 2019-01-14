@@ -7,7 +7,7 @@ export type TagBar = {
   className?: string;
 };
 
-const TagBar: React.SFC<TagBar> = ({ className, children }) => (
+const TagBar: React.FC<TagBar> = ({ className, children }) => (
   <span className={classNames("dp-TagBar", className)}>{children}</span>
 );
 

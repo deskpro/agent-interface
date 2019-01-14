@@ -17,7 +17,7 @@ export type TicketCardProps = {
   onFavoriteToggle?(e: React.MouseEvent<HTMLElement>): void;
 };
 
-const TicketCard: React.SFC<
+const TicketCard: React.FC<
   CardProps<TicketModel> & CheckableCardProps & TicketCardProps
 > = ({
   title,

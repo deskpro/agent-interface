@@ -7,7 +7,7 @@ export type MenuSearchProps = {
   icon?: string;
 };
 
-const MenuSearchItem: React.SFC<
+const MenuSearchItem: React.FC<
   MenuSearchProps & React.InputHTMLAttributes<HTMLInputElement>
 > = ({ icon = "find", className = "", ...props }) => (
   <li className="dp-Menu-search">

@@ -5,7 +5,7 @@ export type CardSectionTitleProps = {
   className?: string;
 };
 
-const CardSectionTitle: React.SFC<CardSectionTitleProps> = ({
+const CardSectionTitle: React.FC<CardSectionTitleProps> = ({
   className,
   children
 }) => (

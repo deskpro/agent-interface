@@ -7,7 +7,7 @@ export type IconGroupProps = {
   className?: string;
 };
 
-const IconGroup: React.SFC<IconGroupProps> = ({ children, className }) => (
+const IconGroup: React.FC<IconGroupProps> = ({ children, className }) => (
   <span className={classNames("dp-IconGroup", className)}>{children}</span>
 );
 

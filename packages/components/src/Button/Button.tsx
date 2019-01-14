@@ -16,7 +16,7 @@ export interface ButtonProps {
   onClick(e: React.MouseEvent<HTMLElement>): void;
 }
 
-const Button: React.SFC<ButtonProps> = ({
+const Button: React.FC<ButtonProps> = ({
   onClick: handleClick,
   children,
   size = "default",

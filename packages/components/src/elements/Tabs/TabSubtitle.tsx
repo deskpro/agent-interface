@@ -7,7 +7,7 @@ export type TabSubtitleProps = {
   icon: string;
 };
 
-const TabSubtitle: React.SFC<TabSubtitleProps> = ({
+const TabSubtitle: React.FC<TabSubtitleProps> = ({
   icon,
   children,
   className = ""

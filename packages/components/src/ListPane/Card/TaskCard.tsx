@@ -12,7 +12,7 @@ export interface TaskModel extends ICardModel {
 
 export type TaskCardProps = {};
 
-const TaskCard: React.FunctionComponent<
+const TaskCard: React.FC<
   TaskCardProps & CardProps<TaskModel> & CheckableCardProps
 > = ({
   model,

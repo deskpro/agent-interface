@@ -11,7 +11,7 @@ export type ActivityStatusProps = {
   className?: string;
 };
 
-const ActivityStatus: React.SFC<ActivityStatusProps> = ({
+const ActivityStatus: React.FC<ActivityStatusProps> = ({
   status,
   color,
   children,

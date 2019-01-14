@@ -13,7 +13,7 @@ export interface InputProps
   icon?: string;
 }
 
-const Input: React.SFC<InputProps> = ({
+const Input: React.FC<InputProps> = ({
   error,
   icon,
   type = "text",
