@@ -1,3 +1,5 @@
+@import "../fonts.css";
+@import "../vars.css";
 .dp-Arrow {
   cursor: pointer;
   display: inline-block;
