@@ -710,7 +710,7 @@ title: List Pane
 <div class="dp-MainWrapper">
     <form>
         <ul class="dp-CardList Card--row">
-            <li class="dp-Card is-select dp-Level LevelCol">
+            <li class="dp-Card is-selected is-active dp-Level LevelCol">
 
                 <span class="dp-LevelItem Level-justify-between">
                     <span class="dp-CustomCheckbox">
@@ -750,7 +750,7 @@ title: List Pane
 <div class="dp-MainWrapper">
     <form>
         <ul class="dp-CardList">
-            <li class="dp-Card is-select-items dp-Level">
+            <li class="dp-Card is-selected dp-Level">
 
                 <span class="dp-LevelCol">
                     <span class="dp-CustomCheckbox">
@@ -796,7 +796,7 @@ title: List Pane
 <div class="dp-MainWrapper">
     <form>
         <ul class="dp-CardList">
-            <li class="dp-Card is-checked dp-Level">
+            <li class="dp-Card dp-Level">
 
                 <span class="dp-LevelCol">
                     <span class="dp-CustomCheckbox">
@@ -892,8 +892,8 @@ title: List Pane
 
                 <span class="dp-LevelCol">
                     <span class="dp-CustomCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-4"></input>
-                        <label for="customCheckbox1-4" class="dp-Card-title"></label>
+                        <input type="checkbox" class="dp-ControlInput" id="agent-writing-2"></input>
+                        <label for="agent-writing-2" class="dp-Card-title"></label>
                     </span>
                 </span>
 
@@ -2654,8 +2654,10 @@ title: List Pane
     </ul>
 </form>
 ```
+
 <h2>Listpane/tasks</h2>
 <h4>listpane/tasks-sort</h4>
+
 ```html @preview
 
     <div class="dp-TasksSort">
@@ -2666,7 +2668,9 @@ title: List Pane
 ```
 
 <h4>Listpane/guides</h4>
+
 ```html @preview
+
 <div class="dp-MainWrapper">
 
     <!-- 1 -->
@@ -2930,12 +2934,24 @@ title: List Pane
             </span>
 
             <span class="dp-LevelItem Level-justify-between">
-                <span class="dp-UserInfo">
+<!--                 <span class="dp-UserInfo">
                     <span class="dp-Icon dp-Visibility"></span>
                     <span class="dp-UserName dp-Department">Department</span>
                     <span class="dp-Icon dp-iconUserAvatar"></span>
                     <span class="dp-UserName">Me</span>
                 </span>
+ -->                
+                <ul class="dp-LevelWrap">
+                    <li>
+                        <span class="dp-Icon dp-Visibility"></span>
+                        Department
+                    </li>
+                    <li>
+                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                        Me
+                    </li>
+                </ul>
+
                 <span class="dp-CommentWrap">
                     <span class="dp-Icon dp-iconComents"></span>
                     <span class="dp-Comments-title">Add comment</span>
@@ -3998,7 +4014,7 @@ title: List Pane
                     <span class="dp-UserName">Kenneth James</span>
 
                     <span class="dp-Icon dp-group"></span>
-                    <span class="dp-UserName">3rd November 2018</span>
+                    <span class="dp-date">3rd November 2018</span>
                 </span>
             </span>
 
@@ -4046,7 +4062,7 @@ title: List Pane
                     <span class="dp-UserName">Kenneth James</span>
 
                     <span class="dp-Icon dp-group"></span>
-                    <span class="dp-UserName">3rd November 2018</span>
+                    <span class="dp-date">3rd November 2018</span>
                 </span>
             </span>
 
@@ -4090,7 +4106,7 @@ title: List Pane
                     <span class="dp-Icon dp-iconUserAvatar"></span>
                     <span class="dp-UserName">Kenneth James</span>
                     <span class="dp-Icon dp-group"></span>
-                    <span class="dp-UserName">3rd November 2018</span>
+                    <span class="dp-date">3rd November 2018</span>
                 </span>
             </span>
             <span class="dp-LevelCol dp-LevelRight dp-LevelBottom">
@@ -4177,9 +4193,10 @@ title: List Pane
                     </span>
                 </span>
                 <span class="dp-LevelItem Level-justify-between">
-                    <span class="dp-UserInfo">
-                        <span class="dp-Icon dp-Visibility"></span>
-                        <span class="dp-UserName dp-Department is-active">
+
+                    <ul class="dp-LevelWrap">
+                        <li class="is-active">
+                            <span class="dp-Icon dp-Visibility"></span>
                             Department
                             <ul class="dp-Menu">
                                 <li class="dp-Menu-linkItem">Private</li>
@@ -4188,10 +4205,13 @@ title: List Pane
                                 <li class="dp-Menu-linkItem">Support</li>
                                 <li class="dp-Menu-linkItem">Sales</li>
                             </ul>
-                        </span>
-                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                        <span class="dp-UserName">Me</span>
-                    </span>
+                        </li>
+                        <li>
+                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                            Me
+                        </li>
+                    </ul>
+
                     <span class="dp-CommentWrap">
                         <span class="dp-Icon dp-iconComents"></span>
                         <span class="dp-Comments-title">Comment <a href="#" class="dp-qt">(2)</a><button class="dp-Arrow"></button></span>
@@ -4280,12 +4300,16 @@ title: List Pane
                     </span>
                 </span>
                 <span class="dp-LevelItem Level-justify-between">
-                    <span class="dp-UserInfo">
-                        <span class="dp-Icon dp-Visibility"></span>
-                        <span class="dp-UserName dp-Department">Department</span>
-                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                        <span class="dp-UserName">Me</span>
-                    </span>
+                    <ul class="dp-LevelWrap">
+                        <li>
+                            <span class="dp-Icon dp-Visibility"></span>
+                            Department
+                        </li>
+                        <li>
+                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                            Me
+                        </li>
+                    </ul>
                     <span class="dp-CommentWrap">
                         <span class="dp-Icon dp-iconComents"></span>
                         <span class="dp-Comments-title">Comment <a href="#" class="dp-qt">(2)</a><button class="dp-Arrow"></button></span>
@@ -4374,12 +4398,16 @@ title: List Pane
                     </span>
                 </span>
                 <span class="dp-LevelItem Level-justify-between">
-                    <span class="dp-UserInfo">
-                        <span class="dp-Icon dp-Visibility"></span>
-                        <span class="dp-UserName dp-Department">Department</span>
-                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                        <span class="dp-UserName">Me</span>
-                    </span>
+                    <ul class="dp-LevelWrap">
+                        <li>
+                            <span class="dp-Icon dp-Visibility"></span>
+                            Department
+                        </li>
+                        <li>
+                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                            Me
+                        </li>
+                    </ul>
                     <span class="dp-CommentWrap">
                         <span class="dp-Icon dp-iconComents"></span>
                         <span class="dp-Comments-title">Comment <a href="#" class="dp-qt">(2)</a><button class="dp-Arrow"></button></span>
@@ -4480,12 +4508,16 @@ title: List Pane
                     </span>
                 </span>
                 <span class="dp-LevelItem Level-justify-between">
-                    <span class="dp-UserInfo">
-                        <span class="dp-Icon dp-Visibility"></span>
-                        <span class="dp-UserName dp-Department">Department</span>
-                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                        <span class="dp-UserName">Me</span>
-                    </span>
+                    <ul class="dp-LevelWrap">
+                        <li>
+                            <span class="dp-Icon dp-Visibility"></span>
+                            Department
+                        </li>
+                        <li>
+                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                            Me
+                        </li>
+                    </ul>
                     <span class="dp-CommentWrap">
                         <span class="dp-Icon dp-iconComents"></span>
                         <span class="dp-Comments-title">Comment <a href="#" class="dp-qt">(2)</a><button class="dp-Arrow"></button></span>
@@ -4563,7 +4595,7 @@ title: List Pane
                 </span>
             </li>
             <!-- 1 -->
-            <li class="dp-Card dp-Level LevelCol dp-Tasks-list">
+            <li class="dp-Card dp-Level LevelCol dp-Tasks-list dp-Comments-list">
                 <span class="dp-LevelItem Level-justify-between">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="comment-1">
@@ -4586,17 +4618,18 @@ title: List Pane
                         </span>
                     </span>
                 </span>
-    
-                <ul class="dp-Comment-control">
+                
+                <ul class="dp-LevelWrap">
                     <li><span class="dp-Icon dp-Approve"></span>Approve</li>
                     <li><span class="dp-Icon dp-Delete"></span>Delete</li>
                     <li><span class="dp-Icon dp-CreateTicket"></span>Create ticket</li>
                     <li><span class="dp-Icon Icon--edit"></span>Edit</li>
                 </ul>
+
             </li>
 
             <!-- 2 -->
-            <li class="dp-Card dp-Level LevelCol dp-Tasks-list">
+            <li class="dp-Card dp-Level LevelCol dp-Tasks-list dp-Comments-list">
                 <span class="dp-LevelItem Level-justify-between">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="comment-2">
@@ -4610,7 +4643,7 @@ title: List Pane
                     <span class="dp-Card-comment">I wish I could show you our cat Dinah: I think I must go back by railw...</span>
                 </span>
     
-                <ul class="dp-Comment-control">
+                <ul class="dp-LevelWrap">
                     <li><span class="dp-Icon dp-Approve"></span>Approve</li>
                     <li><span class="dp-Icon dp-Delete"></span>Delete</li>
                     <li><span class="dp-Icon dp-CreateTicket"></span>Create ticket</li>
@@ -4619,7 +4652,7 @@ title: List Pane
             </li>
 
             <!-- 3 -->
-            <li class="dp-Card dp-Level LevelCol dp-Tasks-list">
+            <li class="dp-Card dp-Level LevelCol dp-Tasks-list dp-Comments-list">
                 <span class="dp-LevelItem Level-justify-between">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="comment-3">
@@ -4633,7 +4666,7 @@ title: List Pane
                     <span class="dp-Card-comment">I wish I could show you our cat Dinah: I think I must go back by railw...</span>
                 </span>
     
-                <ul class="dp-Comment-control">
+                <ul class="dp-LevelWrap">
                     <li><span class="dp-Icon dp-Approve"></span>Approve</li>
                     <li><span class="dp-Icon dp-Delete"></span>Delete</li>
                     <li><span class="dp-Icon dp-CreateTicket"></span>Create ticket</li>
@@ -4642,7 +4675,7 @@ title: List Pane
             </li>
 
             <!-- 4 -->
-            <li class="dp-Card dp-Level LevelCol dp-Tasks-list">
+            <li class="dp-Card dp-Level LevelCol dp-Tasks-list dp-Comments-list">
                 <span class="dp-LevelItem Level-justify-between">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="comment-4">
@@ -4656,7 +4689,7 @@ title: List Pane
                     <span class="dp-Card-comment">I wish I could show you our cat Dinah: I think I must go back by railw...</span>
                 </span>
     
-                <ul class="dp-Comment-control">
+                <ul class="dp-LevelWrap">
                     <li><span class="dp-Icon dp-Approve"></span>Approve</li>
                     <li><span class="dp-Icon dp-Delete"></span>Delete</li>
                     <li><span class="dp-Icon dp-CreateTicket"></span>Create ticket</li>
