@@ -9,8 +9,8 @@ import TaskCard from "./TaskCard";
 import { MenuProps } from "../../elements/Menu/Menu";
 import Cog from "../../elements/Cog/Cog";
 // import "@deskpro/agent-interface-style/dist/components/dp-ListPane.css";
-import "@deskpro/agent-interface-style/dist/components/dp-ListPane.css";
-import "@deskpro/agent-interface-style/dist/elements/dp-card-guides.css";
+import "@deskpro/agent-interface-style/dist/components/dp-Level.css";
+import "@deskpro/agent-interface-style/dist/elements/dp-card.css";
 
 type CardSubComponents = {
   Title: typeof CardTitle;

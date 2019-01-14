@@ -29,26 +29,28 @@ const TaskCard: React.FC<
     className={classNames("LevelCol", "dp-Tasks-list", className)}
   >
     <span className="dp-LevelItem Level-justify-between">
-      {checkable && (
-        <Checkbox
-          id={model.id as string}
-          value={model.id}
-          checked={checked}
-          onChange={onCheck}
+      <span className="dp-Level">
+        {checkable && (
+          <Checkbox
+            id={model.id as string}
+            value={model.id}
+            checked={checked}
+            onChange={onCheck}
+          />
+        )}
+        <Card.Title
+          title={
+            <>
+              <Icon
+                name="complete"
+                color={model.isCompleted ? "neutral" : "success"}
+                size={15}
+              />
+              {model.title}
+            </>
+          }
         />
-      )}
-      <Card.Title
-        title={
-          <>
-            <Icon
-              name="complete"
-              color={model.isCompleted ? "neutral" : "success"}
-              size={15}
-            />
-            {model.title}
-          </>
-        }
-      />
+      </span>
       {/* TODO: Replace with calendar component */}
       <span className="dp-DateGroup">
         <span className="dp-Icon dp-group" />
@@ -59,12 +61,14 @@ const TaskCard: React.FC<
       {!!renderBody && renderBody(model)}
     </span>
     <span className="dp-LevelItem Level-justify-between">
-      <span className="dp-UserInfo">
-        <span className="dp-Icon dp-Visibility" />
-        <span className="dp-UserName dp-Department">Department</span>
-        <span className="dp-Icon dp-iconUserAvatar" />
-        <span className="dp-UserName">Me</span>
-      </span>
+      <ul className="dp-LevelWrap">
+        <li>
+          <Icon name="visibility" size={15} /> Department
+        </li>
+        <li>
+          <Icon name="avatar" size={15} /> Me
+        </li>
+      </ul>
       <span className="dp-CommentWrap">
         <span className="dp-Icon dp-iconComents" />
         <span className="dp-Comments-title is-active">
