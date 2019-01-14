@@ -1,6 +1,6 @@
 @import "../fonts.css";
 @import "../vars.css";
-@import "../components/dp-Level.css";
+@import "../components/dp-level.css";
 @import "../elements/dp-badges.css";
 
 .dp-Card {

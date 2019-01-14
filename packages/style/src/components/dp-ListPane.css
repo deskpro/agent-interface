@@ -307,7 +307,7 @@
 }
 
 .dp-TableSubject, .dp-TableLabels, .dp-TableUser {
-  width: 230px;
+  width: 240px;
 }
 
 .dp-TableDepartment, .dp-TableLanguage, .dp-TableLastreply {
@@ -964,20 +964,60 @@ input:disabled + label {
   margin-top: 5px;
 }
 
-.dp-Members-title {
+/* Listpane/back-to-organizations */
+
+.dp-Card-subtitle .dp-title {
   color: var(--grey-darkest);
   cursor: pointer;
   font: var(--p-xl);
 }
 
-.dp-Members .dp-qt {
+.dp-Card-subtitle .dp-qt {
   color: var(--brand-primary);
 }
 
-.dp-Members:hover .dp-Members-title {
+.dp-Card-subtitle:hover .dp-Members-title {
   color: var(--brand-primary);
 }
 
-.dp-Members:hover svg {
+.dp-Card-subtitle:hover svg {
   color: var(--brand-primary);
 }
+
+.Card-tickets-organizations {
+  border-top: 1px solid var(--grey);
+}
+
+/* listpane/setting-cog-tableview */
+
+.dp-Tableview .dp-Cog {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.dp-Tableview .dp-Cog > .dp-Icon {
+  cursor: pointer;
+  opacity: 0.3;
+}
+
+.dp-Tableview .dp-Cog:hover > .dp-Icon,
+.dp-Tableview .dp-Cog  .dp-settings.is-active {
+  opacity: 1;
+}
+
+.dp-Tableview .dp-Cog .dp-Menu {
+  left: auto;
+  min-width: 148px;
+  position: absolute;
+  right: calc(100% - 30px);
+  top: calc(100% - 5px);
+}
+
+.dp-Tableview .dp-Cog .dp-Menu-linkItem:hover > .dp-Menu {
+  left: auto;
+  right: 100%;
+}
+
+/* Cards/feedback */
