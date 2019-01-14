@@ -1,5 +1,5 @@
 ---
-title: Cards
+title: Cards-guides
 ---
 
 <h4>Cards/guides-header</h4>
