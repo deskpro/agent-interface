@@ -826,13 +826,13 @@ thead .dp-Card-title td {
   padding: 0 10px 0 0;
 }
 
-.dp-LevelWrap > li:hover,
-.dp-LevelWrap > li.is-active {
+.dp-Tasks-list .dp-LevelWrap > li:hover,
+.dp-Tasks-list .dp-LevelWrap > li.is-active {
   cursor: pointer;
   text-decoration: underline;
 }
 
-.dp-LevelWrap > li .dp-Icon {
+.dp-Tasks-list .dp-LevelWrap > li .dp-Icon {
   margin-right: 5px;
 }
 
@@ -882,14 +882,14 @@ thead .dp-Card-title td {
   background-color: transparent;
 }
 
-/* Card Row */
-
-.dp-CardList.Card--row .dp-UserInfo {
-  padding-left: 25px;
-}
+/* GENERAL ARTICLES */
 
 .dp-General-Articles {
   padding-left: 35px;
+}
+
+.dp-General-Articles ~ .dp-Card .dp-LevelWrap > li {
+  border: 0;
 }
 
 /* Menu-fields */
@@ -1021,3 +1021,68 @@ input:disabled + label {
 }
 
 /* Cards/feedback */
+
+.dp-vote {
+  border: 1px solid var(--brand-primary);
+  border-radius: var(--border-radius);
+  display: inline-block;
+  list-style: none;
+  margin-right: 10px;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+.dp-vote li:first-child {
+  background-color: var(--brand-primary);
+  color: var(--white);
+}
+
+.dp-vote li, .dp-Card .dp-calendar li {
+  color: var(--grey-darkest);
+  font: var(--p-s-semibold);
+  margin: 0;
+  padding: 4px;
+  text-align: center;
+}
+
+.dp-vote li {
+  display: inline-block;
+}
+
+.dp-Card .dp-calendar {
+  border: 1px solid var(--brand-primary);
+  border-radius: var(--border-radius);
+  display: inline-block;
+  list-style: none;
+  margin-right: 10px;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+.dp-Card .dp-calendar li {
+  display: block;
+}
+
+.dp-Card .dp-calendar li:first-child {
+  border-bottom: 1px solid var(--brand-primary);
+}
+
+.dp-Card .dp-calendar li:last-child {
+  font: var(--h-l-semibold);
+}
+
+.dp-Card.dp-Level.Card-news .dp-LevelCol:nth-child(2) {
+  flex: 0 0 auto;
+}
+
+.dp-Card-title .dp-qt {
+  font: var(--p-xl);
+  margin-left: 3px;
+}
+
+/* Cards/glossary */
+
+.dp-Card-description {
+  color: var(--grey-dark);
+  font: var(--p-xl);
+}

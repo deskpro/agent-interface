@@ -19,12 +19,13 @@
   font: var(--p-xl);
   min-height: 15px;
   min-width: 15px;
-  padding-left: 25px;
+  padding-left: 23px;
   position: relative;
   user-select: none;
   z-index: 1;
 
   /*  overflow: hidden;
+  padding-left: 25px;
   white-space: nowrap;
   text-overflow: ellipsis;
   max-width: 252px; */

@@ -1897,3 +1897,13 @@
 .dp-Card-subtitle .Icon--email {
   background-size: 14px 10px;
 }
+
+/* Cards/download */
+
+.dp-Card-title .dp-Acrobat {
+  background-size: 18px 18px;
+  height: 18px;
+  margin-right: 5px;
+  vertical-align: middle;
+  width: 18px;
+}

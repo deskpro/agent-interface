@@ -176,12 +176,13 @@
   white-space: nowrap;
 }
 
-.dp-Card .dp-UserName {
+.dp-Card .dp-UserName, .dp-Card .dp-date {
   color: var(--grey-darkest);
   font: var(--p-xl);
 }
 
-.dp-Card .dp-Icon + .dp-UserName,
+/* .dp-Card .dp-Icon + .dp-UserName, */
+
 .dp-Card .dp-Icon + .dp-Date-link,
 .dp-Card .dp-Icon + .dp-Comments-title,
 .dp-Tasks-list .dp-Icon + .dp-UserName {
@@ -292,4 +293,14 @@
   height: 18px;
   justify-content: center;
   width: 18px;
+}
+
+/* Card Row */
+
+.Card--row .dp-Card {
+  flex-direction: column;
+}
+
+.dp-CardList.Card--row .dp-UserInfo {
+  padding-left: 23px;
 }

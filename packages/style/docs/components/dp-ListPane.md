@@ -686,10 +686,6 @@ title: List Pane
 
                 <span class="dp-LevelCol dp-LevelRight">
                     <span class="dp-IconGroup">
-                        <span class="dp-ActivityStatus ActivityStatus--viewing">
-                            <span class="dp-Icon Icon--view"></span>
-                            <span class="dp-Badge Badge--round Badge--grey"></span>
-                        </span>
                         <span class="Icon--circle dp-iconBug"></span>
                         <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
                         <span class="dp-Icon Icon--clock Icon--primary"></span>
@@ -707,7 +703,7 @@ title: List Pane
 
 <h4>Demo grid Level - Row </h4>
 ```html @preview
-<div class="dp-MainWrapper">
+<!-- <div class="dp-MainWrapper">
     <form>
         <ul class="dp-CardList Card--row">
             <li class="dp-Card is-selected is-active dp-Level LevelCol">
@@ -742,6 +738,36 @@ title: List Pane
             </li>
         </ul>
     </form>
+</div> -->
+
+
+<div class="dp-MainWrapper">
+    <form>
+        <ul class="dp-CardList Card--row">
+            <li class="dp-Card is-selected is-active">
+                <span class="dp-LevelItem Level-justify-between">
+                    <span class="dp-CustomCheckbox dp-LevelLeft dp-LevelTop">
+                        <input type="checkbox" class="dp-ControlInput" id="customCheckbox0-1"></input>
+                        <label for="customCheckbox0-1" class="dp-Card-title">Card title here</label>
+                    </span>
+                    <span class="dp-IconGroup dp-LevelRight">
+                        <span class="Icon--circle dp-iconBug"></span>
+                        <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
+                        <span class="dp-Icon Icon--clock Icon--primary"></span>
+                    </span>
+                </span>
+                <span class="dp-LevelItem Level-justify-between dp-LevelBottom">
+                    <span class="dp-UserInfo">
+                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                        <span class="dp-UserName">Single-line item</span>
+                    </span>
+                    <span class="dp-TimeStatus">
+                        <span class="dp-Tag Tag--small Tag--danger">Failed</span>
+                    </span>
+                </span>
+            </li>
+        </ul>
+    </form>
 </div>
 ```
 
@@ -770,12 +796,6 @@ title: List Pane
 
                 <span class="dp-LevelCol dp-LevelRight">
                     <span class="dp-IconGroup">
-
-                        <span class="dp-ActivityStatus ActivityStatus--viewing">
-                            <span class="dp-Icon Icon--view"></span>
-                            <span class="dp-Badge Badge--round Badge--grey"></span>
-                        </span>
-
                         <span class="Icon--circle dp-iconBug"></span>
                         <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
                         <span class="dp-Icon Icon--clock Icon--primary"></span>
@@ -816,11 +836,6 @@ title: List Pane
 
                 <span class="dp-LevelCol dp-LevelRight">
                     <span class="dp-IconGroup">
-                        <span class="dp-ActivityStatus ActivityStatus--viewing">
-                            <span class="dp-Icon Icon--view"></span>
-                            <span class="dp-Badge Badge--round Badge--grey"></span>
-                            <span class="dp-Badge Badge--round Badge--grey"></span>
-                        </span>
                         <span class="Icon--circle dp-iconBug"></span>
                         <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
                         <span class="dp-Icon Icon--clock Icon--primary"></span>
@@ -862,12 +877,6 @@ title: List Pane
 
                 <span class="dp-LevelCol dp-LevelRight">
                     <span class="dp-IconGroup">
-
-                        <span class="dp-ActivityStatus ActivityStatus--writing ActivityStatus--primary">
-                            <span class="dp-Icon Icon--edit Icon--primary"></span>
-                            <span class="dp-Badge Badge--round Badge--grey"></span>
-                        </span>
-
                         <span class="Icon--circle dp-iconBug"></span>
                         <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
                         <span class="dp-Icon Icon--clock Icon--primary"></span>
@@ -908,13 +917,6 @@ title: List Pane
 
                 <span class="dp-LevelCol dp-LevelRight">
                     <span class="dp-IconGroup">
-
-                        <span class="dp-ActivityStatus ActivityStatus--writing ActivityStatus--primary">
-                            <span class="dp-Icon Icon--edit Icon--primary"></span>
-                            <span class="dp-Badge Badge--round Badge--grey"></span>
-                            <span class="dp-Badge Badge--round Badge--grey"></span>
-                        </span>
-
                         <span class="Icon--circle dp-iconBug"></span>
                         <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
                         <span class="dp-Icon Icon--clock Icon--primary"></span>
@@ -933,7 +935,7 @@ title: List Pane
 <h2>listpane/pagination-start</h2>
 ```html @preview
 <div class="dp-Pagination">
-    <a href="#" class="dp-PageNumber  is-active">1</a>
+    <a href="#" class="dp-PageNumber is-active">1</a>
     <a href="#" class="dp-PageNumber">2</a>
     <a href="#" class="dp-PageNumber">3</a>
     <a href="#" class="dp-PageNumber">4</a>
@@ -4009,13 +4011,17 @@ title: List Pane
 
             <span class="dp-LevelCol">
                 <span class="dp-Card-title">Portal disabled landing message</span>
-                <span class="dp-UserInfo">
-                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-UserName">Kenneth James</span>
 
-                    <span class="dp-Icon dp-group"></span>
-                    <span class="dp-date">3rd November 2018</span>
-                </span>
+                <ul class="dp-LevelWrap">
+                    <li>
+                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                        <span class="dp-UserName">Kenneth James</span>
+                    </li>
+                    <li>
+                        <span class="dp-Icon dp-group"></span>
+                        <span class="dp-date">3rd November 2018</span>
+                    </li>
+                </ul>
             </span>
 
             <span class="dp-LevelCol dp-LevelRight dp-LevelTop">
@@ -4057,13 +4063,16 @@ title: List Pane
             <span class="dp-LevelCol">
                 <span class="dp-Card-title">Creating effective new ticket contact forms</span>
 
-                <span class="dp-UserInfo">
-                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-UserName">Kenneth James</span>
-
-                    <span class="dp-Icon dp-group"></span>
-                    <span class="dp-date">3rd November 2018</span>
-                </span>
+                <ul class="dp-LevelWrap">
+                    <li>
+                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                        <span class="dp-UserName">Kenneth James</span>
+                    </li>
+                    <li>
+                        <span class="dp-Icon dp-group"></span>
+                        <span class="dp-date">3rd November 2018</span>
+                    </li>
+                </ul>
             </span>
 
             <span class="dp-LevelCol dp-LevelRight dp-LevelTop">
@@ -4102,12 +4111,17 @@ title: List Pane
             </span>
             <span class="dp-LevelCol">
                 <span class="dp-Card-title">Inventory component</span>
-                <span class="dp-UserInfo">
-                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-UserName">Kenneth James</span>
-                    <span class="dp-Icon dp-group"></span>
-                    <span class="dp-date">3rd November 2018</span>
-                </span>
+
+                <ul class="dp-LevelWrap">
+                    <li>
+                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                        <span class="dp-UserName">Kenneth James</span>
+                    </li>
+                    <li>
+                        <span class="dp-Icon dp-group"></span>
+                        <span class="dp-date">3rd November 2018</span>
+                    </li>
+                </ul>
             </span>
             <span class="dp-LevelCol dp-LevelRight dp-LevelBottom">
                 <span class="dp-TimeStatus">
@@ -8119,32 +8133,178 @@ title: List Pane
 
 ```html @preview
 <div class="dp-MainWrapper">
-    <div class="dp-Card-guides">
-        <ul class="dp-CardList">
-            <li class="dp-Card dp-Level">
-                <span class="dp-LevelItem">
-                    <span class="dp-LevelCol">
-                        <span class="dp-Card-title">Feedback title here</span>
-                        <span class="dp-UserInfo">
-                            <span class="dp-Icon dp-iconUserAvatar"></span>
-                            <span class="dp-UserName">Toby falkirk</span>
-                            
-                            <span class="dp-Icon dp-group"></span>
-                            <span class="dp-UserName dp-Date">23/3/18</span>
-                        </span>
-                    </span>
+    <ul class="dp-CardList">
+        <li class="dp-Card dp-Level">
+            <span class="dp-LevelItem">
 
-                    <span class="dp-LevelCol dp-LevelBottom">
-                        <span class="dp-IconGroup">
-                            <span class="dp-Icon dp-down_caret"></span>
-                        </span>
-                        <span class="dp-TimeStatus">
-                            <span class="dp-Tag Tag--small Tag--neutral">Feature request</span>
-                        </span>
+                <span class="dp-LevelCol dp-LevelTop">
+                    <span class="dp-CustomCheckbox">
+                        <input type="checkbox" class="dp-ControlInput" id="cards-feedback-1"></input>
+                        <label for="cards-feedback-1" class="dp-Card-title"></label>
                     </span>
                 </span>
-            </li>
-        </ul>
-    </div>
+
+                <span class="dp-LevelCol">
+                    <span class="dp-Card-title">
+                        <ul class="dp-vote">
+                            <li>38</li>
+                            <li>votes</li>
+                        </ul>
+                        Feedback title here
+                    </span>
+
+                    <ul class="dp-LevelWrap">
+                        <li>
+                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                            <span class="dp-UserName">Toby falkirk</span>
+                        </li>
+                        <li>
+                            <span class="dp-Icon dp-group"></span>
+                            <span class="dp-UserName dp-date">23/11/18</span>
+                        </li>
+                    </ul>
+                </span>
+
+                <span class="dp-LevelCol dp-LevelRight dp-LevelBottom">
+                    <span class="dp-TimeStatus">
+                        <span class="dp-Tag Tag--small Tag--neutral">Feature request</span>
+                    </span>
+                </span>
+            </span>
+        </li>
+    </ul>
 </div>
+```
+
+<h4>Cards/news</h4>
+
+```html @preview
+<div class="dp-MainWrapper">
+    <ul class="dp-CardList">
+        <li class="dp-Card dp-Level Card-news">
+            <span class="dp-LevelItem">
+
+                <span class="dp-LevelCol dp-LevelTop">
+                    <span class="dp-CustomCheckbox">
+                        <input type="checkbox" class="dp-ControlInput" id="cards-feedback-2"></input>
+                        <label for="cards-feedback-2" class="dp-Card-title"></label>
+                    </span>
+                </span>
+
+                <span class="dp-LevelCol">
+                    <ul class="dp-calendar">
+                        <li>Nov</li>
+                        <li>18</li>
+                    </ul>
+                </span>
+
+                <span class="dp-LevelCol">
+                    <span class="dp-Card-title">News item title here</span>
+                    <ul class="dp-LevelWrap">
+                        <li>
+                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                            <span class="dp-UserName">Toby falkirk</span>
+                        </li>
+                    </ul>
+                </span>
+
+                <span class="dp-LevelCol dp-LevelRight dp-LevelBottom">
+                    <span class="dp-TimeStatus">
+                        <span class="dp-Tag Tag--small Tag--grey">Draft</span>
+                    </span>
+                </span>
+            </span>
+        </li>
+    </ul>
+</div>
+```
+
+<h4>Cards/download</h4>
+
+```html @preview
+<div class="dp-MainWrapper">
+    <ul class="dp-CardList">
+        <li class="dp-Card dp-Level">
+            <span class="dp-LevelItem">
+
+                <span class="dp-LevelCol dp-LevelTop">
+                    <span class="dp-CustomCheckbox">
+                        <input type="checkbox" class="dp-ControlInput" id="cards-feedback-1"></input>
+                        <label for="cards-feedback-1" class="dp-Card-title"></label>
+                    </span>
+                </span>
+
+                <span class="dp-LevelCol">
+                    <span class="dp-Card-title">
+                        <span class="dp-Icon dp-Acrobat"></span>
+                        Feedback_guide.pdf <span class="dp-qt">(56kb)</span>
+                    </span>
+
+                    <ul class="dp-LevelWrap">
+                        <li>
+                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                            <span class="dp-UserName">Toby falkirk</span>
+                        </li>
+                        <li>
+                            <span class="dp-Icon dp-group"></span>
+                            <span class="dp-UserName dp-date">23/11/18</span>
+                        </li>
+                    </ul>
+                </span>
+
+                <span class="dp-LevelCol dp-LevelRight dp-LevelBottom">
+                    <span class="dp-TimeStatus">
+                        <span class="dp-Tag Tag--small Tag--brand-primary">Download</span>
+                    </span>
+                </span>
+            </span>
+        </li>
+    </ul>
+</div>
+```
+
+<h4>Cards/glossary</h4>
+
+```html @preview
+<form>
+    <ul class="dp-CardList">
+
+        <li class="dp-Card dp-Level">
+            <span class="dp-LevelCol">
+                <span class="dp-CustomCheckbox">
+                    <input type="checkbox" class="dp-ControlInput" id="glossary-1"></input>
+                    <label for="glossary-1" class="dp-Card-title"></label>
+                </span>
+            </span>
+
+            <span class="dp-LevelCol">
+                <span class="dp-Card-title">@mention</span>
+
+                <span class="dp-Card-description">
+                    Android infographic innovator infrastructure termsheet disruptive stealth responsive web design ramen gamification metrics.
+                </span>
+            </span>
+
+            <!-- Icon hover -->
+            <span class="dp-Cog">
+                <span class="dp-Icon dp-settings is-active"></span>
+                <ul class="dp-Menu">
+                    <li class="dp-Menu-linkItem">
+                        <span class="dp-Icon dp-Bin"></span>
+                        <a href="#" class="dp-Menu-link">
+                            Delete
+                        </a>
+                    </li>
+                    <li class="dp-Menu-linkItem">
+                        <span class="dp-Icon Icon--edit"></span>
+                        <a href="#" class="dp-Menu-link">
+                            Edit
+                        </a>
+                    </li>
+                </ul>
+            </span>
+        </li>
+
+    </ul>
+</form>
 ```
