@@ -10,7 +10,7 @@ export type UserInfoProps = {
   className?: string;
 };
 
-const UserInfo: React.SFC<UserInfoProps> = ({
+const UserInfo: React.FC<UserInfoProps> = ({
   name,
   avatar = false,
   email,

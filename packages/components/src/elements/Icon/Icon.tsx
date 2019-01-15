@@ -14,7 +14,7 @@ export type IconProps = {
   ): void;
 };
 
-const Icon: React.FunctionComponent<IconProps> = ({
+const Icon: React.FC<IconProps> = ({
   name,
   size = 24,
   color,

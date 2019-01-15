@@ -9,7 +9,7 @@ export type CogProps = {
   className?: string;
 };
 
-const Cog: React.FunctionComponent<CogProps> = ({ className, menu }) => {
+const Cog: React.FC<CogProps> = ({ className, menu }) => {
   const [opened, setMenuState] = React.useState(false);
   return (
     <span

@@ -3,7 +3,7 @@ import classNames from "classnames";
 
 import "@deskpro/agent-interface-style/dist/elements/dp-forms.css";
 
-const RadioGroup: React.SFC<React.HTMLAttributes<HTMLElement>> = ({
+const RadioGroup: React.FC<React.HTMLAttributes<HTMLElement>> = ({
   children,
   className,
   ...props

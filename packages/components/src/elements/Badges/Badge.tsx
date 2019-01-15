@@ -10,7 +10,7 @@ export type BadgeProps = {
   value?: number | string | null;
 };
 
-const Badge: React.SFC<BadgeProps> = ({
+const Badge: React.FC<BadgeProps> = ({
   children,
   color,
   label = "",

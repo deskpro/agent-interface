@@ -11,7 +11,7 @@ export interface RadioProps
   label: string;
 }
 
-const Radio: React.SFC<RadioProps> = ({ className, id, label, ...props }) => (
+const Radio: React.FC<RadioProps> = ({ className, id, label, ...props }) => (
   <div className="dp-RadioItem">
     <input
       type="radio"

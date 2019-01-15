@@ -14,7 +14,7 @@ export type TabItemProps = {
   renderMenu?(): React.ReactNode;
 };
 
-const TabItem: React.SFC<TabItemProps> = ({
+const TabItem: React.FC<TabItemProps> = ({
   icon,
   iconOnly = false,
   iconColor,

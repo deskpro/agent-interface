@@ -8,7 +8,7 @@ export type CardListProps = {
   hoverable?: boolean;
 };
 
-const CardList: React.SFC<CardListProps> = ({
+const CardList: React.FC<CardListProps> = ({
   children,
   className,
   hoverable = false

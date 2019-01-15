@@ -8,7 +8,7 @@ export type TagProps = {
   size?: "small" | "medium";
 };
 
-const Tag: React.SFC<TagProps> = ({ children, color, size }) => (
+const Tag: React.FC<TagProps> = ({ children, color, size }) => (
   <span
     className={classNames("dp-Tag", {
       [`Tag--${color}`]: !!color,

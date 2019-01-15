@@ -12,7 +12,7 @@ export type MenuItemProps = {
   linkComponent?: any;
 };
 
-const MenuItem: React.SFC<MenuItemProps> = ({
+const MenuItem: React.FC<MenuItemProps> = ({
   text,
   icon,
   link,

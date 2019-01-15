@@ -11,9 +11,7 @@ export type CheckboxProps = {
   labelClassName?: string;
 };
 
-const Checkbox: React.SFC<
-  CheckboxProps & React.HTMLProps<HTMLInputElement>
-> = ({
+const Checkbox: React.FC<CheckboxProps & React.HTMLProps<HTMLInputElement>> = ({
   label = "",
   id = "checkbox",
   undef = false,

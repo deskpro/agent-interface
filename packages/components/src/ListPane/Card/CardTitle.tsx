@@ -6,7 +6,7 @@ export type CardTitleProps = {
   className?: string;
 };
 
-const CardTitle: React.SFC<CardTitleProps> = ({ title, className }) => (
+const CardTitle: React.FC<CardTitleProps> = ({ title, className }) => (
   <span className={classNames("dp-Card-title", className)}>{title}</span>
 );
 
