@@ -671,7 +671,7 @@ title: List Pane
                 <span class="dp-LevelItem dp-LevelCol dp-LevelTop">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="customCheckbox0-0"></input>
-                        <label for="customCheckbox0-0" class="dp-Card-title"></label>
+                        <label for="customCheckbox0-0"></label>
                     </span>
                 </span>
 
@@ -703,52 +703,15 @@ title: List Pane
 
 <h4>Demo grid Level - Row </h4>
 ```html @preview
-<!-- <div class="dp-MainWrapper">
-    <form>
-        <ul class="dp-CardList Card--row">
-            <li class="dp-Card is-selected is-active dp-Level LevelCol">
-
-                <span class="dp-LevelItem Level-justify-between">
-                    <span class="dp-CustomCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="customCheckbox0-1"></input>
-                        <label for="customCheckbox0-1" class="dp-Card-title">Card title here</label>
-                    </span>
-
-                    <span class="dp-IconGroup">
-                        <span class="dp-ActivityStatus ActivityStatus--viewing">
-                            <span class="dp-Icon Icon--view"></span>
-                            <span class="dp-Badge Badge--round Badge--grey"></span>
-                        </span>
-                        <span class="Icon--circle dp-iconBug"></span>
-                        <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
-                        <span class="dp-Icon Icon--clock Icon--primary"></span>
-                    </span>
-                </span>
-
-                <span class="dp-LevelItem Level-justify-between">
-                    <span class="dp-UserInfo">
-                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                        <span class="dp-UserName">Single-line item</span>
-                    </span>
-                    <span class="dp-TimeStatus">
-                        <span class="dp-Tag Tag--small Tag--danger">Failed</span>
-                    </span>
-                </span>
-                
-            </li>
-        </ul>
-    </form>
-</div> -->
-
 
 <div class="dp-MainWrapper">
     <form>
         <ul class="dp-CardList Card--row">
-            <li class="dp-Card is-selected is-active">
+            <li class="dp-Card">
                 <span class="dp-LevelItem Level-justify-between">
                     <span class="dp-CustomCheckbox dp-LevelLeft dp-LevelTop">
                         <input type="checkbox" class="dp-ControlInput" id="customCheckbox0-1"></input>
-                        <label for="customCheckbox0-1" class="dp-Card-title">Card title here</label>
+                        <label for="customCheckbox0-1"><span class="dp-Card-title">Card title here</span></label>
                     </span>
                     <span class="dp-IconGroup dp-LevelRight">
                         <span class="Icon--circle dp-iconBug"></span>
@@ -776,12 +739,12 @@ title: List Pane
 <div class="dp-MainWrapper">
     <form>
         <ul class="dp-CardList">
-            <li class="dp-Card is-selected dp-Level">
+            <li class="dp-Card dp-Level">
 
                 <span class="dp-LevelCol">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-1"></input>
-                        <label for="customCheckbox1-1" class="dp-Card-title"></label>
+                        <label for="customCheckbox1-1"></label>
                     </span>
                 </span>
 
@@ -820,8 +783,8 @@ title: List Pane
 
                 <span class="dp-LevelCol">
                     <span class="dp-CustomCheckbox">
-                        <input type="checkbox" checked="checked" class="dp-ControlInput" id="customCheckbox1-2"></input>
-                        <label for="customCheckbox1-2" class="dp-Card-title"></label>
+                        <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-2"></input>
+                        <label for="customCheckbox1-2"></label>
                     </span>
                 </span>
 
@@ -857,12 +820,12 @@ title: List Pane
 <div class="dp-MainWrapper">
     <form>
         <ul class="dp-CardList">
-            <li class="dp-Card is-dragging dp-Level">
+            <li class="dp-Card dp-Level">
 
                 <span class="dp-LevelCol">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-3"></input>
-                        <label for="customCheckbox1-3" class="dp-Card-title"></label>
+                        <label for="customCheckbox1-3"></label>
                     </span>
                 </span>
 
@@ -902,7 +865,7 @@ title: List Pane
                 <span class="dp-LevelCol">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="agent-writing-2"></input>
-                        <label for="agent-writing-2" class="dp-Card-title"></label>
+                        <label for="agent-writing-2"></label>
                     </span>
                 </span>
 
@@ -983,7 +946,7 @@ title: List Pane
             <span class="dp-LevelCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="listpane-tickets-1"></input>
-                    <label for="listpane-tickets-1" class="dp-Card-title"></label>
+                    <label for="listpane-tickets-1"></label>
                 </span>
             </span>
 
@@ -1017,7 +980,7 @@ title: List Pane
             <span class="dp-LevelCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="listpane-tickets-2"></input>
-                    <label for="listpane-tickets-2" class="dp-Card-title"></label>
+                    <label for="listpane-tickets-2"></label>
                 </span>
             </span>
 
@@ -1051,7 +1014,7 @@ title: List Pane
             <span class="dp-LevelCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="listpane-tickets-3"></input>
-                    <label for="listpane-tickets-3" class="dp-Card-title"></label>
+                    <label for="listpane-tickets-3"></label>
                 </span>
             </span>
 
@@ -1084,7 +1047,7 @@ title: List Pane
             <span class="dp-LevelCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="listpane-tickets-4"></input>
-                    <label for="listpane-tickets-4" class="dp-Card-title"></label>
+                    <label for="listpane-tickets-4"></label>
                 </span>
             </span>
 
@@ -1119,7 +1082,7 @@ title: List Pane
             <span class="dp-LevelCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="listpane-tickets-5"></input>
-                    <label for="listpane-tickets-5" class="dp-Card-title"></label>
+                    <label for="listpane-tickets-5"></label>
                 </span>
             </span>
 
@@ -1153,7 +1116,7 @@ title: List Pane
             <span class="dp-LevelCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="listpane-tickets-6"></input>
-                    <label for="listpane-tickets-6" class="dp-Card-title"></label>
+                    <label for="listpane-tickets-6"></label>
                 </span>
             </span>
 
@@ -1186,7 +1149,7 @@ title: List Pane
             <span class="dp-LevelCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="listpane-tickets-7"></input>
-                    <label for="listpane-tickets-7" class="dp-Card-title"></label>
+                    <label for="listpane-tickets-7"></label>
                 </span>
             </span>
 
@@ -1220,7 +1183,7 @@ title: List Pane
             <span class="dp-LevelCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="listpane-tickets-8"></input>
-                    <label for="listpane-tickets-8" class="dp-Card-title"></label>
+                    <label for="listpane-tickets-8"></label>
                 </span>
             </span>
 
@@ -1257,7 +1220,7 @@ title: List Pane
             <span class="dp-LevelCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="listpane-tickets-9"></input>
-                    <label for="listpane-tickets-9" class="dp-Card-title"></label>
+                    <label for="listpane-tickets-9"></label>
                 </span>
             </span>
 
@@ -1291,7 +1254,7 @@ title: List Pane
             <span class="dp-LevelCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="listpane-tickets-10"></input>
-                    <label for="listpane-tickets-10" class="dp-Card-title"></label>
+                    <label for="listpane-tickets-10"></label>
                 </span>
             </span>
 
@@ -1331,7 +1294,7 @@ title: List Pane
             <span class="dp-LevelCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="listpane-tickets-11"></input>
-                    <label for="listpane-tickets-11" class="dp-Card-title"></label>
+                    <label for="listpane-tickets-11"></label>
                 </span>
             </span>
 
@@ -2389,7 +2352,7 @@ title: List Pane
             <span class="dp-LevelCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-4"></input>
-                    <label for="customCheckbox1-4" class="dp-Card-title"></label>
+                    <label for="customCheckbox1-4"></label>
                 </span>
             </span>
 
@@ -2422,7 +2385,7 @@ title: List Pane
             <span class="dp-LevelCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-5"></input>
-                    <label for="customCheckbox1-5" class="dp-Card-title"></label>
+                    <label for="customCheckbox1-5"></label>
                 </span>
             </span>
 
@@ -2456,7 +2419,7 @@ title: List Pane
             <span class="dp-LevelCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-6"></input>
-                    <label for="customCheckbox1-6" class="dp-Card-title"></label>
+                    <label for="customCheckbox1-6"></label>
                 </span>
             </span>
 
@@ -2489,7 +2452,7 @@ title: List Pane
             <span class="dp-LevelCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-7"></input>
-                    <label for="customCheckbox1-7" class="dp-Card-title"></label>
+                    <label for="customCheckbox1-7"></label>
                 </span>
             </span>
 
@@ -2524,7 +2487,7 @@ title: List Pane
             <span class="dp-LevelCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-8"></input>
-                    <label for="customCheckbox1-8" class="dp-Card-title"></label>
+                    <label for="customCheckbox1-8"></label>
                 </span>
             </span>
 
@@ -2558,7 +2521,7 @@ title: List Pane
             <span class="dp-LevelCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-9"></input>
-                    <label for="customCheckbox1-9" class="dp-Card-title"></label>
+                    <label for="customCheckbox1-9"></label>
                 </span>
             </span>
 
@@ -2591,7 +2554,7 @@ title: List Pane
             <span class="dp-LevelCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-10"></input>
-                    <label for="customCheckbox1-10" class="dp-Card-title"></label>
+                    <label for="customCheckbox1-10"></label>
                 </span>
             </span>
 
@@ -2625,7 +2588,7 @@ title: List Pane
             <span class="dp-LevelCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-11"></input>
-                    <label for="customCheckbox1-11" class="dp-Card-title"></label>
+                    <label for="customCheckbox1-11"></label>
                 </span>
             </span>
 
@@ -2791,9 +2754,9 @@ title: List Pane
                 <span class="dp-LevelItem Level-justify-between">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="tasksnew-1">
-                        <label for="tasksnew-1" class="dp-Card-title">
+                        <label for="tasksnew-1" class="">
                             <span class="dp-Icon dp-Approve is-completed"></span>
-                            <span class="dp-Label-title">Maintenance & Installation of Lighting System</span>
+                            <span class="dp-Label-title dp-Card-title">Maintenance & Installation of Lighting System</span>
                         </label>
                     </span>
                     <span class="dp-DateGroup">
@@ -2900,9 +2863,9 @@ title: List Pane
             <span class="dp-LevelItem Level-justify-between">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="tasksnew-2">
-                    <label for="tasksnew-2" class="dp-Card-title">
+                    <label for="tasksnew-2">
                         <span class="dp-Icon dp-Approve"></span>
-                        Maintenance & Installation of Lighting System
+                        <span class="dp-Card-title">Maintenance & Installation of Lighting System</span>
                     </label>
                 </span>
 
@@ -2936,13 +2899,7 @@ title: List Pane
             </span>
 
             <span class="dp-LevelItem Level-justify-between">
-<!--                 <span class="dp-UserInfo">
-                    <span class="dp-Icon dp-Visibility"></span>
-                    <span class="dp-UserName dp-Department">Department</span>
-                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-UserName">Me</span>
-                </span>
- -->                
+                
                 <ul class="dp-LevelWrap">
                     <li>
                         <span class="dp-Icon dp-Visibility"></span>
@@ -3018,7 +2975,7 @@ title: List Pane
             <span class="dp-LevelCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="settings-cog-0"></input>
-                    <label for="settings-cog-0" class="dp-Card-title"></label>
+                    <label for="settings-cog-0"></label>
                 </span>
             </span>
             <span class="dp-LevelCol">
@@ -3031,7 +2988,7 @@ title: List Pane
             <span class="dp-LevelCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="settings-cog-1"></input>
-                    <label for="settings-cog-1" class="dp-Card-title"></label>
+                    <label for="settings-cog-1"></label>
                 </span>
             </span>
 
@@ -3223,7 +3180,7 @@ title: List Pane
             <span class="dp-LevelCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="settings-cog-2"></input>
-                    <label for="settings-cog-2" class="dp-Card-title"></label>
+                    <label for="settings-cog-2"></label>
                 </span>
             </span>
 
@@ -3416,7 +3373,7 @@ title: List Pane
             <span class="dp-LevelCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="settings-cog-3"></input>
-                    <label for="settings-cog-3" class="dp-Card-title"></label>
+                    <label for="settings-cog-3"></label>
                 </span>
             </span>
 
@@ -3608,7 +3565,7 @@ title: List Pane
             <span class="dp-LevelCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="settings-cog-4"></input>
-                    <label for="settings-cog-4" class="dp-Card-title"></label>
+                    <label for="settings-cog-4"></label>
                 </span>
             </span>
 
@@ -3802,7 +3759,7 @@ title: List Pane
             <span class="dp-LevelCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="settings-cog-5"></input>
-                    <label for="settings-cog-5" class="dp-Card-title"></label>
+                    <label for="settings-cog-5"></label>
                 </span>
             </span>
 
@@ -4005,7 +3962,7 @@ title: List Pane
             <span class="dp-LevelCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="settings-cog-6"></input>
-                    <label for="settings-cog-6" class="dp-Card-title"></label>
+                    <label for="settings-cog-6"></label>
                 </span>
             </span>
 
@@ -4056,7 +4013,7 @@ title: List Pane
             <span class="dp-LevelCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="settings-cog-7"></input>
-                    <label for="settings-cog-7" class="dp-Card-title"></label>
+                    <label for="settings-cog-7"></label>
                 </span>
             </span>
 
@@ -4106,7 +4063,7 @@ title: List Pane
             <span class="dp-LevelCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="settings-cog-8"></input>
-                    <label for="settings-cog-8" class="dp-Card-title"></label>
+                    <label for="settings-cog-8"></label>
                 </span>
             </span>
             <span class="dp-LevelCol">
@@ -4162,7 +4119,7 @@ title: List Pane
                 <span class="dp-LevelCol">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="my-task-0"></input>
-                        <label for="my-task-0" class="dp-Card-title"></label>
+                        <label for="my-task-0"></label>
                     </span>
                 </span>
                 <span class="dp-LevelCol">
@@ -4175,9 +4132,9 @@ title: List Pane
                 <span class="dp-LevelItem Level-justify-between">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="my-task-1">
-                        <label for="my-task-1" class="dp-Card-title">
+                        <label for="my-task-1">
                             <span class="dp-Icon dp-Approve"></span>
-                            Maintenance & Installation of Lighting System
+                            <span class="dp-Card-title">Maintenance & Installation of Lighting System</span>
                         </label>
                     </span>
                     <span class="dp-DateGroup">
@@ -4283,9 +4240,9 @@ title: List Pane
                 <span class="dp-LevelItem Level-justify-between">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="my-task-2">
-                        <label for="my-task-2" class="dp-Card-title">
+                        <label for="my-task-2">
                             <span class="dp-Icon dp-Approve"></span>
-                            Maintenance & Installation of Lighting System
+                            <span class="dp-Card-title">Maintenance & Installation of Lighting System</span>
                         </label>
                     </span>
                     <span class="dp-DateGroup">
@@ -4381,9 +4338,9 @@ title: List Pane
                 <span class="dp-LevelItem Level-justify-between">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="my-task-3">
-                        <label for="my-task-3" class="dp-Card-title">
+                        <label for="my-task-3">
                             <span class="dp-Icon dp-Approve"></span>
-                            Maintenance & Installation of Lighting System
+                            <span class="dp-Card-title">Maintenance & Installation of Lighting System</span>
                         </label>
                     </span>
                     <span class="dp-DateGroup">
@@ -4479,9 +4436,9 @@ title: List Pane
                 <span class="dp-LevelItem Level-justify-between">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="my-task-4">
-                        <label for="my-task-4" class="dp-Card-title">
+                        <label for="my-task-4">
                             <span class="dp-Icon dp-Approve"></span>
-                            Maintenance & Installation of Lighting System
+                            <span class="dp-Card-title">Maintenance & Installation of Lighting System</span>
                         </label>
                     </span>
                     <span class="dp-DateGroup">
@@ -4601,7 +4558,7 @@ title: List Pane
                 <span class="dp-LevelCol">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="comment-0"></input>
-                        <label for="comment-0" class="dp-Card-title"></label>
+                        <label for="comment-0"></label>
                     </span>
                 </span>
                 <span class="dp-LevelCol">
@@ -4727,7 +4684,7 @@ title: List Pane
             <span class="dp-LevelCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="organizations-1"></input>
-                    <label for="organizations-1" class="dp-Card-title"></label>
+                    <label for="organizations-1"></label>
                 </span>
             </span>
 
@@ -4736,7 +4693,6 @@ title: List Pane
                     <span class="dp-Icon dp-IconPlane"></span>
                     <span class="dp-title">Warephase</span>
                 </span>
-                <!-- <span class="dp-Members"> -->
                 <span class="dp-Card-subtitle">
                     <span class="dp-Icon Icon--frame"></span>
                     <span class="dp-title">Members <span class="dp-qt">(6)</span></span>
@@ -4760,7 +4716,7 @@ title: List Pane
             <span class="dp-LevelCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="organizations-2"></input>
-                    <label for="organizations-2" class="dp-Card-title"></label>
+                    <label for="organizations-2"></label>
                 </span>
             </span>
 
@@ -4782,7 +4738,7 @@ title: List Pane
             <span class="dp-LevelCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="organizations-3"></input>
-                    <label for="organizations-3" class="dp-Card-title"></label>
+                    <label for="organizations-3"></label>
                 </span>
             </span>
 
@@ -4803,7 +4759,7 @@ title: List Pane
             <span class="dp-LevelCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="organizations-4"></input>
-                    <label for="organizations-4" class="dp-Card-title"></label>
+                    <label for="organizations-4"></label>
                 </span>
             </span>
 
@@ -4824,7 +4780,7 @@ title: List Pane
             <span class="dp-LevelCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="organizations-5"></input>
-                    <label for="organizations-5" class="dp-Card-title"></label>
+                    <label for="organizations-5"></label>
                 </span>
             </span>
 
@@ -4845,7 +4801,7 @@ title: List Pane
             <span class="dp-LevelCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="organizations-6"></input>
-                    <label for="organizations-6" class="dp-Card-title"></label>
+                    <label for="organizations-6"></label>
                 </span>
             </span>
 
@@ -4874,7 +4830,7 @@ title: List Pane
             <span class="dp-LevelCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="organizations-7"></input>
-                    <label for="organizations-7" class="dp-Card-title"></label>
+                    <label for="organizations-7"></label>
                 </span>
             </span>
 
@@ -4895,7 +4851,7 @@ title: List Pane
             <span class="dp-LevelCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="organizations-8"></input>
-                    <label for="organizations-8" class="dp-Card-title"></label>
+                    <label for="organizations-8"></label>
                 </span>
             </span>
 
@@ -4918,7 +4874,7 @@ title: List Pane
             <span class="dp-LevelCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="organizations-9"></input>
-                    <label for="organizations-9" class="dp-Card-title"></label>
+                    <label for="organizations-9"></label>
                 </span>
             </span>
 
@@ -4939,7 +4895,7 @@ title: List Pane
             <span class="dp-LevelCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="organizations-10"></input>
-                    <label for="organizations-10" class="dp-Card-title"></label>
+                    <label for="organizations-10"></label>
                 </span>
             </span>
 
@@ -4960,7 +4916,7 @@ title: List Pane
             <span class="dp-LevelCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="organizations-11"></input>
-                    <label for="organizations-11" class="dp-Card-title"></label>
+                    <label for="organizations-11"></label>
                 </span>
             </span>
 
@@ -4981,7 +4937,7 @@ title: List Pane
             <span class="dp-LevelCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="organizations-12"></input>
-                    <label for="organizations-12" class="dp-Card-title"></label>
+                    <label for="organizations-12"></label>
                 </span>
             </span>
 
@@ -5000,8 +4956,6 @@ title: List Pane
     </ul>
 </form>
 ```
-
-
 
 
 <h2>Listpane/tableview</h2>
@@ -8140,17 +8094,17 @@ title: List Pane
                 <span class="dp-LevelCol dp-LevelTop">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="cards-feedback-1"></input>
-                        <label for="cards-feedback-1" class="dp-Card-title"></label>
+                        <label for="cards-feedback-1"></label>
                     </span>
                 </span>
 
                 <span class="dp-LevelCol">
-                    <span class="dp-Card-title">
+                    <span class="dp-Title Title-Icon">
                         <ul class="dp-vote">
                             <li>38</li>
                             <li>votes</li>
                         </ul>
-                        Feedback title here
+                        <span class="dp-Card-title">Feedback title here</span>
                     </span>
 
                     <ul class="dp-LevelWrap">
@@ -8187,7 +8141,7 @@ title: List Pane
                 <span class="dp-LevelCol dp-LevelTop">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="cards-feedback-2"></input>
-                        <label for="cards-feedback-2" class="dp-Card-title"></label>
+                        <label for="cards-feedback-2"></label>
                     </span>
                 </span>
 
@@ -8230,14 +8184,14 @@ title: List Pane
                 <span class="dp-LevelCol dp-LevelTop">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="cards-feedback-1"></input>
-                        <label for="cards-feedback-1" class="dp-Card-title"></label>
+                        <label for="cards-feedback-1"></label>
                     </span>
                 </span>
 
                 <span class="dp-LevelCol">
-                    <span class="dp-Card-title">
+                    <span class="dp-Title Title-Icon">
                         <span class="dp-Icon dp-Acrobat"></span>
-                        Feedback_guide.pdf <span class="dp-qt">(56kb)</span>
+                        <span class="dp-Card-title">Feedback_guide.pdf <span class="dp-qt">(56kb)</span></span>
                     </span>
 
                     <ul class="dp-LevelWrap">
@@ -8273,7 +8227,7 @@ title: List Pane
             <span class="dp-LevelCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="glossary-1"></input>
-                    <label for="glossary-1" class="dp-Card-title"></label>
+                    <label for="glossary-1"></label>
                 </span>
             </span>
 

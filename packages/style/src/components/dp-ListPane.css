@@ -627,7 +627,7 @@ thead .dp-Card-title td {
 
 /* listpane/tasksnew */
 
-.dp-Card.dp-Tasks-list .dp-Card-title > .dp-Approve {
+.dp-Card.dp-Tasks-list label > .dp-Approve {
   background-size: 16px 16px;
   cursor: pointer;
   height: 16px;
@@ -635,7 +635,7 @@ thead .dp-Card-title td {
   width: 16px;
 }
 
-.dp-Card.dp-Tasks-list .dp-Card-title > .dp-Approve:hover {
+.dp-Card.dp-Tasks-list label > .dp-Approve:hover {
   fill: var(--brand-primary);
 }
 

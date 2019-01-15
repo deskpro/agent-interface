@@ -13,8 +13,10 @@
   width: 100%;
 }
 
-.dp-Card-title {
+.dp-Card-title, .dp-Title.Title-Icon {
+  border-bottom: 1px solid transparent;
   color: var(--grey-darkest);
+  cursor: pointer;
   font: var(--h-n-semibold);
   margin: 0 0 10px;
   overflow: hidden;
@@ -75,20 +77,34 @@
   border-left: 1px solid var(--grey-light);
 }
 
+.dp-Card.is-hover {
+  background-color: rgba(58, 141, 222, 0.07);
+}
+
 .dp-Card.is-selected.is-active {
   background-color: var(--info-light);
-  border-bottom: 1px solid var(--brand-primary);
 }
 
 .dp-Card.is-selected {
   background-color: var(--grey-lighter);
-  border-bottom: 1px solid var(--grey-dark);
+}
+
+.dp-Card.is-keyboard {
+  border-bottom: 1px solid var(--brand-primary);
+  border-top: 1px solid var(--brand-primary);
 }
 
 .dp-Card.is-dragging {
   background-color: var(--info-light);
   border: 1px solid var(--brand-primary);
   box-shadow: var(--shadow-bottom-right);
+}
+
+.is-hover-link .dp-Card-title,
+.dp-Card-title:hover {
+  border-bottom: 1px solid var(--brand-primary);
+  color: var(--brand-primary);
+  width: max-content;
 }
 
 .dp-CardList .dp-Card:hover {
