@@ -661,39 +661,46 @@ title: List Pane
 
 <!-- Pagination -->
 
-<h2>listpane/pagination-start</h2>
+## Listpane/pagination
+
 ```html @preview
-<div class="dp-Pagination">
-    <a href="#" class="dp-PageNumber is-active">1</a>
-    <a href="#" class="dp-PageNumber">2</a>
-    <a href="#" class="dp-PageNumber">3</a>
-    <a href="#" class="dp-PageNumber">4</a>
-    <a href="#" class="dp-PageNumber">5</a>
-    <a href="#" class="dp-PageNumber">6</a>
-    <a href="#" class="dp-PageNumber">7</a>
-    <span class="dp-BreakPagination">...</span>
-    <a href="#" class="dp-PageNumber">
-        <span class="dp-Icon dp-Infinity"></span>
-    </a>
-    <a href="#" class="dp-PaginationArrows"><span class="dp-Icon dp-arrowRight"></span></a>
-</div>
+<ul class="dp-Pagination">
+    <li><a href="#" class="dp-PaginationArrows"><span class="dp-Icon dp-arrowLeft"></span></a>
+    <li><a href="#" class="dp-PageNumber is-active">1</a></li>
+    <li><a href="#" class="dp-PageNumber">2</a></li>
+    <li><a href="#" class="dp-PageNumber">3</a></li>
+    <li><a href="#" class="dp-PageNumber">4</a></li>
+    <li><a href="#" class="dp-PageNumber">5</a></li>
+    <li><a href="#" class="dp-PageNumber">6</a></li>
+    <li><a href="#" class="dp-PageNumber">7</a></li>
+    <li><span class="dp-BreakPagination">...</span></li>
+    <li><a href="#" class="dp-PageNumber">75</a></li>
+    <li><a href="#" class="dp-PaginationArrows"><span class="dp-Icon dp-arrowRight"></span></a></li>
+
+    <li>
+        <ul class="dp-PageJump">
+            <li class="dp-title">Go to page</li>
+            <li class="dp-Form">
+                <input type="text" name="" class="dp-Input"></input>
+                <button class="dp-Button Button--small">Go</button>
+            </li>
+        </ul>
+    </li>
+</ul>
 ```
 
-<h2>listpane/pagination-midpage</h2>
 ```html @preview
-<div class="dp-Pagination dp-Pagination-two">
+<div class="dp-Pagination">
     <a href="#" class="dp-PaginationArrows"><span class="dp-Icon dp-arrowLeft"></span></a>
     <a href="#" class="dp-PageNumber">1</a>
     <span class="dp-BreakPagination">...</span>
+    <a href="#" class="dp-PageNumber">4</a>
     <a href="#" class="dp-PageNumber">5</a>
-    <a href="#" class="dp-PageNumber">6</a>
-    <span class="dp-PageNumber is-active">7</span>
+    <span class="dp-PageNumber is-active">6</span>
+    <a href="#" class="dp-PageNumber">7</a>
     <a href="#" class="dp-PageNumber">8</a>
-    <a href="#" class="dp-PageNumber">9</a>
     <span class="dp-BreakPagination">...</span>
-    <a href="#" class="dp-PageNumber">
-        <span class="dp-Icon dp-Infinity"></span>
-    </a>
+    <a href="#" class="dp-PageNumber">75</a>
     <a href="#" class="dp-PaginationArrows"><span class="dp-Icon dp-arrowRight"></span></a>
 </div>
 ```
@@ -708,7 +715,7 @@ title: List Pane
         </li>
 
         <!-- 1 -->
-        <li class="dp-Card dp-Level is-active">
+        <li class="dp-Card dp-Level">
             <span class="dp-LevelCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="listpane-tickets-1"></input>
@@ -978,7 +985,7 @@ title: List Pane
         </li>
 
         <li class="dp-Card-SectionTitle">
-            <span>Sales</span>
+            <span>Support</span>
         </li>
 
         <!-- 9 -->
@@ -4492,8 +4499,7 @@ title: List Pane
 </div>
 ```
 
-
-<h4>Listpane/back-to-organizations</h4>
+## Listpane/CRM
 
 ```html @preview
 <form>

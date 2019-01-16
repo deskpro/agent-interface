@@ -413,38 +413,6 @@ title: Card
 </div>
 ```
 
-<h4>Listpane/cards-checked</h4>
-```html @preview
-<div class="dp-MainWrapper">
-    <form>
-        <ul class="dp-CardList">
-            <li class="dp-Card dp-Level">
-
-                <span class="dp-LevelCol">
-                    <span class="dp-Card-title">Card title here</span>
-                    <span class="dp-UserInfo">
-                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                        <span class="dp-UserName">Single-line item</span>
-                    </span>
-                </span>
-
-                <span class="dp-LevelCol dp-LevelRight">
-                    <span class="dp-IconGroup">
-                        <span class="Icon--circle dp-iconBug"></span>
-                        <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
-                        <span class="dp-Icon Icon--clock Icon--primary"></span>
-                    </span>
-                    <span class="dp-TimeStatus">
-                        <span class="dp-Tag Tag--small Tag--danger">Failed</span>
-                    </span>
-                </span>
-
-            </li>
-        </ul>
-    </form>
-</div>
-```
-
 <h4>Listpane/cards-keyboard-select</h4>
 ```html @preview
 
