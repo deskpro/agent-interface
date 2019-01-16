@@ -260,9 +260,10 @@
     color: var(--white);
   }
 
-  &.Tag--info {
-    background-color: var(--info);
-    color: var(--white);
+  &.Tag--info-light {
+    background-color: var(--info-light);
+    border: 1px solid var(--info-light);
+    color: var(--grey-darkest);
   }
 
   &.Tag--warning-light {
@@ -306,8 +307,8 @@
   }
 
   &.Tag--danger {
-    background: #e84954;
-    border: 1px solid #e84954;
+    background: var(--danger);
+    border: 1px solid var(--danger);
     color: var(--white);
   }
 
@@ -315,6 +316,12 @@
     background: var(--neutral);
     border: 1px solid var(--neutral);
     color: var(--white);
+  }
+
+  &.Tag--neutral-light {
+    background: var(--neutral-light);
+    border: 1px solid var(--neutral-light);
+    color: var(--grey-darkest);
   }
 
   &.Tag--small {

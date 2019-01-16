@@ -659,241 +659,7 @@ title: List Pane
 </div>
 ```
 
-<!-- Demo grid Level -->
-
-<h4>Demo grid Level - Col </h4>
-```html @preview
-<div class="dp-MainWrapper">
-    <form>
-        <ul class="dp-CardList">
-            <li class="dp-Card dp-Level">
-
-                <span class="dp-LevelItem dp-LevelCol dp-LevelTop">
-                    <span class="dp-CustomCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="customCheckbox0-0"></input>
-                        <label for="customCheckbox0-0"></label>
-                    </span>
-                </span>
-
-                <span class="dp-LevelCol">
-                    <span class="dp-Card-title">Card title here</span>
-
-                    <span class="dp-UserInfo">
-                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                        <span class="dp-UserName">Single-line item</span>
-                    </span>
-                </span>
-
-                <span class="dp-LevelCol dp-LevelRight">
-                    <span class="dp-IconGroup">
-                        <span class="Icon--circle dp-iconBug"></span>
-                        <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
-                        <span class="dp-Icon Icon--clock Icon--primary"></span>
-                    </span>
-                    <span class="dp-TimeStatus">
-                        <span class="dp-Tag Tag--small Tag--danger">Failed</span>
-                    </span>
-                </span>
-
-            </li>
-        </ul>
-    </form>
-</div>
-```
-
-<h4>Demo grid Level - Row </h4>
-```html @preview
-
-<div class="dp-MainWrapper">
-    <form>
-        <ul class="dp-CardList Card--row">
-            <li class="dp-Card">
-                <span class="dp-LevelItem Level-justify-between">
-                    <span class="dp-CustomCheckbox dp-LevelLeft dp-LevelTop">
-                        <input type="checkbox" class="dp-ControlInput" id="customCheckbox0-1"></input>
-                        <label for="customCheckbox0-1"><span class="dp-Card-title">Card title here</span></label>
-                    </span>
-                    <span class="dp-IconGroup dp-LevelRight">
-                        <span class="Icon--circle dp-iconBug"></span>
-                        <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
-                        <span class="dp-Icon Icon--clock Icon--primary"></span>
-                    </span>
-                </span>
-                <span class="dp-LevelItem Level-justify-between dp-LevelBottom">
-                    <span class="dp-UserInfo">
-                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                        <span class="dp-UserName">Single-line item</span>
-                    </span>
-                    <span class="dp-TimeStatus">
-                        <span class="dp-Tag Tag--small Tag--danger">Failed</span>
-                    </span>
-                </span>
-            </li>
-        </ul>
-    </form>
-</div>
-```
-
-<h4>list-pane/agent-viewing-small</h4>
-```html @preview
-<div class="dp-MainWrapper">
-    <form>
-        <ul class="dp-CardList">
-            <li class="dp-Card dp-Level">
-
-                <span class="dp-LevelCol">
-                    <span class="dp-CustomCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-1"></input>
-                        <label for="customCheckbox1-1"></label>
-                    </span>
-                </span>
-
-                <span class="dp-LevelCol">
-                    <span class="dp-Card-title">Card title here</span>
-
-                    <span class="dp-UserInfo">
-                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                        <span class="dp-UserName">Single-line item</span>
-                    </span>
-                </span>
-
-                <span class="dp-LevelCol dp-LevelRight">
-                    <span class="dp-IconGroup">
-                        <span class="Icon--circle dp-iconBug"></span>
-                        <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
-                        <span class="dp-Icon Icon--clock Icon--primary"></span>
-                    </span>
-                    <span class="dp-TimeStatus">
-                        <span class="dp-Tag Tag--small Tag--danger">Failed</span>
-                    </span>
-                </span>
-
-            </li>
-        </ul>
-    </form>
-</div>
-```
-
-<h4>list-pane/agent-viewing-large</h4>
-```html @preview
-<div class="dp-MainWrapper">
-    <form>
-        <ul class="dp-CardList">
-            <li class="dp-Card dp-Level">
-
-                <span class="dp-LevelCol">
-                    <span class="dp-CustomCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-2"></input>
-                        <label for="customCheckbox1-2"></label>
-                    </span>
-                </span>
-
-                <span class="dp-LevelCol">
-                    <span class="dp-Card-title">Card title here</span>
-
-                    <span class="dp-UserInfo">
-                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                        <span class="dp-UserName">Single-line item</span>
-                    </span>
-                </span>
-
-                <span class="dp-LevelCol dp-LevelRight">
-                    <span class="dp-IconGroup">
-                        <span class="Icon--circle dp-iconBug"></span>
-                        <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
-                        <span class="dp-Icon Icon--clock Icon--primary"></span>
-                    </span>
-                    <span class="dp-TimeStatus">
-                        <span class="dp-Tag Tag--small Tag--danger">Failed</span>
-                    </span>
-                </span>
-
-            </li>
-        </ul>
-    </form>
-</div>
-```
-
-<h4>list-pane/agent-writing-small</h4>
-```html @preview
-
-<div class="dp-MainWrapper">
-    <form>
-        <ul class="dp-CardList">
-            <li class="dp-Card dp-Level">
-
-                <span class="dp-LevelCol">
-                    <span class="dp-CustomCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-3"></input>
-                        <label for="customCheckbox1-3"></label>
-                    </span>
-                </span>
-
-                <span class="dp-LevelCol">
-                    <span class="dp-Card-title">Card title here</span>
-
-                    <span class="dp-UserInfo">
-                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                        <span class="dp-UserName">Single-line item</span>
-                    </span>
-                </span>
-
-                <span class="dp-LevelCol dp-LevelRight">
-                    <span class="dp-IconGroup">
-                        <span class="Icon--circle dp-iconBug"></span>
-                        <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
-                        <span class="dp-Icon Icon--clock Icon--primary"></span>
-                    </span>
-                    <span class="dp-TimeStatus">
-                        <span class="dp-Tag Tag--small Tag--danger">Failed</span>
-                    </span>
-                </span>
-
-            </li>
-        </ul>
-    </form>
-</div>
-```
-
-<h4>list-pane/agent-writing-large</h4>
-```html @preview
-<div class="dp-MainWrapper">
-    <form>
-        <ul class="dp-CardList">
-            <li class="dp-Card dp-Level">
-
-                <span class="dp-LevelCol">
-                    <span class="dp-CustomCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="agent-writing-2"></input>
-                        <label for="agent-writing-2"></label>
-                    </span>
-                </span>
-
-                <span class="dp-LevelCol">
-                    <span class="dp-Card-title">Card title here</span>
-
-                    <span class="dp-UserInfo">
-                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                        <span class="dp-UserName">Single-line item</span>
-                    </span>
-                </span>
-
-                <span class="dp-LevelCol dp-LevelRight">
-                    <span class="dp-IconGroup">
-                        <span class="Icon--circle dp-iconBug"></span>
-                        <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
-                        <span class="dp-Icon Icon--clock Icon--primary"></span>
-                    </span>
-                    <span class="dp-TimeStatus">
-                        <span class="dp-Tag Tag--small Tag--danger">Failed</span>
-                    </span>
-                </span>
-
-            </li>
-        </ul>
-    </form>
-</div>
-```
+<!-- Pagination -->
 
 <h2>listpane/pagination-start</h2>
 ```html @preview
@@ -4548,7 +4314,8 @@ title: List Pane
 
 <!-- COMMENTS -->
 
-<h4>COMMENTS</h4>
+## Cards/comments
+
 ```html @preview
 <div class="dp-MainWrapper">
     <form>
@@ -4673,6 +4440,59 @@ title: List Pane
 </div>
 ```
 
+## Cards/listreveal
+```html @preview
+<div class="dp-MainWrapper">
+    <form>
+        <ul class="dp-CardList">
+            <li class="dp-Card dp-Level dp-listreveal">
+
+                <span class="dp-LevelItem dp-LevelCol dp-LevelTop">
+                    <span class="dp-CustomCheckbox">
+                        <input type="checkbox" class="dp-ControlInput" id="listreveal-0"></input>
+                        <label for="listreveal-0"></label>
+                    </span>
+                </span>
+
+                <span class="dp-LevelCol">
+                    <span class="dp-Card-title">Card title here</span>
+                    <span class="dp-UserInfo">
+                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                        <span class="dp-UserName">Single-line item</span>
+                    </span>
+
+                    <ul class="dp-TagWrap">
+                        <li class="dp-Tag Tag--small Tag--info-light">a: value</li>
+                        <li class="dp-Tag Tag--small Tag--neutral-light">b: value</li>
+                        <li class="dp-Tag Tag--small Tag--info-light">c: value</li>
+                        <li>
+                            <button class="dp-Arrow dp-Comments-title is-active"></button>
+                            <ul class="dp-Comments">
+                                <li>
+                                    <span class="dp-Tag Tag--small Tag--info-light">a: value</span>
+                                    <span class="dp-description">Description text</span>
+                                </li>
+                                <li>
+                                    <span class="dp-Tag Tag--small Tag--neutral-light">b: value</span>
+                                    <span class="dp-description">Description text</span>
+                                </li>
+                                <li>
+                                    <span class="dp-Tag Tag--small Tag--info-light">c: value</span>
+                                    <span class="dp-description">Description text</span>
+                                </li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </span>
+
+            </li>
+        </ul>
+    </form>
+</div>
+```
+
+
 <h4>Listpane/back-to-organizations</h4>
 
 ```html @preview
@@ -4689,9 +4509,9 @@ title: List Pane
             </span>
 
             <span class="dp-LevelCol">
-                <span class="dp-Card-title">
+                <span class="dp-Title Title-Icon dp-LevelTop">
                     <span class="dp-Icon dp-IconPlane"></span>
-                    <span class="dp-title">Warephase</span>
+                    <span class="dp-Card-title">Warephase</span>
                 </span>
                 <span class="dp-Card-subtitle">
                     <span class="dp-Icon Icon--frame"></span>
@@ -4705,7 +4525,7 @@ title: List Pane
                     <span class="dp-Badge Badge--round Badge--white"></span>
                     <span class="dp-Icon Icon--clock Icon--primary"></span>
                 </span>
-                <span class="dp-TimeStatus">
+                <span class="dp-TimeStatus dp-LevelBottom">
                     <span class="dp-Tag Tag--small Tag--danger">Failed</span>
                 </span>
             </span>
@@ -4721,9 +4541,9 @@ title: List Pane
             </span>
 
             <span class="dp-LevelCol">
-                <span class="dp-Card-title">
+                <span class="dp-Title Title-Icon dp-LevelTop">
                     <span class="dp-Icon dp-IconPlane"></span>
-                    <span class="dp-title">Faxquote</span>
+                    <span class="dp-Card-title">Faxquote</span>
                 </span>
 
                 <span class="dp-Card-subtitle">
@@ -4743,10 +4563,11 @@ title: List Pane
             </span>
 
             <span class="dp-LevelCol">
-                <span class="dp-Card-title">
+                <span class="dp-Title Title-Icon dp-LevelTop">
                     <span class="dp-Icon dp-IconPlane"></span>
-                    <span class="dp-title">Zencorporation</span>
+                    <span class="dp-Card-title">Zencorporation</span>
                 </span>
+
                 <span class="dp-Card-subtitle">
                     <span class="dp-Icon Icon--frame"></span>
                     <span class="dp-title">Members <span class="dp-qt">(1)</span></span>
@@ -4764,10 +4585,11 @@ title: List Pane
             </span>
 
             <span class="dp-LevelCol">
-                <span class="dp-Card-title">
+                <span class="dp-Title Title-Icon dp-LevelTop">
                     <span class="dp-Icon dp-IconPlane"></span>
-                    <span class="dp-title">Plusstrip</span>
+                    <span class="dp-Card-title">Plusstrip</span>
                 </span>
+
                 <span class="dp-Card-subtitle">
                     <span class="dp-Icon Icon--frame"></span>
                     <span class="dp-title">Members <span class="dp-qt">(6)</span></span>
@@ -4785,10 +4607,11 @@ title: List Pane
             </span>
 
             <span class="dp-LevelCol">
-                <span class="dp-Card-title">
+                <span class="dp-Title Title-Icon dp-LevelTop">
                     <span class="dp-Icon dp-IconPlane"></span>
-                    <span class="dp-title">Iselectrics</span>
+                    <span class="dp-Card-title">Iselectrics</span>
                 </span>
+
                 <span class="dp-Card-subtitle">
                     <span class="dp-Icon Icon--frame"></span>
                     <span class="dp-title">Members <span class="dp-qt">(12)</span></span>
@@ -4806,10 +4629,11 @@ title: List Pane
             </span>
 
             <span class="dp-LevelCol">
-                <span class="dp-Card-title">
+                <span class="dp-Title Title-Icon dp-LevelTop">
                     <span class="dp-Icon dp-IconPlane"></span>
-                    <span class="dp-title">Donware</span>
+                    <span class="dp-Card-title">Donware</span>
                 </span>
+
                 <span class="dp-Card-subtitle">
                     <span class="dp-Icon Icon--frame"></span>
                     <span class="dp-title">Members <span class="dp-qt">(7)</span></span>
@@ -4835,10 +4659,11 @@ title: List Pane
             </span>
 
             <span class="dp-LevelCol">
-                <span class="dp-Card-title">
+                <span class="dp-Title Title-Icon dp-LevelTop">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-title">Shayne Bowens</span>
+                    <span class="dp-Card-title">Shayne Bowens</span>
                 </span>
+
                 <span class="dp-Card-subtitle">
                     <span class="dp-Icon Icon--email"></span>
                     <span class="dp-title">Tickets <span class="dp-qt">(2)</span></span>
@@ -4856,9 +4681,9 @@ title: List Pane
             </span>
 
             <span class="dp-LevelCol">
-                <span class="dp-Card-title">
+                <span class="dp-Title Title-Icon dp-LevelTop">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-title">Maryrose Ferranti</span>
+                    <span class="dp-Card-title">Maryrose Ferranti</span>
                 </span>
 
                 <span class="dp-Card-subtitle">
@@ -4879,10 +4704,11 @@ title: List Pane
             </span>
 
             <span class="dp-LevelCol">
-                <span class="dp-Card-title">
+                <span class="dp-Title Title-Icon dp-LevelTop">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-title">Syble Danos</span>
+                    <span class="dp-Card-title">Syble Danos</span>
                 </span>
+
                 <span class="dp-Card-subtitle">
                     <span class="dp-Icon Icon--email"></span>
                     <span class="dp-title">Tickets <span class="dp-qt">(3)</span></span>
@@ -4900,10 +4726,11 @@ title: List Pane
             </span>
 
             <span class="dp-LevelCol">
-                <span class="dp-Card-title">
+                <span class="dp-Title Title-Icon dp-LevelTop">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-title">Donella Hendriks</span>
+                    <span class="dp-Card-title">Donella Hendriks</span>
                 </span>
+
                 <span class="dp-Card-subtitle">
                     <span class="dp-Icon Icon--email"></span>
                     <span class="dp-title">Tickets <span class="dp-qt">(2)</span></span>
@@ -4921,9 +4748,9 @@ title: List Pane
             </span>
 
             <span class="dp-LevelCol">
-                <span class="dp-Card-title">
+                <span class="dp-Title Title-Icon dp-LevelTop">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-title">Leonardo Mckee</span>
+                    <span class="dp-Card-title">Leonardo Mckee</span>
                 </span>
                 <span class="dp-Card-subtitle">
                     <span class="dp-Icon Icon--email"></span>
@@ -4942,9 +4769,9 @@ title: List Pane
             </span>
 
             <span class="dp-LevelCol">
-                <span class="dp-Card-title">
+                <span class="dp-Title Title-Icon dp-LevelTop">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-title">Glynis Marquette</span>
+                    <span class="dp-Card-title">Glynis Marquette</span>
                 </span>
                 <span class="dp-Card-subtitle">
                     <span class="dp-Icon Icon--email"></span>

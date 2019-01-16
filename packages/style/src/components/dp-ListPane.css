@@ -832,6 +832,10 @@ thead .dp-Card-title td {
   text-decoration: underline;
 }
 
+.dp-LevelWrap .dp-Icon + .dp-UserName {
+  margin-left: 5px;
+}
+
 .dp-Tasks-list .dp-LevelWrap > li .dp-Icon {
   margin-right: 5px;
 }
@@ -1085,4 +1089,45 @@ input:disabled + label {
 .dp-Card-description {
   color: var(--grey-dark);
   font: var(--p-xl);
+}
+
+/* Cards/listreveal */
+
+.dp-listreveal .dp-TagWrap {
+  align-items: center;
+  display: flex;
+  list-style: none;
+  margin: 10px 0 0;
+  padding: 0;
+}
+
+.dp-listreveal .dp-TagWrap .dp-Tag {
+  font: var(--p-s);
+  margin: 0 10px 0 0;
+  padding: 5px 0;
+  text-align: center;
+  width: 60px;
+}
+
+.dp-listreveal .dp-TagWrap .dp-Comments > li {
+  display: block;
+}
+
+.dp-listreveal .dp-TagWrap .dp-Comments > li:not(:last-child) {
+  margin: 0 0 10px;
+}
+
+.dp-TagWrap .dp-description {
+  color: var(--grey-darkest);
+  font: var(--p-n);
+}
+
+.dp-listreveal .dp-Comments::before {
+  left: 223px;
+  right: auto;
+}
+
+.dp-listreveal .dp-Comments::after {
+  left: 222px;
+  right: auto;
 }
