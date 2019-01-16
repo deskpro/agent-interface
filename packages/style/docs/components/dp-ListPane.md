@@ -2,7 +2,431 @@
 title: List Pane
 ---
 
-<h2>Listpane/general</h2>
+## listpane/tickets
+
+```html @preview
+<form>
+    <ul class="dp-CardList is-hoverable">
+        
+        <li class="dp-Card-SectionTitle">
+            <span>Sales</span>
+        </li>
+
+        <!-- 1 -->
+        <li class="dp-Card dp-Level">
+            <span class="dp-LevelCol">
+                <span class="dp-CustomCheckbox">
+                    <input type="checkbox" class="dp-ControlInput" id="listpane-tickets-1"></input>
+                    <label for="listpane-tickets-1"></label>
+                </span>
+            </span>
+
+            <span class="dp-LevelCol">
+                <span class="dp-Title Title-Icon">
+                    <span class="dp-Card-title">SSO Information</span>
+                    <span class="dp-Icon Icon--star"></span>
+                </span>
+                <span class="dp-UserInfo">
+                    <span class="dp-Icon dp-iconUserAvatar"></span>
+                    <span class="dp-UserName">Kenneth James
+                    </span>
+                    <a href="mailto:kenneth@windfarms.com" class="dp-UserEmail">
+                        &lt;kenneth@windfarms.com&gt;
+                    </a>
+                </span>
+            </span>
+
+            <span class="dp-LevelCol dp-LevelRight">
+                <span class="dp-IconGroup">
+
+                    <span class="Icon--circle dp-iconBug"></span>
+                    <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
+                    <span class="dp-Icon Icon--clock Icon--primary"></span>
+                </span>
+                <span class="dp-TimeStatus">
+                    <span class="dp-Tag Tag--small Tag--danger">Failed</span>
+                </span>
+            </span>
+        </li>
+
+        <!-- 2 -->
+        <li class="dp-Card dp-Level">
+            <span class="dp-LevelCol">
+                <span class="dp-CustomCheckbox">
+                    <input type="checkbox" class="dp-ControlInput" id="listpane-tickets-2"></input>
+                    <label for="listpane-tickets-2"></label>
+                </span>
+            </span>
+
+            <span class="dp-LevelCol">
+                <span class="dp-Card-title">Portal disabled landing page</span>
+
+                <span class="dp-UserInfo">
+                    <span class="dp-Icon dp-iconUserAvatar"></span>
+                    <span class="dp-UserName">Mark Jarvis
+                    </span>
+                    <a href="mailto:mjarvis@econorob.nl" class="dp-UserEmail">
+                        &lt;mjarvis@econorob.nl&gt;
+                    </a>
+                </span>
+            </span>
+
+            <span class="dp-LevelCol dp-LevelRight">
+                <span class="dp-IconGroup">
+                    <span class="Icon--circle dp-rocket Icon-grey-darkest"></span>
+                    <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
+                    <span class="dp-Badge Badge--round Badge--warning">9</span>
+                </span>
+                <span class="dp-TimeStatus">
+                    <span class="dp-Tag Tag--small Tag--pink">3 hours</span>
+                </span>
+            </span>
+        </li>
+
+        <!-- 3 -->
+        <li class="dp-Card dp-Level">
+            <span class="dp-LevelCol">
+                <span class="dp-CustomCheckbox">
+                    <input type="checkbox" class="dp-ControlInput" id="listpane-tickets-3"></input>
+                    <label for="listpane-tickets-3"></label>
+                </span>
+            </span>
+
+            <span class="dp-LevelCol">
+                <span class="dp-Title Title-Icon">
+                    <span class="dp-Card-title">Inventory component</span>
+                    <span class="dp-Icon Icon--star"></span>
+                </span>
+
+                <span class="dp-UserInfo">
+                    <span class="dp-Icon dp-iconUserAvatar"></span>
+                    <span class="dp-UserName">Toby Falkirk
+                    </span>
+                    <a href="mailto:t.falkirk@rambling.com" class="dp-UserEmail">
+                        &lt;t.falkirk@rambling.com&gt;
+                    </a>
+                </span>
+            </span>
+
+            <span class="dp-LevelCol dp-LevelRight">
+                <span class="dp-IconGroup">
+                    <span class="dp-Icon dp-iconUserAvatar"></span>
+                    <span class="dp-Badge Badge--round Badge-Min Icon-warning"></span>
+                </span>
+                <span class="dp-TimeStatus">
+                    <span>2 hr 16 min</span>
+                </span>
+            </span>
+        </li>
+
+        <!-- 4 -->
+        <li class="dp-Card dp-Level">
+            <span class="dp-LevelCol">
+                <span class="dp-CustomCheckbox">
+                    <input type="checkbox" class="dp-ControlInput" id="listpane-tickets-4"></input>
+                    <label for="listpane-tickets-4"></label>
+                </span>
+            </span>
+
+            <span class="dp-LevelCol">
+                <span class="dp-Card-title">AW: Need some help?</span>
+
+                <span class="dp-UserInfo">
+                    <span class="dp-Icon dp-iconUserAvatar"></span>
+                    <span class="dp-UserName">Kenneth James
+                    </span>
+                    <a href="mailto:kenneth@windfarms.com" class="dp-UserEmail">
+                        &lt;kenneth@windfarms.com&gt;
+                    </a>
+                </span>
+            </span>
+
+            <span class="dp-LevelCol dp-LevelRight">
+                <span class="dp-IconGroup">
+                    <span class="dp-Icon dp-iconLock"></span>
+                    <span class="Icon--circle dp-iconMln"></span>
+                    <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
+                    <span class="dp-Badge Badge--round Badge--warning">9</span>
+                </span>
+                <span class="dp-TimeStatus">
+                    <span>57 mins</span>
+                </span>
+            </span>
+        </li>
+
+        <!-- 5 -->
+        <li class="dp-Card dp-Level">
+            <span class="dp-LevelCol">
+                <span class="dp-CustomCheckbox">
+                    <input type="checkbox" class="dp-ControlInput" id="listpane-tickets-5"></input>
+                    <label for="listpane-tickets-5"></label>
+                </span>
+            </span>
+
+            <span class="dp-LevelCol">
+                <span class="dp-Card-title">Portal disabled landing page</span>
+
+                <span class="dp-UserInfo">
+                    <span class="dp-Icon dp-iconUserAvatar"></span>
+                    <span class="dp-UserName">Mark Jarvis
+                    </span>
+                    <a href="mailto:mjarvis@econorob.nl" class="dp-UserEmail">
+                        &lt;mjarvis@econorob.nl&gt;
+                    </a>
+                </span>
+            </span>
+
+            <span class="dp-LevelCol dp-LevelRight">
+                <span class="dp-IconGroup">
+                    <span class="Icon--circle dp-iconMln"></span>
+                    <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
+                    <span class="dp-Badge Badge--round Badge--warning">7</span>
+                </span>
+                <span class="dp-TimeStatus">
+                    <span class="dp-Tag Tag--small Tag--danger">2 hours</span>
+                </span>
+            </span>
+        </li>
+        
+        <!-- 6 -->
+        <li class="dp-Card dp-Level">
+            <span class="dp-LevelCol">
+                <span class="dp-CustomCheckbox">
+                    <input type="checkbox" class="dp-ControlInput" id="listpane-tickets-6"></input>
+                    <label for="listpane-tickets-6"></label>
+                </span>
+            </span>
+
+            <span class="dp-LevelCol">
+                <span class="dp-Title Title-Icon">
+                    <span class="dp-Card-title">Enjoying your helpdesk?</span>
+                    <span class="dp-Icon Icon--star"></span>
+                </span>
+
+                <span class="dp-UserInfo">
+                    <span class="dp-Icon dp-iconUserAvatar"></span>
+                    <span class="dp-UserName">Toby Falkirk
+                    </span>
+                    <a href="mailto:t.falkirk@rambling.com" class="dp-UserEmail">
+                        &lt;t.falkirk@rambling.com&gt;
+                    </a>
+                </span>
+            </span>
+
+            <span class="dp-LevelCol dp-LevelRight">
+                <span class="dp-IconGroup">
+                    <span class="Icon--circle dp-iconMln"></span>
+                    <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
+                    <span class="dp-Badge Badge--round Badge-Min Icon-neutral"></span>
+                </span>
+                <span class="dp-TimeStatus">
+                    <span>43 mins</span>
+                </span>
+            </span>
+        </li>
+
+        <!-- 7 -->
+        <li class="dp-Card dp-Level">
+            <span class="dp-LevelCol">
+                <span class="dp-CustomCheckbox">
+                    <input type="checkbox" class="dp-ControlInput" id="listpane-tickets-7"></input>
+                    <label for="listpane-tickets-7"></label>
+                </span>
+            </span>
+
+            <span class="dp-LevelCol">
+                <span class="dp-Card-title">Product enquiry</span>
+                <span class="dp-UserInfo">
+                    <span class="dp-Icon dp-iconUserAvatar"></span>
+                    <span class="dp-UserName">Kenneth James
+                    </span>
+                    <a href="mailto:kenneth@windfarms.com" class="dp-UserEmail">
+                        &lt;kenneth@windfarms.com&gt;
+                    </a>
+                </span>
+            </span>
+
+            <span class="dp-LevelCol dp-LevelRight">
+                <span class="dp-IconGroup">
+
+                    <span class="Icon--circle dp-iconBug"></span>
+                    <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
+                    <span class="dp-Icon Icon--clock Icon--primary"></span>
+                </span>
+                <span class="dp-TimeStatus">
+                    <span class="dp-Tag Tag--small Tag--danger">Failed</span>
+                </span>
+            </span>
+        </li>
+
+        <!-- 8 -->
+        <li class="dp-Card dp-Level">
+            <span class="dp-LevelCol">
+                <span class="dp-CustomCheckbox">
+                    <input type="checkbox" class="dp-ControlInput" id="listpane-tickets-8"></input>
+                    <label for="listpane-tickets-8"></label>
+                </span>
+            </span>
+
+            <span class="dp-LevelCol">
+                <span class="dp-Title Title-Icon">
+                    <span class="dp-Card-title">Allow anyone to email support</span>
+                    <span class="dp-Icon Icon--star"></span>
+                </span>
+
+                <span class="dp-UserInfo">
+                    <span class="dp-Icon dp-iconUserAvatar"></span>
+                    <span class="dp-UserName">Mark Jarvis
+                    </span>
+                    <a href="mailto:mjarvis@econorob.nl" class="dp-UserEmail">
+                        &lt;mjarvis@econorob.nl&gt;
+                    </a>
+                </span>
+            </span>
+
+            <span class="dp-LevelCol dp-LevelRight">
+                <span class="dp-IconGroup">
+                    <span class="Icon--circle dp-iconMln"></span>
+                    <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
+                    <span class="dp-Badge Badge--round Badge--neutral">6</span>
+                </span>
+                <span class="dp-TimeStatus">
+                    <span>43 mins</span>
+                </span>
+            </span>
+        </li>
+
+        <li class="dp-Card-SectionTitle">
+            <span>Support</span>
+        </li>
+
+        <!-- 9 -->
+        <li class="dp-Card dp-Level">
+            <span class="dp-LevelCol">
+                <span class="dp-CustomCheckbox">
+                    <input type="checkbox" class="dp-ControlInput" id="listpane-tickets-9"></input>
+                    <label for="listpane-tickets-9"></label>
+                </span>
+            </span>
+
+            <span class="dp-LevelCol">
+                <span class="dp-Card-title">Inventory component</span>
+
+                <span class="dp-UserInfo">
+                    <span class="dp-Icon dp-iconUserAvatar"></span>
+                    <span class="dp-UserName">Toby Falkirk
+                    </span>
+                    <a href="mailto:t.falkirk@rambling.com" class="dp-UserEmail">
+                        &lt;t.falkirk@rambling.com&gt;
+                    </a>
+                </span>
+            </span>
+
+            <span class="dp-LevelCol dp-LevelRight">
+                <span class="dp-IconGroup">
+                    <span class="Icon--circle dp-rocket Icon-grey-darkest"></span>
+                    <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
+                    <span class="dp-Badge Badge--round Badge--warning">9</span>
+                </span>
+                <span class="dp-TimeStatus">
+                    <span>12 hr 43 min</span>
+                </span>
+            </span>
+        </li>
+
+        <!-- 10 -->
+        <li class="dp-Card dp-Level">
+            <span class="dp-LevelCol">
+                <span class="dp-CustomCheckbox">
+                    <input type="checkbox" class="dp-ControlInput" id="listpane-tickets-10"></input>
+                    <label for="listpane-tickets-10"></label>
+                </span>
+            </span>
+
+            <span class="dp-LevelCol">
+                <span class="dp-Title Title-Icon">
+                    <span class="dp-Card-title">Enjoying your helpdesk?</span>
+                    <span class="dp-Icon Icon--star"></span>
+                </span>
+
+                <span class="dp-UserInfo">
+                    <span class="dp-Icon dp-iconUserAvatar"></span>
+                    <span class="dp-UserName">Kenneth James
+                    </span>
+                    <a href="mailto:kenneth@windfarms.com" class="dp-UserEmail">
+                        &lt;kenneth@windfarms.com&gt;
+                    </a>
+                </span>
+
+                <span class="dp-JustifyStart">
+                    <span class="dp-Meta">Department: <span class="dp-Meta-value">Support</span></span>
+                    <span class="dp-Meta">Language: <span class="dp-Meta-value">Italiano</span></span>
+                    <span class="dp-Meta">Last reply: <span class="dp-Meta-value">9 weeks ago</span></span>
+                </span>
+
+            </span>
+
+            <span class="dp-LevelCol dp-LevelTop dp-LevelRight">
+                <span class="dp-IconGroup">
+                    <span class="Icon--circle dp-iconMln"></span>
+                    <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
+                    <span class="dp-Badge Badge--round Badge-Min Icon-neutral"></span>
+                </span>
+                <span class="dp-TimeStatus">
+                    <span>4 weeks</span>
+                </span>
+            </span>
+        </li>
+
+        <!-- 11 -->
+        <li class="dp-Card dp-Level">
+            <span class="dp-LevelCol">
+                <span class="dp-CustomCheckbox">
+                    <input type="checkbox" class="dp-ControlInput" id="listpane-tickets-11"></input>
+                    <label for="listpane-tickets-11"></label>
+                </span>
+            </span>
+
+            <span class="dp-LevelCol">
+                <span class="dp-Card-title">Inventory component</span>
+                <span class="dp-UserInfo">
+                    <span class="dp-Icon dp-iconUserAvatar"></span>
+                    <span class="dp-UserName">Mark Jarvis
+                    </span>
+                    <a href="mailto:mjarvis@econorob.nl" class="dp-UserEmail">
+                        &lt;mjarvis@econorob.nl&gt;
+                    </a>
+                </span>
+                <span class="dp-TagBar dp-JustifyStart">
+                    <span class="dp-Tag Tag--close">Custom work<span class="dp-Icon dp-close"></span></span>
+                    <span class="dp-Tag Tag--close">Report back on bug fix<span class="dp-Icon dp-close"></span></span>
+                    <span class="dp-Tag Tag--close Tag--purple">VIP<span class="dp-Icon dp-close"></span></span>
+                    <button class="dp-Button Button--label">
+                        Labels<span class="dp-Icon dp-IconPlusBtn"></span>
+                    </button>
+                </span>
+                <span class="dp-JustifyStart">
+                    <span class="dp-Meta">Department: <span class="dp-Meta-value">Support</span></span>
+                    <span class="dp-Meta">Language: <span class="dp-Meta-value">Italiano</span></span>
+                    <span class="dp-Meta">Last reply: <span class="dp-Meta-value">9 weeks ago</span></span>
+                </span>
+            </span>
+
+            <span class="dp-LevelCol dp-LevelTop dp-LevelRight">
+                <span class="dp-IconGroup">
+                    <span class="Icon--circle dp-rocket Icon-grey-darkest"></span>
+                    <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
+                    <span class="dp-Badge Badge--round Badge--warning">9</span>
+                </span>
+                <span class="dp-TimeStatus">
+                    <span>12 hr 43 min</span>
+                </span>
+            </span>
+        </li>
+
+    </ul>
+</form>
+```
 
 <h4>listpane/column-controls</h4>
 ```html @preview
@@ -703,413 +1127,6 @@ title: List Pane
     <a href="#" class="dp-PageNumber">75</a>
     <a href="#" class="dp-PaginationArrows"><span class="dp-Icon dp-arrowRight"></span></a>
 </div>
-```
-
-<h2>listpane/tickets</h2>
-```html @preview
-<form>
-    <ul class="dp-CardList is-hoverable">
-        
-        <li class="dp-Card-SectionTitle">
-            <span>Sales</span>
-        </li>
-
-        <!-- 1 -->
-        <li class="dp-Card dp-Level">
-            <span class="dp-LevelCol">
-                <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="listpane-tickets-1"></input>
-                    <label for="listpane-tickets-1"></label>
-                </span>
-            </span>
-
-            <span class="dp-LevelCol">
-                <span class="dp-Card-title">SSO Information<span class="dp-Icon Icon--star"></span></span>
-                <span class="dp-UserInfo">
-                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-UserName">Kenneth James
-                    </span>
-                    <a href="mailto:kenneth@windfarms.com" class="dp-UserEmail">
-                        &lt;kenneth@windfarms.com&gt;
-                    </a>
-                </span>
-            </span>
-
-            <span class="dp-LevelCol dp-LevelRight">
-                <span class="dp-IconGroup">
-
-                    <span class="Icon--circle dp-iconBug"></span>
-                    <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
-                    <span class="dp-Icon Icon--clock Icon--primary"></span>
-                </span>
-                <span class="dp-TimeStatus">
-                    <span class="dp-Tag Tag--small Tag--danger">Failed</span>
-                </span>
-            </span>
-        </li>
-
-        <!-- 2 -->
-        <li class="dp-Card dp-Level">
-            <span class="dp-LevelCol">
-                <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="listpane-tickets-2"></input>
-                    <label for="listpane-tickets-2"></label>
-                </span>
-            </span>
-
-            <span class="dp-LevelCol">
-                <span class="dp-Card-title">Portal disabled landing page</span>
-
-                <span class="dp-UserInfo">
-                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-UserName">Mark Jarvis
-                    </span>
-                    <a href="mailto:mjarvis@econorob.nl" class="dp-UserEmail">
-                        &lt;mjarvis@econorob.nl&gt;
-                    </a>
-                </span>
-            </span>
-
-            <span class="dp-LevelCol dp-LevelRight">
-                <span class="dp-IconGroup">
-                    <span class="Icon--circle dp-rocket Icon-grey-darkest"></span>
-                    <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
-                    <span class="dp-Badge Badge--round Badge--warning">9</span>
-                </span>
-                <span class="dp-TimeStatus">
-                    <span class="dp-Tag Tag--small Tag--pink">3 hours</span>
-                </span>
-            </span>
-        </li>
-
-        <!-- 3 -->
-        <li class="dp-Card dp-Level">
-            <span class="dp-LevelCol">
-                <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="listpane-tickets-3"></input>
-                    <label for="listpane-tickets-3"></label>
-                </span>
-            </span>
-
-            <span class="dp-LevelCol">
-                <span class="dp-Card-title">Inventory component<span class="dp-Icon Icon--star"></span></span>
-
-                <span class="dp-UserInfo">
-                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-UserName">Toby Falkirk
-                    </span>
-                    <a href="mailto:t.falkirk@rambling.com" class="dp-UserEmail">
-                        &lt;t.falkirk@rambling.com&gt;
-                    </a>
-                </span>
-            </span>
-
-            <span class="dp-LevelCol dp-LevelRight">
-                <span class="dp-IconGroup">
-                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-Badge Badge--round Badge-Min Icon-warning"></span>
-                </span>
-                <span class="dp-TimeStatus">
-                    <span>2 hr 16 min</span>
-                </span>
-            </span>
-        </li>
-
-        <!-- 4 -->
-        <li class="dp-Card dp-Level">
-            <span class="dp-LevelCol">
-                <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="listpane-tickets-4"></input>
-                    <label for="listpane-tickets-4"></label>
-                </span>
-            </span>
-
-            <span class="dp-LevelCol">
-                <span class="dp-Card-title">AW: Need some help?</span>
-
-                <span class="dp-UserInfo">
-                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-UserName">Kenneth James
-                    </span>
-                    <a href="mailto:kenneth@windfarms.com" class="dp-UserEmail">
-                        &lt;kenneth@windfarms.com&gt;
-                    </a>
-                </span>
-            </span>
-
-            <span class="dp-LevelCol dp-LevelRight">
-                <span class="dp-IconGroup">
-                    <span class="dp-Icon dp-iconLock"></span>
-                    <span class="Icon--circle dp-iconMln"></span>
-                    <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
-                    <span class="dp-Badge Badge--round Badge--warning">9</span>
-                </span>
-                <span class="dp-TimeStatus">
-                    <span>57 mins</span>
-                </span>
-            </span>
-        </li>
-
-        <!-- 5 -->
-        <li class="dp-Card dp-Level">
-            <span class="dp-LevelCol">
-                <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="listpane-tickets-5"></input>
-                    <label for="listpane-tickets-5"></label>
-                </span>
-            </span>
-
-            <span class="dp-LevelCol">
-                <span class="dp-Card-title">Portal disabled landing page</span>
-
-                <span class="dp-UserInfo">
-                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-UserName">Mark Jarvis
-                    </span>
-                    <a href="mailto:mjarvis@econorob.nl" class="dp-UserEmail">
-                        &lt;mjarvis@econorob.nl&gt;
-                    </a>
-                </span>
-            </span>
-
-            <span class="dp-LevelCol dp-LevelRight">
-                <span class="dp-IconGroup">
-                    <span class="Icon--circle dp-iconMln"></span>
-                    <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
-                    <span class="dp-Badge Badge--round Badge--warning">7</span>
-                </span>
-                <span class="dp-TimeStatus">
-                    <span class="dp-Tag Tag--small Tag--danger">2 hours</span>
-                </span>
-            </span>
-        </li>
-        
-        <!-- 6 -->
-        <li class="dp-Card dp-Level">
-            <span class="dp-LevelCol">
-                <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="listpane-tickets-6"></input>
-                    <label for="listpane-tickets-6"></label>
-                </span>
-            </span>
-
-            <span class="dp-LevelCol">
-                <span class="dp-Card-title">Enjoying your helpdesk?<span class="dp-Icon Icon--star"></span></span>
-                <span class="dp-UserInfo">
-                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-UserName">Toby Falkirk
-                    </span>
-                    <a href="mailto:t.falkirk@rambling.com" class="dp-UserEmail">
-                        &lt;t.falkirk@rambling.com&gt;
-                    </a>
-                </span>
-            </span>
-
-            <span class="dp-LevelCol dp-LevelRight">
-                <span class="dp-IconGroup">
-                    <span class="Icon--circle dp-iconMln"></span>
-                    <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
-                    <span class="dp-Badge Badge--round Badge-Min Icon-neutral"></span>
-                </span>
-                <span class="dp-TimeStatus">
-                    <span>43 mins</span>
-                </span>
-            </span>
-        </li>
-
-        <!-- 7 -->
-        <li class="dp-Card dp-Level">
-            <span class="dp-LevelCol">
-                <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="listpane-tickets-7"></input>
-                    <label for="listpane-tickets-7"></label>
-                </span>
-            </span>
-
-            <span class="dp-LevelCol">
-                <span class="dp-Card-title">Product enquiry</span>
-                <span class="dp-UserInfo">
-                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-UserName">Kenneth James
-                    </span>
-                    <a href="mailto:kenneth@windfarms.com" class="dp-UserEmail">
-                        &lt;kenneth@windfarms.com&gt;
-                    </a>
-                </span>
-            </span>
-
-            <span class="dp-LevelCol dp-LevelRight">
-                <span class="dp-IconGroup">
-
-                    <span class="Icon--circle dp-iconBug"></span>
-                    <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
-                    <span class="dp-Icon Icon--clock Icon--primary"></span>
-                </span>
-                <span class="dp-TimeStatus">
-                    <span class="dp-Tag Tag--small Tag--danger">Failed</span>
-                </span>
-            </span>
-        </li>
-
-        <!-- 8 -->
-        <li class="dp-Card dp-Level">
-            <span class="dp-LevelCol">
-                <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="listpane-tickets-8"></input>
-                    <label for="listpane-tickets-8"></label>
-                </span>
-            </span>
-
-            <span class="dp-LevelCol">
-                <span class="dp-Card-title">Allow anyone to email support<span class="dp-Icon Icon--star"></span></span>
-                <span class="dp-UserInfo">
-                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-UserName">Mark Jarvis
-                    </span>
-                    <a href="mailto:mjarvis@econorob.nl" class="dp-UserEmail">
-                        &lt;mjarvis@econorob.nl&gt;
-                    </a>
-                </span>
-            </span>
-
-            <span class="dp-LevelCol dp-LevelRight">
-                <span class="dp-IconGroup">
-                    <span class="Icon--circle dp-iconMln"></span>
-                    <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
-                    <span class="dp-Badge Badge--round Badge--neutral">6</span>
-                </span>
-                <span class="dp-TimeStatus">
-                    <span>43 mins</span>
-                </span>
-            </span>
-        </li>
-
-        <li class="dp-Card-SectionTitle">
-            <span>Support</span>
-        </li>
-
-        <!-- 9 -->
-        <li class="dp-Card dp-Level">
-            <span class="dp-LevelCol">
-                <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="listpane-tickets-9"></input>
-                    <label for="listpane-tickets-9"></label>
-                </span>
-            </span>
-
-            <span class="dp-LevelCol">
-                <span class="dp-Card-title">Inventory component</span>
-
-                <span class="dp-UserInfo">
-                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-UserName">Toby Falkirk
-                    </span>
-                    <a href="mailto:t.falkirk@rambling.com" class="dp-UserEmail">
-                        &lt;t.falkirk@rambling.com&gt;
-                    </a>
-                </span>
-            </span>
-
-            <span class="dp-LevelCol dp-LevelRight">
-                <span class="dp-IconGroup">
-                    <span class="Icon--circle dp-rocket Icon-grey-darkest"></span>
-                    <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
-                    <span class="dp-Badge Badge--round Badge--warning">9</span>
-                </span>
-                <span class="dp-TimeStatus">
-                    <span>12 hr 43 min</span>
-                </span>
-            </span>
-        </li>
-
-        <!-- 10 -->
-        <li class="dp-Card dp-Level">
-            <span class="dp-LevelCol">
-                <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="listpane-tickets-10"></input>
-                    <label for="listpane-tickets-10"></label>
-                </span>
-            </span>
-
-            <span class="dp-LevelCol">
-                <span class="dp-Card-title">Enjoying your helpdesk?<span class="dp-Icon Icon--star"></span></span>
-                <span class="dp-UserInfo">
-                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-UserName">Kenneth James
-                    </span>
-                    <a href="mailto:kenneth@windfarms.com" class="dp-UserEmail">
-                        &lt;kenneth@windfarms.com&gt;
-                    </a>
-                </span>
-
-                <span class="dp-JustifyStart">
-                    <span class="dp-Meta">Department: <span class="dp-Meta-value">Support</span></span>
-                    <span class="dp-Meta">Language: <span class="dp-Meta-value">Italiano</span></span>
-                    <span class="dp-Meta">Last reply: <span class="dp-Meta-value">9 weeks ago</span></span>
-                </span>
-
-            </span>
-
-            <span class="dp-LevelCol dp-LevelTop dp-LevelRight">
-                <span class="dp-IconGroup">
-                    <span class="Icon--circle dp-iconMln"></span>
-                    <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
-                    <span class="dp-Badge Badge--round Badge-Min Icon-neutral"></span>
-                </span>
-                <span class="dp-TimeStatus">
-                    <span>4 weeks</span>
-                </span>
-            </span>
-        </li>
-
-        <!-- 11 -->
-        <li class="dp-Card dp-Level">
-            <span class="dp-LevelCol">
-                <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="listpane-tickets-11"></input>
-                    <label for="listpane-tickets-11"></label>
-                </span>
-            </span>
-
-            <span class="dp-LevelCol">
-                <span class="dp-Card-title">Inventory component</span>
-                <span class="dp-UserInfo">
-                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-UserName">Mark Jarvis
-                    </span>
-                    <a href="mailto:mjarvis@econorob.nl" class="dp-UserEmail">
-                        &lt;mjarvis@econorob.nl&gt;
-                    </a>
-                </span>
-                <span class="dp-TagBar dp-JustifyStart">
-                    <span class="dp-Tag Tag--close">Custom work<span class="dp-Icon dp-close"></span></span>
-                    <span class="dp-Tag Tag--close">Report back on bug fix<span class="dp-Icon dp-close"></span></span>
-                    <span class="dp-Tag Tag--close Tag--purple">VIP<span class="dp-Icon dp-close"></span></span>
-                    <button class="dp-Button Button--label">
-                        Labels<span class="dp-Icon dp-IconPlusBtn"></span>
-                    </button>
-                </span>
-                <span class="dp-JustifyStart">
-                    <span class="dp-Meta">Department: <span class="dp-Meta-value">Support</span></span>
-                    <span class="dp-Meta">Language: <span class="dp-Meta-value">Italiano</span></span>
-                    <span class="dp-Meta">Last reply: <span class="dp-Meta-value">9 weeks ago</span></span>
-                </span>
-            </span>
-
-            <span class="dp-LevelCol dp-LevelTop dp-LevelRight">
-                <span class="dp-IconGroup">
-                    <span class="Icon--circle dp-rocket Icon-grey-darkest"></span>
-                    <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
-                    <span class="dp-Badge Badge--round Badge--warning">9</span>
-                </span>
-                <span class="dp-TimeStatus">
-                    <span>12 hr 43 min</span>
-                </span>
-            </span>
-        </li>
-
-    </ul>
-</form>
 ```
 
 <h4>listpane/rightclick</h4>

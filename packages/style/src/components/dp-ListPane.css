@@ -149,12 +149,22 @@
 
 /* Star */
 
-.dp-Card-title .Icon--star,
+.dp-Title .Icon--star,
 .dp-SubjectItem .Icon--star {
   background-size: 12px 12px;
   height: 12px;
   margin-left: 15px;
   width: 12px;
+}
+
+.dp-Title.Title-Icon {
+  align-items: center;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.dp-Title.Title-Icon .dp-Card-title {
+  margin-bottom: 0;
 }
 
 .dp-Tableview .dp-Card-title td {
@@ -242,6 +252,26 @@
   border-radius: 2px;
   color: var(--grey-darkest);
   font: var(--p-n);
+  height: 20px;
+  margin-left: 10px;
+  margin-right: 5px;
+  max-width: 24px;
+  position: relative;
+  text-align: center;
+}
+
+.dp-PageJump .dp-Input::before {
+  background-color: var(--grey-light);
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1px;
+}
+
+.dp-PageJump .dp-Input:focus {
+  border: 1px solid var(--brand-primary);
 }
 
 .dp-GroupSortBar {

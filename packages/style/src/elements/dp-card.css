@@ -13,16 +13,17 @@
   width: 100%;
 }
 
-.dp-Card-title, .dp-Title.Title-Icon {
+.dp-Card-title {
   border-bottom: 1px solid transparent;
   color: var(--grey-darkest);
   cursor: pointer;
   font: var(--h-n-semibold);
-  line-height: 1;
   margin: 0 0 10px;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+
+  /* line-height: 1; */
 }
 
 .dp-Card-SectionTitle {
@@ -72,6 +73,8 @@
 
 .dp-Card.dp-Level .dp-LevelCol:last-child {
   flex: 1 0 auto;
+
+  justify-content: space-between;
 }
 
 .dp-Listpane-guides .dp-Card {
@@ -322,7 +325,7 @@
   padding-left: 23px;
 }
 
-.dp-Title.Title-Icon .dp-Card-title {
+/* .dp-Title.Title-Icon .dp-Card-title {
   margin-bottom: 0;
   margin-left: 5px;
-}
+} */
