@@ -436,6 +436,7 @@
 }
 
 .dp-Menu .dp-Menu-linkItem:hover > .dp-Menu {
+  border-top-left-radius: 0;
   display: block;
   left: 100%;
   top: 0;

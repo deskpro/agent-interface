@@ -36,7 +36,7 @@ title: List Pane
                 </span>
             </span>
 
-            <span class="dp-LevelCol dp-LevelRight">
+            <span class="dp-LevelCol dp-LevelRight Level-justify-between">
                 <span class="dp-IconGroup">
 
                     <span class="Icon--circle dp-iconBug"></span>
@@ -71,7 +71,7 @@ title: List Pane
                 </span>
             </span>
 
-            <span class="dp-LevelCol dp-LevelRight">
+            <span class="dp-LevelCol dp-LevelRight Level-justify-between">
                 <span class="dp-IconGroup">
                     <span class="Icon--circle dp-rocket Icon-grey-darkest"></span>
                     <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
@@ -108,7 +108,7 @@ title: List Pane
                 </span>
             </span>
 
-            <span class="dp-LevelCol dp-LevelRight">
+            <span class="dp-LevelCol dp-LevelRight Level-justify-between">
                 <span class="dp-IconGroup">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
                     <span class="dp-Badge Badge--round Badge-Min Icon-warning"></span>
@@ -141,7 +141,7 @@ title: List Pane
                 </span>
             </span>
 
-            <span class="dp-LevelCol dp-LevelRight">
+            <span class="dp-LevelCol dp-LevelRight Level-justify-between">
                 <span class="dp-IconGroup">
                     <span class="dp-Icon dp-iconLock"></span>
                     <span class="Icon--circle dp-iconMln"></span>
@@ -176,7 +176,7 @@ title: List Pane
                 </span>
             </span>
 
-            <span class="dp-LevelCol dp-LevelRight">
+            <span class="dp-LevelCol dp-LevelRight Level-justify-between">
                 <span class="dp-IconGroup">
                     <span class="Icon--circle dp-iconMln"></span>
                     <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
@@ -213,7 +213,7 @@ title: List Pane
                 </span>
             </span>
 
-            <span class="dp-LevelCol dp-LevelRight">
+            <span class="dp-LevelCol dp-LevelRight Level-justify-between">
                 <span class="dp-IconGroup">
                     <span class="Icon--circle dp-iconMln"></span>
                     <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
@@ -246,7 +246,7 @@ title: List Pane
                 </span>
             </span>
 
-            <span class="dp-LevelCol dp-LevelRight">
+            <span class="dp-LevelCol dp-LevelRight Level-justify-between">
                 <span class="dp-IconGroup">
 
                     <span class="Icon--circle dp-iconBug"></span>
@@ -284,7 +284,7 @@ title: List Pane
                 </span>
             </span>
 
-            <span class="dp-LevelCol dp-LevelRight">
+            <span class="dp-LevelCol dp-LevelRight Level-justify-between">
                 <span class="dp-IconGroup">
                     <span class="Icon--circle dp-iconMln"></span>
                     <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
@@ -322,7 +322,7 @@ title: List Pane
                 </span>
             </span>
 
-            <span class="dp-LevelCol dp-LevelRight">
+            <span class="dp-LevelCol dp-LevelRight Level-justify-between">
                 <span class="dp-IconGroup">
                     <span class="Icon--circle dp-rocket Icon-grey-darkest"></span>
                     <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
@@ -366,7 +366,7 @@ title: List Pane
 
             </span>
 
-            <span class="dp-LevelCol dp-LevelTop dp-LevelRight">
+            <span class="dp-LevelCol dp-LevelTop dp-LevelRight Level-justify-between">
                 <span class="dp-IconGroup">
                     <span class="Icon--circle dp-iconMln"></span>
                     <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
@@ -1099,7 +1099,7 @@ title: List Pane
     <li><a href="#" class="dp-PageNumber">7</a></li>
     <li><span class="dp-BreakPagination">...</span></li>
     <li><a href="#" class="dp-PageNumber">75</a></li>
-    <li><a href="#" class="dp-PaginationArrows"><span class="dp-Icon dp-arrowRight"></span></a></li>
+    <li><a href="#" class="dp-PaginationArrows"><span class="dp-Icon dp-arrowRight Icon--primary"></span></a></li>
 
     <li>
         <ul class="dp-PageJump">
@@ -1114,19 +1114,55 @@ title: List Pane
 ```
 
 ```html @preview
-<div class="dp-Pagination">
-    <a href="#" class="dp-PaginationArrows"><span class="dp-Icon dp-arrowLeft"></span></a>
-    <a href="#" class="dp-PageNumber">1</a>
-    <span class="dp-BreakPagination">...</span>
-    <a href="#" class="dp-PageNumber">4</a>
-    <a href="#" class="dp-PageNumber">5</a>
-    <span class="dp-PageNumber is-active">6</span>
-    <a href="#" class="dp-PageNumber">7</a>
-    <a href="#" class="dp-PageNumber">8</a>
-    <span class="dp-BreakPagination">...</span>
-    <a href="#" class="dp-PageNumber">75</a>
-    <a href="#" class="dp-PaginationArrows"><span class="dp-Icon dp-arrowRight"></span></a>
-</div>
+<ul class="dp-Pagination">
+    <li><a href="#" class="dp-PaginationArrows"><span class="dp-Icon dp-arrowLeft Icon--primary"></span></a>
+    <li><a href="#" class="dp-PageNumber">1</a></li>
+    <li><span class="dp-BreakPagination">...</span></li>
+    <li><a href="#" class="dp-PageNumber">4</a></li>
+    <li><a href="#" class="dp-PageNumber">5</a></li>
+    <li><a href="#" class="dp-PageNumber is-active">6</a></li>
+    <li><a href="#" class="dp-PageNumber">7</a></li>
+    <li><a href="#" class="dp-PageNumber">8</a></li>
+    <li><span class="dp-BreakPagination">...</span></li>
+    <li><a href="#" class="dp-PageNumber">75</a></li>
+    <li><a href="#" class="dp-PaginationArrows"><span class="dp-Icon dp-arrowRight Icon--primary"></span></a></li>
+
+    <li>
+        <ul class="dp-PageJump">
+            <li class="dp-title">Go to page</li>
+            <li class="dp-Form">
+                <input type="text" name="" class="dp-Input"></input>
+                <button class="dp-Button Button--small">Go</button>
+            </li>
+        </ul>
+    </li>
+</ul>
+```
+
+```html @preview
+<ul class="dp-Pagination">
+    <li><a href="#" class="dp-PaginationArrows"><span class="dp-Icon dp-arrowLeft Icon--primary"></span></a>
+    <li><a href="#" class="dp-PageNumber">1</a></li>
+    <li><span class="dp-BreakPagination">...</span></li>
+    <li><a href="#" class="dp-PageNumber">69</a></li>
+    <li><a href="#" class="dp-PageNumber">70</a></li>
+    <li><a href="#" class="dp-PageNumber">71</a></li>
+    <li><a href="#" class="dp-PageNumber">72</a></li>
+    <li><a href="#" class="dp-PageNumber">73</a></li>
+    <li><a href="#" class="dp-PageNumber">74</a></li>
+    <li><a href="#" class="dp-PageNumber is-active">75</a></li>
+    <li><a href="#" class="dp-PaginationArrows"><span class="dp-Icon dp-arrowRight"></span></a></li>
+
+    <li>
+        <ul class="dp-PageJump">
+            <li class="dp-title">Go to page</li>
+            <li class="dp-Form">
+                <input type="text" name="" class="dp-Input" value="22"></input>
+                <button class="dp-Button Button--small">Go</button>
+            </li>
+        </ul>
+    </li>
+</ul>
 ```
 
 <h4>listpane/rightclick</h4>
@@ -1297,8 +1333,8 @@ title: List Pane
 <ul class="dp-FilterControlsList newControlsList dp-GroupSortBar">
     <li class="dp-ListPane">
         <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-            <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-04"></input>
-            <label for="customCheckbox1-04"></label>
+            <input type="checkbox" class="dp-ControlInput" id="sorting-bar-0"></input>
+            <label for="sorting-bar-0"></label>
         </span>
     </li>
     <li class="dp-ListPane dp-DropDownItem">
@@ -2793,7 +2829,7 @@ title: List Pane
                 </span>
             </span>
 
-            <span class="dp-LevelCol dp-LevelRight">
+            <span class="dp-LevelCol dp-LevelRight Level-justify-between">
                 <span class="dp-IconGroup">
                     <span class="Icon--circle dp-iconBug"></span>
                     <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
@@ -2954,12 +2990,10 @@ title: List Pane
                             </li>
                         </ul>
                     </li>
-
                     <li class="dp-DropdownDivider"></li>
                     <li class="dp-Menu-linkItem">Place on hold</li>
                     <li class="dp-Menu-linkItem">Lock</li>
                     <li class="dp-Menu-linkItem">Unlock</li>
-
                 </ul>
             </span>
 
@@ -2986,7 +3020,7 @@ title: List Pane
                 </span>
             </span>
 
-            <span class="dp-LevelCol dp-LevelRight">
+            <span class="dp-LevelCol dp-LevelRight Level-justify-between">
                 <span class="dp-IconGroup">
                     <span class="Icon--circle dp-rocket Icon-grey-darkest"></span>
                     <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
@@ -3147,12 +3181,10 @@ title: List Pane
                             </li>
                         </ul>
                     </li>
-
                     <li class="dp-DropdownDivider"></li>
                     <li class="dp-Menu-linkItem">Place on hold</li>
                     <li class="dp-Menu-linkItem">Lock</li>
                     <li class="dp-Menu-linkItem">Unlock</li>
-
                 </ul>
             </span>
 
@@ -3179,7 +3211,7 @@ title: List Pane
                 </span>
             </span>
 
-            <span class="dp-LevelCol dp-LevelRight">
+            <span class="dp-LevelCol dp-LevelRight Level-justify-between">
                 <span class="dp-IconGroup">
                     <span class="dp-Icon dp-iconUserAvatar"></span>
                     <span class="dp-Badge Badge--round Badge-Min Icon-warning"></span>
@@ -3339,12 +3371,10 @@ title: List Pane
                             </li>
                         </ul>
                     </li>
-
                     <li class="dp-DropdownDivider"></li>
                     <li class="dp-Menu-linkItem">Place on hold</li>
                     <li class="dp-Menu-linkItem">Lock</li>
                     <li class="dp-Menu-linkItem">Unlock</li>
-
                 </ul>
             </span>
 
@@ -3371,7 +3401,7 @@ title: List Pane
                 </span>
             </span>
 
-            <span class="dp-LevelCol dp-LevelRight">
+            <span class="dp-LevelCol dp-LevelRight Level-justify-between">
                 <span class="dp-IconGroup">
                     <span class="dp-Icon dp-iconLock"></span>
                     <span class="Icon--circle dp-iconMln"></span>
@@ -3533,12 +3563,10 @@ title: List Pane
                             </li>
                         </ul>
                     </li>
-
                     <li class="dp-DropdownDivider"></li>
                     <li class="dp-Menu-linkItem">Place on hold</li>
                     <li class="dp-Menu-linkItem">Lock</li>
                     <li class="dp-Menu-linkItem">Unlock</li>
-
                 </ul>
             </span>
 
@@ -3565,7 +3593,7 @@ title: List Pane
                 </span>
             </span>
 
-            <span class="dp-LevelCol dp-LevelRight">
+            <span class="dp-LevelCol dp-LevelRight Level-justify-between">
                 <span class="dp-IconGroup">
                     <span class="Icon--circle dp-iconMln"></span>
                     <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
@@ -3726,12 +3754,10 @@ title: List Pane
                             </li>
                         </ul>
                     </li>
-
                     <li class="dp-DropdownDivider"></li>
                     <li class="dp-Menu-linkItem">Place on hold</li>
                     <li class="dp-Menu-linkItem">Lock</li>
                     <li class="dp-Menu-linkItem">Unlock</li>
-
                 </ul>
             </span>
         </li>

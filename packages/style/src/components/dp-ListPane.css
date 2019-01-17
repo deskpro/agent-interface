@@ -167,6 +167,10 @@
   margin-bottom: 0;
 }
 
+.dp-Title.Title-Icon .dp-Icon + .dp-Card-title {
+  margin-left: 5px;
+}
+
 .dp-Tableview .dp-Card-title td {
   font: var(--h-s-semibold);
 }
@@ -242,8 +246,27 @@
 }
 
 .dp-PageJump {
+  align-items: center;
+  display: flex;
   list-style: none;
   padding: 0;
+  padding-left: 10px;
+  position: relative;
+}
+
+.dp-PageJump::after {
+  background-color: var(--grey-light);
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1px;
+}
+
+.dp-PageJump .dp-title {
+  color: var(--grey-darkest);
+  font: var(--p-n);
 }
 
 .dp-PageJump .dp-Input {
@@ -260,23 +283,31 @@
   text-align: center;
 }
 
-.dp-PageJump .dp-Input::before {
-  background-color: var(--grey-light);
-  content: "";
-  height: 100%;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 1px;
+.dp-PageJump .dp-Input:focus {
+  border: 1px solid var(--brand-primary);
 }
 
-.dp-PageJump .dp-Input:focus {
+.dp-PageJump .dp-Input + .dp-Button {
+  background-color: var(--grey-light);
+  border: 1px solid var(--grey-light);
+}
+
+.dp-PageJump .dp-Input:focus + .dp-Button {
+  background-color: var(--brand-primary);
   border: 1px solid var(--brand-primary);
 }
 
 .dp-GroupSortBar {
   display: flex;
   justify-content: space-between;
+}
+
+.dp-PaginationArrows .dp-Icon.dp-arrowLeft svg + .dp-PageNumber {
+  fill: var(--brand-primary);
+}
+
+.dp-PaginationArrows .dp-Icon.dp-arrowLeft svg + .dp-PageNumber.is-active {
+  fill: var(--grey-light);
 }
 
 /* listpane/kanban-view */
@@ -704,15 +735,20 @@ thead .dp-Card-title td {
 
 .dp-Card .dp-settings {
   background-color: var(--info-light);
+  background-position: 50% 50%;
+  background-size: 14px 14px;
   border: 1px solid var(--grey-light);
   border-radius: 50%;
   cursor: pointer;
-  margin-bottom: 2px;
-  padding: 8px;
+  height: 18px;
+  width: 18px;
 }
 
 .dp-Cog .is-active + .dp-Menu {
   display: block;
+  margin-left: 4px;
+  margin-top: 2px;
+  padding: 10px 0;
 }
 
 .dp-Cog .dp-Menu {
@@ -1065,7 +1101,7 @@ input:disabled + label {
 .dp-vote {
   border: 1px solid var(--brand-primary);
   border-radius: var(--border-radius);
-  display: inline-block;
+  display: flex;
   list-style: none;
   margin-right: 10px;
   padding: 0;

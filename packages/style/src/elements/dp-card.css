@@ -73,8 +73,6 @@
 
 .dp-Card.dp-Level .dp-LevelCol:last-child {
   flex: 1 0 auto;
-
-  justify-content: space-between;
 }
 
 .dp-Listpane-guides .dp-Card {
@@ -111,8 +109,13 @@
   width: max-content;
 }
 
+.dp-CardList .dp-Card {
+  border-right: 1px solid transparent;
+}
+
 .dp-CardList .dp-Card:hover {
   background-color: rgba(58, 141, 222, 0.07);
+  border-right: 1px solid var(--grey-light);
 }
 
 .dp-Listpane-guides .Level--down {
