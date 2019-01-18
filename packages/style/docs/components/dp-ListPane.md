@@ -1648,7 +1648,7 @@ title: List Pane
                 </td>
                 <td>83995</td>
                 <td class="dp-SubjectItem">
-                    <span>SSO Information</span>
+                    <a class="dp-Card-title">SSO Information</a>
                     <span class="dp-Icon Icon--star"></span>
                 </td>
                 <td>&nbsp;</td>
@@ -1677,7 +1677,7 @@ title: List Pane
                     </span>
                 </td>
                 <td>12345</td>
-                <td class="dp-SubjectItem"><span>Portal disabled landing page</span></td>
+                <td class="dp-SubjectItem"><span class="dp-Card-title">Portal disabled landing page</span></td>
                 <td>&nbsp;</td>
                 <td>Support</td>
                 <td>English (US)</td>
@@ -1696,7 +1696,7 @@ title: List Pane
                 </td>
             </tr>
 
-            <tr>
+            <tr class="is-hover">
                 <td>
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="tableview-4"></input>
@@ -1704,7 +1704,7 @@ title: List Pane
                     </span>
                 </td>
                 <td>67372</td>
-                <td class="dp-SubjectItem"><span>Inventory component</span></td>
+                <td class="dp-SubjectItem"><span class="dp-Card-title">Inventory component</span></td>
                 <td>&nbsp;</td>
                 <td>Support</td>
                 <td>English (US)</td>
@@ -1727,7 +1727,7 @@ title: List Pane
                 </td>
                 <td>83995</td>
                 <td class="dp-SubjectItem">
-                    <span>AW: Need some help?</span>
+                    <span class="dp-Card-title">AW: Need some help?</span>
                     <span class="dp-Icon Icon--star"></span>
                 </td>
                 <td>&nbsp;</td>
@@ -1753,7 +1753,7 @@ title: List Pane
                     </span>
                 </td>
                 <td>12245</td>
-                <td class="dp-SubjectItem"><span>Enjoying your helpdesk?</span></td>
+                <td class="dp-SubjectItem"><span class="dp-Card-title">Enjoying your helpdesk?</span></td>
                 <td>&nbsp;</td>
                 <td>Support</td>
                 <td>Italiano</td>
@@ -1768,7 +1768,7 @@ title: List Pane
                     <span class="dp-Badge Badge--round Badge--neutral"></span>
                 </td>
             </tr>
-            <tr>
+            <tr class="is-selected">
                 <td>
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="tableview-7"></input>
@@ -1776,7 +1776,7 @@ title: List Pane
                     </span>
                 </td>
                 <td>83995</td>
-                <td class="dp-SubjectItem"><span>SSO Information</span><span class="dp-Icon Icon--star"></span></td>
+                <td class="dp-SubjectItem"><span class="dp-Card-title">SSO Information</span><span class="dp-Icon Icon--star"></span></td>
                 <td>&nbsp;</td>
                 <td>Support</td>
                 <td>English (US)</td>
@@ -1802,7 +1802,7 @@ title: List Pane
                     </span>
                 </td>
                 <td>65347</td>
-                <td class="dp-SubjectItem"><span>Portal disabled landing page</span><span class="dp-Icon Icon--star"></span></td>
+                <td class="dp-SubjectItem"><span class="dp-Card-title">Portal disabled landing page</span><span class="dp-Icon Icon--star"></span></td>
                 <td>&nbsp;</td>
                 <td>Support</td>
                 <td>Italiano</td>
@@ -1827,7 +1827,7 @@ title: List Pane
                 </td>
                 <td>83995</td>
                 <td class="dp-SubjectItem">
-                    <span>Inventory component</span>
+                    <span class="dp-Card-title">Inventory component</span>
                 </td>
                 <td>&nbsp;</td>
                 <td>Support</td>
@@ -1853,7 +1853,7 @@ title: List Pane
                 </td>
                 <td>97546</td>
                 <td class="dp-SubjectItem">
-                    <span>AW: Need some help?</span>
+                    <span class="dp-Card-title">AW: Need some help?</span>
                 </td>
                 <td>&nbsp;</td>
                 <td>Support</td>
@@ -1879,7 +1879,7 @@ title: List Pane
                 </td>
                 <td>43563</td>
                 <td class="dp-SubjectItem">
-                    <span>Enjoying your helpdesk?</span>
+                    <span class="dp-Card-title">Enjoying your helpdesk?</span>
                     <span class="dp-Icon Icon--star"></span>
                 </td>
                 <td>&nbsp;</td>
@@ -1906,7 +1906,7 @@ title: List Pane
                 </td>
                 <td>76473</td>
                 <td class="dp-SubjectItem">
-                    <span>SSO Information</span>
+                    <span class="dp-Card-title">SSO Information</span>
                     <span class="dp-Icon Icon--star"></span>
                 </td>
                 <td>&nbsp;</td>
@@ -1923,12 +1923,14 @@ title: List Pane
                     <span class="dp-Badge Badge--round Badge--neutral">4</span>
                 </td>
             </tr>
+
+            <tr>
+                <td colspan="12" class="dp-Table-title">Sales</td>
+            </tr>
+
         </tbody>
 
         <thead>
-            <tr class="dp-Card-title">
-                <td colspan="12">Sales</td>
-            </tr>
 
             <tr class="dp-ColumnControls">
                 <th>
@@ -2014,7 +2016,7 @@ title: List Pane
                 </td>
                 <td>83995</td>
                 <td class="dp-SubjectItem">
-                    <span>SSO Information</span>
+                    <span class="dp-Card-title">SSO Information</span>
                     <span class="dp-Icon Icon--star"></span>
                 </td>
                 <td>&nbsp;</td>
@@ -2040,7 +2042,7 @@ title: List Pane
                     </span>
                 </td>
                 <td>12345</td>
-                <td class="dp-SubjectItem"><span>Portal disabled landing page</span></td>
+                <td class="dp-SubjectItem"><span class="dp-Card-title">Portal disabled landing page</span></td>
                 <td>&nbsp;</td>
                 <td>Support</td>
                 <td>English (US)</td>
@@ -2064,7 +2066,7 @@ title: List Pane
                     </span>
                 </td>
                 <td>67372</td>
-                <td class="dp-SubjectItem"><span>Inventory component</span></td>
+                <td class="dp-SubjectItem"><span class="dp-Card-title">Inventory component</span></td>
                 <td>&nbsp;</td>
                 <td>Support</td>
                 <td>English (US)</td>
@@ -2087,7 +2089,7 @@ title: List Pane
                 </td>
                 <td>83995</td>
                 <td class="dp-SubjectItem">
-                    <span>AW: Need some help?</span>
+                    <span class="dp-Card-title">AW: Need some help?</span>
                     <span class="dp-Icon Icon--star"></span>
                 </td>
                 <td>&nbsp;</td>
@@ -2113,7 +2115,7 @@ title: List Pane
                     </span>
                 </td>
                 <td>12245</td>
-                <td class="dp-SubjectItem"><span>Enjoying your helpdesk?</span></td>
+                <td class="dp-SubjectItem"><span class="dp-Card-title">Enjoying your helpdesk?</span></td>
                 <td>&nbsp;</td>
                 <td>Support</td>
                 <td>Italiano</td>
@@ -4833,7 +4835,6 @@ title: List Pane
 </form>
 ```
 
-
 <h2>Listpane/tableview</h2>
 <h4>listpane/setting-cog-tableview</h4>
 
@@ -4913,7 +4914,7 @@ title: List Pane
                     </span>
                 </th>
 
-                <th class="class="dp-Cog"">
+                <th class="dp-Cog">
                     <span class="dp-Icon dp-settings"></span>
                 </th>
             </tr>

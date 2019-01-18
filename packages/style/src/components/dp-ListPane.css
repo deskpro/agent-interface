@@ -149,12 +149,22 @@
 
 /* Star */
 
-.dp-Title .Icon--star,
+.dp-Title .Icon--star {
+  background-size: 12px 12px;
+}
+
 .dp-SubjectItem .Icon--star {
   background-size: 12px 12px;
   height: 12px;
-  margin-left: 15px;
   width: 12px;
+
+  /* margin-left: 15px; */
+}
+
+.dp-Tableview .dp-Table-title {
+  font: var(--h-s-semibold);
+  padding: 6px 13px;
+  text-transform: uppercase;
 }
 
 .dp-Title.Title-Icon {
@@ -348,17 +358,19 @@
 }
 
 .dp-Tableview .dp-SubjectItem {
-  align-items: center;
-  color: var(--grey-darkest);
-  display: flex;
   font: var(--h-n-semibold);
 }
 
-.dp-Tableview .dp-Card-title {
+/* .dp-Tableview .dp-Card-title {
   border-bottom: none;
   border-top: 1px solid var(--grey-light);
   display: table-row;
   padding: 0;
+} */
+
+.dp-Tableview td .dp-Icon.Icon--star {
+  background-size: 12px 12px;
+  float: right;
 }
 
 .dp-ColumnControls {
@@ -417,12 +429,31 @@ thead .dp-Card-title td {
   background-color: transparent;
 }
 
-.is-hoverable tr:hover, .is-hoverable tr.is-active {
+/* .is-hoverable tr:hover, .is-hoverable tr.is-active {
   background-color: var(--info-light);
+} */
+
+/* style for table states */
+
+.is-hoverable tr.is-hover {
+  background-color: rgba(58, 141, 222, 0.07);
+}
+
+.is-hoverable tr:hover {
+  background-color: rgba(58, 141, 222, 0.07);
+}
+
+.is-hoverable tr.is-active {
+  background-color: var(--info-light);
+}
+
+.is-hoverable tr.is-selected {
+  background-color: var(--grey-lighter);
 }
 
 .dp-TableviewBody .dp-Icon {
   height: 18px;
+  vertical-align: middle;
   width: 18px;
 }
 
@@ -904,7 +935,8 @@ thead .dp-Card-title td {
   text-decoration: underline;
 }
 
-.dp-LevelWrap .dp-Icon + .dp-UserName {
+.dp-LevelWrap .dp-Icon + .dp-UserName,
+.dp-LevelWrap .dp-Icon + .dp-date {
   margin-left: 5px;
 }
 
@@ -1067,15 +1099,14 @@ input:disabled + label {
 /* listpane/setting-cog-tableview */
 
 .dp-Tableview .dp-Cog {
-  align-items: center;
-  display: flex;
-  justify-content: center;
   position: relative;
+  text-align: center;
 }
 
 .dp-Tableview .dp-Cog > .dp-Icon {
   cursor: pointer;
   opacity: 0.3;
+  vertical-align: middle;
 }
 
 .dp-Tableview .dp-Cog:hover > .dp-Icon,
