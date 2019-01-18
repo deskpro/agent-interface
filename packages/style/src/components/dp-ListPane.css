@@ -322,7 +322,7 @@
 
 /* listpane/kanban-view */
 
-.dp-KanbanView {
+/* .dp-KanbanView {
   max-width: 330px;
 }
 
@@ -334,8 +334,9 @@
   vertical-align: middle;
   white-space: nowrap;
 }
+*/
 
-/* Table */
+/* Table View */
 
 .dp-TableWrapper {
   display: block;
@@ -471,6 +472,69 @@ thead .dp-Card-title td {
   display: block;
   height: 12px;
   position: relative;
+}
+
+/* tableview new */
+
+.dp-Icon.Icon--edit {
+  position: relative;
+}
+
+.dp-DepartmentItem .dp-Item-title:hover {
+  color: var(--brand-primary);
+}
+
+.dp-DepartmentItem .dp-Icon {
+  background-size: 12px 12px;
+  display: none;
+  margin-left: 10px;
+}
+
+.dp-DepartmentItem:hover .dp-Icon {
+  display: inline-block;
+  vertical-align: text-top;
+}
+
+.dp-DepartmentItem .dp-Icon:hover svg {
+  fill: var(--brand-primary);
+}
+
+.dp-DepartmentItem .dp-Icon:hover > .dp-Menu {
+  display: block;
+}
+
+.dp-Tableview tr.dp-Table-description {
+  background-color: var(--grey-lighter);
+  font: var(--p-xl);
+}
+
+.dp-Tableview tr.dp-Table-description {
+  border-top: 0;
+  display: none;
+}
+
+.dp-Tableview tr.dp-Table-description td {
+  border-top: 1px dashed var(--grey-light);
+}
+
+.dp-Tableview tr.dp-Table-description td:first-child,
+.dp-Tableview tr.dp-Table-description td:last-child {
+  border: none;
+}
+
+.dp-Tableview .is-selected.is-active + tr.dp-Table-description {
+  display: table-row;
+}
+
+/* Demo */
+
+.is-hover .dp-DepartmentItem .dp-Icon {
+  display: inline-block;
+  vertical-align: text-top;
+}
+
+.is-hover .dp-DepartmentItem .dp-Icon > .dp-Menu {
+  display: block;
 }
 
 /* Listpane/guides */

@@ -1648,11 +1648,20 @@ title: List Pane
                 </td>
                 <td>83995</td>
                 <td class="dp-SubjectItem">
-                    <a class="dp-Card-title">SSO Information</a>
+                    <a class="dp-Card-title" contenteditable="true">SSO Information</a>
                     <span class="dp-Icon Icon--star"></span>
                 </td>
                 <td>&nbsp;</td>
-                <td>Sales</td>
+                <td class="dp-DepartmentItem">
+                    <span class="dp-Item-title">Sales</span>
+                    <span class="dp-Icon Icon--edit">
+                        <ul class="dp-Menu">
+                            <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                            <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                            <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                        </ul>
+                    </span>
+                </td>
                 <td>English (US)</td>
                 <td>9 weeks ago</td>
                 <td class="dp-UserItem">
@@ -1677,9 +1686,19 @@ title: List Pane
                     </span>
                 </td>
                 <td>12345</td>
-                <td class="dp-SubjectItem"><span class="dp-Card-title">Portal disabled landing page</span></td>
+                <td class="dp-SubjectItem"><span class="dp-Card-title" contenteditable="true">Portal disabled landing page</span></td>
                 <td>&nbsp;</td>
-                <td>Support</td>
+                <td class="dp-DepartmentItem">
+                    <span class="dp-Item-title">Support</span>
+                    <span class="dp-Icon Icon--edit">
+                        <ul class="dp-Menu">
+                            <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                            <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                            <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                        </ul>
+                    </span>
+                </td>
+
                 <td>English (US)</td>
                 <td>9 weeks ago</td>
                 <td class="dp-UserItem">
@@ -1704,9 +1723,18 @@ title: List Pane
                     </span>
                 </td>
                 <td>67372</td>
-                <td class="dp-SubjectItem"><span class="dp-Card-title">Inventory component</span></td>
+                <td class="dp-SubjectItem"><span class="dp-Card-title" contenteditable="true">Inventory component</span></td>
                 <td>&nbsp;</td>
-                <td>Support</td>
+                <td class="dp-DepartmentItem">
+                    <span class="dp-Item-title">Support</span>
+                    <span class="dp-Icon Icon--edit">
+                        <ul class="dp-Menu">
+                            <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                            <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                            <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                        </ul>
+                    </span>
+                </td>
                 <td>English (US)</td>
                 <td>5 weeks ago</td>
                 <td class="dp-UserItem"><span class="dp-Icon dp-avatar"></span><span>Mark Jarvis</span></td>
@@ -1727,11 +1755,21 @@ title: List Pane
                 </td>
                 <td>83995</td>
                 <td class="dp-SubjectItem">
-                    <span class="dp-Card-title">AW: Need some help?</span>
+                    <span class="dp-Card-title" contenteditable="true">AW: Need some help?</span>
                     <span class="dp-Icon Icon--star"></span>
                 </td>
                 <td>&nbsp;</td>
-                <td>Sales</td>
+                <td class="dp-DepartmentItem">
+                    <span class="dp-Item-title">Sales</span>
+                    <span class="dp-Icon Icon--edit">
+                        <ul class="dp-Menu">
+                            <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                            <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                            <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                        </ul>
+                    </span>
+                </td>
+
                 <td>English (US)</td>
                 <td>9 weeks ago</td>
                 <td class="dp-UserItem"><span class="dp-Icon dp-avatar"></span><span>Kenneth James</span></td>
@@ -1753,9 +1791,18 @@ title: List Pane
                     </span>
                 </td>
                 <td>12245</td>
-                <td class="dp-SubjectItem"><span class="dp-Card-title">Enjoying your helpdesk?</span></td>
+                <td class="dp-SubjectItem"><span class="dp-Card-title" contenteditable="true">Enjoying your helpdesk?</span></td>
                 <td>&nbsp;</td>
-                <td>Support</td>
+                <td class="dp-DepartmentItem">
+                    <span class="dp-Item-title">Support</span>
+                    <span class="dp-Icon Icon--edit">
+                        <ul class="dp-Menu">
+                            <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                            <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                            <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                        </ul>
+                    </span>
+                </td>
                 <td>Italiano</td>
                 <td>2 weeks ago</td>
                 <td class="dp-UserItem"><span class="dp-Icon dp-avatar"></span><span>Mark Jarvis</span></td>
@@ -1776,9 +1823,18 @@ title: List Pane
                     </span>
                 </td>
                 <td>83995</td>
-                <td class="dp-SubjectItem"><span class="dp-Card-title">SSO Information</span><span class="dp-Icon Icon--star"></span></td>
+                <td class="dp-SubjectItem"><span class="dp-Card-title" contenteditable="true">SSO Information</span><span class="dp-Icon Icon--star"></span></td>
                 <td>&nbsp;</td>
-                <td>Support</td>
+                <td class="dp-DepartmentItem">
+                    <span class="dp-Item-title">Support</span>
+                    <span class="dp-Icon Icon--edit">
+                        <ul class="dp-Menu">
+                            <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                            <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                            <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                        </ul>
+                    </span>
+                </td>
                 <td>English (US)</td>
                 <td>9 weeks ago</td>
                 <td class="dp-UserItem"><span class="dp-Icon dp-avatar"></span><span>Toby Falkirk</span></td>
@@ -1802,9 +1858,18 @@ title: List Pane
                     </span>
                 </td>
                 <td>65347</td>
-                <td class="dp-SubjectItem"><span class="dp-Card-title">Portal disabled landing page</span><span class="dp-Icon Icon--star"></span></td>
+                <td class="dp-SubjectItem"><span class="dp-Card-title" contenteditable="true">Portal disabled landing page</span><span class="dp-Icon Icon--star"></span></td>
                 <td>&nbsp;</td>
-                <td>Support</td>
+                <td class="dp-DepartmentItem">
+                    <span class="dp-Item-title">Support</span>
+                    <span class="dp-Icon Icon--edit">
+                        <ul class="dp-Menu">
+                            <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                            <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                            <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                        </ul>
+                    </span>
+                </td>
                 <td>Italiano</td>
                 <td>9 weeks ago</td>
                 <td class="dp-UserItem"><span class="dp-Icon dp-avatar"></span><span>Kenneth James</span></td>
@@ -1827,10 +1892,19 @@ title: List Pane
                 </td>
                 <td>83995</td>
                 <td class="dp-SubjectItem">
-                    <span class="dp-Card-title">Inventory component</span>
+                    <span class="dp-Card-title" contenteditable="true">Inventory component</span>
                 </td>
                 <td>&nbsp;</td>
-                <td>Support</td>
+                <td class="dp-DepartmentItem">
+                    <span class="dp-Item-title">Support</span>
+                    <span class="dp-Icon Icon--edit">
+                        <ul class="dp-Menu">
+                            <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                            <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                            <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                        </ul>
+                    </span>
+                </td>
                 <td>English (US)</td>
                 <td>4 weeks ago</td>
                 <td class="dp-UserItem"><span class="dp-Icon dp-avatar"></span><span>Mark Jarvis</span></td>
@@ -1853,10 +1927,19 @@ title: List Pane
                 </td>
                 <td>97546</td>
                 <td class="dp-SubjectItem">
-                    <span class="dp-Card-title">AW: Need some help?</span>
+                    <span class="dp-Card-title" contenteditable="true">AW: Need some help?</span>
                 </td>
                 <td>&nbsp;</td>
-                <td>Support</td>
+                <td class="dp-DepartmentItem">
+                    <span class="dp-Item-title">Support</span>
+                    <span class="dp-Icon Icon--edit">
+                        <ul class="dp-Menu">
+                            <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                            <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                            <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                        </ul>
+                    </span>
+                </td>
                 <td>Italiano</td>
                 <td>8 weeks ago</td>
                 <td class="dp-UserItem"><span class="dp-Icon dp-avatar"></span><span>Toby Falkirk</span></td>
@@ -1879,11 +1962,20 @@ title: List Pane
                 </td>
                 <td>43563</td>
                 <td class="dp-SubjectItem">
-                    <span class="dp-Card-title">Enjoying your helpdesk?</span>
+                    <span class="dp-Card-title" contenteditable="true">Enjoying your helpdesk?</span>
                     <span class="dp-Icon Icon--star"></span>
                 </td>
                 <td>&nbsp;</td>
-                <td>Sales</td>
+                <td class="dp-DepartmentItem">
+                    <span class="dp-Item-title">Sales</span>
+                    <span class="dp-Icon Icon--edit">
+                        <ul class="dp-Menu">
+                            <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                            <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                            <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                        </ul>
+                    </span>
+                </td>
                 <td>English (US)</td>
                 <td>2 weeks ago</td>
                 <td class="dp-UserItem"><span class="dp-Icon dp-avatar"></span><span>Kenneth James</span></td>
@@ -1906,11 +1998,20 @@ title: List Pane
                 </td>
                 <td>76473</td>
                 <td class="dp-SubjectItem">
-                    <span class="dp-Card-title">SSO Information</span>
+                    <span class="dp-Card-title" contenteditable="true">SSO Information</span>
                     <span class="dp-Icon Icon--star"></span>
                 </td>
                 <td>&nbsp;</td>
-                <td>Support</td>
+                <td class="dp-DepartmentItem">
+                    <span class="dp-Item-title">Support</span>
+                    <span class="dp-Icon Icon--edit">
+                        <ul class="dp-Menu">
+                            <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                            <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                            <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                        </ul>
+                    </span>
+                </td>
                 <td>English (US)</td>
                 <td>9 weeks ago</td>
                 <td class="dp-UserItem"><span class="dp-Icon dp-avatar"></span><span>Toby Falkirk</span></td>
@@ -2016,11 +2117,20 @@ title: List Pane
                 </td>
                 <td>83995</td>
                 <td class="dp-SubjectItem">
-                    <span class="dp-Card-title">SSO Information</span>
+                    <span class="dp-Card-title" contenteditable="true">SSO Information</span>
                     <span class="dp-Icon Icon--star"></span>
                 </td>
                 <td>&nbsp;</td>
-                <td>Sales</td>
+                <td class="dp-DepartmentItem">
+                    <span class="dp-Item-title">Sales</span>
+                    <span class="dp-Icon Icon--edit">
+                        <ul class="dp-Menu">
+                            <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                            <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                            <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                        </ul>
+                    </span>
+                </td>
                 <td>English (US)</td>
                 <td>9 weeks ago</td>
                 <td class="dp-UserItem"><span class="dp-Icon dp-avatar"></span><span>Kenneth James</span></td>
@@ -2042,9 +2152,18 @@ title: List Pane
                     </span>
                 </td>
                 <td>12345</td>
-                <td class="dp-SubjectItem"><span class="dp-Card-title">Portal disabled landing page</span></td>
+                <td class="dp-SubjectItem"><span class="dp-Card-title" contenteditable="true">Portal disabled landing page</span></td>
                 <td>&nbsp;</td>
-                <td>Support</td>
+                <td class="dp-DepartmentItem">
+                    <span class="dp-Item-title">Support</span>
+                    <span class="dp-Icon Icon--edit">
+                        <ul class="dp-Menu">
+                            <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                            <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                            <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                        </ul>
+                    </span>
+                </td>
                 <td>English (US)</td>
                 <td>9 weeks ago</td>
                 <td class="dp-UserItem"><span class="dp-Icon dp-avatar"></span><span>Toby Falkirk</span></td>
@@ -2058,7 +2177,7 @@ title: List Pane
                 </td>
             </tr>
 
-            <tr>
+            <tr class="is-selected is-active">
                 <td>
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="tableview-16"></input>
@@ -2066,9 +2185,18 @@ title: List Pane
                     </span>
                 </td>
                 <td>67372</td>
-                <td class="dp-SubjectItem"><span class="dp-Card-title">Inventory component</span></td>
-                <td>&nbsp;</td>
-                <td>Support</td>
+                <td class="dp-SubjectItem"><span class="dp-Card-title" contenteditable="true">Inventory component</span></td>
+                <td><span class="dp-Arrow"></span></td>
+                <td class="dp-DepartmentItem">
+                    <span class="dp-Item-title">Support</span>
+                    <span class="dp-Icon Icon--edit">
+                        <ul class="dp-Menu">
+                            <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                            <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                            <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                        </ul>
+                    </span>
+                </td>
                 <td>English (US)</td>
                 <td>5 weeks ago</td>
                 <td class="dp-UserItem"><span class="dp-Icon dp-avatar"></span><span>Mark Jarvis</span></td>
@@ -2077,6 +2205,16 @@ title: List Pane
                     <span class="dp-Icon dp-beetle Icon-black Icon--circle"></span>
                 </td>
                 <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+
+            <tr class="dp-Table-description">
+                <td>&nbsp;</td>
+                <td colspan="10">
+                    <span>
+                        sub row text sub row text sub row text sub row text sub row text sub row text sub row text sub row text sub row text sub row text sub row text sub row text sub row text sub row text sub row text sub row text sub row text sub row text sub row text
+                    </span>
+                </td>
                 <td>&nbsp;</td>
             </tr>
 
@@ -2089,11 +2227,20 @@ title: List Pane
                 </td>
                 <td>83995</td>
                 <td class="dp-SubjectItem">
-                    <span class="dp-Card-title">AW: Need some help?</span>
+                    <span class="dp-Card-title" contenteditable="true">AW: Need some help?</span>
                     <span class="dp-Icon Icon--star"></span>
                 </td>
                 <td>&nbsp;</td>
-                <td>Sales</td>
+                <td class="dp-DepartmentItem">
+                    <span class="dp-Item-title">Sales</span>
+                    <span class="dp-Icon Icon--edit">
+                        <ul class="dp-Menu">
+                            <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                            <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                            <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                        </ul>
+                    </span>
+                </td>
                 <td>English (US)</td>
                 <td>9 weeks ago</td>
                 <td class="dp-UserItem"><span class="dp-Icon dp-avatar"></span><span>Kenneth James</span></td>
@@ -2115,9 +2262,18 @@ title: List Pane
                     </span>
                 </td>
                 <td>12245</td>
-                <td class="dp-SubjectItem"><span class="dp-Card-title">Enjoying your helpdesk?</span></td>
+                <td class="dp-SubjectItem"><span class="dp-Card-title" contenteditable="true">Enjoying your helpdesk?</span></td>
                 <td>&nbsp;</td>
-                <td>Support</td>
+                <td class="dp-DepartmentItem">
+                    <span class="dp-Item-title">Support</span>
+                    <span class="dp-Icon Icon--edit">
+                        <ul class="dp-Menu">
+                            <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                            <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                            <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                        </ul>
+                    </span>
+                </td>
                 <td>Italiano</td>
                 <td>2 weeks ago</td>
                 <td class="dp-UserItem"><span class="dp-Icon dp-avatar"></span><span>Mark Jarvis</span></td>
