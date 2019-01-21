@@ -112,12 +112,6 @@
   cursor: not-allowed;
 }
 
-/* Star */
-
-.dp-Card .dp-Title .Icon--star {
-  margin-left: 15px;
-}
-
 .dp-Card .dp-Title .Icon--star,
 .dp-SubjectItem .Icon--star {
   background-size: 12px 12px;

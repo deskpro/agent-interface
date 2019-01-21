@@ -56,6 +56,7 @@
 
 .dp-CardList .dp-Card-title {
   line-height: 1;
+  padding: 0 0 1px;
 }
 
 /* Level Grid */
@@ -336,3 +337,13 @@
   margin-bottom: 0;
   margin-left: 5px;
 } */
+
+/* Star */
+
+.dp-Card .dp-Title .Icon--star {
+  margin-left: 15px;
+}
+
+.dp-Card .dp-Title.Title-Icon {
+  align-items: flex-start;
+}
