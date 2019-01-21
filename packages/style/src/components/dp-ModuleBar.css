@@ -60,7 +60,7 @@
 
 .dp-ModuleBar .dp-IconTooltip {
   background-color: var(--grey);
-  border: 1px solid var(--grey-light);
+  border: 1px solid var(--grey);
   border-radius: 2px;
   color: var(--white);
   display: none;
@@ -72,6 +72,9 @@
   position: absolute;
   top: 10px;
   z-index: 10;
+
+  /* border: 1px solid var(--grey-light); */
+
 }
 
 .dp-ModuleBar .dp-IconTooltip::before {
