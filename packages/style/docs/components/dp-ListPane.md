@@ -4777,7 +4777,7 @@ title: List Pane
                     </span>
                 </span>
                 <span class="dp-LevelItem dp-LevelLeft">
-                    <span class="dp-Card-comment is-active">I wish I could show you our cat Dinah: I think I must go back by railw...
+                    <span class="dp-Card-comment">I wish I could show you our cat Dinah: I think I must go back by railw...
                         <span class="dp-Menu">
                             <span class="dp-UserInfo">
                                 <span class="dp-UserName"><span class="dp-Icon dp-iconUserAvatar"></span>Mark Jarvis</span>

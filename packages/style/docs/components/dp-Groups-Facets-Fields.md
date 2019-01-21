@@ -1465,21 +1465,21 @@ title: Orderingbar
                 <span class="">Fields</span>
                 <span><span class="dp-Meta is-active">view default</span><span class="dp-Meta">reset to default</span></span>
             </li>
-            <li class="dp-Menu-linkItem">
+            <li class="dp-Menu-linkItem dp-Uneditable">
                 <span class="dp-Icon dp-Drag"></span>
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" checked="checked" disabled="disabled" class="dp-ControlInput" id="fields-01"></input>
                     <label for="fields-01">Agent</label>
                 </span>
             </li>
-            <li class="dp-Menu-linkItem">
+            <li class="dp-Menu-linkItem dp-Uneditable">
                 <span class="dp-Icon dp-Drag"></span>
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" checked="checked" disabled="disabled" class="dp-ControlInput" id="fields-02"></input>
                     <label for="fields-02">Title</label>
                 </span>
             </li>
-            <li class="dp-Menu-linkItem">
+            <li class="dp-Menu-linkItem dp-Uneditable">
                 <span class="dp-Icon dp-Drag"></span>
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" checked="checked" disabled="disabled" class="dp-ControlInput" id="fields-03"></input>
@@ -3160,21 +3160,21 @@ title: Orderingbar
                     <span class="">Fields</span>
                     <span><span class="dp-Meta is-active">view default</span><span class="dp-Meta">reset to default</span></span>
                 </li>
-                <li class="dp-Menu-linkItem">
+                <li class="dp-Menu-linkItem dp-Uneditable">
                     <span class="dp-Icon dp-Drag"></span>
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" checked="checked" disabled="disabled" class="dp-ControlInput" id="fields-01"></input>
                         <label for="fields-01">Agent</label>
                     </span>
                 </li>
-                <li class="dp-Menu-linkItem">
+                <li class="dp-Menu-linkItem dp-Uneditable">
                     <span class="dp-Icon dp-Drag"></span>
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" checked="checked" disabled="disabled" class="dp-ControlInput" id="fields-02"></input>
                         <label for="fields-02">Title</label>
                     </span>
                 </li>
-                <li class="dp-Menu-linkItem">
+                <li class="dp-Menu-linkItem dp-Uneditable">
                     <span class="dp-Icon dp-Drag"></span>
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" checked="checked" disabled="disabled" class="dp-ControlInput" id="fields-03"></input>
@@ -4855,21 +4855,21 @@ title: Orderingbar
                     <span class="">Fields</span>
                     <span><span class="dp-Meta is-active">view default</span><span class="dp-Meta">reset to default</span></span>
                 </li>
-                <li class="dp-Menu-linkItem">
+                <li class="dp-Menu-linkItem dp-Uneditable">
                     <span class="dp-Icon dp-Drag"></span>
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" checked="checked" disabled="disabled" class="dp-ControlInput" id="fields-01"></input>
                         <label for="fields-01">Agent</label>
                     </span>
                 </li>
-                <li class="dp-Menu-linkItem">
+                <li class="dp-Menu-linkItem dp-Uneditable">
                     <span class="dp-Icon dp-Drag"></span>
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" checked="checked" disabled="disabled" class="dp-ControlInput" id="fields-02"></input>
                         <label for="fields-02">Title</label>
                     </span>
                 </li>
-                <li class="dp-Menu-linkItem">
+                <li class="dp-Menu-linkItem dp-Uneditable">
                     <span class="dp-Icon dp-Drag"></span>
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" checked="checked" disabled="disabled" class="dp-ControlInput" id="fields-03"></input>
@@ -6552,21 +6552,21 @@ title: Orderingbar
                     <span class="">Fields</span>
                     <span><span class="dp-Meta is-active">view default</span><span class="dp-Meta">reset to default</span></span>
                 </li>
-                <li class="dp-Menu-linkItem">
+                <li class="dp-Menu-linkItem dp-Uneditable">
                     <span class="dp-Icon dp-Drag"></span>
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" checked="checked" disabled="disabled" class="dp-ControlInput" id="fields-01"></input>
                         <label for="fields-01">Agent</label>
                     </span>
                 </li>
-                <li class="dp-Menu-linkItem">
+                <li class="dp-Menu-linkItem dp-Uneditable">
                     <span class="dp-Icon dp-Drag"></span>
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" checked="checked" disabled="disabled" class="dp-ControlInput" id="fields-02"></input>
                         <label for="fields-02">Title</label>
                     </span>
                 </li>
-                <li class="dp-Menu-linkItem">
+                <li class="dp-Menu-linkItem dp-Uneditable">
                     <span class="dp-Icon dp-Drag"></span>
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" checked="checked" disabled="disabled" class="dp-ControlInput" id="fields-03"></input>
@@ -8250,21 +8250,21 @@ title: Orderingbar
                     <span class="">Fields</span>
                     <span><span class="dp-Meta is-active">view default</span><span class="dp-Meta">reset to default</span></span>
                 </li>
-                <li class="dp-Menu-linkItem">
+                <li class="dp-Menu-linkItem dp-Uneditable">
                     <span class="dp-Icon dp-Drag"></span>
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" checked="checked" disabled="disabled" class="dp-ControlInput" id="fields-5-01"></input>
                         <label for="fields-5-01">Agent</label>
                     </span>
                 </li>
-                <li class="dp-Menu-linkItem">
+                <li class="dp-Menu-linkItem dp-Uneditable">
                     <span class="dp-Icon dp-Drag"></span>
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" checked="checked" disabled="disabled" class="dp-ControlInput" id="fields-5-02"></input>
                         <label for="fields-5-02">Title</label>
                     </span>
                 </li>
-                <li class="dp-Menu-linkItem">
+                <li class="dp-Menu-linkItem dp-Uneditable">
                     <span class="dp-Icon dp-Drag"></span>
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" checked="checked" disabled="disabled" class="dp-ControlInput" id="fields-5-03"></input>
@@ -9947,21 +9947,21 @@ title: Orderingbar
                     <span class="">Fields</span>
                     <span><span class="dp-Meta is-active">view default</span><span class="dp-Meta">reset to default</span></span>
                 </li>
-                <li class="dp-Menu-linkItem">
+                <li class="dp-Menu-linkItem dp-Uneditable">
                     <span class="dp-Icon dp-Drag"></span>
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" checked="checked" disabled="disabled" class="dp-ControlInput" id="fields-6-01"></input>
                         <label for="fields-6-01">Agent</label>
                     </span>
                 </li>
-                <li class="dp-Menu-linkItem">
+                <li class="dp-Menu-linkItem dp-Uneditable">
                     <span class="dp-Icon dp-Drag"></span>
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" checked="checked" disabled="disabled" class="dp-ControlInput" id="fields-6-02"></input>
                         <label for="fields-6-02">Title</label>
                     </span>
                 </li>
-                <li class="dp-Menu-linkItem">
+                <li class="dp-Menu-linkItem dp-Uneditable">
                     <span class="dp-Icon dp-Drag"></span>
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" checked="checked" disabled="disabled" class="dp-ControlInput" id="fields-6-03"></input>
@@ -11643,21 +11643,21 @@ title: Orderingbar
                 <span class="">Fields</span>
                 <span><span class="dp-Meta is-active">view default</span><span class="dp-Meta">reset to default</span></span>
             </li>
-            <li class="dp-Menu-linkItem">
+            <li class="dp-Menu-linkItem dp-Uneditable">
                 <span class="dp-Icon dp-Drag"></span>
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" checked="checked" disabled="disabled" class="dp-ControlInput" id="fields-6-01"></input>
                     <label for="fields-6-01">Agent</label>
                 </span>
             </li>
-            <li class="dp-Menu-linkItem">
+            <li class="dp-Menu-linkItem dp-Uneditable">
                 <span class="dp-Icon dp-Drag"></span>
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" checked="checked" disabled="disabled" class="dp-ControlInput" id="fields-6-02"></input>
                     <label for="fields-6-02">Title</label>
                 </span>
             </li>
-            <li class="dp-Menu-linkItem">
+            <li class="dp-Menu-linkItem dp-Uneditable">
                 <span class="dp-Icon dp-Drag"></span>
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" checked="checked" disabled="disabled" class="dp-ControlInput" id="fields-6-03"></input>

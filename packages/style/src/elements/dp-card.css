@@ -54,6 +54,10 @@
   width: 100%;
 }
 
+.dp-CardList .dp-Card-title {
+  line-height: 1;
+}
+
 /* Level Grid */
 
 .dp-Card.dp-Level .dp-LevelCol {

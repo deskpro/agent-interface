@@ -59,11 +59,6 @@
   padding: 0 0 0 4px;
 }
 
-.newControlsList .dp-ListPane .dp-Title {
-  color: var(--grey-darkest);
-  padding: 0;
-}
-
 .dp-ListPane .dp-iconEye {
   background-size: 19px 19px;
   display: inline-block;
@@ -78,30 +73,10 @@
   width: 13px;
 }
 
-.newControlsList .dp-ListPane .dp-Subtitle {
-  color: var(--grey-darkest);
-  font: var(--p-s);
-}
-
-.newControlsList .dp-ListPane > .dp-Icon {
-  background-size: 23px 23px;
-  height: 25px;
-  margin-right: 4px;
-  width: 25px;
-}
-
-.newControlsList .dp-ListPane .dp-csv {
-  background-size: 15px 9px;
-}
-
 .dp-ListPane .dp-Icon.Icon--view {
   background-size: 20px 14px;
   height: 14px;
   width: 20px;
-}
-
-.newControlsList .dp-Select {
-  user-select: none;
 }
 
 .dp-ViewItem {
@@ -109,10 +84,6 @@
   display: flex;
   max-width: 100%;
   padding: 0 10px;
-}
-
-.newControlsList .dp-SelectGroup {
-  flex: 1 0 0;
 }
 
 .dp-SortIconDescription {
@@ -129,12 +100,6 @@
   cursor: pointer;
 }
 
-.newControlsList .dp-ListPane .dp-sort, .dp-Card-title .dp-sort {
-  background-size: 13.2px 10.4px;
-  height: 15px;
-  width: 15px;
-}
-
 .dp-Card-title .dp-sort {
   margin-right: 4px;
 }
@@ -149,16 +114,15 @@
 
 /* Star */
 
-.dp-Title .Icon--star {
-  background-size: 12px 12px;
+.dp-Card .dp-Title .Icon--star {
+  margin-left: 15px;
 }
 
+.dp-Card .dp-Title .Icon--star,
 .dp-SubjectItem .Icon--star {
   background-size: 12px 12px;
   height: 12px;
   width: 12px;
-
-  /* margin-left: 15px; */
 }
 
 .dp-Tableview .dp-Table-title {
