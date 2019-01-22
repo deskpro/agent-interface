@@ -67,7 +67,7 @@ title: Header
                             <span class="dp-Badge Badge--round Badge--grey-lighter" alt=""></span>
                             <button class="dp-Arrow"></button>
                         </li>
-                        <li class="dp-MenuBarItem dp-DropMenuJs"><span class="dp-Icon dp-IconPlane dp-ActionDropDown"></span><button class="dp-Arrow"></button>
+                        <li class="dp-MenuBarItem"><span class="dp-Icon dp-IconPlane dp-ActionDropDown"></span><button class="dp-Arrow"></button>
                         </li>
                     </ul>
                 </div>
@@ -120,7 +120,7 @@ title: Header
                             <span class="dp-Badge Badge--round Badge--grey-lighter" alt=""></span>
                             <button class="dp-Arrow"></button>
                         </li>
-                        <li class="dp-MenuBarItem dp-DropMenuJs"><span class="dp-Icon dp-IconPlane dp-ActionDropDown"></span><button class="dp-Arrow"></button>
+                        <li class="dp-MenuBarItem"><span class="dp-Icon dp-IconPlane dp-ActionDropDown"></span><button class="dp-Arrow"></button>
                         </li>
                     </ul>
                 </div>
@@ -190,48 +190,37 @@ title: Header
                             <span class="dp-Badge Badge--round Badge--grey-lighter" alt=""></span>
                             <button class="dp-Arrow"></button>
                         </li>
-                        <li class="dp-MenuBarItem dp-DropMenuJs"><span class="dp-Icon dp-IconPlane dp-ActionDropDown"></span><button class="dp-Arrow"></button>
-                          <div class="dp-YourAccount is-active">
-                            <div class="dp-AccountWrap ">
-                              <ul class="dp-AccountList">
-                                <li class="dp-AccountItem dp-AccountTitle">Your account</li>
-                                <li class="dp-AccountItem is-active">
-                                  <span class="dp-Icon-Title dp-raven">
+                        <li class="dp-MenuBarItem is-active">
+                            <span class="dp-Icon dp-IconPlane dp-ActionDropDown"></span>
+                            <button class="dp-Arrow"></button>
+                            <!-- drop down -->
+                            <ul class="dp-Menu Menu-tick dp-YourAccount">
+                                <li class="dp-Menu-title">Your account</li>
+                                <li class="dp-Menu-linkItem is-active">
                                     <span class="dp-Icon dp-IconPlane"></span>
-                                    Raven Paper
-                                  </span>
-                                  <span class="dp-Icon dp-IconTick"></span>
+                                    <a href="#" class="dp-Menu-link dp-listItem">Raven Paper</a>
                                 </li>
-                                <li class="dp-AccountItem is-disabled">
-                                  <span class="dp-Icon-Title dp-raven">
+                                <li class="dp-Menu-linkItem">
                                     <span class="dp-Icon dp-IconPlaneOrange"></span>
-                                    Raven Paper Crafts
-                                  </span>
+                                    <a href="#" class="dp-Menu-link dp-listItem">Raven Paper Crafts</a>
                                 </li>
-                                <li class="dp-AccountItem is-disabled">
-                                  <span class="dp-Icon-Title dp-raven">
+                                <li class="dp-Menu-linkItem">
                                     <span class="dp-Icon dp-IconPlaneViolet"></span>
-                                    <span>
-                                      RP Europe (Demo)
-                                      <span class="dp-BuyNow">12 days left | Buy now</span>
-                                    </span>
-                                  </span>
+                                    <a href="#" class="dp-Menu-link dp-listItem">
+                                        <span>RP Europe (Demo)</span>
+                                        <span class="dp-BuyNow">12 days left | By now</span>
+                                    </a>
                                 </li>
-                                <li class="dp-AccountItem">
-                                  <span class="dp-Icon-Title">
+                                <li class="dp-Menu-linkItem">
                                     <span class="dp-Icon dp-add_tab"></span>
-                                    Add new
-                                  </span>
+                                    <a href="#" class="dp-Menu-link dp-listItem dp-Add-btn">Add new</a>
                                 </li>
-                                <li class="dp-AccountItem">
-                                  <span class="dp-Icon-Title">
+                                <li class="dp-Menu-linkItem">
                                     <span class="dp-Icon dp-IconNoteGray"></span>
-                                    Knowledgebase article
-                                  </span>
+                                    <a href="#" class="dp-Menu-link dp-listItem">Knowledgebase article</a>
                                 </li>
-                              </ul>
-                            </div>
-                          </div>
+                            </ul>
+
                         </li>
                     </ul>
                 </div>

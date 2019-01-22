@@ -184,6 +184,7 @@
   align-items: center;
   display: flex;
   padding: 12px 20px 12px 0;
+  position: relative;
 }
 
 .dp-HeaderControl .dp-MenuBarItem:first-child::after, .dp-HeaderControl .dp-MenuBarItem:last-child::before {
@@ -239,11 +240,78 @@
   width: 25px;
 }
 
-.dp-AccountWrap  .dp-Icon {
-  background-size: 25px 25px;
+.dp-Menu.dp-YourAccount .dp-Menu-title {
+  margin-bottom: 0;
 }
 
-/*  */
+.dp-Menu.dp-YourAccount {
+  background: var(--white);
+  min-width: 229px;
+}
+
+.dp-Menu.Menu-tick.dp-YourAccount > .dp-Menu-linkItem {
+  border-bottom: 1px solid var(--grey-light);
+  font: var(--p-xl);
+  padding: 10px 10px;
+}
+
+.dp-Menu.dp-YourAccount .dp-Menu-linkItem:last-child {
+  border-bottom: 0;
+  color: var(--grey-darkest);
+  font: var(--p-l);
+}
+
+.dp-Menu.dp-YourAccount .dp-Menu-linkItem .dp-Menu-link {
+  align-items: flex-start;
+  color: var(--grey);
+  flex-direction: column;
+}
+
+.dp-Menu.dp-YourAccount .dp-Menu-linkItem .dp-Menu-link.dp-Add-btn,
+.dp-Menu.dp-YourAccount .dp-Menu-linkItem:last-child .dp-Menu-link {
+  color: var(--grey-darkest);
+  font: var(--p-xl);
+}
+
+.dp-Menu.dp-YourAccount .dp-Menu-linkItem.is-active .dp-Menu-link,
+.dp-Menu.dp-YourAccount .dp-Menu-linkItem:hover .dp-Menu-link {
+  color: var(--grey-darkest);
+}
+
+.dp-Menu.Menu-tick .dp-Menu-linkItem.is-active > .dp-listItem::after {
+  opacity: 1;
+}
+
+.dp-Menu.Menu-tick.dp-YourAccount > .dp-Menu-linkItem > .dp-listItem::after {
+  background-size: 14px 12px;
+  left: auto;
+  right: 0;
+  top: calc(50% - 12.5px);
+}
+
+.dp-Menu.dp-YourAccount .dp-BuyNow {
+  font: var(--p-s);
+  margin-top: 3px;
+}
+
+.dp-Menu.dp-YourAccount .dp-Menu-linkItem .dp-Icon {
+  background-size: 25px 25px;
+  margin-right: 10px;
+}
+
+.dp-Menu.dp-YourAccount .dp-Menu-linkItem:last-child .dp-Icon {
+  background-size: 10.2px 12.4px;
+  height: 12.4px;
+  margin-right: 10px;
+  width: 10.2px;
+}
+
+.dp-HeaderControl .dp-Menu {
+  left: auto;
+  right: 0;
+}
+
+/* */
 
 .dp-MenuBarList {
   align-items: center;
@@ -251,8 +319,6 @@
   display: flex;
   flex-wrap: wrap;
   list-style-type: none;
-
-  /* margin: 8px 12px; */
   padding: 0;
   position: relative;
 }

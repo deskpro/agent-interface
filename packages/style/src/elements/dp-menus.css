@@ -45,10 +45,6 @@
   width: 12px;
 }
 
-.dp-Menu .Input--search:focus {
-  border: 2px solid var(--brand-primary);
-}
-
 .dp-Menu.newControlsList .dp-CustomCheckbox input[type="checkbox"] + label {
   margin-right: 10px;
   padding-left: 20px;
@@ -230,6 +226,7 @@
 
 /* listpane dropdown Menu */
 
+.Menu-fields .dp-settings.is-active + .dp-Menu,
 .dp-DropDownItem.is-active > .dp-Menu {
   display: block;
 }
@@ -240,10 +237,16 @@
   justify-content: space-between;
 }
 
-.dp-Menu.Menu-grouped .dp-Menu,
-.dp-Menu.Menu-grouped .dp-Menu-linkItem:hover > .dp-Menu {
+.dp-Menu.Menu-fields .dp-Menu-linkItem:hover > .dp-Menu,
+.dp-Menu.Menu-fields .dp-Menu,
+.dp-Menu.Menu-grouped .dp-Menu-linkItem:hover > .dp-Menu,
+.dp-Menu.Menu-grouped .dp-Menu {
   border-radius: var(--border-radius);
   left: calc(100% - 5px);
+}
+
+.Menu-fields .dp-settings.is-active + .dp-Menu {
+  display: block;
 }
 
 /* Menu-tick */
@@ -411,14 +414,18 @@
 /* Search form */
 
 .dp-Menu .Input--search {
-  border: 2px solid var(--grey-light);
-  border-radius: 5px;
+  border: 1px solid var(--grey-light);
+  border-radius: 2px;
+}
+
+.dp-Menu .Input--search:focus {
+  border: 1px solid var(--brand-primary);
 }
 
 .dp-Menu-search {
   display: block;
   min-width: 100px;
-  padding: 3.5px 5px;
+  padding: 3.5px 10px;
   position: relative;
 }
 
@@ -483,4 +490,8 @@
 
 .dp-Menu > .dp-Menu-linkItem:hover svg {
   fill: var(--brand-primary);
+}
+
+.dp-Menu .dp-Menu-search .dp-Icon {
+  left: 15px;
 }

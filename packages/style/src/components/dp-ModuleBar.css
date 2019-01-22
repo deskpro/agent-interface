@@ -72,9 +72,6 @@
   position: absolute;
   top: 10px;
   z-index: 10;
-
-  /* border: 1px solid var(--grey-light); */
-
 }
 
 .dp-ModuleBar .dp-IconTooltip::before {
@@ -215,10 +212,6 @@
 
 .dp-YourAccount.is-active {
   display: block;
-}
-
-.dp-YourAccount .dp-Icon.dp-IconNoteGray {
-  background-size: 12px 12px;
 }
 
 .dp-YourAccount .dp-add_tab, .dp-YourAccount .dp-IconPlaneOrange, .dp-YourAccount .dp-IconPlaneViolet, .dp-YourAccount .dp-IconPlane {

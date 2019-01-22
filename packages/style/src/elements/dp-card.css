@@ -26,6 +26,24 @@
   /* line-height: 1; */
 }
 
+.dp-Card-SectionTitle .dp-SortIconDescription {
+  align-items: center;
+  color: var(--grey);
+  display: flex;
+  flex-direction: row;
+  font: var(--p-s);
+  margin-left: 10px;
+  max-width: 50px;
+}
+
+.dp-Title.Title-Icon .dp-Card-title {
+  margin-bottom: 0;
+}
+
+.dp-Title.Title-Icon .dp-Icon + .dp-Card-title {
+  margin-left: 5px;
+}
+
 .dp-Card-SectionTitle {
   background-color: var(--white);
   border-bottom: 1px solid var(--grey-light);
@@ -37,6 +55,21 @@
   padding: 10px 10px;
   text-transform: uppercase;
   width: 100%;
+}
+
+.dp-CustomCheckbox .dp-Card-title {
+  margin: 0;
+}
+
+.dp-Card-title.dp-MassSelectTitle {
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+.dp-Card.dp-MassSelectTitle:hover {
+  background-color: var(--grey-lightest);
+  border-bottom: 1px solid var(--grey-light);
+  border-top: 1px solid transparent;
 }
 
 .dp-CardList.dp-Listpane-guides > .dp-Card.Level--down {
@@ -209,8 +242,6 @@
   font: var(--p-xl);
 }
 
-/* .dp-Card .dp-Icon + .dp-UserName, */
-
 .dp-Card .dp-Icon + .dp-Date-link,
 .dp-Card .dp-Icon + .dp-Comments-title,
 .dp-Tasks-list .dp-Icon + .dp-UserName {
@@ -342,6 +373,13 @@
 
 .dp-Card .dp-Title .Icon--star {
   margin-left: 15px;
+}
+
+.dp-Card .dp-Title .Icon--star,
+.dp-SubjectItem .Icon--star {
+  background-size: 12px 12px;
+  height: 12px;
+  width: 12px;
 }
 
 .dp-Card .dp-Title.Title-Icon {

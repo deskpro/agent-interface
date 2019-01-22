@@ -10,14 +10,15 @@
   box-shadow: var(--shadow-bottom);
   color: var(--grey-darkest);
   display: none;
-  left: 0;
   padding: 10px 10px;
   position: absolute;
-  top: 0;
+  right: 0;
+  top: calc(100% + 5px);
+  white-space: nowrap;
   z-index: 9;
 }
 
-.dp-ToolTips.is-active {
+.is-active .dp-ToolTips {
   display: block;
 }
 

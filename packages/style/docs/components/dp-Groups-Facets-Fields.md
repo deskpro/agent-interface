@@ -6,7 +6,7 @@ title: Orderingbar
 
 <h4>Listpane/orderingbar</h4>
 ```html @preview
-<ul class="dp-FilterControlsList newControlsList">
+<ul class="dp-FilterControlsList newControlsList dp-orderingbar">
     <li class="dp-ListPane">
         <span class="dp-CustomCheckbox dp-EmptyCheckbox">
             <input type="checkbox" class="dp-ControlInput" id="ordering-1"></input>
@@ -21,7 +21,7 @@ title: Orderingbar
                 <button class="dp-Arrow"></button>
             </span>
             <span class="dp-ItemRow">
-                <span class="dp-Subtitle">Department</span>
+                <span class="dp-Subtitle">None</span>
             </span>
         </span>
 
@@ -174,7 +174,7 @@ title: Orderingbar
                 <button class="dp-Arrow"></button>
             </span>
             <span class="dp-ItemRow">
-                <span class="dp-Subtitle">Variable long...</span>
+                <span class="dp-Subtitle">Date of last r...</span>
             </span>
         </span>
 
@@ -1701,7 +1701,7 @@ title: Orderingbar
 ```html @preview
 <div class="demo-ControlsList">
 
-    <ul class="dp-FilterControlsList newControlsList">
+    <ul class="dp-FilterControlsList newControlsList dp-orderingbar">
         <li class="dp-ListPane">
             <span class="dp-CustomCheckbox dp-EmptyCheckbox">
                 <input type="checkbox" class="dp-ControlInput" id="ordering-2"></input>
@@ -3396,7 +3396,7 @@ title: Orderingbar
 ```html @preview
 <div class="demo-ControlsList">
 
-    <ul class="dp-FilterControlsList newControlsList">
+    <ul class="dp-FilterControlsList newControlsList dp-orderingbar">
         <li class="dp-ListPane">
             <span class="dp-CustomCheckbox dp-EmptyCheckbox">
                 <input type="checkbox" class="dp-ControlInput" id="ordering-3"></input>
@@ -5093,7 +5093,7 @@ title: Orderingbar
 ```html @preview
 <div class="demo-ControlsList">
 
-    <ul class="dp-FilterControlsList newControlsList">
+    <ul class="dp-FilterControlsList newControlsList dp-orderingbar">
         <li class="dp-ListPane">
             <span class="dp-CustomCheckbox dp-EmptyCheckbox">
                 <input type="checkbox" class="dp-ControlInput" id="ordering-4"></input>
@@ -6790,7 +6790,7 @@ title: Orderingbar
 ```html @preview
 <div class="demo-FieldsList">
 
-    <ul class="dp-FilterControlsList newControlsList">
+    <ul class="dp-FilterControlsList newControlsList dp-orderingbar">
         <li class="dp-ListPane">
             <span class="dp-CustomCheckbox dp-EmptyCheckbox">
                 <input type="checkbox" class="dp-ControlInput" id="ordering-5"></input>
@@ -8488,7 +8488,7 @@ title: Orderingbar
 ```html @preview
 <div class="demo-FieldsList">
 
-    <ul class="dp-FilterControlsList newControlsList">
+    <ul class="dp-FilterControlsList newControlsList dp-orderingbar">
         <li class="dp-ListPane">
             <span class="dp-CustomCheckbox dp-EmptyCheckbox">
                 <input type="checkbox" class="dp-ControlInput" id="ordering-6"></input>
@@ -10184,7 +10184,7 @@ title: Orderingbar
 <h4>Listpane/orderingbar-disabled</h4>
 ```html @preview
 
-<ul disabled class="dp-FilterControlsList newControlsList">
+<ul disabled class="dp-FilterControlsList newControlsList dp-orderingbar">
     <li class="dp-ListPane">
         <span class="dp-CustomCheckbox dp-EmptyCheckbox">
             <input type="checkbox" class="dp-ControlInput" id="ordering-6"></input>

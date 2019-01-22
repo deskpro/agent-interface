@@ -17,7 +17,8 @@
       "components/dp-SlideOutPanel",
       "components/dp-Sidebar-Overlay",
       "components/dp-Appsbar",
-      "components/dp-Groups-Facets-Fields"
+      "components/dp-Groups-Facets-Fields",
+      "components/dp-Tableview"
     ],
     "Elements": [
       "elements/dp-Icons",

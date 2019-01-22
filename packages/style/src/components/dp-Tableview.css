@@ -1,0 +1,269 @@
+@import "../fonts.css";
+@import "../vars.css";
+@import "../dp-Arrow.css";
+@import "../components/dp-icons.css";
+
+/* Demo-Sorting-bar-class */
+
+.Demo-Sorting-bar-class {
+  margin-bottom: 60px;
+}
+
+/* Table View */
+
+.dp-TableWrapper {
+  display: block;
+  overflow: auto;
+}
+
+.dp-Tableview {
+  display: table;
+  width: 1600px;
+}
+
+.dp-Tableview th {
+  color: var(--grey-darkest);
+  font: var(--p-n-semibold);
+}
+
+.dp-Tableview td {
+  color: var(--grey-darkest);
+  font: var(--p-xl);
+}
+
+.dp-Tableview .dp-SubjectItem {
+  font: var(--h-n-semibold);
+}
+
+.dp-Tableview td .dp-Icon.Icon--star {
+  background-size: 12px 12px;
+  float: right;
+}
+
+.dp-ColumnControls {
+  color: var(--grey-darkest);
+  display: table-row;
+  font: var(--p-n);
+  max-height: 24px;
+}
+
+.dp-ColumnControls .dp-TableItem {
+  align-items: center;
+  display: flex;
+}
+
+.dp-TableSubject, .dp-TableLabels, .dp-TableUser {
+  width: 240px;
+}
+
+.dp-TableDepartment, .dp-TableLanguage, .dp-TableLastreply {
+  width: 150px;
+}
+
+.dp-Tableview .dp-UserItem {
+  align-items: center;
+  display: flex;
+}
+
+.dp-UserItem .dp-avatar {
+  margin-right: 5px;
+}
+
+.dp-ColumnControls th, .dp-ColumnControls td {
+  border: 0;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+thead .dp-ColumnControls {
+  border-bottom: 2px solid var(--grey-light);
+  border-top: 1px solid var(--grey-light);
+}
+
+.dp-ColumnControls.dp-TableviewBody {
+  display: table-row-group;
+}
+
+table.dp-TableviewBody tr:first-child {
+  border-top: none;
+}
+
+thead .dp-Card-title td {
+  border: none;
+}
+
+.dp-Tableview tr:nth-child(2n) {
+  background-color: transparent;
+}
+
+.dp-Tableview .dp-Table-title {
+  font: var(--h-s-semibold);
+  padding: 6px 13px;
+  text-transform: uppercase;
+}
+
+/* style for table states */
+
+.is-hoverable tr.is-hover {
+  background-color: rgba(58, 141, 222, 0.07);
+}
+
+.is-hoverable tr:hover {
+  background-color: rgba(58, 141, 222, 0.07);
+}
+
+.is-hoverable tr.is-active {
+  background-color: var(--info-light);
+}
+
+.is-hoverable tr.is-selected {
+  background-color: var(--grey-lighter);
+}
+
+.dp-TableviewBody .dp-Icon {
+  height: 18px;
+  vertical-align: middle;
+  width: 18px;
+}
+
+.dp-TableviewBody .Icon--circle {
+  background-size: 11px 11px;
+}
+
+.dp-ColumnControls .dp-arrowGroup {
+  height: 10px;
+  margin-left: 5px;
+  width: 10px;
+}
+
+.dpCaretWrapper {
+  display: block;
+  height: 12px;
+  position: relative;
+}
+
+/* tableview new */
+
+.dp-Icon.Icon--edit {
+  position: relative;
+}
+
+.dp-DepartmentItem .dp-Item-title:hover {
+  color: var(--brand-primary);
+}
+
+.dp-DepartmentItem .dp-Icon {
+  background-size: 12px 12px;
+  display: none;
+  margin-left: 10px;
+}
+
+.dp-DepartmentItem:hover .dp-Icon {
+  display: inline-block;
+  vertical-align: text-top;
+}
+
+.dp-DepartmentItem .dp-Icon:hover svg {
+  fill: var(--brand-primary);
+}
+
+.dp-DepartmentItem .dp-Icon:hover > .dp-Menu {
+  display: block;
+}
+
+.dp-Tableview tr.dp-Table-description {
+  background-color: var(--grey-lighter);
+  font: var(--p-xl);
+}
+
+.dp-Tableview tr.dp-Table-description {
+  border-top: 0;
+  display: none;
+}
+
+.dp-Tableview tr.dp-Table-description td {
+  border-top: 1px dashed var(--grey-light);
+}
+
+.dp-Tableview tr.dp-Table-description td:first-child,
+.dp-Tableview tr.dp-Table-description td:last-child {
+  border: none;
+}
+
+.dp-Tableview .is-selected.is-active + tr.dp-Table-description {
+  display: table-row;
+}
+
+.dp-Tableview .dp-Card-title td {
+  font: var(--h-s-semibold);
+}
+
+.dp-Tableview .dp-Sub-filter {
+  border-top: 1px dashed var(--grey-light);
+}
+
+.dp-Sub-filter .dp-Card-title {
+  color: var(--brand-primary);
+}
+
+.dp-Sub-filter .dp-Card-title:hover {
+  border: none;
+}
+
+.dp-Sub-filter .Icon--enter {
+  background-position: 0 0;
+}
+
+/* listpane/setting-cog-tableview */
+
+.dp-Tableview .dp-Cog {
+  position: relative;
+  text-align: center;
+}
+
+.dp-Tableview .dp-Cog > .dp-Icon {
+  cursor: pointer;
+  opacity: 0.3;
+  vertical-align: middle;
+}
+
+.dp-Tableview .dp-Cog:hover > .dp-Icon,
+.dp-Tableview .dp-Cog  .dp-settings.is-active {
+  opacity: 1;
+}
+
+.dp-Tableview .dp-Cog .dp-Menu {
+  left: auto;
+  min-width: 148px;
+  position: absolute;
+  right: calc(100% - 30px);
+  top: calc(100% - 5px);
+}
+
+.dp-Tableview .dp-Cog .dp-Menu-linkItem:hover > .dp-Menu {
+  left: auto;
+  right: 100%;
+}
+
+.dp-Title-group {
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+.dp-Title-group:first-child {
+  margin-right: 15px;
+}
+
+.dp-Title-group .dp-Icon {
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.dp-Title-group .dp-Title {
+  cursor: pointer;
+}
+
+.is-active.dp-Title-group .dp-Title {
+  color: var(--brand-primary);
+}

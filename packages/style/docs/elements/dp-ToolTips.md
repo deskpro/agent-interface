@@ -6,7 +6,7 @@ title: Tool tips
 ```html @preview
 <div class="dp-MainWrapper" style="height: 200px;">
 
-      <div class="dp-ToolTips dp-nowrap is-active">
+      <div class="dp-ToolTips is-active">
       	<div class="dp-ToolTipsUp">
       		<span class="dp-Icon dp-Info Icon-blue"></span>
       		<p>CSV Export info</p>
