@@ -9,7 +9,14 @@ title: List Pane
     <ul class="dp-CardList is-hoverable">
         
         <li class="dp-Card-SectionTitle">
-            <span>Sales</span>
+            <span class="dp-LevelCol">
+                <span class="dp-CustomCheckbox">
+                    <input type="checkbox" class="dp-ControlInput" id="sales-1"></input>
+                    <label for="sales-1"></label>
+                </span>
+            </span>
+
+            <span class="dp-Card-title">Sales</span>
         </li>
 
         <!-- 1 -->
@@ -297,7 +304,14 @@ title: List Pane
         </li>
 
         <li class="dp-Card-SectionTitle">
-            <span>Support</span>
+            <span class="dp-LevelCol">
+                <span class="dp-CustomCheckbox">
+                    <input type="checkbox" class="dp-ControlInput" id="support-1"></input>
+                    <label for="support-1"></label>
+                </span>
+            </span>
+
+            <span class="dp-Card-title">Support</span>
         </li>
 
         <!-- 9 -->
