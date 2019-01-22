@@ -1,0 +1,29 @@
+.dp-Kanban {
+  background-color: #e3e3e3;
+  border: 1px solid #bbb;
+}
+
+.dp-Kanban-columns {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.dp-Kanban-column {
+  width: 200px;
+  height: calc(100% - 2px);
+  border-right: 1px solid #bbb;
+  flex-shrink: 0;
+}
+
+.dp-Kanban-columnTitle {
+  font-weight: bold;
+  border-bottom: 1px solid #bbb;
+  padding: 7px 10px;
+}
+
+.dp-Kanban-item {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
