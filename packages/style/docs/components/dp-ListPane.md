@@ -8,8 +8,15 @@ title: List Pane
 <form>
     <ul class="dp-CardList is-hoverable">
         
-        <li class="dp-Card-SectionTitle">
-            <span>Sales</span>
+        <li class="dp-Card dp-Level dp-Card-SectionTitle">
+            <span class="dp-LevelCol">
+                <span class="dp-CustomCheckbox">
+                    <input type="checkbox" class="dp-ControlInput" id="tickets-sales-1"></input>
+                    <label for="tickets-sales-1"></label>
+                </span>
+            </span>
+
+            <span class="dp-Card-title">Sales</span>
         </li>
 
         <!-- 1 -->
@@ -296,8 +303,15 @@ title: List Pane
             </span>
         </li>
 
-        <li class="dp-Card-SectionTitle">
-            <span>Support</span>
+        <li class="dp-Card dp-Level dp-Card-SectionTitle">
+            <span class="dp-LevelCol">
+                <span class="dp-CustomCheckbox">
+                    <input type="checkbox" class="dp-ControlInput" id="ticket-support"></input>
+                    <label for="ticket-support"></label>
+                </span>
+            </span>
+            
+            <span class="dp-Card-title">Support</span>
         </li>
 
         <!-- 9 -->
@@ -7331,22 +7345,26 @@ title: List Pane
                                 </li>
                             </ul>
                         </li>
-
                         <li class="dp-DropdownDivider"></li>
                         <li class="dp-Menu-linkItem">Place on hold</li>
                         <li class="dp-Menu-linkItem">Lock</li>
                         <li class="dp-Menu-linkItem">Unlock</li>
-
                     </ul>
                 </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <span class="dp-CustomCheckbox dp-EmptyCheckbox">
+                        <input type="checkbox" class="dp-ControlInput" id="sales-2"></input>
+                        <label for="sales-2"></label>
+                    </span>
+                </td>
+                <td colspan="12" class="dp-Table-title">Sales</td>
             </tr>
         </tbody>
 
         <thead>
-            <tr class="dp-Card-title">
-                <td colspan="13">Sales</td>
-            </tr>
-
             <tr class="dp-ColumnControls">
                 <th>
                     <span class="dp-TableItem">
