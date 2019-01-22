@@ -160,17 +160,6 @@
 }
 */
 
-/* Demo */
-
-.is-hover .dp-DepartmentItem .dp-Icon {
-  display: inline-block;
-  vertical-align: text-top;
-}
-
-.is-hover .dp-DepartmentItem .dp-Icon > .dp-Menu {
-  display: block;
-}
-
 /* Listpane/guides */
 
 .dp-MassSelectTitle .dp-ItemRow {

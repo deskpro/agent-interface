@@ -2,14 +2,6 @@
 title: Header
 ---
 
-<h2>header/container</h2>
-```html @preview
-<div class="dp-Header header-wrapper">
-    <div class="dp-HeaderContainer">
-    </div>
-</div>
-```
-
 <h2>header/general</h2>
 ```html @preview
 <div class="dp-Header header-wrapper">

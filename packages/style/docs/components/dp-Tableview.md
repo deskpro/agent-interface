@@ -934,6 +934,22 @@ title: Tableview
                 </td>
             </tr>
 
+            <tr class="dp-Sub-filter">
+                <td>
+                    <span class="dp-CustomCheckbox dp-EmptyCheckbox">
+                        <input type="checkbox" class="dp-ControlInput" id="subfilter"></input>
+                        <label for="subfilter"></label>
+                    </span>
+                </td>
+                <td colspan="12">
+                    <span class="dp-Icon Icon--enter"></span>
+                    <span class="dp-Card-title">
+                        SUB FILTER 
+                        <span class="dp-qt">(11)</span>
+                    </span>
+                </td>
+            </tr>
+
             <tr>
                 <td>
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">

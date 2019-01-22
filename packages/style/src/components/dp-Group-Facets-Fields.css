@@ -3,18 +3,6 @@
 @import "../dp-Arrow.css";
 @import "../components/dp-icons.css";
 
-/* Demo style */
-
-.demo-ControlsList {
-  display: block;
-  margin-bottom: 300px;
-}
-
-.demo-FieldsList {
-  display: block;
-  margin-bottom: 575px;
-}
-
 /* List Pane */
 
 .dp-ListPane {

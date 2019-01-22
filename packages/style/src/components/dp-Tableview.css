@@ -33,11 +33,22 @@
 
 .dp-Tableview .dp-SubjectItem {
   font: var(--h-n-semibold);
+  position: relative;
+}
+
+.dp-Tableview .dp-SubjectItem .dp-Card-title:focus {
+  background-color: var(--grey-lighter);
+  color: var(--brand-primary);
+  display: block;
+  margin: 0;
+  width: 100%;
 }
 
 .dp-Tableview td .dp-Icon.Icon--star {
   background-size: 12px 12px;
-  float: right;
+  position: absolute;
+  right: 0;
+  top: calc(50% - 6px);
 }
 
 .dp-ColumnControls {
@@ -211,7 +222,8 @@ thead .dp-Card-title td {
 }
 
 .dp-Sub-filter .Icon--enter {
-  background-position: 0 0;
+  background-position: 0 -2px;
+  height: 12px;
 }
 
 /* listpane/setting-cog-tableview */
