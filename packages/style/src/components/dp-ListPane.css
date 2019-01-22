@@ -347,7 +347,6 @@
 }
 
 .dp-Tasks-list .dp-CustomCheckbox input[type="checkbox"] + label {
-  display: block;
   padding-left: 20px;
 }
 
