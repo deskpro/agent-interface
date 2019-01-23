@@ -197,8 +197,8 @@ title: Tableview
                     </span>
                 </th>
                 <th>
+                    <span class="dp-Icon Icon--draggable"></span>
                     <span class="dp-TableItem">
-                        <span class="dp-Icon Icon--draggable"></span>
                         <span>ID</span>
                         <span class="dp-Icon dp-arrowGroup"></span>
                     </span>
@@ -3878,7 +3878,7 @@ title: Tableview
                     <span class="dp-Icon Icon--draggable"></span>
                     <span class="dp-TableItem">
                         Language
-                    <span class="dp-Icon dp-arrowGroup"></span>
+                        <span class="dp-Icon dp-arrowGroup"></span>
                     </span>
                 </th>
                 <th class="dp-TableLastreply">
