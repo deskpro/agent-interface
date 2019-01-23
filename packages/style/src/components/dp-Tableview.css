@@ -138,11 +138,11 @@ thead .dp-Card-title td {
   position: relative;
 }
 
-.dp-TableDepartment > .dp-Icon {
+thead th > .dp-Icon {
   display: none;
 }
 
-.dp-TableDepartment.is-column-draggable > .dp-Icon {
+thead th.is-column-draggable > .dp-Icon {
   display: block;
   position: absolute;
   right: calc(100% - 8.5px);
