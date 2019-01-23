@@ -919,13 +919,13 @@ title: List Pane
                 <th class="dp-TableLabels">
                     <span class="dp-TableItem">
                         Labels
-                    <span class="dp-Icon dp-arrowGroup"></span>
+                        <span class="dp-Icon dp-arrowGroup"></span>
                     </span>
                 </th>
-                <th class="dp-TableDepartment">
+                <th class="dp-TableDepartment is-column-draggable">
                     <span class="dp-TableItem">
                         Department
-                    <span class="dp-Icon dp-arrowGroup"></span>
+                        <span class="dp-Icon dp-arrowGroup"></span>
                     </span>
                 </th>
                 <th class="dp-TableLanguage">
@@ -937,13 +937,13 @@ title: List Pane
                 <th class="dp-TableLastreply">
                     <span class="dp-TableItem">
                         Last reply
-                    <span class="dp-Icon dp-arrowGroup"></span>
+                        <span class="dp-Icon dp-arrowGroup"></span>
                     </span>
                 </th>
                 <th class="dp-TableUser">
                     <span class="dp-TableItem">
                         User
-                    <span class="dp-Icon dp-arrowGroup"></span>
+                        <span class="dp-Icon dp-arrowGroup"></span>
                     </span>
                 </th>
                 <th>
@@ -953,17 +953,17 @@ title: List Pane
                 </th>
                 <th>
                     <span class="dp-TableItem">
-                    <span class="dp-Icon dp-arrowGroup"></span>
+                        <span class="dp-Icon dp-arrowGroup"></span>
                     </span>
                 </th>
                 <th>
                     <span class="dp-TableItem">
-                    <span class="dp-Icon dp-arrowGroup"></span>
+                        <span class="dp-Icon dp-arrowGroup"></span>
                     </span>
                 </th>
                 <th>
                     <span class="dp-TableItem">
-                    <span class="dp-Icon dp-arrowGroup"></span>
+                        <span class="dp-Icon dp-arrowGroup"></span>
                     </span>
                 </th>
                 <th class="dp-Cog">
@@ -4502,8 +4502,8 @@ title: List Pane
                 <th>
                     <span class="dp-TableItem">
                         <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                            <input type="checkbox" class="dp-ControlInput" id="tableview-1-1"></input>
-                            <label for="tableview-1-1"></label>
+                            <input type="checkbox" class="dp-ControlInput" id="tableview-2-1"></input>
+                            <label for="tableview-2-1"></label>
                         </span>
                     </span>
                 </th>
@@ -4522,25 +4522,25 @@ title: List Pane
                 <th class="dp-TableLabels">
                     <span class="dp-TableItem">
                         Labels
-                    <span class="dp-Icon dp-arrowGroup"></span>
+                        <span class="dp-Icon dp-arrowGroup"></span>
                     </span>
                 </th>
                 <th class="dp-TableDepartment">
                     <span class="dp-TableItem">
                         Department
-                    <span class="dp-Icon dp-arrowGroup"></span>
+                        <span class="dp-Icon dp-arrowGroup"></span>
                     </span>
                 </th>
                 <th class="dp-TableLanguage">
                     <span class="dp-TableItem">
                         Language
-                    <span class="dp-Icon dp-arrowGroup"></span>
+                        <span class="dp-Icon dp-arrowGroup"></span>
                     </span>
                 </th>
                 <th class="dp-TableLastreply">
                     <span class="dp-TableItem">
                         Last reply
-                    <span class="dp-Icon dp-arrowGroup"></span>
+                        <span class="dp-Icon dp-arrowGroup"></span>
                     </span>
                 </th>
                 <th class="dp-TableUser">
@@ -4581,8 +4581,8 @@ title: List Pane
             <tr>
                 <td>
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="tableview-2"></input>
-                        <label for="tableview-2"></label>
+                        <input type="checkbox" class="dp-ControlInput" id="tableview-2-2"></input>
+                        <label for="tableview-2-2"></label>
                     </span>
                 </td>
                 <td>83995</td>

@@ -12,6 +12,7 @@
 
 .dp-Tableview {
   display: table;
+  overflow: hidden;
   width: 1600px;
 }
 
@@ -129,6 +130,31 @@ thead .dp-Card-title td {
 
 .is-hoverable tr.is-selected {
   background-color: var(--grey-lighter);
+}
+
+/* style for table columns draggable */
+
+.dp-Tableview thead .is-column-draggable {
+  position: relative;
+}
+
+.dp-Tableview thead .is-column-draggable::before {
+  background-color: var(--brand-primary);
+  bottom: 0;
+  content: "";
+  height: 100vh;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1px;
+}
+
+.dp-Tableview thead .is-column-draggable {
+  color: var(--brand-primary);
+}
+
+.is-column-draggable svg {
+  fill: var(--brand-primary);
 }
 
 .dp-TableviewBody .dp-Icon {
