@@ -27,11 +27,17 @@
 
 .dp-Tableview .dp-SubjectItem {
   font: var(--h-n-semibold);
+  padding: 2.5px 13px;
   position: relative;
+}
+
+.dp-Tableview .dp-SubjectItem .dp-Card-title {
+  padding: 3.5px 5px 2px;
 }
 
 .dp-Tableview .dp-SubjectItem .dp-Card-title:focus {
   background-color: var(--grey-lighter);
+  border-radius: 2px;
   color: var(--brand-primary);
   display: block;
   margin: 0;
@@ -229,6 +235,7 @@ thead .dp-Card-title td {
 
 .dp-Tableview .dp-Cog > .dp-Icon {
   cursor: pointer;
+  margin: 0 auto;
   opacity: 0.3;
   vertical-align: middle;
 }

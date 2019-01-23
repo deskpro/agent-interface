@@ -104,6 +104,21 @@
   padding-left: 5px;
 }
 
+.dp-AccountList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.dp-AccountItem {
+  align-items: center;
+  border-bottom: 1px solid var(--grey-light);
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 10px;
+}
+
 .dp-IconTooltip .dp-AccountItem {
   background-color: var(--white);
 }
@@ -205,6 +220,7 @@
 
 /* dp-YourAccount tooltip */
 
+/*
 .dp-YourAccount {
   display: none;
   font: var(--p-xl);
@@ -214,7 +230,10 @@
   display: block;
 }
 
-.dp-YourAccount .dp-add_tab, .dp-YourAccount .dp-IconPlaneOrange, .dp-YourAccount .dp-IconPlaneViolet, .dp-YourAccount .dp-IconPlane {
+.dp-YourAccount .dp-add_tab,
+.dp-YourAccount .dp-IconPlaneOrange,
+.dp-YourAccount .dp-IconPlaneViolet,
+.dp-YourAccount .dp-IconPlane {
   background-size: 100%;
   height: 29px;
   margin-right: 14px;
@@ -264,12 +283,6 @@
   cursor: pointer;
 }
 
-.dp-AccountList {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
 .dp-AccountItem {
   align-items: center;
   border-bottom: 1px solid var(--grey-light);
@@ -285,4 +298,4 @@
 
 .dp-YourAccount .dp-AccountItem:last-child .dp-Icon-Title {
   font: var(--p-l);
-}
+} */

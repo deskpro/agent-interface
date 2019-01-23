@@ -350,10 +350,14 @@
   padding-left: 20px;
 }
 
+.dp-Tasks-list .dp-CustomCheckbox input[type="checkbox"] + label::after,
+.dp-Tasks-list .dp-CustomCheckbox input[type="checkbox"] + label::before {
+  top: calc(50% - 6px);
+}
+
 .dp-Tasks-list .dp-Card-link {
   align-items: center;
   color: var(--brand-primary);
-
   display: flex;
   font: var(--p-xl);
   text-decoration: underline;

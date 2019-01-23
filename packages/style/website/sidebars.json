@@ -14,10 +14,14 @@
       "components/dp-Sidebar",
       "components/dp-Pagetabs",
       "components/dp-Pageview",
+      "components/dp-Card",
+      "components/dp-Menus",
+      "components/dp-TabsHeaders",
+      "components/dp-Actions",
       "components/dp-SlideOutPanel",
       "components/dp-Sidebar-Overlay",
       "components/dp-Appsbar",
-      "components/dp-Groups-Facets-Fields",
+      "components/dp-Orderingbar",
       "components/dp-Tableview"
     ],
     "Elements": [
@@ -25,11 +29,7 @@
       "elements/dp-Buttons",
       "elements/dp-Badges",
       "elements/dp-Input",
-      "elements/dp-TabsHeaders",
-      "elements/dp-Actions",
-      "elements/dp-Card",
       "elements/dp-ToolTips",
-      "elements/dp-Menus",
       "elements/dp-Forms"
     ]
   }

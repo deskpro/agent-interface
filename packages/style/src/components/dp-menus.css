@@ -1,0 +1,497 @@
+@import "../fonts.css";
+@import "../vars.css";
+@import "../dp-Arrow.css";
+
+/* Menus */
+
+.dp-Menu {
+  background-color: var(--white);
+  border: 1px solid var(--brand-primary);
+  border-radius: var(--border-radius);
+  display: none;
+  left: 0;
+  list-style-type: none;
+  padding: 5px 0;
+  position: absolute;
+  top: calc(100% + 5px);
+  white-space: nowrap;
+  z-index: 9;
+}
+
+.dp-Menu.is-active {
+  display: block;
+}
+
+.dp-Menu .dp-Icon {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  margin-right: 5px;
+}
+
+.dp-Menu .dp-Menu-title {
+  background-color: var(--brand-primary);
+  color: var(--white);
+  font: var(--p-l);
+  margin-bottom: 5px;
+  margin-top: -5px;
+  padding: 8px 10px;
+}
+
+.dp-Menu .dp-Badge.Badge--round {
+  height: 12px;
+  margin-left: 0;
+  margin-right: 5px;
+  width: 12px;
+}
+
+.dp-Menu.newControlsList .dp-CustomCheckbox input[type="checkbox"] + label {
+  margin-right: 10px;
+  padding-left: 20px;
+}
+
+.dp-Menu > li:last-child {
+  border-bottom-left-radius: var(--border-radius);
+  border-bottom-right-radius: var(--border-radius);
+}
+
+.dp-Menu > li > a {
+  align-items: center;
+  color: var(--grey-darkest);
+  display: flex;
+}
+
+.dp-Menu .dp-DropdownDivider {
+  margin: 0;
+  padding: 0.5rem 0;
+  position: relative;
+}
+
+.dp-Menu .dp-DropdownDivider::after {
+  background-color: var(--grey-light);
+  content: "";
+  display: block;
+  height: 1px;
+  position: absolute;
+  width: 100%;
+}
+
+.dp-Menu .dp-disabledItem > a {
+  color: rgba(76, 79, 80, 0.5);
+}
+
+.dp-Menu .dp-Arrow {
+  position: initial;
+}
+
+.dp-ListPane .dp-Menu {
+  min-width: 200px;
+}
+
+.dp-ListPane .dp-Menu.newControlsList {
+  min-width: 250px;
+}
+
+.dp-ListpaneTasks .dp-Menu {
+  border: 1px solid var(--grey-light);
+  box-shadow: var(--shadow-bottom-right);
+  color: var(--grey-darkest);
+  cursor: pointer;
+  left: auto;
+  padding: 5px 10px;
+  right: -50px;
+}
+
+.dp-ListpaneTasks .dp-Menu .dp-Icon {
+  height: 11px;
+  width: 11px;
+}
+
+.dp-FilterControlsItem .dp-Menu.newControlsList {
+  min-width: 250px;
+}
+
+.dp-FilterControlsItem .dp-Menu {
+  min-width: 200px;
+}
+
+/* listpane/rightclick */
+
+.dp-Menu .dp-Menu-linkItem {
+  align-items: center;
+  color: var(--grey-darkest);
+  cursor: pointer;
+  display: flex;
+  font: var(--p-l);
+  margin: 0;
+  padding: 3.5px 10px;
+  position: relative;
+}
+
+.dp-Menu .dp-Menu-linkItem.dp-DropdownDivider {
+  padding: 0;
+}
+
+.dp-Menu .dp-listLink {
+  display: inline-block;
+  padding: 0 4px;
+  text-decoration: underline;
+}
+
+.dp-Menu .dp-Menu-linkItem .dp-Arrow {
+  display: inline-block;
+  float: right;
+  padding-left: 60px;
+}
+
+.dp-Menu .dp-Menu-linkItem .dp-Arrow::after {
+  border-color: transparent transparent transparent var(--grey-dark);
+  border-style: solid;
+  border-width: 4px 4px 4px 4px;
+  bottom: 0;
+  content: "";
+  height: 0;
+  margin: auto;
+  position: absolute;
+  right: 6px;
+  top: 0;
+  width: 0;
+}
+
+.dp-Menu .dp-Menu-linkItem:hover {
+  background-color: var(--primary-light);
+  color: var(--brand-primary);
+}
+
+/* .dp-Menu li.dp-Menu-linkItem:hover::before,
+.dp-Menu li.dp-Menu-linkItem:hover ~ li::before {
+  background-color: var(--grey);
+  bottom: 0;
+  content: "";
+  height: 100%;
+  left: auto;
+  position: absolute;
+  right: -1px;
+  top: 0;
+  width: 1px;
+  z-index: 10;
+} */
+
+.dp-Menu li {
+  position: relative;
+}
+
+.dp-Menu-linkItem:hover > .dp-listItem, .dp-Menu .dp-Menu-linkItem:hover .dp-Menu-link {
+  color: var(--brand-primary);
+}
+
+.dp-Menu .dp-Menu-linkItem:hover .dp-listLink {
+  border-color: var(--brand-primary);
+  color: var(--brand-primary);
+}
+
+.dp-Menu .dp-Menu-linkItem:hover .dp-Arrow::after {
+  border-color: transparent transparent transparent var(--brand-primary);
+}
+
+.dp-Menu > .dp-Menu-linkItem:hover svg {
+  fill: var(--brand-primary);
+}
+
+.dp-iconVDots.is-visible + .dp-Menu {
+  display: block;
+  left: calc(100% - 5px);
+  top: 0;
+  width: 100%;
+}
+
+.is-expanded > .dp-Menu {
+  display: block;
+}
+
+.dp-Menu .dp-email_small {
+  background-size: 13px 9px;
+}
+
+.dp-Menu.is-visible {
+  display: block;
+}
+
+.newControlsList .dp-ListPane .dp-Menu-linkItem > .dp-settings {
+  background-size: 12px;
+  height: 12px;
+  margin: 0;
+  width: 12px;
+}
+
+/* listpane dropdown Menu */
+
+.Menu-fields .dp-settings.is-active + .dp-Menu,
+.dp-DropDownItem.is-active > .dp-Menu {
+  display: block;
+}
+
+/* Menu-grouped */
+
+.dp-Menu.Menu-grouped .dp-Menu-linkItem {
+  justify-content: space-between;
+}
+
+.dp-Menu.Menu-fields .dp-Menu-linkItem:hover > .dp-Menu,
+.dp-Menu.Menu-fields .dp-Menu,
+.dp-Menu.Menu-grouped .dp-Menu-linkItem:hover > .dp-Menu,
+.dp-Menu.Menu-grouped .dp-Menu {
+  border-radius: var(--border-radius);
+  left: calc(100% - 5px);
+}
+
+.Menu-fields .dp-settings.is-active + .dp-Menu {
+  display: block;
+}
+
+/* Menu-tick */
+
+.dp-Menu.Menu-tick .is-active + .dp-Menu {
+  display: block;
+  left: 100%;
+  min-width: 125px;
+  top: 0;
+}
+
+.dp-Menu.Menu-tick > .dp-Menu-linkItem > .dp-listItem::after {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='9' height='8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M.925 4.342a.568.568 0 0 1 0-.726l.096-.108a.43.43 0 0 1 .648 0l1.682 1.885L7.765.446a.43.43 0 0 1 .648 0l.096.108a.568.568 0 0 1 0 .726L3.351 7.061.925 4.342z' fill='%233A8DDE'/%3E%3C/svg%3E");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 50% 50%;
+  content: "";
+  display: block;
+  height: 25px;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  width: 25px;
+}
+
+.dp-Menu.Menu-tick .dp-Menu-linkItem:hover > .dp-listItem::after {
+  opacity: 1;
+}
+
+.dp-Menu.Menu-tick > .dp-Menu-linkItem {
+  padding: 3.5px 10px 3.5px 25px;
+}
+
+.dp-Menu.Menu-tick .dp-Menu-linkItem:hover {
+  background-color: transparent;
+}
+
+.dp-Menu .dp-listItem .dp-Icon {
+  margin: 0;
+}
+
+.dp-Menu .dp-Menu-linkItem .dp-listItem {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/* Menu-fields */
+
+.dp-Menu.Menu-fields {
+  left: auto;
+  min-width: 235px;
+  padding: 0;
+  right: 0;
+}
+
+.dp-Menu.Menu-fields .dp-Menu-title {
+  background-color: transparent;
+  border-bottom: 1px solid var(--grey-light);
+  color: var(--grey-dark);
+  font: var(--p-l-semibold);
+  margin: 0;
+  padding: 0;
+}
+
+.dp-Menu-subtitle {
+  align-items: center;
+  color: var(--grey-darkest);
+  display: flex;
+  font: var(--p-xl);
+  justify-content: space-between;
+  padding: 3.5px 10px;
+}
+
+.dp-Menu-subtitle .dp-Meta {
+  font: var(--p-s);
+}
+
+.dp-Menu.Menu-fields .dp-Menu-title > ul {
+  align-items: center;
+  display: flex;
+  padding: 0;
+}
+
+.dp-Menu.Menu-fields .dp-Menu-titleItem {
+  border-right: 1px solid var(--grey-light);
+  display: flex;
+  margin: 0;
+  padding: 10px;
+}
+
+.dp-Menu.Menu-fields .dp-Menu-titleItem.is-active {
+  color: var(--brand-primary);
+}
+
+.dp-Menu.Menu-fields > .dp-Menu-linkItem:hover {
+  background-color: transparent;
+}
+
+.dp-Menu-linkItem > .dp-Icon {
+  background-size: 14px 11px;
+  width: 14px;
+}
+
+.Menu-fields .dp-CustomCheckbox {
+  flex: 1 0 auto;
+}
+
+.Menu-fields .dp-CustomCheckbox input[type="checkbox"] + label {
+  padding-left: 17px;
+}
+
+.Menu-fields .dp-settings.is-active + .dp-Menu {
+  display: block;
+}
+
+.dp-Menu.Menu-fields .dp-Menu-linkItem .dp-Menu {
+  min-width: 125px;
+}
+
+.dp-Menu-linkItem.dp-ButtonWrapper {
+  justify-content: space-around;
+  padding: 0 10px 10px 10px;
+}
+
+.dp-Menu-linkItem.dp-ButtonWrapper .dp-CustomCheckbox {
+  flex: 0 0 auto;
+}
+
+/* Page Tabs SelectedMore */
+
+.dp-SelectedMore.dp-Menu > li {
+  border-bottom: 1px solid var(--grey);
+}
+
+.dp-SelectedMore.dp-Menu > li:last-child {
+  border-bottom: 0;
+}
+
+.dp-Menu .dp-Tabs-item {
+  display: flex;
+  padding: 0;
+}
+
+.dp-SelectedMore .dp-Icon {
+  margin: 0;
+}
+
+/* Page View */
+
+.Tabs--actions .dp-Menu {
+  top: calc(100% + 10px);
+}
+
+.dp-ActionButton.is-active .dp-Menu,
+.dp-ActionsItem.is-active .dp-Menu {
+  display: block;
+}
+
+.dp-DropDownList .dp-Menu .dp-IconLink {
+  transform: rotate(90deg);
+}
+
+/* Search form */
+
+.dp-Menu .Input--search {
+  border: 1px solid var(--grey-light);
+  border-radius: 2px;
+}
+
+.dp-Menu .Input--search:focus {
+  border: 1px solid var(--brand-primary);
+}
+
+.dp-Menu-search {
+  display: block;
+  min-width: 100px;
+  padding: 3.5px 10px;
+  position: relative;
+}
+
+.dp-Menu-search input:focus + .dp-Icon svg {
+  fill: var(--brand-primary);
+}
+
+.dp-Menu-search .dp-Icon {
+  cursor: pointer;
+  height: 13px;
+  left: 10px;
+  position: absolute;
+  top: calc(50% - 6.5px);
+  width: 13px;
+}
+
+.dp-Input.Input--search {
+  background-color: var(--white);
+  font: var(--p-n);
+  outline: none;
+  padding: 5px 0 5px 20px;
+  width: 100%;
+}
+
+/* Sub menu */
+
+.dp-Menu .dp-Menu {
+  left: 100%;
+  top: 0;
+}
+
+/* .dp-Menu .dp-listItem::after {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%23318cdd' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3E%3C/svg%3E");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 50% 50%;
+  content: "";
+  display: block;
+  height: 25px;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 25px;
+} */
+
+.dp-Menu .dp-Menu li:hover .dp-listItem::after {
+  opacity: 1;
+}
+
+.dp-Menu .dp-Menu-linkItem .dp-Menu {
+  min-width: 180px;
+  position: absolute;
+}
+
+.dp-Menu .dp-Menu-linkItem:hover > .dp-Menu {
+  border-top-left-radius: 0;
+  display: block;
+  left: 100%;
+  top: 0;
+}
+
+.dp-Menu > .dp-Menu-linkItem:hover svg {
+  fill: var(--brand-primary);
+}
+
+.dp-Menu .dp-Menu-search .dp-Icon {
+  left: 15px;
+}

@@ -92,7 +92,6 @@ title: Tableview
 </div>
 ```
 
-
 <h4>listpane/tableview-column-controls</h4>
 ```html @preview
 <div class="dp-TableWrapper">
@@ -285,14 +284,139 @@ title: Tableview
                                     <span class="dp-Badge Badge--round Badge--grey-light"></span>
                                     <a href="#" class="dp-listItem">Julien Ducro</a>
                                 </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bobby Steiner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Julien Ducro</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bobby Steiner</a>
+                                </li>
                             </ul>
                         </li>
-                        <li class="dp-Menu-linkItem">Assign to my team or </li>
+
+                        <li class="dp-Menu-linkItem">Assign to <a href="#" class="dp-listLink">my team</a> or <button class="dp-Arrow"></button>
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-search">
+                                    <form>
+                                        <span class="dp-Icon dp-IconSearch"></span>
+                                        <input type="text" class="dp-Input Input--search">
+                                    </form>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Julien Ducro</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bobby Steiner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                            </ul>
+                        </li>
+
                         <li class="dp-DropdownDivider"></li>
-                        <li class="dp-Menu-linkItem">Status</button></li>
+
+                        <li class="dp-Menu-linkItem">Status <button class="dp-Arrow"></button>
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-search">
+                                    <form>
+                                        <span class="dp-Icon dp-IconSearch"></span>
+                                        <input type="text" class="dp-Input Input--search">
+                                    </form>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Julien Ducro</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bobby Steiner</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="dp-Menu-linkItem"> Urgency <button class="dp-Arrow"></button>
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-search">
+                                    <form>
+                                        <span class="dp-Icon dp-IconSearch"></span>
+                                        <input type="text" class="dp-Input Input--search">
+                                    </form>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="dp-DropdownDivider"></li>
+                        <li class="dp-Menu-linkItem">Place on hold</li>
+                        <li class="dp-Menu-linkItem">Lock</li>
+                        <li class="dp-Menu-linkItem">Unlock</li>
+
                     </ul>
                 </td>
-
             </tr>
         </thead>
 
@@ -393,11 +517,137 @@ title: Tableview
                                     <span class="dp-Badge Badge--round Badge--grey-light"></span>
                                     <a href="#" class="dp-listItem">Julien Ducro</a>
                                 </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bobby Steiner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Julien Ducro</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bobby Steiner</a>
+                                </li>
                             </ul>
                         </li>
-                        <li class="dp-Menu-linkItem">Assign to my team or </li>
+
+                        <li class="dp-Menu-linkItem">Assign to <a href="#" class="dp-listLink">my team</a> or <button class="dp-Arrow"></button>
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-search">
+                                    <form>
+                                        <span class="dp-Icon dp-IconSearch"></span>
+                                        <input type="text" class="dp-Input Input--search">
+                                    </form>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Julien Ducro</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bobby Steiner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                            </ul>
+                        </li>
+
                         <li class="dp-DropdownDivider"></li>
-                        <li class="dp-Menu-linkItem">Status</button></li>
+
+                        <li class="dp-Menu-linkItem">Status <button class="dp-Arrow"></button>
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-search">
+                                    <form>
+                                        <span class="dp-Icon dp-IconSearch"></span>
+                                        <input type="text" class="dp-Input Input--search">
+                                    </form>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Julien Ducro</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bobby Steiner</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="dp-Menu-linkItem"> Urgency <button class="dp-Arrow"></button>
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-search">
+                                    <form>
+                                        <span class="dp-Icon dp-IconSearch"></span>
+                                        <input type="text" class="dp-Input Input--search">
+                                    </form>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="dp-DropdownDivider"></li>
+                        <li class="dp-Menu-linkItem">Place on hold</li>
+                        <li class="dp-Menu-linkItem">Lock</li>
+                        <li class="dp-Menu-linkItem">Unlock</li>
+
                     </ul>
                 </td>
             </tr>
@@ -462,11 +712,137 @@ title: Tableview
                                     <span class="dp-Badge Badge--round Badge--grey-light"></span>
                                     <a href="#" class="dp-listItem">Julien Ducro</a>
                                 </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bobby Steiner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Julien Ducro</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bobby Steiner</a>
+                                </li>
                             </ul>
                         </li>
-                        <li class="dp-Menu-linkItem">Assign to my team or </li>
+
+                        <li class="dp-Menu-linkItem">Assign to <a href="#" class="dp-listLink">my team</a> or <button class="dp-Arrow"></button>
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-search">
+                                    <form>
+                                        <span class="dp-Icon dp-IconSearch"></span>
+                                        <input type="text" class="dp-Input Input--search">
+                                    </form>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Julien Ducro</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bobby Steiner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                            </ul>
+                        </li>
+
                         <li class="dp-DropdownDivider"></li>
-                        <li class="dp-Menu-linkItem">Status</button></li>
+
+                        <li class="dp-Menu-linkItem">Status <button class="dp-Arrow"></button>
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-search">
+                                    <form>
+                                        <span class="dp-Icon dp-IconSearch"></span>
+                                        <input type="text" class="dp-Input Input--search">
+                                    </form>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Julien Ducro</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bobby Steiner</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="dp-Menu-linkItem"> Urgency <button class="dp-Arrow"></button>
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-search">
+                                    <form>
+                                        <span class="dp-Icon dp-IconSearch"></span>
+                                        <input type="text" class="dp-Input Input--search">
+                                    </form>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="dp-DropdownDivider"></li>
+                        <li class="dp-Menu-linkItem">Place on hold</li>
+                        <li class="dp-Menu-linkItem">Lock</li>
+                        <li class="dp-Menu-linkItem">Unlock</li>
+
                     </ul>
                 </td>
             </tr>
@@ -502,7 +878,7 @@ title: Tableview
                 <td>&nbsp;</td>
                 <td class="dp-Cog">
                     <!-- Icon hover -->
-                    <span class="dp-Icon dp-settings"></span>
+                    <span class="dp-Icon dp-settings is-active"></span>
                     <ul class="dp-Menu">
 
                         <li class="dp-Menu-linkItem">Assign to <a href="#" class="dp-listLink">me</a> or <button class="dp-Arrow"></button>
@@ -525,11 +901,137 @@ title: Tableview
                                     <span class="dp-Badge Badge--round Badge--grey-light"></span>
                                     <a href="#" class="dp-listItem">Julien Ducro</a>
                                 </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bobby Steiner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Julien Ducro</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bobby Steiner</a>
+                                </li>
                             </ul>
                         </li>
-                        <li class="dp-Menu-linkItem">Assign to my team or </li>
+
+                        <li class="dp-Menu-linkItem">Assign to <a href="#" class="dp-listLink">my team</a> or <button class="dp-Arrow"></button>
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-search">
+                                    <form>
+                                        <span class="dp-Icon dp-IconSearch"></span>
+                                        <input type="text" class="dp-Input Input--search">
+                                    </form>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Julien Ducro</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bobby Steiner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                            </ul>
+                        </li>
+
                         <li class="dp-DropdownDivider"></li>
-                        <li class="dp-Menu-linkItem">Status</button></li>
+
+                        <li class="dp-Menu-linkItem">Status <button class="dp-Arrow"></button>
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-search">
+                                    <form>
+                                        <span class="dp-Icon dp-IconSearch"></span>
+                                        <input type="text" class="dp-Input Input--search">
+                                    </form>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Julien Ducro</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bobby Steiner</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="dp-Menu-linkItem"> Urgency <button class="dp-Arrow"></button>
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-search">
+                                    <form>
+                                        <span class="dp-Icon dp-IconSearch"></span>
+                                        <input type="text" class="dp-Input Input--search">
+                                    </form>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="dp-DropdownDivider"></li>
+                        <li class="dp-Menu-linkItem">Place on hold</li>
+                        <li class="dp-Menu-linkItem">Lock</li>
+                        <li class="dp-Menu-linkItem">Unlock</li>
+
                     </ul>
                 </td>
             </tr>
@@ -594,11 +1096,137 @@ title: Tableview
                                     <span class="dp-Badge Badge--round Badge--grey-light"></span>
                                     <a href="#" class="dp-listItem">Julien Ducro</a>
                                 </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bobby Steiner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Julien Ducro</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bobby Steiner</a>
+                                </li>
                             </ul>
                         </li>
-                        <li class="dp-Menu-linkItem">Assign to my team or </li>
+
+                        <li class="dp-Menu-linkItem">Assign to <a href="#" class="dp-listLink">my team</a> or <button class="dp-Arrow"></button>
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-search">
+                                    <form>
+                                        <span class="dp-Icon dp-IconSearch"></span>
+                                        <input type="text" class="dp-Input Input--search">
+                                    </form>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Julien Ducro</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bobby Steiner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                            </ul>
+                        </li>
+
                         <li class="dp-DropdownDivider"></li>
-                        <li class="dp-Menu-linkItem">Status</button></li>
+
+                        <li class="dp-Menu-linkItem">Status <button class="dp-Arrow"></button>
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-search">
+                                    <form>
+                                        <span class="dp-Icon dp-IconSearch"></span>
+                                        <input type="text" class="dp-Input Input--search">
+                                    </form>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Julien Ducro</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bobby Steiner</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="dp-Menu-linkItem"> Urgency <button class="dp-Arrow"></button>
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-search">
+                                    <form>
+                                        <span class="dp-Icon dp-IconSearch"></span>
+                                        <input type="text" class="dp-Input Input--search">
+                                    </form>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="dp-DropdownDivider"></li>
+                        <li class="dp-Menu-linkItem">Place on hold</li>
+                        <li class="dp-Menu-linkItem">Lock</li>
+                        <li class="dp-Menu-linkItem">Unlock</li>
+
                     </ul>
                 </td>
             </tr>
@@ -659,11 +1287,137 @@ title: Tableview
                                     <span class="dp-Badge Badge--round Badge--grey-light"></span>
                                     <a href="#" class="dp-listItem">Julien Ducro</a>
                                 </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bobby Steiner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Julien Ducro</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bobby Steiner</a>
+                                </li>
                             </ul>
                         </li>
-                        <li class="dp-Menu-linkItem">Assign to my team or </li>
+
+                        <li class="dp-Menu-linkItem">Assign to <a href="#" class="dp-listLink">my team</a> or <button class="dp-Arrow"></button>
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-search">
+                                    <form>
+                                        <span class="dp-Icon dp-IconSearch"></span>
+                                        <input type="text" class="dp-Input Input--search">
+                                    </form>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Julien Ducro</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bobby Steiner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                            </ul>
+                        </li>
+
                         <li class="dp-DropdownDivider"></li>
-                        <li class="dp-Menu-linkItem">Status</button></li>
+
+                        <li class="dp-Menu-linkItem">Status <button class="dp-Arrow"></button>
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-search">
+                                    <form>
+                                        <span class="dp-Icon dp-IconSearch"></span>
+                                        <input type="text" class="dp-Input Input--search">
+                                    </form>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Julien Ducro</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bobby Steiner</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="dp-Menu-linkItem"> Urgency <button class="dp-Arrow"></button>
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-search">
+                                    <form>
+                                        <span class="dp-Icon dp-IconSearch"></span>
+                                        <input type="text" class="dp-Input Input--search">
+                                    </form>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="dp-DropdownDivider"></li>
+                        <li class="dp-Menu-linkItem">Place on hold</li>
+                        <li class="dp-Menu-linkItem">Lock</li>
+                        <li class="dp-Menu-linkItem">Unlock</li>
+
                     </ul>
                 </td>
             </tr>
@@ -726,11 +1480,137 @@ title: Tableview
                                     <span class="dp-Badge Badge--round Badge--grey-light"></span>
                                     <a href="#" class="dp-listItem">Julien Ducro</a>
                                 </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bobby Steiner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Julien Ducro</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bobby Steiner</a>
+                                </li>
                             </ul>
                         </li>
-                        <li class="dp-Menu-linkItem">Assign to my team or </li>
+
+                        <li class="dp-Menu-linkItem">Assign to <a href="#" class="dp-listLink">my team</a> or <button class="dp-Arrow"></button>
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-search">
+                                    <form>
+                                        <span class="dp-Icon dp-IconSearch"></span>
+                                        <input type="text" class="dp-Input Input--search">
+                                    </form>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Julien Ducro</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bobby Steiner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                            </ul>
+                        </li>
+
                         <li class="dp-DropdownDivider"></li>
-                        <li class="dp-Menu-linkItem">Status</button></li>
+
+                        <li class="dp-Menu-linkItem">Status <button class="dp-Arrow"></button>
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-search">
+                                    <form>
+                                        <span class="dp-Icon dp-IconSearch"></span>
+                                        <input type="text" class="dp-Input Input--search">
+                                    </form>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Julien Ducro</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bobby Steiner</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="dp-Menu-linkItem"> Urgency <button class="dp-Arrow"></button>
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-search">
+                                    <form>
+                                        <span class="dp-Icon dp-IconSearch"></span>
+                                        <input type="text" class="dp-Input Input--search">
+                                    </form>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="dp-DropdownDivider"></li>
+                        <li class="dp-Menu-linkItem">Place on hold</li>
+                        <li class="dp-Menu-linkItem">Lock</li>
+                        <li class="dp-Menu-linkItem">Unlock</li>
+
                     </ul>
                 </td>
             </tr>
@@ -791,11 +1671,137 @@ title: Tableview
                                     <span class="dp-Badge Badge--round Badge--grey-light"></span>
                                     <a href="#" class="dp-listItem">Julien Ducro</a>
                                 </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bobby Steiner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Julien Ducro</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bobby Steiner</a>
+                                </li>
                             </ul>
                         </li>
-                        <li class="dp-Menu-linkItem">Assign to my team or </li>
+
+                        <li class="dp-Menu-linkItem">Assign to <a href="#" class="dp-listLink">my team</a> or <button class="dp-Arrow"></button>
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-search">
+                                    <form>
+                                        <span class="dp-Icon dp-IconSearch"></span>
+                                        <input type="text" class="dp-Input Input--search">
+                                    </form>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Julien Ducro</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bobby Steiner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                            </ul>
+                        </li>
+
                         <li class="dp-DropdownDivider"></li>
-                        <li class="dp-Menu-linkItem">Status</button></li>
+
+                        <li class="dp-Menu-linkItem">Status <button class="dp-Arrow"></button>
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-search">
+                                    <form>
+                                        <span class="dp-Icon dp-IconSearch"></span>
+                                        <input type="text" class="dp-Input Input--search">
+                                    </form>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Julien Ducro</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bobby Steiner</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="dp-Menu-linkItem"> Urgency <button class="dp-Arrow"></button>
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-search">
+                                    <form>
+                                        <span class="dp-Icon dp-IconSearch"></span>
+                                        <input type="text" class="dp-Input Input--search">
+                                    </form>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="dp-DropdownDivider"></li>
+                        <li class="dp-Menu-linkItem">Place on hold</li>
+                        <li class="dp-Menu-linkItem">Lock</li>
+                        <li class="dp-Menu-linkItem">Unlock</li>
+
                     </ul>
                 </td>
             </tr>
@@ -858,11 +1864,137 @@ title: Tableview
                                     <span class="dp-Badge Badge--round Badge--grey-light"></span>
                                     <a href="#" class="dp-listItem">Julien Ducro</a>
                                 </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bobby Steiner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Julien Ducro</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bobby Steiner</a>
+                                </li>
                             </ul>
                         </li>
-                        <li class="dp-Menu-linkItem">Assign to my team or </li>
+
+                        <li class="dp-Menu-linkItem">Assign to <a href="#" class="dp-listLink">my team</a> or <button class="dp-Arrow"></button>
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-search">
+                                    <form>
+                                        <span class="dp-Icon dp-IconSearch"></span>
+                                        <input type="text" class="dp-Input Input--search">
+                                    </form>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Julien Ducro</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bobby Steiner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                            </ul>
+                        </li>
+
                         <li class="dp-DropdownDivider"></li>
-                        <li class="dp-Menu-linkItem">Status</button></li>
+
+                        <li class="dp-Menu-linkItem">Status <button class="dp-Arrow"></button>
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-search">
+                                    <form>
+                                        <span class="dp-Icon dp-IconSearch"></span>
+                                        <input type="text" class="dp-Input Input--search">
+                                    </form>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Julien Ducro</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bobby Steiner</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="dp-Menu-linkItem"> Urgency <button class="dp-Arrow"></button>
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-search">
+                                    <form>
+                                        <span class="dp-Icon dp-IconSearch"></span>
+                                        <input type="text" class="dp-Input Input--search">
+                                    </form>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="dp-DropdownDivider"></li>
+                        <li class="dp-Menu-linkItem">Place on hold</li>
+                        <li class="dp-Menu-linkItem">Lock</li>
+                        <li class="dp-Menu-linkItem">Unlock</li>
+
                     </ul>
                 </td>
             </tr>
@@ -925,11 +2057,137 @@ title: Tableview
                                     <span class="dp-Badge Badge--round Badge--grey-light"></span>
                                     <a href="#" class="dp-listItem">Julien Ducro</a>
                                 </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bobby Steiner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Julien Ducro</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bobby Steiner</a>
+                                </li>
                             </ul>
                         </li>
-                        <li class="dp-Menu-linkItem">Assign to my team or </li>
+
+                        <li class="dp-Menu-linkItem">Assign to <a href="#" class="dp-listLink">my team</a> or <button class="dp-Arrow"></button>
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-search">
+                                    <form>
+                                        <span class="dp-Icon dp-IconSearch"></span>
+                                        <input type="text" class="dp-Input Input--search">
+                                    </form>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Julien Ducro</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bobby Steiner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                            </ul>
+                        </li>
+
                         <li class="dp-DropdownDivider"></li>
-                        <li class="dp-Menu-linkItem">Status</button></li>
+
+                        <li class="dp-Menu-linkItem">Status <button class="dp-Arrow"></button>
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-search">
+                                    <form>
+                                        <span class="dp-Icon dp-IconSearch"></span>
+                                        <input type="text" class="dp-Input Input--search">
+                                    </form>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Julien Ducro</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bobby Steiner</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="dp-Menu-linkItem"> Urgency <button class="dp-Arrow"></button>
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-search">
+                                    <form>
+                                        <span class="dp-Icon dp-IconSearch"></span>
+                                        <input type="text" class="dp-Input Input--search">
+                                    </form>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="dp-DropdownDivider"></li>
+                        <li class="dp-Menu-linkItem">Place on hold</li>
+                        <li class="dp-Menu-linkItem">Lock</li>
+                        <li class="dp-Menu-linkItem">Unlock</li>
+
                     </ul>
                 </td>
             </tr>
@@ -1009,11 +2267,137 @@ title: Tableview
                                     <span class="dp-Badge Badge--round Badge--grey-light"></span>
                                     <a href="#" class="dp-listItem">Julien Ducro</a>
                                 </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bobby Steiner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Julien Ducro</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bobby Steiner</a>
+                                </li>
                             </ul>
                         </li>
-                        <li class="dp-Menu-linkItem">Assign to my team or </li>
+
+                        <li class="dp-Menu-linkItem">Assign to <a href="#" class="dp-listLink">my team</a> or <button class="dp-Arrow"></button>
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-search">
+                                    <form>
+                                        <span class="dp-Icon dp-IconSearch"></span>
+                                        <input type="text" class="dp-Input Input--search">
+                                    </form>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Julien Ducro</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bobby Steiner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                            </ul>
+                        </li>
+
                         <li class="dp-DropdownDivider"></li>
-                        <li class="dp-Menu-linkItem">Status</button></li>
+
+                        <li class="dp-Menu-linkItem">Status <button class="dp-Arrow"></button>
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-search">
+                                    <form>
+                                        <span class="dp-Icon dp-IconSearch"></span>
+                                        <input type="text" class="dp-Input Input--search">
+                                    </form>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Julien Ducro</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bobby Steiner</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="dp-Menu-linkItem"> Urgency <button class="dp-Arrow"></button>
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-search">
+                                    <form>
+                                        <span class="dp-Icon dp-IconSearch"></span>
+                                        <input type="text" class="dp-Input Input--search">
+                                    </form>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="dp-DropdownDivider"></li>
+                        <li class="dp-Menu-linkItem">Place on hold</li>
+                        <li class="dp-Menu-linkItem">Lock</li>
+                        <li class="dp-Menu-linkItem">Unlock</li>
+
                     </ul>
                 </td>
             </tr>
@@ -1077,11 +2461,137 @@ title: Tableview
                                     <span class="dp-Badge Badge--round Badge--grey-light"></span>
                                     <a href="#" class="dp-listItem">Julien Ducro</a>
                                 </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bobby Steiner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Julien Ducro</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bobby Steiner</a>
+                                </li>
                             </ul>
                         </li>
-                        <li class="dp-Menu-linkItem">Assign to my team or </li>
+
+                        <li class="dp-Menu-linkItem">Assign to <a href="#" class="dp-listLink">my team</a> or <button class="dp-Arrow"></button>
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-search">
+                                    <form>
+                                        <span class="dp-Icon dp-IconSearch"></span>
+                                        <input type="text" class="dp-Input Input--search">
+                                    </form>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Julien Ducro</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bobby Steiner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                            </ul>
+                        </li>
+
                         <li class="dp-DropdownDivider"></li>
-                        <li class="dp-Menu-linkItem">Status</button></li>
+
+                        <li class="dp-Menu-linkItem">Status <button class="dp-Arrow"></button>
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-search">
+                                    <form>
+                                        <span class="dp-Icon dp-IconSearch"></span>
+                                        <input type="text" class="dp-Input Input--search">
+                                    </form>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Julien Ducro</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bobby Steiner</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="dp-Menu-linkItem"> Urgency <button class="dp-Arrow"></button>
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-search">
+                                    <form>
+                                        <span class="dp-Icon dp-IconSearch"></span>
+                                        <input type="text" class="dp-Input Input--search">
+                                    </form>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="dp-DropdownDivider"></li>
+                        <li class="dp-Menu-linkItem">Place on hold</li>
+                        <li class="dp-Menu-linkItem">Lock</li>
+                        <li class="dp-Menu-linkItem">Unlock</li>
+
                     </ul>
                 </td>
             </tr>
@@ -1198,11 +2708,137 @@ title: Tableview
                                     <span class="dp-Badge Badge--round Badge--grey-light"></span>
                                     <a href="#" class="dp-listItem">Julien Ducro</a>
                                 </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bobby Steiner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Julien Ducro</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bobby Steiner</a>
+                                </li>
                             </ul>
                         </li>
-                        <li class="dp-Menu-linkItem">Assign to my team or </li>
+
+                        <li class="dp-Menu-linkItem">Assign to <a href="#" class="dp-listLink">my team</a> or <button class="dp-Arrow"></button>
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-search">
+                                    <form>
+                                        <span class="dp-Icon dp-IconSearch"></span>
+                                        <input type="text" class="dp-Input Input--search">
+                                    </form>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Julien Ducro</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bobby Steiner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                            </ul>
+                        </li>
+
                         <li class="dp-DropdownDivider"></li>
-                        <li class="dp-Menu-linkItem">Status</button></li>
+
+                        <li class="dp-Menu-linkItem">Status <button class="dp-Arrow"></button>
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-search">
+                                    <form>
+                                        <span class="dp-Icon dp-IconSearch"></span>
+                                        <input type="text" class="dp-Input Input--search">
+                                    </form>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Julien Ducro</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bobby Steiner</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="dp-Menu-linkItem"> Urgency <button class="dp-Arrow"></button>
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-search">
+                                    <form>
+                                        <span class="dp-Icon dp-IconSearch"></span>
+                                        <input type="text" class="dp-Input Input--search">
+                                    </form>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="dp-DropdownDivider"></li>
+                        <li class="dp-Menu-linkItem">Place on hold</li>
+                        <li class="dp-Menu-linkItem">Lock</li>
+                        <li class="dp-Menu-linkItem">Unlock</li>
+
                     </ul>
                 </th>
             </tr>
@@ -1268,11 +2904,137 @@ title: Tableview
                                     <span class="dp-Badge Badge--round Badge--grey-light"></span>
                                     <a href="#" class="dp-listItem">Julien Ducro</a>
                                 </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bobby Steiner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Julien Ducro</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bobby Steiner</a>
+                                </li>
                             </ul>
                         </li>
-                        <li class="dp-Menu-linkItem">Assign to my team or </li>
+
+                        <li class="dp-Menu-linkItem">Assign to <a href="#" class="dp-listLink">my team</a> or <button class="dp-Arrow"></button>
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-search">
+                                    <form>
+                                        <span class="dp-Icon dp-IconSearch"></span>
+                                        <input type="text" class="dp-Input Input--search">
+                                    </form>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Julien Ducro</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bobby Steiner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                            </ul>
+                        </li>
+
                         <li class="dp-DropdownDivider"></li>
-                        <li class="dp-Menu-linkItem">Status</button></li>
+
+                        <li class="dp-Menu-linkItem">Status <button class="dp-Arrow"></button>
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-search">
+                                    <form>
+                                        <span class="dp-Icon dp-IconSearch"></span>
+                                        <input type="text" class="dp-Input Input--search">
+                                    </form>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Julien Ducro</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bobby Steiner</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="dp-Menu-linkItem"> Urgency <button class="dp-Arrow"></button>
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-search">
+                                    <form>
+                                        <span class="dp-Icon dp-IconSearch"></span>
+                                        <input type="text" class="dp-Input Input--search">
+                                    </form>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="dp-DropdownDivider"></li>
+                        <li class="dp-Menu-linkItem">Place on hold</li>
+                        <li class="dp-Menu-linkItem">Lock</li>
+                        <li class="dp-Menu-linkItem">Unlock</li>
+
                     </ul>
                 </td>
             </tr>
@@ -1333,11 +3095,137 @@ title: Tableview
                                     <span class="dp-Badge Badge--round Badge--grey-light"></span>
                                     <a href="#" class="dp-listItem">Julien Ducro</a>
                                 </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bobby Steiner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Julien Ducro</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bobby Steiner</a>
+                                </li>
                             </ul>
                         </li>
-                        <li class="dp-Menu-linkItem">Assign to my team or </li>
+
+                        <li class="dp-Menu-linkItem">Assign to <a href="#" class="dp-listLink">my team</a> or <button class="dp-Arrow"></button>
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-search">
+                                    <form>
+                                        <span class="dp-Icon dp-IconSearch"></span>
+                                        <input type="text" class="dp-Input Input--search">
+                                    </form>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Julien Ducro</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bobby Steiner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                            </ul>
+                        </li>
+
                         <li class="dp-DropdownDivider"></li>
-                        <li class="dp-Menu-linkItem">Status</button></li>
+
+                        <li class="dp-Menu-linkItem">Status <button class="dp-Arrow"></button>
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-search">
+                                    <form>
+                                        <span class="dp-Icon dp-IconSearch"></span>
+                                        <input type="text" class="dp-Input Input--search">
+                                    </form>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Julien Ducro</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bobby Steiner</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="dp-Menu-linkItem"> Urgency <button class="dp-Arrow"></button>
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-search">
+                                    <form>
+                                        <span class="dp-Icon dp-IconSearch"></span>
+                                        <input type="text" class="dp-Input Input--search">
+                                    </form>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="dp-DropdownDivider"></li>
+                        <li class="dp-Menu-linkItem">Place on hold</li>
+                        <li class="dp-Menu-linkItem">Lock</li>
+                        <li class="dp-Menu-linkItem">Unlock</li>
+
                     </ul>
                 </td>
             </tr>
@@ -1396,11 +3284,137 @@ title: Tableview
                                     <span class="dp-Badge Badge--round Badge--grey-light"></span>
                                     <a href="#" class="dp-listItem">Julien Ducro</a>
                                 </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bobby Steiner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Julien Ducro</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bobby Steiner</a>
+                                </li>
                             </ul>
                         </li>
-                        <li class="dp-Menu-linkItem">Assign to my team or </li>
+
+                        <li class="dp-Menu-linkItem">Assign to <a href="#" class="dp-listLink">my team</a> or <button class="dp-Arrow"></button>
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-search">
+                                    <form>
+                                        <span class="dp-Icon dp-IconSearch"></span>
+                                        <input type="text" class="dp-Input Input--search">
+                                    </form>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Julien Ducro</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bobby Steiner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                            </ul>
+                        </li>
+
                         <li class="dp-DropdownDivider"></li>
-                        <li class="dp-Menu-linkItem">Status</button></li>
+
+                        <li class="dp-Menu-linkItem">Status <button class="dp-Arrow"></button>
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-search">
+                                    <form>
+                                        <span class="dp-Icon dp-IconSearch"></span>
+                                        <input type="text" class="dp-Input Input--search">
+                                    </form>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Julien Ducro</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bobby Steiner</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="dp-Menu-linkItem"> Urgency <button class="dp-Arrow"></button>
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-search">
+                                    <form>
+                                        <span class="dp-Icon dp-IconSearch"></span>
+                                        <input type="text" class="dp-Input Input--search">
+                                    </form>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="dp-DropdownDivider"></li>
+                        <li class="dp-Menu-linkItem">Place on hold</li>
+                        <li class="dp-Menu-linkItem">Lock</li>
+                        <li class="dp-Menu-linkItem">Unlock</li>
+
                     </ul>
                 </td>
             </tr>
@@ -1449,7 +3463,7 @@ title: Tableview
                 <td>
                     <span class="dp-Badge Badge--round Badge--warning">7</span>
                 </td>
-                                <td class="dp-Cog">
+                <td class="dp-Cog">
                     <!-- Icon hover -->
                     <span class="dp-Icon dp-settings"></span>
                     <ul class="dp-Menu">
@@ -1474,11 +3488,137 @@ title: Tableview
                                     <span class="dp-Badge Badge--round Badge--grey-light"></span>
                                     <a href="#" class="dp-listItem">Julien Ducro</a>
                                 </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bobby Steiner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Julien Ducro</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bobby Steiner</a>
+                                </li>
                             </ul>
                         </li>
-                        <li class="dp-Menu-linkItem">Assign to my team or </li>
+
+                        <li class="dp-Menu-linkItem">Assign to <a href="#" class="dp-listLink">my team</a> or <button class="dp-Arrow"></button>
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-search">
+                                    <form>
+                                        <span class="dp-Icon dp-IconSearch"></span>
+                                        <input type="text" class="dp-Input Input--search">
+                                    </form>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Julien Ducro</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bobby Steiner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                            </ul>
+                        </li>
+
                         <li class="dp-DropdownDivider"></li>
-                        <li class="dp-Menu-linkItem">Status</button></li>
+
+                        <li class="dp-Menu-linkItem">Status <button class="dp-Arrow"></button>
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-search">
+                                    <form>
+                                        <span class="dp-Icon dp-IconSearch"></span>
+                                        <input type="text" class="dp-Input Input--search">
+                                    </form>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Julien Ducro</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bobby Steiner</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="dp-Menu-linkItem"> Urgency <button class="dp-Arrow"></button>
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-search">
+                                    <form>
+                                        <span class="dp-Icon dp-IconSearch"></span>
+                                        <input type="text" class="dp-Input Input--search">
+                                    </form>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="dp-DropdownDivider"></li>
+                        <li class="dp-Menu-linkItem">Place on hold</li>
+                        <li class="dp-Menu-linkItem">Lock</li>
+                        <li class="dp-Menu-linkItem">Unlock</li>
+
                     </ul>
                 </td>
             </tr>
@@ -1539,11 +3679,136 @@ title: Tableview
                                     <span class="dp-Badge Badge--round Badge--grey-light"></span>
                                     <a href="#" class="dp-listItem">Julien Ducro</a>
                                 </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bobby Steiner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Julien Ducro</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bobby Steiner</a>
+                                </li>
                             </ul>
                         </li>
-                        <li class="dp-Menu-linkItem">Assign to my team or </li>
+
+                        <li class="dp-Menu-linkItem">Assign to <a href="#" class="dp-listLink">my team</a> or <button class="dp-Arrow"></button>
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-search">
+                                    <form>
+                                        <span class="dp-Icon dp-IconSearch"></span>
+                                        <input type="text" class="dp-Input Input--search">
+                                    </form>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Julien Ducro</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bobby Steiner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                            </ul>
+                        </li>
+
                         <li class="dp-DropdownDivider"></li>
-                        <li class="dp-Menu-linkItem">Status</button></li>
+
+                        <li class="dp-Menu-linkItem">Status <button class="dp-Arrow"></button>
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-search">
+                                    <form>
+                                        <span class="dp-Icon dp-IconSearch"></span>
+                                        <input type="text" class="dp-Input Input--search">
+                                    </form>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Julien Ducro</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bobby Steiner</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="dp-Menu-linkItem"> Urgency <button class="dp-Arrow"></button>
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-search">
+                                    <form>
+                                        <span class="dp-Icon dp-IconSearch"></span>
+                                        <input type="text" class="dp-Input Input--search">
+                                    </form>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Pride</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Bob Cooper</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                    <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dp-DropdownDivider"></li>
+                        <li class="dp-Menu-linkItem">Place on hold</li>
+                        <li class="dp-Menu-linkItem">Lock</li>
+                        <li class="dp-Menu-linkItem">Unlock</li>
+
                     </ul>
                 </td>
             </tr>
