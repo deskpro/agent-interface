@@ -186,6 +186,10 @@ title: Tableview
 ```html @preview
 <div class="dp-TableWrapper">
     <table class="dp-Tableview">
+
+        <span class="is-column-draggable" style="position:absolute;content:'';top:0;bottom:0;left:592px;right:auto;background-color:#3a8dde;width:1px;z-index:9;"></span>
+        <span class="dp-Icon Icon--draggable" style="position:absolute;top:7px;left:584.5px;right:auto;"></span>
+
         <thead>
             <tr class="dp-ColumnControls">
                 <th>
@@ -197,74 +201,63 @@ title: Tableview
                     </span>
                 </th>
                 <th>
-                    <span class="dp-Icon Icon--draggable"></span>
                     <span class="dp-TableItem">
                         <span>ID</span>
                         <span class="dp-Icon dp-arrowGroup"></span>
                     </span>
                 </th>
                 <th class="dp-TableSubject">
-                    <span class="dp-Icon Icon--draggable"></span>
                     <span class="dp-TableItem">
                         Column title
                         <span class="dp-Icon dp-arrowGroup"></span>
                     </span>
                 </th>
                 <th class="dp-TableLabels">
-                    <span class="dp-Icon Icon--draggable"></span>
                     <span class="dp-TableItem">
                         Column title
                     <span class="dp-Icon dp-arrowGroup"></span>
                     </span>
                 </th>
-                <th class="dp-TableDepartment is-column-draggable">
-                    <span class="dp-Icon Icon--draggable"></span>
+                <th class="dp-TableLanguage is-item-draggable">
                     <span class="dp-TableItem">
                         Column title
                     <span class="dp-Icon dp-arrowGroup"></span>
                     </span>
                 </th>
                 <th class="dp-TableLanguage">
-                    <span class="dp-Icon Icon--draggable"></span>
                     <span class="dp-TableItem">
                         Column title
                     <span class="dp-Icon dp-arrowGroup"></span>
                     </span>
                 </th>
                 <th class="dp-TableLastreply">
-                    <span class="dp-Icon Icon--draggable"></span>
                     <span class="dp-TableItem">
                         Column title
                     <span class="dp-Icon dp-arrowGroup"></span>
                     </span>
                 </th>
                 <th class="dp-TableUser">
-                    <span class="dp-Icon Icon--draggable"></span>
                     <span class="dp-TableItem">
                         Column title
                     <span class="dp-Icon dp-arrowGroup"></span>
                     </span>
                 </th>
                 <th>
-                    <span class="dp-Icon Icon--draggable"></span>
                     <span class="dp-TableItem">
                         Column title
                     </span>
                 </th>
                 <th>
-                    <span class="dp-Icon Icon--draggable"></span>
                     <span class="dp-TableItem">
                         <span class="dp-Icon dp-arrowGroup"></span>
                     </span>
                 </th>
                 <th>
-                    <span class="dp-Icon Icon--draggable"></span>
                     <span class="dp-TableItem">
                         <span class="dp-Icon dp-arrowGroup"></span>
                     </span>
                 </th>
                 <th>
-                    <span class="dp-Icon Icon--draggable"></span>
                     <span class="dp-TableItem">
                         <span class="dp-Icon dp-arrowGroup"></span>
                     </span>
@@ -425,7 +418,6 @@ title: Tableview
                         <li class="dp-Menu-linkItem">Place on hold</li>
                         <li class="dp-Menu-linkItem">Lock</li>
                         <li class="dp-Menu-linkItem">Unlock</li>
-
                     </ul>
                 </td>
             </tr>
@@ -436,8 +428,8 @@ title: Tableview
             <tr>
                 <td>
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="filter"></input>
-                        <label for="filter"></label>
+                        <input type="checkbox" class="dp-ControlInput" id="filter-1-1"></input>
+                        <label for="filter-1-1"></label>
                     </span> 
                 </td>
                 <td colspan="10">
@@ -453,8 +445,8 @@ title: Tableview
             <tr class="dp-Sub-filter">
                 <td>
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="subfilter"></input>
-                        <label for="subfilter"></label>
+                        <input type="checkbox" class="dp-ControlInput" id="subfilter-1-1"></input>
+                        <label for="subfilter-1-1"></label>
                     </span>
                 </td>
                 <td colspan="12">
@@ -469,8 +461,8 @@ title: Tableview
             <tr>
                 <td>
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="tableview-2"></input>
-                        <label for="tableview-2"></label>
+                        <input type="checkbox" class="dp-ControlInput" id="tableview-1-2"></input>
+                        <label for="tableview-1-2"></label>
                     </span>
                 </td>
                 <td>12345</td>
@@ -666,8 +658,8 @@ title: Tableview
             <tr>
                 <td>
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="tableview-3"></input>
-                        <label for="tableview-3"></label>
+                        <input type="checkbox" class="dp-ControlInput" id="tableview-1-3"></input>
+                        <label for="tableview-1-3"></label>
                     </span>
                 </td>
                 <td>12345</td>
@@ -853,7 +845,6 @@ title: Tableview
                         <li class="dp-Menu-linkItem">Place on hold</li>
                         <li class="dp-Menu-linkItem">Lock</li>
                         <li class="dp-Menu-linkItem">Unlock</li>
-
                     </ul>
                 </td>
             </tr>
@@ -861,8 +852,8 @@ title: Tableview
             <tr class="is-hover">
                 <td>
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="tableview-4"></input>
-                        <label for="tableview-4"></label>
+                        <input type="checkbox" class="dp-ControlInput" id="tableview-1-4"></input>
+                        <label for="tableview-1-4"></label>
                     </span>
                 </td>
                 <td>12345</td>
@@ -1042,7 +1033,6 @@ title: Tableview
                         <li class="dp-Menu-linkItem">Place on hold</li>
                         <li class="dp-Menu-linkItem">Lock</li>
                         <li class="dp-Menu-linkItem">Unlock</li>
-
                     </ul>
                 </td>
             </tr>
@@ -1050,8 +1040,8 @@ title: Tableview
             <tr>
                 <td>
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="tableview-5"></input>
-                        <label for="tableview-5"></label>
+                        <input type="checkbox" class="dp-ControlInput" id="tableview-1-5"></input>
+                        <label for="tableview-1-5"></label>
                     </span>
                 </td>
                 <td>12345</td>
@@ -1237,7 +1227,6 @@ title: Tableview
                         <li class="dp-Menu-linkItem">Place on hold</li>
                         <li class="dp-Menu-linkItem">Lock</li>
                         <li class="dp-Menu-linkItem">Unlock</li>
-
                     </ul>
                 </td>
             </tr>
@@ -1245,8 +1234,8 @@ title: Tableview
             <tr>
                 <td>
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="tableview-6"></input>
-                        <label for="tableview-6"></label>
+                        <input type="checkbox" class="dp-ControlInput" id="tableview-1-6"></input>
+                        <label for="tableview-1-6"></label>
                     </span>
                 </td>
                 <td>12245</td>
@@ -1428,7 +1417,6 @@ title: Tableview
                         <li class="dp-Menu-linkItem">Place on hold</li>
                         <li class="dp-Menu-linkItem">Lock</li>
                         <li class="dp-Menu-linkItem">Unlock</li>
-
                     </ul>
                 </td>
             </tr>
@@ -1436,8 +1424,8 @@ title: Tableview
             <tr class="is-selected">
                 <td>
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="tableview-7"></input>
-                        <label for="tableview-7"></label>
+                        <input type="checkbox" class="dp-ControlInput" id="tableview-1-7"></input>
+                        <label for="tableview-1-7"></label>
                     </span>
                 </td>
                 <td>12345</td>
@@ -1621,7 +1609,6 @@ title: Tableview
                         <li class="dp-Menu-linkItem">Place on hold</li>
                         <li class="dp-Menu-linkItem">Lock</li>
                         <li class="dp-Menu-linkItem">Unlock</li>
-
                     </ul>
                 </td>
             </tr>
@@ -1629,8 +1616,8 @@ title: Tableview
             <tr>
                 <td>
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="tableview-8"></input>
-                        <label for="tableview-8"></label>
+                        <input type="checkbox" class="dp-ControlInput" id="tableview-1-8"></input>
+                        <label for="tableview-1-8"></label>
                     </span>
                 </td>
                 <td>12345</td>
@@ -1820,8 +1807,8 @@ title: Tableview
             <tr>
                 <td>
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="tableview-9"></input>
-                        <label for="tableview-9"></label>
+                        <input type="checkbox" class="dp-ControlInput" id="tableview-1-9"></input>
+                        <label for="tableview-1-9"></label>
                     </span>
                 </td>
                 <td>12345</td>
@@ -2000,7 +1987,6 @@ title: Tableview
                                 </li>
                             </ul>
                         </li>
-
                         <li class="dp-DropdownDivider"></li>
                         <li class="dp-Menu-linkItem">Place on hold</li>
                         <li class="dp-Menu-linkItem">Lock</li>
@@ -2013,8 +1999,8 @@ title: Tableview
             <tr>
                 <td>
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="tableview-10"></input>
-                        <label for="tableview-10"></label>
+                        <input type="checkbox" class="dp-ControlInput" id="tableview-1-10"></input>
+                        <label for="tableview-1-10"></label>
                     </span>
                 </td>
                 <td>12345</td>
@@ -2206,8 +2192,8 @@ title: Tableview
             <tr class="dp-Sub-filter">
                 <td>
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="subfilter"></input>
-                        <label for="subfilter"></label>
+                        <input type="checkbox" class="dp-ControlInput" id="subfilter-1-2"></input>
+                        <label for="subfilter-1-2"></label>
                     </span>
                 </td>
                 <td colspan="12">
@@ -2222,8 +2208,8 @@ title: Tableview
             <tr>
                 <td>
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="tableview-11"></input>
-                        <label for="tableview-11"></label>
+                        <input type="checkbox" class="dp-ControlInput" id="tableview-1-11"></input>
+                        <label for="tableview-1-11"></label>
                     </span>
                 </td>
                 <td>12345</td>
@@ -2416,8 +2402,8 @@ title: Tableview
             <tr>
                 <td>
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="tableview-12"></input>
-                        <label for="tableview-12"></label>
+                        <input type="checkbox" class="dp-ControlInput" id="tableview-1-12"></input>
+                        <label for="tableview-1-12"></label>
                     </span>
                 </td>
                 <td>12345</td>
@@ -2602,7 +2588,6 @@ title: Tableview
                         <li class="dp-Menu-linkItem">Place on hold</li>
                         <li class="dp-Menu-linkItem">Lock</li>
                         <li class="dp-Menu-linkItem">Unlock</li>
-
                     </ul>
                 </td>
             </tr>
@@ -2610,8 +2595,8 @@ title: Tableview
             <tr>
                 <td>
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="filter-2"></input>
-                        <label for="filter-2"></label>
+                        <input type="checkbox" class="dp-ControlInput" id="filter-1-2"></input>
+                        <label for="filter-1-2"></label>
                     </span> 
                 </td>
                 <td colspan="12">
@@ -2627,8 +2612,8 @@ title: Tableview
                 <th>
                     <span class="dp-TableItem">
                         <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                            <input type="checkbox" class="dp-ControlInput" id="tableview-13"></input>
-                            <label for="tableview-13"></label>
+                            <input type="checkbox" class="dp-ControlInput" id="tableview-1-13"></input>
+                            <label for="tableview-1-13"></label>
                         </span>
                     </span>
                 </th>
@@ -2849,7 +2834,6 @@ title: Tableview
                         <li class="dp-Menu-linkItem">Place on hold</li>
                         <li class="dp-Menu-linkItem">Lock</li>
                         <li class="dp-Menu-linkItem">Unlock</li>
-
                     </ul>
                 </th>
             </tr>
@@ -2859,8 +2843,8 @@ title: Tableview
             <tr>
                 <td>
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="tableview-14"></input>
-                        <label for="tableview-14"></label>
+                        <input type="checkbox" class="dp-ControlInput" id="tableview-1-14"></input>
+                        <label for="tableview-1-14"></label>
                     </span>
                 </td>
                 <td>12345</td>
@@ -3045,7 +3029,6 @@ title: Tableview
                         <li class="dp-Menu-linkItem">Place on hold</li>
                         <li class="dp-Menu-linkItem">Lock</li>
                         <li class="dp-Menu-linkItem">Unlock</li>
-
                     </ul>
                 </td>
             </tr>
@@ -3053,8 +3036,8 @@ title: Tableview
             <tr>
                 <td>
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="tableview-15"></input>
-                        <label for="tableview-15"></label>
+                        <input type="checkbox" class="dp-ControlInput" id="tableview-1-15"></input>
+                        <label for="tableview-1-15"></label>
                     </span>
                 </td>
                 <td>12345</td>
@@ -3236,7 +3219,6 @@ title: Tableview
                         <li class="dp-Menu-linkItem">Place on hold</li>
                         <li class="dp-Menu-linkItem">Lock</li>
                         <li class="dp-Menu-linkItem">Unlock</li>
-
                     </ul>
                 </td>
             </tr>
@@ -3244,8 +3226,8 @@ title: Tableview
             <tr class="is-selected is-active">
                 <td>
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="tableview-16"></input>
-                        <label for="tableview-16"></label>
+                        <input type="checkbox" class="dp-ControlInput" id="tableview-1-16"></input>
+                        <label for="tableview-1-16"></label>
                     </span>
                 </td>
                 <td>12345</td>
@@ -3443,8 +3425,8 @@ title: Tableview
             <tr>
                 <td>
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="tableview-17"></input>
-                        <label for="tableview-17"></label>
+                        <input type="checkbox" class="dp-ControlInput" id="tableview-1-17"></input>
+                        <label for="tableview-1-17"></label>
                     </span>
                 </td>
                 <td>12345</td>
@@ -3637,8 +3619,8 @@ title: Tableview
             <tr>
                 <td>
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="tableview-18"></input>
-                        <label for="tableview-18"></label>
+                        <input type="checkbox" class="dp-ControlInput" id="tableview-1-18"></input>
+                        <label for="tableview-1-18"></label>
                     </span>
                 </td>
                 <td>12345</td>
@@ -3829,8 +3811,6 @@ title: Tableview
 </div>
 ```
 
-
-
 ## Listpane/tableview
 
 ```html @preview
@@ -3841,80 +3821,69 @@ title: Tableview
                 <th>
                     <span class="dp-TableItem">
                         <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                            <input type="checkbox" class="dp-ControlInput" id="tableview-1-1"></input>
-                            <label for="tableview-1-1"></label>
+                            <input type="checkbox" class="dp-ControlInput" id="tableview-2-1"></input>
+                            <label for="tableview-2-1"></label>
                         </span>
                     </span>
                 </th>
                 <th>
-                    <span class="dp-Icon Icon--draggable"></span>
                     <span class="dp-TableItem">
                         <span>ID</span>
                         <span class="dp-Icon dp-arrowGroup"></span>
                     </span>
                 </th>
                 <th class="dp-TableSubject">
-                    <span class="dp-Icon Icon--draggable"></span>
                     <span class="dp-TableItem">
                         Subject
                         <span class="dp-Icon dp-arrowGroup"></span>
                     </span>
                 </th>
                 <th class="dp-TableLabels">
-                    <span class="dp-Icon Icon--draggable"></span>
                     <span class="dp-TableItem">
                         Labels
                         <span class="dp-Icon dp-arrowGroup"></span>
                     </span>
                 </th>
-                <th class="dp-TableDepartment is-column-draggable">
-                    <span class="dp-Icon Icon--draggable"></span>
+                <th class="dp-TableDepartment">
                     <span class="dp-TableItem">
                         Department
                         <span class="dp-Icon dp-arrowGroup"></span>
                     </span>
                 </th>
                 <th class="dp-TableLanguage">
-                    <span class="dp-Icon Icon--draggable"></span>
                     <span class="dp-TableItem">
                         Language
                         <span class="dp-Icon dp-arrowGroup"></span>
                     </span>
                 </th>
                 <th class="dp-TableLastreply">
-                    <span class="dp-Icon Icon--draggable"></span>
                     <span class="dp-TableItem">
                         Last reply
                         <span class="dp-Icon dp-arrowGroup"></span>
                     </span>
                 </th>
                 <th class="dp-TableUser">
-                    <span class="dp-Icon Icon--draggable"></span>
                     <span class="dp-TableItem">
                         User
                         <span class="dp-Icon dp-arrowGroup"></span>
                     </span>
                 </th>
                 <th>
-                    <span class="dp-Icon Icon--draggable"></span>
                     <span class="dp-TableItem">
                         SLA/Current user wait
                     </span>
                 </th>
                 <th>
-                    <span class="dp-Icon Icon--draggable"></span>
                     <span class="dp-TableItem">
                         <span class="dp-Icon dp-arrowGroup"></span>
                     </span>
                 </th>
                 <th>
-                    <span class="dp-Icon Icon--draggable"></span>
                     <span class="dp-TableItem">
                         <span class="dp-Icon dp-arrowGroup"></span>
                     </span>
                 </th>
                 <th>
-                    <span class="dp-Icon Icon--draggable"></span>
                     <span class="dp-TableItem">
                         <span class="dp-Icon dp-arrowGroup"></span>
                     </span>
@@ -4085,8 +4054,8 @@ title: Tableview
             <tr>
                 <td>
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="filter"></input>
-                        <label for="filter"></label>
+                        <input type="checkbox" class="dp-ControlInput" id="filter2-2"></input>
+                        <label for="filter2-2"></label>
                     </span> 
                 </td>
                 <td colspan="12">
@@ -4100,8 +4069,8 @@ title: Tableview
             <tr class="dp-Sub-filter">
                 <td>
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="subfilter"></input>
-                        <label for="subfilter"></label>
+                        <input type="checkbox" class="dp-ControlInput" id="subfilter-2-2"></input>
+                        <label for="subfilter-2-2"></label>
                     </span>
                 </td>
                 <td colspan="11">
@@ -4116,8 +4085,8 @@ title: Tableview
             <tr>
                 <td>
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="tableview-2"></input>
-                        <label for="tableview-2"></label>
+                        <input type="checkbox" class="dp-ControlInput" id="tableview-2-2"></input>
+                        <label for="tableview-2-2"></label>
                     </span>
                 </td>
                 <td>83995</td>
@@ -4313,8 +4282,8 @@ title: Tableview
             <tr>
                 <td>
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="tableview-3"></input>
-                        <label for="tableview-3"></label>
+                        <input type="checkbox" class="dp-ControlInput" id="tableview-2-3"></input>
+                        <label for="tableview-2-3"></label>
                     </span>
                 </td>
                 <td>12345</td>
@@ -4508,8 +4477,8 @@ title: Tableview
             <tr class="is-hover">
                 <td>
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="tableview-4"></input>
-                        <label for="tableview-4"></label>
+                        <input type="checkbox" class="dp-ControlInput" id="tableview-2-4"></input>
+                        <label for="tableview-2-4"></label>
                     </span>
                 </td>
                 <td>67372</td>
@@ -4695,8 +4664,8 @@ title: Tableview
             <tr>
                 <td>
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="tableview-5"></input>
-                        <label for="tableview-5"></label>
+                        <input type="checkbox" class="dp-ControlInput" id="tableview-2-5"></input>
+                        <label for="tableview-2-5"></label>
                     </span>
                 </td>
                 <td>83995</td>
@@ -4888,8 +4857,8 @@ title: Tableview
             <tr>
                 <td>
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="tableview-6"></input>
-                        <label for="tableview-6"></label>
+                        <input type="checkbox" class="dp-ControlInput" id="tableview-2-6"></input>
+                        <label for="tableview-2-6"></label>
                     </span>
                 </td>
                 <td>12245</td>
@@ -5078,8 +5047,8 @@ title: Tableview
             <tr class="is-selected">
                 <td>
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="tableview-7"></input>
-                        <label for="tableview-7"></label>
+                        <input type="checkbox" class="dp-ControlInput" id="tableview-2-7"></input>
+                        <label for="tableview-2-7"></label>
                     </span>
                 </td>
                 <td>83995</td>
@@ -5270,8 +5239,8 @@ title: Tableview
             <tr>
                 <td>
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="tableview-8"></input>
-                        <label for="tableview-8"></label>
+                        <input type="checkbox" class="dp-ControlInput" id="tableview-2-8"></input>
+                        <label for="tableview-2-8"></label>
                     </span>
                 </td>
                 <td>65347</td>
@@ -5460,8 +5429,8 @@ title: Tableview
             <tr>
                 <td>
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="tableview-9"></input>
-                        <label for="tableview-9"></label>
+                        <input type="checkbox" class="dp-ControlInput" id="tableview-2-9"></input>
+                        <label for="tableview-2-9"></label>
                     </span>
                 </td>
                 <td>83995</td>
@@ -5652,8 +5621,8 @@ title: Tableview
             <tr>
                 <td>
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="tableview-10"></input>
-                        <label for="tableview-10"></label>
+                        <input type="checkbox" class="dp-ControlInput" id="tableview-2-10"></input>
+                        <label for="tableview-2-10"></label>
                     </span>
                 </td>
                 <td>97546</td>
@@ -5844,8 +5813,8 @@ title: Tableview
             <tr>
                 <td>
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="tableview-11"></input>
-                        <label for="tableview-11"></label>
+                        <input type="checkbox" class="dp-ControlInput" id="tableview-2-11"></input>
+                        <label for="tableview-2-11"></label>
                     </span>
                 </td>
                 <td>43563</td>
@@ -6037,8 +6006,8 @@ title: Tableview
             <tr>
                 <td>
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="tableview-12"></input>
-                        <label for="tableview-12"></label>
+                        <input type="checkbox" class="dp-ControlInput" id="tableview-2-12"></input>
+                        <label for="tableview-2-12"></label>
                     </span>
                 </td>
                 <td>76473</td>
@@ -6230,8 +6199,8 @@ title: Tableview
             <tr>
                 <td>
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="sales-2"></input>
-                        <label for="sales-2"></label>
+                        <input type="checkbox" class="dp-ControlInput" id="sales-2-2"></input>
+                        <label for="sales-2-2"></label>
                     </span>
                 </td>
                 <td colspan="12" class="dp-Table-title">Sales</td>
@@ -6245,8 +6214,8 @@ title: Tableview
                 <th>
                     <span class="dp-TableItem">
                         <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                            <input type="checkbox" class="dp-ControlInput" id="tableview-13"></input>
-                            <label for="tableview-13"></label>
+                            <input type="checkbox" class="dp-ControlInput" id="tableview-2-13"></input>
+                            <label for="tableview-2-13"></label>
                         </span>
                     </span>
                 </th>
@@ -6476,8 +6445,8 @@ title: Tableview
             <tr>
                 <td>
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="tableview-14"></input>
-                        <label for="tableview-14"></label>
+                        <input type="checkbox" class="dp-ControlInput" id="tableview-2-14"></input>
+                        <label for="tableview-2-14"></label>
                     </span>
                 </td>
                 <td>83995</td>
@@ -6670,8 +6639,8 @@ title: Tableview
             <tr>
                 <td>
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="tableview-15"></input>
-                        <label for="tableview-15"></label>
+                        <input type="checkbox" class="dp-ControlInput" id="tableview-2-15"></input>
+                        <label for="tableview-2-15"></label>
                     </span>
                 </td>
                 <td>12345</td>
@@ -6861,8 +6830,8 @@ title: Tableview
             <tr class="is-selected is-active">
                 <td>
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="tableview-16"></input>
-                        <label for="tableview-16"></label>
+                        <input type="checkbox" class="dp-ControlInput" id="tableview-2-16"></input>
+                        <label for="tableview-2-16"></label>
                     </span>
                 </td>
                 <td>67372</td>
@@ -7060,8 +7029,8 @@ title: Tableview
             <tr>
                 <td>
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="tableview-17"></input>
-                        <label for="tableview-17"></label>
+                        <input type="checkbox" class="dp-ControlInput" id="tableview-2-17"></input>
+                        <label for="tableview-2-17"></label>
                     </span>
                 </td>
                 <td>83995</td>
@@ -7253,8 +7222,8 @@ title: Tableview
             <tr>
                 <td>
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="tableview-18"></input>
-                        <label for="tableview-18"></label>
+                        <input type="checkbox" class="dp-ControlInput" id="tableview-2-18"></input>
+                        <label for="tableview-2-18"></label>
                     </span>
                 </td>
                 <td>12245</td>
@@ -7445,7 +7414,7 @@ title: Tableview
 </div>
 ```
 
-<!-- 2 -->
+<!-- 3 -->
 
 ```html @preview
 <div class="dp-TableWrapper">
@@ -7455,80 +7424,69 @@ title: Tableview
                 <th>
                     <span class="dp-TableItem">
                         <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                            <input type="checkbox" class="dp-ControlInput" id="tableview-2-1"></input>
-                            <label for="tableview-2-1"></label>
+                            <input type="checkbox" class="dp-ControlInput" id="tableview-3-1"></input>
+                            <label for="tableview-3-1"></label>
                         </span>
                     </span>
                 </th>
                 <th>
-                    <span class="dp-Icon Icon--draggable"></span>
                     <span class="dp-TableItem">
                         <span>ID</span>
                         <span class="dp-Icon dp-arrowGroup"></span>
                     </span>
                 </th>
                 <th class="dp-TableSubject">
-                    <span class="dp-Icon Icon--draggable"></span>
                     <span class="dp-TableItem">
                         Subject
                         <span class="dp-Icon dp-arrowGroup"></span>
                     </span>
                 </th>
                 <th class="dp-TableLabels">
-                    <span class="dp-Icon Icon--draggable"></span>
                     <span class="dp-TableItem">
                         Labels
                         <span class="dp-Icon dp-arrowGroup"></span>
                     </span>
                 </th>
                 <th class="dp-TableDepartment">
-                    <span class="dp-Icon Icon--draggable"></span>
                     <span class="dp-TableItem">
                         Department
                         <span class="dp-Icon dp-arrowGroup"></span>
                     </span>
                 </th>
                 <th class="dp-TableLanguage">
-                    <span class="dp-Icon Icon--draggable"></span>
                     <span class="dp-TableItem">
                         Language
                         <span class="dp-Icon dp-arrowGroup"></span>
                     </span>
                 </th>
                 <th class="dp-TableLastreply">
-                    <span class="dp-Icon Icon--draggable"></span>
                     <span class="dp-TableItem">
                         Last reply
                         <span class="dp-Icon dp-arrowGroup"></span>
                     </span>
                 </th>
                 <th class="dp-TableUser">
-                    <span class="dp-Icon Icon--draggable"></span>
                     <span class="dp-TableItem">
                         User
                         <span class="dp-Icon dp-arrowGroup"></span>
                     </span>
                 </th>
                 <th>
-                    <span class="dp-Icon Icon--draggable"></span>
                     <span class="dp-TableItem">
                         SLA/Current user wait
                     </span>
                 </th>
                 <th>
-                    <span class="dp-Icon Icon--draggable"></span>
                     <span class="dp-TableItem">
                         <span class="dp-Icon dp-arrowGroup"></span>
                     </span>
                 </th>
                 <th>
-                    <span class="dp-Icon Icon--draggable"></span>
                     <span class="dp-TableItem">
                         <span class="dp-Icon dp-arrowGroup"></span>
                     </span>
                 </th>
                 <th>
-                    <span class="dp-Icon Icon--draggable"></span>
                     <span class="dp-TableItem">
                         <span class="dp-Icon dp-arrowGroup"></span>
                     </span>
@@ -7545,8 +7503,8 @@ title: Tableview
             <tr>
                 <td>
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="tableview-2-2"></input>
-                        <label for="tableview-2-2"></label>
+                        <input type="checkbox" class="dp-ControlInput" id="tableview-3-2"></input>
+                        <label for="tableview-3-2"></label>
                     </span>
                 </td>
                 <td>83995</td>
@@ -7734,8 +7692,8 @@ title: Tableview
             <tr>
                 <td>
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="tableview-3"></input>
-                        <label for="tableview-3"></label>
+                        <input type="checkbox" class="dp-ControlInput" id="tableview-3-3"></input>
+                        <label for="tableview-3-3"></label>
                     </span>
                 </td>
                 <td>12345</td>
@@ -7920,8 +7878,8 @@ title: Tableview
             <tr>
                 <td>
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="tableview-4"></input>
-                        <label for="tableview-4"></label>
+                        <input type="checkbox" class="dp-ControlInput" id="tableview-3-4"></input>
+                        <label for="tableview-3-4"></label>
                     </span>
                 </td>
                 <td>67372</td>
@@ -8096,14 +8054,13 @@ title: Tableview
 
                     </ul>
                 </td>
-
             </tr>
 
             <tr>
                 <td>
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="tableview-5"></input>
-                        <label for="tableview-5"></label>
+                        <input type="checkbox" class="dp-ControlInput" id="tableview-3-5"></input>
+                        <label for="tableview-3-5"></label>
                     </span>
                 </td>
                 <td>83995</td>
@@ -8280,17 +8237,15 @@ title: Tableview
                         <li class="dp-Menu-linkItem">Place on hold</li>
                         <li class="dp-Menu-linkItem">Lock</li>
                         <li class="dp-Menu-linkItem">Unlock</li>
-
                     </ul>
                 </td>
-
             </tr>
 
             <tr>
                 <td>
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="tableview-6"></input>
-                        <label for="tableview-6"></label>
+                        <input type="checkbox" class="dp-ControlInput" id="tableview-3-6"></input>
+                        <label for="tableview-3-6"></label>
                     </span>
                 </td>
                 <td>12245</td>
@@ -8464,16 +8419,15 @@ title: Tableview
                         <li class="dp-Menu-linkItem">Place on hold</li>
                         <li class="dp-Menu-linkItem">Lock</li>
                         <li class="dp-Menu-linkItem">Unlock</li>
-
                     </ul>
                 </td>
-
             </tr>
+
             <tr>
                 <td>
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="tableview-7"></input>
-                        <label for="tableview-7"></label>
+                        <input type="checkbox" class="dp-ControlInput" id="tableview-3-7"></input>
+                        <label for="tableview-3-7"></label>
                     </span>
                 </td>
                 <td>83995</td>
@@ -8652,14 +8606,13 @@ title: Tableview
 
                     </ul>
                 </td>
-
             </tr>
 
             <tr>
                 <td>
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="tableview-8"></input>
-                        <label for="tableview-8"></label>
+                        <input type="checkbox" class="dp-ControlInput" id="tableview-3-8"></input>
+                        <label for="tableview-3-8"></label>
                     </span>
                 </td>
                 <td>65347</td>
@@ -8839,8 +8792,8 @@ title: Tableview
             <tr>
                 <td>
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="tableview-9"></input>
-                        <label for="tableview-9"></label>
+                        <input type="checkbox" class="dp-ControlInput" id="tableview-3-9"></input>
+                        <label for="tableview-3-9"></label>
                     </span>
                 </td>
                 <td>83995</td>
@@ -9022,8 +8975,8 @@ title: Tableview
             <tr>
                 <td>
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="tableview-10"></input>
-                        <label for="tableview-10"></label>
+                        <input type="checkbox" class="dp-ControlInput" id="tableview-3-10"></input>
+                        <label for="tableview-3-10"></label>
                     </span>
                 </td>
                 <td>97546</td>
@@ -9206,8 +9159,8 @@ title: Tableview
             <tr>
                 <td>
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="tableview-11"></input>
-                        <label for="tableview-11"></label>
+                        <input type="checkbox" class="dp-ControlInput" id="tableview-3-11"></input>
+                        <label for="tableview-3-11"></label>
                     </span>
                 </td>
                 <td>43563</td>
@@ -9383,7 +9336,6 @@ title: Tableview
                         <li class="dp-Menu-linkItem">Place on hold</li>
                         <li class="dp-Menu-linkItem">Lock</li>
                         <li class="dp-Menu-linkItem">Unlock</li>
-
                     </ul>
                 </td>
             </tr>
@@ -9391,8 +9343,8 @@ title: Tableview
             <tr>
                 <td>
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="tableview-12"></input>
-                        <label for="tableview-12"></label>
+                        <input type="checkbox" class="dp-ControlInput" id="tableview-3-12"></input>
+                        <label for="tableview-3-12"></label>
                     </span>
                 </td>
                 <td>76473</td>
@@ -9575,8 +9527,8 @@ title: Tableview
             <tr>
                 <td>
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="sales-2"></input>
-                        <label for="sales-2"></label>
+                        <input type="checkbox" class="dp-ControlInput" id="sales-3-2"></input>
+                        <label for="sales-3-2"></label>
                     </span>
                 </td>
                 <td colspan="12" class="dp-Table-title">Sales</td>
@@ -9588,8 +9540,8 @@ title: Tableview
                 <th>
                     <span class="dp-TableItem">
                         <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                            <input type="checkbox" class="dp-ControlInput" id="tableview-13"></input>
-                            <label for="tableview-13"></label>
+                            <input type="checkbox" class="dp-ControlInput" id="tableview-3-13"></input>
+                            <label for="tableview-3-13"></label>
                         </span>
                     </span>
                 </th>
@@ -9665,8 +9617,8 @@ title: Tableview
             <tr>
                 <td>
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="tableview-14"></input>
-                        <label for="tableview-14"></label>
+                        <input type="checkbox" class="dp-ControlInput" id="tableview-3-14"></input>
+                        <label for="tableview-3-14"></label>
                     </span>
                 </td>
                 <td>83995</td>
@@ -9843,7 +9795,6 @@ title: Tableview
                         <li class="dp-Menu-linkItem">Place on hold</li>
                         <li class="dp-Menu-linkItem">Lock</li>
                         <li class="dp-Menu-linkItem">Unlock</li>
-
                     </ul>
                 </td>
             </tr>
@@ -9851,8 +9802,8 @@ title: Tableview
             <tr>
                 <td>
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="tableview-15"></input>
-                        <label for="tableview-15"></label>
+                        <input type="checkbox" class="dp-ControlInput" id="tableview-3-15"></input>
+                        <label for="tableview-3-15"></label>
                     </span>
                 </td>
                 <td>12345</td>
@@ -10032,8 +9983,8 @@ title: Tableview
             <tr>
                 <td>
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="tableview-16"></input>
-                        <label for="tableview-16"></label>
+                        <input type="checkbox" class="dp-ControlInput" id="tableview-3-16"></input>
+                        <label for="tableview-3-16"></label>
                     </span>
                 </td>
                 <td>67372</td>
@@ -10205,7 +10156,6 @@ title: Tableview
                         <li class="dp-Menu-linkItem">Place on hold</li>
                         <li class="dp-Menu-linkItem">Lock</li>
                         <li class="dp-Menu-linkItem">Unlock</li>
-
                     </ul>
                 </td>
             </tr>
@@ -10213,8 +10163,8 @@ title: Tableview
             <tr>
                 <td>
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="tableview-17"></input>
-                        <label for="tableview-17"></label>
+                        <input type="checkbox" class="dp-ControlInput" id="tableview-3-17"></input>
+                        <label for="tableview-3-17"></label>
                     </span>
                 </td>
                 <td>83995</td>
@@ -10391,7 +10341,6 @@ title: Tableview
                         <li class="dp-Menu-linkItem">Place on hold</li>
                         <li class="dp-Menu-linkItem">Lock</li>
                         <li class="dp-Menu-linkItem">Unlock</li>
-
                     </ul>
                 </td>
             </tr>
@@ -10399,8 +10348,8 @@ title: Tableview
             <tr>
                 <td>
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="tableview-18"></input>
-                        <label for="tableview-18"></label>
+                        <input type="checkbox" class="dp-ControlInput" id="tableview-3-18"></input>
+                        <label for="tableview-3-18"></label>
                     </span>
                 </td>
                 <td>12245</td>

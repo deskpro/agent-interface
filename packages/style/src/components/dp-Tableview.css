@@ -8,11 +8,11 @@
 .dp-TableWrapper {
   display: block;
   overflow: auto;
+  position: relative;
 }
 
 .dp-Tableview {
   display: table;
-  overflow: hidden;
   width: 1600px;
 }
 
@@ -134,37 +134,11 @@ thead .dp-Card-title td {
 
 /* style for table columns draggable */
 
-.dp-Tableview thead .is-column-draggable {
-  position: relative;
-}
-
-thead th > .dp-Icon {
-  display: none;
-}
-
-thead th.is-column-draggable > .dp-Icon {
-  display: block;
-  position: absolute;
-  right: calc(100% - 8.5px);
-  top: calc(50% - 8px);
-}
-
-.dp-Tableview thead .is-column-draggable::before {
-  background-color: var(--brand-primary);
-  bottom: 0;
-  content: "";
-  height: 100vh;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 1px;
-}
-
-.dp-Tableview thead .is-column-draggable {
+.dp-Tableview .is-item-draggable {
   color: var(--brand-primary);
 }
 
-.is-column-draggable svg {
+.is-item-draggable svg {
   fill: var(--brand-primary);
 }
 
