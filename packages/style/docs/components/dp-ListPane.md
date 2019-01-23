@@ -888,6 +888,9 @@ title: List Pane
 </div>
 ```
 
+
+## Listpane/tableview
+
 ```html @preview
 <div class="dp-TableWrapper">
     <table class="dp-Tableview">
@@ -4489,2707 +4492,7 @@ title: List Pane
 </div>
 ```
 
-<h2>Listpane/mass-select</h2>
-```html @preview
-<form class="dp-MassSelect newControlsList">
-
-    <span class="dp-MassSelectTitle">
-        <span class="dp-ItemRow">
-            <span class="dp-CustomCheckbox">
-                <input type="checkbox" class="dp-ControlInput" id="listpaneCheckbox0" checked="checked"></input>
-                <label for="listpaneCheckbox0" class="dp-Input-arrow"></label>
-
-                <button class="dp-Arrow"></button>
-                <span class="dp-Card-title">(48 items selected)</span>
-                <ul class="dp-Menu is-visible">
-                    <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Uncheck all</a></li>
-                    <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Select all</a></li>
-                </ul>
-            </span>
-
-            <span class="dp-ListPane">
-                <span class="dp-Icon dp-grouped_by"></span>
-                <span class="dp-SelectGroup">
-                    <span class="dp-ItemRow">
-                        <span class="dp-Title">Grouped by</span>
-                        <button class="dp-Arrow"></button>
-                    </span>
-                    <span class="dp-ItemRow">
-                        <span class="dp-Subtitle">Department</span>
-                    </span>
-                </span>
-            </span>
-        </span>
-    </span>
-
-    <ul class="dp-CardList newControlsList is-hoverable">
-
-        <li class="dp-Card-SectionTitle">
-            <span>Sales</span>
-        </li>
-
-        <!-- 1 -->
-        <li class="dp-Card dp-Level is-active">
-            <span class="dp-LevelCol">
-                <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-4"></input>
-                    <label for="customCheckbox1-4"></label>
-                </span>
-            </span>
-
-            <span class="dp-LevelCol">
-                <span class="dp-Card-title">SSO Information<span class="dp-Icon Icon--star"></span></span>
-                <span class="dp-UserInfo">
-                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-UserName">Kenneth James
-                    </span>
-                    <a href="mailto:kenneth@windfarms.com" class="dp-UserEmail">
-                        &lt;kenneth@windfarms.com&gt;
-                    </a>
-                </span>
-            </span>
-
-            <span class="dp-LevelCol dp-LevelRight">
-                <span class="dp-IconGroup">
-                    <span class="Icon--circle dp-iconBug"></span>
-                    <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
-                    <span class="dp-Icon Icon--clock Icon--primary"></span>
-                </span>
-                <span class="dp-TimeStatus">
-                    <span class="dp-Tag Tag--small Tag--danger">Failed</span>
-                </span>
-            </span>
-        </li>
-
-        <!-- 2 -->
-        <li class="dp-Card dp-Level">
-            <span class="dp-LevelCol">
-                <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-5"></input>
-                    <label for="customCheckbox1-5"></label>
-                </span>
-            </span>
-
-            <span class="dp-LevelCol">
-                <span class="dp-Card-title">Portal disabled landing page</span>
-
-                <span class="dp-UserInfo">
-                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-UserName">Mark Jarvis
-                    </span>
-                    <a href="mailto:mjarvis@econorob.nl" class="dp-UserEmail">
-                        &lt;mjarvis@econorob.nl&gt;
-                    </a>
-                </span>
-            </span>
-
-            <span class="dp-LevelCol dp-LevelRight">
-                <span class="dp-IconGroup">
-                    <span class="Icon--circle dp-rocket Icon-grey-darkest"></span>
-                    <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
-                    <span class="dp-Badge Badge--round Badge--warning">9</span>
-                </span>
-                <span class="dp-TimeStatus">
-                    <span class="dp-Tag Tag--small Tag--pink">3 hours</span>
-                </span>
-            </span>
-        </li>
-
-        <!-- 3 -->
-        <li class="dp-Card dp-Level">
-            <span class="dp-LevelCol">
-                <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-6"></input>
-                    <label for="customCheckbox1-6"></label>
-                </span>
-            </span>
-
-            <span class="dp-LevelCol">
-                <span class="dp-Card-title">Inventory component<span class="dp-Icon Icon--star"></span></span>
-
-                <span class="dp-UserInfo">
-                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-UserName">Toby Falkirk
-                    </span>
-                    <a href="mailto:t.falkirk@rambling.com" class="dp-UserEmail">
-                        &lt;t.falkirk@rambling.com&gt;
-                    </a>
-                </span>
-            </span>
-
-            <span class="dp-LevelCol dp-LevelRight">
-                <span class="dp-IconGroup">
-                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-Badge Badge--round Badge-Min Icon-warning"></span>
-                </span>
-                <span class="dp-TimeStatus">
-                    <span>2 hr 16 min</span>
-                </span>
-            </span>
-        </li>
-
-        <!-- 4 -->
-        <li class="dp-Card dp-Level">
-            <span class="dp-LevelCol">
-                <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-7"></input>
-                    <label for="customCheckbox1-7"></label>
-                </span>
-            </span>
-
-            <span class="dp-LevelCol">
-                <span class="dp-Card-title">AW: Need some help?</span>
-
-                <span class="dp-UserInfo">
-                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-UserName">Kenneth James
-                    </span>
-                    <a href="mailto:kenneth@windfarms.com" class="dp-UserEmail">
-                        &lt;kenneth@windfarms.com&gt;
-                    </a>
-                </span>
-            </span>
-
-            <span class="dp-LevelCol dp-LevelRight">
-                <span class="dp-IconGroup">
-                    <span class="dp-Icon dp-iconLock"></span>
-                    <span class="Icon--circle dp-iconMln"></span>
-                    <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
-                    <span class="dp-Badge Badge--round Badge--warning">9</span>
-                </span>
-                <span class="dp-TimeStatus">
-                    <span>57 mins</span>
-                </span>
-            </span>
-        </li>
-
-        <!-- 5 -->
-        <li class="dp-Card dp-Level">
-            <span class="dp-LevelCol">
-                <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-8"></input>
-                    <label for="customCheckbox1-8"></label>
-                </span>
-            </span>
-
-            <span class="dp-LevelCol">
-                <span class="dp-Card-title">Portal disabled landing page</span>
-
-                <span class="dp-UserInfo">
-                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-UserName">Mark Jarvis
-                    </span>
-                    <a href="mailto:mjarvis@econorob.nl" class="dp-UserEmail">
-                        &lt;mjarvis@econorob.nl&gt;
-                    </a>
-                </span>
-            </span>
-
-            <span class="dp-LevelCol dp-LevelRight">
-                <span class="dp-IconGroup">
-                    <span class="Icon--circle dp-iconMln"></span>
-                    <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
-                    <span class="dp-Badge Badge--round Badge--warning">7</span>
-                </span>
-                <span class="dp-TimeStatus">
-                    <span class="dp-Tag Tag--small Tag--danger">2 hours</span>
-                </span>
-            </span>
-        </li>
-        
-        <!-- 6 -->
-        <li class="dp-Card dp-Level">
-            <span class="dp-LevelCol">
-                <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-9"></input>
-                    <label for="customCheckbox1-9"></label>
-                </span>
-            </span>
-
-            <span class="dp-LevelCol">
-                <span class="dp-Card-title">Enjoying your helpdesk?<span class="dp-Icon Icon--star"></span></span>
-                <span class="dp-UserInfo">
-                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-UserName">Toby Falkirk
-                    </span>
-                    <a href="mailto:t.falkirk@rambling.com" class="dp-UserEmail">
-                        &lt;t.falkirk@rambling.com&gt;
-                    </a>
-                </span>
-            </span>
-
-            <span class="dp-LevelCol dp-LevelRight">
-                <span class="dp-IconGroup">
-                    <span class="Icon--circle dp-iconMln"></span>
-                    <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
-                    <span class="dp-Badge Badge--round Badge-Min Icon-neutral"></span>
-                </span>
-                <span class="dp-TimeStatus">
-                    <span>43 mins</span>
-                </span>
-            </span>
-        </li>
-
-        <!-- 7 -->
-        <li class="dp-Card dp-Level">
-            <span class="dp-LevelCol">
-                <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-10"></input>
-                    <label for="customCheckbox1-10"></label>
-                </span>
-            </span>
-
-            <span class="dp-LevelCol">
-                <span class="dp-Card-title">Product enquiry</span>
-                <span class="dp-UserInfo">
-                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-UserName">Kenneth James
-                    </span>
-                    <a href="mailto:kenneth@windfarms.com" class="dp-UserEmail">
-                        &lt;kenneth@windfarms.com&gt;
-                    </a>
-                </span>
-            </span>
-
-            <span class="dp-LevelCol dp-LevelRight">
-                <span class="dp-IconGroup">
-
-                    <span class="Icon--circle dp-iconBug"></span>
-                    <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
-                    <span class="dp-Icon Icon--clock Icon--primary"></span>
-                </span>
-                <span class="dp-TimeStatus">
-                    <span class="dp-Tag Tag--small Tag--danger">Failed</span>
-                </span>
-            </span>
-        </li>
-
-        <!-- 8 -->
-        <li class="dp-Card dp-Level">
-            <span class="dp-LevelCol">
-                <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-11"></input>
-                    <label for="customCheckbox1-11"></label>
-                </span>
-            </span>
-
-            <span class="dp-LevelCol">
-                <span class="dp-Card-title">Allow anyone to email support<span class="dp-Icon Icon--star"></span></span>
-                <span class="dp-UserInfo">
-                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-UserName">Mark Jarvis
-                    </span>
-                    <a href="mailto:mjarvis@econorob.nl" class="dp-UserEmail">
-                        &lt;mjarvis@econorob.nl&gt;
-                    </a>
-                </span>
-            </span>
-
-            <span class="dp-LevelCol dp-LevelRight">
-                <span class="dp-IconGroup">
-                    <span class="Icon--circle dp-iconMln"></span>
-                    <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
-                    <span class="dp-Badge Badge--round Badge--neutral">6</span>
-                </span>
-                <span class="dp-TimeStatus">
-                    <span>43 mins</span>
-                </span>
-            </span>
-        </li>
-
-    </ul>
-</form>
-```
-
-<h2>Listpane/tasks</h2>
-<h4>listpane/tasks-sort</h4>
-
-```html @preview
-
-    <div class="dp-TasksSort">
-        <span class="dp-Tag Tag--small Tag--grey-lighter">DATE</span>
-        <span class="dp-Tag Tag--small Tag--grey-lighter">ASSIGNED</span>
-        <span class="dp-Tag Tag--small Tag--grey-lighter">CREATOR</span>
-    </div>
-```
-
-<h4>Listpane/guides</h4>
-
-```html @preview
-
-<div class="dp-MainWrapper">
-
-    <!-- 1 -->
-    <ul class="dp-CardList dp-Listpane-guides">
-        <li class="dp-Card dp-Level is-active">
-
-            <span class="dp-LevelCol dp-LevelTop">
-                <span class="dp-Icon dp-drag"></span>
-            </span>
-
-            <span class="dp-LevelCol">
-                <span class="dp-Card-title">Card title here</span>
-
-                <span class="dp-UserInfo">
-                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-UserName">Single-line item</span>
-                </span>
-            </span>
-
-            <span class="dp-LevelCol dp-LevelRight dp-LevelTop">
-                <span class="dp-IconGroup">
-                    <span class="dp-Icon Icon--down-caret Icon--primary"></span>
-                </span>
-            </span>
-        </li>
-
-        <!-- 2 -->
-        <!-- <li class="dp-Card dp-Level Level--down"> -->
-        <li class="Level--down">
-            <ul class="dp-CardList">
-
-                <li class="dp-Card dp-Level">
-                    <span class="dp-LevelCol dp-LevelTop">
-                        <!-- Arrow -->
-                        <span class="dp-Icon dp-sub_field"></span>
-                        <span class="dp-Icon dp-drag"></span>
-                    </span>
-
-                    <span class="dp-LevelCol">
-                        <span class="dp-Card-title">Card title here</span>
-
-                        <span class="dp-UserInfo">
-                            <span class="dp-Icon dp-iconUserAvatar"></span>
-                            <span class="dp-UserName">Single-line item</span>
-                        </span>
-                    </span>
-                </li>
-
-                <li class="dp-Card dp-Level is-active">
-                    <span class="dp-LevelCol dp-LevelTop">
-                        <!-- Arrow -->
-                        <span class="dp-Icon dp-sub_field"></span>
-                        <span class="dp-Icon dp-drag"></span>
-                    </span>
-
-                    <span class="dp-LevelCol">
-                        <span class="dp-Card-title">Card title here</span>
-
-                        <span class="dp-UserInfo">
-                            <span class="dp-Icon dp-iconUserAvatar"></span>
-                            <span class="dp-Icon dp-iconUserAvatar"></span>
-                            <span class="dp-Icon dp-iconUserAvatar"></span>
-                        </span>
-                    </span>
-
-                    <span class="dp-LevelCol dp-LevelRight dp-LevelTop">
-                        <span class="dp-IconGroup">
-                            <span class="dp-Icon Icon--down-caret Icon--primary"></span>
-                        </span>
-                    </span>
-                </li>
-                
-                <!-- 3 -->
-                <!-- <li class="dp-Card dp-Level Level--down"> -->
-                <li class="Level--down">
-                    <ul class="dp-CardList">
-
-                        <li class="dp-Card dp-Level Card--primary">
-                            <span class="dp-LevelItem dp-LevelCol dp-LevelTop">
-                                <!-- Arrow -->
-                                <span class="dp-Icon dp-sub_field"></span>
-                                <span class="dp-Icon dp-drag"></span>
-                            </span>
-
-                            <span class="dp-LevelCol">
-                                <span class="dp-Card-title">Card title here</span>
-
-                                <span class="dp-UserInfo">
-                                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                                    <span class="dp-UserName">Single-line item</span>
-                                </span>
-                            </span>
-
-                            <span class="dp-LevelCol dp-LevelRight dp-LevelBottom">
-                                <span class="dp-TimeStatus">
-                                    <span class="dp-Tag Tag--small Tag--grey">Draft</span>
-                                </span>
-                            </span>
-                        </li>
-                    </ul>
-                </li>
-
-            </ul>
-        </li>
-    </ul>
-
-</div>
-```
-
-<h4>listpane/tasksnew</h4>
-```html @preview
-<div class="dp-MainWrapper" style="height: 400px">
-    <form>
-        <ul class="dp-CardList">
-            <li class="dp-Card dp-Level LevelCol dp-Tasks-list">
-                <span class="dp-LevelItem Level-justify-between">
-                    <span class="dp-CustomCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="tasksnew-1">
-                        <label for="tasksnew-1" class="">
-                            <span class="dp-Icon dp-Approve is-completed"></span>
-                            <span class="dp-Label-title dp-Card-title">Maintenance & Installation of Lighting System</span>
-                        </label>
-                    </span>
-                    <span class="dp-DateGroup">
-                        <span class="dp-Icon dp-group"></span>
-                        <a href="#" class="dp-Date-link">Today : 4pm</a>
-                    </span>
-                </span>
-                <span class="dp-LevelItem dp-LevelLeft">
-                    <span class="dp-Diagnose">
-                        <a href="" class="dp-Card-link">
-                            <span class="dp-Icon dp-link Icon--primary"></span>
-                            Diagnose And Repair Electrical Systems
-                        </a>
-                    </span>
-                    <!-- Icon hover -->
-                    <span class="dp-Cog">
-                        <span class="dp-Icon dp-settings is-active"></span>
-                        <ul class="dp-Menu">
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Icon dp-Bin"></span>
-                                <a href="#" class="dp-Menu-link">
-                                    Delete
-                                </a>
-                            </li>
-                        </ul>
-                    </span>
-                </span>
-                <span class="dp-LevelItem Level-justify-between">
-
-                    <ul class="dp-LevelWrap">
-                        <li>
-                            <span class="dp-Icon dp-Visibility"></span>
-                            Department
-                        </li>
-                        <li>
-                            <span class="dp-Icon dp-iconUserAvatar"></span>
-                            Me
-                        </li>
-                    </ul>
-
-                    <!-- comment -->
-                    <span class="dp-CommentWrap">
-                        <span class="dp-Icon dp-iconComents"></span>
-                        <span class="dp-Comments-title is-active">Comment <a href="#" class="dp-qt">(2)</a><button class="dp-Arrow"></button></span>
-                        <ul class="dp-Comments">
-                            <li class="dp-Comments-item">
-                                <span class="dp-Level">
-                                    <span class="dp-LevelLeft dp-LevelItem">
-                                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                                        <span class="dp-UserName">Kenneth James</span>
-                                    </span>
-                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">
-                                        <span>23 mins ago</span>
-                                    </span>
-                                </span>
-                                <span class="dp-Level">
-                                    <span class="dp-txt">
-                                        The door led right into it. 'That's very curious!' she thought. 'I must be getting somewhere near the King had said that day.
-                                    </span>
-                                </span>
-                            </li>
-                            <li class="dp-Comments-item">
-                                <span class="dp-Level">
-                                    <span class="dp-LevelLeft">
-                                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                                        <span class="dp-UserName">Victor Moses</span>
-                                    </span>
-                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">
-                                        <span>12 mins ago</span>
-                                    </span>
-                                </span>
-                                <span class="dp-Level">
-                                    <span class="dp-txt">
-                                        The door led right into it. 'That's very curious!' she thought. 'I must be getting somewhere near the King had said that day.
-                                    </span>
-                                </span>
-                                <div class="dp-ReplyWrapper">
-                                    <textarea class="dp-ReplyEditor"></textarea>
-                                </div>
-                                <div class="dp-ButtonWrapper">
-                                    <button class="dp-Button Button--small Button--outlined" type="button">
-                                        Add comment
-                                    </button>
-                                    <button class="dp-Button Button--small Button--outlined Button--outborder" type="button">
-                                        Cancel
-                                    </button>
-                                </div>
-                            </li>
-                        </ul>
-                    </span>
-                </span>
-            </li>
-        </ul>
-    </form>
-</div>
-```
-
-<h4>COMPLETED TASK</h4>
-```html @preview
-<form>
-    <ul class="dp-CardList Task--completed">
-        <li class="dp-Card dp-Level LevelCol dp-Tasks-list">
-
-            <span class="dp-LevelItem Level-justify-between">
-                <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="tasksnew-2">
-                    <label for="tasksnew-2">
-                        <span class="dp-Icon dp-Approve"></span>
-                        <span class="dp-Card-title">Maintenance & Installation of Lighting System</span>
-                    </label>
-                </span>
-
-                <span class="dp-DateGroup">
-                    <span class="dp-Icon dp-group"></span>
-                    <a href="#" class="dp-Date-link">Today : 4pm</a>
-                </span>
-            </span>
-
-            <span class="dp-LevelItem dp-LevelLeft">
-                <span class="dp-Diagnose">
-                    <a href="" class="dp-Card-link">
-                        <span class="dp-Icon dp-link Icon--primary"></span>
-                        Diagnose And Repair Electrical Systems
-                    </a>
-                </span>
-
-                <!-- Icon hover -->
-                <span class="dp-Cog">
-                    <span class="dp-Icon dp-settings is-active"></span>
-                    <ul class="dp-Menu">
-                        <li class="dp-Menu-linkItem">
-                            <span class="dp-Icon dp-Bin"></span>
-                            <a href="#" class="dp-Menu-link">
-                                Delete
-                            </a>
-                        </li>
-                    </ul>
-                </span>
-
-            </span>
-
-            <span class="dp-LevelItem Level-justify-between">
-                
-                <ul class="dp-LevelWrap">
-                    <li>
-                        <span class="dp-Icon dp-Visibility"></span>
-                        Department
-                    </li>
-                    <li>
-                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                        Me
-                    </li>
-                </ul>
-
-                <span class="dp-CommentWrap">
-                    <span class="dp-Icon dp-iconComents"></span>
-                    <span class="dp-Comments-title">Add comment</span>
-                    <ul class="dp-Comments">
-                        <li class="dp-Comments-item">
-                            <span class="dp-Level">
-                                <span class="dp-LevelLeft">
-                                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                                    <span class="dp-UserName">Kenneth James</span>
-                                </span>
-                                <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">
-                                    <span>23 mins ago</span>
-                                </span>
-                            </span>
-                            <span class="dp-Level">
-                                <span class="dp-txt">
-                                    The door led right into it. 'That's very curious!' she thought. 'I must be getting somewhere near the King had said that day.
-                                </span>
-                            </span>
-                        </li>
-                        <li class="dp-Comments-item">
-                            <span class="dp-Level">
-                                <span class="dp-LevelLeft">
-                                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                                    <span class="dp-UserName">Victor Moses</span>
-                                </span>
-                                <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">
-                                    <span>12 mins ago</span>
-                                </span>
-                            </span>
-                            <span class="dp-Level">
-                                <span class="dp-txt">
-                                    The door led right into it. 'That's very curious!' she thought. 'I must be getting somewhere near the King had said that day.
-                                </span>
-                            </span>
-                            <div class="dp-ReplyWrapper">
-                                <textarea class="dp-ReplyEditor"></textarea>
-                            </div>
-                            <div class="dp-ButtonWrapper">
-                                <button class="dp-Button Button--small Button--outlined" type="button">
-                                    Add comment
-                                </button>
-                                <button class="dp-Button Button--small Button--outlined Button--outborder" type="button">
-                                    Cancel
-                                </button>
-                            </div>
-                        </li>
-                    </ul>
-                </span>
-            </span>
-        </li>
-    </ul>
-</form>
-```
-
-<h4>Listpane/settings-cog</h4>
-```html @preview
-<form>
-    <ul class="dp-CardList is-hoverable">
-        
-        <li class="dp-Card-SectionTitle">
-            <span class="dp-LevelCol">
-                <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="settings-cog-0"></input>
-                    <label for="settings-cog-0"></label>
-                </span>
-            </span>
-            <span class="dp-LevelCol">
-                <span class="dp-Card-title">Sales</span>
-            </span>
-        </li>
-
-        <!-- 1 -->
-        <li class="dp-Card dp-Level">
-            <span class="dp-LevelCol">
-                <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="settings-cog-1"></input>
-                    <label for="settings-cog-1"></label>
-                </span>
-            </span>
-
-            <span class="dp-LevelCol">
-                <span class="dp-Card-title">SSO Information<span class="dp-Icon Icon--star"></span></span>
-                <span class="dp-UserInfo">
-                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-UserName">Kenneth James</span>
-                    <a href="mailto:kenneth@windfarms.com" class="dp-UserEmail">
-                        &lt;kenneth@windfarms.com&gt;
-                    </a>
-                </span>
-            </span>
-
-            <span class="dp-LevelCol dp-LevelRight Level-justify-between">
-                <span class="dp-IconGroup">
-                    <span class="Icon--circle dp-iconBug"></span>
-                    <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
-                    <span class="dp-Icon Icon--clock Icon--primary"></span>
-                </span>
-                <span class="dp-TimeStatus">
-                    <span class="dp-Tag Tag--small Tag--danger">Failed</span>
-                </span>
-            </span>
-
-            <!-- Icon hover -->
-            <span class="dp-Cog">
-                <span class="dp-Icon dp-settings"></span>
-                <ul class="dp-Menu">
-
-                    <li class="dp-Menu-linkItem">Assign to <a href="#" class="dp-listLink">me</a> or <button class="dp-Arrow"></button>
-                        <ul class="dp-Menu">
-                            <li class="dp-Menu-search">
-                                <form>
-                                    <span class="dp-Icon dp-IconSearch"></span>
-                                    <input type="text" class="dp-Input Input--search">
-                                </form>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Wendy Pride</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Bob Cooper</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Julien Ducro</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Wendy Lightbody</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Bobby Steiner</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Wendy Pride</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Bob Cooper</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Julien Ducro</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Wendy Lightbody</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Bobby Steiner</a>
-                            </li>
-                        </ul>
-                    </li>
-
-                    <li class="dp-Menu-linkItem">Assign to <a href="#" class="dp-listLink">my team</a> or <button class="dp-Arrow"></button>
-                        <ul class="dp-Menu">
-                            <li class="dp-Menu-search">
-                                <form>
-                                    <span class="dp-Icon dp-IconSearch"></span>
-                                    <input type="text" class="dp-Input Input--search">
-                                </form>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Wendy Pride</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Bob Cooper</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Julien Ducro</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Wendy Lightbody</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Bobby Steiner</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Wendy Pride</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Bob Cooper</a>
-                            </li>
-                        </ul>
-                    </li>
-
-                    <li class="dp-DropdownDivider"></li>
-
-                    <li class="dp-Menu-linkItem">Status <button class="dp-Arrow"></button>
-                        <ul class="dp-Menu">
-                            <li class="dp-Menu-search">
-                                <form>
-                                    <span class="dp-Icon dp-IconSearch"></span>
-                                    <input type="text" class="dp-Input Input--search">
-                                </form>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Wendy Pride</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Bob Cooper</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Julien Ducro</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Wendy Lightbody</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Bobby Steiner</a>
-                            </li>
-                        </ul>
-                    </li>
-
-                    <li class="dp-Menu-linkItem"> Urgency <button class="dp-Arrow"></button>
-                        <ul class="dp-Menu">
-                            <li class="dp-Menu-search">
-                                <form>
-                                    <span class="dp-Icon dp-IconSearch"></span>
-                                    <input type="text" class="dp-Input Input--search">
-                                </form>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Wendy Pride</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Bob Cooper</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Wendy Lightbody</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="dp-DropdownDivider"></li>
-                    <li class="dp-Menu-linkItem">Place on hold</li>
-                    <li class="dp-Menu-linkItem">Lock</li>
-                    <li class="dp-Menu-linkItem">Unlock</li>
-                </ul>
-            </span>
-
-        </li>
-
-        <!-- 2 -->
-        <li class="dp-Card dp-Level">
-            <span class="dp-LevelCol">
-                <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="settings-cog-2"></input>
-                    <label for="settings-cog-2"></label>
-                </span>
-            </span>
-
-            <span class="dp-LevelCol">
-                <span class="dp-Card-title">Portal disabled landing page</span>
-
-                <span class="dp-UserInfo">
-                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-UserName">Mark Jarvis</span>
-                    <a href="mailto:mjarvis@econorob.nl" class="dp-UserEmail">
-                        &lt;mjarvis@econorob.nl&gt;
-                    </a>
-                </span>
-            </span>
-
-            <span class="dp-LevelCol dp-LevelRight Level-justify-between">
-                <span class="dp-IconGroup">
-                    <span class="Icon--circle dp-rocket Icon-grey-darkest"></span>
-                    <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
-                    <span class="dp-Badge Badge--round Badge--warning">9</span>
-                </span>
-                <span class="dp-TimeStatus">
-                    <span class="dp-Tag Tag--small Tag--pink">3 hours</span>
-                </span>
-            </span>
-
-            <!-- Icon hover -->
-            <span class="dp-Cog">
-                <span class="dp-Icon dp-settings"></span>
-                <ul class="dp-Menu">
-
-                    <li class="dp-Menu-linkItem">Assign to <a href="#" class="dp-listLink">me</a> or <button class="dp-Arrow"></button>
-                        <ul class="dp-Menu">
-                            <li class="dp-Menu-search">
-                                <form>
-                                    <span class="dp-Icon dp-IconSearch"></span>
-                                    <input type="text" class="dp-Input Input--search">
-                                </form>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Wendy Pride</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Bob Cooper</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Julien Ducro</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Wendy Lightbody</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Bobby Steiner</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Wendy Pride</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Bob Cooper</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Julien Ducro</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Wendy Lightbody</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Bobby Steiner</a>
-                            </li>
-                        </ul>
-                    </li>
-
-                    <li class="dp-Menu-linkItem">Assign to <a href="#" class="dp-listLink">my team</a> or <button class="dp-Arrow"></button>
-                        <ul class="dp-Menu">
-                            <li class="dp-Menu-search">
-                                <form>
-                                    <span class="dp-Icon dp-IconSearch"></span>
-                                    <input type="text" class="dp-Input Input--search">
-                                </form>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Wendy Pride</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Bob Cooper</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Julien Ducro</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Wendy Lightbody</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Bobby Steiner</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Wendy Pride</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Bob Cooper</a>
-                            </li>
-                        </ul>
-                    </li>
-
-                    <li class="dp-DropdownDivider"></li>
-
-                    <li class="dp-Menu-linkItem">Status <button class="dp-Arrow"></button>
-                        <ul class="dp-Menu">
-                            <li class="dp-Menu-search">
-                                <form>
-                                    <span class="dp-Icon dp-IconSearch"></span>
-                                    <input type="text" class="dp-Input Input--search">
-                                </form>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Wendy Pride</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Bob Cooper</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Julien Ducro</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Wendy Lightbody</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Bobby Steiner</a>
-                            </li>
-                        </ul>
-                    </li>
-
-                    <li class="dp-Menu-linkItem"> Urgency <button class="dp-Arrow"></button>
-                        <ul class="dp-Menu">
-                            <li class="dp-Menu-search">
-                                <form>
-                                    <span class="dp-Icon dp-IconSearch"></span>
-                                    <input type="text" class="dp-Input Input--search">
-                                </form>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Wendy Pride</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Bob Cooper</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Wendy Lightbody</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="dp-DropdownDivider"></li>
-                    <li class="dp-Menu-linkItem">Place on hold</li>
-                    <li class="dp-Menu-linkItem">Lock</li>
-                    <li class="dp-Menu-linkItem">Unlock</li>
-                </ul>
-            </span>
-
-        </li>
-
-        <!-- 3 -->
-        <li class="dp-Card dp-Level">
-            <span class="dp-LevelCol">
-                <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="settings-cog-3"></input>
-                    <label for="settings-cog-3"></label>
-                </span>
-            </span>
-
-            <span class="dp-LevelCol">
-                <span class="dp-Card-title">Inventory component<span class="dp-Icon Icon--star"></span></span>
-
-                <span class="dp-UserInfo">
-                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-UserName">Toby Falkirk</span>
-                    <a href="mailto:t.falkirk@rambling.com" class="dp-UserEmail">
-                        &lt;t.falkirk@rambling.com&gt;
-                    </a>
-                </span>
-            </span>
-
-            <span class="dp-LevelCol dp-LevelRight Level-justify-between">
-                <span class="dp-IconGroup">
-                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-Badge Badge--round Badge-Min Icon-warning"></span>
-                </span>
-                <span class="dp-TimeStatus">
-                    <span>2 hr 16 min</span>
-                </span>
-            </span>
-
-            <!-- Icon hover -->
-            <span class="dp-Cog">
-                <span class="dp-Icon dp-settings"></span>
-                <ul class="dp-Menu">
-
-                    <li class="dp-Menu-linkItem">Assign to <a href="#" class="dp-listLink">me</a> or <button class="dp-Arrow"></button>
-                        <ul class="dp-Menu">
-                            <li class="dp-Menu-search">
-                                <form>
-                                    <span class="dp-Icon dp-IconSearch"></span>
-                                    <input type="text" class="dp-Input Input--search">
-                                </form>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Wendy Pride</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Bob Cooper</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Julien Ducro</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Wendy Lightbody</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Bobby Steiner</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Wendy Pride</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Bob Cooper</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Julien Ducro</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Wendy Lightbody</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Bobby Steiner</a>
-                            </li>
-                        </ul>
-                    </li>
-
-                    <li class="dp-Menu-linkItem">Assign to <a href="#" class="dp-listLink">my team</a> or <button class="dp-Arrow"></button>
-                        <ul class="dp-Menu">
-                            <li class="dp-Menu-search">
-                                <form>
-                                    <span class="dp-Icon dp-IconSearch"></span>
-                                    <input type="text" class="dp-Input Input--search">
-                                </form>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Wendy Pride</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Bob Cooper</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Julien Ducro</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Wendy Lightbody</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Bobby Steiner</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Wendy Pride</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Bob Cooper</a>
-                            </li>
-                        </ul>
-                    </li>
-
-                    <li class="dp-DropdownDivider"></li>
-
-                    <li class="dp-Menu-linkItem">Status <button class="dp-Arrow"></button>
-                        <ul class="dp-Menu">
-                            <li class="dp-Menu-search">
-                                <form>
-                                    <span class="dp-Icon dp-IconSearch"></span>
-                                    <input type="text" class="dp-Input Input--search">
-                                </form>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Wendy Pride</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Bob Cooper</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Julien Ducro</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Wendy Lightbody</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Bobby Steiner</a>
-                            </li>
-                        </ul>
-                    </li>
-
-                    <li class="dp-Menu-linkItem"> Urgency <button class="dp-Arrow"></button>
-                        <ul class="dp-Menu">
-                            <li class="dp-Menu-search">
-                                <form>
-                                    <span class="dp-Icon dp-IconSearch"></span>
-                                    <input type="text" class="dp-Input Input--search">
-                                </form>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Wendy Pride</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Bob Cooper</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Wendy Lightbody</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="dp-DropdownDivider"></li>
-                    <li class="dp-Menu-linkItem">Place on hold</li>
-                    <li class="dp-Menu-linkItem">Lock</li>
-                    <li class="dp-Menu-linkItem">Unlock</li>
-                </ul>
-            </span>
-
-        </li>
-
-        <!-- 4 -->
-        <li class="dp-Card dp-Level">
-            <span class="dp-LevelCol">
-                <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="settings-cog-4"></input>
-                    <label for="settings-cog-4"></label>
-                </span>
-            </span>
-
-            <span class="dp-LevelCol">
-                <span class="dp-Card-title">AW: Need some help?</span>
-
-                <span class="dp-UserInfo">
-                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-UserName">Kenneth James</span>
-                    <a href="mailto:kenneth@windfarms.com" class="dp-UserEmail">
-                        &lt;kenneth@windfarms.com&gt;
-                    </a>
-                </span>
-            </span>
-
-            <span class="dp-LevelCol dp-LevelRight Level-justify-between">
-                <span class="dp-IconGroup">
-                    <span class="dp-Icon dp-iconLock"></span>
-                    <span class="Icon--circle dp-iconMln"></span>
-                    <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
-                    <span class="dp-Badge Badge--round Badge--warning">9</span>
-                </span>
-                <span class="dp-TimeStatus">
-                    <span>57 mins</span>
-                </span>
-            </span>
-
-            <!-- Icon hover -->
-            <span class="dp-Cog">
-                <span class="dp-Icon dp-settings"></span>
-                <ul class="dp-Menu">
-
-                    <li class="dp-Menu-linkItem">Assign to <a href="#" class="dp-listLink">me</a> or <button class="dp-Arrow"></button>
-                        <ul class="dp-Menu">
-                            <li class="dp-Menu-search">
-                                <form>
-                                    <span class="dp-Icon dp-IconSearch"></span>
-                                    <input type="text" class="dp-Input Input--search">
-                                </form>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Wendy Pride</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Bob Cooper</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Julien Ducro</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Wendy Lightbody</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Bobby Steiner</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Wendy Pride</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Bob Cooper</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Julien Ducro</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Wendy Lightbody</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Bobby Steiner</a>
-                            </li>
-                        </ul>
-                    </li>
-
-                    <li class="dp-Menu-linkItem">Assign to <a href="#" class="dp-listLink">my team</a> or <button class="dp-Arrow"></button>
-                        <ul class="dp-Menu">
-                            <li class="dp-Menu-search">
-                                <form>
-                                    <span class="dp-Icon dp-IconSearch"></span>
-                                    <input type="text" class="dp-Input Input--search">
-                                </form>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Wendy Pride</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Bob Cooper</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Julien Ducro</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Wendy Lightbody</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Bobby Steiner</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Wendy Pride</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Bob Cooper</a>
-                            </li>
-                        </ul>
-                    </li>
-
-                    <li class="dp-DropdownDivider"></li>
-
-                    <li class="dp-Menu-linkItem">Status <button class="dp-Arrow"></button>
-                        <ul class="dp-Menu">
-                            <li class="dp-Menu-search">
-                                <form>
-                                    <span class="dp-Icon dp-IconSearch"></span>
-                                    <input type="text" class="dp-Input Input--search">
-                                </form>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Wendy Pride</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Bob Cooper</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Julien Ducro</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Wendy Lightbody</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Bobby Steiner</a>
-                            </li>
-                        </ul>
-                    </li>
-
-                    <li class="dp-Menu-linkItem"> Urgency <button class="dp-Arrow"></button>
-                        <ul class="dp-Menu">
-                            <li class="dp-Menu-search">
-                                <form>
-                                    <span class="dp-Icon dp-IconSearch"></span>
-                                    <input type="text" class="dp-Input Input--search">
-                                </form>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Wendy Pride</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Bob Cooper</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Wendy Lightbody</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="dp-DropdownDivider"></li>
-                    <li class="dp-Menu-linkItem">Place on hold</li>
-                    <li class="dp-Menu-linkItem">Lock</li>
-                    <li class="dp-Menu-linkItem">Unlock</li>
-                </ul>
-            </span>
-
-        </li>
-
-        <!-- 5 -->
-        <li class="dp-Card dp-Level is-active">
-            <span class="dp-LevelCol">
-                <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="settings-cog-5"></input>
-                    <label for="settings-cog-5"></label>
-                </span>
-            </span>
-
-            <span class="dp-LevelCol">
-                <span class="dp-Card-title">Portal disabled landing page</span>
-
-                <span class="dp-UserInfo">
-                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-UserName">Mark Jarvis</span>
-                    <a href="mailto:mjarvis@econorob.nl" class="dp-UserEmail">
-                        &lt;mjarvis@econorob.nl&gt;
-                    </a>
-                </span>
-            </span>
-
-            <span class="dp-LevelCol dp-LevelRight Level-justify-between">
-                <span class="dp-IconGroup">
-                    <span class="Icon--circle dp-iconMln"></span>
-                    <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
-                    <span class="dp-Badge Badge--round Badge--warning">7</span>
-                </span>
-                <span class="dp-TimeStatus">
-                    <span class="dp-Tag Tag--small Tag--danger">2 hours</span>
-                </span>
-            </span>
-
-            <!-- Icon hover -->
-            <span class="dp-Cog">
-                <span class="dp-Icon dp-settings is-active"></span>
-                <ul class="dp-Menu is-visible">
-
-                    <li class="dp-Menu-linkItem">Assign to <a href="#" class="dp-listLink">me</a> or <button class="dp-Arrow"></button>
-                        <ul class="dp-Menu">
-                            <li class="dp-Menu-search">
-                                <form>
-                                    <span class="dp-Icon dp-IconSearch"></span>
-                                    <input type="text" class="dp-Input Input--search">
-                                </form>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Wendy Pride</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Bob Cooper</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Julien Ducro</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Wendy Lightbody</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Bobby Steiner</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Wendy Pride</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Bob Cooper</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Julien Ducro</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Wendy Lightbody</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Bobby Steiner</a>
-                            </li>
-                        </ul>
-                    </li>
-
-                    <li class="dp-Menu-linkItem">Assign to <a href="#" class="dp-listLink">my team</a> or <button class="dp-Arrow"></button>
-                        <ul class="dp-Menu">
-                            <li class="dp-Menu-search">
-                                <form>
-                                    <span class="dp-Icon dp-IconSearch"></span>
-                                    <input type="text" class="dp-Input Input--search">
-                                </form>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Wendy Pride</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Bob Cooper</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Julien Ducro</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Wendy Lightbody</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Bobby Steiner</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Wendy Pride</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Bob Cooper</a>
-                            </li>
-                        </ul>
-                    </li>
-
-                    <li class="dp-DropdownDivider"></li>
-
-                    <li class="dp-Menu-linkItem">Status <button class="dp-Arrow"></button>
-                        <ul class="dp-Menu">
-                            <li class="dp-Menu-search">
-                                <form>
-                                    <span class="dp-Icon dp-IconSearch"></span>
-                                    <input type="text" class="dp-Input Input--search">
-                                </form>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Wendy Pride</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Bob Cooper</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Julien Ducro</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Wendy Lightbody</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Bobby Steiner</a>
-                            </li>
-                        </ul>
-                    </li>
-
-                    <li class="dp-Menu-linkItem"> Urgency <button class="dp-Arrow"></button>
-                        <ul class="dp-Menu">
-                            <li class="dp-Menu-search">
-                                <form>
-                                    <span class="dp-Icon dp-IconSearch"></span>
-                                    <input type="text" class="dp-Input Input--search">
-                                </form>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Wendy Pride</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Bob Cooper</a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                <a href="#" class="dp-listItem">Wendy Lightbody</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="dp-DropdownDivider"></li>
-                    <li class="dp-Menu-linkItem">Place on hold</li>
-                    <li class="dp-Menu-linkItem">Lock</li>
-                    <li class="dp-Menu-linkItem">Unlock</li>
-                </ul>
-            </span>
-        </li>
-    </ul>
-</form>
-```
-
-```html @preview
-<form>
-    <ul class="dp-CardList is-hoverable">
-
-        <li class="dp-Card-SectionTitle dp-General-Articles">
-            <span>GENERAL ARTICLES</span>
-        </li>
-
-        <!-- 1 -->
-        <li class="dp-Card dp-Level">
-            <span class="dp-LevelCol">
-                <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="settings-cog-6"></input>
-                    <label for="settings-cog-6"></label>
-                </span>
-            </span>
-
-            <span class="dp-LevelCol">
-                <span class="dp-Card-title">Portal disabled landing message</span>
-
-                <ul class="dp-LevelWrap">
-                    <li>
-                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                        <span class="dp-UserName">Kenneth James</span>
-                    </li>
-                    <li>
-                        <span class="dp-Icon dp-group"></span>
-                        <span class="dp-date">3rd November 2018</span>
-                    </li>
-                </ul>
-            </span>
-
-            <span class="dp-LevelCol dp-LevelRight dp-LevelTop">
-                <span class="dp-TimeStatus">
-                    <span class="dp-Tag Tag--small Tag--success">Published</span>
-                </span>
-            </span>
-
-            <!-- Icon hover -->
-            <span class="dp-Cog">
-                <span class="dp-Icon dp-settings"></span>
-                <ul class="dp-Menu">
-                    <li class="dp-Menu-linkItem">
-                        <span class="dp-Icon dp-iconInsert-Link"></span>
-                        <a href="#" class="dp-Menu-link">
-                            Insert link
-                        </a>
-                    </li>
-                    <li class="dp-Menu-linkItem">
-                        <span class="dp-Icon dp-iconInsert"></span>
-                        <a href="#" class="dp-Menu-link">
-                            Insert into ticket
-                        </a>
-                    </li>
-                </ul>
-            </span>
-
-        </li>
-
-        <!-- 2 -->
-        <li class="dp-Card dp-Level">
-            <span class="dp-LevelCol">
-                <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="settings-cog-7"></input>
-                    <label for="settings-cog-7"></label>
-                </span>
-            </span>
-
-            <span class="dp-LevelCol">
-                <span class="dp-Card-title">Creating effective new ticket contact forms</span>
-
-                <ul class="dp-LevelWrap">
-                    <li>
-                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                        <span class="dp-UserName">Kenneth James</span>
-                    </li>
-                    <li>
-                        <span class="dp-Icon dp-group"></span>
-                        <span class="dp-date">3rd November 2018</span>
-                    </li>
-                </ul>
-            </span>
-
-            <span class="dp-LevelCol dp-LevelRight dp-LevelTop">
-                <span class="dp-TimeStatus">
-                    <span class="dp-Tag Tag--small Tag--success">Published</span>
-                </span>
-            </span>
-
-            <!-- Icon hover -->
-            <span class="dp-Cog">
-                <span class="dp-Icon dp-settings"></span>
-                <ul class="dp-Menu">
-                    <li class="dp-Menu-linkItem">
-                        <span class="dp-Icon dp-iconInsert-Link"></span>
-                        <a href="#" class="dp-Menu-link">
-                            Insert link
-                        </a>
-                    </li>
-                    <li class="dp-Menu-linkItem">
-                        <span class="dp-Icon dp-iconInsert"></span>
-                        <a href="#" class="dp-Menu-link">
-                            Insert into ticket
-                        </a>
-                    </li>
-                </ul>
-            </span>
-        </li>
-
-        <!-- 3 -->
-        <li class="dp-Card dp-Level is-active">
-            <span class="dp-LevelCol">
-                <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="settings-cog-8"></input>
-                    <label for="settings-cog-8"></label>
-                </span>
-            </span>
-            <span class="dp-LevelCol">
-                <span class="dp-Card-title">Inventory component</span>
-
-                <ul class="dp-LevelWrap">
-                    <li>
-                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                        <span class="dp-UserName">Kenneth James</span>
-                    </li>
-                    <li>
-                        <span class="dp-Icon dp-group"></span>
-                        <span class="dp-date">3rd November 2018</span>
-                    </li>
-                </ul>
-            </span>
-            <span class="dp-LevelCol dp-LevelRight dp-LevelBottom">
-                <span class="dp-TimeStatus">
-                    <span class="dp-Tag Tag--small Tag--disabled">Archived</span>
-                </span>
-            </span>
-            <!-- Icon hover -->
-            <span class="dp-Cog">
-                <span class="dp-Icon dp-settings is-active"></span>
-                <ul class="dp-Menu">
-                    <li class="dp-Menu-linkItem">
-                        <span class="dp-Icon dp-iconInsert-Link"></span>
-                        <a href="#" class="dp-Menu-link">
-                            Insert link
-                        </a>
-                    </li>
-                    <li class="dp-Menu-linkItem">
-                        <span class="dp-Icon dp-iconInsert"></span>
-                        <a href="#" class="dp-Menu-link">
-                            Insert into ticket
-                        </a>
-                    </li>
-                </ul>
-            </span>
-        </li>
-
-    </ul>
-</form>
-```
-
-<h4>MY TASKS</h4>
-```html @preview
-<div class="dp-MainWrapper">
-    <form>
-        <ul class="dp-CardList is-hoverable">
-
-            <li class="dp-Card-SectionTitle dp-Tasks-list">
-                <span class="dp-LevelCol">
-                    <span class="dp-CustomCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="my-task-0"></input>
-                        <label for="my-task-0"></label>
-                    </span>
-                </span>
-                <span class="dp-LevelCol">
-                    <span class="dp-Card-title">MY TASKS</span>
-                </span>
-            </li>
-
-            <!-- 1 -->
-            <li class="dp-Card dp-Level LevelCol dp-Tasks-list">
-                <span class="dp-LevelItem Level-justify-between">
-                    <span class="dp-CustomCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="my-task-1">
-                        <label for="my-task-1">
-                            <span class="dp-Icon dp-Approve"></span>
-                            <span class="dp-Card-title">Maintenance & Installation of Lighting System</span>
-                        </label>
-                    </span>
-                    <span class="dp-DateGroup">
-                        <span class="dp-Icon dp-group"></span>
-                        <a href="#" class="dp-Date-link">Today : 4pm</a>
-                    </span>
-                </span>
-
-                <span class="dp-LevelItem dp-LevelLeft">
-                    <span class="dp-Diagnose">
-                        <a href="" class="dp-Card-link">
-                            <span class="dp-Icon dp-link Icon--primary"></span>
-                            Diagnose And Repair Electrical Systems
-                        </a>
-                    </span>
-                    <!-- Icon hover -->
-                    <span class="dp-Cog">
-                        <span class="dp-Icon dp-settings"></span>
-                        <ul class="dp-Menu">
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Icon dp-Bin"></span>
-                                <a href="#" class="dp-Menu-link">
-                                    Delete
-                                </a>
-                            </li>
-                        </ul>
-                    </span>
-                </span>
-                <span class="dp-LevelItem Level-justify-between">
-
-                    <ul class="dp-LevelWrap">
-                        <li class="is-active">
-                            <span class="dp-Icon dp-Visibility"></span>
-                            Department
-                            <ul class="dp-Menu">
-                                <li class="dp-Menu-linkItem">Private</li>
-                                <li class="dp-Menu-linkItem">Public</li>
-                                <li class="dp-Menu-linkItem">Department</li>
-                                <li class="dp-Menu-linkItem">Support</li>
-                                <li class="dp-Menu-linkItem">Sales</li>
-                            </ul>
-                        </li>
-                        <li>
-                            <span class="dp-Icon dp-iconUserAvatar"></span>
-                            Me
-                        </li>
-                    </ul>
-
-                    <span class="dp-CommentWrap">
-                        <span class="dp-Icon dp-iconComents"></span>
-                        <span class="dp-Comments-title">Comment <a href="#" class="dp-qt">(2)</a><button class="dp-Arrow"></button></span>
-                        <ul class="dp-Comments">
-                            <li class="dp-Comments-item">
-                                <span class="dp-Level">
-                                    <span class="dp-LevelLeft dp-LevelItem">
-                                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                                        <span class="dp-UserName">Kenneth James</span>
-                                    </span>
-                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">
-                                        <span>23 mins ago</span>
-                                    </span>
-                                </span>
-                                <span class="dp-Level">
-                                    <span class="dp-txt">
-                                        The door led right into it. 'That's very curious!' she thought. 'I must be getting somewhere near the King had said that day.
-                                    </span>
-                                </span>
-                            </li>
-                            <li class="dp-Comments-item">
-                                <span class="dp-Level">
-                                    <span class="dp-LevelLeft">
-                                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                                        <span class="dp-UserName">Victor Moses</span>
-                                    </span>
-                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">
-                                        <span>12 mins ago</span>
-                                    </span>
-                                </span>
-                                <span class="dp-Level">
-                                    <span class="dp-txt">
-                                        The door led right into it. 'That's very curious!' she thought. 'I must be getting somewhere near the King had said that day.
-                                    </span>
-                                </span>
-                                <div class="dp-ReplyWrapper">
-                                    <textarea class="dp-ReplyEditor"></textarea>
-                                </div>
-                                <div class="dp-ButtonWrapper">
-                                    <button class="dp-Button Button--small Button--outlined" type="button">
-                                        Add comment
-                                    </button>
-                                    <button class="dp-Button Button--small Button--outlined Button--outborder" type="button">
-                                        Cancel
-                                    </button>
-                                </div>
-                            </li>
-                        </ul>
-                    </span>
-                </span>
-            </li>
-
-            <!-- 2 -->
-            <li class="dp-Card dp-Level LevelCol dp-Tasks-list">
-                <span class="dp-LevelItem Level-justify-between">
-                    <span class="dp-CustomCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="my-task-2">
-                        <label for="my-task-2">
-                            <span class="dp-Icon dp-Approve"></span>
-                            <span class="dp-Card-title">Maintenance & Installation of Lighting System</span>
-                        </label>
-                    </span>
-                    <span class="dp-DateGroup">
-                        <span class="dp-Icon dp-group"></span>
-                        <a href="#" class="dp-Date-link">Today : 4pm</a>
-                    </span>
-                </span>
-                <span class="dp-LevelItem dp-LevelLeft">
-                    <span class="dp-Diagnose">
-                        <a href="" class="dp-Card-link">
-                            <span class="dp-Icon dp-link Icon--primary"></span>
-                            Diagnose And Repair Electrical Systems
-                        </a>
-                    </span>
-                    <!-- Icon hover -->
-                    <span class="dp-Cog">
-                        <span class="dp-Icon dp-settings"></span>
-                        <ul class="dp-Menu">
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Icon dp-Bin"></span>
-                                <a href="#" class="dp-Menu-link">
-                                    Delete
-                                </a>
-                            </li>
-                        </ul>
-                    </span>
-                </span>
-                <span class="dp-LevelItem Level-justify-between">
-                    <ul class="dp-LevelWrap">
-                        <li>
-                            <span class="dp-Icon dp-Visibility"></span>
-                            Department
-                        </li>
-                        <li>
-                            <span class="dp-Icon dp-iconUserAvatar"></span>
-                            Me
-                        </li>
-                    </ul>
-                    <span class="dp-CommentWrap">
-                        <span class="dp-Icon dp-iconComents"></span>
-                        <span class="dp-Comments-title">Comment <a href="#" class="dp-qt">(2)</a><button class="dp-Arrow"></button></span>
-                        <ul class="dp-Comments">
-                            <li class="dp-Comments-item">
-                                <span class="dp-Level">
-                                    <span class="dp-LevelLeft dp-LevelItem">
-                                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                                        <span class="dp-UserName">Kenneth James</span>
-                                    </span>
-                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">
-                                        <span>23 mins ago</span>
-                                    </span>
-                                </span>
-                                <span class="dp-Level">
-                                    <span class="dp-txt">
-                                        The door led right into it. 'That's very curious!' she thought. 'I must be getting somewhere near the King had said that day.
-                                    </span>
-                                </span>
-                            </li>
-                            <li class="dp-Comments-item">
-                                <span class="dp-Level">
-                                    <span class="dp-LevelLeft">
-                                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                                        <span class="dp-UserName">Victor Moses</span>
-                                    </span>
-                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">
-                                        <span>12 mins ago</span>
-                                    </span>
-                                </span>
-                                <span class="dp-Level">
-                                    <span class="dp-txt">
-                                        The door led right into it. 'That's very curious!' she thought. 'I must be getting somewhere near the King had said that day.
-                                    </span>
-                                </span>
-                                <div class="dp-ReplyWrapper">
-                                    <textarea class="dp-ReplyEditor"></textarea>
-                                </div>
-                                <div class="dp-ButtonWrapper">
-                                    <button class="dp-Button Button--small Button--outlined" type="button">
-                                        Add comment
-                                    </button>
-                                    <button class="dp-Button Button--small Button--outlined Button--outborder" type="button">
-                                        Cancel
-                                    </button>
-                                </div>
-                            </li>
-                        </ul>
-                    </span>
-                </span>
-            </li>
-
-            <!-- 3 -->
-            <li class="dp-Card dp-Level LevelCol dp-Tasks-list">
-                <span class="dp-LevelItem Level-justify-between">
-                    <span class="dp-CustomCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="my-task-3">
-                        <label for="my-task-3">
-                            <span class="dp-Icon dp-Approve"></span>
-                            <span class="dp-Card-title">Maintenance & Installation of Lighting System</span>
-                        </label>
-                    </span>
-                    <span class="dp-DateGroup">
-                        <span class="dp-Icon dp-group"></span>
-                        <a href="#" class="dp-Date-link">Today : 4pm</a>
-                    </span>
-                </span>
-                <span class="dp-LevelItem dp-LevelLeft">
-                    <span class="dp-Diagnose">
-                        <a href="" class="dp-Card-link">
-                            <span class="dp-Icon dp-link Icon--primary"></span>
-                            Diagnose And Repair Electrical Systems
-                        </a>
-                    </span>
-                    <!-- Icon hover -->
-                    <span class="dp-Cog">
-                        <span class="dp-Icon dp-settings"></span>
-                        <ul class="dp-Menu">
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Icon dp-Bin"></span>
-                                <a href="#" class="dp-Menu-link">
-                                    Delete
-                                </a>
-                            </li>
-                        </ul>
-                    </span>
-                </span>
-                <span class="dp-LevelItem Level-justify-between">
-                    <ul class="dp-LevelWrap">
-                        <li>
-                            <span class="dp-Icon dp-Visibility"></span>
-                            Department
-                        </li>
-                        <li>
-                            <span class="dp-Icon dp-iconUserAvatar"></span>
-                            Me
-                        </li>
-                    </ul>
-                    <span class="dp-CommentWrap">
-                        <span class="dp-Icon dp-iconComents"></span>
-                        <span class="dp-Comments-title">Comment <a href="#" class="dp-qt">(2)</a><button class="dp-Arrow"></button></span>
-                        <ul class="dp-Comments">
-                            <li class="dp-Comments-item">
-                                <span class="dp-Level">
-                                    <span class="dp-LevelLeft dp-LevelItem">
-                                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                                        <span class="dp-UserName">Kenneth James</span>
-                                    </span>
-                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">
-                                        <span>23 mins ago</span>
-                                    </span>
-                                </span>
-                                <span class="dp-Level">
-                                    <span class="dp-txt">
-                                        The door led right into it. 'That's very curious!' she thought. 'I must be getting somewhere near the King had said that day.
-                                    </span>
-                                </span>
-                            </li>
-                            <li class="dp-Comments-item">
-                                <span class="dp-Level">
-                                    <span class="dp-LevelLeft">
-                                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                                        <span class="dp-UserName">Victor Moses</span>
-                                    </span>
-                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">
-                                        <span>12 mins ago</span>
-                                    </span>
-                                </span>
-                                <span class="dp-Level">
-                                    <span class="dp-txt">
-                                        The door led right into it. 'That's very curious!' she thought. 'I must be getting somewhere near the King had said that day.
-                                    </span>
-                                </span>
-                                <div class="dp-ReplyWrapper">
-                                    <textarea class="dp-ReplyEditor"></textarea>
-                                </div>
-                                <div class="dp-ButtonWrapper">
-                                    <button class="dp-Button Button--small Button--outlined" type="button">
-                                        Add comment
-                                    </button>
-                                    <button class="dp-Button Button--small Button--outlined Button--outborder" type="button">
-                                        Cancel
-                                    </button>
-                                </div>
-                            </li>
-                        </ul>
-                    </span>
-                </span>
-            </li>
-
-            <!-- 4 -->
-            <li class="dp-Card dp-Level LevelCol is-active dp-Tasks-list">
-                <span class="dp-LevelItem Level-justify-between">
-                    <span class="dp-CustomCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="my-task-4">
-                        <label for="my-task-4">
-                            <span class="dp-Icon dp-Approve"></span>
-                            <span class="dp-Card-title">Maintenance & Installation of Lighting System</span>
-                        </label>
-                    </span>
-                    <span class="dp-DateGroup">
-                        <span class="dp-Icon dp-group"></span>
-                        <a href="#" class="dp-Date-link">Today : 4pm</a>
-                    </span>
-                </span>
-                <span class="dp-LevelItem dp-LevelLeft">
-                    <span class="dp-Diagnose">
-                        <a href="" class="dp-Card-link">
-                            <span class="dp-Icon dp-link Icon--primary"></span>
-                            Diagnose And Repair Electrical Systems
-                        </a>
-                    </span>
-                    <!-- Icon hover -->
-                    <span class="dp-Cog">
-                        <span class="dp-Icon dp-settings is-active"></span>
-                        <ul class="dp-Menu">
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Icon dp-Bin"></span>
-                                <a href="#" class="dp-Menu-link">
-                                    Delete
-                                </a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Icon dp-CreateTicket"></span>
-                                <a href="#" class="dp-Menu-link">
-                                    Add to ticket
-                                </a>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-Icon Icon--edit"></span>
-                                <a href="#" class="dp-Menu-link">
-                                    Edit
-                                </a>
-                            </li>
-                        </ul>
-                    </span>
-                </span>
-                <span class="dp-LevelItem Level-justify-between">
-                    <ul class="dp-LevelWrap">
-                        <li>
-                            <span class="dp-Icon dp-Visibility"></span>
-                            Department
-                        </li>
-                        <li>
-                            <span class="dp-Icon dp-iconUserAvatar"></span>
-                            Me
-                        </li>
-                    </ul>
-                    <span class="dp-CommentWrap">
-                        <span class="dp-Icon dp-iconComents"></span>
-                        <span class="dp-Comments-title">Comment <a href="#" class="dp-qt">(2)</a><button class="dp-Arrow"></button></span>
-                        <ul class="dp-Comments">
-                            <li class="dp-Comments-item">
-                                <span class="dp-Level">
-                                    <span class="dp-LevelLeft dp-LevelItem">
-                                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                                        <span class="dp-UserName">Kenneth James</span>
-                                    </span>
-                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">
-                                        <span>23 mins ago</span>
-                                    </span>
-                                </span>
-                                <span class="dp-Level">
-                                    <span class="dp-txt">
-                                        The door led right into it. 'That's very curious!' she thought. 'I must be getting somewhere near the King had said that day.
-                                    </span>
-                                </span>
-                            </li>
-                            <li class="dp-Comments-item">
-                                <span class="dp-Level">
-                                    <span class="dp-LevelLeft">
-                                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                                        <span class="dp-UserName">Victor Moses</span>
-                                    </span>
-                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">
-                                        <span>12 mins ago</span>
-                                    </span>
-                                </span>
-                                <span class="dp-Level">
-                                    <span class="dp-txt">
-                                        The door led right into it. 'That's very curious!' she thought. 'I must be getting somewhere near the King had said that day.
-                                    </span>
-                                </span>
-                                <div class="dp-ReplyWrapper">
-                                    <textarea class="dp-ReplyEditor"></textarea>
-                                </div>
-                                <div class="dp-ButtonWrapper">
-                                    <button class="dp-Button Button--small Button--outlined" type="button">
-                                        Add comment
-                                    </button>
-                                    <button class="dp-Button Button--small Button--outlined Button--outborder" type="button">
-                                        Cancel
-                                    </button>
-                                </div>
-                            </li>
-                        </ul>
-                    </span>
-                </span>
-            </li>
-
-        </ul>
-    </form>
-</div>
-```
-
-<!-- COMMENTS -->
-
-## Cards/comments
-
-```html @preview
-<div class="dp-MainWrapper">
-    <form>
-        <ul class="dp-CardList is-hoverable">
-
-            <li class="dp-Card-SectionTitle">
-                <span class="dp-LevelCol">
-                    <span class="dp-CustomCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="comment-0"></input>
-                        <label for="comment-0"></label>
-                    </span>
-                </span>
-                <span class="dp-LevelCol">
-                    <span class="dp-Card-title">COMMENTS <span>(123)</span></span>
-                </span>
-            </li>
-            <!-- 1 -->
-            <li class="dp-Card dp-Level LevelCol dp-Tasks-list dp-Comments-list">
-                <span class="dp-LevelItem Level-justify-between">
-                    <span class="dp-CustomCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="comment-1">
-                        <label for="comment-1" class="dp-UserName">
-                            Mark Jarvis
-                        </label>
-                        <a href="" class="dp-UserEmail">mark.javis@customercompany.net</a>
-                    </span>
-                </span>
-                <span class="dp-LevelItem dp-LevelLeft">
-                    <span class="dp-Card-comment">I wish I could show you our cat Dinah: I think I must go back by railw...
-                        <span class="dp-Menu">
-                            <span class="dp-UserInfo">
-                                <span class="dp-UserName"><span class="dp-Icon dp-iconUserAvatar"></span>Mark Jarvis</span>
-                                <a href="" class="dp-UserEmail">mark.javis@customercompany.net</a>
-                            </span>
-                            <span class="dp-UserDescription">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-                            </span>
-                        </span>
-                    </span>
-                </span>
-                
-                <ul class="dp-LevelWrap">
-                    <li><span class="dp-Icon dp-Approve"></span>Approve</li>
-                    <li><span class="dp-Icon dp-Delete"></span>Delete</li>
-                    <li><span class="dp-Icon dp-CreateTicket"></span>Create ticket</li>
-                    <li><span class="dp-Icon Icon--edit"></span>Edit</li>
-                </ul>
-
-            </li>
-
-            <!-- 2 -->
-            <li class="dp-Card dp-Level LevelCol dp-Tasks-list dp-Comments-list">
-                <span class="dp-LevelItem Level-justify-between">
-                    <span class="dp-CustomCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="comment-2">
-                        <label for="comment-2" class="dp-UserName">
-                            Mark Jarvis
-                        </label>
-                        <a href="" class="dp-UserEmail">mark.javis@customercompany.net</a>
-                    </span>
-                </span>
-                <span class="dp-LevelItem dp-LevelLeft">
-                    <span class="dp-Card-comment">I wish I could show you our cat Dinah: I think I must go back by railw...</span>
-                </span>
-    
-                <ul class="dp-LevelWrap">
-                    <li><span class="dp-Icon dp-Approve"></span>Approve</li>
-                    <li><span class="dp-Icon dp-Delete"></span>Delete</li>
-                    <li><span class="dp-Icon dp-CreateTicket"></span>Create ticket</li>
-                    <li><span class="dp-Icon Icon--edit"></span>Edit</li>
-                </ul>
-            </li>
-
-            <!-- 3 -->
-            <li class="dp-Card dp-Level LevelCol dp-Tasks-list dp-Comments-list">
-                <span class="dp-LevelItem Level-justify-between">
-                    <span class="dp-CustomCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="comment-3">
-                        <label for="comment-3" class="dp-UserName">
-                            Mark Jarvis
-                        </label>
-                        <a href="" class="dp-UserEmail">mark.javis@customercompany.net</a>
-                    </span>
-                </span>
-                <span class="dp-LevelItem dp-LevelLeft">
-                    <span class="dp-Card-comment">I wish I could show you our cat Dinah: I think I must go back by railw...</span>
-                </span>
-    
-                <ul class="dp-LevelWrap">
-                    <li><span class="dp-Icon dp-Approve"></span>Approve</li>
-                    <li><span class="dp-Icon dp-Delete"></span>Delete</li>
-                    <li><span class="dp-Icon dp-CreateTicket"></span>Create ticket</li>
-                    <li><span class="dp-Icon Icon--edit"></span>Edit</li>
-                </ul>
-            </li>
-
-            <!-- 4 -->
-            <li class="dp-Card dp-Level LevelCol dp-Tasks-list dp-Comments-list">
-                <span class="dp-LevelItem Level-justify-between">
-                    <span class="dp-CustomCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="comment-4">
-                        <label for="comment-4" class="dp-UserName">
-                            Mark Jarvis
-                        </label>
-                        <a href="" class="dp-UserEmail">mark.javis@customercompany.net</a>
-                    </span>
-                </span>
-                <span class="dp-LevelItem dp-LevelLeft">
-                    <span class="dp-Card-comment">I wish I could show you our cat Dinah: I think I must go back by railw...</span>
-                </span>
-    
-                <ul class="dp-LevelWrap">
-                    <li><span class="dp-Icon dp-Approve"></span>Approve</li>
-                    <li><span class="dp-Icon dp-Delete"></span>Delete</li>
-                    <li><span class="dp-Icon dp-CreateTicket"></span>Create ticket</li>
-                    <li><span class="dp-Icon Icon--edit"></span>Edit</li>
-                </ul>
-            </li>
-
-        </ul>
-    </form>
-</div>
-```
-
-## Cards/listreveal
-```html @preview
-<div class="dp-MainWrapper">
-    <form>
-        <ul class="dp-CardList">
-            <li class="dp-Card dp-Level dp-listreveal">
-
-                <span class="dp-LevelItem dp-LevelCol dp-LevelTop">
-                    <span class="dp-CustomCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="listreveal-0"></input>
-                        <label for="listreveal-0"></label>
-                    </span>
-                </span>
-
-                <span class="dp-LevelCol">
-                    <span class="dp-Card-title">Card title here</span>
-                    <span class="dp-UserInfo">
-                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                        <span class="dp-UserName">Single-line item</span>
-                    </span>
-
-                    <ul class="dp-TagWrap">
-                        <li class="dp-Tag Tag--small Tag--info-light">a: value</li>
-                        <li class="dp-Tag Tag--small Tag--neutral-light">b: value</li>
-                        <li class="dp-Tag Tag--small Tag--info-light">c: value</li>
-                        <li>
-                            <button class="dp-Arrow dp-Comments-title is-active"></button>
-                            <ul class="dp-Comments">
-                                <li>
-                                    <span class="dp-Tag Tag--small Tag--info-light">a: value</span>
-                                    <span class="dp-description">Description text</span>
-                                </li>
-                                <li>
-                                    <span class="dp-Tag Tag--small Tag--neutral-light">b: value</span>
-                                    <span class="dp-description">Description text</span>
-                                </li>
-                                <li>
-                                    <span class="dp-Tag Tag--small Tag--info-light">c: value</span>
-                                    <span class="dp-description">Description text</span>
-                                </li>
-                            </ul>
-                        </li>
-
-                    </ul>
-                </span>
-
-            </li>
-        </ul>
-    </form>
-</div>
-```
-
-## Listpane/CRM
-
-```html @preview
-<form>
-    <ul class="dp-CardList">
-
-        <!-- 1 -->
-        <li class="dp-Card dp-Level">
-            <span class="dp-LevelCol">
-                <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="organizations-1"></input>
-                    <label for="organizations-1"></label>
-                </span>
-            </span>
-
-            <span class="dp-LevelCol">
-                <span class="dp-Title Title-Icon dp-LevelTop">
-                    <span class="dp-Icon dp-IconPlane"></span>
-                    <span class="dp-Card-title">Warephase</span>
-                </span>
-                <span class="dp-Card-subtitle">
-                    <span class="dp-Icon Icon--frame"></span>
-                    <span class="dp-title">Members <span class="dp-qt">(6)</span></span>
-                </span>
-            </span>
-
-            <span class="dp-LevelCol dp-LevelRight">
-                <span class="dp-IconGroup">
-                    <span class="Icon--circle dp-iconBug"></span>
-                    <span class="dp-Badge Badge--round Badge--white"></span>
-                    <span class="dp-Icon Icon--clock Icon--primary"></span>
-                </span>
-                <span class="dp-TimeStatus dp-LevelBottom">
-                    <span class="dp-Tag Tag--small Tag--danger">Failed</span>
-                </span>
-            </span>
-        </li>
-
-        <!-- 2 -->
-        <li class="dp-Card dp-Level">
-            <span class="dp-LevelCol">
-                <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="organizations-2"></input>
-                    <label for="organizations-2"></label>
-                </span>
-            </span>
-
-            <span class="dp-LevelCol">
-                <span class="dp-Title Title-Icon dp-LevelTop">
-                    <span class="dp-Icon dp-IconPlane"></span>
-                    <span class="dp-Card-title">Faxquote</span>
-                </span>
-
-                <span class="dp-Card-subtitle">
-                    <span class="dp-Icon Icon--frame"></span>
-                    <span class="dp-title">Members <span class="dp-qt">(2)</span></span>
-                </span>
-            </span>
-        </li>
-
-        <!-- 3 -->
-        <li class="dp-Card dp-Level">
-            <span class="dp-LevelCol">
-                <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="organizations-3"></input>
-                    <label for="organizations-3"></label>
-                </span>
-            </span>
-
-            <span class="dp-LevelCol">
-                <span class="dp-Title Title-Icon dp-LevelTop">
-                    <span class="dp-Icon dp-IconPlane"></span>
-                    <span class="dp-Card-title">Zencorporation</span>
-                </span>
-
-                <span class="dp-Card-subtitle">
-                    <span class="dp-Icon Icon--frame"></span>
-                    <span class="dp-title">Members <span class="dp-qt">(1)</span></span>
-                </span>
-            </span>
-        </li>
-
-        <!-- 4 -->
-        <li class="dp-Card dp-Level">
-            <span class="dp-LevelCol">
-                <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="organizations-4"></input>
-                    <label for="organizations-4"></label>
-                </span>
-            </span>
-
-            <span class="dp-LevelCol">
-                <span class="dp-Title Title-Icon dp-LevelTop">
-                    <span class="dp-Icon dp-IconPlane"></span>
-                    <span class="dp-Card-title">Plusstrip</span>
-                </span>
-
-                <span class="dp-Card-subtitle">
-                    <span class="dp-Icon Icon--frame"></span>
-                    <span class="dp-title">Members <span class="dp-qt">(6)</span></span>
-                </span>
-            </span>
-        </li>
-
-        <!-- 5 -->
-        <li class="dp-Card dp-Level is-active">
-            <span class="dp-LevelCol">
-                <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="organizations-5"></input>
-                    <label for="organizations-5"></label>
-                </span>
-            </span>
-
-            <span class="dp-LevelCol">
-                <span class="dp-Title Title-Icon dp-LevelTop">
-                    <span class="dp-Icon dp-IconPlane"></span>
-                    <span class="dp-Card-title">Iselectrics</span>
-                </span>
-
-                <span class="dp-Card-subtitle">
-                    <span class="dp-Icon Icon--frame"></span>
-                    <span class="dp-title">Members <span class="dp-qt">(12)</span></span>
-                </span>
-            </span>
-        </li>
-
-        <!-- 6 -->
-        <li class="dp-Card dp-Level is-active">
-            <span class="dp-LevelCol">
-                <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="organizations-6"></input>
-                    <label for="organizations-6"></label>
-                </span>
-            </span>
-
-            <span class="dp-LevelCol">
-                <span class="dp-Title Title-Icon dp-LevelTop">
-                    <span class="dp-Icon dp-IconPlane"></span>
-                    <span class="dp-Card-title">Donware</span>
-                </span>
-
-                <span class="dp-Card-subtitle">
-                    <span class="dp-Icon Icon--frame"></span>
-                    <span class="dp-title">Members <span class="dp-qt">(7)</span></span>
-                </span>
-            </span>
-        </li>
-
-    </ul>
-</form>
-```
-
-```html @preview
-<form>
-    <ul class="dp-CardList Card-tickets-organizations">
-
-        <!-- 1 -->
-        <li class="dp-Card dp-Level">
-            <span class="dp-LevelCol">
-                <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="organizations-7"></input>
-                    <label for="organizations-7"></label>
-                </span>
-            </span>
-
-            <span class="dp-LevelCol">
-                <span class="dp-Title Title-Icon dp-LevelTop">
-                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-Card-title">Shayne Bowens</span>
-                </span>
-
-                <span class="dp-Card-subtitle">
-                    <span class="dp-Icon Icon--email"></span>
-                    <span class="dp-title">Tickets <span class="dp-qt">(2)</span></span>
-                </span>
-            </span>
-        </li>
-
-        <!-- 2 -->
-        <li class="dp-Card dp-Level">
-            <span class="dp-LevelCol">
-                <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="organizations-8"></input>
-                    <label for="organizations-8"></label>
-                </span>
-            </span>
-
-            <span class="dp-LevelCol">
-                <span class="dp-Title Title-Icon dp-LevelTop">
-                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-Card-title">Maryrose Ferranti</span>
-                </span>
-
-                <span class="dp-Card-subtitle">
-                    <span class="dp-Icon Icon--email"></span>
-                    <span class="dp-title">Tickets <span class="dp-qt">(4)</span></span>
-                </span>
-            </span>
-
-        </li>
-
-        <!-- 3 -->
-        <li class="dp-Card dp-Level">
-            <span class="dp-LevelCol">
-                <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="organizations-9"></input>
-                    <label for="organizations-9"></label>
-                </span>
-            </span>
-
-            <span class="dp-LevelCol">
-                <span class="dp-Title Title-Icon dp-LevelTop">
-                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-Card-title">Syble Danos</span>
-                </span>
-
-                <span class="dp-Card-subtitle">
-                    <span class="dp-Icon Icon--email"></span>
-                    <span class="dp-title">Tickets <span class="dp-qt">(3)</span></span>
-                </span>
-            </span>
-        </li>
-
-        <!-- 4 -->
-        <li class="dp-Card dp-Level">
-            <span class="dp-LevelCol">
-                <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="organizations-10"></input>
-                    <label for="organizations-10"></label>
-                </span>
-            </span>
-
-            <span class="dp-LevelCol">
-                <span class="dp-Title Title-Icon dp-LevelTop">
-                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-Card-title">Donella Hendriks</span>
-                </span>
-
-                <span class="dp-Card-subtitle">
-                    <span class="dp-Icon Icon--email"></span>
-                    <span class="dp-title">Tickets <span class="dp-qt">(2)</span></span>
-                </span>
-            </span>
-        </li>
-
-        <!-- 5 -->
-        <li class="dp-Card dp-Level is-active">
-            <span class="dp-LevelCol">
-                <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="organizations-11"></input>
-                    <label for="organizations-11"></label>
-                </span>
-            </span>
-
-            <span class="dp-LevelCol">
-                <span class="dp-Title Title-Icon dp-LevelTop">
-                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-Card-title">Leonardo Mckee</span>
-                </span>
-                <span class="dp-Card-subtitle">
-                    <span class="dp-Icon Icon--email"></span>
-                    <span class="dp-title">Tickets <span class="dp-qt">(12)</span></span>
-                </span>
-            </span>
-        </li>
-
-        <!-- 6 -->
-        <li class="dp-Card dp-Level is-active">
-            <span class="dp-LevelCol">
-                <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="organizations-12"></input>
-                    <label for="organizations-12"></label>
-                </span>
-            </span>
-
-            <span class="dp-LevelCol">
-                <span class="dp-Title Title-Icon dp-LevelTop">
-                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-Card-title">Glynis Marquette</span>
-                </span>
-                <span class="dp-Card-subtitle">
-                    <span class="dp-Icon Icon--email"></span>
-                    <span class="dp-title">Tickets <span class="dp-qt">(9)</span></span>
-                </span>
-            </span>
-        </li>
-
-    </ul>
-</form>
-```
-
-<h2>Listpane/tableview</h2>
-<h4>listpane/setting-cog-tableview</h4>
+<!-- 2 -->
 
 ```html @preview
 <div class="dp-TableWrapper">
@@ -10313,6 +7616,2710 @@ title: List Pane
         </tbody>
     </table>
 </div>
+```
+
+
+
+
+
+
+<h2>Listpane/mass-select</h2>
+```html @preview
+<form class="dp-MassSelect newControlsList">
+
+    <span class="dp-MassSelectTitle">
+        <span class="dp-ItemRow">
+            <span class="dp-CustomCheckbox">
+                <input type="checkbox" class="dp-ControlInput" id="listpaneCheckbox0" checked="checked"></input>
+                <label for="listpaneCheckbox0" class="dp-Input-arrow"></label>
+
+                <button class="dp-Arrow"></button>
+                <span class="dp-Card-title">(48 items selected)</span>
+                <ul class="dp-Menu is-visible">
+                    <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Uncheck all</a></li>
+                    <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Select all</a></li>
+                </ul>
+            </span>
+
+            <span class="dp-ListPane">
+                <span class="dp-Icon dp-grouped_by"></span>
+                <span class="dp-SelectGroup">
+                    <span class="dp-ItemRow">
+                        <span class="dp-Title">Grouped by</span>
+                        <button class="dp-Arrow"></button>
+                    </span>
+                    <span class="dp-ItemRow">
+                        <span class="dp-Subtitle">Department</span>
+                    </span>
+                </span>
+            </span>
+        </span>
+    </span>
+
+    <ul class="dp-CardList newControlsList is-hoverable">
+
+        <li class="dp-Card-SectionTitle">
+            <span>Sales</span>
+        </li>
+
+        <!-- 1 -->
+        <li class="dp-Card dp-Level is-active">
+            <span class="dp-LevelCol">
+                <span class="dp-CustomCheckbox">
+                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-4"></input>
+                    <label for="customCheckbox1-4"></label>
+                </span>
+            </span>
+
+            <span class="dp-LevelCol">
+                <span class="dp-Card-title">SSO Information<span class="dp-Icon Icon--star"></span></span>
+                <span class="dp-UserInfo">
+                    <span class="dp-Icon dp-iconUserAvatar"></span>
+                    <span class="dp-UserName">Kenneth James
+                    </span>
+                    <a href="mailto:kenneth@windfarms.com" class="dp-UserEmail">
+                        &lt;kenneth@windfarms.com&gt;
+                    </a>
+                </span>
+            </span>
+
+            <span class="dp-LevelCol dp-LevelRight">
+                <span class="dp-IconGroup">
+                    <span class="Icon--circle dp-iconBug"></span>
+                    <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
+                    <span class="dp-Icon Icon--clock Icon--primary"></span>
+                </span>
+                <span class="dp-TimeStatus">
+                    <span class="dp-Tag Tag--small Tag--danger">Failed</span>
+                </span>
+            </span>
+        </li>
+
+        <!-- 2 -->
+        <li class="dp-Card dp-Level">
+            <span class="dp-LevelCol">
+                <span class="dp-CustomCheckbox">
+                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-5"></input>
+                    <label for="customCheckbox1-5"></label>
+                </span>
+            </span>
+
+            <span class="dp-LevelCol">
+                <span class="dp-Card-title">Portal disabled landing page</span>
+
+                <span class="dp-UserInfo">
+                    <span class="dp-Icon dp-iconUserAvatar"></span>
+                    <span class="dp-UserName">Mark Jarvis
+                    </span>
+                    <a href="mailto:mjarvis@econorob.nl" class="dp-UserEmail">
+                        &lt;mjarvis@econorob.nl&gt;
+                    </a>
+                </span>
+            </span>
+
+            <span class="dp-LevelCol dp-LevelRight">
+                <span class="dp-IconGroup">
+                    <span class="Icon--circle dp-rocket Icon-grey-darkest"></span>
+                    <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
+                    <span class="dp-Badge Badge--round Badge--warning">9</span>
+                </span>
+                <span class="dp-TimeStatus">
+                    <span class="dp-Tag Tag--small Tag--pink">3 hours</span>
+                </span>
+            </span>
+        </li>
+
+        <!-- 3 -->
+        <li class="dp-Card dp-Level">
+            <span class="dp-LevelCol">
+                <span class="dp-CustomCheckbox">
+                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-6"></input>
+                    <label for="customCheckbox1-6"></label>
+                </span>
+            </span>
+
+            <span class="dp-LevelCol">
+                <span class="dp-Card-title">Inventory component<span class="dp-Icon Icon--star"></span></span>
+
+                <span class="dp-UserInfo">
+                    <span class="dp-Icon dp-iconUserAvatar"></span>
+                    <span class="dp-UserName">Toby Falkirk
+                    </span>
+                    <a href="mailto:t.falkirk@rambling.com" class="dp-UserEmail">
+                        &lt;t.falkirk@rambling.com&gt;
+                    </a>
+                </span>
+            </span>
+
+            <span class="dp-LevelCol dp-LevelRight">
+                <span class="dp-IconGroup">
+                    <span class="dp-Icon dp-iconUserAvatar"></span>
+                    <span class="dp-Badge Badge--round Badge-Min Icon-warning"></span>
+                </span>
+                <span class="dp-TimeStatus">
+                    <span>2 hr 16 min</span>
+                </span>
+            </span>
+        </li>
+
+        <!-- 4 -->
+        <li class="dp-Card dp-Level">
+            <span class="dp-LevelCol">
+                <span class="dp-CustomCheckbox">
+                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-7"></input>
+                    <label for="customCheckbox1-7"></label>
+                </span>
+            </span>
+
+            <span class="dp-LevelCol">
+                <span class="dp-Card-title">AW: Need some help?</span>
+
+                <span class="dp-UserInfo">
+                    <span class="dp-Icon dp-iconUserAvatar"></span>
+                    <span class="dp-UserName">Kenneth James
+                    </span>
+                    <a href="mailto:kenneth@windfarms.com" class="dp-UserEmail">
+                        &lt;kenneth@windfarms.com&gt;
+                    </a>
+                </span>
+            </span>
+
+            <span class="dp-LevelCol dp-LevelRight">
+                <span class="dp-IconGroup">
+                    <span class="dp-Icon dp-iconLock"></span>
+                    <span class="Icon--circle dp-iconMln"></span>
+                    <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
+                    <span class="dp-Badge Badge--round Badge--warning">9</span>
+                </span>
+                <span class="dp-TimeStatus">
+                    <span>57 mins</span>
+                </span>
+            </span>
+        </li>
+
+        <!-- 5 -->
+        <li class="dp-Card dp-Level">
+            <span class="dp-LevelCol">
+                <span class="dp-CustomCheckbox">
+                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-8"></input>
+                    <label for="customCheckbox1-8"></label>
+                </span>
+            </span>
+
+            <span class="dp-LevelCol">
+                <span class="dp-Card-title">Portal disabled landing page</span>
+
+                <span class="dp-UserInfo">
+                    <span class="dp-Icon dp-iconUserAvatar"></span>
+                    <span class="dp-UserName">Mark Jarvis
+                    </span>
+                    <a href="mailto:mjarvis@econorob.nl" class="dp-UserEmail">
+                        &lt;mjarvis@econorob.nl&gt;
+                    </a>
+                </span>
+            </span>
+
+            <span class="dp-LevelCol dp-LevelRight">
+                <span class="dp-IconGroup">
+                    <span class="Icon--circle dp-iconMln"></span>
+                    <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
+                    <span class="dp-Badge Badge--round Badge--warning">7</span>
+                </span>
+                <span class="dp-TimeStatus">
+                    <span class="dp-Tag Tag--small Tag--danger">2 hours</span>
+                </span>
+            </span>
+        </li>
+        
+        <!-- 6 -->
+        <li class="dp-Card dp-Level">
+            <span class="dp-LevelCol">
+                <span class="dp-CustomCheckbox">
+                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-9"></input>
+                    <label for="customCheckbox1-9"></label>
+                </span>
+            </span>
+
+            <span class="dp-LevelCol">
+                <span class="dp-Card-title">Enjoying your helpdesk?<span class="dp-Icon Icon--star"></span></span>
+                <span class="dp-UserInfo">
+                    <span class="dp-Icon dp-iconUserAvatar"></span>
+                    <span class="dp-UserName">Toby Falkirk
+                    </span>
+                    <a href="mailto:t.falkirk@rambling.com" class="dp-UserEmail">
+                        &lt;t.falkirk@rambling.com&gt;
+                    </a>
+                </span>
+            </span>
+
+            <span class="dp-LevelCol dp-LevelRight">
+                <span class="dp-IconGroup">
+                    <span class="Icon--circle dp-iconMln"></span>
+                    <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
+                    <span class="dp-Badge Badge--round Badge-Min Icon-neutral"></span>
+                </span>
+                <span class="dp-TimeStatus">
+                    <span>43 mins</span>
+                </span>
+            </span>
+        </li>
+
+        <!-- 7 -->
+        <li class="dp-Card dp-Level">
+            <span class="dp-LevelCol">
+                <span class="dp-CustomCheckbox">
+                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-10"></input>
+                    <label for="customCheckbox1-10"></label>
+                </span>
+            </span>
+
+            <span class="dp-LevelCol">
+                <span class="dp-Card-title">Product enquiry</span>
+                <span class="dp-UserInfo">
+                    <span class="dp-Icon dp-iconUserAvatar"></span>
+                    <span class="dp-UserName">Kenneth James
+                    </span>
+                    <a href="mailto:kenneth@windfarms.com" class="dp-UserEmail">
+                        &lt;kenneth@windfarms.com&gt;
+                    </a>
+                </span>
+            </span>
+
+            <span class="dp-LevelCol dp-LevelRight">
+                <span class="dp-IconGroup">
+
+                    <span class="Icon--circle dp-iconBug"></span>
+                    <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
+                    <span class="dp-Icon Icon--clock Icon--primary"></span>
+                </span>
+                <span class="dp-TimeStatus">
+                    <span class="dp-Tag Tag--small Tag--danger">Failed</span>
+                </span>
+            </span>
+        </li>
+
+        <!-- 8 -->
+        <li class="dp-Card dp-Level">
+            <span class="dp-LevelCol">
+                <span class="dp-CustomCheckbox">
+                    <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-11"></input>
+                    <label for="customCheckbox1-11"></label>
+                </span>
+            </span>
+
+            <span class="dp-LevelCol">
+                <span class="dp-Card-title">Allow anyone to email support<span class="dp-Icon Icon--star"></span></span>
+                <span class="dp-UserInfo">
+                    <span class="dp-Icon dp-iconUserAvatar"></span>
+                    <span class="dp-UserName">Mark Jarvis
+                    </span>
+                    <a href="mailto:mjarvis@econorob.nl" class="dp-UserEmail">
+                        &lt;mjarvis@econorob.nl&gt;
+                    </a>
+                </span>
+            </span>
+
+            <span class="dp-LevelCol dp-LevelRight">
+                <span class="dp-IconGroup">
+                    <span class="Icon--circle dp-iconMln"></span>
+                    <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
+                    <span class="dp-Badge Badge--round Badge--neutral">6</span>
+                </span>
+                <span class="dp-TimeStatus">
+                    <span>43 mins</span>
+                </span>
+            </span>
+        </li>
+
+    </ul>
+</form>
+```
+
+<h2>Listpane/tasks</h2>
+<h4>listpane/tasks-sort</h4>
+
+```html @preview
+
+    <div class="dp-TasksSort">
+        <span class="dp-Tag Tag--small Tag--grey-lighter">DATE</span>
+        <span class="dp-Tag Tag--small Tag--grey-lighter">ASSIGNED</span>
+        <span class="dp-Tag Tag--small Tag--grey-lighter">CREATOR</span>
+    </div>
+```
+
+<h4>Listpane/guides</h4>
+
+```html @preview
+
+<div class="dp-MainWrapper">
+
+    <!-- 1 -->
+    <ul class="dp-CardList dp-Listpane-guides">
+        <li class="dp-Card dp-Level is-active">
+
+            <span class="dp-LevelCol dp-LevelTop">
+                <span class="dp-Icon dp-drag"></span>
+            </span>
+
+            <span class="dp-LevelCol">
+                <span class="dp-Card-title">Card title here</span>
+
+                <span class="dp-UserInfo">
+                    <span class="dp-Icon dp-iconUserAvatar"></span>
+                    <span class="dp-UserName">Single-line item</span>
+                </span>
+            </span>
+
+            <span class="dp-LevelCol dp-LevelRight dp-LevelTop">
+                <span class="dp-IconGroup">
+                    <span class="dp-Icon Icon--down-caret Icon--primary"></span>
+                </span>
+            </span>
+        </li>
+
+        <!-- 2 -->
+        <!-- <li class="dp-Card dp-Level Level--down"> -->
+        <li class="Level--down">
+            <ul class="dp-CardList">
+
+                <li class="dp-Card dp-Level">
+                    <span class="dp-LevelCol dp-LevelTop">
+                        <!-- Arrow -->
+                        <span class="dp-Icon dp-sub_field"></span>
+                        <span class="dp-Icon dp-drag"></span>
+                    </span>
+
+                    <span class="dp-LevelCol">
+                        <span class="dp-Card-title">Card title here</span>
+
+                        <span class="dp-UserInfo">
+                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                            <span class="dp-UserName">Single-line item</span>
+                        </span>
+                    </span>
+                </li>
+
+                <li class="dp-Card dp-Level is-active">
+                    <span class="dp-LevelCol dp-LevelTop">
+                        <!-- Arrow -->
+                        <span class="dp-Icon dp-sub_field"></span>
+                        <span class="dp-Icon dp-drag"></span>
+                    </span>
+
+                    <span class="dp-LevelCol">
+                        <span class="dp-Card-title">Card title here</span>
+
+                        <span class="dp-UserInfo">
+                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                        </span>
+                    </span>
+
+                    <span class="dp-LevelCol dp-LevelRight dp-LevelTop">
+                        <span class="dp-IconGroup">
+                            <span class="dp-Icon Icon--down-caret Icon--primary"></span>
+                        </span>
+                    </span>
+                </li>
+                
+                <!-- 3 -->
+                <!-- <li class="dp-Card dp-Level Level--down"> -->
+                <li class="Level--down">
+                    <ul class="dp-CardList">
+
+                        <li class="dp-Card dp-Level Card--primary">
+                            <span class="dp-LevelItem dp-LevelCol dp-LevelTop">
+                                <!-- Arrow -->
+                                <span class="dp-Icon dp-sub_field"></span>
+                                <span class="dp-Icon dp-drag"></span>
+                            </span>
+
+                            <span class="dp-LevelCol">
+                                <span class="dp-Card-title">Card title here</span>
+
+                                <span class="dp-UserInfo">
+                                    <span class="dp-Icon dp-iconUserAvatar"></span>
+                                    <span class="dp-UserName">Single-line item</span>
+                                </span>
+                            </span>
+
+                            <span class="dp-LevelCol dp-LevelRight dp-LevelBottom">
+                                <span class="dp-TimeStatus">
+                                    <span class="dp-Tag Tag--small Tag--grey">Draft</span>
+                                </span>
+                            </span>
+                        </li>
+                    </ul>
+                </li>
+
+            </ul>
+        </li>
+    </ul>
+
+</div>
+```
+
+<h4>listpane/tasksnew</h4>
+```html @preview
+<div class="dp-MainWrapper" style="height: 400px">
+    <form>
+        <ul class="dp-CardList">
+            <li class="dp-Card dp-Level LevelCol dp-Tasks-list">
+                <span class="dp-LevelItem Level-justify-between">
+                    <span class="dp-CustomCheckbox">
+                        <input type="checkbox" class="dp-ControlInput" id="tasksnew-1">
+                        <label for="tasksnew-1" class="">
+                            <span class="dp-Icon dp-Approve is-completed"></span>
+                            <span class="dp-Label-title dp-Card-title">Maintenance & Installation of Lighting System</span>
+                        </label>
+                    </span>
+                    <span class="dp-DateGroup">
+                        <span class="dp-Icon dp-group"></span>
+                        <a href="#" class="dp-Date-link">Today : 4pm</a>
+                    </span>
+                </span>
+                <span class="dp-LevelItem dp-LevelLeft">
+                    <span class="dp-Diagnose">
+                        <a href="" class="dp-Card-link">
+                            <span class="dp-Icon dp-link Icon--primary"></span>
+                            Diagnose And Repair Electrical Systems
+                        </a>
+                    </span>
+                    <!-- Icon hover -->
+                    <span class="dp-Cog">
+                        <span class="dp-Icon dp-settings is-active"></span>
+                        <ul class="dp-Menu">
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Icon dp-Bin"></span>
+                                <a href="#" class="dp-Menu-link">
+                                    Delete
+                                </a>
+                            </li>
+                        </ul>
+                    </span>
+                </span>
+                <span class="dp-LevelItem Level-justify-between">
+
+                    <ul class="dp-LevelWrap">
+                        <li>
+                            <span class="dp-Icon dp-Visibility"></span>
+                            Department
+                        </li>
+                        <li>
+                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                            Me
+                        </li>
+                    </ul>
+
+                    <!-- comment -->
+                    <span class="dp-CommentWrap">
+                        <span class="dp-Icon dp-iconComents"></span>
+                        <span class="dp-Comments-title is-active">Comment <a href="#" class="dp-qt">(2)</a><button class="dp-Arrow"></button></span>
+                        <ul class="dp-Comments">
+                            <li class="dp-Comments-item">
+                                <span class="dp-Level">
+                                    <span class="dp-LevelLeft dp-LevelItem">
+                                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                                        <span class="dp-UserName">Kenneth James</span>
+                                    </span>
+                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">
+                                        <span>23 mins ago</span>
+                                    </span>
+                                </span>
+                                <span class="dp-Level">
+                                    <span class="dp-txt">
+                                        The door led right into it. 'That's very curious!' she thought. 'I must be getting somewhere near the King had said that day.
+                                    </span>
+                                </span>
+                            </li>
+                            <li class="dp-Comments-item">
+                                <span class="dp-Level">
+                                    <span class="dp-LevelLeft">
+                                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                                        <span class="dp-UserName">Victor Moses</span>
+                                    </span>
+                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">
+                                        <span>12 mins ago</span>
+                                    </span>
+                                </span>
+                                <span class="dp-Level">
+                                    <span class="dp-txt">
+                                        The door led right into it. 'That's very curious!' she thought. 'I must be getting somewhere near the King had said that day.
+                                    </span>
+                                </span>
+                                <div class="dp-ReplyWrapper">
+                                    <textarea class="dp-ReplyEditor"></textarea>
+                                </div>
+                                <div class="dp-ButtonWrapper">
+                                    <button class="dp-Button Button--small Button--outlined" type="button">
+                                        Add comment
+                                    </button>
+                                    <button class="dp-Button Button--small Button--outlined Button--outborder" type="button">
+                                        Cancel
+                                    </button>
+                                </div>
+                            </li>
+                        </ul>
+                    </span>
+                </span>
+            </li>
+        </ul>
+    </form>
+</div>
+```
+
+<h4>COMPLETED TASK</h4>
+```html @preview
+<form>
+    <ul class="dp-CardList Task--completed">
+        <li class="dp-Card dp-Level LevelCol dp-Tasks-list">
+
+            <span class="dp-LevelItem Level-justify-between">
+                <span class="dp-CustomCheckbox">
+                    <input type="checkbox" class="dp-ControlInput" id="tasksnew-2">
+                    <label for="tasksnew-2">
+                        <span class="dp-Icon dp-Approve"></span>
+                        <span class="dp-Card-title">Maintenance & Installation of Lighting System</span>
+                    </label>
+                </span>
+
+                <span class="dp-DateGroup">
+                    <span class="dp-Icon dp-group"></span>
+                    <a href="#" class="dp-Date-link">Today : 4pm</a>
+                </span>
+            </span>
+
+            <span class="dp-LevelItem dp-LevelLeft">
+                <span class="dp-Diagnose">
+                    <a href="" class="dp-Card-link">
+                        <span class="dp-Icon dp-link Icon--primary"></span>
+                        Diagnose And Repair Electrical Systems
+                    </a>
+                </span>
+
+                <!-- Icon hover -->
+                <span class="dp-Cog">
+                    <span class="dp-Icon dp-settings is-active"></span>
+                    <ul class="dp-Menu">
+                        <li class="dp-Menu-linkItem">
+                            <span class="dp-Icon dp-Bin"></span>
+                            <a href="#" class="dp-Menu-link">
+                                Delete
+                            </a>
+                        </li>
+                    </ul>
+                </span>
+
+            </span>
+
+            <span class="dp-LevelItem Level-justify-between">
+                
+                <ul class="dp-LevelWrap">
+                    <li>
+                        <span class="dp-Icon dp-Visibility"></span>
+                        Department
+                    </li>
+                    <li>
+                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                        Me
+                    </li>
+                </ul>
+
+                <span class="dp-CommentWrap">
+                    <span class="dp-Icon dp-iconComents"></span>
+                    <span class="dp-Comments-title">Add comment</span>
+                    <ul class="dp-Comments">
+                        <li class="dp-Comments-item">
+                            <span class="dp-Level">
+                                <span class="dp-LevelLeft">
+                                    <span class="dp-Icon dp-iconUserAvatar"></span>
+                                    <span class="dp-UserName">Kenneth James</span>
+                                </span>
+                                <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">
+                                    <span>23 mins ago</span>
+                                </span>
+                            </span>
+                            <span class="dp-Level">
+                                <span class="dp-txt">
+                                    The door led right into it. 'That's very curious!' she thought. 'I must be getting somewhere near the King had said that day.
+                                </span>
+                            </span>
+                        </li>
+                        <li class="dp-Comments-item">
+                            <span class="dp-Level">
+                                <span class="dp-LevelLeft">
+                                    <span class="dp-Icon dp-iconUserAvatar"></span>
+                                    <span class="dp-UserName">Victor Moses</span>
+                                </span>
+                                <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">
+                                    <span>12 mins ago</span>
+                                </span>
+                            </span>
+                            <span class="dp-Level">
+                                <span class="dp-txt">
+                                    The door led right into it. 'That's very curious!' she thought. 'I must be getting somewhere near the King had said that day.
+                                </span>
+                            </span>
+                            <div class="dp-ReplyWrapper">
+                                <textarea class="dp-ReplyEditor"></textarea>
+                            </div>
+                            <div class="dp-ButtonWrapper">
+                                <button class="dp-Button Button--small Button--outlined" type="button">
+                                    Add comment
+                                </button>
+                                <button class="dp-Button Button--small Button--outlined Button--outborder" type="button">
+                                    Cancel
+                                </button>
+                            </div>
+                        </li>
+                    </ul>
+                </span>
+            </span>
+        </li>
+    </ul>
+</form>
+```
+
+<h4>Listpane/settings-cog</h4>
+```html @preview
+<form>
+    <ul class="dp-CardList is-hoverable">
+        
+        <li class="dp-Card-SectionTitle">
+            <span class="dp-LevelCol">
+                <span class="dp-CustomCheckbox">
+                    <input type="checkbox" class="dp-ControlInput" id="settings-cog-0"></input>
+                    <label for="settings-cog-0"></label>
+                </span>
+            </span>
+            <span class="dp-LevelCol">
+                <span class="dp-Card-title">Sales</span>
+            </span>
+        </li>
+
+        <!-- 1 -->
+        <li class="dp-Card dp-Level">
+            <span class="dp-LevelCol">
+                <span class="dp-CustomCheckbox">
+                    <input type="checkbox" class="dp-ControlInput" id="settings-cog-1"></input>
+                    <label for="settings-cog-1"></label>
+                </span>
+            </span>
+
+            <span class="dp-LevelCol">
+                <span class="dp-Card-title">SSO Information<span class="dp-Icon Icon--star"></span></span>
+                <span class="dp-UserInfo">
+                    <span class="dp-Icon dp-iconUserAvatar"></span>
+                    <span class="dp-UserName">Kenneth James</span>
+                    <a href="mailto:kenneth@windfarms.com" class="dp-UserEmail">
+                        &lt;kenneth@windfarms.com&gt;
+                    </a>
+                </span>
+            </span>
+
+            <span class="dp-LevelCol dp-LevelRight Level-justify-between">
+                <span class="dp-IconGroup">
+                    <span class="Icon--circle dp-iconBug"></span>
+                    <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
+                    <span class="dp-Icon Icon--clock Icon--primary"></span>
+                </span>
+                <span class="dp-TimeStatus">
+                    <span class="dp-Tag Tag--small Tag--danger">Failed</span>
+                </span>
+            </span>
+
+            <!-- Icon hover -->
+            <span class="dp-Cog">
+                <span class="dp-Icon dp-settings"></span>
+                <ul class="dp-Menu">
+
+                    <li class="dp-Menu-linkItem">Assign to <a href="#" class="dp-listLink">me</a> or <button class="dp-Arrow"></button>
+                        <ul class="dp-Menu">
+                            <li class="dp-Menu-search">
+                                <form>
+                                    <span class="dp-Icon dp-IconSearch"></span>
+                                    <input type="text" class="dp-Input Input--search">
+                                </form>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Wendy Pride</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Bob Cooper</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Julien Ducro</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Bobby Steiner</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Wendy Pride</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Bob Cooper</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Julien Ducro</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Bobby Steiner</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="dp-Menu-linkItem">Assign to <a href="#" class="dp-listLink">my team</a> or <button class="dp-Arrow"></button>
+                        <ul class="dp-Menu">
+                            <li class="dp-Menu-search">
+                                <form>
+                                    <span class="dp-Icon dp-IconSearch"></span>
+                                    <input type="text" class="dp-Input Input--search">
+                                </form>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Wendy Pride</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Bob Cooper</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Julien Ducro</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Bobby Steiner</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Wendy Pride</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Bob Cooper</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="dp-DropdownDivider"></li>
+
+                    <li class="dp-Menu-linkItem">Status <button class="dp-Arrow"></button>
+                        <ul class="dp-Menu">
+                            <li class="dp-Menu-search">
+                                <form>
+                                    <span class="dp-Icon dp-IconSearch"></span>
+                                    <input type="text" class="dp-Input Input--search">
+                                </form>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Wendy Pride</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Bob Cooper</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Julien Ducro</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Bobby Steiner</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="dp-Menu-linkItem"> Urgency <button class="dp-Arrow"></button>
+                        <ul class="dp-Menu">
+                            <li class="dp-Menu-search">
+                                <form>
+                                    <span class="dp-Icon dp-IconSearch"></span>
+                                    <input type="text" class="dp-Input Input--search">
+                                </form>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Wendy Pride</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Bob Cooper</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dp-DropdownDivider"></li>
+                    <li class="dp-Menu-linkItem">Place on hold</li>
+                    <li class="dp-Menu-linkItem">Lock</li>
+                    <li class="dp-Menu-linkItem">Unlock</li>
+                </ul>
+            </span>
+
+        </li>
+
+        <!-- 2 -->
+        <li class="dp-Card dp-Level">
+            <span class="dp-LevelCol">
+                <span class="dp-CustomCheckbox">
+                    <input type="checkbox" class="dp-ControlInput" id="settings-cog-2"></input>
+                    <label for="settings-cog-2"></label>
+                </span>
+            </span>
+
+            <span class="dp-LevelCol">
+                <span class="dp-Card-title">Portal disabled landing page</span>
+
+                <span class="dp-UserInfo">
+                    <span class="dp-Icon dp-iconUserAvatar"></span>
+                    <span class="dp-UserName">Mark Jarvis</span>
+                    <a href="mailto:mjarvis@econorob.nl" class="dp-UserEmail">
+                        &lt;mjarvis@econorob.nl&gt;
+                    </a>
+                </span>
+            </span>
+
+            <span class="dp-LevelCol dp-LevelRight Level-justify-between">
+                <span class="dp-IconGroup">
+                    <span class="Icon--circle dp-rocket Icon-grey-darkest"></span>
+                    <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
+                    <span class="dp-Badge Badge--round Badge--warning">9</span>
+                </span>
+                <span class="dp-TimeStatus">
+                    <span class="dp-Tag Tag--small Tag--pink">3 hours</span>
+                </span>
+            </span>
+
+            <!-- Icon hover -->
+            <span class="dp-Cog">
+                <span class="dp-Icon dp-settings"></span>
+                <ul class="dp-Menu">
+
+                    <li class="dp-Menu-linkItem">Assign to <a href="#" class="dp-listLink">me</a> or <button class="dp-Arrow"></button>
+                        <ul class="dp-Menu">
+                            <li class="dp-Menu-search">
+                                <form>
+                                    <span class="dp-Icon dp-IconSearch"></span>
+                                    <input type="text" class="dp-Input Input--search">
+                                </form>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Wendy Pride</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Bob Cooper</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Julien Ducro</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Bobby Steiner</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Wendy Pride</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Bob Cooper</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Julien Ducro</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Bobby Steiner</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="dp-Menu-linkItem">Assign to <a href="#" class="dp-listLink">my team</a> or <button class="dp-Arrow"></button>
+                        <ul class="dp-Menu">
+                            <li class="dp-Menu-search">
+                                <form>
+                                    <span class="dp-Icon dp-IconSearch"></span>
+                                    <input type="text" class="dp-Input Input--search">
+                                </form>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Wendy Pride</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Bob Cooper</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Julien Ducro</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Bobby Steiner</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Wendy Pride</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Bob Cooper</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="dp-DropdownDivider"></li>
+
+                    <li class="dp-Menu-linkItem">Status <button class="dp-Arrow"></button>
+                        <ul class="dp-Menu">
+                            <li class="dp-Menu-search">
+                                <form>
+                                    <span class="dp-Icon dp-IconSearch"></span>
+                                    <input type="text" class="dp-Input Input--search">
+                                </form>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Wendy Pride</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Bob Cooper</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Julien Ducro</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Bobby Steiner</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="dp-Menu-linkItem"> Urgency <button class="dp-Arrow"></button>
+                        <ul class="dp-Menu">
+                            <li class="dp-Menu-search">
+                                <form>
+                                    <span class="dp-Icon dp-IconSearch"></span>
+                                    <input type="text" class="dp-Input Input--search">
+                                </form>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Wendy Pride</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Bob Cooper</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dp-DropdownDivider"></li>
+                    <li class="dp-Menu-linkItem">Place on hold</li>
+                    <li class="dp-Menu-linkItem">Lock</li>
+                    <li class="dp-Menu-linkItem">Unlock</li>
+                </ul>
+            </span>
+
+        </li>
+
+        <!-- 3 -->
+        <li class="dp-Card dp-Level">
+            <span class="dp-LevelCol">
+                <span class="dp-CustomCheckbox">
+                    <input type="checkbox" class="dp-ControlInput" id="settings-cog-3"></input>
+                    <label for="settings-cog-3"></label>
+                </span>
+            </span>
+
+            <span class="dp-LevelCol">
+                <span class="dp-Card-title">Inventory component<span class="dp-Icon Icon--star"></span></span>
+
+                <span class="dp-UserInfo">
+                    <span class="dp-Icon dp-iconUserAvatar"></span>
+                    <span class="dp-UserName">Toby Falkirk</span>
+                    <a href="mailto:t.falkirk@rambling.com" class="dp-UserEmail">
+                        &lt;t.falkirk@rambling.com&gt;
+                    </a>
+                </span>
+            </span>
+
+            <span class="dp-LevelCol dp-LevelRight Level-justify-between">
+                <span class="dp-IconGroup">
+                    <span class="dp-Icon dp-iconUserAvatar"></span>
+                    <span class="dp-Badge Badge--round Badge-Min Icon-warning"></span>
+                </span>
+                <span class="dp-TimeStatus">
+                    <span>2 hr 16 min</span>
+                </span>
+            </span>
+
+            <!-- Icon hover -->
+            <span class="dp-Cog">
+                <span class="dp-Icon dp-settings"></span>
+                <ul class="dp-Menu">
+
+                    <li class="dp-Menu-linkItem">Assign to <a href="#" class="dp-listLink">me</a> or <button class="dp-Arrow"></button>
+                        <ul class="dp-Menu">
+                            <li class="dp-Menu-search">
+                                <form>
+                                    <span class="dp-Icon dp-IconSearch"></span>
+                                    <input type="text" class="dp-Input Input--search">
+                                </form>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Wendy Pride</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Bob Cooper</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Julien Ducro</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Bobby Steiner</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Wendy Pride</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Bob Cooper</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Julien Ducro</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Bobby Steiner</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="dp-Menu-linkItem">Assign to <a href="#" class="dp-listLink">my team</a> or <button class="dp-Arrow"></button>
+                        <ul class="dp-Menu">
+                            <li class="dp-Menu-search">
+                                <form>
+                                    <span class="dp-Icon dp-IconSearch"></span>
+                                    <input type="text" class="dp-Input Input--search">
+                                </form>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Wendy Pride</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Bob Cooper</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Julien Ducro</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Bobby Steiner</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Wendy Pride</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Bob Cooper</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="dp-DropdownDivider"></li>
+
+                    <li class="dp-Menu-linkItem">Status <button class="dp-Arrow"></button>
+                        <ul class="dp-Menu">
+                            <li class="dp-Menu-search">
+                                <form>
+                                    <span class="dp-Icon dp-IconSearch"></span>
+                                    <input type="text" class="dp-Input Input--search">
+                                </form>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Wendy Pride</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Bob Cooper</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Julien Ducro</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Bobby Steiner</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="dp-Menu-linkItem"> Urgency <button class="dp-Arrow"></button>
+                        <ul class="dp-Menu">
+                            <li class="dp-Menu-search">
+                                <form>
+                                    <span class="dp-Icon dp-IconSearch"></span>
+                                    <input type="text" class="dp-Input Input--search">
+                                </form>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Wendy Pride</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Bob Cooper</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dp-DropdownDivider"></li>
+                    <li class="dp-Menu-linkItem">Place on hold</li>
+                    <li class="dp-Menu-linkItem">Lock</li>
+                    <li class="dp-Menu-linkItem">Unlock</li>
+                </ul>
+            </span>
+
+        </li>
+
+        <!-- 4 -->
+        <li class="dp-Card dp-Level">
+            <span class="dp-LevelCol">
+                <span class="dp-CustomCheckbox">
+                    <input type="checkbox" class="dp-ControlInput" id="settings-cog-4"></input>
+                    <label for="settings-cog-4"></label>
+                </span>
+            </span>
+
+            <span class="dp-LevelCol">
+                <span class="dp-Card-title">AW: Need some help?</span>
+
+                <span class="dp-UserInfo">
+                    <span class="dp-Icon dp-iconUserAvatar"></span>
+                    <span class="dp-UserName">Kenneth James</span>
+                    <a href="mailto:kenneth@windfarms.com" class="dp-UserEmail">
+                        &lt;kenneth@windfarms.com&gt;
+                    </a>
+                </span>
+            </span>
+
+            <span class="dp-LevelCol dp-LevelRight Level-justify-between">
+                <span class="dp-IconGroup">
+                    <span class="dp-Icon dp-iconLock"></span>
+                    <span class="Icon--circle dp-iconMln"></span>
+                    <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
+                    <span class="dp-Badge Badge--round Badge--warning">9</span>
+                </span>
+                <span class="dp-TimeStatus">
+                    <span>57 mins</span>
+                </span>
+            </span>
+
+            <!-- Icon hover -->
+            <span class="dp-Cog">
+                <span class="dp-Icon dp-settings"></span>
+                <ul class="dp-Menu">
+
+                    <li class="dp-Menu-linkItem">Assign to <a href="#" class="dp-listLink">me</a> or <button class="dp-Arrow"></button>
+                        <ul class="dp-Menu">
+                            <li class="dp-Menu-search">
+                                <form>
+                                    <span class="dp-Icon dp-IconSearch"></span>
+                                    <input type="text" class="dp-Input Input--search">
+                                </form>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Wendy Pride</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Bob Cooper</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Julien Ducro</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Bobby Steiner</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Wendy Pride</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Bob Cooper</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Julien Ducro</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Bobby Steiner</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="dp-Menu-linkItem">Assign to <a href="#" class="dp-listLink">my team</a> or <button class="dp-Arrow"></button>
+                        <ul class="dp-Menu">
+                            <li class="dp-Menu-search">
+                                <form>
+                                    <span class="dp-Icon dp-IconSearch"></span>
+                                    <input type="text" class="dp-Input Input--search">
+                                </form>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Wendy Pride</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Bob Cooper</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Julien Ducro</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Bobby Steiner</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Wendy Pride</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Bob Cooper</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="dp-DropdownDivider"></li>
+
+                    <li class="dp-Menu-linkItem">Status <button class="dp-Arrow"></button>
+                        <ul class="dp-Menu">
+                            <li class="dp-Menu-search">
+                                <form>
+                                    <span class="dp-Icon dp-IconSearch"></span>
+                                    <input type="text" class="dp-Input Input--search">
+                                </form>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Wendy Pride</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Bob Cooper</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Julien Ducro</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Bobby Steiner</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="dp-Menu-linkItem"> Urgency <button class="dp-Arrow"></button>
+                        <ul class="dp-Menu">
+                            <li class="dp-Menu-search">
+                                <form>
+                                    <span class="dp-Icon dp-IconSearch"></span>
+                                    <input type="text" class="dp-Input Input--search">
+                                </form>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Wendy Pride</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Bob Cooper</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dp-DropdownDivider"></li>
+                    <li class="dp-Menu-linkItem">Place on hold</li>
+                    <li class="dp-Menu-linkItem">Lock</li>
+                    <li class="dp-Menu-linkItem">Unlock</li>
+                </ul>
+            </span>
+
+        </li>
+
+        <!-- 5 -->
+        <li class="dp-Card dp-Level is-active">
+            <span class="dp-LevelCol">
+                <span class="dp-CustomCheckbox">
+                    <input type="checkbox" class="dp-ControlInput" id="settings-cog-5"></input>
+                    <label for="settings-cog-5"></label>
+                </span>
+            </span>
+
+            <span class="dp-LevelCol">
+                <span class="dp-Card-title">Portal disabled landing page</span>
+
+                <span class="dp-UserInfo">
+                    <span class="dp-Icon dp-iconUserAvatar"></span>
+                    <span class="dp-UserName">Mark Jarvis</span>
+                    <a href="mailto:mjarvis@econorob.nl" class="dp-UserEmail">
+                        &lt;mjarvis@econorob.nl&gt;
+                    </a>
+                </span>
+            </span>
+
+            <span class="dp-LevelCol dp-LevelRight Level-justify-between">
+                <span class="dp-IconGroup">
+                    <span class="Icon--circle dp-iconMln"></span>
+                    <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
+                    <span class="dp-Badge Badge--round Badge--warning">7</span>
+                </span>
+                <span class="dp-TimeStatus">
+                    <span class="dp-Tag Tag--small Tag--danger">2 hours</span>
+                </span>
+            </span>
+
+            <!-- Icon hover -->
+            <span class="dp-Cog">
+                <span class="dp-Icon dp-settings is-active"></span>
+                <ul class="dp-Menu is-visible">
+
+                    <li class="dp-Menu-linkItem">Assign to <a href="#" class="dp-listLink">me</a> or <button class="dp-Arrow"></button>
+                        <ul class="dp-Menu">
+                            <li class="dp-Menu-search">
+                                <form>
+                                    <span class="dp-Icon dp-IconSearch"></span>
+                                    <input type="text" class="dp-Input Input--search">
+                                </form>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Wendy Pride</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Bob Cooper</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Julien Ducro</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Bobby Steiner</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Wendy Pride</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Bob Cooper</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Julien Ducro</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Bobby Steiner</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="dp-Menu-linkItem">Assign to <a href="#" class="dp-listLink">my team</a> or <button class="dp-Arrow"></button>
+                        <ul class="dp-Menu">
+                            <li class="dp-Menu-search">
+                                <form>
+                                    <span class="dp-Icon dp-IconSearch"></span>
+                                    <input type="text" class="dp-Input Input--search">
+                                </form>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Wendy Pride</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Bob Cooper</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Julien Ducro</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Bobby Steiner</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Wendy Pride</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Bob Cooper</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="dp-DropdownDivider"></li>
+
+                    <li class="dp-Menu-linkItem">Status <button class="dp-Arrow"></button>
+                        <ul class="dp-Menu">
+                            <li class="dp-Menu-search">
+                                <form>
+                                    <span class="dp-Icon dp-IconSearch"></span>
+                                    <input type="text" class="dp-Input Input--search">
+                                </form>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Wendy Pride</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Bob Cooper</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Julien Ducro</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Bobby Steiner</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="dp-Menu-linkItem"> Urgency <button class="dp-Arrow"></button>
+                        <ul class="dp-Menu">
+                            <li class="dp-Menu-search">
+                                <form>
+                                    <span class="dp-Icon dp-IconSearch"></span>
+                                    <input type="text" class="dp-Input Input--search">
+                                </form>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Wendy Pride</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Bob Cooper</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <a href="#" class="dp-listItem">Wendy Lightbody</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dp-DropdownDivider"></li>
+                    <li class="dp-Menu-linkItem">Place on hold</li>
+                    <li class="dp-Menu-linkItem">Lock</li>
+                    <li class="dp-Menu-linkItem">Unlock</li>
+                </ul>
+            </span>
+        </li>
+    </ul>
+</form>
+```
+
+```html @preview
+<form>
+    <ul class="dp-CardList is-hoverable">
+
+        <li class="dp-Card-SectionTitle dp-General-Articles">
+            <span>GENERAL ARTICLES</span>
+        </li>
+
+        <!-- 1 -->
+        <li class="dp-Card dp-Level">
+            <span class="dp-LevelCol">
+                <span class="dp-CustomCheckbox">
+                    <input type="checkbox" class="dp-ControlInput" id="settings-cog-6"></input>
+                    <label for="settings-cog-6"></label>
+                </span>
+            </span>
+
+            <span class="dp-LevelCol">
+                <span class="dp-Card-title">Portal disabled landing message</span>
+
+                <ul class="dp-LevelWrap">
+                    <li>
+                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                        <span class="dp-UserName">Kenneth James</span>
+                    </li>
+                    <li>
+                        <span class="dp-Icon dp-group"></span>
+                        <span class="dp-date">3rd November 2018</span>
+                    </li>
+                </ul>
+            </span>
+
+            <span class="dp-LevelCol dp-LevelRight dp-LevelTop">
+                <span class="dp-TimeStatus">
+                    <span class="dp-Tag Tag--small Tag--success">Published</span>
+                </span>
+            </span>
+
+            <!-- Icon hover -->
+            <span class="dp-Cog">
+                <span class="dp-Icon dp-settings"></span>
+                <ul class="dp-Menu">
+                    <li class="dp-Menu-linkItem">
+                        <span class="dp-Icon dp-iconInsert-Link"></span>
+                        <a href="#" class="dp-Menu-link">
+                            Insert link
+                        </a>
+                    </li>
+                    <li class="dp-Menu-linkItem">
+                        <span class="dp-Icon dp-iconInsert"></span>
+                        <a href="#" class="dp-Menu-link">
+                            Insert into ticket
+                        </a>
+                    </li>
+                </ul>
+            </span>
+
+        </li>
+
+        <!-- 2 -->
+        <li class="dp-Card dp-Level">
+            <span class="dp-LevelCol">
+                <span class="dp-CustomCheckbox">
+                    <input type="checkbox" class="dp-ControlInput" id="settings-cog-7"></input>
+                    <label for="settings-cog-7"></label>
+                </span>
+            </span>
+
+            <span class="dp-LevelCol">
+                <span class="dp-Card-title">Creating effective new ticket contact forms</span>
+
+                <ul class="dp-LevelWrap">
+                    <li>
+                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                        <span class="dp-UserName">Kenneth James</span>
+                    </li>
+                    <li>
+                        <span class="dp-Icon dp-group"></span>
+                        <span class="dp-date">3rd November 2018</span>
+                    </li>
+                </ul>
+            </span>
+
+            <span class="dp-LevelCol dp-LevelRight dp-LevelTop">
+                <span class="dp-TimeStatus">
+                    <span class="dp-Tag Tag--small Tag--success">Published</span>
+                </span>
+            </span>
+
+            <!-- Icon hover -->
+            <span class="dp-Cog">
+                <span class="dp-Icon dp-settings"></span>
+                <ul class="dp-Menu">
+                    <li class="dp-Menu-linkItem">
+                        <span class="dp-Icon dp-iconInsert-Link"></span>
+                        <a href="#" class="dp-Menu-link">
+                            Insert link
+                        </a>
+                    </li>
+                    <li class="dp-Menu-linkItem">
+                        <span class="dp-Icon dp-iconInsert"></span>
+                        <a href="#" class="dp-Menu-link">
+                            Insert into ticket
+                        </a>
+                    </li>
+                </ul>
+            </span>
+        </li>
+
+        <!-- 3 -->
+        <li class="dp-Card dp-Level is-active">
+            <span class="dp-LevelCol">
+                <span class="dp-CustomCheckbox">
+                    <input type="checkbox" class="dp-ControlInput" id="settings-cog-8"></input>
+                    <label for="settings-cog-8"></label>
+                </span>
+            </span>
+            <span class="dp-LevelCol">
+                <span class="dp-Card-title">Inventory component</span>
+
+                <ul class="dp-LevelWrap">
+                    <li>
+                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                        <span class="dp-UserName">Kenneth James</span>
+                    </li>
+                    <li>
+                        <span class="dp-Icon dp-group"></span>
+                        <span class="dp-date">3rd November 2018</span>
+                    </li>
+                </ul>
+            </span>
+            <span class="dp-LevelCol dp-LevelRight dp-LevelBottom">
+                <span class="dp-TimeStatus">
+                    <span class="dp-Tag Tag--small Tag--disabled">Archived</span>
+                </span>
+            </span>
+            <!-- Icon hover -->
+            <span class="dp-Cog">
+                <span class="dp-Icon dp-settings is-active"></span>
+                <ul class="dp-Menu">
+                    <li class="dp-Menu-linkItem">
+                        <span class="dp-Icon dp-iconInsert-Link"></span>
+                        <a href="#" class="dp-Menu-link">
+                            Insert link
+                        </a>
+                    </li>
+                    <li class="dp-Menu-linkItem">
+                        <span class="dp-Icon dp-iconInsert"></span>
+                        <a href="#" class="dp-Menu-link">
+                            Insert into ticket
+                        </a>
+                    </li>
+                </ul>
+            </span>
+        </li>
+
+    </ul>
+</form>
+```
+
+<h4>MY TASKS</h4>
+```html @preview
+<div class="dp-MainWrapper">
+    <form>
+        <ul class="dp-CardList is-hoverable">
+
+            <li class="dp-Card-SectionTitle dp-Tasks-list">
+                <span class="dp-LevelCol">
+                    <span class="dp-CustomCheckbox">
+                        <input type="checkbox" class="dp-ControlInput" id="my-task-0"></input>
+                        <label for="my-task-0"></label>
+                    </span>
+                </span>
+                <span class="dp-LevelCol">
+                    <span class="dp-Card-title">MY TASKS</span>
+                </span>
+            </li>
+
+            <!-- 1 -->
+            <li class="dp-Card dp-Level LevelCol dp-Tasks-list">
+                <span class="dp-LevelItem Level-justify-between">
+                    <span class="dp-CustomCheckbox">
+                        <input type="checkbox" class="dp-ControlInput" id="my-task-1">
+                        <label for="my-task-1">
+                            <span class="dp-Icon dp-Approve"></span>
+                            <span class="dp-Card-title">Maintenance & Installation of Lighting System</span>
+                        </label>
+                    </span>
+                    <span class="dp-DateGroup">
+                        <span class="dp-Icon dp-group"></span>
+                        <a href="#" class="dp-Date-link">Today : 4pm</a>
+                    </span>
+                </span>
+
+                <span class="dp-LevelItem dp-LevelLeft">
+                    <span class="dp-Diagnose">
+                        <a href="" class="dp-Card-link">
+                            <span class="dp-Icon dp-link Icon--primary"></span>
+                            Diagnose And Repair Electrical Systems
+                        </a>
+                    </span>
+                    <!-- Icon hover -->
+                    <span class="dp-Cog">
+                        <span class="dp-Icon dp-settings"></span>
+                        <ul class="dp-Menu">
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Icon dp-Bin"></span>
+                                <a href="#" class="dp-Menu-link">
+                                    Delete
+                                </a>
+                            </li>
+                        </ul>
+                    </span>
+                </span>
+                <span class="dp-LevelItem Level-justify-between">
+
+                    <ul class="dp-LevelWrap">
+                        <li class="is-active">
+                            <span class="dp-Icon dp-Visibility"></span>
+                            Department
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-linkItem">Private</li>
+                                <li class="dp-Menu-linkItem">Public</li>
+                                <li class="dp-Menu-linkItem">Department</li>
+                                <li class="dp-Menu-linkItem">Support</li>
+                                <li class="dp-Menu-linkItem">Sales</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                            Me
+                        </li>
+                    </ul>
+
+                    <span class="dp-CommentWrap">
+                        <span class="dp-Icon dp-iconComents"></span>
+                        <span class="dp-Comments-title">Comment <a href="#" class="dp-qt">(2)</a><button class="dp-Arrow"></button></span>
+                        <ul class="dp-Comments">
+                            <li class="dp-Comments-item">
+                                <span class="dp-Level">
+                                    <span class="dp-LevelLeft dp-LevelItem">
+                                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                                        <span class="dp-UserName">Kenneth James</span>
+                                    </span>
+                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">
+                                        <span>23 mins ago</span>
+                                    </span>
+                                </span>
+                                <span class="dp-Level">
+                                    <span class="dp-txt">
+                                        The door led right into it. 'That's very curious!' she thought. 'I must be getting somewhere near the King had said that day.
+                                    </span>
+                                </span>
+                            </li>
+                            <li class="dp-Comments-item">
+                                <span class="dp-Level">
+                                    <span class="dp-LevelLeft">
+                                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                                        <span class="dp-UserName">Victor Moses</span>
+                                    </span>
+                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">
+                                        <span>12 mins ago</span>
+                                    </span>
+                                </span>
+                                <span class="dp-Level">
+                                    <span class="dp-txt">
+                                        The door led right into it. 'That's very curious!' she thought. 'I must be getting somewhere near the King had said that day.
+                                    </span>
+                                </span>
+                                <div class="dp-ReplyWrapper">
+                                    <textarea class="dp-ReplyEditor"></textarea>
+                                </div>
+                                <div class="dp-ButtonWrapper">
+                                    <button class="dp-Button Button--small Button--outlined" type="button">
+                                        Add comment
+                                    </button>
+                                    <button class="dp-Button Button--small Button--outlined Button--outborder" type="button">
+                                        Cancel
+                                    </button>
+                                </div>
+                            </li>
+                        </ul>
+                    </span>
+                </span>
+            </li>
+
+            <!-- 2 -->
+            <li class="dp-Card dp-Level LevelCol dp-Tasks-list">
+                <span class="dp-LevelItem Level-justify-between">
+                    <span class="dp-CustomCheckbox">
+                        <input type="checkbox" class="dp-ControlInput" id="my-task-2">
+                        <label for="my-task-2">
+                            <span class="dp-Icon dp-Approve"></span>
+                            <span class="dp-Card-title">Maintenance & Installation of Lighting System</span>
+                        </label>
+                    </span>
+                    <span class="dp-DateGroup">
+                        <span class="dp-Icon dp-group"></span>
+                        <a href="#" class="dp-Date-link">Today : 4pm</a>
+                    </span>
+                </span>
+                <span class="dp-LevelItem dp-LevelLeft">
+                    <span class="dp-Diagnose">
+                        <a href="" class="dp-Card-link">
+                            <span class="dp-Icon dp-link Icon--primary"></span>
+                            Diagnose And Repair Electrical Systems
+                        </a>
+                    </span>
+                    <!-- Icon hover -->
+                    <span class="dp-Cog">
+                        <span class="dp-Icon dp-settings"></span>
+                        <ul class="dp-Menu">
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Icon dp-Bin"></span>
+                                <a href="#" class="dp-Menu-link">
+                                    Delete
+                                </a>
+                            </li>
+                        </ul>
+                    </span>
+                </span>
+                <span class="dp-LevelItem Level-justify-between">
+                    <ul class="dp-LevelWrap">
+                        <li>
+                            <span class="dp-Icon dp-Visibility"></span>
+                            Department
+                        </li>
+                        <li>
+                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                            Me
+                        </li>
+                    </ul>
+                    <span class="dp-CommentWrap">
+                        <span class="dp-Icon dp-iconComents"></span>
+                        <span class="dp-Comments-title">Comment <a href="#" class="dp-qt">(2)</a><button class="dp-Arrow"></button></span>
+                        <ul class="dp-Comments">
+                            <li class="dp-Comments-item">
+                                <span class="dp-Level">
+                                    <span class="dp-LevelLeft dp-LevelItem">
+                                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                                        <span class="dp-UserName">Kenneth James</span>
+                                    </span>
+                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">
+                                        <span>23 mins ago</span>
+                                    </span>
+                                </span>
+                                <span class="dp-Level">
+                                    <span class="dp-txt">
+                                        The door led right into it. 'That's very curious!' she thought. 'I must be getting somewhere near the King had said that day.
+                                    </span>
+                                </span>
+                            </li>
+                            <li class="dp-Comments-item">
+                                <span class="dp-Level">
+                                    <span class="dp-LevelLeft">
+                                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                                        <span class="dp-UserName">Victor Moses</span>
+                                    </span>
+                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">
+                                        <span>12 mins ago</span>
+                                    </span>
+                                </span>
+                                <span class="dp-Level">
+                                    <span class="dp-txt">
+                                        The door led right into it. 'That's very curious!' she thought. 'I must be getting somewhere near the King had said that day.
+                                    </span>
+                                </span>
+                                <div class="dp-ReplyWrapper">
+                                    <textarea class="dp-ReplyEditor"></textarea>
+                                </div>
+                                <div class="dp-ButtonWrapper">
+                                    <button class="dp-Button Button--small Button--outlined" type="button">
+                                        Add comment
+                                    </button>
+                                    <button class="dp-Button Button--small Button--outlined Button--outborder" type="button">
+                                        Cancel
+                                    </button>
+                                </div>
+                            </li>
+                        </ul>
+                    </span>
+                </span>
+            </li>
+
+            <!-- 3 -->
+            <li class="dp-Card dp-Level LevelCol dp-Tasks-list">
+                <span class="dp-LevelItem Level-justify-between">
+                    <span class="dp-CustomCheckbox">
+                        <input type="checkbox" class="dp-ControlInput" id="my-task-3">
+                        <label for="my-task-3">
+                            <span class="dp-Icon dp-Approve"></span>
+                            <span class="dp-Card-title">Maintenance & Installation of Lighting System</span>
+                        </label>
+                    </span>
+                    <span class="dp-DateGroup">
+                        <span class="dp-Icon dp-group"></span>
+                        <a href="#" class="dp-Date-link">Today : 4pm</a>
+                    </span>
+                </span>
+                <span class="dp-LevelItem dp-LevelLeft">
+                    <span class="dp-Diagnose">
+                        <a href="" class="dp-Card-link">
+                            <span class="dp-Icon dp-link Icon--primary"></span>
+                            Diagnose And Repair Electrical Systems
+                        </a>
+                    </span>
+                    <!-- Icon hover -->
+                    <span class="dp-Cog">
+                        <span class="dp-Icon dp-settings"></span>
+                        <ul class="dp-Menu">
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Icon dp-Bin"></span>
+                                <a href="#" class="dp-Menu-link">
+                                    Delete
+                                </a>
+                            </li>
+                        </ul>
+                    </span>
+                </span>
+                <span class="dp-LevelItem Level-justify-between">
+                    <ul class="dp-LevelWrap">
+                        <li>
+                            <span class="dp-Icon dp-Visibility"></span>
+                            Department
+                        </li>
+                        <li>
+                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                            Me
+                        </li>
+                    </ul>
+                    <span class="dp-CommentWrap">
+                        <span class="dp-Icon dp-iconComents"></span>
+                        <span class="dp-Comments-title">Comment <a href="#" class="dp-qt">(2)</a><button class="dp-Arrow"></button></span>
+                        <ul class="dp-Comments">
+                            <li class="dp-Comments-item">
+                                <span class="dp-Level">
+                                    <span class="dp-LevelLeft dp-LevelItem">
+                                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                                        <span class="dp-UserName">Kenneth James</span>
+                                    </span>
+                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">
+                                        <span>23 mins ago</span>
+                                    </span>
+                                </span>
+                                <span class="dp-Level">
+                                    <span class="dp-txt">
+                                        The door led right into it. 'That's very curious!' she thought. 'I must be getting somewhere near the King had said that day.
+                                    </span>
+                                </span>
+                            </li>
+                            <li class="dp-Comments-item">
+                                <span class="dp-Level">
+                                    <span class="dp-LevelLeft">
+                                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                                        <span class="dp-UserName">Victor Moses</span>
+                                    </span>
+                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">
+                                        <span>12 mins ago</span>
+                                    </span>
+                                </span>
+                                <span class="dp-Level">
+                                    <span class="dp-txt">
+                                        The door led right into it. 'That's very curious!' she thought. 'I must be getting somewhere near the King had said that day.
+                                    </span>
+                                </span>
+                                <div class="dp-ReplyWrapper">
+                                    <textarea class="dp-ReplyEditor"></textarea>
+                                </div>
+                                <div class="dp-ButtonWrapper">
+                                    <button class="dp-Button Button--small Button--outlined" type="button">
+                                        Add comment
+                                    </button>
+                                    <button class="dp-Button Button--small Button--outlined Button--outborder" type="button">
+                                        Cancel
+                                    </button>
+                                </div>
+                            </li>
+                        </ul>
+                    </span>
+                </span>
+            </li>
+
+            <!-- 4 -->
+            <li class="dp-Card dp-Level LevelCol is-active dp-Tasks-list">
+                <span class="dp-LevelItem Level-justify-between">
+                    <span class="dp-CustomCheckbox">
+                        <input type="checkbox" class="dp-ControlInput" id="my-task-4">
+                        <label for="my-task-4">
+                            <span class="dp-Icon dp-Approve"></span>
+                            <span class="dp-Card-title">Maintenance & Installation of Lighting System</span>
+                        </label>
+                    </span>
+                    <span class="dp-DateGroup">
+                        <span class="dp-Icon dp-group"></span>
+                        <a href="#" class="dp-Date-link">Today : 4pm</a>
+                    </span>
+                </span>
+                <span class="dp-LevelItem dp-LevelLeft">
+                    <span class="dp-Diagnose">
+                        <a href="" class="dp-Card-link">
+                            <span class="dp-Icon dp-link Icon--primary"></span>
+                            Diagnose And Repair Electrical Systems
+                        </a>
+                    </span>
+                    <!-- Icon hover -->
+                    <span class="dp-Cog">
+                        <span class="dp-Icon dp-settings is-active"></span>
+                        <ul class="dp-Menu">
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Icon dp-Bin"></span>
+                                <a href="#" class="dp-Menu-link">
+                                    Delete
+                                </a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Icon dp-CreateTicket"></span>
+                                <a href="#" class="dp-Menu-link">
+                                    Add to ticket
+                                </a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Icon Icon--edit"></span>
+                                <a href="#" class="dp-Menu-link">
+                                    Edit
+                                </a>
+                            </li>
+                        </ul>
+                    </span>
+                </span>
+                <span class="dp-LevelItem Level-justify-between">
+                    <ul class="dp-LevelWrap">
+                        <li>
+                            <span class="dp-Icon dp-Visibility"></span>
+                            Department
+                        </li>
+                        <li>
+                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                            Me
+                        </li>
+                    </ul>
+                    <span class="dp-CommentWrap">
+                        <span class="dp-Icon dp-iconComents"></span>
+                        <span class="dp-Comments-title">Comment <a href="#" class="dp-qt">(2)</a><button class="dp-Arrow"></button></span>
+                        <ul class="dp-Comments">
+                            <li class="dp-Comments-item">
+                                <span class="dp-Level">
+                                    <span class="dp-LevelLeft dp-LevelItem">
+                                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                                        <span class="dp-UserName">Kenneth James</span>
+                                    </span>
+                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">
+                                        <span>23 mins ago</span>
+                                    </span>
+                                </span>
+                                <span class="dp-Level">
+                                    <span class="dp-txt">
+                                        The door led right into it. 'That's very curious!' she thought. 'I must be getting somewhere near the King had said that day.
+                                    </span>
+                                </span>
+                            </li>
+                            <li class="dp-Comments-item">
+                                <span class="dp-Level">
+                                    <span class="dp-LevelLeft">
+                                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                                        <span class="dp-UserName">Victor Moses</span>
+                                    </span>
+                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">
+                                        <span>12 mins ago</span>
+                                    </span>
+                                </span>
+                                <span class="dp-Level">
+                                    <span class="dp-txt">
+                                        The door led right into it. 'That's very curious!' she thought. 'I must be getting somewhere near the King had said that day.
+                                    </span>
+                                </span>
+                                <div class="dp-ReplyWrapper">
+                                    <textarea class="dp-ReplyEditor"></textarea>
+                                </div>
+                                <div class="dp-ButtonWrapper">
+                                    <button class="dp-Button Button--small Button--outlined" type="button">
+                                        Add comment
+                                    </button>
+                                    <button class="dp-Button Button--small Button--outlined Button--outborder" type="button">
+                                        Cancel
+                                    </button>
+                                </div>
+                            </li>
+                        </ul>
+                    </span>
+                </span>
+            </li>
+
+        </ul>
+    </form>
+</div>
+```
+
+<!-- COMMENTS -->
+
+## Cards/comments
+
+```html @preview
+<div class="dp-MainWrapper">
+    <form>
+        <ul class="dp-CardList is-hoverable">
+
+            <li class="dp-Card-SectionTitle">
+                <span class="dp-LevelCol">
+                    <span class="dp-CustomCheckbox">
+                        <input type="checkbox" class="dp-ControlInput" id="comment-0"></input>
+                        <label for="comment-0"></label>
+                    </span>
+                </span>
+                <span class="dp-LevelCol">
+                    <span class="dp-Card-title">COMMENTS <span>(123)</span></span>
+                </span>
+            </li>
+            <!-- 1 -->
+            <li class="dp-Card dp-Level LevelCol dp-Tasks-list dp-Comments-list">
+                <span class="dp-LevelItem Level-justify-between">
+                    <span class="dp-CustomCheckbox">
+                        <input type="checkbox" class="dp-ControlInput" id="comment-1">
+                        <label for="comment-1" class="dp-UserName">
+                            Mark Jarvis
+                        </label>
+                        <a href="" class="dp-UserEmail">mark.javis@customercompany.net</a>
+                    </span>
+                </span>
+                <span class="dp-LevelItem dp-LevelLeft">
+                    <span class="dp-Card-comment">I wish I could show you our cat Dinah: I think I must go back by railw...
+                        <span class="dp-Menu">
+                            <span class="dp-UserInfo">
+                                <span class="dp-UserName"><span class="dp-Icon dp-iconUserAvatar"></span>Mark Jarvis</span>
+                                <a href="" class="dp-UserEmail">mark.javis@customercompany.net</a>
+                            </span>
+                            <span class="dp-UserDescription">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                            </span>
+                        </span>
+                    </span>
+                </span>
+                
+                <ul class="dp-LevelWrap">
+                    <li><span class="dp-Icon dp-Approve"></span>Approve</li>
+                    <li><span class="dp-Icon dp-Delete"></span>Delete</li>
+                    <li><span class="dp-Icon dp-CreateTicket"></span>Create ticket</li>
+                    <li><span class="dp-Icon Icon--edit"></span>Edit</li>
+                </ul>
+
+            </li>
+
+            <!-- 2 -->
+            <li class="dp-Card dp-Level LevelCol dp-Tasks-list dp-Comments-list">
+                <span class="dp-LevelItem Level-justify-between">
+                    <span class="dp-CustomCheckbox">
+                        <input type="checkbox" class="dp-ControlInput" id="comment-2">
+                        <label for="comment-2" class="dp-UserName">
+                            Mark Jarvis
+                        </label>
+                        <a href="" class="dp-UserEmail">mark.javis@customercompany.net</a>
+                    </span>
+                </span>
+                <span class="dp-LevelItem dp-LevelLeft">
+                    <span class="dp-Card-comment">I wish I could show you our cat Dinah: I think I must go back by railw...</span>
+                </span>
+    
+                <ul class="dp-LevelWrap">
+                    <li><span class="dp-Icon dp-Approve"></span>Approve</li>
+                    <li><span class="dp-Icon dp-Delete"></span>Delete</li>
+                    <li><span class="dp-Icon dp-CreateTicket"></span>Create ticket</li>
+                    <li><span class="dp-Icon Icon--edit"></span>Edit</li>
+                </ul>
+            </li>
+
+            <!-- 3 -->
+            <li class="dp-Card dp-Level LevelCol dp-Tasks-list dp-Comments-list">
+                <span class="dp-LevelItem Level-justify-between">
+                    <span class="dp-CustomCheckbox">
+                        <input type="checkbox" class="dp-ControlInput" id="comment-3">
+                        <label for="comment-3" class="dp-UserName">
+                            Mark Jarvis
+                        </label>
+                        <a href="" class="dp-UserEmail">mark.javis@customercompany.net</a>
+                    </span>
+                </span>
+                <span class="dp-LevelItem dp-LevelLeft">
+                    <span class="dp-Card-comment">I wish I could show you our cat Dinah: I think I must go back by railw...</span>
+                </span>
+    
+                <ul class="dp-LevelWrap">
+                    <li><span class="dp-Icon dp-Approve"></span>Approve</li>
+                    <li><span class="dp-Icon dp-Delete"></span>Delete</li>
+                    <li><span class="dp-Icon dp-CreateTicket"></span>Create ticket</li>
+                    <li><span class="dp-Icon Icon--edit"></span>Edit</li>
+                </ul>
+            </li>
+
+            <!-- 4 -->
+            <li class="dp-Card dp-Level LevelCol dp-Tasks-list dp-Comments-list">
+                <span class="dp-LevelItem Level-justify-between">
+                    <span class="dp-CustomCheckbox">
+                        <input type="checkbox" class="dp-ControlInput" id="comment-4">
+                        <label for="comment-4" class="dp-UserName">
+                            Mark Jarvis
+                        </label>
+                        <a href="" class="dp-UserEmail">mark.javis@customercompany.net</a>
+                    </span>
+                </span>
+                <span class="dp-LevelItem dp-LevelLeft">
+                    <span class="dp-Card-comment">I wish I could show you our cat Dinah: I think I must go back by railw...</span>
+                </span>
+    
+                <ul class="dp-LevelWrap">
+                    <li><span class="dp-Icon dp-Approve"></span>Approve</li>
+                    <li><span class="dp-Icon dp-Delete"></span>Delete</li>
+                    <li><span class="dp-Icon dp-CreateTicket"></span>Create ticket</li>
+                    <li><span class="dp-Icon Icon--edit"></span>Edit</li>
+                </ul>
+            </li>
+
+        </ul>
+    </form>
+</div>
+```
+
+## Cards/listreveal
+```html @preview
+<div class="dp-MainWrapper">
+    <form>
+        <ul class="dp-CardList">
+            <li class="dp-Card dp-Level dp-listreveal">
+
+                <span class="dp-LevelItem dp-LevelCol dp-LevelTop">
+                    <span class="dp-CustomCheckbox">
+                        <input type="checkbox" class="dp-ControlInput" id="listreveal-0"></input>
+                        <label for="listreveal-0"></label>
+                    </span>
+                </span>
+
+                <span class="dp-LevelCol">
+                    <span class="dp-Card-title">Card title here</span>
+                    <span class="dp-UserInfo">
+                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                        <span class="dp-UserName">Single-line item</span>
+                    </span>
+
+                    <ul class="dp-TagWrap">
+                        <li class="dp-Tag Tag--small Tag--info-light">a: value</li>
+                        <li class="dp-Tag Tag--small Tag--neutral-light">b: value</li>
+                        <li class="dp-Tag Tag--small Tag--info-light">c: value</li>
+                        <li>
+                            <button class="dp-Arrow dp-Comments-title is-active"></button>
+                            <ul class="dp-Comments">
+                                <li>
+                                    <span class="dp-Tag Tag--small Tag--info-light">a: value</span>
+                                    <span class="dp-description">Description text</span>
+                                </li>
+                                <li>
+                                    <span class="dp-Tag Tag--small Tag--neutral-light">b: value</span>
+                                    <span class="dp-description">Description text</span>
+                                </li>
+                                <li>
+                                    <span class="dp-Tag Tag--small Tag--info-light">c: value</span>
+                                    <span class="dp-description">Description text</span>
+                                </li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </span>
+
+            </li>
+        </ul>
+    </form>
+</div>
+```
+
+## Listpane/CRM
+
+```html @preview
+<form>
+    <ul class="dp-CardList">
+
+        <!-- 1 -->
+        <li class="dp-Card dp-Level">
+            <span class="dp-LevelCol">
+                <span class="dp-CustomCheckbox">
+                    <input type="checkbox" class="dp-ControlInput" id="organizations-1"></input>
+                    <label for="organizations-1"></label>
+                </span>
+            </span>
+
+            <span class="dp-LevelCol">
+                <span class="dp-Title Title-Icon dp-LevelTop">
+                    <span class="dp-Icon dp-IconPlane"></span>
+                    <span class="dp-Card-title">Warephase</span>
+                </span>
+                <span class="dp-Card-subtitle">
+                    <span class="dp-Icon Icon--frame"></span>
+                    <span class="dp-title">Members <span class="dp-qt">(6)</span></span>
+                </span>
+            </span>
+
+            <span class="dp-LevelCol dp-LevelRight">
+                <span class="dp-IconGroup">
+                    <span class="Icon--circle dp-iconBug"></span>
+                    <span class="dp-Badge Badge--round Badge--white"></span>
+                    <span class="dp-Icon Icon--clock Icon--primary"></span>
+                </span>
+                <span class="dp-TimeStatus dp-LevelBottom">
+                    <span class="dp-Tag Tag--small Tag--danger">Failed</span>
+                </span>
+            </span>
+        </li>
+
+        <!-- 2 -->
+        <li class="dp-Card dp-Level">
+            <span class="dp-LevelCol">
+                <span class="dp-CustomCheckbox">
+                    <input type="checkbox" class="dp-ControlInput" id="organizations-2"></input>
+                    <label for="organizations-2"></label>
+                </span>
+            </span>
+
+            <span class="dp-LevelCol">
+                <span class="dp-Title Title-Icon dp-LevelTop">
+                    <span class="dp-Icon dp-IconPlane"></span>
+                    <span class="dp-Card-title">Faxquote</span>
+                </span>
+
+                <span class="dp-Card-subtitle">
+                    <span class="dp-Icon Icon--frame"></span>
+                    <span class="dp-title">Members <span class="dp-qt">(2)</span></span>
+                </span>
+            </span>
+        </li>
+
+        <!-- 3 -->
+        <li class="dp-Card dp-Level">
+            <span class="dp-LevelCol">
+                <span class="dp-CustomCheckbox">
+                    <input type="checkbox" class="dp-ControlInput" id="organizations-3"></input>
+                    <label for="organizations-3"></label>
+                </span>
+            </span>
+
+            <span class="dp-LevelCol">
+                <span class="dp-Title Title-Icon dp-LevelTop">
+                    <span class="dp-Icon dp-IconPlane"></span>
+                    <span class="dp-Card-title">Zencorporation</span>
+                </span>
+
+                <span class="dp-Card-subtitle">
+                    <span class="dp-Icon Icon--frame"></span>
+                    <span class="dp-title">Members <span class="dp-qt">(1)</span></span>
+                </span>
+            </span>
+        </li>
+
+        <!-- 4 -->
+        <li class="dp-Card dp-Level">
+            <span class="dp-LevelCol">
+                <span class="dp-CustomCheckbox">
+                    <input type="checkbox" class="dp-ControlInput" id="organizations-4"></input>
+                    <label for="organizations-4"></label>
+                </span>
+            </span>
+
+            <span class="dp-LevelCol">
+                <span class="dp-Title Title-Icon dp-LevelTop">
+                    <span class="dp-Icon dp-IconPlane"></span>
+                    <span class="dp-Card-title">Plusstrip</span>
+                </span>
+
+                <span class="dp-Card-subtitle">
+                    <span class="dp-Icon Icon--frame"></span>
+                    <span class="dp-title">Members <span class="dp-qt">(6)</span></span>
+                </span>
+            </span>
+        </li>
+
+        <!-- 5 -->
+        <li class="dp-Card dp-Level is-active">
+            <span class="dp-LevelCol">
+                <span class="dp-CustomCheckbox">
+                    <input type="checkbox" class="dp-ControlInput" id="organizations-5"></input>
+                    <label for="organizations-5"></label>
+                </span>
+            </span>
+
+            <span class="dp-LevelCol">
+                <span class="dp-Title Title-Icon dp-LevelTop">
+                    <span class="dp-Icon dp-IconPlane"></span>
+                    <span class="dp-Card-title">Iselectrics</span>
+                </span>
+
+                <span class="dp-Card-subtitle">
+                    <span class="dp-Icon Icon--frame"></span>
+                    <span class="dp-title">Members <span class="dp-qt">(12)</span></span>
+                </span>
+            </span>
+        </li>
+
+        <!-- 6 -->
+        <li class="dp-Card dp-Level is-active">
+            <span class="dp-LevelCol">
+                <span class="dp-CustomCheckbox">
+                    <input type="checkbox" class="dp-ControlInput" id="organizations-6"></input>
+                    <label for="organizations-6"></label>
+                </span>
+            </span>
+
+            <span class="dp-LevelCol">
+                <span class="dp-Title Title-Icon dp-LevelTop">
+                    <span class="dp-Icon dp-IconPlane"></span>
+                    <span class="dp-Card-title">Donware</span>
+                </span>
+
+                <span class="dp-Card-subtitle">
+                    <span class="dp-Icon Icon--frame"></span>
+                    <span class="dp-title">Members <span class="dp-qt">(7)</span></span>
+                </span>
+            </span>
+        </li>
+
+    </ul>
+</form>
+```
+
+```html @preview
+<form>
+    <ul class="dp-CardList Card-tickets-organizations">
+
+        <!-- 1 -->
+        <li class="dp-Card dp-Level">
+            <span class="dp-LevelCol">
+                <span class="dp-CustomCheckbox">
+                    <input type="checkbox" class="dp-ControlInput" id="organizations-7"></input>
+                    <label for="organizations-7"></label>
+                </span>
+            </span>
+
+            <span class="dp-LevelCol">
+                <span class="dp-Title Title-Icon dp-LevelTop">
+                    <span class="dp-Icon dp-iconUserAvatar"></span>
+                    <span class="dp-Card-title">Shayne Bowens</span>
+                </span>
+
+                <span class="dp-Card-subtitle">
+                    <span class="dp-Icon Icon--email"></span>
+                    <span class="dp-title">Tickets <span class="dp-qt">(2)</span></span>
+                </span>
+            </span>
+        </li>
+
+        <!-- 2 -->
+        <li class="dp-Card dp-Level">
+            <span class="dp-LevelCol">
+                <span class="dp-CustomCheckbox">
+                    <input type="checkbox" class="dp-ControlInput" id="organizations-8"></input>
+                    <label for="organizations-8"></label>
+                </span>
+            </span>
+
+            <span class="dp-LevelCol">
+                <span class="dp-Title Title-Icon dp-LevelTop">
+                    <span class="dp-Icon dp-iconUserAvatar"></span>
+                    <span class="dp-Card-title">Maryrose Ferranti</span>
+                </span>
+
+                <span class="dp-Card-subtitle">
+                    <span class="dp-Icon Icon--email"></span>
+                    <span class="dp-title">Tickets <span class="dp-qt">(4)</span></span>
+                </span>
+            </span>
+
+        </li>
+
+        <!-- 3 -->
+        <li class="dp-Card dp-Level">
+            <span class="dp-LevelCol">
+                <span class="dp-CustomCheckbox">
+                    <input type="checkbox" class="dp-ControlInput" id="organizations-9"></input>
+                    <label for="organizations-9"></label>
+                </span>
+            </span>
+
+            <span class="dp-LevelCol">
+                <span class="dp-Title Title-Icon dp-LevelTop">
+                    <span class="dp-Icon dp-iconUserAvatar"></span>
+                    <span class="dp-Card-title">Syble Danos</span>
+                </span>
+
+                <span class="dp-Card-subtitle">
+                    <span class="dp-Icon Icon--email"></span>
+                    <span class="dp-title">Tickets <span class="dp-qt">(3)</span></span>
+                </span>
+            </span>
+        </li>
+
+        <!-- 4 -->
+        <li class="dp-Card dp-Level">
+            <span class="dp-LevelCol">
+                <span class="dp-CustomCheckbox">
+                    <input type="checkbox" class="dp-ControlInput" id="organizations-10"></input>
+                    <label for="organizations-10"></label>
+                </span>
+            </span>
+
+            <span class="dp-LevelCol">
+                <span class="dp-Title Title-Icon dp-LevelTop">
+                    <span class="dp-Icon dp-iconUserAvatar"></span>
+                    <span class="dp-Card-title">Donella Hendriks</span>
+                </span>
+
+                <span class="dp-Card-subtitle">
+                    <span class="dp-Icon Icon--email"></span>
+                    <span class="dp-title">Tickets <span class="dp-qt">(2)</span></span>
+                </span>
+            </span>
+        </li>
+
+        <!-- 5 -->
+        <li class="dp-Card dp-Level is-active">
+            <span class="dp-LevelCol">
+                <span class="dp-CustomCheckbox">
+                    <input type="checkbox" class="dp-ControlInput" id="organizations-11"></input>
+                    <label for="organizations-11"></label>
+                </span>
+            </span>
+
+            <span class="dp-LevelCol">
+                <span class="dp-Title Title-Icon dp-LevelTop">
+                    <span class="dp-Icon dp-iconUserAvatar"></span>
+                    <span class="dp-Card-title">Leonardo Mckee</span>
+                </span>
+                <span class="dp-Card-subtitle">
+                    <span class="dp-Icon Icon--email"></span>
+                    <span class="dp-title">Tickets <span class="dp-qt">(12)</span></span>
+                </span>
+            </span>
+        </li>
+
+        <!-- 6 -->
+        <li class="dp-Card dp-Level is-active">
+            <span class="dp-LevelCol">
+                <span class="dp-CustomCheckbox">
+                    <input type="checkbox" class="dp-ControlInput" id="organizations-12"></input>
+                    <label for="organizations-12"></label>
+                </span>
+            </span>
+
+            <span class="dp-LevelCol">
+                <span class="dp-Title Title-Icon dp-LevelTop">
+                    <span class="dp-Icon dp-iconUserAvatar"></span>
+                    <span class="dp-Card-title">Glynis Marquette</span>
+                </span>
+                <span class="dp-Card-subtitle">
+                    <span class="dp-Icon Icon--email"></span>
+                    <span class="dp-title">Tickets <span class="dp-qt">(9)</span></span>
+                </span>
+            </span>
+        </li>
+
+    </ul>
+</form>
 ```
 
 <h2>Listpane/misc<h2>
