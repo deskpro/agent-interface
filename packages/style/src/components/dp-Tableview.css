@@ -138,6 +138,17 @@ thead .dp-Card-title td {
   position: relative;
 }
 
+.dp-TableDepartment > .dp-Icon {
+  display: none;
+}
+
+.dp-TableDepartment.is-column-draggable > .dp-Icon {
+  display: block;
+  position: absolute;
+  right: calc(100% - 8.5px);
+  top: calc(50% - 8px);
+}
+
 .dp-Tableview thead .is-column-draggable::before {
   background-color: var(--brand-primary);
   bottom: 0;

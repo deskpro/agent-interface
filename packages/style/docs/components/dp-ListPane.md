@@ -888,7 +888,6 @@ title: List Pane
 </div>
 ```
 
-
 ## Listpane/tableview
 
 ```html @preview
@@ -923,6 +922,7 @@ title: List Pane
                     </span>
                 </th>
                 <th class="dp-TableDepartment is-column-draggable">
+                    <span class="dp-Icon Icon--draggable"></span>
                     <span class="dp-TableItem">
                         Department
                         <span class="dp-Icon dp-arrowGroup"></span>
