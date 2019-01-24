@@ -23,7 +23,8 @@
   width: 0;
 }
 
-.is-active .dp-Arrow::after {
+.is-active .dp-Arrow::after,
+.is-selected .dp-Arrow::after {
   border-color: transparent transparent var(--brand-primary) transparent;
   border-width: 0 4px 4px 4px;
 }
