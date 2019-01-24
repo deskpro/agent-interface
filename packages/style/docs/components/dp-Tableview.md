@@ -92,7 +92,7 @@ title: Tableview
 </div>
 ```
 
-<h4>listpane/tableview-column-headers</h4>
+<h4>Tableview Column Headers - For reference Artem</h4>
 ```html @preview
 <div class="dp-TableWrapper">
     <table class="dp-Tableview">
