@@ -391,10 +391,6 @@
 .dp-Card .dp-Title .Icon--star,
 .dp-SubjectItem .Icon--star {
   background-size: 12px 12px;
-  height: 12px;
-  width: 12px;
+  max-height: 12px;
+  max-width: 12px;
 }
-
-/* .dp-Card .dp-Title.Title-Icon {
-  align-items: flex-start;
-} */

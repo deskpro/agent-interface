@@ -12,7 +12,7 @@
 }
 
 .dp-Tableview {
-  display: table;
+  display: block;
   width: 1600px;
 }
 
@@ -33,6 +33,7 @@
 }
 
 .dp-Tableview .dp-SubjectItem .dp-Card-title {
+  margin: 0;
   padding: 3.5px 5px 2px;
 }
 
@@ -290,4 +291,62 @@ thead .dp-Card-title td {
 
 .is-active.dp-Title-group .dp-Title {
   color: var(--brand-primary);
+}
+
+/* new */
+
+.dp-TableRow {
+  align-items: center;
+  border-top: 1px solid var(--grey-light);
+  display: flex;
+}
+
+.dp-TableRow > div {
+  align-items: center;
+  display: flex;
+  padding: 6px 13px;
+}
+
+.dp-TableRow {
+  color: var(--grey-darkest);
+  font: var(--p-xl);
+}
+
+.dp-TableRow.dp-TableControl {
+  border-bottom: 1px solid var(--grey-light);
+  color: var(--grey-darkest);
+  font: var(--p-n-semibold);
+}
+
+.dp-TableRow .dp-SubjectItem {
+  justify-content: space-between;
+}
+
+.dp-Tableview .dp-Icon {
+  height: 18px;
+  vertical-align: middle;
+  width: 18px;
+}
+
+.dp-TableRow > div:nth-child(2) {
+  width: 62px;
+}
+
+.dp-TableRow > div:nth-child(3),
+.dp-TableRow > div:nth-child(4),
+.dp-TableRow > div:nth-child(8) {
+  width: 240px;
+}
+
+.dp-TableRow > div:nth-child(5),
+.dp-TableRow > div:nth-child(6),
+.dp-TableRow > div:nth-child(7),
+.dp-TableRow > div:nth-child(9) {
+  width: 150px;
+}
+
+.dp-TableRow > div:nth-child(10),
+.dp-TableRow > div:nth-child(11),
+.dp-TableRow > div:nth-child(12) {
+  width: 45px;
 }

@@ -187,8 +187,8 @@ title: Tableview
 <div class="dp-TableWrapper">
     <table class="dp-Tableview">
 
-        <span class="is-column-draggable" style="position:absolute;content:'';top:0;bottom:0;left:592px;right:auto;background-color:#3a8dde;width:1px;z-index:9;"></span>
-        <span class="dp-Icon Icon--draggable" style="position:absolute;top:7px;left:584.5px;right:auto;"></span>
+        <span class="is-column-draggable" style="position:absolute;content:'';top:0;bottom:0;left:578px;right:auto;background-color:#3a8dde;width:1px;z-index:9;"></span>
+        <span class="dp-Icon Icon--draggable" style="position:absolute;top:7px;left:571px;right:auto;"></span>
 
         <thead>
             <tr class="dp-ColumnControls">
@@ -10528,5 +10528,808 @@ title: Tableview
 
         </tbody>
     </table>
+</div>
+```
+
+
+<!-- new -->
+<h4>New Table</h4>
+
+```html @preview
+<div class="dp-TableWrapper">
+    <div class="dp-Tableview">
+
+        <span class="is-column-draggable" style="position:absolute;content:'';top:0;bottom:0;left:579px;right:auto;background-color:#3a8dde;width:1px;z-index:9;"></span>
+        <span class="dp-Icon Icon--draggable" style="position:absolute;top:7px;left:571px;right:auto;"></span>
+
+        <div class="dp-TableRow dp-TableControl">
+            <div class="dp-TableItem">
+                <span class="dp-CustomCheckbox dp-EmptyCheckbox">
+                    <input type="checkbox" class="dp-ControlInput" id="tableview-4-1"></input>
+                    <label for="tableview-4-1"></label>
+                </span>
+            </div>
+
+            <div class="dp-TableItem">
+                ID
+                <span class="dp-Icon dp-arrowGroup"></span>
+            </div>
+
+            <div class="dp-TableItem dp-TableSubject">
+                Subject
+                <span class="dp-Icon dp-arrowGroup"></span>
+            </div>
+
+            <div class="dp-TableItem">
+                Labels
+                <span class="dp-Icon dp-arrowGroup"></span>
+            </div>
+
+            <div class="dp-TableItem">
+                Department
+                <span class="dp-Icon dp-arrowGroup"></span>
+            </div>
+
+            <div class="dp-TableItem">
+                Language
+                <span class="dp-Icon dp-arrowGroup"></span>
+            </div>
+
+            <div class="dp-TableItem">
+                Last reply
+                <span class="dp-Icon dp-arrowGroup"></span>
+            </div>
+
+            <div class="dp-TableItem">
+                User
+                <span class="dp-Icon dp-arrowGroup"></span>
+            </div>
+
+            <div class="dp-TableItem">
+                SLA/Current user wait
+            </div>
+
+            <div class="dp-TableItem">
+                <span class="dp-Icon dp-arrowGroup"></span>
+            </div>
+
+            <div class="dp-TableItem">
+                <span class="dp-Icon dp-arrowGroup"></span>
+            </div>
+
+            <div class="dp-TableItem">
+                <span class="dp-Icon dp-arrowGroup"></span>
+            </div>
+ 
+            <div class="dp-Cog">
+                <span class="dp-Icon dp-settings"></span>
+            </div>
+        </div>
+
+        <div class="dp-TableRow">
+
+            <div>
+                <span class="dp-CustomCheckbox dp-EmptyCheckbox">
+                    <input type="checkbox" class="dp-ControlInput" id="tableview-4-2"></input>
+                    <label for="tableview-4-2"></label>
+                </span>
+            </div>
+            <div>83995</div>
+            <div class="dp-SubjectItem">
+                <span class="dp-Card-title" contenteditable="true">SSO Information</span>
+                <span class="dp-Icon Icon--star"></span>
+            </div>
+            <div>&nbsp;</div>
+            <div class="dp-DepartmentItem">
+                <span class="dp-Item-title">Sales</span>
+                <span class="dp-Icon Icon--edit">
+                    <ul class="dp-Menu">
+                        <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                        <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                        <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                    </ul>
+                </span>
+            </div>
+            <div>English (US)</div>
+            <div>9 weeks ago</div>
+            <div class="dp-UserItem">
+                <span class="dp-Icon dp-avatar"></span>
+                <span>Kenneth James</span>
+            </div>
+            <div>12 hr 30 min</div>
+            <div>
+                <span class="dp-Icon dp-rocket Icon-grey-darkest Icon--circle"></span>
+            </div>
+            <div>&nbsp;</div>
+            <div>
+                <span class="dp-Badge Badge--round Badge--danger">10</span>
+            </div>
+
+            <div class="dp-Cog">
+                <!-- Icon hover -->
+                <span class="dp-Icon dp-settings"></span>
+            </div>
+        </div>
+
+        <div class="dp-TableRow">
+            <div>
+                <span class="dp-CustomCheckbox dp-EmptyCheckbox">
+                    <input type="checkbox" class="dp-ControlInput" id="tableview-4-3"></input>
+                    <label for="tableview-4-3"></label>
+                </span>
+            </div>
+            <div>12345</div>
+            <div class="dp-SubjectItem">
+                <span class="dp-Card-title" contenteditable="true">Portal disabled landing page</span>
+            </div>
+            <div>&nbsp;</div>
+            <div>Support</div>
+            <div>English (US)</div>
+            <div>9 weeks ago</div>
+            <div class="dp-UserItem">
+                <span class="dp-Icon dp-avatar"></span>
+                <span>Toby Falkirk</span>
+            </div>
+            <div>3 days</div>
+            <div>&nbsp;</div>
+            <div>
+                <span class="dp-Icon dp-avatar"></span>
+            </div>
+            <div>
+                <span class="dp-Badge Badge--round Badge--danger">8</span>
+            </div>
+
+            <div class="dp-Cog">
+                <!-- Icon hover -->
+                <span class="dp-Icon dp-settings"></span>
+            </div>
+        </div>
+
+        <div class="dp-TableRow">
+            <div>
+                <span class="dp-CustomCheckbox dp-EmptyCheckbox">
+                    <input type="checkbox" class="dp-ControlInput" id="tableview-4-4"></input>
+                    <label for="tableview-4-4"></label>
+                </span>
+            </div>
+            <div>67372</div>
+            <div class="dp-SubjectItem">
+                <span class="dp-Card-title" contenteditable="true">Inventory component</span>
+            </div>
+            <div>&nbsp;</div>
+            <div class="dp-DepartmentItem">
+                <span class="dp-Item-title">Support</span>
+                <span class="dp-Icon Icon--edit">
+                    <ul class="dp-Menu">
+                        <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                        <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                        <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                    </ul>
+                </span>
+            </div>
+            <div>English (US)</div>
+            <div>5 weeks ago</div>
+            <div class="dp-UserItem"><span class="dp-Icon dp-avatar"></span><span>Mark Jarvis</span></div>
+            <div>12 hr 30 min</div>
+            <div>
+                <span class="dp-Icon dp-beetle Icon-black Icon--circle"></span>
+            </div>
+            <div>&nbsp;</div>
+            <div>&nbsp;</div>
+
+            <div class="dp-Cog">
+                <!-- Icon hover -->
+                <span class="dp-Icon dp-settings"></span>
+            </div>
+        </div>
+
+        <div class="dp-TableRow">
+            <div>
+                <span class="dp-CustomCheckbox dp-EmptyCheckbox">
+                    <input type="checkbox" class="dp-ControlInput" id="tableview-4-5"></input>
+                    <label for="tableview-4-5"></label>
+                </span>
+            </div>
+            <div>83995</div>
+            <div class="dp-SubjectItem">
+                <span class="dp-Card-title" contenteditable="true">AW: Need some help?</span>
+                <span class="dp-Icon Icon--star"></span>
+            </div>
+            <div>&nbsp;</div>
+            <div class="dp-DepartmentItem">
+                <span class="dp-Item-title">Sales</span>
+                <span class="dp-Icon Icon--edit">
+                    <ul class="dp-Menu">
+                        <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                        <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                        <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                    </ul>
+                </span>
+            </div>
+            <div>English (US)</div>
+            <div>9 weeks ago</div>
+            <div class="dp-UserItem"><span class="dp-Icon dp-avatar"></span><span>Kenneth James</span></div>
+            <div>2 hr 16 min</div>
+            <div>&nbsp;</div>
+            <div>
+                <span class="dp-Icon dp-avatar"></span>
+            </div>
+            <div>
+                <span class="dp-Badge Badge--round Badge--warning">7</span>
+            </div>
+
+            <div class="dp-Cog">
+                <!-- Icon hover -->
+                <span class="dp-Icon dp-settings"></span>
+            </div>
+        </div>
+
+        <div class="dp-TableRow">
+            <div>
+                <span class="dp-CustomCheckbox dp-EmptyCheckbox">
+                    <input type="checkbox" class="dp-ControlInput" id="tableview-4-6"></input>
+                    <label for="tableview-4-6"></label>
+                </span>
+            </div>
+            <div>12245</div>
+            <div class="dp-SubjectItem">
+                <span class="dp-Card-title" contenteditable="true">Enjoying your helpdesk?</span>
+            </div>
+            <div>&nbsp;</div>
+            <div class="dp-DepartmentItem">
+                <span class="dp-Item-title">Support</span>
+                <span class="dp-Icon Icon--edit">
+                    <ul class="dp-Menu">
+                        <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                        <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                        <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                    </ul>
+                </span>
+            </div>
+            <div>Italiano</div>
+            <div>2 weeks ago</div>
+            <div class="dp-UserItem"><span class="dp-Icon dp-avatar"></span><span>Mark Jarvis</span></div>
+            <div>43 min</div>
+            <div>
+                <span class="dp-Icon dp-beetle Icon-black Icon--circle"></span>
+            </div>
+            <div>&nbsp;</div>
+            <div>
+                <span class="dp-Badge Badge--round Badge--neutral"></span>
+            </div>
+
+            <div class="dp-Cog">
+                <!-- Icon hover -->
+                <span class="dp-Icon dp-settings"></span>
+            </div>
+        </div>
+
+        <div class="dp-TableRow">
+            <div>
+                <span class="dp-CustomCheckbox dp-EmptyCheckbox">
+                    <input type="checkbox" class="dp-ControlInput" id="tableview-4-7"></input>
+                    <label for="tableview-4-7"></label>
+                </span>
+            </div>
+            <div>83995</div>
+            <div class="dp-SubjectItem">
+                <span class="dp-Card-title" contenteditable="true">SSO Information</span>
+                <span class="dp-Icon Icon--star"></span>
+            </div>
+            <div>&nbsp;</div>
+            <div class="dp-DepartmentItem">
+                <span class="dp-Item-title">Support</span>
+                <span class="dp-Icon Icon--edit">
+                    <ul class="dp-Menu">
+                        <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                        <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                        <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                    </ul>
+                </span>
+            </div>
+            <div>English (US)</div>
+            <div>9 weeks ago</div>
+            <div class="dp-UserItem"><span class="dp-Icon dp-avatar"></span><span>Toby Falkirk</span></div>
+            <div>12 hr 30 min</div>
+            <div>
+                <span class="dp-Icon dp-rocket Icon-grey-darkest Icon--circle"></span>
+            </div>
+            <div>
+                <span class="dp-Icon dp-avatar"></span>
+            </div>
+            <div>
+                <span class="dp-Badge Badge--round Badge--danger">10</span>
+            </div>
+
+            <div class="dp-Cog">
+                <!-- Icon hover -->
+                <span class="dp-Icon dp-settings is-active"></span>
+            </div>
+        </div>
+
+        <div class="dp-TableRow">
+            <div>
+                <span class="dp-CustomCheckbox dp-EmptyCheckbox">
+                    <input type="checkbox" class="dp-ControlInput" id="tableview-4-8"></input>
+                    <label for="tableview-4-8"></label>
+                </span>
+            </div>
+            <div>65347</div>
+            <div class="dp-SubjectItem">
+                <span class="dp-Card-title" contenteditable="true">Portal disabled landing page</span>
+                <span class="dp-Icon Icon--star"></span>
+            </div>
+            <div>&nbsp;</div>
+            <div class="dp-DepartmentItem">
+                <span class="dp-Item-title">Support</span>
+                <span class="dp-Icon Icon--edit">
+                    <ul class="dp-Menu">
+                        <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                        <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                        <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                    </ul>
+                </span>
+            </div>
+            <div>Italiano</div>
+            <div>9 weeks ago</div>
+            <div class="dp-UserItem"><span class="dp-Icon dp-avatar"></span><span>Kenneth James</span></div>
+            <div>3 days</div>
+            <div>
+                <span class="dp-Icon dp-rocket Icon-grey-darkest Icon--circle"></span>
+            </div>
+            <div>&nbsp;</div>
+            <div>
+                <span class="dp-Badge Badge--round Badge--warning">6</span>
+            </div>
+
+            <div class="dp-Cog">
+                <!-- Icon hover -->
+                <span class="dp-Icon dp-settings"></span>
+            </div>
+        </div>
+
+        <div class="dp-TableRow">
+            <div>
+                <span class="dp-CustomCheckbox dp-EmptyCheckbox">
+                    <input type="checkbox" class="dp-ControlInput" id="tableview-4-9"></input>
+                    <label for="tableview-4-9"></label>
+                </span>
+            </div>
+            <div>83995</div>
+            <div class="dp-SubjectItem">
+                <span class="dp-Card-title" contenteditable="true">Inventory component</span>
+            </div>
+            <div>&nbsp;</div>
+            <div class="dp-DepartmentItem">
+                <span class="dp-Item-title">Support</span>
+                <span class="dp-Icon Icon--edit">
+                    <ul class="dp-Menu">
+                        <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                        <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                        <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                    </ul>
+                </span>
+            </div>
+            <div>English (US)</div>
+            <div>4 weeks ago</div>
+            <div class="dp-UserItem"><span class="dp-Icon dp-avatar"></span><span>Mark Jarvis</span></div>
+            <div>12 hr 30 min</div>
+            <div>
+                <span class="dp-Icon dp-rocket Icon-grey-darkest Icon--circle"></span>
+            </div>
+            <div>&nbsp;</div>
+            <div>
+                <span class="dp-Badge Badge--round Badge--danger">10</span>
+            </div>
+
+            <div class="dp-Cog">
+                <!-- Icon hover -->
+                <span class="dp-Icon dp-settings"></span>
+            </div>
+        </div>
+
+        <div class="dp-TableRow">
+            <div>
+                <span class="dp-CustomCheckbox dp-EmptyCheckbox">
+                    <input type="checkbox" class="dp-ControlInput" id="tableview-4-10"></input>
+                    <label for="tableview-4-10"></label>
+                </span>
+            </div>
+            <div>97546</div>
+            <div class="dp-SubjectItem">
+                <span class="dp-Card-title" contenteditable="true">AW: Need some help?</span>
+            </div>
+            <div>&nbsp;</div>
+            <div class="dp-DepartmentItem">
+                <span class="dp-Item-title">Support</span>
+                <span class="dp-Icon Icon--edit">
+                    <ul class="dp-Menu">
+                        <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                        <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                        <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                    </ul>
+                </span>
+            </div>
+            <div>Italiano</div>
+            <div>8 weeks ago</div>
+            <div class="dp-UserItem"><span class="dp-Icon dp-avatar"></span><span>Toby Falkirk</span></div>
+            <div>4 weeks</div>
+            <div>&nbsp;</div>
+            <div>
+                <span class="dp-Icon dp-avatar"></span>
+            </div>
+            <div>
+                <span class="dp-Badge Badge--round Badge--danger">8</span>
+            </div>
+            <div class="dp-Cog">
+                <!-- Icon hover -->
+                <span class="dp-Icon dp-settings"></span>
+            </div>
+        </div>
+
+        <div class="dp-TableRow">
+            <div>
+                <span class="dp-CustomCheckbox dp-EmptyCheckbox">
+                    <input type="checkbox" class="dp-ControlInput" id="tableview-4-11"></input>
+                    <label for="tableview-4-11"></label>
+                </span>
+            </div>
+            <div>43563</div>
+            <div class="dp-SubjectItem">
+                <span class="dp-Card-title" contenteditable="true">Enjoying your helpdesk?</span>
+                <span class="dp-Icon Icon--star"></span>
+            </div>
+            <div>&nbsp;</div>
+            <div class="dp-DepartmentItem">
+                <span class="dp-Item-title">Sales</span>
+                <span class="dp-Icon Icon--edit">
+                    <ul class="dp-Menu">
+                        <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                        <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                        <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                    </ul>
+                </span>
+            </div>
+            <div>English (US)</div>
+            <div>2 weeks ago</div>
+            <div class="dp-UserItem"><span class="dp-Icon dp-avatar"></span><span>Kenneth James</span></div>
+            <div>12 hr 30 min</div>
+            <div>
+                <span class="dp-Icon dp-beetle Icon-black Icon--circle"></span>
+            </div>
+            <div>&nbsp;</div>
+            <div>
+                <span class="dp-Badge Badge--round Badge--danger">10</span>
+            </div>
+            <div class="dp-Cog">
+                <!-- Icon hover -->
+                <span class="dp-Icon dp-settings"></span>
+            </div>
+        </div>
+
+        <div class="dp-TableRow">
+            <div>
+                <span class="dp-CustomCheckbox dp-EmptyCheckbox">
+                    <input type="checkbox" class="dp-ControlInput" id="tableview-4-12"></input>
+                    <label for="tableview-4-12"></label>
+                </span>
+            </div>
+            <div>76473</div>
+            <div class="dp-SubjectItem">
+                <span class="dp-Card-title" contenteditable="true">SSO Information</span>
+                <span class="dp-Icon Icon--star"></span>
+            </div>
+            <div>&nbsp;</div>
+            <div class="dp-DepartmentItem">
+                <span class="dp-Item-title">Support</span>
+                <span class="dp-Icon Icon--edit">
+                    <ul class="dp-Menu">
+                        <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                        <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                        <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                    </ul>
+                </span>
+            </div>
+            <div>English (US)</div>
+            <div>9 weeks ago</div>
+            <div class="dp-UserItem"><span class="dp-Icon dp-avatar"></span><span>Toby Falkirk</span></div>
+            <div>2 hr 16 min</div>
+            <div>
+                <span class="dp-Icon dp-rocket Icon-grey-darkest Icon--circle"></span>
+            </div>
+            <div>&nbsp;</div>
+            <div>
+                <span class="dp-Badge Badge--round Badge--neutral">4</span>
+            </div>
+
+            <div class="dp-Cog">
+                <!-- Icon hover -->
+                <span class="dp-Icon dp-settings"></span>
+            </div>
+        </div>
+
+        <div class="dp-TableRow">
+            <div>
+                <span class="dp-CustomCheckbox dp-EmptyCheckbox">
+                    <input type="checkbox" class="dp-ControlInput" id="sales-4-2"></input>
+                    <label for="sales-4-2"></label>
+                </span>
+            </div>
+            <div class="dp-Table-title">Sales</div>
+        </div>
+
+        <!--  -->
+        <div class="dp-TableRow dp-TableControl">
+            <div class="dp-TableItem">
+                <span class="dp-CustomCheckbox dp-EmptyCheckbox">
+                    <input type="checkbox" class="dp-ControlInput" id="tableview-4-13"></input>
+                    <label for="tableview-4-13"></label>
+                </span>
+            </div>
+
+            <div class="dp-TableItem">
+                <span>ID</span>
+                <span class="dp-Icon dp-arrowGroup"></span>
+            </div>
+
+            <div class="dp-TableItem">
+                Subject
+                <span class="dp-Icon dp-arrowGroup"></span>
+            </div>
+
+            <div class="dp-TableItem">
+                Labels
+                <span class="dp-Icon dp-arrowGroup"></span>
+            </div>
+
+            <div class="dp-TableItem">
+                Department
+                <span class="dp-Icon dp-arrowGroup"></span>
+            </div>
+
+            <div class="dp-TableItem">
+                Language
+                <span class="dp-Icon dp-arrowGroup"></span>
+            </div>
+
+            <div class="dp-TableItem">
+                Last reply
+                <span class="dp-Icon dp-arrowGroup"></span>
+            </div>
+
+            <div class="dp-TableItem">
+                User
+                <span class="dp-Icon dp-arrowGroup"></span>
+            </div>
+
+            <div class="dp-TableItem">
+                SLA/Current user wait
+            </div>
+
+            <div class="dp-TableItem">
+                <span class="dp-Icon dp-arrowGroup"></span>
+            </div>
+
+            <div class="dp-TableItem">
+                <span class="dp-Icon dp-arrowGroup"></span>
+            </div>
+
+            <div class="dp-TableItem">
+                <span class="dp-Icon dp-arrowGroup"></span>
+            </div>
+            
+            <div class="dp-Cog">
+                <div class="dp-Icon dp-settings"></div>
+            </div>
+        </div>
+
+        <div class="dp-TableRow">
+            <div>
+                <span class="dp-CustomCheckbox dp-EmptyCheckbox">
+                    <input type="checkbox" class="dp-ControlInput" id="tableview-4-15"></input>
+                    <label for="tableview-4-15"></label>
+                </span>
+            </div>
+            <div>83995</div>
+            <div class="dp-SubjectItem">
+                <span class="dp-Card-title" contenteditable="true">SSO Information</span>
+                <span class="dp-Icon Icon--star"></span>
+            </div>
+            <div>&nbsp;</div>
+            <div class="dp-DepartmentItem">
+                <span class="dp-Item-title">Support</span>
+                <span class="dp-Icon Icon--edit">
+                    <ul class="dp-Menu">
+                        <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                        <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                        <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                    </ul>
+                </span>
+            </div>
+            <div>English (US)</div>
+            <div>9 weeks ago</div>
+            <div class="dp-UserItem"><span class="dp-Icon dp-avatar"></span><span>Toby Falkirk</span></div>
+            <div>12 hr 30 min</div>
+            <div>
+                <span class="dp-Icon dp-rocket Icon-grey-darkest Icon--circle"></span>
+            </div>
+            <div>
+                <span class="dp-Icon dp-avatar"></span>
+            </div>
+            <div>
+                <span class="dp-Badge Badge--round Badge--danger">10</span>
+            </div>
+
+            <div class="dp-Cog">
+                <!-- Icon hover -->
+                <span class="dp-Icon dp-settings"></span>
+            </div>
+        </div>
+
+        <div class="dp-TableRow">
+            <div>
+                <span class="dp-CustomCheckbox dp-EmptyCheckbox">
+                    <input type="checkbox" class="dp-ControlInput" id="tableview-4-15"></input>
+                    <label for="tableview-4-15"></label>
+                </span>
+            </div>
+            <div>12345</div>
+            <div class="dp-SubjectItem">
+                <span class="dp-Card-title" contenteditable="true">Portal disabled landing page</span>
+            </div>
+            <div>&nbsp;</div>
+            <div class="dp-DepartmentItem">
+                <span class="dp-Item-title">Support</span>
+                <span class="dp-Icon Icon--edit">
+                    <ul class="dp-Menu">
+                        <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                        <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                        <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                    </ul>
+                </span>
+            </div>
+            <div>English (US)</div>
+            <div>9 weeks ago</div>
+            <div class="dp-UserItem">
+                <span class="dp-Icon dp-avatar"></span>
+                <span>Toby Falkirk</span>
+            </div>
+            <div>3 days</div>
+            <div>&nbsp;</div>
+            <div>
+                <span class="dp-Icon dp-avatar"></span>
+            </div>
+            <div>
+                <span class="dp-Badge Badge--round Badge--danger">8</span>
+            </div>
+
+            <div class="dp-Cog">
+                <!-- Icon hover -->
+                <span class="dp-Icon dp-settings"></span>
+            </div>
+        </div>
+
+        <div class="dp-TableRow">
+            <div>
+                <span class="dp-CustomCheckbox dp-EmptyCheckbox">
+                    <input type="checkbox" class="dp-ControlInput" id="tableview-4-16"></input>
+                    <label for="tableview-4-16"></label>
+                </span>
+            </div>
+            <div>83995</div>
+            <div class="dp-SubjectItem">
+                <span class="dp-Card-title" contenteditable="true">Inventory component</span>
+            </div>
+            <div>&nbsp;</div>
+            <div class="dp-DepartmentItem">
+                <span class="dp-Item-title">Support</span>
+                <span class="dp-Icon Icon--edit">
+                    <ul class="dp-Menu">
+                        <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                        <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                        <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                    </ul>
+                </span>
+            </div>
+            <div>English (US)</div>
+            <div>4 weeks ago</div>
+            <div class="dp-UserItem"><span class="dp-Icon dp-avatar"></span><span>Mark Jarvis</span></div>
+            <div>12 hr 30 min</div>
+            <div>
+                <span class="dp-Icon dp-rocket Icon-grey-darkest Icon--circle"></span>
+            </div>
+            <div>&nbsp;</div>
+            <div>
+                <span class="dp-Badge Badge--round Badge--danger">10</span>
+            </div>
+
+            <div class="dp-Cog">
+                <!-- Icon hover -->
+                <span class="dp-Icon dp-settings"></span>
+            </div>
+        </div>
+
+        <div class="dp-TableRow">
+            <div>
+                <span class="dp-CustomCheckbox dp-EmptyCheckbox">
+                    <input type="checkbox" class="dp-ControlInput" id="tableview-4-17"></input>
+                    <label for="tableview-4-17"></label>
+                </span>
+            </div>
+            <div>83995</div>
+            <div class="dp-SubjectItem">
+                <span class="dp-Card-title" contenteditable="true">AW: Need some help?</span>
+                <span class="dp-Icon Icon--star"></span>
+            </div>
+            <div>&nbsp;</div>
+            <div class="dp-DepartmentItem">
+                <span class="dp-Item-title">Sales</span>
+                <span class="dp-Icon Icon--edit">
+                    <ul class="dp-Menu">
+                        <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                        <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                        <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                    </ul>
+                </span>
+            </div>
+            <div>English (US)</div>
+            <div>9 weeks ago</div>
+            <div class="dp-UserItem"><span class="dp-Icon dp-avatar"></span><span>Kenneth James</span></div>
+            <div>2 hr 16 min</div>
+            <div>&nbsp;</div>
+            <div>
+                <span class="dp-Icon dp-avatar"></span>
+            </div>
+            <div>
+                <span class="dp-Badge Badge--round Badge--warning">7</span>
+            </div>
+
+            <div class="dp-Cog">
+                <!-- Icon hover -->
+                <span class="dp-Icon dp-settings"></span>
+            </div>
+        </div>
+
+        <div class="dp-TableRow">
+            <div>
+                <span class="dp-CustomCheckbox dp-EmptyCheckbox">
+                    <input type="checkbox" class="dp-ControlInput" id="tableview-4-18"></input>
+                    <label for="tableview-4-18"></label>
+                </span>
+            </div>
+            <div>12245</div>
+            <div class="dp-SubjectItem">
+                <span class="dp-Card-title" contenteditable="true">Enjoying your helpdesk?</span>
+                <span class="dp-Icon Icon--star"></span>
+            </div>
+            <div>&nbsp;</div>
+            <div class="dp-DepartmentItem">
+                <span class="dp-Item-title">Sales</span>
+                <span class="dp-Icon Icon--edit">
+                    <ul class="dp-Menu">
+                        <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                        <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                        <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                    </ul>
+                </span>
+            </div>
+            <div>English (US)</div>
+            <div>2 weeks ago</div>
+            <div class="dp-UserItem"><span class="dp-Icon dp-avatar"></span><span>Kenneth James</span></div>
+            <div>12 hr 30 min</div>
+            <div>
+                <span class="dp-Icon dp-beetle Icon-black Icon--circle"></span>
+            </div>
+            <div>&nbsp;</div>
+            <div>
+                <span class="dp-Badge Badge--round Badge--danger">10</span>
+            </div>
+            <div class="dp-Cog">
+                <!-- Icon hover -->
+                <span class="dp-Icon dp-settings"></span>
+            </div>
+        </div>
+
+    </div>
 </div>
 ```
