@@ -20,7 +20,8 @@ const ScrollArea: React.FC<ScrollAreaProps & { scrollRef?: React.Ref<{}> }> = ({
   onTresholdReach,
   scrollRef,
   style,
-  children
+  children,
+  ...scrollProps
 }) => {
   const scrollCallback = React.useCallback(
     debounce(values => {
@@ -42,15 +43,15 @@ const ScrollArea: React.FC<ScrollAreaProps & { scrollRef?: React.Ref<{}> }> = ({
     <Scrollbars
       className={classNames("dp-ScrollArea", className)}
       ref={scrollRef}
-      // autoHeight
-      // hideTracksWhenNotNeeded
+      autoHide
+      hideTracksWhenNotNeeded
       style={style}
       onScrollFrame={scrollCallback}
       renderTrackVertical={(p: object) => (
-        <div {...p} className="dp-ScrollArea-trackVertical" />
+        <div className="dp-ScrollArea-trackVertical" {...p} />
       )}
       renderThumbVertical={(p: object) => (
-        <div {...p} className="dp-ScrollArea-thumbVertical" />
+        <div className="dp-ScrollArea-thumbVertical" {...p} />
       )}
       renderTrackHorizontal={(p: object) => (
         <div {...p} className="dp-ScrollArea-trackHorizontal" />
@@ -64,6 +65,7 @@ const ScrollArea: React.FC<ScrollAreaProps & { scrollRef?: React.Ref<{}> }> = ({
           className={classNames("dp-ScrollArea-view", contentClassName)}
         />
       )}
+      {...scrollProps}
     >
       {children}
     </Scrollbars>
