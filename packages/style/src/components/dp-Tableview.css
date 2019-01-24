@@ -55,6 +55,12 @@
   display: flex;
 }
 
+.dp-Tableview .dp-TableItem .dp-Icon {
+  background-position: 50% 70%;
+  height: 15px;
+  width: 15px;
+}
+
 .dp-TableSubject, .dp-TableLabels, .dp-TableUser {
   width: 240px;
 }
@@ -77,6 +83,7 @@
 }
 
 .dp-Tableview .dp-Table-title {
+  padding: 6px 13px;
   text-transform: uppercase;
 }
 
@@ -263,6 +270,10 @@
   border-bottom: 1px solid var(--grey-light);
   color: var(--grey-darkest);
   font: var(--p-n-semibold);
+}
+
+.dp-TableRow.dp-TableControl:hover {
+  background-color: transparent;
 }
 
 .dp-TableRow .dp-SubjectItem {

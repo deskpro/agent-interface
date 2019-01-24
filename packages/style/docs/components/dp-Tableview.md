@@ -217,7 +217,7 @@ title: Tableview
                 <span class="dp-Icon dp-arrowGroup"></span>
             </div>
 
-            <div class="dp-TableItem">
+            <div class="dp-TableItem is-item-draggable">
                 Department
                 <span class="dp-Icon dp-arrowGroup"></span>
             </div>
@@ -3506,7 +3506,7 @@ title: Tableview
                 <span class="dp-Icon dp-arrowGroup"></span>
             </div>
 
-            <div class="dp-TableItem">
+            <div class="dp-TableItem is-item-draggable">
                 Department
                 <span class="dp-Icon dp-arrowGroup"></span>
             </div>
@@ -6781,7 +6781,7 @@ title: Tableview
                 <span class="dp-Icon dp-arrowGroup"></span>
             </div>
 
-            <div class="dp-TableItem">
+            <div class="dp-TableItem is-item-draggable">
                 Department
                 <span class="dp-Icon dp-arrowGroup"></span>
             </div>
