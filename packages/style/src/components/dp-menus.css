@@ -11,7 +11,7 @@
   display: none;
   left: 0;
   list-style-type: none;
-  padding: 5px 0;
+  padding: 5px 1px;
   position: absolute;
   top: calc(100% + 5px);
   white-space: nowrap;
@@ -484,7 +484,7 @@
 .dp-Menu .dp-Menu-linkItem:hover > .dp-Menu {
   border-top-left-radius: 0;
   display: block;
-  left: 100%;
+  left: calc(100% + 1px);
   top: 0;
 }
 

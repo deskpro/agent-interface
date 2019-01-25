@@ -1,5 +1,5 @@
 ---
-title: List Pane
+title: List View
 ---
 
 ## listpane/tickets
