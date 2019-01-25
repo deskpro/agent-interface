@@ -732,7 +732,7 @@ title: List View
 
     <span class="dp-MassSelectTitle">
         <span class="dp-ItemRow">
-            <span class="dp-CustomCheckbox">
+            <span class="dp-CustomCheckbox dp-EmptyCheckbox dp-SelectedCheckbox">
                 <input type="checkbox" class="dp-ControlInput" id="listpaneCheckbox0" checked="checked"></input>
                 <label for="listpaneCheckbox0" class="dp-Input-arrow"></label>
 
@@ -741,6 +741,7 @@ title: List View
                 <ul class="dp-Menu is-visible">
                     <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Uncheck all</a></li>
                     <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Select all</a></li>
+                    <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Invert</a></li>
                 </ul>
             </span>
 
@@ -1811,170 +1812,7 @@ title: List View
 </form>
 ```
 
-
-```html @preview
-<form>
-    <ul class="dp-CardList is-hoverable">
-
-        <li class="dp-Card-SectionTitle dp-General-Articles">
-            <span>GENERAL ARTICLES</span>
-        </li>
-
-        <!-- 1 -->
-        <li class="dp-Card dp-Level">
-            <span class="dp-LevelCol">
-                <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="settings-cog-6"></input>
-                    <label for="settings-cog-6"></label>
-                </span>
-            </span>
-
-            <span class="dp-LevelCol">
-                <span class="dp-Card-title">Portal disabled landing message</span>
-
-                <ul class="dp-LevelWrap">
-                    <li>
-                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                        <span class="dp-UserName">Kenneth James</span>
-                    </li>
-                    <li>
-                        <span class="dp-Icon dp-group"></span>
-                        <span class="dp-date">3rd November 2018</span>
-                    </li>
-                </ul>
-            </span>
-
-            <span class="dp-LevelCol dp-LevelRight dp-LevelTop">
-                <span class="dp-TimeStatus">
-                    <span class="dp-Tag Tag--small Tag--success">Published</span>
-                </span>
-            </span>
-
-            <!-- Icon hover -->
-            <span class="dp-Cog">
-                <span class="dp-Icon dp-settings"></span>
-                <ul class="dp-Menu">
-                    <li class="dp-Menu-linkItem">
-                        <span class="dp-Icon dp-iconInsert-Link"></span>
-                        <a href="#" class="dp-Menu-link">
-                            Insert link
-                        </a>
-                    </li>
-                    <li class="dp-Menu-linkItem">
-                        <span class="dp-Icon dp-iconInsert"></span>
-                        <a href="#" class="dp-Menu-link">
-                            Insert into ticket
-                        </a>
-                    </li>
-                </ul>
-            </span>
-
-        </li>
-
-        <!-- 2 -->
-        <li class="dp-Card dp-Level">
-            <span class="dp-LevelCol">
-                <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="settings-cog-7"></input>
-                    <label for="settings-cog-7"></label>
-                </span>
-            </span>
-
-            <span class="dp-LevelCol">
-                <span class="dp-Card-title">Creating effective new ticket contact forms</span>
-
-                <ul class="dp-LevelWrap">
-                    <li>
-                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                        <span class="dp-UserName">Kenneth James</span>
-                    </li>
-                    <li>
-                        <span class="dp-Icon dp-group"></span>
-                        <span class="dp-date">3rd November 2018</span>
-                    </li>
-                </ul>
-            </span>
-
-            <span class="dp-LevelCol dp-LevelRight dp-LevelTop">
-                <span class="dp-TimeStatus">
-                    <span class="dp-Tag Tag--small Tag--success">Published</span>
-                </span>
-            </span>
-
-            <!-- Icon hover -->
-            <span class="dp-Cog">
-                <span class="dp-Icon dp-settings"></span>
-                <ul class="dp-Menu">
-                    <li class="dp-Menu-linkItem">
-                        <span class="dp-Icon dp-iconInsert-Link"></span>
-                        <a href="#" class="dp-Menu-link">
-                            Insert link
-                        </a>
-                    </li>
-                    <li class="dp-Menu-linkItem">
-                        <span class="dp-Icon dp-iconInsert"></span>
-                        <a href="#" class="dp-Menu-link">
-                            Insert into ticket
-                        </a>
-                    </li>
-                </ul>
-            </span>
-        </li>
-
-        <!-- 3 -->
-        <li class="dp-Card dp-Level is-active">
-            <span class="dp-LevelCol">
-                <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="settings-cog-8"></input>
-                    <label for="settings-cog-8"></label>
-                </span>
-            </span>
-            <span class="dp-LevelCol">
-                <span class="dp-Card-title">Inventory component</span>
-
-                <ul class="dp-LevelWrap">
-                    <li>
-                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                        <span class="dp-UserName">Kenneth James</span>
-                    </li>
-                    <li>
-                        <span class="dp-Icon dp-group"></span>
-                        <span class="dp-date">3rd November 2018</span>
-                    </li>
-                </ul>
-            </span>
-            <span class="dp-LevelCol dp-LevelRight dp-LevelBottom">
-                <span class="dp-TimeStatus">
-                    <span class="dp-Tag Tag--small Tag--disabled">Archived</span>
-                </span>
-            </span>
-            <!-- Icon hover -->
-            <span class="dp-Cog">
-                <span class="dp-Icon dp-settings is-active"></span>
-                <ul class="dp-Menu">
-                    <li class="dp-Menu-linkItem">
-                        <span class="dp-Icon dp-iconInsert-Link"></span>
-                        <a href="#" class="dp-Menu-link">
-                            Insert link
-                        </a>
-                    </li>
-                    <li class="dp-Menu-linkItem">
-                        <span class="dp-Icon dp-iconInsert"></span>
-                        <a href="#" class="dp-Menu-link">
-                            Insert into ticket
-                        </a>
-                    </li>
-                </ul>
-            </span>
-        </li>
-
-    </ul>
-</form>
-```
-
-<!-- COMMENTS -->
-
-## Cards/comments
+## Listview/comments
 
 ```html @preview
 <div class="dp-MainWrapper">
