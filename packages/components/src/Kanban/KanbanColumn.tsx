@@ -27,7 +27,7 @@ const KanbanColumn: React.FC<KanbanColumnProps> = ({
     <div className={classNames("dp-Kanban-column", className)} style={style}>
       <div className="dp-Kanban-columnTitle">{title}</div>
       <ScrollArea
-        style={{ height: "calc(100% - 35px)", width: "100%" }}
+        className="dp-Kanban-columnContent"
         threshold={scrollThreshold}
         onTresholdReach={onThresholdReach}
       >

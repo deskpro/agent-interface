@@ -1,7 +1,7 @@
 import * as React from "react";
 import classNames from "classnames";
 
-import "@deskpro/agent-interface-style/dist/elements/dp-menus.css";
+import "@deskpro/agent-interface-style/dist/components/dp-menus.css";
 import MenuItem from "./MenuItem";
 import MenuSearchItem from "./MenuSearch";
 
