@@ -1,0 +1,91 @@
+@import "../fonts.css";
+@import "../vars.css";
+@import "../dp-Arrow.css";
+
+.dp-Groupe-container {
+  border-bottom: 1px solid var(--grey-light);
+  border-top: 1px solid var(--grey-light);
+  display: block;
+  padding: 10px 0 0;
+  width: 100%;
+}
+
+.dp-Groupe-items {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 375px;
+}
+
+.dp-Groupe-items > .Badge--groupe-filter {
+  margin: 0 10px 10px 0;
+}
+
+.dp-Groupe-container .Badge--groupe-filter:hover {
+  border: 1px solid var(--brand-primary);
+}
+
+.Badge--groupe-filter .dp-Num {
+  color: var(--brand-primary);
+  margin-left: 5px;
+}
+
+.Badge--groupe-filter .dp-Menu {
+  min-width: 125px;
+}
+
+.Badge--groupe-filter .dp-Menu li {
+  display: flex;
+  margin: 0 5px;
+}
+
+.Badge--groupe-filter .dp-Menu li + li {
+  margin-top: 0.25rem;
+}
+
+.Badge--groupe-filter .dp-Menu .dp-Icon.Icon--enter {
+  background-size: 12px 12px;
+  height: 12px;
+  width: 12px;
+}
+
+.Badge--groupe-filter .is-active.dp-Arrow::after {
+  border-color: var(--brand-primary) transparent transparent transparent;
+}
+
+.Badge--groupe-filter .is-active.dp-Arrow .dp-Menu .dp-Arrow::after {
+  border-color: var(--brand-primary) transparent transparent transparent;
+  border-width: 4px 4px 0 4px;
+}
+
+.Badge--groupe-filter .dp-Menu .dp-SubList {
+  list-style: none;
+  padding: 0;
+}
+
+.Badge--groupe-filter .dp-Menu {
+  top: calc(100% + 10px);
+}
+
+.dp-Groupe-list {
+  flex-direction: column;
+}
+
+.dp-Groupe-item {
+  display: flex;
+}
+
+.dp-Group-sublist {
+  margin-top: 10px;
+  padding-left: 12px;
+}
+
+.dp-Num-extended {
+  align-items: center;
+  background-color: var(--white);
+  border-left: 1px solid var(--grey);
+  color: var(--grey);
+  display: flex;
+  font: var(--p-n-semibold);
+  height: 100%;
+  margin-left: 5px;
+}

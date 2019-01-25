@@ -4,6 +4,7 @@
 /* badges */
 
 .dp-Badge {
+  align-items: center;
   border-radius: 2px;
   color: var(--grey-dark);
   cursor: pointer;
@@ -112,6 +113,20 @@
   &.Badge--white {
     background-color: var(--white);
     color: #4e4d4d;
+  }
+
+  /* Badge Group of Fields */
+
+  &.Badge--extended {
+    padding: 0 0 0 5px;
+  }
+
+  &.Badge--groupe-filter {
+    background-color: var(--grey-lighter);
+    border: 1px solid var(--grey-light);
+    display: flex;
+    position: relative;
+    text-transform: uppercase;
   }
 
   /* Badge--round */

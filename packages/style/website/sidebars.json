@@ -22,7 +22,8 @@
       "components/dp-Sidebar-Overlay",
       "components/dp-Appsbar",
       "components/dp-Orderingbar",
-      "components/dp-Tableview"
+      "components/dp-Tableview",
+      "components/dp-GroupedFields"
     ],
     "Elements": [
       "elements/dp-Icons",
