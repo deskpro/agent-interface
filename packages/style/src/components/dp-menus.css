@@ -33,8 +33,7 @@
   background-color: var(--brand-primary);
   color: var(--white);
   font: var(--p-l);
-  margin-bottom: 5px;
-  margin-top: -5px;
+  margin: -5px -1px 5px;
   padding: 8px 10px;
 }
 

@@ -22,6 +22,7 @@
       "components/dp-Sidebar-Overlay",
       "components/dp-Appsbar",
       "components/dp-Orderingbar",
+      "components/dp-SettingsCog",
       "components/dp-Tableview",
       "components/dp-GroupedFields"
     ],

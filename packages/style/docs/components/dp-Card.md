@@ -559,3 +559,228 @@ title: Card
     </form>
 </div>
 ```
+
+<h2>Cards/listreveal</h2>
+```html @preview
+<div class="dp-MainWrapper">
+    <form>
+        <ul class="dp-CardList">
+            <li class="dp-Card dp-Level dp-listreveal">
+
+                <span class="dp-LevelItem dp-LevelCol dp-LevelTop">
+                    <span class="dp-CustomCheckbox">
+                        <input type="checkbox" class="dp-ControlInput" id="listreveal-0"></input>
+                        <label for="listreveal-0"></label>
+                    </span>
+                </span>
+
+                <span class="dp-LevelCol">
+                    <span class="dp-Card-title">Card title here</span>
+                    <span class="dp-UserInfo">
+                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                        <span class="dp-UserName">Single-line item</span>
+                    </span>
+
+                    <ul class="dp-TagWrap">
+                        <li class="dp-Tag Tag--small Tag--info-light">a: value</li>
+                        <li class="dp-Tag Tag--small Tag--neutral-light">b: value</li>
+                        <li class="dp-Tag Tag--small Tag--info-light">c: value</li>
+                        <li>
+                            <button class="dp-Arrow dp-Comments-title is-active"></button>
+                            <ul class="dp-Comments">
+                                <li>
+                                    <span class="dp-Tag Tag--small Tag--info-light">a: value</span>
+                                    <span class="dp-description">Description text</span>
+                                </li>
+                                <li>
+                                    <span class="dp-Tag Tag--small Tag--neutral-light">b: value</span>
+                                    <span class="dp-description">Description text</span>
+                                </li>
+                                <li>
+                                    <span class="dp-Tag Tag--small Tag--info-light">c: value</span>
+                                    <span class="dp-description">Description text</span>
+                                </li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </span>
+            </li>
+        </ul>
+    </form>
+</div>
+```
+
+<h2>Card/misc<h2>
+<h4>Cards/feedback</h4>
+```html @preview
+<div class="dp-MainWrapper">
+    <ul class="dp-CardList">
+        <li class="dp-Card dp-Level">
+            <span class="dp-LevelItem">
+
+                <span class="dp-LevelCol dp-LevelTop">
+                    <span class="dp-CustomCheckbox">
+                        <input type="checkbox" class="dp-ControlInput" id="cards-feedback-1"></input>
+                        <label for="cards-feedback-1"></label>
+                    </span>
+                </span>
+
+                <span class="dp-LevelCol">
+                    <span class="dp-Title Title-Icon">
+                        <ul class="dp-vote">
+                            <li>38</li>
+                            <li>votes</li>
+                        </ul>
+                        <span class="dp-Card-title">Feedback title here</span>
+                    </span>
+
+                    <ul class="dp-LevelWrap">
+                        <li>
+                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                            <span class="dp-UserName">Toby falkirk</span>
+                        </li>
+                        <li>
+                            <span class="dp-Icon dp-group"></span>
+                            <span class="dp-UserName dp-date">23/11/18</span>
+                        </li>
+                    </ul>
+                </span>
+
+                <span class="dp-LevelCol dp-LevelRight dp-LevelBottom">
+                    <span class="dp-TimeStatus">
+                        <span class="dp-Tag Tag--small Tag--neutral">Feature request</span>
+                    </span>
+                </span>
+            </span>
+        </li>
+    </ul>
+</div>
+```
+
+<h4>Cards/news</h4>
+```html @preview
+<div class="dp-MainWrapper">
+    <ul class="dp-CardList">
+        <li class="dp-Card dp-Level Card-news">
+            <span class="dp-LevelItem">
+
+                <span class="dp-LevelCol dp-LevelTop">
+                    <span class="dp-CustomCheckbox">
+                        <input type="checkbox" class="dp-ControlInput" id="cards-feedback-2"></input>
+                        <label for="cards-feedback-2"></label>
+                    </span>
+                </span>
+
+                <span class="dp-LevelCol">
+                    <ul class="dp-calendar">
+                        <li>Nov</li>
+                        <li>18</li>
+                    </ul>
+                </span>
+
+                <span class="dp-LevelCol">
+                    <span class="dp-Card-title">News item title here</span>
+                    <ul class="dp-LevelWrap">
+                        <li>
+                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                            <span class="dp-UserName">Toby falkirk</span>
+                        </li>
+                    </ul>
+                </span>
+
+                <span class="dp-LevelCol dp-LevelRight dp-LevelBottom">
+                    <span class="dp-TimeStatus">
+                        <span class="dp-Tag Tag--small Tag--grey">Draft</span>
+                    </span>
+                </span>
+            </span>
+        </li>
+    </ul>
+</div>
+```
+
+<h4>Cards/download</h4>
+```html @preview
+<div class="dp-MainWrapper">
+    <ul class="dp-CardList">
+        <li class="dp-Card dp-Level">
+            <span class="dp-LevelItem">
+
+                <span class="dp-LevelCol dp-LevelTop">
+                    <span class="dp-CustomCheckbox">
+                        <input type="checkbox" class="dp-ControlInput" id="cards-feedback-3"></input>
+                        <label for="cards-feedback-3"></label>
+                    </span>
+                </span>
+
+                <span class="dp-LevelCol">
+                    <span class="dp-Title Title-Icon">
+                        <span class="dp-Icon dp-Acrobat"></span>
+                        <span class="dp-Card-title">Feedback_guide.pdf <span class="dp-qt">(56kb)</span></span>
+                    </span>
+
+                    <ul class="dp-LevelWrap">
+                        <li>
+                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                            <span class="dp-UserName">Toby falkirk</span>
+                        </li>
+                        <li>
+                            <span class="dp-Icon dp-group"></span>
+                            <span class="dp-UserName dp-date">23/11/18</span>
+                        </li>
+                    </ul>
+                </span>
+
+                <span class="dp-LevelCol dp-LevelRight dp-LevelBottom">
+                    <span class="dp-TimeStatus">
+                        <span class="dp-Tag Tag--small Tag--brand-primary">Download</span>
+                    </span>
+                </span>
+            </span>
+        </li>
+    </ul>
+</div>
+```
+
+<h4>Cards/glossary</h4>
+```html @preview
+<form>
+    <ul class="dp-CardList">
+        <li class="dp-Card dp-Level">
+            <span class="dp-LevelCol">
+                <span class="dp-CustomCheckbox">
+                    <input type="checkbox" class="dp-ControlInput" id="glossary-1"></input>
+                    <label for="glossary-1"></label>
+                </span>
+            </span>
+
+            <span class="dp-LevelCol">
+                <span class="dp-Card-title">@mention</span>
+                <span class="dp-Card-description">
+                    Android infographic innovator infrastructure termsheet disruptive stealth responsive web design ramen gamification metrics.
+                </span>
+            </span>
+
+            <!-- Icon hover -->
+            <span class="dp-Cog">
+                <span class="dp-Icon dp-settings is-active"></span>
+                <ul class="dp-Menu">
+                    <li class="dp-Menu-linkItem">
+                        <span class="dp-Icon dp-Bin"></span>
+                        <a href="#" class="dp-Menu-link">
+                            Delete
+                        </a>
+                    </li>
+                    <li class="dp-Menu-linkItem">
+                        <span class="dp-Icon Icon--edit"></span>
+                        <a href="#" class="dp-Menu-link">
+                            Edit
+                        </a>
+                    </li>
+                </ul>
+            </span>
+        </li>
+    </ul>
+</form>
+```
