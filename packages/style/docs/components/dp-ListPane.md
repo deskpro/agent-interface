@@ -728,11 +728,11 @@ title: List View
 
 <h2>Listview/mass-select</h2>
 ```html @preview
-<form class="dp-MassSelect newControlsList">
+<form class="dp-MassSelect newControlsList select-checkbox">
 
     <span class="dp-MassSelectTitle">
         <span class="dp-ItemRow">
-            <span class="dp-CustomCheckbox dp-EmptyCheckbox dp-SelectedCheckbox">
+            <span class="dp-CustomCheckbox dp-EmptyCheckbox">
                 <input type="checkbox" class="dp-ControlInput" id="listpaneCheckbox0" checked="checked"></input>
                 <label for="listpaneCheckbox0" class="dp-Input-arrow"></label>
 
