@@ -251,6 +251,12 @@
     padding: 0;
   }
 
+  &.Button--cancel {
+    background-color: var(--grey-light);
+    border: 1px solid var(--grey-light);
+    color: var(--grey-darkest);
+  }
+
 }
 
 .dp-Button .dp-Icon {

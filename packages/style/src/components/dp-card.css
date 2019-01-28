@@ -236,7 +236,7 @@
 .dp-Listpane-guides .dp-Card .dp-iconUserAvatar + .dp-iconUserAvatar {
   background-color: var(--white);
   border-radius: 50%;
-  margin-left: -5px;
+  margin-left: -7px;
   padding: 10px;
 }
 
@@ -393,4 +393,163 @@
   background-size: 12px 12px;
   max-height: 12px;
   max-width: 12px;
+}
+
+/* Card Guides */
+
+.dp-CardList.dp-GuidesDirectory .dp-Card,
+.dp-CardList.dp-GuideSections .dp-Card {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dp-GuidesDirectory .dp-Card .dp-TitleGroupe {
+  align-items: center;
+  display: flex;
+}
+
+.dp-IconGroup .dp-IconJump {
+  background-size: 7px 9px;
+  height: 15px;
+  width: 7px;
+}
+
+.dp-CardList.dp-GuidesDirectory .dp-IconGroup,
+.dp-Card .dp-TitleGroupe .dp-Card-title,
+.dp-CardList.dp-GuideSections .dp-IconGroup {
+  margin: 0;
+}
+
+.dp-GuidesDirectory .dp-TitleGroupe .dp-Icon {
+  background-color: var(--info-light);
+  border-radius: 50%;
+  height: 30px;
+  margin-right: 10px;
+  width: 30px;
+}
+
+.is-rolling {
+  background-color: var(--info-light);
+}
+
+.dp-GuidesDirectory .dp-IconGroup {
+  display: none;
+}
+
+.dp-GuidesDirectory .is-rolling .dp-IconGroup {
+  display: flex;
+}
+
+.dp-GuidesDirectory .is-rolling .dp-TitleGroupe .dp-Icon {
+  background-color: var(--white);
+}
+
+.dp-GuidesDirectory .dp-Card .dp-settings,
+.dp-GuideSections .dp-Card .dp-settings {
+  background-color: transparent;
+  border: 0;
+  height: 13px;
+  margin: 0;
+  width: 13px;
+}
+
+.dp-GuidesDirectory .Icon--home {
+  background-position: 0 50%;
+  height: 15px;
+  width: 15px;
+}
+
+.dp-CardList.dp-GuidesDirectory .dp-Card:hover,
+.dp-CardList.dp-GuideSections .dp-Card:hover {
+  background-color: inherit;
+  border-right: 1px solid transparent;
+}
+
+.dp-CardList.dp-GuidesDirectory .is-rolling.dp-Card:hover {
+  background-color: var(--info-light);
+}
+
+.dp-bread-crumbs {
+  border-top: 1px solid var(--brand-primary);
+}
+
+.dp-bread-crumbs,
+.dp-GuidesDirectory .dp-Card.dp-bread-crumbs:hover {
+  background-color: var(--grey-lightest);
+}
+
+.dp-bread-crumbs > span {
+  cursor: pointer;
+  position: relative;
+}
+
+.dp-Card .dp-Icon {
+  cursor: pointer;
+}
+
+.dp-bread-crumbs > span::before {
+  background-color: var(--grey);
+  content: "";
+  display: block;
+  height: 5px;
+  position: absolute;
+  right: 0;
+  top: 4px;
+  transform: rotate(-45deg);
+  width: 1px;
+}
+
+.dp-bread-crumbs > span::after {
+  background-color: var(--grey);
+  bottom: 3px;
+  content: "";
+  display: block;
+  height: 5px;
+  position: absolute;
+  right: 0;
+  transform: rotate(45deg);
+  width: 1px;
+}
+
+/* Guide sections */
+
+.dp-GuideSections .dp-Card.is-dragging {
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
+  box-shadow: none;
+}
+
+.dp-GuideSections .dp-Card.is-dragging .dp-Card-title {
+  color: var(--brand-primary);
+}
+
+.dp-GuideSections .dp-Card .dp-IconGroup {
+  display: none;
+}
+
+.dp-GuideSections .dp-Card.is-dragging .dp-IconGroup {
+  display: flex;
+}
+
+/* dp-Listpane-guides */
+
+.dp-Listpane-guides .dp-Cog:hover > .dp-Menu,
+.dp-Listpane-guides .Card--primary .dp-Cog {
+  display: block;
+}
+
+.dp-Listpane-guides .dp-Cog > .dp-Menu {
+  margin-left: 4px;
+  margin-top: 2px;
+  padding: 10px 0;
+}
+
+.dp-Listpane-guides .dp-Menu .dp-Menu-title {
+  background-color: transparent;
+  color: var(--grey-darkest);
+  padding-bottom: 0;
+}
+
+.dp-Listpane-guides .dp-Menu .dp-ButtonWrapper {
+  padding: 8px 10px;
 }
