@@ -13,6 +13,7 @@ export { default as RadioGroup } from "./inputs/Radio/RadioGroup";
 export { default as Card } from "./ListPane/Card/Card";
 
 export { default as Kanban } from "./Kanban/Kanban";
+export { default as StandardKanban } from "./Kanban/StandardKanban";
 export { default as ScrollArea } from "./ScrollArea/ScrollArea";
 
 export { default as UserInfo } from "./User/UserInfo/UserInfo";

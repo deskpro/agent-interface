@@ -75,7 +75,7 @@ const CardKanban = ({ action }) => {
 
   return (
     <div style={{ height: "100vh", width: "100vw" }}>
-      <Kanban className="dp-Kanban--tasks" draggable onDragEnd={onDragEnd}>
+      <Kanban className="Kanban--cards" draggable onDragEnd={onDragEnd}>
         {Object.keys(cards).map(column => (
           <Kanban.Column
             key={column}

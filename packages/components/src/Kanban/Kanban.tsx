@@ -15,7 +15,7 @@ export type KanbanProps = {
   className?: string;
   style?: object;
   draggable?: boolean;
-  onDragEnd?: () => void;
+  onDragEnd?: (result: any) => void;
 };
 
 export type KanbanContextType = {

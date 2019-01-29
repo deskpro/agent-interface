@@ -79,6 +79,6 @@
   padding: 10px;
 }
 
-.dp-Kanban.dp-Kanban--tasks .dp-CardList {
+.dp-Kanban.Kanban--cards .dp-CardList {
   width: calc(100% - 10px);
 }
