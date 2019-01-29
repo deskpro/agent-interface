@@ -1,7 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import { Kanban } from "@deskpro/agent-interface-components";
+import {
+  Kanban,
+  Card,
+  UserInfo,
+  Menu
+} from "@deskpro/agent-interface-components";
 
 const columns = ["Backlog", "Started", "In Progress", "Review", "QA", "Closed"];
 
@@ -65,28 +70,12 @@ function useKanbanDragging() {
   return { cards, onDragEnd };
 }
 
-const Card = ({ children }) => (
-  <div
-    style={{
-      height: "50px",
-      border: "1px solid #ddd",
-      backgroundColor: "#eee",
-      display: "flex",
-      justifyContent: "center",
-      alignItems: "center",
-      textAlign: "center"
-    }}
-  >
-    {children}
-  </div>
-);
-
-const SimpleKanban = ({ action }) => {
+const CardKanban = ({ action }) => {
   const { cards, onDragEnd } = useKanbanDragging();
 
   return (
     <div style={{ height: "100vh", width: "100vw" }}>
-      <Kanban className="Kanban--demo" draggable onDragEnd={onDragEnd}>
+      <Kanban className="dp-Kanban--tasks" draggable onDragEnd={onDragEnd}>
         {Object.keys(cards).map(column => (
           <Kanban.Column
             key={column}
@@ -96,11 +85,30 @@ const SimpleKanban = ({ action }) => {
               `scroll reached threshold for column ${column}`
             )}
           >
-            {cards[column].map((card, idx) => (
-              <Kanban.Item key={card} itemId={card} index={idx}>
-                <Card>{card}</Card>
-              </Kanban.Item>
-            ))}
+            <Card.List hoverable>
+              {cards[column].map((title, idx) => (
+                <Kanban.Item key={title} itemId={title} index={idx}>
+                  <Card.TicketCard
+                    model={{ id: idx, title }}
+                    checkable
+                    onCheck={action("click 11")}
+                    renderBody={() => (
+                      <UserInfo
+                        avatar
+                        name="John Doe"
+                        email="john.doe@deskpro.com"
+                      />
+                    )}
+                    statusLabel="1h 25 min"
+                    cogMenu={
+                      <Menu>
+                        <Menu.MenuItem key="bin" icon="bin" text="Delete" />
+                      </Menu>
+                    }
+                  />
+                </Kanban.Item>
+              ))}
+            </Card.List>
           </Kanban.Column>
         ))}
       </Kanban>
@@ -108,8 +116,8 @@ const SimpleKanban = ({ action }) => {
   );
 };
 
-SimpleKanban.propTypes = {
+CardKanban.propTypes = {
   action: PropTypes.func.isRequired
 };
 
-export default SimpleKanban;
+export default CardKanban;
