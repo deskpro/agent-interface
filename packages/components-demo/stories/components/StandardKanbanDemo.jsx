@@ -39,6 +39,7 @@ const kanbanReducer = produce((draft, { type, payload }) => {
       destDataItem.items.splice(index, 0, moved);
       break;
     }
+
     case "loadMore": {
       const item = draft.find(i => i.group.id === payload.id);
       if (item) {
@@ -57,6 +58,7 @@ const kanbanReducer = produce((draft, { type, payload }) => {
     default:
       break;
   }
+  // this is added because of linter to not complain that no return statement found.
   return undefined;
 });
 
