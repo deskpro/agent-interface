@@ -1751,7 +1751,7 @@ title: Card
         </li> <!-- 2-3-4 -->
 
         <!-- 5 -->
-        <li class="dp-Card dp-Level is-active">
+        <li class="dp-Card dp-Level">
             <span class="dp-LevelCol dp-LevelTop">
                 <span class="dp-Icon dp-drag"></span>
             </span>
@@ -1765,6 +1765,11 @@ title: Card
                 </span>
             </span>
 
+            <span class="dp-LevelCol dp-LevelRight dp-LevelTop">
+                <span class="dp-IconGroup">
+                    <span class="dp-Icon Icon--down-caret Icon--primary"></span>
+                </span>
+            </span>
             <!-- Icon hover -->
             <span class="dp-Cog">
                 <span class="dp-Icon dp-settings"></span>
