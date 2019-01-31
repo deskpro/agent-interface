@@ -1189,7 +1189,7 @@ title: Card
 
                 <!-- dropdown -->
                 <ul class="dp-Menu">
-                    <li class="dp-Menu-linkItem is-active">
+                    <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">Move<span class="dp-Icon dp-Arrow"></span></a>
                         <ul class="dp-Menu Menu-tick">
                             <li class="dp-Menu-title">
@@ -1241,6 +1241,8 @@ title: Card
                         </ul>
                     </li>
 
+                    <li class="dp-DropdownDivider"></li>
+
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
                         <ul class="dp-Menu Menu-tick">
@@ -1264,6 +1266,8 @@ title: Card
                             </li>
                         </ul>
                     </li>
+
+                    <li class="dp-DropdownDivider"></li>
 
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
@@ -1332,7 +1336,7 @@ title: Card
 
                         <!-- dropdown -->
                         <ul class="dp-Menu">
-                            <li class="dp-Menu-linkItem is-active">
+                            <li class="dp-Menu-linkItem">
                                 <a href="" class="dp-listItem">Move<span class="dp-Icon dp-Arrow"></span></a>
                                 <ul class="dp-Menu Menu-tick">
                                     <li class="dp-Menu-title">
@@ -1384,6 +1388,8 @@ title: Card
                                 </ul>
                             </li>
 
+                            <li class="dp-DropdownDivider"></li>
+
                             <li class="dp-Menu-linkItem">
                                 <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
                                 <ul class="dp-Menu Menu-tick">
@@ -1407,6 +1413,8 @@ title: Card
                                     </li>
                                 </ul>
                             </li>
+
+                            <li class="dp-DropdownDivider"></li>
 
                             <li class="dp-Menu-linkItem">
                                 <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
@@ -1478,7 +1486,7 @@ title: Card
 
                         <!-- dropdown -->
                         <ul class="dp-Menu">
-                            <li class="dp-Menu-linkItem is-active">
+                            <li class="dp-Menu-linkItem">
                                 <a href="" class="dp-listItem">Move<span class="dp-Icon dp-Arrow"></span></a>
                                 <ul class="dp-Menu Menu-tick">
                                     <li class="dp-Menu-title">
@@ -1530,6 +1538,8 @@ title: Card
                                 </ul>
                             </li>
 
+                            <li class="dp-DropdownDivider"></li>
+
                             <li class="dp-Menu-linkItem">
                                 <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
                                 <ul class="dp-Menu Menu-tick">
@@ -1553,6 +1563,8 @@ title: Card
                                     </li>
                                 </ul>
                             </li>
+
+                            <li class="dp-DropdownDivider"></li>
 
                             <li class="dp-Menu-linkItem">
                                 <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
@@ -1680,6 +1692,8 @@ title: Card
                                         </ul>
                                     </li>
 
+                                    <li class="dp-DropdownDivider"></li>
+
                                     <li class="dp-Menu-linkItem">
                                         <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
                                         <ul class="dp-Menu Menu-tick">
@@ -1703,6 +1717,8 @@ title: Card
                                             </li>
                                         </ul>
                                     </li>
+
+                                    <li class="dp-DropdownDivider"></li>
 
                                     <li class="dp-Menu-linkItem">
                                         <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
@@ -1776,7 +1792,7 @@ title: Card
 
                 <!-- dropdown -->
                 <ul class="dp-Menu">
-                    <li class="dp-Menu-linkItem is-active">
+                    <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">Move<span class="dp-Icon dp-Arrow"></span></a>
                         <ul class="dp-Menu Menu-tick">
                             <li class="dp-Menu-title">
@@ -1828,6 +1844,8 @@ title: Card
                         </ul>
                     </li>
 
+                    <li class="dp-DropdownDivider"></li>
+
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
                         <ul class="dp-Menu Menu-tick">
@@ -1851,6 +1869,8 @@ title: Card
                             </li>
                         </ul>
                     </li>
+
+                    <li class="dp-DropdownDivider"></li>
 
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
@@ -1921,7 +1941,7 @@ title: Card
 
                 <!-- dropdown -->
                 <ul class="dp-Menu">
-                    <li class="dp-Menu-linkItem is-active">
+                    <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">Move<span class="dp-Icon dp-Arrow"></span></a>
                         <ul class="dp-Menu Menu-tick">
                             <li class="dp-Menu-title">
@@ -1973,6 +1993,8 @@ title: Card
                         </ul>
                     </li>
 
+                    <li class="dp-DropdownDivider"></li>
+
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
                         <ul class="dp-Menu Menu-tick">
@@ -1996,6 +2018,8 @@ title: Card
                             </li>
                         </ul>
                     </li>
+
+                    <li class="dp-DropdownDivider"></li>
 
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
@@ -2070,7 +2094,7 @@ title: Card
 
                         <!-- dropdown -->
                         <ul class="dp-Menu">
-                            <li class="dp-Menu-linkItem is-active">
+                            <li class="dp-Menu-linkItem">
                                 <a href="" class="dp-listItem">Move<span class="dp-Icon dp-Arrow"></span></a>
                                 <ul class="dp-Menu Menu-tick">
                                     <li class="dp-Menu-title">
@@ -2122,6 +2146,8 @@ title: Card
                                 </ul>
                             </li>
 
+                            <li class="dp-DropdownDivider"></li>
+
                             <li class="dp-Menu-linkItem">
                                 <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
                                 <ul class="dp-Menu Menu-tick">
@@ -2145,6 +2171,8 @@ title: Card
                                     </li>
                                 </ul>
                             </li>
+
+                            <li class="dp-DropdownDivider"></li>
 
                             <li class="dp-Menu-linkItem">
                                 <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
@@ -2213,7 +2241,7 @@ title: Card
 
                                 <!-- dropdown -->
                                 <ul class="dp-Menu">
-                                    <li class="dp-Menu-linkItem is-active">
+                                    <li class="dp-Menu-linkItem">
                                         <a href="" class="dp-listItem">Move<span class="dp-Icon dp-Arrow"></span></a>
                                         <ul class="dp-Menu Menu-tick">
                                             <li class="dp-Menu-title">
@@ -2265,6 +2293,8 @@ title: Card
                                         </ul>
                                     </li>
 
+                                    <li class="dp-DropdownDivider"></li>
+
                                     <li class="dp-Menu-linkItem">
                                         <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
                                         <ul class="dp-Menu Menu-tick">
@@ -2288,6 +2318,8 @@ title: Card
                                             </li>
                                         </ul>
                                     </li>
+
+                                    <li class="dp-DropdownDivider"></li>
 
                                     <li class="dp-Menu-linkItem">
                                         <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
@@ -2358,7 +2390,7 @@ title: Card
 
                                 <!-- dropdown -->
                                 <ul class="dp-Menu">
-                                    <li class="dp-Menu-linkItem is-active">
+                                    <li class="dp-Menu-linkItem">
                                         <a href="" class="dp-listItem">Move<span class="dp-Icon dp-Arrow"></span></a>
                                         <ul class="dp-Menu Menu-tick">
                                             <li class="dp-Menu-title">
@@ -2410,6 +2442,8 @@ title: Card
                                         </ul>
                                     </li>
 
+                                    <li class="dp-DropdownDivider"></li>
+
                                     <li class="dp-Menu-linkItem">
                                         <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
                                         <ul class="dp-Menu Menu-tick">
@@ -2433,6 +2467,8 @@ title: Card
                                             </li>
                                         </ul>
                                     </li>
+
+                                    <li class="dp-DropdownDivider"></li>
 
                                     <li class="dp-Menu-linkItem">
                                         <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
@@ -2504,7 +2540,7 @@ title: Card
 
                                 <!-- dropdown -->
                                 <ul class="dp-Menu">
-                                    <li class="dp-Menu-linkItem is-active">
+                                    <li class="dp-Menu-linkItem">
                                         <a href="" class="dp-listItem">Move<span class="dp-Icon dp-Arrow"></span></a>
                                         <ul class="dp-Menu Menu-tick">
                                             <li class="dp-Menu-title">
@@ -2556,6 +2592,8 @@ title: Card
                                         </ul>
                                     </li>
 
+                                    <li class="dp-DropdownDivider"></li>
+
                                     <li class="dp-Menu-linkItem">
                                         <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
                                         <ul class="dp-Menu Menu-tick">
@@ -2579,6 +2617,8 @@ title: Card
                                             </li>
                                         </ul>
                                     </li>
+
+                                    <li class="dp-DropdownDivider"></li>
 
                                     <li class="dp-Menu-linkItem">
                                         <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
@@ -2645,7 +2685,7 @@ title: Card
 
                                 <!-- dropdown -->
                                 <ul class="dp-Menu">
-                                    <li class="dp-Menu-linkItem is-active">
+                                    <li class="dp-Menu-linkItem">
                                         <a href="" class="dp-listItem">Move<span class="dp-Icon dp-Arrow"></span></a>
                                         <ul class="dp-Menu Menu-tick">
                                             <li class="dp-Menu-title">
@@ -2697,6 +2737,8 @@ title: Card
                                         </ul>
                                     </li>
 
+                                    <li class="dp-DropdownDivider"></li>
+
                                     <li class="dp-Menu-linkItem">
                                         <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
                                         <ul class="dp-Menu Menu-tick">
@@ -2720,6 +2762,8 @@ title: Card
                                             </li>
                                         </ul>
                                     </li>
+
+                                    <li class="dp-DropdownDivider"></li>
 
                                     <li class="dp-Menu-linkItem">
                                         <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
@@ -2795,7 +2839,7 @@ title: Card
 
                 <!-- dropdown -->
                 <ul class="dp-Menu">
-                    <li class="dp-Menu-linkItem is-active">
+                    <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">Move<span class="dp-Icon dp-Arrow"></span></a>
                         <ul class="dp-Menu Menu-tick">
                             <li class="dp-Menu-title">
@@ -2847,6 +2891,8 @@ title: Card
                         </ul>
                     </li>
 
+                    <li class="dp-DropdownDivider"></li>
+
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
                         <ul class="dp-Menu Menu-tick">
@@ -2870,6 +2916,8 @@ title: Card
                             </li>
                         </ul>
                     </li>
+
+                    <li class="dp-DropdownDivider"></li>
 
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>

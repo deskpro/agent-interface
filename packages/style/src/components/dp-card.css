@@ -459,6 +459,7 @@
   width: 9px;
 }
 
+.dp-GuidesDirectory .dp-Card:hover .dp-IconGroup .dp-settings,
 .dp-GuidesDirectory .Icon--home svg {
   fill: var(--brand-primary);
 }
@@ -579,4 +580,9 @@
 
 .dp-Listpane-guides .dp-Menu .dp-ButtonWrapper {
   padding: 8px 10px;
+}
+
+.dp-Listpane-guides .dp-Card {
+  border: 1px solid var(--grey-light);
+  margin-top: -1px;
 }
