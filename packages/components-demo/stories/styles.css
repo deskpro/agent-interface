@@ -16,7 +16,7 @@
 }
 
 .dp-Kanban-column {
-  width: 200px;
+  width: 350px;
   height: calc(100% - 2px);
   border-right: 1px solid #bbb;
   flex-shrink: 0;
@@ -68,6 +68,17 @@
 
 .dp-Kanban-item {
   width: 100%;
-  padding: 10px;
   box-sizing: border-box;
+}
+
+.dp-Kanban.Kanban--demo .dp-Kanban-column {
+  width: 200px;
+}
+
+.dp-Kanban.Kanban--demo .dp-Kanban-item {
+  padding: 10px;
+}
+
+.dp-Kanban.Kanban--cards .dp-CardList {
+  width: calc(100% - 10px);
 }
