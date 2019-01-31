@@ -47,6 +47,7 @@ title: Card
 ```html @preview
 <div class="dp-MainWrapper">
     <form>
+
         <ul class="dp-CardList">
             <li class="dp-Card dp-Level is-hover">
 
@@ -795,11 +796,67 @@ title: Card
 <form>
     <ul class="dp-CardList dp-GuidesDirectory">
 
-        <li class="dp-Card dp-bread-crumbs">
-            <span class="dp-Icon Icon--home Icon--primary"></span>
+        <li class="dp-Breadcrumbs">
+            <span class="dp-Breadcrumbs--Item dp-Icon Icon--home Icon--primary"></span><i class="dp-Breadcrumbs--Arrow"></i>
+            <span class="dp-Breadcrumbs--Item">Admin Guide</span><i class="dp-Breadcrumbs--Arrow"></i>
+            <span class="dp-Breadcrumbs--Item is-current">Launching your helpdesk</span>
         </li>
-
-        <li class="dp-Card is-rolling">
+        <li class="dp-orderingbar--Wrap">
+            <ul class="dp-FilterControlsList newControlsList dp-orderingbar">
+                <li class="dp-ListPane dp-DropDownItem">
+                    <span class="dp-Icon dp-grouped_by"></span>
+                    <span class="dp-SelectGroup">
+                        <span class="dp-ItemRow">
+                            <span class="dp-Title">Grouped by</span>
+                            <button class="dp-Arrow"></button>
+                        </span>
+                        <span class="dp-ItemRow">
+                            <span class="dp-Subtitle">None</span>
+                        </span>
+                    </span>
+                </li>
+                <li class="dp-ListPane dp-DropDownItem">
+                    <div class="dp-SortIconDescription">
+                        <span class="dp-Icon dp-sort"></span>
+                        <span class="dp-SortDescription">DSC</span>
+                    </div>
+                    <span class="dp-SelectGroup">
+                        <span class="dp-ItemRow">
+                            <span class="dp-Title">Sort by</span>
+                            <button class="dp-Arrow"></button>
+                        </span>
+                        <span class="dp-ItemRow">
+                            <span class="dp-Subtitle">Date of last r...</span>
+                        </span>
+                    </span>
+                </li>
+                <li class="dp-ListPane dp-DropDownItem">
+                    <span class="dp-Icon dp-faceted_by"></span>
+                    <span class="dp-SelectGroup">
+                        <span class="dp-ItemRow">
+                            <span class="dp-Title">Faceted by</span>
+                            <button class="dp-Arrow"></button>
+                        </span>
+                        <span class="dp-ItemRow">
+                            <span class="dp-Subtitle">3 Agents</span>
+                        </span>
+                    </span>
+                </li>
+                <li class="dp-ListPane dp-DropDownItem">
+                    <span class="dp-Icon Icon--view"></span>
+                    <span class="dp-SelectGroup">
+                        <span class="dp-ItemRow">
+                            <span class="dp-Title">Fields</span>
+                            <button class="dp-Arrow"></button>
+                        </span>
+                        <span class="dp-ItemRow">
+                            <span class="dp-Subtitle">8 fields</span>
+                        </span>
+                    </span>
+                </li>
+            </ul>
+        </li>
+        <li class="dp-Card">
             <span class="dp-TitleGroupe">
                 <span class="dp-Icon Icon--user Icon--primary"></span>
                 <span class="dp-Card-title">Admin Guide</span>
@@ -886,7 +943,7 @@ title: Card
             </span>
         </li>
 
-        <li class="dp-Card is-dragging">
+        <li class="dp-Card">
             <span class="dp-TitleGroupe">
                 <span class="dp-Icon dp-drag"></span>
                 <span class="dp-Card-title">Launching your helpdesk</span>

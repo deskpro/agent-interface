@@ -12,10 +12,8 @@
   color: inherit;
   cursor: pointer;
   display: flex;
-  flex-wrap: wrap;
+  flex: 0 0 33px;
   margin: 0;
-  max-width: 130px;
-  min-width: 33px;
   padding: 10px;
   position: relative;
 }
@@ -28,10 +26,6 @@
 
 .dp-ListPane .dp-CustomCheckbox.dp-EmptyCheckbox {
   display: flex;
-}
-
-.dp-ListPane.dp-DropDownItem {
-  width: 100%;
 }
 
 .dp-ListPane:last-child {
@@ -63,6 +57,7 @@
   color: var(--grey-dark);
   font: var(--p-n-semibold);
   padding: 0 0 0 4px;
+  white-space: nowrap;
 }
 
 .dp-ListPane .dp-iconEye {
@@ -122,13 +117,18 @@
 
 .dp-FilterControlsList {
   background-color: var(--grey-lightest);
-  border: 1px solid var(--grey-light);
+  border-bottom: 1px solid var(--grey-light);
   color: inherit;
   display: flex;
 }
 
 .dp-FilterControlsList .dp-ListPane {
-  padding: 8.8px 10px 7.8px;
+  padding: 8.8px 8px 7.8px;
+}
+
+.dp-ListPane.dp-DropDownItem {
+  flex: 1 1 100%;
+  min-width: 110px;
 }
 
 .dp-FilterControlsItem {
@@ -239,11 +239,16 @@
   font: var(--p-s);
 }
 
+.dp-orderingbar--Wrap {
+  margin-top: 0;
+  width: 100%;
+}
+
 .newControlsList .dp-ListPane > .dp-Icon {
-  background-size: 23px 23px;
-  height: 25px;
+  background-size: 16px 16px;
+  flex: 0 0 22px;
+  height: 22px;
   margin-right: 4px;
-  width: 25px;
 }
 
 .newControlsList .dp-ListPane .dp-sort, .dp-Card-title .dp-sort {
@@ -275,10 +280,6 @@
 .dp-Uneditable,
 .dp-Menu.Menu-fields > .dp-Menu-linkItem.dp-Uneditable:hover {
   background-color: var(--grey-lightest);
-}
-
-.dp-orderingbar {
-  max-width: 530px;
 }
 
 .dp-orderingbar .dp-ListPane:last-child {

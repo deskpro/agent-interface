@@ -10,3 +10,13 @@
   display: block;
   margin-bottom: 575px;
 }
+
+.demo-FieldsList .dp-orderingbar,
+.demo-ControlsList .dp-orderingbar {
+  max-width: 530px;
+}
+
+.demo-FieldsList .dp-FilterControlsList,
+.demo-ControlsList .dp-FilterControlsList {
+  border: 1px solid var(--grey-light);
+}

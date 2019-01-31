@@ -436,7 +436,7 @@
   display: none;
 }
 
-.dp-GuidesDirectory .is-rolling .dp-IconGroup {
+.dp-GuidesDirectory .dp-Card:hover .dp-IconGroup {
   display: flex;
 }
 
@@ -456,57 +456,86 @@
 .dp-GuidesDirectory .Icon--home {
   background-position: 0 50%;
   height: 15px;
-  width: 15px;
+  width: 9px;
+}
+
+.dp-GuidesDirectory .Icon--home svg {
+  fill: var(--brand-primary);
+}
+
+.dp-CardList.dp-GuidesDirectory .dp-Card,
+.dp-CardList.dp-GuideSections .dp-Card {
+  border-top: 1px solid transparent;
 }
 
 .dp-CardList.dp-GuidesDirectory .dp-Card:hover,
 .dp-CardList.dp-GuideSections .dp-Card:hover {
-  background-color: inherit;
-  border-right: 1px solid transparent;
+  background-color: var(--info-light);
+  border-bottom: 1px solid var(--brand-primary);
+  border-top: 1px solid var(--brand-primary);
 }
 
 .dp-CardList.dp-GuidesDirectory .is-rolling.dp-Card:hover {
   background-color: var(--info-light);
 }
 
-.dp-bread-crumbs {
+.dp-Breadcrumbs {
+  align-items: center;
+  background-color: #fff;
+  border-bottom: 1px solid #d3d6d7;
   border-top: 1px solid var(--brand-primary);
-}
-
-.dp-bread-crumbs,
-.dp-GuidesDirectory .dp-Card.dp-bread-crumbs:hover {
-  background-color: var(--grey-lightest);
-}
-
-.dp-bread-crumbs > span {
-  cursor: pointer;
+  display: flex;
+  justify-content: flex-start;
+  justify-content: flex-start;
+  padding: 10px 10px;
   position: relative;
+  width: 100%;
 }
 
 .dp-Card .dp-Icon {
   cursor: pointer;
 }
 
-.dp-bread-crumbs > span::before {
+.dp-Breadcrumbs .dp-Breadcrumbs--Arrow {
+  display: block;
+  height: 8px;
+  margin-left: 5px;
+  margin-right: 5px;
+  position: relative;
+  width: 5px;
+}
+
+.dp-Breadcrumbs .dp-Breadcrumbs--Item {
+  color: var(--grey-dark);
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 16px;
+}
+
+.dp-Breadcrumbs .dp-Breadcrumbs--Item.is-current {
+  color: var(--brand-primary);
+}
+
+.dp-Breadcrumbs .dp-Breadcrumbs--Arrow::before {
   background-color: var(--grey);
   content: "";
   display: block;
   height: 5px;
   position: absolute;
-  right: 0;
-  top: 4px;
+  right: 2px;
+  top: 0;
   transform: rotate(-45deg);
   width: 1px;
 }
 
-.dp-bread-crumbs > span::after {
+.dp-Breadcrumbs .dp-Breadcrumbs--Arrow::after {
   background-color: var(--grey);
-  bottom: 3px;
+  bottom: 0;
   content: "";
   display: block;
   height: 5px;
   position: absolute;
-  right: 0;
+  right: 2px;
   transform: rotate(45deg);
   width: 1px;
 }
@@ -527,7 +556,7 @@
   display: none;
 }
 
-.dp-GuideSections .dp-Card.is-dragging .dp-IconGroup {
+.dp-GuideSections .dp-Card:hover .dp-IconGroup {
   display: flex;
 }
 
