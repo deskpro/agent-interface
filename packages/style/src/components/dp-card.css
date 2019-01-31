@@ -471,8 +471,6 @@
 .dp-CardList.dp-GuidesDirectory .dp-Card:hover,
 .dp-CardList.dp-GuideSections .dp-Card:hover {
   background-color: var(--info-light);
-  border-bottom: 1px solid var(--brand-primary);
-  border-top: 1px solid var(--brand-primary);
 }
 
 .dp-CardList.dp-GuidesDirectory .is-rolling.dp-Card:hover {
