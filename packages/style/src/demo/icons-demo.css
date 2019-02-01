@@ -1223,6 +1223,10 @@
   background-image: url('data:image/svg+xml,<svg width="9" height="13" viewBox="0 0 9 13" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0.593029 12.1C-1.40697 7.19995 2.29303 3.99995 2.29303 3.99995L0.493023 2.19995L8.49302 0.199951L6.49302 8.19995L4.79303 6.49995C1.59303 6.59995 0.593029 12.1 0.593029 12.1Z" fill="%23A9B0B0"/></svg>');
 }
 
+.dp-IconJump:hover {
+  background-image: url('data:image/svg+xml,<svg width="9" height="13" viewBox="0 0 9 13" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0.593029 12.1C-1.40697 7.19995 2.29303 3.99995 2.29303 3.99995L0.493023 2.19995L8.49302 0.199951L6.49302 8.19995L4.79303 6.49995C1.59303 6.59995 0.593029 12.1 0.593029 12.1Z" fill="%233a8dde"/></svg>');
+}
+
 .dp-IconClose-fill {
   background-image: url('data:image/svg+xml,<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6.00024 12C9.31395 12 12.0002 9.31371 12.0002 6C12.0002 2.68629 9.31395 0 6.00024 0C2.68654 0 0.000244141 2.68629 0.000244141 6C0.000244141 9.31371 2.68654 12 6.00024 12Z" fill="%23A9B0B0"/><path d="M4.00024 4L8.00024 7.9" stroke="white" stroke-width="0.9926" stroke-miterlimit="10" stroke-linecap="round"/><path d="M8.00024 4L4.00024 7.9" stroke="white" stroke-width="0.9926" stroke-miterlimit="10" stroke-linecap="round"/></svg>');
 }

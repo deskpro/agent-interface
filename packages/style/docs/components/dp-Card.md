@@ -754,7 +754,7 @@ title: Card
 
 <h2>Cards/listreveal</h2>
 ```html @preview
-<div class="dp-MainWrapper">
+<div class="dp-MainWrapper Cardwrapper-demo">
     <form>
         <ul class="dp-CardList">
             <li class="dp-Card dp-Level dp-listreveal">

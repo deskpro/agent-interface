@@ -165,8 +165,11 @@
 }
 
 .dp-CardList .dp-Card:hover {
-  background-color: rgba(58, 141, 222, 0.07);
+  background-color: var(--info-light);
   border-right: 1px solid var(--grey-light);
+
+  /* background-color: rgba(58, 141, 222, 0.07); */
+
 }
 
 .dp-Listpane-guides .Level--down {
