@@ -170,8 +170,11 @@
 
 .dp-MassSelect .dp-CustomCheckbox {
   display: flex;
-  padding-left: 10px;
   position: relative;
+}
+
+.dp-MassSelect .dp-MassSelectTitle .dp-CustomCheckbox {
+  padding-left: 10px;
 }
 
 .dp-CustomCheckbox input[type="checkbox"] + label.dp-Input-arrow {
@@ -301,6 +304,11 @@
 
 .dp-Card.dp-Tasks-list .dp-Card:hover {
   background-color: var(--info-light);
+}
+
+.dp-Tasks-list .dp-CommentWrap {
+  align-items: center;
+  display: flex;
 }
 
 .dp-Card:hover > .dp-settings,

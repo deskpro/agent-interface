@@ -288,6 +288,8 @@
   display: inline-block;
   min-width: 63px;
   text-align: center;
+  vertical-align: middle;
+  vertical-align: -webkit-baseline-middle;
 }
 
 .dp-Card .dp-Meta {
@@ -446,6 +448,7 @@
 }
 
 .dp-GuidesDirectory .dp-Card:hover .dp-IconGroup {
+  align-items: center;
   display: flex;
 }
 
@@ -565,6 +568,7 @@
 }
 
 .dp-GuideSections .dp-Card:hover .dp-IconGroup {
+  align-items: center;
   display: flex;
 }
 

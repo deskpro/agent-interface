@@ -482,6 +482,197 @@ title: Card
 </div>
 ```
 
+<!-- Agent viewing - writing -->
+
+## Agent-viewing/writing
+
+<h4>list-pane/agent-viewing-small</h4>
+```html @preview
+<div class="dp-MainWrapper">
+    <form>
+        <ul class="dp-CardList">
+            <li class="dp-Card dp-Level">
+
+                <span class="dp-LevelCol">
+                    <span class="dp-CustomCheckbox">
+                        <input type="checkbox" class="dp-ControlInput" id="checkbox-viewing-1"></input>
+                        <label for="checkbox-viewing-1" class="dp-Card-title"></label>
+                    </span>
+                </span>
+
+                <span class="dp-LevelCol">
+                    <span class="dp-Card-title">Card title here</span>
+
+                    <span class="dp-UserInfo">
+                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                        <span class="dp-UserName">Single-line item</span>
+                    </span>
+                </span>
+
+                <span class="dp-LevelCol dp-LevelRight">
+                    <span class="dp-IconGroup">
+
+                        <span class="dp-ActivityStatus ActivityStatus--viewing">
+                            <span class="dp-Icon Icon--view"></span>
+                            <span class="dp-Badge Badge--round Badge--grey"></span>
+                        </span>
+
+                        <span class="Icon--circle dp-iconBug"></span>
+                        <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
+                        <span class="dp-Icon Icon--clock Icon--primary"></span>
+                    </span>
+                    <span class="dp-TimeStatus">
+                        <span class="dp-Tag Tag--small Tag--danger">Failed</span>
+                    </span>
+                </span>
+
+            </li>
+        </ul>
+    </form>
+</div>
+```
+
+<h4>list-pane/agent-viewing-large</h4>
+```html @preview
+<div class="dp-MainWrapper">
+    <form>
+        <ul class="dp-CardList">
+            <li class="dp-Card dp-Level">
+
+                <span class="dp-LevelCol">
+                    <span class="dp-CustomCheckbox">
+                        <input type="checkbox" class="dp-ControlInput" id="checkbox-viewing-2"></input>
+                        <label for="checkbox-viewing-2" class="dp-Card-title"></label>
+                    </span>
+                </span>
+
+                <span class="dp-LevelCol">
+                    <span class="dp-Card-title">Card title here</span>
+
+                    <span class="dp-UserInfo">
+                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                        <span class="dp-UserName">Single-line item</span>
+                    </span>
+                </span>
+
+                <span class="dp-LevelCol dp-LevelRight">
+                    <span class="dp-IconGroup">
+                        <span class="dp-ActivityStatus ActivityStatus--viewing">
+                            <span class="dp-Icon Icon--view"></span>
+                            <span class="dp-Badge Badge--round Badge--grey"></span>
+                            <span class="dp-Badge Badge--round Badge--grey"></span>
+                        </span>
+                        <span class="Icon--circle dp-iconBug"></span>
+                        <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
+                        <span class="dp-Icon Icon--clock Icon--primary"></span>
+                    </span>
+                    <span class="dp-TimeStatus">
+                        <span class="dp-Tag Tag--small Tag--danger">Failed</span>
+                    </span>
+                </span>
+
+            </li>
+        </ul>
+    </form>
+</div>
+```
+
+<h4>list-pane/agent-writing-small</h4>
+```html @preview
+
+<div class="dp-MainWrapper">
+    <form>
+        <ul class="dp-CardList">
+            <li class="dp-Card dp-Level">
+
+                <span class="dp-LevelCol">
+                    <span class="dp-CustomCheckbox">
+                        <input type="checkbox" class="dp-ControlInput" id="checkbox-writing-1"></input>
+                        <label for="checkbox-writing-1" class="dp-Card-title"></label>
+                    </span>
+                </span>
+
+                <span class="dp-LevelCol">
+                    <span class="dp-Card-title">Card title here</span>
+
+                    <span class="dp-UserInfo">
+                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                        <span class="dp-UserName">Single-line item</span>
+                    </span>
+                </span>
+
+                <span class="dp-LevelCol dp-LevelRight">
+                    <span class="dp-IconGroup">
+
+                        <span class="dp-ActivityStatus ActivityStatus--writing ActivityStatus--primary">
+                            <span class="dp-Icon Icon--edit Icon--primary"></span>
+                            <span class="dp-Badge Badge--round Badge--grey"></span>
+                        </span>
+
+                        <span class="Icon--circle dp-iconBug"></span>
+                        <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
+                        <span class="dp-Icon Icon--clock Icon--primary"></span>
+                    </span>
+                    <span class="dp-TimeStatus">
+                        <span class="dp-Tag Tag--small Tag--danger">Failed</span>
+                    </span>
+                </span>
+
+            </li>
+        </ul>
+    </form>
+</div>
+```
+
+<h4>list-pane/agent-writing-large</h4>
+```html @preview
+<div class="dp-MainWrapper">
+    <form>
+        <ul class="dp-CardList">
+            <li class="dp-Card dp-Level">
+
+                <span class="dp-LevelCol">
+                    <span class="dp-CustomCheckbox">
+                        <input type="checkbox" class="dp-ControlInput" id="checkbox-writing-2"></input>
+                        <label for="checkbox-writing-2" class="dp-Card-title"></label>
+                    </span>
+                </span>
+
+                <span class="dp-LevelCol">
+                    <span class="dp-Card-title">Card title here</span>
+
+                    <span class="dp-UserInfo">
+                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                        <span class="dp-UserName">Single-line item</span>
+                    </span>
+                </span>
+
+                <span class="dp-LevelCol dp-LevelRight">
+                    <span class="dp-IconGroup">
+
+                        <span class="dp-ActivityStatus ActivityStatus--writing ActivityStatus--primary">
+                            <span class="dp-Icon Icon--edit Icon--primary"></span>
+                            <span class="dp-Badge Badge--round Badge--grey"></span>
+                            <span class="dp-Badge Badge--round Badge--grey"></span>
+                        </span>
+
+                        <span class="Icon--circle dp-iconBug"></span>
+                        <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
+                        <span class="dp-Icon Icon--clock Icon--primary"></span>
+                    </span>
+                    <span class="dp-TimeStatus">
+                        <span class="dp-Tag Tag--small Tag--danger">Failed</span>
+                    </span>
+                </span>
+
+            </li>
+        </ul>
+    </form>
+</div>
+```
+
+
+
 <!-- Demo Col -->
 
 ## Demo cards-col/row

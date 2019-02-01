@@ -349,8 +349,24 @@
 
 .dp-Menu-linkItem > .dp-Icon {
   background-size: 14px 11px;
-  width: 14px;
+  width: 17px;
 }
+
+/* for demo */
+
+.dp-Menu-linkItem > .dp-Bin {
+  background-size: 12px 13px;
+}
+
+.dp-Menu .dp-Menu-linkItem > .dp-CreateTicket {
+  background-size: 14px 11px;
+}
+
+.dp-Menu .dp-Menu-linkItem > .Icon--edit {
+  background-size: 12px 12px;
+}
+
+/*  */
 
 .Menu-fields .dp-CustomCheckbox {
   flex: 1 0 auto;

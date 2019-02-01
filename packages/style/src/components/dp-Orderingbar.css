@@ -35,6 +35,11 @@
   margin-right: 0;
 }
 
+.dp-MassSelect .dp-ListPane:last-child {
+  flex: 1 1 100%;
+  max-width: 130px;
+}
+
 .dp-ListPane .dp-ItemRow {
   align-items: center;
   display: flex;
@@ -112,6 +117,7 @@
 }
 
 [disabled] .dp-ListPane,
+[disabled] .dp-ListPane .dp-Arrow,
 [disabled] .dp-ListPane .dp-Icon {
   cursor: not-allowed;
 }

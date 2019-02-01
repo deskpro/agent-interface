@@ -2,6 +2,7 @@
 title: Grouped by Fields
 ---
 
+<h4> Example 1 </h4>
 ```html @preview
 <div class="dp-Groupe-container">
 	<div class="dp-Groupe-items">
@@ -175,115 +176,113 @@ title: Grouped by Fields
 
 <h4> Example 3 </h4>
 ```html @preview
-<div class="Groupe-example-3">
-	<div class="dp-Groupe-container">
-		<div class="dp-Groupe-items">
-			<span class="dp-Badge Badge--groupe-filter">
-				All <span class="dp-Num">80</span>
-			</span>
+<div class="dp-Groupe-container">
+	<div class="dp-Groupe-items">
+		<span class="dp-Badge Badge--groupe-filter">
+			All <span class="dp-Num">80</span>
+		</span>
 
-			<span class="dp-Badge Badge--groupe-filter">
-				Sales <span class="dp-Num">11</span>
-			</span>
+		<span class="dp-Badge Badge--groupe-filter">
+			Sales <span class="dp-Num">11</span>
+		</span>
 
-			<span class="dp-Badge Badge--groupe-filter">
-				Support <span class="dp-Num">25</span>
-				<span class="dp-Icon dp-Arrow"></span>
-			</span>
+		<span class="dp-Badge Badge--groupe-filter">
+			Support <span class="dp-Num">25</span>
+			<span class="dp-Icon dp-Arrow"></span>
+		</span>
 
-			<span class="dp-Badge Badge--groupe-filter">
-				Regulated <span class="dp-Num">34</span>
-			</span>
+		<span class="dp-Badge Badge--groupe-filter">
+			Regulated <span class="dp-Num">34</span>
+		</span>
 
-			<span class="dp-Badge Badge--groupe-filter">
-				It <span class="dp-Num">25</span>
-			</span>
+		<span class="dp-Badge Badge--groupe-filter">
+			It <span class="dp-Num">25</span>
+		</span>
 
-			<span class="dp-Badge Badge--groupe-filter">
-				Support <span class="dp-Num">25</span>
-			</span>
+		<span class="dp-Badge Badge--groupe-filter">
+			Support <span class="dp-Num">25</span>
+		</span>
 
-			<span class="dp-Badge Badge--groupe-filter">
-				It <span class="dp-Num">25</span>
-			</span>
+		<span class="dp-Badge Badge--groupe-filter">
+			It <span class="dp-Num">25</span>
+		</span>
 
-			<span class="dp-Badge Badge--groupe-filter">
-				Regulated <span class="dp-Num">34</span>
-			</span>
+		<span class="dp-Badge Badge--groupe-filter">
+			Regulated <span class="dp-Num">34</span>
+		</span>
 
-			<span class="dp-Badge Badge--groupe-filter Badge--extended">
-				Sales 
-				<span class="dp-Num">11</span>
+		<span class="dp-Badge Badge--groupe-filter Badge--extended">
+			Sales 
+			<span class="dp-Num">11</span>
 
-				<span class="dp-Num-extended">
-					<span><span class="dp-Num">1</span>/4</span>
-					<span class="dp-Icon dp-Arrow is-active">
+			<span class="dp-Num-extended">
+				<span><span class="dp-Num">1</span>/4</span>
+				<span class="dp-Icon dp-Arrow is-active">
 
-						<ul class="dp-Menu">
-							<li>
-								<span class="dp-Groupe-item">
-									<span class="dp-Icon Icon--enter"></span>
-									<span class="dp-Badge Badge--groupe-filter">
-										Licenses <span class="dp-Num">8</span>
-									</span>
+					<ul class="dp-Menu">
+						<li>
+							<span class="dp-Groupe-item">
+								<span class="dp-Icon Icon--enter"></span>
+								<span class="dp-Badge Badge--groupe-filter">
+									Licenses <span class="dp-Num">8</span>
 								</span>
-							</li>
+							</span>
+						</li>
 
-							<li class="dp-Groupe-list">
-								
-								<span class="dp-Groupe-item">
-									<span class="dp-Icon Icon--enter"></span>
-									<span class="dp-Badge Badge--groupe-filter">
-										Customers <span class="dp-Num">3</span>
-									</span>
+						<li class="dp-Groupe-list">
+							
+							<span class="dp-Groupe-item">
+								<span class="dp-Icon Icon--enter"></span>
+								<span class="dp-Badge Badge--groupe-filter">
+									Customers <span class="dp-Num">3</span>
 								</span>
+							</span>
 
-								<ul class="dp-Group-sublist">
-									<li>
-										<span class="dp-Groupe-item">
-											<span class="dp-Icon Icon--enter"></span>
-											<span class="dp-Badge Badge--groupe-filter">
-												New <span class="dp-Num">2</span>
-											</span>
+							<ul class="dp-Group-sublist">
+								<li>
+									<span class="dp-Groupe-item">
+										<span class="dp-Icon Icon--enter"></span>
+										<span class="dp-Badge Badge--groupe-filter">
+											New <span class="dp-Num">2</span>
 										</span>
-									</li>
-									<li>
-										<span class="dp-Groupe-item">
-											<span class="dp-Icon Icon--enter"></span>
-											<span class="dp-Badge Badge--groupe-filter">
-												Existing <span class="dp-Num">1</span>
-											</span>
+									</span>
+								</li>
+								<li>
+									<span class="dp-Groupe-item">
+										<span class="dp-Icon Icon--enter"></span>
+										<span class="dp-Badge Badge--groupe-filter">
+											Existing <span class="dp-Num">1</span>
 										</span>
-									</li>
-								</ul>
-							</li>
-						</ul>
-					</span>
+									</span>
+								</li>
+							</ul>
+						</li>
+					</ul>
 				</span>
-
 			</span>
 
-			<span class="dp-Badge Badge--groupe-filter">
-				Regulated <span class="dp-Num">34</span>
-			</span>
+		</span>
 
-			<span class="dp-Badge Badge--groupe-filter">
-				Sales <span class="dp-Num">11</span>
-			</span>
+		<span class="dp-Badge Badge--groupe-filter">
+			Regulated <span class="dp-Num">34</span>
+		</span>
 
-			<span class="dp-Badge Badge--groupe-filter">
-				It <span class="dp-Num">25</span>
-			</span>
+		<span class="dp-Badge Badge--groupe-filter">
+			Sales <span class="dp-Num">11</span>
+		</span>
 
-			<span class="dp-Badge Badge--groupe-filter">
-				Hr <span class="dp-Num">25</span>
-			</span>
+		<span class="dp-Badge Badge--groupe-filter">
+			It <span class="dp-Num">25</span>
+		</span>
 
-			<span class="dp-Badge Badge--groupe-filter">
-				Support <span class="dp-Num">25</span>
-				<span class="dp-Icon dp-Arrow"></span>
-			</span>
-		</div>
+		<span class="dp-Badge Badge--groupe-filter">
+			Hr <span class="dp-Num">25</span>
+		</span>
+
+		<span class="dp-Badge Badge--groupe-filter">
+			Support <span class="dp-Num">25</span>
+			<span class="dp-Icon dp-Arrow"></span>
+		</span>
 	</div>
 </div>
 ```
