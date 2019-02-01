@@ -266,7 +266,7 @@
   content: "";
   display: block;
   height: 25px;
-  left: 0;
+  left: 2px;
   opacity: 0;
   position: absolute;
   top: 0;
@@ -513,4 +513,17 @@
 
 .dp-Menu .dp-Menu-search .dp-Icon {
   left: 15px;
+}
+
+/* .dp-Cog .dp-Menu - SubMenu */
+
+.dp-Cog .dp-Menu .dp-Menu-linkItem .dp-Menu,
+.dp-Cog .dp-Menu .dp-Menu-linkItem:hover > .dp-Menu {
+  padding: 10px 0;
+  top: -6px;
+}
+
+.dp-Cog .dp-Menu .dp-Menu-title {
+  margin: -2px -1px 3px;
+  padding: 0 10px;
 }

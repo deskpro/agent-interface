@@ -1374,8 +1374,12 @@ title: Card
                 </span>
             </span>
 
+            <!-- Icon rolling -->
+            <span class="dp-Icon dp-IconJump"></span>
+
             <!-- Icon hover -->
             <span class="dp-Cog">
+
                 <span class="dp-Icon dp-settings"></span>
 
                 <!-- dropdown -->
@@ -1520,6 +1524,9 @@ title: Card
                             <span class="dp-UserName">Single-line item</span>
                         </span>
                     </span>
+
+                    <!-- Icon rolling -->
+                    <span class="dp-Icon dp-IconJump"></span>
 
                     <!-- Icon hover -->
                     <span class="dp-Cog">
@@ -1670,6 +1677,9 @@ title: Card
                             <span class="dp-Icon Icon--down-caret Icon--primary"></span>
                         </span>
                     </span>
+
+                    <!-- Icon rolling -->
+                    <span class="dp-Icon dp-IconJump"></span>
 
                     <!-- Icon hover -->
                     <span class="dp-Cog">
@@ -1825,6 +1835,9 @@ title: Card
                             </span>
 
 
+                            <!-- Icon rolling -->
+                            <span class="dp-Icon dp-IconJump"></span>
+
                             <!-- Icon hover -->
                             <span class="dp-Cog">
                                 <span class="dp-Icon dp-settings is-active"></span>
@@ -1977,6 +1990,10 @@ title: Card
                     <span class="dp-Icon Icon--down-caret Icon--primary"></span>
                 </span>
             </span>
+
+            <!-- Icon rolling -->
+            <span class="dp-Icon dp-IconJump"></span>
+
             <!-- Icon hover -->
             <span class="dp-Cog">
                 <span class="dp-Icon dp-settings"></span>
@@ -2125,6 +2142,9 @@ title: Card
                     <span class="dp-Icon Icon--down-caret Icon--primary"></span>
                 </span>
             </span>
+
+            <!-- Icon rolling -->
+            <span class="dp-Icon dp-IconJump"></span>
 
             <!-- Icon hover -->
             <span class="dp-Cog">
@@ -2279,6 +2299,9 @@ title: Card
                         </span>
                     </span>
 
+                    <!-- Icon rolling -->
+                    <span class="dp-Icon dp-IconJump"></span>
+
                     <!-- Icon hover -->
                     <span class="dp-Cog">
                         <span class="dp-Icon dp-settings"></span>
@@ -2425,6 +2448,9 @@ title: Card
                                     <span class="dp-Icon dp-iconUserAvatar"></span>
                                 </span>
                             </span>
+
+                            <!-- Icon rolling -->
+                            <span class="dp-Icon dp-IconJump"></span>
 
                             <!-- Icon hover -->
                             <span class="dp-Cog">
@@ -2574,6 +2600,9 @@ title: Card
                                     <span class="dp-Tag Tag--small Tag--grey">Draft</span>
                                 </span>
                             </span>
+
+                            <!-- Icon rolling -->
+                            <span class="dp-Icon dp-IconJump"></span>
 
                             <!-- Icon hover -->
                             <span class="dp-Cog">
@@ -2725,6 +2754,9 @@ title: Card
                                 </span>
                             </span>
 
+                            <!-- Icon rolling -->
+                            <span class="dp-Icon dp-IconJump"></span>
+
                             <!-- Icon hover -->
                             <span class="dp-Cog">
                                 <span class="dp-Icon dp-settings"></span>
@@ -2869,6 +2901,9 @@ title: Card
                                     <span class="dp-Icon dp-iconUserAvatar"></span>
                                 </span>
                             </span>
+
+                            <!-- Icon rolling -->
+                            <span class="dp-Icon dp-IconJump"></span>
 
                             <!-- Icon hover -->
                             <span class="dp-Cog">
@@ -3024,6 +3059,9 @@ title: Card
                 </span>
             </span>
 
+            <!-- Icon rolling -->
+            <span class="dp-Icon dp-IconJump"></span>
+
             <!-- Icon hover -->
             <span class="dp-Cog">
                 <span class="dp-Icon dp-settings"></span>
@@ -3170,6 +3208,9 @@ title: Card
                         </span>
                     </span>
 
+                    <!-- Icon rolling -->
+                    <span class="dp-Icon dp-IconJump"></span>
+
                     <!-- Icon hover -->
                     <span class="dp-Cog">
                         <span class="dp-Icon dp-settings"></span>
@@ -3314,6 +3355,9 @@ title: Card
                             <span class="dp-Tag Tag--small Tag--grey">Draft</span>
                         </span>
                     </span>
+
+                    <!-- Icon rolling -->
+                    <span class="dp-Icon dp-IconJump"></span>
 
                     <!-- Icon hover -->
                     <span class="dp-Cog">
@@ -3461,6 +3505,9 @@ title: Card
                         </span>
                     </span>
 
+                    <!-- Icon rolling -->
+                    <span class="dp-Icon dp-IconJump"></span>
+
                     <!-- Icon hover -->
                     <span class="dp-Cog">
                         <span class="dp-Icon dp-settings"></span>
@@ -3602,6 +3649,9 @@ title: Card
                         </span>
                     </span>
 
+                    <!-- Icon rolling -->
+                    <span class="dp-Icon dp-IconJump"></span>
+
                     <!-- Icon hover -->
                     <span class="dp-Cog">
                         <span class="dp-Icon dp-settings"></span>
@@ -3728,8 +3778,6 @@ title: Card
         </li>
 
 
-
     </ul>
-
 </div>
 ```

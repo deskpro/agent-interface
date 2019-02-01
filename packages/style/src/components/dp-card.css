@@ -471,7 +471,8 @@
   width: 9px;
 }
 
-.dp-GuidesDirectory .dp-Card:hover .dp-IconGroup .dp-settings,
+/* .dp-GuidesDirectory .dp-Card:hover .dp-IconGroup .dp-settings, */
+
 .dp-GuidesDirectory .Icon--home svg {
   fill: var(--brand-primary);
 }
@@ -592,10 +593,24 @@
 }
 
 .dp-Listpane-guides .dp-Menu .dp-ButtonWrapper {
-  padding: 8px 10px;
+  padding: 8px 10px 0;
 }
 
 .dp-Listpane-guides .dp-Card {
   border: 1px solid var(--grey-light);
   margin-top: -1px;
+}
+
+.dp-Listpane-guides .dp-IconJump {
+  display: none;
+  height: 10px;
+  position: absolute;
+  right: 10px;
+  top: calc(50% - 5px);
+  width: 10px;
+  z-index: 9;
+}
+
+.dp-Listpane-guides .dp-Card:hover .dp-IconJump {
+  display: block;
 }
