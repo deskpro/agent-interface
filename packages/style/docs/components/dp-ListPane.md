@@ -1476,7 +1476,7 @@ title: List View
             </li>
 
             <!-- 4 -->
-            <li class="dp-Card dp-Level LevelCol is-active dp-Tasks-list">
+            <li class="dp-Card dp-Level LevelCol is-active dp-Tasks-list Task--completed">
                 <span class="dp-LevelItem Level-justify-between">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="my-task-4">
@@ -1591,7 +1591,7 @@ title: List View
 ```
 
 
-<h4>Listview/tasksnew</h4>
+<h4>Listview/tasks-addcomment</h4>
 ```html @preview
 <div class="dp-MainWrapper" style="height: 400px">
     <form>
