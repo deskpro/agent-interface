@@ -10182,7 +10182,7 @@ title: Orderingbar
 ```
 
 
-<!-- 7 disbled -->
+<!-- 7 disabled -->
 
 <h4>Listpane/orderingbar-disabled</h4>
 ```html @preview
@@ -10190,8 +10190,8 @@ title: Orderingbar
 <ul disabled class="dp-FilterControlsList newControlsList dp-orderingbar">
     <li class="dp-ListPane">
         <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-            <input type="checkbox" class="dp-ControlInput" id="ordering-6"></input>
-            <label for="ordering-6"></label>
+            <input type="checkbox" class="dp-ControlInput" id="ordering-7"></input>
+            <label for="ordering-7"></label>
         </span>
     </li>
     <li class="dp-ListPane dp-DropDownItem">

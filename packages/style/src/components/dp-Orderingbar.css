@@ -87,9 +87,11 @@
   padding: 0 10px;
 }
 
-.dp-SortIconDescription {
+.dp-SortIconDescription,
+[disabled] .dp-SortIconDescription:hover {
   align-items: center;
   color: var(--grey);
+  cursor: not-allowed;
   display: flex;
   flex-direction: column;
   font: var(--p-s);
@@ -109,8 +111,13 @@
   cursor: pointer;
 }
 
-[disabled] .dp-ListPane {
+[disabled] .dp-ListPane,
+[disabled] .dp-ListPane .dp-Icon {
   cursor: not-allowed;
+}
+
+[disabled] .dp-Icon svg {
+  color: var(--grey);
 }
 
 /* filter result controls */

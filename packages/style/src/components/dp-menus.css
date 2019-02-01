@@ -238,6 +238,7 @@
 
 .dp-Menu.Menu-fields .dp-Menu-linkItem:hover > .dp-Menu,
 .dp-Menu.Menu-fields .dp-Menu,
+.dp-Menu.Menu-fields .dp-settings.is-active + .dp-Menu,
 .dp-Menu.Menu-grouped .dp-Menu-linkItem:hover > .dp-Menu,
 .dp-Menu.Menu-grouped .dp-Menu {
   border-radius: var(--border-radius);

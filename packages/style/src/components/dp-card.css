@@ -218,10 +218,15 @@
 .Level--down .dp-Card.dp-Level .dp-sub_field::after {
   background-color: var(--grey);
   content: "";
-  height: 60px;
+
+  /* height: 60px; */
+
+  /* top: -55px; */
+
+  height: 69px;
   left: 0;
   position: absolute;
-  top: -55px;
+  top: -57px;
   width: 1px;
 }
 
@@ -426,6 +431,10 @@
   height: 30px;
   margin-right: 10px;
   width: 30px;
+}
+
+.dp-GuidesDirectory .dp-Card:hover .dp-TitleGroupe .dp-Icon {
+  background-color: var(--white);
 }
 
 .is-rolling {

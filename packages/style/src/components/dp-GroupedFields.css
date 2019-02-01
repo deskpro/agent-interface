@@ -10,6 +10,10 @@
   width: 100%;
 }
 
+.dp-Groupe-container:last-child {
+  border-bottom: 0;
+}
+
 .dp-Groupe-items {
   display: flex;
   flex-wrap: wrap;
