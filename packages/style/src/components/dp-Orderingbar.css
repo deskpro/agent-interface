@@ -136,6 +136,7 @@
 }
 
 .dp-FilterControlsList .dp-ListPane {
+  flex: 0 0 30px;
   padding: 8.8px 8px 7.8px;
 }
 

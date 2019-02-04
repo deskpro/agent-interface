@@ -286,6 +286,16 @@
 
 /* listpane/tasksnew */
 
+.dp-Card .dp-IconTitle {
+  display: flex;
+}
+
+.dp-Card .dp-IconTitle .dp-Card-title:focus {
+  color: var(--brand-primary);
+  text-decoration: none;
+}
+
+.dp-Card.dp-Tasks-list .dp-IconTitle > .dp-Approve,
 .dp-Card.dp-Tasks-list label > .dp-Approve {
   background-size: 16px 16px;
   cursor: pointer;
@@ -309,6 +319,7 @@
 .dp-Tasks-list .dp-CommentWrap {
   align-items: center;
   display: flex;
+  margin-right: -4px;
 }
 
 .dp-Add-task {
@@ -317,7 +328,7 @@
   border-bottom: 1px solid var(--grey-light);
   display: flex;
   font: var(--h-n-semibold);
-  padding: 10px;
+  padding: 8.8px 8px 7.8px;
   width: 100%;
 }
 
@@ -448,25 +459,37 @@
   background-color: var(--white);
 }
 
-.dp-CardList .dp-DateGroup {
+.dp-DateGroup {
   align-items: center;
   display: flex;
-  justify-content: flex-end;
   min-width: 100px;
 }
 
-.dp-CardList .dp-DateGroup .dp-Icon {
-  background-size: 15px 16px;
+.dp-Card .dp-DateGroup {
+  justify-content: flex-end;
 }
 
-.dp-CardList .dp-Date-link,
+.Task--completed .dp-CardList .dp-DateGroup,
+.Task--completed .dp-Tasks-list .dp-CommentWrap {
+  cursor: not-allowed;
+}
+
+.dp-DateGroup .dp-Icon {
+  background-size: 15px 16px;
+  cursor: pointer;
+}
+
+/* .dp-CardList .dp-Date-link, */
+
 .dp-Tasks-list .dp-UserInfo > .dp-UserName {
   color: var(--brand-primary);
   font: var(--p-n);
 }
 
-.dp-Tasks-list .dp-Date-link {
+.dp-Date-link {
   color: var(--grey-darkest);
+  cursor: pointer;
+  font: var(--p-n);
 }
 
 .dp-Tasks-list.dp-Card > .dp-LevelItem {
@@ -531,7 +554,7 @@
   content: "";
   height: 0;
   position: absolute;
-  right: 50px;
+  right: 46px;
   top: -20px;
   width: 0;
 }
@@ -543,7 +566,7 @@
   content: "";
   height: 0;
   position: absolute;
-  right: 49px;
+  right: 45px;
   top: -20px;
   width: 0;
 }
@@ -897,4 +920,37 @@ input:disabled + label {
 .select-checkbox .dp-CustomCheckbox input[type="checkbox"] + label::after {
   background-image: url('data:image/svg+xml,<svg viewBox="0 0 9 2" fill="none" xmlns="http://www.w3.org/2000/svg"><line x1="0.766602" y1="0.5625" x2="8.3291" y2="0.5625" stroke="white" stroke-linejoin="round"/></svg>');
   background-size: 12px 100%;
+}
+
+/* Date/Time select */
+
+.dp-TimeSelect {
+  border-radius: 3px;
+  box-shadow: var(--shadow-bottom-right);
+  display: block;
+  list-style: none;
+  padding: 0;
+  position: absolute;
+  width: 180px;
+}
+
+.dp-TimeSelect > li {
+  background-color: var(--white);
+  border-bottom: 1px solid var(--grey-light);
+  color: var(--grey-darkest);
+  display: block;
+  font: var(--p-n);
+  margin: 0;
+  padding: 5px 0;
+  text-align: center;
+}
+
+.dp-TimeSelect > li.dp-Datepicker {
+  background-color: var(--brand-primary);
+  color: var(--white);
+}
+
+.dp-TimeSelect .is-selected {
+  background-color: var(--info-light);
+  color: var(--brand-primary);
 }

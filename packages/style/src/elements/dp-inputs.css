@@ -68,6 +68,12 @@
   padding-left: 12px;
 }
 
+/* disabled checkbox */
+
+.Task--completed .dp-CustomCheckbox input[type="checkbox"]:checked + label::after {
+  opacity: 0;
+}
+
 /* Checkbox Items selected */
 
 .dp-SelectedCheckbox.dp-CustomCheckbox input[type="checkbox"] + label::after {

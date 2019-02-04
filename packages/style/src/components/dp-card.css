@@ -11,8 +11,6 @@
   padding: 8.8px 8px 7.8px;
   position: relative;
   width: 100%;
-
-  /* padding: 10px 10px; */
 }
 
 .dp-Card-title {
@@ -24,8 +22,6 @@
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-
-  /* line-height: 1; */
 }
 
 .dp-Card-SectionTitle .dp-SortIconDescription {
@@ -64,7 +60,7 @@
   display: flex;
   font: var(--h-s-semibold);
   margin: 0;
-  padding: 10px 10px;
+  padding: 8.8px 8px 7.8px;
   text-transform: uppercase;
   width: 100%;
 }
@@ -98,11 +94,6 @@
   padding-left: 0;
   width: 100%;
 }
-
-/* .dp-CardList .dp-Card-title {
-  line-height: 1;
-  padding: 0 0 1px;
-} */
 
 /* Level Grid */
 
@@ -227,11 +218,6 @@
 .Level--down .dp-Card.dp-Level .dp-sub_field::after {
   background-color: var(--grey);
   content: "";
-
-  /* height: 60px; */
-
-  /* top: -55px; */
-
   height: 69px;
   left: 0;
   position: absolute;
@@ -274,7 +260,7 @@
   font: var(--p-xl);
 }
 
-.dp-Card .dp-Icon + .dp-Date-link,
+.dp-Icon + .dp-Date-link,
 .dp-Card .dp-Icon + .dp-Comments-title,
 .dp-Tasks-list .dp-Icon + .dp-UserName {
   margin-left: 5px;
