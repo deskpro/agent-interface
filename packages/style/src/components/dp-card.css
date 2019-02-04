@@ -8,9 +8,11 @@
   border-bottom: 1px solid var(--grey-light);
   cursor: pointer;
   display: flex;
-  padding: 10px 10px;
+  padding: 8.8px 8px 7.8px;
   position: relative;
   width: 100%;
+
+  /* padding: 10px 10px; */
 }
 
 .dp-Card-title {
@@ -164,6 +166,7 @@
   border-right: 1px solid transparent;
 }
 
+.dp-Card.dp-Tasks-list.is-hover,
 .dp-CardList .dp-Card:hover {
   background-color: var(--info-light);
   border-right: 1px solid var(--grey-light);

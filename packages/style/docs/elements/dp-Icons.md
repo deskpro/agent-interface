@@ -85,7 +85,7 @@ title: Icons
     <span class="dp-Icon dp-tick"></span>
     <span class="dp-Icon dp-LevelDown"></span>
     <span class="dp-Icon dp-IconTasks"></span>
-    <span class="dp-Icon dp-IconMenu"></span>
+    <span class="dp-Icon Icon--menu"></span>
     <span class="dp-Icon dp-IconDownload"></span>
     <span class="dp-Icon dp-IconNews"></span>
     <span class="dp-Icon dp-IconJump"></span>
