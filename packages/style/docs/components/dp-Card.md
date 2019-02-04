@@ -977,11 +977,8 @@ title: Card
 </form>
 ```
 
-
-
-
 <h2>Cards/guides</h2>
-<h4>Guides directory</h4>
+<h4>Cards/guides-directory</h4>
 
 ```html @preview
 <form>
@@ -1103,7 +1100,7 @@ title: Card
 </form>
 ```
 
-<h4>Guide sections</h4>
+<h4>Cards/guides-subsections</h4>
 ```html @preview
 <form>
     <ul class="dp-CardList dp-GuideSections">
@@ -1347,7 +1344,7 @@ title: Card
 </form>
 ```
 
-
+<h4>Cards/guides-articles</h4>
 ```html @preview
 <div class="dp-MainWrapper">
 
@@ -1374,12 +1371,8 @@ title: Card
                 </span>
             </span>
 
-            <!-- Icon rolling -->
-            <span class="dp-Icon dp-IconJump"></span>
-
             <!-- Icon hover -->
             <span class="dp-Cog">
-
                 <span class="dp-Icon dp-settings"></span>
 
                 <!-- dropdown -->
@@ -1524,9 +1517,6 @@ title: Card
                             <span class="dp-UserName">Single-line item</span>
                         </span>
                     </span>
-
-                    <!-- Icon rolling -->
-                    <span class="dp-Icon dp-IconJump"></span>
 
                     <!-- Icon hover -->
                     <span class="dp-Cog">
@@ -1677,9 +1667,6 @@ title: Card
                             <span class="dp-Icon Icon--down-caret Icon--primary"></span>
                         </span>
                     </span>
-
-                    <!-- Icon rolling -->
-                    <span class="dp-Icon dp-IconJump"></span>
 
                     <!-- Icon hover -->
                     <span class="dp-Cog">
@@ -1834,10 +1821,6 @@ title: Card
                                 </span>
                             </span>
 
-
-                            <!-- Icon rolling -->
-                            <span class="dp-Icon dp-IconJump"></span>
-
                             <!-- Icon hover -->
                             <span class="dp-Cog">
                                 <span class="dp-Icon dp-settings is-active"></span>
@@ -1991,11 +1974,9 @@ title: Card
                 </span>
             </span>
 
-            <!-- Icon rolling -->
-            <span class="dp-Icon dp-IconJump"></span>
-
             <!-- Icon hover -->
             <span class="dp-Cog">
+
                 <span class="dp-Icon dp-settings"></span>
 
                 <!-- dropdown -->
@@ -2143,11 +2124,9 @@ title: Card
                 </span>
             </span>
 
-            <!-- Icon rolling -->
-            <span class="dp-Icon dp-IconJump"></span>
-
             <!-- Icon hover -->
             <span class="dp-Cog">
+
                 <span class="dp-Icon dp-settings"></span>
 
                 <!-- dropdown -->
@@ -2299,11 +2278,10 @@ title: Card
                         </span>
                     </span>
 
-                    <!-- Icon rolling -->
-                    <span class="dp-Icon dp-IconJump"></span>
 
                     <!-- Icon hover -->
                     <span class="dp-Cog">
+
                         <span class="dp-Icon dp-settings"></span>
 
                         <!-- dropdown -->
@@ -2449,11 +2427,9 @@ title: Card
                                 </span>
                             </span>
 
-                            <!-- Icon rolling -->
-                            <span class="dp-Icon dp-IconJump"></span>
-
                             <!-- Icon hover -->
                             <span class="dp-Cog">
+
                                 <span class="dp-Icon dp-settings"></span>
 
                                 <!-- dropdown -->
@@ -2601,11 +2577,9 @@ title: Card
                                 </span>
                             </span>
 
-                            <!-- Icon rolling -->
-                            <span class="dp-Icon dp-IconJump"></span>
-
                             <!-- Icon hover -->
                             <span class="dp-Cog">
+
                                 <span class="dp-Icon dp-settings"></span>
 
                                 <!-- dropdown -->
@@ -2754,11 +2728,10 @@ title: Card
                                 </span>
                             </span>
 
-                            <!-- Icon rolling -->
-                            <span class="dp-Icon dp-IconJump"></span>
 
                             <!-- Icon hover -->
                             <span class="dp-Cog">
+
                                 <span class="dp-Icon dp-settings"></span>
 
                                 <!-- dropdown -->
@@ -2902,11 +2875,9 @@ title: Card
                                 </span>
                             </span>
 
-                            <!-- Icon rolling -->
-                            <span class="dp-Icon dp-IconJump"></span>
-
                             <!-- Icon hover -->
                             <span class="dp-Cog">
+
                                 <span class="dp-Icon dp-settings"></span>
 
                                 <!-- dropdown -->
@@ -3059,11 +3030,9 @@ title: Card
                 </span>
             </span>
 
-            <!-- Icon rolling -->
-            <span class="dp-Icon dp-IconJump"></span>
-
             <!-- Icon hover -->
             <span class="dp-Cog">
+
                 <span class="dp-Icon dp-settings"></span>
 
                 <!-- dropdown -->
@@ -3208,11 +3177,9 @@ title: Card
                         </span>
                     </span>
 
-                    <!-- Icon rolling -->
-                    <span class="dp-Icon dp-IconJump"></span>
-
                     <!-- Icon hover -->
                     <span class="dp-Cog">
+
                         <span class="dp-Icon dp-settings"></span>
 
                         <!-- dropdown -->
@@ -3356,11 +3323,10 @@ title: Card
                         </span>
                     </span>
 
-                    <!-- Icon rolling -->
-                    <span class="dp-Icon dp-IconJump"></span>
 
                     <!-- Icon hover -->
                     <span class="dp-Cog">
+
                         <span class="dp-Icon dp-settings"></span>
 
                         <!-- dropdown -->
@@ -3505,11 +3471,9 @@ title: Card
                         </span>
                     </span>
 
-                    <!-- Icon rolling -->
-                    <span class="dp-Icon dp-IconJump"></span>
-
                     <!-- Icon hover -->
                     <span class="dp-Cog">
+
                         <span class="dp-Icon dp-settings"></span>
 
                         <!-- dropdown -->
@@ -3649,11 +3613,9 @@ title: Card
                         </span>
                     </span>
 
-                    <!-- Icon rolling -->
-                    <span class="dp-Icon dp-IconJump"></span>
-
                     <!-- Icon hover -->
                     <span class="dp-Cog">
+
                         <span class="dp-Icon dp-settings"></span>
 
                         <!-- dropdown -->
