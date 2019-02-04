@@ -88,24 +88,27 @@ const CardKanban = ({ action }) => {
             <Card.List hoverable>
               {cards[column].map((title, idx) => (
                 <Kanban.Item key={title} itemId={title} index={idx}>
-                  <Card.TicketCard
-                    model={{ id: idx, title }}
-                    checkable
-                    onCheck={action("click 11")}
-                    renderBody={() => (
-                      <UserInfo
-                        avatar
-                        name="John Doe"
-                        email="john.doe@deskpro.com"
-                      />
-                    )}
-                    statusLabel="1h 25 min"
-                    cogMenu={
-                      <Menu>
-                        <Menu.MenuItem key="bin" icon="bin" text="Delete" />
-                      </Menu>
-                    }
-                  />
+                  {isDragging => (
+                    <Card.TicketCard
+                      model={{ id: idx, title }}
+                      isDragging={isDragging}
+                      checkable
+                      onCheck={action("click 11")}
+                      renderBody={() => (
+                        <UserInfo
+                          avatar
+                          name="John Doe"
+                          email="john.doe@deskpro.com"
+                        />
+                      )}
+                      statusLabel="1h 25 min"
+                      cogMenu={
+                        <Menu>
+                          <Menu.MenuItem key="bin" icon="bin" text="Delete" />
+                        </Menu>
+                      }
+                    />
+                  )}
                 </Kanban.Item>
               ))}
             </Card.List>

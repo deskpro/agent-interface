@@ -8,6 +8,7 @@ export type KanbanItemProps = {
   className?: string;
   itemId: React.Key;
   index?: number;
+  children: (isDragging?: boolean) => React.ReactNode;
 };
 
 const KanbanItem: React.FC<KanbanItemProps> = ({
@@ -30,7 +31,7 @@ const KanbanItem: React.FC<KanbanItemProps> = ({
               "is-dragging": snapshot.isDragging
             })}
           >
-            {children}
+            {children(snapshot.isDragging)}
           </div>
         )}
       </Draggable>
@@ -38,7 +39,7 @@ const KanbanItem: React.FC<KanbanItemProps> = ({
   }
 
   return (
-    <div className={classNames("dp-Kanban-item", className)}>{children}</div>
+    <div className={classNames("dp-Kanban-item", className)}>{children()}</div>
   );
 };
 

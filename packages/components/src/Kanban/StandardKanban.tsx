@@ -32,7 +32,10 @@ export type StandardKanbanProps = {
   data: StandardKanbanDataItem[];
   onLoadMore: (group: KanbanGroup) => void;
   onDragEnd: (data: StandardKanbanDragArgs) => void;
-  renderCard: (item: KanbanCard) => React.ReactElement<Card>;
+  renderCard: (
+    item: KanbanCard,
+    isDragging: boolean
+  ) => React.ReactElement<Card>;
 };
 
 const StandardKanban: React.FC<StandardKanbanProps> = ({
@@ -71,7 +74,7 @@ const StandardKanban: React.FC<StandardKanbanProps> = ({
         <Card.List hoverable>
           {items.map((card, idx) => (
             <Kanban.Item key={card.id} itemId={card.id} index={idx}>
-              {renderCard(card)}
+              {isDragging => renderCard(card, isDragging as boolean)}
             </Kanban.Item>
           ))}
         </Card.List>

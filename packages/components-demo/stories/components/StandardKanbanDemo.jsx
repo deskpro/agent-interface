@@ -74,9 +74,10 @@ const StandardKanbanDemo = ({ action }) => {
         data={data}
         onDragEnd={payload => dispatch({ type: "moveItem", payload })}
         onLoadMore={group => dispatch({ type: "loadMore", payload: group })}
-        renderCard={card => (
+        renderCard={(card, isDragging) => (
           <Card.TicketCard
             model={card}
+            isDragging={isDragging}
             checkable
             onCheck={action(`toggle check for ${card.title}`)}
             renderBody={() => (
