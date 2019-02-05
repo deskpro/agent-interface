@@ -326,9 +326,10 @@
   align-items: center;
   background-color: rgba(84, 177, 98, 0.1);
   border-bottom: 1px solid var(--grey-light);
+  color: var(--grey-darkest);
   display: flex;
   font: var(--h-n-semibold);
-  padding: 8.8px 8px 7.8px;
+  padding: 8.8px 8px 7.8px 26px;
   width: 100%;
 }
 
@@ -400,11 +401,15 @@
   width: 18px;
 }
 
+.dp-Card .dp-Cog:hover .dp-Menu,
 .dp-Cog .is-active + .dp-Menu {
   display: block;
   margin-left: 4px;
-  margin-top: 2px;
-  padding: 10px 0;
+
+  /* margin-top: 2px; */
+
+  /* padding: 10px 0; */
+
 }
 
 .dp-Cog .dp-Menu {
@@ -444,16 +449,24 @@
 }
 
 .dp-Tasks-list.dp-Card-SectionTitle .dp-Card-title {
+  font: var(--h-l-bold);
   margin-right: 20px;
+}
+
+.dp-Tasks-list.dp-Card-SectionTitle .dp-Card-title:hover {
+  color: var(--grey-darkest);
+  text-decoration: none;
 }
 
 .dp-Tasks-list.dp-Card-SectionTitle .dp-qt {
   color: var(--grey-darkest);
+  font: var(--h-l-bold);
+  margin-left: 0;
 }
 
-.dp-Tasks-list.dp-Card-SectionTitle .dp-Card-title:hover .dp-qt {
+/* .dp-Tasks-list.dp-Card-SectionTitle .dp-Card-title:hover .dp-qt {
   color: var(--brand-primary);
-}
+} */
 
 .dp-CardList {
   background-color: var(--white);
@@ -479,8 +492,6 @@
   cursor: pointer;
 }
 
-/* .dp-CardList .dp-Date-link, */
-
 .dp-Tasks-list .dp-UserInfo > .dp-UserName {
   color: var(--brand-primary);
   font: var(--p-n);
@@ -493,7 +504,9 @@
 }
 
 .date-active .dp-Date,
-.time-active .dp-Time {
+.dp-DateGroup .dp-Date:hover,
+.time-active .dp-Time,
+.dp-DateGroup .dp-Time:hover {
   text-decoration: underline;
 }
 
@@ -948,6 +961,7 @@ input:disabled + label {
 .date-active .dp-DateSelect,
 .time-active .dp-TimeSelect {
   display: block;
+  z-index: 10;
 }
 
 .dp-DateSelect > li,
@@ -1061,4 +1075,8 @@ input:disabled + label {
 .dp-DateGroup .dp-Datepicker td.dp-old-day,
 .dp-DateGroup .dp-Datepicker td.dp-new-day {
   color: var(--grey);
+}
+
+.dp-CustomCheckbox input[type="checkbox"]:checked + label svg {
+  fill: var(--success);
 }

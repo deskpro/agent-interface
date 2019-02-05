@@ -51,7 +51,8 @@
   margin-left: 5px;
 }
 
-.dp-Card-SectionTitle {
+.dp-Card-SectionTitle,
+.dp-Card-SectionSubtitle {
   align-items: center;
   background-color: var(--white);
   border-bottom: 1px solid var(--grey-light);
