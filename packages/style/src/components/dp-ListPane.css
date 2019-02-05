@@ -487,9 +487,14 @@
 }
 
 .dp-Date-link {
-  color: var(--grey-darkest);
+  color: var(--brand-primary);
   cursor: pointer;
   font: var(--p-n);
+}
+
+.date-active .dp-Date,
+.time-active .dp-Time {
+  text-decoration: underline;
 }
 
 .dp-Tasks-list.dp-Card > .dp-LevelItem {
@@ -924,20 +929,32 @@ input:disabled + label {
 
 /* Date/Time select */
 
+.dp-Date-link {
+  position: relative;
+}
+
+.dp-DateSelect,
 .dp-TimeSelect {
-  border-radius: 3px;
   box-shadow: var(--shadow-bottom-right);
-  display: block;
+  display: none;
+  left: 0;
   list-style: none;
   padding: 0;
   position: absolute;
+  top: calc(100% + 5px);
   width: 180px;
 }
 
+.date-active .dp-DateSelect,
+.time-active .dp-TimeSelect {
+  display: block;
+}
+
+.dp-DateSelect > li,
 .dp-TimeSelect > li {
   background-color: var(--white);
-  border-bottom: 1px solid var(--grey-light);
   color: var(--grey-darkest);
+  cursor: pointer;
   display: block;
   font: var(--p-n);
   margin: 0;
@@ -945,12 +962,103 @@ input:disabled + label {
   text-align: center;
 }
 
-.dp-TimeSelect > li.dp-Datepicker {
+.dp-DateSelect > li:not(:last-child),
+.dp-TimeSelect > li:not(:last-child) {
+  border-bottom: 1px solid var(--grey-light);
+}
+
+.dp-TimeSelect > li:last-child {
+  padding: 0;
+}
+
+.dp-DateSelect > li:first-child {
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.dp-DateSelect > li:last-child {
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.dp-DateSelect > li.dp-Datepicker-title {
   background-color: var(--brand-primary);
   color: var(--white);
 }
 
-.dp-TimeSelect .is-selected {
+.dp-DateSelect > li.dp-Datepicker-title.is-active {
   background-color: var(--info-light);
   color: var(--brand-primary);
+  padding-bottom: 0;
+  position: relative;
+}
+
+.dp-DateSelect > li.dp-Datepicker-title.is-active .dp-DatepickerWrapper {
+  display: block;
+}
+
+.dp-DatepickerWrapper {
+  display: none;
+}
+
+.dp-MonthYear {
+  background-color: var(--grey-lighter);
+  border-top: 1px solid var(--grey-light);
+  color: var(--grey-darkest);
+  cursor: pointer;
+  display: flex;
+  font: var(--p-n);
+  justify-content: space-around;
+  margin-top: 5px;
+  padding: 5px 0;
+}
+
+.dp-MonthYear svg {
+  background-color: var(--brand-primary);
+  margin-left: 5px;
+}
+
+.dp-DateGroup .dp-Datepicker,
+.dp-DateGroup .dp-Timepicker {
+  display: table;
+  margin: 0;
+}
+
+.dp-DateGroup .dp-Datepicker th {
+  border: 0;
+}
+
+.dp-DateGroup .dp-Datepicker th,
+.dp-DateGroup .dp-Datepicker td {
+  color: var(--grey-darkest);
+  cursor: pointer;
+  font: var(--p-n);
+  padding: 6px 6px;
+}
+
+.dp-DateGroup .dp-Timepicker td {
+  color: var(--grey-darkest);
+  cursor: pointer;
+  font: var(--p-n);
+  padding: 6px 5px;
+}
+
+.dp-DateGroup .dp-Datepicker td.is-active,
+.dp-DateGroup .dp-Timepicker td.is-active {
+  background-color: var(--brand-primary);
+  color: var(--white);
+}
+
+.dp-DateGroup .dp-Timepicker tr,
+.dp-DateGroup .dp-Datepicker tr {
+  background-color: var(--white);
+}
+
+.dp-DateGroup .dp-Datepicker tr:first-child {
+  background-color: var(--grey-lighter);
+}
+
+.dp-DateGroup .dp-Datepicker td.dp-old-day,
+.dp-DateGroup .dp-Datepicker td.dp-new-day {
+  color: var(--grey);
 }

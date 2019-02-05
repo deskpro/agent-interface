@@ -3853,21 +3853,306 @@ title: List View
 
 <h4>Date/Time select</h4>
 ```html @preview
+<div class="dp-MainWrapper">
+    <span class="dp-DateGroup">
+        <span class="dp-Icon dp-group"></span>
+        <span href="#" class="dp-Date-link">
+            <span class="dp-Date">Today</span> : <span class="dp-Time">4pm</span>
+        </span>
+    </span>
+</div>
+```
 
-<span class="dp-DateGroup">
-    <span class="dp-Icon dp-group"></span>
-    <a href="#" class="dp-Date-link">Today : 4pm</a>
-</span>
+```html @preview
+<div class="dp-MainWrapper Datepicker-demo">
+    <span class="dp-DateGroup date-active">
+        <span class="dp-Icon dp-group"></span>
+        <span href="#" class="dp-Date-link">
+            <span class="dp-Date">Today</span> : <span class="dp-Time">4pm</span>
+            <ul class="dp-DateSelect">
+                <li>Today</li>
+                <li>Tomorrow</li>
+                <li class="dp-Datepicker-title">
+                    Date picker
+                    <span class="dp-DatepickerWrapper">
+                        <span class="dp-MonthYear">
+                            <span>December<span class="dp-Icon Icon--down-caret Icon--primary"></span></span>
+                            <span>2019<span class="dp-Icon Icon--down-caret Icon--primary"></span></span>
+                        </span>
+                        <table class="dp-Datepicker">
+                            <tr>
+                                <th>S</th>
+                                <th>M</th>
+                                <th>T</th>
+                                <th>W</th>
+                                <th>T</th>
+                                <th>F</th>
+                                <th>S</th>
+                            </tr>
+                            <tr>
+                                <td class="dp-old-day">25</td>
+                                <td class="dp-old-day">26</td>
+                                <td class="dp-old-day">27</td>
+                                <td class="dp-old-day">28</td>
+                                <td class="dp-old-day">29</td>
+                                <td class="dp-old-day">30</td>
+                                <td>1</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>3</td>
+                                <td>4</td>
+                                <td>5</td>
+                                <td>6</td>
+                                <td>7</td>
+                                <td>8</td>
+                            </tr>
+                            <tr>
+                                <td>9</td>
+                                <td>10</td>
+                                <td>11</td>
+                                <td>12</td>
+                                <td>13</td>
+                                <td>14</td>
+                                <td class="is-active">15</td>
+                            </tr>
+                            <tr>
+                                <td>16</td>
+                                <td>17</td>
+                                <td>18</td>
+                                <td>19</td>
+                                <td>20</td>
+                                <td>21</td>
+                                <td>22</td>
+                            </tr>
+                            <tr>
+                                <td>23</td>
+                                <td>24</td>
+                                <td>25</td>
+                                <td>26</td>
+                                <td>27</td>
+                                <td>28</td>
+                                <td>29</td>
+                            </tr>
+                            <tr>
+                                <td>30</td>
+                                <td>31</td>
+                                <td class="dp-new-day">1</td>
+                                <td class="dp-new-day">2</td>
+                                <td class="dp-new-day">3</td>
+                                <td class="dp-new-day">4</td>
+                                <td class="dp-new-day">5</td>
+                            </tr>
 
-<span class="dp-DateGroup">
-    <span class="dp-Icon dp-group"></span>
-    <a href="#" class="dp-Date-link">Today : 4pm
-        <ul class="dp-TimeSelect">
-            <li>Today</li>
-            <li>Tomorrow</li>
-            <li class="dp-Datepicker">Date picker</li>
-        </ul>
-    </a>
-</span>
+                        </table>
+                    </span>
+                </li>
+            </ul>
 
+        </span>
+    </span>
+</div>
+```
+
+
+```html @preview
+<div class="dp-MainWrapper Datepicker-demo">
+    <span class="dp-DateGroup date-active">
+        <span class="dp-Icon dp-group"></span>
+        <span href="#" class="dp-Date-link">
+            <span class="dp-Date">Today</span> : <span class="dp-Time">4pm</span>
+            <ul class="dp-DateSelect">
+                <li>Today</li>
+                <li>Tomorrow</li>
+                <li class="dp-Datepicker-title is-active">
+                    Date picker
+                    <span class="dp-MonthYear">
+                        <span>December<span class="dp-Icon Icon--down-caret Icon--primary"></span></span>
+                        <span>2019<span class="dp-Icon Icon--down-caret Icon--primary"></span></span>
+                    </span>
+                    <table class="dp-Datepicker">
+                        <tr>
+                            <th>S</th>
+                            <th>M</th>
+                            <th>T</th>
+                            <th>W</th>
+                            <th>T</th>
+                            <th>F</th>
+                            <th>S</th>
+                        </tr>
+                        <tr>
+                            <td class="dp-old-day">25</td>
+                            <td class="dp-old-day">26</td>
+                            <td class="dp-old-day">27</td>
+                            <td class="dp-old-day">28</td>
+                            <td class="dp-old-day">29</td>
+                            <td class="dp-old-day">30</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>4</td>
+                            <td>5</td>
+                            <td>6</td>
+                            <td>7</td>
+                            <td>8</td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>10</td>
+                            <td>11</td>
+                            <td>12</td>
+                            <td>13</td>
+                            <td class="is-active">14</td>
+                            <td>15</td>
+                        </tr>
+                        <tr>
+                            <td>16</td>
+                            <td>17</td>
+                            <td>18</td>
+                            <td>19</td>
+                            <td>20</td>
+                            <td>21</td>
+                            <td>22</td>
+                        </tr>
+                        <tr>
+                            <td>23</td>
+                            <td>24</td>
+                            <td>25</td>
+                            <td>26</td>
+                            <td>27</td>
+                            <td>28</td>
+                            <td>29</td>
+                        </tr>
+                        <tr>
+                            <td>30</td>
+                            <td>31</td>
+                            <td class="dp-new-day">1</td>
+                            <td class="dp-new-day">2</td>
+                            <td class="dp-new-day">3</td>
+                            <td class="dp-new-day">4</td>
+                            <td class="dp-new-day">5</td>
+                        </tr>
+
+                    </table>
+                </li>
+            </ul>
+
+        </span>
+    </span>
+</div>
+```
+
+
+```html @preview
+<div class="dp-MainWrapper Datepicker-demo">
+    <span class="dp-DateGroup time-active">
+        <span class="dp-Icon dp-group"></span>
+        <span href="#" class="dp-Date-link">
+            <span class="dp-Date">Today</span> : <span class="dp-Time">4pm</span>
+            <ul class="dp-DateSelect">
+                <li>Today</li>
+                <li>Tomorrow</li>
+                <li class="dp-Datepicker-title is-active">
+                    Date picker
+                    <span class="dp-MonthYear">
+                        <span>December<span class="dp-Icon Icon--down-caret Icon--primary"></span></span>
+                        <span>2019<span class="dp-Icon Icon--down-caret Icon--primary"></span></span>
+                    </span>
+                    <table class="dp-Datepicker">
+                        <tr>
+                            <th>S</th>
+                            <th>M</th>
+                            <th>T</th>
+                            <th>W</th>
+                            <th>T</th>
+                            <th>F</th>
+                            <th>S</th>
+                        </tr>
+                        <tr>
+                            <td class="dp-old-day">25</td>
+                            <td class="dp-old-day">26</td>
+                            <td class="dp-old-day">27</td>
+                            <td class="dp-old-day">28</td>
+                            <td class="dp-old-day">29</td>
+                            <td class="dp-old-day">30</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>4</td>
+                            <td>5</td>
+                            <td>6</td>
+                            <td>7</td>
+                            <td>8</td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>10</td>
+                            <td>11</td>
+                            <td>12</td>
+                            <td>13</td>
+                            <td class="is-active">14</td>
+                            <td>15</td>
+                        </tr>
+                        <tr>
+                            <td>16</td>
+                            <td>17</td>
+                            <td>18</td>
+                            <td>19</td>
+                            <td>20</td>
+                            <td>21</td>
+                            <td>22</td>
+                        </tr>
+                        <tr>
+                            <td>23</td>
+                            <td>24</td>
+                            <td>25</td>
+                            <td>26</td>
+                            <td>27</td>
+                            <td>28</td>
+                            <td>29</td>
+                        </tr>
+                        <tr>
+                            <td>30</td>
+                            <td>31</td>
+                            <td class="dp-new-day">1</td>
+                            <td class="dp-new-day">2</td>
+                            <td class="dp-new-day">3</td>
+                            <td class="dp-new-day">4</td>
+                            <td class="dp-new-day">5</td>
+                        </tr>
+
+                    </table>
+                </li>
+            </ul>
+
+            <ul class="dp-TimeSelect">
+                <li>Morning</li>
+                <li>Afternoon</li>
+                <li>
+                    <table class="dp-Timepicker">
+                        <tr>
+                            <td>9am</td>
+                            <td>10am</td>
+                            <td>11am</td>
+                            <td class="is-active">Noon</td>
+                            <td>1pm</td>
+                        </tr>
+                        <tr>
+                            <td>2pm</td>
+                            <td>3pm</td>
+                            <td>4pm</td>
+                            <td>5pm</td>
+                            <td>6pm</td>
+                        </tr>
+                    </table>
+                </li>
+            </ul>
+
+        </span>
+    </span>
+</div>
 ```
