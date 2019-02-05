@@ -13,43 +13,57 @@ export type KanbanColumnProps = {
   onThresholdReach?(): void;
 };
 
-const KanbanColumn: React.FC<KanbanColumnProps> = ({
+const KanbanColumnLayout: React.FC<KanbanColumnProps> = ({
   className,
   style,
   title,
   scrollThreshold,
   onThresholdReach,
   children
+}) => (
+  <div className={classNames("dp-Kanban-column", className)} style={style}>
+    <div className="dp-Kanban-columnTitle">{title}</div>
+    <ScrollArea
+      className="dp-Kanban-columnContent"
+      threshold={scrollThreshold}
+      onTresholdReach={onThresholdReach}
+    >
+      {children}
+    </ScrollArea>
+  </div>
+);
+
+const KanbanColumn: React.FC<KanbanColumnProps> = ({
+  className,
+  children,
+  ...props
 }) => {
   const { draggable } = React.useContext(KanbanContext);
 
-  return (
-    <div className={classNames("dp-Kanban-column", className)} style={style}>
-      <div className="dp-Kanban-columnTitle">{title}</div>
-      <ScrollArea
-        className="dp-Kanban-columnContent"
-        threshold={scrollThreshold}
-        onTresholdReach={onThresholdReach}
-      >
-        {draggable ? (
-          <Droppable droppableId={title}>
-            {(provided, snapshot) => (
-              <div
-                ref={provided.innerRef}
-                className={classNames("dp-Kanban-droppableArea", {
-                  "is-over": snapshot.isDragOver
-                })}
-              >
-                {children}
-                {provided.placeholder}
-              </div>
-            )}
-          </Droppable>
-        ) : (
-          children
+  if (draggable) {
+    return (
+      <Droppable droppableId={props.title}>
+        {(provided, snapshot) => (
+          <KanbanColumnLayout
+            className={classNames(className, {
+              "is-over": snapshot.isDraggingOver
+            })}
+            {...props}
+          >
+            <div ref={provided.innerRef} className="dp-Kanban-droppableArea">
+              {children}
+              {provided.placeholder}
+            </div>
+          </KanbanColumnLayout>
         )}
-      </ScrollArea>
-    </div>
+      </Droppable>
+    );
+  }
+
+  return (
+    <KanbanColumnLayout className={className} {...props}>
+      {children}
+    </KanbanColumnLayout>
   );
 };
 
