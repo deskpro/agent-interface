@@ -38,15 +38,19 @@ const KanbanColumn: React.FC<KanbanColumnProps> = ({
   children,
   ...props
 }) => {
-  const { draggable } = React.useContext(KanbanContext);
+  const { draggable, disabledDroppable } = React.useContext(KanbanContext);
 
   if (draggable) {
     return (
-      <Droppable droppableId={props.title}>
+      <Droppable
+        droppableId={props.title}
+        isDropDisabled={disabledDroppable === props.title}
+      >
         {(provided, snapshot) => (
           <KanbanColumnLayout
             className={classNames(className, {
-              "is-over": snapshot.isDraggingOver
+              "is-over": snapshot.isDraggingOver,
+              "is-active": snapshot.isDraggingOver && !!disabledDroppable
             })}
             {...props}
           >

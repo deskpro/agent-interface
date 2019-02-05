@@ -28,6 +28,10 @@
   border: 1px solid rgb(15, 156, 212);
 }
 
+.dp-Kanban-column.is-active {
+  opacity: 0.8;
+}
+
 .dp-Kanban-columnTitle {
   font-weight: bold;
   border-bottom: 1px solid #bbb;
@@ -72,20 +76,6 @@
 .dp-Kanban-item {
   width: 100%;
   box-sizing: border-box;
-}
-
-.dp-Kanban-item.is-over {
-  border-bottom: 2px solid rgb(15, 156, 212);
-}
-
-.dp-Kanban-item.is-shadow+div {
-  display: none !important;
-}
-
-.dp-Kanban-placeholder {
-  width: 100%;
-  border: 2px solid rgb(15, 156, 212);
-  height: 0;
 }
 
 .dp-Kanban.Kanban--demo .dp-Kanban-column {
