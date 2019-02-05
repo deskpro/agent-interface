@@ -2,6 +2,7 @@ import * as React from "react";
 
 import Kanban from "./Kanban";
 import Card from "../ListPane/Card";
+import { KanbanItemDraggingState } from "./KanbanItem";
 
 export type KanbanItemID = number | string;
 
@@ -34,7 +35,7 @@ export type StandardKanbanProps = {
   onDragEnd: (data: StandardKanbanDragArgs) => void;
   renderCard: (
     item: KanbanCard,
-    isDragging: boolean
+    state?: KanbanItemDraggingState
   ) => React.ReactElement<Card>;
 };
 
@@ -74,7 +75,7 @@ const StandardKanban: React.FC<StandardKanbanProps> = ({
         <Card.List hoverable>
           {items.map((card, idx) => (
             <Kanban.Item key={card.id} itemId={card.id} index={idx}>
-              {isDragging => renderCard(card, isDragging as boolean)}
+              {state => renderCard(card, state)}
             </Kanban.Item>
           ))}
         </Card.List>

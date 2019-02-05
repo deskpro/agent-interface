@@ -98,7 +98,7 @@ const SimpleKanban = ({ action }) => {
           >
             {cards[column].map((card, idx) => (
               <Kanban.Item key={card} itemId={card} index={idx}>
-                {() => <Card>{card}</Card>}
+                {({ isShadow }) => (isShadow ? null : <Card>{card}</Card>)}
               </Kanban.Item>
             ))}
           </Kanban.Column>

@@ -88,7 +88,7 @@ const CardKanban = ({ action }) => {
             <Card.List hoverable>
               {cards[column].map((title, idx) => (
                 <Kanban.Item key={title} itemId={title} index={idx}>
-                  {isDragging => (
+                  {({ isDragging }) => (
                     <Card.TicketCard
                       model={{ id: idx, title }}
                       isDragging={isDragging}
