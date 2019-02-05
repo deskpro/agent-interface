@@ -15,21 +15,25 @@ export type KanbanProps = {
   className?: string;
   style?: object;
   draggable?: boolean;
+  allowReorder?: boolean;
   onDragEnd?: (result: any) => void;
 };
 
 export type KanbanContextType = {
   draggable: boolean;
+  disabledDroppable: string | null;
 };
 
 export const KanbanContext = React.createContext<KanbanContextType>({
-  draggable: false
+  draggable: false,
+  disabledDroppable: null
 });
 
 const Kanban: React.FC<KanbanProps> & KanbanSubComponents = ({
   className,
   style,
   draggable = false,
+  allowReorder = true,
   onDragEnd,
   children
 }) => {
@@ -43,10 +47,40 @@ const Kanban: React.FC<KanbanProps> & KanbanSubComponents = ({
     </ScrollArea>
   );
 
+  const [disabledDroppable, setDisabledTarget] = React.useState<string | null>(
+    null
+  );
+
+  const handleDragStart = React.useCallback(
+    ({ source }) => {
+      if (!allowReorder) {
+        setDisabledTarget(source.droppableId);
+      }
+    },
+    [allowReorder]
+  );
+
+  const handleDragEnd = React.useCallback(
+    result => {
+      if (!allowReorder) {
+        setDisabledTarget(null);
+      }
+      if (typeof onDragEnd === "function") {
+        onDragEnd(result);
+      }
+    },
+    [allowReorder]
+  );
+
   return (
-    <KanbanContext.Provider value={{ draggable }}>
+    <KanbanContext.Provider value={{ draggable, disabledDroppable }}>
       {draggable ? (
-        <DragDropContext onDragEnd={onDragEnd}>{scrollArea}</DragDropContext>
+        <DragDropContext
+          onDragStart={handleDragStart}
+          onDragEnd={handleDragEnd}
+        >
+          {scrollArea}
+        </DragDropContext>
       ) : (
         scrollArea
       )}

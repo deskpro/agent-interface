@@ -30,6 +30,7 @@ export type StandardKanbanDragArgs = {
 
 export type StandardKanbanProps = {
   className?: string;
+  allowReorder?: boolean;
   data: StandardKanbanDataItem[];
   onLoadMore: (group: KanbanGroup) => void;
   onDragEnd: (data: StandardKanbanDragArgs) => void;
@@ -41,6 +42,7 @@ export type StandardKanbanProps = {
 
 const StandardKanban: React.FC<StandardKanbanProps> = ({
   className,
+  allowReorder = true,
   data,
   onLoadMore,
   onDragEnd,
@@ -49,6 +51,7 @@ const StandardKanban: React.FC<StandardKanbanProps> = ({
   <Kanban
     className={className}
     draggable
+    allowReorder={allowReorder}
     onDragEnd={result => {
       const { draggableId, source, destination } = result;
 

@@ -62,7 +62,7 @@ const kanbanReducer = produce((draft, { type, payload }) => {
   return undefined;
 });
 
-const StandardKanbanDemo = ({ action }) => {
+const StandardKanbanDemo = ({ action, allowReorder }) => {
   const [data, dispatch] = React.useReducer(kanbanReducer, [], {
     type: "loadData"
   });
@@ -71,6 +71,7 @@ const StandardKanbanDemo = ({ action }) => {
     <div style={{ height: "100vh", width: "100vw" }}>
       <StandardKanban
         className="Kanban--cards"
+        allowReorder={allowReorder}
         data={data}
         onDragEnd={payload => dispatch({ type: "moveItem", payload })}
         onLoadMore={group => dispatch({ type: "loadMore", payload: group })}
