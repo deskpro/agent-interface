@@ -1799,7 +1799,7 @@ title: Card
                 <li class="Level--down">
                     <ul class="dp-CardList">
 
-                        <li class="dp-Card dp-Level Card--primary">
+                        <li class="dp-Card dp-Level is-hover">
                             <span class="dp-LevelItem dp-LevelCol dp-LevelTop">
                                 <!-- Arrow -->
                                 <span class="dp-Icon dp-sub_field"></span>
@@ -1822,8 +1822,8 @@ title: Card
                             </span>
 
                             <!-- Icon hover -->
-                            <span class="dp-Cog">
-                                <span class="dp-Icon dp-settings is-active"></span>
+                            <span class="dp-Cog is-hover">
+                                <span class="dp-Icon dp-settings"></span>
 
                                 <!-- dropdown -->
                                 <ul class="dp-Menu">

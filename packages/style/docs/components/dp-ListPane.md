@@ -1176,10 +1176,11 @@ title: List View
                 <span class="dp-LevelItem Level-justify-between">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="my-task-1">
-                        <label for="my-task-1">
+                        <label for="my-task-1"></label>
+                        <span class="dp-Task-title">
                             <span class="dp-Icon dp-Approve"></span>
                             <span class="dp-Card-title">Maintenance & Installation of Lighting System</span>
-                        </label>
+                        </span>
                     </span>
 
                     <span class="dp-DateGroup">
@@ -1289,7 +1290,7 @@ title: List View
                             </ul>
                         </span>
                     </span>
-                    
+
                 </span>
 
                 <span class="dp-LevelItem dp-LevelLeft">
@@ -1389,10 +1390,11 @@ title: List View
                 <span class="dp-LevelItem Level-justify-between">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="my-task-2">
-                        <label for="my-task-2">
+                        <label for="my-task-2"></label>
+                        <span class="dp-Task-title">
                             <span class="dp-Icon dp-Approve"></span>
                             <span class="dp-Card-title">Maintenance & Installation of Lighting System</span>
-                        </label>
+                        </span>
                     </span>
 
                     <span class="dp-DateGroup">
@@ -1590,12 +1592,14 @@ title: List View
             <!-- 3 -->
             <li class="dp-Card dp-Level LevelCol dp-Tasks-list Task--complete">
                 <span class="dp-LevelItem Level-justify-between">
+
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="my-task-3">
-                        <label for="my-task-3">
+                        <label for="my-task-3"></label>
+                        <span class="dp-Task-title">
                             <span class="dp-Icon dp-Approve"></span>
                             <span class="dp-Card-title">Maintenance & Installation of Lighting System</span>
-                        </label>
+                        </span>
                     </span>
 
                     <span class="dp-DateGroup">
@@ -1793,12 +1797,14 @@ title: List View
             <!-- 4 -->
             <li class="dp-Card dp-Level LevelCol is-active dp-Tasks-list Task--completed">
                 <span class="dp-LevelItem Level-justify-between">
+
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="my-task-4">
-                        <label for="my-task-4">
+                        <label for="my-task-4"></label>
+                        <span class="dp-Task-title">
                             <span class="dp-Icon dp-Approve"></span>
                             <span class="dp-Card-title">Maintenance & Installation of Lighting System</span>
-                        </label>
+                        </span>
                     </span>
 
                     <span class="dp-DateGroup">
@@ -2010,7 +2016,6 @@ title: List View
 </div>
 ```
 
-
 <h4>Listview/tasks-addcomment</h4>
 ```html @preview
 <div class="dp-MainWrapper" style="height: 400px">
@@ -2019,11 +2024,12 @@ title: List View
             <li class="dp-Card dp-Level LevelCol dp-Tasks-list">
                 <span class="dp-LevelItem Level-justify-between">
                     <span class="dp-CustomCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="tasksnew-1">
-                        <label for="tasksnew-1" class="">
-                            <span class="dp-Icon dp-Approve is-completed"></span>
-                            <span class="dp-Label-title dp-Card-title">Maintenance & Installation of Lighting System</span>
-                        </label>
+                        <input type="checkbox" class="dp-ControlInput" id="task-addcomment-1">
+                        <label for="task-addcomment-1"></label>
+                        <span class="dp-Task-title">
+                            <span class="dp-Icon dp-Approve"></span>
+                            <span class="dp-Card-title">Maintenance & Installation of Lighting System</span>
+                        </span>
                     </span>
                     <span class="dp-DateGroup">
                         <span class="dp-Icon dp-group"></span>
@@ -2233,13 +2239,16 @@ title: List View
 
             <li class="dp-Card dp-Level LevelCol dp-Tasks-list">
                 <span class="dp-LevelItem Level-justify-between">
+
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="task-variations-1">
-                        <label for="task-variations-1">
+                        <label for="task-variations-1"></label>
+                        <span class="dp-Task-title">
                             <span class="dp-Icon dp-Approve"></span>
                             <span class="dp-Card-title">Maintenance & Installation of Lighting System</span>
-                        </label>
+                        </span>
                     </span>
+
                     <span class="dp-DateGroup">
                         <span class="dp-Icon dp-group"></span>
                         <span href="#" class="dp-Date-link">
@@ -2395,12 +2404,14 @@ title: List View
 
             <li class="dp-Card dp-Level LevelCol is-active dp-Tasks-list">
                 <span class="dp-LevelItem Level-justify-between">
+
                     <span class="dp-CustomCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="task-variations-3">
-                        <label for="task-variations-3">
+                        <input type="checkbox" class="dp-ControlInput" id="task-variations-2">
+                        <label for="task-variations-2"></label>
+                        <span class="dp-Task-title">
                             <span class="dp-Icon dp-Approve"></span>
                             <span class="dp-Card-title">Maintenance & Installation of Lighting System</span>
-                        </label>
+                        </span>
                     </span>
 
                     <span class="dp-DateGroup">
@@ -2622,10 +2633,11 @@ title: List View
             <span class="dp-LevelItem Level-justify-between">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="tasksnew-2">
-                    <label for="tasksnew-2">
+                    <label for="my-tasksnew-2"></label>
+                    <span class="dp-Task-title">
                         <span class="dp-Icon dp-Approve"></span>
                         <span class="dp-Card-title">Maintenance & Installation of Lighting System</span>
-                    </label>
+                    </span>
                 </span>
 
                 <span class="dp-DateGroup">
@@ -2933,10 +2945,11 @@ title: List View
                 <span class="dp-LevelItem Level-justify-between">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="my-task-2-1">
-                        <label for="my-task-2-1">
-                            <span class="dp-Icon dp-Approve"></span>
+                        <label for="my-task-2-1"></label>
+                        <span class="dp-Task-title">
+                            <span class="dp-Icon dp-Approve is-active"></span>
                             <span class="dp-Card-title">Maintenance & Installation of Lighting System</span>
-                        </label>
+                        </span>
                     </span>
                     <span class="dp-DateGroup">
                         <span class="dp-Icon dp-group"></span>
@@ -3144,10 +3157,11 @@ title: List View
                 <span class="dp-LevelItem Level-justify-between">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="my-task-2-2">
-                        <label for="my-task-2-2">
+                        <label for="my-task-2-2"></label>
+                        <span class="dp-Task-title">
                             <span class="dp-Icon dp-Approve"></span>
                             <span class="dp-Card-title">Maintenance & Installation of Lighting System</span>
-                        </label>
+                        </span>
                     </span>
                     <span class="dp-DateGroup">
                         <span class="dp-Icon dp-group"></span>
@@ -3345,10 +3359,11 @@ title: List View
                 <span class="dp-LevelItem Level-justify-between">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="my-task-2-3">
-                        <label for="my-task-2-3">
+                        <label for="my-task-2-3"></label>
+                        <span class="dp-Task-title">
                             <span class="dp-Icon dp-Approve"></span>
                             <span class="dp-Card-title">Maintenance & Installation of Lighting System</span>
-                        </label>
+                        </span>
                     </span>
                     <span class="dp-DateGroup">
                         <span class="dp-Icon dp-group"></span>
@@ -3546,10 +3561,11 @@ title: List View
                 <span class="dp-LevelItem Level-justify-between">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="my-task-2-4">
-                        <label for="my-task-2-4">
+                        <label for="my-task-2-4"></label>
+                        <span class="dp-Task-title">
                             <span class="dp-Icon dp-Approve"></span>
                             <span class="dp-Card-title">Maintenance & Installation of Lighting System</span>
-                        </label>
+                        </span>
                     </span>
                     <span class="dp-DateGroup">
                         <span class="dp-Icon dp-group"></span>
@@ -3747,10 +3763,11 @@ title: List View
                 <span class="dp-LevelItem Level-justify-between">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="my-task-2-5">
-                        <label for="my-task-2-5">
+                        <label for="my-task-2-5"></label>
+                        <span class="dp-Task-title">
                             <span class="dp-Icon dp-Approve"></span>
                             <span class="dp-Card-title">Maintenance & Installation of Lighting System</span>
-                        </label>
+                        </span>
                     </span>
                     <span class="dp-DateGroup">
                         <span class="dp-Icon dp-group"></span>
@@ -3948,10 +3965,11 @@ title: List View
                 <span class="dp-LevelItem Level-justify-between">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="my-task-2-6">
-                        <label for="my-task-2-6">
+                        <label for="my-task-2-6"></label>
+                        <span class="dp-Task-title">
                             <span class="dp-Icon dp-Approve"></span>
                             <span class="dp-Card-title">Maintenance & Installation of Lighting System</span>
-                        </label>
+                        </span>
                     </span>
                     <span class="dp-DateGroup">
                         <span class="dp-Icon dp-group"></span>
@@ -4060,10 +4078,11 @@ title: List View
                 <span class="dp-LevelItem Level-justify-between">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="my-task-2-7">
-                        <label for="my-task-2-7">
+                        <label for="my-task-2-7"></label>
+                        <span class="dp-Task-title">
                             <span class="dp-Icon dp-Approve"></span>
                             <span class="dp-Card-title">Maintenance & Installation of Lighting System</span>
-                        </label>
+                        </span>
                     </span>
                     <span class="dp-DateGroup">
                         <span class="dp-Icon dp-group"></span>
@@ -4261,10 +4280,11 @@ title: List View
                 <span class="dp-LevelItem Level-justify-between">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="my-task-2-8">
-                        <label for="my-task-2-8">
+                        <label for="my-task-2-8"></label>
+                        <span class="dp-Task-title">
                             <span class="dp-Icon dp-Approve"></span>
                             <span class="dp-Card-title">Maintenance & Installation of Lighting System</span>
-                        </label>
+                        </span>
                     </span>
                     <span class="dp-DateGroup">
                         <span class="dp-Icon dp-group"></span>
@@ -4462,10 +4482,11 @@ title: List View
                 <span class="dp-LevelItem Level-justify-between">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="my-task-2-9">
-                        <label for="my-task-2-9">
+                        <label for="my-task-2-9"></label>
+                        <span class="dp-Task-title">
                             <span class="dp-Icon dp-Approve"></span>
                             <span class="dp-Card-title">Maintenance & Installation of Lighting System</span>
-                        </label>
+                        </span>
                     </span>
                     <span class="dp-DateGroup">
                         <span class="dp-Icon dp-group"></span>
@@ -4663,10 +4684,11 @@ title: List View
                 <span class="dp-LevelItem Level-justify-between">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="my-task-2-10">
-                        <label for="my-task-2-10">
+                        <label for="my-task-2-10"></label>
+                        <span class="dp-Task-title">
                             <span class="dp-Icon dp-Approve"></span>
                             <span class="dp-Card-title">Maintenance & Installation of Lighting System</span>
-                        </label>
+                        </span>
                     </span>
                     <span class="dp-DateGroup">
                         <span class="dp-Icon dp-group"></span>
@@ -4867,7 +4889,6 @@ title: List View
 
 <h4>Listview/New task - in completion</h4>
 ```html @preview
-
 <div class="dp-MainWrapper">
     <form>
         <ul class="dp-CardList is-hoverable">
@@ -4956,13 +4977,14 @@ title: List View
                         <span class="dp-CustomCheckbox">
                             <input type="checkbox" class="dp-ControlInput" id="my-task-3-0"></input>
                             <label for="my-task-3-0"></label>
-                        </span>
-                    </span>
-                    <span class="dp-LevelCol">
-                        <span class="dp-IconTitle">
-                            <span class="dp-Icon dp-Approve"></span>
-                            <span class="dp-Card-title" contenteditable="true">New tas</span>
-                        </span>
+                       
+
+                            <span class="dp-Task-title dp-NewTitle">
+                                <span class="dp-Icon dp-Approve"></span>
+                                <span class="dp-Card-title" contenteditable="true">New task</span>
+                            </span>
+
+                         </span>
                     </span>
 
                     <span class="dp-DateGroup">
@@ -5094,10 +5116,11 @@ title: List View
                 <span class="dp-LevelItem Level-justify-between">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="my-task-3-2">
-                        <label for="my-task-3-2">
-                            <span class="dp-Icon dp-Approve"></span>
+                        <label for="my-task-3-2"></label>
+                        <span class="dp-Task-title">
+                            <span class="dp-Icon dp-Approve is-active"></span>
                             <span class="dp-Card-title">Maintenance & Installation of Lighting System</span>
-                        </label>
+                        </span>
                     </span>
 
                     <span class="dp-DateGroup">
@@ -5307,10 +5330,11 @@ title: List View
                 <span class="dp-LevelItem Level-justify-between">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="my-task-3-3">
-                        <label for="my-task-3-3">
+                        <label for="my-task-3-3"></label>
+                        <span class="dp-Task-title">
                             <span class="dp-Icon dp-Approve"></span>
                             <span class="dp-Card-title">Maintenance & Installation of Lighting System</span>
-                        </label>
+                        </span>
                     </span>
                     <span class="dp-DateGroup">
                         <span class="dp-Icon dp-group"></span>
@@ -5508,10 +5532,11 @@ title: List View
                 <span class="dp-LevelItem Level-justify-between">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="my-task-3-4">
-                        <label for="my-task-3-4">
+                        <label for="my-task-3-4"></label>
+                        <span class="dp-Task-title">
                             <span class="dp-Icon dp-Approve"></span>
                             <span class="dp-Card-title">Maintenance & Installation of Lighting System</span>
-                        </label>
+                        </span>
                     </span>
                     <span class="dp-DateGroup">
                         <span class="dp-Icon dp-group"></span>
@@ -5708,6 +5733,324 @@ title: List View
     </form>
 </div>
 ```
+
+<h4>Listview/tasks-datetimeselect</h4>
+
+```html @preview
+<div class="dp-MainWrapper">
+    <span class="dp-DateGroup">
+        <span class="dp-Icon dp-group"></span>
+        <span href="#" class="dp-Date-link">
+            <span class="dp-Date">Today</span> : <span class="dp-Time">4pm</span>
+        </span>
+    </span>
+</div>
+```
+
+```html @preview
+<div class="dp-MainWrapper" style="height: 150px">
+    <span class="dp-DateGroup date-active">
+        <span class="dp-Icon dp-group"></span>
+        <span href="#" class="dp-Date-link">
+            <span class="dp-Date">Today</span> : <span class="dp-Time">4pm</span>
+            <ul class="dp-DateSelect">
+                <li>Today</li>
+                <li>Tomorrow</li>
+                <li class="dp-Datepicker-title">
+                    Date picker
+                    <span class="dp-DatepickerWrapper">
+                        <span class="dp-MonthYear">
+                            <span>December<span class="dp-Icon Icon--down-caret Icon--primary"></span></span>
+                            <span>2019<span class="dp-Icon Icon--down-caret Icon--primary"></span></span>
+                        </span>
+                        <table class="dp-Datepicker">
+                            <tr>
+                                <th>S</th>
+                                <th>M</th>
+                                <th>T</th>
+                                <th>W</th>
+                                <th>T</th>
+                                <th>F</th>
+                                <th>S</th>
+                            </tr>
+                            <tr>
+                                <td class="dp-old-day">25</td>
+                                <td class="dp-old-day">26</td>
+                                <td class="dp-old-day">27</td>
+                                <td class="dp-old-day">28</td>
+                                <td class="dp-old-day">29</td>
+                                <td class="dp-old-day">30</td>
+                                <td>1</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>3</td>
+                                <td>4</td>
+                                <td>5</td>
+                                <td>6</td>
+                                <td>7</td>
+                                <td>8</td>
+                            </tr>
+                            <tr>
+                                <td>9</td>
+                                <td>10</td>
+                                <td>11</td>
+                                <td>12</td>
+                                <td>13</td>
+                                <td>14</td>
+                                <td class="is-active">15</td>
+                            </tr>
+                            <tr>
+                                <td>16</td>
+                                <td>17</td>
+                                <td>18</td>
+                                <td>19</td>
+                                <td>20</td>
+                                <td>21</td>
+                                <td>22</td>
+                            </tr>
+                            <tr>
+                                <td>23</td>
+                                <td>24</td>
+                                <td>25</td>
+                                <td>26</td>
+                                <td>27</td>
+                                <td>28</td>
+                                <td>29</td>
+                            </tr>
+                            <tr>
+                                <td>30</td>
+                                <td>31</td>
+                                <td class="dp-new-day">1</td>
+                                <td class="dp-new-day">2</td>
+                                <td class="dp-new-day">3</td>
+                                <td class="dp-new-day">4</td>
+                                <td class="dp-new-day">5</td>
+                            </tr>
+
+                        </table>
+                    </span>
+                </li>
+            </ul>
+
+        </span>
+    </span>
+</div>
+```
+
+```html @preview
+<div class="dp-MainWrapper Datepicker-demo" style="height: 320px">
+    <span class="dp-DateGroup date-active">
+        <span class="dp-Icon dp-group"></span>
+        <span href="#" class="dp-Date-link">
+            <span class="dp-Date">Today</span> : <span class="dp-Time">4pm</span>
+            <ul class="dp-DateSelect">
+                <li>Today</li>
+                <li>Tomorrow</li>
+                <li class="dp-Datepicker-title is-active">
+                    Date picker
+                    <span class="dp-MonthYear">
+                        <span>December<span class="dp-Icon Icon--down-caret Icon--primary"></span></span>
+                        <span>2019<span class="dp-Icon Icon--down-caret Icon--primary"></span></span>
+                    </span>
+                    <table class="dp-Datepicker">
+                        <tr>
+                            <th>S</th>
+                            <th>M</th>
+                            <th>T</th>
+                            <th>W</th>
+                            <th>T</th>
+                            <th>F</th>
+                            <th>S</th>
+                        </tr>
+                        <tr>
+                            <td class="dp-old-day">25</td>
+                            <td class="dp-old-day">26</td>
+                            <td class="dp-old-day">27</td>
+                            <td class="dp-old-day">28</td>
+                            <td class="dp-old-day">29</td>
+                            <td class="dp-old-day">30</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>4</td>
+                            <td>5</td>
+                            <td>6</td>
+                            <td>7</td>
+                            <td>8</td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>10</td>
+                            <td>11</td>
+                            <td>12</td>
+                            <td>13</td>
+                            <td class="is-active">14</td>
+                            <td>15</td>
+                        </tr>
+                        <tr>
+                            <td>16</td>
+                            <td>17</td>
+                            <td>18</td>
+                            <td>19</td>
+                            <td>20</td>
+                            <td>21</td>
+                            <td>22</td>
+                        </tr>
+                        <tr>
+                            <td>23</td>
+                            <td>24</td>
+                            <td>25</td>
+                            <td>26</td>
+                            <td>27</td>
+                            <td>28</td>
+                            <td>29</td>
+                        </tr>
+                        <tr>
+                            <td>30</td>
+                            <td>31</td>
+                            <td class="dp-new-day">1</td>
+                            <td class="dp-new-day">2</td>
+                            <td class="dp-new-day">3</td>
+                            <td class="dp-new-day">4</td>
+                            <td class="dp-new-day">5</td>
+                        </tr>
+
+                    </table>
+                </li>
+            </ul>
+
+        </span>
+    </span>
+</div>
+```
+
+```html @preview
+<div class="dp-MainWrapper" style="height: 250px">
+    <span class="dp-DateGroup time-active">
+        <span class="dp-Icon dp-group"></span>
+        <span href="#" class="dp-Date-link">
+            <span class="dp-Date">Today</span> : <span class="dp-Time">4pm</span>
+            <ul class="dp-DateSelect">
+                <li>Today</li>
+                <li>Tomorrow</li>
+                <li class="dp-Datepicker-title is-active">
+                    Date picker
+                    <span class="dp-MonthYear">
+                        <span>December<span class="dp-Icon Icon--down-caret Icon--primary"></span></span>
+                        <span>2019<span class="dp-Icon Icon--down-caret Icon--primary"></span></span>
+                    </span>
+                    <table class="dp-Datepicker">
+                        <tr>
+                            <th>S</th>
+                            <th>M</th>
+                            <th>T</th>
+                            <th>W</th>
+                            <th>T</th>
+                            <th>F</th>
+                            <th>S</th>
+                        </tr>
+                        <tr>
+                            <td class="dp-old-day">25</td>
+                            <td class="dp-old-day">26</td>
+                            <td class="dp-old-day">27</td>
+                            <td class="dp-old-day">28</td>
+                            <td class="dp-old-day">29</td>
+                            <td class="dp-old-day">30</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>4</td>
+                            <td>5</td>
+                            <td>6</td>
+                            <td>7</td>
+                            <td>8</td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>10</td>
+                            <td>11</td>
+                            <td>12</td>
+                            <td>13</td>
+                            <td class="is-active">14</td>
+                            <td>15</td>
+                        </tr>
+                        <tr>
+                            <td>16</td>
+                            <td>17</td>
+                            <td>18</td>
+                            <td>19</td>
+                            <td>20</td>
+                            <td>21</td>
+                            <td>22</td>
+                        </tr>
+                        <tr>
+                            <td>23</td>
+                            <td>24</td>
+                            <td>25</td>
+                            <td>26</td>
+                            <td>27</td>
+                            <td>28</td>
+                            <td>29</td>
+                        </tr>
+                        <tr>
+                            <td>30</td>
+                            <td>31</td>
+                            <td class="dp-new-day">1</td>
+                            <td class="dp-new-day">2</td>
+                            <td class="dp-new-day">3</td>
+                            <td class="dp-new-day">4</td>
+                            <td class="dp-new-day">5</td>
+                        </tr>
+
+                    </table>
+                </li>
+            </ul>
+
+            <ul class="dp-TimeSelect">
+                <li>Morning</li>
+                <li>Afternoon</li>
+                <li>
+                    <table class="dp-Timepicker">
+                        <tr>
+                            <td>9am</td>
+                            <td>10am</td>
+                            <td>11am</td>
+                            <td class="is-active">Noon</td>
+                            <td>1pm</td>
+                        </tr>
+                        <tr>
+                            <td>2pm</td>
+                            <td>3pm</td>
+                            <td>4pm</td>
+                            <td>5pm</td>
+                            <td>6pm</td>
+                        </tr>
+                    </table>
+                </li>
+            </ul>
+
+        </span>
+    </span>
+</div>
+```
+
+```html @preview
+<div class="dp-MainWrapper">
+    <span class="dp-DateGroup">
+        <span class="dp-Icon dp-group"></span>
+        <span href="#" class="dp-Date-link">
+            <span class="dp-Date">Tomorrow</span> : <span class="dp-Time">Noon</span>
+        </span>
+    </span>
+</div>
+```
+
+
 
 ## Listview/CRM
 
@@ -5999,311 +6342,4 @@ title: List View
 
     </ul>
 </form>
-```
-
-
-<h4>Listview/tasks-datetimeselect</h4>
-
-```html @preview
-<div class="dp-MainWrapper">
-    <span class="dp-DateGroup">
-        <span class="dp-Icon dp-group"></span>
-        <span href="#" class="dp-Date-link">
-            <span class="dp-Date">Today</span> : <span class="dp-Time">4pm</span>
-        </span>
-    </span>
-</div>
-```
-
-```html @preview
-<div class="dp-MainWrapper" style="height: 150px">
-    <span class="dp-DateGroup date-active">
-        <span class="dp-Icon dp-group"></span>
-        <span href="#" class="dp-Date-link">
-            <span class="dp-Date">Today</span> : <span class="dp-Time">4pm</span>
-            <ul class="dp-DateSelect">
-                <li>Today</li>
-                <li>Tomorrow</li>
-                <li class="dp-Datepicker-title">
-                    Date picker
-                    <span class="dp-DatepickerWrapper">
-                        <span class="dp-MonthYear">
-                            <span>December<span class="dp-Icon Icon--down-caret Icon--primary"></span></span>
-                            <span>2019<span class="dp-Icon Icon--down-caret Icon--primary"></span></span>
-                        </span>
-                        <table class="dp-Datepicker">
-                            <tr>
-                                <th>S</th>
-                                <th>M</th>
-                                <th>T</th>
-                                <th>W</th>
-                                <th>T</th>
-                                <th>F</th>
-                                <th>S</th>
-                            </tr>
-                            <tr>
-                                <td class="dp-old-day">25</td>
-                                <td class="dp-old-day">26</td>
-                                <td class="dp-old-day">27</td>
-                                <td class="dp-old-day">28</td>
-                                <td class="dp-old-day">29</td>
-                                <td class="dp-old-day">30</td>
-                                <td>1</td>
-                            </tr>
-                            <tr>
-                                <td>2</td>
-                                <td>3</td>
-                                <td>4</td>
-                                <td>5</td>
-                                <td>6</td>
-                                <td>7</td>
-                                <td>8</td>
-                            </tr>
-                            <tr>
-                                <td>9</td>
-                                <td>10</td>
-                                <td>11</td>
-                                <td>12</td>
-                                <td>13</td>
-                                <td>14</td>
-                                <td class="is-active">15</td>
-                            </tr>
-                            <tr>
-                                <td>16</td>
-                                <td>17</td>
-                                <td>18</td>
-                                <td>19</td>
-                                <td>20</td>
-                                <td>21</td>
-                                <td>22</td>
-                            </tr>
-                            <tr>
-                                <td>23</td>
-                                <td>24</td>
-                                <td>25</td>
-                                <td>26</td>
-                                <td>27</td>
-                                <td>28</td>
-                                <td>29</td>
-                            </tr>
-                            <tr>
-                                <td>30</td>
-                                <td>31</td>
-                                <td class="dp-new-day">1</td>
-                                <td class="dp-new-day">2</td>
-                                <td class="dp-new-day">3</td>
-                                <td class="dp-new-day">4</td>
-                                <td class="dp-new-day">5</td>
-                            </tr>
-
-                        </table>
-                    </span>
-                </li>
-            </ul>
-
-        </span>
-    </span>
-</div>
-```
-
-```html @preview
-<div class="dp-MainWrapper Datepicker-demo" style="height: 320px">
-    <span class="dp-DateGroup date-active">
-        <span class="dp-Icon dp-group"></span>
-        <span href="#" class="dp-Date-link">
-            <span class="dp-Date">Today</span> : <span class="dp-Time">4pm</span>
-            <ul class="dp-DateSelect">
-                <li>Today</li>
-                <li>Tomorrow</li>
-                <li class="dp-Datepicker-title is-active">
-                    Date picker
-                    <span class="dp-MonthYear">
-                        <span>December<span class="dp-Icon Icon--down-caret Icon--primary"></span></span>
-                        <span>2019<span class="dp-Icon Icon--down-caret Icon--primary"></span></span>
-                    </span>
-                    <table class="dp-Datepicker">
-                        <tr>
-                            <th>S</th>
-                            <th>M</th>
-                            <th>T</th>
-                            <th>W</th>
-                            <th>T</th>
-                            <th>F</th>
-                            <th>S</th>
-                        </tr>
-                        <tr>
-                            <td class="dp-old-day">25</td>
-                            <td class="dp-old-day">26</td>
-                            <td class="dp-old-day">27</td>
-                            <td class="dp-old-day">28</td>
-                            <td class="dp-old-day">29</td>
-                            <td class="dp-old-day">30</td>
-                            <td>1</td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>3</td>
-                            <td>4</td>
-                            <td>5</td>
-                            <td>6</td>
-                            <td>7</td>
-                            <td>8</td>
-                        </tr>
-                        <tr>
-                            <td>9</td>
-                            <td>10</td>
-                            <td>11</td>
-                            <td>12</td>
-                            <td>13</td>
-                            <td class="is-active">14</td>
-                            <td>15</td>
-                        </tr>
-                        <tr>
-                            <td>16</td>
-                            <td>17</td>
-                            <td>18</td>
-                            <td>19</td>
-                            <td>20</td>
-                            <td>21</td>
-                            <td>22</td>
-                        </tr>
-                        <tr>
-                            <td>23</td>
-                            <td>24</td>
-                            <td>25</td>
-                            <td>26</td>
-                            <td>27</td>
-                            <td>28</td>
-                            <td>29</td>
-                        </tr>
-                        <tr>
-                            <td>30</td>
-                            <td>31</td>
-                            <td class="dp-new-day">1</td>
-                            <td class="dp-new-day">2</td>
-                            <td class="dp-new-day">3</td>
-                            <td class="dp-new-day">4</td>
-                            <td class="dp-new-day">5</td>
-                        </tr>
-
-                    </table>
-                </li>
-            </ul>
-
-        </span>
-    </span>
-</div>
-```
-
-
-```html @preview
-<div class="dp-MainWrapper" style="height: 250px">
-    <span class="dp-DateGroup time-active">
-        <span class="dp-Icon dp-group"></span>
-        <span href="#" class="dp-Date-link">
-            <span class="dp-Date">Today</span> : <span class="dp-Time">4pm</span>
-            <ul class="dp-DateSelect">
-                <li>Today</li>
-                <li>Tomorrow</li>
-                <li class="dp-Datepicker-title is-active">
-                    Date picker
-                    <span class="dp-MonthYear">
-                        <span>December<span class="dp-Icon Icon--down-caret Icon--primary"></span></span>
-                        <span>2019<span class="dp-Icon Icon--down-caret Icon--primary"></span></span>
-                    </span>
-                    <table class="dp-Datepicker">
-                        <tr>
-                            <th>S</th>
-                            <th>M</th>
-                            <th>T</th>
-                            <th>W</th>
-                            <th>T</th>
-                            <th>F</th>
-                            <th>S</th>
-                        </tr>
-                        <tr>
-                            <td class="dp-old-day">25</td>
-                            <td class="dp-old-day">26</td>
-                            <td class="dp-old-day">27</td>
-                            <td class="dp-old-day">28</td>
-                            <td class="dp-old-day">29</td>
-                            <td class="dp-old-day">30</td>
-                            <td>1</td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>3</td>
-                            <td>4</td>
-                            <td>5</td>
-                            <td>6</td>
-                            <td>7</td>
-                            <td>8</td>
-                        </tr>
-                        <tr>
-                            <td>9</td>
-                            <td>10</td>
-                            <td>11</td>
-                            <td>12</td>
-                            <td>13</td>
-                            <td class="is-active">14</td>
-                            <td>15</td>
-                        </tr>
-                        <tr>
-                            <td>16</td>
-                            <td>17</td>
-                            <td>18</td>
-                            <td>19</td>
-                            <td>20</td>
-                            <td>21</td>
-                            <td>22</td>
-                        </tr>
-                        <tr>
-                            <td>23</td>
-                            <td>24</td>
-                            <td>25</td>
-                            <td>26</td>
-                            <td>27</td>
-                            <td>28</td>
-                            <td>29</td>
-                        </tr>
-                        <tr>
-                            <td>30</td>
-                            <td>31</td>
-                            <td class="dp-new-day">1</td>
-                            <td class="dp-new-day">2</td>
-                            <td class="dp-new-day">3</td>
-                            <td class="dp-new-day">4</td>
-                            <td class="dp-new-day">5</td>
-                        </tr>
-
-                    </table>
-                </li>
-            </ul>
-
-            <ul class="dp-TimeSelect">
-                <li>Morning</li>
-                <li>Afternoon</li>
-                <li>
-                    <table class="dp-Timepicker">
-                        <tr>
-                            <td>9am</td>
-                            <td>10am</td>
-                            <td>11am</td>
-                            <td class="is-active">Noon</td>
-                            <td>1pm</td>
-                        </tr>
-                        <tr>
-                            <td>2pm</td>
-                            <td>3pm</td>
-                            <td>4pm</td>
-                            <td>5pm</td>
-                            <td>6pm</td>
-                        </tr>
-                    </table>
-                </li>
-            </ul>
-
-        </span>
-    </span>
-</div>
 ```

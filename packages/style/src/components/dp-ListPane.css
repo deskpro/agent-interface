@@ -286,26 +286,17 @@
 
 /* listpane/tasksnew */
 
-.dp-Card .dp-IconTitle {
+.dp-Card .dp-NewTitle {
   display: flex;
 }
 
-.dp-Card .dp-IconTitle .dp-Card-title:focus {
+.dp-Card .dp-NewTitle .dp-Card-title:focus {
   color: var(--brand-primary);
   text-decoration: none;
 }
 
-.dp-Card.dp-Tasks-list .dp-IconTitle > .dp-Approve,
-.dp-Card.dp-Tasks-list label > .dp-Approve {
-  background-size: 16px 16px;
-  cursor: pointer;
-  height: 16px;
-  margin: 0 5px 0 0;
-  width: 16px;
-}
-
-.dp-Card.dp-Tasks-list label > .dp-Approve:hover {
-  fill: var(--brand-primary);
+.dp-Card.dp-Tasks-list .dp-CustomCheckbox .dp-Icon:hover svg {
+  fill: var(--success);
 }
 
 .dp-Card.dp-Tasks-list {
@@ -366,58 +357,6 @@
   cursor: pointer;
 }
 
-.dp-Card:hover > .dp-settings,
-.dp-Card:hover .dp-LevelItem > .dp-settings,
-.dp-Card.is-active .dp-settings,
-.is-active .dp-settings {
-  display: block;
-}
-
-.dp-Card:hover .dp-Cog,
-.dp-Card.is-hover .dp-Cog {
-  display: block;
-}
-
-.dp-Cog .is-hover svg {
-  fill: var(--brand-primary);
-}
-
-.dp-Card .dp-Cog {
-  display: none;
-  left: calc(100% - 9px);
-  position: absolute;
-  top: calc(50% - 9px);
-  z-index: 9;
-}
-
-.dp-Card .dp-settings {
-  background-color: var(--info-light);
-  background-position: 50% 50%;
-  background-size: 14px 14px;
-  border: 1px solid var(--grey-light);
-  border-radius: 50%;
-  cursor: pointer;
-  height: 18px;
-  width: 18px;
-}
-
-.dp-Card .dp-Cog:hover .dp-Menu,
-.dp-Cog .is-active + .dp-Menu {
-  display: block;
-  margin-left: 4px;
-
-  /* margin-top: 2px; */
-
-  /* padding: 10px 0; */
-
-}
-
-.dp-Cog .dp-Menu {
-  min-width: 125px;
-  position: relative;
-  width: 100%;
-}
-
 .dp-Tasks-list .dp-CustomCheckbox input[type="checkbox"] + label {
   padding-left: 20px;
 }
@@ -467,6 +406,11 @@
 /* .dp-Tasks-list.dp-Card-SectionTitle .dp-Card-title:hover .dp-qt {
   color: var(--brand-primary);
 } */
+
+.dp-Task-title {
+  align-items: center;
+  display: flex;
+}
 
 .dp-CardList {
   background-color: var(--white);
@@ -981,6 +925,10 @@ input:disabled + label {
   border-bottom: 1px solid var(--grey-light);
 }
 
+.dp-TimeSelect > li:nth-last-of-type(2) {
+  border-bottom: 0;
+}
+
 .dp-TimeSelect > li:last-child {
   padding: 0;
 }
@@ -1066,6 +1014,7 @@ input:disabled + label {
 .dp-DateGroup .dp-Timepicker tr,
 .dp-DateGroup .dp-Datepicker tr {
   background-color: var(--white);
+  border-top: 0;
 }
 
 .dp-DateGroup .dp-Datepicker tr:first-child {

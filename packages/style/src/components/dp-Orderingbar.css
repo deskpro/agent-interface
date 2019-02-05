@@ -300,3 +300,32 @@
   border: 0;
   border-left: 0;
 }
+
+/* Hover, Drag */
+
+.dp-Menu.Menu-fields .dp-Menu-linkItem.is-dragging,
+.dp-Menu.Menu-fields .dp-Menu-linkItem:hover svg {
+  fill: var(--brand-primary);
+}
+
+.Menu-fields .dp-Menu-linkItem.is-dragging .dp-CustomCheckbox input[type="checkbox"] + label,
+.Menu-fields .dp-Menu-linkItem:hover .dp-CustomCheckbox input[type="checkbox"] + label {
+  color: var(--brand-primary);
+}
+
+.Menu-fields .dp-Menu-linkItem.is-dragging .dp-CustomCheckbox input[type="checkbox"] + label::before,
+.Menu-fields .dp-Menu-linkItem:hover .dp-CustomCheckbox input[type="checkbox"] + label::before {
+  border: 1px solid var(--brand-primary);
+}
+
+.Menu-fields .dp-Menu-linkItem.is-dragging,
+.Menu-fields .dp-Menu-linkItem:hover {
+  background-color: var(--info-light);
+}
+
+/* Drag */
+
+.dp-Menu.Menu-fields .dp-Menu-linkItem.is-dragging {
+  border-bottom: 1px solid var(--brand-primary);
+  border-top: 1px solid var(--brand-primary);
+}

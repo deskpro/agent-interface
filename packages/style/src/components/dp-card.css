@@ -19,6 +19,7 @@
   cursor: pointer;
   font: var(--h-n-semibold);
   margin: 0 0 10px;
+  max-width: max-content;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -228,10 +229,6 @@
 
 .Level--down .dp-Card.dp-Level:first-child .dp-sub_field::after {
   display: none;
-}
-
-.Card--primary {
-  background-color: var(--info-light);
 }
 
 .dp-Listpane-guides .dp-Card .dp-iconUserAvatar + .dp-iconUserAvatar {
@@ -580,12 +577,11 @@
 
 /* dp-Listpane-guides */
 
-.dp-Listpane-guides .dp-Cog:hover > .dp-Menu,
-.dp-Listpane-guides .Card--primary .dp-Cog {
+.dp-Listpane-guides .dp-Cog:hover > .dp-Menu {
   display: block;
 }
 
-.dp-Listpane-guides .dp-Cog > .dp-Menu {
+.dp-Card .dp-Cog > .dp-Menu {
   margin-left: 4px;
   margin-top: 2px;
   padding: 10px 0;
