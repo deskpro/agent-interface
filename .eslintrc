@@ -31,7 +31,9 @@
     "react/jsx-filename-extension": "off",
     "react/prop-types": "off",
     "jsx-a11y/label-has-for": "off",
-    "jsx-a11y/label-has-associated-control": "error"
+    "jsx-a11y/label-has-associated-control": [2, {
+      "assert": "either"
+    }]
   },
   "overrides": [{
     "files": ["**/*.ts", "**/*.tsx"],

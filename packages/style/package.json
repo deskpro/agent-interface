@@ -45,5 +45,8 @@
     "stylelint": "^9.3.0",
     "stylelint-config-suitcss": "^14.0.0",
     "stylelint-selector-bem-pattern": "^2.0.0"
+  },
+  "dependencies": {
+    "react-paginate": "6.2.1"
   }
 }
