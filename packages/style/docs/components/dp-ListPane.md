@@ -67,42 +67,46 @@ title: List View
         </li> -->
 
         <!-- 1 -->
-        <li class="dp-Card dp-Level dp-CustomCheckbox">
-            <!-- <span class="dp-LevelCol"> -->
-                <!-- <span class="dp-CustomCheckbox"> -->
-                    <input type="checkbox" class="dp-ControlInput" id="listpane-tickets-1"></input>
-                    <label for="listpane-tickets-1"></label>
-                <!-- </span> -->
+        <li class="dp-NewCard dp-CustomCheckbox">
+
+            <!-- <span> -->
+                <input type="checkbox" class="dp-ControlInput" id="listpane-tickets-1"></input>
+                <label for="listpane-tickets-1"></label>
             <!-- </span> -->
 
-            <span class="dp-LevelCol">
-                <span class="dp-Title Title-Icon">
-                    <span class="dp-Card-title">SSO Information</span>
-                    <span class="dp-Icon Icon--star"></span>
-                </span>
-                <span class="dp-UserInfo">
-                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-UserName">Kenneth James
+            <ul>
+                <li class="dp-Card dp-Level">
+
+                    <span class="dp-LevelCol">
+                        <span class="dp-Title Title-Icon">
+                            <span class="dp-Card-title">SSO Information</span>
+                            <span class="dp-Icon Icon--star"></span>
+                        </span>
+                        <span class="dp-UserInfo">
+                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                            <span class="dp-UserName">Kenneth James
+                            </span>
+                            <a href="mailto:kenneth@windfarms.com" class="dp-UserEmail">
+                                &lt;kenneth@windfarms.com&gt;
+                            </a>
+                        </span>
                     </span>
-                    <a href="mailto:kenneth@windfarms.com" class="dp-UserEmail">
-                        &lt;kenneth@windfarms.com&gt;
-                    </a>
-                </span>
-            </span>
 
-            <span class="dp-LevelCol dp-LevelRight Level-justify-between">
-                <span class="dp-IconGroup">
+                    <span class="dp-LevelCol dp-LevelRight Level-justify-between">
+                        <span class="dp-IconGroup">
 
-                    <span class="Icon--circle dp-iconBug"></span>
-                    <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
-                    <span class="dp-Icon Icon--clock Icon--primary"></span>
-                </span>
-                <span class="dp-TimeStatus">
-                    <span class="dp-Tag Tag--small Tag--danger">Failed</span>
-                </span>
-            </span>
+                            <span class="Icon--circle dp-iconBug"></span>
+                            <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
+                            <span class="dp-Icon Icon--clock Icon--primary"></span>
+                        </span>
+                        <span class="dp-TimeStatus">
+                            <span class="dp-Tag Tag--small Tag--danger">Failed</span>
+                        </span>
+                    </span>
+                </li>
+            
+            </ul>
         </li>
-
 
 
 
@@ -498,272 +502,257 @@ title: List View
 
 <h4>Listview/pagination-firstpage</h4>
 ```html @preview
-<ul class="dp-Pagination">
-    <li><a href="#" class="dp-PaginationArrows"><span class="dp-Icon dp-arrowLeft"></span></a>
-    <li><a href="#" class="dp-PageNumber is-active">1</a></li>
-    <li><a href="#" class="dp-PageNumber">2</a></li>
-    <li><a href="#" class="dp-PageNumber">3</a></li>
-    <li><a href="#" class="dp-PageNumber">4</a></li>
-    <li><a href="#" class="dp-PageNumber">5</a></li>
-    <li><a href="#" class="dp-PageNumber">6</a></li>
-    <li><a href="#" class="dp-PageNumber">7</a></li>
-    <li><span class="dp-BreakPagination">...</span></li>
-    <li><a href="#" class="dp-PageNumber">75</a></li>
-    <li><a href="#" class="dp-PaginationArrows"><span class="dp-Icon dp-arrowRight Icon--primary"></span></a></li>
+<div class="dp-Pagination-container">
+    <ul class="dp-Pagination">
+        <li><a href="#" class="dp-PaginationArrows"><span class="dp-Icon dp-arrowLeft"></span></a>
+        <li><a href="#" class="dp-PageNumber is-active">1</a></li>
+        <li><a href="#" class="dp-PageNumber">2</a></li>
+        <li><a href="#" class="dp-PageNumber">3</a></li>
+        <li><a href="#" class="dp-PageNumber">4</a></li>
+        <li><a href="#" class="dp-PageNumber">5</a></li>
+        <li><a href="#" class="dp-PageNumber">6</a></li>
+        <li><a href="#" class="dp-PageNumber">7</a></li>
+        <li><span class="dp-BreakPagination">...</span></li>
+        <li><a href="#" class="dp-PageNumber">75</a></li>
+        <li><a href="#" class="dp-PaginationArrows"><span class="dp-Icon dp-arrowRight Icon--primary"></span></a></li>
+    </ul>
 
-    <li>
-        <ul class="dp-PageJump">
-            <li class="dp-title">Go to page</li>
-            <li class="dp-Form">
-                <input type="text" name="" class="dp-Input"></input>
-                <button class="dp-Button Button--small">Go</button>
-            </li>
-        </ul>
-    </li>
-</ul>
+    <span class="dp-PageJump">
+       <label for="gotoPage" class="dp-PageJump-label">Go to page</label>
+       <input name="gotoPage" class="dp-PageJump-page" />
+       <button type="button" class="dp-PageJump-button">Go</button>
+    </span>
+    
+</div>
 ```
+
 
 <h4>Listview/pagination-secondpage</h4>
 ```html @preview
-<ul class="dp-Pagination">
-    <li><a href="#" class="dp-PaginationArrows"><span class="dp-Icon dp-arrowLeft Icon--primary"></span></a>
-    <li><a href="#" class="dp-PageNumber">1</a></li>
-    <li><a href="#" class="dp-PageNumber is-active">2</a></li>
-    <li><a href="#" class="dp-PageNumber">3</a></li>
-    <li><a href="#" class="dp-PageNumber">4</a></li>
-    <li><a href="#" class="dp-PageNumber">5</a></li>
-    <li><a href="#" class="dp-PageNumber">6</a></li>
-    <li><a href="#" class="dp-PageNumber">7</a></li>
-    <li><span class="dp-BreakPagination">...</span></li>
-    <li><a href="#" class="dp-PageNumber">75</a></li>
-    <li><a href="#" class="dp-PaginationArrows"><span class="dp-Icon dp-arrowRight Icon--primary"></span></a></li>
+<div class="dp-Pagination-container">
+    <ul class="dp-Pagination">
+        <li><a href="#" class="dp-PaginationArrows"><span class="dp-Icon dp-arrowLeft Icon--primary"></span></a>
+        <li><a href="#" class="dp-PageNumber">1</a></li>
+        <li><a href="#" class="dp-PageNumber is-active">2</a></li>
+        <li><a href="#" class="dp-PageNumber">3</a></li>
+        <li><a href="#" class="dp-PageNumber">4</a></li>
+        <li><a href="#" class="dp-PageNumber">5</a></li>
+        <li><a href="#" class="dp-PageNumber">6</a></li>
+        <li><a href="#" class="dp-PageNumber">7</a></li>
+        <li><span class="dp-BreakPagination">...</span></li>
+        <li><a href="#" class="dp-PageNumber">75</a></li>
+        <li><a href="#" class="dp-PaginationArrows">
+            <span class="dp-Icon dp-arrowRight Icon--primary"></span></a>
+        </li>
+    </ul>
 
-    <li>
-        <ul class="dp-PageJump">
-            <li class="dp-title">Go to page</li>
-            <li class="dp-Form">
-                <input type="text" name="" class="dp-Input"></input>
-                <button class="dp-Button Button--small">Go</button>
-            </li>
-        </ul>
-    </li>
-</ul>
+    <span class="dp-PageJump">
+       <label for="gotoPage" class="dp-PageJump-label">Go to page</label>
+       <input name="gotoPage" class="dp-PageJump-page" />
+       <button type="button" class="dp-PageJump-button">Go</button>
+    </span>
+
+</div>
 ```
 
 <h4>Listview/pagination-fifthpage</h4>
 ```html @preview
-<ul class="dp-Pagination">
-    <li><a href="#" class="dp-PaginationArrows"><span class="dp-Icon dp-arrowLeft Icon--primary"></span></a>
-    <li><a href="#" class="dp-PageNumber">1</a></li>
-    <li><a href="#" class="dp-PageNumber">2</a></li>
-    <li><a href="#" class="dp-PageNumber">3</a></li>
-    <li><a href="#" class="dp-PageNumber">4</a></li>
-    <li><a href="#" class="dp-PageNumber is-active">5</a></li>
-    <li><a href="#" class="dp-PageNumber">6</a></li>
-    <li><a href="#" class="dp-PageNumber">7</a></li>
-    <li><span class="dp-BreakPagination">...</span></li>
-    <li><a href="#" class="dp-PageNumber">75</a></li>
-    <li><a href="#" class="dp-PaginationArrows"><span class="dp-Icon dp-arrowRight Icon--primary"></span></a></li>
-
-    <li>
-        <ul class="dp-PageJump">
-            <li class="dp-title">Go to page</li>
-            <li class="dp-Form">
-                <input type="text" name="" class="dp-Input"></input>
-                <button class="dp-Button Button--small">Go</button>
-            </li>
-        </ul>
-    </li>
-</ul>
+<div class="dp-Pagination-container">
+    <ul class="dp-Pagination">
+        <li><a href="#" class="dp-PaginationArrows"><span class="dp-Icon dp-arrowLeft Icon--primary"></span></a>
+        <li><a href="#" class="dp-PageNumber">1</a></li>
+        <li><a href="#" class="dp-PageNumber">2</a></li>
+        <li><a href="#" class="dp-PageNumber">3</a></li>
+        <li><a href="#" class="dp-PageNumber">4</a></li>
+        <li><a href="#" class="dp-PageNumber is-active">5</a></li>
+        <li><a href="#" class="dp-PageNumber">6</a></li>
+        <li><a href="#" class="dp-PageNumber">7</a></li>
+        <li><span class="dp-BreakPagination">...</span></li>
+        <li><a href="#" class="dp-PageNumber">75</a></li>
+        <li><a href="#" class="dp-PaginationArrows"><span class="dp-Icon dp-arrowRight Icon--primary"></span></a></li>
+    </ul>
+    <span class="dp-PageJump">
+       <label for="gotoPage" class="dp-PageJump-label">Go to page</label>
+       <input name="gotoPage" class="dp-PageJump-page" />
+       <button type="button" class="dp-PageJump-button">Go</button>
+    </span>
+</div>
 ```
 
 <h4>Listview/pagination-sixthpage</h4>
 ```html @preview
-<ul class="dp-Pagination">
-    <li><a href="#" class="dp-PaginationArrows"><span class="dp-Icon dp-arrowLeft Icon--primary"></span></a>
-    <li><a href="#" class="dp-PageNumber">1</a></li>
-    <li><span class="dp-BreakPagination">...</span></li>
-    <li><a href="#" class="dp-PageNumber">4</a></li>
-    <li><a href="#" class="dp-PageNumber">5</a></li>
-    <li><a href="#" class="dp-PageNumber is-active">6</a></li>
-    <li><a href="#" class="dp-PageNumber">7</a></li>
-    <li><a href="#" class="dp-PageNumber">8</a></li>
-    <li><span class="dp-BreakPagination">...</span></li>
-    <li><a href="#" class="dp-PageNumber">75</a></li>
-    <li><a href="#" class="dp-PaginationArrows"><span class="dp-Icon dp-arrowRight Icon--primary"></span></a></li>
+<div class="dp-Pagination-container">
+    <ul class="dp-Pagination">
+        <li><a href="#" class="dp-PaginationArrows"><span class="dp-Icon dp-arrowLeft Icon--primary"></span></a>
+        <li><a href="#" class="dp-PageNumber">1</a></li>
+        <li><span class="dp-BreakPagination">...</span></li>
+        <li><a href="#" class="dp-PageNumber">4</a></li>
+        <li><a href="#" class="dp-PageNumber">5</a></li>
+        <li><a href="#" class="dp-PageNumber is-active">6</a></li>
+        <li><a href="#" class="dp-PageNumber">7</a></li>
+        <li><a href="#" class="dp-PageNumber">8</a></li>
+        <li><span class="dp-BreakPagination">...</span></li>
+        <li><a href="#" class="dp-PageNumber">75</a></li>
+        <li><a href="#" class="dp-PaginationArrows"><span class="dp-Icon dp-arrowRight Icon--primary"></span></a></li>
+    </ul>
 
-    <li>
-        <ul class="dp-PageJump">
-            <li class="dp-title">Go to page</li>
-            <li class="dp-Form">
-                <input type="text" name="" class="dp-Input"></input>
-                <button class="dp-Button Button--small">Go</button>
-            </li>
-        </ul>
-    </li>
-</ul>
+    <span class="dp-PageJump">
+       <label for="gotoPage" class="dp-PageJump-label">Go to page</label>
+       <input name="gotoPage" class="dp-PageJump-page" />
+       <button type="button" class="dp-PageJump-button">Go</button>
+    </span>
+</div>
+
 ```
 
 <h4>Listview/pagination-lastpage</h4>
 ```html @preview
-<ul class="dp-Pagination">
-    <li><a href="#" class="dp-PaginationArrows"><span class="dp-Icon dp-arrowLeft Icon--primary"></span></a>
-    <li><a href="#" class="dp-PageNumber">1</a></li>
-    <li><span class="dp-BreakPagination">...</span></li>
-    <li><a href="#" class="dp-PageNumber">69</a></li>
-    <li><a href="#" class="dp-PageNumber">70</a></li>
-    <li><a href="#" class="dp-PageNumber">71</a></li>
-    <li><a href="#" class="dp-PageNumber">72</a></li>
-    <li><a href="#" class="dp-PageNumber">73</a></li>
-    <li><a href="#" class="dp-PageNumber">74</a></li>
-    <li><a href="#" class="dp-PageNumber is-active">75</a></li>
-    <li><a href="#" class="dp-PaginationArrows"><span class="dp-Icon dp-arrowRight"></span></a></li>
+<div class="dp-Pagination-container">
+    <ul class="dp-Pagination">
+        <li><a href="#" class="dp-PaginationArrows"><span class="dp-Icon dp-arrowLeft Icon--primary"></span></a>
+        <li><a href="#" class="dp-PageNumber">1</a></li>
+        <li><span class="dp-BreakPagination">...</span></li>
+        <li><a href="#" class="dp-PageNumber">69</a></li>
+        <li><a href="#" class="dp-PageNumber">70</a></li>
+        <li><a href="#" class="dp-PageNumber">71</a></li>
+        <li><a href="#" class="dp-PageNumber">72</a></li>
+        <li><a href="#" class="dp-PageNumber">73</a></li>
+        <li><a href="#" class="dp-PageNumber">74</a></li>
+        <li><a href="#" class="dp-PageNumber is-active">75</a></li>
+        <li><a href="#" class="dp-PaginationArrows"><span class="dp-Icon dp-arrowRight"></span></a></li>
+    </ul>
 
-    <li>
-        <ul class="dp-PageJump">
-            <li class="dp-title">Go to page</li>
-            <li class="dp-Form">
-                <input type="text" name="" class="dp-Input"></input>
-                <button class="dp-Button Button--small">Go</button>
-            </li>
-        </ul>
-    </li>
-</ul>
+    <span class="dp-PageJump">
+       <label for="gotoPage" class="dp-PageJump-label">Go to page</label>
+       <input name="gotoPage" class="dp-PageJump-page" />
+       <button type="button" class="dp-PageJump-button">Go</button>
+    </span>
+</div>
 ```
 
 <h4>Listview/pagination-penultimatepage</h4>
 ```html @preview
-<ul class="dp-Pagination">
-    <li><a href="#" class="dp-PaginationArrows"><span class="dp-Icon dp-arrowLeft Icon--primary"></span></a>
-    <li><a href="#" class="dp-PageNumber">1</a></li>
-    <li><span class="dp-BreakPagination">...</span></li>
-    <li><a href="#" class="dp-PageNumber">69</a></li>
-    <li><a href="#" class="dp-PageNumber">70</a></li>
-    <li><a href="#" class="dp-PageNumber">71</a></li>
-    <li><a href="#" class="dp-PageNumber">72</a></li>
-    <li><a href="#" class="dp-PageNumber">73</a></li>
-    <li><a href="#" class="dp-PageNumber is-active">74</a></li>
-    <li><a href="#" class="dp-PageNumber">75</a></li>
-    <li><a href="#" class="dp-PaginationArrows"><span class="dp-Icon dp-arrowRight Icon--primary"></span></a></li>
+<div class="dp-Pagination-container">
+    <ul class="dp-Pagination">
+        <li><a href="#" class="dp-PaginationArrows"><span class="dp-Icon dp-arrowLeft Icon--primary"></span></a>
+        <li><a href="#" class="dp-PageNumber">1</a></li>
+        <li><span class="dp-BreakPagination">...</span></li>
+        <li><a href="#" class="dp-PageNumber">69</a></li>
+        <li><a href="#" class="dp-PageNumber">70</a></li>
+        <li><a href="#" class="dp-PageNumber">71</a></li>
+        <li><a href="#" class="dp-PageNumber">72</a></li>
+        <li><a href="#" class="dp-PageNumber">73</a></li>
+        <li><a href="#" class="dp-PageNumber is-active">74</a></li>
+        <li><a href="#" class="dp-PageNumber">75</a></li>
+        <li><a href="#" class="dp-PaginationArrows"><span class="dp-Icon dp-arrowRight Icon--primary"></span></a></li>
+    </ul>
 
-    <li>
-        <ul class="dp-PageJump">
-            <li class="dp-title">Go to page</li>
-            <li class="dp-Form">
-                <input type="text" name="" class="dp-Input"></input>
-                <button class="dp-Button Button--small">Go</button>
-            </li>
-        </ul>
-    </li>
-</ul>
+    <span class="dp-PageJump">
+       <label for="gotoPage" class="dp-PageJump-label">Go to page</label>
+       <input name="gotoPage" class="dp-PageJump-page" />
+       <button type="button" class="dp-PageJump-button">Go</button>
+    </span>
+</div>
 ```
 
 <h4>Listview/pagination-randompage</h4>
 ```html @preview
-<ul class="dp-Pagination">
-    <li><a href="#" class="dp-PaginationArrows"><span class="dp-Icon dp-arrowLeft Icon--primary"></span></a>
-    <li><a href="#" class="dp-PageNumber">1</a></li>
-    <li><span class="dp-BreakPagination">...</span></li>
-    <li><a href="#" class="dp-PageNumber">68</a></li>
-    <li><a href="#" class="dp-PageNumber">69</a></li>
-    <li><a href="#" class="dp-PageNumber is-active">70</a></li>
-    <li><a href="#" class="dp-PageNumber">71</a></li>
-    <li><a href="#" class="dp-PageNumber">72</a></li>
-    <li><span class="dp-BreakPagination">...</span></li>
-    <li><a href="#" class="dp-PageNumber">75</a></li>
-    <li><a href="#" class="dp-PaginationArrows"><span class="dp-Icon dp-arrowRight Icon--primary"></span></a></li>
+<div class="dp-Pagination-container">
+    <ul class="dp-Pagination">
+        <li><a href="#" class="dp-PaginationArrows"><span class="dp-Icon dp-arrowLeft Icon--primary"></span></a>
+        <li><a href="#" class="dp-PageNumber">1</a></li>
+        <li><span class="dp-BreakPagination">...</span></li>
+        <li><a href="#" class="dp-PageNumber">68</a></li>
+        <li><a href="#" class="dp-PageNumber">69</a></li>
+        <li><a href="#" class="dp-PageNumber is-active">70</a></li>
+        <li><a href="#" class="dp-PageNumber">71</a></li>
+        <li><a href="#" class="dp-PageNumber">72</a></li>
+        <li><span class="dp-BreakPagination">...</span></li>
+        <li><a href="#" class="dp-PageNumber">75</a></li>
+        <li><a href="#" class="dp-PaginationArrows"><span class="dp-Icon dp-arrowRight Icon--primary"></span></a></li>
+    </ul>
 
-    <li>
-        <ul class="dp-PageJump">
-            <li class="dp-title">Go to page</li>
-            <li class="dp-Form">
-                <input type="text" name="" class="dp-Input"></input>
-                <button class="dp-Button Button--small">Go</button>
-            </li>
-        </ul>
-    </li>
-</ul>
+    <span class="dp-PageJump">
+       <label for="gotoPage" class="dp-PageJump-label">Go to page</label>
+       <input name="gotoPage" class="dp-PageJump-page" />
+       <button type="button" class="dp-PageJump-button">Go</button>
+    </span>
+</div>
 ```
 
 <h4>Listview/pagination-hover</h4>
 ```html @preview
-<ul class="dp-Pagination">
-    <li><a href="#" class="dp-PaginationArrows"><span class="dp-Icon dp-arrowLeft Icon--primary"></span></a>
-    <li><a href="#" class="dp-PageNumber">1</a></li>
-    <li><span class="dp-BreakPagination">...</span></li>
-    <li><a href="#" class="dp-PageNumber is-hover">69</a></li>
-    <li><a href="#" class="dp-PageNumber">70</a></li>
-    <li><a href="#" class="dp-PageNumber">71</a></li>
-    <li><a href="#" class="dp-PageNumber">72</a></li>
-    <li><a href="#" class="dp-PageNumber is-active">73</a></li>
-    <li><a href="#" class="dp-PageNumber">74</a></li>
-    <li><a href="#" class="dp-PageNumber">75</a></li>
-    <li><a href="#" class="dp-PaginationArrows"><span class="dp-Icon dp-arrowRight Icon--primary"></span></a></li>
+<div class="dp-Pagination-container">
+    <ul class="dp-Pagination">
+        <li><a href="#" class="dp-PaginationArrows"><span class="dp-Icon dp-arrowLeft Icon--primary"></span></a>
+        <li><a href="#" class="dp-PageNumber">1</a></li>
+        <li><span class="dp-BreakPagination">...</span></li>
+        <li><a href="#" class="dp-PageNumber is-hover">69</a></li>
+        <li><a href="#" class="dp-PageNumber">70</a></li>
+        <li><a href="#" class="dp-PageNumber">71</a></li>
+        <li><a href="#" class="dp-PageNumber">72</a></li>
+        <li><a href="#" class="dp-PageNumber is-active">73</a></li>
+        <li><a href="#" class="dp-PageNumber">74</a></li>
+        <li><a href="#" class="dp-PageNumber">75</a></li>
+        <li><a href="#" class="dp-PaginationArrows"><span class="dp-Icon dp-arrowRight Icon--primary"></span></a></li>
+    </ul>
 
-    <li>
-        <ul class="dp-PageJump">
-            <li class="dp-title">Go to page</li>
-            <li class="dp-Form">
-                <input type="text" name="" class="dp-Input"></input>
-                <button class="dp-Button Button--small">Go</button>
-            </li>
-        </ul>
-    </li>
-</ul>
+    <span class="dp-PageJump">
+       <label for="gotoPage" class="dp-PageJump-label">Go to page</label>
+       <input name="gotoPage" class="dp-PageJump-page" />
+       <button type="button" class="dp-PageJump-button">Go</button>
+    </span>
+</div>
 ```
 
 <h4>Listview/pagination-gottopage</h4>
 ```html @preview
-<ul class="dp-Pagination">
-    <li><a href="#" class="dp-PaginationArrows"><span class="dp-Icon dp-arrowLeft Icon--primary"></span></a>
-    <li><a href="#" class="dp-PageNumber">1</a></li>
-    <li><span class="dp-BreakPagination">...</span></li>
-    <li><a href="#" class="dp-PageNumber">69</a></li>
-    <li><a href="#" class="dp-PageNumber">70</a></li>
-    <li><a href="#" class="dp-PageNumber">71</a></li>
-    <li><a href="#" class="dp-PageNumber">72</a></li>
-    <li><a href="#" class="dp-PageNumber is-active">73</a></li>
-    <li><a href="#" class="dp-PageNumber">74</a></li>
-    <li><a href="#" class="dp-PageNumber">75</a></li>
-    <li><a href="#" class="dp-PaginationArrows"><span class="dp-Icon dp-arrowRight Icon--primary"></span></a></li>
+<div class="dp-Pagination-container">
+    <ul class="dp-Pagination">
+        <li><a href="#" class="dp-PaginationArrows"><span class="dp-Icon dp-arrowLeft Icon--primary"></span></a>
+        <li><a href="#" class="dp-PageNumber">1</a></li>
+        <li><span class="dp-BreakPagination">...</span></li>
+        <li><a href="#" class="dp-PageNumber">69</a></li>
+        <li><a href="#" class="dp-PageNumber">70</a></li>
+        <li><a href="#" class="dp-PageNumber">71</a></li>
+        <li><a href="#" class="dp-PageNumber">72</a></li>
+        <li><a href="#" class="dp-PageNumber is-active">73</a></li>
+        <li><a href="#" class="dp-PageNumber">74</a></li>
+        <li><a href="#" class="dp-PageNumber">75</a></li>
+        <li><a href="#" class="dp-PaginationArrows"><span class="dp-Icon dp-arrowRight Icon--primary"></span></a></li>
+    </ul>
 
-    <li>
-        <ul class="dp-PageJump">
-            <li class="dp-title">Go to page</li>
-            <li class="dp-Form">
-                <input type="text" name="" class="dp-Input" value="22"></input>
-                <button class="dp-Button Button--small">Go</button>
-            </li>
-        </ul>
-    </li>
-</ul>
+    <span class="dp-PageJump">
+       <label for="gotoPage" class="dp-PageJump-label">Go to page</label>
+       <input name="gotoPage" class="dp-PageJump-page" />
+       <button type="button" class="dp-PageJump-button">Go</button>
+    </span>
+</div>
 ```
 
 <h4>Listview/pagination-gottopage-result</h4>
 ```html @preview
-<ul class="dp-Pagination">
-    <li><a href="#" class="dp-PaginationArrows"><span class="dp-Icon dp-arrowLeft Icon--primary"></span></a>
-    <li><a href="#" class="dp-PageNumber">1</a></li>
-    <li><span class="dp-BreakPagination">...</span></li>
-    <li><a href="#" class="dp-PageNumber">20</a></li>
-    <li><a href="#" class="dp-PageNumber">21</a></li>
-    <li><a href="#" class="dp-PageNumber is-active">22</a></li>
-    <li><a href="#" class="dp-PageNumber">23</a></li>
-    <li><a href="#" class="dp-PageNumber">24</a></li>
-    <li><span class="dp-BreakPagination">...</span></li>
-    <li><a href="#" class="dp-PageNumber">75</a></li>
-    <li><a href="#" class="dp-PaginationArrows"><span class="dp-Icon dp-arrowRight Icon--primary"></span></a></li>
+<div class="dp-Pagination-container">
+    <ul class="dp-Pagination">
+        <li><a href="#" class="dp-PaginationArrows"><span class="dp-Icon dp-arrowLeft Icon--primary"></span></a>
+        <li><a href="#" class="dp-PageNumber">1</a></li>
+        <li><span class="dp-BreakPagination">...</span></li>
+        <li><a href="#" class="dp-PageNumber">20</a></li>
+        <li><a href="#" class="dp-PageNumber">21</a></li>
+        <li><a href="#" class="dp-PageNumber is-active">22</a></li>
+        <li><a href="#" class="dp-PageNumber">23</a></li>
+        <li><a href="#" class="dp-PageNumber">24</a></li>
+        <li><span class="dp-BreakPagination">...</span></li>
+        <li><a href="#" class="dp-PageNumber">75</a></li>
+        <li><a href="#" class="dp-PaginationArrows"><span class="dp-Icon dp-arrowRight Icon--primary"></span></a></li>
+    </ul>
 
-    <li>
-        <ul class="dp-PageJump">
-            <li class="dp-title">Go to page</li>
-            <li class="dp-Form">
-                <input type="text" name="" class="dp-Input"></input>
-                <button class="dp-Button Button--small">Go</button>
-            </li>
-        </ul>
-    </li>
-</ul>
+    <span class="dp-PageJump">
+       <label for="gotoPage" class="dp-PageJump-label">Go to page</label>
+       <input name="gotoPage" class="dp-PageJump-page" />
+       <button type="button" class="dp-PageJump-button">Go</button>
+    </span>
+</div>
 ```
 
 <h2>Listview/mass-select</h2>

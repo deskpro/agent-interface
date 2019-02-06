@@ -9,141 +9,6 @@
   margin-bottom: 10px;
 }
 
-/* Pagination */
-
-.dp-Pagination {
-  align-items: center;
-  background-color: var(--grey-lightest);
-  border-top: 1px solid var(--grey-light);
-  display: flex;
-  padding: 10px 0;
-}
-
-.dp-Pagination > li {
-  margin: 0;
-}
-
-.dp-PageNumber {
-  align-items: center;
-  background: var(--white);
-  border: solid 1px var(--grey-light);
-  border-radius: 2px;
-  color: var(--grey-darkest);
-  display: flex;
-  font: var(--p-n);
-  justify-content: center;
-  margin-right: 2px;
-  min-height: 20px;
-  min-width: 20px;
-  text-decoration: none;
-}
-
-.dp-BreakPagination {
-  display: flex;
-  justify-content: center;
-  margin-top: -6px;
-  min-height: 20px;
-  min-width: 20px;
-}
-
-.dp-PageNumber.is-hover,
-.dp-PageNumber:hover,
-.dp-PageNumber.gradient:hover {
-  background-color: var(--primary-light);
-  border: 1px solid var(--brand-primary);
-  color: var(--brand-primary);
-  cursor: pointer;
-}
-
-.dp-PageNumber.is-active {
-  background: var(--brand-primary);
-  border: none;
-  color: var(--white);
-}
-
-.dp-PaginationArrows .dp-Icon {
-  background-size: 10px 15px;
-  display: flex;
-  height: 20px;
-  width: 20px;
-}
-
-.dp-Pagination a:hover {
-  cursor: pointer;
-}
-
-.dp-PageJump {
-  align-items: center;
-  display: flex;
-  list-style: none;
-  padding: 0;
-  padding-left: 16px;
-  position: relative;
-}
-
-.dp-PageJump::after {
-  background-color: var(--grey-light);
-  content: "";
-  height: 100%;
-  left: 5px;
-  position: absolute;
-  top: 0;
-  width: 1px;
-}
-
-.dp-PageJump .dp-title {
-  color: var(--grey-darkest);
-  font: var(--p-n);
-}
-
-.dp-PageJump .dp-Input {
-  background-color: var(--white);
-  border: 1px solid var(--grey-light);
-  border-radius: 2px;
-  color: var(--grey-darkest);
-  font: var(--p-n);
-  height: 20px;
-  margin-left: 10px;
-  margin-right: 5px;
-  max-width: 24px;
-  position: relative;
-  text-align: center;
-}
-
-.dp-PageJump .dp-Input:focus {
-  border: 1px solid var(--brand-primary);
-}
-
-.dp-PageJump .dp-Input + .dp-Button {
-  background-color: var(--grey-light);
-  border: 1px solid var(--grey-light);
-  max-width: 25px;
-  padding: 3px 4px;
-}
-
-.dp-PageJump .dp-Input + .dp-Button:hover {
-  background-color: var(--brand-primary);
-  border: 1px solid var(--brand-primary);
-}
-
-.dp-PageJump .dp-Input:focus + .dp-Button {
-  background-color: var(--brand-primary);
-  border: 1px solid var(--brand-primary);
-}
-
-.dp-GroupSortBar {
-  display: flex;
-  justify-content: space-between;
-}
-
-.dp-PaginationArrows .dp-Icon.dp-arrowLeft svg + .dp-PageNumber {
-  fill: var(--brand-primary);
-}
-
-.dp-PaginationArrows .dp-Icon.dp-arrowLeft svg + .dp-PageNumber.is-active {
-  fill: var(--grey-light);
-}
-
 /* listpane/kanban-view */
 
 /* .dp-KanbanView {
@@ -1032,7 +897,27 @@ input:disabled + label {
 
 /* Animate  */
 
-.dp-Card.dp-CustomCheckbox input[type="checkbox"]:checked + label,
-.dp-CardList .dp-Card.dp-CustomCheckbox input[type="checkbox"]:checked ~ .dp-LevelCol {
-  display: none;
+.dp-NewCard .dp-CustomCheckbox input[type="checkbox"]:checked ~ ul {
+  height: 0;
+
+  /* display: none; */
+}
+
+.dp-NewCard {
+  position: relative;
+  width: 100%;
+}
+
+.dp-NewCard .dp-Card {
+  padding-left: 30px;
+}
+
+.dp-NewCard.dp-CustomCheckbox input[type="checkbox"] + label {
+  left: 8px;
+  position: absolute;
+  top: 12px;
+}
+
+.dp-NewCard > ul {
+  padding: 0;
 }
