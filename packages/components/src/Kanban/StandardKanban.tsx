@@ -72,7 +72,7 @@ const StandardKanban: React.FC<StandardKanbanProps> = ({
       <Kanban.Column
         key={group.id}
         columnId={group.id}
-        title={<Card.SectionTitle>{group.title}</Card.SectionTitle>}
+        header={<Card.SectionTitle>{group.title}</Card.SectionTitle>}
         scrollThreshold={0.8}
         onThresholdReach={() => onLoadMore(group)}
       >

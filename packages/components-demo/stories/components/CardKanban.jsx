@@ -79,7 +79,7 @@ const CardKanban = ({ action }) => {
         {Object.keys(cards).map(column => (
           <Kanban.Column
             key={column}
-            title={column}
+            header={column}
             scrollThreshold={0.8}
             onThresholdReach={action(
               `scroll reached threshold for column ${column}`

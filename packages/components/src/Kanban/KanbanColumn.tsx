@@ -9,7 +9,7 @@ export type KanbanColumnProps = {
   className?: string;
   style?: object;
   columnId: React.Key;
-  title: React.ReactNode;
+  header: React.ReactNode;
   scrollThreshold?: number;
   onThresholdReach?(): void;
 };
@@ -17,16 +17,16 @@ export type KanbanColumnProps = {
 const KanbanColumnLayout: React.FC<KanbanColumnProps> = ({
   className,
   style,
-  title,
+  header,
   scrollThreshold,
   onThresholdReach,
   children
 }) => (
   <div className={classNames("dp-Kanban-column", className)} style={style}>
-    {typeof title === "string" ? (
-      <div className="dp-Kanban-columnTitle">{title}</div>
+    {typeof header === "string" ? (
+      <div className="dp-Kanban-columnTitle">{header}</div>
     ) : (
-      title
+      header
     )}
     <ScrollArea
       className="dp-Kanban-columnContent"
