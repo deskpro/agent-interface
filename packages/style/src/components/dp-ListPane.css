@@ -1029,3 +1029,10 @@ input:disabled + label {
 .dp-CustomCheckbox input[type="checkbox"]:checked + label svg {
   fill: var(--success);
 }
+
+/* Animate  */
+
+.dp-Card.dp-CustomCheckbox input[type="checkbox"]:checked + label,
+.dp-CardList .dp-Card.dp-CustomCheckbox input[type="checkbox"]:checked ~ .dp-LevelCol {
+  display: none;
+}

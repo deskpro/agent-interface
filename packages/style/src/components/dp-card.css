@@ -6,8 +6,11 @@
 .dp-Card {
   background-color: var(--white);
   border-bottom: 1px solid var(--grey-light);
+
+  color: var(--grey-darkest);
   cursor: pointer;
   display: flex;
+  font: var(--p-xl);
   padding: 8.8px 8px 7.8px;
   position: relative;
   width: 100%;
