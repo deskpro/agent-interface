@@ -318,14 +318,25 @@
   border: 1px solid var(--brand-primary);
 }
 
-.Menu-fields .dp-Menu-linkItem.is-dragging,
-.Menu-fields .dp-Menu-linkItem:hover {
-  background-color: var(--info-light);
-}
-
 /* Drag */
 
 .dp-Menu.Menu-fields .dp-Menu-linkItem.is-dragging {
-  border-bottom: 1px solid var(--brand-primary);
-  border-top: 1px solid var(--brand-primary);
+  background-color: var(--info-light);
+  border: 1px solid var(--brand-primary);
+  margin: 0 -1px;
+}
+
+/* Press */
+
+.dp-Menu.Menu-fields .dp-Menu-linkItem.is-pressing {
+  background-color: var(--info-light);
+  margin: 0 -1px;
+}
+
+/* Drop */
+
+.dp-Menu.Menu-fields .dp-Menu-linkItem.is-dropping {
+  background-color: var(--info-light);
+  border: 1px solid var(--brand-primary);
+  margin: 0 -1px;
 }
