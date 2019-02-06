@@ -8,7 +8,8 @@ import { KanbanContext } from "./Kanban";
 export type KanbanColumnProps = {
   className?: string;
   style?: object;
-  title: string;
+  columnId: React.Key;
+  header: React.ReactNode;
   scrollThreshold?: number;
   onThresholdReach?(): void;
 };
@@ -16,13 +17,17 @@ export type KanbanColumnProps = {
 const KanbanColumnLayout: React.FC<KanbanColumnProps> = ({
   className,
   style,
-  title,
+  header,
   scrollThreshold,
   onThresholdReach,
   children
 }) => (
   <div className={classNames("dp-Kanban-column", className)} style={style}>
-    <div className="dp-Kanban-columnTitle">{title}</div>
+    {typeof header === "string" ? (
+      <div className="dp-Kanban-columnTitle">{header}</div>
+    ) : (
+      header
+    )}
     <ScrollArea
       className="dp-Kanban-columnContent"
       threshold={scrollThreshold}
@@ -43,8 +48,8 @@ const KanbanColumn: React.FC<KanbanColumnProps> = ({
   if (draggable) {
     return (
       <Droppable
-        droppableId={props.title}
-        isDropDisabled={disabledDroppable === props.title}
+        droppableId={props.columnId}
+        isDropDisabled={disabledDroppable === props.columnId}
       >
         {(provided, snapshot) => (
           <KanbanColumnLayout

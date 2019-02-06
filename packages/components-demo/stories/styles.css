@@ -18,10 +18,18 @@
 .dp-Kanban-column {
   width: 350px;
   height: calc(100% - 2px);
-  border-right: 1px solid #bbb;
   flex-shrink: 0;
   display: flex;
   flex-direction: column;
+  padding: 0 5px;
+}
+
+.dp-Kanban-column:first-child {
+  padding-left: 0;
+}
+
+.dp-Kanban-column:last-child {
+  padding-right: 0;
 }
 
 .dp-Kanban-column.is-over {
@@ -84,8 +92,4 @@
 
 .dp-Kanban.Kanban--demo .dp-Kanban-item {
   padding: 10px;
-}
-
-.dp-Kanban.Kanban--cards .dp-CardList {
-  width: calc(100% - 10px);
 }

@@ -71,7 +71,8 @@ const StandardKanban: React.FC<StandardKanbanProps> = ({
     {data.map(({ group, items }) => (
       <Kanban.Column
         key={group.id}
-        title={group.title}
+        columnId={group.id}
+        header={<Card.SectionTitle>{group.title}</Card.SectionTitle>}
         scrollThreshold={0.8}
         onThresholdReach={() => onLoadMore(group)}
       >
