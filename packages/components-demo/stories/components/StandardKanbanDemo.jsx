@@ -81,16 +81,15 @@ const StandardKanbanDemo = ({ action, allowReorder }) => {
             isDragging={isDragging}
             checkable
             onCheck={action(`toggle check for ${card.title}`)}
-            renderBody={() => (
-              <UserInfo avatar name="John Doe" email="john.doe@deskpro.com" />
-            )}
             statusLabel="1h 25 min"
             cogMenu={
               <Menu>
                 <Menu.MenuItem key="bin" icon="bin" text="Delete" />
               </Menu>
             }
-          />
+          >
+            <UserInfo avatar name="John Doe" email="john.doe@deskpro.com" />
+          </Card.TicketCard>
         )}
       />
     </div>

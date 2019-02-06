@@ -4,6 +4,7 @@ import classNames from "classnames";
 import CardTitle from "./CardTitle";
 import CardSectionTitle from "./CardSectionTitle";
 import CardList from "./CardList";
+import SimpleCard from "./SimpleCard";
 import TicketCard from "./TicketCard";
 import TaskCard from "./TaskCard";
 import { MenuProps } from "../../elements/Menu/Menu";
@@ -18,6 +19,7 @@ type CardSubComponents = {
   List: typeof CardList;
   TicketCard: typeof TicketCard;
   TaskCard: typeof TaskCard;
+  Simple: typeof SimpleCard;
 };
 
 export interface ICardModel {
@@ -30,39 +32,47 @@ export type CheckableCardProps = {
   onCheck: (e: React.MouseEvent<HTMLInputElement>) => void;
 };
 
-export type CardProps<M> = {
-  model: M;
+export type BasicCardProps = {
   className?: string;
-  isSelected: boolean;
+  isHighlighted?: boolean;
+  isFocused?: boolean;
   isActive?: boolean;
   isDragging?: boolean;
   title?: string | React.ReactNode;
-  onClick?(event: React.MouseEvent<HTMLElement>): void;
+  onClick?(
+    event: React.MouseEvent<HTMLElement> | React.KeyboardEvent<HTMLElement>
+  ): void;
   cogMenu?: React.ReactElement<MenuProps>;
-  renderBody?(model: M): React.ReactNode;
 };
 
-const Card: React.FC<CardProps<ICardModel>> & CardSubComponents = ({
-  model,
+const Card: React.FC<BasicCardProps> & CardSubComponents = ({
   className,
   children,
-  isSelected = false,
+  isHighlighted = false,
   isActive = false,
+  isFocused = false,
   isDragging = false,
   title,
   cogMenu,
-  renderBody
-  // onClick
+  onClick
 }) => (
   <div
     className={classNames("dp-Card dp-Level", className, {
-      "is-selected": isSelected,
+      "is-selected": isHighlighted,
       "is-active": isActive,
-      "is-dragging": isDragging
+      "is-dragging": isDragging,
+      "is-keyboard": isFocused
     })}
+    role="link"
+    tabIndex={-1}
+    onClick={onClick}
+    onKeyPress={(e: React.KeyboardEvent<HTMLElement>) => {
+      if (e.key === "Enter" && onClick) {
+        onClick(e);
+      }
+    }}
   >
     {!!title && <CardTitle title={title} />}
-    {!!renderBody && renderBody(model)}
     {children}
     {!!cogMenu && <Cog menu={cogMenu} />}
   </div>
@@ -73,5 +83,6 @@ Card.SectionTitle = CardSectionTitle;
 Card.List = CardList;
 Card.TicketCard = TicketCard;
 Card.TaskCard = TaskCard;
+Card.Simple = SimpleCard;
 
 export default Card;

@@ -94,20 +94,19 @@ const CardKanban = ({ action }) => {
                       isDragging={isDragging}
                       checkable
                       onCheck={action("click 11")}
-                      renderBody={() => (
-                        <UserInfo
-                          avatar
-                          name="John Doe"
-                          email="john.doe@deskpro.com"
-                        />
-                      )}
                       statusLabel="1h 25 min"
                       cogMenu={
                         <Menu>
                           <Menu.MenuItem key="bin" icon="bin" text="Delete" />
                         </Menu>
                       }
-                    />
+                    >
+                      <UserInfo
+                        avatar
+                        name="John Doe"
+                        email="john.doe@deskpro.com"
+                      />
+                    </Card.TicketCard>
                   )}
                 </Kanban.Item>
               ))}

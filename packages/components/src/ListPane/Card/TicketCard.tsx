@@ -1,6 +1,6 @@
 import * as React from "react";
 
-import Card, { CheckableCardProps, CardProps, ICardModel } from "./Card";
+import Card, { CheckableCardProps, BasicCardProps, ICardModel } from "./Card";
 import CardTitle from "./CardTitle";
 import Checkbox from "../../inputs/Checkbox/Checkbox";
 import IconGroup from "../../elements/Icon/IconGroup";
@@ -12,13 +12,14 @@ export interface TicketModel extends ICardModel {
 }
 
 export type TicketCardProps = {
+  model: TicketModel;
   icons?: React.ReactNode;
   statusLabel?: React.ReactNode;
   onFavoriteToggle?(e: React.MouseEvent<HTMLElement>): void;
 };
 
 const TicketCard: React.FC<
-  CardProps<TicketModel> & CheckableCardProps & TicketCardProps
+  BasicCardProps & CheckableCardProps & TicketCardProps
 > = ({
   title,
   model,
@@ -28,10 +29,10 @@ const TicketCard: React.FC<
   checked,
   onCheck,
   onFavoriteToggle,
-  renderBody,
+  children,
   ...props
 }) => (
-  <Card model={model} {...props}>
+  <Card {...props}>
     <span className="dp-LevelCol">
       {!!checkable && (
         <Checkbox
@@ -58,7 +59,7 @@ const TicketCard: React.FC<
           </>
         }
       />
-      {!!renderBody && renderBody(model)}
+      {children}
     </span>
     <span className="dp-LevelCol dp-LevelRight">
       {!!icons && <IconGroup>{icons}</IconGroup>}

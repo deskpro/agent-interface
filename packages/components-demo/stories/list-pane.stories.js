@@ -8,109 +8,86 @@ import {
   Icon,
   Tag,
   Badge,
-  UserInfo,
   ActivityStatus,
-  Menu
+  IconGroup
 } from "@deskpro/agent-interface-components";
 
 storiesOf("ListPane", module).add("Card List", () => (
   <div style={{ maxWidth: "500px" }}>
     <Card.List hoverable>
-      <Card.SectionTitle>Sales</Card.SectionTitle>
-      <Card.TicketCard
-        selected
+      <Card.SectionTitle>Card List Title</Card.SectionTitle>
+      <Card.Simple
+        title="Simple card (default, without checkbox)"
+        model={{ id: 1 }}
+      >
+        <p className="dp-UserName">Some details text</p>
+      </Card.Simple>
+      <Card.Simple
         checkable
-        onCheck={action("click 1")}
-        model={{
-          id: 1,
-          title: "Card title here",
-          isFavorite: true
-        }}
-        renderBody={() => <UserInfo avatar name="John Doe" />}
-        icons={
-          <>
+        onCheck={action("check default")}
+        title="Simple card (default, with checkbox)"
+        model={{ id: 1 }}
+      >
+        <p className="dp-UserName">Some details text</p>
+      </Card.Simple>
+      <Card.Simple
+        checked
+        checkable
+        onCheck={action("check checked")}
+        title="Simple card (checked) without details"
+        model={{ id: 2 }}
+        status={<Tag>2 mins</Tag>}
+      />
+      <Card.Simple
+        checkable
+        onCheck={action("check")}
+        isFocused
+        title="Simple card (focused)"
+        model={{ id: 3 }}
+      >
+        <p className="dp-UserName">Some details text</p>
+      </Card.Simple>
+      <Card.Simple
+        checkable
+        onCheck={action("check")}
+        isHighlighted
+        title="Simple card (highlighted)"
+        model={{ id: 3 }}
+      >
+        <p className="dp-UserName">Some details text</p>
+      </Card.Simple>
+      <Card.Simple
+        checkable
+        onCheck={action("check")}
+        title="Simple card (with status)"
+        model={{ id: 4 }}
+        status={
+          <IconGroup>
             <ActivityStatus status="viewing" color="grey">
               <Icon name="avatar" size={16} />
               <Icon name="avatar" size={16} />
             </ActivityStatus>
             <Icon name="beetle" size={18} circle />
             <Badge color="grey-light" type="round" />
-            <Badge color="white" type="round" />
-          </>
+            <Badge color="purple" type="round" />
+          </IconGroup>
         }
-        statusLabel={<Tag color="warning">Failed</Tag>}
-        cogMenu={
-          <Menu>
-            <Menu.MenuItem key="bin" icon="bin" text="Delete" />
-          </Menu>
-        }
-      />
-      <Card.TicketCard
-        model={{
-          id: 2,
-          title: "Card title here"
-        }}
-        renderBody={() => (
-          <UserInfo avatar name="John Doe" email="john.doe@deskpro.com" />
-        )}
-        checked
+      >
+        <p className="dp-UserName">Some details text</p>
+      </Card.Simple>
+      <Card.Simple
         checkable
-        onCheck={action("click 2")}
-        icons={
-          <>
-            <ActivityStatus status="writing" color="primary">
-              <Icon name="avatar" size={15} />
-              <Icon name="avatar" size={15} />
-            </ActivityStatus>
-            <Icon name="beetle" circle size={18} />
-            <Badge color="neutral" type="round" />
-          </>
+        onCheck={action("check")}
+        title="Simple card (with tag)"
+        model={{ id: 4 }}
+        status={
+          <Tag color="danger" size="small">
+            Failed
+          </Tag>
         }
-        statusLabel="5 min"
-        cogMenu={
-          <Menu>
-            <Menu.MenuItem key="bin" icon="bin" text="Delete" />
-          </Menu>
-        }
-      />
-      <Card.TicketCard
-        model={{
-          id: 3,
-          title: "Card title here"
-        }}
-        renderBody={() => (
-          <UserInfo avatar name="John Doe" email="john.doe@deskpro.com" />
-        )}
-        checkable
-        onCheck={action("click 3")}
-        icons={
-          <>
-            <ActivityStatus status="writing" color="primary">
-              <Icon name="avatar" size={15} />
-            </ActivityStatus>
-            <Badge color="info" type="round" />
-            <Badge color="success" type="round" />
-          </>
-        }
-        statusLabel="1h 25 min"
-        cogMenu={
-          <Menu>
-            <Menu.MenuItem key="bin" icon="bin" text="Delete" />
-          </Menu>
-        }
-      />
-      <Card.SectionTitle>Tasks</Card.SectionTitle>
-      <Card.TaskCard
-        model={{ id: 11, title: "Create new task" }}
-        checkable
-        onCheck={action("click 11")}
-        renderBody={() => (
-          <a href="https://google.com/" className="dp-Card-link">
-            <Icon name="link" color="primary" size={13} />
-            Diagnose And Repair Electrical Systems
-          </a>
-        )}
-      />
+      >
+        <p className="dp-UserName">Some details text</p>
+      </Card.Simple>
     </Card.List>
   </div>
 ));

@@ -1,6 +1,6 @@
 import * as React from "react";
 import classNames from "classnames";
-import Card, { CardProps, CheckableCardProps, ICardModel } from "./Card";
+import Card, { BasicCardProps, CheckableCardProps, ICardModel } from "./Card";
 import Checkbox from "../../inputs/Checkbox/Checkbox";
 import { Icon } from "../..";
 
@@ -10,21 +10,22 @@ export interface TaskModel extends ICardModel {
   commentsCount?: number;
 }
 
-export type TaskCardProps = {};
+export type TaskCardProps<M> = {
+  model: M;
+};
 
 const TaskCard: React.FC<
-  TaskCardProps & CardProps<TaskModel> & CheckableCardProps
+  TaskCardProps<TaskModel> & BasicCardProps & CheckableCardProps
 > = ({
   model,
   className,
   checkable = false,
   checked,
   onCheck,
-  renderBody,
+  children,
   ...props
 }) => (
   <Card
-    model={model}
     {...props}
     className={classNames("LevelCol", "dp-Tasks-list", className)}
   >
@@ -57,9 +58,7 @@ const TaskCard: React.FC<
         <span className="dp-Date-link">Today : 4pm</span>
       </span>
     </span>
-    <span className="dp-LevelItem dp-LevelLeft">
-      {!!renderBody && renderBody(model)}
-    </span>
+    <span className="dp-LevelItem dp-LevelLeft">{children}</span>
     <span className="dp-LevelItem Level-justify-between">
       <ul className="dp-LevelWrap">
         <li>
