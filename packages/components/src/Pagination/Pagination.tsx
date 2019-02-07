@@ -4,7 +4,7 @@ import ReactPagination from "react-paginate";
 // import Icon from "../elements/Icon/Icon";
 import GotoPage from "./GotoPage";
 
-import "@deskpro/agent-interface-style/dist/components/dp-ListPane.css";
+import "@deskpro/agent-interface-style/dist/components/dp-Pagination.css";
 
 export type PaginationProps = {
   numPages: number;
@@ -48,9 +48,21 @@ const Pagination: React.FC<PaginationProps> = ({
         activeLinkClassName="is-active"
         containerClassName="dp-Pagination"
         breakLinkClassName="dp-BreakPagination"
-        previousLabel={<span className="dp-Icon dp-arrowLeft Icon--primary" />}
+        previousLabel={
+          <span className="dp-Icon">
+            <svg width="15" height="15" viewBox="0 0 7 10">
+              <path d="M.094 5.031L5.07 9.376a.773.773 0 0 0 .886 0 .441.441 0 0 0 0-.745l-4.09-3.6 4.09-3.6a.441.441 0 0 0 0-.745.773.773 0 0 0-.886 0L.094 5.031z" />
+            </svg>
+          </span>
+        }
         previousLinkClassName="dp-PaginationArrows"
-        nextLabel={<span className="dp-Icon dp-arrowRight Icon--primary" />}
+        nextLabel={
+          <span className="dp-Icon">
+            <svg width="15" height="15" viewBox="0 0 7 10">
+              <path d="M6.594 4.969L1.616.624a.773.773 0 0 0-.886 0 .441.441 0 0 0 0 .745l4.091 3.6-4.09 3.6a.441.441 0 0 0 0 .745.773.773 0 0 0 .885 0l4.978-4.345z" />
+            </svg>
+          </span>
+        }
         nextLinkClassName="dp-PaginationArrows"
         onPageChange={handlePageChange}
       />

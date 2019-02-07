@@ -13,6 +13,7 @@ export interface ButtonProps {
     | "link"
     | "round"
     | "square";
+  className?: string;
   onClick(e: React.MouseEvent<HTMLElement>): void;
 }
 
@@ -21,14 +22,19 @@ const Button: React.FC<ButtonProps> = ({
   children,
   size = "default",
   variant = "contained",
+  className,
   ...props
 }) => (
   <button
     type="button"
-    className={classNames("dp-Button", {
-      [`Button--${size}`]: !!size && size !== "default",
-      [`Button--${variant}`]: !!variant && variant !== "contained"
-    })}
+    className={classNames(
+      "dp-Button",
+      {
+        [`Button--${size}`]: !!size && size !== "default",
+        [`Button--${variant}`]: !!variant && variant !== "contained"
+      },
+      className
+    )}
     onClick={handleClick}
     {...props}
   >
