@@ -1,0 +1,48 @@
+@import "../fonts.css";
+@import "../vars.css";
+@import "../dp-Arrow.css";
+@import "../components/dp-icons.css";
+
+.dp-Categories {
+  align-items: center;
+  color: var(--grey-darkest);
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 10px;
+  width: 100%;
+}
+
+.dp-Categories-title {
+  font: var(--p-xl);
+}
+
+.dp-Categories-add {
+  align-items: center;
+  background-color: var(--success);
+  border-radius: 2px;
+  color: var(--white);
+  cursor: pointer;
+  display: flex;
+  font: var(--p-s);
+  padding: 1px 3px;
+}
+
+.dp-Categories-add .dp-Icon {
+  padding-right: 5px;
+}
+
+.dp-Categories-add svg {
+  fill: var(--white);
+}
+
+.dp-GuidesDirectory.dp-Knowledgebase .dp-TitleGroupe .dp-Icon {
+  border-radius: 0;
+  height: 13px;
+  margin-right: 7px;
+  width: 15px;
+}
+
+.dp-GuidesDirectory.dp-Knowledgebase .dp-Card:hover .dp-TitleGroupe .dp-Icon,
+.dp-GuidesDirectory.dp-Knowledgebase .dp-TitleGroupe .dp-Icon {
+  background-color: transparent;
+}

@@ -135,17 +135,6 @@
   padding: 3px 4px;
 }
 
-.dp-PageJump .dp-PageJump-button:hover {
-  background-color: var(--brand-primary);
-  border: 1px solid var(--brand-primary);
-  opacity: 1;
-}
-
-.dp-PageJump .dp-PageJump-page:focus + .dp-PageJump-button {
-  background-color: var(--brand-primary);
-  border: 1px solid var(--brand-primary);
-}
-
 .dp-GroupSortBar {
   display: flex;
   justify-content: space-between;
@@ -172,4 +161,11 @@
 
 .dp-PageJump .dp-Button.Button--primary {
   background-color: var(--brand-primary);
+  border: 1px solid var(--brand-primary);
+}
+
+.dp-PageJump .dp-Button.dp-PageJump-button:hover {
+  background-color: var(--brand-primary);
+  border: 1px solid var(--brand-primary);
+  opacity: 1;
 }

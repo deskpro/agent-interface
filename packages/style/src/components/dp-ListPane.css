@@ -149,6 +149,25 @@
   border-width: 0 4px 4px 4px;
 }
 
+.dp-Card .dp-UserInfo {
+  align-items: center;
+  display: flex;
+}
+
+.dp-Card .dp-UserInfo .dp-Icon {
+  background-size: 16px;
+  height: 16px;
+  width: 16px;
+}
+
+.dp-Card .dp-UserInfo .dp-Icon + .dp-UserName {
+  margin-left: 5px;
+}
+
+.dp-Card .dp-TagBar .dp-Tag + .dp-Tag {
+  margin-right: 5px;
+}
+
 /* listpane/tasksnew */
 
 .dp-Card .dp-NewTitle {
@@ -897,15 +916,8 @@ input:disabled + label {
 
 /* Animate  */
 
-.dp-NewCard.dp-CustomCheckbox > ul {
-  transition: all 2s linear;
-}
-
-.dp-NewCard.dp-CustomCheckbox input[type="checkbox"]:checked ~ ul {
-  height: 0;
-}
-
 .dp-NewCard {
+  display: block;
   position: relative;
   width: 100%;
 }
@@ -921,5 +933,17 @@ input:disabled + label {
 }
 
 .dp-NewCard > ul {
+  display: block;
+  height: 100%;
   padding: 0;
+
+  /* -moz-transition: height 3s;
+ -webkit-transition: height 3s;
+*/
+
+  transition: height 3s ease-out;
+}
+
+.dp-NewCard input[type="checkbox"]:checked ~ ul {
+  height: 0;
 }
