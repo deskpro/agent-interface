@@ -39,7 +39,7 @@ const SimpleCard: React.FC<SimpleCardProps> = ({
     )}
     <span className="dp-LevelCol">
       {!!title && <Card.Title title={title} />}
-      <span className="dp-Card-details">{children}</span>
+      {children}
     </span>
     {!!status && (
       <span className="dp-LevelCol dp-LevelRight dp-LevelTop">{status}</span>
