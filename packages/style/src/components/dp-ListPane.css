@@ -897,10 +897,12 @@ input:disabled + label {
 
 /* Animate  */
 
-.dp-NewCard .dp-CustomCheckbox input[type="checkbox"]:checked ~ ul {
-  height: 0;
+.dp-NewCard.dp-CustomCheckbox > ul {
+  transition: all 2s linear;
+}
 
-  /* display: none; */
+.dp-NewCard.dp-CustomCheckbox input[type="checkbox"]:checked ~ ul {
+  height: 0;
 }
 
 .dp-NewCard {
@@ -909,13 +911,13 @@ input:disabled + label {
 }
 
 .dp-NewCard .dp-Card {
-  padding-left: 30px;
+  padding-left: 31px;
 }
 
 .dp-NewCard.dp-CustomCheckbox input[type="checkbox"] + label {
   left: 8px;
   position: absolute;
-  top: 12px;
+  top: 10px;
 }
 
 .dp-NewCard > ul {

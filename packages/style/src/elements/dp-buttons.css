@@ -295,3 +295,12 @@
   cursor: not-allowed;
   opacity: 0.5;
 }
+
+.dp-Button.Button--grey {
+  background-color: var(--grey-light);
+  border: 1px solid var(--grey-light);
+}
+
+.dp-Button.Button--primary {
+  background-color: var(--brand-primary);
+}

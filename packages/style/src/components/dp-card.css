@@ -109,7 +109,9 @@
 
 .dp-Card.dp-Level .dp-LevelCol:first-child {
   flex: 0 0 auto;
-  padding: 2px 0;
+
+  /* padding: 2px 0; */
+
 }
 
 .dp-Card.dp-Level .dp-LevelCol:nth-child(2) {
@@ -341,6 +343,7 @@
 .dp-Card .dp-CustomCheckbox {
   display: flex;
   overflow: hidden;
+  padding-top: 1px;
 }
 
 .dp-CardList .dp-Card-comment .dp-UserInfo .dp-UserName {

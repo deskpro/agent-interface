@@ -112,7 +112,7 @@
   height: 20px;
   margin-left: 10px;
   margin-right: 5px;
-  max-width: 24px;
+  max-width: 34px;
   position: relative;
   text-align: center;
 }
@@ -121,7 +121,12 @@
   border: 1px solid var(--brand-primary);
 }
 
-.dp-PageJump .dp-PageJump-page + .dp-PageJump-button {
+.dp-PageJump-button:focus {
+  outline: none;
+}
+
+.dp-PageJump .dp-PageJump-page + .dp-PageJump-button,
+.dp-PageJump .dp-PageJump-label + .dp-PageJump-button {
   background-color: var(--grey-light);
   border: 1px solid var(--grey-light);
   border-radius: 3px;
@@ -131,9 +136,11 @@
   padding: 3px 4px;
 }
 
-.dp-PageJump .dp-PageJump-page + .dp-PageJump-button:hover {
+.dp-PageJump .dp-PageJump-page + .dp-PageJump-button:hover,
+.dp-PageJump .dp-PageJump-label + .dp-PageJump-button:hover {
   background-color: var(--brand-primary);
   border: 1px solid var(--brand-primary);
+  opacity: 1;
 }
 
 .dp-PageJump .dp-PageJump-page:focus + .dp-PageJump-button {
