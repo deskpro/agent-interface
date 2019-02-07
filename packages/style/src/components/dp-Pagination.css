@@ -125,8 +125,7 @@
   outline: none;
 }
 
-.dp-PageJump .dp-PageJump-page + .dp-PageJump-button,
-.dp-PageJump .dp-PageJump-label + .dp-PageJump-button {
+.dp-PageJump .dp-Button.dp-PageJump-button {
   background-color: var(--grey-light);
   border: 1px solid var(--grey-light);
   border-radius: 3px;
@@ -136,8 +135,7 @@
   padding: 3px 4px;
 }
 
-.dp-PageJump .dp-PageJump-page + .dp-PageJump-button:hover,
-.dp-PageJump .dp-PageJump-label + .dp-PageJump-button:hover {
+.dp-PageJump .dp-PageJump-button:hover {
   background-color: var(--brand-primary);
   border: 1px solid var(--brand-primary);
   opacity: 1;
@@ -165,4 +163,13 @@
 .dp-PaginationArrows .dp-Icon.dp-arrowLeft svg + .dp-PageNumber.is-active,
 .dp-PaginationArrows[aria-disabled="true"] svg {
   fill: var(--grey-light);
+}
+
+.dp-PageJump .dp-Button.Button--grey {
+  background-color: var(--grey-light);
+  border: 1px solid var(--grey-light);
+}
+
+.dp-PageJump .dp-Button.Button--primary {
+  background-color: var(--brand-primary);
 }

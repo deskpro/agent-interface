@@ -569,7 +569,6 @@ title: List View
         </label>
         <button type="button" class="dp-Button Button--small dp-PageJump-button">Go</button>
     </span>
-    
 </div>
 ```
 
@@ -594,9 +593,11 @@ title: List View
     </ul>
 
     <span class="dp-PageJump">
-       <label for="gotoPage" class="dp-PageJump-label">Go to page</label>
-       <input name="gotoPage" type="number" class="dp-PageJump-page" />
-       <button type="button" class="dp-PageJump-button">Go</button>
+        <label class="dp-Label dp-PageJump-label">
+            Go to page
+            <input type="number" min="1" max="75" class="dp-Input dp-PageJump-page" value="" />
+        </label>
+        <button type="button" class="dp-Button Button--small dp-PageJump-button">Go</button>
     </span>
 
 </div>
@@ -618,10 +619,13 @@ title: List View
         <li><a href="#" class="dp-PageNumber">75</a></li>
         <li><a href="#" class="dp-PaginationArrows"><span class="dp-Icon dp-arrowRight Icon--primary"></span></a></li>
     </ul>
+
     <span class="dp-PageJump">
-       <label for="gotoPage" class="dp-PageJump-label">Go to page</label>
-       <input name="gotoPage" type="number" class="dp-PageJump-page" />
-       <button type="button" class="dp-PageJump-button">Go</button>
+        <label class="dp-Label dp-PageJump-label">
+            Go to page
+            <input type="number" min="1" max="75" class="dp-Input dp-PageJump-page" value="" />
+        </label>
+        <button type="button" class="dp-Button Button--small dp-PageJump-button">Go</button>
     </span>
 </div>
 ```
@@ -644,9 +648,11 @@ title: List View
     </ul>
 
     <span class="dp-PageJump">
-       <label for="gotoPage" class="dp-PageJump-label">Go to page</label>
-       <input name="gotoPage" type="number" class="dp-PageJump-page" />
-       <button type="button" class="dp-PageJump-button">Go</button>
+        <label class="dp-Label dp-PageJump-label">
+            Go to page
+            <input type="number" min="1" max="75" class="dp-Input dp-PageJump-page" value="" />
+        </label>
+        <button type="button" class="dp-Button Button--small dp-PageJump-button">Go</button>
     </span>
 </div>
 
@@ -670,9 +676,11 @@ title: List View
     </ul>
 
     <span class="dp-PageJump">
-       <label for="gotoPage" class="dp-PageJump-label">Go to page</label>
-       <input name="gotoPage" type="number" class="dp-PageJump-page" />
-       <button type="button" class="dp-PageJump-button">Go</button>
+        <label class="dp-Label dp-PageJump-label">
+            Go to page
+            <input type="number" min="1" max="75" class="dp-Input dp-PageJump-page" value="" />
+        </label>
+        <button type="button" class="dp-Button Button--small dp-PageJump-button">Go</button>
     </span>
 </div>
 ```
@@ -695,9 +703,11 @@ title: List View
     </ul>
 
     <span class="dp-PageJump">
-       <label for="gotoPage" class="dp-PageJump-label">Go to page</label>
-       <input name="gotoPage" type="number" class="dp-PageJump-page" />
-       <button type="button" class="dp-PageJump-button">Go</button>
+        <label class="dp-Label dp-PageJump-label">
+            Go to page
+            <input type="number" min="1" max="75" class="dp-Input dp-PageJump-page" value="" />
+        </label>
+        <button type="button" class="dp-Button Button--small dp-PageJump-button">Go</button>
     </span>
 </div>
 ```
@@ -720,9 +730,11 @@ title: List View
     </ul>
 
     <span class="dp-PageJump">
-       <label for="gotoPage" class="dp-PageJump-label">Go to page</label>
-       <input name="gotoPage" type="number" class="dp-PageJump-page" />
-       <button type="button" class="dp-PageJump-button">Go</button>
+        <label class="dp-Label dp-PageJump-label">
+            Go to page
+            <input type="number" min="1" max="75" class="dp-Input dp-PageJump-page" value="" />
+        </label>
+        <button type="button" class="dp-Button Button--small dp-PageJump-button">Go</button>
     </span>
 </div>
 ```
@@ -745,9 +757,11 @@ title: List View
     </ul>
 
     <span class="dp-PageJump">
-       <label for="gotoPage" class="dp-PageJump-label">Go to page</label>
-       <input name="gotoPage" type="number" class="dp-PageJump-page" />
-       <button type="button" class="dp-PageJump-button">Go</button>
+        <label class="dp-Label dp-PageJump-label">
+            Go to page
+            <input type="number" min="1" max="75" class="dp-Input dp-PageJump-page" value="" />
+        </label>
+        <button type="button" class="dp-Button Button--small dp-PageJump-button">Go</button>
     </span>
 </div>
 ```
@@ -770,9 +784,11 @@ title: List View
     </ul>
 
     <span class="dp-PageJump">
-       <label for="gotoPage" class="dp-PageJump-label">Go to page</label>
-       <input name="gotoPage" type="number" class="dp-PageJump-page" />
-       <button type="button" class="dp-PageJump-button">Go</button>
+        <label class="dp-Label dp-PageJump-label">
+            Go to page
+            <input type="number" min="1" max="75" class="dp-Input dp-PageJump-page" value="" />
+        </label>
+        <button type="button" class="dp-Button Button--small dp-PageJump-button">Go</button>
     </span>
 </div>
 ```
@@ -795,9 +811,11 @@ title: List View
     </ul>
 
     <span class="dp-PageJump">
-       <label for="gotoPage" class="dp-PageJump-label">Go to page</label>
-       <input name="gotoPage" type="number" class="dp-PageJump-page" />
-       <button type="button" class="dp-PageJump-button">Go</button>
+        <label class="dp-Label dp-PageJump-label">
+            Go to page
+            <input type="number" min="1" max="75" class="dp-Input dp-PageJump-page" value="" />
+        </label>
+        <button type="button" class="dp-Button Button--small dp-PageJump-button">Go</button>
     </span>
 </div>
 ```
