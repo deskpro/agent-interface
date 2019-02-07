@@ -78,7 +78,7 @@
 }
 
 .dp-Kanban-droppableArea {
-  height: 100%;
+  min-height: 100%;
 }
 
 .dp-Kanban-item {

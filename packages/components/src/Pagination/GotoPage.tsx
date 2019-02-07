@@ -10,6 +10,7 @@ export type GotoPageProps = {
 const GotoPage: React.FC<GotoPageProps> = ({ onChange, numPages }) => {
   // State and handlers for Go to page.
   const [gotoPage, setGotoPage] = React.useState<number | null>(null);
+  const [isFocused, setFocused] = React.useState(false);
 
   return (
     <span className="dp-PageJump">
@@ -22,11 +23,14 @@ const GotoPage: React.FC<GotoPageProps> = ({ onChange, numPages }) => {
           className="dp-Input dp-PageJump-page"
           value={gotoPage || ""}
           onChange={e => setGotoPage(Number(e.target.value))}
+          onFocus={() => setFocused(true)}
+          onBlur={() => setFocused(false)}
         />
       </label>
       <Button
         size="small"
         className="dp-PageJump-button"
+        color={isFocused ? "primary" : "grey"}
         onClick={() => {
           const gotoPageNumber = Number(gotoPage);
           if (gotoPageNumber > 0 && gotoPageNumber <= numPages) {

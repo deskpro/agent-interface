@@ -2,68 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 
 import { Kanban } from "@deskpro/agent-interface-components";
-
-const columns = ["Backlog", "Started", "In Progress", "Review", "QA", "Closed"];
-
-function useKanbanDragging() {
-  const [cards, setCards] = React.useState(
-    columns.reduce((acc, column) => {
-      acc[column] = Array.from(
-        { length: Math.round(Math.random() * 50) },
-        (_, idx) => `${column}-${idx + 1}`
-      );
-      return acc;
-    }, {})
-  );
-
-  const moveCard = (source, destination) => {
-    const [sourceColumn] = source.droppableId.split("-");
-    const [destColumn] = destination.droppableId.split("-");
-    const sourceClone = Array.from(cards[sourceColumn]);
-    const destClone = Array.from(cards[destColumn]);
-    const [removed] = sourceClone.splice(source.index, 1);
-
-    destClone.splice(destination.index, 0, removed);
-
-    setCards({
-      ...cards,
-      [sourceColumn]: sourceClone,
-      [destColumn]: destClone
-    });
-  };
-
-  const reorderCards = (
-    { droppableId, index: sourceIdx },
-    { index: destIdx }
-  ) => {
-    const [sourceColumn] = droppableId.split("-");
-    const result = Array.from(cards[sourceColumn]);
-    const [removed] = result.splice(sourceIdx, 1);
-    result.splice(destIdx, 0, removed);
-
-    setCards({ ...cards, [sourceColumn]: result });
-  };
-
-  const onDragEnd = React.useCallback(
-    result => {
-      const { source, destination } = result;
-
-      // dropped outside the list
-      if (!destination) {
-        return;
-      }
-
-      if (source.droppableId === destination.droppableId) {
-        reorderCards(source, destination);
-      } else {
-        moveCard(source, destination);
-      }
-    },
-    [cards]
-  );
-
-  return { cards, onDragEnd };
-}
+import useKanbanDragging from "./useSimpleKanban";
 
 const Card = ({ children }) => (
   <div
