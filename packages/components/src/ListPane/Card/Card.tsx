@@ -5,7 +5,7 @@ import CardTitle from "./CardTitle";
 import CardSectionTitle from "./CardSectionTitle";
 import CardList from "./CardList";
 import SimpleCard from "./SimpleCard";
-import TicketCard from "./TicketCard";
+import TicketCard from "./TicketCard/TicketCard";
 import TaskCard from "./TaskCard";
 import { MenuProps } from "../../elements/Menu/Menu";
 import Cog from "../../elements/Cog/Cog";

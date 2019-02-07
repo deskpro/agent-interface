@@ -14,12 +14,13 @@ export type IconProps = {
   ): void;
 };
 
-const Icon: React.FC<IconProps> = ({
+const Icon: React.FC<IconProps & React.ComponentProps<"span">> = ({
   name,
   size = 24,
   color,
   circle,
-  onClick
+  onClick,
+  ...props
 }) => {
   const SvgIcon = icons[name];
   if (!SvgIcon) {
@@ -35,6 +36,7 @@ const Icon: React.FC<IconProps> = ({
       tabIndex={-1}
       onClick={onClick}
       onKeyDown={onClick}
+      {...props}
     >
       <SvgIcon width={size} height={size} />
     </span>

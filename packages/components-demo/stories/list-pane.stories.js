@@ -13,6 +13,7 @@ import {
   IconGroup
 } from "@deskpro/agent-interface-components";
 import PaginationDemo from "./components/PaginationDemo";
+import TicketCardsDemo from "./components/list-pane/TicketCardsDemo";
 
 storiesOf("ListPane", module)
   .addDecorator(withKnobs)
@@ -92,6 +93,7 @@ storiesOf("ListPane", module)
       </Card.List>
     </div>
   ))
+  .add("Ticket Cards", () => <TicketCardsDemo onCheck={action("checkbox")} />)
   .add("Pagination", () => (
     <PaginationDemo
       numPages={number("Pages count", 75)}
