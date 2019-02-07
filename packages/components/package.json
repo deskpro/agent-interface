@@ -20,8 +20,7 @@
   "devDependencies": {
     "@types/jest": "^23.3.10",
     "@types/prop-types": "^15.5.6",
-    "@types/react": "^16.7.13",
-    "@types/react-dom": "^16.0.11",
+    "@types/react": "^16.8",
     "eslint": "^5.9.0",
     "jest": "^23.6.0",
     "jest-dom": "^3.0.0",
@@ -35,9 +34,9 @@
     "@deskpro/agent-interface-style": "^0.0.1",
     "classnames": "^2.2.6",
     "lodash": "^4.17.11",
-    "react": "^16.8.0-alpha.0",
+    "react": "^16.8",
     "react-beautiful-dnd": "^10.0.3",
     "react-custom-scrollbars": "^4.2.1",
-    "react-dom": "^16.8.0-alpha.0"
+    "react-dom": "^16.8"
   }
 }

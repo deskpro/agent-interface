@@ -90,6 +90,7 @@ const SimpleKanban = ({ action }) => {
         {Object.keys(cards).map(column => (
           <Kanban.Column
             key={column}
+            columnId={column}
             header={column}
             scrollThreshold={0.8}
             onThresholdReach={action(

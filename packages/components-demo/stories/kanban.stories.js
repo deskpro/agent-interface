@@ -7,7 +7,7 @@ import { withKnobs, boolean } from "@storybook/addon-knobs";
 import SimpleKanban from "./components/SimpleKanban";
 import CardKanban from "./components/CardKanban";
 import StandardKanban from "./components/StandardKanbanDemo";
-import "./styles.css";
+import "../styles/kanban.css";
 
 storiesOf("Kanban", module)
   .addDecorator(withKnobs)

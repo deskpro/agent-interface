@@ -11,23 +11,23 @@ import {
 
 const columns = ["Backlog", "Started", "In Progress", "Review", "QA", "Closed"];
 
+const initCards = () =>
+  columns.reduce((acc, column, columnIndex) => {
+    acc.push({
+      group: { id: column, title: column },
+      items: Array.from(
+        { length: Math.round(Math.random() * 20) },
+        (_, idx) => ({
+          id: `${columnIndex}${idx}`,
+          title: `Card #${columnIndex}${idx + 1}`
+        })
+      )
+    });
+    return acc;
+  }, []);
+
 const kanbanReducer = produce((draft, { type, payload }) => {
   switch (type) {
-    case "loadData":
-      return columns.reduce((acc, column, columnIndex) => {
-        acc.push({
-          group: { id: column, title: column },
-          items: Array.from(
-            { length: Math.round(Math.random() * 20) },
-            (_, idx) => ({
-              id: `${columnIndex}${idx}`,
-              title: `Card #${columnIndex}${idx + 1}`
-            })
-          )
-        });
-        return acc;
-      }, []);
-
     case "moveItem": {
       const { itemId, fromGroupId, toGroupId, index } = payload;
       const sourceDataItem = draft.find(i => i.group.id === fromGroupId);
@@ -63,9 +63,7 @@ const kanbanReducer = produce((draft, { type, payload }) => {
 });
 
 const StandardKanbanDemo = ({ action, allowReorder }) => {
-  const [data, dispatch] = React.useReducer(kanbanReducer, [], {
-    type: "loadData"
-  });
+  const [data, dispatch] = React.useReducer(kanbanReducer, [], initCards);
 
   return (
     <div style={{ height: "100vh", width: "100vw" }}>
