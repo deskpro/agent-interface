@@ -30,7 +30,8 @@ const CardKanban = ({ action }) => {
                 <Kanban.Item key={title} itemId={title} index={idx}>
                   {({ isDragging }) => (
                     <Card.TicketCard
-                      model={{ id: idx, title }}
+                      cardId={idx}
+                      title={title}
                       isDragging={isDragging}
                       checkable
                       onCheck={action("click 11")}

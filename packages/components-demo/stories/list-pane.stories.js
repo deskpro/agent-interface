@@ -20,26 +20,23 @@ storiesOf("ListPane", module)
     <div style={{ maxWidth: "500px" }}>
       <Card.List hoverable>
         <Card.SectionTitle>Card List Title</Card.SectionTitle>
-        <Card.Simple
-          title="Simple card (default, without checkbox)"
-          model={{ id: 1 }}
-        >
+        <Card.Simple cardId={1} title="Simple card (default, without checkbox)">
           <p className="dp-UserName">Some details text</p>
         </Card.Simple>
         <Card.Simple
+          cardId={2}
           checkable
           onCheck={action("check default")}
           title="Simple card (default, with checkbox)"
-          model={{ id: 1 }}
         >
           <p className="dp-UserName">Some details text</p>
         </Card.Simple>
         <Card.Simple
+          cardId={3}
           checked
           checkable
           onCheck={action("check checked")}
           title="Simple card (checked) without details"
-          model={{ id: 2 }}
           status={<Tag>2 mins</Tag>}
         />
         <Card.Simple
@@ -47,7 +44,7 @@ storiesOf("ListPane", module)
           onCheck={action("check")}
           isFocused
           title="Simple card (focused)"
-          model={{ id: 3 }}
+          cardId={4}
         >
           <p className="dp-UserName">Some details text</p>
         </Card.Simple>
@@ -56,7 +53,7 @@ storiesOf("ListPane", module)
           onCheck={action("check")}
           isHighlighted
           title="Simple card (highlighted)"
-          model={{ id: 3 }}
+          cardId={5}
         >
           <p className="dp-UserName">Some details text</p>
         </Card.Simple>
@@ -64,7 +61,7 @@ storiesOf("ListPane", module)
           checkable
           onCheck={action("check")}
           title="Simple card (with status)"
-          model={{ id: 4 }}
+          cardId={6}
           status={
             <IconGroup>
               <ActivityStatus status="viewing" color="grey">
@@ -83,7 +80,7 @@ storiesOf("ListPane", module)
           checkable
           onCheck={action("check")}
           title="Simple card (with tag)"
-          model={{ id: 4 }}
+          cardId={7}
           status={
             <Tag color="danger" size="small">
               Failed

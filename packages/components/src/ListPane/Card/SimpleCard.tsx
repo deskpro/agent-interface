@@ -1,17 +1,16 @@
 import * as React from "react";
 import classNames from "classnames";
 
-import Card, { ICardModel, CheckableCardProps, BasicCardProps } from "./Card";
-import Checkbox from "../../inputs/Checkbox/Checkbox";
+import Card, { BasicCardProps } from "./Card";
+import Checkbox, { CheckableCardProps } from "./CardCheckbox";
 
-export type SimpleCardProps<M> = {
-  model: M;
+export type SimpleCardProps = {
   status?: React.ReactNode;
 } & BasicCardProps &
   CheckableCardProps;
 
-const SimpleCard: React.FC<SimpleCardProps<ICardModel>> = ({
-  model,
+const SimpleCard: React.FC<SimpleCardProps> = ({
+  cardId,
   title,
   className,
   children,
@@ -21,15 +20,21 @@ const SimpleCard: React.FC<SimpleCardProps<ICardModel>> = ({
   onCheck,
   ...props
 }) => (
-  <Card {...props} className={classNames("dp-Level", className)}>
+  <Card
+    cardId={cardId}
+    {...props}
+    className={classNames("dp-Level", className)}
+  >
     {checkable && (
       <span className="dp-LevelItem dp-LevelCol dp-LevelTop">
-        <Checkbox
-          id={model.id as string}
-          value={model.id}
-          checked={checked}
-          onChange={onCheck}
-        />
+        {!!checkable && (
+          <Checkbox
+            cardId={cardId}
+            checkable={checkable}
+            checked={checked}
+            onCheck={onCheck}
+          />
+        )}
       </span>
     )}
     <span className="dp-LevelCol">

@@ -1,45 +1,41 @@
 import * as React from "react";
 
-import Card, { CheckableCardProps, BasicCardProps, ICardModel } from "./Card";
+import Card, { BasicCardProps } from "./Card";
 import CardTitle from "./CardTitle";
-import Checkbox from "../../inputs/Checkbox/Checkbox";
+import Checkbox, { CheckableCardProps } from "./CardCheckbox";
 import IconGroup from "../../elements/Icon/IconGroup";
 import Icon from "../../elements/Icon/Icon";
 
-export interface TicketModel extends ICardModel {
-  title: string;
-  isFavorite?: boolean;
-}
-
 export type TicketCardProps = {
-  model: TicketModel;
   icons?: React.ReactNode;
   statusLabel?: React.ReactNode;
-  onFavoriteToggle?(e: React.MouseEvent<HTMLElement>): void;
+  isFavorite?: boolean;
+  onFavoriteToggle?(cardId: React.Key, e: React.MouseEvent<HTMLElement>): void;
 };
 
 const TicketCard: React.FC<
   BasicCardProps & CheckableCardProps & TicketCardProps
 > = ({
+  cardId,
   title,
-  model,
   icons,
   statusLabel,
-  checkable = false,
+  isFavorite = false,
+  onFavoriteToggle,
+  checkable,
   checked,
   onCheck,
-  onFavoriteToggle,
   children,
   ...props
 }) => (
-  <Card {...props}>
+  <Card cardId={cardId} {...props}>
     <span className="dp-LevelCol">
       {!!checkable && (
         <Checkbox
-          id={model.id as string}
-          value={model.id}
+          cardId={cardId}
+          checkable={checkable}
           checked={checked}
-          onChange={onCheck}
+          onCheck={onCheck}
         />
       )}
     </span>
@@ -47,13 +43,15 @@ const TicketCard: React.FC<
       <CardTitle
         title={
           <>
-            {model.title}
-            {model.isFavorite && (
+            {title}
+            {isFavorite && (
               <Icon
                 name="star"
                 size={15}
                 color="primary"
-                onClick={onFavoriteToggle}
+                onClick={(e: React.MouseEvent<HTMLElement>) =>
+                  onFavoriteToggle && onFavoriteToggle(cardId, e)
+                }
               />
             )}
           </>
