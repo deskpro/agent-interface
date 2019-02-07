@@ -13,6 +13,7 @@ export interface ButtonProps {
     | "link"
     | "round"
     | "square";
+  color?: DPColor;
   className?: string;
   onClick(e: React.MouseEvent<HTMLElement>): void;
 }
@@ -22,6 +23,7 @@ const Button: React.FC<ButtonProps> = ({
   children,
   size = "default",
   variant = "contained",
+  color = "primary",
   className,
   ...props
 }) => (
@@ -31,7 +33,8 @@ const Button: React.FC<ButtonProps> = ({
       "dp-Button",
       {
         [`Button--${size}`]: !!size && size !== "default",
-        [`Button--${variant}`]: !!variant && variant !== "contained"
+        [`Button--${variant}`]: !!variant && variant !== "contained",
+        [`Button--${color}`]: !!color
       },
       className
     )}
