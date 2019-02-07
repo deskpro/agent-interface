@@ -75,7 +75,8 @@ const StandardKanbanDemo = ({ action, allowReorder }) => {
         onLoadMore={group => dispatch({ type: "loadMore", payload: group })}
         renderCard={(card, { isDragging }) => (
           <Card.TicketCard
-            model={card}
+            cardId={card.id}
+            title={card.title}
             isDragging={isDragging}
             checkable
             onCheck={action(`toggle check for ${card.title}`)}

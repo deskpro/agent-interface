@@ -1,53 +1,47 @@
 import * as React from "react";
 import classNames from "classnames";
-import Card, { BasicCardProps, CheckableCardProps, ICardModel } from "./Card";
-import Checkbox from "../../inputs/Checkbox/Checkbox";
+import Card, { BasicCardProps } from "./Card";
+import Checkbox, { CheckableCardProps } from "./CardCheckbox";
 import { Icon } from "../..";
 
-export interface TaskModel extends ICardModel {
-  title: string;
-  isCompleted?: boolean;
-  commentsCount?: number;
-}
-
-export type TaskCardProps<M> = {
-  model: M;
-};
+export type TaskCardProps = {};
 
 const TaskCard: React.FC<
-  TaskCardProps<TaskModel> & BasicCardProps & CheckableCardProps
+  TaskCardProps & BasicCardProps & CheckableCardProps
 > = ({
-  model,
+  cardId,
   className,
-  checkable = false,
-  checked,
-  onCheck,
+  title,
   children,
+  checked,
+  checkable,
+  onCheck,
   ...props
 }) => (
   <Card
+    cardId={cardId}
     {...props}
     className={classNames("LevelCol", "dp-Tasks-list", className)}
   >
     <span className="dp-LevelItem Level-justify-between">
       <span className="dp-Level">
-        {checkable && (
+        {!!checkable && (
           <Checkbox
-            id={model.id as string}
-            value={model.id}
+            cardId={cardId}
+            checkable={checkable}
             checked={checked}
-            onChange={onCheck}
+            onCheck={onCheck}
           />
         )}
         <Card.Title
           title={
             <>
-              <Icon
+              {/* <Icon
                 name="complete"
                 color={model.isCompleted ? "neutral" : "success"}
                 size={15}
-              />
-              {model.title}
+              /> */}
+              {title}
             </>
           }
         />
@@ -71,8 +65,7 @@ const TaskCard: React.FC<
       <span className="dp-CommentWrap">
         <span className="dp-Icon dp-iconComents" />
         <span className="dp-Comments-title is-active">
-          Comment <span className="dp-qt">({model.commentsCount || 0})</span>
-          {!!model.commentsCount && <span className="dp-Arrow" />}
+          Comment <span className="dp-qt">({0})</span>
         </span>
       </span>
     </span>

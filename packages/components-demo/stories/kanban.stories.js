@@ -4,9 +4,9 @@ import { storiesOf } from "@storybook/react";
 import { action } from "@storybook/addon-actions";
 import { withKnobs, boolean } from "@storybook/addon-knobs";
 
-import SimpleKanban from "./components/SimpleKanban";
-import CardKanban from "./components/CardKanban";
-import StandardKanban from "./components/StandardKanbanDemo";
+import SimpleKanban from "./components/kanban/SimpleKanban";
+import CardKanban from "./components/kanban/CardKanban";
+import StandardKanban from "./components/kanban/StandardKanbanDemo";
 import "../styles/kanban.css";
 
 storiesOf("Kanban", module)
