@@ -2,10 +2,13 @@ import React from "react";
 
 import { storiesOf } from "@storybook/react";
 
-import { ModuleBar } from "@deskpro/agent-interface-components";
+import { ModuleBar, ModuleBarMenu } from "@deskpro/agent-interface-components";
 
 const ModuleBarDemo = () => {
   const [activeItem, setActiveItem] = React.useState(null);
+  const [isPortalsMenuVisible, setMenuPortalsVisibility] = React.useState(
+    false
+  );
 
   return (
     <ModuleBar>
@@ -64,7 +67,31 @@ const ModuleBarDemo = () => {
         onClick={() => setActiveItem("billing")}
       />
       <ModuleBar.Separator />
-      <ModuleBar.Item icon="portal" />
+      <ModuleBar.Item
+        icon="portal"
+        onClick={() => setMenuPortalsVisibility(!isPortalsMenuVisible)}
+      >
+        <ModuleBarMenu title="Portals" isVisible={isPortalsMenuVisible}>
+          <ModuleBarMenu.Item
+            icon="plane"
+            title="Raven Paper"
+            subtitle="support.ravenpaper.com"
+            link="http://support.ravenpaper.com"
+          />
+          <ModuleBarMenu.Item
+            icon="plane-orange"
+            title="Raven Paper Crafts"
+            subtitle="support.ravenpapercrafts.com"
+            link="http://support.ravenpapercrafts.com"
+          />
+          <ModuleBarMenu.Item
+            icon="plane-violet"
+            title="RP Europe"
+            subtitle="support.rpeurope.com"
+            link="http://support.rpeurope.com"
+          />
+        </ModuleBarMenu>
+      </ModuleBar.Item>
     </ModuleBar>
   );
 };
