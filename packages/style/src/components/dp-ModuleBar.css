@@ -161,7 +161,7 @@
   display: none;
 }
 
-.dp-ModuleBar-item.is-active,
-.dp-ModuleBar-item .dp-Icon:hover {
+.dp-ModuleBar-item.is-active svg,
+.dp-ModuleBar-item:hover .dp-Icon svg {
   fill: var(--white);
 }
