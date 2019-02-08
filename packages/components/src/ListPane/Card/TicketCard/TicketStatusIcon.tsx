@@ -20,13 +20,6 @@ const badgeColors: DPColor[] = [
   "danger"
 ];
 
-const statusIcons = {
-  awaiting_user: "user",
-  pending: "history",
-  resolved: "approve",
-  hidden: "on-hold"
-};
-
 const TicketStatusIcon: React.FC<TicketStatusIconProps> = ({
   status,
   urgency
