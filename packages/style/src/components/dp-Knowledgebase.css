@@ -24,12 +24,12 @@
   cursor: pointer;
   display: flex;
   font: var(--p-s);
-  padding: 1px 3px;
+  padding: 1px 5px 1px 2px;
 }
 
 .dp-Categories-add .dp-Icon {
   cursor: pointer;
-  padding-right: 5px;
+  margin-right: 2px;
 }
 
 .dp-Categories-add svg {

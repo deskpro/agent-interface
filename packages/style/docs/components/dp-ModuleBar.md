@@ -6,84 +6,88 @@ title: Modulebar/general
 ```html @preview
 <div class="dp-ModulebarContainer">
     <ul class="dp-ModuleBar">
-      <li class="dp-ModuleBar-item">
-        <a class="dp-Icon Icon--email" href="#"></a>
-        <span class="dp-IconTooltip">Tickets</span>
-      </li>
+        <li class="dp-ModuleBar-item">
+            <a class="dp-Icon Icon--email" href="#"></a>
+            <span class="dp-IconTooltip">Tickets</span>
+        </li>
 
-      <li class="dp-ModuleBar-item">
-        <a class="dp-Icon dp-chats" href="#"></a>
-        <span class="dp-IconTooltip">Chats</span>
-      </li>
+        <li class="dp-ModuleBar-item">
+            <a class="dp-Icon dp-chats" href="#"></a>
+            <span class="dp-IconTooltip">Chats</span>
+        </li>
 
-      <li class="dp-ModuleBar-item">
-        <a class="dp-Icon dp-crm" href="#"></a>
-        <span class="dp-IconTooltip">CRM</span>
-      </li>
+        <li class="dp-ModuleBar-item">
+            <a class="dp-Icon dp-crm" href="#"></a>
+            <span class="dp-IconTooltip">CRM</span>
+        </li>
 
-      <li class="dp-ModuleBar-item">
-        <a class="dp-Icon dp-feedback" href="#"></a>
-        <span class="dp-IconTooltip">Feedback</span>
-      </li>
+        <li class="dp-ModuleBar-item">
+            <a class="dp-Icon dp-feedback" href="#"></a>
+            <span class="dp-IconTooltip">Feedback</span>
+        </li>
 
-      <li class="dp-ModuleBar-item">
-        <a class="dp-Icon dp-publish" href="#"></a>
-        <span class="dp-IconTooltip">Publish</span>
-      </li>
+        <li class="dp-ModuleBar-item">
+            <a class="dp-Icon dp-publish" href="#"></a>
+            <span class="dp-IconTooltip">Publish</span>
+        </li>
 
-      <li class="dp-ModuleBar-item">
-        <a class="dp-Icon dp-icontasks" href="#"></a>
-        <span class="dp-IconTooltip">Tasks</span>
-      </li>
+        <li class="dp-ModuleBar-item">
+            <a class="dp-Icon dp-icontasks" href="#"></a>
+            <span class="dp-IconTooltip">Tasks</span>
+        </li>
 
-      <li class="dp-ModuleBar-item">
-        <a class="dp-Icon dp-reports" href="#"></a>
-        <span class="dp-IconTooltip">Reports</span>
-      </li>
+        <li class="dp-ModuleBar-item">
+            <a class="dp-Icon dp-reports" href="#"></a>
+            <span class="dp-IconTooltip">Reports</span>
+        </li>
 
-      <li class="dp-ModuleBar-item">
-        <a class="dp-Icon dp-admin" href="#"></a>
-        <span class="dp-IconTooltip">Admin</span>
-      </li>
+        <li class="dp-ModuleBar-item">
+            <a class="dp-Icon dp-admin" href="#"></a>
+            <span class="dp-IconTooltip">Admin</span>
+        </li>
 
-      <li class="dp-ModuleBar-item">
-        <a class="dp-Icon dp-billing_money" href="#"></a>
-        <span class="dp-IconTooltip">Billing</span>
-      </li>
+        <li class="dp-ModuleBar-item">
+            <a class="dp-Icon dp-billing_money" href="#"></a>
+            <span class="dp-IconTooltip">Billing</span>
+        </li>
 
-      <li class="dp-Separator"></li>
+        <li class="dp-ModuleBar-separator"></li>
 
-      <li class="dp-ModuleBar-item">
-        <a class="dp-Icon dp-portal" href="#"></a>
-
-        <ul class="dp-ModuleBarMenu">
-            <li class="dp-Menu-title"> Portal NEW </li>
-            <li class="dp-Menu-linkItem is-active">
-                <a href="#" class="dp-Icon-Title dp-raven">
-                    <span class="dp-Icon dp-IconPlane"></span>
-                    <span class="dp-TitleLinkItem">Raven Paper
-                        <span class="dp-BuyNow">support.ravenpaper.com</span>
-                    </span>
-                </a>
-            </li>
-            <li class="dp-Menu-linkItem">
-                <a href="#" class="dp-Icon-Title dp-raven">
-                    <span class="dp-Icon dp-IconPlaneOrange"></span> 
-                    <span class="dp-TitleLinkItem">Raven Paper Crafts
-                        <span class="dp-BuyNow">support.ravenpapercrafts.com</span>
-                    </span>
-                </a>
-            </li>
-            <li class="dp-Menu-linkItem">
-                <a href="#" class="dp-Icon-Title dp-raven">
-                    <span class="dp-Icon dp-IconPlaneViolet"></span>
-                    <span class="dp-TitleLinkItem">RP Europe
-                        <span class="dp-BuyNow">support.ravenpaper.com</span>
-                    </span>
-                </a>
-            </li>
-        </ul>
-      </li>
+        <li class="dp-ModuleBar-item">
+            <span class="dp-Icon dp-portal"></span>
+            <div class="dp-ModuleBarMenu">
+                <span class="dp-ModuleBarMenu-title">Portal</span>
+                <ul>
+                    <li class="dp-ModuleBarMenu-item">
+                        <a href="#" class="dp-Icon-Title dp-raven">
+                            <span class="dp-Icon dp-IconPlane"></span>
+                            <span>
+                                <span class="dp-ModuleBarMenu-itemTitle">Raven Paper</span>,
+                                <span class="dp-ModuleBarMenu-itemSubtitle">support.ravenpaper.com</span>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="dp-ModuleBarMenu-item">
+                        <a href="#" class="dp-Icon-Title dp-raven">
+                            <span class="dp-Icon dp-IconPlaneOrange"></span> 
+                            <span>
+                                <span class="dp-ModuleBarMenu-itemTitle">Raven Paper Crafts</span>,
+                                <span class="dp-ModuleBarMenu-itemSubtitle">support.ravenpapercrafts.com</span>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="dp-ModuleBarMenu-item">
+                        <a href="#" class="dp-Icon-Title dp-raven">
+                            <span class="dp-Icon dp-IconPlaneViolet"></span>
+                            <span>
+                                <span class="dp-ModuleBarMenu-itemTitle">RP Europe</span>,
+                                <span class="dp-ModuleBarMenu-itemSubtitle">support.ravenpaper.com</span>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
 
     </ul>
 </div>
@@ -93,82 +97,79 @@ title: Modulebar/general
 ```html @preview
 <div class="dp-ModulebarContainer">
     <ul class="dp-ModuleBar">
-      <li class="dp-ModuleBar-item is-active">
-        <a class="dp-Icon Icon--email" href="#"></a>
-      </li>
+        <li class="dp-ModuleBar-item is-active">
+            <a class="dp-Icon Icon--email" href="#"></a>
+        </li>
 
-      <li class="dp-ModuleBar-item is-active">
-        <a class="dp-Icon dp-chats" href="#"></a>
-      </li>
+        <li class="dp-ModuleBar-item is-active">
+            <a class="dp-Icon dp-chats" href="#"></a>
+        </li>
 
-      <li class="dp-ModuleBar-item is-active">
-        <a class="dp-Icon dp-crm" href="#"></a>
-      </li>
+        <li class="dp-ModuleBar-item is-active">
+            <a class="dp-Icon dp-crm" href="#"></a>
+        </li>
 
-      <li class="dp-ModuleBar-item is-active">
-        <a class="dp-Icon dp-feedback" href="#"></a>
-      </li>
+        <li class="dp-ModuleBar-item is-active">
+            <a class="dp-Icon dp-feedback" href="#"></a>
+        </li>
 
-      <li class="dp-ModuleBar-item is-active">
-        <a class="dp-Icon dp-publish" href="#"></a>
-      </li>
+        <li class="dp-ModuleBar-item is-active">
+            <a class="dp-Icon dp-publish" href="#"></a>
+        </li>
 
-      <li class="dp-ModuleBar-item is-active">
-        <a class="dp-Icon dp-icontasks" href="#"></a>
-      </li>
+        <li class="dp-ModuleBar-item is-active">
+            <a class="dp-Icon dp-icontasks" href="#"></a>
+        </li>
 
-      <li class="dp-ModuleBar-item is-active">
-        <a class="dp-Icon dp-reports" href="#"></a>
-      </li>
+        <li class="dp-ModuleBar-item is-active">
+            <a class="dp-Icon dp-reports" href="#"></a>
+        </li>
 
-      <li class="dp-ModuleBar-item is-active">
-        <a class="dp-Icon dp-admin" href="#"></a>
-      </li>
+        <li class="dp-ModuleBar-item is-active">
+            <a class="dp-Icon dp-admin" href="#"></a>
+        </li>
 
-      <li class="dp-ModuleBar-item is-active">
-        <a class="dp-Icon dp-billing_money" href="#"></a>
-      </li>
+        <li class="dp-ModuleBar-item is-active">
+            <a class="dp-Icon dp-billing_money" href="#"></a>
+        </li>
 
-<!--       <li class="dp-Separator"></li>
+        <li class="dp-ModuleBar-separator"></li>
 
-      <li class="dp-ModuleBar-item dp-integration">
-        <a class="dp-Icon dp-portal" href="#"></a>
-      </li> -->
-
-      <li class="dp-Separator"></li>
-
-      <li class="dp-ModuleBar-item is-active">
-        <a class="dp-Icon dp-portal" href="#"></a>
-
-        <ul class="dp-ModuleBarMenu">
-            <li class="dp-Menu-title"> Portal NEW </li>
-            <li class="dp-Menu-linkItem is-active">
-                <a href="#" class="dp-Icon-Title dp-raven">
-                    <span class="dp-Icon dp-IconPlane"></span>
-                    <span class="dp-TitleLinkItem">Raven Paper
-                        <span class="dp-BuyNow">support.ravenpaper.com</span>
-                    </span>
-                </a>
-            </li>
-            <li class="dp-Menu-linkItem">
-                <a href="#" class="dp-Icon-Title dp-raven">
-                    <span class="dp-Icon dp-IconPlaneOrange"></span> 
-                    <span class="dp-TitleLinkItem">Raven Paper Crafts
-                        <span class="dp-BuyNow">support.ravenpapercrafts.com</span>
-                    </span>
-                </a>
-            </li>
-            <li class="dp-Menu-linkItem">
-                <a href="#" class="dp-Icon-Title dp-raven">
-                    <span class="dp-Icon dp-IconPlaneViolet"></span>
-                    <span class="dp-TitleLinkItem">RP Europe
-                        <span class="dp-BuyNow">support.ravenpaper.com</span>
-                    </span>
-                </a>
-            </li>
-        </ul>
-      </li>
-
+        <li class="dp-ModuleBar-item is-active">
+            <span class="dp-Icon dp-portal"></span>
+            <div class="dp-ModuleBarMenu">
+                <span class="dp-ModuleBarMenu-title">Portal</span>
+                <ul>
+                    <li class="dp-ModuleBarMenu-item">
+                        <a href="#" class="dp-Icon-Title dp-raven">
+                            <span class="dp-Icon dp-IconPlane"></span>
+                            <span>
+                                <span class="dp-ModuleBarMenu-itemTitle">Raven Paper</span>,
+                                <span class="dp-ModuleBarMenu-itemSubtitle">support.ravenpaper.com</span>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="dp-ModuleBarMenu-item">
+                        <a href="#" class="dp-Icon-Title dp-raven">
+                            <span class="dp-Icon dp-IconPlaneOrange"></span> 
+                            <span>
+                                <span class="dp-ModuleBarMenu-itemTitle">Raven Paper Crafts</span>,
+                                <span class="dp-ModuleBarMenu-itemSubtitle">support.ravenpapercrafts.com</span>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="dp-ModuleBarMenu-item">
+                        <a href="#" class="dp-Icon-Title dp-raven">
+                            <span class="dp-Icon dp-IconPlaneViolet"></span>
+                            <span>
+                                <span class="dp-ModuleBarMenu-itemTitle">RP Europe</span>,
+                                <span class="dp-ModuleBarMenu-itemSubtitle">support.ravenpaper.com</span>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
 
     </ul>
 </div>

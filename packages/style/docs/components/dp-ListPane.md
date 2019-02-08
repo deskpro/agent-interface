@@ -30,7 +30,7 @@ title: List View
         </li>
 
         <!-- 1 -->
-        <li class="dp-Card dp-Level ">
+        <li class="dp-Card dp-Level dp-Animate">
             <span class="dp-LevelCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="listpane-tickets-1"></input>
