@@ -154,7 +154,12 @@
 }
 
 .dp-ModuleBar-item .dp-Icon {
+  align-items: center;
   cursor: pointer;
+  display: flex;
+  height: 25px;
+  justify-content: center;
+  width: 25px;
 }
 
 .dp-ModuleBar-item.is-active:hover .dp-ModuleBarMenu {
