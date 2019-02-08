@@ -7,13 +7,11 @@ import "@deskpro/agent-interface-style/dist/components/dp-icons.css";
 
 export type ActivityStatusProps = {
   status: "writing" | "viewing";
-  color: DPColor;
   className?: string;
 };
 
 const ActivityStatus: React.FC<ActivityStatusProps> = ({
   status,
-  color,
   children,
   className
 }) => (
@@ -22,12 +20,12 @@ const ActivityStatus: React.FC<ActivityStatusProps> = ({
       "dp-ActivityStatus",
       `ActivityStatus--${status}`,
       className,
-      { [`ActivityStatus--${color}`]: !!color }
+      { "ActivityStatus--primary": status === "writing" }
     )}
   >
     <Icon
       name={status === "writing" ? "edit" : "view"}
-      color={color}
+      color={status === "writing" ? "primary" : undefined}
       size={15}
     />
     {children}
