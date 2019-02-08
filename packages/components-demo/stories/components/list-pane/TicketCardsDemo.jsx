@@ -127,7 +127,7 @@ export default ({ onCheck }) => (
         />
       </Card.TicketCard>
       <Card.TicketCard
-        cardId={3}
+        cardId={4}
         title="Card title"
         checkable
         onCheck={onCheck}
@@ -158,6 +158,32 @@ export default ({ onCheck }) => (
         }
       >
         Some text
+      </Card.TicketCard>
+      <Card.TicketCard
+        cardId={5}
+        title="Card title (statuses)"
+        checkable
+        onCheck={onCheck}
+        status={
+          <Card.TicketCard.Status
+            icons={
+              <>
+                <Card.TicketCard.StatusIcon status="awaiting_user" />
+                <Card.TicketCard.StatusIcon status="pending" />
+                <Card.TicketCard.StatusIcon status="resolved" />
+                <Card.TicketCard.StatusIcon status="hidden" />
+              </>
+            }
+            lastUpdate="2 mins"
+            nextSlaStatus={{
+              isComplete: true,
+              nextTriggerDate: "Today",
+              status: "fail"
+            }}
+          />
+        }
+      >
+        Status icons for awaiting_user, pending, resolved, hidden
       </Card.TicketCard>
     </Card.List>
   </div>

@@ -40,7 +40,22 @@ const TicketStatusIcon: React.FC<TicketStatusIconProps> = ({
       </Badge>
     );
   }
-  return <Icon name="avatar" size={18} color="grey-dark" title={status} />;
+  switch (status) {
+    case "awaiting_user":
+      return <Icon name="avatar" size={18} color="pink" title={status} />;
+
+    case "pending":
+      return <Icon name="history" size={18} color="purple" title={status} />;
+
+    case "resolved":
+      return <Icon name="approve" size={18} color="success" title={status} />;
+
+    case "hidden":
+      return <Icon name="on-hold" size={18} color="grey" title={status} />;
+
+    default:
+      return null;
+  }
 };
 
 export default TicketStatusIcon;
