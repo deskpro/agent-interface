@@ -38,7 +38,7 @@
 .dp-GuidesDirectory.dp-Knowledgebase .dp-TitleGroupe .dp-Icon {
   border-radius: 0;
   height: 13px;
-  margin-right: 7px;
+  margin: 0 7px;
   width: 15px;
 }
 

@@ -957,7 +957,6 @@ title: Knowledgebase
         <li class="dp-Card">
 
             <span class="dp-TitleGroupe">
-
                 <span class="dp-CustomCheckbox dp-EmptyCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="knowledgebase-1">
                     <label for="knowledgebase-1"></label>
@@ -976,8 +975,13 @@ title: Knowledgebase
 
         <li class="dp-Card">
             <span class="dp-TitleGroupe">
-                <span class="dp-Icon Icon--Agent Icon--primary"></span>
-                <span class="dp-Card-title">Agent Guide</span>
+                <span class="dp-CustomCheckbox dp-EmptyCheckbox">
+                    <input type="checkbox" class="dp-ControlInput" id="knowledgebase-2">
+                    <label for="knowledgebase-2"></label>
+                </span>
+
+                <span class="dp-Icon Icon--folder"></span>
+                <span class="dp-Card-title">Sales, Billing & Legal <span class="dp-qt">(30)</span></span>
             </span>
 
             <!-- Icon rolling -->
@@ -989,8 +993,13 @@ title: Knowledgebase
 
         <li class="dp-Card">
             <span class="dp-TitleGroupe">
-                <span class="dp-Icon Icon--Reports Icon--primary"></span>
-                <span class="dp-Card-title">Reports Guide</span>
+                <span class="dp-CustomCheckbox dp-EmptyCheckbox">
+                    <input type="checkbox" class="dp-ControlInput" id="knowledgebase-3">
+                    <label for="knowledgebase-3"></label>
+                </span>
+
+                <span class="dp-Icon Icon--folder"></span>
+                <span class="dp-Card-title">Using Deskpro <span class="dp-qt">(234)</span></span>
             </span>
 
             <!-- Icon rolling -->
@@ -1002,8 +1011,13 @@ title: Knowledgebase
 
         <li class="dp-Card">
             <span class="dp-TitleGroupe">
-                <span class="dp-Icon Icon--Sysadmin Icon--primary"></span>
-                <span class="dp-Card-title">Sysadmin Guide</span>
+                <span class="dp-CustomCheckbox dp-EmptyCheckbox">
+                    <input type="checkbox" class="dp-ControlInput" id="knowledgebase-4">
+                    <label for="knowledgebase-4"></label>
+                </span>
+
+                <span class="dp-Icon Icon--folder"></span>
+                <span class="dp-Card-title">Guides to getting started <span class="dp-qt">(34)</span></span>
             </span>
 
             <!-- Icon rolling -->

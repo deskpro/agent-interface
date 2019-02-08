@@ -165,7 +165,7 @@
 }
 
 .dp-Card .dp-TagBar .dp-Tag + .dp-Tag {
-  margin-right: 5px;
+  margin-left: 5px;
 }
 
 /* listpane/tasksnew */
