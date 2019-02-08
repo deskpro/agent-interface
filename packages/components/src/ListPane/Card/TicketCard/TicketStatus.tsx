@@ -37,7 +37,7 @@ const TicketStatus: React.FC<TicketStatusProps> = ({
               </Tag>
             )}
             {nextSlaStatus.status === "warning" && (
-              <Tag size="small" color="purple">
+              <Tag size="small" color="pink">
                 {nextSlaStatus.nextTriggerDate}
               </Tag>
             )}

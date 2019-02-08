@@ -7,15 +7,35 @@ export type TicketStatusIconProps = {
   urgency?: number;
 };
 
+const badgeColors: DPColor[] = [
+  "grey",
+  "neutral",
+  "neutral",
+  "neutral",
+  "warning",
+  "warning",
+  "warning",
+  "danger",
+  "danger",
+  "danger"
+];
+
 const TicketStatusIcon: React.FC<TicketStatusIconProps> = ({
   status,
   urgency
 }) => {
   const [mainStatus] = status.split(".");
 
-  if (mainStatus === "awaiting_user") {
+  if (mainStatus === "awaiting_agent") {
     return (
-      <Badge type="round" color="warning">
+      <Badge
+        type="round"
+        color={
+          !!urgency && urgency > 0 && urgency <= badgeColors.length
+            ? badgeColors[urgency - 1]
+            : "grey"
+        }
+      >
         {urgency}
       </Badge>
     );

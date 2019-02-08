@@ -1,6 +1,10 @@
 import React from "react";
 
-import { Card, Icon } from "@deskpro/agent-interface-components";
+import {
+  Card,
+  Icon,
+  ActivityStatus
+} from "@deskpro/agent-interface-components";
 
 export default ({ onCheck }) => (
   <div style={{ maxWidth: "500px" }}>
@@ -15,10 +19,13 @@ export default ({ onCheck }) => (
           <Card.TicketCard.Status
             icons={
               <>
+                <ActivityStatus status="writing">
+                  <Icon name="avatar" size={13} />
+                </ActivityStatus>
                 <Icon name="beetle" circle />
                 <Card.TicketCard.StatusIcon
-                  urgency={5}
-                  status="awaiting_user.announcement"
+                  urgency={1}
+                  status="awaiting_agent.announcement"
                 />
               </>
             }
@@ -48,6 +55,9 @@ export default ({ onCheck }) => (
           <Card.TicketCard.Status
             icons={
               <>
+                <ActivityStatus status="viewing">
+                  <Icon name="avatar" size={13} />
+                </ActivityStatus>
                 <Icon name="on-hold" color="danger" size={18} />
                 <Card.TicketCard.StatusIcon urgency={3} status="pending" />
               </>
@@ -83,6 +93,10 @@ export default ({ onCheck }) => (
                 <Card.TicketCard.StatusIcon
                   urgency={3}
                   status="awaiting_agent"
+                />
+                <Card.TicketCard.StatusIcon
+                  urgency={10}
+                  status="awaiting_agent.announcement"
                 />
               </>
             }
@@ -124,6 +138,14 @@ export default ({ onCheck }) => (
               <>
                 <Icon name="bolt" color="grey-dark" size={18} />
                 <Icon name="info" size={18} />
+                <Card.TicketCard.StatusIcon
+                  urgency={2}
+                  status="awaiting_agent.announcement"
+                />
+                <Card.TicketCard.StatusIcon
+                  urgency={7}
+                  status="awaiting_agent.announcement"
+                />
               </>
             }
             lastUpdate="2 mins"
