@@ -28,6 +28,7 @@
 }
 
 .dp-Categories-add .dp-Icon {
+  cursor: pointer;
   padding-right: 5px;
 }
 
@@ -40,6 +41,18 @@
   height: 13px;
   margin: 0 7px;
   width: 15px;
+}
+
+.dp-GuidesDirectory.dp-Knowledgebase .dp-Card:hover {
+  background-color: inherit;
+}
+
+.dp-GuidesDirectory.dp-Knowledgebase .dp-Card .dp-Card-title {
+  color: var(--brand-primary);
+}
+
+.dp-GuidesDirectory.dp-Knowledgebase .dp-Card:hover .dp-Card-title {
+  text-decoration: underline;
 }
 
 .dp-GuidesDirectory.dp-Knowledgebase .dp-Card:hover .dp-TitleGroupe .dp-Icon,

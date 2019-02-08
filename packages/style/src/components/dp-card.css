@@ -621,3 +621,7 @@
 .dp-Listpane-guides .dp-Card:hover .dp-IconJump {
   display: block;
 }
+
+.dp-Icon.Icon--on-hold svg {
+  border-radius: 50%;
+}

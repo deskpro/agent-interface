@@ -24,7 +24,8 @@
       "components/dp-Orderingbar",
       "components/dp-SettingsCog",
       "components/dp-Tableview",
-      "components/dp-GroupedFields"
+      "components/dp-GroupedFields",
+      "components/dp-Knowledgebase"
     ],
     "Elements": [
       "elements/dp-Icons",
