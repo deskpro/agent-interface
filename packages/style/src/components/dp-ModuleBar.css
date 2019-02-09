@@ -101,6 +101,18 @@
   padding: 10px;
 }
 
+.dp-ModuleBarMenu-item a {
+  align-items: center;
+  color: var(--grey);
+  display: flex;
+  font: var(--p-s);
+  text-decoration: none;
+}
+
+.dp-ModuleBarMenu .dp-ModuleBarMenu-item:hover a {
+  color: var(--brand-primary);
+}
+
 .dp-ModuleBarMenu .dp-ModuleBarMenu-item:last-child {
   border-bottom: 0;
 }
