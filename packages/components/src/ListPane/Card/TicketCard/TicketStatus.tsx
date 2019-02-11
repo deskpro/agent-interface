@@ -1,4 +1,6 @@
 import * as React from "react";
+import { distanceInWordsToNow } from "date-fns";
+
 import IconGroup from "../../../elements/Icon/IconGroup";
 import Icon from "../../../elements/Icon/Icon";
 import Tag from "../../../elements/Badges/Tag";
@@ -33,12 +35,14 @@ const TicketStatus: React.FC<TicketStatusProps> = ({
           <>
             {nextSlaStatus.status === "ok" && (
               <Tag size="small" color="grey">
-                {nextSlaStatus.nextTriggerDate}
+                {nextSlaStatus.nextTriggerDate &&
+                  distanceInWordsToNow(nextSlaStatus.nextTriggerDate)}
               </Tag>
             )}
             {nextSlaStatus.status === "warning" && (
               <Tag size="small" color="pink">
-                {nextSlaStatus.nextTriggerDate}
+                {nextSlaStatus.nextTriggerDate &&
+                  distanceInWordsToNow(nextSlaStatus.nextTriggerDate)}
               </Tag>
             )}
             {nextSlaStatus.status === "fail" && (
@@ -48,7 +52,7 @@ const TicketStatus: React.FC<TicketStatusProps> = ({
             )}
           </>
         ) : (
-          lastUpdate
+          lastUpdate && distanceInWordsToNow(lastUpdate)
         )}
       </span>
     )}

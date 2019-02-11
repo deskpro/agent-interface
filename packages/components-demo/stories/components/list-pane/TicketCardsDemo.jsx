@@ -1,4 +1,6 @@
 import React from "react";
+import { addHours, addMinutes, subMinutes, subHours } from "date-fns";
+import Avatar from "react-avatar";
 
 import {
   Card,
@@ -20,7 +22,12 @@ export default ({ onCheck }) => (
             icons={
               <>
                 <ActivityStatus status="writing">
-                  <Icon name="avatar" size={13} />
+                  <Avatar
+                    email="berdartem@gmail.com"
+                    name="Artem Berdyshev"
+                    size={13}
+                    round
+                  />
                 </ActivityStatus>
                 <Icon name="beetle" circle />
                 <Card.TicketCard.StatusIcon
@@ -29,10 +36,10 @@ export default ({ onCheck }) => (
                 />
               </>
             }
-            lastUpdate="2 mins"
+            lastUpdate={subMinutes(new Date(), 22)}
             nextSlaStatus={{
               isComplete: false,
-              nextTriggerDate: "2 hours",
+              nextTriggerDate: addHours(addMinutes(new Date(), 14), 2),
               status: "ok"
             }}
           />
@@ -56,7 +63,18 @@ export default ({ onCheck }) => (
             icons={
               <>
                 <ActivityStatus status="viewing">
-                  <Icon name="avatar" size={13} />
+                  <Avatar
+                    email="chris.nadeau@deskpro.com"
+                    name="Chris Nadeau"
+                    size={13}
+                    round
+                  />
+                  <Avatar
+                    email="artem.berdyshev@deskpro.com"
+                    name="Artem Berdyshev"
+                    size={13}
+                    round
+                  />
                 </ActivityStatus>
                 <Icon name="on-hold" color="danger" size={18} />
                 <Card.TicketCard.StatusIcon urgency={3} status="pending" />
@@ -65,7 +83,7 @@ export default ({ onCheck }) => (
             lastUpdate="2 mins"
             nextSlaStatus={{
               isComplete: false,
-              nextTriggerDate: "Today",
+              nextTriggerDate: addMinutes(new Date(), 14),
               status: "warning"
             }}
           />
@@ -148,7 +166,7 @@ export default ({ onCheck }) => (
                 />
               </>
             }
-            lastUpdate="2 mins"
+            lastUpdate={subMinutes(new Date(), 22)}
             nextSlaStatus={{
               isComplete: true,
               nextTriggerDate: "Today",
@@ -174,7 +192,7 @@ export default ({ onCheck }) => (
                 <Card.TicketCard.StatusIcon status="hidden" />
               </>
             }
-            lastUpdate="2 mins"
+            lastUpdate={subHours(subMinutes(new Date(), 22), 2)}
             nextSlaStatus={{
               isComplete: true,
               nextTriggerDate: "Today",

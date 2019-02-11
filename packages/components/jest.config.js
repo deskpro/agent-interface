@@ -9,7 +9,8 @@ module.exports = {
   moduleFileExtensions: ["js", "jsx", "ts", "tsx"],
   moduleNameMapper: { "\\.css$": "<rootDir>/__mocks__/stylesMock.js" },
   transform: {
-    "^.+\\.tsx?$": "ts-jest"
+    "^.+\\.tsx?$": "ts-jest",
+    "^.+\\.svg$": "jest-svg-transformer"
   },
   testMatch: [join(__dirname, "src/**/*.test.{js,jsx,ts,tsx}")]
 };

@@ -17,7 +17,12 @@ import Bolt from "../../../icons/Bolt.svg";
 import Calendar from "../../../icons/Calendar.svg";
 import CalendarSimple from "../../../icons/CalendarSimple.svg";
 import Caret from "../../../icons/Caret.svg";
-import CaretFilled from "../../../icons/CaretFilled.svg";
+import CaretDown from "../../../icons/CaretDown.svg";
+import CaretLeft from "../../../icons/CaretLeft.svg";
+import CaretUp from "../../../icons/CaretUp.svg";
+import CaretRight from "../../../icons/CaretRight.svg";
+import CaretFilledDown from "../../../icons/CaretFilledDown.svg";
+import CaretFilledUp from "../../../icons/CaretFilledUp.svg";
 import Chat from "../../../icons/Chat.svg";
 import Close from "../../../icons/Close.svg";
 import Cloud from "../../../icons/Cloud.svg";
@@ -65,6 +70,7 @@ import Notifications from "../../../icons/Notifications.svg";
 import OnHold from "../../../icons/Onhold.svg";
 import Organisation from "../../../icons/Organisation.svg";
 import Owner from "../../../icons/Owner.svg";
+import Pending from "../../../icons/Pending.svg";
 import Phone from "../../../icons/Phone.svg";
 import PhoneFilled from "../../../icons/PhoneFilled.svg";
 import Play from "../../../icons/Play.svg";
@@ -96,6 +102,7 @@ import Transfer from "../../../icons/Transfer.svg";
 import TypeSize from "../../../icons/TypeSize.svg";
 import Unlock from "../../../icons/Unlock.svg";
 import User from "../../../icons/User.svg";
+import UserAwaiting from "../../../icons/UserAwaiting.svg";
 import View from "../../../icons/View.svg";
 import Visibility from "../../../icons/Visibility.svg";
 import Voice from "../../../icons/Voice.svg";
@@ -122,7 +129,12 @@ export default {
   calendar: Calendar,
   "calendar-simple": CalendarSimple,
   caret: Caret,
-  "caret-filled": CaretFilled,
+  "caret-down": CaretDown,
+  "caret-left": CaretLeft,
+  "caret-up": CaretUp,
+  "caret-right": CaretRight,
+  "caret-filled-down": CaretFilledDown,
+  "caret-filled-up": CaretFilledUp,
   chat: Chat,
   close: Close,
   cloud: Cloud,
@@ -170,6 +182,7 @@ export default {
   "on-hold": OnHold,
   organisation: Organisation,
   owner: Owner,
+  pending: Pending,
   phone: Phone,
   "phone-filled": PhoneFilled,
   play: Play,
@@ -201,6 +214,7 @@ export default {
   "type-size": TypeSize,
   unlock: Unlock,
   user: User,
+  "user-awaiting": UserAwaiting,
   view: View,
   visibility: Visibility,
   voice: Voice,
