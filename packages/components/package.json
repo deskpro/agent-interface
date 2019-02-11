@@ -24,6 +24,7 @@
     "eslint": "^5.9.0",
     "jest": "^23.6.0",
     "jest-dom": "^3.0.0",
+    "jest-svg-transformer": "^1.0.0",
     "postcss-autoreset": "^2.0.2",
     "react-testing-library": "^5.5.3",
     "rimraf": "^2.6.2",
