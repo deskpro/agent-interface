@@ -78,3 +78,10 @@
   top: -2px;
   width: 4px;
 }
+
+.dp-ActivityStatus .sb-avatar {
+  align-items: center;
+  display: flex;
+  margin-left: 2px;
+  margin-right: 2px;
+}

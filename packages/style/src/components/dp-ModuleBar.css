@@ -23,9 +23,9 @@
   margin: 0 auto 10px;
 }
 
-.dp-ModuleBar-item.is-active > .dp-Icon {
+/* .dp-ModuleBar-item.is-active > .dp-Icon {
   display: none;
-}
+} */
 
 .dp-ModuleBar .dp-ModuleBar-item {
   border-radius: 50%;
@@ -109,7 +109,8 @@
   text-decoration: none;
 }
 
-.dp-ModuleBarMenu .dp-ModuleBarMenu-item:hover a {
+.dp-ModuleBarMenu .dp-ModuleBarMenu-item:hover a,
+.dp-ModuleBarMenu .dp-ModuleBarMenu-item:hover .dp-ModuleBarMenu-itemTitle {
   color: var(--brand-primary);
 }
 
@@ -126,15 +127,23 @@
   font: var(--p-s);
 }
 
+.dp-ModuleBarMenu-itemTitle {
+  color: var(--grey);
+  display: flex;
+  font: var(--p-s);
+}
+
 .dp-raven .dp-BuyNow {
   font: var(--l-n);
 }
 
-.dp-ModuleBarMenu .dp-ModuleBarMenu-item:hover, .dp-ModuleBarMenu .dp-ModuleBarMenu-item.is-active {
+.dp-ModuleBarMenu .dp-ModuleBarMenu-item:hover,
+.dp-ModuleBarMenu .dp-ModuleBarMenu-item.is-active {
   background-color: var(--primary-light);
 }
 
-.dp-ModuleBarMenu .dp-ModuleBarMenu-item:hover .dp-raven, .dp-ModuleBarMenu .dp-ModuleBarMenu-item.is-active .dp-raven {
+.dp-ModuleBarMenu .dp-ModuleBarMenu-item:hover .dp-raven,
+.dp-ModuleBarMenu .dp-ModuleBarMenu-item.is-active .dp-raven {
   color: var(--brand-primary);
 }
 

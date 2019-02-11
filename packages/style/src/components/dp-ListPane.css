@@ -947,31 +947,14 @@ input:disabled + label {
 
 /* new animate */
 
-/* .dp-Card.dp-Animate {
-  border: 0;
-  height: 0;
-  padding: 0;
-} */
+.dp-CardList .dp-Card {
 
-@keyframes anim {
-
-  from {
-
-    /* opacity: 0; */
-    transform: translateY(-100%);
-  }
-
-  to {
-
-    /* opacity: 1; */
-    transform: translateY(0);
-  }
+  /* height: 63.09px; */
+  height: 100%;
+  transition: 0.5s;
 }
 
-/* .dp-Card.dp-Animate { */
-
-.dp-Card.dp-Animate:hover {
-  animation: anim 0.5s;
+.dp-CardList .dp-Card.dp-Animate {
   border: 0;
   height: 0;
   padding: 0;

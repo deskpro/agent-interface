@@ -62,7 +62,7 @@ title: Modulebar/general
                         <a href="#" class="dp-Icon-Title dp-raven">
                             <span class="dp-Icon dp-IconPlane"></span>
                             <span>
-                                <span class="dp-ModuleBarMenu-itemTitle">Raven Paper</span>,
+                                <span class="dp-ModuleBarMenu-itemTitle">Raven Paper,</span>
                                 <span class="dp-ModuleBarMenu-itemSubtitle">support.ravenpaper.com</span>
                             </span>
                         </a>
@@ -71,7 +71,7 @@ title: Modulebar/general
                         <a href="#" class="dp-Icon-Title dp-raven">
                             <span class="dp-Icon dp-IconPlaneOrange"></span> 
                             <span>
-                                <span class="dp-ModuleBarMenu-itemTitle">Raven Paper Crafts</span>,
+                                <span class="dp-ModuleBarMenu-itemTitle">Raven Paper Crafts,</span>
                                 <span class="dp-ModuleBarMenu-itemSubtitle">support.ravenpapercrafts.com</span>
                             </span>
                         </a>
@@ -80,7 +80,7 @@ title: Modulebar/general
                         <a href="#" class="dp-Icon-Title dp-raven">
                             <span class="dp-Icon dp-IconPlaneViolet"></span>
                             <span>
-                                <span class="dp-ModuleBarMenu-itemTitle">RP Europe</span>,
+                                <span class="dp-ModuleBarMenu-itemTitle">RP Europe,</span>
                                 <span class="dp-ModuleBarMenu-itemSubtitle">support.ravenpaper.com</span>
                             </span>
                         </a>
