@@ -42,10 +42,12 @@ const TicketStatusIcon: React.FC<TicketStatusIconProps> = ({
   }
   switch (status) {
     case "awaiting_user":
-      return <Icon name="avatar" size={18} color="pink" title={status} />;
+      return (
+        <Icon name="user-awaiting" size={18} color="pink" title={status} />
+      );
 
     case "pending":
-      return <Icon name="history" size={18} color="purple" title={status} />;
+      return <Icon name="pending" size={18} color="purple" title={status} />;
 
     case "resolved":
       return <Icon name="approve" size={18} color="success" title={status} />;
