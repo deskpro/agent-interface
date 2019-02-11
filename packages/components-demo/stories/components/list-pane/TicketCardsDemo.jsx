@@ -1,4 +1,5 @@
 import React from "react";
+import { addHours, addMinutes, subMinutes, subHours } from "date-fns";
 
 import {
   Card,
@@ -29,10 +30,10 @@ export default ({ onCheck }) => (
                 />
               </>
             }
-            lastUpdate="2 mins"
+            lastUpdate={subMinutes(new Date(), 22)}
             nextSlaStatus={{
               isComplete: false,
-              nextTriggerDate: "2 hours",
+              nextTriggerDate: addHours(addMinutes(new Date(), 14), 2),
               status: "ok"
             }}
           />
@@ -65,7 +66,7 @@ export default ({ onCheck }) => (
             lastUpdate="2 mins"
             nextSlaStatus={{
               isComplete: false,
-              nextTriggerDate: "Today",
+              nextTriggerDate: addMinutes(new Date(), 14),
               status: "warning"
             }}
           />
@@ -148,7 +149,7 @@ export default ({ onCheck }) => (
                 />
               </>
             }
-            lastUpdate="2 mins"
+            lastUpdate={subMinutes(new Date(), 22)}
             nextSlaStatus={{
               isComplete: true,
               nextTriggerDate: "Today",
@@ -174,7 +175,7 @@ export default ({ onCheck }) => (
                 <Card.TicketCard.StatusIcon status="hidden" />
               </>
             }
-            lastUpdate="2 mins"
+            lastUpdate={subHours(subMinutes(new Date(), 22), 2)}
             nextSlaStatus={{
               isComplete: true,
               nextTriggerDate: "Today",

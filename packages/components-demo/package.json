@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@deskpro/agent-interface-components": "^0.0.1",
+    "date-fns": "^1.30.1",
     "immer": "^1.12.1",
     "react": "^16.8",
     "react-dom": "^16.8"
