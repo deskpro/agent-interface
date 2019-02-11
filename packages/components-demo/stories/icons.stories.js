@@ -90,8 +90,28 @@ storiesOf("Elements", module).add("Icons", () => (
         <pre className="dp-IconTitle">caret</pre>
       </span>
       <span className="dp-IconWrapper">
-        <Icon name="caret-filled" />
-        <pre className="dp-IconTitle">caret-filled</pre>
+        <Icon name="caret-down" />
+        <pre className="dp-IconTitle">caret-down</pre>
+      </span>
+      <span className="dp-IconWrapper">
+        <Icon name="caret-left" />
+        <pre className="dp-IconTitle">caret-left</pre>
+      </span>
+      <span className="dp-IconWrapper">
+        <Icon name="caret-up" />
+        <pre className="dp-IconTitle">caret-up</pre>
+      </span>
+      <span className="dp-IconWrapper">
+        <Icon name="caret-right" />
+        <pre className="dp-IconTitle">caret-right</pre>
+      </span>
+      <span className="dp-IconWrapper">
+        <Icon name="caret-filled-down" />
+        <pre className="dp-IconTitle">caret-filled-down</pre>
+      </span>
+      <span className="dp-IconWrapper">
+        <Icon name="caret-filled-up" />
+        <pre className="dp-IconTitle">caret-filled-up</pre>
       </span>
       <span className="dp-IconWrapper">
         <Icon name="chat" />
@@ -286,6 +306,10 @@ storiesOf("Elements", module).add("Icons", () => (
         <pre className="dp-IconTitle">owner</pre>
       </span>
       <span className="dp-IconWrapper">
+        <Icon name="pending" />
+        <pre className="dp-IconTitle">pending</pre>
+      </span>
+      <span className="dp-IconWrapper">
         <Icon name="phone" />
         <pre className="dp-IconTitle">phone</pre>
       </span>
@@ -416,6 +440,14 @@ storiesOf("Elements", module).add("Icons", () => (
       <span className="dp-IconWrapper">
         <Icon name="user" />
         <pre className="dp-IconTitle">user</pre>
+      </span>
+      <span className="dp-IconWrapper">
+        <Icon name="user-awaiting" />
+        <pre className="dp-IconTitle">user-awaiting</pre>
+      </span>
+      <span className="dp-IconWrapper">
+        <Icon name="user-awaiting" color="primary" />
+        <pre className="dp-IconTitle">user-awaiting</pre>
       </span>
       <span className="dp-IconWrapper">
         <Icon name="view" />
