@@ -1,5 +1,6 @@
 import React from "react";
 import { addHours, addMinutes, subMinutes, subHours } from "date-fns";
+import Avatar from "react-avatar";
 
 import {
   Card,
@@ -21,7 +22,12 @@ export default ({ onCheck }) => (
             icons={
               <>
                 <ActivityStatus status="writing">
-                  <Icon name="avatar" size={13} />
+                  <Avatar
+                    email="berdartem@gmail.com"
+                    name="Artem Berdyshev"
+                    size={13}
+                    round
+                  />
                 </ActivityStatus>
                 <Icon name="beetle" circle />
                 <Card.TicketCard.StatusIcon
@@ -57,7 +63,18 @@ export default ({ onCheck }) => (
             icons={
               <>
                 <ActivityStatus status="viewing">
-                  <Icon name="avatar" size={13} />
+                  <Avatar
+                    email="chris.nadeau@deskpro.com"
+                    name="Chris Nadeau"
+                    size={13}
+                    round
+                  />
+                  <Avatar
+                    email="artem.berdyshev@deskpro.com"
+                    name="Artem Berdyshev"
+                    size={13}
+                    round
+                  />
                 </ActivityStatus>
                 <Icon name="on-hold" color="danger" size={18} />
                 <Card.TicketCard.StatusIcon urgency={3} status="pending" />
