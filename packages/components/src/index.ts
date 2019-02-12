@@ -24,6 +24,8 @@ export {
 
 export { default as Tabs } from "./elements/Tabs/Tabs";
 export { default as Menu } from "./elements/Menu/Menu";
+export { default as ContextMenuArea } from "./elements/Menu/ContextMenuArea";
+export { ContextMenuProvider } from "./elements/Menu/MenuContext";
 export { default as Header } from "./elements/Header/Header";
 export { default as ModuleBar } from "./elements/ModuleBar/ModuleBar";
 export { default as ModuleBarMenu } from "./elements/ModuleBar/ModuleBarMenu";
