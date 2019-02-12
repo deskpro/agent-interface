@@ -16,7 +16,7 @@ title: List View
 
 ```html @preview
 <form>
-    <ul class="dp-CardList is-hoverable">
+    <ul class="dp-CardList is-hoverable dp-Show-Hide">
         
         <li class="dp-Card dp-Level dp-Card-SectionTitle">
             <span class="dp-LevelCol">
@@ -27,43 +27,6 @@ title: List View
             </span>
 
             <span>Sales</span>
-        </li>
-
-        <!-- 1 -->
-        <li class="dp-Card dp-Level dp-Animate">
-            <span class="dp-LevelCol">
-                <span class="dp-CustomCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="listpane-tickets-1"></input>
-                    <label for="listpane-tickets-1"></label>
-                </span>
-            </span>
-
-            <span class="dp-LevelCol">
-                <span class="dp-Title Title-Icon">
-                    <span class="dp-Card-title">SSO Information</span>
-                    <span class="dp-Icon Icon--star"></span>
-                </span>
-                <span class="dp-UserInfo">
-                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-UserName">Kenneth James
-                    </span>
-                    <a href="mailto:kenneth@windfarms.com" class="dp-UserEmail">
-                        &lt;kenneth@windfarms.com&gt;
-                    </a>
-                </span>
-            </span>
-
-            <span class="dp-LevelCol dp-LevelRight Level-justify-between">
-                <span class="dp-IconGroup">
-
-                    <span class="Icon--circle dp-iconBug"></span>
-                    <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
-                    <span class="dp-Icon Icon--clock Icon--primary"></span>
-                </span>
-                <span class="dp-TimeStatus">
-                    <span class="dp-Tag Tag--small Tag--danger">Failed</span>
-                </span>
-            </span>
         </li>
 
         <!-- 1 -->
@@ -107,6 +70,42 @@ title: List View
         </li> -->
 
 
+        <!-- 1 -->
+        <li class="dp-Card dp-Level dp-Leaving">
+            <span class="dp-LevelCol">
+                <span class="dp-CustomCheckbox">
+                    <input type="checkbox" class="dp-ControlInput" id="listpane-tickets-1"></input>
+                    <label for="listpane-tickets-1"></label>
+                </span>
+            </span>
+
+            <span class="dp-LevelCol">
+                <span class="dp-Title Title-Icon">
+                    <span class="dp-Card-title">SSO Information</span>
+                    <span class="dp-Icon Icon--star"></span>
+                </span>
+                <span class="dp-UserInfo">
+                    <span class="dp-Icon dp-iconUserAvatar"></span>
+                    <span class="dp-UserName">Kenneth James
+                    </span>
+                    <a href="mailto:kenneth@windfarms.com" class="dp-UserEmail">
+                        &lt;kenneth@windfarms.com&gt;
+                    </a>
+                </span>
+            </span>
+
+            <span class="dp-LevelCol dp-LevelRight Level-justify-between">
+                <span class="dp-IconGroup">
+
+                    <span class="Icon--circle dp-iconBug"></span>
+                    <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
+                    <span class="dp-Icon Icon--clock Icon--primary"></span>
+                </span>
+                <span class="dp-TimeStatus">
+                    <span class="dp-Tag Tag--small Tag--danger">Failed</span>
+                </span>
+            </span>
+        </li>
 
         <!-- 2 -->
         <li class="dp-Card dp-Level">

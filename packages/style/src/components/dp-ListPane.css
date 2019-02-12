@@ -947,15 +947,25 @@ input:disabled + label {
 
 /* new animate */
 
-.dp-CardList .dp-Card {
-
-  /* height: 63.09px; */
+.dp-Show-Hide .dp-Card {
   height: 100%;
   transition: 0.5s;
 }
 
-.dp-CardList .dp-Card.dp-Animate {
+.dp-Show-Hide .dp-Card.dp-Leaving {
+  background-color: var(--grey-lighter);
   border: 0;
+  filter: grayscale(100%);
   height: 0;
   padding: 0;
+}
+
+.dp-Card.dp-Leaving .dp-Card-title,
+.dp-Card.dp-Leaving .dp-UserName {
+  color: var(--grey);
+}
+
+.dp-Show-Hide .dp-Card.dp-Entering {
+  background-color: var(--grey-lighter);
+  height: 100%;
 }

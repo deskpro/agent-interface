@@ -115,14 +115,15 @@
   border: 0;
 }
 
-.dp-TicketMenuItem .dp-Arrow::after {
-  border-width: 3px 3px 0 3px;
-  right: 0;
-}
-
 .dp-TicketMenuItem.is-active .dp-Arrow::after {
   border-color: transparent transparent var(--black) transparent;
   border-width: 0 3px 3px 3px;
+}
+
+.dp-TicketMenuItem .dp-Arrow::after {
+  border-color: var(--black) transparent transparent transparent;
+  border-width: 3px 3px 0 3px;
+  right: 0;
 }
 
 .dp-SubMenu {
