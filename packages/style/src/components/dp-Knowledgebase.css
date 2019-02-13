@@ -177,7 +177,9 @@
 }
 
 .dp-Knowledgebase .dp-Menu .dp-Menu-linkItem > .dp-Icon {
+  background-size: 12px;
   display: none;
+  margin: 0;
   position: relative;
 }
 
