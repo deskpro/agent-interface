@@ -307,7 +307,6 @@ title: List View
 
             <span class="dp-LevelCol dp-LevelRight Level-justify-between">
                 <span class="dp-IconGroup">
-
                     <span class="Icon--circle dp-iconBug"></span>
                     <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
                     <span class="dp-Icon Icon--clock Icon--primary"></span>

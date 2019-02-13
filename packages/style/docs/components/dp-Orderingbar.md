@@ -5089,7 +5089,6 @@ title: Orderingbar
 </div>
 ```
 
-
 <!-- 4 - Faceting -->
 
 <h4>Listpane/orderingbar-facet</h4>
@@ -5119,14 +5118,17 @@ title: Orderingbar
             <ul class="dp-Menu Menu-tick Menu-grouped">
                 <li class="dp-Menu-linkItem is-active">
                     <a href="" class="dp-listItem">Department (DSC)<span class="dp-Icon dp-settings"></span></a>
-                    <ul class="dp-Menu Menu-tick">
+<!--                     <ul class="dp-Menu Menu-tick">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Ascending</a>
                         </li>
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Descending</a>
                         </li>
-                    </ul>
+                    </ul> -->
+
+
+                    
                 </li>
                 <li class="dp-Menu-linkItem">
                     <a href="" class="dp-listItem">Product<span class="dp-Icon dp-settings"></span></a>
