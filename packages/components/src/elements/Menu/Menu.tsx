@@ -1,12 +1,15 @@
 import * as React from "react";
 import classNames from "classnames";
 
-import "@deskpro/agent-interface-style/dist/components/dp-menus.css";
 import MenuItem from "./MenuItem";
 import MenuSearchItem from "./MenuSearch";
 import { MenuContext } from "./MenuContext";
-import useOutsideClick from "../../hooks/useOutsideClick";
 import Portal from "../../common/Portal/Portal";
+
+import useOutsideClick from "../../hooks/useOutsideClick";
+import useWindowSize from "../../hooks/useWindowSize";
+
+import "@deskpro/agent-interface-style/dist/components/dp-menus.css";
 
 type MenuSubComponents = {
   MenuItem: typeof MenuItem;
@@ -36,10 +39,38 @@ const Menu: React.FC<MenuProps> & MenuSubComponents = ({
   isVisible = false,
   ...otherProps
 }) => {
-  const { visibleMenu, position, hide } = React.useContext(MenuContext);
-  const menuRef = React.useRef(null);
+  const { visibleMenu, position, hide, updatePosition } = React.useContext(
+    MenuContext
+  );
 
-  useOutsideClick(menuRef, () => hide(menuId));
+  const windowSize = useWindowSize();
+  const menuRef = React.useRef<HTMLUListElement>(null);
+
+  useOutsideClick(menuRef, hide);
+
+  React.useEffect(
+    () => {
+      if (menuRef.current instanceof HTMLUListElement) {
+        const { width: windowWidth, height: windowHeight } = windowSize;
+        let { x, y } = position;
+        const {
+          offsetWidth: menuWidth,
+          offsetHeight: menuHeight
+        } = menuRef.current;
+
+        if (windowWidth && x + menuWidth > windowWidth) {
+          x -= x + menuWidth - windowWidth;
+        }
+
+        if (windowHeight && y + menuHeight > windowHeight) {
+          y -= y + menuHeight - windowHeight;
+        }
+
+        updatePosition({ x, y });
+      }
+    },
+    [menuRef.current, windowSize]
+  );
 
   return (
     <Portal>

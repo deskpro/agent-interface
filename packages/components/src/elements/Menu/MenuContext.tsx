@@ -1,21 +1,25 @@
 import * as React from "react";
 import produce from "immer";
 
+type Position = { x: number; y: number };
+
 export type MenuContextType = {
   visibleMenu: string | null;
-  position: { x: number; y: number };
+  position: Position;
   show: (
     e: React.SyntheticEvent,
     args: { menuId: string; menuType?: "context" | "dropdown" | "simple" }
   ) => void;
-  hide: (menuId: string) => void;
+  hide: () => void;
+  updatePosition: (position: Position) => void;
 };
 
 export const MenuContext = React.createContext<MenuContextType>({
   visibleMenu: null,
   position: { x: 0, y: 0 },
   show: () => {},
-  hide: () => {}
+  hide: () => {},
+  updatePosition: () => {}
 });
 
 /* eslint-disable no-param-reassign */
@@ -51,12 +55,13 @@ const menuReducer = produce((state: MenuContextType, { type, payload }) => {
       break;
     }
 
-    case "hide": {
-      if (state.visibleMenu === payload.menuId) {
-        state.visibleMenu = null;
-      }
+    case "hide":
+      state.visibleMenu = null;
       break;
-    }
+
+    case "updatePosition":
+      state.position = payload;
+      break;
 
     default:
       break;
@@ -74,8 +79,11 @@ export const ContextMenuProvider: React.FC = ({ children }) => {
       }
       dispatch({ type: "show", payload: { e, ...args } });
     },
-    hide: menuId => {
-      dispatch({ type: "hide", payload: { menuId } });
+    hide: () => {
+      dispatch({ type: "hide" });
+    },
+    updatePosition: position => {
+      dispatch({ type: "updatePosition", payload: position });
     }
   });
 
