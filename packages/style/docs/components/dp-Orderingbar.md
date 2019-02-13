@@ -7,7 +7,7 @@ title: Orderingbar
 <h4>Listpane/orderingbar</h4>
 ```html @preview
 
-<div class="demo-ControlsList">
+<div class="demo-ControlsList demo-cog demo-menu">
     <ul class="dp-FilterControlsList newControlsList dp-orderingbar">
         <li class="dp-ListPane">
             <span class="dp-CustomCheckbox dp-EmptyCheckbox">
@@ -1702,7 +1702,7 @@ title: Orderingbar
 
 <h4>Listpane/orderingbar-group</h4>
 ```html @preview
-<div class="demo-ControlsList">
+<div class="demo-ControlsList demo-cog demo-menu">
 
     <ul class="dp-FilterControlsList newControlsList dp-orderingbar">
         <li class="dp-ListPane">
@@ -3397,7 +3397,7 @@ title: Orderingbar
 
 <h4>Listpane/orderingbar-sort-asc/dsc</h4>
 ```html @preview
-<div class="demo-ControlsList">
+<div class="demo-ControlsList demo-cog demo-menu">
 
     <ul class="dp-FilterControlsList newControlsList dp-orderingbar">
         <li class="dp-ListPane">
@@ -5093,7 +5093,7 @@ title: Orderingbar
 
 <h4>Listpane/orderingbar-facet</h4>
 ```html @preview
-<div class="demo-ControlsList">
+<div class="demo-ControlsList demo-cog demo-menu">
 
     <ul class="dp-FilterControlsList newControlsList dp-orderingbar">
         <li class="dp-ListPane">
@@ -5118,17 +5118,6 @@ title: Orderingbar
             <ul class="dp-Menu Menu-tick Menu-grouped">
                 <li class="dp-Menu-linkItem is-active">
                     <a href="" class="dp-listItem">Department (DSC)<span class="dp-Icon dp-settings"></span></a>
-<!--                     <ul class="dp-Menu Menu-tick">
-                        <li class="dp-Menu-linkItem">
-                            <a href="#" class="dp-listItem">Ascending</a>
-                        </li>
-                        <li class="dp-Menu-linkItem">
-                            <a href="#" class="dp-listItem">Descending</a>
-                        </li>
-                    </ul> -->
-
-
-                    
                 </li>
                 <li class="dp-Menu-linkItem">
                     <a href="" class="dp-listItem">Product<span class="dp-Icon dp-settings"></span></a>
@@ -6793,7 +6782,7 @@ title: Orderingbar
 
 <h4>Listpane/orderingbar-fields</h4>
 ```html @preview
-<div class="demo-FieldsList">
+<div class="demo-FieldsList demo-cog demo-menu">
 
     <ul class="dp-FilterControlsList newControlsList dp-orderingbar">
         <li class="dp-ListPane">
@@ -8491,7 +8480,7 @@ title: Orderingbar
 
 <h4>Listpane/orderingbar-fields-extra</h4>
 ```html @preview
-<div class="demo-FieldsList">
+<div class="demo-FieldsList demo-cog demo-menu">
 
     <ul class="dp-FilterControlsList newControlsList dp-orderingbar">
         <li class="dp-ListPane">
@@ -10189,7 +10178,7 @@ title: Orderingbar
 <h4>Listpane/orderingbar-disabled</h4>
 ```html @preview
 
-<ul disabled class="dp-FilterControlsList newControlsList dp-orderingbar">
+<ul disabled class="dp-FilterControlsList newControlsList dp-orderingbar demo-cog demo-menu">
     <li class="dp-ListPane">
         <span class="dp-CustomCheckbox dp-EmptyCheckbox">
             <input type="checkbox" class="dp-ControlInput" id="ordering-7"></input>

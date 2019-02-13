@@ -3,7 +3,7 @@ title: Slide-Out Panel
 ---
 
 ```html @preview
-<div class="dp-MainWrapper">
+<div class="dp-MainWrapper demo-cog demo-menu">
     <div class="dp-SlideOutPanel">
         <div class="dp-PageSidebar">
 
@@ -73,7 +73,7 @@ title: Slide-Out Panel
 ```
 
 ```html @preview
-<div class="dp-MainWrapper">
+<div class="dp-MainWrapper demo-cog demo-menu">
     <div class="dp-SlideOutPanel">
         <div class="dp-PageSidebar">
 
@@ -321,7 +321,7 @@ title: Slide-Out Panel
 ```
 
 ```html @preview
-<div class="dp-MainWrapper">
+<div class="dp-MainWrapper demo-cog demo-menu">
     <div class="dp-SlideOutPanel">
         <div class="dp-PageSidebar">
 
@@ -455,7 +455,7 @@ title: Slide-Out Panel
 ```
 
 ```html @preview
-<div class="dp-MainWrapper">
+<div class="dp-MainWrapper demo-cog demo-menu">
     <div class="dp-SlideOutPanel dp-WarningContainer">
         <div class="dp-PageSidebar">
 
@@ -488,7 +488,7 @@ title: Slide-Out Panel
 ```
 
 ```html @preview
-<div class="dp-MainWrapper">
+<div class="dp-MainWrapper demo-cog demo-menu">
     <div class="dp-SlideOutPanel dp-SlideTicket">
         <div class="dp-PageSidebar">
 
@@ -585,7 +585,7 @@ title: Slide-Out Panel
 <!-- Merge tickets -->
 
 ```html @preview
-<div class="dp-MainWrapper">
+<div class="dp-MainWrapper demo-cog demo-menu">
     <div class="dp-SlideOutPanel dp-SlideTicket dp-MergeTickets">
         <div class="dp-PageSidebar">
 

@@ -4,7 +4,7 @@ title: Actions
 
 <h4>buttons/actions</h4>
 ```html @preview
-<div class="dp-MainWrapper" style="height: 200px;">
+<div class="dp-MainWrapper demo-cog demo-menu" style="height: 200px;">
 	<div class="dp-DropDownBar">
 
 		<ul class="dp-Tabs Tabs--actions">

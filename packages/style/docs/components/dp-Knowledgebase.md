@@ -4,10 +4,9 @@ title: Knowledgebase
 
 <h2>Knowledgebase - Sort and Reorder</h2>
 
-
 <h4>Knowledgebase and rollover/selected folder</h4>
 ```html @preview
-<div class="dp-MainWrapper">
+<div class="dp-MainWrapper demo-cog demo-menu">
 
     <div class="dp-FilterlistContainer dp-Knowledgebase">
         <div class="dp-Tickets">
@@ -224,25 +223,9 @@ title: Knowledgebase
 </div>
 ```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <h4>Selected catergory with Articles</h4>
 ```html @preview
-<form>
+<form class="demo-cog demo-menu">
     <ul class="dp-CardList dp-GuidesDirectory dp-Knowledgebase">
 
         <li class="dp-Card-SectionTitle dp-Tasks-list Level-justify-between">
@@ -463,11 +446,9 @@ title: Knowledgebase
 </form>
 ```
 
-
-
 <h4>Show present order of categories in drop down</h4>
 ```html @preview
-<form>
+<form class="demo-cog demo-menu">
     <ul class="dp-CardList dp-GuidesDirectory dp-Knowledgebase">
 
 
@@ -4390,11 +4371,9 @@ title: Knowledgebase
 </form>
 ```
 
-
-
 <h4>Select Display Order and then enable drag and drop</h4>
 ```html @preview
-<form>
+<form class="demo-cog demo-menu">
     <ul class="dp-CardList dp-GuidesDirectory dp-Knowledgebase">
 
 
@@ -8254,12 +8233,10 @@ title: Knowledgebase
 </form>
 ```
 
-
-
 <h4>Sort by and Display order menu</h4>
 
 ```html @preview
-<div class="dp-MainWrapper" style="height:400px">
+<div class="dp-MainWrapper demo-cog demo-menu" style="height:400px">
 
     <div class="dp-Knowledgebase">
         <!-- dropdown -->
@@ -8349,7 +8326,7 @@ title: Knowledgebase
 ```
 
 ```html @preview
-<div class="dp-MainWrapper" style="height:400px">
+<div class="dp-MainWrapper demo-cog demo-menu" style="height:400px">
 
     <div class="dp-Knowledgebase">
         <!-- dropdown -->
@@ -8443,9 +8420,8 @@ title: Knowledgebase
 </div>
 ```
 
-
 ```html @preview
-<div class="dp-MainWrapper" style="height:400px">
+<div class="dp-MainWrapper demo-cog demo-menu" style="height:400px">
 
     <div class="dp-Knowledgebase">
         <!-- dropdown -->

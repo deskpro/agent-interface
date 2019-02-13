@@ -1,0 +1,53 @@
+
+.demo-cog .dp-Cog {
+  display: none;
+}
+
+.demo-cog .dp-Card:hover .dp-Cog,
+.demo-cog .dp-Card.is-hover .dp-Cog {
+  display: block;
+}
+
+.demo-cog .dp-Listpane-guides .Card--primary .dp-Cog {
+  display: block;
+}
+
+.demo-cog .dp-Card:hover > .dp-settings,
+.demo-cog .dp-Card:hover .dp-LevelItem > .dp-settings,
+.demo-cog .is-active .dp-settings {
+  display: block;
+}
+
+.demo-cog .dp-Cog.is-hover > .dp-Menu {
+  display: block;
+}
+
+.demo-cog .dp-Cog:hover > .dp-Menu,
+.demo-cog .dp-Cog .is-active + .dp-Menu {
+  display: block;
+}
+
+/* Menu */
+
+.demo-menu .dp-Menu,
+.Menu-grouped.dp-Menu .dp-Menu-linkItem .dp-Menu {
+  display: none;
+}
+
+.demo-menu .is-active > .dp-Menu,
+.demo-menu .dp-Menu .dp-Menu-linkItem:hover > .dp-Menu,
+.demo-menu .dp-ActionButton.is-active .dp-Menu,
+.demo-menu .dp-ActionsItem.is-active .dp-Menu,
+.demo-menu .Menu-fields .dp-settings.is-active + .dp-Menu,
+.demo-menu .dp-Menu.Menu-tick .is-active + .dp-Menu,
+.demo-menu .Menu-fields .dp-settings.is-active + .dp-Menu,
+.demo-menu .dp-Menu.Menu-grouped .dp-Menu-linkItem:hover > .dp-Menu,
+.demo-menu .dp-Menu.Menu-grouped .dp-Menu-linkItem.is-active .dp-Menu,
+.demo-menu .Menu-fields .dp-settings.is-active + .dp-Menu,
+.demo-menu .dp-DropDownItem.is-active > .dp-Menu,
+.demo-menu .dp-Menu.is-active,
+.demo-menu .dp-Menu.is-visible,
+.demo-menu .is-expanded > .dp-Menu,
+.demo-menu .dp-iconVDots.is-visible + .dp-Menu {
+  display: block;
+}

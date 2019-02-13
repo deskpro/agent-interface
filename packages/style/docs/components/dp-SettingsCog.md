@@ -5,7 +5,7 @@ title: Settings Cog
 <h4>Settings cog</h4>
 ```html @preview
 <form>
-    <ul class="dp-CardList is-hoverable">
+    <ul class="dp-CardList is-hoverable demo-cog demo-menu">
         
         <li class="dp-Card-SectionTitle">
             <span class="dp-LevelCol">
@@ -978,7 +978,7 @@ title: Settings Cog
 
 ```html @preview
 <form>
-    <ul class="dp-CardList is-hoverable">
+    <ul class="dp-CardList is-hoverable demo-cog demo-menu">
 
         <li class="dp-Card-SectionTitle dp-General-Articles">
             <span>GENERAL ARTICLES</span>
@@ -1139,7 +1139,7 @@ title: Settings Cog
 ## Listview/comments
 
 ```html @preview
-<div class="dp-MainWrapper">
+<div class="dp-MainWrapper demo-cog demo-menu">
     <form>
         <ul class="dp-CardList is-hoverable">
 

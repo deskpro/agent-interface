@@ -4,7 +4,7 @@ title: Side-bar Overlay
 
 <h4> side-bar-overlay/apps </h4>
 ```html @preview
-<div class="dp-UserOverlay dp-OverlaAapps">
+<div class="dp-UserOverlay dp-OverlaAapps demo-cog demo-menu">
 	<div class="dp-OverlayWrapp">
 		<div class="dp-UserContainer dp-UserTitleInfo">
 			<div class="dp-UserTabName">
@@ -446,7 +446,7 @@ title: Side-bar Overlay
 
 <h4> side-bar-overlay/no-apps </h4>
 ```html @preview
-<div class="dp-UserOverlay">
+<div class="dp-UserOverlay demo-cog demo-menu">
 	<div class="dp-OverlayWrapp">
 		<div class="dp-UserContainer dp-UserTitleInfo">
 			<div class="dp-UserTabName">

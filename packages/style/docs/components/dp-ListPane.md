@@ -30,47 +30,6 @@ title: List View
         </li>
 
         <!-- 1 -->
-<!--         <li class="dp-NewCard dp-CustomCheckbox">
-
-            <input type="checkbox" class="dp-ControlInput" id="listpane-tickets-1" />
-            <label for="listpane-tickets-1"></label>
-
-            <ul>
-                <li class="dp-Card dp-Level">
-
-                    <span class="dp-LevelCol">
-                        <span class="dp-Title Title-Icon">
-                            <span class="dp-Card-title">SSO Information</span>
-                            <span class="dp-Icon Icon--star"></span>
-                        </span>
-                        <span class="dp-UserInfo">
-                            <span class="dp-Icon dp-iconUserAvatar"></span>
-                            <span class="dp-UserName">Kenneth James
-                            </span>
-                            <a href="mailto:kenneth@windfarms.com" class="dp-UserEmail">
-                                &lt;kenneth@windfarms.com&gt;
-                            </a>
-                        </span>
-                    </span>
-
-                    <span class="dp-LevelCol dp-LevelRight Level-justify-between">
-                        <span class="dp-IconGroup">
-
-                            <span class="Icon--circle dp-iconBug"></span>
-                            <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
-                            <span class="dp-Icon Icon--clock Icon--primary"></span>
-                        </span>
-                        <span class="dp-TimeStatus">
-                            <span class="dp-Tag Tag--small Tag--danger">Failed</span>
-                        </span>
-                    </span>
-
-                </li>
-            </ul>
-        </li> -->
-
-
-        <!-- 1 -->
         <li class="dp-Card dp-Level dp-Leaving">
             <span class="dp-LevelCol">
                 <span class="dp-CustomCheckbox">
@@ -1094,7 +1053,7 @@ title: List View
 ## Listview/guides
 
 ```html @preview
-<div class="dp-MainWrapper">
+<div class="dp-MainWrapper demo-cog demo-menu">
 
     <!-- 1 -->
     <ul class="dp-CardList dp-Listpane-guides">
@@ -1207,7 +1166,7 @@ title: List View
 
 <h4>Listview/tasks</h4>
 ```html @preview
-<div class="dp-MainWrapper">
+<div class="dp-MainWrapper demo-cog demo-menu">
     <form>
         <ul class="dp-CardList is-hoverable">
 
@@ -2070,7 +2029,7 @@ title: List View
 
 <h4>Listview/tasks-addcomment</h4>
 ```html @preview
-<div class="dp-MainWrapper" style="height: 400px">
+<div class="dp-MainWrapper demo-cog demo-menu" style="height: 400px">
     <form>
         <ul class="dp-CardList">
             <li class="dp-Card dp-Level LevelCol dp-Tasks-list">
@@ -2285,7 +2244,7 @@ title: List View
 
 <h4>Listview/tasks-2linecard</h4>
 ```html @preview
-<div class="dp-MainWrapper">
+<div class="dp-MainWrapper demo-cog demo-menu">
     <form>
         <ul class="dp-CardList is-hoverable">
 
@@ -2450,7 +2409,7 @@ title: List View
 
 <h4>Listview/tasks-3linecard</h4>
 ```html @preview
-<div class="dp-MainWrapper">
+<div class="dp-MainWrapper demo-cog demo-menu">
     <form>
         <ul class="dp-CardList is-hoverable">
 
@@ -2895,7 +2854,7 @@ title: List View
 
 <h4>Listview/New task - Static</h4>
 ```html @preview
-<div class="dp-MainWrapper">
+<div class="dp-MainWrapper demo-cog demo-menu">
     <form>
         <ul class="dp-CardList is-hoverable">
 
@@ -4941,7 +4900,7 @@ title: List View
 
 <h4>Listview/New task - in completion</h4>
 ```html @preview
-<div class="dp-MainWrapper">
+<div class="dp-MainWrapper demo-cog demo-menu">
     <form>
         <ul class="dp-CardList is-hoverable">
 
@@ -5789,7 +5748,7 @@ title: List View
 <h4>Listview/tasks-datetimeselect</h4>
 
 ```html @preview
-<div class="dp-MainWrapper">
+<div class="dp-MainWrapper demo-cog demo-menu">
     <span class="dp-DateGroup">
         <span class="dp-Icon dp-group"></span>
         <span href="#" class="dp-Date-link">
@@ -5800,7 +5759,7 @@ title: List View
 ```
 
 ```html @preview
-<div class="dp-MainWrapper" style="height: 150px">
+<div class="dp-MainWrapper demo-cog demo-menu" style="height: 150px">
     <span class="dp-DateGroup date-active">
         <span class="dp-Icon dp-group"></span>
         <span href="#" class="dp-Date-link">
@@ -5891,7 +5850,7 @@ title: List View
 ```
 
 ```html @preview
-<div class="dp-MainWrapper Datepicker-demo" style="height: 320px">
+<div class="dp-MainWrapper Datepicker-demo demo-cog demo-menu" style="height: 320px">
     <span class="dp-DateGroup date-active">
         <span class="dp-Icon dp-group"></span>
         <span href="#" class="dp-Date-link">
@@ -5980,7 +5939,7 @@ title: List View
 ```
 
 ```html @preview
-<div class="dp-MainWrapper" style="height: 250px">
+<div class="dp-MainWrapper demo-cog demo-menu" style="height: 250px">
     <span class="dp-DateGroup time-active">
         <span class="dp-Icon dp-group"></span>
         <span href="#" class="dp-Date-link">
@@ -6092,7 +6051,7 @@ title: List View
 ```
 
 ```html @preview
-<div class="dp-MainWrapper">
+<div class="dp-MainWrapper demo-cog demo-menu">
     <span class="dp-DateGroup">
         <span class="dp-Icon dp-group"></span>
         <span href="#" class="dp-Date-link">

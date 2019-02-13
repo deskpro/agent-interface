@@ -216,7 +216,7 @@ title: Page View
 
 <h4>buttons/actions</h4>
 ```html @preview
-<div class="dp-MainWrapper">
+<div class="dp-MainWrapper demo-cog demo-menu">
 	<div class="dp-DropDownBar">
 		<ul class="dp-Tabs Tabs--actions">
 			<li class="dp-Tabs-item">
@@ -257,7 +257,7 @@ title: Page View
 <!-- Lock -->
 
 ```html @preview
-<div class="dp-MainWrapper" style="height: 200px;">
+<div class="dp-MainWrapper demo-cog demo-menu" style="height: 200px;">
 	<div class="dp-DropDownBar">
 
 		<ul class="dp-Tabs Tabs--actions">
@@ -379,7 +379,7 @@ title: Page View
 <!-- Link -->
 
 ```html @preview
-<div class="dp-MainWrapper" style="height: 200px;">
+<div class="dp-MainWrapper demo-cog demo-menu" style="height: 200px;">
 	<div class="dp-DropDownBar">
 		<ul class="dp-Tabs Tabs--actions">
 			<li class="dp-Tabs-item">
@@ -500,7 +500,7 @@ title: Page View
 <!-- New -->
 
 ```html @preview
-<div class="dp-MainWrapper" style="height: 200px;">
+<div class="dp-MainWrapper demo-cog demo-menu" style="height: 200px;">
 	<div class="dp-DropDownBar">
 		<ul class="dp-Tabs Tabs--actions">
 			<li class="dp-Tabs-item">
@@ -621,7 +621,7 @@ title: Page View
 <!-- Print -->
 
 ```html @preview
-<div class="dp-MainWrapper" style="height: 200px;">
+<div class="dp-MainWrapper demo-cog demo-menu" style="height: 200px;">
 	<div class="dp-DropDownBar">
 		<ul class="dp-Tabs Tabs--actions">
 			<li class="dp-Tabs-item">
@@ -742,7 +742,7 @@ title: Page View
 <!-- Ban -->
 
 ```html @preview
-<div class="dp-MainWrapper" style="height: 200px;">
+<div class="dp-MainWrapper demo-cog demo-menu" style="height: 200px;">
 	<div class="dp-DropDownBar">
 		<ul class="dp-Tabs Tabs--actions">
 			<li class="dp-Tabs-item">
@@ -863,7 +863,7 @@ title: Page View
 <!-- Actions -->
 
 ```html @preview
-<div class="dp-MainWrapper" style="height: 200px;">
+<div class="dp-MainWrapper demo-cog demo-menu" style="height: 200px;">
 	<div class="dp-DropDownBar">
 		<ul class="dp-Tabs Tabs--actions">
 			<li class="dp-Tabs-item">
@@ -982,7 +982,7 @@ title: Page View
 
 <h4>Action bar</h4>
 ```html @preview
-<div class="dp-MainWrapper">
+<div class="dp-MainWrapper demo-cog demo-menu">
 	<div class="dp-DropDownBar">
 		<ul class="dp-Tabs Tabs--actions">
 			<li class="dp-Tabs-item">
@@ -1022,7 +1022,7 @@ title: Page View
 
 <h4>Apps Horizontal Bar</h4>
 ```html @preview
-<div class="dp-MainWrapper">
+<div class="dp-MainWrapper demo-cog demo-menu">
 	<ul class="dp-MenuBarList">
 		<li class="dp-MenuBarItem dp-TasksItem">
 			<span class="dp-Icon dp-tasks"></span>
@@ -1055,7 +1055,7 @@ title: Page View
 
 <h4>Agent Team Followers</h4>
 ```html @preview
-<div class="dp-MainWrapper">
+<div class="dp-MainWrapper demo-cog demo-menu">
 
 	<div class="dp-TeamFollowersWrapper" style="height: 75px;">
 
@@ -1156,7 +1156,7 @@ title: Page View
 
 <h2> ReplyBox </h2>
 ```html @preview
-<div class="dp-MainWrapper">
+<div class="dp-MainWrapper demo-cog demo-menu">
 	<div class="dp-ReplyBox">
 	    <ul class="dp-Tabs">
 	        <li class="dp-Tabs-item">
@@ -1210,7 +1210,7 @@ title: Page View
 
 <h2> ReplyBox </h2>
 ```html @preview
-<div class="dp-TicketMessage">
+<div class="dp-TicketMessage demo-cog demo-menu">
 	<div class="dp-MessageContainer dp-ColorContainer">
 		<div class="dp-MessageHeader">
 			<div class="dp-Left">
@@ -1234,7 +1234,7 @@ title: Page View
 
 <h4>ticket/agentselect</h4>
 ```html @preview
-<div class="dp-Pageview-Demonstration">
+<div class="dp-Pageview-Demonstration demo-cog demo-menu">
 	<div class="dp-MainWrapper">
 
 		<div class="dp-SsoWrap">

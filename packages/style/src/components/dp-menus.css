@@ -8,7 +8,6 @@
   background-color: var(--white);
   border: 1px solid var(--brand-primary);
   border-radius: var(--border-radius);
-  display: none;
   left: 0;
   list-style-type: none;
   padding: 5px 0;
@@ -16,10 +15,9 @@
   top: calc(100% + 5px);
   white-space: nowrap;
   z-index: 9;
-}
 
-.dp-Menu.is-active {
-  display: block;
+  /* display: none; */
+
 }
 
 .dp-Menu .dp-Icon {
@@ -184,23 +182,29 @@
 }
 
 .dp-iconVDots.is-visible + .dp-Menu {
-  display: block;
   left: calc(100% - 5px);
   top: 0;
   width: 100%;
+
+  /* display: block; */
 }
 
-.is-expanded > .dp-Menu {
+/* .is-expanded > .dp-Menu {
   display: block;
-}
+} */
 
 .dp-Menu .dp-email_small {
   background-size: 13px 9px;
 }
 
+/* .dp-Menu.is-active,
 .dp-Menu.is-visible {
   display: block;
-}
+} */
+
+/* .is-active > .dp-Menu {
+  display: block;
+} */
 
 .newControlsList .dp-ListPane .dp-Menu-linkItem > .dp-settings {
   background-size: 12px;
@@ -211,10 +215,10 @@
 
 /* listpane dropdown Menu */
 
-.Menu-fields .dp-settings.is-active + .dp-Menu,
+/* .Menu-fields .dp-settings.is-active + .dp-Menu,
 .dp-DropDownItem.is-active > .dp-Menu {
   display: block;
-}
+} */
 
 /* Menu-grouped */
 
@@ -222,14 +226,14 @@
   justify-content: space-between;
 }
 
-.Menu-grouped.dp-Menu .dp-Menu-linkItem .dp-Menu {
+/* .Menu-grouped.dp-Menu .dp-Menu-linkItem .dp-Menu {
   display: none;
-}
+} */
 
-.dp-Menu.Menu-grouped .dp-Menu-linkItem:hover > .dp-Menu,
+/* .dp-Menu.Menu-grouped .dp-Menu-linkItem:hover > .dp-Menu,
 .dp-Menu.Menu-grouped .dp-Menu-linkItem.is-active .dp-Menu {
   display: block;
-}
+} */
 
 .dp-Menu.Menu-fields .dp-Menu-linkItem:hover > .dp-Menu,
 .dp-Menu.Menu-fields .dp-Menu,
@@ -241,17 +245,19 @@
   left: calc(100% - 5px);
 }
 
-.Menu-fields .dp-settings.is-active + .dp-Menu {
+/* .Menu-fields .dp-settings.is-active + .dp-Menu {
   display: block;
-}
+} */
 
 /* Menu-tick */
 
 .dp-Menu.Menu-tick .is-active + .dp-Menu {
-  display: block;
   left: 100%;
   min-width: 125px;
   top: 0;
+
+  /* display: block; */
+
 }
 
 .dp-Knowledgebase .dp-Menu.Menu-tick > .dp-Menu-linkItem .dp-listItem::after,
@@ -373,9 +379,9 @@
   padding-left: 17px;
 }
 
-.Menu-fields .dp-settings.is-active + .dp-Menu {
+/* .Menu-fields .dp-settings.is-active + .dp-Menu {
   display: block;
-}
+} */
 
 .dp-Menu.Menu-fields .dp-Menu-linkItem .dp-Menu {
   min-width: 125px;
@@ -415,10 +421,10 @@
   top: calc(100% + 10px);
 }
 
-.dp-ActionButton.is-active .dp-Menu,
+/* .dp-ActionButton.is-active .dp-Menu,
 .dp-ActionsItem.is-active .dp-Menu {
   display: block;
-}
+} */
 
 .dp-DropDownList .dp-Menu .dp-IconLink {
   transform: rotate(90deg);
@@ -484,9 +490,11 @@
 
 .dp-Menu .dp-Menu-linkItem:hover > .dp-Menu {
   border-top-left-radius: 0;
-  display: block;
   left: calc(100% + 1px);
   top: -1px;
+
+  /* display: block; */
+
 }
 
 .dp-Menu > .dp-Menu-linkItem:hover svg {
@@ -499,34 +507,34 @@
 
 /* dp-Cog */
 
-.dp-Card:hover > .dp-settings,
+/* .dp-Card:hover > .dp-settings,
 .dp-Card:hover .dp-LevelItem > .dp-settings,
 .is-active .dp-settings {
   display: block;
-}
+} */
 
-.dp-Card:hover .dp-Cog,
+/* .dp-Card:hover .dp-Cog,
 .dp-Card.is-hover .dp-Cog {
   display: block;
-}
+} */
 
 .dp-Card .dp-Cog:hover > .dp-Icon svg,
 .dp-Cog .is-hover svg {
   fill: var(--brand-primary);
 }
 
-.dp-Cog.is-hover > .dp-Menu {
+/* .dp-Cog.is-hover > .dp-Menu {
   display: block;
-}
-
-/* .dp-Card .dp-Cog { */
+} */
 
 .dp-Cog {
-  display: none;
   left: calc(100% - 9px);
   position: absolute;
   top: calc(50% - 9px);
   z-index: 9;
+
+  /* display: none; */
+
 }
 
 .dp-Card .dp-settings {
@@ -540,10 +548,10 @@
   width: 18px;
 }
 
-.dp-Cog:hover > .dp-Menu,
+/* .dp-Cog:hover > .dp-Menu,
 .dp-Cog .is-active + .dp-Menu {
   display: block;
-}
+} */
 
 .dp-Cog .dp-Menu {
   min-width: 125px;
@@ -553,22 +561,20 @@
 
 /* dp-Listpane-guides */
 
-.dp-Listpane-guides .Card--primary .dp-Cog {
+/* .dp-Listpane-guides .Card--primary .dp-Cog {
   display: block;
-}
+} */
 
 .dp-Listpane-guides .dp-Cog > .dp-Menu {
   padding: 10px 0;
 }
-
-/* .dp-Card .dp-Cog > .dp-Menu { */
 
 .dp-Cog > .dp-Menu {
   margin-left: 4px;
   margin-top: 2px;
 }
 
-/* .dp-Cog .dp-Menu - SubMenu */
+/* SubMenu */
 
 .dp-Cog .dp-Menu .dp-Menu-linkItem .dp-Menu,
 .dp-Cog .dp-Menu .dp-Menu-linkItem:hover > .dp-Menu {

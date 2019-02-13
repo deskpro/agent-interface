@@ -4,7 +4,7 @@ title: Grouped by Fields
 
 <h4> Example 1 </h4>
 ```html @preview
-<div class="dp-Groupe-container">
+<div class="dp-Groupe-container demo-cog demo-menu">
 	<div class="dp-Groupe-items">
 		<span class="dp-Badge Badge--groupe-filter">
 			All <span class="dp-Num">80</span>
@@ -89,7 +89,7 @@ title: Grouped by Fields
 
 <h4> Example 2 </h4>
 ```html @preview
-<div class="dp-Groupe-container">
+<div class="dp-Groupe-container demo-cog demo-menu">
 	<div class="dp-Groupe-items">
 		<span class="dp-Badge Badge--groupe-filter">
 			All <span class="dp-Num">80</span>
@@ -176,7 +176,7 @@ title: Grouped by Fields
 
 <h4> Example 3 </h4>
 ```html @preview
-<div class="dp-Groupe-container">
+<div class="dp-Groupe-container demo-cog demo-menu">
 	<div class="dp-Groupe-items">
 		<span class="dp-Badge Badge--groupe-filter">
 			All <span class="dp-Num">80</span>

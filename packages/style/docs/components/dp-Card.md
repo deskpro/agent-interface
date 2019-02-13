@@ -6,7 +6,7 @@ title: Card
 
 <h4>Listpane/cards-static</h4>
 ```html @preview
-<div class="dp-MainWrapper">
+<div class="dp-MainWrapper demo-cog demo-menu">
     <form>
         <ul class="dp-CardList">
             <li class="dp-Card dp-Level">
@@ -45,7 +45,7 @@ title: Card
 
 <h4>Listpane/cards-hover</h4>
 ```html @preview
-<div class="dp-MainWrapper">
+<div class="dp-MainWrapper demo-cog demo-menu">
     <form>
 
         <ul class="dp-CardList">
@@ -86,7 +86,7 @@ title: Card
 <h4>Listpane/cards-selected</h4>
 ```html @preview
 
-<div class="dp-MainWrapper">
+<div class="dp-MainWrapper demo-cog demo-menu">
     <form>
         <ul class="dp-CardList">
             <li class="dp-Card is-selected is-active dp-Level">
@@ -125,7 +125,7 @@ title: Card
 
 <h4>Listpane/cards-selected-other</h4>
 ```html @preview
-<div class="dp-MainWrapper">
+<div class="dp-MainWrapper demo-cog demo-menu">
     <form>
         <ul class="dp-CardList">
             <li class="dp-Card is-selected dp-Level">
@@ -164,7 +164,7 @@ title: Card
 
 <h4>Listpane/cards-checked</h4>
 ```html @preview
-<div class="dp-MainWrapper">
+<div class="dp-MainWrapper demo-cog demo-menu">
     <form>
         <ul class="dp-CardList">
             <li class="dp-Card dp-Level">
@@ -204,7 +204,7 @@ title: Card
 <h4>Listpane/cards-keyboard-select</h4>
 ```html @preview
 
-<div class="dp-MainWrapper">
+<div class="dp-MainWrapper demo-cog demo-menu">
     <form>
         <ul class="dp-CardList">
             <li class="dp-Card is-keyboard dp-Level">
@@ -244,7 +244,7 @@ title: Card
 <h4>Listpane/cards-link-hover</h4>
 ```html @preview
 
-<div class="dp-MainWrapper">
+<div class="dp-MainWrapper demo-cog demo-menu">
     <form>
         <ul class="dp-CardList">
             <li class="dp-Card is-hover-link dp-Level">
@@ -287,7 +287,7 @@ title: Card
 <h4>Listpane/cards-static</h4>
 ```html @preview
 
-<div class="dp-MainWrapper">
+<div class="dp-MainWrapper demo-cog demo-menu">
     <form>
         <ul class="dp-CardList">
             <li class="dp-Card dp-Level">
@@ -319,7 +319,7 @@ title: Card
 
 <h4>Listpane/cards-hover</h4>
 ```html @preview
-<div class="dp-MainWrapper">
+<div class="dp-MainWrapper demo-cog demo-menu">
     <form>
         <ul class="dp-CardList">
             <li class="dp-Card dp-Level is-hover">
@@ -352,7 +352,7 @@ title: Card
 <h4>Listpane/cards-selected</h4>
 ```html @preview
 
-<div class="dp-MainWrapper">
+<div class="dp-MainWrapper demo-cog demo-menu">
     <form>
         <ul class="dp-CardList">
             <li class="dp-Card is-selected is-active dp-Level">
@@ -384,7 +384,7 @@ title: Card
 
 <h4>Listpane/cards-selected-other</h4>
 ```html @preview
-<div class="dp-MainWrapper">
+<div class="dp-MainWrapper demo-cog demo-menu">
     <form>
         <ul class="dp-CardList">
             <li class="dp-Card is-selected dp-Level">
@@ -417,7 +417,7 @@ title: Card
 <h4>Listpane/cards-keyboard-select</h4>
 ```html @preview
 
-<div class="dp-MainWrapper">
+<div class="dp-MainWrapper demo-cog demo-menu">
     <form>
         <ul class="dp-CardList">
             <li class="dp-Card is-keyboard dp-Level">
@@ -451,7 +451,7 @@ title: Card
 <h4>Listpane/cards-link-hover</h4>
 ```html @preview
 
-<div class="dp-MainWrapper">
+<div class="dp-MainWrapper demo-cog demo-menu">
     <form>
         <ul class="dp-CardList">
             <li class="dp-Card is-hover-link dp-Level">
@@ -488,7 +488,7 @@ title: Card
 
 <h4>list-pane/agent-viewing-small</h4>
 ```html @preview
-<div class="dp-MainWrapper">
+<div class="dp-MainWrapper demo-cog demo-menu">
     <form>
         <ul class="dp-CardList">
             <li class="dp-Card dp-Level">
@@ -534,7 +534,7 @@ title: Card
 
 <h4>list-pane/agent-viewing-large</h4>
 ```html @preview
-<div class="dp-MainWrapper">
+<div class="dp-MainWrapper demo-cog demo-menu">
     <form>
         <ul class="dp-CardList">
             <li class="dp-Card dp-Level">
@@ -580,7 +580,7 @@ title: Card
 <h4>list-pane/agent-writing-small</h4>
 ```html @preview
 
-<div class="dp-MainWrapper">
+<div class="dp-MainWrapper demo-cog demo-menu">
     <form>
         <ul class="dp-CardList">
             <li class="dp-Card dp-Level">
@@ -626,7 +626,7 @@ title: Card
 
 <h4>list-pane/agent-writing-large</h4>
 ```html @preview
-<div class="dp-MainWrapper">
+<div class="dp-MainWrapper demo-cog demo-menu">
     <form>
         <ul class="dp-CardList">
             <li class="dp-Card dp-Level">
@@ -679,7 +679,7 @@ title: Card
 
 <h4>Listpane/cards-col</h4>
 ```html @preview
-<div class="dp-MainWrapper">
+<div class="dp-MainWrapper demo-cog demo-menu">
     <form>
         <ul class="dp-CardList">
             <li class="dp-Card dp-Level">
@@ -722,7 +722,7 @@ title: Card
 <h4>Listpane/cards-row</h4>
 ```html @preview
 
-<div class="dp-MainWrapper">
+<div class="dp-MainWrapper demo-cog demo-menu">
     <form>
         <ul class="dp-CardList Card--row">
             <li class="dp-Card">
@@ -754,7 +754,7 @@ title: Card
 
 <h2>Cards/listreveal</h2>
 ```html @preview
-<div class="dp-MainWrapper Cardwrapper-demo">
+<div class="dp-MainWrapper Cardwrapper-demo demo-cog demo-menu">
     <form>
         <ul class="dp-CardList">
             <li class="dp-Card dp-Level dp-listreveal">
@@ -806,7 +806,7 @@ title: Card
 <h2>Card/misc<h2>
 <h4>Cards/feedback</h4>
 ```html @preview
-<div class="dp-MainWrapper">
+<div class="dp-MainWrapper demo-cog demo-menu">
     <ul class="dp-CardList">
         <li class="dp-Card dp-Level">
             <span class="dp-LevelItem">
@@ -852,7 +852,7 @@ title: Card
 
 <h4>Cards/news</h4>
 ```html @preview
-<div class="dp-MainWrapper">
+<div class="dp-MainWrapper demo-cog demo-menu">
     <ul class="dp-CardList">
         <li class="dp-Card dp-Level Card-news">
             <span class="dp-LevelItem">
@@ -894,7 +894,7 @@ title: Card
 
 <h4>Cards/download</h4>
 ```html @preview
-<div class="dp-MainWrapper">
+<div class="dp-MainWrapper demo-cog demo-menu">
     <ul class="dp-CardList">
         <li class="dp-Card dp-Level">
             <span class="dp-LevelItem">
@@ -937,7 +937,7 @@ title: Card
 
 <h4>Cards/glossary</h4>
 ```html @preview
-<form>
+<form class="demo-cog demo-menu">
     <ul class="dp-CardList">
         <li class="dp-Card dp-Level">
             <span class="dp-LevelCol">
@@ -981,7 +981,7 @@ title: Card
 <h4>Cards/guides-directory</h4>
 
 ```html @preview
-<form>
+<form class="demo-cog demo-menu">
     <ul class="dp-CardList dp-GuidesDirectory">
 
         <li class="dp-Breadcrumbs">
@@ -1102,7 +1102,7 @@ title: Card
 
 <h4>Cards/guides-subsections</h4>
 ```html @preview
-<form>
+<form class="demo-cog demo-menu">
     <ul class="dp-CardList dp-GuideSections">
 
         <li class="dp-Card">
@@ -1346,7 +1346,7 @@ title: Card
 
 <h4>Cards/guides-articles</h4>
 ```html @preview
-<div class="dp-MainWrapper">
+<div class="dp-MainWrapper demo-cog demo-menu">
 
     <!-- 1 -->
     <ul class="dp-CardList dp-Listpane-guides">

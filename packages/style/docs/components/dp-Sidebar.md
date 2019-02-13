@@ -13,7 +13,7 @@ title: PageSidebar
 
 <h4>sidebar/tab-header</h4>
 ```html @preview
-<div class="dp-MainWrapper Sidebar-Demonstration">
+<div class="dp-MainWrapper Sidebar-Demonstration demo-cog demo-menu">
 
     <ul class="dp-Tabs Tabs--icons">
         <li class="dp-Tabs-item is-active"><a href="#" class="dp-Icon Icon--email"></a></li>
@@ -328,7 +328,7 @@ title: PageSidebar
 
 <h4>sidebar/ticket-version</h4>
 ```html @preview
-<div class="dp-MainWrapper">
+<div class="dp-MainWrapper demo-cog demo-menu">
     <div class="dp-SidebarContainer">
         <div class="dp-PageSidebar">
 
@@ -518,7 +518,7 @@ title: PageSidebar
 
 <h4>sidebar/ticket-version-overlay</h4>
 ```html @preview
-<div class="dp-MainWrapper">
+<div class="dp-MainWrapper demo-cog demo-menu">
     <div class="dp-SidebarContainer">
         <div class="dp-PageSidebar dp-TicketOverlay">
 
@@ -606,7 +606,7 @@ title: PageSidebar
 
 <h4>sidebar/ticket-version-times</h4>
 ```html @preview
-<div class="dp-MainWrapper">
+<div class="dp-MainWrapper demo-cog demo-menu">
     <div class="dp-SidebarContainer">
         <div class="dp-PageSidebar">
 
@@ -844,7 +844,7 @@ title: PageSidebar
 
 <h4>sidebar/ticket-version-CCmenu</h4>
 ```html @preview
-<div class="dp-MainWrapper">
+<div class="dp-MainWrapper demo-cog demo-menu">
     <div class="dp-SidebarContainer">
         <div class="dp-PageSidebar">
 

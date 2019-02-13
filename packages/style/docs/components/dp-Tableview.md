@@ -4,7 +4,7 @@ title: Tableview
 
 <h4>listpane/grouping-and-sorting-bar</h4>
 ```html @preview
-<div class="Demo-Sorting-bar-class">
+<div class="Demo-Sorting-bar-class demo-cog demo-menu">
 
     <ul class="dp-FilterControlsList newControlsList dp-GroupSortBar">
         <li class="dp-ListPane">
@@ -94,7 +94,7 @@ title: Tableview
 
 <h4>Tableview Column Headers - For reference Artem</h4>
 ```html @preview
-<div class="dp-TableWrapper">
+<div class="dp-TableWrapper demo-cog demo-menu">
     <table class="dp-Tableview">
         <thead>
             <tr class="dp-ColumnControls">
@@ -188,7 +188,7 @@ title: Tableview
 <!-- 1 -->
 
 ```html @preview
-<div class="dp-TableWrapper">
+<div class="dp-TableWrapper demo-cog demo-menu">
     <div class="dp-Tableview is-hoverable">
 
         <span class="is-column-draggable" style="position:absolute;content:'';top:0;bottom:0;left:579px;right:auto;background-color:#3a8dde;width:1px;z-index:9;"></span>
@@ -3477,7 +3477,7 @@ title: Tableview
 <!-- 2 -->
 
 ```html @preview
-<div class="dp-TableWrapper">
+<div class="dp-TableWrapper demo-cog demo-menu">
     <div class="dp-Tableview is-hoverable">
 
         <span class="is-column-draggable" style="position:absolute;content:'';top:0;bottom:0;left:579px;right:auto;background-color:#3a8dde;width:1px;z-index:9;"></span>
@@ -6752,7 +6752,7 @@ title: Tableview
 <!-- new 3 -->
 
 ```html @preview
-<div class="dp-TableWrapper">
+<div class="dp-TableWrapper demo-cog demo-menu">
     <div class="dp-Tableview is-hoverable">
 
         <span class="is-column-draggable" style="position:absolute;content:'';top:0;bottom:0;left:579px;right:auto;background-color:#3a8dde;width:1px;z-index:9;"></span>
