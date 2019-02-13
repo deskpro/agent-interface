@@ -7,7 +7,7 @@ import CardList from "./CardList";
 import SimpleCard from "./SimpleCard";
 import TicketCard from "./TicketCard/TicketCard";
 import TaskCard from "./TaskCard";
-import { MenuProps } from "../../elements/Menu/Menu";
+import Menu, { MenuProps } from "../../elements/Menu/Menu";
 import Cog from "../../elements/Cog/Cog";
 // import "@deskpro/agent-interface-style/dist/components/dp-ListPane.css";
 import "@deskpro/agent-interface-style/dist/components/dp-Level.css";
@@ -34,7 +34,7 @@ export type BasicCardProps = {
     cardId: React.Key,
     event: React.MouseEvent<HTMLElement> | React.KeyboardEvent<HTMLElement>
   ): void;
-  cogMenu?: React.ReactElement<MenuProps>;
+  renderCogMenu?: (menuProps: Partial<MenuProps>) => React.ReactElement<Menu>;
 };
 
 const Card: React.FC<BasicCardProps> & CardSubComponents = ({
@@ -45,7 +45,7 @@ const Card: React.FC<BasicCardProps> & CardSubComponents = ({
   isFocused = false,
   isDragging = false,
   title,
-  cogMenu,
+  renderCogMenu,
   onClick,
   cardId
 }) => {
@@ -62,6 +62,30 @@ const Card: React.FC<BasicCardProps> & CardSubComponents = ({
     [cardId]
   );
 
+  // calculate position of the cog icon.
+  const cardRef = React.useRef<HTMLDivElement>(null);
+  const position = React.useMemo(
+    () => {
+      if (cardRef.current instanceof HTMLDivElement) {
+        const {
+          top,
+          left,
+          width,
+          height
+        } = cardRef.current.getBoundingClientRect();
+        return {
+          x: left + width,
+          y: top + height / 2
+        };
+      }
+      return { x: 0, y: 0 };
+    },
+    [cardRef.current]
+  );
+
+  // track the mouse movement over the card.
+  const [isMouseOver, setIsMouseOver] = React.useState(false);
+
   return (
     <div
       className={classNames("dp-Card dp-Level", className, {
@@ -70,14 +94,24 @@ const Card: React.FC<BasicCardProps> & CardSubComponents = ({
         "is-dragging": isDragging,
         "is-keyboard": isFocused
       })}
+      ref={cardRef}
       role="link"
       tabIndex={-1}
       onClick={handleCardClick}
       onKeyPress={handleCardKeyPress}
+      onMouseEnter={() => setIsMouseOver(true)}
+      onMouseLeave={() => setIsMouseOver(false)}
     >
       {!!title && <CardTitle title={title} />}
       {children}
-      {!!cogMenu && <Cog menu={cogMenu} />}
+      {!!renderCogMenu && (
+        <Cog
+          menuId={cardId.toString()}
+          renderMenu={renderCogMenu}
+          isVisible={isMouseOver}
+          position={position}
+        />
+      )}
     </div>
   );
 };

@@ -8,7 +8,10 @@ export type MenuContextType = {
   position: Position;
   show: (
     e: React.SyntheticEvent,
-    args: { menuId: string; menuType?: "context" | "dropdown" | "simple" }
+    args: {
+      menuId: string;
+      menuType?: "context" | "dropdown" | "cog" | "simple";
+    }
   ) => void;
   hide: () => void;
   updatePosition: (position: Position) => void;
@@ -28,27 +31,40 @@ const menuReducer = produce((state: MenuContextType, { type, payload }) => {
     case "show": {
       state.visibleMenu = payload.menuId;
       const { e } = payload;
+      let pos;
 
-      const pos = {
-        x: e.clientX,
-        y: e.clientY
-      };
+      if (payload.menuType === "context") {
+        pos = {
+          x: e.clientX,
+          y: e.clientY
+        };
 
-      if (
-        e.type === "touchend" &&
-        (!pos.x || !pos.y) &&
-        (e.changedTouches && e.changedTouches.length > 0)
-      ) {
-        pos.x = e.changedTouches[0].clientX;
-        pos.y = e.changedTouches[0].clientY;
-      }
+        if (
+          e.type === "touchend" &&
+          (!pos.x || !pos.y) &&
+          (e.changedTouches && e.changedTouches.length > 0)
+        ) {
+          pos.x = e.changedTouches[0].clientX;
+          pos.y = e.changedTouches[0].clientY;
+        }
 
-      if (!pos.x || pos.x < 0) {
-        pos.x = 0;
-      }
+        if (!pos.x || pos.x < 0) {
+          pos.x = 0;
+        }
 
-      if (!pos.y || pos.y < 0) {
-        pos.y = 0;
+        if (!pos.y || pos.y < 0) {
+          pos.y = 0;
+        }
+      } else if (payload.menuType === "cog") {
+        const {
+          top,
+          left,
+          height
+        } = e.target.parentNode.getBoundingClientRect();
+        pos = {
+          x: left + 2,
+          y: top + height + 5
+        };
       }
 
       state.position = pos;

@@ -6,7 +6,8 @@ import {
   StandardKanban,
   Card,
   UserInfo,
-  Menu
+  Menu,
+  ContextMenuProvider
 } from "@deskpro/agent-interface-components";
 
 const columns = ["Backlog", "Started", "In Progress", "Review", "QA", "Closed"];
@@ -66,32 +67,34 @@ const StandardKanbanDemo = ({ action, allowReorder }) => {
   const [data, dispatch] = React.useReducer(kanbanReducer, [], initCards);
 
   return (
-    <div style={{ height: "100vh", width: "100vw" }}>
-      <StandardKanban
-        className="Kanban--cards"
-        allowReorder={allowReorder}
-        data={data}
-        onDragEnd={payload => dispatch({ type: "moveItem", payload })}
-        onLoadMore={group => dispatch({ type: "loadMore", payload: group })}
-        renderCard={(card, { isDragging }) => (
-          <Card.TicketCard
-            cardId={card.id}
-            title={card.title}
-            isDragging={isDragging}
-            checkable
-            onCheck={action(`toggle check for ${card.title}`)}
-            statusLabel="1h 25 min"
-            cogMenu={
-              <Menu>
-                <Menu.MenuItem key="bin" icon="bin" text="Delete" />
-              </Menu>
-            }
-          >
-            <UserInfo avatar name="John Doe" email="john.doe@deskpro.com" />
-          </Card.TicketCard>
-        )}
-      />
-    </div>
+    <ContextMenuProvider>
+      <div style={{ height: "100vh", width: "100vw" }}>
+        <StandardKanban
+          className="Kanban--cards"
+          allowReorder={allowReorder}
+          data={data}
+          onDragEnd={payload => dispatch({ type: "moveItem", payload })}
+          onLoadMore={group => dispatch({ type: "loadMore", payload: group })}
+          renderCard={(card, { isDragging }) => (
+            <Card.TicketCard
+              cardId={card.id}
+              title={card.title}
+              isDragging={isDragging}
+              checkable
+              onCheck={action(`toggle check for ${card.title}`)}
+              statusLabel="1h 25 min"
+              renderCogMenu={menuProps => (
+                <Menu {...menuProps}>
+                  <Menu.MenuItem key="bin" icon="bin" text="Delete" />
+                </Menu>
+              )}
+            >
+              <UserInfo avatar name="John Doe" email="john.doe@deskpro.com" />
+            </Card.TicketCard>
+          )}
+        />
+      </div>
+    </ContextMenuProvider>
   );
 };
 
