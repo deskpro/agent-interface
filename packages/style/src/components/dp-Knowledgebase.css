@@ -5,6 +5,7 @@
 
 .dp-Categories {
   align-items: center;
+  border-bottom: 1px solid var(--grey-light);
   color: var(--grey-darkest);
   display: flex;
   justify-content: space-between;
@@ -34,6 +35,10 @@
 
 .dp-Categories-add svg {
   fill: var(--white);
+}
+
+.dp-Knowledgebase .dp-Card-SectionTitle.dp-Tasks-list {
+  padding: 15px 10px;
 }
 
 .dp-GuidesDirectory.dp-Knowledgebase .dp-TitleGroupe .dp-Icon {
@@ -115,11 +120,13 @@
 .dp-Knowledgebase .dp-RadioWrapper [type="radio"]:not(:checked) + label {
   color: var(--grey-darkest);
   font: var(--h-n-semibold);
+  line-height: 1;
 }
 
 .dp-Knowledgebase .dp-RadioWrapper [type="radio"]:checked + label {
   color: var(--brand-primary);
   font: var(--h-n-semibold);
+  line-height: 1;
 }
 
 .dp-Knowledgebase .dp-SortOrder .dp-Subtitle {
@@ -219,4 +226,10 @@
 .dp-SortOrder .dp-CustomCheckbox input[type="checkbox"] + label {
   font: var(--p-l);
   padding-bottom: 10px;
+}
+
+.dp-Knowledgebase .dp-Breadcrumbs {
+  background-color: var(--grey-lightest);
+  margin-top: -1px;
+  padding: 5px 10px;
 }

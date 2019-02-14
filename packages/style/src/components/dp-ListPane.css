@@ -222,7 +222,7 @@
 }
 
 .View-group li:not(:last-child) {
-  margin-right: 15px;
+  margin-right: 20px;
   position: relative;
 }
 
@@ -232,7 +232,7 @@
   content: "";
   height: 23px;
   position: absolute;
-  right: -7.5px;
+  right: -10px;
   top: -5px;
   width: 1px;
 }

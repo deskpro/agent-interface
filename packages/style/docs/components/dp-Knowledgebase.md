@@ -225,7 +225,7 @@ title: Knowledgebase
 
 <h4>Selected catergory with Articles</h4>
 ```html @preview
-<form class="demo-cog demo-menu">
+<form class="dp-MainWrapper demo-cog demo-menu">
     <ul class="dp-CardList dp-GuidesDirectory dp-Knowledgebase">
 
         <li class="dp-Card-SectionTitle dp-Tasks-list Level-justify-between">
@@ -432,7 +432,7 @@ title: Knowledgebase
                         <li class="dp-Menu-linkItem dp-SortOrder">
                             <span class="dp-RadioWrapper">
                                 <span class="dp-RadioItem">
-                                    <input type="radio" class="dp-Input Input--radio" id="radio-one" value="radio-one">
+                                    <input type="radio" class="dp-Input Input--radio" id="radio-one" value="radio-one" name="radio-one">
                                     <label for="radio-one">Display order</label>
                                 </span>
                             </span>
@@ -449,7 +449,7 @@ title: Knowledgebase
                                 <li class="dp-Menu-linkItem">
                                     <span class="dp-RadioWrapper">
                                         <span class="dp-RadioItem">
-                                            <input type="radio" class="dp-Input Input--radio" id="radiosort-1" value="radiosort-1">
+                                            <input type="radio" class="dp-Input Input--radio" id="radiosort-1" value="radiosort-1" name="radio-one">
                                             <label for="radiosort-1">Sort by</label>
                                         </span>
                                     </span>
@@ -2143,7 +2143,7 @@ title: Knowledgebase
 
 <h4>Show present order of categories in drop down</h4>
 ```html @preview
-<form class="demo-cog demo-menu">
+<form class="dp-MainWrapper demo-cog demo-menu">
     <ul class="dp-CardList dp-GuidesDirectory dp-Knowledgebase">
 
 
@@ -2352,8 +2352,8 @@ title: Knowledgebase
                         <li class="dp-Menu-linkItem dp-SortOrder">
                             <span class="dp-RadioWrapper">
                                 <span class="dp-RadioItem">
-                                    <input type="radio" class="dp-Input Input--radio" id="radio-two" value="radio-two">
-                                    <label for="radio-two">Display order</label>
+                                    <input type="radio" class="dp-Input Input--radio" id="radio-two" value="radio-two" name="radio-two">
+                                    <label for="radio-two">Display order </label>
                                 </span>
                             </span>
                             <span class="dp-Subtitle">The order shown in the portal</span>
@@ -2369,7 +2369,7 @@ title: Knowledgebase
                                 <li class="dp-Menu-linkItem">
                                     <span class="dp-RadioWrapper">
                                         <span class="dp-RadioItem">
-                                            <input type="radio" class="dp-Input Input--radio" id="radiosort-2" value="radiosort-2">
+                                            <input type="radio" class="dp-Input Input--radio" id="radiosort-2" value="radiosort-2" name="radio-two">
                                             <label for="radiosort-2">Sort by</label>
                                         </span>
                                     </span>
@@ -6068,7 +6068,7 @@ title: Knowledgebase
 
 <h4>Select Display Order and then enable drag and drop</h4>
 ```html @preview
-<form class="demo-cog demo-menu">
+<form class="dp-MainWrapper demo-cog demo-menu">
     <ul class="dp-CardList dp-GuidesDirectory dp-Knowledgebase">
 
 
@@ -6277,7 +6277,7 @@ title: Knowledgebase
                         <li class="dp-Menu-linkItem dp-SortOrder">
                             <span class="dp-RadioWrapper">
                                 <span class="dp-RadioItem">
-                                    <input type="radio" class="dp-Input Input--radio" id="radio-three" value="radio-three">
+                                    <input type="radio" class="dp-Input Input--radio" id="radio-three" value="radio-three" name="radio-three">
                                     <label for="radio-three">Display order</label>
                                 </span>
                             </span>
@@ -6295,7 +6295,7 @@ title: Knowledgebase
                                 <li class="dp-Menu-linkItem">
                                     <span class="dp-RadioWrapper">
                                         <span class="dp-RadioItem">
-                                            <input type="radio" class="dp-Input Input--radio" id="radiosort-4" value="radiosort-4">
+                                            <input type="radio" class="dp-Input Input--radio" id="radiosort-4" value="radiosort-4" name="radio-three">
                                             <label for="radiosort-4">Sort by</label>
                                         </span>
                                     </span>
@@ -9939,7 +9939,7 @@ title: Knowledgebase
             <li class="dp-Menu-linkItem dp-SortOrder">
                 <span class="dp-RadioWrapper">
                     <span class="dp-RadioItem">
-                        <input type="radio" class="dp-Input Input--radio" id="test-radioone" value="test-radioone">
+                        <input type="radio" class="dp-Input Input--radio" id="test-radioone" value="test-radioone" name="demo-radio-group-1">
                         <label for="test-radioone">Display order</label>
                     </span>
                 </span>
@@ -9951,7 +9951,7 @@ title: Knowledgebase
                     <li class="dp-Menu-linkItem">
                         <span class="dp-RadioWrapper">
                             <span class="dp-RadioItem">
-                                <input type="radio" class="dp-Input Input--radio" id="radiosort-6" value="radiosort-6">
+                                <input type="radio" class="dp-Input Input--radio" id="radiosort-6" value="radiosort-6" name="demo-radio-group-1">
                                 <label for="radiosort-6">Sort by</label>
                             </span>
                         </span>
@@ -10028,7 +10028,7 @@ title: Knowledgebase
             <li class="dp-Menu-linkItem dp-SortOrder">
                 <span class="dp-RadioWrapper">
                     <span class="dp-RadioItem">
-                        <input type="radio" class="dp-Input Input--radio" id="test-radiotwo" value="test-radiotwo">
+                        <input type="radio" class="dp-Input Input--radio" id="test-radiotwo" value="test-radiotwo" name="demo-radio-group-2">
                         <label for="test-radiotwo">Display order</label>
                     </span>
                 </span>
@@ -10046,7 +10046,7 @@ title: Knowledgebase
                     <li class="dp-Menu-linkItem">
                         <span class="dp-RadioWrapper">
                             <span class="dp-RadioItem">
-                                <input type="radio" class="dp-Input Input--radio" id="radiosort-7" value="radiosort-7">
+                                <input type="radio" class="dp-Input Input--radio" id="radiosort-7" value="radiosort-7" name="demo-radio-group-2">
                                 <label for="radiosort-7">Sort by</label>
                             </span>
                         </span>
@@ -10123,7 +10123,7 @@ title: Knowledgebase
             <li class="dp-Menu-linkItem dp-SortOrder">
                 <span class="dp-RadioWrapper">
                     <span class="dp-RadioItem">
-                        <input type="radio" class="dp-Input Input--radio" id="test-radiothree" value="test-radiothree">
+                        <input type="radio" class="dp-Input Input--radio" id="test-radiothree" value="test-radiothree" name="demo-radio-group-3">
                         <label for="test-radiothree">Display order</label>
                     </span>
                 </span>
@@ -10140,7 +10140,7 @@ title: Knowledgebase
                     <li class="dp-Menu-linkItem">
                         <span class="dp-RadioWrapper">
                             <span class="dp-RadioItem">
-                                <input type="radio" class="dp-Input Input--radio" id="radiosort-8" value="radiosort-8">
+                                <input type="radio" class="dp-Input Input--radio" id="radiosort-8" value="radiosort-8" name="demo-radio-group-3">
                                 <label for="radiosort-8">Sort by</label>
                             </span>
                         </span>

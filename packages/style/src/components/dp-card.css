@@ -497,8 +497,8 @@
 
 .dp-Breadcrumbs {
   align-items: center;
-  background-color: #fff;
-  border-bottom: 1px solid #d3d6d7;
+  background-color: var(--white);
+  border-bottom: 1px solid var(--grey-light);
   border-top: 1px solid var(--brand-primary);
   display: flex;
   justify-content: flex-start;
