@@ -9,22 +9,6 @@
   margin-bottom: 10px;
 }
 
-/* listpane/kanban-view */
-
-/* .dp-KanbanView {
-  max-width: 330px;
-}
-
-.dp-KanbanView .dp-UserEmailItem {
-  display: inline-block;
-  max-width: 70px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  vertical-align: middle;
-  white-space: nowrap;
-}
-*/
-
 /* Listpane/guides */
 
 .dp-MassSelectTitle .dp-ItemRow {
@@ -222,7 +206,7 @@
 }
 
 .View-group li:not(:last-child) {
-  margin-right: 20px;
+  margin-right: 30px;
   position: relative;
 }
 
@@ -232,7 +216,7 @@
   content: "";
   height: 23px;
   position: absolute;
-  right: -10px;
+  right: -15px;
   top: -5px;
   width: 1px;
 }
@@ -273,6 +257,7 @@
 
 .dp-Tasks-list.dp-Card-SectionTitle .dp-Card-title {
   font: var(--h-l-bold);
+  margin-bottom: 0;
   margin-right: 20px;
 }
 

@@ -37,10 +37,6 @@
   fill: var(--white);
 }
 
-.dp-Knowledgebase .dp-Card-SectionTitle.dp-Tasks-list {
-  padding: 15px 10px;
-}
-
 .dp-GuidesDirectory.dp-Knowledgebase .dp-TitleGroupe .dp-Icon {
   background-size: 14px 11px;
   height: 15px;

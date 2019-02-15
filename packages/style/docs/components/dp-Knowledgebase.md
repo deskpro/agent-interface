@@ -229,7 +229,7 @@ title: Knowledgebase
     <ul class="dp-CardList dp-GuidesDirectory dp-Knowledgebase">
 
         <li class="dp-Card-SectionTitle dp-Tasks-list Level-justify-between">
-            <span class="dp-LevelCol">
+            <span class="dp-LevelCol dp-ListName">
                 <span class="dp-Icon Icon--menu"></span>
                 <span class="dp-Card-title">Knowledgebase</span>
                 <span class="dp-Icon Icon--down-caret Icon--primary"></span>

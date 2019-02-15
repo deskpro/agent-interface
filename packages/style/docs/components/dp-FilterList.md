@@ -14,21 +14,21 @@ title: Filter list
 ```html @preview
 <div class="dp-MainWrapper">
 	<div class="dp-Tickets">
-		<div class="dp-dropdownContainer">
-			<div class="dp-Title">
-				<div class="dp-TitleName">
-					<span class="dp-Icon dp-menu"></span>
-					All tickets <span class="dp-qt">(90)</span>
-					<!-- <span class="dp-Icon Icon--down-caret Icon--primary"></span> -->
-					<span class="dp-Icon Icon--down-caret Icon--primary"></span>
-				</div>
-				<div class="dp-TicketsThumb">
-					<span class="dp-Icon dp-list_view"></span>
-					<span class="dp-Icon dp-table_view"></span>
-					<span class="dp-Icon dp-kanban_view"></span>
-				</div>
-			</div>
-		</div>
+
+        <div class="dp-Card-SectionTitle dp-Tasks-list Level-justify-between">
+            <span class="dp-LevelCol dp-ListName">
+                <span class="dp-Icon Icon--menu"></span>
+                <span class="dp-Card-title">All tickets<span class="dp-qt">(90)</span></span>
+                <span class="dp-Icon Icon--down-caret Icon--primary"></span>
+            </span>
+
+            <ul class="View-group">
+                <li class="dp-Icon dp-list_view is-active"></li>
+                <li class="dp-Icon dp-table_view"></li>
+                <li class="dp-Icon dp-kanban_view"></li>
+            </ul>
+        </div>
+
 	</div>
 </div>
 ```
@@ -36,16 +36,22 @@ title: Filter list
 <h4>filterlist/filters-selected</h4>
 ```html @preview
 <div class="dp-MainWrapper">
-	<div class="dp-Tickets">
-		<div class="dp-dropdownContainer">
-			<div class="dp-Title is-active">
-				<div class="dp-TitleName">
-					<span class="dp-Icon dp-menu"></span>
-					All tickets <span class="dp-qt">(90)</span>
-					<span class="dp-Icon Icon--down-caret Icon--primary"></span>
-				</div>
-			</div>
-		</div>
+	<div class="dp-Tickets is-active">
+
+        <div class="dp-Card-SectionTitle dp-Tasks-list Level-justify-between">
+            <span class="dp-LevelCol dp-ListName">
+                <span class="dp-Icon Icon--menu"></span>
+                <span class="dp-Card-title">All tickets<span class="dp-qt">(90)</span></span>
+                <span class="dp-Icon Icon--down-caret Icon--primary"></span>
+            </span>
+
+            <ul class="View-group">
+                <li class="dp-Icon dp-list_view is-active"></li>
+                <li class="dp-Icon dp-table_view"></li>
+                <li class="dp-Icon dp-kanban_view"></li>
+            </ul>
+        </div>
+
 	</div>
 </div>
 ```
@@ -122,17 +128,18 @@ title: Filter list
 <div class="dp-MainWrapper">
 
 	<div class="dp-FilterlistContainer">
-		<div class="dp-Tickets">
-			<div class="dp-dropdownContainer">
-				<div class="dp-Title is-active">
-					<div class="dp-TitleName">
-						<span class="dp-Icon dp-menu"></span>
-						All tickets <span class="dp-qt">(90)</span>
-						<span class="dp-Icon Icon--down-caret Icon--primary"></span>
-					</div>
-				</div>
+
+		<div class="dp-Tickets is-active">
+
+			<div class="dp-Card-SectionTitle dp-Tasks-list Level-justify-between">
+				<span class="dp-LevelCol dp-ListName">
+					<span class="dp-Icon Icon--menu"></span>
+					<span class="dp-Card-title">All tickets<span class="dp-qt">(90)</span></span>
+					<span class="dp-Icon Icon--down-caret Icon--primary"></span>
+				</span>
 			</div>
 		</div>
+
 		<ul class="dp-TicketMenu is-active">
 			<li class="dp-TicketMenuItem dp-MenuBarItem is-active">
 				<span class="dp-TitleMenu">
@@ -312,16 +319,16 @@ title: Filter list
 <div class="dp-MainWrapper">
 
 	<div class="dp-FilterlistContainer">
-		<div class="dp-Tickets">
-			<div class="dp-dropdownContainer">
-				<div class="dp-Title is-active">
-					<div class="dp-TitleName">
-						<span class="dp-Icon dp-menu"></span>
-						All tickets <span class="dp-qt">(90)</span>
-						<span class="dp-Icon Icon--down-caret Icon--primary"></span>
-					</div>
-					<span class="dp-Icon dp-lock Icon--primary"></span>
-				</div>
+
+		<div class="dp-Tickets is-active">
+			<div class="dp-Card-SectionTitle dp-Tasks-list Level-justify-between">
+				<span class="dp-LevelCol dp-ListName">
+					<span class="dp-Icon Icon--menu"></span>
+					<span class="dp-Card-title">All tickets<span class="dp-qt">(90)</span></span>
+					<span class="dp-Icon Icon--down-caret Icon--primary"></span>
+				</span>
+
+				<span class="dp-Icon dp-lock Icon--primary"></span>
 			</div>
 		</div>
 

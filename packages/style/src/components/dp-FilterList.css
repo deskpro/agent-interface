@@ -14,9 +14,9 @@
   background-color: var(--white);
 }
 
-.dp-FilterlistContainer .dp-Tickets {
+/* .dp-FilterlistContainer .dp-Tickets {
   border-bottom: 1px solid var(--brand-primary);
-}
+} */
 
 .dp-Tickets .dp-Icon.dp-lock {
   background-size: 12px 15px;
@@ -42,27 +42,22 @@
   background-color: transparent;
 }
 
-.dp-Tickets .dp-TitleName {
+.dp-Card-SectionTitle.dp-Tasks-list {
+  padding: 15px 15px 15px 10px;
+}
+
+.dp-Tickets .dp-ListName {
   align-items: center;
   cursor: pointer;
   display: flex;
-  font: var(--h-l-semibold);
 }
 
-.dp-TitleName .dp-Icon.dp-menu {
-  margin-right: 8px;
-}
-
-.dp-TitleName .dp-qt {
-  margin-right: 8px;
+.dp-Tickets.is-active .dp-ListName .dp-Card-title + .dp-Icon {
+  transform: rotate(-180deg);
 }
 
 .dp-BorderBlue {
   border: 2px solid var(--brand-primary);
-}
-
-.dp-Title.is-active .dp-Icon.Icon--down-caret {
-  transform: rotate(-180deg);
 }
 
 .dp-Tickets .dp-TicketsThumb .dp-Icon {
@@ -88,13 +83,13 @@
   display: block;
 }
 
+.dp-Tickets.is-active .dp-Card-SectionTitle {
+  border-bottom: 1px solid var(--brand-primary);
+}
+
 .dp-TicketMenu, .dp-SubMenu {
   list-style: none;
   padding: 0;
-}
-
-.dp-IconAgent {
-  margin-left: 4px;
 }
 
 .dp-TicketMenu .dp-TicketMenuItem {
@@ -158,6 +153,10 @@
 
 .dp-TicketMenu .dp-SubMenu a.is-active .dp-SubNum {
   color: var(--white);
+}
+
+.dp-TicketMenu .dp-SubMenu a .dp-Icon {
+  margin-left: 10px;
 }
 
 .dp-Tickets .dp-SubNum {
