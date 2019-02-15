@@ -58,6 +58,10 @@
   background-color: inherit;
 }
 
+.dp-GuidesDirectory.dp-Knowledgebase .dp-orderingbar--Wrap ~ .dp-Card:hover {
+  border-right: 1px solid transparent;
+}
+
 .dp-GuidesDirectory.dp-Knowledgebase .dp-Card .dp-Card-title {
   color: var(--brand-primary);
 }
@@ -202,8 +206,15 @@
   top: calc(100% + 2px);
 }
 
+.dp-Menu.Menu-tick > .dp-Menu-linkItem.dp-SortOrder,
+.dp-SortList ul > .dp-Menu-linkItem {
+  margin: 0;
+  padding: 3.5px 11px 3.5px 30px;
+}
+
 .dp-Menu.Menu-tick > .dp-Menu-linkItem.dp-SortList {
-  padding: 0;
+  margin: 0;
+  padding: 0 0 10px;
 }
 
 .dp-SortList ul {
@@ -211,21 +222,26 @@
   width: 100%;
 }
 
-.dp-SortList ul > .dp-Menu-linkItem {
-  padding: 3.5px 10px 3.5px 25px;
-}
-
-.dp-Knowledgebase .dp-Menu.Menu-tick > ul > .dp-Menu-linkItem .dp-listItem::after {
-  left: -25px;
-}
-
 .dp-SortOrder .dp-CustomCheckbox input[type="checkbox"] + label {
   font: var(--p-l);
   padding-bottom: 10px;
+  padding-left: 19px;
+}
+
+.dp-SortOrder .dp-CustomCheckbox input[type="checkbox"] + label::before,
+.dp-SortOrder .dp-CustomCheckbox input[type="checkbox"] + label::after {
+  top: 1px;
 }
 
 .dp-Knowledgebase .dp-Breadcrumbs {
   background-color: var(--grey-lightest);
   margin-top: -1px;
   padding: 5px 10px;
+}
+
+.dp-Knowledgebase .dp-Menu.Menu-tick > .dp-Menu-linkItem .dp-listItem::after {
+  height: 22px;
+  left: 4px;
+  top: -1px;
+  width: 22px;
 }

@@ -9,19 +9,15 @@ title: Knowledgebase
 <div class="dp-MainWrapper demo-cog demo-menu">
 
     <div class="dp-FilterlistContainer dp-Knowledgebase">
-        <div class="dp-Tickets">
-            <div class="dp-dropdownContainer">
-                <div class="dp-Title is-active">
-                    <div class="dp-TitleName">
-                        <span>
-                            <span class="dp-Icon dp-menu"></span>
-                            Publish
-                        </span>
-                        <span class="dp-Icon Icon--down-caret Icon--primary"></span>
-                    </div>
-                </div>
-            </div>
-        </div>
+
+        <span class="dp-Card-SectionTitle dp-Tasks-list Level-justify-between">
+            <span class="dp-LevelCol dp-ListName">
+                <span class="dp-Icon Icon--menu"></span>
+                <span class="dp-Card-title">Publish</span>
+            </span>
+            <span class="dp-Icon Icon--down-caret Icon--primary"></span>
+        </span>
+
         <ul class="dp-TicketMenu is-active">
             <li class="dp-TicketMenuItem dp-MenuBarItem">
                 <span class="dp-TitleMenu">
