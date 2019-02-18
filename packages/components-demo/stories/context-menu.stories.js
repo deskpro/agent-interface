@@ -6,6 +6,7 @@ import { action } from "@storybook/addon-actions";
 import {
   ContextMenuArea,
   ContextMenuProvider,
+  ContextMenu,
   Menu
 } from "@deskpro/agent-interface-components";
 
@@ -22,10 +23,10 @@ storiesOf("ContextMenu", module).add("ContextMenu", () => (
           justifyContent: "center"
         }}
       >
-        Right click will open menu
-      </div>{" "}
+        Right click will open a context menu
+      </div>
     </ContextMenuArea>
-    <Menu menuId="context-menu-1">
+    <ContextMenu menuId="context-menu-1">
       <Menu.MenuItem
         key="copy"
         text="Copy"
@@ -38,6 +39,6 @@ storiesOf("ContextMenu", module).add("ContextMenu", () => (
         icon="paste"
         onClick={action("click past")}
       />
-    </Menu>
+    </ContextMenu>
   </ContextMenuProvider>
 ));

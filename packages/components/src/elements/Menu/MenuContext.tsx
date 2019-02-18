@@ -56,14 +56,9 @@ const menuReducer = produce((state: MenuContextType, { type, payload }) => {
           pos.y = 0;
         }
       } else if (payload.menuType === "cog") {
-        const {
-          top,
-          left,
-          height
-        } = e.target.parentNode.getBoundingClientRect();
         pos = {
-          x: left + 2,
-          y: top + height + 5
+          x: 2,
+          y: 5
         };
       }
 

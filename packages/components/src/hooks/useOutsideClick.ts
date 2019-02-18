@@ -7,7 +7,8 @@ export default function useOutsideClick(
   useEffect(() => {
     const handler = (e: MouseEvent | TouchEvent) => {
       if (ref.current && !ref.current.contains(e.target as Node)) {
-        // e.stopPropagation();
+        e.preventDefault();
+        e.stopPropagation();
         cb(e);
       }
     };

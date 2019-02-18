@@ -7,7 +7,7 @@ import CardList from "./CardList";
 import SimpleCard from "./SimpleCard";
 import TicketCard from "./TicketCard/TicketCard";
 import TaskCard from "./TaskCard";
-import Menu, { MenuProps } from "../../elements/Menu/Menu";
+import { MenuProps } from "../../elements/Menu/Menu";
 import Cog from "../../elements/Cog/Cog";
 // import "@deskpro/agent-interface-style/dist/components/dp-ListPane.css";
 import "@deskpro/agent-interface-style/dist/components/dp-Level.css";
@@ -34,7 +34,7 @@ export type BasicCardProps = {
     cardId: React.Key,
     event: React.MouseEvent<HTMLElement> | React.KeyboardEvent<HTMLElement>
   ): void;
-  renderCogMenu?: (menuProps: Partial<MenuProps>) => React.ReactElement<Menu>;
+  renderCogMenu?: (menuProps: Partial<MenuProps>) => React.ReactElement<any>;
 };
 
 const Card: React.FC<BasicCardProps> & CardSubComponents = ({
@@ -61,30 +61,24 @@ const Card: React.FC<BasicCardProps> & CardSubComponents = ({
     },
     [cardId]
   );
-
-  // calculate position of the cog icon.
-  const cardRef = React.useRef<HTMLDivElement>(null);
-  const position = React.useMemo(
-    () => {
-      if (cardRef.current instanceof HTMLDivElement) {
-        const {
-          top,
-          left,
-          width,
-          height
-        } = cardRef.current.getBoundingClientRect();
-        return {
-          x: left + width,
-          y: top + height / 2
-        };
-      }
-      return { x: 0, y: 0 };
-    },
-    [cardRef.current]
-  );
-
   // track the mouse movement over the card.
   const [isMouseOver, setIsMouseOver] = React.useState(false);
+
+  // calculate position of the cog icon.
+  let position = { x: 0, y: 0 };
+  const cardRef = React.useRef<HTMLDivElement>(null);
+  if (cardRef.current instanceof HTMLDivElement) {
+    const {
+      top,
+      left,
+      width,
+      height
+    } = cardRef.current.getBoundingClientRect();
+    position = {
+      x: left + width,
+      y: top + height / 2
+    };
+  }
 
   return (
     <div
