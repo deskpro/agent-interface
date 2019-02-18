@@ -9,7 +9,9 @@ import {
   ContextMenuProvider,
   ContextMenu,
   Menu,
-  Card
+  Card,
+  Icon,
+  ActionsButton
 } from "@deskpro/agent-interface-components";
 
 storiesOf("ContextMenu", module)
@@ -64,6 +66,58 @@ storiesOf("ContextMenu", module)
             Hover the card to see a cog menu.
           </Card.TicketCard>
         </Card.List>
+      </div>
+    </ContextMenuProvider>
+  ))
+  .add("Actions Button", () => (
+    <ContextMenuProvider>
+      <div
+        style={{
+          display: "flex",
+          width: "100%",
+          justifyContent: "flex-start",
+          padding: "10px"
+        }}
+      >
+        <ActionsButton
+          buttonId="actions-btn"
+          renderMenu={menuProps => (
+            <Menu {...menuProps}>
+              <Menu.MenuItem
+                icon="copy"
+                text="Copy"
+                onClick={action("copy action")}
+              />
+            </Menu>
+          )}
+        >
+          <Icon name="lock" size={16} />
+          Actions
+        </ActionsButton>
+      </div>
+      <div
+        style={{
+          display: "flex",
+          width: "100%",
+          justifyContent: "flex-end",
+          padding: "10px"
+        }}
+      >
+        <ActionsButton
+          buttonId="actions-btn-2"
+          renderMenu={menuProps => (
+            <Menu {...menuProps}>
+              <Menu.MenuItem
+                icon="copy"
+                text="Copy by clicking this menu item"
+                onClick={action("copy action")}
+              />
+            </Menu>
+          )}
+        >
+          <Icon name="lock" size={16} />
+          Actions
+        </ActionsButton>
       </div>
     </ContextMenuProvider>
   ));

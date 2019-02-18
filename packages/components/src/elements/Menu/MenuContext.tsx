@@ -60,6 +60,11 @@ const menuReducer = produce((state: MenuContextType, { type, payload }) => {
           x: 2,
           y: 5
         };
+      } else if (payload.menuType === "dropdown") {
+        pos = {
+          x: e.target.offsetLeft,
+          y: e.target.offsetTop + e.target.offsetHeight + 3
+        };
       }
 
       state.position = pos;

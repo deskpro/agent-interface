@@ -15,6 +15,7 @@ export interface ButtonProps {
     | "square";
   color?: DPColor;
   className?: string;
+  buttonRef?: React.RefObject<HTMLButtonElement>;
   onClick(e: React.MouseEvent<HTMLElement>): void;
 }
 
@@ -25,6 +26,7 @@ const Button: React.FC<ButtonProps> = ({
   variant = "contained",
   color = "primary",
   className,
+  buttonRef,
   ...props
 }) => (
   <button
@@ -38,6 +40,7 @@ const Button: React.FC<ButtonProps> = ({
       },
       className
     )}
+    ref={buttonRef}
     onClick={handleClick}
     {...props}
   >

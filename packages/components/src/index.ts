@@ -1,4 +1,5 @@
 export { default as Button } from "./Button/Button";
+export { default as ActionsButton } from "./Button/ActionsButton";
 export { default as Icon } from "./elements/Icon/Icon";
 export { default as IconGroup } from "./elements/Icon/IconGroup";
 export { default as Tag } from "./elements/Badges/Tag";
