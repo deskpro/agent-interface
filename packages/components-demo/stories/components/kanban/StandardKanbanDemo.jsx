@@ -1,11 +1,11 @@
 import React from "react";
 import PropTypes from "prop-types";
 import produce from "immer";
+import { subHours } from "date-fns";
 
 import {
   StandardKanban,
   Card,
-  UserInfo,
   Menu,
   ContextMenuProvider
 } from "@deskpro/agent-interface-components";
@@ -82,14 +82,22 @@ const StandardKanbanDemo = ({ action, allowReorder }) => {
               isDragging={isDragging}
               checkable
               onCheck={action(`toggle check for ${card.title}`)}
-              statusLabel="1h 25 min"
+              status={
+                <Card.TicketCard.Status lastUpdate={subHours(new Date(), 2)} />
+              }
               renderCogMenu={menuProps => (
                 <Menu {...menuProps}>
                   <Menu.MenuItem key="bin" icon="bin" text="Delete" />
                 </Menu>
               )}
             >
-              <UserInfo avatar name="John Doe" email="john.doe@deskpro.com" />
+              <Card.TicketCard.Details
+                user={{
+                  name: "John Doe",
+                  email: "john.doe@example.com",
+                  avatar: true
+                }}
+              />
             </Card.TicketCard>
           )}
         />

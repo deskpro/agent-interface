@@ -1,10 +1,10 @@
 import React from "react";
 import PropTypes from "prop-types";
+import { subHours } from "date-fns";
 
 import {
   Kanban,
   Card,
-  UserInfo,
   Menu,
   ContextMenuProvider
 } from "@deskpro/agent-interface-components";
@@ -37,17 +37,23 @@ const CardKanban = ({ action }) => {
                         isDragging={isDragging}
                         checkable
                         onCheck={action("click 11")}
-                        statusLabel="1h 25 min"
+                        status={
+                          <Card.TicketCard.Status
+                            lastUpdate={subHours(new Date(), 1)}
+                          />
+                        }
                         renderCogMenu={menuProps => (
                           <Menu {...menuProps}>
                             <Menu.MenuItem key="bin" icon="bin" text="Delete" />
                           </Menu>
                         )}
                       >
-                        <UserInfo
-                          avatar
-                          name="John Doe"
-                          email="john.doe@deskpro.com"
+                        <Card.TicketCard.Details
+                          user={{
+                            name: "John Doe",
+                            email: "john.doe@example.com",
+                            avatar: true
+                          }}
                         />
                       </Card.TicketCard>
                     )}
