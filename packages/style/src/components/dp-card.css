@@ -378,6 +378,11 @@
   width: 18px;
 }
 
+.dp-Cog.is-active .dp-Icon svg,
+.dp-Cog:hover .dp-Icon svg {
+  fill: var(--brand-primary);
+}
+
 /* Card Row */
 
 .Card--row .dp-Card {
@@ -626,4 +631,15 @@
 
 .dp-Icon.Icon--on-hold svg {
   border-radius: 50%;
+}
+
+/* dp-Kanban */
+
+.dp-Kanban-column .dp-Card-SectionTitle {
+  border: 1px solid var(--grey);
+}
+
+.dp-Kanban-column .dp-Kanban-columnContent {
+  border: 1px solid var(--grey);
+  border-top: 0;
 }

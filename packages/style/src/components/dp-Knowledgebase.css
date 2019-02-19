@@ -272,3 +272,8 @@
 .dp-GuidesDirectory .dp-Card.is-reordering:hover .dp-IconGroup {
   display: none;
 }
+
+.dp-Knowledgebase .dp-RadioWrapper .dp-RadioItem {
+  align-items: center;
+  display: flex;
+}
