@@ -1,75 +1,80 @@
 import * as React from "react";
 
 import Button, { ButtonProps } from "./Button";
-import { MenuContext } from "../elements/Menu/MenuContext";
 import Portal from "../common/Portal/Portal";
 import useWindowSize from "../hooks/useWindowSize";
+import useOutsideClick from "../hooks/useOutsideClick";
+import useMenu from "../hooks/useMenu";
+import { MenuProps } from "../elements/Menu/Menu";
 
 export type ActionsButtonProps = ButtonProps & {
-  /** Unique identifier to use for menu */
-  buttonId: string;
-  renderMenu: (menuProps) => React.ReactElement<any>;
+  renderMenu: (menuProps: Partial<MenuProps>) => React.ReactElement<any>;
 };
 
-const ActionsButton = ({ buttonId, renderMenu, ...props }) => {
-  const {
-    visibleMenu,
-    position,
-    show,
-    hide,
-    updatePosition
-  } = React.useContext(MenuContext);
-  const buttonRef = React.useRef<HTMLButtonElement>(null);
-  const menuRef = React.useRef<HTMLUListElement>(null);
-
-  const handleButtonClick = React.useCallback(
-    e => {
-      if (visibleMenu === buttonId) {
-        hide();
-      } else {
-        e.persist();
-        show(e, { menuId: buttonId, menuType: "dropdown" });
-      }
-    },
-    [visibleMenu]
-  );
-
+function useMenuPosition(buttonRef, menuRef, isVisible) {
   const windowSize = useWindowSize();
+  const [menuStyles, setStyles] = React.useState({ top: 0, left: 0 });
+
   React.useEffect(
     () => {
-      if (
-        buttonRef.current instanceof HTMLButtonElement &&
-        menuRef.current instanceof HTMLUListElement
-      ) {
-        const { width: windowWidth, height: windowHeight } = windowSize;
-        let { x, y } = position;
-        const { width, height } = buttonRef.current.getBoundingClientRect();
-        if (windowWidth && x + menuRef.current.offsetWidth > windowWidth) {
-          x -= menuRef.current.offsetWidth - width;
-        }
-        if (windowHeight && y + menuRef.current.offsetHeight > windowHeight) {
-          y -= menuRef.current.offsetHeight + height;
-        }
-        updatePosition({ x, y });
+      if (!isVisible) {
+        return;
       }
+      const styles = { ...menuStyles };
+      if (buttonRef.current instanceof HTMLButtonElement) {
+        styles.left = buttonRef.current.offsetLeft;
+        styles.top =
+          buttonRef.current.offsetTop + buttonRef.current.offsetHeight + 3;
+
+        if (menuRef.current instanceof HTMLUListElement) {
+          const { width: windowWidth, height: windowHeight } = windowSize;
+          if (
+            windowWidth &&
+            styles.left + menuRef.current.offsetWidth > windowWidth
+          ) {
+            styles.left -=
+              menuRef.current.offsetWidth - buttonRef.current.offsetWidth;
+          }
+          if (
+            windowHeight &&
+            styles.top + menuRef.current.offsetHeight > windowHeight
+          ) {
+            styles.top -=
+              menuRef.current.offsetHeight + buttonRef.current.offsetHeight;
+          }
+        }
+      }
+
+      setStyles(styles);
     },
-    [buttonRef, visibleMenu === buttonId]
+    [buttonRef, menuRef, isVisible]
   );
+
+  return menuStyles;
+}
+
+const ActionsButton = ({ renderMenu, ...props }) => {
+  const { isVisible: menuIsVisible, hideMenu, toggleMenu } = useMenu();
+
+  const buttonRef = React.useRef<HTMLButtonElement>(null);
+  const menuRef = React.useRef<HTMLUListElement>(null);
+  useOutsideClick(buttonRef, hideMenu);
+  const menuStyles = useMenuPosition(buttonRef, menuRef, menuIsVisible);
 
   return (
     <>
       <Button
         {...props}
-        onClick={handleButtonClick}
+        onClick={toggleMenu}
         variant="actions"
         buttonRef={buttonRef}
       />
       <Portal>
-        {visibleMenu === buttonId &&
+        {menuIsVisible &&
           renderMenu({
-            menuId: buttonId,
             menuRef,
-            style: { left: position.x, top: position.y }
+            style: menuStyles,
+            onMenuClose: hideMenu
           })}
       </Portal>
     </>

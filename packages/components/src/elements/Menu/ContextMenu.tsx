@@ -1,57 +1,101 @@
 import * as React from "react";
 
 import Menu, { MenuProps } from "./Menu";
-import { MenuContext } from "./MenuContext";
 import Portal from "../../common/Portal/Portal";
 
 import useOutsideClick from "../../hooks/useOutsideClick";
 import useWindowSize from "../../hooks/useWindowSize";
+import useMenu from "../../hooks/useMenu";
 
-const ContextMenu: React.FC<MenuProps> = ({ menuId, ...props }) => {
-  const { visibleMenu, position, hide, updatePosition } = React.useContext(
-    MenuContext
-  );
+export type ContextMenuProps = {
+  triggerEvent?: "onClick" | "onContextMenu" | "onDoubleClick";
+  renderMenu: (menuProps: Partial<MenuProps>) => React.ReactElement<Menu>;
+};
+
+const ContextMenu: React.FC<ContextMenuProps> = ({
+  triggerEvent = "onContextMenu",
+  renderMenu,
+  children,
+  ...props
+}) => {
+  const { isVisible: menuIsVisible, hideMenu, showMenu } = useMenu();
 
   const menuRef = React.useRef<HTMLUListElement>(null);
+  useOutsideClick(menuRef, hideMenu);
 
-  useOutsideClick(menuRef, hide);
+  const [menuStyles, setStyles] = React.useState({ top: 0, left: 0 });
+
+  const handleContextMenuClick = React.useCallback(e => {
+    e.preventDefault();
+
+    const pos = {
+      left: e.clientX,
+      top: e.clientY
+    };
+
+    if (
+      e.type === "touchend" &&
+      (!pos.left || !pos.top) &&
+      (e.changedTouches && e.changedTouches.length > 0)
+    ) {
+      pos.left = e.changedTouches[0].clientX;
+      pos.top = e.changedTouches[0].clientY;
+    }
+
+    if (!pos.left || pos.left < 0) {
+      pos.left = 0;
+    }
+
+    if (!pos.top || pos.top < 0) {
+      pos.top = 0;
+    }
+
+    showMenu();
+    setStyles(pos);
+  }, []);
+
   const windowSize = useWindowSize();
-
   React.useEffect(
     () => {
       if (menuRef.current instanceof HTMLUListElement) {
         const { width: windowWidth, height: windowHeight } = windowSize;
-        let { x, y } = position;
+        const styles = { ...menuStyles };
         const {
           offsetWidth: menuWidth,
           offsetHeight: menuHeight
         } = menuRef.current;
 
-        if (windowWidth && x + menuWidth > windowWidth) {
-          x -= x + menuWidth - windowWidth;
+        if (windowWidth && styles.left + menuWidth > windowWidth) {
+          styles.left -= styles.left + menuWidth - windowWidth;
         }
 
-        if (windowHeight && y + menuHeight > windowHeight) {
-          y -= y + menuHeight - windowHeight;
+        if (windowHeight && styles.top + menuHeight > windowHeight) {
+          styles.top -= styles.top + menuHeight - windowHeight;
         }
 
-        updatePosition({ x, y });
+        setStyles(styles);
       }
     },
-    [menuRef.current, windowSize, visibleMenu === menuId]
+    [menuRef.current, windowSize, menuIsVisible]
   );
 
   return (
-    <Portal>
-      {visibleMenu === menuId && (
-        <Menu
-          menuId={menuId}
-          {...props}
-          style={{ top: position.y, left: position.x }}
-          menuRef={menuRef}
-        />
-      )}
-    </Portal>
+    <>
+      <span
+        className="dp-ContextMenuWrapper"
+        style={{ display: "inline-block" }}
+        {...{
+          [triggerEvent]: handleContextMenuClick
+        }}
+        {...props}
+      >
+        {children}
+      </span>
+      <Portal>
+        {menuIsVisible &&
+          renderMenu({ style: menuStyles, menuRef, onMenuClose: hideMenu })}
+      </Portal>
+    </>
   );
 };
 

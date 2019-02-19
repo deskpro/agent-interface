@@ -2,7 +2,7 @@ import * as React from "react";
 import classNames from "classnames";
 
 import Icon from "../Icon/Icon";
-import { MenuContext } from "./MenuContext";
+import { MenuContext } from "./Menu";
 
 export type MenuItemProps = {
   icon?: string;
@@ -23,14 +23,16 @@ const MenuItem: React.FC<MenuItemProps> = ({
   linkComponent = "a",
   ...itemProps
 }) => {
-  const { hide } = React.useContext(MenuContext);
+  const { onMenuClose } = React.useContext(MenuContext);
   const clickHandler = React.useCallback(
     e => {
       if (link || onClick) {
         if (typeof onClick === "function") {
           onClick(e);
         }
-        hide();
+        if (typeof onMenuClose === "function") {
+          onMenuClose();
+        }
       }
     },
     [link, onClick]

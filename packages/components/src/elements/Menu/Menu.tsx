@@ -11,8 +11,13 @@ type MenuSubComponents = {
   MenuSearch: typeof MenuSearchItem;
 };
 
+export type MenuContextType = {
+  onMenuClose?: () => void;
+};
+
+export const MenuContext = React.createContext<MenuContextType>({});
+
 export type MenuProps = {
-  menuId: string;
   menuRef?: React.Ref<HTMLUListElement>;
   className?: string;
   style?: any;
@@ -20,6 +25,7 @@ export type MenuProps = {
   isVisible?: boolean;
   linkComponent?: any;
   children: React.ReactElement<any>[];
+  onMenuClose?: () => void;
 };
 
 const hasIcons = (children: React.ReactNodeArray) =>
@@ -28,32 +34,34 @@ const hasIcons = (children: React.ReactNodeArray) =>
   );
 
 const Menu: React.FC<MenuProps> & MenuSubComponents = ({
-  menuId,
   menuRef,
   className,
   title,
   children,
   linkComponent = "a",
   isVisible = false,
+  onMenuClose,
   ...otherProps
 }) => (
-  <ul
-    className={classNames("dp-Menu", className, {
-      [`Menu--icons`]: hasIcons(children),
-      "is-visible": true
-    })}
-    {...otherProps}
-    ref={menuRef}
-  >
-    {!!title && <li className="dp-Menu-title">{title}</li>}
-    {React.Children.map(
-      children as React.ReactElement<any>[],
-      (child: React.ReactElement<any>) =>
-        React.cloneElement(child, {
-          linkComponent
-        })
-    )}
-  </ul>
+  <MenuContext.Provider value={{ onMenuClose }}>
+    <ul
+      className={classNames("dp-Menu", className, {
+        [`Menu--icons`]: hasIcons(children),
+        "is-visible": true
+      })}
+      {...otherProps}
+      ref={menuRef}
+    >
+      {!!title && <li className="dp-Menu-title">{title}</li>}
+      {React.Children.map(
+        children as React.ReactElement<any>[],
+        (child: React.ReactElement<any>) =>
+          React.cloneElement(child, {
+            linkComponent
+          })
+      )}
+    </ul>
+  </MenuContext.Provider>
 );
 
 Menu.MenuItem = MenuItem;

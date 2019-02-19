@@ -8,7 +8,7 @@ import SimpleCard from "./SimpleCard";
 import TicketCard from "./TicketCard/TicketCard";
 import TaskCard from "./TaskCard";
 import { MenuProps } from "../../elements/Menu/Menu";
-import Cog from "../../elements/Cog/Cog";
+import Cog from "../../elements/Menu/CogMenu";
 // import "@deskpro/agent-interface-style/dist/components/dp-ListPane.css";
 import "@deskpro/agent-interface-style/dist/components/dp-Level.css";
 import "@deskpro/agent-interface-style/dist/components/dp-card.css";
@@ -100,7 +100,6 @@ const Card: React.FC<BasicCardProps> & CardSubComponents = ({
       {children}
       {!!renderCogMenu && (
         <Cog
-          menuId={cardId.toString()}
           renderMenu={renderCogMenu}
           isVisible={isMouseOver}
           position={position}

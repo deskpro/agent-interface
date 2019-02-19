@@ -6,8 +6,7 @@ import { subHours } from "date-fns";
 import {
   StandardKanban,
   Card,
-  Menu,
-  ContextMenuProvider
+  Menu
 } from "@deskpro/agent-interface-components";
 
 const columns = ["Backlog", "Started", "In Progress", "Review", "QA", "Closed"];
@@ -67,42 +66,40 @@ const StandardKanbanDemo = ({ action, allowReorder }) => {
   const [data, dispatch] = React.useReducer(kanbanReducer, [], initCards);
 
   return (
-    <ContextMenuProvider>
-      <div style={{ height: "100vh", width: "100vw" }}>
-        <StandardKanban
-          className="Kanban--cards"
-          allowReorder={allowReorder}
-          data={data}
-          onDragEnd={payload => dispatch({ type: "moveItem", payload })}
-          onLoadMore={group => dispatch({ type: "loadMore", payload: group })}
-          renderCard={(card, { isDragging }) => (
-            <Card.TicketCard
-              cardId={card.id}
-              title={card.title}
-              isDragging={isDragging}
-              checkable
-              onCheck={action(`toggle check for ${card.title}`)}
-              status={
-                <Card.TicketCard.Status lastUpdate={subHours(new Date(), 2)} />
-              }
-              renderCogMenu={menuProps => (
-                <Menu {...menuProps}>
-                  <Menu.MenuItem key="bin" icon="bin" text="Delete" />
-                </Menu>
-              )}
-            >
-              <Card.TicketCard.Details
-                user={{
-                  name: "John Doe",
-                  email: "john.doe@example.com",
-                  avatar: true
-                }}
-              />
-            </Card.TicketCard>
-          )}
-        />
-      </div>
-    </ContextMenuProvider>
+    <div style={{ height: "100vh", width: "100vw" }}>
+      <StandardKanban
+        className="Kanban--cards"
+        allowReorder={allowReorder}
+        data={data}
+        onDragEnd={payload => dispatch({ type: "moveItem", payload })}
+        onLoadMore={group => dispatch({ type: "loadMore", payload: group })}
+        renderCard={(card, { isDragging }) => (
+          <Card.TicketCard
+            cardId={card.id}
+            title={card.title}
+            isDragging={isDragging}
+            checkable
+            onCheck={action(`toggle check for ${card.title}`)}
+            status={
+              <Card.TicketCard.Status lastUpdate={subHours(new Date(), 2)} />
+            }
+            renderCogMenu={menuProps => (
+              <Menu {...menuProps}>
+                <Menu.MenuItem key="bin" icon="bin" text="Delete" />
+              </Menu>
+            )}
+          >
+            <Card.TicketCard.Details
+              user={{
+                name: "John Doe",
+                email: "john.doe@example.com",
+                avatar: true
+              }}
+            />
+          </Card.TicketCard>
+        )}
+      />
+    </div>
   );
 };
 
