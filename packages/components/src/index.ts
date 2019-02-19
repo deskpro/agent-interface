@@ -1,4 +1,5 @@
 export { default as Button } from "./Button/Button";
+export { default as ActionsButton } from "./Button/ActionsButton";
 export { default as Icon } from "./elements/Icon/Icon";
 export { default as IconGroup } from "./elements/Icon/IconGroup";
 export { default as Tag } from "./elements/Badges/Tag";
@@ -24,6 +25,7 @@ export {
 
 export { default as Tabs } from "./elements/Tabs/Tabs";
 export { default as Menu } from "./elements/Menu/Menu";
+export { default as ContextMenu } from "./elements/Menu/ContextMenu";
 export { default as Header } from "./elements/Header/Header";
 export { default as ModuleBar } from "./elements/ModuleBar/ModuleBar";
 export { default as ModuleBarMenu } from "./elements/ModuleBar/ModuleBarMenu";

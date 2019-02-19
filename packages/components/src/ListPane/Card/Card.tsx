@@ -8,7 +8,7 @@ import SimpleCard from "./SimpleCard";
 import TicketCard from "./TicketCard/TicketCard";
 import TaskCard from "./TaskCard";
 import { MenuProps } from "../../elements/Menu/Menu";
-import Cog from "../../elements/Cog/Cog";
+import Cog from "../../elements/Menu/CogMenu";
 // import "@deskpro/agent-interface-style/dist/components/dp-ListPane.css";
 import "@deskpro/agent-interface-style/dist/components/dp-Level.css";
 import "@deskpro/agent-interface-style/dist/components/dp-card.css";
@@ -34,7 +34,7 @@ export type BasicCardProps = {
     cardId: React.Key,
     event: React.MouseEvent<HTMLElement> | React.KeyboardEvent<HTMLElement>
   ): void;
-  cogMenu?: React.ReactElement<MenuProps>;
+  renderCogMenu?: (menuProps: Partial<MenuProps>) => React.ReactElement<any>;
 };
 
 const Card: React.FC<BasicCardProps> & CardSubComponents = ({
@@ -45,7 +45,7 @@ const Card: React.FC<BasicCardProps> & CardSubComponents = ({
   isFocused = false,
   isDragging = false,
   title,
-  cogMenu,
+  renderCogMenu,
   onClick,
   cardId
 }) => {
@@ -61,6 +61,24 @@ const Card: React.FC<BasicCardProps> & CardSubComponents = ({
     },
     [cardId]
   );
+  // track the mouse movement over the card.
+  const [isMouseOver, setIsMouseOver] = React.useState(false);
+
+  // calculate position of the cog icon.
+  let position = { x: 0, y: 0 };
+  const cardRef = React.useRef<HTMLDivElement>(null);
+  if (cardRef.current instanceof HTMLDivElement) {
+    const {
+      top,
+      left,
+      width,
+      height
+    } = cardRef.current.getBoundingClientRect();
+    position = {
+      x: left + width,
+      y: top + height / 2
+    };
+  }
 
   return (
     <div
@@ -70,14 +88,23 @@ const Card: React.FC<BasicCardProps> & CardSubComponents = ({
         "is-dragging": isDragging,
         "is-keyboard": isFocused
       })}
+      ref={cardRef}
       role="link"
       tabIndex={-1}
       onClick={handleCardClick}
       onKeyPress={handleCardKeyPress}
+      onMouseEnter={() => setIsMouseOver(true)}
+      onMouseLeave={() => setIsMouseOver(false)}
     >
       {!!title && <CardTitle title={title} />}
       {children}
-      {!!cogMenu && <Cog menu={cogMenu} />}
+      {!!renderCogMenu && (
+        <Cog
+          renderMenu={renderCogMenu}
+          isVisible={isMouseOver}
+          position={position}
+        />
+      )}
     </div>
   );
 };

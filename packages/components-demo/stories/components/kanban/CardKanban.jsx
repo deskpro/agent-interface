@@ -1,12 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
+import { subHours } from "date-fns";
 
-import {
-  Kanban,
-  Card,
-  UserInfo,
-  Menu
-} from "@deskpro/agent-interface-components";
+import { Kanban, Card, Menu } from "@deskpro/agent-interface-components";
 import useKanbanDragging from "./useSimpleKanban";
 
 const CardKanban = ({ action }) => {
@@ -35,17 +31,23 @@ const CardKanban = ({ action }) => {
                       isDragging={isDragging}
                       checkable
                       onCheck={action("click 11")}
-                      statusLabel="1h 25 min"
-                      cogMenu={
-                        <Menu>
+                      status={
+                        <Card.TicketCard.Status
+                          lastUpdate={subHours(new Date(), 1)}
+                        />
+                      }
+                      renderCogMenu={menuProps => (
+                        <Menu {...menuProps}>
                           <Menu.MenuItem key="bin" icon="bin" text="Delete" />
                         </Menu>
-                      }
+                      )}
                     >
-                      <UserInfo
-                        avatar
-                        name="John Doe"
-                        email="john.doe@deskpro.com"
+                      <Card.TicketCard.Details
+                        user={{
+                          name: "John Doe",
+                          email: "john.doe@example.com",
+                          avatar: true
+                        }}
                       />
                     </Card.TicketCard>
                   )}

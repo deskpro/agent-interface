@@ -14,9 +14,9 @@
     "@deskpro/agent-interface-components": "^0.0.1",
     "date-fns": "^1.30.1",
     "immer": "^1.12.1",
-    "react": "^16.8",
+    "react": "^16.8.2",
     "react-avatar": "^3.5.0",
-    "react-dom": "^16.8"
+    "react-dom": "^16.8.2"
   },
   "devDependencies": {
     "@babel/core": "^7.2.0",
