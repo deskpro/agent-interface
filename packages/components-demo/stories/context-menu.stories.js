@@ -6,6 +6,7 @@ import { action } from "@storybook/addon-actions";
 
 import {
   ContextMenu,
+  StandardContextMenu,
   Menu,
   Card,
   Icon,
@@ -45,6 +46,28 @@ storiesOf("ContextMenu", module)
         Right click will open a context menu
       </div>
     </ContextMenu>
+  ))
+  .add("StandardContextMenu", () => (
+    <StandardContextMenu
+      items={[
+        { text: "Copy", icon: "copy", name: "copy" },
+        { text: "Paste", icon: "past", name: "past" }
+      ]}
+      onItemClick={action("Standard context menu item click")}
+    >
+      <div
+        style={{
+          width: "500px",
+          height: "300px",
+          display: "flex",
+          backgroundColor: "#ddd",
+          alignItems: "center",
+          justifyContent: "center"
+        }}
+      >
+        Right click will open a context menu
+      </div>
+    </StandardContextMenu>
   ))
   .add("Card Cog Menu", () => (
     <div style={{ maxWidth: "400px" }}>
