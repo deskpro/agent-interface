@@ -14,6 +14,7 @@
 }
 
 .dp-Categories-title {
+  color: var(--grey-darkest);
   font: var(--p-xl);
 }
 
@@ -83,10 +84,7 @@
 .dp-Knowledgebase .dp-TicketMenuItem.is-selected,
 .dp-Knowledgebase .dp-TicketMenuItem:hover {
   background-color: var(--info-light);
-  border-bottom: 1px solid var(--brand-primary);
-  border-top: 1px solid var(--brand-primary);
   color: var(--brand-primary);
-  margin-top: -1px;
 }
 
 .dp-Articles-group {
@@ -214,7 +212,7 @@
 
 .dp-Menu.Menu-tick > .dp-Menu-linkItem.dp-SortList {
   margin: 0;
-  padding: 0 0 10px;
+  padding: 5px 0;
 }
 
 .dp-SortList ul {
@@ -244,4 +242,20 @@
   left: 4px;
   top: -1px;
   width: 22px;
+}
+
+.dp-GuidesDirectory.dp-Knowledgebase .dp-TitleGroupe .dp-Icon {
+  border-radius: 0;
+}
+
+.is-reordering,
+.dp-CardList.dp-GuidesDirectory .dp-Card.is-reordering,
+.dp-CardList.dp-GuidesDirectory .dp-Card.is-reordering:hover {
+  background-color: var(--info-light);
+  border: 1px solid var(--brand-primary);
+  margin-top: -1px;
+}
+
+.dp-GuidesDirectory .dp-Card.is-reordering:hover .dp-IconGroup {
+  display: none;
 }

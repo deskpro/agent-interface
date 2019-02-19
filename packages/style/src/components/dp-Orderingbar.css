@@ -48,10 +48,6 @@
   width: 100%;
 }
 
-.dp-ListPane .dp-ItemRow:first-child {
-  margin-bottom: 2px;
-}
-
 .dp-ListPane .dp-Select {
   background: transparent;
   border: 0;
@@ -137,12 +133,16 @@
 
 .dp-FilterControlsList .dp-ListPane {
   flex: 0 0 30px;
-  padding: 8.8px 8px 7.8px;
+  padding: 5px 8px;
 }
 
 .dp-ListPane.dp-DropDownItem {
   flex: 1 1 100%;
   min-width: 110px;
+}
+
+.dp-GroupSortBar .dp-ListPane.dp-DropDownItem {
+  flex: 0 1 145px;
 }
 
 .dp-FilterControlsItem {
@@ -259,10 +259,10 @@
 }
 
 .newControlsList .dp-ListPane > .dp-Icon {
-  background-size: 16px 16px;
-  flex: 0 0 22px;
+  background-size: 19px 19px;
   height: 22px;
-  margin-right: 4px;
+  margin-right: 5px;
+  width: 19px;
 }
 
 .newControlsList .dp-ListPane .dp-sort, .dp-Card-title .dp-sort {

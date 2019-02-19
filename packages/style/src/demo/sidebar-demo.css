@@ -25,3 +25,8 @@
 .dp-DemonstrationEements .dp-Tabs .dp-Tabs-item {
   border-right: 0;
 }
+
+.demo-Scroll-x {
+  display: block;
+  overflow-x: scroll;
+}

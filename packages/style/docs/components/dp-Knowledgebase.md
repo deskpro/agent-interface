@@ -1,10 +1,8 @@
 ---
-title: Knowledgebase
+title: Sort and Re-order
 ---
 
-<h2>Knowledgebase - Sort and Reorder</h2>
-
-<h4>Knowledgebase and rollover/selected folder</h4>
+<h4>Sort and Re-order and rollover/selected folder</h4>
 ```html @preview
 <div class="dp-MainWrapper demo-cog demo-menu">
 
@@ -219,7 +217,7 @@ title: Knowledgebase
 </div>
 ```
 
-<h4>Selected catergory with Articles</h4>
+<h4>Sort and Re-order/Selected catergory with Articles</h4>
 ```html @preview
 <form class="dp-MainWrapper demo-cog demo-menu">
     <ul class="dp-CardList dp-GuidesDirectory dp-Knowledgebase">
@@ -239,7 +237,7 @@ title: Knowledgebase
         </li>
 
         <li class="dp-Breadcrumbs">
-            <span class="dp-Breadcrumbs--Item dp-Icon Icon--home Icon--primary"></span><i class="dp-Breadcrumbs--Arrow"></i>
+            <span class="dp-Breadcrumbs--Item dp-Icon Icon--home"></span><i class="dp-Breadcrumbs--Arrow"></i>
         </li>
 
         <li class="dp-Categories">
@@ -254,8 +252,8 @@ title: Knowledgebase
             <ul class="dp-FilterControlsList newControlsList dp-orderingbar">
                 <li class="dp-ListPane">
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="ordering-3"></input>
-                        <label for="ordering-3"></label>
+                        <input type="checkbox" class="dp-ControlInput" id="ordering-1"></input>
+                        <label for="ordering-1"></label>
                     </span>
                 </li>
                 <li class="dp-ListPane dp-DropDownItem">
@@ -455,9 +453,37 @@ title: Knowledgebase
                                     <a href="" class="dp-listItem">
                                         Urgency
                                     </a>
+                                    <span class="dp-Icon dp-settings">
+                                        <ul class="dp-Menu Menu-tick">
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Ascending
+                                                </a>
+                                            </li>
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Descending
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </span>
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Date crated</a>
+                                    <span class="dp-Icon dp-settings">
+                                        <ul class="dp-Menu Menu-tick">
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Ascending
+                                                </a>
+                                            </li>
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Descending
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </span>
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Date published (DSC)</a>
@@ -478,30 +504,156 @@ title: Knowledgebase
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Date of last agent reply</a>
+                                    <span class="dp-Icon dp-settings">
+                                        <ul class="dp-Menu Menu-tick">
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Ascending
+                                                </a>
+                                            </li>
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Descending
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </span>
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Date of last user reply</a>
+                                    <span class="dp-Icon dp-settings">
+                                        <ul class="dp-Menu Menu-tick">
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Ascending
+                                                </a>
+                                            </li>
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Descending
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </span>
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Widget type</a>
+                                    <span class="dp-Icon dp-settings">
+                                        <ul class="dp-Menu Menu-tick">
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Ascending
+                                                </a>
+                                            </li>
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Descending
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </span>
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Widget description</a>
+                                    <span class="dp-Icon dp-settings">
+                                        <ul class="dp-Menu Menu-tick">
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Ascending
+                                                </a>
+                                            </li>
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Descending
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </span>
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Desired sizes</a>
+                                    <span class="dp-Icon dp-settings">
+                                        <ul class="dp-Menu Menu-tick">
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Ascending
+                                                </a>
+                                            </li>
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Descending
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </span>
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Manufacturing date</a>
+                                    <span class="dp-Icon dp-settings">
+                                        <ul class="dp-Menu Menu-tick">
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Ascending
+                                                </a>
+                                            </li>
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Descending
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </span>
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Reason for cancellation</a>
+                                    <span class="dp-Icon dp-settings">
+                                        <ul class="dp-Menu Menu-tick">
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Ascending
+                                                </a>
+                                            </li>
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Descending
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </span>
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Reason for complaint</a>
+                                    <span class="dp-Icon dp-settings">
+                                        <ul class="dp-Menu Menu-tick">
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Ascending
+                                                </a>
+                                            </li>
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Descending
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </span>
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Suggested actions</a>
+                                    <span class="dp-Icon dp-settings">
+                                        <ul class="dp-Menu Menu-tick">
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Ascending
+                                                </a>
+                                            </li>
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Descending
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </span>
                                 </li>
                             </ul>
                         </li>
@@ -2137,11 +2289,10 @@ title: Knowledgebase
 </form>
 ```
 
-<h4>Show present order of categories in drop down</h4>
+<h4>Sort and Re-order/Show present order of categories in drop down</h4>
 ```html @preview
 <form class="dp-MainWrapper demo-cog demo-menu">
     <ul class="dp-CardList dp-GuidesDirectory dp-Knowledgebase">
-
 
         <li class="dp-Card-SectionTitle dp-Tasks-list Level-justify-between">
             <span class="dp-LevelCol">
@@ -2158,7 +2309,7 @@ title: Knowledgebase
         </li>
 
         <li class="dp-Breadcrumbs">
-            <span class="dp-Breadcrumbs--Item dp-Icon Icon--home Icon--primary"></span><i class="dp-Breadcrumbs--Arrow"></i>
+            <span class="dp-Breadcrumbs--Item dp-Icon Icon--home"></span><i class="dp-Breadcrumbs--Arrow"></i>
             <span class="dp-Breadcrumbs--Item is-current">Managing Deskpro On-Premise</span>
         </li>
 
@@ -2174,8 +2325,8 @@ title: Knowledgebase
             <ul class="dp-FilterControlsList newControlsList dp-orderingbar">
                 <li class="dp-ListPane">
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="ordering-3"></input>
-                        <label for="ordering-3"></label>
+                        <input type="checkbox" class="dp-ControlInput" id="ordering-2-1"></input>
+                        <label for="ordering-2-1"></label>
                     </span>
                 </li>
                 <li class="dp-ListPane dp-DropDownItem">
@@ -2375,9 +2526,37 @@ title: Knowledgebase
                                     <a href="" class="dp-listItem">
                                         Urgency
                                     </a>
+                                    <span class="dp-Icon dp-settings">
+                                        <ul class="dp-Menu Menu-tick">
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Ascending
+                                                </a>
+                                            </li>
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Descending
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </span>
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Date crated</a>
+                                    <span class="dp-Icon dp-settings">
+                                        <ul class="dp-Menu Menu-tick">
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Ascending
+                                                </a>
+                                            </li>
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Descending
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </span>
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Date published (DSC)</a>
@@ -2398,30 +2577,156 @@ title: Knowledgebase
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Date of last agent reply</a>
+                                    <span class="dp-Icon dp-settings">
+                                        <ul class="dp-Menu Menu-tick">
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Ascending
+                                                </a>
+                                            </li>
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Descending
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </span>
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Date of last user reply</a>
+                                    <span class="dp-Icon dp-settings">
+                                        <ul class="dp-Menu Menu-tick">
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Ascending
+                                                </a>
+                                            </li>
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Descending
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </span>
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Widget type</a>
+                                    <span class="dp-Icon dp-settings">
+                                        <ul class="dp-Menu Menu-tick">
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Ascending
+                                                </a>
+                                            </li>
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Descending
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </span>
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Widget description</a>
+                                    <span class="dp-Icon dp-settings">
+                                        <ul class="dp-Menu Menu-tick">
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Ascending
+                                                </a>
+                                            </li>
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Descending
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </span>
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Desired sizes</a>
+                                    <span class="dp-Icon dp-settings">
+                                        <ul class="dp-Menu Menu-tick">
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Ascending
+                                                </a>
+                                            </li>
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Descending
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </span>
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Manufacturing date</a>
+                                    <span class="dp-Icon dp-settings">
+                                        <ul class="dp-Menu Menu-tick">
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Ascending
+                                                </a>
+                                            </li>
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Descending
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </span>
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Reason for cancellation</a>
+                                    <span class="dp-Icon dp-settings">
+                                        <ul class="dp-Menu Menu-tick">
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Ascending
+                                                </a>
+                                            </li>
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Descending
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </span>
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Reason for complaint</a>
+                                    <span class="dp-Icon dp-settings">
+                                        <ul class="dp-Menu Menu-tick">
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Ascending
+                                                </a>
+                                            </li>
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Descending
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </span>
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Suggested actions</a>
+                                    <span class="dp-Icon dp-settings">
+                                        <ul class="dp-Menu Menu-tick">
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Ascending
+                                                </a>
+                                            </li>
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Descending
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </span>
                                 </li>
                             </ul>
                         </li>
@@ -4067,8 +4372,8 @@ title: Knowledgebase
             <ul class="dp-FilterControlsList newControlsList dp-orderingbar">
                 <li class="dp-ListPane">
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="ordering-3"></input>
-                        <label for="ordering-3"></label>
+                        <input type="checkbox" class="dp-ControlInput" id="ordering-2-2"></input>
+                        <label for="ordering-2-2"></label>
                     </span>
                 </li>
                 <li class="dp-ListPane dp-DropDownItem">
@@ -4268,9 +4573,37 @@ title: Knowledgebase
                                     <a href="" class="dp-listItem">
                                         Urgency
                                     </a>
+                                    <span class="dp-Icon dp-settings">
+                                        <ul class="dp-Menu Menu-tick">
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Ascending
+                                                </a>
+                                            </li>
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Descending
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </span>
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Date crated</a>
+                                    <span class="dp-Icon dp-settings">
+                                        <ul class="dp-Menu Menu-tick">
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Ascending
+                                                </a>
+                                            </li>
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Descending
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </span>
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Date published (DSC)</a>
@@ -4291,30 +4624,156 @@ title: Knowledgebase
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Date of last agent reply</a>
+                                    <span class="dp-Icon dp-settings">
+                                        <ul class="dp-Menu Menu-tick">
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Ascending
+                                                </a>
+                                            </li>
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Descending
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </span>
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Date of last user reply</a>
+                                    <span class="dp-Icon dp-settings">
+                                        <ul class="dp-Menu Menu-tick">
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Ascending
+                                                </a>
+                                            </li>
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Descending
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </span>
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Widget type</a>
+                                    <span class="dp-Icon dp-settings">
+                                        <ul class="dp-Menu Menu-tick">
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Ascending
+                                                </a>
+                                            </li>
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Descending
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </span>
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Widget description</a>
+                                    <span class="dp-Icon dp-settings">
+                                        <ul class="dp-Menu Menu-tick">
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Ascending
+                                                </a>
+                                            </li>
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Descending
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </span>
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Desired sizes</a>
+                                    <span class="dp-Icon dp-settings">
+                                        <ul class="dp-Menu Menu-tick">
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Ascending
+                                                </a>
+                                            </li>
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Descending
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </span>
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Manufacturing date</a>
+                                    <span class="dp-Icon dp-settings">
+                                        <ul class="dp-Menu Menu-tick">
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Ascending
+                                                </a>
+                                            </li>
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Descending
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </span>
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Reason for cancellation</a>
+                                    <span class="dp-Icon dp-settings">
+                                        <ul class="dp-Menu Menu-tick">
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Ascending
+                                                </a>
+                                            </li>
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Descending
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </span>
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Reason for complaint</a>
+                                    <span class="dp-Icon dp-settings">
+                                        <ul class="dp-Menu Menu-tick">
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Ascending
+                                                </a>
+                                            </li>
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Descending
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </span>
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Suggested actions</a>
+                                    <span class="dp-Icon dp-settings">
+                                        <ul class="dp-Menu Menu-tick">
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Ascending
+                                                </a>
+                                            </li>
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Descending
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </span>
                                 </li>
                             </ul>
                         </li>
@@ -5943,8 +6402,8 @@ title: Knowledgebase
                     <span class="dp-LevelItem">
                         <span class="dp-LevelCol dp-LevelTop">
                             <span class="dp-CustomCheckbox">
-                                <input type="checkbox" class="dp-ControlInput" id="Articles-2-2"></input>
-                                <label for="Articles-2-2"></label>
+                                <input type="checkbox" class="dp-ControlInput" id="Articles-2-5"></input>
+                                <label for="Articles-2-5"></label>
                             </span>
                         </span>
                         <span class="dp-LevelCol">
@@ -5969,8 +6428,8 @@ title: Knowledgebase
                     <span class="dp-LevelItem">
                         <span class="dp-LevelCol dp-LevelTop">
                             <span class="dp-CustomCheckbox">
-                                <input type="checkbox" class="dp-ControlInput" id="Articles-2-4"></input>
-                                <label for="Articles-2-4"></label>
+                                <input type="checkbox" class="dp-ControlInput" id="Articles-2-6"></input>
+                                <label for="Articles-2-6"></label>
                             </span>
                         </span>
                         <span class="dp-LevelCol">
@@ -6001,8 +6460,8 @@ title: Knowledgebase
                     <span class="dp-LevelItem">
                         <span class="dp-LevelCol dp-LevelTop">
                             <span class="dp-CustomCheckbox">
-                                <input type="checkbox" class="dp-ControlInput" id="Articles-2-2"></input>
-                                <label for="Articles-2-2"></label>
+                                <input type="checkbox" class="dp-ControlInput" id="Articles-2-7"></input>
+                                <label for="Articles-2-7"></label>
                             </span>
                         </span>
                         <span class="dp-LevelCol">
@@ -6027,8 +6486,8 @@ title: Knowledgebase
                     <span class="dp-LevelItem">
                         <span class="dp-LevelCol dp-LevelTop">
                             <span class="dp-CustomCheckbox">
-                                <input type="checkbox" class="dp-ControlInput" id="Articles-2-4"></input>
-                                <label for="Articles-2-4"></label>
+                                <input type="checkbox" class="dp-ControlInput" id="Articles-2-8"></input>
+                                <label for="Articles-2-8"></label>
                             </span>
                         </span>
                         <span class="dp-LevelCol">
@@ -6062,7 +6521,7 @@ title: Knowledgebase
 </form>
 ```
 
-<h4>Select Display Order and then enable drag and drop</h4>
+<h4>Sort and Re-order/Select Display Order and then enable drag and drop</h4>
 ```html @preview
 <form class="dp-MainWrapper demo-cog demo-menu">
     <ul class="dp-CardList dp-GuidesDirectory dp-Knowledgebase">
@@ -6083,7 +6542,7 @@ title: Knowledgebase
         </li>
 
         <li class="dp-Breadcrumbs">
-            <span class="dp-Breadcrumbs--Item dp-Icon Icon--home Icon--primary"></span><i class="dp-Breadcrumbs--Arrow"></i>
+            <span class="dp-Breadcrumbs--Item dp-Icon Icon--home"></span><i class="dp-Breadcrumbs--Arrow"></i>
             <span class="dp-Breadcrumbs--Item is-current">Managing Deskpro On-Premise</span>
         </li>
 
@@ -6097,12 +6556,7 @@ title: Knowledgebase
 
         <li class="dp-orderingbar--Wrap">
             <ul class="dp-FilterControlsList newControlsList dp-orderingbar">
-                <li class="dp-ListPane">
-                    <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="ordering-3"></input>
-                        <label for="ordering-3"></label>
-                    </span>
-                </li>
+                <li class="dp-ListPane"></li>
                 <li class="dp-ListPane dp-DropDownItem">
                     <span class="dp-Icon dp-grouped_by"></span>
                     <span class="dp-SelectGroup">
@@ -6253,7 +6707,7 @@ title: Knowledgebase
                 </li>
 
                 <!-- 2 -->
-                <li class="dp-ListPane dp-DropDownItem is-active">
+                <li class="dp-ListPane dp-DropDownItem">
                     <div class="dp-SortIconDescription">
                         <span class="dp-Icon dp-sort"></span>
                     </div>
@@ -6268,7 +6722,7 @@ title: Knowledgebase
                     </span>
 
                     <!-- dropdown -->
-                    <ul class="dp-Menu Menu-tick is-active">
+                    <ul class="dp-Menu Menu-tick">
 
                         <li class="dp-Menu-linkItem dp-SortOrder">
                             <span class="dp-RadioWrapper">
@@ -6301,9 +6755,37 @@ title: Knowledgebase
                                     <a href="" class="dp-listItem">
                                         Urgency
                                     </a>
+                                    <span class="dp-Icon dp-settings">
+                                        <ul class="dp-Menu Menu-tick">
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Ascending
+                                                </a>
+                                            </li>
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Descending
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </span>
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Date crated</a>
+                                    <span class="dp-Icon dp-settings">
+                                        <ul class="dp-Menu Menu-tick">
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Ascending
+                                                </a>
+                                            </li>
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Descending
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </span>
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Date published (DSC)</a>
@@ -6324,30 +6806,156 @@ title: Knowledgebase
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Date of last agent reply</a>
+                                    <span class="dp-Icon dp-settings">
+                                        <ul class="dp-Menu Menu-tick">
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Ascending
+                                                </a>
+                                            </li>
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Descending
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </span>
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Date of last user reply</a>
+                                    <span class="dp-Icon dp-settings">
+                                        <ul class="dp-Menu Menu-tick">
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Ascending
+                                                </a>
+                                            </li>
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Descending
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </span>
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Widget type</a>
+                                    <span class="dp-Icon dp-settings">
+                                        <ul class="dp-Menu Menu-tick">
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Ascending
+                                                </a>
+                                            </li>
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Descending
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </span>
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Widget description</a>
+                                    <span class="dp-Icon dp-settings">
+                                        <ul class="dp-Menu Menu-tick">
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Ascending
+                                                </a>
+                                            </li>
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Descending
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </span>
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Desired sizes</a>
+                                    <span class="dp-Icon dp-settings">
+                                        <ul class="dp-Menu Menu-tick">
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Ascending
+                                                </a>
+                                            </li>
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Descending
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </span>
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Manufacturing date</a>
+                                    <span class="dp-Icon dp-settings">
+                                        <ul class="dp-Menu Menu-tick">
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Ascending
+                                                </a>
+                                            </li>
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Descending
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </span>
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Reason for cancellation</a>
+                                    <span class="dp-Icon dp-settings">
+                                        <ul class="dp-Menu Menu-tick">
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Ascending
+                                                </a>
+                                            </li>
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Descending
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </span>
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Reason for complaint</a>
+                                    <span class="dp-Icon dp-settings">
+                                        <ul class="dp-Menu Menu-tick">
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Ascending
+                                                </a>
+                                            </li>
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Descending
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </span>
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Suggested actions</a>
+                                    <span class="dp-Icon dp-settings">
+                                        <ul class="dp-Menu Menu-tick">
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Ascending
+                                                </a>
+                                            </li>
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Descending
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </span>
                                 </li>
                             </ul>
                         </li>
@@ -7899,7 +8507,7 @@ title: Knowledgebase
             </span>
         </li>
 
-        <li class="dp-Card">
+        <li class="dp-Card is-reordering">
             <span class="dp-TitleGroupe">
 
                 <span class="dp-Icon dp-Drag"></span>
@@ -7928,8 +8536,8 @@ title: Knowledgebase
             <ul class="dp-FilterControlsList newControlsList dp-orderingbar">
                 <li class="dp-ListPane">
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="ordering-3"></input>
-                        <label for="ordering-3"></label>
+                        <input type="checkbox" class="dp-ControlInput" id="ordering-3-2"></input>
+                        <label for="ordering-3-2"></label>
                     </span>
                 </li>
                 <li class="dp-ListPane dp-DropDownItem">
@@ -8082,7 +8690,7 @@ title: Knowledgebase
                 </li>
 
                 <!-- 2 -->
-                <li class="dp-ListPane dp-DropDownItem">
+                <li class="dp-ListPane dp-DropDownItem is-active">
                     <div class="dp-SortIconDescription">
                         <span class="dp-Icon dp-sort"></span>
                     </div>
@@ -8102,8 +8710,8 @@ title: Knowledgebase
                         <li class="dp-Menu-linkItem dp-SortOrder">
                             <span class="dp-RadioWrapper">
                                 <span class="dp-RadioItem">
-                                    <input type="radio" class="dp-Input Input--radio" id="radioone" value="radioone">
-                                    <label for="radioone">Display order</label>
+                                    <input type="radio" class="dp-Input Input--radio" id="radiosort-5-1" value="radiosort-5-1" name="radio-three-one">
+                                    <label for="radiosort-5-1">Display order</label>
                                 </span>
                             </span>
                             <span class="dp-Subtitle">The order shown in the portal</span>
@@ -8119,8 +8727,8 @@ title: Knowledgebase
                                 <li class="dp-Menu-linkItem">
                                     <span class="dp-RadioWrapper">
                                         <span class="dp-RadioItem">
-                                            <input type="radio" class="dp-Input Input--radio" id="radiosort-5" value="radiosort-5">
-                                            <label for="radiosort-5">Sort by</label>
+                                            <input type="radio" class="dp-Input Input--radio" id="radiosort-5-2" value="radiosort-5-2" name="radio-three-one">
+                                            <label for="radiosort-5-2">Sort by</label>
                                         </span>
                                     </span>
                                 </li>
@@ -8129,9 +8737,37 @@ title: Knowledgebase
                                     <a href="" class="dp-listItem">
                                         Urgency
                                     </a>
+                                    <span class="dp-Icon dp-settings">
+                                        <ul class="dp-Menu Menu-tick">
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Ascending
+                                                </a>
+                                            </li>
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Descending
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </span>
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Date crated</a>
+                                    <span class="dp-Icon dp-settings">
+                                        <ul class="dp-Menu Menu-tick">
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Ascending
+                                                </a>
+                                            </li>
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Descending
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </span>
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Date published (DSC)</a>
@@ -8152,30 +8788,156 @@ title: Knowledgebase
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Date of last agent reply</a>
+                                    <span class="dp-Icon dp-settings">
+                                        <ul class="dp-Menu Menu-tick">
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Ascending
+                                                </a>
+                                            </li>
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Descending
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </span>
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Date of last user reply</a>
+                                    <span class="dp-Icon dp-settings">
+                                        <ul class="dp-Menu Menu-tick">
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Ascending
+                                                </a>
+                                            </li>
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Descending
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </span>
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Widget type</a>
+                                    <span class="dp-Icon dp-settings">
+                                        <ul class="dp-Menu Menu-tick">
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Ascending
+                                                </a>
+                                            </li>
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Descending
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </span>
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Widget description</a>
+                                    <span class="dp-Icon dp-settings">
+                                        <ul class="dp-Menu Menu-tick">
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Ascending
+                                                </a>
+                                            </li>
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Descending
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </span>
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Desired sizes</a>
+                                    <span class="dp-Icon dp-settings">
+                                        <ul class="dp-Menu Menu-tick">
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Ascending
+                                                </a>
+                                            </li>
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Descending
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </span>
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Manufacturing date</a>
+                                    <span class="dp-Icon dp-settings">
+                                        <ul class="dp-Menu Menu-tick">
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Ascending
+                                                </a>
+                                            </li>
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Descending
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </span>
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Reason for cancellation</a>
+                                    <span class="dp-Icon dp-settings">
+                                        <ul class="dp-Menu Menu-tick">
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Ascending
+                                                </a>
+                                            </li>
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Descending
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </span>
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Reason for complaint</a>
+                                    <span class="dp-Icon dp-settings">
+                                        <ul class="dp-Menu Menu-tick">
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Ascending
+                                                </a>
+                                            </li>
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Descending
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </span>
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Suggested actions</a>
+                                    <span class="dp-Icon dp-settings">
+                                        <ul class="dp-Menu Menu-tick">
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Ascending
+                                                </a>
+                                            </li>
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Descending
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </span>
                                 </li>
                             </ul>
                         </li>
@@ -9688,8 +10450,8 @@ title: Knowledgebase
                     <span class="dp-LevelItem">
                         <span class="dp-LevelCol dp-LevelTop">
                             <span class="dp-CustomCheckbox">
-                                <input type="checkbox" class="dp-ControlInput" id="Articles-2-1"></input>
-                                <label for="Articles-2-1"></label>
+                                <input type="checkbox" class="dp-ControlInput" id="Articles-3-1"></input>
+                                <label for="Articles-3-1"></label>
                             </span>
                         </span>
                         <span class="dp-LevelCol">
@@ -9714,8 +10476,8 @@ title: Knowledgebase
                     <span class="dp-LevelItem">
                         <span class="dp-LevelCol dp-LevelTop">
                             <span class="dp-CustomCheckbox">
-                                <input type="checkbox" class="dp-ControlInput" id="Articles-2-2"></input>
-                                <label for="Articles-2-2"></label>
+                                <input type="checkbox" class="dp-ControlInput" id="Articles-3-2"></input>
+                                <label for="Articles-3-2"></label>
                             </span>
                         </span>
                         <span class="dp-LevelCol">
@@ -9740,8 +10502,8 @@ title: Knowledgebase
                     <span class="dp-LevelItem">
                         <span class="dp-LevelCol dp-LevelTop">
                             <span class="dp-CustomCheckbox">
-                                <input type="checkbox" class="dp-ControlInput" id="Articles-2-3"></input>
-                                <label for="Articles-2-3"></label>
+                                <input type="checkbox" class="dp-ControlInput" id="Articles-3-3"></input>
+                                <label for="Articles-3-3"></label>
                             </span>
                         </span>
                         <span class="dp-LevelCol">
@@ -9772,8 +10534,8 @@ title: Knowledgebase
                     <span class="dp-LevelItem">
                         <span class="dp-LevelCol dp-LevelTop">
                             <span class="dp-CustomCheckbox">
-                                <input type="checkbox" class="dp-ControlInput" id="Articles-2-4"></input>
-                                <label for="Articles-2-4"></label>
+                                <input type="checkbox" class="dp-ControlInput" id="Articles-3-4"></input>
+                                <label for="Articles-3-4"></label>
                             </span>
                         </span>
                         <span class="dp-LevelCol">
@@ -9804,8 +10566,8 @@ title: Knowledgebase
                     <span class="dp-LevelItem">
                         <span class="dp-LevelCol dp-LevelTop">
                             <span class="dp-CustomCheckbox">
-                                <input type="checkbox" class="dp-ControlInput" id="Articles-2-2"></input>
-                                <label for="Articles-2-2"></label>
+                                <input type="checkbox" class="dp-ControlInput" id="Articles-3-5"></input>
+                                <label for="Articles-3-5"></label>
                             </span>
                         </span>
                         <span class="dp-LevelCol">
@@ -9830,8 +10592,8 @@ title: Knowledgebase
                     <span class="dp-LevelItem">
                         <span class="dp-LevelCol dp-LevelTop">
                             <span class="dp-CustomCheckbox">
-                                <input type="checkbox" class="dp-ControlInput" id="Articles-2-4"></input>
-                                <label for="Articles-2-4"></label>
+                                <input type="checkbox" class="dp-ControlInput" id="Articles-3-6"></input>
+                                <label for="Articles-3-6"></label>
                             </span>
                         </span>
                         <span class="dp-LevelCol">
@@ -9862,8 +10624,8 @@ title: Knowledgebase
                     <span class="dp-LevelItem">
                         <span class="dp-LevelCol dp-LevelTop">
                             <span class="dp-CustomCheckbox">
-                                <input type="checkbox" class="dp-ControlInput" id="Articles-2-2"></input>
-                                <label for="Articles-2-2"></label>
+                                <input type="checkbox" class="dp-ControlInput" id="Articles-3-7"></input>
+                                <label for="Articles-3-7"></label>
                             </span>
                         </span>
                         <span class="dp-LevelCol">
@@ -9888,8 +10650,8 @@ title: Knowledgebase
                     <span class="dp-LevelItem">
                         <span class="dp-LevelCol dp-LevelTop">
                             <span class="dp-CustomCheckbox">
-                                <input type="checkbox" class="dp-ControlInput" id="Articles-2-4"></input>
-                                <label for="Articles-2-4"></label>
+                                <input type="checkbox" class="dp-ControlInput" id="Articles-3-8"></input>
+                                <label for="Articles-3-8"></label>
                             </span>
                         </span>
                         <span class="dp-LevelCol">
@@ -9923,7 +10685,7 @@ title: Knowledgebase
 </form>
 ```
 
-<h4>Sort by and Display order menu</h4>
+<h4>Sort and Re-order/Sort by and Display order menu</h4>
 
 ```html @preview
 <div class="dp-MainWrapper demo-cog demo-menu" style="height:400px">
@@ -9957,9 +10719,37 @@ title: Knowledgebase
                         <a href="" class="dp-listItem">
                             Urgency
                         </a>
+                        <span class="dp-Icon dp-settings">
+                            <ul class="dp-Menu Menu-tick">
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-listItem">
+                                        Ascending
+                                    </a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-listItem">
+                                        Descending
+                                    </a>
+                                </li>
+                            </ul>
+                        </span>
                     </li>
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">Date crated</a>
+                        <span class="dp-Icon dp-settings">
+                            <ul class="dp-Menu Menu-tick">
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-listItem">
+                                        Ascending
+                                    </a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-listItem">
+                                        Descending
+                                    </a>
+                                </li>
+                            </ul>
+                        </span>
                     </li>
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">Date published (DSC)</a>
@@ -9980,30 +10770,156 @@ title: Knowledgebase
                     </li>
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">Date of last agent reply</a>
+                        <span class="dp-Icon dp-settings">
+                            <ul class="dp-Menu Menu-tick">
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-listItem">
+                                        Ascending
+                                    </a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-listItem">
+                                        Descending
+                                    </a>
+                                </li>
+                            </ul>
+                        </span>
                     </li>
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">Date of last user reply</a>
+                        <span class="dp-Icon dp-settings">
+                            <ul class="dp-Menu Menu-tick">
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-listItem">
+                                        Ascending
+                                    </a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-listItem">
+                                        Descending
+                                    </a>
+                                </li>
+                            </ul>
+                        </span>
                     </li>
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">Widget type</a>
+                        <span class="dp-Icon dp-settings">
+                            <ul class="dp-Menu Menu-tick">
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-listItem">
+                                        Ascending
+                                    </a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-listItem">
+                                        Descending
+                                    </a>
+                                </li>
+                            </ul>
+                        </span>
                     </li>
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">Widget description</a>
+                        <span class="dp-Icon dp-settings">
+                            <ul class="dp-Menu Menu-tick">
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-listItem">
+                                        Ascending
+                                    </a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-listItem">
+                                        Descending
+                                    </a>
+                                </li>
+                            </ul>
+                        </span>
                     </li>
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">Desired sizes</a>
+                        <span class="dp-Icon dp-settings">
+                            <ul class="dp-Menu Menu-tick">
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-listItem">
+                                        Ascending
+                                    </a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-listItem">
+                                        Descending
+                                    </a>
+                                </li>
+                            </ul>
+                        </span>
                     </li>
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">Manufacturing date</a>
+                        <span class="dp-Icon dp-settings">
+                            <ul class="dp-Menu Menu-tick">
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-listItem">
+                                        Ascending
+                                    </a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-listItem">
+                                        Descending
+                                    </a>
+                                </li>
+                            </ul>
+                        </span>
                     </li>
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">Reason for cancellation</a>
+                        <span class="dp-Icon dp-settings">
+                            <ul class="dp-Menu Menu-tick">
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-listItem">
+                                        Ascending
+                                    </a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-listItem">
+                                        Descending
+                                    </a>
+                                </li>
+                            </ul>
+                        </span>
                     </li>
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">Reason for complaint</a>
+                        <span class="dp-Icon dp-settings">
+                            <ul class="dp-Menu Menu-tick">
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-listItem">
+                                        Ascending
+                                    </a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-listItem">
+                                        Descending
+                                    </a>
+                                </li>
+                            </ul>
+                        </span>
                     </li>
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">Suggested actions</a>
+                        <span class="dp-Icon dp-settings">
+                            <ul class="dp-Menu Menu-tick">
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-listItem">
+                                        Ascending
+                                    </a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-listItem">
+                                        Descending
+                                    </a>
+                                </li>
+                            </ul>
+                        </span>
                     </li>
                 </ul>
             </li>
@@ -10052,9 +10968,37 @@ title: Knowledgebase
                         <a href="" class="dp-listItem">
                             Urgency
                         </a>
+                        <span class="dp-Icon dp-settings">
+                            <ul class="dp-Menu Menu-tick">
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-listItem">
+                                        Ascending
+                                    </a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-listItem">
+                                        Descending
+                                    </a>
+                                </li>
+                            </ul>
+                        </span>
                     </li>
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">Date crated</a>
+                        <span class="dp-Icon dp-settings">
+                            <ul class="dp-Menu Menu-tick">
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-listItem">
+                                        Ascending
+                                    </a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-listItem">
+                                        Descending
+                                    </a>
+                                </li>
+                            </ul>
+                        </span>
                     </li>
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">Date published (DSC)</a>
@@ -10075,30 +11019,156 @@ title: Knowledgebase
                     </li>
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">Date of last agent reply</a>
+                        <span class="dp-Icon dp-settings">
+                            <ul class="dp-Menu Menu-tick">
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-listItem">
+                                        Ascending
+                                    </a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-listItem">
+                                        Descending
+                                    </a>
+                                </li>
+                            </ul>
+                        </span>
                     </li>
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">Date of last user reply</a>
+                        <span class="dp-Icon dp-settings">
+                            <ul class="dp-Menu Menu-tick">
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-listItem">
+                                        Ascending
+                                    </a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-listItem">
+                                        Descending
+                                    </a>
+                                </li>
+                            </ul>
+                        </span>
                     </li>
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">Widget type</a>
+                        <span class="dp-Icon dp-settings">
+                            <ul class="dp-Menu Menu-tick">
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-listItem">
+                                        Ascending
+                                    </a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-listItem">
+                                        Descending
+                                    </a>
+                                </li>
+                            </ul>
+                        </span>
                     </li>
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">Widget description</a>
+                        <span class="dp-Icon dp-settings">
+                            <ul class="dp-Menu Menu-tick">
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-listItem">
+                                        Ascending
+                                    </a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-listItem">
+                                        Descending
+                                    </a>
+                                </li>
+                            </ul>
+                        </span>
                     </li>
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">Desired sizes</a>
+                        <span class="dp-Icon dp-settings">
+                            <ul class="dp-Menu Menu-tick">
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-listItem">
+                                        Ascending
+                                    </a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-listItem">
+                                        Descending
+                                    </a>
+                                </li>
+                            </ul>
+                        </span>
                     </li>
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">Manufacturing date</a>
+                        <span class="dp-Icon dp-settings">
+                            <ul class="dp-Menu Menu-tick">
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-listItem">
+                                        Ascending
+                                    </a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-listItem">
+                                        Descending
+                                    </a>
+                                </li>
+                            </ul>
+                        </span>
                     </li>
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">Reason for cancellation</a>
+                        <span class="dp-Icon dp-settings">
+                            <ul class="dp-Menu Menu-tick">
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-listItem">
+                                        Ascending
+                                    </a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-listItem">
+                                        Descending
+                                    </a>
+                                </li>
+                            </ul>
+                        </span>
                     </li>
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">Reason for complaint</a>
+                        <span class="dp-Icon dp-settings">
+                            <ul class="dp-Menu Menu-tick">
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-listItem">
+                                        Ascending
+                                    </a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-listItem">
+                                        Descending
+                                    </a>
+                                </li>
+                            </ul>
+                        </span>
                     </li>
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">Suggested actions</a>
+                        <span class="dp-Icon dp-settings">
+                            <ul class="dp-Menu Menu-tick">
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-listItem">
+                                        Ascending
+                                    </a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-listItem">
+                                        Descending
+                                    </a>
+                                </li>
+                            </ul>
+                        </span>
                     </li>
                 </ul>
             </li>
@@ -10146,9 +11216,37 @@ title: Knowledgebase
                         <a href="" class="dp-listItem">
                             Urgency
                         </a>
+                        <span class="dp-Icon dp-settings">
+                            <ul class="dp-Menu Menu-tick">
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-listItem">
+                                        Ascending
+                                    </a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-listItem">
+                                        Descending
+                                    </a>
+                                </li>
+                            </ul>
+                        </span>
                     </li>
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">Date crated</a>
+                        <span class="dp-Icon dp-settings">
+                            <ul class="dp-Menu Menu-tick">
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-listItem">
+                                        Ascending
+                                    </a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-listItem">
+                                        Descending
+                                    </a>
+                                </li>
+                            </ul>
+                        </span>
                     </li>
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">Date published (DSC)</a>
@@ -10169,30 +11267,156 @@ title: Knowledgebase
                     </li>
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">Date of last agent reply</a>
+                        <span class="dp-Icon dp-settings">
+                            <ul class="dp-Menu Menu-tick">
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-listItem">
+                                        Ascending
+                                    </a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-listItem">
+                                        Descending
+                                    </a>
+                                </li>
+                            </ul>
+                        </span>
                     </li>
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">Date of last user reply</a>
+                        <span class="dp-Icon dp-settings">
+                            <ul class="dp-Menu Menu-tick">
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-listItem">
+                                        Ascending
+                                    </a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-listItem">
+                                        Descending
+                                    </a>
+                                </li>
+                            </ul>
+                        </span>
                     </li>
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">Widget type</a>
+                        <span class="dp-Icon dp-settings">
+                            <ul class="dp-Menu Menu-tick">
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-listItem">
+                                        Ascending
+                                    </a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-listItem">
+                                        Descending
+                                    </a>
+                                </li>
+                            </ul>
+                        </span>
                     </li>
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">Widget description</a>
+                        <span class="dp-Icon dp-settings">
+                            <ul class="dp-Menu Menu-tick">
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-listItem">
+                                        Ascending
+                                    </a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-listItem">
+                                        Descending
+                                    </a>
+                                </li>
+                            </ul>
+                        </span>
                     </li>
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">Desired sizes</a>
+                        <span class="dp-Icon dp-settings">
+                            <ul class="dp-Menu Menu-tick">
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-listItem">
+                                        Ascending
+                                    </a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-listItem">
+                                        Descending
+                                    </a>
+                                </li>
+                            </ul>
+                        </span>
                     </li>
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">Manufacturing date</a>
+                        <span class="dp-Icon dp-settings">
+                            <ul class="dp-Menu Menu-tick">
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-listItem">
+                                        Ascending
+                                    </a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-listItem">
+                                        Descending
+                                    </a>
+                                </li>
+                            </ul>
+                        </span>
                     </li>
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">Reason for cancellation</a>
+                        <span class="dp-Icon dp-settings">
+                            <ul class="dp-Menu Menu-tick">
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-listItem">
+                                        Ascending
+                                    </a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-listItem">
+                                        Descending
+                                    </a>
+                                </li>
+                            </ul>
+                        </span>
                     </li>
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">Reason for complaint</a>
+                        <span class="dp-Icon dp-settings">
+                            <ul class="dp-Menu Menu-tick">
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-listItem">
+                                        Ascending
+                                    </a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-listItem">
+                                        Descending
+                                    </a>
+                                </li>
+                            </ul>
+                        </span>
                     </li>
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">Suggested actions</a>
+                        <span class="dp-Icon dp-settings">
+                            <ul class="dp-Menu Menu-tick">
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-listItem">
+                                        Ascending
+                                    </a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-listItem">
+                                        Descending
+                                    </a>
+                                </li>
+                            </ul>
+                        </span>
                     </li>
                 </ul>
             </li>

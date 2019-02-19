@@ -8,8 +8,8 @@
   border: 1px solid var(--grey-light);
   border-top-right-radius: 5px;
   display: block;
-  max-width: 232px;
   min-height: 100vh;
+  min-width: 232px;
   position: relative;
   width: 100%;
 }

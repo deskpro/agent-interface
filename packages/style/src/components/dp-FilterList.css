@@ -46,6 +46,11 @@
   padding: 15px 15px 15px 10px;
 }
 
+.dp-Card-SectionTitle.dp-Tasks-list .dp-ListName {
+  align-items: center;
+  display: flex;
+}
+
 .dp-Tickets .dp-ListName {
   align-items: center;
   cursor: pointer;

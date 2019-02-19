@@ -43,6 +43,13 @@
   top: calc(50% - 6px);
 }
 
+.dp-GroupSortBar.dp-FilterControlsList .dp-ListPane:last-child {
+  border-left: 1px solid var(--grey-light);
+  border-right: 0;
+  flex: 0 0 125px;
+  justify-content: center;
+}
+
 .dp-ColumnControls {
   color: var(--grey-darkest);
   display: table-row;
@@ -178,8 +185,8 @@
   display: flex;
 }
 
-.dp-Tableview .dp-Sub-filter {
-  border-top: 1px dashed var(--grey-light);
+.dp-TableRow.dp-Filter {
+  border-bottom: 1px dashed var(--grey-light);
 }
 
 .dp-Sub-filter .dp-Card-title {
@@ -251,7 +258,7 @@
 
 .dp-TableRow {
   align-items: center;
-  border-top: 1px solid var(--grey-light);
+  border-bottom: 1px solid var(--grey-light);
   display: flex;
 }
 
@@ -267,7 +274,8 @@
 }
 
 .dp-TableRow.dp-TableControl {
-  border-bottom: 1px solid var(--grey-light);
+  border-bottom: 2px solid var(--grey-light);
+  border-top: 1px solid var(--grey-light);
   color: var(--grey-darkest);
   font: var(--p-n-semibold);
 }

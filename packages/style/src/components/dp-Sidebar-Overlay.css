@@ -361,7 +361,54 @@
 
 /* side-bar-overlay/search-org */
 
-.dp-SearchOrganization .dp-SectionBody-item {
+.dp-Form.dp-Search-org {
+  align-items: flex-start;
   border: 1px solid var(--brand-primary);
+  border-radius: 3px;
+  max-width: 210px;
+  padding: 5px 10px;
+}
+
+.dp-Form.dp-Search-org .dp-Icon {
+  margin: 0;
+}
+
+.dp-Form.dp-Search-DropDown .dp-Icon {
+  margin: 0 10px 0 0;
+}
+
+.dp-Search-DropDown {
+  flex-direction: column;
+}
+
+.dp-Form.dp-Search-org .dp-Input.Input--search {
+  padding: 0 0 0 5px;
+}
+
+.dp-Form.dp-Search-org .dp-Search-title {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  width: 100%;
+}
+
+.dp-Form.dp-Search-org .dp-DropDown-Menu {
+  list-style: none;
+  margin: 0;
+  padding: 5px 0 0 25px;
+}
+
+.dp-DropDown-Menu > .dp-Menu-linkItem {
+  color: var(--grey-darkest);
   font: var(--p-l);
+  padding-bottom: 10px;
+}
+
+.dp-Search-org .dp-Search-title > .dp-Title {
+  color: var(--grey-dark);
+  display: flex;
+  font: var(--p-l);
+  font-style: italic;
+  position: relative;
+  width: 100%;
 }

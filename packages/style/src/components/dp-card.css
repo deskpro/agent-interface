@@ -343,7 +343,7 @@
 .dp-Card .dp-CustomCheckbox {
   display: flex;
   overflow: hidden;
-  padding-top: 1px;
+  padding-top: 2px;
 }
 
 .dp-CardList .dp-Card-comment .dp-UserInfo .dp-UserName {

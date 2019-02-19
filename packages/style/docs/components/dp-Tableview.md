@@ -93,7 +93,8 @@ title: Tableview
 ```
 
 <h4>Tableview Column Headers - For reference Artem</h4>
-```html @preview
+
+<!-- ```html @preview
 <div class="dp-TableWrapper demo-cog demo-menu">
     <table class="dp-Tableview">
         <thead>
@@ -171,6 +172,76 @@ title: Tableview
             </tr>
         </thead>
     </table>
+</div>
+``` -->
+
+```html @preview
+<div class="dp-TableWrapper demo-cog demo-menu">
+    <div class="dp-Tableview is-hoverable">
+        <div class="dp-TableRow dp-TableControl">
+            <div class="dp-TableItem">
+                <span class="dp-CustomCheckbox dp-EmptyCheckbox">
+                    <input type="checkbox" class="dp-ControlInput" id="tableview-1"></input>
+                    <label for="tableview-1"></label>
+                </span>
+            </div>
+
+            <div class="dp-TableItem">
+                ID
+                <span class="dp-Icon dp-arrowGroup"></span>
+            </div>
+
+            <div class="dp-TableItem dp-TableSubject">
+                Subject
+                <span class="dp-Icon dp-arrowGroup"></span>
+            </div>
+
+            <div class="dp-TableItem">
+                Labels
+                <span class="dp-Icon dp-arrowGroup"></span>
+            </div>
+
+            <div class="dp-TableItem">
+                Department
+                <span class="dp-Icon dp-arrowGroup"></span>
+            </div>
+
+            <div class="dp-TableItem">
+                Language
+                <span class="dp-Icon dp-arrowGroup"></span>
+            </div>
+
+            <div class="dp-TableItem">
+                Last reply
+                <span class="dp-Icon dp-arrowGroup"></span>
+            </div>
+
+            <div class="dp-TableItem">
+                User
+                <span class="dp-Icon dp-arrowGroup"></span>
+            </div>
+
+            <div class="dp-TableItem">
+                SLA/Current user wait
+            </div>
+
+            <div class="dp-TableItem">
+                <span class="dp-Icon dp-arrowGroup"></span>
+            </div>
+
+            <div class="dp-TableItem">
+                <span class="dp-Icon dp-arrowGroup"></span>
+            </div>
+
+            <div class="dp-TableItem">
+                <span class="dp-Icon dp-arrowGroup"></span>
+            </div>
+ 
+            <div class="dp-Cog">
+                <span class="dp-Icon dp-settings"></span>
+            </div>
+        </div>
+    </div>
 </div>
 ```
 

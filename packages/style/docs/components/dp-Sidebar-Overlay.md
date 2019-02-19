@@ -4,7 +4,7 @@ title: Side-bar Overlay
 
 <h4> side-bar-overlay/apps </h4>
 ```html @preview
-<div class="dp-UserOverlay dp-OverlaAapps demo-cog demo-menu">
+<div class="dp-UserOverlay dp-OverlaAapps demo-cog demo-menu demo-Scroll-x">
 	<div class="dp-OverlayWrapp">
 		<div class="dp-UserContainer dp-UserTitleInfo">
 			<div class="dp-UserTabName">
@@ -446,7 +446,7 @@ title: Side-bar Overlay
 
 <h4> side-bar-overlay/no-apps </h4>
 ```html @preview
-<div class="dp-UserOverlay demo-cog demo-menu">
+<div class="dp-UserOverlay demo-cog demo-menu demo-Scroll-x">
 	<div class="dp-OverlayWrapp">
 		<div class="dp-UserContainer dp-UserTitleInfo">
 			<div class="dp-UserTabName">
@@ -860,21 +860,33 @@ title: Side-bar Overlay
 <h4> side-bar-overlay/search-org </h4>
 ```html @preview
 
-<div class="dp-SearchOrganization dp-DropDown">
-	<div class="dp-SectionBody-item">
-		<div class="dp-title-item">
-			<span class="dp-Icon dp-find"></span>
-		</div>
+<form>
+	<div class="dp-Form dp-Search-org">
+		<span class="dp-Icon dp-IconSearch"></span>
+		<input type="text" class="dp-Input Input--search">
 	</div>
-</div>
+</form>
+```
 
-<div class="dp-SearchOrganization dp-DropDown">
-	<div class="dp-SectionBody-item">
-		<div class="dp-title-item">
-			<span class="dp-Icon dp-find"></span>
-			Add organization
-			<span class="dp-Arrow"></span>
+```html @preview
+	<form>
+		<div class="dp-Form dp-Search-org dp-Search-DropDown">
+			
+			<span class="dp-Search-title">
+				<span class="dp-Title">
+					<span class="dp-Icon dp-IconSearch"></span>
+					Add organization
+				</span>
+				<span class="dp-Arrow"></span>
+			</span>
+			
+			<ul class="dp-DropDown-Menu">
+				<li class="dp-Menu-linkItem">Optical</li>
+				<li class="dp-Menu-linkItem">Panasonic</li>
+				<li class="dp-Menu-linkItem">Microsoft</li>
+				<li class="dp-Menu-linkItem">Bit Defender</li>
+			</ul>
+
 		</div>
-	</div>
-</div>
+	</form>
 ```

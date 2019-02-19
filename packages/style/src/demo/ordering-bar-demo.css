@@ -1,22 +1,22 @@
 
 /* Demo style Ordering bar */
 
-.demo-ControlsList {
+/* .demo-ControlsList {
   display: block;
-  margin-bottom: 300px;
+  height: 300px;
 }
 
 .demo-FieldsList {
   display: block;
-  margin-bottom: 575px;
-}
+  height: 615px;
+} */
 
-.demo-FieldsList .dp-orderingbar,
+/* .demo-FieldsList .dp-orderingbar,
 .demo-ControlsList .dp-orderingbar {
   max-width: 530px;
 }
+*/
 
-.demo-FieldsList .dp-FilterControlsList,
-.demo-ControlsList .dp-FilterControlsList {
+.demo-FilterList .dp-FilterControlsList {
   border: 1px solid var(--grey-light);
 }
