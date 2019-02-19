@@ -589,6 +589,7 @@
 }
 
 .dp-Card .dp-Cog > .dp-Menu {
+  display: none;
   margin-left: 4px;
   margin-top: 2px;
   padding: 10px 0;

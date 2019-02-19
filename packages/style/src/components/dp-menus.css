@@ -574,10 +574,15 @@
   margin-top: 2px;
 }
 
+.dp-Cog.is-active > .dp-Menu {
+  display: block;
+}
+
 /* SubMenu */
 
 .dp-Cog .dp-Menu .dp-Menu-linkItem .dp-Menu,
 .dp-Cog .dp-Menu .dp-Menu-linkItem:hover > .dp-Menu {
+  display: none;
   padding: 10px 0;
   top: -6px;
 }
