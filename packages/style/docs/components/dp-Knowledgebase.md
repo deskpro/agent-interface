@@ -244,7 +244,7 @@ title: Sort and Re-order
             <span class="dp-Categories-title">Categories</span>
             <span class="dp-Categories-add">
                 <span class="dp-Icon dp-add_follower"></span>
-                new
+                New
             </span>
         </li>
 
@@ -453,7 +453,9 @@ title: Sort and Re-order
                                     <a href="" class="dp-listItem">
                                         Urgency
                                     </a>
-                                    <span class="dp-Icon dp-settings">
+                                    <!-- Icon hover -->
+                                    <span class="dp-Cog">
+                                        <span class="dp-Icon dp-settings"></span>
                                         <ul class="dp-Menu Menu-tick">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">
@@ -470,7 +472,9 @@ title: Sort and Re-order
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Date crated</a>
-                                    <span class="dp-Icon dp-settings">
+                                    <!-- Icon hover -->
+                                    <span class="dp-Cog">
+                                        <span class="dp-Icon dp-settings"></span>
                                         <ul class="dp-Menu Menu-tick">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">
@@ -487,7 +491,9 @@ title: Sort and Re-order
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Date published (DSC)</a>
-                                    <span class="dp-Icon dp-settings">
+                                    <!-- Icon hover -->
+                                    <span class="dp-Cog">
+                                        <span class="dp-Icon dp-settings"></span>
                                         <ul class="dp-Menu Menu-tick">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">
@@ -504,7 +510,9 @@ title: Sort and Re-order
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Date of last agent reply</a>
-                                    <span class="dp-Icon dp-settings">
+                                    <!-- Icon hover -->
+                                    <span class="dp-Cog">
+                                        <span class="dp-Icon dp-settings"></span>
                                         <ul class="dp-Menu Menu-tick">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">
@@ -521,7 +529,9 @@ title: Sort and Re-order
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Date of last user reply</a>
-                                    <span class="dp-Icon dp-settings">
+                                    <!-- Icon hover -->
+                                    <span class="dp-Cog">
+                                        <span class="dp-Icon dp-settings"></span>
                                         <ul class="dp-Menu Menu-tick">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">
@@ -538,7 +548,9 @@ title: Sort and Re-order
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Widget type</a>
-                                    <span class="dp-Icon dp-settings">
+                                    <!-- Icon hover -->
+                                    <span class="dp-Cog">
+                                        <span class="dp-Icon dp-settings"></span>
                                         <ul class="dp-Menu Menu-tick">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">
@@ -555,7 +567,9 @@ title: Sort and Re-order
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Widget description</a>
-                                    <span class="dp-Icon dp-settings">
+                                    <!-- Icon hover -->
+                                    <span class="dp-Cog">
+                                        <span class="dp-Icon dp-settings"></span>
                                         <ul class="dp-Menu Menu-tick">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">
@@ -572,7 +586,9 @@ title: Sort and Re-order
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Desired sizes</a>
-                                    <span class="dp-Icon dp-settings">
+                                    <!-- Icon hover -->
+                                    <span class="dp-Cog">
+                                        <span class="dp-Icon dp-settings"></span>
                                         <ul class="dp-Menu Menu-tick">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">
@@ -589,7 +605,9 @@ title: Sort and Re-order
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Manufacturing date</a>
-                                    <span class="dp-Icon dp-settings">
+                                    <!-- Icon hover -->
+                                    <span class="dp-Cog">
+                                        <span class="dp-Icon dp-settings"></span>
                                         <ul class="dp-Menu Menu-tick">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">
@@ -606,7 +624,9 @@ title: Sort and Re-order
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Reason for cancellation</a>
-                                    <span class="dp-Icon dp-settings">
+                                    <!-- Icon hover -->
+                                    <span class="dp-Cog">
+                                        <span class="dp-Icon dp-settings"></span>
                                         <ul class="dp-Menu Menu-tick">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">
@@ -623,7 +643,9 @@ title: Sort and Re-order
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Reason for complaint</a>
-                                    <span class="dp-Icon dp-settings">
+                                    <!-- Icon hover -->
+                                    <span class="dp-Cog">
+                                        <span class="dp-Icon dp-settings"></span>
                                         <ul class="dp-Menu Menu-tick">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">
@@ -640,7 +662,9 @@ title: Sort and Re-order
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Suggested actions</a>
-                                    <span class="dp-Icon dp-settings">
+                                    <!-- Icon hover -->
+                                    <span class="dp-Cog">
+                                        <span class="dp-Icon dp-settings"></span>
                                         <ul class="dp-Menu Menu-tick">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">
@@ -2295,7 +2319,7 @@ title: Sort and Re-order
     <ul class="dp-CardList dp-GuidesDirectory dp-Knowledgebase">
 
         <li class="dp-Card-SectionTitle dp-Tasks-list Level-justify-between">
-            <span class="dp-LevelCol">
+            <span class="dp-LevelCol dp-ListName">
                 <span class="dp-Icon Icon--menu"></span>
                 <span class="dp-Card-title">Managing Deskpro On-pr ... <span class="dp-qt">(125)</span></span>
                 <span class="dp-Icon Icon--down-caret Icon--primary"></span>
@@ -2317,7 +2341,7 @@ title: Sort and Re-order
             <span class="dp-Categories-title">Categories</span>
             <span class="dp-Categories-add">
                 <span class="dp-Icon dp-add_follower"></span>
-                new
+                New
             </span>
         </li>
 
@@ -2526,7 +2550,9 @@ title: Sort and Re-order
                                     <a href="" class="dp-listItem">
                                         Urgency
                                     </a>
-                                    <span class="dp-Icon dp-settings">
+                                    <!-- Icon hover -->
+                                    <span class="dp-Cog">
+                                        <span class="dp-Icon dp-settings"></span>
                                         <ul class="dp-Menu Menu-tick">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">
@@ -2543,7 +2569,9 @@ title: Sort and Re-order
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Date crated</a>
-                                    <span class="dp-Icon dp-settings">
+                                    <!-- Icon hover -->
+                                    <span class="dp-Cog">
+                                        <span class="dp-Icon dp-settings"></span>
                                         <ul class="dp-Menu Menu-tick">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">
@@ -2560,7 +2588,9 @@ title: Sort and Re-order
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Date published (DSC)</a>
-                                    <span class="dp-Icon dp-settings">
+                                    <!-- Icon hover -->
+                                    <span class="dp-Cog">
+                                        <span class="dp-Icon dp-settings"></span>
                                         <ul class="dp-Menu Menu-tick">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">
@@ -2577,7 +2607,9 @@ title: Sort and Re-order
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Date of last agent reply</a>
-                                    <span class="dp-Icon dp-settings">
+                                    <!-- Icon hover -->
+                                    <span class="dp-Cog">
+                                        <span class="dp-Icon dp-settings"></span>
                                         <ul class="dp-Menu Menu-tick">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">
@@ -2594,7 +2626,9 @@ title: Sort and Re-order
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Date of last user reply</a>
-                                    <span class="dp-Icon dp-settings">
+                                    <!-- Icon hover -->
+                                    <span class="dp-Cog">
+                                        <span class="dp-Icon dp-settings"></span>
                                         <ul class="dp-Menu Menu-tick">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">
@@ -2611,7 +2645,9 @@ title: Sort and Re-order
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Widget type</a>
-                                    <span class="dp-Icon dp-settings">
+                                    <!-- Icon hover -->
+                                    <span class="dp-Cog">
+                                        <span class="dp-Icon dp-settings"></span>
                                         <ul class="dp-Menu Menu-tick">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">
@@ -2628,7 +2664,9 @@ title: Sort and Re-order
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Widget description</a>
-                                    <span class="dp-Icon dp-settings">
+                                    <!-- Icon hover -->
+                                    <span class="dp-Cog">
+                                        <span class="dp-Icon dp-settings"></span>
                                         <ul class="dp-Menu Menu-tick">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">
@@ -2645,7 +2683,9 @@ title: Sort and Re-order
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Desired sizes</a>
-                                    <span class="dp-Icon dp-settings">
+                                    <!-- Icon hover -->
+                                    <span class="dp-Cog">
+                                        <span class="dp-Icon dp-settings"></span>
                                         <ul class="dp-Menu Menu-tick">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">
@@ -2662,7 +2702,9 @@ title: Sort and Re-order
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Manufacturing date</a>
-                                    <span class="dp-Icon dp-settings">
+                                    <!-- Icon hover -->
+                                    <span class="dp-Cog">
+                                        <span class="dp-Icon dp-settings"></span>
                                         <ul class="dp-Menu Menu-tick">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">
@@ -2679,7 +2721,9 @@ title: Sort and Re-order
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Reason for cancellation</a>
-                                    <span class="dp-Icon dp-settings">
+                                    <!-- Icon hover -->
+                                    <span class="dp-Cog">
+                                        <span class="dp-Icon dp-settings"></span>
                                         <ul class="dp-Menu Menu-tick">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">
@@ -2696,7 +2740,9 @@ title: Sort and Re-order
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Reason for complaint</a>
-                                    <span class="dp-Icon dp-settings">
+                                    <!-- Icon hover -->
+                                    <span class="dp-Cog">
+                                        <span class="dp-Icon dp-settings"></span>
                                         <ul class="dp-Menu Menu-tick">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">
@@ -2713,7 +2759,9 @@ title: Sort and Re-order
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Suggested actions</a>
-                                    <span class="dp-Icon dp-settings">
+                                    <!-- Icon hover -->
+                                    <span class="dp-Cog">
+                                        <span class="dp-Icon dp-settings"></span>
                                         <ul class="dp-Menu Menu-tick">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">
@@ -4362,7 +4410,7 @@ title: Sort and Re-order
             <span class="dp-Categories-title">Articles</span>
             <span class="dp-Categories-add">
                 <span class="dp-Icon dp-add_follower"></span>
-                new
+                New
             </span>
         </li>
 
@@ -4573,7 +4621,9 @@ title: Sort and Re-order
                                     <a href="" class="dp-listItem">
                                         Urgency
                                     </a>
-                                    <span class="dp-Icon dp-settings">
+                                    <!-- Icon hover -->
+                                    <span class="dp-Cog">
+                                        <span class="dp-Icon dp-settings"></span>
                                         <ul class="dp-Menu Menu-tick">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">
@@ -4590,7 +4640,9 @@ title: Sort and Re-order
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Date crated</a>
-                                    <span class="dp-Icon dp-settings">
+                                    <!-- Icon hover -->
+                                    <span class="dp-Cog">
+                                        <span class="dp-Icon dp-settings"></span>
                                         <ul class="dp-Menu Menu-tick">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">
@@ -4607,7 +4659,9 @@ title: Sort and Re-order
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Date published (DSC)</a>
-                                    <span class="dp-Icon dp-settings">
+                                    <!-- Icon hover -->
+                                    <span class="dp-Cog">
+                                        <span class="dp-Icon dp-settings"></span>
                                         <ul class="dp-Menu Menu-tick">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">
@@ -4624,7 +4678,9 @@ title: Sort and Re-order
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Date of last agent reply</a>
-                                    <span class="dp-Icon dp-settings">
+                                    <!-- Icon hover -->
+                                    <span class="dp-Cog">
+                                        <span class="dp-Icon dp-settings"></span>
                                         <ul class="dp-Menu Menu-tick">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">
@@ -4641,7 +4697,9 @@ title: Sort and Re-order
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Date of last user reply</a>
-                                    <span class="dp-Icon dp-settings">
+                                    <!-- Icon hover -->
+                                    <span class="dp-Cog">
+                                        <span class="dp-Icon dp-settings"></span>
                                         <ul class="dp-Menu Menu-tick">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">
@@ -4658,7 +4716,9 @@ title: Sort and Re-order
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Widget type</a>
-                                    <span class="dp-Icon dp-settings">
+                                    <!-- Icon hover -->
+                                    <span class="dp-Cog">
+                                        <span class="dp-Icon dp-settings"></span>
                                         <ul class="dp-Menu Menu-tick">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">
@@ -4675,7 +4735,9 @@ title: Sort and Re-order
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Widget description</a>
-                                    <span class="dp-Icon dp-settings">
+                                    <!-- Icon hover -->
+                                    <span class="dp-Cog">
+                                        <span class="dp-Icon dp-settings"></span>
                                         <ul class="dp-Menu Menu-tick">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">
@@ -4692,7 +4754,9 @@ title: Sort and Re-order
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Desired sizes</a>
-                                    <span class="dp-Icon dp-settings">
+                                    <!-- Icon hover -->
+                                    <span class="dp-Cog">
+                                        <span class="dp-Icon dp-settings"></span>
                                         <ul class="dp-Menu Menu-tick">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">
@@ -4709,7 +4773,9 @@ title: Sort and Re-order
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Manufacturing date</a>
-                                    <span class="dp-Icon dp-settings">
+                                    <!-- Icon hover -->
+                                    <span class="dp-Cog">
+                                        <span class="dp-Icon dp-settings"></span>
                                         <ul class="dp-Menu Menu-tick">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">
@@ -4726,7 +4792,9 @@ title: Sort and Re-order
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Reason for cancellation</a>
-                                    <span class="dp-Icon dp-settings">
+                                    <!-- Icon hover -->
+                                    <span class="dp-Cog">
+                                        <span class="dp-Icon dp-settings"></span>
                                         <ul class="dp-Menu Menu-tick">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">
@@ -4743,7 +4811,9 @@ title: Sort and Re-order
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Reason for complaint</a>
-                                    <span class="dp-Icon dp-settings">
+                                    <!-- Icon hover -->
+                                    <span class="dp-Cog">
+                                        <span class="dp-Icon dp-settings"></span>
                                         <ul class="dp-Menu Menu-tick">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">
@@ -4760,7 +4830,9 @@ title: Sort and Re-order
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Suggested actions</a>
-                                    <span class="dp-Icon dp-settings">
+                                    <!-- Icon hover -->
+                                    <span class="dp-Cog">
+                                        <span class="dp-Icon dp-settings"></span>
                                         <ul class="dp-Menu Menu-tick">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">
@@ -6526,9 +6598,8 @@ title: Sort and Re-order
 <form class="dp-MainWrapper demo-cog demo-menu">
     <ul class="dp-CardList dp-GuidesDirectory dp-Knowledgebase">
 
-
         <li class="dp-Card-SectionTitle dp-Tasks-list Level-justify-between">
-            <span class="dp-LevelCol">
+            <span class="dp-LevelCol dp-ListName">
                 <span class="dp-Icon Icon--menu"></span>
                 <span class="dp-Card-title">Managing Deskpro On-pr ... <span class="dp-qt">(125)</span></span>
                 <span class="dp-Icon Icon--down-caret Icon--primary"></span>
@@ -6550,7 +6621,7 @@ title: Sort and Re-order
             <span class="dp-Categories-title">Categories</span>
             <span class="dp-Categories-add">
                 <span class="dp-Icon dp-add_follower"></span>
-                new
+                New
             </span>
         </li>
 
@@ -6755,7 +6826,9 @@ title: Sort and Re-order
                                     <a href="" class="dp-listItem">
                                         Urgency
                                     </a>
-                                    <span class="dp-Icon dp-settings">
+                                    <!-- Icon hover -->
+                                    <span class="dp-Cog">
+                                        <span class="dp-Icon dp-settings"></span>
                                         <ul class="dp-Menu Menu-tick">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">
@@ -6772,7 +6845,9 @@ title: Sort and Re-order
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Date crated</a>
-                                    <span class="dp-Icon dp-settings">
+                                    <!-- Icon hover -->
+                                    <span class="dp-Cog">
+                                        <span class="dp-Icon dp-settings"></span>
                                         <ul class="dp-Menu Menu-tick">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">
@@ -6789,7 +6864,9 @@ title: Sort and Re-order
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Date published (DSC)</a>
-                                    <span class="dp-Icon dp-settings">
+                                    <!-- Icon hover -->
+                                    <span class="dp-Cog">
+                                        <span class="dp-Icon dp-settings"></span>
                                         <ul class="dp-Menu Menu-tick">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">
@@ -6806,7 +6883,9 @@ title: Sort and Re-order
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Date of last agent reply</a>
-                                    <span class="dp-Icon dp-settings">
+                                    <!-- Icon hover -->
+                                    <span class="dp-Cog">
+                                        <span class="dp-Icon dp-settings"></span>
                                         <ul class="dp-Menu Menu-tick">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">
@@ -6823,7 +6902,9 @@ title: Sort and Re-order
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Date of last user reply</a>
-                                    <span class="dp-Icon dp-settings">
+                                    <!-- Icon hover -->
+                                    <span class="dp-Cog">
+                                        <span class="dp-Icon dp-settings"></span>
                                         <ul class="dp-Menu Menu-tick">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">
@@ -6840,7 +6921,9 @@ title: Sort and Re-order
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Widget type</a>
-                                    <span class="dp-Icon dp-settings">
+                                    <!-- Icon hover -->
+                                    <span class="dp-Cog">
+                                        <span class="dp-Icon dp-settings"></span>
                                         <ul class="dp-Menu Menu-tick">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">
@@ -6857,7 +6940,9 @@ title: Sort and Re-order
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Widget description</a>
-                                    <span class="dp-Icon dp-settings">
+                                    <!-- Icon hover -->
+                                    <span class="dp-Cog">
+                                        <span class="dp-Icon dp-settings"></span>
                                         <ul class="dp-Menu Menu-tick">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">
@@ -6874,7 +6959,9 @@ title: Sort and Re-order
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Desired sizes</a>
-                                    <span class="dp-Icon dp-settings">
+                                    <!-- Icon hover -->
+                                    <span class="dp-Cog">
+                                        <span class="dp-Icon dp-settings"></span>
                                         <ul class="dp-Menu Menu-tick">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">
@@ -6891,7 +6978,9 @@ title: Sort and Re-order
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Manufacturing date</a>
-                                    <span class="dp-Icon dp-settings">
+                                    <!-- Icon hover -->
+                                    <span class="dp-Cog">
+                                        <span class="dp-Icon dp-settings"></span>
                                         <ul class="dp-Menu Menu-tick">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">
@@ -6908,7 +6997,9 @@ title: Sort and Re-order
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Reason for cancellation</a>
-                                    <span class="dp-Icon dp-settings">
+                                    <!-- Icon hover -->
+                                    <span class="dp-Cog">
+                                        <span class="dp-Icon dp-settings"></span>
                                         <ul class="dp-Menu Menu-tick">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">
@@ -6925,7 +7016,9 @@ title: Sort and Re-order
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Reason for complaint</a>
-                                    <span class="dp-Icon dp-settings">
+                                    <!-- Icon hover -->
+                                    <span class="dp-Cog">
+                                        <span class="dp-Icon dp-settings"></span>
                                         <ul class="dp-Menu Menu-tick">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">
@@ -6942,7 +7035,9 @@ title: Sort and Re-order
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Suggested actions</a>
-                                    <span class="dp-Icon dp-settings">
+                                    <!-- Icon hover -->
+                                    <span class="dp-Cog">
+                                        <span class="dp-Icon dp-settings"></span>
                                         <ul class="dp-Menu Menu-tick">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">
@@ -8526,7 +8621,7 @@ title: Sort and Re-order
             <span class="dp-Categories-title">Articles</span>
             <span class="dp-Categories-add">
                 <span class="dp-Icon dp-add_follower"></span>
-                new
+                New
             </span>
         </li>
 
@@ -8737,7 +8832,9 @@ title: Sort and Re-order
                                     <a href="" class="dp-listItem">
                                         Urgency
                                     </a>
-                                    <span class="dp-Icon dp-settings">
+                                    <!-- Icon hover -->
+                                    <span class="dp-Cog">
+                                        <span class="dp-Icon dp-settings"></span>
                                         <ul class="dp-Menu Menu-tick">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">
@@ -8754,7 +8851,9 @@ title: Sort and Re-order
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Date crated</a>
-                                    <span class="dp-Icon dp-settings">
+                                    <!-- Icon hover -->
+                                    <span class="dp-Cog">
+                                        <span class="dp-Icon dp-settings"></span>
                                         <ul class="dp-Menu Menu-tick">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">
@@ -8771,7 +8870,9 @@ title: Sort and Re-order
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Date published (DSC)</a>
-                                    <span class="dp-Icon dp-settings">
+                                    <!-- Icon hover -->
+                                    <span class="dp-Cog">
+                                        <span class="dp-Icon dp-settings"></span>
                                         <ul class="dp-Menu Menu-tick">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">
@@ -8788,7 +8889,9 @@ title: Sort and Re-order
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Date of last agent reply</a>
-                                    <span class="dp-Icon dp-settings">
+                                    <!-- Icon hover -->
+                                    <span class="dp-Cog">
+                                        <span class="dp-Icon dp-settings"></span>
                                         <ul class="dp-Menu Menu-tick">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">
@@ -8805,7 +8908,9 @@ title: Sort and Re-order
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Date of last user reply</a>
-                                    <span class="dp-Icon dp-settings">
+                                    <!-- Icon hover -->
+                                    <span class="dp-Cog">
+                                        <span class="dp-Icon dp-settings"></span>
                                         <ul class="dp-Menu Menu-tick">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">
@@ -8822,7 +8927,9 @@ title: Sort and Re-order
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Widget type</a>
-                                    <span class="dp-Icon dp-settings">
+                                    <!-- Icon hover -->
+                                    <span class="dp-Cog">
+                                        <span class="dp-Icon dp-settings"></span>
                                         <ul class="dp-Menu Menu-tick">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">
@@ -8839,7 +8946,9 @@ title: Sort and Re-order
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Widget description</a>
-                                    <span class="dp-Icon dp-settings">
+                                    <!-- Icon hover -->
+                                    <span class="dp-Cog">
+                                        <span class="dp-Icon dp-settings"></span>
                                         <ul class="dp-Menu Menu-tick">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">
@@ -8856,7 +8965,9 @@ title: Sort and Re-order
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Desired sizes</a>
-                                    <span class="dp-Icon dp-settings">
+                                    <!-- Icon hover -->
+                                    <span class="dp-Cog">
+                                        <span class="dp-Icon dp-settings"></span>
                                         <ul class="dp-Menu Menu-tick">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">
@@ -8873,7 +8984,9 @@ title: Sort and Re-order
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Manufacturing date</a>
-                                    <span class="dp-Icon dp-settings">
+                                    <!-- Icon hover -->
+                                    <span class="dp-Cog">
+                                        <span class="dp-Icon dp-settings"></span>
                                         <ul class="dp-Menu Menu-tick">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">
@@ -8890,7 +9003,9 @@ title: Sort and Re-order
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Reason for cancellation</a>
-                                    <span class="dp-Icon dp-settings">
+                                    <!-- Icon hover -->
+                                    <span class="dp-Cog">
+                                        <span class="dp-Icon dp-settings"></span>
                                         <ul class="dp-Menu Menu-tick">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">
@@ -8907,7 +9022,9 @@ title: Sort and Re-order
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Reason for complaint</a>
-                                    <span class="dp-Icon dp-settings">
+                                    <!-- Icon hover -->
+                                    <span class="dp-Cog">
+                                        <span class="dp-Icon dp-settings"></span>
                                         <ul class="dp-Menu Menu-tick">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">
@@ -8924,7 +9041,9 @@ title: Sort and Re-order
                                 </li>
                                 <li class="dp-Menu-linkItem">
                                     <a href="" class="dp-listItem">Suggested actions</a>
-                                    <span class="dp-Icon dp-settings">
+                                    <!-- Icon hover -->
+                                    <span class="dp-Cog">
+                                        <span class="dp-Icon dp-settings"></span>
                                         <ul class="dp-Menu Menu-tick">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">
@@ -10719,7 +10838,9 @@ title: Sort and Re-order
                         <a href="" class="dp-listItem">
                             Urgency
                         </a>
-                        <span class="dp-Icon dp-settings">
+                        <!-- Icon hover -->
+                        <span class="dp-Cog">
+                            <span class="dp-Icon dp-settings"></span>
                             <ul class="dp-Menu Menu-tick">
                                 <li class="dp-Menu-linkItem">
                                     <a href="#" class="dp-listItem">
@@ -10736,7 +10857,9 @@ title: Sort and Re-order
                     </li>
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">Date crated</a>
-                        <span class="dp-Icon dp-settings">
+                        <!-- Icon hover -->
+                        <span class="dp-Cog">
+                            <span class="dp-Icon dp-settings"></span>
                             <ul class="dp-Menu Menu-tick">
                                 <li class="dp-Menu-linkItem">
                                     <a href="#" class="dp-listItem">
@@ -10753,7 +10876,9 @@ title: Sort and Re-order
                     </li>
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">Date published (DSC)</a>
-                        <span class="dp-Icon dp-settings">
+                        <!-- Icon hover -->
+                        <span class="dp-Cog">
+                            <span class="dp-Icon dp-settings"></span>
                             <ul class="dp-Menu Menu-tick">
                                 <li class="dp-Menu-linkItem">
                                     <a href="#" class="dp-listItem">
@@ -10770,7 +10895,9 @@ title: Sort and Re-order
                     </li>
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">Date of last agent reply</a>
-                        <span class="dp-Icon dp-settings">
+                        <!-- Icon hover -->
+                        <span class="dp-Cog">
+                            <span class="dp-Icon dp-settings"></span>
                             <ul class="dp-Menu Menu-tick">
                                 <li class="dp-Menu-linkItem">
                                     <a href="#" class="dp-listItem">
@@ -10787,7 +10914,9 @@ title: Sort and Re-order
                     </li>
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">Date of last user reply</a>
-                        <span class="dp-Icon dp-settings">
+                        <!-- Icon hover -->
+                        <span class="dp-Cog">
+                            <span class="dp-Icon dp-settings"></span>
                             <ul class="dp-Menu Menu-tick">
                                 <li class="dp-Menu-linkItem">
                                     <a href="#" class="dp-listItem">
@@ -10804,7 +10933,9 @@ title: Sort and Re-order
                     </li>
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">Widget type</a>
-                        <span class="dp-Icon dp-settings">
+                        <!-- Icon hover -->
+                        <span class="dp-Cog">
+                            <span class="dp-Icon dp-settings"></span>
                             <ul class="dp-Menu Menu-tick">
                                 <li class="dp-Menu-linkItem">
                                     <a href="#" class="dp-listItem">
@@ -10821,7 +10952,9 @@ title: Sort and Re-order
                     </li>
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">Widget description</a>
-                        <span class="dp-Icon dp-settings">
+                        <!-- Icon hover -->
+                        <span class="dp-Cog">
+                            <span class="dp-Icon dp-settings"></span>
                             <ul class="dp-Menu Menu-tick">
                                 <li class="dp-Menu-linkItem">
                                     <a href="#" class="dp-listItem">
@@ -10838,7 +10971,9 @@ title: Sort and Re-order
                     </li>
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">Desired sizes</a>
-                        <span class="dp-Icon dp-settings">
+                        <!-- Icon hover -->
+                        <span class="dp-Cog">
+                            <span class="dp-Icon dp-settings"></span>
                             <ul class="dp-Menu Menu-tick">
                                 <li class="dp-Menu-linkItem">
                                     <a href="#" class="dp-listItem">
@@ -10855,7 +10990,9 @@ title: Sort and Re-order
                     </li>
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">Manufacturing date</a>
-                        <span class="dp-Icon dp-settings">
+                        <!-- Icon hover -->
+                        <span class="dp-Cog">
+                            <span class="dp-Icon dp-settings"></span>
                             <ul class="dp-Menu Menu-tick">
                                 <li class="dp-Menu-linkItem">
                                     <a href="#" class="dp-listItem">
@@ -10872,7 +11009,9 @@ title: Sort and Re-order
                     </li>
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">Reason for cancellation</a>
-                        <span class="dp-Icon dp-settings">
+                        <!-- Icon hover -->
+                        <span class="dp-Cog">
+                            <span class="dp-Icon dp-settings"></span>
                             <ul class="dp-Menu Menu-tick">
                                 <li class="dp-Menu-linkItem">
                                     <a href="#" class="dp-listItem">
@@ -10889,7 +11028,9 @@ title: Sort and Re-order
                     </li>
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">Reason for complaint</a>
-                        <span class="dp-Icon dp-settings">
+                        <!-- Icon hover -->
+                        <span class="dp-Cog">
+                            <span class="dp-Icon dp-settings"></span>
                             <ul class="dp-Menu Menu-tick">
                                 <li class="dp-Menu-linkItem">
                                     <a href="#" class="dp-listItem">
@@ -10906,7 +11047,9 @@ title: Sort and Re-order
                     </li>
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">Suggested actions</a>
-                        <span class="dp-Icon dp-settings">
+                        <!-- Icon hover -->
+                        <span class="dp-Cog">
+                            <span class="dp-Icon dp-settings"></span>
                             <ul class="dp-Menu Menu-tick">
                                 <li class="dp-Menu-linkItem">
                                     <a href="#" class="dp-listItem">
@@ -10968,7 +11111,9 @@ title: Sort and Re-order
                         <a href="" class="dp-listItem">
                             Urgency
                         </a>
-                        <span class="dp-Icon dp-settings">
+                        <!-- Icon hover -->
+                        <span class="dp-Cog">
+                            <span class="dp-Icon dp-settings"></span>
                             <ul class="dp-Menu Menu-tick">
                                 <li class="dp-Menu-linkItem">
                                     <a href="#" class="dp-listItem">
@@ -10985,7 +11130,9 @@ title: Sort and Re-order
                     </li>
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">Date crated</a>
-                        <span class="dp-Icon dp-settings">
+                        <!-- Icon hover -->
+                        <span class="dp-Cog">
+                            <span class="dp-Icon dp-settings"></span>
                             <ul class="dp-Menu Menu-tick">
                                 <li class="dp-Menu-linkItem">
                                     <a href="#" class="dp-listItem">
@@ -11002,7 +11149,9 @@ title: Sort and Re-order
                     </li>
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">Date published (DSC)</a>
-                        <span class="dp-Icon dp-settings">
+                        <!-- Icon hover -->
+                        <span class="dp-Cog">
+                            <span class="dp-Icon dp-settings"></span>
                             <ul class="dp-Menu Menu-tick">
                                 <li class="dp-Menu-linkItem">
                                     <a href="#" class="dp-listItem">
@@ -11019,7 +11168,9 @@ title: Sort and Re-order
                     </li>
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">Date of last agent reply</a>
-                        <span class="dp-Icon dp-settings">
+                        <!-- Icon hover -->
+                        <span class="dp-Cog">
+                            <span class="dp-Icon dp-settings"></span>
                             <ul class="dp-Menu Menu-tick">
                                 <li class="dp-Menu-linkItem">
                                     <a href="#" class="dp-listItem">
@@ -11036,7 +11187,9 @@ title: Sort and Re-order
                     </li>
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">Date of last user reply</a>
-                        <span class="dp-Icon dp-settings">
+                        <!-- Icon hover -->
+                        <span class="dp-Cog">
+                            <span class="dp-Icon dp-settings"></span>
                             <ul class="dp-Menu Menu-tick">
                                 <li class="dp-Menu-linkItem">
                                     <a href="#" class="dp-listItem">
@@ -11053,7 +11206,9 @@ title: Sort and Re-order
                     </li>
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">Widget type</a>
-                        <span class="dp-Icon dp-settings">
+                        <!-- Icon hover -->
+                        <span class="dp-Cog">
+                            <span class="dp-Icon dp-settings"></span>
                             <ul class="dp-Menu Menu-tick">
                                 <li class="dp-Menu-linkItem">
                                     <a href="#" class="dp-listItem">
@@ -11070,7 +11225,9 @@ title: Sort and Re-order
                     </li>
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">Widget description</a>
-                        <span class="dp-Icon dp-settings">
+                        <!-- Icon hover -->
+                        <span class="dp-Cog">
+                            <span class="dp-Icon dp-settings"></span>
                             <ul class="dp-Menu Menu-tick">
                                 <li class="dp-Menu-linkItem">
                                     <a href="#" class="dp-listItem">
@@ -11087,7 +11244,9 @@ title: Sort and Re-order
                     </li>
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">Desired sizes</a>
-                        <span class="dp-Icon dp-settings">
+                        <!-- Icon hover -->
+                        <span class="dp-Cog">
+                            <span class="dp-Icon dp-settings"></span>
                             <ul class="dp-Menu Menu-tick">
                                 <li class="dp-Menu-linkItem">
                                     <a href="#" class="dp-listItem">
@@ -11104,7 +11263,9 @@ title: Sort and Re-order
                     </li>
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">Manufacturing date</a>
-                        <span class="dp-Icon dp-settings">
+                        <!-- Icon hover -->
+                        <span class="dp-Cog">
+                            <span class="dp-Icon dp-settings"></span>
                             <ul class="dp-Menu Menu-tick">
                                 <li class="dp-Menu-linkItem">
                                     <a href="#" class="dp-listItem">
@@ -11121,7 +11282,9 @@ title: Sort and Re-order
                     </li>
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">Reason for cancellation</a>
-                        <span class="dp-Icon dp-settings">
+                        <!-- Icon hover -->
+                        <span class="dp-Cog">
+                            <span class="dp-Icon dp-settings"></span>
                             <ul class="dp-Menu Menu-tick">
                                 <li class="dp-Menu-linkItem">
                                     <a href="#" class="dp-listItem">
@@ -11138,7 +11301,9 @@ title: Sort and Re-order
                     </li>
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">Reason for complaint</a>
-                        <span class="dp-Icon dp-settings">
+                        <!-- Icon hover -->
+                        <span class="dp-Cog">
+                            <span class="dp-Icon dp-settings"></span>
                             <ul class="dp-Menu Menu-tick">
                                 <li class="dp-Menu-linkItem">
                                     <a href="#" class="dp-listItem">
@@ -11155,7 +11320,9 @@ title: Sort and Re-order
                     </li>
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">Suggested actions</a>
-                        <span class="dp-Icon dp-settings">
+                        <!-- Icon hover -->
+                        <span class="dp-Cog">
+                            <span class="dp-Icon dp-settings"></span>
                             <ul class="dp-Menu Menu-tick">
                                 <li class="dp-Menu-linkItem">
                                     <a href="#" class="dp-listItem">
@@ -11216,7 +11383,9 @@ title: Sort and Re-order
                         <a href="" class="dp-listItem">
                             Urgency
                         </a>
-                        <span class="dp-Icon dp-settings">
+                        <!-- Icon hover -->
+                        <span class="dp-Cog">
+                            <span class="dp-Icon dp-settings"></span>
                             <ul class="dp-Menu Menu-tick">
                                 <li class="dp-Menu-linkItem">
                                     <a href="#" class="dp-listItem">
@@ -11233,7 +11402,9 @@ title: Sort and Re-order
                     </li>
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">Date crated</a>
-                        <span class="dp-Icon dp-settings">
+                        <!-- Icon hover -->
+                        <span class="dp-Cog">
+                            <span class="dp-Icon dp-settings"></span>
                             <ul class="dp-Menu Menu-tick">
                                 <li class="dp-Menu-linkItem">
                                     <a href="#" class="dp-listItem">
@@ -11250,7 +11421,9 @@ title: Sort and Re-order
                     </li>
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">Date published (DSC)</a>
-                        <span class="dp-Icon dp-settings">
+                        <!-- Icon hover -->
+                        <span class="dp-Cog">
+                            <span class="dp-Icon dp-settings"></span>
                             <ul class="dp-Menu Menu-tick">
                                 <li class="dp-Menu-linkItem">
                                     <a href="#" class="dp-listItem">
@@ -11267,7 +11440,9 @@ title: Sort and Re-order
                     </li>
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">Date of last agent reply</a>
-                        <span class="dp-Icon dp-settings">
+                        <!-- Icon hover -->
+                        <span class="dp-Cog">
+                            <span class="dp-Icon dp-settings"></span>
                             <ul class="dp-Menu Menu-tick">
                                 <li class="dp-Menu-linkItem">
                                     <a href="#" class="dp-listItem">
@@ -11284,7 +11459,9 @@ title: Sort and Re-order
                     </li>
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">Date of last user reply</a>
-                        <span class="dp-Icon dp-settings">
+                        <!-- Icon hover -->
+                        <span class="dp-Cog">
+                            <span class="dp-Icon dp-settings"></span>
                             <ul class="dp-Menu Menu-tick">
                                 <li class="dp-Menu-linkItem">
                                     <a href="#" class="dp-listItem">
@@ -11301,7 +11478,9 @@ title: Sort and Re-order
                     </li>
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">Widget type</a>
-                        <span class="dp-Icon dp-settings">
+                        <!-- Icon hover -->
+                        <span class="dp-Cog">
+                            <span class="dp-Icon dp-settings"></span>
                             <ul class="dp-Menu Menu-tick">
                                 <li class="dp-Menu-linkItem">
                                     <a href="#" class="dp-listItem">
@@ -11318,7 +11497,9 @@ title: Sort and Re-order
                     </li>
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">Widget description</a>
-                        <span class="dp-Icon dp-settings">
+                        <!-- Icon hover -->
+                        <span class="dp-Cog">
+                            <span class="dp-Icon dp-settings"></span>
                             <ul class="dp-Menu Menu-tick">
                                 <li class="dp-Menu-linkItem">
                                     <a href="#" class="dp-listItem">
@@ -11335,7 +11516,9 @@ title: Sort and Re-order
                     </li>
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">Desired sizes</a>
-                        <span class="dp-Icon dp-settings">
+                        <!-- Icon hover -->
+                        <span class="dp-Cog">
+                            <span class="dp-Icon dp-settings"></span>
                             <ul class="dp-Menu Menu-tick">
                                 <li class="dp-Menu-linkItem">
                                     <a href="#" class="dp-listItem">
@@ -11352,7 +11535,9 @@ title: Sort and Re-order
                     </li>
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">Manufacturing date</a>
-                        <span class="dp-Icon dp-settings">
+                        <!-- Icon hover -->
+                        <span class="dp-Cog">
+                            <span class="dp-Icon dp-settings"></span>
                             <ul class="dp-Menu Menu-tick">
                                 <li class="dp-Menu-linkItem">
                                     <a href="#" class="dp-listItem">
@@ -11369,7 +11554,9 @@ title: Sort and Re-order
                     </li>
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">Reason for cancellation</a>
-                        <span class="dp-Icon dp-settings">
+                        <!-- Icon hover -->
+                        <span class="dp-Cog">
+                            <span class="dp-Icon dp-settings"></span>
                             <ul class="dp-Menu Menu-tick">
                                 <li class="dp-Menu-linkItem">
                                     <a href="#" class="dp-listItem">
@@ -11386,7 +11573,9 @@ title: Sort and Re-order
                     </li>
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">Reason for complaint</a>
-                        <span class="dp-Icon dp-settings">
+                        <!-- Icon hover -->
+                        <span class="dp-Cog">
+                            <span class="dp-Icon dp-settings"></span>
                             <ul class="dp-Menu Menu-tick">
                                 <li class="dp-Menu-linkItem">
                                     <a href="#" class="dp-listItem">
@@ -11403,7 +11592,9 @@ title: Sort and Re-order
                     </li>
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">Suggested actions</a>
-                        <span class="dp-Icon dp-settings">
+                        <!-- Icon hover -->
+                        <span class="dp-Cog">
+                            <span class="dp-Icon dp-settings"></span>
                             <ul class="dp-Menu Menu-tick">
                                 <li class="dp-Menu-linkItem">
                                     <a href="#" class="dp-listItem">

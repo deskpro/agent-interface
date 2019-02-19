@@ -20,18 +20,15 @@
 
 .dp-Categories-add {
   align-items: center;
-  background-color: var(--success);
-  border-radius: 2px;
-  color: var(--white);
+  color: var(--grey-dark);
   cursor: pointer;
   display: flex;
-  font: var(--p-s);
-  padding: 1px 5px 1px 2px;
+  font: var(--p-n);
 }
 
 .dp-Categories-add .dp-Icon {
   cursor: pointer;
-  margin-right: 2px;
+  margin-right: 4px;
 }
 
 .dp-Categories-add svg {
@@ -55,11 +52,13 @@
   margin: 0 7px 0 0;
 }
 
-.dp-GuidesDirectory.dp-Knowledgebase .dp-Card:hover {
+/* .dp-GuidesDirectory.dp-Knowledgebase .dp-Card:hover {
   background-color: inherit;
-}
+} */
 
-.dp-GuidesDirectory.dp-Knowledgebase .dp-orderingbar--Wrap ~ .dp-Card:hover {
+/* .dp-Knowledgebase .dp-orderingbar--Wrap ~ .dp-Card:hover { */
+
+.dp-GuidesDirectory.dp-Knowledgebase .dp-Card:hover {
   border-right: 1px solid transparent;
 }
 
@@ -181,27 +180,41 @@
   color: var(--grey-dark);
 }
 
-.dp-Knowledgebase .dp-Menu .dp-Menu-linkItem > .dp-Icon {
+/* .dp-Knowledgebase .dp-Menu .dp-Menu-linkItem > .dp-Icon {
   background-size: 12px;
   display: none;
   margin: 0;
   position: relative;
+} */
+
+/* .dp-Knowledgebase .dp-Menu .dp-Menu-linkItem:hover > .dp-Icon { */
+
+.dp-Knowledgebase .dp-Menu .dp-Menu-linkItem:hover > .dp-Cog {
+  display: block;
 }
 
-.dp-Knowledgebase .dp-Menu .dp-Menu-linkItem:hover > .dp-Icon {
+.dp-Knowledgebase .dp-Menu .dp-Menu-linkItem .dp-Cog {
+  left: calc(100% - 22px);
+  top: calc(50% - 6px);
+}
+
+/* .dp-Menu .dp-Cog:hover .dp-Menu {
   display: block;
 }
 
 .dp-Knowledgebase .dp-Menu .dp-Menu-linkItem > .dp-Menu {
   display: none;
-}
+} */
 
-.dp-Knowledgebase .dp-Menu .dp-Menu-linkItem > .dp-Icon:hover .dp-Menu {
+/* .dp-Knowledgebase .dp-Menu .dp-Menu-linkItem > .dp-Icon:hover .dp-Menu { */
+
+.dp-Knowledgebase .dp-Menu .dp-Menu-linkItem > .dp-Cog .dp-Menu {
   border-radius: 0.25rem;
-  display: block;
-  left: calc(100% - 12px);
+  left: 0;
+  margin-left: 0;
+  margin-top: 5px;
   min-width: 110px;
-  top: calc(100% + 2px);
+  position: relative;
 }
 
 .dp-Menu.Menu-tick > .dp-Menu-linkItem.dp-SortOrder,

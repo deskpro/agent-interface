@@ -177,10 +177,6 @@
   border-color: transparent transparent transparent var(--brand-primary);
 }
 
-.dp-Menu > .dp-Menu-linkItem:hover svg {
-  fill: var(--brand-primary);
-}
-
 .dp-iconVDots.is-visible + .dp-Menu {
   left: calc(100% - 5px);
   top: 0;
