@@ -17,7 +17,7 @@ const CardCheckbox: React.FC<CheckableCardProps> = ({
 }) => {
   const handleCheck = React.useCallback(
     (e: React.PointerEvent<HTMLInputElement>) => onCheck(cardId, e),
-    [cardId]
+    [cardId, onCheck]
   );
 
   if (!checkable) {
