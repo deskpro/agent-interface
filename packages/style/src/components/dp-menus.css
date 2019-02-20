@@ -8,15 +8,15 @@
   background-color: var(--white);
   border: 1px solid var(--brand-primary);
   border-radius: var(--border-radius);
-  left: 0;
   list-style-type: none;
   padding: 5px 0;
   position: absolute;
-  top: calc(100% + 5px);
   white-space: nowrap;
   z-index: 9;
 
-  /* display: none; */
+  /*  left: 0;
+  top: calc(100% + 5px);
+  display: none; */
 
 }
 
@@ -81,6 +81,7 @@
   position: initial;
 }
 
+.dp-FilterControlsItem .dp-Menu,
 .dp-ListPane .dp-Menu {
   min-width: 200px;
 }
@@ -106,10 +107,6 @@
 
 .dp-FilterControlsItem .dp-Menu.newControlsList {
   min-width: 250px;
-}
-
-.dp-FilterControlsItem .dp-Menu {
-  min-width: 200px;
 }
 
 /* listpane/rightclick */
@@ -524,12 +521,12 @@
 } */
 
 .dp-Cog {
-  left: calc(100% - 9px);
   position: absolute;
-  top: calc(50% - 9px);
   z-index: 9;
 
-  /* display: none; */
+  /*  top: calc(50% - 9px);
+  left: calc(100% - 9px);
+  display: none; */
 
 }
 

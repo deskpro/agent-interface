@@ -739,7 +739,7 @@ title: List View
 
 <h2>Listview/mass-select</h2>
 ```html @preview
-<form class="dp-MassSelect newControlsList select-checkbox">
+<form class="dp-MassSelect newControlsList select-checkbox demo-menu">
 
     <span class="dp-MassSelectTitle">
         <span class="dp-ItemRow">
@@ -1344,7 +1344,7 @@ title: List View
                         </li>
                     </ul>
 
-                    <span class="dp-CommentWrap">
+                    <span class="dp-CommentWrap demo-comments">
                         <span class="dp-Icon dp-iconComents"></span>
                         <span class="dp-Comments-title">Comment <a href="#" class="dp-qt">(2)</a><button class="dp-Arrow"></button></span>
                         <ul class="dp-Comments">
@@ -1548,7 +1548,7 @@ title: List View
                             Me
                         </li>
                     </ul>
-                    <span class="dp-CommentWrap">
+                    <span class="dp-CommentWrap demo-comments">
                         <span class="dp-Icon dp-iconComents"></span>
                         <span class="dp-Comments-title">Comment <a href="#" class="dp-qt">(2)</a><button class="dp-Arrow"></button></span>
                         <ul class="dp-Comments">
@@ -1753,7 +1753,7 @@ title: List View
                             Me
                         </li>
                     </ul>
-                    <span class="dp-CommentWrap">
+                    <span class="dp-CommentWrap demo-comments">
                         <span class="dp-Icon dp-iconComents"></span>
                         <span class="dp-Comments-title">Comment <a href="#" class="dp-qt">(2)</a><button class="dp-Arrow"></button></span>
                         <ul class="dp-Comments">
@@ -1970,7 +1970,7 @@ title: List View
                             Me
                         </li>
                     </ul>
-                    <span class="dp-CommentWrap">
+                    <span class="dp-CommentWrap demo-comments">
                         <span class="dp-Icon dp-iconComents"></span>
                         <span class="dp-Comments-title">Comment <a href="#" class="dp-qt">(2)</a><button class="dp-Arrow"></button></span>
                         <ul class="dp-Comments">
@@ -2184,7 +2184,7 @@ title: List View
                     </ul>
 
                     <!-- comment -->
-                    <span class="dp-CommentWrap">
+                    <span class="dp-CommentWrap demo-comments">
                         <span class="dp-Icon dp-iconComents"></span>
                         <span class="dp-Comments-title is-active">Comment <a href="#" class="dp-qt">(2)</a><button class="dp-Arrow"></button></span>
                         <ul class="dp-Comments">
@@ -2393,7 +2393,7 @@ title: List View
                             Me
                         </li>
                     </ul>
-                    <span class="dp-CommentWrap">
+                    <span class="dp-CommentWrap demo-comments">
                         <span class="dp-Icon dp-iconComents"></span>
                         <span class="dp-Comments-title">Add comment<button class="dp-Arrow"></button></span>
                     </span>
@@ -2578,7 +2578,7 @@ title: List View
                             Me
                         </li>
                     </ul>
-                    <span class="dp-CommentWrap">
+                    <span class="dp-CommentWrap demo-comments">
                         <span class="dp-Icon dp-iconComents"></span>
                         <span class="dp-Comments-title">Comment <a href="#" class="dp-qt">(2)</a><button class="dp-Arrow"></button></span>
                         <ul class="dp-Comments">
@@ -2797,7 +2797,7 @@ title: List View
                     </li>
                 </ul>
 
-                <span class="dp-CommentWrap">
+                <span class="dp-CommentWrap demo-comments">
                     <span class="dp-Icon dp-iconComents"></span>
                     <span class="dp-Comments-title">Add comment</span>
                     <ul class="dp-Comments">
@@ -3111,7 +3111,7 @@ title: List View
                         </li>
                     </ul>
 
-                    <span class="dp-CommentWrap">
+                    <span class="dp-CommentWrap demo-comments">
                         <span class="dp-Icon dp-iconComents"></span>
                         <span class="dp-Comments-title">Comment <a href="#" class="dp-qt">(2)</a><button class="dp-Arrow"></button></span>
                         <ul class="dp-Comments">
@@ -3313,7 +3313,7 @@ title: List View
                             Me
                         </li>
                     </ul>
-                    <span class="dp-CommentWrap">
+                    <span class="dp-CommentWrap demo-comments">
                         <span class="dp-Icon dp-iconComents"></span>
                         <span class="dp-Comments-title">Add comment<button class="dp-Arrow"></button></span>
                         <ul class="dp-Comments">
@@ -3515,7 +3515,7 @@ title: List View
                             Me
                         </li>
                     </ul>
-                    <span class="dp-CommentWrap">
+                    <span class="dp-CommentWrap demo-comments">
                         <span class="dp-Icon dp-iconComents"></span>
                         <span class="dp-Comments-title is-active">Comment <a href="#" class="dp-qt">(2)</a><button class="dp-Arrow"></button></span>
                         <ul class="dp-Comments">
@@ -3717,7 +3717,7 @@ title: List View
                             Me
                         </li>
                     </ul>
-                    <span class="dp-CommentWrap">
+                    <span class="dp-CommentWrap demo-comments">
                         <span class="dp-Icon dp-iconComents"></span>
                         <span class="dp-Comments-title">Comment <a href="#" class="dp-qt">(2)</a><button class="dp-Arrow"></button></span>
                         <ul class="dp-Comments">
@@ -3919,7 +3919,7 @@ title: List View
                             Me
                         </li>
                     </ul>
-                    <span class="dp-CommentWrap">
+                    <span class="dp-CommentWrap demo-comments">
                         <span class="dp-Icon dp-iconComents"></span>
                         <span class="dp-Comments-title">Comment <a href="#" class="dp-qt">(2)</a><button class="dp-Arrow"></button></span>
                         <ul class="dp-Comments">
@@ -4018,7 +4018,7 @@ title: List View
                             Me
                         </li>
                     </ul>
-                    <span class="dp-CommentWrap">
+                    <span class="dp-CommentWrap demo-comments">
                         <span class="dp-Icon dp-iconComents"></span>
                         <span class="dp-Comments-title">Comment <a href="#" class="dp-qt">(2)</a><button class="dp-Arrow"></button></span>
                         <ul class="dp-Comments">
@@ -4234,7 +4234,7 @@ title: List View
                             Me
                         </li>
                     </ul>
-                    <span class="dp-CommentWrap">
+                    <span class="dp-CommentWrap demo-comments">
                         <span class="dp-Icon dp-iconComents"></span>
                         <span class="dp-Comments-title">Comment <a href="#" class="dp-qt">(2)</a><button class="dp-Arrow"></button></span>
                         <ul class="dp-Comments">
@@ -4436,7 +4436,7 @@ title: List View
                             Me
                         </li>
                     </ul>
-                    <span class="dp-CommentWrap">
+                    <span class="dp-CommentWrap demo-comments">
                         <span class="dp-Icon dp-iconComents"></span>
                         <span class="dp-Comments-title">Comment <a href="#" class="dp-qt">(2)</a><button class="dp-Arrow"></button></span>
                         <ul class="dp-Comments">
@@ -4638,7 +4638,7 @@ title: List View
                             Me
                         </li>
                     </ul>
-                    <span class="dp-CommentWrap">
+                    <span class="dp-CommentWrap demo-comments">
                         <span class="dp-Icon dp-iconComents"></span>
                         <span class="dp-Comments-title">Comment <a href="#" class="dp-qt">(2)</a><button class="dp-Arrow"></button></span>
                         <ul class="dp-Comments">
@@ -4840,7 +4840,7 @@ title: List View
                             Me
                         </li>
                     </ul>
-                    <span class="dp-CommentWrap">
+                    <span class="dp-CommentWrap demo-comments">
                         <span class="dp-Icon dp-iconComents"></span>
                         <span class="dp-Comments-title">Comment <a href="#" class="dp-qt">(2)</a><button class="dp-Arrow"></button></span>
                         <ul class="dp-Comments">
@@ -5284,7 +5284,7 @@ title: List View
                         </li>
                     </ul>
 
-                    <span class="dp-CommentWrap">
+                    <span class="dp-CommentWrap demo-comments">
                         <span class="dp-Icon dp-iconComents"></span>
                         <span class="dp-Comments-title">Comment <a href="#" class="dp-qt">(2)</a><button class="dp-Arrow"></button></span>
                         <ul class="dp-Comments">
@@ -5486,7 +5486,7 @@ title: List View
                             Me
                         </li>
                     </ul>
-                    <span class="dp-CommentWrap">
+                    <span class="dp-CommentWrap demo-comments">
                         <span class="dp-Icon dp-iconComents"></span>
                         <span class="dp-Comments-title">Add comment<button class="dp-Arrow"></button></span>
                         <ul class="dp-Comments">
@@ -5688,7 +5688,7 @@ title: List View
                             Me
                         </li>
                     </ul>
-                    <span class="dp-CommentWrap">
+                    <span class="dp-CommentWrap demo-comments">
                         <span class="dp-Icon dp-iconComents"></span>
                         <span class="dp-Comments-title">Comment <a href="#" class="dp-qt">(2)</a><button class="dp-Arrow"></button></span>
                         <ul class="dp-Comments">

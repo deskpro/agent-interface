@@ -773,7 +773,7 @@ title: Card
                         <span class="dp-UserName">Single-line item</span>
                     </span>
 
-                    <ul class="dp-TagWrap">
+                    <ul class="dp-TagWrap demo-comments">
                         <li class="dp-Tag Tag--small Tag--info-light">a: value</li>
                         <li class="dp-Tag Tag--small Tag--neutral-light">b: value</li>
                         <li class="dp-Tag Tag--small Tag--info-light">c: value</li>

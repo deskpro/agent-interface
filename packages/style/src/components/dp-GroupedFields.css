@@ -33,8 +33,9 @@
   margin-left: 5px;
 }
 
-.Badge--groupe-filter .dp-Menu {
+.dp-Groupe-container .Badge--groupe-filter .dp-Menu {
   min-width: 125px;
+  top: calc(100% + 10px);
 }
 
 .Badge--groupe-filter .dp-Menu li {
@@ -64,10 +65,6 @@
 .Badge--groupe-filter .dp-Menu .dp-SubList {
   list-style: none;
   padding: 0;
-}
-
-.Badge--groupe-filter .dp-Menu {
-  top: calc(100% + 10px);
 }
 
 .dp-Groupe-list {

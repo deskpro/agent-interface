@@ -230,15 +230,17 @@
 }
 
 .dp-IconHeader .dp-Icon {
-  height: auto;
   margin-right: 10px;
   position: relative;
-  width: auto;
+
+  /*  height: auto;
+  width: auto; */
+
 }
 
-.dp-HeaderControl .dp-Icon, .dp-IconHeader .dp-Icon {
+.dp-HeaderControl .dp-Menu .dp-Icon, .dp-IconHeader .dp-Menu .dp-Icon {
   height: 25px;
-  width: 25px;
+  width: 31px;
 }
 
 .dp-Menu.dp-YourAccount .dp-Menu-title {
@@ -307,7 +309,7 @@
   width: 10.2px;
 }
 
-.dp-HeaderControl .dp-Menu {
+.demo-menu .dp-HeaderControl .dp-Menu {
   left: auto;
   right: 0;
 }

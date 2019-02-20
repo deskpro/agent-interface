@@ -4,7 +4,7 @@ title: Tool tips
 
 <h4>Alerts/warning-info-box</h4>
 ```html @preview
-<div class="dp-MainWrapper" style="height: 200px;">
+<div class="dp-MainWrapper demo-tooltip" style="height: 200px;">
 
       <div class="dp-ToolTips is-active">
       	<div class="dp-ToolTipsUp">
