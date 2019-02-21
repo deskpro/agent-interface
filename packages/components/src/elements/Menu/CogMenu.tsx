@@ -3,20 +3,17 @@ import classNames from "classnames";
 
 import Icon from "../Icon/Icon";
 import { MenuProps } from "./Menu";
-import Portal from "../../common/Portal/Portal";
 import useOutsideClick from "../../hooks/useOutsideClick";
-import useWindowSize from "../../hooks/useWindowSize";
+// import useWindowSize from "../../hooks/useWindowSize";
 import useMenu from "../../hooks/useMenu";
 
-type Position = { x: number; y: number };
-
-const COG_SIZE = 18;
+/* const COG_SIZE = 18;
 const defaultMenuStyles = {
   marginLeft: 2,
   marginTop: 5
 };
 
-function useCogMenuPosition(menuRef, cogPosition, isVisible) {
+function useCogMenuPosition(menuRef, isVisible) {
   // move the cog menu to the left of the icon if it doesn't fit the window's visible area.
   const windowSize = useWindowSize();
   const [menuStyles, setMenuStyles] = React.useState(defaultMenuStyles);
@@ -33,15 +30,14 @@ function useCogMenuPosition(menuRef, cogPosition, isVisible) {
 
         if (
           windowWidth &&
-          cogPosition.x + defaultMenuStyles.marginLeft + menuWidth > windowWidth
+          defaultMenuStyles.marginLeft + menuWidth > windowWidth
         ) {
           styles.marginLeft = -menuWidth + COG_SIZE;
         }
 
         if (
           windowHeight &&
-          cogPosition.y + defaultMenuStyles.marginTop + menuHeight >
-            windowHeight
+          defaultMenuStyles.marginTop + menuHeight > windowHeight
         ) {
           styles.marginTop = -menuHeight - COG_SIZE;
         }
@@ -52,60 +48,64 @@ function useCogMenuPosition(menuRef, cogPosition, isVisible) {
   );
 
   return menuStyles;
-}
+} */
 
 export type CogProps = {
   renderMenu: (menuProps: Partial<MenuProps>) => React.ReactElement<any>;
   className?: string;
   isVisible?: boolean;
-  position?: Position;
+  style?: any;
+  placement?: string;
+  popperRef?: any;
 };
 
 const Cog: React.FC<CogProps> = ({
   className,
   renderMenu,
   isVisible = false,
-  position = { x: 0, y: 0 }
+  style,
+  placement,
+  popperRef
 }) => {
   const { isVisible: menuIsVisible, hideMenu, toggleMenu } = useMenu();
 
-  const cogRef = React.useRef(null);
+  const cogRef = React.useRef<HTMLSpanElement>(null);
   useOutsideClick(cogRef, hideMenu);
 
   const menuRef = React.useRef<HTMLUListElement>(null);
-  const menuStyles = useCogMenuPosition(menuRef, position, menuIsVisible);
+  // const menuStyles = useCogMenuPosition(menuRef, menuIsVisible);
+  const [isMouseOver, setIsMouseOver] = React.useState(false);
 
-  if (!isVisible && !menuIsVisible) {
+  if (!isVisible && !menuIsVisible && !isMouseOver) {
     return null;
   }
 
   return (
-    <>
-      <Portal>
-        <span
-          className={classNames("dp-Cog", className, {
-            "is-active": menuIsVisible
-          })}
-          style={{
-            top: position.y - COG_SIZE / 2,
-            left: position.x - COG_SIZE / 2,
-            display: "block",
-            position: "absolute"
-          }}
-          role="button"
-          tabIndex={-1}
-          ref={cogRef}
-        >
-          <Icon name="settings" size={12} circle onClick={toggleMenu} />
-          {menuIsVisible &&
-            renderMenu({
-              menuRef,
-              style: menuStyles,
-              onMenuClose: hideMenu
-            })}
-        </span>
-      </Portal>
-    </>
+    <span
+      className={classNames("dp-Cog", className, {
+        "is-active": menuIsVisible
+      })}
+      style={style}
+      role="button"
+      tabIndex={-1}
+      ref={ref => {
+        (cogRef.current as HTMLSpanElement | null) = ref;
+        if (typeof popperRef === "function") {
+          popperRef(ref);
+        }
+      }}
+      data-placement={placement}
+      onMouseEnter={() => setIsMouseOver(true)}
+      onMouseLeave={() => setIsMouseOver(false)}
+    >
+      <Icon name="settings" size={12} circle onClick={toggleMenu} />
+      {menuIsVisible &&
+        renderMenu({
+          menuRef,
+          // style: menuStyles,
+          onMenuClose: hideMenu
+        })}
+    </span>
   );
 };
 

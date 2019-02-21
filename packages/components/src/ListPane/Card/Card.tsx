@@ -1,5 +1,6 @@
 import * as React from "react";
 import classNames from "classnames";
+import { Manager, Reference, Popper } from "react-popper";
 
 import CardTitle from "./CardTitle";
 import CardSectionTitle from "./CardSectionTitle";
@@ -9,7 +10,7 @@ import TicketCard from "./TicketCard/TicketCard";
 import TaskCard from "./TaskCard";
 import { MenuProps } from "../../elements/Menu/Menu";
 import Cog from "../../elements/Menu/CogMenu";
-// import "@deskpro/agent-interface-style/dist/components/dp-ListPane.css";
+import Portal from "../../common/Portal/Portal";
 import "@deskpro/agent-interface-style/dist/components/dp-Level.css";
 import "@deskpro/agent-interface-style/dist/components/dp-card.css";
 
@@ -61,51 +62,60 @@ const Card: React.FC<BasicCardProps> & CardSubComponents = ({
     },
     [cardId]
   );
+
   // track the mouse movement over the card.
   const [isMouseOver, setIsMouseOver] = React.useState(false);
 
-  // calculate position of the cog icon.
-  let position = { x: 0, y: 0 };
-  const cardRef = React.useRef<HTMLDivElement>(null);
-  if (cardRef.current instanceof HTMLDivElement) {
-    const {
-      top,
-      left,
-      width,
-      height
-    } = cardRef.current.getBoundingClientRect();
-    position = {
-      x: left + width,
-      y: top + height / 2
-    };
-  }
-
   return (
-    <div
-      className={classNames("dp-Card dp-Level", className, {
-        "is-selected": isHighlighted,
-        "is-active": isActive,
-        "is-dragging": isDragging,
-        "is-keyboard": isFocused
-      })}
-      ref={cardRef}
-      role="link"
-      tabIndex={-1}
-      onClick={handleCardClick}
-      onKeyPress={handleCardKeyPress}
-      onMouseEnter={() => setIsMouseOver(true)}
-      onMouseLeave={() => setIsMouseOver(false)}
-    >
-      {!!title && <CardTitle title={title} />}
-      {children}
+    <Manager>
+      <Reference>
+        {({ ref }) => (
+          <div
+            className={classNames("dp-Card dp-Level", className, {
+              "is-selected": isHighlighted,
+              "is-active": isActive,
+              "is-dragging": isDragging,
+              "is-keyboard": isFocused
+            })}
+            ref={ref}
+            role="link"
+            tabIndex={-1}
+            onClick={handleCardClick}
+            onKeyPress={handleCardKeyPress}
+            onMouseEnter={() => setIsMouseOver(true)}
+            onMouseLeave={() => setIsMouseOver(false)}
+          >
+            {!!title && <CardTitle title={title} />}
+            {children}
+          </div>
+        )}
+      </Reference>
       {!!renderCogMenu && (
-        <Cog
-          renderMenu={renderCogMenu}
-          isVisible={isMouseOver}
-          position={position}
-        />
+        <Portal>
+          <Popper
+            placement="right"
+            modifiers={{
+              offset: { offset: "0,-9" },
+              flip: { enabled: false },
+              preventOverflow: {
+                enabled: false,
+                padding: 0
+              }
+            }}
+          >
+            {({ ref, style, placement }) => (
+              <Cog
+                renderMenu={renderCogMenu}
+                isVisible={isMouseOver}
+                popperRef={ref}
+                style={style}
+                placement={placement}
+              />
+            )}
+          </Popper>
+        </Portal>
       )}
-    </div>
+    </Manager>
   );
 };
 
