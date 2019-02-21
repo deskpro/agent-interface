@@ -265,7 +265,9 @@
   width: 19px;
 }
 
-.newControlsList .dp-ListPane .dp-sort, .dp-Card-title .dp-sort {
+.dp-Menu .dp-SortOrder .dp-Order-btn .dp-sort,
+.newControlsList .dp-ListPane .dp-sort,
+.dp-Card-title .dp-sort {
   background-size: 13.2px 10.4px;
   height: 15px;
   width: 15px;

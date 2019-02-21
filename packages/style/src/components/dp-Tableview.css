@@ -12,6 +12,7 @@
 }
 
 .dp-Tableview {
+  border-top: 1px solid var(--grey-light);
   display: block;
   width: 1600px;
 }
@@ -173,20 +174,29 @@
   display: block;
 }
 
+.dp-TableRow.dp-Filter.is-open {
+  border-bottom: 1px dashed var(--grey-light);
+}
+
+.dp-TableRow.dp-Filter.is-open + .dp-Sub-filter {
+  display: flex;
+}
+
+.dp-TableRow.dp-Sub-filter {
+  display: none;
+}
+
 .dp-Tableview .dp-Table-description {
   background-color: var(--grey-lighter);
   border-top: 1px dashed var(--grey-light);
   display: none;
   font: var(--p-xl);
+  margin-top: -1px;
   padding: 6px 50px;
 }
 
 .dp-Tableview .is-selected + .dp-Table-description {
   display: flex;
-}
-
-.dp-TableRow.dp-Filter {
-  border-bottom: 1px dashed var(--grey-light);
 }
 
 .dp-Sub-filter .dp-Card-title {
@@ -201,8 +211,11 @@
 
 /* listpane/setting-cog-tableview */
 
-.dp-Tableview .dp-Cog {
+.dp-TableWrapper .dp-Tableview .dp-Cog {
+  display: block;
+  left: auto;
   position: relative;
+  right: auto;
   text-align: center;
 }
 
@@ -275,7 +288,6 @@
 
 .dp-TableRow.dp-TableControl {
   border-bottom: 2px solid var(--grey-light);
-  border-top: 1px solid var(--grey-light);
   color: var(--grey-darkest);
   font: var(--p-n-semibold);
 }

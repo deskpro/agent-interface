@@ -165,7 +165,7 @@ title: Header
                 </div>
             </div>
           </div>
-          <div class="dp-TopActionRowRight demo-menu">
+          <div class="dp-TopActionRowRight">
             <div class="dp-HeaderControl">
                 <div class="dp-IconSection">
                     <ul class="dp-IconPanelList">

@@ -8,15 +8,15 @@
   background-color: var(--white);
   border: 1px solid var(--brand-primary);
   border-radius: var(--border-radius);
+  left: 0;
   list-style-type: none;
   padding: 5px 0;
   position: absolute;
+  top: calc(100% + 5px);
   white-space: nowrap;
   z-index: 9;
 
-  /*  left: 0;
-  top: calc(100% + 5px);
-  display: none; */
+  /* display: none; */
 
 }
 
@@ -81,7 +81,6 @@
   position: initial;
 }
 
-.dp-FilterControlsItem .dp-Menu,
 .dp-ListPane .dp-Menu {
   min-width: 200px;
 }
@@ -107,6 +106,10 @@
 
 .dp-FilterControlsItem .dp-Menu.newControlsList {
   min-width: 250px;
+}
+
+.dp-FilterControlsItem .dp-Menu {
+  min-width: 200px;
 }
 
 /* listpane/rightclick */
@@ -490,6 +493,13 @@
 
 }
 
+.dp-Tableview .dp-Menu .dp-Menu-linkItem:hover > .dp-Menu {
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0;
+  left: auto;
+  right: calc(100% + 1px);
+}
+
 .dp-Menu > .dp-Menu-linkItem:hover svg {
   fill: var(--brand-primary);
 }
@@ -521,12 +531,13 @@
 } */
 
 .dp-Cog {
-  position: absolute;
-  z-index: 9;
-
-  /*  top: calc(50% - 9px);
   left: calc(100% - 9px);
-  display: none; */
+  position: absolute;
+  top: calc(50% - 9px);
+
+  /* z-index: 9; */
+
+  /* display: none; */
 
 }
 

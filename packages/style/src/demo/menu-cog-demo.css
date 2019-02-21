@@ -1,13 +1,6 @@
 
-.demo-menu .dp-Menu {
-  left: 0;
-  top: calc(100% + 5px);
-}
-
 .demo-cog .dp-Cog {
   display: none;
-  left: calc(100% - 9px);
-  top: calc(50% - 9px);
 }
 
 .demo-cog .dp-Card:hover .dp-Cog,
@@ -57,26 +50,4 @@
 .demo-menu .is-expanded > .dp-Menu,
 .demo-menu .dp-iconVDots.is-visible + .dp-Menu {
   display: block;
-}
-
-.demo-menu .dp-CustomCheckbox .dp-Menu {
-  left: 10px;
-}
-
-.demo-menu .dp-LevelWrap > li .dp-Menu {
-  left: 20px;
-}
-
-/* demo-comments */
-
-.demo-comments .dp-Comments {
-  left: 2.5%;
-  top: 100%;
-}
-
-/* demo-tooltip */
-
-.demo-tooltip .dp-ToolTips {
-  right: 0;
-  top: calc(100% + 5px);
 }

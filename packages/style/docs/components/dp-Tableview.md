@@ -65,7 +65,7 @@ title: Tableview
             </span>
         </li>
 
-        <li class="dp-ListPane demo-tooltip">
+        <li class="dp-ListPane">
             <span class="dp-Title-group is-active">
                 <span class="dp-Icon Icon--csv"></span>
                 <span class="dp-Title">CSV</span>
@@ -329,7 +329,7 @@ title: Tableview
             </div>
         </div>
 
-        <div class="dp-TableRow dp-Filter">
+        <div class="dp-TableRow dp-Filter is-open">
             <div class="dp-CustomCheckbox dp-EmptyCheckbox">
                 <input type="checkbox" class="dp-ControlInput" id="filter-1-1"></input>
                 <label for="filter-1-1"></label>
@@ -340,7 +340,7 @@ title: Tableview
                 <span class="dp-qt">(13)</span>
             </div>
                 
-            <div class="dp-Arrow-btn is-active">
+            <div class="dp-Arrow-btn">
                 <button class="dp-Arrow"></button>
             </div>
         </div>
@@ -3618,7 +3618,7 @@ title: Tableview
             </div>
         </div>
 
-        <div class="dp-TableRow dp-Filter">
+        <div class="dp-TableRow dp-Filter is-open">
             <div class="dp-CustomCheckbox dp-EmptyCheckbox">
                 <input type="checkbox" class="dp-ControlInput" id="filter-2-1"></input>
                 <label for="filter-2-1"></label>
@@ -3629,7 +3629,7 @@ title: Tableview
                 <span class="dp-qt">(13)</span>
             </div>
                 
-            <div class="dp-Arrow-btn is-active">
+            <div class="dp-Arrow-btn">
                 <button class="dp-Arrow"></button>
             </div>
         </div>
