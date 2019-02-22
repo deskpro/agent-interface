@@ -24,8 +24,10 @@
   margin: 0 10px 10px 0;
 }
 
-.dp-Groupe-container .Badge--groupe-filter:hover {
-  border: 1px solid var(--brand-primary);
+.dp-Groupe-items .Badge--groupe-filter {
+  border-radius: 3px;
+  line-height: 1;
+  padding: 4px 5px;
 }
 
 .Badge--groupe-filter .dp-Num {
@@ -35,11 +37,13 @@
 
 .Badge--groupe-filter .dp-Menu {
   min-width: 125px;
+  padding: 8px 0;
+  top: calc(100% + 12px);
 }
 
 .Badge--groupe-filter .dp-Menu li {
   display: flex;
-  margin: 0 5px;
+  margin: 0 8px;
 }
 
 .Badge--groupe-filter .dp-Menu li + li {
@@ -66,10 +70,6 @@
   padding: 0;
 }
 
-.Badge--groupe-filter .dp-Menu {
-  top: calc(100% + 10px);
-}
-
 .dp-Groupe-list {
   flex-direction: column;
 }
@@ -83,13 +83,32 @@
   padding-left: 12px;
 }
 
-.dp-Num-extended {
+.dp-Groupe-container .Badge--groupe-filter:hover,
+.dp-Groupe-container .Badge--groupe-filter:hover .dp-Num-extended {
+  border: 1px solid var(--brand-primary);
+}
+
+.dp-Groupe-container .Badge--groupe-filter:hover .dp-Num-extended {
+  border-left: 1px solid var(--grey-light);
+}
+
+.dp-Groupe-items .Badge--groupe-filter.Badge--extended {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.dp-Groupe-container .Badge--groupe-filter .dp-Num-extended {
   align-items: center;
   background-color: var(--white);
-  border-left: 1px solid var(--grey);
+  border: 1px solid var(--grey-light);
+  border-bottom-right-radius: 3px;
+  border-left: 1px solid var(--grey-light);
+  border-top-right-radius: 3px;
   color: var(--grey);
   display: flex;
   font: var(--p-n-semibold);
   height: 100%;
-  margin-left: 5px;
+  left: 100%;
+  padding: 9px 0;
+  position: absolute;
 }

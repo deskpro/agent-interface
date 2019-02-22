@@ -279,37 +279,37 @@ title: Tableview
             </div>
 
             <div class="dp-TableItem dp-TableSubject">
-                Subject
+                Column title
                 <span class="dp-Icon dp-arrowGroup"></span>
             </div>
 
             <div class="dp-TableItem">
-                Labels
+                Column title
                 <span class="dp-Icon dp-arrowGroup"></span>
             </div>
 
             <div class="dp-TableItem is-item-draggable">
-                Department
+                Column title
                 <span class="dp-Icon dp-arrowGroup"></span>
             </div>
 
             <div class="dp-TableItem">
-                Language
+                Column title
                 <span class="dp-Icon dp-arrowGroup"></span>
             </div>
 
             <div class="dp-TableItem">
-                Last reply
+                Column title
                 <span class="dp-Icon dp-arrowGroup"></span>
             </div>
 
             <div class="dp-TableItem">
-                User
+                Column title
                 <span class="dp-Icon dp-arrowGroup"></span>
             </div>
 
             <div class="dp-TableItem">
-                SLA/Current user wait
+                Column title
             </div>
 
             <div class="dp-TableItem">
@@ -329,15 +329,14 @@ title: Tableview
             </div>
         </div>
 
-        <div class="dp-TableRow dp-Filter is-open">
+        <div class="dp-TableRow dp-Filter">
             <div class="dp-CustomCheckbox dp-EmptyCheckbox">
                 <input type="checkbox" class="dp-ControlInput" id="filter-1-1"></input>
                 <label for="filter-1-1"></label>
             </div> 
 
             <div class="dp-Card-title">
-                FILTER 
-                <span class="dp-qt">(13)</span>
+                FILTER TITLE
             </div>
                 
             <div class="dp-Arrow-btn">
@@ -2107,7 +2106,7 @@ title: Tableview
         <div class="dp-TableRow">
             <div>
                 <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="tableview-1-11"></input>
+                    <input type="checkbox" class="dp-ControlInput" id="tableview-1-11" checked></input>
                     <label for="tableview-1-11"></label>
                 </span>
             </div>
@@ -2968,7 +2967,7 @@ title: Tableview
             <div class="dp-SubjectItem">
                 <span class="dp-Card-title" contenteditable="true">Card title</span>
             </div>
-            <div><span class="dp-Icon dp-Arrow"></span></div>
+            <div class="dp-Arrow-btn"><span class="dp-Icon dp-Arrow"></span></div>
             <div class="dp-DepartmentItem">
                 <span class="dp-Item-title">Column text</span>
                 <span class="dp-Icon Icon--edit">

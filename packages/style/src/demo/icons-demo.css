@@ -551,8 +551,9 @@
 
 .Icon--down-caret {
   background-image: url('data:image/svg+xml,<svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0)"><path d="M8.05001 8.94999L15.05 1.64999C15.35 1.24999 15.35 0.749988 15.05 0.349988C14.75 -0.0500122 14.15 -0.0500122 13.85 0.349988L8.05001 6.34999L2.25001 0.349988C1.95001 -0.0500122 1.35001 -0.0500122 1.05001 0.349988C0.750012 0.749988 0.750012 1.24999 1.05001 1.64999L8.05001 8.94999Z" fill="%23979797"/></g><defs><clipPath id="clip0"><rect width="14.5" height="8.8" fill="white" transform="translate(0.750015 0.149994)"/></clipPath></defs></svg>');
-  height: 8.8px;
-  width: 14.5px;
+  background-size: 14.5px 8.8px;
+  height: 15px;
+  width: 15px;
 }
 
 .Icon--left-caret {

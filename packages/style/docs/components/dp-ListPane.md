@@ -2859,7 +2859,7 @@ title: List View
         <ul class="dp-CardList is-hoverable">
 
             <li class="dp-Card-SectionTitle dp-Tasks-list Level-justify-between">
-                <span class="dp-LevelCol">
+                <span class="dp-LevelCol dp-ListName">
                     <span class="dp-Icon Icon--menu"></span>
                     <span class="dp-Card-title">My Tasks <a href="#" class="dp-qt">(9)</a></span>
                     <span class="dp-Icon Icon--down-caret Icon--primary"></span>
@@ -2867,7 +2867,7 @@ title: List View
 
                 <ul class="View-group">
                     <li class="dp-Icon dp-list_view is-active"></li>
-                    <li class="dp-Icon Icon--Table-view"></li>
+                    <li class="dp-Icon dp-table_view"></li>
                     <li class="dp-Icon dp-kanban_view"></li>
                 </ul>
             </li>
@@ -4905,7 +4905,7 @@ title: List View
         <ul class="dp-CardList is-hoverable">
 
             <li class="dp-Card-SectionTitle dp-Tasks-list Level-justify-between">
-                <span class="dp-LevelCol">
+                <span class="dp-LevelCol dp-ListName">
                     <span class="dp-Icon Icon--menu"></span>
                     <span class="dp-Card-title">My Tasks <a href="#" class="dp-qt">(9)</a></span>
                     <span class="dp-Icon Icon--down-caret Icon--primary"></span>
@@ -4913,7 +4913,7 @@ title: List View
 
                 <ul class="View-group">
                     <li class="dp-Icon dp-list_view is-active"></li>
-                    <li class="dp-Icon Icon--Table-view"></li>
+                    <li class="dp-Icon dp-table_view"></li>
                     <li class="dp-Icon dp-kanban_view"></li>
                 </ul>
             </li>

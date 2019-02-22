@@ -180,9 +180,10 @@
 .dp-iconVDots.is-visible + .dp-Menu {
   left: calc(100% - 5px);
   top: 0;
-  width: 100%;
 
-  /* display: block; */
+  /*  width: 100%;
+  display: block; */
+
 }
 
 /* .is-expanded > .dp-Menu {

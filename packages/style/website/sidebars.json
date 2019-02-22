@@ -25,7 +25,8 @@
       "components/dp-SettingsCog",
       "components/dp-Tableview",
       "components/dp-GroupedFields",
-      "components/dp-Knowledgebase"
+      "components/dp-Knowledgebase",
+      "components/dp-Guides"
     ],
     "Elements": [
       "elements/dp-Icons",

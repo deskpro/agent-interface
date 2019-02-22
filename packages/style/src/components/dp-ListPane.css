@@ -613,6 +613,14 @@ input:disabled + label {
   margin-top: 5px;
 }
 
+.dp-Card.dp-Comments-list {
+  padding: 10px;
+}
+
+.dp-Card.dp-Comments-list .dp-CustomCheckbox {
+  padding: 0;
+}
+
 /* Listpane/back-to-organizations */
 
 .dp-Card-subtitle .dp-title {

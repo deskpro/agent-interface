@@ -10,7 +10,7 @@
   cursor: pointer;
   display: flex;
   font: var(--p-xl);
-  padding: 8.8px 8px 10px;
+  padding: 8.8px 10px 10px;
   position: relative;
   width: 100%;
 
@@ -67,7 +67,7 @@
   display: flex;
   font: var(--h-s-semibold);
   margin: 0;
-  padding: 8.8px 8px 7.8px;
+  padding: 8.8px 10px 7.8px;
   text-transform: uppercase;
   width: 100%;
 }
@@ -219,9 +219,13 @@
 }
 
 .dp-Card .dp-drag {
-  height: 12px;
+  height: 10px;
   margin-right: 5px;
   width: 12px;
+}
+
+.dp-Listpane-guides .dp-Card .dp-drag {
+  height: 14px;
 }
 
 .Level--down .dp-Card.dp-Level .dp-sub_field::after {
@@ -496,6 +500,10 @@
 .dp-CardList.dp-GuidesDirectory .dp-Card:hover,
 .dp-CardList.dp-GuideSections .dp-Card:hover {
   background-color: var(--info-light);
+}
+
+.dp-CardList.dp-GuidesDirectory .dp-Card:hover {
+  border-right: 0;
 }
 
 .dp-CardList.dp-GuidesDirectory .is-rolling.dp-Card:hover {
