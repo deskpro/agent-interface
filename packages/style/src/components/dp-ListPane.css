@@ -579,7 +579,7 @@ input:disabled + label {
 
 .dp-Comments-list .dp-LevelWrap {
   background-color: var(--grey-lightest);
-  margin: 0 -9px -10px -8px;
+  margin: 0 -11px -10px -10px;
   padding: 5px 0 5px 25px;
 }
 

@@ -132,8 +132,8 @@
 }
 
 .dp-FilterControlsList .dp-ListPane {
-  flex: 0 0 30px;
-  padding: 5px 8px;
+  flex: 0 0 33px;
+  padding: 5px 10px;
 }
 
 .dp-ListPane.dp-DropDownItem {
