@@ -32,6 +32,10 @@
   padding: 5px 0;
 }
 
+.dp-SidebarBody .dp-title-item.dp-SectionTitle:last-child {
+  padding-bottom: 0;
+}
+
 .dp-SidebarBody .dp-TimesRow {
   margin-bottom: 5px;
 }
@@ -77,14 +81,16 @@
 }
 
 .dp-SectionTitle {
-  border-bottom: 1px solid var(--grey-light);
   color: var(--grey-darkest);
   display: flex;
   font: var(--p-n-caps);
   margin-bottom: 10px;
-  padding-bottom: 2px;
   position: relative;
   z-index: 1;
+
+  /*  padding-bottom: 2px;
+  border-bottom: 1px solid var(--grey-light); */
+
 }
 
 .dp-SectionControls .dp-SectionTitle {
@@ -98,6 +104,31 @@
   text-transform: var(--is-uppercase);
 }
 
+/* .dp-SidebarSection.dp-SectionControls > .dp-SectionTitle {
+  border-bottom: 0;
+  padding-bottom: 0;
+} */
+
+.dp-Section--name {
+  background-color: var(--grey-lightest);
+  padding-right: 5px;
+  z-index: 9;
+}
+
+.dp-SidebarSection.dp-SectionControls .dp-SectionTitle .dp-TitleControls {
+  position: relative;
+  width: 100%;
+}
+
+.dp-SidebarSection.dp-SectionControls .dp-SectionTitle .dp-TitleControls::after {
+  background-color: var(--grey-light);
+  content: "";
+  height: 1px;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+}
+
 .dp-PageSidebar .dp-Slas .dp-TitleControls {
   color: var(--grey-dark);
   font: var(--p-n);
@@ -108,6 +139,8 @@
   align-items: center;
   display: flex;
   font: var(--p-s-semibold);
+  line-height: 1;
+  padding-left: 5px;
 }
 
 .dp-PageSidebar .dp-qt {
@@ -115,7 +148,7 @@
 }
 
 .dp-Slas .dp-SectionBody {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .dp-SectionBody-item {
@@ -207,11 +240,6 @@
   margin-bottom: 5px;
 }
 
-.dp-Selectbelow > .dp-ActionButton {
-  font: var(--h-s-semibold);
-  margin: 0 0 5px;
-}
-
 .dp-SidebarContainer .dp-Selectbelow > .dp-ButtonWrapper {
   justify-content: space-between;
   margin-bottom: 5px;
@@ -225,8 +253,26 @@
   margin: 0 5px 0 10px;
 }
 
+.dp-Selectbelow > .dp-ActionButton {
+  font: var(--h-s-semibold);
+  margin: 0 0 5px;
+}
+
 .dp-ButtonWrapper .dp-LevelDown + .dp-ActionButton {
-  font: var(--p-n-semibold);
+  color: var(--grey-darkest);
+  flex: 1 0 0;
+  font: var(--p-n);
+}
+
+.dp-Slas .dp-ButtonWrapper .dp-ActionButton {
+  font: var(--p-xl);
+  font-style: italic;
+  margin-right: 10px;
+}
+
+.dp-Slas .dp-ButtonWrapper button {
+  border: 1px solid var(--grey);
+  color: var(--grey);
 }
 
 .dp-PageSidebar .dp-DataWrapper {
@@ -234,16 +280,9 @@
   margin-bottom: 10px;
 }
 
-.dp-Slas .dp-ButtonWrapper button {
-  margin-right: 10px;
-}
-
-.dp-ButtonWrapper .is-italic {
-  color: var(--grey);
-}
-
 .dp-Slas .dp-ButtonWrapper .dp-Button.Button--small {
-  font-size: var(--font-Title-L);
+  color: var(--grey);
+  font: var(--p-l);
 }
 
 .dp-PageSidebar .dp-DateItem {
@@ -267,6 +306,7 @@
 }
 
 .dp-PageSidebar .dp-TimeStatus {
+  display: flex;
   margin-right: 8px;
 }
 

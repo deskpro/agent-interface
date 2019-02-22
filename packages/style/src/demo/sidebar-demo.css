@@ -19,6 +19,7 @@
 }
 
 .dp-DemonstrationEements {
+  display: block;
   margin-top: 20px;
 }
 
@@ -29,4 +30,8 @@
 .demo-Scroll-x {
   display: block;
   overflow-x: scroll;
+}
+
+.demo-sidebar {
+  max-width: 232px;
 }

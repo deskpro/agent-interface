@@ -145,6 +145,10 @@
   flex: 0 1 145px;
 }
 
+.dp-ListPane.dp-DropDownItem .dp-SelectGroup .dp-Arrow::after {
+  right: 0;
+}
+
 .dp-FilterControlsItem {
   align-items: center;
   border-right: 1px solid var(--grey-light);
@@ -260,7 +264,7 @@
 
 .newControlsList .dp-ListPane > .dp-Icon {
   background-size: 19px 19px;
-  height: 22px;
+  height: 19px;
   margin-right: 5px;
   width: 19px;
 }
@@ -287,6 +291,7 @@
 
 .newControlsList .dp-SelectGroup {
   flex: 1 0 0;
+  margin-top: -1px;
 }
 
 .dp-FilterControlsItem .dp-ItemRow {

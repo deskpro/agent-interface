@@ -7,65 +7,67 @@ title: PageSidebar
 <h4>sidebar/container</h4>
 ```html @preview
 <div class="dp-MainWrapper">
-    <div class="dp-SidebarContainer"></div>
+    <div class="dp-SidebarContainer demo-sidebar"></div>
 </div>
 ```
 
 <h4>sidebar/tab-header</h4>
 ```html @preview
 <div class="dp-MainWrapper Sidebar-Demonstration demo-cog demo-menu">
-
-    <ul class="dp-Tabs Tabs--icons">
-        <li class="dp-Tabs-item is-active"><a href="#" class="dp-Icon Icon--email"></a></li>
-    </ul>
-
-    <ul class="dp-Tabs Tabs--icons">
-        <li class="dp-Tabs-item is-active"><a href="#" class="dp-Icon Icon--email"></a></li>
-        <li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--user"></a></li>
-    </ul>
-
-    <ul class="dp-Tabs Tabs--icons">
-        <li class="dp-Tabs-item is-active"><a href="#" class="dp-Icon Icon--email"></a></li>
-        <li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--user"></a></li>
-        <li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--organisation"></a></li>
-    </ul>
-
-    <ul class="dp-Tabs Tabs--icons">
-        <li class="dp-Tabs-item is-active"><a href="#" class="dp-Icon Icon--email"></a></li>
-        <li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--user"></a></li>
-        <li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--organisation"></a></li>
-        <li class="dp-Tabs-item"><a href="#" class="dp-Icon dp-publish"></a></li>
-    </ul>
-
-    <ul class="dp-Tabs Tabs--icons">
-        <li class="dp-Tabs-item is-active"><a href="#" class="dp-Icon Icon--email"></a></li>
-        <li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--user"></a></li>
-        <li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--organisation"></a></li>
-        <li class="dp-Tabs-item"><a href="#" class="dp-Icon dp-publish"></a></li>
-        <li class="dp-Tabs-item"><a href="#" class="dp-Icon dp-history"></a></li>
-    </ul>
-
-    <div class="dp-DemonstrationEements">
+    <div class="demo-sidebar">
+    
         <ul class="dp-Tabs Tabs--icons">
-            <li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--email"></a></li>
-            <li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--email"></a></li>
             <li class="dp-Tabs-item is-active"><a href="#" class="dp-Icon Icon--email"></a></li>
         </ul>
 
-        <ul class="dp-Tabs Tabs--icons dp-DemonstrationTitle">
-            <li>Static</li>
-            <li>Rollover</li>
-            <li>Selected</li>
+        <ul class="dp-Tabs Tabs--icons">
+            <li class="dp-Tabs-item is-active"><a href="#" class="dp-Icon Icon--email"></a></li>
+            <li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--user"></a></li>
         </ul>
-    </div>
 
+        <ul class="dp-Tabs Tabs--icons">
+            <li class="dp-Tabs-item is-active"><a href="#" class="dp-Icon Icon--email"></a></li>
+            <li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--user"></a></li>
+            <li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--organisation"></a></li>
+        </ul>
+
+        <ul class="dp-Tabs Tabs--icons">
+            <li class="dp-Tabs-item is-active"><a href="#" class="dp-Icon Icon--email"></a></li>
+            <li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--user"></a></li>
+            <li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--organisation"></a></li>
+            <li class="dp-Tabs-item"><a href="#" class="dp-Icon dp-publish"></a></li>
+        </ul>
+
+        <ul class="dp-Tabs Tabs--icons">
+            <li class="dp-Tabs-item is-active"><a href="#" class="dp-Icon Icon--email"></a></li>
+            <li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--user"></a></li>
+            <li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--organisation"></a></li>
+            <li class="dp-Tabs-item"><a href="#" class="dp-Icon dp-publish"></a></li>
+            <li class="dp-Tabs-item"><a href="#" class="dp-Icon dp-history"></a></li>
+        </ul>
+
+        <div class="dp-DemonstrationEements">
+            <ul class="dp-Tabs Tabs--icons">
+                <li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--email"></a></li>
+                <li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--email"></a></li>
+                <li class="dp-Tabs-item is-active"><a href="#" class="dp-Icon Icon--email"></a></li>
+            </ul>
+
+            <ul class="dp-Tabs Tabs--icons dp-DemonstrationTitle">
+                <li>Static</li>
+                <li>Rollover</li>
+                <li>Selected</li>
+            </ul>
+        </div>
+
+    </div>
 </div>
 ```
 
 <h4>sidebar/header</h4>
 ```html @preview
 <div class="dp-MainWrapper">
-    <div>
+    <div class="demo-sidebar">
 
         <div class="dp-SidebarSection">
             <div class="dp-SectionTitle">
@@ -80,7 +82,7 @@ title: PageSidebar
 <h4>sidebar/panel</h4>
 ```html @preview
 <div class="dp-MainWrapper">
-    <div class="dp-PageSidebar">
+    <div class="dp-PageSidebar demo-sidebar">
         <div class="dp-SectionBody-item">
             <div class="dp-title-item">
                 <span class="dp-Icon dp-iconUserAvatar"></span>
@@ -94,11 +96,11 @@ title: PageSidebar
 <h4>sidebar/tickets/header/count-smallmore</h4>
 ```html @preview
 <div class="dp-MainWrapper">
-    <div class="dp-PageSidebar">
+    <div class="dp-PageSidebar demo-sidebar">
 
         <div class="dp-SidebarSection dp-SectionControls">
             <div class="dp-SectionTitle">
-                <div class="dp-TitleControls">Header</div>
+                <div class="dp-TitleControls"><span class="dp-Section--name">Header</span></div>
                     <a href="#" class="dp-Controls">
                     <span class="dp-qt"> +8 </span> 
                     <i class="dp-Icon dp-DotsIcon"></i>
@@ -114,18 +116,20 @@ title: PageSidebar
 <h4>sidebar/tab-header</h4>
 ```html @preview
 <div class="dp-MainWrapper">
-    <ul class="dp-Tabs Tabs--icons">
-        <li class="dp-Tabs-item is-active"><a href="#" class="dp-Icon Icon--email"></a></li>
-        <li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--user"></a></li>
-        <li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--organisation"></a></li>
-    </ul>
+    <div class="demo-sidebar">
+        <ul class="dp-Tabs Tabs--icons">
+            <li class="dp-Tabs-item is-active"><a href="#" class="dp-Icon Icon--email"></a></li>
+            <li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--user"></a></li>
+            <li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--organisation"></a></li>
+        </ul>
+    </div>
 </div>
 ```
 
 <h4>sidebar/org-panel</h4>
 ```html @preview
 <div class="dp-MainWrapper">
-    <div class="dp-PageSidebar">
+    <div class="dp-PageSidebar demo-sidebar">
         <div class="dp-SectionBody-item">
             <div class="dp-title-item">
                 <span class="dp-Icon dp-iconUserAvatar"></span>
@@ -139,7 +143,7 @@ title: PageSidebar
 <h4>sidebar/user-panel</h4>
 ```html @preview
 <div class="dp-MainWrapper">
-    <div class="dp-PageSidebar">
+    <div class="dp-PageSidebar demo-sidebar">
         <div class="dp-SectionBody-item dp-UserPanel">
             <div class="dp-title-item">
                 <span class="dp-Icon dp-iconUserAvatar"></span>
@@ -162,7 +166,7 @@ title: PageSidebar
 <h4>sidebar/ccs-header</h4>
 ```html @preview
 <div class="dp-MainWrapper">
-    <div class="dp-PageSidebar">
+    <div class="dp-PageSidebar demo-sidebar">
 
         <div class="dp-SectionControls">
             <div class="dp-SectionTitle dp-CcRow">
@@ -184,7 +188,7 @@ title: PageSidebar
 <h4>sidebar/cc-row</h4>
 ```html @preview
 <div class="dp-MainWrapper">
-    <div class="dp-PageSidebar">
+    <div class="dp-PageSidebar demo-sidebar">
         <div class="dp-SectionControls">
             <div class="dp-title-item dp-SectionTitle">
 
@@ -204,7 +208,7 @@ title: PageSidebar
 <h4>sidebar/select-selectbelow</h4>
 ```html @preview
 <div class="dp-MainWrapper">
-    <div class="dp-PageSidebar">
+    <div class="dp-PageSidebar demo-sidebar">
         <!-- buttons -->
         <div class="dp-Selectbelow">
             <button class="dp-ActionButton dp-Border--danger ActionButton--large dp-Arrow" type="button">
@@ -225,7 +229,7 @@ title: PageSidebar
 <h4>sidebar/urgency</h4>
 ```html @preview
 <div class="dp-MainWrapper">
-    <div class="dp-SectionBody">
+    <div class="dp-SectionBody demo-sidebar">
         <div class="dp-ButtonWrapper">
             <button class="dp-ActionButton dp-Border--danger dp--danger is-semibold dp-Arrow" type="button">
                 10
@@ -238,11 +242,11 @@ title: PageSidebar
 <h4>sidebar/headers</h4>
 ```html @preview
 <div class="dp-MainWrapper">
-    <div class="dp-PageSidebar">
+    <div class="dp-PageSidebar demo-sidebar">
 
         <div class="dp-SidebarSection dp-SectionControls">
             <div class="dp-SectionTitle">
-                <div class="dp-TitleControls">TIMES</div>
+                <div class="dp-TitleControls"><span class="dp-Section--name">TIMES</span></div>
                 <a href="#" class="dp-Controls">
                     <span class="dp-qt"> +6 </span> 
                     <i class="dp-Icon dp-DotsIcon"></i>
@@ -257,7 +261,7 @@ title: PageSidebar
 <h4>sidebar/times-row</h4>
 ```html @preview
 <div class="dp-MainWrapper">
-    <div class="dp-PageSidebar">
+    <div class="dp-PageSidebar demo-sidebar">
 
         <div class="dp-SidebarSection dp-SectionControls">
             <div class="dp-SectionTitle dp-TimesRow">
@@ -276,7 +280,7 @@ title: PageSidebar
 <h4>sidebar/SLAs-extended</h4>
 ```html @preview
 <div class="dp-MainWrapper">
-    <div class="dp-PageSidebar">
+    <div class="dp-PageSidebar demo-sidebar demo-sidebar">
         <div class="dp-Slas">
 
             <div class="dp-TitleControls">COMPLETED SLAS</div>
@@ -310,10 +314,10 @@ title: PageSidebar
                 </div>
             </div>
 
-            <div class="dp-TitleControls">APPLY AN SLA</div>
+            <div class="dp-TitleControls">Apply an SLA</div>
 
             <div class="dp-ButtonWrapper">
-                <button class="dp-ActionButton ActionButton--large is-italic dp-Arrow" type="button">
+                <button class="dp-ActionButton ActionButton--large dp-Arrow" type="button">
                     Select SLA
                 </button>
                 <button class="dp-Button Button--small Button--outlined" type="button">
@@ -328,8 +332,8 @@ title: PageSidebar
 
 <h4>sidebar/ticket-version</h4>
 ```html @preview
-<div class="dp-MainWrapper demo-cog demo-menu">
-    <div class="dp-SidebarContainer">
+<div class="dp-MainWrapper">
+    <div class="dp-SidebarContainer demo-cog demo-menu demo-sidebar">
         <div class="dp-PageSidebar">
 
             <ul class="dp-Tabs Tabs--icons">
@@ -384,7 +388,7 @@ title: PageSidebar
                     </div>
                 </div>
 
-                <div class="dp-SectionControls">
+                <div class="dp-SectionControls dp-SidebarSection">
 
                     <div class="dp-title-item dp-SectionTitle">
                         <span class="dp-UserName">
@@ -424,9 +428,9 @@ title: PageSidebar
 
                 </div>
 
-                <div class="dp-SidebarSection">
+                <div class="dp-SidebarSection dp-SectionControls">
                     <div class="dp-SectionTitle">
-                        <div class="dp-TitleControls">STATUS</div>
+                        <div class="dp-TitleControls"><span class="dp-Section--name">Status</span></div>
                     </div>
                 </div>
 
@@ -456,7 +460,7 @@ title: PageSidebar
 
                 <div class="dp-SidebarSection dp-SectionControls">
                     <div class="dp-SectionTitle">
-                        <div class="dp-TitleControls">TIMES</div>
+                        <div class="dp-TitleControls"><span class="dp-Section--name">TIMES</span></div>
                         <a href="#" class="dp-Controls">
                             <span class="dp-qt"> +6 </span> 
                             <i class="dp-Icon dp-DotsIcon"></i>
@@ -483,7 +487,7 @@ title: PageSidebar
 
                 <div class="dp-SidebarSection dp-SectionControls">
                     <div class="dp-SectionTitle">
-                        <div class="dp-TitleControls">SLAS</div>
+                        <div class="dp-TitleControls"><span class="dp-Section--name">SLAS</span></div>
                         <a href="#" class="dp-Controls">
                             <span class="dp-qt"> +5 </span> 
                             <i class="dp-Icon dp-DotsIcon"></i>
@@ -518,8 +522,8 @@ title: PageSidebar
 
 <h4>sidebar/ticket-version-overlay</h4>
 ```html @preview
-<div class="dp-MainWrapper demo-cog demo-menu">
-    <div class="dp-SidebarContainer">
+<div class="dp-MainWrapper">
+    <div class="dp-SidebarContainer demo-cog demo-menu demo-sidebar">
         <div class="dp-PageSidebar dp-TicketOverlay">
 
             <ul class="dp-Tabs Tabs--icons">
@@ -590,7 +594,7 @@ title: PageSidebar
 
                 <div class="dp-SidebarSection dp-SectionControls">
                     <div class="dp-SectionTitle">
-                        <div class="dp-TitleControls">PROPERTIES</div>
+                        <div class="dp-TitleControls"><span class="dp-Section--name">PROPERTIES</span></div>
                         <a href="#" class="dp-Controls">
                             <span class="dp-qt"> +6 </span> 
                             <i class="dp-Icon dp-DotsIcon"></i>
@@ -606,8 +610,8 @@ title: PageSidebar
 
 <h4>sidebar/ticket-version-times</h4>
 ```html @preview
-<div class="dp-MainWrapper demo-cog demo-menu">
-    <div class="dp-SidebarContainer">
+<div class="dp-MainWrapper">
+    <div class="dp-SidebarContainer demo-cog demo-menu demo-sidebar">
         <div class="dp-PageSidebar">
 
             <ul class="dp-Tabs Tabs--icons">
@@ -662,7 +666,7 @@ title: PageSidebar
                     </div>
                 </div>
 
-                <div class="dp-SectionControls">
+                <div class="dp-SectionControls dp-SidebarSection">
 
                     <div class="dp-title-item dp-SectionTitle">
                         <span class="dp-UserName">
@@ -702,9 +706,9 @@ title: PageSidebar
 
                 </div>
 
-                <div class="dp-SidebarSection">
+                <div class="dp-SidebarSection dp-SectionControls">
                     <div class="dp-SectionTitle">
-                        <div class="dp-TitleControls">STATUS</div>
+                        <div class="dp-TitleControls"><span class="dp-Section--name">Status</span></div>
                     </div>
                 </div>
 
@@ -731,7 +735,7 @@ title: PageSidebar
 
                 <div class="dp-SidebarSection dp-SectionControls">
                     <div class="dp-SectionTitle">
-                        <div class="dp-TitleControls">TIMES</div>
+                        <div class="dp-TitleControls"><span class="dp-Section--name">TIMES</span></div>
                         <a href="#" class="dp-Controls">
                             <span class="dp-qt"> +6 </span> 
                             <i class="dp-Icon dp-DotsIcon"></i>
@@ -809,7 +813,7 @@ title: PageSidebar
 
                 <div class="dp-SidebarSection dp-SectionControls">
                     <div class="dp-SectionTitle">
-                        <div class="dp-TitleControls">SLAS</div>
+                        <div class="dp-TitleControls"><span class="dp-Section--name">SLAS</span></div>
                         <a href="#" class="dp-Controls">
                             <span class="dp-qt"> +5 </span> 
                             <i class="dp-Icon dp-DotsIcon"></i>
@@ -844,8 +848,8 @@ title: PageSidebar
 
 <h4>sidebar/ticket-version-CCmenu</h4>
 ```html @preview
-<div class="dp-MainWrapper demo-cog demo-menu">
-    <div class="dp-SidebarContainer">
+<div class="dp-MainWrapper">
+    <div class="dp-SidebarContainer demo-cog demo-menu demo-sidebar">
         <div class="dp-PageSidebar">
 
             <ul class="dp-Tabs Tabs--icons">
@@ -898,7 +902,7 @@ title: PageSidebar
                         </div>
                     </div>
 
-                    <div class="dp-SectionControls">
+                    <div class="dp-SectionControls dp-SidebarSection">
                         <div class="dp-title-item dp-SectionTitle">
 
                             <span class="dp-UserName">
@@ -1031,9 +1035,9 @@ title: PageSidebar
                     </div>
                 </div>
 
-                <div class="dp-SidebarSection">
+                <div class="dp-SidebarSection dp-SectionControls">
                     <div class="dp-SectionTitle">
-                        <div class="dp-TitleControls">STATUS</div>
+                        <div class="dp-TitleControls"><span class="dp-Section--name">Status</span></div>
                     </div>
                 </div>
 
@@ -1063,7 +1067,7 @@ title: PageSidebar
 
                 <div class="dp-SidebarSection dp-SectionControls">
                     <div class="dp-SectionTitle">
-                        <div class="dp-TitleControls">TIMES</div>
+                        <div class="dp-TitleControls"><span class="dp-Section--name">TIMES</span></div>
                         <a href="#" class="dp-Controls">
                             <span class="dp-qt"> +6 </span> 
                             <i class="dp-Icon dp-DotsIcon"></i>
@@ -1090,7 +1094,7 @@ title: PageSidebar
 
                 <div class="dp-SidebarSection dp-SectionControls">
                     <div class="dp-SectionTitle">
-                        <div class="dp-TitleControls">SLAS</div>
+                        <div class="dp-TitleControls"><span class="dp-Section--name">SLAS</span></div>
                         <a href="#" class="dp-Controls">
                             <span class="dp-qt"> +5 </span> 
                             <i class="dp-Icon dp-DotsIcon"></i>
