@@ -6,7 +6,7 @@ import Icon from "../Icon/Icon";
 import { MenuContext } from "./Menu";
 
 export type MenuItemProps = {
-  icon?: string;
+  icon?: string | React.ReactElement<any>;
   text: string;
   link?: string;
   onClick?(e: React.SyntheticEvent<HTMLElement>): void;
@@ -62,7 +62,10 @@ const MenuItem: React.FC<MenuItemProps> = ({
         <Reference>
           {({ ref }) => (
             <span ref={ref} style={{ display: "inline-block", width: "100%" }}>
-              {!!icon && <Icon name={icon} size={13} />}
+              {!!icon && typeof icon === "string" && (
+                <Icon name={icon} size={13} />
+              )}
+              {!!icon && typeof icon !== "string" && icon}
               {React.createElement(
                 link ? linkComponent : "span",
                 labelProps,
