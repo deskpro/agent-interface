@@ -107,7 +107,7 @@ const Card: React.FC<BasicCardProps> & CardSubComponents = ({
               <Cog
                 renderMenu={renderCogMenu}
                 isVisible={isMouseOver}
-                popperRef={ref}
+                ref={ref}
                 style={style}
                 placement={placement}
               />

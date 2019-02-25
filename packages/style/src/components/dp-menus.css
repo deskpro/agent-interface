@@ -165,7 +165,8 @@
   position: relative;
 }
 
-.dp-Menu-linkItem:hover > .dp-listItem, .dp-Menu .dp-Menu-linkItem:hover .dp-Menu-link {
+.dp-Menu-linkItem:hover > .dp-listItem,
+.dp-Menu .dp-Menu-linkItem:hover .dp-Menu-link {
   color: var(--brand-primary);
 }
 
@@ -589,12 +590,12 @@
 
 /* SubMenu */
 
-.dp-Cog .dp-Menu .dp-Menu-linkItem .dp-Menu,
+/* .dp-Cog .dp-Menu .dp-Menu-linkItem .dp-Menu,
 .dp-Cog .dp-Menu .dp-Menu-linkItem:hover > .dp-Menu {
   display: none;
   padding: 10px 0;
   top: -6px;
-}
+} */
 
 .dp-Cog .dp-Menu .dp-Menu-title {
   margin: -2px -1px 3px;

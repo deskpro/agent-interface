@@ -8,6 +8,7 @@ import {
   Card,
   Menu
 } from "@deskpro/agent-interface-components";
+import ReactAvatar from "react-avatar";
 
 const columns = ["Backlog", "Started", "In Progress", "Review", "QA", "Closed"];
 
@@ -85,6 +86,33 @@ const StandardKanbanDemo = ({ action, allowReorder }) => {
             }
             renderCogMenu={menuProps => (
               <Menu {...menuProps}>
+                <Menu.MenuItem key="assign" icon="avatar" text="Assignee">
+                  <Menu>
+                    <Menu.MenuSearch />
+                    <Menu.MenuItem
+                      key="berdyshev"
+                      icon={
+                        <ReactAvatar
+                          email="berdartem@gmail.com"
+                          name="Artem Berdyshev"
+                          round
+                        />
+                      }
+                      text="Artem Berdyshev"
+                    />
+                    <Menu.MenuItem
+                      key="chris"
+                      icon={
+                        <ReactAvatar
+                          email="chris.nadeau@deskpro.com"
+                          name="Chris Nadeau"
+                          round
+                        />
+                      }
+                      text="Chris Nadeau"
+                    />
+                  </Menu>
+                </Menu.MenuItem>
                 <Menu.MenuItem key="bin" icon="bin" text="Delete" />
               </Menu>
             )}

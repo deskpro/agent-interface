@@ -4,21 +4,23 @@ import classNames from "classnames";
 import "@deskpro/agent-interface-style/dist/elements/dp-Icons.css";
 import icons from "./icons";
 
-export type IconProps = {
+export type IconProps = React.ComponentProps<"span"> & {
   name: string;
   size?: number;
   circle?: boolean;
   color?: DPColor;
+  iconRef?: React.Ref<HTMLSpanElement>;
   onClick?(
     e: React.MouseEvent<HTMLElement> | React.KeyboardEvent<HTMLElement>
   ): void;
 };
 
-const Icon: React.FC<IconProps & React.ComponentProps<"span">> = ({
+const Icon: React.FC<IconProps> = ({
   name,
   size = 24,
   color,
   circle,
+  iconRef,
   onClick,
   ...props
 }) => {
@@ -36,6 +38,7 @@ const Icon: React.FC<IconProps & React.ComponentProps<"span">> = ({
       tabIndex={-1}
       onClick={onClick}
       onKeyDown={onClick}
+      ref={iconRef}
       {...props}
     >
       <SvgIcon width={size} height={size} />
@@ -48,4 +51,8 @@ Icon.defaultProps = {
   size: 24
 };
 
-export default Icon;
+export default React.memo(
+  React.forwardRef<HTMLSpanElement, IconProps>((props, ref) => (
+    <Icon {...props} iconRef={ref as React.Ref<HTMLSpanElement>} />
+  ))
+);

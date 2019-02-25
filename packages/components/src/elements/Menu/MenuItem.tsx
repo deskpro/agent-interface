@@ -1,5 +1,6 @@
 import * as React from "react";
 import classNames from "classnames";
+import { Manager, Reference, Popper } from "react-popper";
 
 import Icon from "../Icon/Icon";
 import { MenuContext } from "./Menu";
@@ -38,6 +39,10 @@ const MenuItem: React.FC<MenuItemProps> = ({
     [link, onClick]
   );
 
+  const [isSubmenuVisible, setSubmenuVisibility] = React.useState<boolean>(
+    false
+  );
+
   const labelProps = {
     className: "dp-Menu-link"
   };
@@ -53,10 +58,59 @@ const MenuItem: React.FC<MenuItemProps> = ({
       onClick={clickHandler}
       onKeyPress={clickHandler}
     >
-      {!!icon && <Icon name={icon} size={13} />}
-      {React.createElement(link ? linkComponent : "span", labelProps, text)}
-      {!!children && <span className="dp-Arrow" />}
-      {children}
+      <Manager>
+        <Reference>
+          {({ ref }) => (
+            <span ref={ref} style={{ display: "inline-block", width: "100%" }}>
+              {!!icon && <Icon name={icon} size={13} />}
+              {React.createElement(
+                link ? linkComponent : "span",
+                labelProps,
+                text
+              )}
+              {!!children && (
+                <span
+                  className={classNames("dp-Arrow", {
+                    "is-active": isSubmenuVisible
+                  })}
+                  role="button"
+                  tabIndex={-1}
+                  onClick={e => {
+                    e.stopPropagation();
+                    setSubmenuVisibility(!isSubmenuVisible);
+                  }}
+                  onKeyDown={() => {}}
+                />
+              )}
+            </span>
+          )}
+        </Reference>
+        {!!children && isSubmenuVisible && (
+          <Popper
+            placement="right-start"
+            positionFixed={false}
+            modifiers={{
+              offset: { enabled: true, offset: "0,11" },
+              flip: {
+                enabled: true,
+                behavior: ["right", "left"],
+                padding: 0
+              },
+              preventOverflow: {
+                enabled: true,
+                boundariesElement: "viewport"
+              }
+            }}
+          >
+            {({ ref, style }) =>
+              React.cloneElement(
+                React.Children.only(children) as React.ReactElement<any>,
+                { menuRef: ref, style }
+              )
+            }
+          </Popper>
+        )}
+      </Manager>
     </li>
   );
 };
