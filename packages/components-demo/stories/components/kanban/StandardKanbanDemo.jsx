@@ -96,6 +96,7 @@ const StandardKanbanDemo = ({ action, allowReorder }) => {
                           email="berdartem@gmail.com"
                           name="Artem Berdyshev"
                           round
+                          size={13}
                         />
                       }
                       text="Artem Berdyshev"
@@ -107,6 +108,7 @@ const StandardKanbanDemo = ({ action, allowReorder }) => {
                           email="chris.nadeau@deskpro.com"
                           name="Chris Nadeau"
                           round
+                          size={13}
                         />
                       }
                       text="Chris Nadeau"
