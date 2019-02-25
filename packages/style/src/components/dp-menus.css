@@ -8,6 +8,7 @@
   background-color: var(--white);
   border: 1px solid var(--brand-primary);
   border-radius: var(--border-radius);
+  box-shadow: var(--shadow-bottom-right);
   left: 0;
   list-style-type: none;
   padding: 5px 0;
@@ -520,6 +521,10 @@
   border-top-right-radius: 0;
   left: auto;
   right: calc(100% + 1px);
+}
+
+.dp-Submenu--left.dp-Menu .dp-Menu-linkItem .dp-Menu {
+  box-shadow: var(--shadow-bottom-left);
 }
 
 /* .dp-Tableview .dp-Cog .dp-Menu-linkItem:hover > .dp-Menu {

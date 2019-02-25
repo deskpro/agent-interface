@@ -220,7 +220,7 @@ title: Page View
 	<div class="dp-DropDownBar">
 		<ul class="dp-Tabs Tabs--actions">
 			<li class="dp-Tabs-item">
-				<span class="dp-Icon dp-lock"></span>
+				<span class="dp-Icon dp-lock Icon--primary"></span>
 				Lock
 				<button class="dp-Arrow"></button>
 			</li>
@@ -230,22 +230,22 @@ title: Page View
 				<button class="dp-Arrow"></button>
 			</li>
 			<li class="dp-Tabs-item">
-				<span class="dp-Icon dp-IconPlusGrey"></span>
+				<span class="dp-Icon dp-IconPlusGrey Icon--primary"></span>
 				New
 				<button class="dp-Arrow"></button>
 			</li>
 			<li class="dp-Tabs-item">
-				<span class="dp-Icon dp-IconPrint"></span>
+				<span class="dp-Icon dp-IconPrint Icon--primary"></span>
 				Print
 				<button class="dp-Arrow"></button>
 			</li>
 			<li class="dp-Tabs-item">
-				<span class="dp-Icon dp-ban"></span>
+				<span class="dp-Icon dp-ban Icon--primary"></span>
 				Ban
 				<button class="dp-Arrow"></button>
 			</li>
 			<li class="dp-Tabs-item">
-				<span class="dp-Icon dp-rocket"></span>
+				<span class="dp-Icon dp-rocket Icon--primary"></span>
 				Actions
 				<button class="dp-Arrow"></button>
 			</li>
@@ -281,7 +281,7 @@ title: Page View
                 </ul>
 			</li>
 			<li class="dp-Tabs-item">
-				<span class="dp-Icon dp-IconLink"></span>
+				<span class="dp-Icon dp-IconLink Icon--primary"></span>
 				Link
 				<button class="dp-Arrow"></button>
 				<ul class="dp-Menu">
@@ -303,7 +303,7 @@ title: Page View
 				</ul>
 			</li>
 			<li class="dp-Tabs-item">
-				<span class="dp-Icon dp-IconPlusGrey"></span>
+				<span class="dp-Icon dp-IconPlusGrey Icon--primary"></span>
 				New
 				<button class="dp-Arrow"></button>
 				<ul class="dp-Menu">
@@ -318,7 +318,7 @@ title: Page View
 				</ul>
 			</li>
 			<li class="dp-Tabs-item">
-				<span class="dp-Icon dp-IconPrint"></span>
+				<span class="dp-Icon dp-IconPrint Icon--primary"></span>
 				Print
 				<button class="dp-Arrow"></button>
 				<ul class="dp-Menu">
@@ -337,7 +337,7 @@ title: Page View
 				</ul>
 			</li>
 			<li class="dp-Tabs-item">
-				<span class="dp-Icon dp-ban"></span>
+				<span class="dp-Icon dp-ban Icon--primary"></span>
 				Ban
 				<button class="dp-Arrow"></button>
 				<ul class="dp-Menu">
@@ -352,7 +352,7 @@ title: Page View
 				</ul>
 			</li>
 			<li class="dp-Tabs-item">
-				<span class="dp-Icon dp-rocket"></span>
+				<span class="dp-Icon dp-rocket Icon--primary"></span>
 				Actions
 				<button class="dp-Arrow"></button>
 				<ul class="dp-Menu">
@@ -383,7 +383,7 @@ title: Page View
 	<div class="dp-DropDownBar">
 		<ul class="dp-Tabs Tabs--actions">
 			<li class="dp-Tabs-item">
-				<span class="dp-Icon dp-lock"></span>
+				<span class="dp-Icon dp-lock Icon--primary"></span>
 				Lock
 				<button class="dp-Arrow"></button>
                 <ul class="dp-Menu">
@@ -425,7 +425,7 @@ title: Page View
 				</ul>
 			</li>
 			<li class="dp-Tabs-item">
-				<span class="dp-Icon dp-IconPlusGrey"></span>
+				<span class="dp-Icon dp-IconPlusGrey Icon--primary"></span>
 				New
 				<button class="dp-Arrow"></button>
 				<ul class="dp-Menu">
@@ -440,7 +440,7 @@ title: Page View
 				</ul>
 			</li>
 			<li class="dp-Tabs-item">
-				<span class="dp-Icon dp-IconPrint"></span>
+				<span class="dp-Icon dp-IconPrint Icon--primary"></span>
 				Print
 				<button class="dp-Arrow"></button>
 				<ul class="dp-Menu">
@@ -459,7 +459,7 @@ title: Page View
 				</ul>
 			</li>
 			<li class="dp-Tabs-item">
-				<span class="dp-Icon dp-ban"></span>
+				<span class="dp-Icon dp-ban Icon--primary"></span>
 				Ban
 				<button class="dp-Arrow"></button>
 				<ul class="dp-Menu">
@@ -474,7 +474,7 @@ title: Page View
 				</ul>
 			</li>
 			<li class="dp-Tabs-item">
-				<span class="dp-Icon dp-rocket"></span>
+				<span class="dp-Icon dp-rocket Icon--primary"></span>
 				Actions
 				<button class="dp-Arrow"></button>
 				<ul class="dp-Menu">
@@ -504,7 +504,7 @@ title: Page View
 	<div class="dp-DropDownBar">
 		<ul class="dp-Tabs Tabs--actions">
 			<li class="dp-Tabs-item">
-				<span class="dp-Icon dp-lock"></span>
+				<span class="dp-Icon dp-lock Icon--primary"></span>
 				Lock
 				<button class="dp-Arrow"></button>
                 <ul class="dp-Menu">
@@ -523,7 +523,7 @@ title: Page View
                 </ul>
 			</li>
 			<li class="dp-Tabs-item">
-				<span class="dp-Icon dp-IconLink"></span>
+				<span class="dp-Icon dp-IconLink Icon--primary"></span>
 				Link
 				<button class="dp-Arrow"></button>
 				<ul class="dp-Menu">
@@ -561,7 +561,7 @@ title: Page View
 				</ul>
 			</li>
 			<li class="dp-Tabs-item">
-				<span class="dp-Icon dp-IconPrint"></span>
+				<span class="dp-Icon dp-IconPrint Icon--primary"></span>
 				Print
 				<button class="dp-Arrow"></button>
 				<ul class="dp-Menu">
@@ -580,7 +580,7 @@ title: Page View
 				</ul>
 			</li>
 			<li class="dp-Tabs-item">
-				<span class="dp-Icon dp-ban"></span>
+				<span class="dp-Icon dp-ban Icon--primary"></span>
 				Ban
 				<button class="dp-Arrow"></button>
 				<ul class="dp-Menu">
@@ -595,7 +595,7 @@ title: Page View
 				</ul>
 			</li>
 			<li class="dp-Tabs-item">
-				<span class="dp-Icon dp-rocket"></span>
+				<span class="dp-Icon dp-rocket Icon--primary"></span>
 				Actions
 				<button class="dp-Arrow"></button>
 				<ul class="dp-Menu">
@@ -625,7 +625,7 @@ title: Page View
 	<div class="dp-DropDownBar">
 		<ul class="dp-Tabs Tabs--actions">
 			<li class="dp-Tabs-item">
-				<span class="dp-Icon dp-lock"></span>
+				<span class="dp-Icon dp-lock Icon--primary"></span>
 				Lock
 				<button class="dp-Arrow"></button>
                 <ul class="dp-Menu">
@@ -644,7 +644,7 @@ title: Page View
                 </ul>
 			</li>
 			<li class="dp-Tabs-item">
-				<span class="dp-Icon dp-IconLink"></span>
+				<span class="dp-Icon dp-IconLink Icon--primary"></span>
 				Link
 				<button class="dp-Arrow"></button>
 				<ul class="dp-Menu">
@@ -667,7 +667,7 @@ title: Page View
 				</ul>
 			</li>
 			<li class="dp-Tabs-item">
-				<span class="dp-Icon dp-IconPlusGrey"></span>
+				<span class="dp-Icon dp-IconPlusGrey Icon--primary"></span>
 				New
 				<button class="dp-Arrow"></button>
 				<ul class="dp-Menu">
@@ -701,7 +701,7 @@ title: Page View
 				</ul>
 			</li>
 			<li class="dp-Tabs-item">
-				<span class="dp-Icon dp-ban"></span>
+				<span class="dp-Icon dp-ban Icon--primary"></span>
 				Ban
 				<button class="dp-Arrow"></button>
 				<ul class="dp-Menu">
@@ -716,7 +716,7 @@ title: Page View
 				</ul>
 			</li>
 			<li class="dp-Tabs-item">
-				<span class="dp-Icon dp-rocket"></span>
+				<span class="dp-Icon dp-rocket Icon--primary"></span>
 				Actions
 				<button class="dp-Arrow"></button>
 				<ul class="dp-Menu">
@@ -746,7 +746,7 @@ title: Page View
 	<div class="dp-DropDownBar">
 		<ul class="dp-Tabs Tabs--actions">
 			<li class="dp-Tabs-item">
-				<span class="dp-Icon dp-lock"></span>
+				<span class="dp-Icon dp-lock Icon--primary"></span>
 				Lock
 				<button class="dp-Arrow"></button>
                 <ul class="dp-Menu">
@@ -765,7 +765,7 @@ title: Page View
                 </ul>
 			</li>
 			<li class="dp-Tabs-item">
-				<span class="dp-Icon dp-IconLink"></span>
+				<span class="dp-Icon dp-IconLink Icon--primary"></span>
 				Link
 				<button class="dp-Arrow"></button>
 				<ul class="dp-Menu">
@@ -788,7 +788,7 @@ title: Page View
 				</ul>
 			</li>
 			<li class="dp-Tabs-item">
-				<span class="dp-Icon dp-IconPlusGrey"></span>
+				<span class="dp-Icon dp-IconPlusGrey Icon--primary"></span>
 				New
 				<button class="dp-Arrow"></button>
 				<ul class="dp-Menu">
@@ -803,7 +803,7 @@ title: Page View
 				</ul>
 			</li>
 			<li class="dp-Tabs-item">
-				<span class="dp-Icon dp-IconPrint"></span>
+				<span class="dp-Icon dp-IconPrint Icon--primary"></span>
 				Print
 				<button class="dp-Arrow"></button>
 				<ul class="dp-Menu">
@@ -837,7 +837,7 @@ title: Page View
 				</ul>
 			</li>
 			<li class="dp-Tabs-item">
-				<span class="dp-Icon dp-rocket"></span>
+				<span class="dp-Icon dp-rocket Icon--primary"></span>
 				Actions
 				<button class="dp-Arrow"></button>
 				<ul class="dp-Menu">
@@ -867,7 +867,7 @@ title: Page View
 	<div class="dp-DropDownBar">
 		<ul class="dp-Tabs Tabs--actions">
 			<li class="dp-Tabs-item">
-				<span class="dp-Icon dp-lock"></span>
+				<span class="dp-Icon dp-lock Icon--primary"></span>
 				Lock
 				<button class="dp-Arrow"></button>
                 <ul class="dp-Menu">
@@ -886,7 +886,7 @@ title: Page View
                 </ul>
 			</li>
 			<li class="dp-Tabs-item">
-				<span class="dp-Icon dp-IconLink"></span>
+				<span class="dp-Icon dp-IconLink Icon--primary"></span>
 				Link
 				<button class="dp-Arrow"></button>
 				<ul class="dp-Menu">
@@ -908,7 +908,7 @@ title: Page View
 				</ul>
 			</li>
 			<li class="dp-Tabs-item">
-				<span class="dp-Icon dp-IconPlusGrey"></span>
+				<span class="dp-Icon dp-IconPlusGrey Icon--primary"></span>
 				New
 				<button class="dp-Arrow"></button>
 				<ul class="dp-Menu">
@@ -923,7 +923,7 @@ title: Page View
 				</ul>
 			</li>
 			<li class="dp-Tabs-item">
-				<span class="dp-Icon dp-IconPrint"></span>
+				<span class="dp-Icon dp-IconPrint Icon--primary"></span>
 				Print
 				<button class="dp-Arrow"></button>
 				<ul class="dp-Menu">
@@ -942,7 +942,7 @@ title: Page View
 				</ul>
 			</li>
 			<li class="dp-Tabs-item">
-				<span class="dp-Icon dp-ban"></span>
+				<span class="dp-Icon dp-ban Icon--primary"></span>
 				Ban
 				<button class="dp-Arrow"></button>
 				<ul class="dp-Menu">
@@ -986,32 +986,32 @@ title: Page View
 	<div class="dp-DropDownBar">
 		<ul class="dp-Tabs Tabs--actions">
 			<li class="dp-Tabs-item">
-				<span class="dp-Icon dp-lock"></span>
+				<span class="dp-Icon dp-lock Icon--primary"></span>
 				Lock
 				<button class="dp-Arrow"></button>
 			</li>
 			<li class="dp-Tabs-item">
-				<span class="dp-Icon dp-IconLink"></span>
+				<span class="dp-Icon dp-IconLink Icon--primary"></span>
 				Link
 				<button class="dp-Arrow"></button>
 			</li>
 			<li class="dp-Tabs-item">
-				<span class="dp-Icon dp-IconPlusGrey"></span>
+				<span class="dp-Icon dp-IconPlusGrey Icon--primary"></span>
 				New
 				<button class="dp-Arrow"></button>
 			</li>
 			<li class="dp-Tabs-item">
-				<span class="dp-Icon dp-IconPrint"></span>
+				<span class="dp-Icon dp-IconPrint Icon--primary"></span>
 				Print
 				<button class="dp-Arrow"></button>
 			</li>
 			<li class="dp-Tabs-item">
-				<span class="dp-Icon dp-ban"></span>
+				<span class="dp-Icon dp-ban Icon--primary"></span>
 				Ban
 				<button class="dp-Arrow"></button>
 			</li>
 			<li class="dp-Tabs-item">
-				<span class="dp-Icon dp-rocket"></span>
+				<span class="dp-Icon dp-rocket Icon--primary"></span>
 				Actions
 				<button class="dp-Arrow"></button>
 			</li>
@@ -1025,27 +1025,27 @@ title: Page View
 <div class="dp-MainWrapper demo-cog demo-menu">
 	<ul class="dp-MenuBarList">
 		<li class="dp-MenuBarItem dp-TasksItem">
-			<span class="dp-Icon dp-tasks"></span>
+			<span class="dp-Icon dp-tasks Icon--blue"></span>
 			<span class="dp-Title">Tasks</span>
 			<button class="dp-Arrow"></button>
 		</li>
 		<li class="dp-MenuBarItem">
-			<span class="dp-Icon dp-billing"></span>
+			<span class="dp-Icon dp-billing Icon--blue"></span>
 			<span class="dp-Title">Billing</span>
 			<button class="dp-Arrow"></button>
 		</li>
 		<li class="dp-MenuBarItem">
-			<span class="dp-Icon dp-liscense"></span>
+			<span class="dp-Icon dp-liscense Icon--blue"></span>
 			<span class="dp-Title">License</span>
 			<button class="dp-Arrow"></button>
 		</li>
 		<li class="dp-MenuBarItem dp-PropertiesItem">
-			<span class="dp-Icon dp-ticket_properties"></span>
+			<span class="dp-Icon dp-ticket_properties Icon--blue"></span>
 			<span class="dp-Title">Ticket Properties</span>
 			<button class="dp-Arrow"></button>
 		</li>
 			<li class="dp-MenuBarItem dp-PropertiesItem">
-			<span class="dp-Icon dp-follow_up"></span>
+			<span class="dp-Icon dp-follow_up Icon--blue"></span>
 			<span class="dp-Title">Follow-ups</span>
 			<button class="dp-Arrow"></button>
 		</li>

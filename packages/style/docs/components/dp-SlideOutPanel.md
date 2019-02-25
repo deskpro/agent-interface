@@ -516,8 +516,8 @@ title: Slide-Out Panel
                         <div class="dp-MessageHeader">
                             <div class="dp-Left">
                                 <div class="dp-CustomCheckbox dp-EmptyCheckbox">
-                                    <input type="checkbox" class="dp-ControlInput" id="dp-CheckboxTicket-1"></input>
-                                    <label for="dp-CheckboxTicket-1"></label>
+                                    <input type="checkbox" class="dp-ControlInput" id="dp-CheckboxTicket-2"></input>
+                                    <label for="dp-CheckboxTicket-2"></label>
                                 </div>
                                 <span class="dp-Icon dp-iconUserAvatar"></span>
                                 <span>Zach Prudent</span>

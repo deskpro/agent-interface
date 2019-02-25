@@ -15,7 +15,6 @@
   border: 1px solid var(--brand-primary);
   display: flex;
   height: 100%;
-  z-index: 1;
 }
 
 .dp-UserContainer.dp-UserTitleInfo {
@@ -28,7 +27,6 @@
   margin-left: -1px;
   margin-top: 130px;
   min-height: auto;
-  z-index: 2;
 }
 
 .dp-UserTabName {
