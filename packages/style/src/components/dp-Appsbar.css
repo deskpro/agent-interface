@@ -53,13 +53,13 @@
   border: 0;
   border-radius: 0;
   display: flex;
-  flex: 0 0 39px;
+  flex: 0 1 auto;
   height: 39px;
   justify-content: center;
   padding: 0;
   position: relative;
   transition: all var(--animation-speed);
-  width: 39px;
+  width: 45px;
 
   &::after {
     background-color: var(--brand-primary);
@@ -104,8 +104,11 @@
   border-left: 1px solid var(--grey-light);
   flex-direction: column;
   justify-content: flex-start;
+  max-width: 45px;
   min-height: 100vh;
-  width: 39px;
+
+  /* width: 39px; */
+
 }
 
 .Tabs--devider {

@@ -247,11 +247,6 @@
   top: calc(100% - 5px);
 }
 
-.dp-Tableview .dp-Cog .dp-Menu-linkItem:hover > .dp-Menu {
-  left: auto;
-  right: 100%;
-}
-
 .dp-Title-group {
   align-items: center;
   display: flex;

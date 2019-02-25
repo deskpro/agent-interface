@@ -130,7 +130,7 @@ title: Menus
 
 <h4>listpane/rightclick</h4>
 ```html @preview
-<div class="dp-MainWrapper">
+<div class="dp-MainWrapper demo-menu">
     <div style="height: 450px; position: relative;">
 
         <ul class="dp-Menu is-visible" style="top: 0; left: 0;">

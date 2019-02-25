@@ -27,25 +27,41 @@ title: Side-bar Overlay
 
 			<div class="dp-BrandsInfo">
 
-				<ul class="dp-LeftSidebar">
-					<li class="dp-BarIcon-wrap dp-BorderBottom">
-						<span class="dp-Icon dp-LeftCaret"></span>
+				<ul class="dp-Tabs Tabs--apps-bar Tabs--vertical dp-LeftSidebar">
+					<li class="dp-Tabs-item border">
+						<button class="dp-Button Button--Apps">
+							<span class="dp-Icon Icon--left-caret"></span>
+						</button>
 					</li>
-					<li class="dp-BarIcon-wrap">
-						<span class="dpApps-Icon"><img src="/agent-interface/style/img/docs/trello-logo.svg" alt=""></span>
+					<li class="Tabs--devider"></li>
+					<li class="dp-Tabs-item">
+						<button class="dp-Button Button--Apps">
+							<span class="dp-Icon Icon-trello"></span>
+						</button>
 					</li>
-					<li class="dp-BarIcon-wrap">
-						<span class="dpApps-Icon"><img src="/agent-interface/style/img/docs/youtrack-logo.svg" alt=""></span>
+					<li class="dp-Tabs-item">
+						<button class="dp-Button Button--Apps">
+							<span class="dp-Icon Icon-youtrack"></span>
+						</button>
 					</li>
-					<li class="dp-BarIcon-wrap dp-BorderBottom">
-						<span class="dpApps-Icon"><img src="/agent-interface/style/img/docs/mailchimp-logo.svg" alt=""></span>
+					<li class="dp-Tabs-item">
+						<button class="dp-Button Button--Apps">
+							<span class="dp-Icon Icon-mailchimp"></span>
+						</button>
 					</li>
-					<li class="dp-BarIcon-wrap dp-BorderBottom">
-						<span class="dpApps-Icon"><img src="/agent-interface/style/img/docs/jira-logo.svg" alt=""></span>
+					<li class="Tabs--devider"></li>
+					<li class="dp-Tabs-item">
+						<button class="dp-Button Button--Apps">
+							<span class="dp-Icon Icon-jira"></span>
+						</button>
 					</li>
-					<li class="dp-BarIcon-wrap dp-BorderBottom">
-						<span class="dpApps-Icon"><img src="/agent-interface/style/img/docs/salesforce-logo.svg" alt=""></span>
+					<li class="Tabs--devider"></li>
+					<li class="dp-Tabs-item">
+						<button class="dp-Button Button--Apps">
+							<span class="dp-Icon Icon-salesforse"></span>
+						</button>
 					</li>
+					<li class="Tabs--devider"></li>
 				</ul>
 
 				<div class="dp-OverlayContent">
@@ -53,17 +69,23 @@ title: Side-bar Overlay
 					<div class="dp-TitleRow">
 						<span class="dp-UserInfo">
 							<span class="dp-Icon dp-iconUserAvatar dp-InfoItem"></span>
-							<span class="dp-InfoItem dp-Tag">#14355</span>
+							<span class="dp-Badge Badge--id">
+								#14355
+								<span class="dp-ToolTips">
+									<span class="dp-Icon dp-TicketId"></span>
+									<span class="dp-Icon dp-IconLink"></span>
+								</span>
+							</span>
 							<span class="dp-InfoItem dp-UserName">Zack Prudent</span>
 						</span>
-				    </div>
+					</div>
 
 					<!-- Action bar -->
 					<div class="dp-DropDownBar">
 
 						<ul class="dp-Tabs Tabs--actions">
 							<li class="dp-Tabs-item">
-								<span class="dp-Icon dp-lock"></span>
+								<span class="dp-Icon dp-lock Icon--primary"></span>
 								Lock
 								<button class="dp-Arrow"></button>
 								<ul class="dp-Menu">
@@ -82,7 +104,7 @@ title: Side-bar Overlay
 								</ul>
 							</li>
 							<li class="dp-Tabs-item">
-								<span class="dp-Icon dp-IconLink"></span>
+								<span class="dp-Icon dp-IconLink Icon--primary"></span>
 								Link
 								<button class="dp-Arrow"></button>
 								<ul class="dp-Menu">
@@ -105,7 +127,7 @@ title: Side-bar Overlay
 								</ul>
 							</li>
 							<li class="dp-Tabs-item">
-								<span class="dp-Icon dp-IconPlusGrey"></span>
+								<span class="dp-Icon dp-IconPlusGrey Icon--primary"></span>
 								New
 								<button class="dp-Arrow"></button>
 								<ul class="dp-Menu">
@@ -120,7 +142,7 @@ title: Side-bar Overlay
 								</ul>
 							</li>
 							<li class="dp-Tabs-item">
-								<span class="dp-Icon dp-IconPrint"></span>
+								<span class="dp-Icon dp-IconPrint Icon--primary"></span>
 								Print
 								<button class="dp-Arrow"></button>
 								<ul class="dp-Menu">
@@ -139,7 +161,7 @@ title: Side-bar Overlay
 								</ul>
 							</li>
 							<li class="dp-Tabs-item">
-								<span class="dp-Icon dp-ban"></span>
+								<span class="dp-Icon dp-ban Icon--primary"></span>
 								Ban
 								<button class="dp-Arrow"></button>
 								<ul class="dp-Menu">
@@ -154,7 +176,7 @@ title: Side-bar Overlay
 								</ul>
 							</li>
 							<li class="dp-Tabs-item">
-								<span class="dp-Icon dp-rocket"></span>
+								<span class="dp-Icon dp-rocket Icon--primary"></span>
 								Actions
 								<button class="dp-Arrow"></button>
 								<ul class="dp-Menu">
@@ -267,7 +289,8 @@ title: Side-bar Overlay
 					<div class="dp-Files">
 						Notes<span class="dp-LabelItem dp-Icon dp-add_tab--reverse"></span>
 					</div>
-					<div class="dp-TicketMessage">
+
+<!-- 					<div class="dp-TicketMessage">
 						<div class="dp-MessageContainer dp-ColorContainer">
 							<div class="dp-MessageHeader">
 								<div class="dp-Left">
@@ -294,8 +317,41 @@ title: Side-bar Overlay
 								</div>
 							</div>
 						</div>
-					</div>
+					</div> -->
+
 					<div class="dp-TicketMessage">
+						<div class="dp-MessageContainer">
+							<div class="dp-MessageHeader">
+								<div class="dp-Left">
+									<span class="dp-Icon dp-iconUserAvatar"></span>
+									<span>Harry Krimbo</span>
+									<a href="mailto:harry.krimbo@techcompany.com">
+										<i class="dp-Icon dp-email_small"></i>harry.krimbo@techcompany.com
+									</a>
+								</div>
+								<div class="dp-Right">
+									<div class="dp-Time"><span class="dp-Icon dp-history"></span>2 days ago</div>
+								</div>
+								<!-- Icon hover -->
+								<span class="dp-Cog">
+									<span class="dp-Icon dp-settings"></span>
+									<ul class="dp-Menu">
+										<li class="dp-Menu-linkItem">Place on hold</li>
+										<li class="dp-Menu-linkItem">Lock</li>
+										<li class="dp-Menu-linkItem">Unlock</li>
+									</ul>
+								</span>
+							</div>
+							<div class="dp-MessageTitle">
+								<p class="dp-Type">Agent note</p>
+							</div>
+							<div class="dp-MessageBody">
+								<p class="dp-txt">I’ve asked one of the tech guys to take a look but don’t want to reply until we know the timeframe for a resolution.</p>
+							</div>
+						</div>
+					</div>
+
+<!-- 					<div class="dp-TicketMessage">
 						<div class="dp-MessageContainer dp-ColorContainer">
 							<div class="dp-MessageHeader">
 								<div class="dp-Left">
@@ -322,7 +378,40 @@ title: Side-bar Overlay
 								</div>
 							</div>
 						</div>
+					</div> -->
+
+					<div class="dp-TicketMessage">
+						<div class="dp-MessageContainer">
+							<div class="dp-MessageHeader">
+								<div class="dp-Left">
+									<span class="dp-Icon dp-iconUserAvatar"></span>
+									<span>Chris Padfield</span>
+									<a href="mailto:harry.krimbo@techcompany.com">
+										<i class="dp-Icon dp-email_small"></i>harry.krimbo@techcompany.com
+									</a>
+								</div>
+								<div class="dp-Right">
+									<div class="dp-Time"><span class="dp-Icon dp-history"></span>2 days ago</div>
+								</div>
+								<!-- Icon hover -->
+								<span class="dp-Cog">
+									<span class="dp-Icon dp-settings"></span>
+									<ul class="dp-Menu">
+										<li class="dp-Menu-linkItem">Place on hold</li>
+										<li class="dp-Menu-linkItem">Lock</li>
+										<li class="dp-Menu-linkItem">Unlock</li>
+									</ul>
+								</span>
+							</div>
+							<div class="dp-MessageTitle">
+								<p class="dp-Type">Chris Padfield</p>
+							</div>
+							<div class="dp-MessageBody">
+								<p class="dp-txt">I think Tech Company are planning to add several more agents in the new year, it’s probably worth reaching out to Zack closer to the time.</p>
+							</div>
+						</div>
 					</div>
+
 					<div class="dp-Files">
 						Files<span class="dp-LabelItem dp-Icon dp-add_tab--reverse"></span>
 					</div>
@@ -352,88 +441,83 @@ title: Side-bar Overlay
 
 			</div>
 
-			<!--  -->
 			<div class="dp-SidebarContainer">
-			    <div class="dp-PageSidebar dp-TicketOverlay">
+				<div class="dp-PageSidebar dp-TicketOverlay">
 
-					<ul class="dp-Tabs Tabs--icons">
-						<li class="dp-Tabs-item is-active"><a href="#" class="dp-Icon Icon--email"></a></li>
-						<li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--user"></a></li>
-						<li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--organisation"></a></li>
-					</ul>
+		            <ul class="dp-Tabs Tabs--icons">
+		                <li class="dp-Tabs-item is-active"><a href="#" class="dp-Icon Icon--email"></a></li>
+		                <li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--user"></a></li>
+		                <li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--organisation"></a></li>
+		            </ul>
 
-			        <div class="dp-SidebarBody">
+		            <div class="dp-SidebarBody">
 
-			            <div class="dp-SidebarSection">
-			                <div class="dp-SectionTitle">
-			                    <div class="dp-TitleControls">ORGANIZATION & USER</div>
-			                </div>
-			            </div>
+		                <div class="dp-SidebarSection">
+		                    <div class="dp-SectionBody-item is-disabled">
+		                        <div class="dp-title-item">
+		                            <span class="dp-Icon dp-iconUserAvatar"></span>
+		                            Optical
+		                        </div>
+		                    </div>
+		                    <div class="dp-SectionBody-item dp-UserPanel">
+		                        <div class="dp-title-item">
+		                            <span class="dp-Icon dp-iconUserAvatar"></span>
+		                            <span class="dp-UserName">Zack Prudent</span>
+		                            <span class="dp-Icon Icon--OwnerArrows"></span>
+		                        </div>
+		                        <a href="mailto:zack.pride@techcompany.com" class="dp-MailAddress">zack.prudent@techcompany.com</a>
+		                        <div class="dp-Phone">
+		                            <i class="dp-Icon dp-phone_filled Icon--blue"></i>
+		                            <a href="tel:+442035678940" >+44 20 356 789 40</a>
+		                        </div>
+		                        <div class="dp-OpenResolved">
+		                            <span class="dp-open"><i class="dp-Icon Icon--email Icon--primary"></i> Open: 7</span>
+		                            <span class="dp-resolved"><i class="dp-Icon Icon--email"></i> Resolved: 24</span>
+		                        </div>
+		                    </div>
+		                </div>
 
-			            <div class="dp-SidebarSection">
-			                <div class="dp-SectionBody-item is-disabled">
-			                    <div class="dp-title-item">
-			                        <span class="dp-Icon dp-iconUserAvatar"></span>
-			                        Optical
-			                    </div>
-			                </div>
-			                <div class="dp-SectionBody-item dp-UserPanel">
-			                    <div class="dp-title-item">
-			                        <span class="dp-Icon dp-iconUserAvatar"></span>
-			                        Zack Prudent
-			                    </div>
-			                    <div class="dp-Email">zack.prudent@techcompany.com</div>
-			                    <div class="dp-Phone">
-			                        <i class="dp-Icon dp-phone_filled"></i><a href="tel:+442035678940" >+44 20 356 789 40</a>
-			                    </div>
-			                    <div class="dp-OpenResolved">
-			                        <span class="dp-open"><i class="dp-Icon Icon--email Icon--primary"></i> Open: 7</span>
-			                        <span class="dp-resolved"><i class="dp-Icon Icon--email"></i> Resolved: 24</span>
-			                    </div>
-			                </div>
-			            </div>
+		                <div class="dp-SidebarSection">
+		                    <dl class="dp-AddressList">
+		                        <dt class="dp-TitleList">
+		                            <span class="dp-Icon Icon--Web"></span>
+		                            Website
+		                        </dt>
+		                        <dd class="dp-SubTitleList">www.techcompany.com</dd>
 
-			            <div class="dp-SidebarSection">
-			                <dl class="dp-AddressList">
-			                    <dt class="dp-TitleList">Website</dt>
-			                    <dd class="dp-SubTitleList">www.techcompany.com</dd>
+		                        <dd class="dp-DropdownDivider"></dd>
 
-			                    <dt class="dp-TitleList">Address</dt>
-			                    <dd class="dp-SubTitleList address">
-			                        Tech Company Ltd<br></br>
-			                        14 Cloud Street<br></br>
-			                        London<br></br>
-			                        SE1 ONG<br></br>
-			                        England
-			                    </dd>
+		                        <dt class="dp-TitleList">
+		                            <span class="dp-Icon Icon--Address"></span>
+		                            Address
+		                        </dt>
+		                        <dd class="dp-SubTitleList address">
+		                            Tech Company Ltd<br></br>
+		                            14 Cloud Street<br></br>
+		                            London<br></br>
+		                            SE1 ONG<br></br>
+		                            England
+		                        </dd>
 
-			                    <dt class="dp-TitleList">IM</dt>
-			                    <dd class="dp-SubTitleList"> - </dd>
+		                        <dd class="dp-DropdownDivider"></dd>
 
-			                    <dt class="dp-TitleList">Facebook</dt>
-			                    <dd class="dp-SubTitleList"> - </dd>
+		                        <dt class="dp-TitleList"><span class="dp-Icon Icon--WhatsApp"></span>Whats app</dt>
+		                        <dd class="dp-SubTitleList dp-Address-Social"> - </dd>
 
-			                    <dt class="dp-TitleList">Twitter</dt>
-			                    <dd class="dp-SubTitleList"> - </dd>
+		                        <dt class="dp-TitleList"><span class="dp-Icon Icon--Facebook"></span>Facebook</dt>
+		                        <dd class="dp-SubTitleList dp-Address-Social"> - </dd>
 
-			                    <dt class="dp-TitleList">LinkedIn</dt>
-			                    <dd class="dp-SubTitleList"> - </dd>
-			                </dl>
+		                        <dt class="dp-TitleList"><span class="dp-Icon Icon--Twitter"></span>Twitter</dt>
+		                        <dd class="dp-SubTitleList dp-Address-Social"> - </dd>
 
-			            </div>
+		                        <dt class="dp-TitleList"><span class="dp-Icon Icon--LinkedIn"></span>LinkedIn</dt>
+		                        <dd class="dp-SubTitleList dp-Address-Social"> - </dd>
+		                    </dl>
 
-			            <div class="dp-SidebarSection dp-SectionControls">
-			                <div class="dp-SectionTitle">
-			                    <div class="dp-TitleControls">PROPERTIES</div>
-			                    <a href="#" class="dp-Controls">
-			                        <span class="dp-qt"> +6 </span> 
-			                        <i class="dp-Icon dp-DotsIcon"></i>
-			                    </a>
-			                </div>
-			            </div>
-			            
-			        </div> <!-- Sidebar body -->
-			    </div>
+		                </div>
+		                
+		            </div> <!-- Sidebar body -->
+				</div>
 			</div>
 
 		</div>
@@ -474,22 +558,28 @@ title: Side-bar Overlay
 					<div class="dp-TitleRow">
 						<span class="dp-UserInfo">
 							<span class="dp-Icon dp-iconUserAvatar dp-InfoItem"></span>
-							<span class="dp-InfoItem dp-Tag">#14355</span>
+							<span class="dp-Badge Badge--id">
+								#14355
+								<span class="dp-ToolTips">
+									<span class="dp-Icon dp-TicketId"></span>
+									<span class="dp-Icon dp-IconLink"></span>
+								</span>
+							</span>
 							<span class="dp-InfoItem dp-UserName">Zack Prudent</span>
 						</span>
-				    </div>
+					</div>
 
 					<!-- Action bar -->
 					<div class="dp-DropDownBar">
 
 						<ul class="dp-Tabs Tabs--actions">
 							<li class="dp-Tabs-item">
-								<span class="dp-Icon dp-lock"></span>
+								<span class="dp-Icon dp-lock Icon--primary"></span>
 								Lock
 								<button class="dp-Arrow"></button>
 								<ul class="dp-Menu">
 									<li class="dp-Menu-linkItem">
-										<span class="dp-MenuIcon dp-lock"></span>
+										<span class="dp-MenuIcon dp-lock Icon--primary"></span>
 										<a href="#">Lock</a>
 									</li>
 									<li class="dp-Menu-linkItem">
@@ -503,7 +593,7 @@ title: Side-bar Overlay
 								</ul>
 							</li>
 							<li class="dp-Tabs-item">
-								<span class="dp-Icon dp-IconLink"></span>
+								<span class="dp-Icon dp-IconLink Icon--primary"></span>
 								Link
 								<button class="dp-Arrow"></button>
 								<ul class="dp-Menu">
@@ -526,7 +616,7 @@ title: Side-bar Overlay
 								</ul>
 							</li>
 							<li class="dp-Tabs-item">
-								<span class="dp-Icon dp-IconPlusGrey"></span>
+								<span class="dp-Icon dp-IconPlusGrey Icon--primary"></span>
 								New
 								<button class="dp-Arrow"></button>
 								<ul class="dp-Menu">
@@ -541,7 +631,7 @@ title: Side-bar Overlay
 								</ul>
 							</li>
 							<li class="dp-Tabs-item">
-								<span class="dp-Icon dp-IconPrint"></span>
+								<span class="dp-Icon dp-IconPrint Icon--primary"></span>
 								Print
 								<button class="dp-Arrow"></button>
 								<ul class="dp-Menu">
@@ -560,7 +650,7 @@ title: Side-bar Overlay
 								</ul>
 							</li>
 							<li class="dp-Tabs-item">
-								<span class="dp-Icon dp-ban"></span>
+								<span class="dp-Icon dp-ban Icon--primary"></span>
 								Ban
 								<button class="dp-Arrow"></button>
 								<ul class="dp-Menu">
@@ -575,7 +665,7 @@ title: Side-bar Overlay
 								</ul>
 							</li>
 							<li class="dp-Tabs-item">
-								<span class="dp-Icon dp-rocket"></span>
+								<span class="dp-Icon dp-rocket Icon--primary"></span>
 								Actions
 								<button class="dp-Arrow"></button>
 								<ul class="dp-Menu">
@@ -684,58 +774,64 @@ title: Side-bar Overlay
 						Notes<span class="dp-LabelItem dp-Icon dp-add_tab--reverse"></span>
 					</div>
 					<div class="dp-TicketMessage">
-						<div class="dp-MessageContainer dp-ColorContainer">
+						<div class="dp-MessageContainer">
 							<div class="dp-MessageHeader">
 								<div class="dp-Left">
-									<div class="dp-title-item dp-optical">
-
-										<div class="dp-UserAvatarName">
-											<span class="dp-Badge Badge--empty dp-DarkBadge"></span>
-											<span>Harry Krimbo</span>
-										</div>
-
-									</div>
+									<span class="dp-Icon dp-iconUserAvatar"></span>
+									<span>Harry Krimbo</span>
+									<a href="mailto:harry.krimbo@techcompany.com">
+										<i class="dp-Icon dp-email_small"></i>harry.krimbo@techcompany.com
+									</a>
 								</div>
 								<div class="dp-Right">
-									<div class="dp-Time">03/11/2016 at 09.58am</div>
-									<a href="#" class="dp-Icon dp-Bin"></a>
+									<div class="dp-Time"><span class="dp-Icon dp-history"></span>2 days ago</div>
 								</div>
+								<!-- Icon hover -->
+								<span class="dp-Cog">
+									<span class="dp-Icon dp-settings"></span>
+									<ul class="dp-Menu">
+										<li class="dp-Menu-linkItem">Place on hold</li>
+										<li class="dp-Menu-linkItem">Lock</li>
+										<li class="dp-Menu-linkItem">Unlock</li>
+									</ul>
+								</span>
 							</div>
 							<div class="dp-MessageTitle">
-								<p class="dp-Type dp-Orange"></p>
+								<p class="dp-Type">Agent note</p>
 							</div>
 							<div class="dp-MessageBody">
-								<div class="Content">
-									<p class="dp-txt">Zack recently had some trouble setting up one of his email address. He was quite frustrated so I suggested he call us next time if he is having problems.</p>
-								</div>
+								<p class="dp-txt">Zack recently had some trouble setting up one of his email address. He was quite frustrated so I suggested he call us next time if he is having problems.</p>
 							</div>
 						</div>
 					</div>
 					<div class="dp-TicketMessage">
-						<div class="dp-MessageContainer dp-ColorContainer">
+						<div class="dp-MessageContainer">
 							<div class="dp-MessageHeader">
 								<div class="dp-Left">
-									<div class="dp-title-item dp-optical">
-
-										<div class="dp-UserAvatarName">
-											<span class="dp-Badge Badge--empty dp-DarkBadge"></span>
-											<span>Chris Padfield</span>
-										</div>
-
-									</div>
+									<span class="dp-Icon dp-iconUserAvatar"></span>
+									<span>Chris Padfield</span>
+									<a href="mailto:harry.krimbo@techcompany.com">
+										<i class="dp-Icon dp-email_small"></i>harry.krimbo@techcompany.com
+									</a>
 								</div>
 								<div class="dp-Right">
-									<div class="dp-Time">03/11/2016 at 09.58am</div>
-									<a href="#" class="dp-Icon dp-Bin"></a>
+									<div class="dp-Time"><span class="dp-Icon dp-history"></span>2 days ago</div>
 								</div>
+								<!-- Icon hover -->
+								<span class="dp-Cog">
+									<span class="dp-Icon dp-settings"></span>
+									<ul class="dp-Menu">
+										<li class="dp-Menu-linkItem">Place on hold</li>
+										<li class="dp-Menu-linkItem">Lock</li>
+										<li class="dp-Menu-linkItem">Unlock</li>
+									</ul>
+								</span>
 							</div>
 							<div class="dp-MessageTitle">
-								<p class="dp-Type dp-Orange"></p>
+								<p class="dp-Type">User Reply</p>
 							</div>
 							<div class="dp-MessageBody">
-								<div class="Content">
-									<p class="dp-txt">I think Tech Company are planning to add several more agents in the new year, it’s probably worth reaching out to Zack closer to the time.</p>
-								</div>
+								<p class="dp-txt">I think Tech Company are planning to add several more agents in the new year, it’s probably worth reaching out to Zack closer to the time.</p>
 							</div>
 						</div>
 					</div>
@@ -768,87 +864,83 @@ title: Side-bar Overlay
 
 			</div>
 
-			<!--  -->
 			<div class="dp-SidebarContainer">
-			    <div class="dp-PageSidebar dp-TicketOverlay">
-					<ul class="dp-Tabs Tabs--icons">
-						<li class="dp-Tabs-item is-active"><a href="#" class="dp-Icon Icon--email"></a></li>
-						<li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--user"></a></li>
-						<li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--organisation"></a></li>
-					</ul>
+				<div class="dp-PageSidebar dp-TicketOverlay">
 
-			        <div class="dp-SidebarBody">
+		            <ul class="dp-Tabs Tabs--icons">
+		                <li class="dp-Tabs-item is-active"><a href="#" class="dp-Icon Icon--email"></a></li>
+		                <li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--user"></a></li>
+		                <li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--organisation"></a></li>
+		            </ul>
 
-			            <div class="dp-SidebarSection">
-			                <div class="dp-SectionTitle">
-			                    <div class="dp-TitleControls">ORGANIZATION & USER</div>
-			                </div>
-			            </div>
+		            <div class="dp-SidebarBody">
 
-			            <div class="dp-SidebarSection">
-			                <div class="dp-SectionBody-item is-disabled">
-			                    <div class="dp-title-item">
-			                        <span class="dp-Icon dp-iconUserAvatar"></span>
-			                        Optical
-			                    </div>
-			                </div>
-			                <div class="dp-SectionBody-item dp-UserPanel">
-			                    <div class="dp-title-item">
-			                        <span class="dp-Icon dp-iconUserAvatar"></span>
-			                        Zack Prudent
-			                    </div>
-			                    <div class="dp-Email">zack.prudent@techcompany.com</div>
-			                    <div class="dp-Phone">
-			                        <i class="dp-Icon dp-phone_filled"></i><a href="tel:+442035678940" >+44 20 356 789 40</a>
-			                    </div>
-			                    <div class="dp-OpenResolved">
-			                        <span class="dp-open"><i class="dp-Icon Icon--email Icon--primary"></i> Open: 7</span>
-			                        <span class="dp-resolved"><i class="dp-Icon Icon--email"></i> Resolved: 24</span>
-			                    </div>
-			                </div>
-			            </div>
+		                <div class="dp-SidebarSection">
+		                    <div class="dp-SectionBody-item is-disabled">
+		                        <div class="dp-title-item">
+		                            <span class="dp-Icon dp-iconUserAvatar"></span>
+		                            Optical
+		                        </div>
+		                    </div>
+		                    <div class="dp-SectionBody-item dp-UserPanel">
+		                        <div class="dp-title-item">
+		                            <span class="dp-Icon dp-iconUserAvatar"></span>
+		                            <span class="dp-UserName">Zack Prudent</span>
+		                            <span class="dp-Icon Icon--OwnerArrows"></span>
+		                        </div>
+		                        <a href="mailto:zack.pride@techcompany.com" class="dp-MailAddress">zack.prudent@techcompany.com</a>
+		                        <div class="dp-Phone">
+		                            <i class="dp-Icon dp-phone_filled Icon--blue"></i>
+		                            <a href="tel:+442035678940" >+44 20 356 789 40</a>
+		                        </div>
+		                        <div class="dp-OpenResolved">
+		                            <span class="dp-open"><i class="dp-Icon Icon--email Icon--primary"></i> Open: 7</span>
+		                            <span class="dp-resolved"><i class="dp-Icon Icon--email"></i> Resolved: 24</span>
+		                        </div>
+		                    </div>
+		                </div>
 
-			            <div class="dp-SidebarSection">
-			                <dl class="dp-AddressList">
-			                    <dt class="dp-TitleList">Website</dt>
-			                    <dd class="dp-SubTitleList">www.techcompany.com</dd>
+		                <div class="dp-SidebarSection">
+		                    <dl class="dp-AddressList">
+		                        <dt class="dp-TitleList">
+		                            <span class="dp-Icon Icon--Web"></span>
+		                            Website
+		                        </dt>
+		                        <dd class="dp-SubTitleList">www.techcompany.com</dd>
 
-			                    <dt class="dp-TitleList">Address</dt>
-			                    <dd class="dp-SubTitleList address">
-			                        Tech Company Ltd<br></br>
-			                        14 Cloud Street<br></br>
-			                        London<br></br>
-			                        SE1 ONG<br></br>
-			                        England
-			                    </dd>
+		                        <dd class="dp-DropdownDivider"></dd>
 
-			                    <dt class="dp-TitleList">IM</dt>
-			                    <dd class="dp-SubTitleList"> - </dd>
+		                        <dt class="dp-TitleList">
+		                            <span class="dp-Icon Icon--Address"></span>
+		                            Address
+		                        </dt>
+		                        <dd class="dp-SubTitleList address">
+		                            Tech Company Ltd<br></br>
+		                            14 Cloud Street<br></br>
+		                            London<br></br>
+		                            SE1 ONG<br></br>
+		                            England
+		                        </dd>
 
-			                    <dt class="dp-TitleList">Facebook</dt>
-			                    <dd class="dp-SubTitleList"> - </dd>
+		                        <dd class="dp-DropdownDivider"></dd>
 
-			                    <dt class="dp-TitleList">Twitter</dt>
-			                    <dd class="dp-SubTitleList"> - </dd>
+		                        <dt class="dp-TitleList"><span class="dp-Icon Icon--WhatsApp"></span>Whats app</dt>
+		                        <dd class="dp-SubTitleList dp-Address-Social"> - </dd>
 
-			                    <dt class="dp-TitleList">LinkedIn</dt>
-			                    <dd class="dp-SubTitleList"> - </dd>
-			                </dl>
+		                        <dt class="dp-TitleList"><span class="dp-Icon Icon--Facebook"></span>Facebook</dt>
+		                        <dd class="dp-SubTitleList dp-Address-Social"> - </dd>
 
-			            </div>
+		                        <dt class="dp-TitleList"><span class="dp-Icon Icon--Twitter"></span>Twitter</dt>
+		                        <dd class="dp-SubTitleList dp-Address-Social"> - </dd>
 
-			            <div class="dp-SidebarSection dp-SectionControls">
-			                <div class="dp-SectionTitle">
-			                    <div class="dp-TitleControls">PROPERTIES</div>
-			                    <a href="#" class="dp-Controls">
-			                        <span class="dp-qt"> +6 </span> 
-			                        <i class="dp-Icon dp-DotsIcon"></i>
-			                    </a>
-			                </div>
-			            </div>
-			            
-			        </div> <!-- Sidebar body -->
-			    </div>
+		                        <dt class="dp-TitleList"><span class="dp-Icon Icon--LinkedIn"></span>LinkedIn</dt>
+		                        <dd class="dp-SubTitleList dp-Address-Social"> - </dd>
+		                    </dl>
+
+		                </div>
+		                
+		            </div> <!-- Sidebar body -->
+				</div>
 			</div>
 
 		</div>

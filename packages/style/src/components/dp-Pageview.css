@@ -17,10 +17,10 @@
   background-color: transparent;
 }
 
-.dp-DropDownBar {
+/* .dp-DropDownBar {
   border-top: 1px solid var(--grey-light);
   display: block;
-}
+} */
 
 .dp-ControlBar.dp-DropDownBar .dp-Tabs-item + .dp-Tabs-item {
   background-color: var(--grey-lightest);
@@ -331,11 +331,6 @@
   width: 18px;
 }
 
-.dp-MessageContainer .dp-Cog .dp-Menu {
-  left: auto;
-  right: calc(100% - 9px);
-}
-
 .dp-MessageContainer.user--BlueContainer .dp-Cog > .dp-Icon {
   background-color: var(--info-light);
   border: 1px solid var(--brand-primary);
@@ -349,9 +344,10 @@
 /* ticket/agentselect */
 
 .dp-SsoWrap {
+  border-bottom: 1px solid var(--grey-light);
   display: flex;
   justify-content: space-between;
-  margin: 8px 12px;
+  padding: 8px 12px;
 }
 
 .dp-SsoWrap .dp-TagBar {
@@ -400,7 +396,7 @@
   margin-right: 5px;
 }
 
-.dp-SsoContent .Badge--id {
+.Badge--id {
   position: relative;
 }
 

@@ -176,6 +176,10 @@ input.dp-NewTitle {
   margin-right: 10px;
 }
 
+.SplitMessages .dp-MessageContainer {
+  margin-bottom: 0;
+}
+
 .dp-SlideTicket .dp-ButtonWrapper {
   width: 100%;
 }

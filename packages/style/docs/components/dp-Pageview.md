@@ -1220,7 +1220,7 @@ title: Page View
 				<div class="dp-Time"><span class="dp-Icon dp-history"></span>2 days ago</div>
 			</div>
 			<!-- Icon hover -->
-			<span class="dp-Cog">
+			<span class="dp-Cog dp-Submenu--left">
 				<span class="dp-Icon dp-settings"></span>
 				<ul class="dp-Menu">
 					<li class="dp-Menu-linkItem">Place on hold</li>
@@ -1682,7 +1682,7 @@ title: Page View
 									</div>
 								</div>
 								<!-- Icon hover -->
-								<span class="dp-Cog">
+								<span class="dp-Cog dp-Submenu--left">
 									<span class="dp-Icon dp-settings"></span>
 									<ul class="dp-Menu">
 										<li class="dp-Menu-linkItem">Place on hold</li>
@@ -1721,7 +1721,7 @@ title: Page View
 									<div class="dp-Time"><span class="dp-Icon dp-history Icon--neutral"></span>2 days ago</div>
 								</div>
 								<!-- Icon hover -->
-								<span class="dp-Cog">
+								<span class="dp-Cog dp-Submenu--left">
 									<span class="dp-Icon dp-settings"></span>
 									<ul class="dp-Menu">
 										<li class="dp-Menu-linkItem">Place on hold</li>
@@ -1753,7 +1753,7 @@ title: Page View
 									<div class="dp-Time"><span class="dp-Icon dp-history"></span>2 days ago</div>
 								</div>
 								<!-- Icon hover -->
-								<span class="dp-Cog">
+								<span class="dp-Cog dp-Submenu--left">
 									<span class="dp-Icon dp-settings"></span>
 									<ul class="dp-Menu">
 										<li class="dp-Menu-linkItem">Place on hold</li>
