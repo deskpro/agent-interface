@@ -147,12 +147,13 @@ title: PageSidebar
         <div class="dp-SectionBody-item dp-UserPanel">
             <div class="dp-title-item">
                 <span class="dp-Icon dp-iconUserAvatar"></span>
-                Zack Prudent
+                <span class="dp-UserName">Zack Prudent</span>
+                <span class="dp-Icon Icon--OwnerArrows"></span>
             </div>
 
             <div class="dp-Email">zack.prudent@techcompany.com</div>
             <div class="dp-Phone">
-                <i class="dp-Icon dp-phone_filled"></i><a href="tel:+442035678940" >+44 20 356 789 40</a>
+                <i class="dp-Icon dp-phone_filled Icon--blue"></i><a href="tel:+442035678940" >+44 20 356 789 40</a>
             </div>
             <div class="dp-OpenResolved">
                 <span class="dp-open"><i class="dp-Icon Icon--email Icon--primary"></i> Open: 7</span>
@@ -189,7 +190,7 @@ title: PageSidebar
 ```html @preview
 <div class="dp-MainWrapper">
     <div class="dp-PageSidebar demo-sidebar">
-        <div class="dp-SectionControls">
+        <div class="dp-SectionControls dp-SidebarSection">
             <div class="dp-title-item dp-SectionTitle">
 
                 <span class="dp-UserName">
@@ -266,7 +267,7 @@ title: PageSidebar
         <div class="dp-SidebarSection dp-SectionControls">
             <div class="dp-SectionTitle dp-TimesRow">
                 <div class="dp-title-item">
-                    <span class="dp-Icon dp-CurrentUser"></span>
+                    <span class="dp-Icon dp-CurrentUser Icon--blue"></span>
                     Current user wait
                 </div>
                 <span class="dp-TimesStatus">12 hrs 43 mins</span>
@@ -344,11 +345,11 @@ title: PageSidebar
 
             <div class="dp-SidebarBody">
 
-                <div class="dp-SidebarSection">
+<!--                 <div class="dp-SidebarSection">
                     <div class="dp-SectionTitle">
                         <div class="dp-TitleControls">ORGANIZATION & USER</div>
                     </div>
-                </div>
+                </div> -->
 
                 <div class="dp-SidebarSection">
                     <div class="dp-SectionBody-item ">
@@ -360,15 +361,16 @@ title: PageSidebar
                     <div class="dp-SectionBody-item dp-UserPanel">
                         <div class="dp-title-item">
                             <span class="dp-Icon dp-iconUserAvatar"></span>
-                            Zack Prudent
+                            <span class="dp-UserName">Zack Prudent</span>
+                            <span class="dp-Icon Icon--OwnerArrows"></span>
                         </div>
                         <div class="dp-Email">zack.prudent@techcompany.com</div>
                         <div class="dp-Phone">
-                            <i class="dp-Icon dp-phone_filled"></i><a href="tel:+442035678940" >+44 20 356 789 40</a>
+                            <i class="dp-Icon dp-phone_filled Icon--blue"></i><a href="tel:+442035678940">+44 20 356 789 40</a>
                         </div>
                         <div class="dp-OpenResolved">
-                            <span class="dp-open"><i class="dp-Icon dp-tickets Icon--primary"></i> Open: 7</span>
-                            <span class="dp-resolved"><i class="dp-Icon dp-tickets"></i> Resolved: 24</span>
+                            <span class="dp-open"><i class="dp-Icon Icon--email Icon--primary"></i> <span>Open: 7</span></span>
+                            <span class="dp-resolved"><i class="dp-Icon Icon--email"></i> Resolved: 24</span>
                         </div>
                     </div>
                 </div>
@@ -471,14 +473,14 @@ title: PageSidebar
                 <div class="dp-SidebarSection dp-SectionControls">
                     <div class="dp-SectionTitle dp-TimesRow">
                         <div class="dp-title-item">
-                            <span class="dp-Icon dp-ticket_created"></span>
+                            <span class="dp-Icon dp-ticket_created Icon--blue"></span>
                             Created
                         </div>
                         <span class="dp-TimesStatus">2 weeks ago</span>
                     </div>
                     <div class="dp-SectionTitle dp-TimesRow">
                         <div class="dp-title-item">
-                            <span class="dp-Icon dp-CurrentUser"></span>
+                            <span class="dp-Icon dp-CurrentUser Icon--blue"></span>
                             Current user wait
                         </div>
                         <span class="dp-TimesStatus">12 hrs 43 mins</span>
@@ -534,11 +536,11 @@ title: PageSidebar
 
             <div class="dp-SidebarBody">
 
-                <div class="dp-SidebarSection">
+<!--                 <div class="dp-SidebarSection">
                     <div class="dp-SectionTitle">
                         <div class="dp-TitleControls">ORGANIZATION & USER</div>
                     </div>
-                </div>
+                </div> -->
 
                 <div class="dp-SidebarSection">
                     <div class="dp-SectionBody-item is-disabled">
@@ -550,11 +552,14 @@ title: PageSidebar
                     <div class="dp-SectionBody-item dp-UserPanel">
                         <div class="dp-title-item">
                             <span class="dp-Icon dp-iconUserAvatar"></span>
-                            Zack Prudent
+                            <span class="dp-UserName">Zack Prudent</span>
+                            <span class="dp-Icon Icon--OwnerArrows"></span>
                         </div>
-                        <div class="dp-Email">zack.prudent@techcompany.com</div>
+                        <!-- <div class="dp-Email">zack.prudent@techcompany.com</div> -->
+                        <a href="mailto:zack.pride@techcompany.com" class="dp-MailAddress">zack.prudent@techcompany.com</a>
                         <div class="dp-Phone">
-                            <i class="dp-Icon dp-phone_filled"></i><a href="tel:+442035678940" >+44 20 356 789 40</a>
+                            <i class="dp-Icon dp-phone_filled Icon--blue"></i>
+                            <a href="tel:+442035678940" >+44 20 356 789 40</a>
                         </div>
                         <div class="dp-OpenResolved">
                             <span class="dp-open"><i class="dp-Icon Icon--email Icon--primary"></i> Open: 7</span>
@@ -565,10 +570,18 @@ title: PageSidebar
 
                 <div class="dp-SidebarSection">
                     <dl class="dp-AddressList">
-                        <dt class="dp-TitleList">Website</dt>
+                        <dt class="dp-TitleList">
+                            <span class="dp-Icon Icon--Web"></span>
+                            Website
+                        </dt>
                         <dd class="dp-SubTitleList">www.techcompany.com</dd>
 
-                        <dt class="dp-TitleList">Address</dt>
+                        <dd class="dp-DropdownDivider"></dd>
+
+                        <dt class="dp-TitleList">
+                            <span class="dp-Icon Icon--Address"></span>
+                            Address
+                        </dt>
                         <dd class="dp-SubTitleList address">
                             Tech Company Ltd<br></br>
                             14 Cloud Street<br></br>
@@ -577,22 +590,24 @@ title: PageSidebar
                             England
                         </dd>
 
-                        <dt class="dp-TitleList">IM</dt>
-                        <dd class="dp-SubTitleList"> - </dd>
+                        <dd class="dp-DropdownDivider"></dd>
 
-                        <dt class="dp-TitleList">Facebook</dt>
-                        <dd class="dp-SubTitleList"> - </dd>
+                        <dt class="dp-TitleList"><span class="dp-Icon Icon--WhatsApp"></span>Whats app</dt>
+                        <dd class="dp-SubTitleList dp-Address-Social"> - </dd>
 
-                        <dt class="dp-TitleList">Twitter</dt>
-                        <dd class="dp-SubTitleList"> - </dd>
+                        <dt class="dp-TitleList"><span class="dp-Icon Icon--Facebook"></span>Facebook</dt>
+                        <dd class="dp-SubTitleList dp-Address-Social"> - </dd>
 
-                        <dt class="dp-TitleList">LinkedIn</dt>
-                        <dd class="dp-SubTitleList"> - </dd>
+                        <dt class="dp-TitleList"><span class="dp-Icon Icon--Twitter"></span>Twitter</dt>
+                        <dd class="dp-SubTitleList dp-Address-Social"> - </dd>
+
+                        <dt class="dp-TitleList"><span class="dp-Icon Icon--LinkedIn"></span>LinkedIn</dt>
+                        <dd class="dp-SubTitleList dp-Address-Social"> - </dd>
                     </dl>
 
                 </div>
 
-                <div class="dp-SidebarSection dp-SectionControls">
+<!--                 <div class="dp-SidebarSection dp-SectionControls">
                     <div class="dp-SectionTitle">
                         <div class="dp-TitleControls"><span class="dp-Section--name">PROPERTIES</span></div>
                         <a href="#" class="dp-Controls">
@@ -600,7 +615,7 @@ title: PageSidebar
                             <i class="dp-Icon dp-DotsIcon"></i>
                         </a>
                     </div>
-                </div>
+                </div> -->
                 
             </div> <!-- Sidebar body -->
         </div>
@@ -611,6 +626,7 @@ title: PageSidebar
 <h4>sidebar/ticket-version-times</h4>
 ```html @preview
 <div class="dp-MainWrapper">
+
     <div class="dp-SidebarContainer demo-cog demo-menu demo-sidebar">
         <div class="dp-PageSidebar">
 
@@ -622,11 +638,11 @@ title: PageSidebar
 
             <div class="dp-SidebarBody">
 
-                <div class="dp-SidebarSection">
+<!--                 <div class="dp-SidebarSection">
                     <div class="dp-SectionTitle">
                         <div class="dp-TitleControls">ORGANIZATION & USER</div>
                     </div>
-                </div>
+                </div> -->
 
                 <div class="dp-SidebarSection">
                     <div class="dp-SectionBody-item ">
@@ -638,11 +654,12 @@ title: PageSidebar
                     <div class="dp-SectionBody-item dp-UserPanel">
                         <div class="dp-title-item">
                             <span class="dp-Icon dp-iconUserAvatar"></span>
-                            Zack Prudent
+                            <span class="dp-UserName">Zack Prudent</span>
+                            <span class="dp-Icon Icon--OwnerArrows"></span>
                         </div>
-                        <div class="dp-Email">zack.prudent@techcompany.com</div>
+                        <a href="mailto:zack.pride@techcompany.com" class="dp-MailAddress">zack.prudent@techcompany.com</a>
                         <div class="dp-Phone">
-                            <i class="dp-Icon dp-phone_filled"></i><a href="tel:+442035678940" >+44 20 356 789 40</a>
+                            <i class="dp-Icon dp-phone_filled Icon--blue"></i><a href="tel:+442035678940" >+44 20 356 789 40</a>
                         </div>
                         <div class="dp-OpenResolved">
                             <span class="dp-open"><i class="dp-Icon Icon--email Icon--primary"></i> Open: 7</span>
@@ -747,7 +764,7 @@ title: PageSidebar
                     <!-- 1 -->
                     <div class="dp-SectionTitle dp-TimesRow">
                         <div class="dp-title-item">
-                            <span class="dp-Icon dp-ticket_created"></span>
+                            <span class="dp-Icon dp-ticket_created Icon--blue"></span>
                             Created
                         </div>
                         <span class="dp-TimesStatus">2 weeks ago</span>
@@ -755,7 +772,7 @@ title: PageSidebar
                     <!-- 2 -->
                     <div class="dp-SectionTitle dp-TimesRow">
                         <div class="dp-title-item">
-                            <span class="dp-Icon dp-CurrentUser"></span>
+                            <span class="dp-Icon dp-CurrentUser Icon--blue"></span>
                             Current user wait
                         </div>
                         <span class="dp-TimesStatus">12 hrs 43 mins</span>
@@ -763,7 +780,7 @@ title: PageSidebar
                     <!-- 3 -->
                     <div class="dp-SectionTitle dp-TimesRow">
                         <div class="dp-title-item">
-                            <span class="dp-Icon dp-history"></span>
+                            <span class="dp-Icon dp-history Icon--blue"></span>
                             Total user wait
                         </div>
                         <span class="dp-TimesStatus">2 weeks</span>
@@ -771,7 +788,7 @@ title: PageSidebar
                     <!-- 4 -->
                     <div class="dp-SectionTitle dp-TimesRow">
                         <div class="dp-title-item">
-                            <span class="dp-Icon dp-WaitUntill"></span>
+                            <span class="dp-Icon dp-WaitUntill Icon--blue"></span>
                             Wait until first reply
                         </div>
                         <span class="dp-TimesStatus">1 hr 3 mins</span>
@@ -779,7 +796,7 @@ title: PageSidebar
                     <!-- 5 -->
                     <div class="dp-SectionTitle dp-TimesRow">
                         <div class="dp-title-item">
-                            <span class="dp-Icon dp-Assignment"></span>
+                            <span class="dp-Icon dp-Assignment Icon--blue"></span>
                             First assignment
                         </div>
                         <span class="dp-TimesStatus">2 weeks ago</span>
@@ -843,6 +860,7 @@ title: PageSidebar
             </div> <!-- Sidebar body -->
         </div>
     </div>
+    
 </div>
 ```
 
@@ -875,11 +893,12 @@ title: PageSidebar
                     <div class="dp-SectionBody-item dp-UserPanel">
                         <div class="dp-title-item">
                             <span class="dp-Icon dp-iconUserAvatar"></span>
-                            Zack Prudent
+                            <span class="dp-UserName">Zack Prudent</span>
+                            <span class="dp-Icon Icon--OwnerArrows"></span>
                         </div>
-                        <div class="dp-Email">zack.prudent@techcompany.com</div>
+                        <a href="mailto:zack.pride@techcompany.com" class="dp-MailAddress">zack.prudent@techcompany.com</a>
                         <div class="dp-Phone">
-                            <i class="dp-Icon dp-phone_filled"></i><a href="tel:+442035678940" >+44 20 356 789 40</a>
+                            <i class="dp-Icon dp-phone_filled Icon--blue"></i><a href="tel:+442035678940" >+44 20 356 789 40</a>
                         </div>
                         <div class="dp-OpenResolved">
                             <span class="dp-open"><i class="dp-Icon Icon--email Icon--primary"></i> Open: 7</span>
@@ -897,7 +916,7 @@ title: PageSidebar
                             </div>
                             <a href="#" class="dp-Controls">
                                 <span class="dp-qt"> +5 </span> 
-                                <i class="dp-Icon dp-DotsIcon"></i>
+                                <i class="dp-Icon dp-DotsIcon is-active"></i>
                             </a>
                         </div>
                     </div>
@@ -1078,14 +1097,14 @@ title: PageSidebar
                 <div class="dp-SidebarSection dp-SectionControls">
                     <div class="dp-SectionTitle dp-TimesRow">
                         <div class="dp-title-item">
-                            <span class="dp-Icon dp-ticket_created"></span>
+                            <span class="dp-Icon dp-ticket_created Icon--blue"></span>
                             Created
                         </div>
                         <span class="dp-TimesStatus">2 weeks ago</span>
                     </div>
                     <div class="dp-SectionTitle dp-TimesRow">
                         <div class="dp-title-item">
-                            <span class="dp-Icon dp-CurrentUser"></span>
+                            <span class="dp-Icon dp-CurrentUser Icon--blue"></span>
                             Current user wait
                         </div>
                         <span class="dp-TimesStatus">12 hrs 43 mins</span>

@@ -331,18 +331,24 @@
 }
 
 .dp-MenuBarList .dp-MenuBarItem .dp-Icon {
+  background-size: 23px 23px;
   cursor: pointer;
   display: inline-block;
-  height: 24px;
   position: relative;
   vertical-align: middle;
-  width: 24px;
+
+  /*  width: 24px;
+  height: 24px;
+  background-color: var(--white);
+  border-radius: 100%;
+  border: 1px solid var(--grey-light); */
+
 }
 
 .dp-MenuBarItem .dp-Title {
   color: var(--grey-darkest);
   cursor: pointer;
-  font: var(--h-s-semibold);
+  font: var(--p-n);
 }
 
 .dp-find:hover, .dp-find.is-active {

@@ -241,7 +241,6 @@
 
 .Tabs--actions {
   align-items: center;
-  background-color: var(--grey-lightest);
   border: 0;
   border-radius: var(--border-radius);
   display: flex;
@@ -252,24 +251,17 @@
 
 .Tabs--actions .dp-Tabs-item .dp-Icon {
   cursor: pointer;
-  height: 15px;
+  height: 14px;
   margin-right: 3px;
   width: 15px;
 }
 
-.Tabs--actions .dp-Tabs-item.is-disabled {
-  background-color: var(--grey-lighter);
+.Tabs--actions .dp-Tabs-item .dp-Icon.dp-lock {
+  background-size: 11px 14px;
 }
 
-.Tabs--actions .dp-Tabs-item::before {
-  background-color: var(--grey-light);
-  content: "";
-  display: block;
-  height: 100%;
-  left: -8px;
-  position: absolute;
-  top: 0;
-  width: 1px;
+.Tabs--actions .dp-Tabs-item.is-disabled {
+  background-color: var(--grey-lighter);
 }
 
 .Tabs--actions .dp-Tabs-item:first-child::before {
@@ -282,4 +274,47 @@
 
 .dp-Tabs-item.is-active > .dp-Icon svg {
   fill: var(--white);
+}
+
+/* Tabs--reply */
+
+.dp-Tabs.Tabs--reply {
+  border: 0;
+}
+
+.dp-Tabs.Tabs--reply ul {
+  display: flex;
+  padding: 0;
+}
+
+.dp-Tabs.Tabs--reply li {
+  margin: 0;
+}
+
+.dp-Tabs.Tabs--reply .dp-Tabs-item {
+  align-items: center;
+  border: 1px solid var(--grey-light);
+  margin: 0 -1px 0 0;
+  padding: 5px 10px;
+  z-index: 1;
+}
+
+.dp-Tabs.Tabs--reply .dp-Tabs-item:hover,
+.dp-Tabs.Tabs--reply .dp-Tabs-item.is-active {
+  border-color: var(--brand-primary);
+  z-index: 2;
+}
+
+.dp-Tabs.Tabs--reply .dp-Tabs-item .dp-Icon {
+  margin-right: 5px;
+}
+
+.dp-Tabs.Tabs--reply .dp-Tabs-item:first-child {
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+}
+
+.dp-Tabs.Tabs--reply .dp-Tabs-item:last-child {
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
 }

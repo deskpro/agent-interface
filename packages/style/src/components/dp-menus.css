@@ -58,13 +58,14 @@
   display: flex;
 }
 
-.dp-Menu .dp-DropdownDivider {
+.dp-DropdownDivider {
+  display: block;
   margin: 0;
   padding: 0.5rem 0;
   position: relative;
 }
 
-.dp-Menu .dp-DropdownDivider::after {
+.dp-DropdownDivider::after {
   background-color: var(--grey-light);
   content: "";
   display: block;
@@ -385,12 +386,15 @@
 }
 
 .dp-Menu-linkItem.dp-ButtonWrapper {
-  justify-content: space-around;
-  padding: 0 10px 10px 10px;
+  padding: 2px 10px 10px 10px;
 }
 
 .dp-Menu-linkItem.dp-ButtonWrapper .dp-CustomCheckbox {
   flex: 0 0 auto;
+}
+
+.Menu-fields .dp-Menu-linkItem.dp-ButtonWrapper .dp-Button {
+  margin-right: 20px;
 }
 
 /* Page Tabs SelectedMore */
@@ -415,7 +419,7 @@
 /* Page View */
 
 .Tabs--actions .dp-Menu {
-  top: calc(100% + 10px);
+  top: calc(100% + 5px);
 }
 
 /* .dp-ActionButton.is-active .dp-Menu,

@@ -60,12 +60,18 @@
 
 .dp-Tabs.Tabs--actions .dp-Tabs-item {
   align-items: center;
-  background-color: transparent;
+  background-color: var(--white);
   border: none;
+  border: 1px solid var(--grey-light);
   border-radius: var(--border-radius-button);
   display: flex;
-  padding: 8px 6px;
+  padding: 4px 6px;
   position: relative;
+
+  /* padding: 8px 6px; */
+
+  /* background-color: transparent; */
+
 }
 
 .dp-ActionButton {
@@ -99,7 +105,7 @@
 
 .dp-Tabs.Tabs--actions .dp-Tabs-item.is-active {
   background-color: var(--brand-primary);
-  border: 0;
+  border: 1px solid var(--grey-light);
   color: var(--white);
   margin-bottom: 0;
 }
@@ -118,7 +124,7 @@
 }
 
 .dp-Tabs.Tabs--actions .dp-Tabs-item:hover {
-  border: 0;
+  border: 1px solid var(--grey-light);
   color: var(--grey-dark);
   margin-bottom: 0;
 }

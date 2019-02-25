@@ -19,22 +19,17 @@
   padding: 10px;
 }
 
-.dp-SidebarBody .dp-SidebarSection {
-  margin-bottom: 10px;
-}
-
 .dp-SidebarBody .dp-SectionBody-item {
   margin-bottom: 5px;
 }
 
-.dp-SidebarBody .dp-title-item.dp-SectionTitle {
-  margin: 0;
-  padding: 5px 0;
-}
+/* .dp-SidebarBody .dp-SidebarSection {
+  margin-bottom: 10px;
+} */
 
-.dp-SidebarBody .dp-title-item.dp-SectionTitle:last-child {
+/* .dp-SidebarBody .dp-title-item.dp-SectionTitle:last-child {
   padding-bottom: 0;
-}
+} */
 
 .dp-SidebarBody .dp-TimesRow {
   margin-bottom: 5px;
@@ -56,6 +51,10 @@
   border: none;
   color: var(--grey-dark);
   text-transform: none;
+}
+
+.dp-SectionTitle.dp-TimesRow .dp-title-item .dp-Icon svg {
+  fill: var(--brand-primary);
 }
 
 .dp-TimesRow .dp-TimesStatus {
@@ -87,30 +86,38 @@
   margin-bottom: 10px;
   position: relative;
   z-index: 1;
-
-  /*  padding-bottom: 2px;
-  border-bottom: 1px solid var(--grey-light); */
-
 }
+
+/* .dp-SidebarBody .dp-title-item.dp-SectionTitle {
+  margin: 0;
+  padding: 5px 0;
+} */
 
 .dp-SectionControls .dp-SectionTitle {
   align-items: center;
   justify-content: space-between;
+  margin: 0;
+  padding: 5px 0;
+}
+
+.dp-MainRightContainer .dp-SectionControls .dp-SectionTitle {
+  border-bottom: 1px solid var(--grey-light);
+  margin-bottom: 10px;
+}
+
+.dp-SectionControls .dp-SectionTitle .dp-TitleControls {
+  color: var(--grey-dark);
 }
 
 .dp-SectionTitle .dp-TitleControls {
   display: flex;
   font: var(--p-n-semibold);
-  text-transform: var(--is-uppercase);
 }
-
-/* .dp-SidebarSection.dp-SectionControls > .dp-SectionTitle {
-  border-bottom: 0;
-  padding-bottom: 0;
-} */
 
 .dp-Section--name {
   background-color: var(--grey-lightest);
+  color: var(--grey-dark);
+  font: var(--h-s-semibold);
   padding-right: 5px;
   z-index: 9;
 }
@@ -143,6 +150,10 @@
   padding-left: 5px;
 }
 
+.dp-PageSidebar .dp-Controls .dp-Button {
+  margin-left: 3px;
+}
+
 .dp-PageSidebar .dp-qt {
   color: var(--brand-primary);
 }
@@ -158,10 +169,15 @@
   color: var(--grey-darkest);
   display: block;
   font-size: var(--font-Title-S);
-  padding: 5px;
+  padding: 5px 7px;
 }
 
-.dp-UserPanel > div {
+.dp-SectionBody-item.dp-UserPanel:hover {
+  background-color: var(--info-light);
+  border: 1px solid var(--brand-primary);
+}
+
+.dp-UserPanel > * {
   margin-bottom: 5px;
 }
 
@@ -175,9 +191,20 @@
 .dp-PageSidebar .dp-title-item .dp-Badge {
   display: inline-block;
   height: 10px;
-  margin: 0 2px 0 0;
+  margin: 0 5px 0 0;
   vertical-align: middle;
   width: 10px;
+}
+
+.dp-SidebarSection .dp-UserName {
+  align-items: center;
+  display: flex;
+  font: var(--p-s);
+}
+
+.dp-SectionBody-item.dp-UserPanel .dp-UserName {
+  font: var(--p-xl);
+  margin-right: 5px;
 }
 
 .dp-SectionBody-item .dp-Icon {
@@ -186,7 +213,11 @@
 
 .dp-AddressList .dp-SubTitleList.address {
   line-height: 0.7;
-  margin: 10px 0;
+  margin: 10px 0 2px;
+}
+
+.dp-AddressList .dp-Address-Social {
+  margin-bottom: 5px;
 }
 
 .dp-PageSidebar .dp-optical {
@@ -199,45 +230,72 @@
   display: flex;
 }
 
+.dp-UserPanel .dp-Email {
+  font: var(--p-n);
+}
+
 .dp-Email a, .dp-Phone a {
   color: inherit;
+}
+
+.dp-Phone a {
+  font: var(--p-n-semibold);
+}
+
+.dp-Phone .dp-Icon {
+  background-size: 11px;
 }
 
 .dp-OpenResolved {
   color: var(--grey-darkest);
   display: flex;
-  font: var(--p-l);
+  font: var(--p-s);
 }
 
 .dp-OpenResolved .dp-Icon {
-  background-size: 14px 10px;
-  height: 10px;
+  background-size: 13px 9px;
+  height: 9px;
   width: 14px;
 }
 
 .dp-PageSidebar .dp-open {
   border-right: 1px solid var(--grey);
+  display: flex;
   margin-right: 10px;
   padding-right: 10px;
 }
 
+.dp-PageSidebar .dp-resolved {
+  display: flex;
+}
+
 .dp-PageSidebar .dp-iconVDots {
-  background-size: 4px 12px;
+  background-size: 2px 8px;
   cursor: pointer;
-  height: 12px;
-  width: 4px;
+  height: 8px;
+  width: 2px;
 }
 
 .dp-AddressList .dp-TitleList {
+  align-items: center;
   color: var(--grey-dark);
+  display: flex;
   font: var(--p-n);
   margin-bottom: 5px;
+}
+
+.dp-AddressList .dp-TitleList .dp-Icon {
+  margin-right: 5px;
 }
 
 .dp-AddressList .dp-SubTitleList {
   color: var(--grey-darkest);
   font: var(--p-s);
-  margin-bottom: 5px;
+}
+
+.dp-AddressList {
+  border-bottom: 1px solid var(--grey-light);
+  display: block;
 }
 
 .dp-SidebarContainer .dp-Selectbelow > .dp-ButtonWrapper {
@@ -339,9 +397,19 @@
 }
 
 .dp-MailAddress {
-  color: var(--grey-dark);
+  color: var(--grey-darkest);
   cursor: pointer;
   font: var(--p-s);
+}
+
+.dp-UserPanel .dp-MailAddress {
+  display: flex;
+  font: var(--p-n);
+  line-height: 1;
+}
+
+.dp-UserName .dp-MailAddress {
+  margin-left: 3px;
 }
 
 .dp-PageSidebar .dp-SectionTitle.dp-CcRow,
