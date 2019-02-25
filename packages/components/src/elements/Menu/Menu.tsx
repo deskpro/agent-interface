@@ -8,7 +8,6 @@ import "@deskpro/agent-interface-style/dist/components/dp-menus.css";
 
 type MenuSubComponents = {
   MenuItem: typeof MenuItem;
-  MenuSearch: typeof MenuSearchItem;
 };
 
 export type MenuContextType = {
@@ -22,7 +21,7 @@ export type MenuProps = {
   className?: string;
   style?: any;
   title?: string;
-  isVisible?: boolean;
+  withFilter?: boolean;
   linkComponent?: any;
   children: React.ReactElement<any>[];
   onMenuClose?: () => void;
@@ -39,32 +38,65 @@ const Menu: React.FC<MenuProps> & MenuSubComponents = ({
   title,
   children,
   linkComponent = "a",
-  isVisible = false,
+  withFilter = false,
   onMenuClose,
   ...otherProps
-}) => (
-  <MenuContext.Provider value={{ onMenuClose }}>
-    <ul
-      className={classNames("dp-Menu", className, {
-        [`Menu--icons`]: hasIcons(children),
-        "is-visible": true
-      })}
-      {...otherProps}
-      ref={menuRef}
-    >
-      {!!title && <li className="dp-Menu-title">{title}</li>}
-      {React.Children.map(
-        children as React.ReactElement<any>[],
-        (child: React.ReactElement<any>) =>
-          React.cloneElement(child, {
-            linkComponent
-          })
-      )}
-    </ul>
-  </MenuContext.Provider>
-);
+}) => {
+  const [filter, setFilter] = React.useState<string>("");
+  const handleFilterChange = React.useCallback(
+    e => {
+      setFilter(e.target.value);
+    },
+    [filter, setFilter]
+  );
+  // memoize filter value to filter items.
+  const filterRef = React.useRef<string>("");
+  React.useLayoutEffect(
+    () => {
+      filterRef.current = filter;
+    },
+    [filterRef, filter]
+  );
+
+  return (
+    <MenuContext.Provider value={{ onMenuClose }}>
+      <ul
+        className={classNames("dp-Menu", className, {
+          [`Menu--icons`]: hasIcons(children),
+          "is-visible": true
+        })}
+        {...otherProps}
+        ref={menuRef}
+      >
+        {!!title && <li className="dp-Menu-title">{title}</li>}
+        {withFilter && (
+          <MenuSearchItem
+            placeholder="Search..."
+            value={filter}
+            onChange={handleFilterChange}
+          />
+        )}
+        {React.Children.map(
+          children as React.ReactElement<any>[],
+          (child: React.ReactElement<any>) => {
+            if (
+              !filterRef.current ||
+              child.props.text
+                .toLowerCase()
+                .includes(filterRef.current.toLowerCase())
+            ) {
+              return React.cloneElement(child, {
+                linkComponent
+              });
+            }
+            return null;
+          }
+        )}
+      </ul>
+    </MenuContext.Provider>
+  );
+};
 
 Menu.MenuItem = MenuItem;
-Menu.MenuSearch = MenuSearchItem;
 
 export default Menu;

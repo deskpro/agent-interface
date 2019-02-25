@@ -14,7 +14,6 @@ storiesOf("Tabs", module)
         key="3"
         renderMenu={() => (
           <Menu title="Menu Title" isVisible>
-            <Menu.MenuSearch placeholder="Search..." />
             <Menu.MenuItem key="lock" icon="lock" text="Copy" />
             <Menu.MenuItem key="cut" icon="scissors" text="Cut" />
             <Menu.MenuItem key="paste" icon="insert-link" text="Paste">
