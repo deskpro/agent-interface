@@ -288,7 +288,7 @@
 .dp-Menu.Menu-tick.dp-YourAccount > .dp-Menu-linkItem > .dp-listItem::after {
   background-size: 14px 12px;
   left: auto;
-  right: 0;
+  right: 5px;
   top: calc(50% - 12.5px);
 }
 

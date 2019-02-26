@@ -262,7 +262,9 @@
 }
 
 .dp-Tasks-list.dp-Card-SectionTitle .dp-Card-title {
+  border-bottom: 0;
   font: var(--h-l-bold);
+  line-height: 1;
   margin-bottom: 0;
   margin-right: 20px;
 }
@@ -275,6 +277,7 @@
 .dp-Tasks-list.dp-Card-SectionTitle .dp-qt {
   color: var(--grey-darkest);
   font: var(--h-l-bold);
+  line-height: 1;
   margin-left: 0;
 }
 
