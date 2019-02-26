@@ -85,9 +85,9 @@ title: Tabs & Headers
 
 <h2>Tabs/dropdowns</h2>
 ```html @preview
-<div class="dp-MainWrapper" style="height: 100px">
+<div class="dp-MainWrapper demo-cog demo-menu" style="height: 100px">
+    
     <ul class="dp-Tabs">
-
         <li class="dp-Tabs-item is-expanded">
             Reply
             <button class="dp-Arrow"></button>

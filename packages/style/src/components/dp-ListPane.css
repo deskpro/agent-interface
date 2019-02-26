@@ -11,6 +11,10 @@
 
 /* Listpane/guides */
 
+.dp-MassSelectTitle {
+  display: block;
+}
+
 .dp-MassSelectTitle .dp-ItemRow {
   align-items: center;
   background-color: var(--grey-lightest);
@@ -18,6 +22,7 @@
 }
 
 .dp-MassSelect .dp-CustomCheckbox {
+  align-items: center;
   display: flex;
   position: relative;
 }
@@ -360,14 +365,14 @@
   border-bottom-right-radius: var(--border-radius);
   box-shadow: var(--shadow-bottom-right);
   display: none;
-  left: 0;
-  left: 2.5%;
   padding: 10px;
   position: absolute;
-  top: 100%;
   white-space: nowrap;
   width: 95%;
   z-index: 9;
+
+  /*  left: 2.5%;
+  top: 100%; */
 }
 
 .dp-Comments-title {
@@ -457,10 +462,6 @@
 
 .dp-Tasks-list .dp-LevelWrap > li .dp-Icon {
   margin-right: 5px;
-}
-
-.dp-LevelWrap > li .dp-Menu {
-  margin-left: 20px;
 }
 
 .dp-Comments .dp-txt {
@@ -632,6 +633,15 @@ input:disabled + label {
 
 /* Listpane/back-to-organizations */
 
+.dp-Card-subtitle {
+  align-items: center;
+  display: flex;
+}
+
+.dp-Card-subtitle .dp-Icon {
+  margin-right: 5px;
+}
+
 .dp-Card-subtitle .dp-title {
   color: var(--grey-darkest);
   cursor: pointer;
@@ -790,6 +800,7 @@ input:disabled + label {
 .date-active .dp-DateSelect,
 .time-active .dp-TimeSelect {
   display: block;
+  margin: 0;
   z-index: 10;
 }
 

@@ -5,124 +5,132 @@ title: Menus
 <h4>Menus/standard</h4>
 ```html @preview
 <div class="dp-MainWrapper demo-menu" style="height: 200px;">
-    <ul class="dp-Menu is-visible" style="top: 0; left: 0;">
-        <li class="dp-Menu-linkItem">
-            <span class="dp-Icon dp-lock"></span> 
-            <a href="#" class="dp-Menu-link">
-                Rollover list item
-            </a>
-        </li>
-        <li class="dp-Menu-linkItem">
-            <span class="dp-Icon dp-iconMin"></span>
-            <a href="#" class="dp-Menu-link">
-                List item
-            </a>
-        </li>
-        <li class="dp-Menu-linkItem">
-            <span class="dp-Icon dp-Bin"></span>
-            <a href="#" class="dp-Menu-link">
-                List item
-            </a>
-        </li>
-    </ul>
+    <div style="position: relative;">
+        <ul class="dp-Menu is-visible" style="top: 0; left: 0;">
+            <li class="dp-Menu-linkItem">
+                <span class="dp-Icon dp-lock"></span> 
+                <a href="#" class="dp-Menu-link">
+                    Rollover list item
+                </a>
+            </li>
+            <li class="dp-Menu-linkItem">
+                <span class="dp-Icon dp-iconMin"></span>
+                <a href="#" class="dp-Menu-link">
+                    List item
+                </a>
+            </li>
+            <li class="dp-Menu-linkItem">
+                <span class="dp-Icon dp-Bin"></span>
+                <a href="#" class="dp-Menu-link">
+                    List item
+                </a>
+            </li>
+        </ul>
+    </div>
 </div>
 ```
 
 <h4>Menus/with-title</h4>
 ```html @preview
 <div class="dp-MainWrapper demo-menu" style="height: 200px;">
-    <ul class="dp-Menu is-visible" style="top: 0; left: 0;">
-        <li class="dp-Menu-title">
-            Menu title
-        </li>
-        <li class="dp-Menu-linkItem">
-            <span class="dp-Icon dp-lock"></span> 
-            <a href="#" class="dp-Menu-link">
-                Rollover list item
-            </a>
-        </li>
+    <div style="position: relative;">
+        <ul class="dp-Menu is-visible" style="top: 0; left: 0;">
+            <li class="dp-Menu-title">
+                Menu title
+            </li>
+            <li class="dp-Menu-linkItem">
+                <span class="dp-Icon dp-lock"></span> 
+                <a href="#" class="dp-Menu-link">
+                    Rollover list item
+                </a>
+            </li>
 
-        <li class="dp-Menu-linkItem">
-            <span class="dp-Icon dp-iconMin"></span>
-            <a href="#" class="dp-Menu-link">
-                List item
-            </a>
-        </li>
-        <li class="dp-Menu-linkItem">
-            <span class="dp-Icon dp-Bin"></span>
-            <a href="#" class="dp-Menu-link">
-                List item
-            </a>
-        </li>
-    </ul>
+            <li class="dp-Menu-linkItem">
+                <span class="dp-Icon dp-iconMin"></span>
+                <a href="#" class="dp-Menu-link">
+                    List item
+                </a>
+            </li>
+            <li class="dp-Menu-linkItem">
+                <span class="dp-Icon dp-Bin"></span>
+                <a href="#" class="dp-Menu-link">
+                    List item
+                </a>
+            </li>
+        </ul>
+    </div>
 </div>
 ```
 
 <h4>Menus/with-search</h4>
 ```html @preview
 <div class="dp-MainWrapper demo-menu" style="height: 200px;">
-    <ul class="dp-Menu is-visible" style="top: 0; left: 0;">
-        <li class="dp-Menu-search">
-            <form>
-                <span class="dp-Icon dp-IconSearch"></span>
-                <input type="text" class="dp-Input Input--search">
-            </form>
-        </li>
+    <div style="position: relative;">
+        <ul class="dp-Menu is-visible" style="top: 0; left: 0;">
+            <li class="dp-Menu-search">
+                <form>
+                    <span class="dp-Icon dp-IconSearch"></span>
+                    <input type="text" class="dp-Input Input--search">
+                </form>
+            </li>
 
-        <li class="dp-Menu-linkItem">
-            <span class="dp-Icon dp-lock"></span> 
-            <a href="#" class="dp-Menu-link">
-                Rollover list item
-            </a>
-        </li>
-        <li class="dp-Menu-linkItem">
-            <span class="dp-Icon dp-iconMin"></span>
-            <a href="#" class="dp-Menu-link">
-                List item
-            </a>
-        </li>
-        <li class="dp-Menu-linkItem">
-            <span class="dp-Icon dp-Bin"></span>
-            <a href="#" class="dp-Menu-link">
-                List item
-            </a>
-        </li>
-    </ul>
+            <li class="dp-Menu-linkItem">
+                <span class="dp-Icon dp-lock"></span> 
+                <a href="#" class="dp-Menu-link">
+                    Rollover list item
+                </a>
+            </li>
+            <li class="dp-Menu-linkItem">
+                <span class="dp-Icon dp-iconMin"></span>
+                <a href="#" class="dp-Menu-link">
+                    List item
+                </a>
+            </li>
+            <li class="dp-Menu-linkItem">
+                <span class="dp-Icon dp-Bin"></span>
+                <a href="#" class="dp-Menu-link">
+                    List item
+                </a>
+            </li>
+        </ul>
+    </div>
 </div>
 ```
 
 <h4>Menus/search-with-title</h4>
 ```html @preview
-<div class="dp-MainWrapper demo-menu" style="height: 200px;">
-    <ul class="dp-Menu is-visible" style="top: 0; left: 0;">
-        <li class="dp-Menu-title">
-            Menu title
-        </li>
-        <li class="dp-Menu-search">
-            <form>
-                <span class="dp-Icon dp-IconSearch"></span>
-                <input type="text" class="dp-Input Input--search">
-            </form>
-        </li>
-        <li class="dp-Menu-linkItem">
-            <span class="dp-Icon dp-lock"></span> 
-            <a href="#" class="dp-Menu-link">
-                Rollover list item
-            </a>
-        </li>
-        <li class="dp-Menu-linkItem">
-            <span class="dp-Icon dp-iconMin"></span>
-            <a href="#" class="dp-Menu-link">
-                List item
-            </a>
-        </li>
-        <li class="dp-Menu-linkItem">
-            <span class="dp-Icon dp-Bin"></span>
-            <a href="#" class="dp-Menu-link">
-                List item
-            </a>
-        </li>
-    </ul>
+<div class="dp-MainWrapper demo-menu" style="height: 200px; position: relative">
+    <div style="position: relative;">
+        <ul class="dp-Menu is-visible" style="top: 0; left: 0;">
+            <li class="dp-Menu-title">
+                Menu title
+            </li>
+            <li class="dp-Menu-search">
+                <form>
+                    <span class="dp-Icon dp-IconSearch"></span>
+                    <input type="text" class="dp-Input Input--search">
+                </form>
+            </li>
+            <li class="dp-Menu-linkItem">
+                <span class="dp-Icon dp-lock"></span> 
+                <a href="#" class="dp-Menu-link">
+                    Rollover list item
+                </a>
+            </li>
+            <li class="dp-Menu-linkItem">
+                <span class="dp-Icon dp-iconMin"></span>
+                <a href="#" class="dp-Menu-link">
+                    List item
+                </a>
+            </li>
+            <li class="dp-Menu-linkItem">
+                <span class="dp-Icon dp-Bin"></span>
+                <a href="#" class="dp-Menu-link">
+                    List item
+                </a>
+            </li>
+        </ul>
+    </div>
 </div>
 ```
 
@@ -130,7 +138,8 @@ title: Menus
 
 <h4>listpane/rightclick</h4>
 ```html @preview
-<div class="dp-MainWrapper demo-menu">
+<div class="dp-MainWrapper demo-cog demo-menu">
+
     <div style="height: 450px; position: relative;">
 
         <ul class="dp-Menu is-visible" style="top: 0; left: 0;">

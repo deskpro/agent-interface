@@ -65,7 +65,7 @@ title: Tableview
             </span>
         </li>
 
-        <li class="dp-ListPane">
+        <li class="dp-ListPane demo-tooltip">
             <span class="dp-Title-group is-active">
                 <span class="dp-Icon Icon--csv"></span>
                 <span class="dp-Title">CSV</span>
