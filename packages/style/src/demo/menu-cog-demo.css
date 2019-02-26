@@ -51,3 +51,7 @@
 .demo-menu .dp-iconVDots.is-visible + .dp-Menu {
   display: block;
 }
+
+.demo-menu .dp-Menu .dp-Menu-linkItem {
+  padding: 3.5px 10px;
+}

@@ -4,7 +4,7 @@ title: Menus
 
 <h4>Menus/standard</h4>
 ```html @preview
-<div class="dp-MainWrapper" style="height: 200px;">
+<div class="dp-MainWrapper demo-menu" style="height: 200px;">
     <ul class="dp-Menu is-visible" style="top: 0; left: 0;">
         <li class="dp-Menu-linkItem">
             <span class="dp-Icon dp-lock"></span> 
@@ -30,7 +30,7 @@ title: Menus
 
 <h4>Menus/with-title</h4>
 ```html @preview
-<div class="dp-MainWrapper" style="height: 200px;">
+<div class="dp-MainWrapper demo-menu" style="height: 200px;">
     <ul class="dp-Menu is-visible" style="top: 0; left: 0;">
         <li class="dp-Menu-title">
             Menu title
@@ -60,7 +60,7 @@ title: Menus
 
 <h4>Menus/with-search</h4>
 ```html @preview
-<div class="dp-MainWrapper" style="height: 200px;">
+<div class="dp-MainWrapper demo-menu" style="height: 200px;">
     <ul class="dp-Menu is-visible" style="top: 0; left: 0;">
         <li class="dp-Menu-search">
             <form>
@@ -93,7 +93,7 @@ title: Menus
 
 <h4>Menus/search-with-title</h4>
 ```html @preview
-<div class="dp-MainWrapper" style="height: 200px;">
+<div class="dp-MainWrapper demo-menu" style="height: 200px;">
     <ul class="dp-Menu is-visible" style="top: 0; left: 0;">
         <li class="dp-Menu-title">
             Menu title

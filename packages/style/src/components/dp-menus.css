@@ -45,6 +45,7 @@
   margin-left: 0;
   margin-right: 5px;
   width: 12px;
+  padding: 0;
 }
 
 .dp-Menu.newControlsList .dp-CustomCheckbox input[type="checkbox"] + label {
@@ -127,11 +128,16 @@
   display: flex;
   font: var(--p-l);
   margin: 0;
-  padding: 3.5px 10px;
   position: relative;
+
+  /* padding: 3.5px 10px; */
 
   /* margin: 0 1px; */
 
+}
+
+.dp-Menu .dp-Menu-linkItem > span {
+  padding: 3.5px 10px;
 }
 
 .dp-Menu .dp-Menu-linkItem.dp-DropdownDivider {
