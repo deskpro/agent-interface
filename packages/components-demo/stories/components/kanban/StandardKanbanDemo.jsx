@@ -86,11 +86,11 @@ const StandardKanbanDemo = ({ action, allowReorder }) => {
             }
             renderCogMenu={menuProps => (
               <Menu {...menuProps}>
-                <Menu.MenuItem key="assign" icon="avatar" text="Assignee">
-                  <Menu>
-                    <Menu.MenuSearch />
+                <Menu.MenuItem name="assign" icon="avatar" text="Assignee">
+                  <Menu withFilter>
                     <Menu.MenuItem
                       key="berdyshev"
+                      name="berdyshev"
                       icon={
                         <ReactAvatar
                           email="berdartem@gmail.com"
@@ -103,6 +103,7 @@ const StandardKanbanDemo = ({ action, allowReorder }) => {
                     />
                     <Menu.MenuItem
                       key="chris"
+                      name="chris"
                       icon={
                         <ReactAvatar
                           email="chris.nadeau@deskpro.com"
@@ -115,7 +116,7 @@ const StandardKanbanDemo = ({ action, allowReorder }) => {
                     />
                   </Menu>
                 </Menu.MenuItem>
-                <Menu.MenuItem key="bin" icon="bin" text="Delete" />
+                <Menu.MenuItem name="bin" icon="bin" text="Delete" />
               </Menu>
             )}
           >

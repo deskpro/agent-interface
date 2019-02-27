@@ -3,15 +3,17 @@ import classNames from "classnames";
 import { Manager, Reference, Popper } from "react-popper";
 
 import Icon from "../Icon/Icon";
-import { MenuContext } from "./Menu";
+import { MenuContext } from "./MenuContext";
 
 export type MenuItemProps = {
   icon?: string | React.ReactElement<any>;
+  name: React.Key;
   text: string;
   link?: string;
   onClick?(e: React.SyntheticEvent<HTMLElement>): void;
   className?: string;
   linkComponent?: any;
+  trail?: string;
 };
 
 const MenuItem: React.FC<MenuItemProps> = ({
@@ -22,9 +24,12 @@ const MenuItem: React.FC<MenuItemProps> = ({
   className,
   children,
   linkComponent = "a",
+  trail = "",
   ...itemProps
 }) => {
-  const { onMenuClose } = React.useContext(MenuContext);
+  const { onMenuClose, activeTrail, setActiveTrail } = React.useContext(
+    MenuContext
+  );
   const clickHandler = React.useCallback(
     e => {
       if (link || onClick) {
@@ -38,9 +43,11 @@ const MenuItem: React.FC<MenuItemProps> = ({
     },
     [link, onClick]
   );
-
-  const [isSubmenuVisible, setSubmenuVisibility] = React.useState<boolean>(
-    false
+  const activateMenuItem = React.useCallback(
+    () => {
+      setActiveTrail(trail);
+    },
+    [trail, setActiveTrail]
   );
 
   const labelProps = {
@@ -57,6 +64,8 @@ const MenuItem: React.FC<MenuItemProps> = ({
       role="menuitem"
       onClick={clickHandler}
       onKeyPress={clickHandler}
+      onMouseOver={activateMenuItem}
+      onFocus={activateMenuItem}
     >
       <Manager>
         <Reference>
@@ -71,44 +80,37 @@ const MenuItem: React.FC<MenuItemProps> = ({
                 labelProps,
                 text
               )}
-              {!!children && (
-                <span
-                  className={classNames("dp-Arrow", {
-                    "is-active": isSubmenuVisible
-                  })}
-                  role="button"
-                  tabIndex={-1}
-                  onClick={e => {
-                    e.stopPropagation();
-                    setSubmenuVisibility(!isSubmenuVisible);
-                  }}
-                  onKeyDown={() => {}}
-                />
-              )}
+              {!!children && <span className="dp-Arrow" />}
             </span>
           )}
         </Reference>
-        {!!children && isSubmenuVisible && (
+        {!!children && activeTrail.startsWith(trail) && (
           <Popper
             placement="right-start"
-            positionFixed={false}
             modifiers={{
-              offset: { enabled: true, offset: "0,11" },
+              // offset: { enabled: true, offset: "0,11" },
               flip: {
                 enabled: true,
                 behavior: ["right", "left"],
-                padding: 0
+                padding: 0,
+                flipVariationsByContent: true
               },
               preventOverflow: {
                 enabled: true,
+                escapeWithReference: true,
                 boundariesElement: "viewport"
               }
             }}
           >
-            {({ ref, style }) =>
+            {({ ref, style, placement }) =>
               React.cloneElement(
                 React.Children.only(children) as React.ReactElement<any>,
-                { menuRef: ref, style }
+                {
+                  menuRef: ref,
+                  style,
+                  className: `is-${placement}`,
+                  parentTrail: trail
+                }
               )
             }
           </Popper>
@@ -118,4 +120,4 @@ const MenuItem: React.FC<MenuItemProps> = ({
   );
 };
 
-export default MenuItem;
+export default React.memo<React.FC<MenuItemProps>>(MenuItem);
