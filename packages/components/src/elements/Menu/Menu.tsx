@@ -4,11 +4,13 @@ import classNames from "classnames";
 import MenuItem, { MenuItemProps } from "./MenuItem";
 import MenuSearchItem from "./MenuSearch";
 import { MenuContext, MenuContextProvider } from "./MenuContext";
+import MenuDivider from "./Divider";
 
 import "@deskpro/agent-interface-style/dist/components/dp-menus.css";
 
 type MenuSubComponents = {
   MenuItem: typeof MenuItem;
+  Divider: typeof MenuDivider;
 };
 
 export type MenuProps = {
@@ -107,7 +109,10 @@ const MenuComponent: React.FC<MenuProps> = ({
     (child: React.ReactElement<any>) => {
       if (
         !filterRef.current ||
-        child.props.text.toLowerCase().includes(filterRef.current.toLowerCase())
+        (child.props.text &&
+          child.props.text
+            .toLowerCase()
+            .includes(filterRef.current.toLowerCase()))
       ) {
         const props: Partial<MenuItemProps> = {
           linkComponent,
@@ -173,5 +178,6 @@ const Menu: React.MemoExoticComponent<React.FC<MenuProps>> &
 ) as React.MemoExoticComponent<React.FC<MenuProps>> & MenuSubComponents;
 
 Menu.MenuItem = MenuItem;
+Menu.Divider = MenuDivider;
 
 export default Menu;

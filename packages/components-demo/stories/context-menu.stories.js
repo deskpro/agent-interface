@@ -18,18 +18,25 @@ storiesOf("ContextMenu", module)
   .add("ContextMenu", () => (
     <ContextMenu
       renderMenu={menuProps => (
-        <Menu {...menuProps}>
+        <Menu {...menuProps} title="Context Menu" withFilter>
           <Menu.MenuItem
-            name="copy"
-            text="Copy"
-            icon="copy"
-            onClick={action("click copy")}
+            name="rollover"
+            text="Rollover menu item"
+            icon="lock"
+            onClick={action()}
           />
           <Menu.MenuItem
-            name="paste"
-            text="Paste"
-            icon="paste"
-            onClick={action("click past")}
+            name="item2"
+            text="List item"
+            icon="on-hold"
+            onClick={action()}
+          />
+          <Menu.Divider />
+          <Menu.MenuItem
+            name="item3"
+            text="Delete"
+            icon="bin"
+            onClick={action()}
           />
         </Menu>
       )}
