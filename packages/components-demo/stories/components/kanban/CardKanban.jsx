@@ -38,7 +38,7 @@ const CardKanban = ({ action }) => {
                       }
                       renderCogMenu={menuProps => (
                         <Menu {...menuProps}>
-                          <Menu.MenuItem key="bin" icon="bin" text="Delete" />
+                          <Menu.MenuItem name="bin" icon="bin" text="Delete" />
                         </Menu>
                       )}
                     >

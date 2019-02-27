@@ -19,13 +19,13 @@ storiesOf("ContextMenu", module)
       renderMenu={menuProps => (
         <Menu {...menuProps}>
           <Menu.MenuItem
-            key="copy"
+            name="copy"
             text="Copy"
             icon="copy"
             onClick={action("click copy")}
           />
           <Menu.MenuItem
-            key="paste"
+            name="paste"
             text="Paste"
             icon="paste"
             onClick={action("click past")}
@@ -80,7 +80,7 @@ storiesOf("ContextMenu", module)
           }
           renderCogMenu={menuProps => (
             <Menu {...menuProps}>
-              <Menu.MenuItem key="bin" icon="bin" text="Delete" />
+              <Menu.MenuItem name="bin" icon="bin" text="Delete" />
             </Menu>
           )}
         >
@@ -103,6 +103,7 @@ storiesOf("ContextMenu", module)
           renderMenu={menuProps => (
             <Menu {...menuProps}>
               <Menu.MenuItem
+                name="copy"
                 icon="copy"
                 text="Copy"
                 onClick={action("copy action")}
@@ -126,6 +127,7 @@ storiesOf("ContextMenu", module)
           renderMenu={menuProps => (
             <Menu {...menuProps}>
               <Menu.MenuItem
+                name="copy"
                 icon="copy"
                 text="Copy by clicking this menu item"
                 onClick={action("copy action")}

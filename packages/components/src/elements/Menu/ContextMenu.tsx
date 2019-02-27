@@ -1,6 +1,6 @@
 import * as React from "react";
 
-import Menu, { MenuProps } from "./Menu";
+import { MenuProps } from "./Menu";
 import Portal from "../../common/Portal/Portal";
 
 import useOutsideClick from "../../hooks/useOutsideClick";
@@ -9,7 +9,7 @@ import useMenu from "../../hooks/useMenu";
 
 export type ContextMenuProps = {
   triggerEvent?: "onClick" | "onContextMenu" | "onDoubleClick";
-  renderMenu: (menuProps: Partial<MenuProps>) => React.ReactElement<Menu>;
+  renderMenu: (menuProps: Partial<MenuProps>) => React.ReactElement<any>;
 };
 
 const ContextMenu: React.FC<ContextMenuProps> = ({

@@ -14,13 +14,13 @@ storiesOf("Tabs", module)
         key="3"
         renderMenu={() => (
           <Menu title="Menu Title" isVisible>
-            <Menu.MenuItem key="lock" icon="lock" text="Copy" />
-            <Menu.MenuItem key="cut" icon="scissors" text="Cut" />
-            <Menu.MenuItem key="paste" icon="insert-link" text="Paste">
+            <Menu.MenuItem name="lock" icon="lock" text="Copy" />
+            <Menu.MenuItem name="cut" icon="scissors" text="Cut" />
+            <Menu.MenuItem name="paste" icon="insert-link" text="Paste">
               <Menu>
-                <Menu.MenuItem key="word" text="From Word" />
-                <Menu.MenuItem key="text" text="From Text" />
-                <Menu.MenuItem key="without-style" text="Without Styles" />
+                <Menu.MenuItem name="word" text="From Word" />
+                <Menu.MenuItem name="text" text="From Text" />
+                <Menu.MenuItem name="without-style" text="Without Styles" />
               </Menu>
             </Menu.MenuItem>
           </Menu>
@@ -61,13 +61,13 @@ storiesOf("Tabs", module)
         icon="document"
         renderMenu={() => (
           <Menu isVisible>
-            <Menu.MenuItem key="lock" icon="lock" text="Lock" />
+            <Menu.MenuItem name="lock" icon="lock" text="Lock" />
             <Menu.MenuItem
-              key="hold"
+              name="hold"
               icon="on-hold"
               text="Put the ticket on hold"
             />
-            <Menu.MenuItem key="delete" icon="bin" text="Delete" />
+            <Menu.MenuItem name="delete" icon="bin" text="Delete" />
           </Menu>
         )}
       >
@@ -85,13 +85,13 @@ storiesOf("Tabs", module)
         icon="lock"
         renderMenu={() => (
           <Menu isVisible>
-            <Menu.MenuItem key="lock" icon="lock" text="Lock" />
+            <Menu.MenuItem name="lock" icon="lock" text="Lock" />
             <Menu.MenuItem
-              key="hold"
+              name="hold"
               icon="on-hold"
               text="Put the ticket on hold"
             />
-            <Menu.MenuItem key="delete" icon="bin" text="Delete" />
+            <Menu.MenuItem name="delete" icon="bin" text="Delete" />
           </Menu>
         )}
       >

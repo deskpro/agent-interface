@@ -25,6 +25,7 @@ const StandardContextMenu: React.FC<StandardContextMenuProps> = ({
         menuItems.map(({ name, subItems, ...itemProps }) => (
           <Menu.MenuItem
             key={name}
+            name={name}
             {...itemProps}
             onClick={e => onItemClick(e, name)}
           >
