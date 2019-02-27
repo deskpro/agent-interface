@@ -5,51 +5,7 @@ import { Manager, Reference, Popper } from "react-popper";
 import Icon from "../Icon/Icon";
 import { MenuProps } from "./Menu";
 import useOutsideClick from "../../hooks/useOutsideClick";
-// import useWindowSize from "../../hooks/useWindowSize";
 import useMenu from "../../hooks/useMenu";
-
-/* const COG_SIZE = 18;
-const defaultMenuStyles = {
-  marginLeft: 2,
-  marginTop: 5
-};
-
-function useCogMenuPosition(menuRef, isVisible) {
-  // move the cog menu to the left of the icon if it doesn't fit the window's visible area.
-  const windowSize = useWindowSize();
-  const [menuStyles, setMenuStyles] = React.useState(defaultMenuStyles);
-
-  React.useEffect(
-    () => {
-      const styles = { ...menuStyles };
-      if (menuRef.current instanceof HTMLUListElement) {
-        const { width: windowWidth, height: windowHeight } = windowSize;
-        const {
-          offsetWidth: menuWidth,
-          offsetHeight: menuHeight
-        } = menuRef.current;
-
-        if (
-          windowWidth &&
-          defaultMenuStyles.marginLeft + menuWidth > windowWidth
-        ) {
-          styles.marginLeft = -menuWidth + COG_SIZE;
-        }
-
-        if (
-          windowHeight &&
-          defaultMenuStyles.marginTop + menuHeight > windowHeight
-        ) {
-          styles.marginTop = -menuHeight - COG_SIZE;
-        }
-      }
-      setMenuStyles(styles);
-    },
-    [menuRef.current, windowSize, isVisible]
-  );
-
-  return menuStyles;
-} */
 
 export type CogProps = {
   renderMenu: (menuProps: Partial<MenuProps>) => React.ReactElement<any>;
