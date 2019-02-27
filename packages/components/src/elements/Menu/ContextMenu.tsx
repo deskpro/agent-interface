@@ -1,11 +1,25 @@
 import * as React from "react";
+import { Manager, Popper } from "react-popper";
 
 import { MenuProps } from "./Menu";
 import Portal from "../../common/Portal/Portal";
 
 import useOutsideClick from "../../hooks/useOutsideClick";
-import useWindowSize from "../../hooks/useWindowSize";
 import useMenu from "../../hooks/useMenu";
+
+type BoundingRect = {
+  top: number;
+  bottom: number;
+  left: number;
+  right: number;
+  width: number;
+  height: number;
+};
+interface VirtualReferenceElementType {
+  getBoundingClientRect: () => BoundingRect;
+  clientWidth: number;
+  clientHeight: number;
+}
 
 export type ContextMenuProps = {
   triggerEvent?: "onClick" | "onContextMenu" | "onDoubleClick";
@@ -23,14 +37,17 @@ const ContextMenu: React.FC<ContextMenuProps> = ({
   const menuRef = React.useRef<HTMLUListElement>(null);
   useOutsideClick(menuRef, hideMenu);
 
-  const [menuStyles, setStyles] = React.useState({ top: 0, left: 0 });
-
+  const virtualReference = React.useRef<VirtualReferenceElementType>(null);
   const handleContextMenuClick = React.useCallback(e => {
     e.preventDefault();
 
     const pos = {
       left: e.clientX,
-      top: e.clientY
+      right: e.clientX,
+      top: e.clientY,
+      bottom: e.clientY,
+      width: 1,
+      height: 1
     };
 
     if (
@@ -50,37 +67,26 @@ const ContextMenu: React.FC<ContextMenuProps> = ({
       pos.top = 0;
     }
 
+    pos.right = pos.left + pos.width;
+    pos.bottom = pos.top + pos.height;
+
+    (virtualReference.current as VirtualReferenceElementType) = {
+      getBoundingClientRect() {
+        return pos;
+      },
+      get clientWidth() {
+        return pos.width;
+      },
+      get clientHeight() {
+        return pos.height;
+      }
+    };
+
     showMenu();
-    setStyles(pos);
   }, []);
 
-  const windowSize = useWindowSize();
-  React.useEffect(
-    () => {
-      if (menuRef.current instanceof HTMLUListElement) {
-        const { width: windowWidth, height: windowHeight } = windowSize;
-        const styles = { ...menuStyles };
-        const {
-          offsetWidth: menuWidth,
-          offsetHeight: menuHeight
-        } = menuRef.current;
-
-        if (windowWidth && styles.left + menuWidth > windowWidth) {
-          styles.left -= styles.left + menuWidth - windowWidth;
-        }
-
-        if (windowHeight && styles.top + menuHeight > windowHeight) {
-          styles.top -= styles.top + menuHeight - windowHeight;
-        }
-
-        setStyles(styles);
-      }
-    },
-    [menuRef.current, windowSize, menuIsVisible]
-  );
-
   return (
-    <>
+    <Manager>
       <span
         className="dp-ContextMenuWrapper"
         style={{ display: "inline-block" }}
@@ -92,10 +98,38 @@ const ContextMenu: React.FC<ContextMenuProps> = ({
         {children}
       </span>
       <Portal>
-        {menuIsVisible &&
-          renderMenu({ style: menuStyles, menuRef, onMenuClose: hideMenu })}
+        {menuIsVisible && (
+          <Popper
+            referenceElement={
+              virtualReference.current as VirtualReferenceElementType
+            }
+            placement="bottom-start"
+            modifiers={{
+              preventOverflow: {
+                enabled: true,
+                escapeWithReference: true,
+                boundariesElement: "viewport"
+              },
+              flip: {
+                enabled: true,
+                flipVariationsByContent: true
+              }
+            }}
+          >
+            {({ ref, style }) =>
+              renderMenu({
+                style,
+                menuRef: (el: HTMLUListElement) => {
+                  ref(el);
+                  (menuRef.current as HTMLUListElement) = el;
+                },
+                onMenuClose: hideMenu
+              })
+            }
+          </Popper>
+        )}
       </Portal>
-    </>
+    </Manager>
   );
 };
 
