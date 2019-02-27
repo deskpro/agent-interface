@@ -88,7 +88,7 @@ storiesOf("ContextMenu", module)
           }
           renderCogMenu={menuProps => (
             <Menu {...menuProps}>
-              <Menu.MenuItem name="assign" icon="avatar" text="Assignee">
+              <Menu.MenuItem name="assignee" text="Assignee">
                 <Menu withFilter isCheckable>
                   <Menu.MenuItem
                     key="berdyshev"
@@ -118,7 +118,17 @@ storiesOf("ContextMenu", module)
                   />
                 </Menu>
               </Menu.MenuItem>
-              <Menu.MenuItem name="bin" icon="bin" text="Delete" />
+              <Menu.MenuItem name="status" text="Status">
+                <Menu isCheckable>
+                  <Menu.MenuItem name="opened" text="Opened" />
+                  <Menu.MenuItem name="in-progress" text="In Progress" />
+                  <Menu.MenuItem name="closed" text="Closed" />
+                </Menu>
+              </Menu.MenuItem>
+              <Menu.Divider />
+              <Menu.MenuItem name="hold" text="Hold" />
+              <Menu.MenuItem name="unhold" text="Unhold" />
+              <Menu.MenuItem name="delete" text="Delete" />
             </Menu>
           )}
         >
