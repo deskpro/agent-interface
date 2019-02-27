@@ -1,7 +1,7 @@
 import * as React from "react";
 import classNames from "classnames";
 
-import MenuItem from "./MenuItem";
+import MenuItem, { MenuItemProps } from "./MenuItem";
 import MenuSearchItem from "./MenuSearch";
 import { MenuContext, MenuContextProvider } from "./MenuContext";
 
@@ -17,22 +17,27 @@ export type MenuProps = {
   style?: any;
   title?: string;
   withFilter?: boolean;
+  isCheckable?: boolean;
+  checkType?: "single" | "multi";
+  onItemCheck?: (
+    itemName: React.Key,
+    checked: boolean,
+    e: React.SyntheticEvent<HTMLElement>
+  ) => void;
   linkComponent?: any;
   children: React.ReactElement<any>[];
   parentTrail?: string;
   onMenuClose?: () => void;
 };
 
-const hasIcons = (children: React.ReactNodeArray) =>
-  (React.Children.toArray(children) as React.ReactElement<any>[]).some(
-    (child: React.ReactElement<any>) => !!child.props.icon
-  );
-
 const MenuComponent: React.FC<MenuProps> = ({
   menuRef,
   className,
   title,
   children,
+  isCheckable = false,
+  checkType = "single",
+  onItemCheck,
   linkComponent = "a",
   withFilter = false,
   parentTrail = "",
@@ -59,10 +64,77 @@ const MenuComponent: React.FC<MenuProps> = ({
     [filterRef, filter]
   );
 
+  // checkable items functionality
+  const [checked, setChecked] = React.useState<React.Key[]>([]);
+  const toggleChecked = React.useCallback(
+    (name: React.Key, e: React.SyntheticEvent<HTMLElement>) => {
+      const isChecked = checked.includes(name);
+      let nextChecked;
+
+      if (checkType === "single") {
+        nextChecked = isChecked ? [] : [name];
+      } else {
+        nextChecked = isChecked
+          ? checked.filter(item => item !== name)
+          : checked.concat(name);
+      }
+      setChecked(nextChecked);
+
+      if (onItemCheck) {
+        onItemCheck(name, !isChecked, e);
+      }
+    },
+    [checkType, onItemCheck, checked, setChecked]
+  );
+
+  const hasIcons = React.useMemo(
+    () =>
+      (React.Children.toArray(children) as React.ReactElement<any>[]).some(
+        (child: React.ReactElement<any>) => !!child.props.icon
+      ),
+    [children]
+  );
+
+  const renderChild = React.useCallback(
+    (child: React.ReactElement<any>) => {
+      if (
+        !filterRef.current ||
+        child.props.text.toLowerCase().includes(filterRef.current.toLowerCase())
+      ) {
+        const props: Partial<MenuItemProps> = {
+          linkComponent,
+          trail: `${parentTrail}.${child.props.name}`
+        };
+        if (isCheckable) {
+          props.isChecked = checked.includes(child.props.name);
+          props.onClick = toggleChecked;
+        } else {
+          const { onClick: providedClickHandler } = props;
+          props.onClick = (name, e) => {
+            if (typeof providedClickHandler === "function") {
+              providedClickHandler(name, e);
+            }
+            if (
+              (typeof providedClickHandler === "function" || props.link) &&
+              typeof menuContext.onMenuClose === "function"
+            ) {
+              menuContext.onMenuClose();
+            }
+          };
+        }
+        return React.cloneElement(child, props);
+      }
+      return null;
+    },
+    [filterRef, isCheckable, checked, linkComponent, parentTrail]
+  );
+
   const menu = (
     <ul
       className={classNames("dp-Menu", className, {
-        [`Menu--icons`]: hasIcons(children),
+        "Menu--icons": hasIcons,
+        "Menu--tick-left": isCheckable && !hasIcons,
+        "Menu--tick-right": isCheckable && hasIcons,
         "is-visible": true
       })}
       {...otherProps}
@@ -76,23 +148,7 @@ const MenuComponent: React.FC<MenuProps> = ({
           onChange={handleFilterChange}
         />
       )}
-      {React.Children.map(
-        children as React.ReactElement<any>[],
-        (child: React.ReactElement<any>) => {
-          if (
-            !filterRef.current ||
-            child.props.text
-              .toLowerCase()
-              .includes(filterRef.current.toLowerCase())
-          ) {
-            return React.cloneElement(child, {
-              linkComponent,
-              trail: `${parentTrail}.${child.props.name}`
-            });
-          }
-          return null;
-        }
-      )}
+      {React.Children.map(children as React.ReactElement<any>[], renderChild)}
     </ul>
   );
 

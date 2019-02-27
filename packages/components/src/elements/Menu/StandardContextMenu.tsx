@@ -10,7 +10,7 @@ export type StandardMenuItem = {
 };
 
 export type StandardContextMenuProps = {
-  onItemClick: (e: React.SyntheticEvent<HTMLElement>, name: React.Key) => void;
+  onItemClick: (name: React.Key, e: React.SyntheticEvent<HTMLElement>) => void;
   items: StandardMenuItem[];
 };
 
@@ -27,7 +27,7 @@ const StandardContextMenu: React.FC<StandardContextMenuProps> = ({
             key={name}
             name={name}
             {...itemProps}
-            onClick={e => onItemClick(e, name)}
+            onClick={onItemClick}
           >
             {!!subItems && subItems.length > 0 && (
               <Menu>{renderItems(subItems)}</Menu>

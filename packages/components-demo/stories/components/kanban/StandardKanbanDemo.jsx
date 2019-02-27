@@ -87,7 +87,7 @@ const StandardKanbanDemo = ({ action, allowReorder }) => {
             renderCogMenu={menuProps => (
               <Menu {...menuProps}>
                 <Menu.MenuItem name="assign" icon="avatar" text="Assignee">
-                  <Menu withFilter>
+                  <Menu withFilter isCheckable>
                     <Menu.MenuItem
                       key="berdyshev"
                       name="berdyshev"
