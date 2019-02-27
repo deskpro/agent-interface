@@ -4,7 +4,7 @@ title: Page Tabs
 
 <h2>pagetabs/singluar</h2>
 ```html @preview
-<div class="dp-MainWrapper">
+<div class="dp-MainWrapper demo-menu">
     <ul class="dp-Tabs Tabs--general">
         <li class="dp-Tabs-item Tabs-item--button">
             <span class="dp-Icon dp-add_tab Icon-success"></span>
@@ -25,7 +25,7 @@ title: Page Tabs
 
 <h2>pagetabs/three-oneselected</h2>
 ```html @preview
-<div class="dp-MainWrapper">
+<div class="dp-MainWrapper demo-menu">
     <ul class="dp-Tabs Tabs--general">
 
         <li class="dp-Tabs-item Tabs-item--button">
@@ -70,7 +70,7 @@ title: Page Tabs
 
 <h2>pagetabs/alltabs-oneselected</h2>
 ```html @preview
-<div class="dp-MainWrapper dp-Oneselected">
+<div class="dp-MainWrapper demo-menu dp-Oneselected">
     <ul class="dp-Tabs Tabs--general">
 
         <li class="dp-Tabs-item Tabs-item--button">
@@ -163,7 +163,7 @@ title: Page Tabs
 
 <h2>pagetabs/alltabs-oneselected-more</h2>
 ```html @preview
-<div class="dp-MainWrapper dp-Oneselected" style="height: 250px">
+<div class="dp-MainWrapper demo-menu dp-Oneselected" style="height: 250px">
     <ul class="dp-Tabs Tabs--general">
 
         <li class="dp-Tabs-item Tabs-item--button">
@@ -301,7 +301,7 @@ title: Page Tabs
 
 <h2>pagetabs/three-oneselected</h2>
 ```html @preview
-<div class="dp-MainWrapper" style="height: 300px">
+<div class="dp-MainWrapper demo-menu" style="height: 300px">
     <ul class="dp-Tabs Tabs--general">
 
         <li class="dp-Tabs-item Tabs-item--button">
@@ -374,7 +374,7 @@ title: Page Tabs
 
 <h2>pagetabs/three-oneselected-rightclick</h2>
 ```html @preview
-<div class="dp-MainWrapper" style="height: 300px">
+<div class="dp-MainWrapper demo-menu" style="height: 300px">
     <ul class="dp-Tabs Tabs--general">
 
         <li class="dp-Tabs-item Tabs-item--button">

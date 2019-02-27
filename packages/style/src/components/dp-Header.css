@@ -238,11 +238,6 @@
 
 }
 
-.dp-HeaderControl .dp-Menu .dp-Icon, .dp-IconHeader .dp-Menu .dp-Icon {
-  height: 25px;
-  width: 31px;
-}
-
 .dp-Menu.dp-YourAccount .dp-Menu-title {
   margin-bottom: 0;
 }
@@ -299,7 +294,9 @@
 
 .dp-Menu.dp-YourAccount .dp-Menu-linkItem .dp-Icon {
   background-size: 25px 25px;
+  height: 25px;
   margin-right: 10px;
+  width: 31px;
 }
 
 .dp-Menu.dp-YourAccount .dp-Menu-linkItem:last-child .dp-Icon {

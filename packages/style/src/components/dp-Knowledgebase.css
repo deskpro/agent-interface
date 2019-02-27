@@ -52,22 +52,12 @@
   margin: 0 7px 0 0;
 }
 
-/* .dp-GuidesDirectory.dp-Knowledgebase .dp-Card:hover {
-  background-color: inherit;
-} */
-
-/* .dp-Knowledgebase .dp-orderingbar--Wrap ~ .dp-Card:hover { */
-
-.dp-GuidesDirectory.dp-Knowledgebase .dp-Card:hover {
-  border-right: 1px solid transparent;
-}
-
-.dp-GuidesDirectory.dp-Knowledgebase .dp-Card .dp-Card-title {
+.dp-Knowledgebase .dp-orderingbar--Wrap ~ .dp-Card .dp-Card-title {
   color: var(--brand-primary);
 }
 
-.dp-GuidesDirectory.dp-Knowledgebase .dp-Card:hover .dp-Card-title {
-  text-decoration: underline;
+.dp-GuidesDirectory.dp-Knowledgebase .dp-Card:hover {
+  border-right: 1px solid transparent;
 }
 
 .dp-GuidesDirectory.dp-Knowledgebase .dp-Card:hover .dp-TitleGroupe .dp-Icon,
@@ -93,10 +83,6 @@
 
 .dp-Articles-group ul {
   padding: 0;
-}
-
-.dp-Knowledgebase .dp-Articles-group .dp-Card .dp-Card-title {
-  color: var(--grey-darkest);
 }
 
 .dp-Knowledgebase .dp-DropDownItem .dp-Menu {
@@ -126,7 +112,7 @@
   line-height: 1;
 }
 
-.dp-Knowledgebase .dp-SortOrder .dp-Subtitle {
+.dp-Knowledgebase .dp-Menu-linkItem.dp-SortOrder .dp-Subtitle {
   color: var(--grey-dark);
   padding: 2px 0 10px;
 }
@@ -139,8 +125,9 @@
   border: 0.75px solid var(--grey);
   border-radius: 2px;
   display: flex;
+  line-height: 1;
   margin-bottom: 17px;
-  padding: 5px;
+  padding: 5px 8px 5px 5px;
   position: relative;
 }
 
@@ -187,15 +174,19 @@
   position: relative;
 } */
 
-/* .dp-Knowledgebase .dp-Menu .dp-Menu-linkItem:hover > .dp-Icon { */
-
 .dp-Knowledgebase .dp-Menu .dp-Menu-linkItem:hover > .dp-Cog {
   display: block;
 }
 
 .dp-Knowledgebase .dp-Menu .dp-Menu-linkItem .dp-Cog {
   left: calc(100% - 22px);
+  padding: 0;
+  position: absolute;
   top: calc(50% - 6px);
+}
+
+.dp-Knowledgebase .dp-Menu .dp-Menu-linkItem .dp-Cog .dp-Menu {
+  padding: 5px 0;
 }
 
 /* .dp-Menu .dp-Cog:hover .dp-Menu {

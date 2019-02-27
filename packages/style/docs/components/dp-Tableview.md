@@ -566,7 +566,16 @@ title: Tableview
                 <span class="dp-Card-title" contenteditable="true">Card title</span>
             </div>
             <div>&nbsp;</div>
-            <div>Column text</div>
+            <div class="dp-DepartmentItem">
+                <span class="dp-Item-title">Column text</span>
+                <span class="dp-Icon Icon--edit">
+                    <ul class="dp-Menu">
+                        <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                        <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                        <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                    </ul>
+                </span>
+            </div>
             <div>Column text</div>
             <div>9 weeks ago</div>
             <div class="dp-UserItem">
@@ -3855,7 +3864,16 @@ title: Tableview
                 <span class="dp-Card-title" contenteditable="true">Portal disabled landing page</span>
             </div>
             <div>&nbsp;</div>
-            <div>Support</div>
+            <div class="dp-DepartmentItem">
+                <span class="dp-Item-title">Support</span>
+                <span class="dp-Icon Icon--edit">
+                    <ul class="dp-Menu">
+                        <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                        <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                        <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                    </ul>
+                </span>
+            </div>
             <div>English (US)</div>
             <div>9 weeks ago</div>
             <div class="dp-UserItem">
@@ -7102,7 +7120,16 @@ title: Tableview
                 <span class="dp-Card-title" contenteditable="true">Portal disabled landing page</span>
             </div>
             <div>&nbsp;</div>
-            <div>Support</div>
+            <div class="dp-DepartmentItem">
+                <span class="dp-Item-title">Support</span>
+                <span class="dp-Icon Icon--edit">
+                    <ul class="dp-Menu">
+                        <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                        <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                        <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Column text</a></li>
+                    </ul>
+                </span>
+            </div>
             <div>English (US)</div>
             <div>9 weeks ago</div>
             <div class="dp-UserItem">

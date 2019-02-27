@@ -19,15 +19,40 @@
 }
 
 .dp-Card-title {
-  border-bottom: 1px solid transparent;
   color: var(--grey-darkest);
   cursor: pointer;
   font: var(--h-n-semibold);
   margin: 0 0 10px;
   max-width: max-content;
   overflow: hidden;
+  position: relative;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+.is-hover-link .dp-Card-title,
+.dp-Card-title:hover {
+  color: var(--brand-primary);
+}
+
+.is-hover-link .dp-Card-title::after,
+.dp-Card-title:hover::after,
+.dp-Knowledgebase .dp-orderingbar--Wrap ~ .dp-Card:hover .dp-Card-title::after {
+  background-color: var(--brand-primary);
+  bottom: 1px;
+  content: "";
+  height: 1px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.dp-Tasks-list.dp-Card-SectionTitle .dp-Card-title:hover {
+  color: var(--grey-darkest);
+}
+
+.dp-Tasks-list.dp-Card-SectionTitle .dp-Card-title:hover::after {
+  display: none;
 }
 
 .dp-Card-SectionTitle .dp-SortIconDescription {
@@ -107,18 +132,15 @@
 .dp-Card.dp-Level .dp-LevelCol {
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
 
 .dp-Card.dp-Level .dp-LevelCol:first-child {
-  flex: 0 0 auto;
-
-  /* padding: 2px 0; */
-
+  flex: 0 1 auto;
 }
 
 .dp-Card.dp-Level .dp-LevelCol:nth-child(2) {
   flex: 0 1 100%;
-  overflow: hidden;
   white-space: nowrap;
 }
 
@@ -154,15 +176,6 @@
   background-color: var(--info-light);
   border: 1px solid var(--brand-primary);
   box-shadow: var(--shadow-bottom-right);
-}
-
-.is-hover-link .dp-Card-title,
-.dp-Card-title:hover {
-  color: var(--brand-primary);
-  text-decoration: underline;
-  width: max-content;
-
-  /* border-bottom: 1px solid var(--brand-primary); */
 }
 
 .dp-CardList .dp-Card {
@@ -279,13 +292,14 @@
   margin-right: 5px;
 }
 
+.dp-Card .dp-UserName,
 .dp-Card .dp-UserEmail {
   color: var(--grey-dark);
   font: var(--p-xl);
   margin-left: 5px;
-
   overflow: hidden;
   text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .dp-Card .dp-TimeStatus {
@@ -497,14 +511,14 @@
   border-top: 1px solid transparent;
 }
 
-.dp-CardList.dp-GuidesDirectory .dp-Card:hover,
+/* .dp-CardList.dp-GuidesDirectory .dp-Card:hover,
 .dp-CardList.dp-GuideSections .dp-Card:hover {
   background-color: var(--info-light);
 }
 
 .dp-CardList.dp-GuidesDirectory .dp-Card:hover {
   border-right: 0;
-}
+} */
 
 .dp-CardList.dp-GuidesDirectory .is-rolling.dp-Card:hover {
   background-color: var(--info-light);

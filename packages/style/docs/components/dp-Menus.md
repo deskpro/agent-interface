@@ -235,7 +235,7 @@ title: Menus
 
             <li class="dp-DropdownDivider"></li>
 
-            <li class="dp-Menu-linkItem">Status <span class="dp-Arrow"></span>
+            <li class="dp-Menu-linkItem">Status <button class="dp-Arrow"></button>
                 <ul class="dp-Menu">
                     <li class="dp-Menu-search">
                         <form>

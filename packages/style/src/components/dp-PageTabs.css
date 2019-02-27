@@ -98,6 +98,7 @@
 .dp-Tabs .dp-Title,.dp-Tabs.Tabs--general .dp-TitleButton {
   color: var(--grey-darkest);
   font: var(--p-l);
+  line-height: 1.4;
   max-width: 200px;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -147,7 +148,7 @@
   margin: 0;
 }
 
-.dp-SelectedMore.dp-Menu {
+.dp-Tabs .dp-SelectedMore.dp-Menu {
   left: auto;
   padding: 0;
   right: 0;
@@ -254,10 +255,6 @@
   height: 14px;
   margin-right: 3px;
   width: 15px;
-}
-
-.Tabs--actions .dp-Tabs-item .dp-Icon.dp-lock {
-  background-size: 11px 14px;
 }
 
 .Tabs--actions .dp-Tabs-item.is-disabled {
