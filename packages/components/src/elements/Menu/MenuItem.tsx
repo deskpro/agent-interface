@@ -10,7 +10,8 @@ export type MenuItemProps = {
   name: React.Key;
   text: string;
   link?: string;
-  onClick?(e: React.SyntheticEvent<HTMLElement>): void;
+  onClick?: (itemName: React.Key, e: React.SyntheticEvent<HTMLElement>) => void;
+  isChecked?: boolean;
   className?: string;
   linkComponent?: any;
   trail?: string;
@@ -18,30 +19,25 @@ export type MenuItemProps = {
 
 const MenuItem: React.FC<MenuItemProps> = ({
   text,
+  name,
   icon,
   link,
   onClick,
   className,
   children,
+  isChecked = false,
   linkComponent = "a",
   trail = "",
   ...itemProps
 }) => {
-  const { onMenuClose, activeTrail, setActiveTrail } = React.useContext(
-    MenuContext
-  );
+  const { activeTrail, setActiveTrail } = React.useContext(MenuContext);
   const clickHandler = React.useCallback(
     e => {
-      if (link || onClick) {
-        if (typeof onClick === "function") {
-          onClick(e);
-        }
-        if (typeof onMenuClose === "function") {
-          onMenuClose();
-        }
+      if (typeof onClick === "function") {
+        onClick(name, e);
       }
     },
-    [link, onClick]
+    [name, onClick]
   );
   const activateMenuItem = React.useCallback(
     () => {
@@ -59,7 +55,9 @@ const MenuItem: React.FC<MenuItemProps> = ({
 
   return (
     <li
-      className={classNames("dp-Menu-linkItem", className)}
+      className={classNames("dp-Menu-linkItem", className, {
+        "is-checked": isChecked
+      })}
       {...itemProps}
       role="menuitem"
       onClick={clickHandler}

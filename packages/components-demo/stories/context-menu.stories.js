@@ -1,5 +1,6 @@
 import React from "react";
 import { subHours } from "date-fns";
+import ReactAvatar from "react-avatar";
 
 import { storiesOf } from "@storybook/react";
 import { action } from "@storybook/addon-actions";
@@ -17,18 +18,25 @@ storiesOf("ContextMenu", module)
   .add("ContextMenu", () => (
     <ContextMenu
       renderMenu={menuProps => (
-        <Menu {...menuProps}>
+        <Menu {...menuProps} title="Context Menu" withFilter>
           <Menu.MenuItem
-            name="copy"
-            text="Copy"
-            icon="copy"
-            onClick={action("click copy")}
+            name="rollover"
+            text="Rollover menu item"
+            icon="lock"
+            onClick={action()}
           />
           <Menu.MenuItem
-            name="paste"
-            text="Paste"
-            icon="paste"
-            onClick={action("click past")}
+            name="item2"
+            text="List item"
+            icon="on-hold"
+            onClick={action()}
+          />
+          <Menu.Divider />
+          <Menu.MenuItem
+            name="item3"
+            text="Delete"
+            icon="bin"
+            onClick={action()}
           />
         </Menu>
       )}
@@ -80,6 +88,36 @@ storiesOf("ContextMenu", module)
           }
           renderCogMenu={menuProps => (
             <Menu {...menuProps}>
+              <Menu.MenuItem name="assign" icon="avatar" text="Assignee">
+                <Menu withFilter isCheckable>
+                  <Menu.MenuItem
+                    key="berdyshev"
+                    name="berdyshev"
+                    icon={
+                      <ReactAvatar
+                        email="berdartem@gmail.com"
+                        name="Artem Berdyshev"
+                        round
+                        size={13}
+                      />
+                    }
+                    text="Artem Berdyshev"
+                  />
+                  <Menu.MenuItem
+                    key="chris"
+                    name="chris"
+                    icon={
+                      <ReactAvatar
+                        email="chris.nadeau@deskpro.com"
+                        name="Chris Nadeau"
+                        round
+                        size={13}
+                      />
+                    }
+                    text="Chris Nadeau"
+                  />
+                </Menu>
+              </Menu.MenuItem>
               <Menu.MenuItem name="bin" icon="bin" text="Delete" />
             </Menu>
           )}

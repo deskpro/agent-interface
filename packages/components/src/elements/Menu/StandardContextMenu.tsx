@@ -6,11 +6,11 @@ export type StandardMenuItem = {
   text: string;
   name: React.Key;
   icon: string;
-  subItems?: StandardMenuItem[];
+  subItems?: (StandardMenuItem | "-")[];
 };
 
 export type StandardContextMenuProps = {
-  onItemClick: (e: React.SyntheticEvent<HTMLElement>, name: React.Key) => void;
+  onItemClick: (name: React.Key, e: React.SyntheticEvent<HTMLElement>) => void;
   items: StandardMenuItem[];
 };
 
@@ -21,19 +21,25 @@ const StandardContextMenu: React.FC<StandardContextMenuProps> = ({
 }) => {
   const renderMenu = React.useCallback(
     menuProps => {
-      const renderItems = (menuItems: StandardMenuItem[]) =>
-        menuItems.map(({ name, subItems, ...itemProps }) => (
-          <Menu.MenuItem
-            key={name}
-            name={name}
-            {...itemProps}
-            onClick={e => onItemClick(e, name)}
-          >
-            {!!subItems && subItems.length > 0 && (
-              <Menu>{renderItems(subItems)}</Menu>
-            )}
-          </Menu.MenuItem>
-        ));
+      const renderItems = (menuItems: (StandardMenuItem | "-")[]) =>
+        menuItems.map(item => {
+          if (item === "-") {
+            return <Menu.Divider />;
+          }
+          const { name, subItems, ...itemProps } = item as StandardMenuItem;
+          return (
+            <Menu.MenuItem
+              key={name}
+              name={name}
+              {...itemProps}
+              onClick={onItemClick}
+            >
+              {!!subItems && subItems.length > 0 && (
+                <Menu>{renderItems(subItems)}</Menu>
+              )}
+            </Menu.MenuItem>
+          );
+        });
 
       return <Menu {...menuProps}>{renderItems(items)}</Menu>;
     },
