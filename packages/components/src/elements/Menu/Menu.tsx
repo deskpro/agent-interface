@@ -17,6 +17,7 @@ export type MenuProps = {
   style?: any;
   title?: string;
   withFilter?: boolean;
+  checkedItems?: React.Key[];
   isCheckable?: boolean;
   checkType?: "single" | "multi";
   onItemCheck?: (
@@ -35,6 +36,7 @@ const MenuComponent: React.FC<MenuProps> = ({
   className,
   title,
   children,
+  checkedItems = [],
   isCheckable = false,
   checkType = "single",
   onItemCheck,
@@ -85,6 +87,12 @@ const MenuComponent: React.FC<MenuProps> = ({
       }
     },
     [checkType, onItemCheck, checked, setChecked]
+  );
+  React.useEffect(
+    () => {
+      setChecked(checkedItems);
+    },
+    [checkedItems]
   );
 
   const hasIcons = React.useMemo(
