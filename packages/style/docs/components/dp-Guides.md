@@ -403,7 +403,7 @@ title: Guides
                 <ul class="dp-Menu">
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">Move<span class="dp-Icon dp-Arrow"></span></a>
-                        <ul class="dp-Menu Menu-tick">
+                        <ul class="dp-Menu Menu-tick Menu--tick-left">
                             <li class="dp-Menu-title">
                                 Topic title
                             </li>
@@ -443,7 +443,7 @@ title: Guides
 
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                        <ul class="dp-Menu Menu-tick">
+                        <ul class="dp-Menu Menu-tick Menu--tick-left">
                             <li class="dp-Menu-linkItem">
                                 <a href="#" class="dp-listItem">Folder title</a>
                             </li>
@@ -457,7 +457,7 @@ title: Guides
 
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                        <ul class="dp-Menu Menu-tick">
+                        <ul class="dp-Menu Menu-tick Menu--tick-left">
                             <li class="dp-Menu-linkItem">
                                 <a href="#" class="dp-listItem">Folder title</a>
                             </li>
@@ -469,7 +469,7 @@ title: Guides
 
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                        <ul class="dp-Menu Menu-tick">
+                        <ul class="dp-Menu Menu-tick Menu--tick-left">
                             <li class="dp-Menu-linkItem">
                                 <a href="#" class="dp-listItem">Folder title</a>
                             </li>
@@ -483,7 +483,7 @@ title: Guides
 
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                        <ul class="dp-Menu Menu-tick">
+                        <ul class="dp-Menu Menu-tick Menu--tick-left">
                             <li class="dp-Menu-linkItem">
                                 <a href="#" class="dp-listItem">Folder title</a>
                             </li>
@@ -495,7 +495,7 @@ title: Guides
 
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                        <ul class="dp-Menu Menu-tick">
+                        <ul class="dp-Menu Menu-tick Menu--tick-left">
                             <li class="dp-Menu-linkItem">
                                 <a href="#" class="dp-listItem">Folder titleFolder title</a>
                             </li>
@@ -507,7 +507,7 @@ title: Guides
 
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                        <ul class="dp-Menu Menu-tick">
+                        <ul class="dp-Menu Menu-tick Menu--tick-left">
                             <li class="dp-Menu-linkItem">
                                 <a href="#" class="dp-listItem">Folder title</a>
                             </li>
@@ -550,7 +550,7 @@ title: Guides
                         <ul class="dp-Menu">
                             <li class="dp-Menu-linkItem">
                                 <a href="" class="dp-listItem">Move<span class="dp-Icon dp-Arrow"></span></a>
-                                <ul class="dp-Menu Menu-tick">
+                                <ul class="dp-Menu Menu-tick Menu--tick-left">
                                     <li class="dp-Menu-title">
                                         Topic title
                                     </li>
@@ -590,7 +590,7 @@ title: Guides
 
                             <li class="dp-Menu-linkItem">
                                 <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                                <ul class="dp-Menu Menu-tick">
+                                <ul class="dp-Menu Menu-tick Menu--tick-left">
                                     <li class="dp-Menu-linkItem">
                                         <a href="#" class="dp-listItem">Folder title</a>
                                     </li>
@@ -604,7 +604,7 @@ title: Guides
 
                             <li class="dp-Menu-linkItem">
                                 <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                                <ul class="dp-Menu Menu-tick">
+                                <ul class="dp-Menu Menu-tick Menu--tick-left">
                                     <li class="dp-Menu-linkItem">
                                         <a href="#" class="dp-listItem">Folder title</a>
                                     </li>
@@ -616,7 +616,7 @@ title: Guides
 
                             <li class="dp-Menu-linkItem">
                                 <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                                <ul class="dp-Menu Menu-tick">
+                                <ul class="dp-Menu Menu-tick Menu--tick-left">
                                     <li class="dp-Menu-linkItem">
                                         <a href="#" class="dp-listItem">Folder title</a>
                                     </li>
@@ -630,7 +630,7 @@ title: Guides
 
                             <li class="dp-Menu-linkItem">
                                 <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                                <ul class="dp-Menu Menu-tick">
+                                <ul class="dp-Menu Menu-tick Menu--tick-left">
                                     <li class="dp-Menu-linkItem">
                                         <a href="#" class="dp-listItem">Folder title</a>
                                     </li>
@@ -642,7 +642,7 @@ title: Guides
 
                             <li class="dp-Menu-linkItem">
                                 <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                                <ul class="dp-Menu Menu-tick">
+                                <ul class="dp-Menu Menu-tick Menu--tick-left">
                                     <li class="dp-Menu-linkItem">
                                         <a href="#" class="dp-listItem">Folder titleFolder title</a>
                                     </li>
@@ -654,7 +654,7 @@ title: Guides
 
                             <li class="dp-Menu-linkItem">
                                 <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                                <ul class="dp-Menu Menu-tick">
+                                <ul class="dp-Menu Menu-tick Menu--tick-left">
                                     <li class="dp-Menu-linkItem">
                                         <a href="#" class="dp-listItem">Folder title</a>
                                     </li>
@@ -700,7 +700,7 @@ title: Guides
                         <ul class="dp-Menu">
                             <li class="dp-Menu-linkItem">
                                 <a href="" class="dp-listItem">Move<span class="dp-Icon dp-Arrow"></span></a>
-                                <ul class="dp-Menu Menu-tick">
+                                <ul class="dp-Menu Menu-tick Menu--tick-left">
                                     <li class="dp-Menu-title">
                                         Topic title
                                     </li>
@@ -740,7 +740,7 @@ title: Guides
 
                             <li class="dp-Menu-linkItem">
                                 <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                                <ul class="dp-Menu Menu-tick">
+                                <ul class="dp-Menu Menu-tick Menu--tick-left">
                                     <li class="dp-Menu-linkItem">
                                         <a href="#" class="dp-listItem">Folder title</a>
                                     </li>
@@ -754,7 +754,7 @@ title: Guides
 
                             <li class="dp-Menu-linkItem">
                                 <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                                <ul class="dp-Menu Menu-tick">
+                                <ul class="dp-Menu Menu-tick Menu--tick-left">
                                     <li class="dp-Menu-linkItem">
                                         <a href="#" class="dp-listItem">Folder title</a>
                                     </li>
@@ -766,7 +766,7 @@ title: Guides
 
                             <li class="dp-Menu-linkItem">
                                 <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                                <ul class="dp-Menu Menu-tick">
+                                <ul class="dp-Menu Menu-tick Menu--tick-left">
                                     <li class="dp-Menu-linkItem">
                                         <a href="#" class="dp-listItem">Folder title</a>
                                     </li>
@@ -780,7 +780,7 @@ title: Guides
 
                             <li class="dp-Menu-linkItem">
                                 <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                                <ul class="dp-Menu Menu-tick">
+                                <ul class="dp-Menu Menu-tick Menu--tick-left">
                                     <li class="dp-Menu-linkItem">
                                         <a href="#" class="dp-listItem">Folder title</a>
                                     </li>
@@ -792,7 +792,7 @@ title: Guides
 
                             <li class="dp-Menu-linkItem">
                                 <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                                <ul class="dp-Menu Menu-tick">
+                                <ul class="dp-Menu Menu-tick Menu--tick-left">
                                     <li class="dp-Menu-linkItem">
                                         <a href="#" class="dp-listItem">Folder titleFolder title</a>
                                     </li>
@@ -804,7 +804,7 @@ title: Guides
 
                             <li class="dp-Menu-linkItem">
                                 <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                                <ul class="dp-Menu Menu-tick">
+                                <ul class="dp-Menu Menu-tick Menu--tick-left">
                                     <li class="dp-Menu-linkItem">
                                         <a href="#" class="dp-listItem">Folder title</a>
                                     </li>
@@ -853,7 +853,7 @@ title: Guides
                                 <ul class="dp-Menu">
                                     <li class="dp-Menu-linkItem is-active">
                                         <a href="" class="dp-listItem">Move<span class="dp-Icon dp-Arrow"></span></a>
-                                        <ul class="dp-Menu Menu-tick">
+                                        <ul class="dp-Menu Menu-tick Menu--tick-left">
                                             <li class="dp-Menu-title">
                                                 Topic title
                                             </li>
@@ -893,7 +893,7 @@ title: Guides
 
                                     <li class="dp-Menu-linkItem">
                                         <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                                        <ul class="dp-Menu Menu-tick">
+                                        <ul class="dp-Menu Menu-tick Menu--tick-left">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">Folder title</a>
                                             </li>
@@ -907,7 +907,7 @@ title: Guides
 
                                     <li class="dp-Menu-linkItem">
                                         <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                                        <ul class="dp-Menu Menu-tick">
+                                        <ul class="dp-Menu Menu-tick Menu--tick-left">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">Folder title</a>
                                             </li>
@@ -919,7 +919,7 @@ title: Guides
 
                                     <li class="dp-Menu-linkItem">
                                         <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                                        <ul class="dp-Menu Menu-tick">
+                                        <ul class="dp-Menu Menu-tick Menu--tick-left">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">Folder title</a>
                                             </li>
@@ -933,7 +933,7 @@ title: Guides
 
                                     <li class="dp-Menu-linkItem">
                                         <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                                        <ul class="dp-Menu Menu-tick">
+                                        <ul class="dp-Menu Menu-tick Menu--tick-left">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">Folder title</a>
                                             </li>
@@ -945,7 +945,7 @@ title: Guides
 
                                     <li class="dp-Menu-linkItem">
                                         <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                                        <ul class="dp-Menu Menu-tick">
+                                        <ul class="dp-Menu Menu-tick Menu--tick-left">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">Folder titleFolder title</a>
                                             </li>
@@ -957,7 +957,7 @@ title: Guides
 
                                     <li class="dp-Menu-linkItem">
                                         <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                                        <ul class="dp-Menu Menu-tick">
+                                        <ul class="dp-Menu Menu-tick Menu--tick-left">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">Folder title</a>
                                             </li>
@@ -1007,7 +1007,7 @@ title: Guides
                 <ul class="dp-Menu">
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">Move<span class="dp-Icon dp-Arrow"></span></a>
-                        <ul class="dp-Menu Menu-tick">
+                        <ul class="dp-Menu Menu-tick Menu--tick-left">
                             <li class="dp-Menu-title">
                                 Topic title
                             </li>
@@ -1047,7 +1047,7 @@ title: Guides
 
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                        <ul class="dp-Menu Menu-tick">
+                        <ul class="dp-Menu Menu-tick Menu--tick-left">
                             <li class="dp-Menu-linkItem">
                                 <a href="#" class="dp-listItem">Folder title</a>
                             </li>
@@ -1061,7 +1061,7 @@ title: Guides
 
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                        <ul class="dp-Menu Menu-tick">
+                        <ul class="dp-Menu Menu-tick Menu--tick-left">
                             <li class="dp-Menu-linkItem">
                                 <a href="#" class="dp-listItem">Folder title</a>
                             </li>
@@ -1073,7 +1073,7 @@ title: Guides
 
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                        <ul class="dp-Menu Menu-tick">
+                        <ul class="dp-Menu Menu-tick Menu--tick-left">
                             <li class="dp-Menu-linkItem">
                                 <a href="#" class="dp-listItem">Folder title</a>
                             </li>
@@ -1087,7 +1087,7 @@ title: Guides
 
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                        <ul class="dp-Menu Menu-tick">
+                        <ul class="dp-Menu Menu-tick Menu--tick-left">
                             <li class="dp-Menu-linkItem">
                                 <a href="#" class="dp-listItem">Folder title</a>
                             </li>
@@ -1099,7 +1099,7 @@ title: Guides
 
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                        <ul class="dp-Menu Menu-tick">
+                        <ul class="dp-Menu Menu-tick Menu--tick-left">
                             <li class="dp-Menu-linkItem">
                                 <a href="#" class="dp-listItem">Folder titleFolder title</a>
                             </li>
@@ -1111,7 +1111,7 @@ title: Guides
 
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                        <ul class="dp-Menu Menu-tick">
+                        <ul class="dp-Menu Menu-tick Menu--tick-left">
                             <li class="dp-Menu-linkItem">
                                 <a href="#" class="dp-listItem">Folder title</a>
                             </li>
@@ -1157,7 +1157,7 @@ title: Guides
                 <ul class="dp-Menu">
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">Move<span class="dp-Icon dp-Arrow"></span></a>
-                        <ul class="dp-Menu Menu-tick">
+                        <ul class="dp-Menu Menu-tick Menu--tick-left">
                             <li class="dp-Menu-title">
                                 Topic title
                             </li>
@@ -1197,7 +1197,7 @@ title: Guides
 
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                        <ul class="dp-Menu Menu-tick">
+                        <ul class="dp-Menu Menu-tick Menu--tick-left">
                             <li class="dp-Menu-linkItem">
                                 <a href="#" class="dp-listItem">Folder title</a>
                             </li>
@@ -1211,7 +1211,7 @@ title: Guides
 
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                        <ul class="dp-Menu Menu-tick">
+                        <ul class="dp-Menu Menu-tick Menu--tick-left">
                             <li class="dp-Menu-linkItem">
                                 <a href="#" class="dp-listItem">Folder title</a>
                             </li>
@@ -1223,7 +1223,7 @@ title: Guides
 
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                        <ul class="dp-Menu Menu-tick">
+                        <ul class="dp-Menu Menu-tick Menu--tick-left">
                             <li class="dp-Menu-linkItem">
                                 <a href="#" class="dp-listItem">Folder title</a>
                             </li>
@@ -1237,7 +1237,7 @@ title: Guides
 
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                        <ul class="dp-Menu Menu-tick">
+                        <ul class="dp-Menu Menu-tick Menu--tick-left">
                             <li class="dp-Menu-linkItem">
                                 <a href="#" class="dp-listItem">Folder title</a>
                             </li>
@@ -1249,7 +1249,7 @@ title: Guides
 
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                        <ul class="dp-Menu Menu-tick">
+                        <ul class="dp-Menu Menu-tick Menu--tick-left">
                             <li class="dp-Menu-linkItem">
                                 <a href="#" class="dp-listItem">Folder titleFolder title</a>
                             </li>
@@ -1261,7 +1261,7 @@ title: Guides
 
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                        <ul class="dp-Menu Menu-tick">
+                        <ul class="dp-Menu Menu-tick Menu--tick-left">
                             <li class="dp-Menu-linkItem">
                                 <a href="#" class="dp-listItem">Folder title</a>
                             </li>
@@ -1312,7 +1312,7 @@ title: Guides
                         <ul class="dp-Menu">
                             <li class="dp-Menu-linkItem">
                                 <a href="" class="dp-listItem">Move<span class="dp-Icon dp-Arrow"></span></a>
-                                <ul class="dp-Menu Menu-tick">
+                                <ul class="dp-Menu Menu-tick Menu--tick-left">
                                     <li class="dp-Menu-title">
                                         Topic title
                                     </li>
@@ -1352,7 +1352,7 @@ title: Guides
 
                             <li class="dp-Menu-linkItem">
                                 <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                                <ul class="dp-Menu Menu-tick">
+                                <ul class="dp-Menu Menu-tick Menu--tick-left">
                                     <li class="dp-Menu-linkItem">
                                         <a href="#" class="dp-listItem">Folder title</a>
                                     </li>
@@ -1366,7 +1366,7 @@ title: Guides
 
                             <li class="dp-Menu-linkItem">
                                 <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                                <ul class="dp-Menu Menu-tick">
+                                <ul class="dp-Menu Menu-tick Menu--tick-left">
                                     <li class="dp-Menu-linkItem">
                                         <a href="#" class="dp-listItem">Folder title</a>
                                     </li>
@@ -1378,7 +1378,7 @@ title: Guides
 
                             <li class="dp-Menu-linkItem">
                                 <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                                <ul class="dp-Menu Menu-tick">
+                                <ul class="dp-Menu Menu-tick Menu--tick-left">
                                     <li class="dp-Menu-linkItem">
                                         <a href="#" class="dp-listItem">Folder title</a>
                                     </li>
@@ -1392,7 +1392,7 @@ title: Guides
 
                             <li class="dp-Menu-linkItem">
                                 <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                                <ul class="dp-Menu Menu-tick">
+                                <ul class="dp-Menu Menu-tick Menu--tick-left">
                                     <li class="dp-Menu-linkItem">
                                         <a href="#" class="dp-listItem">Folder title</a>
                                     </li>
@@ -1404,7 +1404,7 @@ title: Guides
 
                             <li class="dp-Menu-linkItem">
                                 <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                                <ul class="dp-Menu Menu-tick">
+                                <ul class="dp-Menu Menu-tick Menu--tick-left">
                                     <li class="dp-Menu-linkItem">
                                         <a href="#" class="dp-listItem">Folder titleFolder title</a>
                                     </li>
@@ -1416,7 +1416,7 @@ title: Guides
 
                             <li class="dp-Menu-linkItem">
                                 <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                                <ul class="dp-Menu Menu-tick">
+                                <ul class="dp-Menu Menu-tick Menu--tick-left">
                                     <li class="dp-Menu-linkItem">
                                         <a href="#" class="dp-listItem">Folder title</a>
                                     </li>
@@ -1460,7 +1460,7 @@ title: Guides
                                 <ul class="dp-Menu">
                                     <li class="dp-Menu-linkItem">
                                         <a href="" class="dp-listItem">Move<span class="dp-Icon dp-Arrow"></span></a>
-                                        <ul class="dp-Menu Menu-tick">
+                                        <ul class="dp-Menu Menu-tick Menu--tick-left">
                                             <li class="dp-Menu-title">
                                                 Topic title
                                             </li>
@@ -1500,7 +1500,7 @@ title: Guides
 
                                     <li class="dp-Menu-linkItem">
                                         <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                                        <ul class="dp-Menu Menu-tick">
+                                        <ul class="dp-Menu Menu-tick Menu--tick-left">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">Folder title</a>
                                             </li>
@@ -1514,7 +1514,7 @@ title: Guides
 
                                     <li class="dp-Menu-linkItem">
                                         <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                                        <ul class="dp-Menu Menu-tick">
+                                        <ul class="dp-Menu Menu-tick Menu--tick-left">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">Folder title</a>
                                             </li>
@@ -1526,7 +1526,7 @@ title: Guides
 
                                     <li class="dp-Menu-linkItem">
                                         <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                                        <ul class="dp-Menu Menu-tick">
+                                        <ul class="dp-Menu Menu-tick Menu--tick-left">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">Folder title</a>
                                             </li>
@@ -1540,7 +1540,7 @@ title: Guides
 
                                     <li class="dp-Menu-linkItem">
                                         <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                                        <ul class="dp-Menu Menu-tick">
+                                        <ul class="dp-Menu Menu-tick Menu--tick-left">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">Folder title</a>
                                             </li>
@@ -1552,7 +1552,7 @@ title: Guides
 
                                     <li class="dp-Menu-linkItem">
                                         <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                                        <ul class="dp-Menu Menu-tick">
+                                        <ul class="dp-Menu Menu-tick Menu--tick-left">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">Folder titleFolder title</a>
                                             </li>
@@ -1564,7 +1564,7 @@ title: Guides
 
                                     <li class="dp-Menu-linkItem">
                                         <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                                        <ul class="dp-Menu Menu-tick">
+                                        <ul class="dp-Menu Menu-tick Menu--tick-left">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">Folder title</a>
                                             </li>
@@ -1610,7 +1610,7 @@ title: Guides
                                 <ul class="dp-Menu">
                                     <li class="dp-Menu-linkItem">
                                         <a href="" class="dp-listItem">Move<span class="dp-Icon dp-Arrow"></span></a>
-                                        <ul class="dp-Menu Menu-tick">
+                                        <ul class="dp-Menu Menu-tick Menu--tick-left">
                                             <li class="dp-Menu-title">
                                                 Topic title
                                             </li>
@@ -1650,7 +1650,7 @@ title: Guides
 
                                     <li class="dp-Menu-linkItem">
                                         <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                                        <ul class="dp-Menu Menu-tick">
+                                        <ul class="dp-Menu Menu-tick Menu--tick-left">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">Folder title</a>
                                             </li>
@@ -1664,7 +1664,7 @@ title: Guides
 
                                     <li class="dp-Menu-linkItem">
                                         <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                                        <ul class="dp-Menu Menu-tick">
+                                        <ul class="dp-Menu Menu-tick Menu--tick-left">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">Folder title</a>
                                             </li>
@@ -1676,7 +1676,7 @@ title: Guides
 
                                     <li class="dp-Menu-linkItem">
                                         <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                                        <ul class="dp-Menu Menu-tick">
+                                        <ul class="dp-Menu Menu-tick Menu--tick-left">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">Folder title</a>
                                             </li>
@@ -1690,7 +1690,7 @@ title: Guides
 
                                     <li class="dp-Menu-linkItem">
                                         <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                                        <ul class="dp-Menu Menu-tick">
+                                        <ul class="dp-Menu Menu-tick Menu--tick-left">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">Folder title</a>
                                             </li>
@@ -1702,7 +1702,7 @@ title: Guides
 
                                     <li class="dp-Menu-linkItem">
                                         <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                                        <ul class="dp-Menu Menu-tick">
+                                        <ul class="dp-Menu Menu-tick Menu--tick-left">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">Folder titleFolder title</a>
                                             </li>
@@ -1714,7 +1714,7 @@ title: Guides
 
                                     <li class="dp-Menu-linkItem">
                                         <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                                        <ul class="dp-Menu Menu-tick">
+                                        <ul class="dp-Menu Menu-tick Menu--tick-left">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">Folder title</a>
                                             </li>
@@ -1762,7 +1762,7 @@ title: Guides
                                 <ul class="dp-Menu">
                                     <li class="dp-Menu-linkItem">
                                         <a href="" class="dp-listItem">Move<span class="dp-Icon dp-Arrow"></span></a>
-                                        <ul class="dp-Menu Menu-tick">
+                                        <ul class="dp-Menu Menu-tick Menu--tick-left">
                                             <li class="dp-Menu-title">
                                                 Topic title
                                             </li>
@@ -1802,7 +1802,7 @@ title: Guides
 
                                     <li class="dp-Menu-linkItem">
                                         <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                                        <ul class="dp-Menu Menu-tick">
+                                        <ul class="dp-Menu Menu-tick Menu--tick-left">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">Folder title</a>
                                             </li>
@@ -1816,7 +1816,7 @@ title: Guides
 
                                     <li class="dp-Menu-linkItem">
                                         <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                                        <ul class="dp-Menu Menu-tick">
+                                        <ul class="dp-Menu Menu-tick Menu--tick-left">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">Folder title</a>
                                             </li>
@@ -1828,7 +1828,7 @@ title: Guides
 
                                     <li class="dp-Menu-linkItem">
                                         <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                                        <ul class="dp-Menu Menu-tick">
+                                        <ul class="dp-Menu Menu-tick Menu--tick-left">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">Folder title</a>
                                             </li>
@@ -1842,7 +1842,7 @@ title: Guides
 
                                     <li class="dp-Menu-linkItem">
                                         <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                                        <ul class="dp-Menu Menu-tick">
+                                        <ul class="dp-Menu Menu-tick Menu--tick-left">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">Folder title</a>
                                             </li>
@@ -1854,7 +1854,7 @@ title: Guides
 
                                     <li class="dp-Menu-linkItem">
                                         <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                                        <ul class="dp-Menu Menu-tick">
+                                        <ul class="dp-Menu Menu-tick Menu--tick-left">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">Folder titleFolder title</a>
                                             </li>
@@ -1866,7 +1866,7 @@ title: Guides
 
                                     <li class="dp-Menu-linkItem">
                                         <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                                        <ul class="dp-Menu Menu-tick">
+                                        <ul class="dp-Menu Menu-tick Menu--tick-left">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">Folder title</a>
                                             </li>
@@ -1908,7 +1908,7 @@ title: Guides
                                 <ul class="dp-Menu">
                                     <li class="dp-Menu-linkItem">
                                         <a href="" class="dp-listItem">Move<span class="dp-Icon dp-Arrow"></span></a>
-                                        <ul class="dp-Menu Menu-tick">
+                                        <ul class="dp-Menu Menu-tick Menu--tick-left">
                                             <li class="dp-Menu-title">
                                                 Topic title
                                             </li>
@@ -1948,7 +1948,7 @@ title: Guides
 
                                     <li class="dp-Menu-linkItem">
                                         <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                                        <ul class="dp-Menu Menu-tick">
+                                        <ul class="dp-Menu Menu-tick Menu--tick-left">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">Folder title</a>
                                             </li>
@@ -1962,7 +1962,7 @@ title: Guides
 
                                     <li class="dp-Menu-linkItem">
                                         <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                                        <ul class="dp-Menu Menu-tick">
+                                        <ul class="dp-Menu Menu-tick Menu--tick-left">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">Folder title</a>
                                             </li>
@@ -1974,7 +1974,7 @@ title: Guides
 
                                     <li class="dp-Menu-linkItem">
                                         <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                                        <ul class="dp-Menu Menu-tick">
+                                        <ul class="dp-Menu Menu-tick Menu--tick-left">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">Folder title</a>
                                             </li>
@@ -1988,7 +1988,7 @@ title: Guides
 
                                     <li class="dp-Menu-linkItem">
                                         <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                                        <ul class="dp-Menu Menu-tick">
+                                        <ul class="dp-Menu Menu-tick Menu--tick-left">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">Folder title</a>
                                             </li>
@@ -2000,7 +2000,7 @@ title: Guides
 
                                     <li class="dp-Menu-linkItem">
                                         <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                                        <ul class="dp-Menu Menu-tick">
+                                        <ul class="dp-Menu Menu-tick Menu--tick-left">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">Folder titleFolder title</a>
                                             </li>
@@ -2012,7 +2012,7 @@ title: Guides
 
                                     <li class="dp-Menu-linkItem">
                                         <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                                        <ul class="dp-Menu Menu-tick">
+                                        <ul class="dp-Menu Menu-tick Menu--tick-left">
                                             <li class="dp-Menu-linkItem">
                                                 <a href="#" class="dp-listItem">Folder title</a>
                                             </li>
@@ -2063,7 +2063,7 @@ title: Guides
                 <ul class="dp-Menu">
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">Move<span class="dp-Icon dp-Arrow"></span></a>
-                        <ul class="dp-Menu Menu-tick">
+                        <ul class="dp-Menu Menu-tick Menu--tick-left">
                             <li class="dp-Menu-title">
                                 Topic title
                             </li>
@@ -2103,7 +2103,7 @@ title: Guides
 
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                        <ul class="dp-Menu Menu-tick">
+                        <ul class="dp-Menu Menu-tick Menu--tick-left">
                             <li class="dp-Menu-linkItem">
                                 <a href="#" class="dp-listItem">Folder title</a>
                             </li>
@@ -2117,7 +2117,7 @@ title: Guides
 
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                        <ul class="dp-Menu Menu-tick">
+                        <ul class="dp-Menu Menu-tick Menu--tick-left">
                             <li class="dp-Menu-linkItem">
                                 <a href="#" class="dp-listItem">Folder title</a>
                             </li>
@@ -2129,7 +2129,7 @@ title: Guides
 
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                        <ul class="dp-Menu Menu-tick">
+                        <ul class="dp-Menu Menu-tick Menu--tick-left">
                             <li class="dp-Menu-linkItem">
                                 <a href="#" class="dp-listItem">Folder title</a>
                             </li>
@@ -2143,7 +2143,7 @@ title: Guides
 
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                        <ul class="dp-Menu Menu-tick">
+                        <ul class="dp-Menu Menu-tick Menu--tick-left">
                             <li class="dp-Menu-linkItem">
                                 <a href="#" class="dp-listItem">Folder title</a>
                             </li>
@@ -2155,7 +2155,7 @@ title: Guides
 
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                        <ul class="dp-Menu Menu-tick">
+                        <ul class="dp-Menu Menu-tick Menu--tick-left">
                             <li class="dp-Menu-linkItem">
                                 <a href="#" class="dp-listItem">Folder titleFolder title</a>
                             </li>
@@ -2167,7 +2167,7 @@ title: Guides
 
                     <li class="dp-Menu-linkItem">
                         <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                        <ul class="dp-Menu Menu-tick">
+                        <ul class="dp-Menu Menu-tick Menu--tick-left">
                             <li class="dp-Menu-linkItem">
                                 <a href="#" class="dp-listItem">Folder title</a>
                             </li>
@@ -2210,7 +2210,7 @@ title: Guides
                         <ul class="dp-Menu">
                             <li class="dp-Menu-linkItem is-active">
                                 <a href="" class="dp-listItem">Move<span class="dp-Icon dp-Arrow"></span></a>
-                                <ul class="dp-Menu Menu-tick">
+                                <ul class="dp-Menu Menu-tick Menu--tick-left">
                                     <li class="dp-Menu-title">
                                         Topic title
                                     </li>
@@ -2250,7 +2250,7 @@ title: Guides
 
                             <li class="dp-Menu-linkItem">
                                 <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                                <ul class="dp-Menu Menu-tick">
+                                <ul class="dp-Menu Menu-tick Menu--tick-left">
                                     <li class="dp-Menu-linkItem">
                                         <a href="#" class="dp-listItem">Folder title</a>
                                     </li>
@@ -2262,7 +2262,7 @@ title: Guides
 
                             <li class="dp-Menu-linkItem">
                                 <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                                <ul class="dp-Menu Menu-tick">
+                                <ul class="dp-Menu Menu-tick Menu--tick-left">
                                     <li class="dp-Menu-linkItem">
                                         <a href="#" class="dp-listItem">Folder title</a>
                                     </li>
@@ -2274,7 +2274,7 @@ title: Guides
 
                             <li class="dp-Menu-linkItem">
                                 <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                                <ul class="dp-Menu Menu-tick">
+                                <ul class="dp-Menu Menu-tick Menu--tick-left">
                                     <li class="dp-Menu-linkItem">
                                         <a href="#" class="dp-listItem">Folder title</a>
                                     </li>
@@ -2286,7 +2286,7 @@ title: Guides
 
                             <li class="dp-Menu-linkItem">
                                 <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                                <ul class="dp-Menu Menu-tick">
+                                <ul class="dp-Menu Menu-tick Menu--tick-left">
                                     <li class="dp-Menu-linkItem">
                                         <a href="#" class="dp-listItem">Folder title</a>
                                     </li>
@@ -2298,7 +2298,7 @@ title: Guides
 
                             <li class="dp-Menu-linkItem">
                                 <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                                <ul class="dp-Menu Menu-tick">
+                                <ul class="dp-Menu Menu-tick Menu--tick-left">
                                     <li class="dp-Menu-linkItem">
                                         <a href="#" class="dp-listItem">Folder titleFolder title</a>
                                     </li>
@@ -2310,7 +2310,7 @@ title: Guides
 
                             <li class="dp-Menu-linkItem">
                                 <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                                <ul class="dp-Menu Menu-tick">
+                                <ul class="dp-Menu Menu-tick Menu--tick-left">
                                     <li class="dp-Menu-linkItem">
                                         <a href="#" class="dp-listItem">Folder title</a>
                                     </li>
@@ -2357,7 +2357,7 @@ title: Guides
                         <ul class="dp-Menu">
                             <li class="dp-Menu-linkItem is-active">
                                 <a href="" class="dp-listItem">Move<span class="dp-Icon dp-Arrow"></span></a>
-                                <ul class="dp-Menu Menu-tick">
+                                <ul class="dp-Menu Menu-tick Menu--tick-left">
                                     <li class="dp-Menu-title">
                                         Topic title
                                     </li>
@@ -2397,7 +2397,7 @@ title: Guides
 
                             <li class="dp-Menu-linkItem">
                                 <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                                <ul class="dp-Menu Menu-tick">
+                                <ul class="dp-Menu Menu-tick Menu--tick-left">
                                     <li class="dp-Menu-linkItem">
                                         <a href="#" class="dp-listItem">Folder title</a>
                                     </li>
@@ -2409,7 +2409,7 @@ title: Guides
 
                             <li class="dp-Menu-linkItem">
                                 <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                                <ul class="dp-Menu Menu-tick">
+                                <ul class="dp-Menu Menu-tick Menu--tick-left">
                                     <li class="dp-Menu-linkItem">
                                         <a href="#" class="dp-listItem">Folder title</a>
                                     </li>
@@ -2421,7 +2421,7 @@ title: Guides
 
                             <li class="dp-Menu-linkItem">
                                 <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                                <ul class="dp-Menu Menu-tick">
+                                <ul class="dp-Menu Menu-tick Menu--tick-left">
                                     <li class="dp-Menu-linkItem">
                                         <a href="#" class="dp-listItem">Folder title</a>
                                     </li>
@@ -2433,7 +2433,7 @@ title: Guides
 
                             <li class="dp-Menu-linkItem">
                                 <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                                <ul class="dp-Menu Menu-tick">
+                                <ul class="dp-Menu Menu-tick Menu--tick-left">
                                     <li class="dp-Menu-linkItem">
                                         <a href="#" class="dp-listItem">Folder title</a>
                                     </li>
@@ -2445,7 +2445,7 @@ title: Guides
 
                             <li class="dp-Menu-linkItem">
                                 <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                                <ul class="dp-Menu Menu-tick">
+                                <ul class="dp-Menu Menu-tick Menu--tick-left">
                                     <li class="dp-Menu-linkItem">
                                         <a href="#" class="dp-listItem">Folder titleFolder title</a>
                                     </li>
@@ -2457,7 +2457,7 @@ title: Guides
 
                             <li class="dp-Menu-linkItem">
                                 <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                                <ul class="dp-Menu Menu-tick">
+                                <ul class="dp-Menu Menu-tick Menu--tick-left">
                                     <li class="dp-Menu-linkItem">
                                         <a href="#" class="dp-listItem">Folder title</a>
                                     </li>
@@ -2504,7 +2504,7 @@ title: Guides
                         <ul class="dp-Menu">
                             <li class="dp-Menu-linkItem is-active">
                                 <a href="" class="dp-listItem">Move<span class="dp-Icon dp-Arrow"></span></a>
-                                <ul class="dp-Menu Menu-tick">
+                                <ul class="dp-Menu Menu-tick Menu--tick-left">
                                     <li class="dp-Menu-title">
                                         Topic title
                                     </li>
@@ -2544,7 +2544,7 @@ title: Guides
 
                             <li class="dp-Menu-linkItem">
                                 <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                                <ul class="dp-Menu Menu-tick">
+                                <ul class="dp-Menu Menu-tick Menu--tick-left">
                                     <li class="dp-Menu-linkItem">
                                         <a href="#" class="dp-listItem">Folder title</a>
                                     </li>
@@ -2556,7 +2556,7 @@ title: Guides
 
                             <li class="dp-Menu-linkItem">
                                 <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                                <ul class="dp-Menu Menu-tick">
+                                <ul class="dp-Menu Menu-tick Menu--tick-left">
                                     <li class="dp-Menu-linkItem">
                                         <a href="#" class="dp-listItem">Folder title</a>
                                     </li>
@@ -2568,7 +2568,7 @@ title: Guides
 
                             <li class="dp-Menu-linkItem">
                                 <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                                <ul class="dp-Menu Menu-tick">
+                                <ul class="dp-Menu Menu-tick Menu--tick-left">
                                     <li class="dp-Menu-linkItem">
                                         <a href="#" class="dp-listItem">Folder title</a>
                                     </li>
@@ -2580,7 +2580,7 @@ title: Guides
 
                             <li class="dp-Menu-linkItem">
                                 <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                                <ul class="dp-Menu Menu-tick">
+                                <ul class="dp-Menu Menu-tick Menu--tick-left">
                                     <li class="dp-Menu-linkItem">
                                         <a href="#" class="dp-listItem">Folder title</a>
                                     </li>
@@ -2592,7 +2592,7 @@ title: Guides
 
                             <li class="dp-Menu-linkItem">
                                 <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                                <ul class="dp-Menu Menu-tick">
+                                <ul class="dp-Menu Menu-tick Menu--tick-left">
                                     <li class="dp-Menu-linkItem">
                                         <a href="#" class="dp-listItem">Folder titleFolder title</a>
                                     </li>
@@ -2604,7 +2604,7 @@ title: Guides
 
                             <li class="dp-Menu-linkItem">
                                 <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                                <ul class="dp-Menu Menu-tick">
+                                <ul class="dp-Menu Menu-tick Menu--tick-left">
                                     <li class="dp-Menu-linkItem">
                                         <a href="#" class="dp-listItem">Folder title</a>
                                     </li>
@@ -2646,7 +2646,7 @@ title: Guides
                         <ul class="dp-Menu">
                             <li class="dp-Menu-linkItem is-active">
                                 <a href="" class="dp-listItem">Move<span class="dp-Icon dp-Arrow"></span></a>
-                                <ul class="dp-Menu Menu-tick">
+                                <ul class="dp-Menu Menu-tick Menu--tick-left">
                                     <li class="dp-Menu-title">
                                         Topic title
                                     </li>
@@ -2686,7 +2686,7 @@ title: Guides
 
                             <li class="dp-Menu-linkItem">
                                 <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                                <ul class="dp-Menu Menu-tick">
+                                <ul class="dp-Menu Menu-tick Menu--tick-left">
                                     <li class="dp-Menu-linkItem">
                                         <a href="#" class="dp-listItem">Folder title</a>
                                     </li>
@@ -2698,7 +2698,7 @@ title: Guides
 
                             <li class="dp-Menu-linkItem">
                                 <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                                <ul class="dp-Menu Menu-tick">
+                                <ul class="dp-Menu Menu-tick Menu--tick-left">
                                     <li class="dp-Menu-linkItem">
                                         <a href="#" class="dp-listItem">Folder title</a>
                                     </li>
@@ -2710,7 +2710,7 @@ title: Guides
 
                             <li class="dp-Menu-linkItem">
                                 <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                                <ul class="dp-Menu Menu-tick">
+                                <ul class="dp-Menu Menu-tick Menu--tick-left">
                                     <li class="dp-Menu-linkItem">
                                         <a href="#" class="dp-listItem">Folder title</a>
                                     </li>
@@ -2722,7 +2722,7 @@ title: Guides
 
                             <li class="dp-Menu-linkItem">
                                 <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                                <ul class="dp-Menu Menu-tick">
+                                <ul class="dp-Menu Menu-tick Menu--tick-left">
                                     <li class="dp-Menu-linkItem">
                                         <a href="#" class="dp-listItem">Folder title</a>
                                     </li>
@@ -2734,7 +2734,7 @@ title: Guides
 
                             <li class="dp-Menu-linkItem">
                                 <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                                <ul class="dp-Menu Menu-tick">
+                                <ul class="dp-Menu Menu-tick Menu--tick-left">
                                     <li class="dp-Menu-linkItem">
                                         <a href="#" class="dp-listItem">Folder titleFolder title</a>
                                     </li>
@@ -2746,7 +2746,7 @@ title: Guides
 
                             <li class="dp-Menu-linkItem">
                                 <a href="" class="dp-listItem">List item<span class="dp-Icon dp-Arrow"></span></a>
-                                <ul class="dp-Menu Menu-tick">
+                                <ul class="dp-Menu Menu-tick Menu--tick-left">
                                     <li class="dp-Menu-linkItem">
                                         <a href="#" class="dp-listItem">Folder title</a>
                                     </li>

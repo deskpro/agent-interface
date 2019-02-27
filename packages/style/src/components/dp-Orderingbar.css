@@ -316,7 +316,8 @@
 }
 
 .Menu-fields .dp-Menu-linkItem.is-dragging .dp-CustomCheckbox input[type="checkbox"] + label,
-.Menu-fields .dp-Menu-linkItem:hover .dp-CustomCheckbox input[type="checkbox"] + label {
+.Menu-fields .dp-Menu-linkItem:hover .dp-CustomCheckbox input[type="checkbox"] + label,
+.Menu-fields .dp-Menu-linkItem.is-checked .dp-CustomCheckbox input[type="checkbox"] + label {
   color: var(--brand-primary);
 }
 

@@ -4,7 +4,7 @@ title: Tableview
 
 <h4>listpane/grouping-and-sorting-bar</h4>
 ```html @preview
-<div class="Demo-Sorting-bar-class demo-cog demo-menu">
+<div class="Demo-Sorting-bar-class demo-cog demo-menu" style="height:100px;">
 
     <ul class="dp-FilterControlsList newControlsList dp-GroupSortBar">
         <li class="dp-ListPane">
