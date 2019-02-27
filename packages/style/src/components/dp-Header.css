@@ -276,7 +276,8 @@
   color: var(--grey-darkest);
 }
 
-.dp-Menu.Menu-tick .dp-Menu-linkItem.is-active > .dp-listItem::after {
+.dp-Menu.Menu-tick .dp-Menu-linkItem.is-active > .dp-listItem::after,
+.dp-Menu.Menu-tick .dp-Menu-linkItem.is-cheked > .dp-listItem::after, {
   opacity: 1;
 }
 

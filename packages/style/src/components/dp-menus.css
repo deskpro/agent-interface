@@ -144,6 +144,7 @@
 
 .dp-Menu .dp-Menu .dp-Menu-linkItem > span.dp-Badge,
 .dp-Menu .dp-Menu-linkItem.dp-DropdownDivider,
+.dp-Menu .dp-Menu-linkItem > span.dp-CustomCheckbox,
 .dp-Knowledgebase .dp-Menu .dp-Menu-linkItem > span {
   padding: 0;
 }
@@ -186,6 +187,7 @@
 }
 
 .dp-Menu-linkItem:hover > .dp-listItem,
+.dp-Menu-linkItem.is-checked > .dp-listItem,
 .dp-Menu .dp-Menu-linkItem:hover .dp-Menu-link {
   color: var(--brand-primary);
 }
@@ -264,6 +266,7 @@
 .dp-Menu.Menu-fields .dp-settings.is-active + .dp-Menu,
 .dp-Menu.Menu-grouped .dp-Menu-linkItem:hover > .dp-Menu,
 .Menu-grouped.dp-Menu .dp-Menu-linkItem.is-active .dp-Menu,
+.Menu-grouped.dp-Menu .dp-Menu-linkItem.is-checked .dp-Menu,
 .dp-Menu.Menu-grouped .dp-Menu {
   border-radius: var(--border-radius);
   left: calc(100% - 5px);
@@ -284,7 +287,6 @@
 
 }
 
-.dp-Knowledgebase .dp-Menu.Menu-tick > .dp-Menu-linkItem .dp-listItem::after,
 .dp-Menu.Menu-tick > .dp-Menu-linkItem > .dp-listItem::after {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='9' height='8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M.925 4.342a.568.568 0 0 1 0-.726l.096-.108a.43.43 0 0 1 .648 0l1.682 1.885L7.765.446a.43.43 0 0 1 .648 0l.096.108a.568.568 0 0 1 0 .726L3.351 7.061.925 4.342z' fill='%233A8DDE'/%3E%3C/svg%3E");
   background-position: center center;
@@ -293,19 +295,16 @@
   content: "";
   display: block;
   height: 25px;
-  left: 2px;
   opacity: 0;
   position: absolute;
   top: 0;
   width: 25px;
+
+  /* left: 2px; */
 }
 
-.dp-Menu.Menu-tick .dp-Menu-linkItem:hover > .dp-listItem::after {
+.dp-Menu.Menu-tick .dp-Menu-linkItem.is-checked > .dp-listItem::after {
   opacity: 1;
-}
-
-.dp-Menu.Menu-tick > .dp-Menu-linkItem {
-  padding: 3.5px 10px 3.5px 25px;
 }
 
 .dp-Menu.Menu-tick .dp-Menu-linkItem:hover {
@@ -420,6 +419,7 @@
 
 .dp-Menu-linkItem.dp-ButtonWrapper .dp-CustomCheckbox {
   flex: 0 0 auto;
+  margin-left: 10px;
 }
 
 /* .Menu-fields .dp-Menu-linkItem.dp-ButtonWrapper .dp-Button {
@@ -511,16 +511,14 @@
 }
 
 .dp-Menu .dp-Menu-linkItem .dp-Menu {
-  border-top-left-radius: 0;
   left: 100%;
   min-width: 180px;
   position: absolute;
   top: -1px;
 
   /*  border-top-left-radius: 0;
+  left: calc(100% + 1px);
   left: calc(100% + 1px); */
-
-  /* left: calc(100% + 1px); */
 
 }
 
@@ -671,4 +669,22 @@
 .dp-Cog .dp-Menu .dp-Menu-title {
   margin: -2px -1px 3px;
   padding: 0 10px;
+}
+
+.Menu-tick.Menu--tick-right > .dp-Menu-linkItem {
+  padding: 3.5px 10px;
+}
+
+.Menu-tick.Menu--tick-right > .dp-Menu-linkItem .dp-listItem::after {
+  left: auto;
+  right: 5px;
+}
+
+.Menu-tick.Menu--tick-left > .dp-Menu-linkItem .dp-listItem::after {
+  left: 2px;
+  right: auto;
+}
+
+.dp-Menu.Menu-tick.Menu--tick-left > .dp-Menu-linkItem {
+  padding: 3.5px 10px 3.5px 25px;
 }

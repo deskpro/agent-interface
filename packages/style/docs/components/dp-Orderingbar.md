@@ -29,10 +29,10 @@ title: Orderingbar
             </span>
 
             <!-- dropdown -->
-            <ul class="dp-Menu Menu-tick Menu-grouped">
+            <ul class="dp-Menu Menu-grouped">
                 <li class="dp-Menu-linkItem is-active">
                     <a href="" class="dp-listItem">Department (DSC)<span class="dp-Icon dp-settings"></span></a>
-                    <ul class="dp-Menu Menu-tick">
+                    <ul class="dp-Menu">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Ascending</a>
                         </li>
@@ -43,7 +43,7 @@ title: Orderingbar
                 </li>
                 <li class="dp-Menu-linkItem">
                     <a href="" class="dp-listItem">Product<span class="dp-Icon dp-settings"></span></a>
-                    <ul class="dp-Menu Menu-tick">
+                    <ul class="dp-Menu">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Ascending</a>
                         </li>
@@ -54,7 +54,7 @@ title: Orderingbar
                 </li>
                 <li class="dp-Menu-linkItem">
                     <a href="" class="dp-listItem">Workflow<span class="dp-Icon dp-settings"></span></a>
-                    <ul class="dp-Menu Menu-tick">
+                    <ul class="dp-Menu">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Ascending</a>
                         </li>
@@ -65,7 +65,7 @@ title: Orderingbar
                 </li>
                 <li class="dp-Menu-linkItem">
                     <a href="" class="dp-listItem">Organization<span class="dp-Icon dp-settings"></span></a>
-                    <ul class="dp-Menu Menu-tick">
+                    <ul class="dp-Menu">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Ascending</a>
                         </li>
@@ -76,7 +76,7 @@ title: Orderingbar
                 </li>
                 <li class="dp-Menu-linkItem">
                     <a href="" class="dp-listItem">Person<span class="dp-Icon dp-settings"></span></a>
-                    <ul class="dp-Menu Menu-tick">
+                    <ul class="dp-Menu">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Ascending</a>
                         </li>
@@ -87,7 +87,7 @@ title: Orderingbar
                 </li>
                 <li class="dp-Menu-linkItem">
                     <a href="" class="dp-listItem">Language<span class="dp-Icon dp-settings"></span></a>
-                    <ul class="dp-Menu Menu-tick">
+                    <ul class="dp-Menu">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Ascending</a>
                         </li>
@@ -98,7 +98,7 @@ title: Orderingbar
                 </li>
                 <li class="dp-Menu-linkItem">
                     <a href="" class="dp-listItem">Agent<span class="dp-Icon dp-settings"></span></a>
-                    <ul class="dp-Menu Menu-tick">
+                    <ul class="dp-Menu">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Ascending</a>
                         </li>
@@ -109,7 +109,7 @@ title: Orderingbar
                 </li>
                 <li class="dp-Menu-linkItem">
                     <a href="" class="dp-listItem">Agent team<span class="dp-Icon dp-settings"></span></a>
-                    <ul class="dp-Menu Menu-tick">
+                    <ul class="dp-Menu">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Ascending</a>
                         </li>
@@ -120,7 +120,7 @@ title: Orderingbar
                 </li>
                 <li class="dp-Menu-linkItem">
                     <a href="" class="dp-listItem">Waiting time<span class="dp-Icon dp-settings"></span></a>
-                    <ul class="dp-Menu Menu-tick">
+                    <ul class="dp-Menu">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Ascending</a>
                         </li>
@@ -131,7 +131,7 @@ title: Orderingbar
                 </li>
                 <li class="dp-Menu-linkItem">
                     <a href="" class="dp-listItem">All waiting time<span class="dp-Icon dp-settings"></span></a>
-                    <ul class="dp-Menu Menu-tick">
+                    <ul class="dp-Menu">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Ascending</a>
                         </li>
@@ -142,7 +142,7 @@ title: Orderingbar
                 </li>
                 <li class="dp-Menu-linkItem">
                     <a href="" class="dp-listItem">Helpdesk team size<span class="dp-Icon dp-settings"></span></a>
-                    <ul class="dp-Menu Menu-tick">
+                    <ul class="dp-Menu">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Ascending</a>
                         </li>
@@ -153,7 +153,7 @@ title: Orderingbar
                 </li>
                 <li class="dp-Menu-linkItem">
                     <a href="" class="dp-listItem">Hubspot deal<span class="dp-Icon dp-settings"></span></a>
-                    <ul class="dp-Menu Menu-tick">
+                    <ul class="dp-Menu">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Ascending</a>
                         </li>
@@ -182,7 +182,7 @@ title: Orderingbar
             </span>
 
             <!-- dropdown -->
-            <ul class="dp-Menu Menu-tick">
+            <ul class="dp-Menu Menu-tick Menu--tick-left">
                 <li class="dp-Menu-linkItem"><a href="" class="dp-listItem">Urgency</a></li>
                 <li class="dp-Menu-linkItem"><a href="" class="dp-listItem">Date crated</a></li>
                 <li class="dp-Menu-linkItem"><a href="" class="dp-listItem">Date of last reply</a></li>
@@ -214,7 +214,7 @@ title: Orderingbar
             </span>
 
             <!-- dropdown -->
-            <ul class="dp-Menu Menu-tick">
+            <ul class="dp-Menu">
                 <li class="dp-Menu-linkItem">
                     <a href="" class="dp-listItem">Department <button class="dp-Arrow"></button></a>
                     <ul class="dp-Menu">
@@ -1725,10 +1725,10 @@ title: Orderingbar
             </span>
 
             <!-- dropdown -->
-            <ul class="dp-Menu Menu-tick Menu-grouped">
-                <li class="dp-Menu-linkItem is-active">
+            <ul class="dp-Menu Menu-grouped">
+                <li class="dp-Menu-linkItem is-checked">
                     <a href="" class="dp-listItem">Department (DSC)<span class="dp-Icon dp-settings"></span></a>
-                    <ul class="dp-Menu Menu-tick">
+                    <ul class="dp-Menu">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Ascending</a>
                         </li>
@@ -1739,7 +1739,7 @@ title: Orderingbar
                 </li>
                 <li class="dp-Menu-linkItem">
                     <a href="" class="dp-listItem">Product<span class="dp-Icon dp-settings"></span></a>
-                    <ul class="dp-Menu Menu-tick">
+                    <ul class="dp-Menu">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Ascending</a>
                         </li>
@@ -1750,7 +1750,7 @@ title: Orderingbar
                 </li>
                 <li class="dp-Menu-linkItem">
                     <a href="" class="dp-listItem">Workflow<span class="dp-Icon dp-settings"></span></a>
-                    <ul class="dp-Menu Menu-tick">
+                    <ul class="dp-Menu">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Ascending</a>
                         </li>
@@ -1761,7 +1761,7 @@ title: Orderingbar
                 </li>
                 <li class="dp-Menu-linkItem">
                     <a href="" class="dp-listItem">Organization<span class="dp-Icon dp-settings"></span></a>
-                    <ul class="dp-Menu Menu-tick">
+                    <ul class="dp-Menu">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Ascending</a>
                         </li>
@@ -1772,7 +1772,7 @@ title: Orderingbar
                 </li>
                 <li class="dp-Menu-linkItem">
                     <a href="" class="dp-listItem">Person<span class="dp-Icon dp-settings"></span></a>
-                    <ul class="dp-Menu Menu-tick">
+                    <ul class="dp-Menu">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Ascending</a>
                         </li>
@@ -1783,7 +1783,7 @@ title: Orderingbar
                 </li>
                 <li class="dp-Menu-linkItem">
                     <a href="" class="dp-listItem">Language<span class="dp-Icon dp-settings"></span></a>
-                    <ul class="dp-Menu Menu-tick">
+                    <ul class="dp-Menu">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Ascending</a>
                         </li>
@@ -1794,7 +1794,7 @@ title: Orderingbar
                 </li>
                 <li class="dp-Menu-linkItem">
                     <a href="" class="dp-listItem">Agent<span class="dp-Icon dp-settings"></span></a>
-                    <ul class="dp-Menu Menu-tick">
+                    <ul class="dp-Menu">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Ascending</a>
                         </li>
@@ -1805,7 +1805,7 @@ title: Orderingbar
                 </li>
                 <li class="dp-Menu-linkItem">
                     <a href="" class="dp-listItem">Agent team<span class="dp-Icon dp-settings"></span></a>
-                    <ul class="dp-Menu Menu-tick">
+                    <ul class="dp-Menu">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Ascending</a>
                         </li>
@@ -1816,7 +1816,7 @@ title: Orderingbar
                 </li>
                 <li class="dp-Menu-linkItem">
                     <a href="" class="dp-listItem">Waiting time<span class="dp-Icon dp-settings"></span></a>
-                    <ul class="dp-Menu Menu-tick">
+                    <ul class="dp-Menu">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Ascending</a>
                         </li>
@@ -1827,7 +1827,7 @@ title: Orderingbar
                 </li>
                 <li class="dp-Menu-linkItem">
                     <a href="" class="dp-listItem">All waiting time<span class="dp-Icon dp-settings"></span></a>
-                    <ul class="dp-Menu Menu-tick">
+                    <ul class="dp-Menu">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Ascending</a>
                         </li>
@@ -1838,7 +1838,7 @@ title: Orderingbar
                 </li>
                 <li class="dp-Menu-linkItem">
                     <a href="" class="dp-listItem">Helpdesk team size<span class="dp-Icon dp-settings"></span></a>
-                    <ul class="dp-Menu Menu-tick">
+                    <ul class="dp-Menu">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Ascending</a>
                         </li>
@@ -1849,7 +1849,7 @@ title: Orderingbar
                 </li>
                 <li class="dp-Menu-linkItem">
                     <a href="" class="dp-listItem">Hubspot deal<span class="dp-Icon dp-settings"></span></a>
-                    <ul class="dp-Menu Menu-tick">
+                    <ul class="dp-Menu">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Ascending</a>
                         </li>
@@ -1878,7 +1878,7 @@ title: Orderingbar
             </span>
 
             <!-- dropdown -->
-            <ul class="dp-Menu Menu-tick">
+            <ul class="dp-Menu Menu-tick Menu--tick-left">
                 <li class="dp-Menu-linkItem"><a href="" class="dp-listItem">Urgency</a></li>
                 <li class="dp-Menu-linkItem"><a href="" class="dp-listItem">Date crated</a></li>
                 <li class="dp-Menu-linkItem"><a href="" class="dp-listItem">Date of last reply</a></li>
@@ -3420,7 +3420,7 @@ title: Orderingbar
             </span>
 
             <!-- dropdown -->
-            <ul class="dp-Menu Menu-tick Menu-grouped">
+            <ul class="dp-Menu Menu-tick Menu--tick-left Menu-grouped">
                 <li class="dp-Menu-linkItem is-active">
                     <a href="" class="dp-listItem">Department (DSC)<span class="dp-Icon dp-settings"></span></a>
                     <ul class="dp-Menu Menu-tick">
@@ -3573,7 +3573,7 @@ title: Orderingbar
             </span>
 
             <!-- dropdown -->
-            <ul class="dp-Menu Menu-tick">
+            <ul class="dp-Menu Menu-tick Menu--tick-left">
                 <li class="dp-Menu-linkItem"><a href="" class="dp-listItem">Urgency</a></li>
                 <li class="dp-Menu-linkItem"><a href="" class="dp-listItem">Date crated</a></li>
                 <li class="dp-Menu-linkItem"><a href="" class="dp-listItem">Date of last reply</a></li>
@@ -3605,7 +3605,7 @@ title: Orderingbar
             </span>
 
             <!-- dropdown -->
-            <ul class="dp-Menu Menu-tick">
+            <ul class="dp-Menu Menu-tick Menu--tick-left">
                 <li class="dp-Menu-linkItem">
                     <a href="" class="dp-listItem">Department <button class="dp-Arrow"></button></a>
                     <ul class="dp-Menu">
@@ -5116,7 +5116,7 @@ title: Orderingbar
             </span>
 
             <!-- dropdown -->
-            <ul class="dp-Menu Menu-tick Menu-grouped">
+            <ul class="dp-Menu Menu-tick Menu--tick-left Menu-grouped">
                 <li class="dp-Menu-linkItem is-active">
                     <a href="" class="dp-listItem">Department (DSC)<span class="dp-Icon dp-settings"></span></a>
                 </li>
@@ -5261,7 +5261,7 @@ title: Orderingbar
             </span>
 
             <!-- dropdown -->
-            <ul class="dp-Menu Menu-tick">
+            <ul class="dp-Menu Menu-tick Menu--tick-left">
                 <li class="dp-Menu-linkItem"><a href="" class="dp-listItem">Urgency</a></li>
                 <li class="dp-Menu-linkItem"><a href="" class="dp-listItem">Date crated</a></li>
                 <li class="dp-Menu-linkItem"><a href="" class="dp-listItem">Date of last reply</a></li>
@@ -5293,7 +5293,7 @@ title: Orderingbar
             </span>
 
             <!-- dropdown -->
-            <ul class="dp-Menu Menu-tick">
+            <ul class="dp-Menu Menu-tick Menu--tick-left">
                 <li class="dp-Menu-linkItem">
                     <a href="" class="dp-listItem">Department <button class="dp-Arrow"></button></a>
                     <ul class="dp-Menu">
@@ -6805,7 +6805,7 @@ title: Orderingbar
             </span>
 
             <!-- dropdown -->
-            <ul class="dp-Menu Menu-tick Menu-grouped">
+            <ul class="dp-Menu Menu-tick Menu--tick-left Menu-grouped">
                 <li class="dp-Menu-linkItem is-active">
                     <a href="" class="dp-listItem">Department (DSC)<span class="dp-Icon dp-settings"></span></a>
                     <ul class="dp-Menu Menu-tick">
@@ -6990,7 +6990,7 @@ title: Orderingbar
             </span>
 
             <!-- dropdown -->
-            <ul class="dp-Menu Menu-tick">
+            <ul class="dp-Menu Menu-tick Menu--tick-left">
                 <li class="dp-Menu-linkItem">
                     <a href="" class="dp-listItem">Department <button class="dp-Arrow"></button></a>
                     <ul class="dp-Menu">
@@ -8344,7 +8344,7 @@ title: Orderingbar
                         <label for="fields-5-14">Date created</label>
                     </span>
                     <span class="dp-Icon dp-settings"></span>
-                    <ul class="dp-Menu Menu-tick">
+                    <ul class="dp-Menu">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Date</a>
                         </li>
@@ -8363,7 +8363,7 @@ title: Orderingbar
                         <label for="fields-5-15">All waiting time</label>
                     </span>
                     <span class="dp-Icon dp-settings"></span>
-                    <ul class="dp-Menu Menu-tick">
+                    <ul class="dp-Menu">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Date</a>
                         </li>
@@ -8382,7 +8382,7 @@ title: Orderingbar
                         <label for="fields-5-16">Date of last reply</label>
                     </span>
                     <span class="dp-Icon dp-settings"></span>
-                    <ul class="dp-Menu Menu-tick">
+                    <ul class="dp-Menu">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Date</a>
                         </li>
@@ -8401,7 +8401,7 @@ title: Orderingbar
                         <label for="fields-5-17">Date of last user reply</label>
                     </span>
                     <span class="dp-Icon dp-settings"></span>
-                    <ul class="dp-Menu Menu-tick">
+                    <ul class="dp-Menu">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Date</a>
                         </li>
@@ -8420,7 +8420,7 @@ title: Orderingbar
                         <label for="fields-5-18">Date of last agent reply</label>
                     </span>
                     <span class="dp-Icon dp-settings"></span>
-                    <ul class="dp-Menu Menu-tick">
+                    <ul class="dp-Menu">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Date</a>
                         </li>
@@ -8439,7 +8439,7 @@ title: Orderingbar
                         <label for="fields-5-19">Date resolved</label>
                     </span>
                     <span class="dp-Icon dp-settings"></span>
-                    <ul class="dp-Menu Menu-tick">
+                    <ul class="dp-Menu">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Date</a>
                         </li>
@@ -8503,7 +8503,7 @@ title: Orderingbar
             </span>
 
             <!-- dropdown -->
-            <ul class="dp-Menu Menu-tick Menu-grouped">
+            <ul class="dp-Menu Menu-tick Menu--tick-left Menu-grouped">
                 <li class="dp-Menu-linkItem is-active">
                     <a href="" class="dp-listItem">Department (DSC)<span class="dp-Icon dp-settings"></span></a>
                     <ul class="dp-Menu Menu-tick">
@@ -8656,7 +8656,7 @@ title: Orderingbar
             </span>
 
             <!-- dropdown -->
-            <ul class="dp-Menu Menu-tick">
+            <ul class="dp-Menu Menu-tick Menu--tick-left">
                 <li class="dp-Menu-linkItem"><a href="" class="dp-listItem">Urgency</a></li>
                 <li class="dp-Menu-linkItem"><a href="" class="dp-listItem">Date crated</a></li>
                 <li class="dp-Menu-linkItem"><a href="" class="dp-listItem">Date of last reply</a></li>
@@ -8688,7 +8688,7 @@ title: Orderingbar
             </span>
 
             <!-- dropdown -->
-            <ul class="dp-Menu Menu-tick">
+            <ul class="dp-Menu Menu-tick Menu--tick-left">
                 <li class="dp-Menu-linkItem">
                     <a href="" class="dp-listItem">Department <button class="dp-Arrow"></button></a>
                     <ul class="dp-Menu">
@@ -10041,7 +10041,7 @@ title: Orderingbar
                         <label for="fields-6-14">Date created</label>
                     </span>
                     <span class="dp-Icon dp-settings"></span>
-                    <ul class="dp-Menu Menu-tick">
+                    <ul class="dp-Menu">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Date</a>
                         </li>
@@ -10060,7 +10060,7 @@ title: Orderingbar
                         <label for="fields-6-15">All waiting time</label>
                     </span>
                     <span class="dp-Icon dp-settings"></span>
-                    <ul class="dp-Menu Menu-tick">
+                    <ul class="dp-Menu">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Date</a>
                         </li>
@@ -10079,7 +10079,7 @@ title: Orderingbar
                         <label for="fields-6-16">Date of last reply</label>
                     </span>
                     <span class="dp-Icon dp-settings"></span>
-                    <ul class="dp-Menu Menu-tick">
+                    <ul class="dp-Menu">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Date</a>
                         </li>
@@ -10098,7 +10098,7 @@ title: Orderingbar
                         <label for="fields-6-17">Date of last user reply</label>
                     </span>
                     <span class="dp-Icon dp-settings"></span>
-                    <ul class="dp-Menu Menu-tick">
+                    <ul class="dp-Menu">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Date</a>
                         </li>
@@ -10117,7 +10117,7 @@ title: Orderingbar
                         <label for="fields-6-18">Date of last agent reply</label>
                     </span>
                     <span class="dp-Icon dp-settings"></span>
-                    <ul class="dp-Menu Menu-tick">
+                    <ul class="dp-Menu">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Date</a>
                         </li>
@@ -10136,7 +10136,7 @@ title: Orderingbar
                         <label for="fields-6-19">Date resolved</label>
                     </span>
                     <span class="dp-Icon dp-settings is-active"></span>
-                    <ul class="dp-Menu Menu-tick">
+                    <ul class="dp-Menu">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Date</a>
                         </li>
@@ -10200,7 +10200,7 @@ title: Orderingbar
             </span>
 
             <!-- dropdown -->
-            <ul class="dp-Menu Menu-tick Menu-grouped">
+            <ul class="dp-Menu Menu-tick Menu--tick-left Menu-grouped">
                 <li class="dp-Menu-linkItem is-active">
                     <a href="" class="dp-listItem">Department (DSC)<span class="dp-Icon dp-settings"></span></a>
                     <ul class="dp-Menu Menu-tick">
@@ -10353,7 +10353,7 @@ title: Orderingbar
             </span>
 
             <!-- dropdown -->
-            <ul class="dp-Menu Menu-tick">
+            <ul class="dp-Menu Menu-tick Menu--tick-left">
                 <li class="dp-Menu-linkItem"><a href="" class="dp-listItem">Urgency</a></li>
                 <li class="dp-Menu-linkItem"><a href="" class="dp-listItem">Date crated</a></li>
                 <li class="dp-Menu-linkItem"><a href="" class="dp-listItem">Date of last reply</a></li>
@@ -10385,7 +10385,7 @@ title: Orderingbar
             </span>
 
             <!-- dropdown -->
-            <ul class="dp-Menu Menu-tick">
+            <ul class="dp-Menu Menu-tick Menu--tick-left">
                 <li class="dp-Menu-linkItem">
                     <a href="" class="dp-listItem">Department <button class="dp-Arrow"></button></a>
                     <ul class="dp-Menu">

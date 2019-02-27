@@ -144,14 +144,14 @@ title: Menus
 
         <ul class="dp-Menu is-visible" style="top: 0; left: 0;">
             <li class="dp-Menu-linkItem">Assign to <a href="#" class="dp-listLink">me</a> or <button class="dp-Arrow"></button>
-                <ul class="dp-Menu">
+                <ul class="dp-Menu Menu-tick Menu--tick-right">
                     <li class="dp-Menu-search">
                         <form>
                             <span class="dp-Icon dp-IconSearch"></span>
                             <input type="text" class="dp-Input Input--search">
                         </form>
                     </li>
-                    <li class="dp-Menu-linkItem">
+                    <li class="dp-Menu-linkItem is-checked">
                         <span class="dp-Badge Badge--round Badge--grey-light"></span>
                         <a href="#" class="dp-listItem">Wendy Pride</a>
                     </li>
@@ -195,7 +195,7 @@ title: Menus
             </li>
 
             <li class="dp-Menu-linkItem">Assign to <a href="#" class="dp-listLink">my team</a> or <button class="dp-Arrow"></button>
-                <ul class="dp-Menu">
+                <ul class="dp-Menu Menu-tick Menu--tick-right">
                     <li class="dp-Menu-search">
                         <form>
                             <span class="dp-Icon dp-IconSearch"></span>
@@ -236,7 +236,7 @@ title: Menus
             <li class="dp-DropdownDivider"></li>
 
             <li class="dp-Menu-linkItem">Status <button class="dp-Arrow"></button>
-                <ul class="dp-Menu">
+                <ul class="dp-Menu Menu-tick Menu--tick-right">
                     <li class="dp-Menu-search">
                         <form>
                             <span class="dp-Icon dp-IconSearch"></span>
@@ -267,7 +267,7 @@ title: Menus
             </li>
 
             <li class="dp-Menu-linkItem"> Urgency <button class="dp-Arrow"></button>
-                <ul class="dp-Menu">
+                <ul class="dp-Menu Menu-tick Menu--tick-right">
                     <li class="dp-Menu-search">
                         <form>
                             <span class="dp-Icon dp-IconSearch"></span>

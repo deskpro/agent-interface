@@ -50,6 +50,7 @@
 .demo-menu .Menu-fields .dp-settings.is-active + .dp-Menu,
 .demo-menu .dp-Menu.Menu-grouped .dp-Menu-linkItem:hover > .dp-Menu,
 .demo-menu .dp-Menu.Menu-grouped .dp-Menu-linkItem.is-active .dp-Menu,
+.demo-menu .dp-Menu.Menu-grouped .dp-Menu-linkItem.is-checked .dp-Menu,
 .demo-menu .Menu-fields .dp-settings.is-active + .dp-Menu,
 .demo-menu .dp-DropDownItem.is-active > .dp-Menu,
 .demo-menu .dp-Menu.is-active,
@@ -83,4 +84,8 @@
 .demo-tooltip .dp-ToolTips {
   right: 0;
   top: calc(100% + 5px);
+}
+
+.demo-menu .Menu-tick .dp-Menu-linkItem:hover > .dp-listItem::after {
+  opacity: 1;
 }
