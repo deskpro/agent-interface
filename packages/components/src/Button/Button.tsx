@@ -15,7 +15,7 @@ export interface ButtonProps {
     | "square";
   color?: DPColor;
   className?: string;
-  buttonRef?: React.RefObject<HTMLButtonElement>;
+  buttonRef?: React.Ref<HTMLButtonElement>;
   onClick(e: React.MouseEvent<HTMLElement>): void;
 }
 
@@ -53,4 +53,6 @@ Button.defaultProps = {
   variant: "contained"
 };
 
-export default Button;
+export default React.forwardRef<HTMLButtonElement, ButtonProps>(
+  (props, ref) => <Button {...props} buttonRef={ref} />
+);
