@@ -2,7 +2,6 @@ import * as React from "react";
 import { Manager, Popper } from "react-popper";
 
 import { MenuProps } from "./Menu";
-import Portal from "../../common/Portal/Portal";
 
 import useOutsideClick from "../../hooks/useOutsideClick";
 import useMenu from "../../hooks/useMenu";
@@ -97,38 +96,36 @@ const ContextMenu: React.FC<ContextMenuProps> = ({
       >
         {children}
       </span>
-      <Portal>
-        {menuIsVisible && (
-          <Popper
-            referenceElement={
-              virtualReference.current as VirtualReferenceElementType
+      {menuIsVisible && (
+        <Popper
+          referenceElement={
+            virtualReference.current as VirtualReferenceElementType
+          }
+          placement="bottom-start"
+          modifiers={{
+            preventOverflow: {
+              enabled: true,
+              escapeWithReference: true,
+              boundariesElement: "viewport"
+            },
+            flip: {
+              enabled: true,
+              flipVariationsByContent: true
             }
-            placement="bottom-start"
-            modifiers={{
-              preventOverflow: {
-                enabled: true,
-                escapeWithReference: true,
-                boundariesElement: "viewport"
+          }}
+        >
+          {({ ref, style }) =>
+            renderMenu({
+              style,
+              menuRef: (el: HTMLUListElement) => {
+                ref(el);
+                (menuRef.current as HTMLUListElement) = el;
               },
-              flip: {
-                enabled: true,
-                flipVariationsByContent: true
-              }
-            }}
-          >
-            {({ ref, style }) =>
-              renderMenu({
-                style,
-                menuRef: (el: HTMLUListElement) => {
-                  ref(el);
-                  (menuRef.current as HTMLUListElement) = el;
-                },
-                onMenuClose: hideMenu
-              })
-            }
-          </Popper>
-        )}
-      </Portal>
+              onMenuClose: hideMenu
+            })
+          }
+        </Popper>
+      )}
     </Manager>
   );
 };
