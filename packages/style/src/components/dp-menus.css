@@ -22,6 +22,7 @@
 
 }
 
+.dp-Menu .sb-avatar,
 .dp-Menu .dp-Icon {
   align-items: center;
   cursor: pointer;
@@ -141,7 +142,7 @@
 
 }
 
-.dp-Menu .dp-Menu .dp-Menu-linkItem > span,
+.dp-Menu .dp-Menu .dp-Menu-linkItem > span.dp-Badge,
 .dp-Menu .dp-Menu-linkItem.dp-DropdownDivider,
 .dp-Knowledgebase .dp-Menu .dp-Menu-linkItem > span {
   padding: 0;
