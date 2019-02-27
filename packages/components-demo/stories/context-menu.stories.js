@@ -1,5 +1,6 @@
 import React from "react";
 import { subHours } from "date-fns";
+import ReactAvatar from "react-avatar";
 
 import { storiesOf } from "@storybook/react";
 import { action } from "@storybook/addon-actions";
@@ -80,6 +81,36 @@ storiesOf("ContextMenu", module)
           }
           renderCogMenu={menuProps => (
             <Menu {...menuProps}>
+              <Menu.MenuItem name="assign" icon="avatar" text="Assignee">
+                <Menu withFilter isCheckable>
+                  <Menu.MenuItem
+                    key="berdyshev"
+                    name="berdyshev"
+                    icon={
+                      <ReactAvatar
+                        email="berdartem@gmail.com"
+                        name="Artem Berdyshev"
+                        round
+                        size={13}
+                      />
+                    }
+                    text="Artem Berdyshev"
+                  />
+                  <Menu.MenuItem
+                    key="chris"
+                    name="chris"
+                    icon={
+                      <ReactAvatar
+                        email="chris.nadeau@deskpro.com"
+                        name="Chris Nadeau"
+                        round
+                        size={13}
+                      />
+                    }
+                    text="Chris Nadeau"
+                  />
+                </Menu>
+              </Menu.MenuItem>
               <Menu.MenuItem name="bin" icon="bin" text="Delete" />
             </Menu>
           )}
