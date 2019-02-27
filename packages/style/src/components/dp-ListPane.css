@@ -199,7 +199,7 @@
   color: var(--grey-darkest);
   display: flex;
   font: var(--h-n-semibold);
-  padding: 8.8px 8px 7.8px 26px;
+  padding: 8.8px 8px 7.8px 27px;
   width: 100%;
 }
 
@@ -236,6 +236,7 @@
   cursor: pointer;
 }
 
+.dp-CardList.CardList-comments .dp-CustomCheckbox input[type="checkbox"] + label,
 .dp-Tasks-list .dp-CustomCheckbox input[type="checkbox"] + label {
   padding-left: 20px;
 }

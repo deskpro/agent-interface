@@ -47,11 +47,13 @@
   width: 100%;
 }
 
-.dp-Tasks-list.dp-Card-SectionTitle .dp-Card-title:hover {
+.dp-Tasks-list.dp-Card-SectionTitle .dp-Card-title:hover,
+.CardList-comments .dp-Card-SectionTitle .dp-Card-title:hover {
   color: var(--grey-darkest);
 }
 
-.dp-Tasks-list.dp-Card-SectionTitle .dp-Card-title:hover::after {
+.dp-Tasks-list.dp-Card-SectionTitle .dp-Card-title:hover::after,
+.CardList-comments .dp-Card-SectionTitle .dp-Card-title:hover::after {
   display: none;
 }
 
@@ -136,7 +138,10 @@
 }
 
 .dp-Card.dp-Level .dp-LevelCol:first-child {
-  flex: 0 1 auto;
+  flex: 0 0 auto;
+
+  /* flex: 0 1 auto; */
+
 }
 
 .dp-Card.dp-Level .dp-LevelCol:nth-child(2) {
@@ -284,7 +289,8 @@
 
 .dp-Icon + .dp-Date-link,
 .dp-Card .dp-Icon + .dp-Comments-title,
-.dp-Tasks-list .dp-Icon + .dp-UserName {
+.dp-Tasks-list .dp-Icon + .dp-UserName,
+.dp-UserName + .dp-UserEmail {
   margin-left: 5px;
 }
 
@@ -296,7 +302,6 @@
 .dp-Card .dp-UserEmail {
   color: var(--grey-dark);
   font: var(--p-xl);
-  margin-left: 5px;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;

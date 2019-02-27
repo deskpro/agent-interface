@@ -1141,7 +1141,7 @@ title: Settings Cog
 ```html @preview
 <div class="dp-MainWrapper demo-cog demo-menu">
     <form>
-        <ul class="dp-CardList is-hoverable">
+        <ul class="dp-CardList CardList-comments is-hoverable">
 
             <li class="dp-Card-SectionTitle">
                 <span class="dp-LevelCol">

@@ -269,10 +269,10 @@ title: Sort and Re-order
                     </span>
 
                     <!-- dropdown -->
-                    <ul class="dp-Menu Menu-tick Menu-grouped">
+                    <ul class="dp-Menu Menu-tick Menu--tick-left Menu-grouped">
                         <li class="dp-Menu-linkItem is-active">
                             <a href="" class="dp-listItem">Department (DSC)<span class="dp-Icon dp-settings"></span></a>
-                            <ul class="dp-Menu Menu-tick">
+                            <ul class="dp-Menu Menu-tick Menu--tick-left">
                                 <li class="dp-Menu-linkItem">
                                     <a href="#" class="dp-listItem">Ascending</a>
                                 </li>
@@ -283,7 +283,7 @@ title: Sort and Re-order
                         </li>
                         <li class="dp-Menu-linkItem">
                             <a href="" class="dp-listItem">Product<span class="dp-Icon dp-settings"></span></a>
-                            <ul class="dp-Menu Menu-tick">
+                            <ul class="dp-Menu Menu-tick Menu--tick-left">
                                 <li class="dp-Menu-linkItem">
                                     <a href="#" class="dp-listItem">Ascending</a>
                                 </li>
@@ -294,7 +294,7 @@ title: Sort and Re-order
                         </li>
                         <li class="dp-Menu-linkItem">
                             <a href="" class="dp-listItem">Workflow<span class="dp-Icon dp-settings"></span></a>
-                            <ul class="dp-Menu Menu-tick">
+                            <ul class="dp-Menu Menu-tick Menu--tick-left">
                                 <li class="dp-Menu-linkItem">
                                     <a href="#" class="dp-listItem">Ascending</a>
                                 </li>
@@ -305,7 +305,7 @@ title: Sort and Re-order
                         </li>
                         <li class="dp-Menu-linkItem">
                             <a href="" class="dp-listItem">Organization<span class="dp-Icon dp-settings"></span></a>
-                            <ul class="dp-Menu Menu-tick">
+                            <ul class="dp-Menu Menu-tick Menu--tick-left">
                                 <li class="dp-Menu-linkItem">
                                     <a href="#" class="dp-listItem">Ascending</a>
                                 </li>
@@ -316,7 +316,7 @@ title: Sort and Re-order
                         </li>
                         <li class="dp-Menu-linkItem">
                             <a href="" class="dp-listItem">Person<span class="dp-Icon dp-settings"></span></a>
-                            <ul class="dp-Menu Menu-tick">
+                            <ul class="dp-Menu Menu-tick Menu--tick-left">
                                 <li class="dp-Menu-linkItem">
                                     <a href="#" class="dp-listItem">Ascending</a>
                                 </li>
@@ -327,7 +327,7 @@ title: Sort and Re-order
                         </li>
                         <li class="dp-Menu-linkItem">
                             <a href="" class="dp-listItem">Language<span class="dp-Icon dp-settings"></span></a>
-                            <ul class="dp-Menu Menu-tick">
+                            <ul class="dp-Menu Menu-tick Menu--tick-left">
                                 <li class="dp-Menu-linkItem">
                                     <a href="#" class="dp-listItem">Ascending</a>
                                 </li>
@@ -338,7 +338,7 @@ title: Sort and Re-order
                         </li>
                         <li class="dp-Menu-linkItem">
                             <a href="" class="dp-listItem">Agent<span class="dp-Icon dp-settings"></span></a>
-                            <ul class="dp-Menu Menu-tick">
+                            <ul class="dp-Menu Menu-tick Menu--tick-left">
                                 <li class="dp-Menu-linkItem">
                                     <a href="#" class="dp-listItem">Ascending</a>
                                 </li>
@@ -349,7 +349,7 @@ title: Sort and Re-order
                         </li>
                         <li class="dp-Menu-linkItem">
                             <a href="" class="dp-listItem">Agent team<span class="dp-Icon dp-settings"></span></a>
-                            <ul class="dp-Menu Menu-tick">
+                            <ul class="dp-Menu Menu-tick Menu--tick-left">
                                 <li class="dp-Menu-linkItem">
                                     <a href="#" class="dp-listItem">Ascending</a>
                                 </li>
@@ -360,7 +360,7 @@ title: Sort and Re-order
                         </li>
                         <li class="dp-Menu-linkItem">
                             <a href="" class="dp-listItem">Waiting time<span class="dp-Icon dp-settings"></span></a>
-                            <ul class="dp-Menu Menu-tick">
+                            <ul class="dp-Menu Menu-tick Menu--tick-left">
                                 <li class="dp-Menu-linkItem">
                                     <a href="#" class="dp-listItem">Ascending</a>
                                 </li>
@@ -371,7 +371,7 @@ title: Sort and Re-order
                         </li>
                         <li class="dp-Menu-linkItem">
                             <a href="" class="dp-listItem">All waiting time<span class="dp-Icon dp-settings"></span></a>
-                            <ul class="dp-Menu Menu-tick">
+                            <ul class="dp-Menu Menu-tick Menu--tick-left">
                                 <li class="dp-Menu-linkItem">
                                     <a href="#" class="dp-listItem">Ascending</a>
                                 </li>
@@ -382,7 +382,7 @@ title: Sort and Re-order
                         </li>
                         <li class="dp-Menu-linkItem">
                             <a href="" class="dp-listItem">Helpdesk team size<span class="dp-Icon dp-settings"></span></a>
-                            <ul class="dp-Menu Menu-tick">
+                            <ul class="dp-Menu Menu-tick Menu--tick-left">
                                 <li class="dp-Menu-linkItem">
                                     <a href="#" class="dp-listItem">Ascending</a>
                                 </li>
@@ -393,7 +393,7 @@ title: Sort and Re-order
                         </li>
                         <li class="dp-Menu-linkItem">
                             <a href="" class="dp-listItem">Hubspot deal<span class="dp-Icon dp-settings"></span></a>
-                            <ul class="dp-Menu Menu-tick">
+                            <ul class="dp-Menu Menu-tick Menu--tick-left">
                                 <li class="dp-Menu-linkItem">
                                     <a href="#" class="dp-listItem">Ascending</a>
                                 </li>
