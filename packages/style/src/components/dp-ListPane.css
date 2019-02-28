@@ -584,7 +584,7 @@ input:disabled + label {
 .dp-Comments-list .dp-LevelWrap {
   background-color: var(--grey-lightest);
   margin: 0 -11px -10px -10px;
-  padding: 5px 0 5px 25px;
+  padding: 5px 0 5px 29px;
 }
 
 .dp-Card-comment {
@@ -770,7 +770,10 @@ input:disabled + label {
 
 .select-checkbox .dp-CustomCheckbox input[type="checkbox"] + label::after {
   background-image: url('data:image/svg+xml,<svg viewBox="0 0 9 2" fill="none" xmlns="http://www.w3.org/2000/svg"><line x1="0.766602" y1="0.5625" x2="8.3291" y2="0.5625" stroke="white" stroke-linejoin="round"/></svg>');
-  background-size: 12px 100%;
+  background-size: 12px 2px;
+
+  /* background-size: 12px 100%; */
+
 }
 
 /* Date/Time select */
@@ -948,3 +951,10 @@ input:disabled + label {
   background-color: var(--grey-lighter);
   height: 100%;
 }
+
+/* animate */
+
+/* .is-expanted {
+
+}
+*/

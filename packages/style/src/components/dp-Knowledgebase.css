@@ -182,7 +182,7 @@
   left: calc(100% - 22px);
   padding: 0;
   position: absolute;
-  top: calc(50% - 6px);
+  top: calc(50% - 5px);
 }
 
 .dp-Knowledgebase .dp-Menu .dp-Menu-linkItem .dp-Cog .dp-Menu {

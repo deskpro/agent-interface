@@ -95,7 +95,7 @@ title: PageSidebar
 
 <h4>sidebar/tickets/header/count-smallmore</h4>
 ```html @preview
-<div class="dp-MainWrapper">
+<div class="dp-MainWrapper" style="background-color:#f7f7f7;">
     <div class="dp-PageSidebar demo-sidebar">
 
         <div class="dp-SidebarSection dp-SectionControls">
@@ -189,17 +189,44 @@ title: PageSidebar
 <h4>sidebar/cc-row</h4>
 ```html @preview
 <div class="dp-MainWrapper">
-    <div class="dp-PageSidebar demo-sidebar">
-        <div class="dp-SectionControls dp-SidebarSection">
-            <div class="dp-title-item dp-SectionTitle">
+    <div class="dp-PageSidebar demo-menu demo-sidebar">
+        <div class="dp-SidebarBody">
+            <div class="dp-SectionControls dp-SidebarSection dp-CCmenu">
+                <div class="dp-title-item dp-SectionTitle">
 
-                <span class="dp-UserName">
-                    <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                    Wendy Pride
-                    <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">w.pride@techcompany.co.uk</a>
-                </span>
+                    <span class="dp-UserName">
+                        <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                        <span class="dp-User-link">
+                            Wendy Pride
+                            <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">w.pride@techcompany.co.uk</a>
+                        </span>
+                    </span>
+                    <a href="#" class="dp-Icon dp-iconVDots"></a>
+                    <!-- hide menu -->
+                    <ul class="dp-Menu">
+                        <li class="dp-Menu-linkItem">
+                            <span class="dp-Icon dp-Swap"></span>
+                            <a href="#" class="dp-Menu-link">Swap with ticket owner</a>
+                        </li>
+                        <li class="dp-Menu-linkItem">
+                            <span class="dp-Icon dp-Owner"></span>
+                            <a href="#" class="dp-Menu-link">Set as ticket owner</a>
+                        </li>
+                        <li class="dp-Menu-linkItem">
+                            <span class="dp-Icon dp-Merge"></span>
+                            <a href="#" class="dp-Menu-link">Merge into ticket owner</a>
+                        </li>
+                        <li class="dp-Menu-linkItem">
+                            <span class="dp-Icon dp-Bin"></span>
+                            <a href="#" class="dp-Menu-link">Remove CC</a>
+                        </li>
+                        <li class="dp-Menu-linkItem">
+                            <span class="dp-Icon dp-iconMin"></span>
+                            <a href="#" class="dp-Menu-link">Remove CC & Block from ticket</a>
+                        </li>
+                    </ul>
 
-                <a href="#" class="dp-Icon dp-iconVDots"></a>
+                </div>
             </div>
         </div>
     </div>
@@ -242,12 +269,12 @@ title: PageSidebar
 
 <h4>sidebar/headers</h4>
 ```html @preview
-<div class="dp-MainWrapper">
+<div class="dp-MainWrapper" style="background-color:#f7f7f7;">
     <div class="dp-PageSidebar demo-sidebar">
 
         <div class="dp-SidebarSection dp-SectionControls">
             <div class="dp-SectionTitle">
-                <div class="dp-TitleControls"><span class="dp-Section--name">TIMES</span></div>
+                <div class="dp-TitleControls"><span class="dp-Section--name">Times</span></div>
                 <a href="#" class="dp-Controls">
                     <span class="dp-qt"> +6 </span> 
                     <i class="dp-Icon dp-DotsIcon"></i>
@@ -284,7 +311,7 @@ title: PageSidebar
     <div class="dp-PageSidebar demo-sidebar demo-sidebar">
         <div class="dp-Slas">
 
-            <div class="dp-TitleControls">COMPLETED SLAS</div>
+            <div class="dp-TitleControls">Completed SLAs</div>
 
             <div class="dp-SectionBody">
                 <div class="dp-TagItem">
@@ -345,12 +372,6 @@ title: PageSidebar
 
             <div class="dp-SidebarBody">
 
-<!--                 <div class="dp-SidebarSection">
-                    <div class="dp-SectionTitle">
-                        <div class="dp-TitleControls">ORGANIZATION & USER</div>
-                    </div>
-                </div> -->
-
                 <div class="dp-SidebarSection">
                     <div class="dp-SectionBody-item ">
                         <div class="dp-title-item">
@@ -388,46 +409,146 @@ title: PageSidebar
                             </a>
                         </div>
                     </div>
-                </div>
 
-                <div class="dp-SectionControls dp-SidebarSection">
+                    <div class="dp-SectionControls dp-SidebarSection">
+                        <div class="dp-title-item dp-SectionTitle">
 
-                    <div class="dp-title-item dp-SectionTitle">
-                        <span class="dp-UserName">
-                            <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                            Wendy Pride
-                            <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">w.pride@techcompany.co.uk</a>
-                        </span>
-                        <a href="#" class="dp-Icon dp-iconVDots"></a>
+                            <span class="dp-UserName">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <span class="dp-User-link">
+                                    Wendy Pride
+                                    <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">w.pride@techcompany.co.uk</a>
+                                </span>
+                            </span>
+                            <a href="#" class="dp-Icon dp-iconVDots"></a>
+                            <!-- hide menu -->
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-Swap"></span>
+                                    <a href="#" class="dp-Menu-link">Swap with ticket owner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-Owner"></span>
+                                    <a href="#" class="dp-Menu-link">Set as ticket owner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-Merge"></span>
+                                    <a href="#" class="dp-Menu-link">Merge into ticket owner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-Bin"></span>
+                                    <a href="#" class="dp-Menu-link">Remove CC</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-iconMin"></span>
+                                    <a href="#" class="dp-Menu-link">Remove CC & Block from ticket</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="dp-title-item dp-SectionTitle">
+                            <span class="dp-UserName">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <span class="dp-User-link">
+                                    Bob Cooper
+                                    <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">bob.cooper@techcompany.co</a>
+                                </span>
+                            </span>
+                            <a href="#" class="dp-Icon dp-iconVDots"></a>
+                            <!-- hide menu -->
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-Swap"></span>
+                                    <a href="#" class="dp-Menu-link">Swap with ticket owner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-Menu-link">Set as ticket owner</a>
+                                    <span class="dp-Icon dp-Owner"></span>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-Merge"></span>
+                                    <a href="#" class="dp-Menu-link">Merge into ticket owner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-Bin"></span>
+                                    <a href="#" class="dp-Menu-link">Remove CC</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-iconMin"></span>
+                                    <a href="#" class="dp-Menu-link">Remove CC & Block from ticket</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="dp-title-item dp-SectionTitle">
+                            <span class="dp-UserName">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <span class="dp-User-link">
+                                    Wendy Pride
+                                    <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">w.pride@techcompany.co.uk</a>
+                                </span>
+                            </span>
+                            <a href="#" class="dp-Icon dp-iconVDots"></a>
+                            <!-- hide menu -->
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-Swap"></span>
+                                    <a href="#" class="dp-Menu-link">Swap with ticket owner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-Owner"></span>
+                                    <a href="#" class="dp-Menu-link">Set as ticket owner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-Merge"></span>
+                                    <a href="#" class="dp-Menu-link">Merge into ticket owner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-Bin"></span>
+                                    <a href="#" class="dp-Menu-link">Remove CC</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-iconMin"></span>
+                                    <a href="#" class="dp-Menu-link">Remove CC & Block from ticket</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="dp-title-item dp-SectionTitle">
+                            <span class="dp-UserName">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <span class="dp-User-link">
+                                    Bob Cooper
+                                    <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">bob.cooper@techcompany.co</a>
+                                </span>
+                            </span>
+                            <a href="#" class="dp-Icon dp-iconVDots"></a>
+                            <!-- hide menu -->
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-Swap"></span>
+                                    <a href="#" class="dp-Menu-link">Swap with ticket owner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-Owner"></span>
+                                    <a href="#" class="dp-Menu-link">Set as ticket owner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-Merge"></span>
+                                    <a href="#" class="dp-Menu-link">Merge into ticket owner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-Bin"></span>
+                                    <a href="#" class="dp-Menu-link">Remove CC</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-iconMin"></span>
+                                    <a href="#" class="dp-Menu-link">Remove CC & Block from ticket</a>
+                                </li>
+                            </ul>
+                        </div>
+
                     </div>
-
-                    <div class="dp-title-item dp-SectionTitle">
-                        <span class="dp-UserName">
-                            <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                            Wendy Pride
-                            <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">w.pride@techcompany.co.uk</a>
-                        </span>
-                        <a href="#" class="dp-Icon dp-iconVDots"></a>
-                    </div>
-
-                    <div class="dp-title-item dp-SectionTitle">
-                        <span class="dp-UserName">
-                            <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                            Wendy Pride
-                            <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">w.pride@techcompany.co.uk</a>
-                        </span>
-                        <a href="#" class="dp-Icon dp-iconVDots"></a>
-                    </div>
-
-                    <div class="dp-title-item dp-SectionTitle">
-                        <span class="dp-UserName">
-                            <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                            Wendy Pride
-                            <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">w.pride@techcompany.co.uk</a>
-                        </span>
-                        <a href="#" class="dp-Icon dp-iconVDots"></a>
-                    </div>
-
                 </div>
 
                 <div class="dp-SidebarSection dp-SectionControls">
@@ -452,7 +573,7 @@ title: PageSidebar
                         <div class="dp-ButtonWrapper">
                             <span class="dp-Icon dp-LevelDown"></span>
 
-                            <button class="dp-ActionButton ActionButton--large is-semibold dp-Arrow" type="button">
+                            <button class="dp-ActionButton ActionButton--large dp-Arrow" type="button">
                                 Awaiting order confirmation
                             </button>
                         </div>
@@ -462,7 +583,7 @@ title: PageSidebar
 
                 <div class="dp-SidebarSection dp-SectionControls">
                     <div class="dp-SectionTitle">
-                        <div class="dp-TitleControls"><span class="dp-Section--name">TIMES</span></div>
+                        <div class="dp-TitleControls"><span class="dp-Section--name">Times</span></div>
                         <a href="#" class="dp-Controls">
                             <span class="dp-qt"> +6 </span> 
                             <i class="dp-Icon dp-DotsIcon"></i>
@@ -489,7 +610,7 @@ title: PageSidebar
 
                 <div class="dp-SidebarSection dp-SectionControls">
                     <div class="dp-SectionTitle">
-                        <div class="dp-TitleControls"><span class="dp-Section--name">SLAS</span></div>
+                        <div class="dp-TitleControls"><span class="dp-Section--name">SLAs</span></div>
                         <a href="#" class="dp-Controls">
                             <span class="dp-qt"> +5 </span> 
                             <i class="dp-Icon dp-DotsIcon"></i>
@@ -498,7 +619,7 @@ title: PageSidebar
                 </div>
                 
                 <div class="dp-Slas">
-                    <div class="dp-TitleControls">ACTIVE SLAS</div>
+                    <div class="dp-TitleControls">Active SLAs</div>
 
                     <div class="dp-SectionBody">
                         <div class="dp-TagItem">
@@ -529,18 +650,12 @@ title: PageSidebar
         <div class="dp-PageSidebar dp-TicketOverlay">
 
             <ul class="dp-Tabs Tabs--icons">
-                <li class="dp-Tabs-item is-active"><a href="#" class="dp-Icon Icon--email"></a></li>
-                <li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--user"></a></li>
+                <li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--email"></a></li>
+                <li class="dp-Tabs-item is-active"><a href="#" class="dp-Icon Icon--user"></a></li>
                 <li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--organisation"></a></li>
             </ul>
 
             <div class="dp-SidebarBody">
-
-<!--                 <div class="dp-SidebarSection">
-                    <div class="dp-SectionTitle">
-                        <div class="dp-TitleControls">ORGANIZATION & USER</div>
-                    </div>
-                </div> -->
 
                 <div class="dp-SidebarSection">
                     <div class="dp-SectionBody-item is-disabled">
@@ -681,46 +796,146 @@ title: PageSidebar
                             </a>
                         </div>
                     </div>
-                </div>
 
-                <div class="dp-SectionControls dp-SidebarSection">
+                    <div class="dp-SectionControls dp-SidebarSection">
+                        <div class="dp-title-item dp-SectionTitle">
 
-                    <div class="dp-title-item dp-SectionTitle">
-                        <span class="dp-UserName">
-                            <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                            Wendy Pride
-                            <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">w.pride@techcompany.co.uk</a>
-                        </span>
-                        <a href="#" class="dp-Icon dp-iconVDots"></a>
+                            <span class="dp-UserName">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <span class="dp-User-link">
+                                    Wendy Pride
+                                    <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">w.pride@techcompany.co.uk</a>
+                                </span>
+                            </span>
+                            <a href="#" class="dp-Icon dp-iconVDots"></a>
+                            <!-- hide menu -->
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-Swap"></span>
+                                    <a href="#" class="dp-Menu-link">Swap with ticket owner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-Owner"></span>
+                                    <a href="#" class="dp-Menu-link">Set as ticket owner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-Merge"></span>
+                                    <a href="#" class="dp-Menu-link">Merge into ticket owner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-Bin"></span>
+                                    <a href="#" class="dp-Menu-link">Remove CC</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-iconMin"></span>
+                                    <a href="#" class="dp-Menu-link">Remove CC & Block from ticket</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="dp-title-item dp-SectionTitle">
+                            <span class="dp-UserName">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <span class="dp-User-link">
+                                    Wendy Pride
+                                    <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">w.pride@techcompany.co.uk</a>
+                                </span>
+                            </span>
+                            <a href="#" class="dp-Icon dp-iconVDots"></a>
+                            <!-- hide menu -->
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-Swap"></span>
+                                    <a href="#" class="dp-Menu-link">Swap with ticket owner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-Menu-link">Set as ticket owner</a>
+                                    <span class="dp-Icon dp-Owner"></span>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-Merge"></span>
+                                    <a href="#" class="dp-Menu-link">Merge into ticket owner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-Bin"></span>
+                                    <a href="#" class="dp-Menu-link">Remove CC</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-iconMin"></span>
+                                    <a href="#" class="dp-Menu-link">Remove CC & Block from ticket</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="dp-title-item dp-SectionTitle">
+                            <span class="dp-UserName">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <span class="dp-User-link">
+                                    Wendy Pride
+                                    <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">w.pride@techcompany.co.uk</a>
+                                </span>
+                            </span>
+                            <a href="#" class="dp-Icon dp-iconVDots"></a>
+                            <!-- hide menu -->
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-Swap"></span>
+                                    <a href="#" class="dp-Menu-link">Swap with ticket owner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-Owner"></span>
+                                    <a href="#" class="dp-Menu-link">Set as ticket owner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-Merge"></span>
+                                    <a href="#" class="dp-Menu-link">Merge into ticket owner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-Bin"></span>
+                                    <a href="#" class="dp-Menu-link">Remove CC</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-iconMin"></span>
+                                    <a href="#" class="dp-Menu-link">Remove CC & Block from ticket</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="dp-title-item dp-SectionTitle">
+                            <span class="dp-UserName">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <span class="dp-User-link">
+                                    Bob Cooper
+                                    <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">bob.cooper@techcompany.co</a>
+                                </span>
+                            </span>
+                            <a href="#" class="dp-Icon dp-iconVDots"></a>
+                            <!-- hide menu -->
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-Swap"></span>
+                                    <a href="#" class="dp-Menu-link">Swap with ticket owner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-Owner"></span>
+                                    <a href="#" class="dp-Menu-link">Set as ticket owner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-Merge"></span>
+                                    <a href="#" class="dp-Menu-link">Merge into ticket owner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-Bin"></span>
+                                    <a href="#" class="dp-Menu-link">Remove CC</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-iconMin"></span>
+                                    <a href="#" class="dp-Menu-link">Remove CC & Block from ticket</a>
+                                </li>
+                            </ul>
+                        </div>
+
                     </div>
-
-                    <div class="dp-title-item dp-SectionTitle">
-                        <span class="dp-UserName">
-                            <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                            Wendy Pride
-                            <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">w.pride@techcompany.co.uk</a>
-                        </span>
-                        <a href="#" class="dp-Icon dp-iconVDots"></a>
-                    </div>
-
-                    <div class="dp-title-item dp-SectionTitle">
-                        <span class="dp-UserName">
-                            <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                            Wendy Pride
-                            <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">w.pride@techcompany.co.uk</a>
-                        </span>
-                        <a href="#" class="dp-Icon dp-iconVDots"></a>
-                    </div>
-
-                    <div class="dp-title-item dp-SectionTitle">
-                        <span class="dp-UserName">
-                            <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                            Wendy Pride
-                            <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">w.pride@techcompany.co.uk</a>
-                        </span>
-                        <a href="#" class="dp-Icon dp-iconVDots"></a>
-                    </div>
-
                 </div>
 
                 <div class="dp-SidebarSection dp-SectionControls">
@@ -752,7 +967,7 @@ title: PageSidebar
 
                 <div class="dp-SidebarSection dp-SectionControls">
                     <div class="dp-SectionTitle">
-                        <div class="dp-TitleControls"><span class="dp-Section--name">TIMES</span></div>
+                        <div class="dp-TitleControls"><span class="dp-Section--name">Times</span></div>
                         <a href="#" class="dp-Controls">
                             <span class="dp-qt"> +6 </span> 
                             <i class="dp-Icon dp-DotsIcon"></i>
@@ -804,7 +1019,7 @@ title: PageSidebar
                     <!-- 6 -->
                     <div class="dp-SectionTitle dp-TimesRow">
                         <div class="dp-title-item">
-                            <span class="dp-Icon dp-FirstAgent"></span>
+                            <span class="dp-Icon dp-FirstAgent Icon--blue"></span>
                             First agent reply
                         </div>
                         <span class="dp-TimesStatus">2 weeks ago</span>
@@ -812,7 +1027,7 @@ title: PageSidebar
                     <!-- 7 -->
                     <div class="dp-SectionTitle dp-TimesRow">
                         <div class="dp-title-item">
-                            <span class="dp-Icon dp-LastAgent"></span>
+                            <span class="dp-Icon dp-LastAgent Icon--blue"></span>
                             Last agent reply
                         </div>
                         <span class="dp-TimesStatus">4 days ago</span>
@@ -820,7 +1035,7 @@ title: PageSidebar
                     <!-- 8 -->
                     <div class="dp-SectionTitle dp-TimesRow">
                         <div class="dp-title-item">
-                            <span class="dp-Icon dp-LastUser"></span>
+                            <span class="dp-Icon dp-LastUser Icon--blue"></span>
                             Last user reply
                         </div>
                         <span class="dp-TimesStatus">6 hrs 37 mins</span>
@@ -830,7 +1045,7 @@ title: PageSidebar
 
                 <div class="dp-SidebarSection dp-SectionControls">
                     <div class="dp-SectionTitle">
-                        <div class="dp-TitleControls"><span class="dp-Section--name">SLAS</span></div>
+                        <div class="dp-TitleControls"><span class="dp-Section--name">SLAs</span></div>
                         <a href="#" class="dp-Controls">
                             <span class="dp-qt"> +5 </span> 
                             <i class="dp-Icon dp-DotsIcon"></i>
@@ -839,7 +1054,7 @@ title: PageSidebar
                 </div>
                 
                 <div class="dp-Slas">
-                    <div class="dp-TitleControls">ACTIVE SLAS</div>
+                    <div class="dp-TitleControls">Active SLAs</div>
 
                     <div class="dp-SectionBody">
                         <div class="dp-TagItem">
@@ -926,8 +1141,10 @@ title: PageSidebar
 
                             <span class="dp-UserName">
                                 <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                Wendy Pride
-                                <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">w.pride@techcompany.co.uk</a>
+                                <span class="dp-User-link">
+                                    Bob Cooper
+                                    <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">bob.cooper@techcompany.co</a>
+                                </span>
                             </span>
                             <a href="#" class="dp-Icon dp-iconVDots"></a>
                             <!-- hide menu -->
@@ -958,8 +1175,10 @@ title: PageSidebar
                         <div class="dp-title-item dp-SectionTitle">
                             <span class="dp-UserName">
                                 <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                Bob Cooper
-                                <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">bob.cooper@techcompany.co</a>
+                                <span class="dp-User-link">
+                                    Bob Cooper
+                                    <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">bob.cooper@techcompany.co</a>
+                                </span>
                             </span>
                             <a href="#" class="dp-Icon dp-iconVDots"></a>
                             <!-- hide menu -->
@@ -988,10 +1207,17 @@ title: PageSidebar
                         </div>
 
                         <div class="dp-title-item dp-SectionTitle is-active">
-                            <span class="dp-UserName">
+<!--                             <span class="dp-UserName">
                                 <span class="dp-Badge Badge--round Badge--grey-light"></span>
                                 Wendy Pride
                                 <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">w.pride@techcompany.co.uk</a>
+                            </span> -->
+                            <span class="dp-UserName">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <span class="dp-User-link">
+                                    Bob Cooper
+                                    <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">bob.cooper@techcompany.co</a>
+                                </span>
                             </span>
                             <a href="#" class="dp-Icon dp-iconVDots is-visible"></a>
                             <!-- hide menu -->
@@ -1022,8 +1248,10 @@ title: PageSidebar
                         <div class="dp-title-item dp-SectionTitle">
                             <span class="dp-UserName">
                                 <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                Bob Cooper
-                                <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">bob.cooper@techcompany.co</a>
+                                <span class="dp-User-link">
+                                    Bob Cooper
+                                    <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">bob.cooper@techcompany.co</a>
+                                </span>
                             </span>
                             <a href="#" class="dp-Icon dp-iconVDots"></a>
                             <!-- hide menu -->
@@ -1086,7 +1314,7 @@ title: PageSidebar
 
                 <div class="dp-SidebarSection dp-SectionControls">
                     <div class="dp-SectionTitle">
-                        <div class="dp-TitleControls"><span class="dp-Section--name">TIMES</span></div>
+                        <div class="dp-TitleControls"><span class="dp-Section--name">Times</span></div>
                         <a href="#" class="dp-Controls">
                             <span class="dp-qt"> +6 </span> 
                             <i class="dp-Icon dp-DotsIcon"></i>
@@ -1113,7 +1341,7 @@ title: PageSidebar
 
                 <div class="dp-SidebarSection dp-SectionControls">
                     <div class="dp-SectionTitle">
-                        <div class="dp-TitleControls"><span class="dp-Section--name">SLAS</span></div>
+                        <div class="dp-TitleControls"><span class="dp-Section--name">SLAs</span></div>
                         <a href="#" class="dp-Controls">
                             <span class="dp-qt"> +5 </span> 
                             <i class="dp-Icon dp-DotsIcon"></i>
@@ -1122,7 +1350,7 @@ title: PageSidebar
                 </div>
                 
                 <div class="dp-Slas">
-                    <div class="dp-TitleControls">ACTIVE SLAS</div>
+                    <div class="dp-TitleControls">Active SLAs</div>
 
                     <div class="dp-SectionBody">
                         <div class="dp-TagItem">
@@ -1138,6 +1366,59 @@ title: PageSidebar
                             <span class="dp-TagDescription">Time awaiting reply</span>
                         </div>
                     </div>
+                </div>
+
+            </div> <!-- Sidebar body -->
+        </div>
+    </div>
+</div>
+```
+
+```html @preview
+<div class="dp-MainWrapper">
+    <div class="dp-SidebarContainer demo-cog demo-menu demo-sidebar">
+        <div class="dp-PageSidebar dp-TicketOverlay">
+
+            <ul class="dp-Tabs Tabs--icons">
+                <li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--email"></a></li>
+                <li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--user"></a></li>
+                <li class="dp-Tabs-item is-active"><a href="#" class="dp-Icon Icon--organisation"></a></li>
+            </ul>
+
+            <div class="dp-SidebarBody">
+
+                <div class="dp-SidebarSection">
+                    <div class="dp-SectionBody-item">
+                        <div class="dp-title-item">
+                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                            Tech company
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dp-SidebarSection">
+                    <dl class="dp-AddressList">
+                        <dt class="dp-TitleList">
+                            <span class="dp-Icon Icon--Web"></span>
+                            Website
+                        </dt>
+                        <dd class="dp-SubTitleList">www.techcompany.com</dd>
+
+                        <dd class="dp-DropdownDivider"></dd>
+
+                        <dt class="dp-TitleList">
+                            <span class="dp-Icon Icon--Address"></span>
+                            Address
+                        </dt>
+                        <dd class="dp-SubTitleList address">
+                            Tech Company Ltd<br></br>
+                            14 Cloud Street<br></br>
+                            London<br></br>
+                            SE1 ONG<br></br>
+                            England
+                        </dd>
+
+                    </dl>
                 </div>
 
             </div> <!-- Sidebar body -->

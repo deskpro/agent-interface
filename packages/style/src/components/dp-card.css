@@ -18,7 +18,8 @@
 
 }
 
-.dp-Card-title {
+.dp-Card-title,
+.dp-Items-title {
   color: var(--grey-darkest);
   cursor: pointer;
   font: var(--h-n-semibold);
@@ -99,6 +100,7 @@
   width: 100%;
 }
 
+.dp-CustomCheckbox .dp-Items-title,
 .dp-CustomCheckbox .dp-Card-title {
   margin: 0;
 }
@@ -158,9 +160,6 @@
 }
 
 .dp-Card.is-hover {
-
-  /* background-color: rgba(58, 141, 222, 0.07); */
-
   background-color: var(--info-light);
 }
 
@@ -191,9 +190,6 @@
 .dp-CardList .dp-Card:hover {
   background-color: var(--info-light);
   border-right: 1px solid var(--grey-light);
-
-  /* background-color: rgba(58, 141, 222, 0.07); */
-
 }
 
 .dp-Listpane-guides .Level--down {
@@ -418,11 +414,6 @@
   padding-left: 23px;
 }
 
-/* .dp-Title.Title-Icon .dp-Card-title {
-  margin-bottom: 0;
-  margin-left: 5px;
-} */
-
 /* Star */
 
 .dp-Card .dp-Title .Icon--star {
@@ -465,7 +456,7 @@
   background-color: var(--info-light);
   border-radius: 50%;
   height: 30px;
-  margin-right: 10px;
+  margin-right: 6px;
   width: 30px;
 }
 
@@ -504,8 +495,6 @@
   height: 12px;
   width: 12px;
 }
-
-/* .dp-GuidesDirectory .dp-Card:hover .dp-IconGroup .dp-settings, */
 
 .dp-GuidesDirectory .Icon--home svg {
   fill: var(--brand-primary);
@@ -616,8 +605,6 @@
   fill: var(--brand-primary);
 }
 
-/* dp-Listpane-guides */
-
 .dp-Listpane-guides .dp-Cog:hover > .dp-Menu {
   display: block;
 }
@@ -625,10 +612,6 @@
 .dp-Card .dp-Cog > .dp-Menu {
   display: none;
   padding: 10px 0;
-
-  /*  margin-left: 4px;
-  margin-top: 2px; */
-
 }
 
 .dp-Listpane-guides .dp-Menu .dp-Menu-title {

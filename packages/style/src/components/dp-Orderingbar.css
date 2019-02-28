@@ -3,44 +3,57 @@
 @import "../dp-Arrow.css";
 @import "../components/dp-icons.css";
 
-/* List Pane */
+.dp-OrderingBar {
+  background-color: var(--grey-lightest);
+  border-bottom: 1px solid var(--grey-light);
+  color: inherit;
+  display: flex;
+}
 
-.dp-ListPane {
+.dp-OrderingBar .dp-OrderingBar-item:first-child {
+  flex: 0 0 33px;
+  min-width: auto;
+}
+
+.dp-OrderingBar-item {
   align-items: center;
   background-color: var(--grey-lightest);
   border-right: 1px solid var(--grey-light);
   color: inherit;
   cursor: pointer;
   display: flex;
-  flex: 0 0 33px;
+  flex: 1 1 100%;
   margin: 0;
-  padding: 10px;
+  min-width: 110px;
+  padding: 5px 10px;
   position: relative;
 }
 
-.dp-ListPane.is-active > .dp-SelectGroup .dp-Title,
-.dp-ListPane.is-active > .dp-SelectGroup .dp-Subtitle,
-.dp-ListPane.is-active .dp-SortDescription {
+.dp-OrderingBar-item.is-active > .dp-SelectGroup .dp-Title,
+.dp-OrderingBar-item.is-active > .dp-SelectGroup .dp-Subtitle,
+.dp-OrderingBar-item.is-active .dp-SortDescription {
   color: var(--brand-primary);
 }
 
-.dp-ListPane .dp-CustomCheckbox.dp-EmptyCheckbox {
+.dp-OrderingBar-item .dp-CustomCheckbox.dp-EmptyCheckbox {
   display: flex;
 }
 
-.dp-ListPane:last-child {
-  border-left: 1px solid var(--grey-light);
+.dp-OrderingBar-item:last-child {
   border-right: 0;
-  margin-left: auto;
+
+  /*  margin-left: auto;
   margin-right: 0;
+  border-left: 1px solid var(--grey-light); */
+
 }
 
-.dp-MassSelect .dp-ListPane:last-child {
+.dp-MassSelect .dp-OrderingBar-item:last-child {
   flex: 1 1 100%;
   max-width: 130px;
 }
 
-.dp-ListPane .dp-ItemRow {
+.dp-OrderingBar-item .dp-ItemRow {
   align-items: center;
   display: flex;
   justify-content: space-between;
@@ -48,34 +61,34 @@
   width: 100%;
 }
 
-.dp-ListPane .dp-Select {
+.dp-OrderingBar-item .dp-Select {
   background: transparent;
   border: 0;
   outline: 0;
 }
 
-.dp-ListPane .dp-Title {
+.dp-OrderingBar-item .dp-Title {
   color: var(--grey-dark);
   font: var(--p-n-semibold);
   padding: 0 0 0 4px;
   white-space: nowrap;
 }
 
-.dp-ListPane .dp-iconEye {
+.dp-OrderingBar-item .dp-iconEye {
   background-size: 19px 19px;
   display: inline-block;
   height: 13px;
   width: 19px;
 }
 
-.dp-ListPane .dp-iconSetting {
+.dp-OrderingBar-item .dp-iconSetting {
   background-size: 13px 13px;
   display: inline-block;
   height: 13px;
   width: 13px;
 }
 
-.dp-ListPane .dp-Icon.Icon--view {
+.dp-OrderingBar-item .dp-Icon.Icon--view {
   background-size: 20px 14px;
   height: 14px;
   width: 20px;
@@ -108,44 +121,31 @@
   margin-right: 4px;
 }
 
-.dp-ListPane .dp-Icon {
+.dp-OrderingBar-item .dp-Icon {
   cursor: pointer;
 }
 
-[disabled] .dp-ListPane,
-[disabled] .dp-ListPane .dp-Arrow,
-[disabled] .dp-ListPane .dp-Icon {
+[disabled] .dp-OrderingBar-item,
+[disabled] .dp-OrderingBar-item .dp-Arrow,
+[disabled] .dp-OrderingBar-item .dp-Icon {
   cursor: not-allowed;
 }
 
 [disabled] .dp-Icon svg {
-  color: var(--grey);
+  fill: var(--grey);
 }
 
-/* filter result controls */
-
-.dp-FilterControlsList {
-  background-color: var(--grey-lightest);
-  border-bottom: 1px solid var(--grey-light);
-  color: inherit;
-  display: flex;
-}
-
-.dp-FilterControlsList .dp-ListPane {
-  flex: 0 0 33px;
-  padding: 5px 10px;
-}
-
-.dp-ListPane.dp-DropDownItem {
+/* .dp-OrderingBar-item {
   flex: 1 1 100%;
   min-width: 110px;
-}
+} */
 
-.dp-GroupSortBar .dp-ListPane.dp-DropDownItem {
+/* .dp-GroupSortBar .dp-OrderingBar-item .dp-DropDownItem,
+.dp-GroupSortBar .dp-OrderingBar-item.dp-DropDownItem {
   flex: 0 1 145px;
-}
+} */
 
-.dp-ListPane.dp-DropDownItem .dp-SelectGroup .dp-Arrow::after {
+.dp-OrderingBar-item.dp-DropDownItem .dp-SelectGroup .dp-Arrow::after {
   right: 0;
 }
 
@@ -210,17 +210,17 @@
   width: 13px;
 }
 
-.newControlsList .dp-FilterControlsItem .dp-Title {
+.dp-OrderingBar .dp-FilterControlsItem .dp-Title {
   font: var(--h-s-semibold);
   padding: 0;
   text-transform: none;
 }
 
-.newControlsList .dp-FilterControlsItem .dp-Subtitle {
+.dp-OrderingBar .dp-FilterControlsItem .dp-Subtitle {
   font: var(--p-n);
 }
 
-.newControlsList .dp-FilterControlsItem .dp-Icon {
+.dp-OrderingBar .dp-FilterControlsItem .dp-Icon {
   background-size: 23px 23px;
   height: 25px;
   margin-right: 4px;
@@ -243,16 +243,16 @@
   fill: var(--brand-primary);
 }
 
-.newControlsList .dp-Select {
+.dp-OrderingBar .dp-Select {
   user-select: none;
 }
 
-.newControlsList .dp-ListPane .dp-Title {
+.dp-OrderingBar .dp-OrderingBar-item .dp-Title {
   color: var(--grey-darkest);
   padding: 0;
 }
 
-.newControlsList .dp-ListPane .dp-Subtitle {
+.dp-OrderingBar .dp-OrderingBar-item .dp-Subtitle {
   color: var(--grey-darkest);
   font: var(--p-s);
 }
@@ -262,7 +262,7 @@
   width: 100%;
 }
 
-.newControlsList .dp-ListPane > .dp-Icon {
+.dp-OrderingBar .dp-OrderingBar-item > .dp-Icon {
   background-size: 19px 19px;
   height: 19px;
   margin-right: 5px;
@@ -270,26 +270,26 @@
 }
 
 .dp-Menu .dp-SortOrder .dp-Order-btn .dp-sort,
-.newControlsList .dp-ListPane .dp-sort,
+.dp-OrderingBar .dp-OrderingBar-item .dp-sort,
 .dp-Card-title .dp-sort {
   background-size: 13.2px 10.4px;
   height: 12px;
   width: 15px;
 }
 
-.newControlsList .dp-ListPane .Icon--view {
+.dp-OrderingBar .dp-OrderingBar-item .Icon--view {
   background-size: 20px 14px;
 }
 
-.newControlsList .dp-ListPane .dp-csv {
+.dp-OrderingBar .dp-OrderingBar-item .dp-csv {
   background-size: 15px 9px;
 }
 
-.newControlsList .dp-Select {
+.dp-OrderingBar .dp-Select {
   user-select: none;
 }
 
-.newControlsList .dp-SelectGroup {
+.dp-OrderingBar .dp-SelectGroup {
   flex: 1 0 0;
   margin-top: -1px;
 }
@@ -303,7 +303,7 @@
   background-color: var(--grey-lightest);
 }
 
-.dp-orderingbar .dp-ListPane:last-child {
+.dp-orderingbar .dp-OrderingBar-item:last-child {
   border: 0;
   border-left: 0;
 }

@@ -10824,7 +10824,7 @@ title: Sort and Re-order
             </li>
 
             <li class="dp-Menu-linkItem dp-SortList">
-                <ul>
+                <ul class="dp-Menu-Sort">
                     <li class="dp-Menu-linkItem">
                         <span class="dp-RadioWrapper">
                             <span class="dp-RadioItem">
@@ -11097,7 +11097,7 @@ title: Sort and Re-order
             </li>
 
             <li class="dp-Menu-linkItem dp-SortList">
-                <ul>
+                <ul class="dp-Menu-Sort">
                     <li class="dp-Menu-linkItem">
                         <span class="dp-RadioWrapper">
                             <span class="dp-RadioItem">
@@ -11369,7 +11369,7 @@ title: Sort and Re-order
             </li>
 
             <li class="dp-Menu-linkItem dp-SortList">
-                <ul>
+                <ul class="dp-Menu-Sort">
                     <li class="dp-Menu-linkItem">
                         <span class="dp-RadioWrapper">
                             <span class="dp-RadioItem">

@@ -748,7 +748,8 @@ title: List View
                 <label for="listpaneCheckbox0" class="dp-Input-arrow"></label>
 
                 <button class="dp-Arrow"></button>
-                <span class="dp-Card-title">(48 items selected)</span>
+                <!-- <span class="dp-Card-title">(48 items selected)</span> -->
+                <span class="dp-Items-title">(48 items selected)</span>
                 <ul class="dp-Menu is-visible">
                     <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Uncheck all</a></li>
                     <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Select all</a></li>

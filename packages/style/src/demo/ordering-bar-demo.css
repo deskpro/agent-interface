@@ -1,22 +1,6 @@
 
 /* Demo style Ordering bar */
 
-/* .demo-ControlsList {
-  display: block;
-  height: 300px;
-}
-
-.demo-FieldsList {
-  display: block;
-  height: 615px;
-} */
-
-/* .demo-FieldsList .dp-orderingbar,
-.demo-ControlsList .dp-orderingbar {
-  max-width: 530px;
-}
-*/
-
-.demo-FilterList .dp-FilterControlsList {
+.demo-OrderingBar .dp-OrderingBar {
   border: 1px solid var(--grey-light);
 }

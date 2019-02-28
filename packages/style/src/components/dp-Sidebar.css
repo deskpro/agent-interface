@@ -35,6 +35,14 @@
   margin-bottom: 5px;
 }
 
+.dp-SidebarSection .dp-TimesRow .dp-Icon {
+  width: 17px;
+}
+
+.dp-SidebarSection .dp-TimesRow .dp-Icon svg {
+  fill: var(--brand-primary);
+}
+
 .dp-SidebarBody .dp-Slas {
   border-bottom: 1px solid var(--grey-light);
 }
@@ -177,6 +185,14 @@
   border: 1px solid var(--brand-primary);
 }
 
+.dp-SectionBody-item.dp-UserPanel:hover .dp-UserName {
+  color: var(--brand-primary);
+}
+
+.dp-SectionBody-item.dp-UserPanel {
+  margin-bottom: 10px;
+}
+
 .dp-UserPanel > * {
   margin-bottom: 5px;
 }
@@ -213,7 +229,11 @@
 
 .dp-AddressList .dp-SubTitleList.address {
   line-height: 0.7;
-  margin: 10px 0 2px;
+  margin: 10px 0;
+}
+
+.dp-AddressList .dp-SubTitleList.address + .dp-DropdownDivider {
+  padding: 0 0 0.5rem;
 }
 
 .dp-AddressList .dp-Address-Social {
@@ -253,12 +273,13 @@
 }
 
 .dp-OpenResolved .dp-Icon {
-  background-size: 13px 9px;
-  height: 9px;
+  background-size: 13px 8px;
+  height: 8px;
   width: 14px;
 }
 
 .dp-PageSidebar .dp-open {
+  align-items: center;
   border-right: 1px solid var(--grey);
   display: flex;
   margin-right: 10px;
@@ -266,6 +287,7 @@
 }
 
 .dp-PageSidebar .dp-resolved {
+  align-items: center;
   display: flex;
 }
 
@@ -319,7 +341,7 @@
 .dp-ButtonWrapper .dp-LevelDown + .dp-ActionButton {
   color: var(--grey-darkest);
   flex: 1 0 0;
-  font: var(--p-n);
+  font: var(--p-n-semibold);
 }
 
 .dp-Slas .dp-ButtonWrapper .dp-ActionButton {
@@ -387,13 +409,46 @@
   width: 15px;
 }
 
-.dp-VersionCCmenu .dp-title-item.is-active {
+.dp-CCmenu .dp-SectionControls .dp-SectionTitle {
+  margin-left: -10px;
+  margin-right: -10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.dp-CCmenu .dp-title-item.is-active,
+.dp-CCmenu .dp-title-item:hover {
   background-color: var(--primary-light);
   color: var(--brand-primary);
 }
 
-.dp-title-item.is-active .dp-MailAddress {
+.dp-CCmenu .dp-title-item.is-active .dp-MailAddress,
+.dp-CCmenu .dp-title-item:hover .dp-MailAddress {
   color: var(--brand-primary);
+}
+
+.dp-CCmenu .is-active.dp-title-item.dp-SectionTitle .dp-User-link::after,
+.dp-CCmenu .dp-title-item.dp-SectionTitle .dp-User-link:hover::after {
+  background-color: var(--brand-primary);
+}
+
+.dp-CCmenu .dp-title-item.dp-SectionTitle .dp-User-link {
+  position: relative;
+}
+
+.dp-CCmenu .dp-title-item.dp-SectionTitle .dp-User-link::after {
+  background-color: var(--grey-darkest);
+  bottom: 0;
+  content: "";
+  height: 0.75px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.dp-CCmenu .dp-UserMenu {
+  display: flex;
+  flex: 1 0 auto;
 }
 
 .dp-MailAddress {
@@ -415,13 +470,6 @@
 .dp-PageSidebar .dp-SectionTitle.dp-CcRow,
 .dp-SidebarSection.dp-CCmenu {
   margin-bottom: 0;
-}
-
-.dp-CCmenu .dp-title-item.dp-SectionTitle {
-  margin-left: -10px;
-  margin-right: -10px;
-  padding-left: 10px;
-  padding-right: 10px;
 }
 
 .dp-PageSidebar .dp-StatusGroup .dp-Tag:first-child {

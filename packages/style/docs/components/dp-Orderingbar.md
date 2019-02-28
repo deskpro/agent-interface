@@ -7,16 +7,21 @@ title: Orderingbar
 <h4>Listpane/orderingbar</h4>
 ```html @preview
 
-<!-- <div class="demo-ControlsList demo-cog demo-menu"> -->
-<div class="demo-FilterList demo-cog demo-menu">
-    <ul class="dp-FilterControlsList newControlsList dp-orderingbar">
-        <li class="dp-ListPane">
+<div class="demo-OrderingBar demo-cog demo-menu">
+
+    <!-- <div class="dp-FilterControlsList newControlsList dp-orderingbar"> -->
+    <div class="dp-OrderingBar">
+
+        <!-- <li class="dp-ListPane"> -->
+        <div class="dp-OrderingBar-item">
             <span class="dp-CustomCheckbox dp-EmptyCheckbox">
                 <input type="checkbox" class="dp-ControlInput" id="ordering-1"></input>
                 <label for="ordering-1"></label>
             </span>
-        </li>
-        <li class="dp-ListPane dp-DropDownItem">
+        </div>
+
+        <!-- <div class="dp-ListPane dp-DropDownItem"> -->
+        <div class="dp-OrderingBar-item">
             <span class="dp-Icon dp-grouped_by"></span>
             <span class="dp-SelectGroup">
                 <span class="dp-ItemRow">
@@ -163,10 +168,11 @@ title: Orderingbar
                     </ul>
                 </li>
             </ul>
-        </li>
+        </div>
 
         <!-- 2 -->
-        <li class="dp-ListPane dp-DropDownItem">
+        <!-- <div class="dp-ListPane dp-DropDownItem"> -->
+        <div class="dp-OrderingBar-item">
             <div class="dp-SortIconDescription">
                 <span class="dp-Icon dp-sort"></span>
                 <span class="dp-SortDescription">DSC</span>
@@ -197,11 +203,12 @@ title: Orderingbar
                 <li class="dp-Menu-linkItem"><a href="" class="dp-listItem">Suggested actions</a></li>
             </ul>
 
-        </li>
+        </div>
 
         <!-- 3 -->
 
-        <li class="dp-ListPane dp-DropDownItem">
+        <!-- <div class="dp-ListPane dp-DropDownItem"> -->
+        <div class="dp-OrderingBar-item">
             <span class="dp-Icon dp-faceted_by"></span>
             <span class="dp-SelectGroup">
                 <span class="dp-ItemRow">
@@ -1439,11 +1446,12 @@ title: Orderingbar
                 </li>
 
             </ul>
-        </li>
+        </div>
 
         <!-- 4 -->
 
-        <li class="dp-ListPane dp-DropDownItem">
+        <!-- <div class="dp-ListPane dp-DropDownItem"> -->
+        <div class="dp-OrderingBar-item">
             <span class="dp-Icon Icon--view"></span>
             <span class="dp-SelectGroup">
                 <span class="dp-ItemRow">
@@ -1693,8 +1701,8 @@ title: Orderingbar
                 </li>
 
             </ul>
-        </li>
-    </ul>
+        </div>
+    </div>
 </div>
 ```
 
@@ -1703,16 +1711,18 @@ title: Orderingbar
 
 <h4>Listpane/orderingbar-group</h4>
 ```html @preview
-<div class="demo-FilterList demo-cog demo-menu" style="height:300px">
+<div class="demo-OrderingBar demo-cog demo-menu" style="height:300px">
 
-    <ul class="dp-FilterControlsList newControlsList dp-orderingbar">
-        <li class="dp-ListPane">
+    <div class="dp-OrderingBar">
+
+        <div class="dp-OrderingBar-item">
             <span class="dp-CustomCheckbox dp-EmptyCheckbox">
                 <input type="checkbox" class="dp-ControlInput" id="ordering-2"></input>
                 <label for="ordering-2"></label>
             </span>
-        </li>
-        <li class="dp-ListPane dp-DropDownItem is-active">
+        </div>
+
+        <div class="dp-OrderingBar-item is-active">
             <span class="dp-Icon dp-grouped_by"></span>
             <span class="dp-SelectGroup">
                 <span class="dp-ItemRow">
@@ -1859,10 +1869,10 @@ title: Orderingbar
                     </ul>
                 </li>
             </ul>
-        </li>
+        </div>
 
         <!-- 2 -->
-        <li class="dp-ListPane dp-DropDownItem">
+        <div class="dp-OrderingBar-item">
             <div class="dp-SortIconDescription">
                 <span class="dp-Icon dp-sort"></span>
                 <span class="dp-SortDescription">DSC</span>
@@ -1892,12 +1902,11 @@ title: Orderingbar
                 <li class="dp-Menu-linkItem"><a href="" class="dp-listItem">Reason for complaint</a></li>
                 <li class="dp-Menu-linkItem"><a href="" class="dp-listItem">Suggested actions</a></li>
             </ul>
-
-        </li>
+        </div>
 
         <!-- 3 -->
 
-        <li class="dp-ListPane dp-DropDownItem">
+        <div class="dp-OrderingBar-item">
             <span class="dp-Icon dp-faceted_by"></span>
             <span class="dp-SelectGroup">
                 <span class="dp-ItemRow">
@@ -3135,11 +3144,11 @@ title: Orderingbar
                 </li>
             </ul>
 
-        </li>
+        </div>
 
         <!-- 4 -->
 
-        <li class="dp-ListPane dp-DropDownItem">
+        <div class="dp-OrderingBar-item">
             <span class="dp-Icon Icon--view"></span>
             <span class="dp-SelectGroup">
                 <span class="dp-ItemRow">
@@ -3388,8 +3397,8 @@ title: Orderingbar
                     </span>
                 </li>
             </ul>
-        </li>
-    </ul>
+        </div>
+    </div>
 
 </div>
 ```
@@ -3398,7 +3407,7 @@ title: Orderingbar
 
 <h4>Listpane/orderingbar-sort-asc/dsc</h4>
 ```html @preview
-<div class="demo-FilterList demo-cog demo-menu" style="height:300px">
+<div class="demo-OrderingBar demo-cog demo-menu" style="height:300px">
 
     <ul class="dp-FilterControlsList newControlsList dp-orderingbar">
         <li class="dp-ListPane">
@@ -5094,7 +5103,7 @@ title: Orderingbar
 
 <h4>Listpane/orderingbar-facet</h4>
 ```html @preview
-<div class="demo-FilterList demo-cog demo-menu" style="height:300px">
+<div class="demo-OrderingBar demo-cog demo-menu" style="height:300px">
 
     <ul class="dp-FilterControlsList newControlsList dp-orderingbar">
         <li class="dp-ListPane">
@@ -6783,7 +6792,7 @@ title: Orderingbar
 
 <h4>Listpane/orderingbar-fields</h4>
 ```html @preview
-<div class="demo-FilterList demo-cog demo-menu" style="height:615px; padding-right: 115px;">
+<div class="demo-OrderingBar demo-cog demo-menu" style="height:615px; padding-right: 115px;">
 
     <ul class="dp-FilterControlsList newControlsList dp-orderingbar">
         <li class="dp-ListPane">
@@ -8481,7 +8490,7 @@ title: Orderingbar
 
 <h4>Listpane/orderingbar-fields-extra</h4>
 ```html @preview
-<div class="demo-FilterList demo-cog demo-menu" style="height:615px; padding-right: 115px;">
+<div class="demo-OrderingBar demo-cog demo-menu" style="height:615px; padding-right: 115px;">
 
     <ul class="dp-FilterControlsList newControlsList dp-orderingbar demo-cog demo-menu">
         <li class="dp-ListPane">
@@ -10178,7 +10187,7 @@ title: Orderingbar
 
 <h4>Listpane/orderingbar-disabled</h4>
 ```html @preview
-<div class="demo-FilterList demo-cog demo-menu">
+<div class="demo-OrderingBar demo-cog demo-menu">
 
     <ul disabled class="dp-FilterControlsList newControlsList dp-orderingbar demo-cog demo-menu">
         <li class="dp-ListPane">
