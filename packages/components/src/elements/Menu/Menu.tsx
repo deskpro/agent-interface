@@ -122,16 +122,17 @@ const MenuComponent: React.FC<MenuProps> = ({
           props.isChecked = checked.includes(child.props.name);
           props.onClick = toggleChecked;
         } else {
-          const { onClick: providedClickHandler } = props;
+          const { onClick: providedClickHandler } = child.props;
           props.onClick = (name, e) => {
             if (typeof providedClickHandler === "function") {
               providedClickHandler(name, e);
             }
-            if (
-              (typeof providedClickHandler === "function" || props.link) &&
-              typeof menuContext.onMenuClose === "function"
-            ) {
-              menuContext.onMenuClose();
+            if (typeof providedClickHandler === "function" || props.link) {
+              if (typeof menuContext.onMenuClose === "function") {
+                menuContext.onMenuClose();
+              } else if (typeof onMenuClose === "function") {
+                onMenuClose();
+              }
             }
           };
         }
