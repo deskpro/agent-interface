@@ -1,7 +1,7 @@
 import * as React from "react";
 
 import List, { ListItem, MassActionType } from "./List";
-import SimpleCard, { SimpleCardProps } from "../Card/SimpleCard";
+import { SimpleCardProps } from "../Card/SimpleCard";
 import Pagination from "../../Pagination/Pagination";
 import ActionsButton from "../../Button/ActionsButton";
 import Menu from "../../elements/Menu/Menu";

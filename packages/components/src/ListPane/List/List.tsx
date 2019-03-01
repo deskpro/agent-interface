@@ -1,7 +1,7 @@
 import * as React from "react";
 
 import Card from "../Card";
-import SimpleCard, { SimpleCardProps } from "../Card/SimpleCard";
+import { SimpleCardProps } from "../Card/SimpleCard";
 import ScrollArea from "../../ScrollArea/ScrollArea";
 
 import "@deskpro/agent-interface-style/dist/components/dp-ListPane.css";
