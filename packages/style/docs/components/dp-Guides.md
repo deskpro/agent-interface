@@ -14,8 +14,9 @@ title: Guides
             <span class="dp-Breadcrumbs--Item is-current">Launching your helpdesk</span>
         </li>
         <li class="dp-orderingbar--Wrap">
-            <ul class="dp-FilterControlsList newControlsList dp-orderingbar">
-                <li class="dp-ListPane dp-DropDownItem">
+
+            <div class="dp-OrderingBar">
+                <div class="dp-OrderingBar-item">
                     <span class="dp-Icon dp-grouped_by"></span>
                     <span class="dp-SelectGroup">
                         <span class="dp-ItemRow">
@@ -26,8 +27,8 @@ title: Guides
                             <span class="dp-Subtitle">None</span>
                         </span>
                     </span>
-                </li>
-                <li class="dp-ListPane dp-DropDownItem">
+                </div>
+                <div class="dp-OrderingBar-item">
                     <div class="dp-SortIconDescription">
                         <span class="dp-Icon dp-sort"></span>
                         <span class="dp-SortDescription">DSC</span>
@@ -41,8 +42,8 @@ title: Guides
                             <span class="dp-Subtitle">Date of last r...</span>
                         </span>
                     </span>
-                </li>
-                <li class="dp-ListPane dp-DropDownItem">
+                </div>
+                <div class="dp-OrderingBar-item">
                     <span class="dp-Icon dp-faceted_by"></span>
                     <span class="dp-SelectGroup">
                         <span class="dp-ItemRow">
@@ -53,8 +54,8 @@ title: Guides
                             <span class="dp-Subtitle">3 Agents</span>
                         </span>
                     </span>
-                </li>
-                <li class="dp-ListPane dp-DropDownItem">
+                </div>
+                <div class="dp-OrderingBar-item">
                     <span class="dp-Icon Icon--view"></span>
                     <span class="dp-SelectGroup">
                         <span class="dp-ItemRow">
@@ -65,8 +66,9 @@ title: Guides
                             <span class="dp-Subtitle">8 fields</span>
                         </span>
                     </span>
-                </li>
-            </ul>
+                </div>
+            </div>
+
         </li>
         <li class="dp-Card">
             <span class="dp-TitleGroupe">

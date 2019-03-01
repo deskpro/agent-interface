@@ -36,6 +36,7 @@
 }
 
 .dp-OrderingBar-item .dp-CustomCheckbox.dp-EmptyCheckbox {
+  align-items: center;
   display: flex;
 }
 
@@ -259,6 +260,7 @@
 
 .dp-orderingbar--Wrap {
   margin-top: 0;
+  overflow: hidden;
   width: 100%;
 }
 
@@ -347,4 +349,26 @@
   background-color: var(--info-light);
   border: 1px solid var(--brand-primary);
   margin: 0 -1px;
+}
+
+/* is-expanded */
+
+.dp-Items-groupe {
+  display: flex;
+}
+
+.dp-OrderingBar .dp-Items-groupe .dp-Menu {
+  min-width: auto;
+}
+
+.dp-OrderingBar .dp-OrderingBar-item {
+  transition: all 0.5s;
+}
+
+.dp-OrderingBar .dp-OrderingBar-item.is-expanded {
+  flex: 1 0 calc(100% - 117px);
+}
+
+.dp-OrderingBar-item.is-expanded + .dp-OrderingBar-item {
+  flex: 0 0 auto;
 }

@@ -4,6 +4,7 @@
 .dp-MainWrapper {
   background-color: var(--grey-lighter);
   display: block;
+  overflow: hidden;
   padding: 10px;
   position: relative;
 }

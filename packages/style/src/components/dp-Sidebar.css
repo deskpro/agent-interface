@@ -189,10 +189,6 @@
   color: var(--brand-primary);
 }
 
-.dp-SectionBody-item.dp-UserPanel {
-  margin-bottom: 10px;
-}
-
 .dp-UserPanel > * {
   margin-bottom: 5px;
 }
@@ -318,6 +314,7 @@
 .dp-AddressList {
   border-bottom: 1px solid var(--grey-light);
   display: block;
+  margin-top: 10px;
 }
 
 .dp-SidebarContainer .dp-Selectbelow > .dp-ButtonWrapper {

@@ -240,6 +240,9 @@
 
 .dp-Menu.dp-YourAccount .dp-Menu-title {
   margin-bottom: 0;
+  padding: 8px 10px;
+  border-top-left-radius: var(--border-radius);
+  border-top-right-radius: var(--border-radius);
 }
 
 .dp-Menu.dp-YourAccount {
@@ -250,7 +253,7 @@
 .dp-Menu.Menu-tick.dp-YourAccount > .dp-Menu-linkItem {
   border-bottom: 1px solid var(--grey-light);
   font: var(--p-xl);
-  padding: 10px 10px;
+  padding: 10px 12px;
 }
 
 .dp-Menu.dp-YourAccount .dp-Menu-linkItem:last-child {
@@ -297,7 +300,12 @@
   background-size: 25px 25px;
   height: 25px;
   margin-right: 10px;
-  width: 31px;
+  width: 25px;
+  background-position: 0 50%;
+}
+
+.dp-Menu.dp-YourAccount .dp-Menu-linkItem .dp-Icon.dp-add_tab {
+  background-size: 22px 22px;
 }
 
 .dp-Menu.dp-YourAccount .dp-Menu-linkItem:last-child .dp-Icon {

@@ -248,15 +248,21 @@ title: Sort and Re-order
             </span>
         </li>
 
+
+
         <li class="dp-orderingbar--Wrap">
-            <ul class="dp-FilterControlsList newControlsList dp-orderingbar">
-                <li class="dp-ListPane">
+
+            <!-- <ul class="dp-FilterControlsList newControlsList dp-orderingbar"> -->
+            <div class="dp-OrderingBar">
+
+                <div class="dp-OrderingBar-item">
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="ordering-1"></input>
                         <label for="ordering-1"></label>
                     </span>
-                </li>
-                <li class="dp-ListPane dp-DropDownItem">
+                </div>
+
+                <div class="dp-OrderingBar-item">
                     <span class="dp-Icon dp-grouped_by"></span>
                     <span class="dp-SelectGroup">
                         <span class="dp-ItemRow">
@@ -403,10 +409,10 @@ title: Sort and Re-order
                             </ul>
                         </li>
                     </ul>
-                </li>
+                </div>
 
                 <!-- 2 -->
-                <li class="dp-ListPane dp-DropDownItem">
+                <div class="dp-OrderingBar-item">
                     <div class="dp-SortIconDescription">
                         <span class="dp-Icon dp-sort"></span>
                     </div>
@@ -683,11 +689,10 @@ title: Sort and Re-order
                         </li>
 
                     </ul>
-                </li>
+                </div>
 
                 <!-- 3 -->
-
-                <li class="dp-ListPane dp-DropDownItem">
+                <div class="dp-OrderingBar-item">
                     <span class="dp-Icon dp-faceted_by"></span>
                     <span class="dp-SelectGroup">
                         <span class="dp-ItemRow">
@@ -1924,12 +1929,10 @@ title: Sort and Re-order
                             </ul>
                         </li>
                     </ul>
-
-                </li>
+                </div>
 
                 <!-- 4 -->
-
-                <li class="dp-ListPane dp-DropDownItem">
+                <div class="dp-OrderingBar-item">
                     <span class="dp-Icon Icon--view"></span>
                     <span class="dp-SelectGroup">
                         <span class="dp-ItemRow">
@@ -2179,9 +2182,13 @@ title: Sort and Re-order
                         </li>
 
                     </ul>
-                </li>
-            </ul>
+                </div>
+
+            </div>
+
         </li>
+
+
 
         <li class="dp-Card">
             <span class="dp-TitleGroupe">
@@ -2346,14 +2353,16 @@ title: Sort and Re-order
         </li>
 
         <li class="dp-orderingbar--Wrap">
-            <ul class="dp-FilterControlsList newControlsList dp-orderingbar">
-                <li class="dp-ListPane">
+            <div class="dp-OrderingBar">
+
+                <div class="dp-OrderingBar-item">
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="ordering-2-1"></input>
                         <label for="ordering-2-1"></label>
                     </span>
-                </li>
-                <li class="dp-ListPane dp-DropDownItem">
+                </div>
+
+                <div class="dp-OrderingBar-item">
                     <span class="dp-Icon dp-grouped_by"></span>
                     <span class="dp-SelectGroup">
                         <span class="dp-ItemRow">
@@ -2500,10 +2509,10 @@ title: Sort and Re-order
                             </ul>
                         </li>
                     </ul>
-                </li>
+                </div>
 
                 <!-- 2 -->
-                <li class="dp-ListPane dp-DropDownItem is-active">
+                <div class="dp-OrderingBar-item is-active">
                     <div class="dp-SortIconDescription">
                         <span class="dp-Icon dp-sort"></span>
                     </div>
@@ -2780,11 +2789,10 @@ title: Sort and Re-order
                         </li>
 
                     </ul>
-                </li>
+                </div>
 
                 <!-- 3 -->
-
-                <li class="dp-ListPane dp-DropDownItem">
+                <div class="dp-OrderingBar-item">
                     <span class="dp-Icon dp-faceted_by"></span>
                     <span class="dp-SelectGroup">
                         <span class="dp-ItemRow">
@@ -4021,12 +4029,10 @@ title: Sort and Re-order
                             </ul>
                         </li>
                     </ul>
-
-                </li>
+                </div>
 
                 <!-- 4 -->
-
-                <li class="dp-ListPane dp-DropDownItem">
+                <div class="dp-OrderingBar-item">
                     <span class="dp-Icon Icon--view"></span>
                     <span class="dp-SelectGroup">
                         <span class="dp-ItemRow">
@@ -4276,8 +4282,9 @@ title: Sort and Re-order
                         </li>
 
                     </ul>
-                </li>
-            </ul>
+                </div>
+
+            </div>
         </li>
 
         <li class="dp-Card">
@@ -4417,14 +4424,17 @@ title: Sort and Re-order
         <!-- 3 - Sorting -->
 
         <li class="dp-orderingbar--Wrap">
-            <ul class="dp-FilterControlsList newControlsList dp-orderingbar">
-                <li class="dp-ListPane">
+
+            <div class="dp-OrderingBar">
+
+                <div class="dp-OrderingBar-item">
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="ordering-2-2"></input>
                         <label for="ordering-2-2"></label>
                     </span>
-                </li>
-                <li class="dp-ListPane dp-DropDownItem">
+                </div>
+
+                <div class="dp-OrderingBar-item">
                     <span class="dp-Icon dp-grouped_by"></span>
                     <span class="dp-SelectGroup">
                         <span class="dp-ItemRow">
@@ -4571,10 +4581,10 @@ title: Sort and Re-order
                             </ul>
                         </li>
                     </ul>
-                </li>
+                </div>
 
                 <!-- 2 -->
-                <li class="dp-ListPane dp-DropDownItem">
+                <div class="dp-OrderingBar-item">
                     <div class="dp-SortIconDescription">
                         <span class="dp-Icon dp-sort"></span>
                     </div>
@@ -4851,11 +4861,10 @@ title: Sort and Re-order
                         </li>
 
                     </ul>
-                </li>
+                </div>
 
                 <!-- 3 -->
-
-                <li class="dp-ListPane dp-DropDownItem">
+                <div class="dp-OrderingBar-item">
                     <span class="dp-Icon dp-faceted_by"></span>
                     <span class="dp-SelectGroup">
                         <span class="dp-ItemRow">
@@ -6092,12 +6101,10 @@ title: Sort and Re-order
                             </ul>
                         </li>
                     </ul>
-
-                </li>
+                </div>
 
                 <!-- 4 -->
-
-                <li class="dp-ListPane dp-DropDownItem">
+                <div class="dp-OrderingBar-item">
                     <span class="dp-Icon Icon--view"></span>
                     <span class="dp-SelectGroup">
                         <span class="dp-ItemRow">
@@ -6347,8 +6354,10 @@ title: Sort and Re-order
                         </li>
 
                     </ul>
-                </li>
-            </ul>
+                </div>
+
+            </div>
+
         </li>
 
         <li class="dp-Articles-group">
@@ -6626,9 +6635,12 @@ title: Sort and Re-order
         </li>
 
         <li class="dp-orderingbar--Wrap">
-            <ul class="dp-FilterControlsList newControlsList dp-orderingbar">
-                <li class="dp-ListPane"></li>
-                <li class="dp-ListPane dp-DropDownItem">
+
+            <div class="dp-OrderingBar">
+
+                <div class="dp-OrderingBar-item"></div>
+
+                <div class="dp-OrderingBar-item">
                     <span class="dp-Icon dp-grouped_by"></span>
                     <span class="dp-SelectGroup">
                         <span class="dp-ItemRow">
@@ -6775,10 +6787,10 @@ title: Sort and Re-order
                             </ul>
                         </li>
                     </ul>
-                </li>
+                </div>
 
                 <!-- 2 -->
-                <li class="dp-ListPane dp-DropDownItem">
+                <div class="dp-OrderingBar-item">
                     <div class="dp-SortIconDescription">
                         <span class="dp-Icon dp-sort"></span>
                     </div>
@@ -7056,12 +7068,10 @@ title: Sort and Re-order
                         </li>
 
                     </ul>
-
-                </li>
+                </div>
 
                 <!-- 3 -->
-
-                <li class="dp-ListPane dp-DropDownItem">
+                <div class="dp-OrderingBar-item">
                     <span class="dp-Icon dp-faceted_by"></span>
                     <span class="dp-SelectGroup">
                         <span class="dp-ItemRow">
@@ -8298,12 +8308,10 @@ title: Sort and Re-order
                             </ul>
                         </li>
                     </ul>
-
-                </li>
+                </div>
 
                 <!-- 4 -->
-
-                <li class="dp-ListPane dp-DropDownItem">
+                <div class="dp-OrderingBar-item">
                     <span class="dp-Icon Icon--view"></span>
                     <span class="dp-SelectGroup">
                         <span class="dp-ItemRow">
@@ -8553,8 +8561,10 @@ title: Sort and Re-order
                         </li>
 
                     </ul>
-                </li>
-            </ul>
+                </div>
+
+            </div>
+
         </li>
 
         <li class="dp-Card">
@@ -8628,14 +8638,17 @@ title: Sort and Re-order
         <!-- 3 - Sorting -->
 
         <li class="dp-orderingbar--Wrap">
-            <ul class="dp-FilterControlsList newControlsList dp-orderingbar">
-                <li class="dp-ListPane">
+
+            <div class="dp-OrderingBar">
+
+                <div class="dp-OrderingBar-item">
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="ordering-3-2"></input>
                         <label for="ordering-3-2"></label>
                     </span>
-                </li>
-                <li class="dp-ListPane dp-DropDownItem">
+                </div>
+
+                <div class="dp-OrderingBar-item">
                     <span class="dp-Icon dp-grouped_by"></span>
                     <span class="dp-SelectGroup">
                         <span class="dp-ItemRow">
@@ -8782,10 +8795,10 @@ title: Sort and Re-order
                             </ul>
                         </li>
                     </ul>
-                </li>
+                </div>
 
                 <!-- 2 -->
-                <li class="dp-ListPane dp-DropDownItem is-active">
+                <div class="dp-OrderingBar-item is-active">
                     <div class="dp-SortIconDescription">
                         <span class="dp-Icon dp-sort"></span>
                     </div>
@@ -9062,11 +9075,10 @@ title: Sort and Re-order
                         </li>
 
                     </ul>
-                </li>
+                </div>
 
                 <!-- 3 -->
-
-                <li class="dp-ListPane dp-DropDownItem">
+                <div class="dp-OrderingBar-item">
                     <span class="dp-Icon dp-faceted_by"></span>
                     <span class="dp-SelectGroup">
                         <span class="dp-ItemRow">
@@ -10303,12 +10315,10 @@ title: Sort and Re-order
                             </ul>
                         </li>
                     </ul>
-
-                </li>
+                </div>
 
                 <!-- 4 -->
-
-                <li class="dp-ListPane dp-DropDownItem">
+                <div class="dp-OrderingBar-item">
                     <span class="dp-Icon Icon--view"></span>
                     <span class="dp-SelectGroup">
                         <span class="dp-ItemRow">
@@ -10558,8 +10568,10 @@ title: Sort and Re-order
                         </li>
 
                     </ul>
-                </li>
-            </ul>
+                </div>
+
+            </div>
+
         </li>
 
         <li class="dp-Articles-group">
