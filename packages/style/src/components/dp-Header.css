@@ -239,10 +239,10 @@
 }
 
 .dp-Menu.dp-YourAccount .dp-Menu-title {
-  margin-bottom: 0;
-  padding: 8px 10px;
   border-top-left-radius: var(--border-radius);
   border-top-right-radius: var(--border-radius);
+  margin-bottom: 0;
+  padding: 8px 10px;
 }
 
 .dp-Menu.dp-YourAccount {
@@ -297,11 +297,11 @@
 }
 
 .dp-Menu.dp-YourAccount .dp-Menu-linkItem .dp-Icon {
+  background-position: 0 50%;
   background-size: 25px 25px;
   height: 25px;
   margin-right: 10px;
   width: 25px;
-  background-position: 0 50%;
 }
 
 .dp-Menu.dp-YourAccount .dp-Menu-linkItem .dp-Icon.dp-add_tab {
