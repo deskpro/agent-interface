@@ -15,7 +15,7 @@ export type StandardListProps = {
   items: ListItem[];
   numPages: number;
   massActions?: MassActionType[];
-  onMassAction?: (actionName: React.Key) => void;
+  onMassAction?: (actionName: React.Key, selectedItems: ListItem[]) => void;
   onLoadItems: (page: number) => void;
   renderItem: (
     item: ListItem,
@@ -95,7 +95,7 @@ const StandardList: React.FC<StandardListProps> = ({
         scrollHeight={
           height
             ? height -
-              (selection.length && massActions && massActions.length ? 100 : 72)
+              (selection.length && massActions && massActions.length ? 95 : 73)
             : undefined
         }
       />
@@ -115,7 +115,10 @@ const StandardList: React.FC<StandardListProps> = ({
                   text={label}
                   onClick={() => {
                     if (onMassAction) {
-                      onMassAction(name);
+                      onMassAction(
+                        name,
+                        items.filter(i => selection.includes(i.id))
+                      );
                     }
                   }}
                 />
