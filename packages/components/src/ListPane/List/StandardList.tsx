@@ -103,6 +103,7 @@ const StandardList: React.FC<StandardListProps> = ({
         currentPage={currentPage}
         numPages={numPages}
         onPageChange={handlePageChange}
+        showGotoPage
       />
       {selection.length > 0 && massActions && massActions.length > 0 && (
         <ActionsButton
