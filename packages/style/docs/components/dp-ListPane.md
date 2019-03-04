@@ -750,7 +750,7 @@ title: List View
                     <span class="dp-Dropdown">
                         <span class="dp-CustomCheckbox dp-EmptyCheckbox">
                             <input type="checkbox" class="dp-ControlInput" id="ordering-1-1"></input>
-                            <label for="ordering-1-1" class="dp-Input-arrow"></label>
+                            <label for="ordering-1-1"></label>
                         </span>
 
                         <button class="dp-Arrow"></button>

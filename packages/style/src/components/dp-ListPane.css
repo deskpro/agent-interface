@@ -31,7 +31,7 @@
   padding-left: 10px;
 }
 
-.dp-CustomCheckbox input[type="checkbox"] + label.dp-Input-arrow {
+.dp-OrderingBar .dp-CustomCheckbox input[type="checkbox"] + label {
   padding: 0;
 }
 
