@@ -78,8 +78,11 @@
   content: "";
   display: block;
   height: 1px;
+  left: 0;
+  margin: auto;
   position: absolute;
-  width: 100%;
+  right: 0;
+  width: calc(100% - 2px);
 }
 
 .dp-Menu .dp-disabledItem > a {
@@ -129,11 +132,9 @@
   display: flex;
   font: var(--p-l);
   margin: 0;
+  margin: auto;
   position: relative;
-
-  /*   padding: 3.5px 10px;
-   margin: 0 1px; */
-
+  width: calc(100% - 2px);
 }
 
 .dp-Menu .dp-Menu-linkItem > span {
@@ -531,10 +532,11 @@
 }
 
 .dp-Menu .dp-Menu-linkItem:hover > .dp-Menu {
-  left: 100%;
+  left: calc(100% + 1px);
   top: -1px;
 
   /* border-top-left-radius: 0;
+  left: 100%;
   left: calc(100% + 1px);
   display: block; */
 

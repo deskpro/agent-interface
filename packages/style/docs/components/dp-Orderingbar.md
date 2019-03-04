@@ -1708,45 +1708,19 @@ title: Orderingbar
     <div class="dp-Wrapper">
         <div class="dp-OrderingBar">
 
-<!--         <div class="dp-OrderingBar-item is-expanded">
+        <div class="dp-OrderingBar-item is-expanded">
 
-            <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                <input type="checkbox" class="dp-ControlInput" id="ordering-1-1"></input>
-                <label for="ordering-1-1" class="dp-Input-arrow"></label>
-            </span>
+            <span class="dp-Dropdown">
+                <span class="dp-CustomCheckbox dp-EmptyCheckbox">
+                    <input type="checkbox" class="dp-ControlInput" id="ordering-1-1"></input>
+                    <label for="ordering-1-1" class="dp-Input-arrow"></label>
+                </span>
 
-            <span class="dp-Items-groupe">
                 <button class="dp-Arrow"></button>
             </span>
 
             <span class="dp-MassSelect-itemsCount">(48 items selected)</span>
-            
-            <ul class="dp-Menu is-visible">
-                <li class="dp-Menu-linkItem">
-                    <a href="" class="dp-Menu-link">Uncheck all</a>
-                </li>
-                <li class="dp-Menu-linkItem">
-                    <a href="" class="dp-Menu-link">Select all</a>
-                </li>
-                <li class="dp-Menu-linkItem">
-                    <a href="" class="dp-Menu-link">Invert</a>
-                </li>
-            </ul>
-        </div> -->
 
-        <div class="dp-Dropdown is-expanded">
-
-            <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                <input type="checkbox" class="dp-ControlInput" id="ordering-1-1"></input>
-                <label for="ordering-1-1" class="dp-Input-arrow"></label>
-            </span>
-
-            <span class="dp-Items-groupe">
-                <button class="dp-Arrow"></button>
-            </span>
-
-            <span class="dp-MassSelect-itemsCount">(48 items selected)</span>
-            
             <ul class="dp-Menu is-visible">
                 <li class="dp-Menu-linkItem">
                     <a href="" class="dp-Menu-link">Uncheck all</a>

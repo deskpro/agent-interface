@@ -739,20 +739,20 @@ title: List View
 
 <h2>Listview/mass-select</h2>
 ```html @preview
-<div class="dp-MainWrapper">
-    <form class="dp-MassSelect newControlsList select-checkbox demo-menu">
+<div class="dp-MainWrapper demo-menu">
+    <form class="dp-MassSelect">
 
-        <div class="dp-Wrapper">
-            <div class="dp-OrderingBar">
+        <div class="dp-Listview dp-Wrapper">
+            <div class="dp-OrderingBar select-checkbox">
 
-                <div class="dp-Dropdown is-expanded">
+                <div class="dp-OrderingBar-item is-expanded">
 
-                    <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="ordering-1-1"></input>
-                        <label for="ordering-1-1" class="dp-Input-arrow"></label>
-                    </span>
+                    <span class="dp-Dropdown">
+                        <span class="dp-CustomCheckbox dp-EmptyCheckbox">
+                            <input type="checkbox" class="dp-ControlInput" id="ordering-1-1"></input>
+                            <label for="ordering-1-1" class="dp-Input-arrow"></label>
+                        </span>
 
-                    <span class="dp-Items-groupe">
                         <button class="dp-Arrow"></button>
                     </span>
 
@@ -769,7 +769,6 @@ title: List View
                             <a href="" class="dp-Menu-link">Invert</a>
                         </li>
                     </ul>
-
                 </div>
 
                 <div class="dp-OrderingBar-item">

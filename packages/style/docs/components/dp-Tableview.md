@@ -4,7 +4,7 @@ title: Tableview
 
 <h4>listpane/grouping-and-sorting-bar</h4>
 ```html @preview
-<div class="demo-cog demo-menu demo-OrderingBar" style="height:100px;">
+<div class="demo-cog demo-menu demo-OrderingBar" style="height:105px;">
 
     <div class="dp-OrderingBar">
 
@@ -1714,7 +1714,6 @@ title: Tableview
             </span>
 
         </div>
-
     </div>
 
 </div>

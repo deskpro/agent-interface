@@ -8,15 +8,16 @@
   border-bottom: 1px solid var(--grey-light);
   color: inherit;
   display: flex;
+  max-height: 36px;
 }
 
 .dp-OrderingBar .dp-OrderingBar-item:first-child {
-  flex: 0 0 33px;
+  align-items: center;
+  flex: 0 0 32px;
   min-width: auto;
 }
 
-.dp-OrderingBar-item,
-.dp-OrderingBar .dp-Dropdown {
+.dp-OrderingBar-item {
   align-items: center;
   background-color: var(--grey-lightest);
   border-right: 1px solid var(--grey-light);
@@ -25,9 +26,29 @@
   display: flex;
   flex: 1 1 100%;
   margin: 0;
-  min-width: 110px;
-  padding: 5px 10px;
+  min-width: 108px;
+  padding: 8px;
   position: relative;
+}
+
+.dp-OrderingBar-item .dp-SelectGroup .dp-Arrow {
+  padding-left: 10px;
+}
+
+.dp-OrderingBar-item .dp-SelectGroup .dp-Arrow::after {
+  right: 0;
+}
+
+.dp-Listview.dp-Wrapper {
+  max-width: 436px;
+}
+
+.dp-Listview .dp-OrderingBar-item {
+  max-width: 108px;
+}
+
+.dp-Tableview .dp-OrderingBar-item {
+  max-width: 142px;
 }
 
 .dp-OrderingBar-item.is-active > .dp-SelectGroup .dp-Title,
@@ -53,6 +74,11 @@
 .dp-MassSelect .dp-OrderingBar-item:last-child {
   flex: 1 1 100%;
   max-width: 130px;
+}
+
+.dp-MassSelect .dp-Listview .dp-OrderingBar-item:last-child {
+  max-width: 80px;
+  min-width: 80px;
 }
 
 .dp-OrderingBar-item .dp-ItemRow {
@@ -354,7 +380,7 @@
 
 /* is-expanded */
 
-.dp-Items-groupe {
+.dp-Dropdown {
   display: flex;
 }
 
@@ -366,15 +392,12 @@
   transition: all 0.5s;
 }
 
-/* .dp-OrderingBar .dp-OrderingBar-item.is-expanded { */
-
-.dp-OrderingBar .dp-Dropdown.is-expanded {
-  flex: 1 0 calc(100% - 117px);
+.dp-OrderingBar .dp-OrderingBar-item.is-expanded {
+  flex: 1 0 calc(100% - 108px);
+  max-width: 100%;
 }
 
-/* .dp-OrderingBar-item.is-expanded + .dp-OrderingBar-item { */
-
-.dp-Dropdown.is-expanded + .dp-OrderingBar-item {
+.dp-OrderingBar-item.is-expanded + .dp-OrderingBar-item {
   flex: 0 0 auto;
 }
 

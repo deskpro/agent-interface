@@ -102,7 +102,7 @@
 
 .dp-OrderingBar .dp-MassSelect-itemsCount,
 .dp-CustomCheckbox .dp-Card-title {
-  margin: 0;
+  margin: 0 0 0 5px;
 }
 
 .dp-Card-title.dp-MassSelectTitle {
