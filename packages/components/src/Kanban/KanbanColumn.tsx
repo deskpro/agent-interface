@@ -4,6 +4,7 @@ import { Droppable } from "react-beautiful-dnd";
 
 import ScrollArea from "../ScrollArea/ScrollArea";
 import { KanbanContext } from "./Kanban";
+import Checkbox from "../inputs/Checkbox/Checkbox";
 
 export type KanbanColumnProps = {
   className?: string;
@@ -12,6 +13,9 @@ export type KanbanColumnProps = {
   header: React.ReactNode;
   scrollThreshold?: number;
   onThresholdReach?(): void;
+  checkable?: boolean;
+  checked?: boolean | null;
+  onCheckChange?: (e: React.SyntheticEvent) => void;
 };
 
 const KanbanColumnLayout: React.FC<KanbanColumnProps> = ({
@@ -20,11 +24,24 @@ const KanbanColumnLayout: React.FC<KanbanColumnProps> = ({
   header,
   scrollThreshold,
   onThresholdReach,
+  checkable = false,
+  checked = false,
+  onCheckChange,
   children
 }) => (
   <div className={classNames("dp-Kanban-column", className)} style={style}>
     {typeof header === "string" ? (
-      <div className="dp-Kanban-columnTitle">{header}</div>
+      <div className="dp-Kanban-columnTitle">
+        {checkable && (
+          <Checkbox
+            id={header}
+            checked={!!checked}
+            undef={checked === null}
+            onChange={onCheckChange}
+          />
+        )}
+        {header}
+      </div>
     ) : (
       header
     )}

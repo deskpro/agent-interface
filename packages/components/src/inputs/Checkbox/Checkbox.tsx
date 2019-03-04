@@ -9,25 +9,28 @@ export type CheckboxProps = {
   undef?: boolean;
   className?: string;
   labelClassName?: string;
+  checked?: boolean | null;
 };
 
-const Checkbox: React.FC<CheckboxProps & React.HTMLProps<HTMLInputElement>> = ({
+const Checkbox: React.FC<React.HTMLProps<HTMLInputElement> & CheckboxProps> = ({
   label = "",
   id = "checkbox",
   undef = false,
   className = "",
   labelClassName = "",
+  checked,
   ...props
 }) => (
   <span
     className={classNames("dp-CustomCheckbox", {
-      "dp-SelectedCheckbox": undef
+      "dp-SelectedCheckbox": undef || checked === null
     })}
   >
     <input
       type="checkbox"
       className={classNames("dp-ControlInput", className)}
       id={id}
+      checked={checked}
       {...props}
     />
     <label htmlFor={id} className={labelClassName}>
