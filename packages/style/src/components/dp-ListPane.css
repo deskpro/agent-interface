@@ -951,10 +951,3 @@ input:disabled + label {
   background-color: var(--grey-lighter);
   height: 100%;
 }
-
-/* animate */
-
-/* .is-expanted {
-
-}
-*/

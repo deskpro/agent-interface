@@ -742,42 +742,10 @@ title: List View
 <div class="dp-MainWrapper">
     <form class="dp-MassSelect newControlsList select-checkbox demo-menu">
 
-    <!--     <span class="dp-MassSelectTitle">
-            
-            <span class="dp-ItemRow">
-                <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="listpaneCheckbox0" checked="checked"></input>
-                    <label for="listpaneCheckbox0" class="dp-Input-arrow"></label>
-
-                    <button class="dp-Arrow"></button>
-                    <span class="dp-Items-title">(48 items selected)</span>
-                    <ul class="dp-Menu is-visible">
-                        <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Uncheck all</a></li>
-                        <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Select all</a></li>
-                        <li class="dp-Menu-linkItem"><a href="#" class="dp-Menu-link">Invert</a></li>
-                    </ul>
-                </span>
-
-                <span class="dp-ListPane">
-                    <span class="dp-Icon dp-grouped_by"></span>
-                    <span class="dp-SelectGroup">
-                        <span class="dp-ItemRow">
-                            <span class="dp-Title">Grouped by</span>
-                            <button class="dp-Arrow"></button>
-                        </span>
-                        <span class="dp-ItemRow">
-                            <span class="dp-Subtitle">Department</span>
-                        </span>
-                    </span>
-                </span>
-
-            </span>
-        </span>
-     -->
         <div class="dp-Wrapper">
             <div class="dp-OrderingBar">
 
-                <div class="dp-OrderingBar-item is-expanded">
+                <div class="dp-Dropdown is-expanded">
 
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="ordering-1-1"></input>
@@ -789,7 +757,7 @@ title: List View
                     </span>
 
                     <span class="dp-MassSelect-itemsCount">(48 items selected)</span>
-                    
+
                     <ul class="dp-Menu is-visible">
                         <li class="dp-Menu-linkItem">
                             <a href="" class="dp-Menu-link">Uncheck all</a>
@@ -803,7 +771,6 @@ title: List View
                     </ul>
 
                 </div>
-
 
                 <div class="dp-OrderingBar-item">
                     <span class="dp-Icon dp-grouped_by"></span>
