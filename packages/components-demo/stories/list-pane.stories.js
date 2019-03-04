@@ -7,6 +7,7 @@ import { withKnobs, number, boolean } from "@storybook/addon-knobs";
 import PaginationDemo from "./components/list-pane/PaginationDemo";
 import TicketCardsDemo from "./components/list-pane/TicketCardsDemo";
 import SimpleCardsDemo from "./components/list-pane/SimpleCardsDemo";
+import StandardListDemo from "./components/list-pane/StandardListDemo";
 
 storiesOf("ListPane", module)
   .addDecorator(withKnobs)
@@ -18,4 +19,5 @@ storiesOf("ListPane", module)
       proximity={number("Proximity", 2)}
       showGotoPage={boolean("Show 'Go to page'", true)}
     />
-  ));
+  ))
+  .add("Standard List", () => <StandardListDemo />);
