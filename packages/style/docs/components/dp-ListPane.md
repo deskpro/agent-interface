@@ -774,31 +774,34 @@ title: List View
             </span>
         </span>
      -->
-        <div class="dp-orderingbar--Wrap">
+        <div class="dp-Wrapper">
             <div class="dp-OrderingBar">
 
                 <div class="dp-OrderingBar-item is-expanded">
+
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="ordering-1-1"></input>
                         <label for="ordering-1-1" class="dp-Input-arrow"></label>
-
-                        <span class="dp-Items-groupe">
-                            <button class="dp-Arrow"></button>
-                            <span class="dp-Items-title">(48 items selected)</span>
-                            <ul class="dp-Menu is-visible">
-                                <li class="dp-Menu-linkItem">
-                                    <a href="" class="dp-Menu-link">Uncheck all</a>
-                                </li>
-                                <li class="dp-Menu-linkItem">
-                                    <a href="" class="dp-Menu-link">Select all</a>
-                                </li>
-                                <li class="dp-Menu-linkItem">
-                                    <a href="" class="dp-Menu-link">Invert</a>
-                                </li>
-                            </ul>
-                        </span>
-
                     </span>
+
+                    <span class="dp-Items-groupe">
+                        <button class="dp-Arrow"></button>
+                    </span>
+
+                    <span class="dp-MassSelect-itemsCount">(48 items selected)</span>
+                    
+                    <ul class="dp-Menu is-visible">
+                        <li class="dp-Menu-linkItem">
+                            <a href="" class="dp-Menu-link">Uncheck all</a>
+                        </li>
+                        <li class="dp-Menu-linkItem">
+                            <a href="" class="dp-Menu-link">Select all</a>
+                        </li>
+                        <li class="dp-Menu-linkItem">
+                            <a href="" class="dp-Menu-link">Invert</a>
+                        </li>
+                    </ul>
+
                 </div>
 
 
@@ -2478,284 +2481,284 @@ title: List View
                     </ul>
                 </div>
             </div>
+
+            <ul class="dp-CardList newControlsList is-hoverable">
+
+                <li class="dp-Card-SectionTitle">
+                    <span>Sales</span>
+                </li>
+
+                <!-- 1 -->
+                <li class="dp-Card dp-Level is-active">
+                    <span class="dp-LevelCol">
+                        <span class="dp-CustomCheckbox">
+                            <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-4"></input>
+                            <label for="customCheckbox1-4"></label>
+                        </span>
+                    </span>
+
+                    <span class="dp-LevelCol">
+                        <span class="dp-Card-title">SSO Information<span class="dp-Icon Icon--star"></span></span>
+                        <span class="dp-UserInfo">
+                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                            <span class="dp-UserName">Kenneth James
+                            </span>
+                            <a href="mailto:kenneth@windfarms.com" class="dp-UserEmail">
+                                &lt;kenneth@windfarms.com&gt;
+                            </a>
+                        </span>
+                    </span>
+
+                    <span class="dp-LevelCol dp-LevelRight">
+                        <span class="dp-IconGroup">
+                            <span class="Icon--circle dp-iconBug"></span>
+                            <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
+                            <span class="dp-Icon Icon--clock Icon--primary"></span>
+                        </span>
+                        <span class="dp-TimeStatus">
+                            <span class="dp-Tag Tag--small Tag--danger">Failed</span>
+                        </span>
+                    </span>
+                </li>
+
+                <!-- 2 -->
+                <li class="dp-Card dp-Level">
+                    <span class="dp-LevelCol">
+                        <span class="dp-CustomCheckbox">
+                            <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-5"></input>
+                            <label for="customCheckbox1-5"></label>
+                        </span>
+                    </span>
+
+                    <span class="dp-LevelCol">
+                        <span class="dp-Card-title">Portal disabled landing page</span>
+
+                        <span class="dp-UserInfo">
+                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                            <span class="dp-UserName">Mark Jarvis
+                            </span>
+                            <a href="mailto:mjarvis@econorob.nl" class="dp-UserEmail">
+                                &lt;mjarvis@econorob.nl&gt;
+                            </a>
+                        </span>
+                    </span>
+
+                    <span class="dp-LevelCol dp-LevelRight">
+                        <span class="dp-IconGroup">
+                            <span class="Icon--circle dp-rocket Icon-grey-darkest"></span>
+                            <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
+                            <span class="dp-Badge Badge--round Badge--warning">9</span>
+                        </span>
+                        <span class="dp-TimeStatus">
+                            <span class="dp-Tag Tag--small Tag--pink">3 hours</span>
+                        </span>
+                    </span>
+                </li>
+
+                <!-- 3 -->
+                <li class="dp-Card dp-Level">
+                    <span class="dp-LevelCol">
+                        <span class="dp-CustomCheckbox">
+                            <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-6"></input>
+                            <label for="customCheckbox1-6"></label>
+                        </span>
+                    </span>
+
+                    <span class="dp-LevelCol">
+                        <span class="dp-Card-title">Inventory component<span class="dp-Icon Icon--star"></span></span>
+
+                        <span class="dp-UserInfo">
+                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                            <span class="dp-UserName">Toby Falkirk
+                            </span>
+                            <a href="mailto:t.falkirk@rambling.com" class="dp-UserEmail">
+                                &lt;t.falkirk@rambling.com&gt;
+                            </a>
+                        </span>
+                    </span>
+
+                    <span class="dp-LevelCol dp-LevelRight">
+                        <span class="dp-IconGroup">
+                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                            <span class="dp-Badge Badge--round Badge-Min Icon-warning"></span>
+                        </span>
+                        <span class="dp-TimeStatus">
+                            <span>2 hr 16 min</span>
+                        </span>
+                    </span>
+                </li>
+
+                <!-- 4 -->
+                <li class="dp-Card dp-Level">
+                    <span class="dp-LevelCol">
+                        <span class="dp-CustomCheckbox">
+                            <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-7"></input>
+                            <label for="customCheckbox1-7"></label>
+                        </span>
+                    </span>
+
+                    <span class="dp-LevelCol">
+                        <span class="dp-Card-title">AW: Need some help?</span>
+
+                        <span class="dp-UserInfo">
+                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                            <span class="dp-UserName">Kenneth James
+                            </span>
+                            <a href="mailto:kenneth@windfarms.com" class="dp-UserEmail">
+                                &lt;kenneth@windfarms.com&gt;
+                            </a>
+                        </span>
+                    </span>
+
+                    <span class="dp-LevelCol dp-LevelRight">
+                        <span class="dp-IconGroup">
+                            <span class="dp-Icon dp-iconLock"></span>
+                            <span class="Icon--circle dp-iconMln"></span>
+                            <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
+                            <span class="dp-Badge Badge--round Badge--warning">9</span>
+                        </span>
+                        <span class="dp-TimeStatus">
+                            <span>57 mins</span>
+                        </span>
+                    </span>
+                </li>
+
+                <!-- 5 -->
+                <li class="dp-Card dp-Level">
+                    <span class="dp-LevelCol">
+                        <span class="dp-CustomCheckbox">
+                            <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-8"></input>
+                            <label for="customCheckbox1-8"></label>
+                        </span>
+                    </span>
+
+                    <span class="dp-LevelCol">
+                        <span class="dp-Card-title">Portal disabled landing page</span>
+
+                        <span class="dp-UserInfo">
+                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                            <span class="dp-UserName">Mark Jarvis
+                            </span>
+                            <a href="mailto:mjarvis@econorob.nl" class="dp-UserEmail">
+                                &lt;mjarvis@econorob.nl&gt;
+                            </a>
+                        </span>
+                    </span>
+
+                    <span class="dp-LevelCol dp-LevelRight">
+                        <span class="dp-IconGroup">
+                            <span class="Icon--circle dp-iconMln"></span>
+                            <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
+                            <span class="dp-Badge Badge--round Badge--warning">7</span>
+                        </span>
+                        <span class="dp-TimeStatus">
+                            <span class="dp-Tag Tag--small Tag--danger">2 hours</span>
+                        </span>
+                    </span>
+                </li>
+                
+                <!-- 6 -->
+                <li class="dp-Card dp-Level">
+                    <span class="dp-LevelCol">
+                        <span class="dp-CustomCheckbox">
+                            <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-9"></input>
+                            <label for="customCheckbox1-9"></label>
+                        </span>
+                    </span>
+
+                    <span class="dp-LevelCol">
+                        <span class="dp-Card-title">Enjoying your helpdesk?<span class="dp-Icon Icon--star"></span></span>
+                        <span class="dp-UserInfo">
+                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                            <span class="dp-UserName">Toby Falkirk
+                            </span>
+                            <a href="mailto:t.falkirk@rambling.com" class="dp-UserEmail">
+                                &lt;t.falkirk@rambling.com&gt;
+                            </a>
+                        </span>
+                    </span>
+
+                    <span class="dp-LevelCol dp-LevelRight">
+                        <span class="dp-IconGroup">
+                            <span class="Icon--circle dp-iconMln"></span>
+                            <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
+                            <span class="dp-Badge Badge--round Badge-Min Icon-neutral"></span>
+                        </span>
+                        <span class="dp-TimeStatus">
+                            <span>43 mins</span>
+                        </span>
+                    </span>
+                </li>
+
+                <!-- 7 -->
+                <li class="dp-Card dp-Level">
+                    <span class="dp-LevelCol">
+                        <span class="dp-CustomCheckbox">
+                            <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-10"></input>
+                            <label for="customCheckbox1-10"></label>
+                        </span>
+                    </span>
+
+                    <span class="dp-LevelCol">
+                        <span class="dp-Card-title">Product enquiry</span>
+                        <span class="dp-UserInfo">
+                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                            <span class="dp-UserName">Kenneth James
+                            </span>
+                            <a href="mailto:kenneth@windfarms.com" class="dp-UserEmail">
+                                &lt;kenneth@windfarms.com&gt;
+                            </a>
+                        </span>
+                    </span>
+
+                    <span class="dp-LevelCol dp-LevelRight">
+                        <span class="dp-IconGroup">
+
+                            <span class="Icon--circle dp-iconBug"></span>
+                            <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
+                            <span class="dp-Icon Icon--clock Icon--primary"></span>
+                        </span>
+                        <span class="dp-TimeStatus">
+                            <span class="dp-Tag Tag--small Tag--danger">Failed</span>
+                        </span>
+                    </span>
+                </li>
+
+                <!-- 8 -->
+                <li class="dp-Card dp-Level">
+                    <span class="dp-LevelCol">
+                        <span class="dp-CustomCheckbox">
+                            <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-11"></input>
+                            <label for="customCheckbox1-11"></label>
+                        </span>
+                    </span>
+
+                    <span class="dp-LevelCol">
+                        <span class="dp-Card-title">Allow anyone to email support<span class="dp-Icon Icon--star"></span></span>
+                        <span class="dp-UserInfo">
+                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                            <span class="dp-UserName">Mark Jarvis
+                            </span>
+                            <a href="mailto:mjarvis@econorob.nl" class="dp-UserEmail">
+                                &lt;mjarvis@econorob.nl&gt;
+                            </a>
+                        </span>
+                    </span>
+
+                    <span class="dp-LevelCol dp-LevelRight">
+                        <span class="dp-IconGroup">
+                            <span class="Icon--circle dp-iconMln"></span>
+                            <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
+                            <span class="dp-Badge Badge--round Badge--neutral">6</span>
+                        </span>
+                        <span class="dp-TimeStatus">
+                            <span>43 mins</span>
+                        </span>
+                    </span>
+                </li>
+
+            </ul>
         </div>
-
-        <ul class="dp-CardList newControlsList is-hoverable">
-
-            <li class="dp-Card-SectionTitle">
-                <span>Sales</span>
-            </li>
-
-            <!-- 1 -->
-            <li class="dp-Card dp-Level is-active">
-                <span class="dp-LevelCol">
-                    <span class="dp-CustomCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-4"></input>
-                        <label for="customCheckbox1-4"></label>
-                    </span>
-                </span>
-
-                <span class="dp-LevelCol">
-                    <span class="dp-Card-title">SSO Information<span class="dp-Icon Icon--star"></span></span>
-                    <span class="dp-UserInfo">
-                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                        <span class="dp-UserName">Kenneth James
-                        </span>
-                        <a href="mailto:kenneth@windfarms.com" class="dp-UserEmail">
-                            &lt;kenneth@windfarms.com&gt;
-                        </a>
-                    </span>
-                </span>
-
-                <span class="dp-LevelCol dp-LevelRight">
-                    <span class="dp-IconGroup">
-                        <span class="Icon--circle dp-iconBug"></span>
-                        <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
-                        <span class="dp-Icon Icon--clock Icon--primary"></span>
-                    </span>
-                    <span class="dp-TimeStatus">
-                        <span class="dp-Tag Tag--small Tag--danger">Failed</span>
-                    </span>
-                </span>
-            </li>
-
-            <!-- 2 -->
-            <li class="dp-Card dp-Level">
-                <span class="dp-LevelCol">
-                    <span class="dp-CustomCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-5"></input>
-                        <label for="customCheckbox1-5"></label>
-                    </span>
-                </span>
-
-                <span class="dp-LevelCol">
-                    <span class="dp-Card-title">Portal disabled landing page</span>
-
-                    <span class="dp-UserInfo">
-                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                        <span class="dp-UserName">Mark Jarvis
-                        </span>
-                        <a href="mailto:mjarvis@econorob.nl" class="dp-UserEmail">
-                            &lt;mjarvis@econorob.nl&gt;
-                        </a>
-                    </span>
-                </span>
-
-                <span class="dp-LevelCol dp-LevelRight">
-                    <span class="dp-IconGroup">
-                        <span class="Icon--circle dp-rocket Icon-grey-darkest"></span>
-                        <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
-                        <span class="dp-Badge Badge--round Badge--warning">9</span>
-                    </span>
-                    <span class="dp-TimeStatus">
-                        <span class="dp-Tag Tag--small Tag--pink">3 hours</span>
-                    </span>
-                </span>
-            </li>
-
-            <!-- 3 -->
-            <li class="dp-Card dp-Level">
-                <span class="dp-LevelCol">
-                    <span class="dp-CustomCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-6"></input>
-                        <label for="customCheckbox1-6"></label>
-                    </span>
-                </span>
-
-                <span class="dp-LevelCol">
-                    <span class="dp-Card-title">Inventory component<span class="dp-Icon Icon--star"></span></span>
-
-                    <span class="dp-UserInfo">
-                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                        <span class="dp-UserName">Toby Falkirk
-                        </span>
-                        <a href="mailto:t.falkirk@rambling.com" class="dp-UserEmail">
-                            &lt;t.falkirk@rambling.com&gt;
-                        </a>
-                    </span>
-                </span>
-
-                <span class="dp-LevelCol dp-LevelRight">
-                    <span class="dp-IconGroup">
-                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                        <span class="dp-Badge Badge--round Badge-Min Icon-warning"></span>
-                    </span>
-                    <span class="dp-TimeStatus">
-                        <span>2 hr 16 min</span>
-                    </span>
-                </span>
-            </li>
-
-            <!-- 4 -->
-            <li class="dp-Card dp-Level">
-                <span class="dp-LevelCol">
-                    <span class="dp-CustomCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-7"></input>
-                        <label for="customCheckbox1-7"></label>
-                    </span>
-                </span>
-
-                <span class="dp-LevelCol">
-                    <span class="dp-Card-title">AW: Need some help?</span>
-
-                    <span class="dp-UserInfo">
-                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                        <span class="dp-UserName">Kenneth James
-                        </span>
-                        <a href="mailto:kenneth@windfarms.com" class="dp-UserEmail">
-                            &lt;kenneth@windfarms.com&gt;
-                        </a>
-                    </span>
-                </span>
-
-                <span class="dp-LevelCol dp-LevelRight">
-                    <span class="dp-IconGroup">
-                        <span class="dp-Icon dp-iconLock"></span>
-                        <span class="Icon--circle dp-iconMln"></span>
-                        <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
-                        <span class="dp-Badge Badge--round Badge--warning">9</span>
-                    </span>
-                    <span class="dp-TimeStatus">
-                        <span>57 mins</span>
-                    </span>
-                </span>
-            </li>
-
-            <!-- 5 -->
-            <li class="dp-Card dp-Level">
-                <span class="dp-LevelCol">
-                    <span class="dp-CustomCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-8"></input>
-                        <label for="customCheckbox1-8"></label>
-                    </span>
-                </span>
-
-                <span class="dp-LevelCol">
-                    <span class="dp-Card-title">Portal disabled landing page</span>
-
-                    <span class="dp-UserInfo">
-                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                        <span class="dp-UserName">Mark Jarvis
-                        </span>
-                        <a href="mailto:mjarvis@econorob.nl" class="dp-UserEmail">
-                            &lt;mjarvis@econorob.nl&gt;
-                        </a>
-                    </span>
-                </span>
-
-                <span class="dp-LevelCol dp-LevelRight">
-                    <span class="dp-IconGroup">
-                        <span class="Icon--circle dp-iconMln"></span>
-                        <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
-                        <span class="dp-Badge Badge--round Badge--warning">7</span>
-                    </span>
-                    <span class="dp-TimeStatus">
-                        <span class="dp-Tag Tag--small Tag--danger">2 hours</span>
-                    </span>
-                </span>
-            </li>
-            
-            <!-- 6 -->
-            <li class="dp-Card dp-Level">
-                <span class="dp-LevelCol">
-                    <span class="dp-CustomCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-9"></input>
-                        <label for="customCheckbox1-9"></label>
-                    </span>
-                </span>
-
-                <span class="dp-LevelCol">
-                    <span class="dp-Card-title">Enjoying your helpdesk?<span class="dp-Icon Icon--star"></span></span>
-                    <span class="dp-UserInfo">
-                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                        <span class="dp-UserName">Toby Falkirk
-                        </span>
-                        <a href="mailto:t.falkirk@rambling.com" class="dp-UserEmail">
-                            &lt;t.falkirk@rambling.com&gt;
-                        </a>
-                    </span>
-                </span>
-
-                <span class="dp-LevelCol dp-LevelRight">
-                    <span class="dp-IconGroup">
-                        <span class="Icon--circle dp-iconMln"></span>
-                        <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
-                        <span class="dp-Badge Badge--round Badge-Min Icon-neutral"></span>
-                    </span>
-                    <span class="dp-TimeStatus">
-                        <span>43 mins</span>
-                    </span>
-                </span>
-            </li>
-
-            <!-- 7 -->
-            <li class="dp-Card dp-Level">
-                <span class="dp-LevelCol">
-                    <span class="dp-CustomCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-10"></input>
-                        <label for="customCheckbox1-10"></label>
-                    </span>
-                </span>
-
-                <span class="dp-LevelCol">
-                    <span class="dp-Card-title">Product enquiry</span>
-                    <span class="dp-UserInfo">
-                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                        <span class="dp-UserName">Kenneth James
-                        </span>
-                        <a href="mailto:kenneth@windfarms.com" class="dp-UserEmail">
-                            &lt;kenneth@windfarms.com&gt;
-                        </a>
-                    </span>
-                </span>
-
-                <span class="dp-LevelCol dp-LevelRight">
-                    <span class="dp-IconGroup">
-
-                        <span class="Icon--circle dp-iconBug"></span>
-                        <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
-                        <span class="dp-Icon Icon--clock Icon--primary"></span>
-                    </span>
-                    <span class="dp-TimeStatus">
-                        <span class="dp-Tag Tag--small Tag--danger">Failed</span>
-                    </span>
-                </span>
-            </li>
-
-            <!-- 8 -->
-            <li class="dp-Card dp-Level">
-                <span class="dp-LevelCol">
-                    <span class="dp-CustomCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-11"></input>
-                        <label for="customCheckbox1-11"></label>
-                    </span>
-                </span>
-
-                <span class="dp-LevelCol">
-                    <span class="dp-Card-title">Allow anyone to email support<span class="dp-Icon Icon--star"></span></span>
-                    <span class="dp-UserInfo">
-                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                        <span class="dp-UserName">Mark Jarvis
-                        </span>
-                        <a href="mailto:mjarvis@econorob.nl" class="dp-UserEmail">
-                            &lt;mjarvis@econorob.nl&gt;
-                        </a>
-                    </span>
-                </span>
-
-                <span class="dp-LevelCol dp-LevelRight">
-                    <span class="dp-IconGroup">
-                        <span class="Icon--circle dp-iconMln"></span>
-                        <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
-                        <span class="dp-Badge Badge--round Badge--neutral">6</span>
-                    </span>
-                    <span class="dp-TimeStatus">
-                        <span>43 mins</span>
-                    </span>
-                </span>
-            </li>
-
-        </ul>
     </form>
 </div>
 ```

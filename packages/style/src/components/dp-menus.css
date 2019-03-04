@@ -332,10 +332,12 @@
 /* Menu-fields */
 
 .dp-Menu.Menu-fields {
-  left: auto;
   min-width: 235px;
   padding: 0;
-  right: 0;
+
+  /*  left: auto;
+  right: 0; */
+
 }
 
 .dp-Menu.Menu-fields .dp-Menu-title {

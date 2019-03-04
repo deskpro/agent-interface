@@ -19,7 +19,7 @@
 }
 
 .dp-Card-title,
-.dp-Items-title {
+.dp-MassSelect-itemsCount {
   color: var(--grey-darkest);
   cursor: pointer;
   font: var(--h-n-semibold);
@@ -100,7 +100,7 @@
   width: 100%;
 }
 
-.dp-CustomCheckbox .dp-Items-title,
+.dp-OrderingBar .dp-MassSelect-itemsCount,
 .dp-CustomCheckbox .dp-Card-title {
   margin: 0;
 }
