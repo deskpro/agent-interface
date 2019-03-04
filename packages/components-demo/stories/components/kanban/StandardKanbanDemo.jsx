@@ -63,7 +63,7 @@ const kanbanReducer = produce((draft, { type, payload }) => {
   return undefined;
 });
 
-const StandardKanbanDemo = ({ action, allowReorder }) => {
+const StandardKanbanDemo = ({ allowReorder, checkable }) => {
   const [data, dispatch] = React.useReducer(kanbanReducer, [], initCards);
 
   return (
@@ -71,16 +71,21 @@ const StandardKanbanDemo = ({ action, allowReorder }) => {
       <StandardKanban
         className="Kanban--cards"
         allowReorder={allowReorder}
+        checkable={checkable}
         data={data}
         onDragEnd={payload => dispatch({ type: "moveItem", payload })}
         onLoadMore={group => dispatch({ type: "loadMore", payload: group })}
-        renderCard={(card, { isDragging }) => (
+        renderCard={(
+          card,
+          { isDragging, isChecked, isCheckable, onCheckChange }
+        ) => (
           <Card.TicketCard
             cardId={card.id}
             title={card.title}
             isDragging={isDragging}
-            checkable
-            onCheck={action(`toggle check for ${card.title}`)}
+            checkable={isCheckable}
+            checked={isChecked}
+            onCheck={onCheckChange}
             status={
               <Card.TicketCard.Status lastUpdate={subHours(new Date(), 2)} />
             }

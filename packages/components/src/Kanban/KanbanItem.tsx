@@ -4,15 +4,15 @@ import { Draggable } from "react-beautiful-dnd";
 
 import { KanbanContext } from "./Kanban";
 
-export type KanbanItemDraggingState = {
+export interface KanbanItemProvidedProps {
   isDragging?: boolean;
-};
+}
 
 export type KanbanItemProps = {
   className?: string;
   itemId: React.Key;
   index?: number;
-  children: (state?: KanbanItemDraggingState) => React.ReactNode;
+  children: (props?: KanbanItemProvidedProps) => React.ReactNode;
 };
 
 const KanbanItem: React.FC<KanbanItemProps> = ({

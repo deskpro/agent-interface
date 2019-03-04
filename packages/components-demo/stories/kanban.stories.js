@@ -15,7 +15,7 @@ storiesOf("Kanban", module)
   .add("Tickets Kanban", () => <CardKanban action={action} />)
   .add("Standard Kanban", () => (
     <StandardKanban
-      action={action}
       allowReorder={boolean("Allow Reorder", true)}
+      checkable={boolean("Checkable", true)}
     />
   ));
