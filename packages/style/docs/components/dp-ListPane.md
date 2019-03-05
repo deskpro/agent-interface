@@ -7,7 +7,7 @@ title: List View
 ```html @preview
 <div class="dp-MainWrapper">
     <span class="dp-Card-SectionTitle">
-        <span>Sales</span>
+        <span>SALES</span>
     </span>
 </div>
 ```
@@ -26,7 +26,7 @@ title: List View
                 </span>
             </span>
 
-            <span>Sales</span>
+            <span>SALES</span>
         </li>
 
         <!-- 1 -->
@@ -321,7 +321,7 @@ title: List View
                 </span>
             </span>
             
-            <span>Support</span>
+            <span>SUPPORT</span>
         </li>
 
         <!-- 9 -->
@@ -2451,7 +2451,7 @@ title: List View
             <ul class="dp-CardList newControlsList is-hoverable">
 
                 <li class="dp-Card-SectionTitle">
-                    <span>Sales</span>
+                    <span>SALES</span>
                 </li>
 
                 <!-- 1 -->

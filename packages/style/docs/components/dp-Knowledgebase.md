@@ -237,7 +237,7 @@ title: Sort and Re-order
         </li>
 
         <li class="dp-Breadcrumbs">
-            <span class="dp-Breadcrumbs--Item dp-Icon Icon--home"></span><i class="dp-Breadcrumbs--Arrow"></i>
+            <span class="dp-Breadcrumbs--Item dp-Icon Icon--home Icon--primary"></span><i class="dp-Breadcrumbs--Arrow"></i>
         </li>
 
         <li class="dp-Categories">

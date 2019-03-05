@@ -96,8 +96,10 @@
   font: var(--h-s-semibold);
   margin: 0;
   padding: 8.8px 10px 7.8px;
-  text-transform: uppercase;
   width: 100%;
+
+  /* text-transform: uppercase; */
+
 }
 
 .dp-OrderingBar .dp-MassSelect-itemsCount,
@@ -526,7 +528,7 @@
   display: flex;
   justify-content: flex-start;
   justify-content: flex-start;
-  padding: 10px 10px;
+  padding: 3px 10px;
   position: relative;
   width: 100%;
 }

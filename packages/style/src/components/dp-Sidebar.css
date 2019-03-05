@@ -341,10 +341,14 @@
   font: var(--p-n-semibold);
 }
 
+.dp-Slas .dp-ButtonWrapper {
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
 .dp-Slas .dp-ButtonWrapper .dp-ActionButton {
   font: var(--p-xl);
   font-style: italic;
-  margin-right: 10px;
 }
 
 .dp-Slas .dp-ButtonWrapper button {

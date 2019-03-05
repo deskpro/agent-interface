@@ -9,7 +9,7 @@ title: Guides
     <ul class="dp-CardList dp-GuidesDirectory">
 
         <li class="dp-Breadcrumbs">
-            <span class="dp-Breadcrumbs--Item dp-Icon Icon--home Icon--primary"></span><i class="dp-Breadcrumbs--Arrow"></i>
+            <span class="dp-Breadcrumbs--Item dp-Icon Icon--home"></span><i class="dp-Breadcrumbs--Arrow"></i>
             <span class="dp-Breadcrumbs--Item">Admin Guide</span><i class="dp-Breadcrumbs--Arrow"></i>
             <span class="dp-Breadcrumbs--Item is-current">Launching your helpdesk</span>
         </li>

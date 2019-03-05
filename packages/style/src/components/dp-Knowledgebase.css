@@ -15,7 +15,7 @@
 
 .dp-Categories-title {
   color: var(--grey-darkest);
-  font: var(--p-xl);
+  font: var(--h-s-semibold);
 }
 
 .dp-Categories-add {
@@ -68,6 +68,10 @@
 .dp-FilterlistContainer.dp-Knowledgebase .dp-Tickets .dp-TitleName {
   justify-content: space-between;
   width: 100%;
+}
+
+.dp-Knowledgebase .dp-TicketMenuItem {
+  text-transform: none;
 }
 
 .dp-Knowledgebase .dp-TicketMenuItem.is-selected,
@@ -238,7 +242,6 @@
 .dp-Knowledgebase .dp-Breadcrumbs {
   background-color: var(--grey-lightest);
   margin-top: -1px;
-  padding: 5px 10px;
 }
 
 .dp-Knowledgebase .dp-Menu.Menu-tick > .dp-Menu-linkItem .dp-listItem::after {

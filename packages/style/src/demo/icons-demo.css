@@ -1356,7 +1356,7 @@
 }
 
 .dp-IconJump {
-  background-image: url('data:image/svg+xml,<svg width="9" height="13" viewBox="0 0 9 13" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0.593029 12.1C-1.40697 7.19995 2.29303 3.99995 2.29303 3.99995L0.493023 2.19995L8.49302 0.199951L6.49302 8.19995L4.79303 6.49995C1.59303 6.59995 0.593029 12.1 0.593029 12.1Z" fill="%23A9B0B0"/></svg>');
+  background-image: url('data:image/svg+xml,<svg width="9" height="13" viewBox="0 0 9 13" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0.593029 12.1C-1.40697 7.19995 2.29303 3.99995 2.29303 3.99995L0.493023 2.19995L8.49302 0.199951L6.49302 8.19995L4.79303 6.49995C1.59303 6.59995 0.593029 12.1 0.593029 12.1Z" fill="%23979797"/></svg>');
 }
 
 .dp-Cog:hover .dp-IconJump,

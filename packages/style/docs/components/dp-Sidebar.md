@@ -67,14 +67,18 @@ title: PageSidebar
 <h4>sidebar/header</h4>
 ```html @preview
 <div class="dp-MainWrapper">
-    <div class="demo-sidebar">
+    <div class="dp-SidebarContainer demo-cog demo-menu demo-sidebar" style="min-height:auto;border-radius:0">
+        <div class="dp-PageSidebar">
+            <div class="dp-SidebarBody">
 
-        <div class="dp-SidebarSection">
-            <div class="dp-SectionTitle">
-                <div class="dp-TitleControls">Header</div>
+                <div class="dp-SidebarSection">
+                    <div class="dp-SectionTitle">
+                        <div class="dp-TitleControls">Header</div>
+                    </div>
+                </div>
+
             </div>
         </div>
-
     </div>
 </div>
 ```
@@ -82,11 +86,17 @@ title: PageSidebar
 <h4>sidebar/panel</h4>
 ```html @preview
 <div class="dp-MainWrapper">
-    <div class="dp-PageSidebar demo-sidebar">
-        <div class="dp-SectionBody-item">
-            <div class="dp-title-item">
-                <span class="dp-Icon dp-iconUserAvatar"></span>
-                Name
+    <div class="dp-SidebarContainer demo-cog demo-menu demo-sidebar" style="min-height:auto;border-radius:0">
+        <div class="dp-PageSidebar">
+            <div class="dp-SidebarBody">
+
+                <div class="dp-SectionBody-item">
+                    <div class="dp-title-item">
+                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                        Name
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
@@ -95,19 +105,23 @@ title: PageSidebar
 
 <h4>sidebar/tickets/header/count-smallmore</h4>
 ```html @preview
-<div class="dp-MainWrapper" style="background-color:#f7f7f7;">
-    <div class="dp-PageSidebar demo-sidebar">
+<div class="dp-MainWrapper">
+    <div class="dp-SidebarContainer demo-cog demo-menu demo-sidebar" style="min-height:auto;border-radius:0">
+        <div class="dp-PageSidebar">
+            <div class="dp-SidebarBody">
 
-        <div class="dp-SidebarSection dp-SectionControls">
-            <div class="dp-SectionTitle">
-                <div class="dp-TitleControls"><span class="dp-Section--name">Header</span></div>
-                    <a href="#" class="dp-Controls">
-                    <span class="dp-qt"> +8 </span> 
-                    <i class="dp-Icon dp-DotsIcon"></i>
-                </a>
+                <div class="dp-SidebarSection dp-SectionControls">
+                    <div class="dp-SectionTitle">
+                        <div class="dp-TitleControls"><span class="dp-Section--name">Header</span></div>
+                            <a href="#" class="dp-Controls">
+                            <span class="dp-qt"> +8 </span> 
+                            <i class="dp-Icon dp-DotsIcon"></i>
+                        </a>
+                    </div>
+                </div>
+
             </div>
         </div>
-
     </div>
 </div>
 ```
@@ -116,12 +130,18 @@ title: PageSidebar
 <h4>sidebar/tab-header</h4>
 ```html @preview
 <div class="dp-MainWrapper">
-    <div class="demo-sidebar">
-        <ul class="dp-Tabs Tabs--icons">
-            <li class="dp-Tabs-item is-active"><a href="#" class="dp-Icon Icon--email"></a></li>
-            <li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--user"></a></li>
-            <li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--organisation"></a></li>
-        </ul>
+    <div class="dp-SidebarContainer demo-cog demo-menu demo-sidebar" style="min-height:auto;">
+        <div class="dp-PageSidebar">
+
+            <div class="demo-sidebar">
+                <ul class="dp-Tabs Tabs--icons">
+                    <li class="dp-Tabs-item is-active"><a href="#" class="dp-Icon Icon--email"></a></li>
+                    <li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--user"></a></li>
+                    <li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--organisation"></a></li>
+                </ul>
+            </div>
+
+        </div>
     </div>
 </div>
 ```
@@ -129,11 +149,17 @@ title: PageSidebar
 <h4>sidebar/org-panel</h4>
 ```html @preview
 <div class="dp-MainWrapper">
-    <div class="dp-PageSidebar demo-sidebar">
-        <div class="dp-SectionBody-item">
-            <div class="dp-title-item">
-                <span class="dp-Icon dp-iconUserAvatar"></span>
-                Optical
+    <div class="dp-SidebarContainer demo-cog demo-menu demo-sidebar" style="min-height:auto;border-radius:0">
+        <div class="dp-PageSidebar">
+            <div class="dp-SidebarBody">
+
+                <div class="dp-SectionBody-item">
+                    <div class="dp-title-item">
+                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                        Optical
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
@@ -167,21 +193,25 @@ title: PageSidebar
 <h4>sidebar/ccs-header</h4>
 ```html @preview
 <div class="dp-MainWrapper">
-    <div class="dp-PageSidebar demo-sidebar">
+    <div class="dp-SidebarContainer demo-cog demo-menu demo-sidebar" style="min-height:auto;border-radius:0">
+        <div class="dp-PageSidebar">
+            <div class="dp-SidebarBody">
 
-        <div class="dp-SectionControls">
-            <div class="dp-SectionTitle dp-CcRow">
-                <div class="dp-TitleControls">
-                    <span class="dp-open">CC’s</span>
-                    <span>Add</span>
+                <div class="dp-SectionControls">
+                    <div class="dp-SectionTitle dp-CcRow">
+                        <div class="dp-TitleControls">
+                            <span class="dp-open">CC’s</span>
+                            <span>Add</span>
+                        </div>
+                        <a href="#" class="dp-Controls">
+                            <span class="dp-qt"> +5 </span> 
+                            <i class="dp-Icon dp-DotsIcon"></i>
+                        </a>
+                    </div>
                 </div>
-                <a href="#" class="dp-Controls">
-                    <span class="dp-qt"> +5 </span> 
-                    <i class="dp-Icon dp-DotsIcon"></i>
-                </a>
+
             </div>
         </div>
-
     </div>
 </div>
 ```
@@ -189,99 +219,105 @@ title: PageSidebar
 <h4>sidebar/cc-row</h4>
 ```html @preview
 <div class="dp-MainWrapper">
-    <div class="dp-PageSidebar demo-menu demo-sidebar">
-        <div class="dp-SidebarBody">
-            <div class="dp-SectionControls dp-SidebarSection dp-CCmenu">
-                <div class="dp-title-item dp-SectionTitle">
+    <div class="dp-SidebarContainer demo-cog demo-menu demo-sidebar" style="min-height:auto;border-radius:0">
+        <div class="dp-PageSidebar">
+            <div class="dp-SidebarBody">
 
-                    <span class="dp-UserName">
-                        <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                        <span class="dp-User-link">
-                            Wendy Pride
-                            <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">w.pride@techcompany.co.uk</a>
+                <div class="dp-SectionControls dp-SidebarSection dp-CCmenu">
+                    <div class="dp-title-item dp-SectionTitle">
+
+                        <span class="dp-UserName">
+                            <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                            <span class="dp-User-link">
+                                Wendy Pride
+                                <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">w.pride@techcompany.co.uk</a>
+                            </span>
                         </span>
-                    </span>
-                    <a href="#" class="dp-Icon dp-iconVDots"></a>
-                    <!-- hide menu -->
-                    <ul class="dp-Menu">
-                        <li class="dp-Menu-linkItem">
-                            <span class="dp-Icon dp-Swap"></span>
-                            <a href="#" class="dp-Menu-link">Swap with ticket owner</a>
-                        </li>
-                        <li class="dp-Menu-linkItem">
-                            <span class="dp-Icon dp-Owner"></span>
-                            <a href="#" class="dp-Menu-link">Set as ticket owner</a>
-                        </li>
-                        <li class="dp-Menu-linkItem">
-                            <span class="dp-Icon dp-Merge"></span>
-                            <a href="#" class="dp-Menu-link">Merge into ticket owner</a>
-                        </li>
-                        <li class="dp-Menu-linkItem">
-                            <span class="dp-Icon dp-Bin"></span>
-                            <a href="#" class="dp-Menu-link">Remove CC</a>
-                        </li>
-                        <li class="dp-Menu-linkItem">
-                            <span class="dp-Icon dp-iconMin"></span>
-                            <a href="#" class="dp-Menu-link">Remove CC & Block from ticket</a>
-                        </li>
-                    </ul>
+                        <a href="#" class="dp-Icon dp-iconVDots"></a>
+                        <!-- hide menu -->
+                        <ul class="dp-Menu">
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Icon dp-Swap"></span>
+                                <a href="#" class="dp-Menu-link">Swap with ticket owner</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Icon dp-Owner"></span>
+                                <a href="#" class="dp-Menu-link">Set as ticket owner</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Icon dp-Merge"></span>
+                                <a href="#" class="dp-Menu-link">Merge into ticket owner</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Icon dp-Bin"></span>
+                                <a href="#" class="dp-Menu-link">Remove CC</a>
+                            </li>
+                            <li class="dp-Menu-linkItem">
+                                <span class="dp-Icon dp-iconMin"></span>
+                                <a href="#" class="dp-Menu-link">Remove CC & Block from ticket</a>
+                            </li>
+                        </ul>
 
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+```
+
+<h4>sidebar/select-selectbelow/urgency</h4>
+```html @preview
+<div class="dp-MainWrapper">
+    <div class="dp-SidebarContainer demo-cog demo-menu demo-sidebar" style="min-height:auto;border-radius:0">
+        <div class="dp-PageSidebar">
+            <div class="dp-SidebarBody">
+                <!-- buttons -->
+                <div class="dp-SidebarSection">
+                    <div class="dp-Selectbelow">
+                        <div class="dp-ButtonWrapper">
+                            <button class="dp-ActionButton dp-Border--danger ActionButton--large dp-Arrow" type="button">
+                                On Hold
+                            </button>
+
+                            <button class="dp-ActionButton dp-Border--danger dp--danger dp-Arrow" type="button">
+                                10
+                            </button>
+                        </div>
+                        <div class="dp-ButtonWrapper">
+                            <span class="dp-Icon dp-LevelDown"></span>
+
+                            <button class="dp-ActionButton ActionButton--large dp-Arrow" type="button">
+                                Awaiting order confirmation
+                            </button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</div>
-```
 
-<h4>sidebar/select-selectbelow</h4>
-```html @preview
-<div class="dp-MainWrapper">
-    <div class="dp-PageSidebar demo-sidebar">
-        <!-- buttons -->
-        <div class="dp-Selectbelow">
-            <button class="dp-ActionButton dp-Border--danger ActionButton--large dp-Arrow" type="button">
-                On Hold
-            </button>
-            <div class="dp-ButtonWrapper">
-                <span class="dp-Icon dp-LevelDown"></span>
-                <button class="dp-ActionButton ActionButton--large dp-Arrow" type="button">
-                    Awaiting order confirmation
-                </button>
-            </div>
-
-        </div>
-    </div>
-</div>
-```
-
-<h4>sidebar/urgency</h4>
-```html @preview
-<div class="dp-MainWrapper">
-    <div class="dp-SectionBody demo-sidebar">
-        <div class="dp-ButtonWrapper">
-            <button class="dp-ActionButton dp-Border--danger dp--danger is-semibold dp-Arrow" type="button">
-                10
-            </button>
-        </div>
     </div>
 </div>
 ```
 
 <h4>sidebar/headers</h4>
 ```html @preview
-<div class="dp-MainWrapper" style="background-color:#f7f7f7;">
-    <div class="dp-PageSidebar demo-sidebar">
-
-        <div class="dp-SidebarSection dp-SectionControls">
-            <div class="dp-SectionTitle">
-                <div class="dp-TitleControls"><span class="dp-Section--name">Times</span></div>
-                <a href="#" class="dp-Controls">
-                    <span class="dp-qt"> +6 </span> 
-                    <i class="dp-Icon dp-DotsIcon"></i>
-                </a>
+<div class="dp-MainWrapper">
+    <div class="dp-SidebarContainer demo-cog demo-menu demo-sidebar" style="min-height:auto;border-radius:0">
+        <div class="dp-PageSidebar">
+            <div class="dp-SidebarBody">
+                <div class="dp-SidebarSection dp-SectionControls">
+                    <div class="dp-SectionTitle">
+                        <div class="dp-TitleControls"><span class="dp-Section--name">Times</span></div>
+                        <a href="#" class="dp-Controls">
+                            <span class="dp-qt"> +6 </span> 
+                            <i class="dp-Icon dp-DotsIcon"></i>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
-
     </div>
 </div>
 ```
@@ -289,18 +325,22 @@ title: PageSidebar
 <h4>sidebar/times-row</h4>
 ```html @preview
 <div class="dp-MainWrapper">
-    <div class="dp-PageSidebar demo-sidebar">
+    <div class="dp-SidebarContainer demo-cog demo-menu demo-sidebar" style="min-height:auto;border-radius:0">
+        <div class="dp-PageSidebar">
+            <div class="dp-SidebarBody">
 
-        <div class="dp-SidebarSection dp-SectionControls">
-            <div class="dp-SectionTitle dp-TimesRow">
-                <div class="dp-title-item">
-                    <span class="dp-Icon dp-CurrentUser Icon--blue"></span>
-                    Current user wait
+                <div class="dp-SidebarSection dp-SectionControls">
+                    <div class="dp-SectionTitle dp-TimesRow">
+                        <div class="dp-title-item">
+                            <span class="dp-Icon dp-CurrentUser Icon--blue"></span>
+                            Current user wait
+                        </div>
+                        <span class="dp-TimesStatus">12 hrs 43 mins</span>
+                    </div>
                 </div>
-                <span class="dp-TimesStatus">12 hrs 43 mins</span>
+
             </div>
         </div>
-
     </div>
 </div>
 ```
@@ -308,51 +348,56 @@ title: PageSidebar
 <h4>sidebar/SLAs-extended</h4>
 ```html @preview
 <div class="dp-MainWrapper">
-    <div class="dp-PageSidebar demo-sidebar demo-sidebar">
-        <div class="dp-Slas">
+    <div class="dp-SidebarContainer demo-cog demo-menu demo-sidebar" style="min-height:auto;border-radius:0">
+        <div class="dp-PageSidebar">
+            <div class="dp-SidebarBody">
 
-            <div class="dp-TitleControls">Completed SLAs</div>
+                <div class="dp-Slas">
 
-            <div class="dp-SectionBody">
-                <div class="dp-TagItem">
-                    <span class="dp-TimeStatus">
-                        <span class="dp-Tag Tag--small Tag--pink">27/24 hrs</span>
-                    </span>
-                    <span class="dp-TagDescription">Time until first respon...</span>
+                    <div class="dp-TitleControls">Completed SLAs</div>
+
+                    <div class="dp-SectionBody">
+                        <div class="dp-TagItem">
+                            <span class="dp-TimeStatus">
+                                <span class="dp-Tag Tag--small Tag--pink">27/24 hrs</span>
+                            </span>
+                            <span class="dp-TagDescription">Time until first respon...</span>
+                        </div>
+                        <div class="dp-TagItem">
+                            <span class="dp-TimeStatus">
+                                <span class="dp-Tag Tag--small Tag--success">14/72 hrs</span>
+                            </span>
+                            <span class="dp-TagDescription">Resolution</span>
+                        </div>
+                        <div class="dp-TagItem">
+                            <span class="dp-TimeStatus">
+                                <span class="dp-Tag Tag--small Tag--warning">x3</span>
+                            </span>
+                            <span class="dp-TagDescription">Time awaiting reply</span>
+                        </div>
+                        <div class="dp-TagItem">
+                            <span class="dp-TimeStatus dp-StatusGroup">
+                                <span class="dp-Tag Tag--small Tag--success">1</span>
+                                <span class="dp-Tag Tag--small Tag--warning">3</span>
+                                <span class="dp-Tag Tag--small Tag--pink">1</span>
+                            </span>
+                            <span class="dp-TagDescription">Time awaiting reply</span>
+                        </div>
+                    </div>
+
+                    <div class="dp-TitleControls">Apply an SLA</div>
+
+                    <div class="dp-ButtonWrapper">
+                        <button class="dp-ActionButton ActionButton--large dp-Arrow" type="button">
+                            Select SLA
+                        </button>
+                        <button class="dp-Button Button--small Button--outlined" type="button">
+                            Apply
+                        </button>
+                    </div>
                 </div>
-                <div class="dp-TagItem">
-                    <span class="dp-TimeStatus">
-                        <span class="dp-Tag Tag--small Tag--success">14/72 hrs</span>
-                    </span>
-                    <span class="dp-TagDescription">Resolution</span>
-                </div>
-                <div class="dp-TagItem">
-                    <span class="dp-TimeStatus">
-                        <span class="dp-Tag Tag--small Tag--warning">x3</span>
-                    </span>
-                    <span class="dp-TagDescription">Time awaiting reply</span>
-                </div>
-                <div class="dp-TagItem">
-                    <span class="dp-TimeStatus dp-StatusGroup">
-                        <span class="dp-Tag Tag--small Tag--success">1</span>
-                        <span class="dp-Tag Tag--small Tag--warning">3</span>
-                        <span class="dp-Tag Tag--small Tag--pink">1</span>
-                    </span>
-                    <span class="dp-TagDescription">Time awaiting reply</span>
-                </div>
+
             </div>
-
-            <div class="dp-TitleControls">Apply an SLA</div>
-
-            <div class="dp-ButtonWrapper">
-                <button class="dp-ActionButton ActionButton--large dp-Arrow" type="button">
-                    Select SLA
-                </button>
-                <button class="dp-Button Button--small Button--outlined" type="button">
-                    Apply
-                </button>
-            </div>
-
         </div>
     </div>
 </div>
@@ -619,7 +664,6 @@ title: PageSidebar
                 </div>
                 
                 <div class="dp-Slas">
-                    <div class="dp-TitleControls">Active SLAs</div>
 
                     <div class="dp-SectionBody">
                         <div class="dp-TagItem">
@@ -1035,7 +1079,7 @@ title: PageSidebar
                     <!-- 8 -->
                     <div class="dp-SectionTitle dp-TimesRow">
                         <div class="dp-title-item">
-                            <span class="dp-Icon dp-LastUser Icon--blue"></span>
+                            <span class="dp-Icon dp-LastAgent Icon--blue"></span>
                             Last user reply
                         </div>
                         <span class="dp-TimesStatus">6 hrs 37 mins</span>
@@ -1054,7 +1098,6 @@ title: PageSidebar
                 </div>
                 
                 <div class="dp-Slas">
-                    <div class="dp-TitleControls">Active SLAs</div>
 
                     <div class="dp-SectionBody">
                         <div class="dp-TagItem">
@@ -1207,11 +1250,6 @@ title: PageSidebar
                         </div>
 
                         <div class="dp-title-item dp-SectionTitle is-active">
-<!--                             <span class="dp-UserName">
-                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
-                                Wendy Pride
-                                <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">w.pride@techcompany.co.uk</a>
-                            </span> -->
                             <span class="dp-UserName">
                                 <span class="dp-Badge Badge--round Badge--grey-light"></span>
                                 <span class="dp-User-link">
@@ -1366,6 +1404,54 @@ title: PageSidebar
                             <span class="dp-TagDescription">Time awaiting reply</span>
                         </div>
                     </div>
+
+
+
+                    <div class="dp-TitleControls">Completed SLAs</div>
+
+                    <div class="dp-SectionBody">
+                        <div class="dp-TagItem">
+                            <span class="dp-TimeStatus">
+                                <span class="dp-Tag Tag--small Tag--pink">27/24 hrs</span>
+                            </span>
+                            <span class="dp-TagDescription">Time until first respon...</span>
+                        </div>
+                        <div class="dp-TagItem">
+                            <span class="dp-TimeStatus">
+                                <span class="dp-Tag Tag--small Tag--success">14/72 hrs</span>
+                            </span>
+                            <span class="dp-TagDescription">Resolution</span>
+                        </div>
+                        <div class="dp-TagItem">
+                            <span class="dp-TimeStatus">
+                                <span class="dp-Tag Tag--small Tag--warning">x3</span>
+                            </span>
+                            <span class="dp-TagDescription">Time awaiting reply</span>
+                        </div>
+                        <div class="dp-TagItem">
+                            <span class="dp-TimeStatus dp-StatusGroup">
+                                <span class="dp-Tag Tag--small Tag--success">1</span>
+                                <span class="dp-Tag Tag--small Tag--warning">3</span>
+                                <span class="dp-Tag Tag--small Tag--pink">1</span>
+                            </span>
+                            <span class="dp-TagDescription">Time awaiting reply</span>
+                        </div>
+                    </div>
+
+                    <div class="dp-TitleControls">Apply an SLA</div>
+
+                    <div class="dp-ButtonWrapper">
+                        <button class="dp-ActionButton ActionButton--large dp-Arrow" type="button">
+                            Select SLA
+                        </button>
+                        <button class="dp-Button Button--small Button--outlined" type="button">
+                            Apply
+                        </button>
+                    </div>
+
+
+
+
                 </div>
 
             </div> <!-- Sidebar body -->
