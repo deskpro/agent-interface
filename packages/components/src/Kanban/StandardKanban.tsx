@@ -99,7 +99,7 @@ const StandardKanban: React.FC<StandardKanbanProps> = ({
                     undef={someChecked && !allChecked && items.length > 0}
                     onChange={() => {
                       updateChecked(
-                        allChecked
+                        someChecked
                           ? checked.filter(c => !columnItems.includes(c))
                           : [
                               ...new Set<KanbanItemID>(
