@@ -737,7 +737,8 @@ title: List View
 </div>
 ```
 
-<h2>Listview/mass-select</h2>
+##Listview/mass-select
+
 ```html @preview
 <div class="dp-MainWrapper demo-menu">
     <form class="dp-MassSelect">
