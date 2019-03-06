@@ -45,7 +45,7 @@
 .demo-menu .dp-Menu .dp-Menu-linkItem:hover > .dp-Menu,
 .demo-menu .dp-ActionButton.is-active .dp-Menu,
 .demo-menu .dp-ActionsItem.is-active .dp-Menu,
-.demo-menu .Menu-fields .dp-settings.is-active + .dp-Menu,
+.demo-menu .dp-OptionList .dp-settings.is-active + .dp-Menu,
 .demo-menu .dp-Menu.Menu-tick .is-active + .dp-Menu,
 .demo-menu .dp-Menu.Menu-grouped .dp-Menu-linkItem:hover > .dp-Menu,
 .demo-menu .dp-Menu.Menu-grouped .dp-Menu-linkItem.is-active .dp-Menu,
@@ -88,7 +88,7 @@
   opacity: 1;
 }
 
-.demo-menu .dp-Menu.Menu-fields {
+.demo-menu .dp-Menu.dp-OptionList {
   left: auto;
   right: 0;
 }

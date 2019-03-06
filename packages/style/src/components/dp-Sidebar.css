@@ -341,9 +341,14 @@
   font: var(--p-n-semibold);
 }
 
+.dp-Selectbelow .dp-ButtonWrapper,
 .dp-Slas .dp-ButtonWrapper {
   justify-content: space-between;
   margin-bottom: 10px;
+}
+
+.dp-Selectbelow .dp-ActionButton + .dp-ActionButton {
+  margin: 0;
 }
 
 .dp-Slas .dp-ButtonWrapper .dp-ActionButton {

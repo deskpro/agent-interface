@@ -72,11 +72,6 @@
   display: flex;
   padding: 4px 6px;
   position: relative;
-
-  /* padding: 8px 6px; */
-
-  /* background-color: transparent; */
-
 }
 
 .dp-ActionButton {
@@ -270,6 +265,7 @@
 .dp-Tasks-list.dp-Card-SectionTitle .dp-Card-title {
   border-bottom: 0;
   font: var(--h-l-bold);
+  line-height: 1.4;
   margin-bottom: 0;
   margin-right: 20px;
 }
@@ -545,7 +541,7 @@
   border: 0;
 }
 
-/* Menu-fields */
+/* dp-OptionList */
 
 input:disabled + label {
   cursor: not-allowed;

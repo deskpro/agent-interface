@@ -43,14 +43,18 @@
   background: var(--grey-lightest);
   border: 1px solid var(--grey);
   border-bottom: 1px solid var(--brand-primary);
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
   cursor: pointer;
   flex-direction: column;
   margin-bottom: -1px;
   min-width: 160px;
-  padding: var(--padding-tabbar);
+  padding: 5px 10px;
   position: relative;
+}
+
+.Tabs--general > .dp-Tabs-item + .dp-Tabs-item {
+  margin-left: -1px;
 }
 
 .dp-Tabs.Tabs--general {
@@ -144,12 +148,13 @@
 }
 
 .dp-SelectedMore .dp-Tabs-item .dp-CloseBtn .dp-Icon {
+  background-size: 10px;
   cursor: pointer;
-  margin: 0;
 }
 
 .dp-Tabs .dp-SelectedMore.dp-Menu {
   left: auto;
+  overflow: hidden;
   padding: 0;
   right: 0;
 }
@@ -158,8 +163,26 @@
   align-items: center;
   display: flex;
   justify-content: center;
-  min-width: 37.5px;
+  min-width: 44px;
   padding: 0;
+}
+
+.Tabs--general .dp-Tabs-item .dp-Icon.Icon--email {
+  background-size: 14px 9.5px;
+  height: 9.5px;
+  width: 14px;
+}
+
+.Tabs--general .dp-Tabs-item .Tabs-item--row + .Tabs-item--row > .dp-Icon {
+  background-size: 14px;
+  height: 14px;
+  width: 14px;
+}
+
+.Tabs-item--button .dp-Menu-linkItem .dp-Icon {
+  background-size: 12px 12px;
+  height: 12px;
+  width: 12px;
 }
 
 /* Vetical Tabs */

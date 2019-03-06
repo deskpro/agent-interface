@@ -4,7 +4,8 @@
 
 /* Menus */
 
-.dp-Menu {
+.dp-Menu,
+.dp-OrderingBar .dp-Menu {
   background-color: var(--white);
   border: 1px solid var(--brand-primary);
   border-radius: var(--border-radius);
@@ -36,10 +37,12 @@
 
 .dp-Menu .dp-Menu-title {
   background-color: var(--brand-primary);
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
   color: var(--white);
   font: var(--p-l);
-  margin: -5px -1px 3px;
-  padding: 3px 10px;
+  margin: -5px 0 3px;
+  padding: 3px 12px;
 }
 
 .dp-Menu .dp-Badge.Badge--round {
@@ -230,16 +233,9 @@
   display: block;
 } */
 
-.dp-OrderingBar .dp-OrderingBar-item .dp-Menu-linkItem > .dp-settings {
-  background-size: 12px;
-  height: 12px;
-  margin: 0;
-  width: 12px;
-}
-
 /* listpane dropdown Menu */
 
-/* .Menu-fields .dp-settings.is-active + .dp-Menu,
+/* .dp-OptionList .dp-settings.is-active + .dp-Menu,
 .dp-DropDownItem.is-active > .dp-Menu {
   display: block;
 } */
@@ -264,10 +260,10 @@
   display: block;
 } */
 
-.dp-Menu.Menu-fields .dp-Menu-linkItem:hover > .dp-Menu,
-.dp-Menu.Menu-fields .dp-Menu-linkItem.is-checked > .dp-Menu,
-.dp-Menu.Menu-fields .dp-Menu,
-.dp-Menu.Menu-fields .dp-settings.is-active + .dp-Menu,
+.dp-Menu.dp-OptionList .dp-Menu-linkItem:hover > .dp-Menu,
+.dp-Menu.dp-OptionList .dp-Menu-linkItem.is-checked > .dp-Menu,
+.dp-Menu.dp-OptionList .dp-Menu,
+.dp-Menu.dp-OptionList .dp-settings.is-active + .dp-Menu,
 .dp-Menu.Menu-grouped .dp-Menu-linkItem:hover > .dp-Menu,
 .Menu-grouped.dp-Menu .dp-Menu-linkItem.is-active .dp-Menu,
 .Menu-grouped.dp-Menu .dp-Menu-linkItem.is-checked .dp-Menu,
@@ -276,11 +272,11 @@
   left: calc(100% - 5px);
 }
 
-.dp-Menu.Menu-fields .dp-Menu-linkItem.is-checked > .dp-Menu {
+.dp-Menu.dp-OptionList .dp-Menu-linkItem.is-checked > .dp-Menu {
   display: block;
 }
 
-/* .Menu-fields .dp-settings.is-active + .dp-Menu {
+/* .dp-OptionList .dp-settings.is-active + .dp-Menu {
   display: block;
 } */
 
@@ -330,9 +326,11 @@
 
 }
 
-/* Menu-fields */
+/* dp-OptionList */
 
-.dp-Menu.Menu-fields {
+.dp-Menu.dp-OptionList {
+  border: 0;
+  border-radius: 0;
   min-width: 235px;
   padding: 0;
 
@@ -341,7 +339,7 @@
 
 }
 
-.dp-Menu.Menu-fields .dp-Menu-title {
+.dp-Menu.dp-OptionList .dp-Menu-title {
   background-color: transparent;
   border-bottom: 1px solid var(--grey-light);
   color: var(--grey-dark);
@@ -363,62 +361,62 @@
   font: var(--p-s);
 }
 
-.dp-Menu.Menu-fields .dp-Menu-title > ul {
+.dp-Menu.dp-OptionList .dp-Menu-title > ul {
   align-items: center;
   display: flex;
   padding: 0;
 }
 
-.dp-Menu.Menu-fields .dp-Menu-titleItem {
+.dp-Menu.dp-OptionList .dp-Menu-titleItem {
   border-right: 1px solid var(--grey-light);
   display: flex;
   margin: 0;
   padding: 10px;
 }
 
-.dp-Menu.Menu-fields .dp-Menu-titleItem.is-active {
+.dp-Menu.dp-OptionList .dp-Menu-titleItem.is-active {
   color: var(--brand-primary);
 }
 
-.dp-Menu.Menu-fields > .dp-Menu-linkItem:hover {
+.dp-Menu.dp-OptionList > .dp-Menu-linkItem:hover {
   background-color: transparent;
 }
 
-.dp-Menu .dp-Menu-linkItem > .dp-Icon {
-  background-size: 14px 11px;
-  height: 12px;
-  padding: 0;
-  width: 12px;
-
-  /* width: 17px; */
-
-}
-
-.Menu-fields.dp-Menu .dp-Menu-linkItem {
+.dp-OptionList.dp-Menu .dp-Menu-linkItem {
   padding: 5px 10px;
 }
 
-.Menu-fields.dp-Menu .dp-Menu-linkItem > .dp-CustomCheckbox {
+.dp-OptionList.dp-Menu .dp-Menu-linkItem > .dp-CustomCheckbox {
   margin-left: 10px;
 }
 
-.Menu-fields.dp-Menu .dp-Menu-linkItem > .dp-Icon {
+.dp-OptionList.dp-Menu .dp-Menu-linkItem > .dp-Icon {
+  background-size: 14px 11px;
+  height: 12px;
   margin: 0;
+  padding: 0;
+  width: 14px;
 }
 
-.Menu-fields .dp-CustomCheckbox {
+.dp-OptionList.dp-Menu .dp-Menu-linkItem > .dp-settings {
+  background-size: 12px;
+  height: 12px;
+  width: 12px;
+}
+
+.dp-OptionList .dp-CustomCheckbox {
   flex: 1 0 auto;
 }
 
-.Menu-fields .dp-CustomCheckbox input[type="checkbox"] + label {
+.dp-OptionList .dp-CustomCheckbox input[type="checkbox"] + label {
   padding-left: 17px;
 }
 
-/* .Menu-fields .dp-settings.is-active + .dp-Menu {
+/* .dp-OptionList .dp-settings.is-active + .dp-Menu {
   display: block;
 } */
 
-.dp-Menu.Menu-fields .dp-Menu-linkItem .dp-Menu {
+.dp-Menu.dp-OptionList .dp-Menu-linkItem .dp-Menu {
   min-width: 125px;
 }
 
@@ -431,7 +429,7 @@
   margin-left: 10px;
 }
 
-/* .Menu-fields .dp-Menu-linkItem.dp-ButtonWrapper .dp-Button {
+/* .dp-OptionList .dp-Menu-linkItem.dp-ButtonWrapper .dp-Button {
   margin-right: 20px;
 } */
 
@@ -492,12 +490,13 @@
 }
 
 .dp-Menu-search .dp-Icon {
+  background-size: 13px;
   cursor: pointer;
-  height: 13px;
+  height: 14px;
   left: 10px;
   position: absolute;
-  top: calc(50% - 6.5px);
-  width: 13px;
+  top: calc(50% - 7px);
+  width: 14px;
 }
 
 .dp-Input.Input--search {

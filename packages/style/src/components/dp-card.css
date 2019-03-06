@@ -38,7 +38,7 @@
 
 .is-hover-link .dp-Card-title::after,
 .dp-Card-title:hover::after,
-.dp-Knowledgebase .dp-orderingbar--Wrap ~ .dp-Card:hover .dp-Card-title::after {
+.dp-Knowledgebase .dp-OrderingBar ~ .dp-Card:hover .dp-Card-title::after {
   background-color: var(--brand-primary);
   bottom: 1px;
   content: "";
@@ -192,6 +192,12 @@
 .dp-CardList .dp-Card:hover {
   background-color: var(--info-light);
   border-right: 1px solid var(--grey-light);
+}
+
+.dp-Card.dp-Tasks-list .dp-LevelItem .dp-Task-title .dp-Icon,
+.dp-Card.dp-Tasks-list .dp-LevelItem .dp-Diagnose .dp-Icon,
+.dp-Card.dp-Tasks-list .dp-LevelItem .dp-LevelWrap li > .dp-Icon {
+  width: 18px;
 }
 
 .dp-Listpane-guides .Level--down {

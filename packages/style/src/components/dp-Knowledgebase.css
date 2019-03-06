@@ -52,7 +52,7 @@
   margin: 0 7px 0 0;
 }
 
-.dp-Knowledgebase .dp-orderingbar--Wrap ~ .dp-Card .dp-Card-title {
+.dp-Knowledgebase .dp-OrderingBar ~ .dp-Card .dp-Card-title {
   color: var(--brand-primary);
 }
 

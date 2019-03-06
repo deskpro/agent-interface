@@ -297,3 +297,232 @@ title: Menus
     </div>
 </div>
 ```
+
+<h4>OptionList</h4>
+```html @preview
+<div class="dp-MainWrapper demo-cog demo-menu" style="height:520px;">
+
+    <!-- <ul class="dp-Menu Menu-fields""> -->
+    <ul class="dp-Menu dp-OptionList" style="display:block;top:10px;left:10px;right:auto;">
+        <li class="dp-Menu-subtitle">
+            <span class="">Fields</span>
+            <span><span class="dp-Meta is-active">view default</span><span class="dp-Meta">reset to default</span></span>
+        </li>
+        <li class="dp-Menu-linkItem dp-Uneditable">
+            <span class="dp-Icon dp-Drag"></span>
+            <span class="dp-CustomCheckbox">
+                <input type="checkbox" checked="checked" disabled="disabled" class="dp-ControlInput" id="fields-5-01"></input>
+                <label for="fields-5-01">Agent</label>
+            </span>
+        </li>
+        <li class="dp-Menu-linkItem dp-Uneditable">
+            <span class="dp-Icon dp-Drag"></span>
+            <span class="dp-CustomCheckbox">
+                <input type="checkbox" checked="checked" disabled="disabled" class="dp-ControlInput" id="fields-5-02"></input>
+                <label for="fields-5-02">Title</label>
+            </span>
+        </li>
+        <li class="dp-Menu-linkItem dp-Uneditable">
+            <span class="dp-Icon dp-Drag"></span>
+            <span class="dp-CustomCheckbox">
+                <input type="checkbox" checked="checked" disabled="disabled" class="dp-ControlInput" id="fields-5-03"></input>
+                <label for="fields-5-03">User</label>
+            </span>
+        </li>
+        <li class="dp-Menu-linkItem">
+            <span class="dp-Icon dp-Drag"></span>
+            <span class="dp-CustomCheckbox">
+                <input type="checkbox" checked="checked" disabled="disabled" class="dp-ControlInput" id="fields-5-04"></input>
+                <label for="fields-5-04">Agent team</label>
+            </span>            
+        </li>
+        <li class="dp-Menu-linkItem">
+            <span class="dp-Icon dp-Drag"></span>
+            <span class="dp-CustomCheckbox">
+                <input type="checkbox" class="dp-ControlInput" id="fields-5-05"></input>
+                <label for="fields-5-05">Labels</label>
+            </span>
+        </li>
+        <li class="dp-Menu-linkItem">
+            <span class="dp-Icon dp-Drag"></span>
+            <span class="dp-CustomCheckbox">
+                <input type="checkbox" class="dp-ControlInput" id="fields-5-06"></input>
+                <label for="fields-5-06">ID</label>
+            </span>
+        </li>
+        <li class="dp-Menu-linkItem">
+            <span class="dp-Icon dp-Drag"></span>
+            <span class="dp-CustomCheckbox">
+                <input type="checkbox" class="dp-ControlInput" id="fields-5-07"></input>
+                <label for="fields-5-07">Status</label>
+            </span>
+        </li>
+        <li class="dp-Menu-linkItem">
+            <span class="dp-Icon dp-Drag"></span>
+            <span class="dp-CustomCheckbox">
+                <input type="checkbox" class="dp-ControlInput" id="fields-5-08"></input>
+                <label for="fields-5-08">Language</label>
+            </span>
+        </li>
+        <li class="dp-Menu-linkItem">
+            <span class="dp-Icon dp-Drag"></span>
+            <span class="dp-CustomCheckbox">
+                <input type="checkbox" class="dp-ControlInput" id="fields-5-09"></input>
+                <label for="fields-5-09">Department</label>
+            </span>
+        </li>
+        <li class="dp-Menu-linkItem">
+            <span class="dp-Icon dp-Drag"></span>
+            <span class="dp-CustomCheckbox">
+                <input type="checkbox" class="dp-ControlInput" id="fields-5-10"></input>
+                <label for="fields-5-10">Product</label>
+            </span>
+        </li>
+        <li class="dp-Menu-linkItem">
+            <span class="dp-Icon dp-Drag"></span>
+            <span class="dp-CustomCheckbox">
+                <input type="checkbox" class="dp-ControlInput" id="fields-5-11"></input>
+                <label for="fields-5-11">Organization</label>
+            </span>
+        </li>
+        <li class="dp-Menu-linkItem">
+            <span class="dp-Icon dp-Drag"></span>
+            <span class="dp-CustomCheckbox">
+                <input type="checkbox" class="dp-ControlInput" id="fields-5-12"></input>
+                <label for="fields-5-12">SLAs</label>
+            </span>
+        </li>
+        <li class="dp-Menu-linkItem">
+            <span class="dp-Icon dp-Drag"></span>
+            <span class="dp-CustomCheckbox">
+                <input type="checkbox" class="dp-ControlInput" id="fields-5-13"></input>
+                <label for="fields-5-13">User waiting</label>
+            </span>
+        </li>
+
+        <li class="dp-Menu-linkItem">
+            <span class="dp-Icon dp-Drag"></span>
+            <span class="dp-CustomCheckbox">
+                <input type="checkbox" class="dp-ControlInput" id="fields-5-14"></input>
+                <label for="fields-5-14">Date created</label>
+            </span>
+            <span class="dp-Icon dp-settings"></span>
+            <ul class="dp-Menu Menu-tick Menu--tick-left">
+                <li class="dp-Menu-linkItem">
+                    <a href="#" class="dp-listItem">Date</a>
+                </li>
+                <li class="dp-Menu-linkItem">
+                    <a href="#" class="dp-listItem">Date/time</a>
+                </li>
+               <li class="dp-Menu-linkItem">
+                    <a href="#" class="dp-listItem">How long since</a>
+                </li>
+            </ul>
+        </li>
+        <li class="dp-Menu-linkItem">
+            <span class="dp-Icon dp-Drag"></span>
+            <span class="dp-CustomCheckbox">
+                <input type="checkbox" class="dp-ControlInput" id="fields-5-15"></input>
+                <label for="fields-5-15">All waiting time</label>
+            </span>
+            <span class="dp-Icon dp-settings"></span>
+            <ul class="dp-Menu Menu-tick Menu--tick-left">
+                <li class="dp-Menu-linkItem">
+                    <a href="#" class="dp-listItem">Date</a>
+                </li>
+                <li class="dp-Menu-linkItem">
+                    <a href="#" class="dp-listItem">Date/time</a>
+                </li>
+               <li class="dp-Menu-linkItem">
+                    <a href="#" class="dp-listItem">How long since</a>
+                </li>
+            </ul>
+        </li>
+        <li class="dp-Menu-linkItem">
+            <span class="dp-Icon dp-Drag"></span>
+            <span class="dp-CustomCheckbox">
+                <input type="checkbox" class="dp-ControlInput" id="fields-5-16"></input>
+                <label for="fields-5-16">Date of last reply</label>
+            </span>
+            <span class="dp-Icon dp-settings"></span>
+            <ul class="dp-Menu Menu-tick Menu--tick-left">
+                <li class="dp-Menu-linkItem">
+                    <a href="#" class="dp-listItem">Date</a>
+                </li>
+                <li class="dp-Menu-linkItem">
+                    <a href="#" class="dp-listItem">Date/time</a>
+                </li>
+               <li class="dp-Menu-linkItem">
+                    <a href="#" class="dp-listItem">How long since</a>
+                </li>
+            </ul>
+        </li>
+        <li class="dp-Menu-linkItem">
+            <span class="dp-Icon dp-Drag"></span>
+            <span class="dp-CustomCheckbox">
+                <input type="checkbox" checked="checked" disabled="disabled" class="dp-ControlInput" id="fields-5-17"></input>
+                <label for="fields-5-17">Date of last user reply</label>
+            </span>
+            <span class="dp-Icon dp-settings"></span>
+            <ul class="dp-Menu Menu-tick Menu--tick-left">
+                <li class="dp-Menu-linkItem">
+                    <a href="#" class="dp-listItem">Date</a>
+                </li>
+                <li class="dp-Menu-linkItem">
+                    <a href="#" class="dp-listItem">Date/time</a>
+                </li>
+               <li class="dp-Menu-linkItem">
+                    <a href="#" class="dp-listItem">How long since</a>
+                </li>
+            </ul>
+        </li>
+        <li class="dp-Menu-linkItem">
+            <span class="dp-Icon dp-Drag"></span>
+            <span class="dp-CustomCheckbox">
+                <input type="checkbox" checked="checked" disabled="disabled" class="dp-ControlInput" id="fields-5-18"></input>
+                <label for="fields-5-18">Date of last agent reply</label>
+            </span>
+            <span class="dp-Icon dp-settings"></span>
+            <ul class="dp-Menu Menu-tick Menu--tick-left">
+                <li class="dp-Menu-linkItem">
+                    <a href="#" class="dp-listItem">Date</a>
+                </li>
+                <li class="dp-Menu-linkItem">
+                    <a href="#" class="dp-listItem">Date/time</a>
+                </li>
+               <li class="dp-Menu-linkItem">
+                    <a href="#" class="dp-listItem">How long since</a>
+                </li>
+            </ul>
+        </li>
+        <li class="dp-Menu-linkItem is-checked">
+            <span class="dp-Icon dp-Drag"></span>
+            <span class="dp-CustomCheckbox">
+                <input type="checkbox" class="dp-ControlInput" id="fields-5-19"></input>
+                <label for="fields-5-19">Date resolved</label>
+            </span>
+            <span class="dp-Icon dp-settings"></span>
+            <ul class="dp-Menu Menu-tick Menu--tick-left">
+                <li class="dp-Menu-linkItem">
+                    <a href="#" class="dp-listItem">Date</a>
+                </li>
+                <li class="dp-Menu-linkItem is-checked">
+                    <a href="#" class="dp-listItem">Date/time</a>
+                </li>
+               <li class="dp-Menu-linkItem">
+                    <a href="#" class="dp-listItem">How long since</a>
+                </li>
+            </ul>
+        </li>
+        <li class="dp-Menu-linkItem is-active">
+            <span class="dp-Icon dp-Drag"></span>
+            <span class="dp-CustomCheckbox">
+                <input type="checkbox" class="dp-ControlInput" id="fields-5-20"></input>
+                <label for="fields-5-20">Problem</label>
+            </span>
+        </li>
+
+    </ul>
+
+</div>
+```

@@ -13,60 +13,59 @@ title: Guides
             <span class="dp-Breadcrumbs--Item">Admin Guide</span><i class="dp-Breadcrumbs--Arrow"></i>
             <span class="dp-Breadcrumbs--Item is-current">Launching your helpdesk</span>
         </li>
-        <li class="dp-orderingbar--Wrap">
 
-            <div class="dp-OrderingBar">
-                <div class="dp-OrderingBar-item">
-                    <span class="dp-Icon dp-grouped_by"></span>
-                    <span class="dp-SelectGroup">
-                        <span class="dp-ItemRow">
-                            <span class="dp-Title">Grouped by</span>
-                            <button class="dp-Arrow"></button>
-                        </span>
-                        <span class="dp-ItemRow">
-                            <span class="dp-Subtitle">None</span>
-                        </span>
+        <li class="dp-OrderingBar">
+
+            <div class="dp-OrderingBar-item">
+                <span class="dp-Icon dp-grouped_by"></span>
+                <span class="dp-SelectGroup">
+                    <span class="dp-ItemRow">
+                        <span class="dp-Title">Grouped by</span>
+                        <button class="dp-Arrow"></button>
                     </span>
-                </div>
-                <div class="dp-OrderingBar-item">
-                    <div class="dp-SortIconDescription">
-                        <span class="dp-Icon dp-sort"></span>
-                        <span class="dp-SortDescription">DSC</span>
-                    </div>
-                    <span class="dp-SelectGroup">
-                        <span class="dp-ItemRow">
-                            <span class="dp-Title">Sort by</span>
-                            <button class="dp-Arrow"></button>
-                        </span>
-                        <span class="dp-ItemRow">
-                            <span class="dp-Subtitle">Date of last r...</span>
-                        </span>
+                    <span class="dp-ItemRow">
+                        <span class="dp-Subtitle">None</span>
                     </span>
+                </span>
+            </div>
+            <div class="dp-OrderingBar-item">
+                <div class="dp-SortIconDescription">
+                    <span class="dp-Icon dp-sort"></span>
+                    <span class="dp-SortDescription">DSC</span>
                 </div>
-                <div class="dp-OrderingBar-item">
-                    <span class="dp-Icon dp-faceted_by"></span>
-                    <span class="dp-SelectGroup">
-                        <span class="dp-ItemRow">
-                            <span class="dp-Title">Faceted by</span>
-                            <button class="dp-Arrow"></button>
-                        </span>
-                        <span class="dp-ItemRow">
-                            <span class="dp-Subtitle">3 Agents</span>
-                        </span>
+                <span class="dp-SelectGroup">
+                    <span class="dp-ItemRow">
+                        <span class="dp-Title">Sort by</span>
+                        <button class="dp-Arrow"></button>
                     </span>
-                </div>
-                <div class="dp-OrderingBar-item">
-                    <span class="dp-Icon Icon--view"></span>
-                    <span class="dp-SelectGroup">
-                        <span class="dp-ItemRow">
-                            <span class="dp-Title">Fields</span>
-                            <button class="dp-Arrow"></button>
-                        </span>
-                        <span class="dp-ItemRow">
-                            <span class="dp-Subtitle">8 fields</span>
-                        </span>
+                    <span class="dp-ItemRow">
+                        <span class="dp-Subtitle">Date of last r...</span>
                     </span>
-                </div>
+                </span>
+            </div>
+            <div class="dp-OrderingBar-item">
+                <span class="dp-Icon dp-faceted_by"></span>
+                <span class="dp-SelectGroup">
+                    <span class="dp-ItemRow">
+                        <span class="dp-Title">Faceted by</span>
+                        <button class="dp-Arrow"></button>
+                    </span>
+                    <span class="dp-ItemRow">
+                        <span class="dp-Subtitle">3 Agents</span>
+                    </span>
+                </span>
+            </div>
+            <div class="dp-OrderingBar-item">
+                <span class="dp-Icon Icon--view"></span>
+                <span class="dp-SelectGroup">
+                    <span class="dp-ItemRow">
+                        <span class="dp-Title">Fields</span>
+                        <button class="dp-Arrow"></button>
+                    </span>
+                    <span class="dp-ItemRow">
+                        <span class="dp-Subtitle">8 fields</span>
+                    </span>
+                </span>
             </div>
 
         </li>

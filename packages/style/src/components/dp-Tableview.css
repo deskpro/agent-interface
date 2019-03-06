@@ -25,7 +25,9 @@
 
 .dp-Tableview .dp-Card-title {
   margin: 0;
-  padding: 3.5px 5px 2px;
+
+  /* padding: 3.5px 5px 2px; */
+
 }
 
 .dp-Tableview .dp-SubjectItem .dp-Card-title:focus {
@@ -346,6 +348,11 @@
   flex: 1 0 auto;
   line-height: 1;
   padding: 6px 13px;
+}
+
+.dp-TableRow.dp-Filter .dp-Card-title:hover::after,
+.dp-TableRow.dp-Sub-filter .dp-Card-title:hover::after {
+  display: none;
 }
 
 .dp-TableRow.dp-Filter .dp-Arrow-btn {

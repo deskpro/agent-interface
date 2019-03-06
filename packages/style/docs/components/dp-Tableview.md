@@ -1452,7 +1452,7 @@ title: Tableview
             </span>
 
             <!-- dropdown -->
-            <ul class="dp-Menu Menu-fields">
+            <ul class="dp-Menu dp-OptionList">
                 <li class="dp-Menu-title">
                     <ul>
                         <li class="dp-Menu-titleItem is-active"><span class="dp-Icon dp-list_view"></span><span>(8)</span></li>
@@ -1914,7 +1914,9 @@ title: Tableview
                 <span class="dp-Card-title" contenteditable="true">Card title</span>
                 <span class="dp-Icon Icon--star"></span>
             </div>
-            <div>&nbsp;</div>
+            <div>
+                <span class="dp-Tag Tag--disabled">Custom work</span>
+            </div>
             <div class="dp-DepartmentItem">
                 <span class="dp-Item-title">Column text</span>
                 <span class="dp-Icon Icon--edit">
@@ -2110,7 +2112,9 @@ title: Tableview
             <div class="dp-SubjectItem">
                 <span class="dp-Card-title" contenteditable="true">Card title</span>
             </div>
-            <div>&nbsp;</div>
+            <div>
+                <span class="dp-Tag">Custom work</span>
+            </div>
             <div class="dp-DepartmentItem">
                 <span class="dp-Item-title">Column text</span>
                 <span class="dp-Icon Icon--edit">
@@ -2497,7 +2501,9 @@ title: Tableview
                 <span class="dp-Card-title" contenteditable="true">Card title</span>
                 <span class="dp-Icon Icon--star"></span>
             </div>
-            <div>&nbsp;</div>
+            <div>
+                <span class="dp-Tag Tag--disabled">Custom work</span>
+            </div>
             <div class="dp-DepartmentItem">
                 <span class="dp-Item-title">Column text</span>
                 <span class="dp-Icon Icon--edit">
@@ -5212,7 +5218,9 @@ title: Tableview
                 <span class="dp-Card-title" contenteditable="true">SSO Information</span>
                 <span class="dp-Icon Icon--star"></span>
             </div>
-            <div>&nbsp;</div>
+            <div>
+                <span class="dp-Tag Tag--disabled">Custom work</span>
+            </div>
             <div class="dp-DepartmentItem">
                 <span class="dp-Item-title">Sales</span>
                 <span class="dp-Icon Icon--edit">
@@ -5408,7 +5416,7 @@ title: Tableview
             <div class="dp-SubjectItem">
                 <span class="dp-Card-title" contenteditable="true">Portal disabled landing page</span>
             </div>
-            <div>&nbsp;</div>
+            <div><span class="dp-Tag Tag--warning">Custom work</span></div>
             <div class="dp-DepartmentItem">
                 <span class="dp-Item-title">Support</span>
                 <span class="dp-Icon Icon--edit">
@@ -5795,7 +5803,7 @@ title: Tableview
                 <span class="dp-Card-title" contenteditable="true">AW: Need some help?</span>
                 <span class="dp-Icon Icon--star"></span>
             </div>
-            <div>&nbsp;</div>
+            <div><span class="dp-Tag Tag--disabled">Custom work</span></div>
             <div class="dp-DepartmentItem">
                 <span class="dp-Item-title">Sales</span>
                 <span class="dp-Icon Icon--edit">

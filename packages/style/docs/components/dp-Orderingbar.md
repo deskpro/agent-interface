@@ -1455,7 +1455,7 @@ title: Orderingbar
                 </span>
 
                 <!-- dropdown -->
-                <ul class="dp-Menu Menu-fields">
+                <ul class="dp-Menu dp-OptionList">
                     <li class="dp-Menu-title">
                         <ul>
                             <li class="dp-Menu-titleItem is-active"><span class="dp-Icon dp-list_view"></span><span>(8)</span></li>
@@ -3171,7 +3171,7 @@ title: Orderingbar
             </span>
 
             <!-- dropdown -->
-            <ul class="dp-Menu Menu-fields">
+            <ul class="dp-Menu dp-OptionList">
                 <li class="dp-Menu-title">
                     <ul>
                         <li class="dp-Menu-titleItem is-active"><span class="dp-Icon dp-list_view"></span><span>(8)</span></li>
@@ -4867,7 +4867,7 @@ title: Orderingbar
             </span>
 
             <!-- dropdown -->
-            <ul class="dp-Menu Menu-fields">
+            <ul class="dp-Menu dp-OptionList">
                 <li class="dp-Menu-title">
                     <ul>
                         <li class="dp-Menu-titleItem is-active"><span class="dp-Icon dp-list_view"></span><span>(8)</span></li>
@@ -6554,7 +6554,7 @@ title: Orderingbar
                 </span>
             </span>
 
-            <ul class="dp-Menu Menu-fields">
+            <ul class="dp-Menu dp-OptionList">
                 <li class="dp-Menu-title">
                     <ul>
                         <li class="dp-Menu-titleItem is-active"><span class="dp-Icon dp-list_view"></span><span>(8)</span></li>
@@ -8236,7 +8236,7 @@ title: Orderingbar
                 </span>
             </span>
 
-            <ul class="dp-Menu Menu-fields">
+            <ul class="dp-Menu dp-OptionList">
                 <li class="dp-Menu-title">
                     <ul>
                         <li class="dp-Menu-titleItem is-active"><span class="dp-Icon dp-list_view"></span><span>(8)</span></li>
@@ -9926,7 +9926,7 @@ title: Orderingbar
                 </span>
             </span>
 
-            <ul class="dp-Menu Menu-fields">
+            <ul class="dp-Menu dp-OptionList">
                 <li class="dp-Menu-title">
                     <ul>
                         <li class="dp-Menu-titleItem is-active"><span class="dp-Icon dp-list_view"></span><span>(8)</span></li>
@@ -11622,7 +11622,7 @@ title: Orderingbar
             </span>
 
             <!-- dropdown -->
-            <ul class="dp-Menu Menu-fields">
+            <ul class="dp-Menu dp-OptionList">
                 <li class="dp-Menu-title">
                     <ul>
                         <li class="dp-Menu-titleItem is-active"><span class="dp-Icon dp-list_view"></span><span>(8)</span></li>
@@ -13317,7 +13317,7 @@ title: Orderingbar
             </span>
 
             <!-- dropdown -->
-            <ul class="dp-Menu Menu-fields">
+            <ul class="dp-Menu dp-OptionList">
                 <li class="dp-Menu-title">
                     <ul>
                         <li class="dp-Menu-titleItem is-active"><span class="dp-Icon dp-list_view"></span><span>(8)</span></li>

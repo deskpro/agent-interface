@@ -8,7 +8,9 @@ title: Tabs & Headers
     <ul class="dp-Tabs Tabs--general">
 
         <li class="dp-Tabs-item Tabs-item--button">
-            <span class="dp-Icon dp-add_tab Icon-success"></span>
+            <button class="dp-Button Button--large Button--square">
+                <span class="dp-Icon dp-add_tab Icon-success"></span>
+            </button>
         </li>
 
         <li class="dp-Tabs-item">
@@ -52,7 +54,9 @@ title: Tabs & Headers
 <div class="dp-MainWrapper">
     <ul class="dp-Tabs Tabs--general">
         <li class="dp-Tabs-item Tabs-item--button">
-            <span class="dp-Icon dp-add_tab Icon-success"></span>
+            <button class="dp-Button Button--large Button--square">
+                <span class="dp-Icon dp-add_tab Icon-success"></span>
+            </button>
         </li>
         <li class="dp-Tabs-item">
             <span class="Tabs-item--row">
