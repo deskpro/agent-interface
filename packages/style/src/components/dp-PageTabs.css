@@ -133,6 +133,7 @@
 
 .dp-TabInfoItem {
   display: block;
+  flex: 1 1 0;
   padding: 5px 5px 7px 10px;
 }
 
@@ -169,7 +170,8 @@
 
 .Tabs--general .dp-Tabs-item .dp-Icon.Icon--email {
   background-size: 14px 9.5px;
-  height: 9.5px;
+  height: 10px;
+  min-width: 14px;
   width: 14px;
 }
 

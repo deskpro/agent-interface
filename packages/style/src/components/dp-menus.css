@@ -5,7 +5,7 @@
 /* Menus */
 
 .dp-Menu,
-.dp-OrderingBar .dp-Menu {
+.dp-OrderingBar .dp-OrderingBar-item .dp-Menu.dp-OptionList {
   background-color: var(--white);
   border: 1px solid var(--brand-primary);
   border-radius: var(--border-radius);
@@ -58,11 +58,6 @@
   padding-left: 20px;
 }
 
-.dp-Menu > li:last-child {
-  border-bottom-left-radius: var(--border-radius);
-  border-bottom-right-radius: var(--border-radius);
-}
-
 .dp-Menu > li > a {
   align-items: center;
   color: var(--grey-darkest);
@@ -95,9 +90,6 @@
 .dp-Menu .dp-Arrow {
   position: initial;
 }
-
-/* .dp-FilterControlsItem .dp-Menu,
-.dp-ListPane .dp-Menu { */
 
 .dp-OrderingBar .dp-Menu {
   min-width: 200px;
@@ -292,7 +284,8 @@
 }
 
 .dp-Menu.Menu-tick > .dp-Menu-linkItem > .dp-listItem::after,
-.dp-Menu.Menu-tick ul .dp-Menu-linkItem > .dp-listItem::after {
+.dp-Menu.Menu-tick ul .dp-Menu-linkItem > .dp-listItem::after,
+.dp-Menu .dp-Menu-linkItem .dp-Menu-link::after {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='9' height='8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M.925 4.342a.568.568 0 0 1 0-.726l.096-.108a.43.43 0 0 1 .648 0l1.682 1.885L7.765.446a.43.43 0 0 1 .648 0l.096.108a.568.568 0 0 1 0 .726L3.351 7.061.925 4.342z' fill='%233A8DDE'/%3E%3C/svg%3E");
   background-position: center center;
   background-repeat: no-repeat;
@@ -306,7 +299,8 @@
   width: 25px;
 }
 
-.dp-Menu.Menu-tick .dp-Menu-linkItem.is-checked > .dp-listItem::after {
+.dp-Menu.Menu-tick .dp-Menu-linkItem.is-checked > .dp-listItem::after,
+.dp-Menu .dp-Menu-linkItem.is-checked .dp-Menu-link::after {
   opacity: 1;
 }
 
@@ -386,7 +380,7 @@
   padding: 5px 10px;
 }
 
-.dp-OptionList.dp-Menu .dp-Menu-linkItem > .dp-CustomCheckbox {
+.dp-OptionList.dp-Menu .dp-Menu-linkItem > .dp-Icon + .dp-CustomCheckbox {
   margin-left: 10px;
 }
 
@@ -398,15 +392,18 @@
   width: 14px;
 }
 
-.dp-OptionList.dp-Menu .dp-Menu-linkItem > .dp-settings {
+.dp-OptionList.dp-Menu .dp-Menu-linkItem > .dp-settings,
+.dp-OptionList .dp-Menu-linkItem .Icon--settings {
   background-size: 12px;
   height: 12px;
+  margin-left: auto;
+  margin-right: 0;
   width: 12px;
 }
 
-.dp-OptionList .dp-CustomCheckbox {
+/* .dp-OptionList .dp-CustomCheckbox {
   flex: 1 0 auto;
-}
+} */
 
 .dp-OptionList .dp-CustomCheckbox input[type="checkbox"] + label {
   padding-left: 17px;
@@ -429,6 +426,10 @@
   margin-left: 10px;
 }
 
+.dp-OptionList .dp-Menu-linkItem .dp-Icon {
+  display: flex;
+}
+
 /* .dp-OptionList .dp-Menu-linkItem.dp-ButtonWrapper .dp-Button {
   margin-right: 20px;
 } */
@@ -441,6 +442,10 @@
 
 .dp-SelectedMore.dp-Menu > li:last-child {
   border-bottom: 0;
+
+  /*  border-bottom-left-radius: var(--border-radius);
+  border-bottom-right-radius: var(--border-radius); */
+
 }
 
 .dp-Menu .dp-Tabs-item {

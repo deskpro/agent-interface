@@ -270,15 +270,15 @@
   margin-right: 20px;
 }
 
-.dp-Tasks-list.dp-Card-SectionTitle .dp-qt {
-  color: var(--grey-darkest);
-  font: var(--h-l-bold);
-  margin-left: 0;
+.dp-Card-title .dp-qt {
+  font: var(--h-l-semibold);
+  margin-left: 3px;
 }
 
-/* .dp-Tasks-list.dp-Card-SectionTitle .dp-Card-title:hover .dp-qt {
-  color: var(--brand-primary);
-} */
+.dp-Tasks-list.dp-Card-title .dp-qt {
+  color: var(--grey-darkest);
+  margin-left: 0;
+}
 
 .dp-Task-title {
   align-items: center;
@@ -707,11 +707,6 @@ input:disabled + label {
 
 .dp-Card.dp-Level.Card-news .dp-LevelCol:nth-child(2) {
   flex: 0 0 auto;
-}
-
-.dp-Card-title .dp-qt {
-  font: var(--p-xl);
-  margin-left: 3px;
 }
 
 /* Cards/glossary */

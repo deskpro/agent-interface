@@ -18,6 +18,10 @@
 
 }
 
+.dp-Card-title {
+  line-height: 1.4;
+}
+
 .dp-Card-title,
 .dp-MassSelect-itemsCount {
   color: var(--grey-darkest);
@@ -29,6 +33,10 @@
   position: relative;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+.dp-MassSelect-itemsCount {
+  font: var(--h-l-semibold);
 }
 
 .is-hover-link .dp-Card-title,
@@ -373,6 +381,10 @@
   display: flex;
   overflow: hidden;
   padding-top: 2px;
+}
+
+.dp-Card.dp-Card-SectionTitle .dp-CustomCheckbox {
+  padding: 0;
 }
 
 .dp-CardList .dp-Card-comment .dp-UserInfo .dp-UserName {

@@ -88,7 +88,7 @@
   opacity: 1;
 }
 
-.demo-menu .dp-Menu.dp-OptionList {
+.demo-menu .dp-OrderingBar .dp-OrderingBar-item .dp-Menu.dp-OptionList {
   left: auto;
   right: 0;
 }

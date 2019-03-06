@@ -201,8 +201,6 @@
   display: none;
 } */
 
-/* .dp-Knowledgebase .dp-Menu .dp-Menu-linkItem > .dp-Icon:hover .dp-Menu { */
-
 .dp-Knowledgebase .dp-Menu .dp-Menu-linkItem > .dp-Cog .dp-Menu {
   border-radius: 0.25rem;
   left: 0;
@@ -214,7 +212,7 @@
 
 .dp-Menu.Menu-tick > .dp-Menu-linkItem.dp-SortOrder,
 .dp-SortList ul > .dp-Menu-linkItem {
-  margin: 0;
+  margin: 0 auto;
   padding: 3.5px 11px 3.5px 30px;
 }
 

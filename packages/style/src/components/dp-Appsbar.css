@@ -236,7 +236,10 @@
   justify-content: flex-end;
 }
 
-/*  */
+.dpApps-LevelRight > .dp-Icon {
+  height: 15px;
+  width: 15px;
+}
 
 .dpApps-ActionList {
   display: flex;
