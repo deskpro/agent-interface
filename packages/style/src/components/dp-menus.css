@@ -23,6 +23,10 @@
 
 }
 
+.dp-OrderingBar .dp-OrderingBar-item .dp-Menu.dp-OptionList {
+  padding: 0;
+}
+
 .dp-Menu .sb-avatar,
 .dp-Menu .dp-Icon {
   align-items: center;
@@ -135,9 +139,10 @@
 .dp-Menu .dp-Menu-linkItem > span {
   padding: 3.5px 10px;
   position: relative;
+}
 
-  /* margin: 0 1px; */
-
+.dp-OptionList.dp-Menu .dp-Menu .dp-Menu-linkItem > span {
+  padding: 0;
 }
 
 .dp-Menu .dp-Menu .dp-Menu-linkItem > span.dp-Badge,
@@ -393,7 +398,7 @@
 }
 
 .dp-OptionList.dp-Menu .dp-Menu-linkItem > .dp-settings,
-.dp-OptionList .dp-Menu-linkItem .Icon--settings {
+.dp-OptionList.dp-Menu .dp-Menu-linkItem .dp-Icon.Icon--settings {
   background-size: 12px;
   height: 12px;
   margin-left: auto;
