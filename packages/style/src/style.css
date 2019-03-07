@@ -7,7 +7,7 @@
 @import "components/dp-ListPane.css";
 @import "components/dp-Sidebar.css";
 @import "components/dp-PageTabs.css";
-@import "components/dp-Pageview.css";
+@import "components/dp-Ticketview.css";
 @import "components/dp-SlideOutPanel.css";
 @import "components/dp-Sidebar-Overlay.css";
 @import "components/dp-Appsbar.css";
@@ -32,7 +32,7 @@
 @import "demo/header-demo.css";
 @import "demo/sidebar-demo.css";
 @import "demo/page-tabs-demo.css";
-@import "demo/pageview-demo.css";
+@import "demo/ticketview-demo.css";
 @import "demo/icons-demo.css";
 @import "demo/ordering-bar-demo.css";
 @import "demo/listpane-demo.css";

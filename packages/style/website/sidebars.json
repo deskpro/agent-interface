@@ -13,7 +13,7 @@
       "components/dp-ListPane",
       "components/dp-Sidebar",
       "components/dp-Pagetabs",
-      "components/dp-Pageview",
+      "components/dp-Ticketview",
       "components/dp-Card",
       "components/dp-Menus",
       "components/dp-TabsHeaders",

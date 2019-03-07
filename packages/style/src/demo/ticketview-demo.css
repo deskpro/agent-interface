@@ -1,0 +1,12 @@
+@import "../fonts.css";
+@import "../vars.css";
+
+.dp-Pageview-Demonstration {
+  background-color: var(--white);
+  display: block;
+  overflow: auto;
+}
+
+.dp-Pageview-Demonstration .Pageview-container-demo {
+  width: 1100px;
+}

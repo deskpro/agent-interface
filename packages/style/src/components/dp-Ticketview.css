@@ -1,0 +1,497 @@
+@import "../fonts.css";
+@import "../vars.css";
+@import "../dp-Arrow.css";
+@import "../components/dp-PageTabs.css";
+
+/* agent */
+
+.dp-StatusTimes {
+  align-items: center;
+  color: var(--grey-dark);
+  display: flex;
+  font: var(--p-n);
+  margin: 0;
+}
+
+.dp-ControlBar .Tabs--actions {
+  background-color: transparent;
+}
+
+.dp-ControlBar.dp-DropDownBar .dp-Tabs-item + .dp-Tabs-item {
+  background-color: var(--grey-lightest);
+}
+
+.dp-TicketSmall .dp-title-item {
+  font: var(--p-n);
+}
+
+.dp-TicketSelect .dp-title-item {
+  margin-bottom: 0;
+}
+
+.dp-title-item.is-italic {
+  font: var(--p-xl-italic);
+}
+
+.dp-TicketSelect .dp-UserName {
+  color: var(--grey-darkest);
+  font: var(--p-n);
+  margin-left: 5px;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.dp-TicketSelect {
+  display: block;
+  max-width: 275px;
+}
+
+.dp-TicketSelect.dp-TicketSmall {
+  max-width: 166px;
+}
+
+.dp-TicketSelect.dp-TicketSmall .dp-Icon {
+  background-size: 12px 12px;
+  height: 12px;
+  margin-right: 5px;
+  width: 14px;
+}
+
+.dp-TicketSelect .dp-StatusTimes .dp-Icon {
+  margin: 0 0 0 5px;
+}
+
+.dp-TicketSelect .dp-SectionTitle {
+  border-bottom: 1px solid var(--grey);
+  margin-bottom: 10px;
+}
+
+.dp-TicketSelect .dp-ActionButton + .dp-ActionButton {
+  margin: 0;
+}
+
+.dp-TicketSelect > .dp-ButtonWrapper {
+  justify-content: space-between;
+}
+
+/* Followers */
+
+.dp-Followers {
+  display: inline-block;
+  width: 100%;
+}
+
+.dp-FollowerList {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.dp-FollowersItem .dp-close {
+  cursor: pointer;
+}
+
+.dp-FollowersItem {
+  align-items: center;
+  display: flex;
+  flex: 0 0 33%;
+  justify-content: space-between;
+  padding-right: 10px;
+}
+
+.dp-LogoName {
+  align-items: center;
+  display: flex;
+}
+
+.dp-FollowersStatus.is-active {
+  color: var(--brand-primary);
+}
+
+.dp-FollowersStatus .dp-Icon {
+  background-size: 10px 10px;
+}
+
+.dp-Followers .dp-LogoName > .dp-Icon,
+.dp-Followers .dp-Button.Button--link > .dp-Icon {
+  background-size: 10px 10px;
+  height: 10px;
+  padding: 0 5px;
+  width: 10px;
+}
+
+.dp-TicketSelect .dp-qt {
+  margin-left: 3px;
+}
+
+/* Agent Team Followers */
+
+.dp-TeamFollowersWrapper {
+  display: flex;
+}
+
+.dp-TeamFollowersWrapper > .dp-TicketSelect {
+  margin-right: 20px;
+}
+
+/* Reply box */
+
+.dp-MainRightContainer .Tabs--reply {
+  margin-bottom: 25px;
+}
+
+.dp-ReplyWrapper {
+  background-color: var(--white);
+  border: 1px solid var(--brand-primary);
+  border-radius: var(--border-radius);
+  display: block;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.dp-Tabs + .dp-ReplyWrapper, .dp-Tabs + .dp-TicketMessage {
+  margin-top: 10px;
+}
+
+.dp-ReplyEditor {
+  display: block;
+  font: var(--p-xl);
+  min-height: 100px;
+  padding: 10px;
+  width: 100%;
+}
+
+.dp-ReplyBox {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.dp-ReplyBox .dp-Arrow::after {
+  border-width: 3px 3px 0 3px;
+}
+
+.dp-SendAs {
+  background-color: var(--grey);
+  border-radius: 2px;
+  color: var(--white);
+  cursor: pointer;
+  font: var(--p-xl);
+  max-width: 100%;
+  padding: 5px 5px 5px 10px;
+  position: relative;
+}
+
+/* .dp-SendAs::after {
+  background-color: var(--white);
+  content: "";
+  height: 100%;
+  position: absolute;
+  right: 23px;
+  top: 0;
+  width: 1px;
+} */
+
+.dp-SendAs .dp-Arrow {
+  padding-left: 25px;
+}
+
+.dp-SendAs .dp-Arrow::after {
+  border-color: var(--white) transparent transparent transparent;
+}
+
+.dp-ActionsItem:hover, .dp-ActionsItem.is-active {
+  border-bottom: 1px solid var(--brand-primary);
+  color: var(--brand-primary);
+  margin-bottom: -1px;
+}
+
+.dp-ActionsItem:hover .dp-Arrow::after, .dp-ActionsItem.is-active .dp-Arrow::after {
+  border-color: var(--brand-primary) transparent transparent transparent;
+}
+
+.dp-BorderBottom {
+  border-bottom: 1px solid var(--grey-light);
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.dp-ReplyBox textarea {
+  color: var(--grey-darkest);
+  font: var(--p-xl);
+}
+
+.dp-ReplyBox textarea::placeholder {
+  color: var(--grey);
+  font: var(--h-l-semibold);
+  font-style: var(--is-italic);;
+}
+
+/* Reply Box 2 */
+
+.dp-TicketMessage .dp-MessageHeader {
+  background-color: var(--grey-lightest);
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 20px 13px 10px;
+  position: relative;
+}
+
+.dp-TicketMessage .dp-Left {
+  align-items: center;
+  display: flex;
+  font: var(--p-l);
+}
+
+.dp-TicketMessage .dp-Left > a {
+  align-items: center;
+  color: var(--grey);
+  display: flex;
+  margin-left: 15px;
+}
+
+.dp-TicketMessage .dp-Right {
+  align-items: center;
+  color: var(--grey);
+  display: flex;
+  font: var(--p-n);
+}
+
+.dp-Left .dp-Icon {
+  margin-right: 5px;
+}
+
+.dp-MessageBody {
+  color: var(--grey-darkest);
+  display: block;
+  font: var(--p-xl);
+  padding: 13px 10px;
+}
+
+.dp-MessageBody .Button--more {
+  margin-top: 10px;
+}
+
+.dp-MessageContainer {
+  border: 1px solid var(--grey);
+  border-radius: var(--border-radius);
+  display: block;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.dp-ColorContainer.user--BlueContainer {
+  border: 1px solid var(--brand-primary);
+}
+
+.dp-ColorContainer.agent--Container {
+  border: 1px solid var(--neutral);
+}
+
+.dp-MessageContainer.user--BlueContainer .dp-MessageHeader {
+  background-color: var(--info-light);
+}
+
+.dp-MessageContainer.agent--Container .dp-MessageHeader {
+  background-color: var(--neutral-light);
+}
+
+.dp-MessageContainer.dp-ColorContainer .dp-txt {
+  font: var(--p-xl);
+  margin-bottom: 0;
+}
+
+.dp-TicketMessage .dp-Time {
+  align-items: center;
+  display: flex;
+}
+
+.dp-TicketMessage .dp-Time .dp-Icon {
+  background-size: 12px;
+  margin-right: 5px;
+}
+
+.user--BlueContainer .dp-Time .dp-Icon svg {
+  fill: var(--brand-primary);
+}
+
+.agent--Container .dp-Time .dp-Icon svg {
+  fill: var(--neutral);
+}
+
+.dp-MessageTitle .dp-Type {
+  background-color: var(--grey-lightest);
+  border-radius: 3px;
+  bottom: calc(100% - 8px);
+  color: var(--white);
+  font: var(--p-n);
+  left: 10px;
+  margin: 0;
+  padding: 2px 10px 2px 5px;
+  position: absolute;
+}
+
+.dp-MessageContainer.user--BlueContainer .dp-MessageTitle .dp-Type {
+  background-color: var(--brand-primary);
+}
+
+.dp-MessageContainer.agent--Container .dp-MessageTitle .dp-Type {
+  background-color: var(--neutral);
+}
+
+.dp-MessageContainer .dp-MessageTitle .dp-Type {
+  background-color: var(--grey);
+}
+
+.dp-TicketMessage .dp-MessageContainer .dp-Cog {
+  display: block;
+}
+
+.dp-MessageContainer .dp-Cog > .dp-Icon {
+  background-color: var(--grey-lightest);
+  background-position: 50% 50%;
+  background-size: 14px 14px;
+  border: 1px solid var(--grey);
+  border-radius: 50%;
+  cursor: pointer;
+  height: 18px;
+  width: 18px;
+}
+
+.dp-MessageContainer.user--BlueContainer .dp-Cog > .dp-Icon {
+  background-color: var(--info-light);
+  border: 1px solid var(--brand-primary);
+}
+
+.dp-MessageContainer.agent--Container .dp-Cog > .dp-Icon {
+  background-color: var(--neutral-light);
+  border: 1px solid var(--neutral);
+}
+
+/* ticket/agentselect */
+
+.dp-SsoWrap {
+  border-bottom: 1px solid var(--grey-light);
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 12px;
+}
+
+.dp-TagBar {
+  align-items: center;
+  display: flex;
+}
+
+.dp-TagBar .dp-Button {
+  margin-left: 20px;
+}
+
+.dp-TagBar .dp-Button {
+  position: relative;
+}
+
+.dp-TagBar .dp-add-square {
+  background-size: 22px;
+  height: 22px;
+  width: 22px;
+}
+
+.dp-TagBar .dp-Button::after {
+  background-color: var(--grey);
+  bottom: 0;
+  content: "";
+  height: 100%;
+  left: -10px;
+  position: absolute;
+  top: 0;
+  width: 1px;
+}
+
+/* .dp-TagBar .Button--label {
+  margin-left: 15px;
+}
+
+.dp-TagBar .Button--label::after {
+  background-color: var(--grey);
+  content: "";
+  height: 24px;
+  left: -10px;
+  position: absolute;
+  top: -2px;
+  width: 1px;
+} */
+
+.dp-MenuBarList {
+  border-top: 1px solid var(--grey-light);
+  padding: 8px 12px;
+}
+
+.dp-SsoContent {
+  align-items: center;
+  color: var(--grey-darkest);
+  display: flex;
+}
+
+.dp-SsoContent > .dp-Icon {
+  background-position: 0 0;
+  background-size: 16px;
+  height: 16px;
+  width: 16px;
+}
+
+.dp-SsoContent * {
+  margin-right: 5px;
+}
+
+.Badge--id {
+  position: relative;
+}
+
+.dp-Badge.Badge--id.is-active,
+.dp-Badge.Badge--id:hover {
+  background-color: var(--primary-light);
+  border: 1px solid var(--brand-primary);
+}
+
+.dp-Badge.Badge--id.is-active .dp-ToolTips {
+  border: 1px solid var(--brand-primary);
+  display: flex;
+}
+
+.dp-Badge.Badge--id .dp-ToolTips {
+  border-radius: 2px;
+  bottom: -3px;
+  left: calc(100% + 4px);
+  padding: 0;
+  right: auto;
+  top: -2px;
+}
+
+.Badge--id .dp-ToolTips .dp-Icon {
+  border-right: 1px solid var(--grey);
+  cursor: pointer;
+  margin: 0;
+  padding: 10px 12px;
+}
+
+.Badge--id .dp-ToolTips .dp-Icon:last-child {
+  border: none;
+}
+
+.dp-SsoTxt {
+  color: var(--grey-darkest);
+  font: var(--h-l-semibold);
+}
+
+.dp-MainContainer {
+  align-items: flex-start;
+  border-top: 1px solid var(--grey-light);
+  display: flex;
+  padding-top: 10px;
+}
+
+.dp-MainRightContainer {
+  margin-left: 10px;
+}
