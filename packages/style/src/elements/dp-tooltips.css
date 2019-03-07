@@ -10,6 +10,7 @@
   box-shadow: var(--shadow-bottom);
   color: var(--grey-darkest);
   display: none;
+  max-width: max-content;
   padding: 10px 10px;
   position: absolute;
   white-space: nowrap;
@@ -19,7 +20,7 @@
   top: calc(100% + 5px); */
 }
 
-.is-active .dp-ToolTips {
+.is-active.dp-ToolTips {
   display: block;
 }
 

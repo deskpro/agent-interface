@@ -97,6 +97,12 @@
 /* demo-tooltip */
 
 .demo-tooltip .dp-ToolTips {
+  left: 10px;
+  top: 10px;
+}
+
+.demo-tooltip.dp-OrderingBar-item .dp-ToolTips {
+  left: auto;
   right: 0;
   top: calc(100% + 5px);
 }
@@ -114,4 +120,15 @@
   left: 10px;
   min-width: auto;
   top: calc(100% + -5px);
+}
+
+.demo-menu .dp-Menu-linkItem:hover > .dp-listItem,
+.demo-menu .dp-Menu-linkItem.is-active > .dp-listItem,
+.demo-menu .dp-Menu-linkItem.is-checked > .dp-listItem, {
+  color: var(--brand-primary);
+}
+
+.demo-menu .dp-Knowledgebase .dp-Menu .dp-Menu-linkItem .dp-Cog {
+  left: calc(100% - 22px);
+  top: calc(50% - 5px);
 }

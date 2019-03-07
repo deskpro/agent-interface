@@ -1641,9 +1641,10 @@
   width: 15px;
 }
 
+/* .dp-Menu.dp-OptionList .dp-Menu-linkItem.is-checked .dp-Drag, */
+
 .dp-Knowledgebase .dp-TitleGroupe .dp-Drag,
 .dp-Menu.dp-OptionList .dp-Menu-linkItem:hover .dp-Drag,
-.dp-Menu.dp-OptionList .dp-Menu-linkItem.is-checked .dp-Drag,
 .dp-Menu.dp-OptionList .dp-Menu-linkItem.is-active .dp-Drag {
   background-image: url('data:image/svg+xml,<svg width="17" height="14" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15.9635 2H0.997717C0.399087 2 0 1.6 0 1C0 0.4 0.399087 0 0.997717 0H15.9635C16.5621 0 16.9612 0.4 16.9612 1C16.9612 1.6 16.5621 2 15.9635 2Z" fill="%233a8dde"/><path d="M15.9635 7.70001H0.997717C0.399087 7.70001 0 7.30001 0 6.70001C0 6.10001 0.399087 5.70001 0.997717 5.70001H15.9635C16.5621 5.70001 16.9612 6.10001 16.9612 6.70001C16.9612 7.30001 16.5621 7.70001 15.9635 7.70001Z" fill="%233a8dde"/><path d="M15.9635 13.3875H0.997717C0.399087 13.3875 0 12.9875 0 12.3875C0 11.7875 0.399087 11.3875 0.997717 11.3875H15.9635C16.5621 11.3875 16.9612 11.7875 16.9612 12.3875C16.9612 12.9875 16.5621 13.3875 15.9635 13.3875Z" fill="%233a8dde"/></svg>');
 }

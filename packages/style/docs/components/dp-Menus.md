@@ -313,7 +313,6 @@ title: Menus
             <span class="dp-CustomCheckbox">
                 <input type="checkbox" checked="checked" disabled="disabled" class="dp-ControlInput" id="fields-5-01"></input>
                 <label></label>
-                <!-- <label for="fields-5-01">Agent</label> -->
             </span>
             Agent
         </li>
@@ -445,7 +444,7 @@ title: Menus
                 <li class="dp-Menu-linkItem">
                     <a href="#" class="dp-listItem">Date</a>
                 </li>
-                <li class="dp-Menu-linkItem">
+                <li class="dp-Menu-linkItem is-checked">
                     <a href="#" class="dp-listItem">Date/time</a>
                 </li>
                <li class="dp-Menu-linkItem">

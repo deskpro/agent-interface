@@ -143,11 +143,13 @@
   color: var(--grey-darkest);
   display: none;
   font: var(--p-n);
-  left: 100%;
   min-width: 135px;
   padding: 7px;
   position: absolute;
-  top: calc(100% + 5px);
+
+  /*  left: 100%;
+  top: calc(100% + 5px); */
+
 }
 
 .dp-Knowledgebase .dp-Order-btn:hover .dp-Tooltip {
@@ -183,10 +185,12 @@
 }
 
 .dp-Knowledgebase .dp-Menu .dp-Menu-linkItem .dp-Cog {
-  left: calc(100% - 22px);
   padding: 0;
   position: absolute;
-  top: calc(50% - 5px);
+
+  /*  top: calc(50% - 5px);
+  left: calc(100% - 22px); */
+
 }
 
 .dp-Knowledgebase .dp-Menu .dp-Menu-linkItem .dp-Cog .dp-Menu {

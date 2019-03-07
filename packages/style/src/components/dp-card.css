@@ -301,8 +301,7 @@
 
 .dp-Icon + .dp-Date-link,
 .dp-Card .dp-Icon + .dp-Comments-title,
-.dp-Tasks-list .dp-Icon + .dp-UserName,
-.dp-UserName + .dp-UserEmail {
+.dp-Tasks-list .dp-Icon + .dp-UserName {
   margin-left: 5px;
 }
 
@@ -317,6 +316,11 @@
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+.dp-Card .dp-UserEmail {
+  margin-left: 5px;
+  text-decoration: none;
 }
 
 .dp-Card .dp-TimeStatus {
