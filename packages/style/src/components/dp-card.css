@@ -35,7 +35,7 @@
   white-space: nowrap;
 }
 
-.dp-MassSelect-itemsCount {
+.dp-MassSelect .dp-MassSelect-itemsCount {
   font: var(--h-l-semibold);
 }
 

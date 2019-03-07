@@ -2913,7 +2913,7 @@ title: List View
 
                     <span class="dp-CommentWrap demo-comments">
                         <span class="dp-Icon dp-iconComents"></span>
-                        <span class="dp-Comments-title">Comment <a href="#" class="dp-qt">(2)</a><button class="dp-Arrow"></button></span>
+                        <span class="dp-Comments-title">Comment <span href="#" class="dp-qt">(2)</span><button class="dp-Arrow"></button></span>
                         <ul class="dp-Comments">
                             <li class="dp-Comments-item">
                                 <span class="dp-Level">
@@ -3117,7 +3117,7 @@ title: List View
                     </ul>
                     <span class="dp-CommentWrap demo-comments">
                         <span class="dp-Icon dp-iconComents"></span>
-                        <span class="dp-Comments-title">Comment <a href="#" class="dp-qt">(2)</a><button class="dp-Arrow"></button></span>
+                        <span class="dp-Comments-title">Comment <span href="#" class="dp-qt">(2)</span><button class="dp-Arrow"></button></span>
                         <ul class="dp-Comments">
                             <li class="dp-Comments-item">
                                 <span class="dp-Level">
@@ -3322,7 +3322,7 @@ title: List View
                     </ul>
                     <span class="dp-CommentWrap demo-comments">
                         <span class="dp-Icon dp-iconComents"></span>
-                        <span class="dp-Comments-title">Comment <a href="#" class="dp-qt">(2)</a><button class="dp-Arrow"></button></span>
+                        <span class="dp-Comments-title">Comment <span href="#" class="dp-qt">(2)</span><button class="dp-Arrow"></button></span>
                         <ul class="dp-Comments">
                             <li class="dp-Comments-item">
                                 <span class="dp-Level">
@@ -3539,7 +3539,7 @@ title: List View
                     </ul>
                     <span class="dp-CommentWrap demo-comments">
                         <span class="dp-Icon dp-iconComents"></span>
-                        <span class="dp-Comments-title">Comment <a href="#" class="dp-qt">(2)</a><button class="dp-Arrow"></button></span>
+                        <span class="dp-Comments-title">Comment <span href="#" class="dp-qt">(2)</span><button class="dp-Arrow"></button></span>
                         <ul class="dp-Comments">
                             <li class="dp-Comments-item">
                                 <span class="dp-Level">
@@ -3751,9 +3751,9 @@ title: List View
                     </ul>
 
                     <!-- comment -->
-                    <span class="dp-CommentWrap demo-comments">
+                    <span class="dp-CommentWrap is-active demo-comments">
                         <span class="dp-Icon dp-iconComents"></span>
-                        <span class="dp-Comments-title is-active">Comment <a href="#" class="dp-qt">(2)</a><button class="dp-Arrow"></button></span>
+                        <span class="dp-Comments-title">Comment <span href="#" class="dp-qt">(2)</span><button class="dp-Arrow"></button></span>
                         <ul class="dp-Comments">
                             <li class="dp-Comments-item">
                                 <span class="dp-Level">
@@ -4147,7 +4147,7 @@ title: List View
                     </ul>
                     <span class="dp-CommentWrap demo-comments">
                         <span class="dp-Icon dp-iconComents"></span>
-                        <span class="dp-Comments-title">Comment <a href="#" class="dp-qt">(2)</a><button class="dp-Arrow"></button></span>
+                        <span class="dp-Comments-title">Comment <span href="#" class="dp-qt">(2)</span><button class="dp-Arrow"></button></span>
                         <ul class="dp-Comments">
                             <li class="dp-Comments-item">
                                 <span class="dp-Level">
@@ -4428,7 +4428,7 @@ title: List View
             <li class="dp-Card-SectionTitle dp-Tasks-list Level-justify-between">
                 <span class="dp-LevelCol dp-ListName">
                     <span class="dp-Icon Icon--menu"></span>
-                    <span class="dp-Card-title">My Tasks <a href="#" class="dp-qt">(9)</a></span>
+                    <span class="dp-Card-title">My Tasks <span href="#" class="dp-qt">(9)</span></span>
                     <span class="dp-Icon Icon--down-caret Icon--primary"></span>
                 </span>
 
@@ -6305,7 +6305,7 @@ title: List View
 
                     <span class="dp-CommentWrap demo-comments">
                         <span class="dp-Icon dp-iconComents"></span>
-                        <span class="dp-Comments-title">Comment <a href="#" class="dp-qt">(2)</a><button class="dp-Arrow"></button></span>
+                        <span class="dp-Comments-title">Comment <span href="#" class="dp-qt">(2)</span><button class="dp-Arrow"></button></span>
                         <ul class="dp-Comments">
                             <li class="dp-Comments-item">
                                 <span class="dp-Level">
@@ -6707,9 +6707,9 @@ title: List View
                             Me
                         </li>
                     </ul>
-                    <span class="dp-CommentWrap demo-comments">
+                    <span class="dp-CommentWrap is-active demo-comments">
                         <span class="dp-Icon dp-iconComents"></span>
-                        <span class="dp-Comments-title is-active">Comment <a href="#" class="dp-qt">(2)</a><button class="dp-Arrow"></button></span>
+                        <span class="dp-Comments-title">Comment <span href="#" class="dp-qt">(2)</span><button class="dp-Arrow"></button></span>
                         <ul class="dp-Comments">
                             <li class="dp-Comments-item">
                                 <span class="dp-Level">
@@ -6911,7 +6911,7 @@ title: List View
                     </ul>
                     <span class="dp-CommentWrap demo-comments">
                         <span class="dp-Icon dp-iconComents"></span>
-                        <span class="dp-Comments-title">Comment <a href="#" class="dp-qt">(2)</a><button class="dp-Arrow"></button></span>
+                        <span class="dp-Comments-title">Comment <span href="#" class="dp-qt">(2)</span><button class="dp-Arrow"></button></span>
                         <ul class="dp-Comments">
                             <li class="dp-Comments-item">
                                 <span class="dp-Level">
@@ -7113,7 +7113,7 @@ title: List View
                     </ul>
                     <span class="dp-CommentWrap demo-comments">
                         <span class="dp-Icon dp-iconComents"></span>
-                        <span class="dp-Comments-title">Comment <a href="#" class="dp-qt">(2)</a><button class="dp-Arrow"></button></span>
+                        <span class="dp-Comments-title">Comment <span href="#" class="dp-qt">(2)</span><button class="dp-Arrow"></button></span>
                         <ul class="dp-Comments">
                             <li class="dp-Comments-item">
                                 <span class="dp-Level">
@@ -7212,7 +7212,7 @@ title: List View
                     </ul>
                     <span class="dp-CommentWrap demo-comments">
                         <span class="dp-Icon dp-iconComents"></span>
-                        <span class="dp-Comments-title">Comment <a href="#" class="dp-qt">(2)</a><button class="dp-Arrow"></button></span>
+                        <span class="dp-Comments-title">Comment <span href="#" class="dp-qt">(2)</span><button class="dp-Arrow"></button></span>
                         <ul class="dp-Comments">
                             <li class="dp-Comments-item">
                                 <span class="dp-Level">
@@ -7428,7 +7428,7 @@ title: List View
                     </ul>
                     <span class="dp-CommentWrap demo-comments">
                         <span class="dp-Icon dp-iconComents"></span>
-                        <span class="dp-Comments-title">Comment <a href="#" class="dp-qt">(2)</a><button class="dp-Arrow"></button></span>
+                        <span class="dp-Comments-title">Comment <span href="#" class="dp-qt">(2)</span><button class="dp-Arrow"></button></span>
                         <ul class="dp-Comments">
                             <li class="dp-Comments-item">
                                 <span class="dp-Level">
@@ -7630,7 +7630,7 @@ title: List View
                     </ul>
                     <span class="dp-CommentWrap demo-comments">
                         <span class="dp-Icon dp-iconComents"></span>
-                        <span class="dp-Comments-title">Comment <a href="#" class="dp-qt">(2)</a><button class="dp-Arrow"></button></span>
+                        <span class="dp-Comments-title">Comment <span href="#" class="dp-qt">(2)</span><button class="dp-Arrow"></button></span>
                         <ul class="dp-Comments">
                             <li class="dp-Comments-item">
                                 <span class="dp-Level">
@@ -7832,7 +7832,7 @@ title: List View
                     </ul>
                     <span class="dp-CommentWrap demo-comments">
                         <span class="dp-Icon dp-iconComents"></span>
-                        <span class="dp-Comments-title">Comment <a href="#" class="dp-qt">(2)</a><button class="dp-Arrow"></button></span>
+                        <span class="dp-Comments-title">Comment <span href="#" class="dp-qt">(2)</span><button class="dp-Arrow"></button></span>
                         <ul class="dp-Comments">
                             <li class="dp-Comments-item">
                                 <span class="dp-Level">
@@ -8034,7 +8034,7 @@ title: List View
                     </ul>
                     <span class="dp-CommentWrap demo-comments">
                         <span class="dp-Icon dp-iconComents"></span>
-                        <span class="dp-Comments-title">Comment <a href="#" class="dp-qt">(2)</a><button class="dp-Arrow"></button></span>
+                        <span class="dp-Comments-title">Comment <span href="#" class="dp-qt">(2)</span><button class="dp-Arrow"></button></span>
                         <ul class="dp-Comments">
                             <li class="dp-Comments-item">
                                 <span class="dp-Level">
@@ -8099,7 +8099,7 @@ title: List View
             <li class="dp-Card-SectionTitle dp-Tasks-list Level-justify-between">
                 <span class="dp-LevelCol dp-ListName">
                     <span class="dp-Icon Icon--menu"></span>
-                    <span class="dp-Card-title">My Tasks <a href="#" class="dp-qt">(9)</a></span>
+                    <span class="dp-Card-title">My Tasks <span href="#" class="dp-qt">(9)</span></span>
                     <span class="dp-Icon Icon--down-caret Icon--primary"></span>
                 </span>
 
@@ -10101,7 +10101,7 @@ title: List View
 
                     <span class="dp-CommentWrap demo-comments">
                         <span class="dp-Icon dp-iconComents"></span>
-                        <span class="dp-Comments-title">Comment <a href="#" class="dp-qt">(2)</a><button class="dp-Arrow"></button></span>
+                        <span class="dp-Comments-title">Comment <span href="#" class="dp-qt">(2)</span><button class="dp-Arrow"></button></span>
                         <ul class="dp-Comments">
                             <li class="dp-Comments-item">
                                 <span class="dp-Level">
@@ -10505,7 +10505,7 @@ title: List View
                     </ul>
                     <span class="dp-CommentWrap demo-comments">
                         <span class="dp-Icon dp-iconComents"></span>
-                        <span class="dp-Comments-title">Comment <a href="#" class="dp-qt">(2)</a><button class="dp-Arrow"></button></span>
+                        <span class="dp-Comments-title">Comment <span href="#" class="dp-qt">(2)</span><button class="dp-Arrow"></button></span>
                         <ul class="dp-Comments">
                             <li class="dp-Comments-item">
                                 <span class="dp-Level">

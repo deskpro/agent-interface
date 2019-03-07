@@ -187,6 +187,14 @@
   margin-right: -4px;
 }
 
+.dp-Tasks-list .dp-CommentWrap.is-active .dp-Comments-title {
+  color: var(--brand-primary);
+}
+
+.dp-Tasks-list .dp-CommentWrap.is-active > svg {
+  fill: var(--brand-primary);
+}
+
 .dp-Add-task {
   align-items: center;
   background-color: rgba(84, 177, 98, 0.1);
@@ -344,7 +352,7 @@
   flex: 0 1 auto;
 }
 
-.is-active + .dp-Comments {
+.dp-CommentWrap.is-active .dp-Comments {
   display: block;
 }
 
@@ -369,6 +377,10 @@
   color: var(--grey-darkest);
   cursor: pointer;
   font: var(--p-n);
+}
+
+.dp-Comments-title .dp-qt {
+  color: var(--brand-primary);
 }
 
 .dp-Comments-title .dp-Arrow::after {

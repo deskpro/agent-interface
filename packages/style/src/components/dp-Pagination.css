@@ -101,6 +101,7 @@
 .dp-PageJump .dp-PageJump-label {
   color: var(--grey-darkest);
   font: var(--p-n);
+  user-select: none;
 }
 
 .dp-PageJump .dp-PageJump-page {

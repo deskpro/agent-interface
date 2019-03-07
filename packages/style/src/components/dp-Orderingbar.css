@@ -346,7 +346,7 @@
 
 .dp-Menu.dp-OptionList .dp-Menu-linkItem.is-dragging,
 .dp-Menu.dp-OptionList .dp-Menu-linkItem:hover svg,
-.dp-Menu.dp-OptionList .dp-Menu-linkItem.isactive svg {
+.dp-Menu.dp-OptionList .dp-Menu-linkItem.is-active svg {
   fill: var(--brand-primary);
 }
 

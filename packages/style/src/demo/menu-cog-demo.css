@@ -47,6 +47,17 @@
   display: none;
 }
 
+.demo-menu .dp-Menu.dp-OptionList .dp-Menu-linkItem:hover > .dp-Menu,
+.demo-menu .dp-Menu.dp-OptionList .dp-Menu-linkItem.is-checked > .dp-Menu,
+.demo-menu .dp-Menu.dp-OptionList .dp-Menu,
+.demo-menu .dp-Menu.dp-OptionList .dp-settings.is-active + .dp-Menu,
+.demo-menu .dp-Menu.Menu-grouped .dp-Menu-linkItem:hover > .dp-Menu,
+.demo-menu .Menu-grouped.dp-Menu .dp-Menu-linkItem.is-active .dp-Menu,
+.demo-menu .Menu-grouped.dp-Menu .dp-Menu-linkItem.is-checked .dp-Menu,
+.demo-menu .dp-Menu.Menu-grouped .dp-Menu {
+  left: calc(100% - 5px);
+}
+
 .demo-menu .is-active > .dp-Menu,
 .demo-menu .dp-Menu .dp-Menu-linkItem:hover > .dp-Menu,
 .demo-menu .dp-ActionButton.is-active .dp-Menu,

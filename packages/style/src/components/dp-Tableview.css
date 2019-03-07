@@ -351,7 +351,8 @@
 }
 
 .dp-TableRow.dp-Filter .dp-Card-title:hover::after,
-.dp-TableRow.dp-Sub-filter .dp-Card-title:hover::after {
+.dp-TableRow.dp-Sub-filter .dp-Card-title:hover::after,
+.dp-TableRow .dp-Table-title.dp-Card-title:hover::after {
   display: none;
 }
 
