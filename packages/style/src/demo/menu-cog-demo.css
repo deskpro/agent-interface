@@ -36,6 +36,12 @@
 
 /* Menu */
 
+.demo-menu .dp-Menu .dp-Menu-linkItem .dp-Menu,
+.demo-menu .dp-Menu .dp-Menu-linkItem:hover > .dp-Menu {
+  left: calc(100% + 1px);
+  top: -1px;
+}
+
 .demo-menu .dp-Menu,
 .Menu-grouped.dp-Menu .dp-Menu-linkItem .dp-Menu {
   display: none;

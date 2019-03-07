@@ -433,7 +433,7 @@ title: Menus
                 </li>
             </ul>
         </li>
-        <li class="dp-Menu-linkItem">
+        <li class="dp-Menu-linkItem is-active">
             <span class="dp-Icon dp-Drag"></span>
             <span class="dp-CustomCheckbox">
                 <input type="checkbox" class="dp-ControlInput" id="fields-5-15"></input>
@@ -513,7 +513,7 @@ title: Menus
                 </li>
             </ul>
         </li>
-        <li class="dp-Menu-linkItem is-checked">
+        <li class="dp-Menu-linkItem">
             <span class="dp-Icon dp-Drag"></span>
             <span class="dp-CustomCheckbox">
                 <input type="checkbox" class="dp-ControlInput" id="fields-5-19"></input>
@@ -533,7 +533,7 @@ title: Menus
                 </li>
             </ul>
         </li>
-        <li class="dp-Menu-linkItem is-active">
+        <li class="dp-Menu-linkItem">
             <span class="dp-Icon dp-Drag"></span>
             <span class="dp-CustomCheckbox">
                 <input type="checkbox" class="dp-ControlInput" id="fields-5-20"></input>

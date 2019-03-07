@@ -345,7 +345,8 @@
 /* Hover, Drag */
 
 .dp-Menu.dp-OptionList .dp-Menu-linkItem.is-dragging,
-.dp-Menu.dp-OptionList .dp-Menu-linkItem:hover svg {
+.dp-Menu.dp-OptionList .dp-Menu-linkItem:hover svg,
+.dp-Menu.dp-OptionList .dp-Menu-linkItem.isactive svg {
   fill: var(--brand-primary);
 }
 
@@ -356,7 +357,8 @@
 }
 
 .dp-OptionList .dp-Menu-linkItem.is-dragging .dp-CustomCheckbox input[type="checkbox"] + label::before,
-.dp-OptionList .dp-Menu-linkItem:hover .dp-CustomCheckbox input[type="checkbox"] + label::before {
+.dp-OptionList .dp-Menu-linkItem:hover .dp-CustomCheckbox input[type="checkbox"] + label::before,
+.dp-OptionList .dp-Menu-linkItem.is-active .dp-CustomCheckbox input[type="checkbox"] + label::before {
   border: 1px solid var(--brand-primary);
 }
 
