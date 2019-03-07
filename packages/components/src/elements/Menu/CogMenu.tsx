@@ -54,7 +54,11 @@ const Cog: React.FC<CogProps> = ({
       }}
       data-placement={placement}
       onMouseEnter={() => setIsMouseOver(true)}
-      onMouseLeave={() => setIsMouseOver(false)}
+      onMouseLeave={() => {
+        if (!menuIsVisible) {
+          setIsMouseOver(false);
+        }
+      }}
     >
       <Manager>
         <Reference>

@@ -37,7 +37,11 @@ const Icon: React.FC<IconProps> = ({
       role="button"
       tabIndex={-1}
       onClick={onClick}
-      onKeyDown={onClick}
+      onKeyDown={(e: React.KeyboardEvent<HTMLSpanElement>) => {
+        if (e.key === "Enter" && typeof onClick === "function") {
+          onClick(e);
+        }
+      }}
       ref={iconRef}
       {...props}
     >

@@ -126,6 +126,32 @@ storiesOf("ContextMenu", module)
                 </Menu>
               </Menu.MenuItem>
               <Menu.Divider />
+              <Menu.MenuItem name="deep-levels" text="Deep Levels">
+                <Menu>
+                  <Menu.MenuItem name="level-21" text="Level 2.1" />
+                  <Menu.MenuItem name="level-22" text="Level 2.2">
+                    <Menu>
+                      <Menu.MenuItem name="level-31" text="Level 3.1">
+                        <Menu>
+                          <Menu.MenuItem name="level-41" text="Level 4.1" />
+                          <Menu.MenuItem name="level-42" text="Level 4.2" />
+                          <Menu.MenuItem name="level-43" text="Level 4.3">
+                            <Menu>
+                              <Menu.MenuItem name="level-51" text="Level 5.1" />
+                              <Menu.MenuItem name="level-52" text="Level 5.2" />
+                              <Menu.MenuItem name="level-53" text="Level 5.3" />
+                            </Menu>
+                          </Menu.MenuItem>
+                        </Menu>
+                      </Menu.MenuItem>
+                      <Menu.MenuItem name="level-32" text="Level 3.2" />
+                      <Menu.MenuItem name="level-33" text="Level 3.3" />
+                    </Menu>
+                  </Menu.MenuItem>
+                  <Menu.MenuItem name="level-23" text="Level 3.3" />
+                </Menu>
+              </Menu.MenuItem>
+              <Menu.Divider />
               <Menu.MenuItem name="hold" text="Hold" />
               <Menu.MenuItem name="unhold" text="Unhold" />
               <Menu.MenuItem name="delete" text="Delete" />

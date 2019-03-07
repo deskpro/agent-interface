@@ -40,7 +40,8 @@ const MenuItem: React.FC<MenuItemProps> = ({
     [name, onClick]
   );
   const activateMenuItem = React.useCallback(
-    () => {
+    e => {
+      e.stopPropagation();
       setActiveTrail(trail);
     },
     [trail, setActiveTrail]
@@ -56,7 +57,8 @@ const MenuItem: React.FC<MenuItemProps> = ({
   return (
     <li
       className={classNames("dp-Menu-linkItem", className, {
-        "is-checked": isChecked
+        "is-checked": isChecked,
+        "is-active": activeTrail.startsWith(trail)
       })}
       {...itemProps}
       role="menuitem"
