@@ -4,6 +4,7 @@ import { Manager, Reference, Popper } from "react-popper";
 import Button, { ButtonProps } from "./Button";
 import useMenu from "../hooks/useMenu";
 import { MenuProps } from "../elements/Menu/Menu";
+import useOutsideClick from "../hooks/useOutsideClick";
 
 export type ActionsButtonProps = ButtonProps & {
   renderMenu: (menuProps: Partial<MenuProps>) => React.ReactElement<any>;
@@ -11,11 +12,22 @@ export type ActionsButtonProps = ButtonProps & {
 
 const ActionsButton = ({ renderMenu, ...props }) => {
   const { isVisible: menuIsVisible, hideMenu, toggleMenu } = useMenu();
+  const buttonRef = React.useRef<HTMLButtonElement>(null);
+  useOutsideClick(buttonRef, hideMenu);
+
   return (
     <Manager>
       <Reference>
         {({ ref }) => (
-          <Button {...props} onClick={toggleMenu} variant="actions" ref={ref} />
+          <Button
+            {...props}
+            onClick={toggleMenu}
+            variant="actions"
+            ref={(el: HTMLButtonElement) => {
+              (buttonRef.current as HTMLButtonElement) = el;
+              ref(el);
+            }}
+          />
         )}
       </Reference>
 
