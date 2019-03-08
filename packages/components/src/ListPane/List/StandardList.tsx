@@ -45,7 +45,7 @@ const StandardList: React.FC<StandardListProps> = ({
   );
   const handleSelectAll = React.useCallback(
     () => updateSelection(items.map(({ id }) => id)),
-    []
+    [items]
   );
   const handleSelectNone = React.useCallback(() => updateSelection([]), []);
   const handleSelectInverse = React.useCallback(
@@ -53,17 +53,20 @@ const StandardList: React.FC<StandardListProps> = ({
       updateSelection(
         items.map(({ id }) => id).filter(id => !selection.includes(id))
       ),
-    [selection]
+    [items, selection]
   );
 
   // reset selection on new items.
   React.useEffect(() => updateSelection([]), [items]);
 
   const [currentPage, setCurrentPage] = React.useState(1);
-  const handlePageChange = React.useCallback(nextPage => {
-    setCurrentPage(currentPage);
-    onLoadItems(nextPage);
-  }, []);
+  const handlePageChange = React.useCallback(
+    nextPage => {
+      setCurrentPage(currentPage);
+      onLoadItems(nextPage);
+    },
+    [currentPage, onLoadItems]
+  );
 
   return (
     <>

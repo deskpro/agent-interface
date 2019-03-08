@@ -43,7 +43,7 @@ const StandardContextMenu: React.FC<StandardContextMenuProps> = ({
 
       return <Menu {...menuProps}>{renderItems(items)}</Menu>;
     },
-    [items]
+    [items, onItemClick]
   );
 
   return <ContextMenu renderMenu={renderMenu}>{children}</ContextMenu>;

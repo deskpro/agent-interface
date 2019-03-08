@@ -21,10 +21,13 @@ const Pagination: React.FC<PaginationProps> = ({
   onPageChange,
   proximity = 2
 }) => {
-  const handlePageChange = React.useCallback(({ selected }) => {
-    // ReactPagination starts page numbering from zero, but we want to start from one.
-    onPageChange(selected + 1);
-  }, []);
+  const handlePageChange = React.useCallback(
+    ({ selected }) => {
+      // ReactPagination starts page numbering from zero, but we want to start from one.
+      onPageChange(selected + 1);
+    },
+    [onPageChange]
+  );
 
   let pageRange = proximity * 2 + 1;
 

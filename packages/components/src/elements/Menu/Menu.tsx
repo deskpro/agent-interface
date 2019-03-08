@@ -57,7 +57,7 @@ const MenuComponent: React.FC<MenuProps> = ({
     e => {
       setFilter(e.target.value);
     },
-    [filter, setFilter]
+    [setFilter]
   );
   // memoize filter value to filter items.
   const filterRef = React.useRef<string>("");
@@ -140,7 +140,15 @@ const MenuComponent: React.FC<MenuProps> = ({
       }
       return null;
     },
-    [filterRef, isCheckable, checked, linkComponent, parentTrail]
+    [
+      linkComponent,
+      parentTrail,
+      isCheckable,
+      checked,
+      toggleChecked,
+      menuContext,
+      onMenuClose
+    ]
   );
 
   const menu = (

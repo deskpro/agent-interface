@@ -1,10 +1,6 @@
 {
   "parser": "babel-eslint",
-  "extends": [
-    "airbnb",
-    "plugin:prettier/recommended",
-    "prettier/react"
-  ],
+  "extends": ["airbnb", "plugin:prettier/recommended", "prettier/react"],
   "env": {
     "jest": true,
     "browser": true
@@ -17,37 +13,49 @@
     },
     "import/ignore": ["\\.css$"]
   },
+  "plugins": ["react-hooks"],
   "rules": {
     "no-use-before-define": "off",
     "no-restricted-syntax": "off",
     "import/prefer-default-export": "off",
     "import/no-named-as-default": "off",
     "import/no-webpack-loader-syntax": "off",
-    "import/no-unresolved": ["error", {
-      "ignore": ["\\.css$"]
-    }],
+    "import/no-unresolved": [
+      "error",
+      {
+        "ignore": ["\\.css$"]
+      }
+    ],
     "import/no-extraneous-dependencies": "off",
     "react/forbid-prop-types": "off",
     "react/jsx-filename-extension": "off",
     "react/prop-types": "off",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
     "jsx-a11y/label-has-for": "off",
-    "jsx-a11y/label-has-associated-control": [2, {
-      "assert": "either"
-    }]
+    "jsx-a11y/label-has-associated-control": [
+      2,
+      {
+        "assert": "either"
+      }
+    ]
   },
-  "overrides": [{
-    "files": ["**/*.ts", "**/*.tsx"],
-    "parser": "typescript-eslint-parser",
-    "plugins": [
-      "typescript"
-    ],
-    "rules": {
-      "no-undef": "off",
-      "no-unused-vars": "off",
-      "no-restricted-globals": "off",
-      "import-name": [true, {
-        "react": "React"
-      }]
+  "overrides": [
+    {
+      "files": ["**/*.ts", "**/*.tsx"],
+      "parser": "typescript-eslint-parser",
+      "plugins": ["typescript"],
+      "rules": {
+        "no-undef": "off",
+        "no-unused-vars": "off",
+        "no-restricted-globals": "off",
+        "import-name": [
+          true,
+          {
+            "react": "React"
+          }
+        ]
+      }
     }
-  }]
+  ]
 }

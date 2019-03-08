@@ -69,7 +69,7 @@ const Kanban: React.FC<KanbanProps> & KanbanSubComponents = ({
         onDragEnd(result);
       }
     },
-    [allowReorder]
+    [allowReorder, onDragEnd]
   );
 
   return (

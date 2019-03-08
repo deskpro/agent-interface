@@ -49,21 +49,24 @@ const Tabs: React.FC<TabsProps> & TabsSubComponents = ({
 
   const menuRef = React.useRef<HTMLUListElement>(null);
 
-  React.useEffect(() => {
-    const handleMouseDown = (e: Event) => {
-      if (
-        openedMenu &&
-        menuRef.current &&
-        !menuRef.current.contains(e.target as Node)
-      ) {
-        e.stopPropagation();
-        setOpenedMenu(null);
-      }
-    };
-    document.addEventListener("mousedown", handleMouseDown);
+  React.useEffect(
+    () => {
+      const handleMouseDown = (e: Event) => {
+        if (
+          openedMenu &&
+          menuRef.current &&
+          !menuRef.current.contains(e.target as Node)
+        ) {
+          e.stopPropagation();
+          setOpenedMenu(null);
+        }
+      };
+      document.addEventListener("mousedown", handleMouseDown);
 
-    return () => document.removeEventListener("mousedown", handleMouseDown);
-  }, []);
+      return () => document.removeEventListener("mousedown", handleMouseDown);
+    },
+    [openedMenu]
+  );
 
   const handleTabClick = (
     targetKey: MenuItemKey,
