@@ -75,6 +75,11 @@
   display: block;
 }
 
+.dp-Menu.Menu-tick .is-active + .dp-Menu {
+  left: 100%;
+  top: 0;
+}
+
 .demo-menu .dp-Menu-linkItem {
   padding: 3.5px 10px;
 }
@@ -85,26 +90,6 @@
 
 .demo-menu .dp-LevelWrap > li .dp-Menu {
   left: 20px;
-}
-
-/* demo-comments */
-
-.demo-comments .dp-Comments {
-  left: 2.5%;
-  top: 100%;
-}
-
-/* demo-tooltip */
-
-.demo-tooltip .dp-ToolTips {
-  left: 10px;
-  top: 10px;
-}
-
-.demo-tooltip.dp-OrderingBar-item .dp-ToolTips {
-  left: auto;
-  right: 0;
-  top: calc(100% + 5px);
 }
 
 .demo-menu .Menu-tick .dp-Menu-linkItem:hover > .dp-listItem::after {
@@ -131,4 +116,48 @@
 .demo-menu .dp-Knowledgebase .dp-Menu .dp-Menu-linkItem .dp-Cog {
   left: calc(100% - 22px);
   top: calc(50% - 5px);
+}
+
+.demo-menu .Menu-tick.Menu--tick-right > .dp-Menu-linkItem .dp-listItem::after,
+.demo-menu .Menu-tick.Menu--tick-right > .dp-Menu-linkItem .dp-Menu-link::after {
+  left: auto;
+  right: 5px;
+}
+
+.demo-menu .Menu-tick.Menu--tick-left > .dp-Menu-linkItem .dp-listItem::after,
+.demo-menu .Menu-tick.Menu--tick-left > .dp-Menu-linkItem .dp-Menu-link::after {
+  left: 2px;
+  right: auto;
+}
+
+.demo-menu .dp-CCmenu .dp-iconVDots + .dp-Menu {
+  left: calc(100% - 5px);
+  top: 0;
+}
+
+/* Sub menu */
+
+.dp-Menu .dp-Menu {
+  left: 100%;
+  top: 0;
+}
+
+/* demo-comments */
+
+.demo-comments .dp-Comments {
+  left: 2.5%;
+  top: 100%;
+}
+
+/* demo-tooltip */
+
+.demo-tooltip .dp-ToolTips {
+  left: 10px;
+  top: 10px;
+}
+
+.demo-tooltip.dp-OrderingBar-item .dp-ToolTips {
+  left: auto;
+  right: 0;
+  top: calc(100% + 5px);
 }

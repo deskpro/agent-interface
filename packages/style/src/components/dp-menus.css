@@ -10,7 +10,6 @@
   border: 1px solid var(--brand-primary);
   border-radius: var(--border-radius);
   box-shadow: var(--shadow-bottom-right);
-  left: 0;
   list-style-type: none;
   padding: 5px 0;
   position: absolute;
@@ -34,9 +33,10 @@
   display: inline-block;
   margin-right: 5px;
   vertical-align: middle;
+}
 
-  /* display: flex; */
-
+.dp-Menu .dp-Menu-linkItem > span.dp-Icon {
+  padding: 0;
 }
 
 .dp-Menu .dp-Menu-title {
@@ -162,9 +162,6 @@
 .dp-Menu .dp-Menu-linkItem .dp-Arrow {
   display: inline-block;
   padding-left: 60px;
-
-  /* float: right; */
-
 }
 
 .dp-Menu .dp-Menu-linkItem .dp-Arrow::after {
@@ -191,14 +188,10 @@
   position: relative;
 }
 
-/* .dp-Menu-linkItem:hover > .dp-listItem,
-.dp-Menu-linkItem.is-active > .dp-listItem,
-.dp-Menu-linkItem.is-checked > .dp-listItem, */
-
-.dp-Menu > .dp-Menu-linkItem:hover .dp-Menu-link,
+/* .dp-Menu > .dp-Menu-linkItem:hover .dp-Menu-link,
 .dp-Menu > .dp-Menu-linkItem.is-active .dp-Menu-link {
   color: var(--brand-primary);
-}
+} */
 
 .dp-Menu .dp-Menu-linkItem:hover .dp-listLink {
   border-color: var(--brand-primary);
@@ -207,15 +200,6 @@
 
 .dp-Menu .dp-Menu-linkItem:hover .dp-Arrow::after {
   border-color: transparent transparent transparent var(--brand-primary);
-}
-
-.dp-CCmenu .dp-iconVDots + .dp-Menu {
-  left: calc(100% - 5px);
-  top: 0;
-
-  /*  width: 100%;
-  display: block; */
-
 }
 
 /* .is-expanded > .dp-Menu {
@@ -253,6 +237,10 @@
   width: 100%;
 }
 
+.dp-Menu.Menu-grouped .dp-Menu-linkItem:hover > .dp-listItem {
+  color: var(--brand-primary);
+}
+
 /* .Menu-grouped.dp-Menu .dp-Menu-linkItem .dp-Menu {
   display: none;
 } */
@@ -283,11 +271,10 @@
 /* Menu-tick */
 
 .dp-Menu.Menu-tick .is-active + .dp-Menu {
-  left: 100%;
   min-width: 125px;
-  top: 0;
 
-  /* display: block; */
+  /*  left: 100%;
+  top: 0; */
 
 }
 
@@ -522,10 +509,10 @@
 
 /* Sub menu */
 
-.dp-Menu .dp-Menu {
+/* .dp-Menu .dp-Menu {
   left: 100%;
   top: 0;
-}
+} */
 
 .dp-Menu .dp-Menu li:hover .dp-listItem::after {
   opacity: 1;
@@ -690,18 +677,6 @@
 
 .Menu-tick.Menu--tick-right > .dp-Menu-linkItem {
   padding: 3.5px 10px;
-}
-
-.Menu-tick.Menu--tick-right > .dp-Menu-linkItem .dp-listItem::after,
-.Menu-tick.Menu--tick-right > .dp-Menu-linkItem .dp-Menu-link::after {
-  left: auto;
-  right: 5px;
-}
-
-.Menu-tick.Menu--tick-left > .dp-Menu-linkItem .dp-listItem::after,
-.Menu-tick.Menu--tick-left > .dp-Menu-linkItem .dp-Menu-link::after {
-  left: 2px;
-  right: auto;
 }
 
 .dp-Menu.Menu-tick.Menu--tick-left > .dp-Menu-linkItem {

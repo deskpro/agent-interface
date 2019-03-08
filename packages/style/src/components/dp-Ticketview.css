@@ -33,9 +33,10 @@
   font: var(--p-xl-italic);
 }
 
-.dp-TicketSelect .dp-UserName {
+.dp-FollowerList .dp-UserName {
   color: var(--grey-darkest);
   font: var(--p-n);
+  line-height: 1.3;
   margin-left: 5px;
   max-width: 100%;
   overflow: hidden;
@@ -59,11 +60,12 @@
   width: 14px;
 }
 
-.dp-TicketSelect .dp-StatusTimes .dp-Icon {
+.dp-StatusTimes .dp-Icon {
   margin: 0 0 0 5px;
 }
 
-.dp-TicketSelect .dp-SectionTitle {
+.dp-TicketSelect .dp-SectionTitle,
+.dp-Followers .dp-SectionTitle {
   border-bottom: 1px solid var(--grey);
   margin-bottom: 10px;
 }
@@ -80,6 +82,7 @@
 
 .dp-Followers {
   display: inline-block;
+  max-width: 410px;
   width: 100%;
 }
 
@@ -88,21 +91,59 @@
   flex-wrap: wrap;
 }
 
-.dp-FollowersItem .dp-close {
-  cursor: pointer;
-}
-
 .dp-FollowersItem {
   align-items: center;
+  border: 0.5px solid transparent;
   display: flex;
-  flex: 0 0 33%;
+  flex: 0 0 25%;
+  height: 13px;
   justify-content: space-between;
-  padding-right: 10px;
+  margin: 0 4px 5px 0;
+  max-width: 98px;
+  padding: 0 0 0 2px;
+}
+
+.dp-FollowersBtn {
+  display: flex;
+  margin: 0 0 5px 0;
+}
+
+/* 8 > */
+
+.dp-FollowerList.Followers--Medium .dp-FollowersItem {
+
+  /* flex: 1 0 0; */
+
+  flex: 1 1 auto;
+  max-width: 25px;
+}
+
+.dp-FollowerList.Followers--Medium .dp-UserName {
+  display: none;
+}
+
+/* 50 > */
+
+.dp-FollowersItem:hover {
+  background-color: var(--grey-lighter);
+  border: 0.5px solid var(--grey-light);
+  border-radius: 15px;
+}
+
+.dp-FollowersItem:hover .dp-LogoName + .dp-Icon svg {
+  fill: var(--danger);
 }
 
 .dp-LogoName {
   align-items: center;
   display: flex;
+}
+
+.dp-FollowersItem .dp-LogoName + .dp-Icon {
+  background-size: 9px;
+  cursor: pointer;
+  height: 9px;
+  width: 9px;
 }
 
 .dp-FollowersStatus.is-active {
@@ -121,7 +162,7 @@
   width: 10px;
 }
 
-.dp-TicketSelect .dp-qt {
+.dp-TitleControls .dp-qt {
   margin-left: 3px;
 }
 
