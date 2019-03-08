@@ -52,7 +52,7 @@ const Card: React.FC<BasicCardProps> & CardSubComponents = ({
 }) => {
   const handleCardClick = React.useCallback(
     (e: React.MouseEvent<HTMLElement>) => onClick && onClick(cardId, e),
-    [cardId]
+    [cardId, onClick]
   );
   const handleCardKeyPress = React.useCallback(
     (e: React.KeyboardEvent<HTMLElement>) => {
@@ -60,7 +60,7 @@ const Card: React.FC<BasicCardProps> & CardSubComponents = ({
         onClick(cardId, e);
       }
     },
-    [cardId]
+    [cardId, onClick]
   );
 
   // track the mouse movement over the card.

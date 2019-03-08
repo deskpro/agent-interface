@@ -4,6 +4,7 @@ import { Manager, Reference, Popper } from "react-popper";
 
 import Icon from "../Icon/Icon";
 import { MenuContext } from "./MenuContext";
+import usePrevious from "../../hooks/usePrevious";
 
 export type MenuItemProps = {
   icon?: string | React.ReactElement<any>;
@@ -31,6 +32,9 @@ const MenuItem: React.FC<MenuItemProps> = ({
   ...itemProps
 }) => {
   const { activeTrail, setActiveTrail } = React.useContext(MenuContext);
+  const liRef = React.useRef<HTMLLIElement>(null);
+
+  // menu item click handler.
   const clickHandler = React.useCallback(
     e => {
       if (typeof onClick === "function") {
@@ -39,12 +43,12 @@ const MenuItem: React.FC<MenuItemProps> = ({
     },
     [name, onClick]
   );
-  const activateMenuItem = React.useCallback(
-    e => {
-      e.stopPropagation();
-      setActiveTrail(trail);
-    },
-    [trail, setActiveTrail]
+
+  const { activateMenuItem, hideMenuItem } = useMenuItemHover(
+    trail,
+    activeTrail,
+    setActiveTrail,
+    liRef
   );
 
   const labelProps = {
@@ -61,11 +65,18 @@ const MenuItem: React.FC<MenuItemProps> = ({
         "is-active": activeTrail.startsWith(trail)
       })}
       {...itemProps}
+      ref={liRef}
       role="menuitem"
       onClick={clickHandler}
-      onKeyPress={clickHandler}
+      onKeyPress={(e: React.KeyboardEvent) => {
+        if (e.key === "Enter") {
+          clickHandler(e);
+        }
+      }}
       onMouseOver={activateMenuItem}
+      onMouseOut={hideMenuItem}
       onFocus={activateMenuItem}
+      onBlur={hideMenuItem}
     >
       <Manager>
         <Reference>
@@ -121,3 +132,74 @@ const MenuItem: React.FC<MenuItemProps> = ({
 };
 
 export default React.memo<React.FC<MenuItemProps>>(MenuItem);
+
+/**
+ * Custom hook to track menu item active state.
+ *
+ * Provides mouseOver and mouseOut event callbacks to track menu link active status.
+ *
+ * @param {string} trail Trail of the current menu item.
+ * @param {string} activeTrail Current active trail of the menu.
+ * @param {Function} setActiveTrail Callback to active a menu item.
+ * @param {React.Ref<HTMLLIElement} liRef Ref object for the current menu item LI element.
+ */
+function useMenuItemHover(
+  trail: string,
+  activeTrail: string,
+  setActiveTrail: (activeTrail: string) => void,
+  liRef: React.RefObject<HTMLLIElement>
+) {
+  // activate menu item on mouse over.
+  const activateMenuItem = React.useCallback(
+    e => {
+      e.stopPropagation();
+      if (trail !== activeTrail) {
+        setActiveTrail(trail);
+      }
+    },
+    [trail, activeTrail, setActiveTrail]
+  );
+
+  // timer to close menu item on mouse out.
+  const mouseOutTimer = React.useRef<NodeJS.Timeout>(null);
+
+  // mouse out callback
+  const hideMenuItem = React.useCallback(
+    e => {
+      // clear previous timer.
+      if (mouseOutTimer.current) {
+        clearTimeout(mouseOutTimer.current);
+      }
+      // check if the event target is not a child of the current menu item
+      if (
+        liRef.current instanceof HTMLLIElement &&
+        !liRef.current.contains(e.relatedTarget)
+      ) {
+        // create timer to close the current submenu and activate parent lint item.
+        const parentTrail = trail
+          .split(".")
+          .slice(0, -1)
+          .join(".");
+        (mouseOutTimer.current as NodeJS.Timeout) = setTimeout(
+          () => setActiveTrail(parentTrail),
+          300
+        );
+      }
+    },
+    [liRef, trail, setActiveTrail]
+  );
+
+  // track the active trail changes to reset timer only when it changes.
+  const prevActiveTrail = usePrevious(activeTrail);
+  React.useEffect(
+    () => {
+      // reset mouse out timer only in case the active trail changed.
+      if (activeTrail !== prevActiveTrail && mouseOutTimer.current) {
+        clearTimeout(mouseOutTimer.current as NodeJS.Timeout);
+      }
+    },
+    [activeTrail, prevActiveTrail, mouseOutTimer]
+  );
+
+  return { activateMenuItem, hideMenuItem };
+}

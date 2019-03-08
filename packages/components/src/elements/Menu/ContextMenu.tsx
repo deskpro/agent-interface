@@ -37,52 +37,55 @@ const ContextMenu: React.FC<ContextMenuProps> = ({
   useOutsideClick(menuRef, hideMenu);
 
   const virtualReference = React.useRef<VirtualReferenceElementType>(null);
-  const handleContextMenuClick = React.useCallback(e => {
-    e.preventDefault();
+  const handleContextMenuClick = React.useCallback(
+    e => {
+      e.preventDefault();
 
-    const pos = {
-      left: e.clientX,
-      right: e.clientX,
-      top: e.clientY,
-      bottom: e.clientY,
-      width: 1,
-      height: 1
-    };
+      const pos = {
+        left: e.clientX,
+        right: e.clientX,
+        top: e.clientY,
+        bottom: e.clientY,
+        width: 1,
+        height: 1
+      };
 
-    if (
-      e.type === "touchend" &&
-      (!pos.left || !pos.top) &&
-      (e.changedTouches && e.changedTouches.length > 0)
-    ) {
-      pos.left = e.changedTouches[0].clientX;
-      pos.top = e.changedTouches[0].clientY;
-    }
-
-    if (!pos.left || pos.left < 0) {
-      pos.left = 0;
-    }
-
-    if (!pos.top || pos.top < 0) {
-      pos.top = 0;
-    }
-
-    pos.right = pos.left + pos.width;
-    pos.bottom = pos.top + pos.height;
-
-    (virtualReference.current as VirtualReferenceElementType) = {
-      getBoundingClientRect() {
-        return pos;
-      },
-      get clientWidth() {
-        return pos.width;
-      },
-      get clientHeight() {
-        return pos.height;
+      if (
+        e.type === "touchend" &&
+        (!pos.left || !pos.top) &&
+        (e.changedTouches && e.changedTouches.length > 0)
+      ) {
+        pos.left = e.changedTouches[0].clientX;
+        pos.top = e.changedTouches[0].clientY;
       }
-    };
 
-    showMenu();
-  }, []);
+      if (!pos.left || pos.left < 0) {
+        pos.left = 0;
+      }
+
+      if (!pos.top || pos.top < 0) {
+        pos.top = 0;
+      }
+
+      pos.right = pos.left + pos.width;
+      pos.bottom = pos.top + pos.height;
+
+      (virtualReference.current as VirtualReferenceElementType) = {
+        getBoundingClientRect() {
+          return pos;
+        },
+        get clientWidth() {
+          return pos.width;
+        },
+        get clientHeight() {
+          return pos.height;
+        }
+      };
+
+      showMenu();
+    },
+    [showMenu]
+  );
 
   return (
     <Manager>

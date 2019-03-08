@@ -14,11 +14,14 @@
     "eslint-plugin-jsx-a11y": "^6.1.2",
     "eslint-plugin-prettier": "^3.0.0",
     "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-react-hooks": "^1.5.0",
     "eslint-plugin-typescript": "^0.14.0",
     "husky": "^1.2.0",
     "lerna": "^2.11.0",
     "lint-staged": "^8.1.0",
     "npm-run-all": "^4.1.5",
+    "patch-package": "^6.0.5",
+    "postinstall-postinstall": "^2.0.0",
     "prettier": "^1.15.3",
     "typescript-eslint-parser": "^21.0.2"
   },
@@ -28,6 +31,7 @@
     "build": "lerna run --stream build",
     "lint": "lerna run --stream lint",
     "test": "lerna run --stream test",
+    "postinstall": "patch-package",
     "publish-git": "lerna publish --force-publish --skip-npm --yes",
     "publish-npm": "lerna publish --force-publish --skip-git --yes"
   },
