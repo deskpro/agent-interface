@@ -155,6 +155,7 @@ const MenuComponent: React.FC<MenuProps> = ({
     <ul
       className={classNames("dp-Menu", className, {
         "Menu--icons": hasIcons,
+        "Menu--tick": isCheckable,
         "Menu--tick-left": isCheckable && !hasIcons,
         "Menu--tick-right": isCheckable && hasIcons,
         "is-visible": true
