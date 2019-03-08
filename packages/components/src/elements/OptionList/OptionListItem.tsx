@@ -15,6 +15,7 @@ export type OptionListItemProps = {
   checked?: boolean;
   onCheck?: (itemName: React.Key, checked: boolean) => void;
   renderGearMenu?: (menuProps: Partial<MenuProps>) => React.ReactElement<any>;
+  showDragHandle?: boolean;
   isDragging?: boolean;
   draggableProps?: any;
   dragHandleProps?: any;
@@ -29,6 +30,7 @@ const OptionListItem: React.FC<OptionListItemProps> = ({
   checked,
   onCheck,
   renderGearMenu,
+  showDragHandle = false,
   isDragging = false,
   draggableProps = {},
   dragHandleProps = {},
@@ -45,7 +47,7 @@ const OptionListItem: React.FC<OptionListItemProps> = ({
       ref={innerRef}
       {...draggableProps}
     >
-      {!!dragHandleProps && <Icon name="drag" size={12} {...dragHandleProps} />}
+      {showDragHandle && <Icon name="drag" size={12} {...dragHandleProps} />}
       {checkable && (
         <Checkbox
           disabled={disabled}
