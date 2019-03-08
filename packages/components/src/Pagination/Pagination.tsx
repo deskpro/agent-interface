@@ -21,14 +21,6 @@ const Pagination: React.FC<PaginationProps> = ({
   onPageChange,
   proximity = 2
 }) => {
-  const handlePageChange = React.useCallback(
-    ({ selected }) => {
-      // ReactPagination starts page numbering from zero, but we want to start from one.
-      onPageChange(selected + 1);
-    },
-    [onPageChange]
-  );
-
   let pageRange = proximity * 2 + 1;
 
   // We need to always display 5+proximity*2 items (even counting the ellipses),
@@ -55,7 +47,10 @@ const Pagination: React.FC<PaginationProps> = ({
         previousLinkClassName="dp-PaginationArrows"
         nextLabel={<Icon name="caret-right" size={15} />}
         nextLinkClassName="dp-PaginationArrows"
-        onPageChange={handlePageChange}
+        onPageChange={({ selected }) => {
+          // ReactPagination starts page numbering from zero, but we want to start from one.
+          onPageChange(selected + 1);
+        }}
       />
       {showGotoPage && <GotoPage numPages={numPages} onChange={onPageChange} />}
     </span>
