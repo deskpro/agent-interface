@@ -20,4 +20,6 @@ storiesOf("ListPane", module)
       showGotoPage={boolean("Show 'Go to page'", true)}
     />
   ))
-  .add("Standard List", () => <StandardListDemo />);
+  .add("Standard List", () => (
+    <StandardListDemo grouped={boolean("Grouped List", false)} />
+  ));

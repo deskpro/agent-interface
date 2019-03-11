@@ -1,6 +1,6 @@
 import * as React from "react";
 
-import List, { ListItem, MassActionType } from "./List";
+import List, { MassActionType } from "./List";
 import { SimpleCardProps } from "../Card/SimpleCard";
 import Pagination from "../../Pagination/Pagination";
 import ActionsButton from "../../Button/ActionsButton";
@@ -8,6 +8,8 @@ import Menu from "../../elements/Menu/Menu";
 import ListBar from "./ListBar";
 import OrderingBar from "../OrderingBar/OrderingBar";
 import Icon from "../../elements/Icon/Icon";
+import { ListItem } from "../types";
+import useItemSelection from "../useItemSelection";
 
 export type StandardListProps = {
   className?: string;
@@ -32,32 +34,18 @@ const StandardList: React.FC<StandardListProps> = ({
   onMassAction,
   ...props
 }) => {
-  const [selection, updateSelection] = React.useState<React.Key[]>([]);
-
-  const handleSelectionToggle = React.useCallback(
-    (cardId: React.Key) =>
-      updateSelection(
-        selection.includes(cardId)
-          ? selection.filter(id => id !== cardId)
-          : selection.concat(cardId)
-      ),
-    [selection]
-  );
-  const handleSelectAll = React.useCallback(
-    () => updateSelection(items.map(({ id }) => id)),
-    [items]
-  );
-  const handleSelectNone = React.useCallback(() => updateSelection([]), []);
-  const handleSelectInverse = React.useCallback(
-    () =>
-      updateSelection(
-        items.map(({ id }) => id).filter(id => !selection.includes(id))
-      ),
-    [items, selection]
-  );
+  const {
+    selection,
+    toggleItemSelection,
+    toggleGroupSelection,
+    getGroupCheckState,
+    handleSelectAll,
+    handleSelectNone,
+    handleSelectInverse
+  } = useItemSelection(items);
 
   // reset selection on new items.
-  React.useEffect(() => updateSelection([]), [items]);
+  React.useEffect(handleSelectNone, [items]);
 
   const [currentPage, setCurrentPage] = React.useState(1);
   const handlePageChange = React.useCallback(
@@ -130,7 +118,9 @@ const StandardList: React.FC<StandardListProps> = ({
         {...props}
         items={items}
         selected={selection}
-        onSelectToggle={handleSelectionToggle}
+        onSelectToggle={toggleItemSelection}
+        onGroupSelectionToggle={toggleGroupSelection}
+        getGroupCheckState={getGroupCheckState}
         scrollHeight={
           height
             ? height -
