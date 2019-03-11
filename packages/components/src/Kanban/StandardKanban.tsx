@@ -3,23 +3,13 @@ import * as React from "react";
 import Kanban from "./Kanban";
 import Card from "../ListPane/Card";
 import { KanbanItemProvidedProps } from "./KanbanItem";
-import { Checkbox } from "..";
-
-export type KanbanItemID = number | string;
-
-export interface KanbanGroup {
-  id: KanbanItemID;
-  title: string;
-}
-
-export interface KanbanCard {
-  id: KanbanItemID;
-  title: string;
-}
+import Checkbox from "../inputs/Checkbox/Checkbox";
+import { ListItem, ListItemGroup } from "../ListPane/types";
+import useItemSelection from "../ListPane/useItemSelection";
 
 export type StandardKanbanDataItem = {
-  group: KanbanGroup;
-  items: KanbanCard[];
+  group: ListItemGroup;
+  items: ListItem[];
 };
 
 export interface StandardKanbanItemProvidedProps
@@ -30,9 +20,9 @@ export interface StandardKanbanItemProvidedProps
 }
 
 export type StandardKanbanDragArgs = {
-  itemId: KanbanItemID;
-  fromGroupId: KanbanItemID;
-  toGroupId: KanbanItemID;
+  itemId: React.Key;
+  fromGroupId: React.Key;
+  toGroupId: React.Key;
   index: number;
 };
 
@@ -40,11 +30,11 @@ export type StandardKanbanProps = {
   className?: string;
   allowReorder?: boolean;
   checkable?: boolean;
-  data: StandardKanbanDataItem[];
-  onLoadMore: (group: KanbanGroup) => void;
+  items: ListItem[];
+  onLoadMore: (group: ListItemGroup) => void;
   onDragEnd: (data: StandardKanbanDragArgs) => void;
   renderCard: (
-    item: KanbanCard,
+    item: ListItem,
     props?: StandardKanbanItemProvidedProps
   ) => React.ReactElement<Card>;
 };
@@ -53,12 +43,37 @@ const StandardKanban: React.FC<StandardKanbanProps> = ({
   className,
   allowReorder = true,
   checkable = false,
-  data,
+  items,
   onLoadMore,
   onDragEnd,
   renderCard
 }) => {
-  const [checked, updateChecked] = React.useState<KanbanItemID[]>([]);
+  const {
+    selection,
+    toggleGroupSelection,
+    toggleItemSelection,
+    getGroupCheckState
+  } = useItemSelection(items);
+
+  const data = React.useMemo(
+    () =>
+      items.reduce(
+        (acc, { group = { id: "DEFAULT", title: "" }, ...item }) => {
+          const lastItem = acc[acc.length - 1] || null;
+          if (lastItem && lastItem.group.id === group.id) {
+            acc[acc.length - 1].items.push(item);
+          } else {
+            acc.push({
+              group,
+              items: [item]
+            });
+          }
+          return acc;
+        },
+        [] as StandardKanbanDataItem[]
+      ),
+    [items]
+  );
 
   return (
     <Kanban
@@ -81,32 +96,21 @@ const StandardKanban: React.FC<StandardKanbanProps> = ({
         });
       }}
     >
-      {data.map(({ group, items }) => {
-        const allChecked = items.every(i => checked.includes(i.id));
-        const someChecked = items.some(i => checked.includes(i.id));
-        const columnItems = items.map(i => i.id);
-
+      {data.map(({ group, items: groupItems }) => {
+        const groupCheckState = getGroupCheckState(group.id);
         return (
           <Kanban.Column
             key={group.id}
             columnId={group.id}
             header={
               <Card.SectionTitle>
-                {checkable && (
+                {checkable && group.id !== "DEFAULT" && (
                   <Checkbox
                     id={group.title}
-                    checked={someChecked && items.length > 0}
-                    undef={someChecked && !allChecked && items.length > 0}
+                    checked={!!groupCheckState}
+                    undef={groupCheckState === "undef"}
                     onChange={() => {
-                      updateChecked(
-                        someChecked
-                          ? checked.filter(c => !columnItems.includes(c))
-                          : [
-                              ...new Set<KanbanItemID>(
-                                checked.concat(columnItems)
-                              )
-                            ]
-                      );
+                      toggleGroupSelection(group.id);
                     }}
                   />
                 )}
@@ -117,19 +121,15 @@ const StandardKanban: React.FC<StandardKanbanProps> = ({
             onThresholdReach={() => onLoadMore(group)}
           >
             <Card.List hoverable>
-              {items.map((card, idx) => (
+              {groupItems.map((card, idx) => (
                 <Kanban.Item key={card.id} itemId={card.id} index={idx}>
                   {state =>
                     renderCard(card, {
                       ...state,
                       isCheckable: checkable,
-                      isChecked: checked.includes(card.id),
+                      isChecked: selection.includes(card.id),
                       onCheckChange: () => {
-                        updateChecked(
-                          checked.includes(card.id)
-                            ? checked.filter(c => c !== card.id)
-                            : checked.concat(card.id)
-                        );
+                        toggleItemSelection(card.id);
                       }
                     })
                   }

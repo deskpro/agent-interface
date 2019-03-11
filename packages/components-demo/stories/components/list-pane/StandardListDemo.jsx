@@ -20,8 +20,22 @@ function generateCardItems(pageNumber) {
   });
 }
 
-const StandardListDemo = () => {
-  const [items, setItems] = React.useState(() => generateCardItems(1));
+function generateGroupedCardItems(pageNumber) {
+  return Array.from({ length: 20 }, (_, idx) => {
+    const id = `${pageNumber}-${idx + 1}`;
+    const groupId = Math.floor(((pageNumber - 1) * 20 + idx) / 27);
+    return {
+      id,
+      title: `Card #${id}`,
+      group: { id: groupId, title: `GROUP #${groupId + 1}` }
+    };
+  });
+}
+
+const StandardListDemo = ({ grouped = false }) => {
+  const [loadedPage, setLoadedPage] = React.useState(1);
+  const loadCallback = grouped ? generateGroupedCardItems : generateCardItems;
+  const [items, setItems] = React.useState(() => loadCallback(loadedPage));
   const [containerHeight, setContainerHeight] = React.useState(null);
   const containerRef = React.useRef(null);
   React.useEffect(
@@ -32,6 +46,12 @@ const StandardListDemo = () => {
     },
     [containerRef]
   );
+  React.useEffect(
+    () => {
+      setItems(loadCallback(loadedPage));
+    },
+    [grouped, loadCallback, loadedPage]
+  );
 
   return (
     <div style={{ maxWidth: 500, height: "100vh" }} ref={containerRef}>
@@ -40,7 +60,8 @@ const StandardListDemo = () => {
         numPages={20}
         height={containerHeight}
         onLoadItems={pageNumber => {
-          setItems(generateCardItems(pageNumber));
+          setLoadedPage(pageNumber);
+          setItems(loadCallback(pageNumber));
         }}
         massActions={[{ name: "delete", label: "Delete", icon: "bin" }]}
         onMassAction={action()}

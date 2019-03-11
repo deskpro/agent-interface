@@ -2,6 +2,8 @@ import React from "react";
 import PropTypes from "prop-types";
 import produce from "immer";
 import { subHours } from "date-fns";
+import _findIndex from "lodash/findIndex";
+import _findLastIndex from "lodash/findLastIndex";
 
 import {
   StandardKanban,
@@ -13,43 +15,52 @@ import ReactAvatar from "react-avatar";
 const columns = ["Backlog", "Started", "In Progress", "Review", "QA", "Closed"];
 
 const initCards = () =>
-  columns.reduce((acc, column, columnIndex) => {
-    acc.push({
-      group: { id: column, title: column },
-      items: Array.from(
-        { length: Math.round(Math.random() * 20) },
-        (_, idx) => ({
-          id: `${columnIndex}${idx}`,
-          title: `Card #${columnIndex}${idx + 1}`
-        })
-      )
-    });
-    return acc;
-  }, []);
+  columns.reduce(
+    (acc, column, columnIndex) =>
+      acc.concat(
+        Array.from(
+          { length: Math.round(Math.random() * 20) || 1 },
+          (_, idx) => ({
+            group: { id: column, title: column },
+            id: `${columnIndex}${idx}`,
+            title: `Card #${columnIndex}${idx + 1}`
+          })
+        )
+      ),
+    []
+  );
 
 const kanbanReducer = produce((draft, { type, payload }) => {
   switch (type) {
     case "moveItem": {
-      const { itemId, fromGroupId, toGroupId, index } = payload;
-      const sourceDataItem = draft.find(i => i.group.id === fromGroupId);
-      const [moved] = sourceDataItem.items.splice(
-        sourceDataItem.items.findIndex(i => i.id === itemId),
-        1
-      );
-      const destDataItem = draft.find(i => i.group.id === toGroupId);
-      destDataItem.items.splice(index, 0, moved);
+      const { itemId, toGroupId, index } = payload;
+      const itemIdx = _findIndex(draft, ["id", itemId]);
+      if (itemIdx > 0) {
+        const [moved] = draft.splice(itemIdx, 1);
+        const newGroupStartIdx = _findIndex(draft, ["group.id", toGroupId]);
+        if (newGroupStartIdx > 0) {
+          moved.group = draft[newGroupStartIdx].group;
+          draft.splice(newGroupStartIdx + index, 0, moved);
+        } else {
+          throw new Error(`Cannot find a group with ID ${toGroupId}`);
+        }
+      } else {
+        throw new Error(`Missing item with ID ${itemId}`);
+      }
       break;
     }
 
     case "loadMore": {
-      const item = draft.find(i => i.group.id === payload.id);
-      if (item) {
+      const firstIdx = _findIndex(draft, ["group.id", payload.id]);
+      const lastIdx = _findLastIndex(draft, ["group.id", payload.id]);
+      if (firstIdx > 0 && lastIdx >= firstIdx) {
         const columnIdx = columns.indexOf(payload.title);
-        const itemsCount = item.items.length;
+        const itemsCount = lastIdx - firstIdx + 1;
         for (let i = 0; i < 10; i += 1) {
-          item.items.push({
+          draft.splice(lastIdx + i, 0, {
             id: `${columnIdx}${itemsCount + i}`,
-            title: `Card #${columnIdx}${itemsCount + i + 1}`
+            title: `Card #${columnIdx}${itemsCount + i + 1}`,
+            group: payload
           });
         }
       }
@@ -72,7 +83,7 @@ const StandardKanbanDemo = ({ allowReorder, checkable }) => {
         className="Kanban--cards"
         allowReorder={allowReorder}
         checkable={checkable}
-        data={data}
+        items={data}
         onDragEnd={payload => dispatch({ type: "moveItem", payload })}
         onLoadMore={group => dispatch({ type: "loadMore", payload: group })}
         renderCard={(
