@@ -690,3 +690,15 @@
 .dp-Menu-linkItem[data-react-beautiful-dnd-drag-handle="1"] {
   cursor: grab;
 }
+
+.Menu-tick.Menu--tick-right > .dp-Menu-linkItem .dp-listItem::after,
+.Menu-tick.Menu--tick-right > .dp-Menu-linkItem .dp-Menu-link::after {
+  left: auto;
+  right: 5px;
+}
+
+.Menu-tick.Menu--tick-left > .dp-Menu-linkItem .dp-listItem::after,
+.Menu-tick.Menu--tick-left > .dp-Menu-linkItem .dp-Menu-link::after {
+  left: 2px;
+  right: auto;
+}

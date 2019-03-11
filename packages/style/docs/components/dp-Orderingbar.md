@@ -32,7 +32,7 @@ title: Orderingbar
 
                 <!-- dropdown -->
                 <ul class="dp-Menu Menu-grouped Menu-tick Menu--tick-left">
-                    <li class="dp-Menu-linkItem is-checked">
+                    <li class="dp-Menu-linkItem is-active">
                         <a href="" class="dp-listItem">Department (DSC)<span class="dp-Icon dp-settings"></span></a>
                         <ul class="dp-Menu Menu-tick Menu--tick-left">
                             <li class="dp-Menu-linkItem">
@@ -1767,7 +1767,7 @@ title: Orderingbar
 
             <!-- dropdown -->
             <ul class="dp-Menu Menu-grouped Menu-tick Menu--tick-left">
-                <li class="dp-Menu-linkItem is-checked">
+                <li class="dp-Menu-linkItem is-active">
                     <a href="" class="dp-listItem">Department (DSC)<span class="dp-Icon dp-settings"></span></a>
                     <ul class="dp-Menu Menu-tick Menu--tick-left">
                         <li class="dp-Menu-linkItem">
@@ -3484,7 +3484,7 @@ title: Orderingbar
 
             <!-- dropdown -->
             <ul class="dp-Menu Menu-grouped Menu-tick Menu--tick-left">
-                <li class="dp-Menu-linkItem is-checked">
+                <li class="dp-Menu-linkItem is-active">
                     <a href="" class="dp-listItem">Department (DSC)<span class="dp-Icon dp-settings"></span></a>
                     <ul class="dp-Menu Menu-tick Menu--tick-left">
                         <li class="dp-Menu-linkItem">
@@ -10239,7 +10239,7 @@ title: Orderingbar
                         </li>
                     </ul>
                 </li>
-                <li class="dp-Menu-linkItem is-checked">
+                <li class="dp-Menu-linkItem is-active">
                     <span class="dp-Icon dp-Drag"></span>
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="fields-6-19"></input>
@@ -11955,7 +11955,7 @@ title: Orderingbar
                         </li>
                     </ul>
                 </li>
-                <li class="dp-Menu-linkItem is-checked">
+                <li class="dp-Menu-linkItem is-active">
                     <span class="dp-Icon dp-Drag"></span>
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" checked="checked" class="dp-ControlInput" id="fields-7-19"></input>
@@ -13670,7 +13670,7 @@ title: Orderingbar
                         </li>
                     </ul>
                 </li>
-                <li class="dp-Menu-linkItem is-checked">
+                <li class="dp-Menu-linkItem is-active">
                     <span class="dp-Icon dp-Drag"></span>
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="fields-8-19"></input>

@@ -118,18 +118,6 @@
   top: calc(50% - 5px);
 }
 
-.demo-menu .Menu-tick.Menu--tick-right > .dp-Menu-linkItem .dp-listItem::after,
-.demo-menu .Menu-tick.Menu--tick-right > .dp-Menu-linkItem .dp-Menu-link::after {
-  left: auto;
-  right: 5px;
-}
-
-.demo-menu .Menu-tick.Menu--tick-left > .dp-Menu-linkItem .dp-listItem::after,
-.demo-menu .Menu-tick.Menu--tick-left > .dp-Menu-linkItem .dp-Menu-link::after {
-  left: 2px;
-  right: auto;
-}
-
 .demo-menu .dp-CCmenu .dp-iconVDots + .dp-Menu {
   left: calc(100% - 5px);
   top: 0;

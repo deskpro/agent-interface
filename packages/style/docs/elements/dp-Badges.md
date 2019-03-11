@@ -42,6 +42,11 @@ title: Badges
 <span class="dp-Tag Tag--success">Tag color</span>
 ```
 
+# Labels
+```html @preview
+<span class="dp-Labels">Default</span>
+```
+
 # Sizes
 ```html @preview
     <span class="dp-Tag Tag--small">Small</span>

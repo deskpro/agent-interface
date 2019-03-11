@@ -98,6 +98,26 @@
   padding: 0;
 }
 
+/* Laebel Groupe */
+
+.dp-LabelGroup {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.dp-SubMenu .dp-LabelFiltersName {
+  color: var(--grey-dark);
+  font: var(--h-s-semibold);
+  max-width: 20px;
+  padding: 3px 0 0;
+  width: 100%;
+}
+
+.dp-SubMenu .dp-LabelGroup .dp-Tag {
+  background-color: var(--grey-lightest);
+  margin: 0 5px 5px 0;
+}
+
 .dp-TicketMenu .dp-TicketMenuItem {
   align-items: flex-start;
   border-bottom: 1px solid var(--grey-light);
@@ -128,7 +148,9 @@
 }
 
 .dp-SubMenu {
+  color: var(--grey-darkest);
   display: none;
+  font: var(--p-l);
   text-transform: none;
   width: 100%;
 }
@@ -201,4 +223,12 @@
 .dp-MainWrapper.dp-TicketFilters .dp-Tickets {
   max-width: 243px;
   width: 100%;
+}
+
+.dp-TicketMenuItem.dp-SavedSearches .dp-SubMenu li {
+  margin: 0 0 10px;
+}
+
+.dp-TicketMenuItem.dp-SavedSearches .dp-SubMenu li:last-child {
+  margin: 0;
 }

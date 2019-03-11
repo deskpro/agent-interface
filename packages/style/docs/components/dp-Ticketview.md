@@ -143,75 +143,10 @@ title: Ticket View
 
 <h4>ticket/followers</h4>
 
-<!-- ```html @preview
-<div class="dp-MainWrapper">
-	<div class="dp-Followers">
-
-		<div class="dp-SectionControls">
-
-			<div class="dp-SectionTitle">
-				<div class="dp-TitleControls">Followers <span class="dp-qt">(5)<span></div>
-				<div class="dp-StatusTimes dp-FollowersStatus is-active">
-					Following
-					<span class="dp-Icon dp-following Icon--primary"></span>
-				</div>
-			</div>
-		</div>
-
-		<ul class="dp-FollowerList">
-			<li class="dp-FollowersItem">
-				<span class="dp-LogoName">
-					<span class="dp-Icon dp-iconUserAvatar"></span>
-					<span class="dp-UserName"> Wendy pride </span>
-				</span>
-				<a href="#"><i class="dp-Icon dp-close"></i></a>
-			</li>
-			<li class="dp-FollowersItem">
-				<span class="dp-LogoName">
-					<span class="dp-Icon dp-iconUserAvatar"></span>
-					<span class="dp-UserName"> Me </span>
-				</span>
-				<a href="#"><i class="dp-Icon dp-close"></i></a>
-			</li>
-			<li class="dp-FollowersItem">
-				<span class="dp-LogoName">
-					<span class="dp-Icon dp-iconUserAvatar"></span>
-					<span class="dp-UserName"> Peter Fergers </span>
-				</span>
-				<a href="#"><i class="dp-Icon dp-close"></i></a>
-			</li>
-			<li class="dp-FollowersItem">
-				<span class="dp-LogoName">
-					<span class="dp-Icon dp-iconUserAvatar"></span>
-					<span class="dp-UserName"> John Richards </span>
-				</span>
-				<a href="#"><i class="dp-Icon dp-close"></i></a>
-			</li>
-			<li class="dp-FollowersItem">
-				<span class="dp-LogoName">
-					<span class="dp-Icon dp-iconUserAvatar"></span>
-					<span class="dp-UserName"> Peter Fergers </span>
-				</span>
-				<a href="#"><i class="dp-Icon dp-close"></i></a>
-			</li>
-
-			<li class="dp-FollowersItem">
-				<button class="dp-Button Button--link Button--small">
-					<span class="dp-Icon dp-add_follower Icon--primary"></span>
-					<span id="text">Add</span>
-				</button>
-			</li>
-		</ul>
-
-	</div>
-</div>
-``` -->
-
 ```html @preview
 <div class="dp-Followers">
 
 	<div class="dp-SectionControls">
-
 		<div class="dp-SectionTitle">
 			<div class="dp-TitleControls">Followers <span class="dp-qt">(1)<span></div>
 			<div class="dp-StatusTimes dp-FollowersStatus">
@@ -348,13 +283,13 @@ title: Ticket View
 
 	<ul class="dp-FollowerList Followers--Medium">
 		<li class="dp-FollowersItem">
-			<span class="dp-LogoName Name--Me">
+			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
-				<span class="dp-UserName"> Me </span>
+				<span class="dp-UserName"> Peter Fergers </span>
 			</span>
 			<i class="dp-Icon dp-close"></i>
 			<!-- tooltip -->
-			<span class="dp-ToolTips">Me</span>
+			<span class="dp-ToolTips">Peter Fergers</span>
 		</li>
 		<li class="dp-FollowersItem">
 			<span class="dp-LogoName">

@@ -141,6 +141,7 @@ title: Filter list
 		</div>
 
 		<ul class="dp-TicketMenu is-active">
+			<!-- Awaiting agent -->
 			<li class="dp-TicketMenuItem dp-MenuBarItem is-active">
 				<span class="dp-TitleMenu">
 					<span>Awaiting agent</span>
@@ -169,6 +170,7 @@ title: Filter list
 					</li>
 				</ul>
 			</li>
+			<!-- Filters -->
 			<li class="dp-TicketMenuItem dp-MenuBarItem">
 				<span class="dp-TitleMenu">
 					<span>Filters</span>
@@ -197,6 +199,7 @@ title: Filter list
 					</li>
 				</ul>
 			</li>
+			<!-- Saved Searches -->
 			<li class="dp-TicketMenuItem dp-MenuBarItem">
 				<span class="dp-TitleMenu">
 					<span>Saved Searches</span>
@@ -225,6 +228,7 @@ title: Filter list
 					</li>
 				</ul>
 			</li>
+			<!-- Problems & incidents -->
 			<li class="dp-TicketMenuItem dp-MenuBarItem">
 				<span class="dp-TitleMenu">
 					<span>Problems & incidents (2)</span>
@@ -253,34 +257,42 @@ title: Filter list
 					</li>
 				</ul>
 			</li>
+			<!-- Labels -->
 			<li class="dp-TicketMenuItem dp-MenuBarItem">
 				<span class="dp-TitleMenu">
 					<span>Labels</span>
 					<button class="dp-Arrow"></button>
 				</span>
 				<ul class="dp-SubMenu">
-					<li>
-						<a href="#">
-							<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-						</a>
+					<li class="dp-LabelGroup">
+						<span class="dp-LabelFiltersName">A</span>
+						<span class="dp-LabelWrapper">
+							<span class="dp-Tag">Andriod Mobile App</span>
+						</span>
 					</li>
-					<li>
-						<a href="#">
-							<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-						</a>
+					<li class="dp-LabelGroup">
+						<span class="dp-LabelFiltersName">B</span>
+						<span class="dp-LabelWrapper">
+							<span class="dp-Tag">Beta Tester</span>
+							<span class="dp-Tag">Billing</span>
+							<span class="dp-Tag">Bug fix</span>
+						</span>
 					</li>
-					<li>
-						<a href="#">
-							<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-						</a>
-					</li>
-					<li>
-						<a href="#">
-							<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-						</a>
+					<li class="dp-LabelGroup">
+						<span class="dp-LabelFiltersName">C</span>
+						<span class="dp-LabelWrapper">
+							<span class="dp-Tag">Capterra</span>
+							<span class="dp-Tag">Churn</span>
+							<span class="dp-Tag">Click jacking</span>
+							<span class="dp-Tag">Cloud</span>
+							<span class="dp-Tag">Consultation</span>
+							<span class="dp-Tag">Converted</span>
+							<span class="dp-Tag">Custome fields</span>
+						</span>
 					</li>
 				</ul>
 			</li>
+			<!-- My stars -->
 			<li class="dp-TicketMenuItem dp-MenuBarItem">
 				<span class="dp-TitleMenu">
 					<span>My stars (3)</span>
@@ -334,6 +346,7 @@ title: Filter list
 		</div>
 
 		<ul class="dp-TicketMenu is-active">
+			<!-- Awaiting agent -->
 			<li class="dp-TicketMenuItem dp-MenuBarItem is-active">
 				<span class="dp-TitleMenu">
 					<span>Awaiting agent</span>
@@ -362,6 +375,7 @@ title: Filter list
 					</li>
 				</ul>
 			</li>
+			<!-- Filters -->
 			<li class="dp-TicketMenuItem dp-MenuBarItem">
 				<span class="dp-TitleMenu">
 					<span>Filters</span>
@@ -390,34 +404,28 @@ title: Filter list
 					</li>
 				</ul>
 			</li>
-			<li class="dp-TicketMenuItem dp-MenuBarItem">
+			<!-- Saved Searches -->
+			<li class="dp-TicketMenuItem dp-MenuBarItem dp-SavedSearches is-active">
 				<span class="dp-TitleMenu">
-					<span>Saved Searches</span>
+					<span>Saved Searches <span class="dp-qt">(4)</span></span>
 					<button class="dp-Arrow"></button>
 				</span>
 				<ul class="dp-SubMenu">
 					<li>
-						<a href="#">
-							<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-						</a>
+						<span>KB Articles older than 4 week</span>
 					</li>
 					<li>
-						<a href="#">
-							<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-						</a>
+						<span>Articles by Agent X</span>
 					</li>
 					<li>
-						<a href="#">
-							<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-						</a>
+						<span>News articles in August</span>
 					</li>
 					<li>
-						<a href="#">
-							<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-						</a>
+						<span>Feature requests feedback articles </span>
 					</li>
 				</ul>
 			</li>
+			<!-- Problems & incidents -->
 			<li class="dp-TicketMenuItem dp-MenuBarItem">
 				<span class="dp-TitleMenu">
 					<span>Problems & incidents (2)</span>
@@ -446,34 +454,42 @@ title: Filter list
 					</li>
 				</ul>
 			</li>
-			<li class="dp-TicketMenuItem dp-MenuBarItem">
+			<!-- Labels -->
+			<li class="dp-TicketMenuItem dp-MenuBarItem is-active">
 				<span class="dp-TitleMenu">
 					<span>Labels</span>
 					<button class="dp-Arrow"></button>
 				</span>
 				<ul class="dp-SubMenu">
-					<li>
-						<a href="#">
-							<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-						</a>
+					<li class="dp-LabelGroup">
+						<span class="dp-LabelFiltersName">A</span>
+						<span class="dp-LabelWrapper">
+							<span class="dp-Tag">Andriod Mobile App</span>
+						</span>
 					</li>
-					<li>
-						<a href="#">
-							<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-						</a>
+					<li class="dp-LabelGroup">
+						<span class="dp-LabelFiltersName">B</span>
+						<span class="dp-LabelWrapper">
+							<span class="dp-Tag">Beta Tester</span>
+							<span class="dp-Tag">Billing</span>
+							<span class="dp-Tag">Bug fix</span>
+						</span>
 					</li>
-					<li>
-						<a href="#">
-							<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-						</a>
-					</li>
-					<li>
-						<a href="#">
-							<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-						</a>
+					<li class="dp-LabelGroup">
+						<span class="dp-LabelFiltersName">C</span>
+						<span class="dp-LabelWrapper">
+							<span class="dp-Tag">Capterra</span>
+							<span class="dp-Tag">Churn</span>
+							<span class="dp-Tag">Click jacking</span>
+							<span class="dp-Tag">Cloud</span>
+							<span class="dp-Tag">Consultation</span>
+							<span class="dp-Tag">Converted</span>
+							<span class="dp-Tag">Custome fields</span>
+						</span>
 					</li>
 				</ul>
 			</li>
+			<!-- My stars -->
 			<li class="dp-TicketMenuItem dp-MenuBarItem">
 				<span class="dp-TitleMenu">
 					<span>My stars (3)</span>
