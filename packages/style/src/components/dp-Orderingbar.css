@@ -333,8 +333,9 @@
 }
 
 .dp-Uneditable,
-.dp-Menu.dp-OptionList > .dp-Menu-linkItem.dp-Uneditable:hover {
+.dp-Menu.dp-OptionList .dp-Menu-linkItem.dp-Uneditable:hover {
   background-color: var(--grey-lightest);
+  color: var(--grey-darkest);
 }
 
 .dp-orderingbar .dp-OrderingBar-item:last-child {

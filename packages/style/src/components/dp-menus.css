@@ -299,6 +299,10 @@
   opacity: 1;
 }
 
+.dp-Menu-linkItem.is-checked > .dp-listItem {
+  color: var(--brand-primary);
+}
+
 .dp-Menu.Menu-tick .dp-Menu-linkItem:hover {
   background-color: transparent;
 }
@@ -681,4 +685,8 @@
 
 .dp-Menu.Menu-tick.Menu--tick-left > .dp-Menu-linkItem {
   padding: 3.5px 10px 3.5px 25px;
+}
+
+.dp-Menu-linkItem[data-react-beautiful-dnd-drag-handle="1"] {
+  cursor: grab;
 }

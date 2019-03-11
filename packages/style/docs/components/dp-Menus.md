@@ -308,6 +308,7 @@ title: Menus
             <span class="">Fields</span>
             <span><span class="dp-Meta is-active">view default</span><span class="dp-Meta">reset to default</span></span>
         </li>
+
         <li class="dp-Menu-linkItem dp-Uneditable">
             <span class="dp-Icon dp-Drag"></span>
             <span class="dp-CustomCheckbox">
@@ -332,7 +333,7 @@ title: Menus
             </span>
             User
         </li>
-        <li class="dp-Menu-linkItem">
+        <li class="dp-Menu-linkItem" data-react-beautiful-dnd-draggable="1">
             <span class="dp-Icon dp-Drag"></span>
             <span class="dp-CustomCheckbox">
                 <input type="checkbox" checked="checked" disabled="disabled" class="dp-ControlInput" id="fields-5-04"></input>
@@ -340,7 +341,7 @@ title: Menus
             </span>
             Agent team        
         </li>
-        <li class="dp-Menu-linkItem">
+        <li class="dp-Menu-linkItem" data-react-beautiful-dnd-draggable="1">
             <span class="dp-Icon dp-Drag"></span>
             <span class="dp-CustomCheckbox">
                 <input type="checkbox" class="dp-ControlInput" id="fields-5-05"></input>
@@ -348,7 +349,7 @@ title: Menus
             </span>
             Labels
         </li>
-        <li class="dp-Menu-linkItem">
+        <li class="dp-Menu-linkItem" data-react-beautiful-dnd-draggable="1">
             <span class="dp-Icon dp-Drag"></span>
             <span class="dp-CustomCheckbox">
                 <input type="checkbox" class="dp-ControlInput" id="fields-5-06"></input>
@@ -356,7 +357,7 @@ title: Menus
             </span>
             ID
         </li>
-        <li class="dp-Menu-linkItem">
+        <li class="dp-Menu-linkItem" data-react-beautiful-dnd-draggable="1">
             <span class="dp-Icon dp-Drag"></span>
             <span class="dp-CustomCheckbox">
                 <input type="checkbox" class="dp-ControlInput" id="fields-5-07"></input>
@@ -364,7 +365,7 @@ title: Menus
             </span>
             Status
         </li>
-        <li class="dp-Menu-linkItem">
+        <li class="dp-Menu-linkItem" data-react-beautiful-dnd-draggable="1">
             <span class="dp-Icon dp-Drag"></span>
             <span class="dp-CustomCheckbox">
                 <input type="checkbox" class="dp-ControlInput" id="fields-5-08"></input>
@@ -372,7 +373,7 @@ title: Menus
             </span>
             Language
         </li>
-        <li class="dp-Menu-linkItem">
+        <li class="dp-Menu-linkItem" data-react-beautiful-dnd-draggable="1">
             <span class="dp-Icon dp-Drag"></span>
             <span class="dp-CustomCheckbox">
                 <input type="checkbox" class="dp-ControlInput" id="fields-5-09"></input>
@@ -380,14 +381,14 @@ title: Menus
             </span>
             Department
         </li>
-        <li class="dp-Menu-linkItem">
+        <li class="dp-Menu-linkItem" data-react-beautiful-dnd-draggable="1">
             <span class="dp-Icon dp-Drag"></span>
             <span class="dp-CustomCheckbox">
                 <input type="checkbox" class="dp-ControlInput" id="fields-5-10"></input>
                 <label for="fields-5-10"></label>
             </span>Product
         </li>
-        <li class="dp-Menu-linkItem">
+        <li class="dp-Menu-linkItem" data-react-beautiful-dnd-draggable="1">
             <span class="dp-Icon dp-Drag"></span>
             <span class="dp-CustomCheckbox">
                 <input type="checkbox" class="dp-ControlInput" id="fields-5-11"></input>
@@ -395,7 +396,7 @@ title: Menus
             </span>
             Organization
         </li>
-        <li class="dp-Menu-linkItem">
+        <li class="dp-Menu-linkItem" data-react-beautiful-dnd-draggable="1">
             <span class="dp-Icon dp-Drag"></span>
             <span class="dp-CustomCheckbox">
                 <input type="checkbox" class="dp-ControlInput" id="fields-5-12"></input>
@@ -403,7 +404,7 @@ title: Menus
             </span>
             SLAs
         </li>
-        <li class="dp-Menu-linkItem">
+        <li class="dp-Menu-linkItem" data-react-beautiful-dnd-draggable="1">
             <span class="dp-Icon dp-Drag"></span>
             <span class="dp-CustomCheckbox">
                 <input type="checkbox" class="dp-ControlInput" id="fields-5-13"></input>

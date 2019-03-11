@@ -137,9 +137,13 @@
 
 /* Sub menu */
 
-.dp-Menu .dp-Menu {
+.demo-menu .dp-Menu .dp-Menu {
   left: 100%;
   top: 0;
+}
+
+.demo-menu .dp-Menu .dp-Menu .dp-Menu-linkItem:hover .dp-listItem {
+  color: var(--brand-primary);
 }
 
 /* demo-comments */

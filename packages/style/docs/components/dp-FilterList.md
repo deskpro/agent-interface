@@ -328,7 +328,8 @@ title: Filter list
 					<span class="dp-Icon Icon--down-caret Icon--primary"></span>
 				</span>
 
-				<span class="dp-Icon dp-lock Icon--primary"></span>
+				<!-- <span class="dp-Icon dp-lock Icon--primary"></span> -->
+				<span class="dp-Icon Icon--lock Icon--primary"></span>
 			</div>
 		</div>
 
