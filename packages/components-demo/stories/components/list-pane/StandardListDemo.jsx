@@ -52,7 +52,9 @@ const StandardListDemo = () => {
               <>
                 <IconGroup>
                   <Icon name="lock" size={18} />
-                  <Badge color="grey-light" type="round" />
+                  <Badge color="neutral" type="round">
+                    2
+                  </Badge>
                 </IconGroup>
                 <span className="dp-TimeStatus">2 mins</span>
               </>

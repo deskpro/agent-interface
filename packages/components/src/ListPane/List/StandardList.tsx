@@ -62,10 +62,10 @@ const StandardList: React.FC<StandardListProps> = ({
   const [currentPage, setCurrentPage] = React.useState(1);
   const handlePageChange = React.useCallback(
     nextPage => {
-      setCurrentPage(currentPage);
+      setCurrentPage(nextPage);
       onLoadItems(nextPage);
     },
-    [currentPage, onLoadItems]
+    [setCurrentPage, onLoadItems]
   );
 
   return (
@@ -78,7 +78,7 @@ const StandardList: React.FC<StandardListProps> = ({
         onSelectInverse={handleSelectInverse}
       >
         <OrderingBar.Item>
-          <Icon name="group_by" size={19} />
+          <Icon name="grouped-by" size={19} />
           <span className="dp-SelectGroup">
             <span className="dp-ItemRow">
               <span className="dp-Title">Grouped by</span>
@@ -86,6 +86,42 @@ const StandardList: React.FC<StandardListProps> = ({
             </span>
             <span className="dp-ItemRow">
               <span className="dp-Subtitle">None</span>
+            </span>
+          </span>
+        </OrderingBar.Item>
+        <OrderingBar.Item>
+          <Icon name="sort" size={19} />
+          <span className="dp-SelectGroup">
+            <span className="dp-ItemRow">
+              <span className="dp-Title">Sort by</span>
+              <span className="dp-Arrow" />
+            </span>
+            <span className="dp-ItemRow">
+              <span className="dp-Subtitle">Date</span>
+            </span>
+          </span>
+        </OrderingBar.Item>
+        <OrderingBar.Item>
+          <Icon name="faceted-by" size={19} />
+          <span className="dp-SelectGroup">
+            <span className="dp-ItemRow">
+              <span className="dp-Title">Faceted by</span>
+              <span className="dp-Arrow" />
+            </span>
+            <span className="dp-ItemRow">
+              <span className="dp-Subtitle">3 Agents</span>
+            </span>
+          </span>
+        </OrderingBar.Item>
+        <OrderingBar.Item>
+          <Icon name="fields" size={19} />
+          <span className="dp-SelectGroup">
+            <span className="dp-ItemRow">
+              <span className="dp-Title">Fields</span>
+              <span className="dp-Arrow" />
+            </span>
+            <span className="dp-ItemRow">
+              <span className="dp-Subtitle">8 fields</span>
             </span>
           </span>
         </OrderingBar.Item>

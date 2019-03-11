@@ -4,6 +4,7 @@ import classNames from "classnames";
 
 import "@deskpro/agent-interface-style/dist/dp-Arrow.css";
 import { MenuProps } from "../elements/Menu/Menu";
+import useOutsideClick from "../hooks/useOutsideClick";
 
 export type DropdownProps = {
   className?: string;
@@ -16,51 +17,57 @@ const Dropdown: React.FC<DropdownProps> = ({
   renderMenu
 }) => {
   const [isOpen, setOpenState] = React.useState(false);
+  const dropdownRef = React.useRef<HTMLSpanElement>(null);
+  useOutsideClick(dropdownRef, () => {
+    setOpenState(false);
+  });
 
   return (
-    <Manager>
-      <Reference>
-        {({ ref }) => (
-          <span
-            className={classNames("dp-Dropdown", className)}
-            ref={ref}
-            role="button"
-            tabIndex={-1}
-            onClick={() => setOpenState(!isOpen)}
-            onKeyPress={e => {
-              if (e.key === "Enter") setOpenState(!isOpen);
+    <span className="dp-Dropdown-container" ref={dropdownRef}>
+      <Manager>
+        <Reference>
+          {({ ref }) => (
+            <span
+              className={classNames("dp-Dropdown", className)}
+              ref={ref}
+              role="button"
+              tabIndex={-1}
+              onClick={() => setOpenState(!isOpen)}
+              onKeyPress={e => {
+                if (e.key === "Enter") setOpenState(!isOpen);
+              }}
+            >
+              {children}
+              <span className="dp-Arrow" />
+            </span>
+          )}
+        </Reference>
+        {isOpen && (
+          <Popper
+            placement="bottom-start"
+            modifiers={{
+              preventOverflow: {
+                enabled: true,
+                escapeWithReference: true,
+                boundariesElement: "viewport"
+              },
+              flip: {
+                enabled: true,
+                flipVariationsByContent: true
+              }
             }}
           >
-            {children}
-            <span className="dp-Arrow" />
-          </span>
-        )}
-      </Reference>
-      {isOpen && (
-        <Popper
-          placement="bottom-start"
-          modifiers={{
-            preventOverflow: {
-              enabled: true,
-              escapeWithReference: true,
-              boundariesElement: "viewport"
-            },
-            flip: {
-              enabled: true,
-              flipVariationsByContent: true
+            {({ ref, style }) =>
+              renderMenu({
+                menuRef: ref,
+                style,
+                onMenuClose: () => setOpenState(false)
+              })
             }
-          }}
-        >
-          {({ ref, style }) =>
-            renderMenu({
-              menuRef: ref,
-              style,
-              onMenuClose: () => setOpenState(false)
-            })
-          }
-        </Popper>
-      )}
-    </Manager>
+          </Popper>
+        )}
+      </Manager>
+    </span>
   );
 };
 
