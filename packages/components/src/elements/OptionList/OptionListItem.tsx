@@ -78,6 +78,7 @@ const OptionListItem: React.FC<OptionListItemProps> = ({
             <Popper
               placement="right-start"
               modifiers={{
+                offset: { offset: "-1,5" },
                 preventOverflow: {
                   enabled: true,
                   escapeWithReference: true,
