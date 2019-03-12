@@ -36,7 +36,7 @@ const OptionListItem: React.FC<OptionListItemProps> = ({
   dragHandleProps = {},
   innerRef
 }) => {
-  const { isVisible: menuIsVisible, toggleMenu } = useMenu();
+  const { isVisible: menuIsVisible, toggleMenu, hideMenu } = useMenu();
 
   return (
     <div
@@ -89,7 +89,9 @@ const OptionListItem: React.FC<OptionListItemProps> = ({
                 }
               }}
             >
-              {({ ref, style }) => renderGearMenu({ menuRef: ref, style })}
+              {({ ref, style }) =>
+                renderGearMenu({ menuRef: ref, style, onMenuClose: hideMenu })
+              }
             </Popper>
           )}
         </Manager>

@@ -27,8 +27,8 @@ storiesOf("OrderingBar", module)
         title="Date created"
         showGear
         renderGearMenu={menuProps => (
-          <Menu {...menuProps} isCheckable>
-            <Menu.MenuItem name="created.date" text="Date" />
+          <Menu {...menuProps} isCheckable checkedItems={["created.date_only"]}>
+            <Menu.MenuItem name="created.date_only" text="Date" />
             <Menu.MenuItem name="created.date_time" text="Date/Time" />
             <Menu.MenuItem name="created.time_ago" text="How long since" />
           </Menu>
@@ -39,8 +39,12 @@ storiesOf("OrderingBar", module)
         title="All waiting time"
         showGear
         renderGearMenu={menuProps => (
-          <Menu {...menuProps} isCheckable>
-            <Menu.MenuItem name="waiting_time.date" text="Date" />
+          <Menu
+            {...menuProps}
+            isCheckable
+            checkedItems={["waiting_time.date_only"]}
+          >
+            <Menu.MenuItem name="waiting_time.date_only" text="Date" />
             <Menu.MenuItem name="waiting_time.date_time" text="Date/Time" />
             <Menu.MenuItem name="waiting_time.time_ago" text="How long since" />
           </Menu>
@@ -51,8 +55,12 @@ storiesOf("OrderingBar", module)
         title="Date of last reply"
         showGear
         renderGearMenu={menuProps => (
-          <Menu {...menuProps} isCheckable>
-            <Menu.MenuItem name="last_reply.date" text="Date" />
+          <Menu
+            {...menuProps}
+            isCheckable
+            checkedItems={["last_reply.date_only"]}
+          >
+            <Menu.MenuItem name="last_reply.date_only" text="Date" />
             <Menu.MenuItem name="last_reply.date_time" text="Date/Time" />
             <Menu.MenuItem name="last_reply.time_ago" text="How long since" />
           </Menu>
@@ -65,8 +73,12 @@ storiesOf("OrderingBar", module)
         disabled
         showGear
         renderGearMenu={menuProps => (
-          <Menu {...menuProps} isCheckable>
-            <Menu.MenuItem name="last_user_reply.date" text="Date" />
+          <Menu
+            {...menuProps}
+            isCheckable
+            checkedItems={["last_user_reply.date_only"]}
+          >
+            <Menu.MenuItem name="last_user_reply.date_only" text="Date" />
             <Menu.MenuItem name="last_user_reply.date_time" text="Date/Time" />
             <Menu.MenuItem
               name="last_user_reply.time_ago"
@@ -82,8 +94,12 @@ storiesOf("OrderingBar", module)
         disabled
         showGear
         renderGearMenu={menuProps => (
-          <Menu {...menuProps} isCheckable>
-            <Menu.MenuItem name="last_agent_reply.date" text="Date" />
+          <Menu
+            {...menuProps}
+            isCheckable
+            checkedItems={["last_agent_reply.date_only"]}
+          >
+            <Menu.MenuItem name="last_agent_reply.date_only" text="Date" />
             <Menu.MenuItem name="last_agent_reply.date_time" text="Date/Time" />
             <Menu.MenuItem
               name="last_agent_reply.time_ago"
@@ -97,8 +113,12 @@ storiesOf("OrderingBar", module)
         title="Date resolved"
         showGear
         renderGearMenu={menuProps => (
-          <Menu {...menuProps} isCheckable>
-            <Menu.MenuItem name="date_resolved.date" text="Date" />
+          <Menu
+            {...menuProps}
+            isCheckable
+            checkedItems={["date_resolved.date_only"]}
+          >
+            <Menu.MenuItem name="date_resolved.date_only" text="Date" />
             <Menu.MenuItem name="date_resolved.date_time" text="Date/Time" />
             <Menu.MenuItem
               name="date_resolved.time_ago"
