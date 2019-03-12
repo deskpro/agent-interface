@@ -1135,11 +1135,11 @@ title: PageSidebar
             </ul>
             <div class="dp-SidebarBody dp-VersionCCmenu">
 
-                <div class="dp-SidebarSection">
+<!--                 <div class="dp-SidebarSection">
                     <div class="dp-SectionTitle">
                         <div class="dp-TitleControls">ORGANIZATION & USER</div>
                     </div>
-                </div>
+                </div> -->
 
                 <div class="dp-SidebarSection">
                     <div class="dp-SectionBody-item ">
@@ -1505,6 +1505,695 @@ title: PageSidebar
                         </dd>
 
                     </dl>
+                </div>
+
+            </div> <!-- Sidebar body -->
+        </div>
+    </div>
+</div>
+```
+
+
+
+
+
+
+
+
+
+
+<h4>sidebar/Add cc section</h4>
+```html @preview
+<div class="dp-MainWrapper">
+    <div class="dp-SidebarContainer demo-cog demo-menu demo-sidebar">
+        <div class="dp-PageSidebar">
+
+            <ul class="dp-Tabs Tabs--icons">
+                <li class="dp-Tabs-item is-active"><a href="#" class="dp-Icon Icon--email"></a></li>
+                <li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--user"></a></li>
+                <li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--organisation"></a></li>
+            </ul>
+            <div class="dp-SidebarBody dp-VersionCCmenu">
+
+                <div class="dp-SidebarSection">
+                    <div class="dp-SectionBody-item ">
+                        <div class="dp-title-item">
+                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                            Tech company
+                        </div>
+                    </div>
+                    <div class="dp-SectionBody-item dp-UserPanel">
+                        <div class="dp-title-item">
+                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                            <span class="dp-UserName">Zack Prudent</span>
+                            <span class="dp-Icon Icon--OwnerArrows"></span>
+                        </div>
+                        <a href="mailto:zack.pride@techcompany.com" class="dp-MailAddress">zack.prudent@techcompany.com</a>
+                        <div class="dp-Phone">
+                            <i class="dp-Icon dp-phone_filled Icon--blue"></i><a href="tel:+442035678940" >+44 20 356 789 40</a>
+                        </div>
+                        <div class="dp-OpenResolved">
+                            <span class="dp-open"><i class="dp-Icon Icon--email Icon--primary"></i> Open: 7</span>
+                            <span class="dp-resolved"><i class="dp-Icon Icon--email"></i> Resolved: 24</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dp-SidebarSection dp-CCmenu">
+                    <div class="dp-SectionControls">
+                        <div class="dp-SectionTitle dp-CcRow">
+                            <div class="dp-TitleControls">
+                                <span class="dp-open">CC’s</span>
+                                <span class="dp-AddBtn is-active">Add</span>
+                            </div>
+                            <a href="#" class="dp-Controls">
+                                <span class="dp-qt"> +5 </span> 
+                                <i class="dp-Icon dp-DotsIcon is-active"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="dp-SectionControls dp-SidebarSection">
+
+                        <div class="dp-AddCc">
+                            <div class="dp-Menu-search">
+                                <form>
+                                    <div class="dp-Form">
+                                        <div class="dp-Menu-search">
+                                            <span class="dp-Icon dp-IconSearch"></span>
+                                            <input type="text" name="" class="dp-Input Input--search">
+                                        </div>
+                                    </div>
+                                    <button class="dp-Button Button--new-cc">Add new cc</button>
+                                </form>
+                            </div>
+                        </div>
+
+                        <div class="dp-title-item dp-SectionTitle">
+                            <span class="dp-UserName">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <span class="dp-User-link">
+                                    Bob Cooper
+                                    <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">bob.cooper@techcompany.co</a>
+                                </span>
+                            </span>
+                            <a href="#" class="dp-Icon dp-iconVDots"></a>
+                            <!-- hide menu -->
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-Swap"></span>
+                                    <a href="#" class="dp-Menu-link">Swap with ticket owner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-Owner"></span>
+                                    <a href="#" class="dp-Menu-link">Set as ticket owner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-Merge"></span>
+                                    <a href="#" class="dp-Menu-link">Merge into ticket owner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-Bin"></span>
+                                    <a href="#" class="dp-Menu-link">Remove CC</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-iconMin"></span>
+                                    <a href="#" class="dp-Menu-link">Remove CC & Block from ticket</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="dp-title-item dp-SectionTitle">
+                            <span class="dp-UserName">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <span class="dp-User-link">
+                                    Bob Cooper
+                                    <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">bob.cooper@techcompany.co</a>
+                                </span>
+                            </span>
+                            <a href="#" class="dp-Icon dp-iconVDots"></a>
+                            <!-- hide menu -->
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-Swap"></span>
+                                    <a href="#" class="dp-Menu-link">Swap with ticket owner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-Menu-link">Set as ticket owner</a>
+                                    <span class="dp-Icon dp-Owner"></span>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-Merge"></span>
+                                    <a href="#" class="dp-Menu-link">Merge into ticket owner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-Bin"></span>
+                                    <a href="#" class="dp-Menu-link">Remove CC</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-iconMin"></span>
+                                    <a href="#" class="dp-Menu-link">Remove CC & Block from ticket</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="dp-title-item dp-SectionTitle">
+                            <span class="dp-UserName">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <span class="dp-User-link">
+                                    Bob Cooper
+                                    <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">bob.cooper@techcompany.co</a>
+                                </span>
+                            </span>
+                            <a href="#" class="dp-Icon dp-iconVDots"></a>
+                            <!-- hide menu -->
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-Swap"></span>
+                                    <a href="#" class="dp-Menu-link">Swap with ticket owner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-Owner"></span>
+                                    <a href="#" class="dp-Menu-link">Set as ticket owner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-Merge"></span>
+                                    <a href="#" class="dp-Menu-link">Merge into ticket owner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-Bin"></span>
+                                    <a href="#" class="dp-Menu-link">Remove CC</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-iconMin"></span>
+                                    <a href="#" class="dp-Menu-link">Remove CC & Block from ticket</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="dp-title-item dp-SectionTitle">
+                            <span class="dp-UserName">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <span class="dp-User-link">
+                                    Bob Cooper
+                                    <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">bob.cooper@techcompany.co</a>
+                                </span>
+                            </span>
+                            <a href="#" class="dp-Icon dp-iconVDots"></a>
+                            <!-- hide menu -->
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-Swap"></span>
+                                    <a href="#" class="dp-Menu-link">Swap with ticket owner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-Owner"></span>
+                                    <a href="#" class="dp-Menu-link">Set as ticket owner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-Merge"></span>
+                                    <a href="#" class="dp-Menu-link">Merge into ticket owner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-Bin"></span>
+                                    <a href="#" class="dp-Menu-link">Remove CC</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-iconMin"></span>
+                                    <a href="#" class="dp-Menu-link">Remove CC & Block from ticket</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="dp-SidebarSection dp-SectionControls">
+                    <div class="dp-SectionTitle">
+                        <div class="dp-TitleControls"><span class="dp-Section--name">Status</span></div>
+                    </div>
+                </div>
+
+                <div class="dp-SidebarSection">
+
+                    <div class="dp-Selectbelow">
+                        <div class="dp-ButtonWrapper">
+                            <button class="dp-ActionButton dp-Border--danger ActionButton--large dp-Arrow" type="button">
+                                On Hold
+                            </button>
+
+                            <button class="dp-ActionButton dp-Border--danger dp--danger dp-Arrow" type="button">
+                                10
+                            </button>
+                        </div>
+
+                        <div class="dp-ButtonWrapper">
+                            <span class="dp-Icon dp-LevelDown"></span>
+
+                            <button class="dp-ActionButton ActionButton--large dp-Arrow" type="button">
+                                Awaiting order confirmation
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="dp-SidebarSection dp-SectionControls">
+                    <div class="dp-SectionTitle">
+                        <div class="dp-TitleControls"><span class="dp-Section--name">Times</span></div>
+                        <a href="#" class="dp-Controls">
+                            <span class="dp-qt"> +6 </span> 
+                            <i class="dp-Icon dp-DotsIcon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="dp-SidebarSection dp-SectionControls">
+                    <div class="dp-SectionTitle dp-TimesRow">
+                        <div class="dp-title-item">
+                            <span class="dp-Icon dp-ticket_created Icon--blue"></span>
+                            Created
+                        </div>
+                        <span class="dp-TimesStatus">2 weeks ago</span>
+                    </div>
+                    <div class="dp-SectionTitle dp-TimesRow">
+                        <div class="dp-title-item">
+                            <span class="dp-Icon dp-CurrentUser Icon--blue"></span>
+                            Current user wait
+                        </div>
+                        <span class="dp-TimesStatus">12 hrs 43 mins</span>
+                    </div>
+                </div>
+
+                <div class="dp-SidebarSection dp-SectionControls">
+                    <div class="dp-SectionTitle">
+                        <div class="dp-TitleControls"><span class="dp-Section--name">SLAs</span></div>
+                        <a href="#" class="dp-Controls">
+                            <span class="dp-qt"> +4 </span> 
+                            <i class="dp-Icon dp-DotsIcon is-active"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="dp-Slas">
+                    <div class="dp-TitleControls">Active SLAs</div>
+
+                    <div class="dp-SectionBody">
+                        <div class="dp-TagItem">
+                            <span class="dp-TimeStatus">
+                                <span class="dp-Tag Tag--small Tag--pink">3 hours</span>
+                            </span>
+                            <span class="dp-TagDescription">Time until resolution</span>
+                        </div>
+                        <div class="dp-TagItem">
+                            <span class="dp-TimeStatus">
+                                <span class="dp-Tag Tag--small Tag--warning">10.5 hours</span>
+                            </span>
+                            <span class="dp-TagDescription">Time awaiting reply</span>
+                        </div>
+                    </div>
+
+                    <div class="dp-TitleControls">Completed SLAs</div>
+
+                    <div class="dp-SectionBody">
+                        <div class="dp-TagItem">
+                            <span class="dp-TimeStatus">
+                                <span class="dp-Tag Tag--small Tag--pink">27/24 hrs</span>
+                            </span>
+                            <span class="dp-TagDescription">Time until first respon...</span>
+                        </div>
+                        <div class="dp-TagItem">
+                            <span class="dp-TimeStatus">
+                                <span class="dp-Tag Tag--small Tag--success">14/72 hrs</span>
+                            </span>
+                            <span class="dp-TagDescription">Resolution</span>
+                        </div>
+                        <div class="dp-TagItem">
+                            <span class="dp-TimeStatus">
+                                <span class="dp-Tag Tag--small Tag--warning">x3</span>
+                            </span>
+                            <span class="dp-TagDescription">Time awaiting reply</span>
+                        </div>
+                        <div class="dp-TagItem">
+                            <span class="dp-TimeStatus dp-StatusGroup">
+                                <span class="dp-Tag Tag--small Tag--success">1</span>
+                                <span class="dp-Tag Tag--small Tag--warning">3</span>
+                                <span class="dp-Tag Tag--small Tag--pink">1</span>
+                            </span>
+                            <span class="dp-TagDescription">Time awaiting reply</span>
+                        </div>
+                    </div>
+
+                    <div class="dp-TitleControls">Apply an SLA</div>
+
+                    <div class="dp-ButtonWrapper">
+                        <button class="dp-ActionButton ActionButton--large dp-Arrow" type="button">
+                            Select SLA
+                        </button>
+                        <button class="dp-Button Button--small Button--outlined" type="button">
+                            Apply
+                        </button>
+                    </div>
+
+                </div>
+
+            </div> <!-- Sidebar body -->
+        </div>
+    </div>
+</div>
+```
+
+```html @preview
+<div class="dp-MainWrapper">
+    <div class="dp-SidebarContainer demo-cog demo-menu demo-sidebar">
+        <div class="dp-PageSidebar">
+
+            <ul class="dp-Tabs Tabs--icons">
+                <li class="dp-Tabs-item is-active"><a href="#" class="dp-Icon Icon--email"></a></li>
+                <li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--user"></a></li>
+                <li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--organisation"></a></li>
+            </ul>
+            <div class="dp-SidebarBody dp-VersionCCmenu">
+
+                <div class="dp-SidebarSection">
+                    <div class="dp-SectionBody-item ">
+                        <div class="dp-title-item">
+                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                            Tech company
+                        </div>
+                    </div>
+                    <div class="dp-SectionBody-item dp-UserPanel">
+                        <div class="dp-title-item">
+                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                            <span class="dp-UserName">Zack Prudent</span>
+                            <span class="dp-Icon Icon--OwnerArrows"></span>
+                        </div>
+                        <a href="mailto:zack.pride@techcompany.com" class="dp-MailAddress">zack.prudent@techcompany.com</a>
+                        <div class="dp-Phone">
+                            <i class="dp-Icon dp-phone_filled Icon--blue"></i><a href="tel:+442035678940" >+44 20 356 789 40</a>
+                        </div>
+                        <div class="dp-OpenResolved">
+                            <span class="dp-open"><i class="dp-Icon Icon--email Icon--primary"></i> Open: 7</span>
+                            <span class="dp-resolved"><i class="dp-Icon Icon--email"></i> Resolved: 24</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dp-SidebarSection dp-CCmenu">
+                    <div class="dp-SectionControls">
+                        <div class="dp-SectionTitle dp-CcRow">
+                            <div class="dp-TitleControls">
+                                <span class="dp-open">CC’s</span>
+                                <span class="dp-AddBtn is-active">Add</span>
+                            </div>
+                            <a href="#" class="dp-Controls">
+                                <span class="dp-qt"> +5 </span> 
+                                <i class="dp-Icon dp-DotsIcon is-active"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="dp-SectionControls dp-SidebarSection">
+
+                        <div class="dp-AddCc">
+                            <div class="dp-Menu-search">
+                                <form>
+                                    <div class="dp-Form">
+                                        <input type="email" name="" class="dp-Input" placeholder="Email address">
+                                        <input type="text" name="" placeholder="Name" class="dp-Input">
+                                        <button class="dp-ActionButton dp-Arrow">Language</button>
+                                    </div>
+                                    <button class="dp-Button Button--cc">Add CC</button>
+                                </form>
+                            </div>
+                        </div>
+
+                        <div class="dp-title-item dp-SectionTitle">
+                            <span class="dp-UserName">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <span class="dp-User-link">
+                                    Bob Cooper
+                                    <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">bob.cooper@techcompany.co</a>
+                                </span>
+                            </span>
+                            <a href="#" class="dp-Icon dp-iconVDots"></a>
+                            <!-- hide menu -->
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-Swap"></span>
+                                    <a href="#" class="dp-Menu-link">Swap with ticket owner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-Owner"></span>
+                                    <a href="#" class="dp-Menu-link">Set as ticket owner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-Merge"></span>
+                                    <a href="#" class="dp-Menu-link">Merge into ticket owner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-Bin"></span>
+                                    <a href="#" class="dp-Menu-link">Remove CC</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-iconMin"></span>
+                                    <a href="#" class="dp-Menu-link">Remove CC & Block from ticket</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="dp-title-item dp-SectionTitle">
+                            <span class="dp-UserName">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <span class="dp-User-link">
+                                    Bob Cooper
+                                    <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">bob.cooper@techcompany.co</a>
+                                </span>
+                            </span>
+                            <a href="#" class="dp-Icon dp-iconVDots"></a>
+                            <!-- hide menu -->
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-Swap"></span>
+                                    <a href="#" class="dp-Menu-link">Swap with ticket owner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-Menu-link">Set as ticket owner</a>
+                                    <span class="dp-Icon dp-Owner"></span>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-Merge"></span>
+                                    <a href="#" class="dp-Menu-link">Merge into ticket owner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-Bin"></span>
+                                    <a href="#" class="dp-Menu-link">Remove CC</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-iconMin"></span>
+                                    <a href="#" class="dp-Menu-link">Remove CC & Block from ticket</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="dp-title-item dp-SectionTitle">
+                            <span class="dp-UserName">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <span class="dp-User-link">
+                                    Bob Cooper
+                                    <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">bob.cooper@techcompany.co</a>
+                                </span>
+                            </span>
+                            <a href="#" class="dp-Icon dp-iconVDots"></a>
+                            <!-- hide menu -->
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-Swap"></span>
+                                    <a href="#" class="dp-Menu-link">Swap with ticket owner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-Owner"></span>
+                                    <a href="#" class="dp-Menu-link">Set as ticket owner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-Merge"></span>
+                                    <a href="#" class="dp-Menu-link">Merge into ticket owner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-Bin"></span>
+                                    <a href="#" class="dp-Menu-link">Remove CC</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-iconMin"></span>
+                                    <a href="#" class="dp-Menu-link">Remove CC & Block from ticket</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="dp-title-item dp-SectionTitle">
+                            <span class="dp-UserName">
+                                <span class="dp-Badge Badge--round Badge--grey-light"></span>
+                                <span class="dp-User-link">
+                                    Bob Cooper
+                                    <a href="mailto:w.pride@techcompany.com" class="dp-MailAddress">bob.cooper@techcompany.co</a>
+                                </span>
+                            </span>
+                            <a href="#" class="dp-Icon dp-iconVDots"></a>
+                            <!-- hide menu -->
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-Swap"></span>
+                                    <a href="#" class="dp-Menu-link">Swap with ticket owner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-Owner"></span>
+                                    <a href="#" class="dp-Menu-link">Set as ticket owner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-Merge"></span>
+                                    <a href="#" class="dp-Menu-link">Merge into ticket owner</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-Bin"></span>
+                                    <a href="#" class="dp-Menu-link">Remove CC</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-Icon dp-iconMin"></span>
+                                    <a href="#" class="dp-Menu-link">Remove CC & Block from ticket</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="dp-SidebarSection dp-SectionControls">
+                    <div class="dp-SectionTitle">
+                        <div class="dp-TitleControls"><span class="dp-Section--name">Status</span></div>
+                    </div>
+                </div>
+
+                <div class="dp-SidebarSection">
+
+                    <div class="dp-Selectbelow">
+                        <div class="dp-ButtonWrapper">
+                            <button class="dp-ActionButton dp-Border--danger ActionButton--large dp-Arrow" type="button">
+                                On Hold
+                            </button>
+
+                            <button class="dp-ActionButton dp-Border--danger dp--danger dp-Arrow" type="button">
+                                10
+                            </button>
+                        </div>
+
+                        <div class="dp-ButtonWrapper">
+                            <span class="dp-Icon dp-LevelDown"></span>
+
+                            <button class="dp-ActionButton ActionButton--large dp-Arrow" type="button">
+                                Awaiting order confirmation
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="dp-SidebarSection dp-SectionControls">
+                    <div class="dp-SectionTitle">
+                        <div class="dp-TitleControls"><span class="dp-Section--name">Times</span></div>
+                        <a href="#" class="dp-Controls">
+                            <span class="dp-qt"> +6 </span> 
+                            <i class="dp-Icon dp-DotsIcon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="dp-SidebarSection dp-SectionControls">
+                    <div class="dp-SectionTitle dp-TimesRow">
+                        <div class="dp-title-item">
+                            <span class="dp-Icon dp-ticket_created Icon--blue"></span>
+                            Created
+                        </div>
+                        <span class="dp-TimesStatus">2 weeks ago</span>
+                    </div>
+                    <div class="dp-SectionTitle dp-TimesRow">
+                        <div class="dp-title-item">
+                            <span class="dp-Icon dp-CurrentUser Icon--blue"></span>
+                            Current user wait
+                        </div>
+                        <span class="dp-TimesStatus">12 hrs 43 mins</span>
+                    </div>
+                </div>
+
+                <div class="dp-SidebarSection dp-SectionControls">
+                    <div class="dp-SectionTitle">
+                        <div class="dp-TitleControls"><span class="dp-Section--name">SLAs</span></div>
+                        <a href="#" class="dp-Controls">
+                            <span class="dp-qt"> +4 </span> 
+                            <i class="dp-Icon dp-DotsIcon is-active"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="dp-Slas">
+                    <div class="dp-TitleControls">Active SLAs</div>
+
+                    <div class="dp-SectionBody">
+                        <div class="dp-TagItem">
+                            <span class="dp-TimeStatus">
+                                <span class="dp-Tag Tag--small Tag--pink">3 hours</span>
+                            </span>
+                            <span class="dp-TagDescription">Time until resolution</span>
+                        </div>
+                        <div class="dp-TagItem">
+                            <span class="dp-TimeStatus">
+                                <span class="dp-Tag Tag--small Tag--warning">10.5 hours</span>
+                            </span>
+                            <span class="dp-TagDescription">Time awaiting reply</span>
+                        </div>
+                    </div>
+
+                    <div class="dp-TitleControls">Completed SLAs</div>
+
+                    <div class="dp-SectionBody">
+                        <div class="dp-TagItem">
+                            <span class="dp-TimeStatus">
+                                <span class="dp-Tag Tag--small Tag--pink">27/24 hrs</span>
+                            </span>
+                            <span class="dp-TagDescription">Time until first respon...</span>
+                        </div>
+                        <div class="dp-TagItem">
+                            <span class="dp-TimeStatus">
+                                <span class="dp-Tag Tag--small Tag--success">14/72 hrs</span>
+                            </span>
+                            <span class="dp-TagDescription">Resolution</span>
+                        </div>
+                        <div class="dp-TagItem">
+                            <span class="dp-TimeStatus">
+                                <span class="dp-Tag Tag--small Tag--warning">x3</span>
+                            </span>
+                            <span class="dp-TagDescription">Time awaiting reply</span>
+                        </div>
+                        <div class="dp-TagItem">
+                            <span class="dp-TimeStatus dp-StatusGroup">
+                                <span class="dp-Tag Tag--small Tag--success">1</span>
+                                <span class="dp-Tag Tag--small Tag--warning">3</span>
+                                <span class="dp-Tag Tag--small Tag--pink">1</span>
+                            </span>
+                            <span class="dp-TagDescription">Time awaiting reply</span>
+                        </div>
+                    </div>
+
+                    <div class="dp-TitleControls">Apply an SLA</div>
+
+                    <div class="dp-ButtonWrapper">
+                        <button class="dp-ActionButton ActionButton--large dp-Arrow" type="button">
+                            Select SLA
+                        </button>
+                        <button class="dp-Button Button--small Button--outlined" type="button">
+                            Apply
+                        </button>
+                    </div>
+
                 </div>
 
             </div> <!-- Sidebar body -->

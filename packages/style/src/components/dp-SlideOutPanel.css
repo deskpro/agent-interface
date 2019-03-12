@@ -53,6 +53,7 @@
 
 .dp-SlideOutPanel .dp-TicketSelect .ActionButton--XXlarge,
 .dp-SlideOutPanel .dp-TicketSelect .ActionButton--Xlarge {
+  margin-right: 10px;
   width: 100%;
 }
 

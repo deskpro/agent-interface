@@ -113,7 +113,7 @@ title: Ticket View
 <h4>ticket/status-select</h4>
 ```html @preview
 <div class="dp-MainWrapper">
-	<div class="dp-TicketSelect">
+	<div class="dp-TicketSelect" style="max-width:275px;">
 		<div class="dp-SectionControls">
 			<div class="dp-SectionTitle">
 				<div class="dp-TitleControls">Status</div>
@@ -1887,7 +1887,7 @@ title: Ticket View
 
 	<div class="dp-TeamFollowersWrapper dp-MainRightContainer" style="height: 75px;">
 
-		<div class="dp-TicketSelect dp-TicketSmall">
+		<div class="dp-TicketSelect dp-TicketSmall"">
 			<div class="dp-SectionControls">
 				<div class="dp-SectionTitle">
 					<div class="dp-TitleControls">Agent</div>

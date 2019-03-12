@@ -2,7 +2,6 @@
 title: Filter list
 ---
 
-<h2>filterlist/tickets</h2>
 <h4>filterlist/container</h4>
 ```html @preview
 <div class="dp-MainWrapper">
@@ -109,7 +108,7 @@ title: Filter list
 </div>
 ```
 
-<h4>filterlist/accordian-selected</h4>
+<h4>filterlist/accordian-subtitle-selected</h4>
 ```html @preview
 <div class="dp-MainWrapper">
 	<ul class="dp-TicketMenu is-active">
@@ -123,7 +122,7 @@ title: Filter list
 </div>
 ```
 
-<h4>filterlist/ticket-filters  --  filterlist/ticket-filters-selected</h4>
+<h4>filterlist/ticket-filters-selected</h4>
 ```html @preview
 <div class="dp-MainWrapper">
 
@@ -200,31 +199,23 @@ title: Filter list
 				</ul>
 			</li>
 			<!-- Saved Searches -->
-			<li class="dp-TicketMenuItem dp-MenuBarItem">
+			<li class="dp-TicketMenuItem dp-MenuBarItem dp-SavedSearches">
 				<span class="dp-TitleMenu">
-					<span>Saved Searches</span>
+					<span>Saved Searches <span class="dp-qt">(4)</span></span>
 					<button class="dp-Arrow"></button>
 				</span>
 				<ul class="dp-SubMenu">
 					<li>
-						<a href="#">
-							<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-						</a>
+						<span>KB Articles older than 4 week</span>
 					</li>
 					<li>
-						<a href="#">
-							<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-						</a>
+						<span>Articles by Agent X</span>
 					</li>
 					<li>
-						<a href="#">
-							<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-						</a>
+						<span>News articles in August</span>
 					</li>
 					<li>
-						<a href="#">
-							<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-						</a>
+						<span>Feature requests feedback articles </span>
 					</li>
 				</ul>
 			</li>

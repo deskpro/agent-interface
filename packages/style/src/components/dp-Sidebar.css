@@ -203,7 +203,7 @@
 .dp-PageSidebar .dp-title-item .dp-Badge {
   display: inline-block;
   height: 10px;
-  margin: 0 5px 0 0;
+  margin: 0 6px 0 0;
   vertical-align: middle;
   width: 10px;
 }
@@ -486,4 +486,80 @@
 .dp-PageSidebar .dp-StatusGroup .dp-Tag:last-child {
   border-bottom-right-radius: calc(var(--border-radius) * 0.7);
   border-top-right-radius: calc(var(--border-radius) * 0.7);
+}
+
+.dp-CcRow .dp-TitleControls > span:hover,
+.dp-CcRow .dp-TitleControls > span.is-active {
+  color: var(--brand-primary);
+  cursor: pointer;
+}
+
+.dp-AddCc {
+  display: block;
+  margin: 5px 0;
+}
+
+.dp-AddCc .dp-Form {
+  flex-direction: column;
+}
+
+.dp-AddCc .dp-Input {
+  background-color: var(--white);
+  border: 1px solid var(--grey-light);
+  border-radius: 2px;
+  padding: 5px;
+  width: 100%;
+}
+
+.dp-AddCc .dp-Button,
+.dp-AddCc .dp-ActionButton,
+.dp-AddCc .dp-Input + .dp-Input {
+  margin-top: 8px;
+}
+
+.dp-AddCc .dp-ActionButton {
+  width: 100%;
+}
+
+.dp-AddCc .dp-Menu-search {
+  padding: 0;
+  width: 100%;
+}
+
+.dp-AddCc .dp-Menu-search .dp-Input {
+  border: 1px solid var(--grey-light);
+}
+
+.dp-AddCc .dp-Menu-search .dp-Input:focus {
+  border: 1px solid var(--brand-primary);
+}
+
+.dp-AddCc .dp-Input::placeholder,
+.dp-AddCc .dp-ActionButton {
+  color: var(--grey);
+  font: var(--p-xl-italic);
+}
+
+.dp-AddCc .dp-Button {
+  background-color: var(--primary-light);
+  border: 1px solid var(--grey-light);
+  color: var(--brand-primary);
+  padding: 5.5px;
+  width: 100%;
+}
+
+.dp-AddCc .dp-Button:hover {
+  background-color: var(--brand-primary);
+  color: var(--white);
+}
+
+.dp-AddCc .dp-Button.Button--cc {
+  background-color: var(--white);
+  color: var(--grey);
+  max-width: 62px;
+}
+
+.dp-AddCc .dp-Button.Button--cc:hover {
+  background-color: var(--brand-primary);
+  color: var(--white);
 }
