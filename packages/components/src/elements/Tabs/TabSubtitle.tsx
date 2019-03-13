@@ -4,7 +4,7 @@ import Icon from "../Icon/Icon";
 
 export type TabSubtitleProps = {
   className?: string;
-  icon: string;
+  icon: React.ReactNode;
 };
 
 const TabSubtitle: React.FC<TabSubtitleProps> = ({
@@ -13,7 +13,8 @@ const TabSubtitle: React.FC<TabSubtitleProps> = ({
   className = ""
 }) => (
   <span className={classNames("Tabs-item--row", className)}>
-    <Icon name={icon} size={15} />
+    {typeof icon === "string" && <Icon name={icon} size={15} />}
+    {typeof icon !== "string" && icon}
     <span className="dp-Subtitle">{children}</span>
   </span>
 );

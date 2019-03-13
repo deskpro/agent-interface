@@ -27,6 +27,7 @@ export {
 } from "./User/ActivityStatus/ActivityStatus";
 
 export { default as Tabs } from "./elements/Tabs/Tabs";
+export { default as PageTabs } from "./elements/Tabs/PageTabs";
 export { default as Menu } from "./elements/Menu/Menu";
 export { default as ContextMenu } from "./elements/Menu/ContextMenu";
 export {
