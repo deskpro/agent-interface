@@ -2,6 +2,7 @@ import React from "react";
 import produce from "immer";
 
 import { StandardOptionList } from "@deskpro/agent-interface-components";
+import { action } from "@storybook/addon-actions";
 
 const initialItems = [
   { name: "agent", title: "Agent", disabled: true },
@@ -21,7 +22,7 @@ const initialItems = [
     name: "created",
     title: "Created",
     settings: [
-      { name: "created.date", text: "Date" },
+      { name: "created.date_only", text: "Date" },
       { name: "created.date_time", text: "Date/Time" },
       { name: "created.time_ago", text: "Time Ago" }
     ]
@@ -30,7 +31,7 @@ const initialItems = [
     name: "waiting_time",
     title: "All waiting time",
     settings: [
-      { name: "waiting_time.date", text: "Date" },
+      { name: "waiting_time.date_only", text: "Date" },
       { name: "waiting_time.date_time", text: "Date/Time" },
       { name: "waiting_time.time_ago", text: "Time Ago" }
     ]
@@ -39,7 +40,7 @@ const initialItems = [
     name: "last_reply",
     title: "Date of last reply",
     settings: [
-      { name: "last_reply.date", text: "Date" },
+      { name: "last_reply.date_only", text: "Date" },
       { name: "last_reply.date_time", text: "Date/Time" },
       { name: "last_reply.time_ago", text: "Time Ago" }
     ]
@@ -48,7 +49,7 @@ const initialItems = [
     name: "last_user_reply",
     title: "Date of last user reply",
     settings: [
-      { name: "last_user_reply.date", text: "Date" },
+      { name: "last_user_reply.date_only", text: "Date" },
       { name: "last_user_reply.date_time", text: "Date/Time" },
       { name: "last_user_reply.time_ago", text: "Time Ago" }
     ]
@@ -57,7 +58,7 @@ const initialItems = [
     name: "last_agent_reply",
     title: "Date of last agent reply",
     settings: [
-      { name: "last_agent_reply.date", text: "Date" },
+      { name: "last_agent_reply.date_only", text: "Date" },
       { name: "last_agent_reply.date_time", text: "Date/Time" },
       { name: "last_agent_reply.time_ago", text: "Time Ago" }
     ]
@@ -66,7 +67,7 @@ const initialItems = [
     name: "date_resolved",
     title: "Date resolved",
     settings: [
-      { name: "date_resolved.date", text: "Date" },
+      { name: "date_resolved.date_only", text: "Date" },
       { name: "date_resolved.date_time", text: "Date/Time" },
       { name: "date_resolved.time_ago", text: "Time Ago" }
     ]
@@ -106,19 +107,10 @@ const itemsReducer = produce((draft, [type, args]) => {
       break;
   }
 });
-
-const initState = () =>
-  initialItems.map(
-    produce(i => {
-      if (i.settings) {
-        i.settings[0].isChecked = true;
-      }
-    })
-  );
 /* eslint-enable no-param-reassign */
 
 const OptionListDemo = () => {
-  const [items, dispatch] = React.useReducer(itemsReducer, initState());
+  const [items, dispatch] = React.useReducer(itemsReducer, initialItems);
 
   return (
     <StandardOptionList
@@ -128,9 +120,7 @@ const OptionListDemo = () => {
       checkable
       onCheck={(name, checked) => dispatch(["check", { name, checked }])}
       onOrderChange={(name, from, to) => dispatch(["move", { name, from, to }])}
-      onSettingChange={(name, checked) =>
-        dispatch(["setting", { name, checked }])
-      }
+      onSettingChange={action("setting toggle")}
     />
   );
 };

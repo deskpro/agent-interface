@@ -5,7 +5,6 @@ import Menu from "../Menu/Menu";
 export type OptionItemSettings = {
   name: React.Key;
   text: string;
-  isChecked?: boolean;
 };
 
 export type OptionItemType = {
@@ -46,17 +45,14 @@ const StandardOptionList: React.FC<StandardOptionListProps> = ({
         renderGearMenu={
           settings
             ? menuProps => (
-                <Menu {...menuProps}>
+                <Menu
+                  {...menuProps}
+                  isCheckable
+                  onItemCheck={onSettingChange}
+                  checkedItems={[settings[0].name]}
+                >
                   {settings.map(setting => (
-                    <Menu.MenuItem
-                      {...setting}
-                      key={setting.name}
-                      onClick={settingName => {
-                        if (onSettingChange) {
-                          onSettingChange(settingName, !setting.isChecked);
-                        }
-                      }}
-                    />
+                    <Menu.MenuItem {...setting} key={setting.name} />
                   ))}
                 </Menu>
               )
