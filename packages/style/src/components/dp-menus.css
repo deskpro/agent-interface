@@ -122,8 +122,6 @@
   min-width: 250px;
 }
 
-/* listpane/rightclick */
-
 .dp-Menu .dp-Menu-linkItem {
   align-items: center;
   color: var(--grey-darkest);
@@ -133,7 +131,9 @@
   margin: 0;
   margin: auto;
   position: relative;
-  width: calc(100% - 2px);
+
+  /* width: calc(100% - 2px); */
+
 }
 
 .dp-Menu .dp-Menu-linkItem > span {

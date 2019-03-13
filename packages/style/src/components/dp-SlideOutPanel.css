@@ -51,14 +51,19 @@
   width: 100px;
 }
 
+.dp-SlideOutPanel .dp-TicketSelect .dp-ButtonWrapper {
+  margin-bottom: 10px;
+}
+
 .dp-SlideOutPanel .dp-TicketSelect .ActionButton--XXlarge,
 .dp-SlideOutPanel .dp-TicketSelect .ActionButton--Xlarge {
-  margin-right: 10px;
+  margin-right: 20px;
   width: 100%;
 }
 
 .dp-SlideOutPanel .dp-TicketSelect {
-  margin-bottom: 10px;
+
+  /* margin-bottom: 10px; */
   padding: 0;
 }
 
@@ -76,6 +81,7 @@
 .dp-SecurityBreach .dp-Icon {
   background-size: 14px 18px;
   height: 20px;
+  margin-right: 5px;
   width: 15px;
 }
 
@@ -103,10 +109,13 @@ input.dp-NewTitle {
 }
 
 .dp-SlideOutPanel .dp-Tickets .dp-TitleName {
+  align-items: center;
   color: var(--grey-darkest);
+  display: flex;
   display: flex;
   font: var(--p-n);
   margin-bottom: 10px;
+  padding: 2px 0;
   position: relative;
 }
 
@@ -114,8 +123,26 @@ input.dp-NewTitle {
   display: block;
 }
 
-.dp-SlideOutPanel .dp-TitleName .dp-DownCaret {
+.dp-SlideOutPanel .dp-TitleName > .dp-Icon {
+  margin-left: 5px;
+}
+
+.dp-dropdownContainer .dp-FollowerList .dp-FollowersItem {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.dp-dropdownContainer .dp-FollowerList .dp-FollowersItem:hover {
+  background-color: transparent;
+  border: 0.5px solid transparent;
+}
+
+/* .dp-SlideOutPanel .dp-TitleName .dp-DownCaret {
   background-size: 12px 7px;
+} */
+
+.dp-SlideOutPanel .dp-Menu-search {
+  padding: 0;
 }
 
 .dp-SlideOutPanel.dp-WarningContainer {
@@ -233,4 +260,8 @@ input.dp-NewTitle {
 
 .dp-SlideOutPanel .dp-ContextMenu > li > a:hover {
   color: var(--grey-darkest);
+}
+
+.dp-TicketSelect + .dp-ReplyWrapper {
+  margin-top: 20px;
 }

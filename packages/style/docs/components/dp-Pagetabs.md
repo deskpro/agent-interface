@@ -76,7 +76,7 @@ title: Page Tabs
 
 <h2>pagetabs/alltabs-oneselected</h2>
 ```html @preview
-<div class="dp-MainWrapper demo-menu dp-Oneselected">
+<div class="dp-MainWrapper demo-menu demo-TabContainer">
     <ul class="dp-Tabs Tabs--general">
 
         <li class="dp-Tabs-item Tabs-item--button">
@@ -171,7 +171,7 @@ title: Page Tabs
 
 <h2>pagetabs/alltabs-oneselected-more</h2>
 ```html @preview
-<div class="dp-MainWrapper demo-menu dp-Oneselected" style="height: 250px">
+<div class="dp-MainWrapper demo-menu demo-TabContainer" style="height: 250px">
     <ul class="dp-Tabs Tabs--general">
 
         <li class="dp-Tabs-item Tabs-item--button">

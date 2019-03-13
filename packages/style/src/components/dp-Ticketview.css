@@ -17,6 +17,13 @@
   background-color: transparent;
 }
 
+.dp-DropDownBar {
+  background-color: var(--grey-lightest);
+  border-bottom: 1px solid var(--grey-light);
+  border-top: 1px solid var(--grey-light);
+  display: block;
+}
+
 .dp-ControlBar.dp-DropDownBar .dp-Tabs-item + .dp-Tabs-item {
   background-color: var(--grey-lightest);
 }
@@ -94,7 +101,6 @@
 
 .dp-Followers {
   display: inline-block;
-  max-width: 410px;
   width: 100%;
 }
 
@@ -107,7 +113,7 @@
   align-items: center;
   border: 0.5px solid transparent;
   display: flex;
-  flex: 0 0 25%;
+  flex: 1 0 25%;
   height: 14px;
   justify-content: space-between;
   margin: 0 2px 5px 0;
@@ -243,7 +249,7 @@
   border: 1px solid var(--brand-primary);
   border-radius: var(--border-radius);
   display: block;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   position: relative;
 }
 
@@ -587,6 +593,10 @@
   border-top: 1px solid var(--grey-light);
   display: flex;
   padding-top: 10px;
+}
+
+.dp-DropDownBar + .dp-MainContainer {
+  border-top: none;
 }
 
 .dp-MainRightContainer {

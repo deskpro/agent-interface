@@ -16,39 +16,47 @@ title: Slide-Out Panel
                     </div>
                 </div>
                 <!-- 1 -->
-                <div class="dp-SectionControls">
-                    <div class="dp-SectionTitle">
-                        <div class="dp-TitleControls">AGENT <span class="dp-Arrow"></span></div>
-                        <div class="dp-StatusTimes dp-MenuBarItem">
-                            Assign to me | Unassign
+                <div class="dp-TicketSelect">
+                    <div class="dp-SectionControls">
+                        <div class="dp-SectionTitle">
+                            <div class="dp-TitleControls">AGENT <span class="dp-Arrow"></span></div>
+                            <div class="dp-StatusTimes dp-MenuBarItem">
+                                Assign to me | Unassign
+                            </div>
                         </div>
-                    </div>
-                    <div class="dp-Select">
-                        <span class="is-italic">Select</span>
+                        <div class="dp-Select">
+                            <span class="is-italic">Select</span>
+                        </div>
                     </div>
                 </div>
                 <!-- 2 -->
-                <div class="dp-SectionControls">
-                    <div class="dp-SectionTitle">
-                        <div class="dp-TitleControls">TEAM <span class="dp-Arrow"></span></div>
-                    </div>
-                    <div class="dp-Select">
-                        <span class="is-italic">Select</span>
+                <div class="dp-TicketSelect">
+                    <div class="dp-SectionControls">
+                        <div class="dp-SectionTitle">
+                            <div class="dp-TitleControls">TEAM <span class="dp-Arrow"></span></div>
+                        </div>
+                        <div class="dp-Select">
+                            <span class="is-italic">Select</span>
+                        </div>
                     </div>
                 </div>
                 <!-- 3 -->
-                <div class="dp-SectionControls">
-                    <div class="dp-SectionTitle">
-                        <div class="dp-TitleControls">STATUS <span class="dp-Arrow"></span></div>
-                    </div>
-                    <div class="dp-Select">
-                        <span class="is-italic">Select</span>
+                <div class="dp-TicketSelect">
+                    <div class="dp-SectionControls">
+                        <div class="dp-SectionTitle">
+                            <div class="dp-TitleControls">STATUS <span class="dp-Arrow"></span></div>
+                        </div>
+                        <div class="dp-Select">
+                            <span class="is-italic">Select</span>
+                        </div>
                     </div>
                 </div>
                 <!-- 4 -->
-                <div class="dp-SectionControls">
-                    <div class="dp-SectionTitle">
-                        <div class="dp-TitleControls">MACROS <span class="dp-Arrow"></span></div>
+                <div class="dp-TicketSelect">
+                    <div class="dp-SectionControls">
+                        <div class="dp-SectionTitle">
+                            <div class="dp-TitleControls">MACROS <span class="dp-Arrow"></span></div>
+                        </div>
                     </div>
                 </div>
 
@@ -384,151 +392,59 @@ title: Slide-Out Panel
 
                         </div>
 
-<!--                         <ul class="dp-TicketSelect">
-                            <li class="dp-FollowersItem">
-                                <span class="dp-LogoName">
-                                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                                    <span class="dp-UserName"> Peter Fergerson </span>
-                                </span>
-                            </li>                        
-                            <li class="dp-FollowersItem">
-                                <span class="dp-LogoName">
-                                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                                    <span class="dp-UserName"> Wendy Pride </span>
-                                </span>
-                            </li>                        
-                            <li class="dp-FollowersItem">
-                                <span class="dp-LogoName">
-                                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                                    <span class="dp-UserName"> Zack Prudent </span>
-                                </span>
-                            </li>                        
-                            <li class="dp-FollowersItem">
-                                <span class="dp-LogoName">
-                                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                                    <span class="dp-UserName"> John Richardson </span>
-                                </span>
-                            </li>
-                            <li class="dp-FollowersItem">
-                                <span class="dp-LogoName">
-                                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                                    <span class="dp-UserName"> Leanne Spencer </span>
-                                </span>
-                            </li>
-                            <li class="dp-FollowersItem">
-                                <span class="dp-LogoName">
-                                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                                    <span class="dp-UserName"> Laura Thomas </span>
-                                </span>
-                            </li>
-                            <li class="dp-FollowersItem">
-                                <span class="dp-LogoName">
-                                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                                    <span class="dp-UserName"> Geoff Volts </span>
-                                </span>
-                            </li>
-                            <li class="dp-FollowersItem">
-                                <span class="dp-LogoName">
-                                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                                    <span class="dp-UserName"> Michael Zamba </span>
-                                </span>
-                            </li>
-                        </ul> -->
-                        
-                        <div class="dp-Followers demo-tooltip">
-
-                            <div class="dp-SectionControls">
-                                <div class="dp-SectionTitle">
-                                    <div class="dp-TitleControls">Followers <span class="dp-qt">(8)<span></div>
-                                    <div class="dp-StatusTimes dp-FollowersStatus is-active">
-                                        Following
-                                        <span class="dp-Icon dp-following Icon--primary"></span>
-                                    </div>
-                                </div>
+                        <div class="dp-TicketSelect">
+                            <div class="dp-Followers">
+                                <ul class="dp-FollowerList">
+                                    <li class="dp-FollowersItem">
+                                        <span class="dp-LogoName">
+                                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                                            <span class="dp-UserName"> Peter Fergers </span>
+                                        </span>
+                                    </li>
+                                    <li class="dp-FollowersItem">
+                                        <span class="dp-LogoName">
+                                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                                            <span class="dp-UserName"> Wendy pride </span>
+                                        </span>
+                                    </li>
+                                    <li class="dp-FollowersItem">
+                                        <span class="dp-LogoName">
+                                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                                            <span class="dp-UserName"> Peter Fergers </span>
+                                        </span>
+                                    </li>
+                                    <li class="dp-FollowersItem">
+                                        <span class="dp-LogoName">
+                                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                                            <span class="dp-UserName"> John Richardson </span>
+                                        </span>
+                                    </li>
+                                    <li class="dp-FollowersItem">
+                                        <span class="dp-LogoName">
+                                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                                            <span class="dp-UserName"> John Richards </span>
+                                        </span>
+                                    </li>
+                                    <li class="dp-FollowersItem">
+                                        <span class="dp-LogoName">
+                                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                                            <span class="dp-UserName"> Peter Fergers </span>
+                                        </span>
+                                    </li>
+                                    <li class="dp-FollowersItem">
+                                        <span class="dp-LogoName">
+                                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                                            <span class="dp-UserName"> Wendy pride </span>
+                                        </span>
+                                    </li>
+                                    <li class="dp-FollowersItem">
+                                        <span class="dp-LogoName">
+                                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                                            <span class="dp-UserName"> Wendy pride </span>
+                                        </span>
+                                    </li>
+                                </ul>
                             </div>
-
-                            <ul class="dp-FollowerList Followers--Medium">
-                                <li class="dp-FollowersItem">
-                                    <span class="dp-LogoName">
-                                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                                        <span class="dp-UserName"> Peter Fergers </span>
-                                    </span>
-                                    <i class="dp-Icon dp-close"></i>
-                                    <!-- tooltip -->
-                                    <span class="dp-ToolTips">Peter Fergers</span>
-                                </li>
-                                <li class="dp-FollowersItem">
-                                    <span class="dp-LogoName">
-                                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                                        <span class="dp-UserName"> Wendy pride </span>
-                                    </span>
-                                    <i class="dp-Icon dp-close"></i>
-                                    <!-- tooltip -->
-                                    <span class="dp-ToolTips">Wendy pride</span>
-                                </li>
-                                <li class="dp-FollowersItem">
-                                    <span class="dp-LogoName">
-                                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                                        <span class="dp-UserName"> Peter Fergers </span>
-                                    </span>
-                                    <i class="dp-Icon dp-close"></i>
-                                    <!-- tooltip -->
-                                    <span class="dp-ToolTips">Peter Fergers</span>
-                                </li>
-                                <li class="dp-FollowersItem">
-                                    <span class="dp-LogoName">
-                                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                                        <span class="dp-UserName"> John Richardson </span>
-                                    </span>
-                                    <i class="dp-Icon dp-close"></i>
-                                    <!-- tooltip -->
-                                    <span class="dp-ToolTips">John Richardson</span>
-                                </li>
-                                <li class="dp-FollowersItem">
-                                    <span class="dp-LogoName">
-                                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                                        <span class="dp-UserName"> John Richards </span>
-                                    </span>
-                                    <i class="dp-Icon dp-close"></i>
-                                    <!-- tooltip -->
-                                    <span class="dp-ToolTips">John Richards</span>
-                                </li>
-                                <li class="dp-FollowersItem">
-                                    <span class="dp-LogoName">
-                                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                                        <span class="dp-UserName"> Peter Fergers </span>
-                                    </span>
-                                    <i class="dp-Icon dp-close"></i>
-                                    <!-- tooltip -->
-                                    <span class="dp-ToolTips">Peter Fergers</span>
-                                </li>
-                                <li class="dp-FollowersItem">
-                                    <span class="dp-LogoName">
-                                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                                        <span class="dp-UserName"> Wendy pride </span>
-                                    </span>
-                                    <i class="dp-Icon dp-close"></i>
-                                    <!-- tooltip -->
-                                    <span class="dp-ToolTips">Wendy pride</span>
-                                </li>
-                                <li class="dp-FollowersItem">
-                                    <span class="dp-LogoName">
-                                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                                        <span class="dp-UserName"> Wendy pride </span>
-                                    </span>
-                                    <i class="dp-Icon dp-close"></i>
-                                    <!-- tooltip -->
-                                    <span class="dp-ToolTips">Wendy pride</span>
-                                </li>
-
-                                <li class="dp-FollowersBtn">
-                                    <button class="dp-Button Button--link Button--small">
-                                        <span class="dp-Icon dp-add_follower Icon--primary"></span>
-                                        <span>Add</span>
-                                    </button>
-                                </li>
-                            </ul>
-
                         </div>
 
                     </div>
@@ -544,7 +460,7 @@ title: Slide-Out Panel
                             <li class="dp-FollowersBtn">
                                 <button class="dp-Button Button--link Button--small">
                                     <span class="dp-Icon dp-add_follower Icon--primary"></span>
-                                    <span id="text">Add action</span>
+                                    <span>Add action</span>
                                 </button>
                             </li>
                         </ul>
