@@ -158,3 +158,10 @@
   left: calc(100% - 5px);
   top: calc(100% + 5px);
 }
+
+/* PageTabs */
+
+.demo-menu .dp-Tabs .dp-SelectedMore.dp-Menu {
+  left: auto;
+  right: 0;
+}

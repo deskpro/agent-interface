@@ -49,6 +49,10 @@
   padding: 10px 20px;
 }
 
+.ToolTips--Delete {
+  min-width: 285px;
+}
+
 /* PrimaryDelete Tooltip */
 
 .dp-ToolTips.ToolTips--PrimaryDelete .dp-ToolTipsUp {
@@ -60,7 +64,11 @@
   padding: 10px 20px;
 }
 
-/* WarningDelete */
+.ToolTips--WarningDelete .dp-ToolTipsUp > .dp-Icon svg {
+  fill: var(--warning);
+}
+
+/* WarningDelete Tooltip */
 
 .dp-ToolTips.ToolTips--WarningDelete .dp-ToolTipsUp {
   background-color: var(--warning-light);
@@ -71,19 +79,25 @@
   border: 1px solid var(--warning);
 }
 
+.ToolTips--WarningDelete .dp-ToolTipsUp > .dp-Icon svg {
+  fill: var(--warning);
+}
+
+.ToolTips--WarningDelete .dp-ToolTipsDown {
+  display: flex;
+  flex-direction: column;
+}
+
 .dp-ToolTips .dp-ToolTipsDown .dp-UserTitleInfo {
   align-items: center;
   display: flex;
+  margin: 0 0 10px;
 }
 
-.dp-ToolTips .dp-ToolTipsDown .dp-UserTitleInfo .dp-Icon {
+.dp-ToolTips .dp-ToolTipsDown .dp-UserTitleInfo > .dp-Icon {
   margin-right: 7px;
   max-width: 20px;
 }
-
-/* .dp-ToolTips .dp-ToolTipsDown > .dp-Icon {
-  margin-right: 7px;
-} */
 
 .dp-ToolTips .dp-ToolTipsDown .dp-UserTitleInfo .dp-UserName {
   font: var(--h-n-semibold);
@@ -94,9 +108,53 @@
   font: var(--p-n);
 }
 
+.dp-ToolTips .dp-Time {
+  align-items: center;
+  display: flex;
+}
+
 .dp-ToolTips .dp-Time > .dp-Icon {
-  background-size: 10px;
-  height: 10px;
+  background-size: 12px;
+  height: 12px;
   margin-right: 5px;
-  width: 10px;
+  width: 12px;
+}
+
+.dp-ToolTips .dp-ReasonTitle {
+  color: var(--grey-darkest);
+  font: var(--p-xl);
+  margin-bottom: 8px;
+}
+
+.dp-ToolTips .dp-ReasonSubtitle {
+  color: var(--grey-darkest);
+  font: var(--p-s);
+}
+
+.dp-ReasonTitle .dp-Description,
+.dp-ReasonSubtitle .dp-Description {
+  color: var(--grey-dark);
+}
+
+.dp-ToolTips .dp-TimesStatus {
+  font: var(--p-s-semibold);
+}
+
+.dp-ToolTips.ToolTips--WarningDelete .dp-ButtonWrapper {
+  padding: 0 20px 10px;
+}
+
+/* Success Tooltip */
+
+.dp-ToolTips.ToolTips--SuccessDelete .dp-ToolTipsUp {
+  background-color: var(--success-light);
+  color: var(--success);
+}
+
+.dp-ToolTips.ToolTips--SuccessDelete {
+  border: 1px solid var(--success);
+}
+
+.ToolTips--SuccessDelete .dp-ToolTipsUp > .dp-Icon svg {
+  fill: var(--success);
 }

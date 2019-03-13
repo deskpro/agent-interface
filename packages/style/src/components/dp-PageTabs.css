@@ -48,10 +48,10 @@
   cursor: pointer;
   flex-direction: column;
   margin-bottom: -1px;
+  max-width: 200px;
   min-width: 160px;
   padding: 5px 10px;
   position: relative;
-
   width: 100%;
 }
 
@@ -159,10 +159,12 @@
 }
 
 .dp-Tabs .dp-SelectedMore.dp-Menu {
-  left: auto;
   overflow: hidden;
   padding: 0;
-  right: 0;
+
+  /*  left: auto;
+  right: 0; */
+
 }
 
 .Tabs--general .dp-Tabs-item.Tabs-item--button {
@@ -437,5 +439,5 @@
 }
 
 .Tabs--actions .dp-Menu .dp-Menu-linkItem {
-  padding: 3.5px 6px;;
+  padding: 3.5px 6px;
 }

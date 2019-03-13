@@ -22,7 +22,7 @@ title: Tool tips
 ```html @preview
 <div class="dp-MainWrapper demo-tooltip" style="height: 150px;">
 
-      <div class="dp-ToolTips ToolTips--PrimaryDelete is-active">
+      <div class="dp-ToolTips ToolTips--Delete ToolTips--PrimaryDelete is-active">
       	<div class="dp-ToolTipsUp">
       		<span class="dp-Icon dp-Exclamation Icon-blue"></span>
       		<p>Delete</p>
@@ -32,10 +32,9 @@ title: Tool tips
       	</div>
 		<div class="dp-ButtonWrapper">
 			<button class="dp-Button" type="button">Delete</button>
-			<button class="dp-Button dp-Button Button--outlined" type="button">Cancel</button>
+			<button class="dp-Button Button--outlined" type="button">Cancel</button>
 		</div>
       </div>
-
 
 </div>
 ```
@@ -43,29 +42,48 @@ title: Tool tips
 <!-- WarningDelete -->
 
 ```html @preview
+<div class="dp-MainWrapper demo-tooltip" style="height: 200px;">
+
+	<div class="dp-ToolTips ToolTips--Delete ToolTips--WarningDelete is-active">
+		<div class="dp-ToolTipsUp">
+			<span class="dp-Icon dp-Exclamation Icon--warning"></span>
+			<p>Ticket was deleted by</p>
+		</div>
+		<div class="dp-ToolTipsDown">
+			<p class="dp-UserTitleInfo">
+			<span class="dp-Icon dp-UserIcon"><img src="/agent-interface/style/img/docs/avatar.png" alt=""></span>
+			<span class="dp-UserName">Zack Prudent</span>
+			<span class="dp-Time">
+				<span class="dp-Icon dp-history Icon--blue"></span>
+				28 mins ago
+			</span>
+		</p>
+		<p class="dp-ReasonTitle">
+			<span class="dp-Description">Reason:</span> Duplicate ticket
+		</p>
+		<p class="dp-ReasonSubtitle">
+			<span class="dp-Description">This ticket will be permantely removed from the system in</span> <span class="dp-TimesStatus">27 days 23 hours.</span>
+		</p>	
+		</div>
+		<div class="dp-ButtonWrapper">
+			<button class="dp-Button Button--outlined" type="button">Undo</button>
+		</div>
+	</div>
+
+</div>
+```
+
+```html @preview
 <div class="dp-MainWrapper demo-tooltip" style="height: 150px;">
 
-      <div class="dp-ToolTips ToolTips--WarningDelete is-active">
-      	<div class="dp-ToolTipsUp">
-      		<span class="dp-Icon dp-Exclamation Icon--warning"></span>
-      		<p>Ticket was deleted by</p>
-      	</div>
-      	<div class="dp-ToolTipsDown">
-      		<p class="dp-UserTitleInfo">
-				<span class="dp-Icon dp-UserIcon"><img src="/agent-interface/style/img/docs/avatar.png" alt=""></span>
-				<p class="dp-UserName">Zack Prudent</p>
-				<span class="dp-Time">
-					<span class="dp-Icon dp-history Icon--blue"></span>
-					28 mins ago
-				</span>
-			</p>
-			<p>
-				Reason: Duplicate ticket
-			</p>
-			<p>
-				This ticket will be permantely removed from the system in 27 days 23 hours.
-			</p>	
-      	</div>
+      <div class="dp-ToolTips ToolTips--Delete ToolTips--SuccessDelete is-active">
+		<div class="dp-ToolTipsUp">
+			<span class="dp-Icon dp-Approve Approve--success"></span>
+			<p>Ticket restored</p>
+		</div>
+		<div class="dp-ToolTipsDown">
+			<p>Your ticket has now been restored.</p>
+		</div>
       </div>
 
 </div>
