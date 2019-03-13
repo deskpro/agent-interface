@@ -4,7 +4,7 @@ import Icon from "../Icon/Icon";
 
 export type TabItemProps = {
   className?: string;
-  icon?: string;
+  icon?: React.ReactNode;
   iconColor?: DPColor;
   iconOnly?: boolean;
   isActive?: boolean;
@@ -12,6 +12,8 @@ export type TabItemProps = {
   onTabClick?(e: React.SyntheticEvent<HTMLElement>): void;
   onMenuToggle?(e: React.SyntheticEvent<HTMLElement>): void;
   renderMenu?(): React.ReactNode;
+  tabRef?: React.Ref<HTMLLIElement>;
+  children?: React.ReactNode;
 };
 
 const TabItem: React.FC<TabItemProps> = ({
@@ -24,7 +26,8 @@ const TabItem: React.FC<TabItemProps> = ({
   isExpanded = false,
   onTabClick,
   onMenuToggle,
-  renderMenu
+  renderMenu,
+  tabRef
 }) => (
   <li
     className={classNames("dp-Tabs-item", className, {
@@ -35,8 +38,12 @@ const TabItem: React.FC<TabItemProps> = ({
     role="menuitem"
     onClick={onTabClick}
     onKeyPress={e => e.key === "Enter" && onTabClick && onTabClick(e)}
+    ref={tabRef}
   >
-    {!!icon && <Icon name={icon} size={iconOnly ? 24 : 13} color={iconColor} />}
+    {!!icon && typeof icon === "string" && (
+      <Icon name={icon} size={iconOnly ? 24 : 13} color={iconColor} />
+    )}
+    {!!icon && typeof icon !== "string" && icon}
     {children}
     {!!renderMenu && (
       <button className="dp-Arrow" type="button" onClick={onMenuToggle} />
@@ -45,4 +52,6 @@ const TabItem: React.FC<TabItemProps> = ({
   </li>
 );
 
-export default TabItem;
+export default React.forwardRef<HTMLLIElement, TabItemProps>((props, ref) => (
+  <TabItem {...props} tabRef={ref} />
+));
