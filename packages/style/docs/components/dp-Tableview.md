@@ -28,10 +28,10 @@ title: Tableview
             </span>
 
             <!-- dropdown -->
-            <ul class="dp-Menu Menu-grouped Menu--tick Menu--tick-left">
+            <ul class="dp-Menu Menu-grouped Menu-tick Menu--tick-left">
                 <li class="dp-Menu-linkItem is-checked">
                     <a href="" class="dp-listItem">Department (DSC)<span class="dp-Icon dp-settings"></span></a>
-                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                    <ul class="dp-Menu Menu-tick Menu--tick-left">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Ascending</a>
                         </li>
@@ -42,7 +42,7 @@ title: Tableview
                 </li>
                 <li class="dp-Menu-linkItem">
                     <a href="" class="dp-listItem">Product<span class="dp-Icon dp-settings"></span></a>
-                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                    <ul class="dp-Menu Menu-tick Menu--tick-left">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Ascending</a>
                         </li>
@@ -53,7 +53,7 @@ title: Tableview
                 </li>
                 <li class="dp-Menu-linkItem">
                     <a href="" class="dp-listItem">Workflow<span class="dp-Icon dp-settings"></span></a>
-                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                    <ul class="dp-Menu Menu-tick Menu--tick-left">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Ascending</a>
                         </li>
@@ -64,7 +64,7 @@ title: Tableview
                 </li>
                 <li class="dp-Menu-linkItem">
                     <a href="" class="dp-listItem">Organization<span class="dp-Icon dp-settings"></span></a>
-                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                    <ul class="dp-Menu Menu-tick Menu--tick-left">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Ascending</a>
                         </li>
@@ -75,7 +75,7 @@ title: Tableview
                 </li>
                 <li class="dp-Menu-linkItem">
                     <a href="" class="dp-listItem">Person<span class="dp-Icon dp-settings"></span></a>
-                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                    <ul class="dp-Menu Menu-tick Menu--tick-left">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Ascending</a>
                         </li>
@@ -86,7 +86,7 @@ title: Tableview
                 </li>
                 <li class="dp-Menu-linkItem">
                     <a href="" class="dp-listItem">Language<span class="dp-Icon dp-settings"></span></a>
-                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                    <ul class="dp-Menu Menu-tick Menu--tick-left">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Ascending</a>
                         </li>
@@ -97,7 +97,7 @@ title: Tableview
                 </li>
                 <li class="dp-Menu-linkItem">
                     <a href="" class="dp-listItem">Agent<span class="dp-Icon dp-settings"></span></a>
-                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                    <ul class="dp-Menu Menu-tick Menu--tick-left">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Ascending</a>
                         </li>
@@ -108,7 +108,7 @@ title: Tableview
                 </li>
                 <li class="dp-Menu-linkItem">
                     <a href="" class="dp-listItem">Agent team<span class="dp-Icon dp-settings"></span></a>
-                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                    <ul class="dp-Menu Menu-tick Menu--tick-left">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Ascending</a>
                         </li>
@@ -119,7 +119,7 @@ title: Tableview
                 </li>
                 <li class="dp-Menu-linkItem">
                     <a href="" class="dp-listItem">Waiting time<span class="dp-Icon dp-settings"></span></a>
-                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                    <ul class="dp-Menu Menu-tick Menu--tick-left">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Ascending</a>
                         </li>
@@ -130,7 +130,7 @@ title: Tableview
                 </li>
                 <li class="dp-Menu-linkItem">
                     <a href="" class="dp-listItem">All waiting time<span class="dp-Icon dp-settings"></span></a>
-                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                    <ul class="dp-Menu Menu-tick Menu--tick-left">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Ascending</a>
                         </li>
@@ -141,7 +141,7 @@ title: Tableview
                 </li>
                 <li class="dp-Menu-linkItem">
                     <a href="" class="dp-listItem">Helpdesk team size<span class="dp-Icon dp-settings"></span></a>
-                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                    <ul class="dp-Menu Menu-tick Menu--tick-left">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Ascending</a>
                         </li>
@@ -152,7 +152,7 @@ title: Tableview
                 </li>
                 <li class="dp-Menu-linkItem">
                     <a href="" class="dp-listItem">Hubspot deal<span class="dp-Icon dp-settings"></span></a>
-                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                    <ul class="dp-Menu Menu-tick Menu--tick-left">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Ascending</a>
                         </li>
@@ -181,7 +181,7 @@ title: Tableview
             </span>
 
             <!-- dropdown -->
-            <ul class="dp-Menu Menu--tick Menu--tick-left">
+            <ul class="dp-Menu Menu-tick Menu--tick-left">
                 <li class="dp-Menu-linkItem"><a href="" class="dp-listItem">Urgency</a></li>
                 <li class="dp-Menu-linkItem"><a href="" class="dp-listItem">Date crated</a></li>
                 <li class="dp-Menu-linkItem"><a href="" class="dp-listItem">Date of last reply</a></li>
@@ -1563,7 +1563,7 @@ title: Tableview
                         <label for="fields-14">Date created</label>
                     </span>
                     <span class="dp-Icon dp-settings"></span>
-                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                    <ul class="dp-Menu Menu-tick Menu--tick-left">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Date</a>
                         </li>
@@ -1582,7 +1582,7 @@ title: Tableview
                         <label for="fields-15">All waiting time</label>
                     </span>
                     <span class="dp-Icon dp-settings"></span>
-                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                    <ul class="dp-Menu Menu-tick Menu--tick-left">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Date</a>
                         </li>
@@ -1601,7 +1601,7 @@ title: Tableview
                         <label for="fields-16">Date of last reply</label>
                     </span>
                     <span class="dp-Icon dp-settings"></span>
-                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                    <ul class="dp-Menu Menu-tick Menu--tick-left">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Date</a>
                         </li>
@@ -1620,7 +1620,7 @@ title: Tableview
                         <label for="fields-17">Date of last user reply</label>
                     </span>
                     <span class="dp-Icon dp-settings"></span>
-                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                    <ul class="dp-Menu Menu-tick Menu--tick-left">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Date</a>
                         </li>
@@ -1639,7 +1639,7 @@ title: Tableview
                         <label for="fields-18">Date of last agent reply</label>
                     </span>
                     <span class="dp-Icon dp-settings"></span>
-                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                    <ul class="dp-Menu Menu-tick Menu--tick-left">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Date</a>
                         </li>
@@ -1658,7 +1658,7 @@ title: Tableview
                         <label for="fields-19">Date resolved</label>
                     </span>
                     <span class="dp-Icon dp-settings is-active"></span>
-                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                    <ul class="dp-Menu Menu-tick Menu--tick-left">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Date</a>
                         </li>
@@ -1721,7 +1721,7 @@ title: Tableview
 
 <h4>Tableview Column Headers - For reference Artem</h4>
 ```html @preview
-<div class="dp-TableWrapper demo-cog demo-menu">
+<div class="dp-TableWrapper demo-TableWrapper demo-cog demo-menu">
     <div class="dp-Tableview is-hoverable">
         <div class="dp-TableRow dp-TableControl">
             <div class="dp-TableItem">
@@ -1804,7 +1804,7 @@ title: Tableview
 <!-- 1 -->
 
 ```html @preview
-<div class="dp-TableWrapper demo-cog demo-menu">
+<div class="dp-TableWrapper demo-TableWrapper demo-cog demo-menu">
     <div class="dp-Tableview is-hoverable">
 
         <span class="is-column-draggable" style="position:absolute;content:'';top:0;bottom:0;left:579px;right:auto;background-color:#3a8dde;width:1px;z-index:9;"></span>
@@ -5107,7 +5107,7 @@ title: Tableview
 <!-- 2 -->
 
 ```html @preview
-<div class="dp-TableWrapper demo-cog demo-menu">
+<div class="dp-TableWrapper demo-TableWrapper demo-cog demo-menu">
     <div class="dp-Tableview is-hoverable">
 
         <span class="is-column-draggable" style="position:absolute;content:'';top:0;bottom:0;left:579px;right:auto;background-color:#3a8dde;width:1px;z-index:9;"></span>
@@ -8393,7 +8393,7 @@ title: Tableview
 <!-- new 3 -->
 
 ```html @preview
-<div class="dp-TableWrapper demo-cog demo-menu">
+<div class="dp-TableWrapper demo-TableWrapper demo-cog demo-menu">
     <div class="dp-Tableview is-hoverable">
 
         <span class="is-column-draggable" style="position:absolute;content:'';top:0;bottom:0;left:579px;right:auto;background-color:#3a8dde;width:1px;z-index:9;"></span>

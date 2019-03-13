@@ -3,6 +3,10 @@
 
 /* Demo-Sorting-bar-class */
 
+.demo-TableWrapper {
+  overflow: auto;
+}
+
 .Demo-Sorting-bar-class {
   margin-bottom: 60px;
 }

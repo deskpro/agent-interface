@@ -51,7 +51,20 @@ title: Tool tips
       		<p>Ticket was deleted by</p>
       	</div>
       	<div class="dp-ToolTipsDown">
-      		<p>Zack Prudent</p>
+      		<p class="dp-UserTitleInfo">
+				<span class="dp-Icon dp-UserIcon"><img src="/agent-interface/style/img/docs/avatar.png" alt=""></span>
+				<p class="dp-UserName">Zack Prudent</p>
+				<span class="dp-Time">
+					<span class="dp-Icon dp-history Icon--blue"></span>
+					28 mins ago
+				</span>
+			</p>
+			<p>
+				Reason: Duplicate ticket
+			</p>
+			<p>
+				This ticket will be permantely removed from the system in 27 days 23 hours.
+			</p>	
       	</div>
       </div>
 

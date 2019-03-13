@@ -70,3 +70,33 @@
 .dp-ToolTips.ToolTips--WarningDelete {
   border: 1px solid var(--warning);
 }
+
+.dp-ToolTips .dp-ToolTipsDown .dp-UserTitleInfo {
+  align-items: center;
+  display: flex;
+}
+
+.dp-ToolTips .dp-ToolTipsDown .dp-UserTitleInfo .dp-Icon {
+  margin-right: 7px;
+  max-width: 20px;
+}
+
+/* .dp-ToolTips .dp-ToolTipsDown > .dp-Icon {
+  margin-right: 7px;
+} */
+
+.dp-ToolTips .dp-ToolTipsDown .dp-UserTitleInfo .dp-UserName {
+  font: var(--h-n-semibold);
+  margin-right: 15px;
+}
+
+.dp-ToolTips .dp-ToolTipsDown .dp-UserName {
+  font: var(--p-n);
+}
+
+.dp-ToolTips .dp-Time > .dp-Icon {
+  background-size: 10px;
+  height: 10px;
+  margin-right: 5px;
+  width: 10px;
+}

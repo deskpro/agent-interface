@@ -175,7 +175,9 @@ title: Page Tabs
     <ul class="dp-Tabs Tabs--general">
 
         <li class="dp-Tabs-item Tabs-item--button">
-            <span class="dp-Icon dp-add_tab Icon-success"></span>
+            <button class="dp-Button Button--large Button--square">
+                <span class="dp-Icon dp-add_tab Icon-success"></span>
+            </button>
         </li>
 
         <li class="dp-Tabs-item">
@@ -313,7 +315,9 @@ title: Page Tabs
     <ul class="dp-Tabs Tabs--general">
 
         <li class="dp-Tabs-item Tabs-item--button">
-            <span class="dp-Icon dp-add_tab Icon-success"></span>
+            <button class="dp-Button Button--large Button--square">
+                <span class="dp-Icon dp-add_tab Icon-success"></span>
+            </button>
 
             <ul class="dp-Menu is-visible">
                 <li class="dp-Menu-title">Add</li>
@@ -343,6 +347,38 @@ title: Page Tabs
                 </li>
             </ul>
         </li>
+
+ <!--        <li class="dp-Tabs-item Tabs-item--button">
+            <span class="dp-Icon dp-add_tab Icon-success"></span>
+
+            <ul class="dp-Menu is-visible">
+                <li class="dp-Menu-title">Add</li>
+                <li class="dp-Menu-linkItem">
+                    <a href="#" class="dp-Menu-link"><span class="dp-Icon Icon--email"></span>Ticket</a>
+                </li>
+                <li class="dp-Menu-linkItem">
+                    <a href="#" class="dp-Menu-link"><span class="dp-Icon Icon--user"></span>Person</a>
+                </li>
+                <li class="dp-Menu-linkItem">
+                    <a href="#" class="dp-Menu-link"><span class="dp-Icon dp-organisation_small"></span>Organisation</a>
+                </li>
+                <li class="dp-Menu-linkItem">
+                    <a href="#" class="dp-Menu-link"><span class="dp-Icon dp-publish"></span>Article</a>
+                </li>
+                <li class="dp-Menu-linkItem">
+                    <a href="#" class="dp-Menu-link"><span class="dp-Icon dp-IconNews"></span>News Post</a>
+                </li>
+                <li class="dp-Menu-linkItem">
+                    <a href="#" class="dp-Menu-link"><span class="dp-Icon dp-IconDownload"></span>Download</a>
+                </li>
+                <li class="dp-Menu-linkItem">
+                    <a href="#" class="dp-Menu-link"><span class="dp-Icon dp-feedback"></span>Feedback</a>
+                </li>
+                <li class="dp-Menu-linkItem">
+                    <a href="#" class="dp-Menu-link"><span class="dp-Icon dp-IconTasks"></span>Task</a>
+                </li>
+            </ul>
+        </li> -->
 
         <li class="dp-Tabs-item">
             <span class="Tabs-item--row">
@@ -386,7 +422,9 @@ title: Page Tabs
     <ul class="dp-Tabs Tabs--general">
 
         <li class="dp-Tabs-item Tabs-item--button">
-            <span class="dp-Icon dp-add_tab Icon-success"></span>
+            <button class="dp-Button Button--large Button--square">
+                <span class="dp-Icon dp-add_tab Icon-success"></span>
+            </button>
         </li>
 
         <li class="dp-Tabs-item">
