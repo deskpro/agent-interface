@@ -893,10 +893,12 @@ input:disabled + label {
 /* Animate  */
 
 .dp-Show-Hide .dp-Card {
-  height: 100%;
-  max-height: 200px;
   overflow: hidden;
   transition: max-height 0.5s, padding-top 1s;
+
+  /*  height: 100%;
+  max-height: 200px; */
+
 }
 
 .dp-Show-Hide .dp-Card.dp-Leaving {

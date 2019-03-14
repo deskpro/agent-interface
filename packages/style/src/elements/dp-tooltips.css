@@ -55,7 +55,7 @@
 
 /* PrimaryDelete Tooltip */
 
-.dp-ToolTips.ToolTips--PrimaryDelete .dp-ToolTipsUp {
+.dp-ToolTips.ToolTips--Primary .dp-ToolTipsUp {
   background-color: var(--info-light);
   color: var(--brand-primary);
 }
@@ -64,26 +64,26 @@
   padding: 10px 20px;
 }
 
-.ToolTips--WarningDelete .dp-ToolTipsUp > .dp-Icon svg {
+.ToolTips--Warning .dp-ToolTipsUp > .dp-Icon svg {
   fill: var(--warning);
 }
 
 /* WarningDelete Tooltip */
 
-.dp-ToolTips.ToolTips--WarningDelete .dp-ToolTipsUp {
+.dp-ToolTips.ToolTips--Warning .dp-ToolTipsUp {
   background-color: var(--warning-light);
   color: var(--warning);
 }
 
-.dp-ToolTips.ToolTips--WarningDelete {
+.dp-ToolTips.ToolTips--Warning {
   border: 1px solid var(--warning);
 }
 
-.ToolTips--WarningDelete .dp-ToolTipsUp > .dp-Icon svg {
+.ToolTips--Warning .dp-ToolTipsUp > .dp-Icon svg {
   fill: var(--warning);
 }
 
-.ToolTips--WarningDelete .dp-ToolTipsDown {
+.ToolTips--Warning .dp-ToolTipsDown {
   display: flex;
   flex-direction: column;
 }
@@ -140,21 +140,34 @@
   font: var(--p-s-semibold);
 }
 
-.dp-ToolTips.ToolTips--WarningDelete .dp-ButtonWrapper {
+.dp-ToolTips.ToolTips--Warning .dp-ButtonWrapper {
   padding: 0 20px 10px;
 }
 
 /* Success Tooltip */
 
-.dp-ToolTips.ToolTips--SuccessDelete .dp-ToolTipsUp {
+.dp-ToolTips.ToolTips--Success .dp-ToolTipsUp {
   background-color: var(--success-light);
   color: var(--success);
 }
 
-.dp-ToolTips.ToolTips--SuccessDelete {
+.dp-ToolTips.ToolTips--Success {
   border: 1px solid var(--success);
 }
 
-.ToolTips--SuccessDelete .dp-ToolTipsUp > .dp-Icon svg {
+.ToolTips--Success .dp-ToolTipsUp > .dp-Icon svg {
   fill: var(--success);
+}
+
+.dp-ToolTips .dp-Button.Button--outlined {
+  border-color: var(--grey-dark);
+  color: var(--grey-dark);
+}
+
+.ToolTips--Locked .dp-TitleTooltip {
+  flex: 1 0 0;
+}
+
+.ToolTips--Locked .dp-TitleTooltip + .dp-Icon {
+  margin-right: 0;
 }

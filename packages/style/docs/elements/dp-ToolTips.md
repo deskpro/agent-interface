@@ -19,10 +19,13 @@ title: Tool tips
 </div>
 ```
 
+ <!-- Deleted ticket -->
+
+<h4>Deleted ticket</h4>
 ```html @preview
 <div class="dp-MainWrapper demo-tooltip" style="height: 150px;">
 
-      <div class="dp-ToolTips ToolTips--Delete ToolTips--PrimaryDelete is-active">
+      <div class="dp-ToolTips ToolTips--Delete ToolTips--Primary is-active">
       	<div class="dp-ToolTipsUp">
       		<span class="dp-Icon dp-Exclamation Icon-blue"></span>
       		<p>Delete</p>
@@ -44,7 +47,7 @@ title: Tool tips
 ```html @preview
 <div class="dp-MainWrapper demo-tooltip" style="height: 200px;">
 
-	<div class="dp-ToolTips ToolTips--Delete ToolTips--WarningDelete is-active">
+	<div class="dp-ToolTips ToolTips--Delete ToolTips--Warning is-active">
 		<div class="dp-ToolTipsUp">
 			<span class="dp-Icon dp-Exclamation Icon--warning"></span>
 			<p>Ticket was deleted by</p>
@@ -76,7 +79,7 @@ title: Tool tips
 ```html @preview
 <div class="dp-MainWrapper demo-tooltip" style="height: 150px;">
 
-      <div class="dp-ToolTips ToolTips--Delete ToolTips--SuccessDelete is-active">
+      <div class="dp-ToolTips ToolTips--Delete ToolTips--Success is-active">
 		<div class="dp-ToolTipsUp">
 			<span class="dp-Icon dp-Approve Approve--success"></span>
 			<p>Ticket restored</p>
@@ -85,6 +88,79 @@ title: Tool tips
 			<p>Your ticket has now been restored.</p>
 		</div>
       </div>
+
+</div>
+```
+
+<!--   Locked ticket -->
+
+```html @preview
+<div class="dp-MainWrapper demo-tooltip" style="height: 200px;">
+
+	<div class="dp-ToolTips ToolTips--Locked ToolTips--Warning is-active">
+		<div class="dp-ToolTipsUp">
+			<span class="dp-Icon dp-Lock Icon--warning"></span>
+			<p>Ticket locked by</p>
+		</div>
+		<div class="dp-ToolTipsDown">
+			<p class="dp-UserTitleInfo">
+				<span class="dp-Icon dp-UserIcon"><img src="/agent-interface/style/img/docs/avatar.png" alt=""></span>
+				<span class="dp-UserName">Zack Prudent</span>
+				<span class="dp-Time">
+					<span class="dp-Icon dp-history Icon--blue"></span>
+					28 mins ago
+				</span>
+			</p>
+		</div>
+		<div class="dp-ButtonWrapper">
+			<button class="dp-Button Button--outlined" type="button">Unlock</button>
+		</div>
+	</div>
+
+</div>
+```
+
+```html @preview
+<div class="dp-MainWrapper demo-tooltip" style="height: 200px;">
+
+	<div class="dp-ToolTips ToolTips--Locked ToolTips--Warning is-active">
+		<div class="dp-ToolTipsUp">
+			<span class="dp-Icon dp-Lock Icon--warning"></span>
+			<p class="dp-TitleTooltip">Ticket locked by</p>
+			<span class="dp-Icon Icon--unlock Icon--warning"></span>
+		</div>
+		<div class="dp-ToolTipsDown">
+			<p class="dp-UserTitleInfo">
+				<span class="dp-Icon dp-UserIcon"><img src="/agent-interface/style/img/docs/avatar.png" alt=""></span>
+				<span class="dp-UserName">Zack Prudent</span>
+				<span class="dp-Time">
+					<span class="dp-Icon dp-history Icon--blue"></span>
+					28 mins ago
+				</span>
+			</p>
+		</div>
+	</div>
+
+</div>
+```
+
+```html @preview
+<div class="dp-MainWrapper demo-tooltip" style="height: 200px;">
+
+	<div class="dp-ToolTips ToolTips--Spam ToolTips--Warning is-active">
+		<div class="dp-ToolTipsUp">
+			<span class="dp-Icon dp-Span Icon--warning"></span>
+			<p class="dp-TitleTooltip">Ticket has been marked as Spam</p>
+		</div>
+		<div class="dp-ToolTipsDown">
+			<p class="dp-ReasonSubtitle">
+				<span class="dp-Description">This ticket will be permantely removed from the system in</span> <span class="dp-TimesStatus">27 days 23 hours.</span>
+			</p>
+		</div>
+		<div class="dp-ButtonWrapper">
+			<button class="dp-Button Button--outlined" type="button">Not spam</button>
+		</div>
+	</div>
 
 </div>
 ```

@@ -8,7 +8,13 @@
 }
 
 .dp-Tabs .dp-Tabs-item {
+  color: var(--grey-dark);
+  cursor: pointer;
+  display: flex;
+  font: var(--p-n-caps);
   margin-right: 15px;
+  margin-top: 0;
+  padding: 5px 0;
   position: relative;
 }
 
@@ -28,15 +34,6 @@
 
 .dp-Tabs-item .dp-Arrow::after {
   right: 0;
-}
-
-.dp-Tabs .dp-Tabs-item {
-  color: var(--grey-dark);
-  cursor: pointer;
-  display: flex;
-  font: var(--p-n-caps);
-  margin-top: 0;
-  padding: 5px 0;
 }
 
 .dp-Tabs.Tabs--general > .dp-Tabs-item {
@@ -181,6 +178,7 @@
   align-items: center;
   display: flex;
   justify-content: center;
+  outline: none;
 }
 
 .Tabs--general .dp-Tabs-item.Tabs-item--button .dp-Button,
@@ -191,9 +189,21 @@
   width: 100%;
 }
 
+.Tabs--general .dp-Tabs-item.Tabs-item--button > .dp-Icon {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  width: 100%;
+}
+
+.dp-Tabs.Tabs--general .dp-Menu .dp-Tabs-item {
+  padding: 0;
+}
+
 .Tabs--general .dp-Tabs-item .dp-Icon.Icon--email {
   background-size: 14px 9.5px;
-  height: 10px;
+  height: 14px;
   min-width: 14px;
   width: 14px;
 }
@@ -206,8 +216,10 @@
 
 .Tabs-item--button .dp-Menu-linkItem .dp-Icon {
   background-size: 12px 12px;
-  height: 12px;
   width: 12px;
+
+  /* height: 12px; */
+
 }
 
 /* Vetical Tabs */
@@ -440,4 +452,8 @@
 
 .Tabs--actions .dp-Menu .dp-Menu-linkItem {
   padding: 3.5px 6px;
+}
+
+.Tabs--actions .dp-Menu .dp-Menu-linkItem span {
+  text-align: left;
 }
