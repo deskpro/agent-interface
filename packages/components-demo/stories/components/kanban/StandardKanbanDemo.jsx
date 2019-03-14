@@ -27,14 +27,11 @@ const initCards = () =>
   columns.reduce(
     (acc, column, columnIndex) =>
       acc.concat(
-        Array.from(
-          { length: columnsLength[columnIndex] || 1 },
-          (_, idx) => ({
-            group: { id: column, title: column },
-            id: `${columnIndex}${idx}`,
-            title: `Card #${columnIndex}${idx + 1}`
-          })
-        )
+        Array.from({ length: columnsLength[columnIndex] || 1 }, (_, idx) => ({
+          group: { id: column, title: column },
+          id: `${columnIndex}${idx}`,
+          title: `Card #${columnIndex}${idx + 1}`
+        }))
       ),
     []
   );

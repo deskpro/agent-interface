@@ -1,7 +1,5 @@
-const path = require('path');
-
-module.exports = (storybookBaseConfig) => {
-  storybookBaseConfig.module.rules = storybookBaseConfig.module.rules.concat([
+module.exports = ({ config, mode }) => {
+  config.module.rules.concat([
     {
       test: /\.stories\.jsx?$/,
       loaders: [require.resolve('@storybook/addon-storysource/loader')],
@@ -28,6 +26,5 @@ module.exports = (storybookBaseConfig) => {
       ]
     }
   ]);
-
-  return storybookBaseConfig;
+  return config;
 };
