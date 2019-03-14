@@ -5,6 +5,7 @@ import Tabs from "./Tabs";
 import useWindowSize from "../../hooks/useWindowSize";
 import Icon from "../Icon/Icon";
 import Menu from "../Menu/Menu";
+import useOutsideClick from "../../hooks/useOutsideClick";
 
 const ADD_ICON_WIDTH = 44;
 const MIN_TAB_WIDTH = 160;
@@ -59,7 +60,12 @@ const PageTabs: React.FC<PageTabsProps> = ({
   );
 
   const [showHiddenItems, toggleHiddenItems] = React.useState<boolean>(false);
+  const hiddenItemsRef = React.useRef<HTMLUListElement>(null);
+  useOutsideClick(hiddenItemsRef, () => toggleHiddenItems(false));
+
   const [showAddMenu, toggleAddMenu] = React.useState(false);
+  const addMenuRef = React.useRef<HTMLUListElement>(null);
+  useOutsideClick(addMenuRef, () => toggleAddMenu(false));
 
   return (
     <Tabs type="general" className={className} ref={tabsRef}>
@@ -84,7 +90,10 @@ const PageTabs: React.FC<PageTabsProps> = ({
               {({ ref, style }) => (
                 <Menu
                   style={style}
-                  menuRef={ref}
+                  menuRef={(el: HTMLUListElement) => {
+                    ref(el);
+                    (addMenuRef.current as HTMLUListElement) = el;
+                  }}
                   onMenuClose={() => toggleAddMenu(false)}
                   title={addMenuTitle}
                 >
@@ -139,12 +148,19 @@ const PageTabs: React.FC<PageTabsProps> = ({
                   <ul
                     className="dp-SelectedMore dp-Menu is-active"
                     style={style}
-                    ref={ref}
+                    ref={(el: HTMLUListElement) => {
+                      ref(el);
+                      (hiddenItemsRef.current as HTMLUListElement) = el;
+                    }}
                   >
                     {tabs
                       .slice(visibleItems)
                       .map(
-                        ({ id, title, titleIcon, subtitle, subtitleIcon }) => (
+                        (
+                          { id, title, titleIcon, subtitle, subtitleIcon },
+                          idx,
+                          source
+                        ) => (
                           <Tabs.TabItem
                             key={id}
                             onTabClick={e => onTabClick(id, e)}
@@ -158,6 +174,19 @@ const PageTabs: React.FC<PageTabsProps> = ({
                                 {subtitle}
                               </Tabs.TabSubtitle>
                             </span>
+                            {source.length - 1 === idx && (
+                              <span
+                                className="dp-CloseBtn"
+                                role="button"
+                                tabIndex={-1}
+                                onClick={() => toggleHiddenItems(false)}
+                                onKeyPress={e =>
+                                  e.key === "Enter" && toggleHiddenItems(false)
+                                }
+                              >
+                                <Icon name="close" size={8} />
+                              </span>
+                            )}
                           </Tabs.TabItem>
                         )
                       )}
