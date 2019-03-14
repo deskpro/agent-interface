@@ -4,6 +4,7 @@ import produce from "immer";
 import { subHours } from "date-fns";
 import _findIndex from "lodash/findIndex";
 import _findLastIndex from "lodash/findLastIndex";
+import inPercy from "@percy-io/in-percy";
 
 import {
   StandardKanban,
@@ -13,13 +14,21 @@ import {
 import ReactAvatar from "react-avatar";
 
 const columns = ["Backlog", "Started", "In Progress", "Review", "QA", "Closed"];
+let columnsLength = [];
+if (inPercy()) {
+  columnsLength = [3, 18, 2, 6, 7, 8];
+} else {
+  for (let i = 0; i < 6; i += 1) {
+    columnsLength.push(Math.round(Math.random() * 20));
+  }
+}
 
 const initCards = () =>
   columns.reduce(
     (acc, column, columnIndex) =>
       acc.concat(
         Array.from(
-          { length: Math.round(Math.random() * 20) || 1 },
+          { length: columnsLength[columnIndex] || 1 },
           (_, idx) => ({
             group: { id: column, title: column },
             id: `${columnIndex}${idx}`,
