@@ -63,7 +63,7 @@
 .demo-menu .dp-ActionButton.is-active .dp-Menu,
 .demo-menu .dp-ActionsItem.is-active .dp-Menu,
 .demo-menu .dp-OptionList .dp-settings.is-active + .dp-Menu,
-.demo-menu .dp-Menu.Menu--tick .is-active + .dp-Menu,
+.demo-menu .dp-Menu.Menu-tick .is-active + .dp-Menu,
 .demo-menu .dp-Menu.Menu-grouped .dp-Menu-linkItem:hover > .dp-Menu,
 .demo-menu .dp-Menu.Menu-grouped .dp-Menu-linkItem.is-active .dp-Menu,
 .demo-menu .dp-Menu.Menu-grouped .dp-Menu-linkItem.is-checked .dp-Menu,
@@ -75,7 +75,7 @@
   display: block;
 }
 
-.dp-Menu.Menu--tick .is-active + .dp-Menu {
+.dp-Menu.Menu-tick .is-active + .dp-Menu {
   left: 100%;
   top: 0;
 }
@@ -92,7 +92,7 @@
   left: 20px;
 }
 
-.demo-menu .Menu--tick .dp-Menu-linkItem:hover > .dp-listItem::after {
+.demo-menu .Menu-tick .dp-Menu-linkItem:hover > .dp-listItem::after {
   opacity: 1;
 }
 

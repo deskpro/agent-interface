@@ -454,6 +454,6 @@
   padding: 3.5px 6px;
 }
 
-.Tabs--actions .dp-Menu .dp-Menu-linkItem span {
+.dp-Tabs.Tabs--general .dp-Menu .dp-Menu-linkItem > span {
   text-align: left;
 }

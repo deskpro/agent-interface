@@ -144,7 +144,7 @@ title: Menus
 
         <ul class="dp-Menu is-visible" style="top: 0; left: 0;">
             <li class="dp-Menu-linkItem">Assign to <a href="#" class="dp-listLink">me</a> or <button class="dp-Arrow"></button>
-                <ul class="dp-Menu Menu--tick Menu--tick-right">
+                <ul class="dp-Menu Menu-tick Menu--tick-right">
                     <li class="dp-Menu-search">
                         <form>
                             <span class="dp-Icon dp-IconSearch"></span>
@@ -195,7 +195,7 @@ title: Menus
             </li>
 
             <li class="dp-Menu-linkItem">Assign to <a href="#" class="dp-listLink">my team</a> or <button class="dp-Arrow"></button>
-                <ul class="dp-Menu Menu--tick Menu--tick-right">
+                <ul class="dp-Menu Menu-tick Menu--tick-right">
                     <li class="dp-Menu-search">
                         <form>
                             <span class="dp-Icon dp-IconSearch"></span>
@@ -236,7 +236,7 @@ title: Menus
             <li class="dp-DropdownDivider"></li>
 
             <li class="dp-Menu-linkItem">Status <button class="dp-Arrow"></button>
-                <ul class="dp-Menu Menu--tick Menu--tick-right">
+                <ul class="dp-Menu Menu-tick Menu--tick-right">
                     <li class="dp-Menu-search">
                         <form>
                             <span class="dp-Icon dp-IconSearch"></span>
@@ -267,7 +267,7 @@ title: Menus
             </li>
 
             <li class="dp-Menu-linkItem"> Urgency <button class="dp-Arrow"></button>
-                <ul class="dp-Menu Menu--tick Menu--tick-right">
+                <ul class="dp-Menu Menu-tick Menu--tick-right">
                     <li class="dp-Menu-search">
                         <form>
                             <span class="dp-Icon dp-IconSearch"></span>
@@ -421,7 +421,7 @@ title: Menus
             </span>
             Date created
             <span class="dp-Icon dp-settings"></span>
-            <ul class="dp-Menu Menu--tick Menu--tick-left">
+            <ul class="dp-Menu Menu-tick Menu--tick-left">
                 <li class="dp-Menu-linkItem">
                     <a href="#" class="dp-listItem">Date</a>
                 </li>
@@ -441,7 +441,7 @@ title: Menus
             </span>
             All waiting time
             <span class="dp-Icon dp-settings"></span>
-            <ul class="dp-Menu Menu--tick Menu--tick-left">
+            <ul class="dp-Menu Menu-tick Menu--tick-left">
                 <li class="dp-Menu-linkItem">
                     <a href="#" class="dp-listItem">Date</a>
                 </li>
@@ -461,7 +461,7 @@ title: Menus
             </span>
             Date of last reply
             <span class="dp-Icon dp-settings"></span>
-            <ul class="dp-Menu Menu--tick Menu--tick-left">
+            <ul class="dp-Menu Menu-tick Menu--tick-left">
                 <li class="dp-Menu-linkItem">
                     <a href="#" class="dp-listItem">Date</a>
                 </li>
@@ -481,7 +481,7 @@ title: Menus
             </span>
             Date of last user reply
             <span class="dp-Icon dp-settings"></span>
-            <ul class="dp-Menu Menu--tick Menu--tick-left">
+            <ul class="dp-Menu Menu-tick Menu--tick-left">
                 <li class="dp-Menu-linkItem">
                     <a href="#" class="dp-listItem">Date</a>
                 </li>
@@ -501,7 +501,7 @@ title: Menus
             </span>
             Date of last agent reply
             <span class="dp-Icon dp-settings"></span>
-            <ul class="dp-Menu Menu--tick Menu--tick-left">
+            <ul class="dp-Menu Menu-tick Menu--tick-left">
                 <li class="dp-Menu-linkItem">
                     <a href="#" class="dp-listItem">Date</a>
                 </li>
@@ -521,7 +521,7 @@ title: Menus
             </span>
             Date resolved
             <span class="dp-Icon dp-settings"></span>
-            <ul class="dp-Menu Menu--tick Menu--tick-left">
+            <ul class="dp-Menu Menu-tick Menu--tick-left">
                 <li class="dp-Menu-linkItem">
                     <a href="#" class="dp-listItem">Date</a>
                 </li>

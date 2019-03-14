@@ -250,7 +250,7 @@
   min-width: 229px;
 }
 
-.dp-Menu.Menu--tick.dp-YourAccount > .dp-Menu-linkItem {
+.dp-Menu.Menu-tick.dp-YourAccount > .dp-Menu-linkItem {
   border-bottom: 1px solid var(--grey-light);
   font: var(--p-xl);
   padding: 10px 12px;
@@ -279,12 +279,12 @@
   color: var(--grey-darkest);
 }
 
-.dp-Menu.Menu--tick .dp-Menu-linkItem.is-active > .dp-listItem::after,
-.dp-Menu.Menu--tick .dp-Menu-linkItem.is-cheked > .dp-listItem::after, {
+.dp-Menu.Menu-tick .dp-Menu-linkItem.is-active > .dp-listItem::after,
+.dp-Menu.Menu-tick .dp-Menu-linkItem.is-cheked > .dp-listItem::after, {
   opacity: 1;
 }
 
-.dp-Menu.Menu--tick.dp-YourAccount > .dp-Menu-linkItem > .dp-listItem::after {
+.dp-Menu.Menu-tick.dp-YourAccount > .dp-Menu-linkItem > .dp-listItem::after {
   background-size: 14px 12px;
   left: auto;
   right: 5px;
