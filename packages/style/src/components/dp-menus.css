@@ -268,9 +268,9 @@
   display: block;
 } */
 
-/* Menu-tick */
+/* Menu--tick */
 
-.dp-Menu.Menu-tick .is-active + .dp-Menu {
+.dp-Menu.Menu--tick .is-active + .dp-Menu {
   min-width: 125px;
 
   /*  left: 100%;
@@ -278,8 +278,8 @@
 
 }
 
-.dp-Menu.Menu-tick > .dp-Menu-linkItem > .dp-listItem::after,
-.dp-Menu.Menu-tick ul .dp-Menu-linkItem > .dp-listItem::after,
+.dp-Menu.Menu--tick > .dp-Menu-linkItem > .dp-listItem::after,
+.dp-Menu.Menu--tick ul .dp-Menu-linkItem > .dp-listItem::after,
 .dp-Menu .dp-Menu-linkItem .dp-Menu-link::after {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='9' height='8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M.925 4.342a.568.568 0 0 1 0-.726l.096-.108a.43.43 0 0 1 .648 0l1.682 1.885L7.765.446a.43.43 0 0 1 .648 0l.096.108a.568.568 0 0 1 0 .726L3.351 7.061.925 4.342z' fill='%233A8DDE'/%3E%3C/svg%3E");
   background-position: center center;
@@ -294,7 +294,7 @@
   width: 25px;
 }
 
-.dp-Menu.Menu-tick .dp-Menu-linkItem.is-checked > .dp-listItem::after,
+.dp-Menu.Menu--tick .dp-Menu-linkItem.is-checked > .dp-listItem::after,
 .dp-Menu .dp-Menu-linkItem.is-checked .dp-Menu-link::after {
   opacity: 1;
 }
@@ -304,7 +304,7 @@
   color: var(--brand-primary);
 }
 
-.dp-Menu.Menu-tick .dp-Menu-linkItem:hover {
+.dp-Menu.Menu--tick .dp-Menu-linkItem:hover {
   background-color: transparent;
 }
 
@@ -684,11 +684,11 @@
   padding: 0 10px;
 }
 
-.Menu-tick.Menu--tick-right > .dp-Menu-linkItem {
+.Menu--tick.Menu--tick-right > .dp-Menu-linkItem {
   padding: 3.5px 10px;
 }
 
-.dp-Menu.Menu-tick.Menu--tick-left > .dp-Menu-linkItem {
+.dp-Menu.Menu--tick.Menu--tick-left > .dp-Menu-linkItem {
   padding: 3.5px 10px 3.5px 25px;
 }
 
@@ -696,14 +696,14 @@
   cursor: grab;
 }
 
-.Menu-tick.Menu--tick-right > .dp-Menu-linkItem .dp-listItem::after,
-.Menu-tick.Menu--tick-right > .dp-Menu-linkItem .dp-Menu-link::after {
+.Menu--tick.Menu--tick-right > .dp-Menu-linkItem .dp-listItem::after,
+.Menu--tick.Menu--tick-right > .dp-Menu-linkItem .dp-Menu-link::after {
   left: auto;
   right: 5px;
 }
 
-.Menu-tick.Menu--tick-left > .dp-Menu-linkItem .dp-listItem::after,
-.Menu-tick.Menu--tick-left > .dp-Menu-linkItem .dp-Menu-link::after {
+.Menu--tick.Menu--tick-left > .dp-Menu-linkItem .dp-listItem::after,
+.Menu--tick.Menu--tick-left > .dp-Menu-linkItem .dp-Menu-link::after {
   left: 2px;
   right: auto;
 }
