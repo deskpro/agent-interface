@@ -3,6 +3,9 @@ import { Manager, Reference, Popper } from "react-popper";
 
 import Tabs from "./Tabs";
 import useWindowSize from "../../hooks/useWindowSize";
+import Icon from "../Icon/Icon";
+import Menu from "../Menu/Menu";
+import useOutsideClick from "../../hooks/useOutsideClick";
 
 const ADD_ICON_WIDTH = 44;
 const MIN_TAB_WIDTH = 160;
@@ -19,7 +22,7 @@ export interface PageTabItem {
 export interface PageTabsAddMenuItem {
   id: React.Key;
   title: string;
-  icon?: React.ReactNode;
+  icon?: string;
 }
 
 export type PageTabsProps = {
@@ -36,6 +39,9 @@ const PageTabs: React.FC<PageTabsProps> = ({
   tabs,
   activeTabId,
   onTabClick,
+  addMenuItems = [],
+  addMenuTitle = "Add",
+  onAddClick,
   className
 }) => {
   const [tabsWidth, setTabsWidth] = React.useState(0);
@@ -54,10 +60,58 @@ const PageTabs: React.FC<PageTabsProps> = ({
   );
 
   const [showHiddenItems, toggleHiddenItems] = React.useState<boolean>(false);
+  const hiddenItemsRef = React.useRef<HTMLUListElement>(null);
+  useOutsideClick(hiddenItemsRef, () => toggleHiddenItems(false));
+
+  const [showAddMenu, toggleAddMenu] = React.useState(false);
+  const addMenuRef = React.useRef<HTMLUListElement>(null);
+  useOutsideClick(addMenuRef, () => toggleAddMenu(false));
 
   return (
     <Tabs type="general" className={className} ref={tabsRef}>
-      <Tabs.TabItem key="add" icon="add-tab" iconColor="success" iconOnly />
+      <Tabs.TabItem key="add" iconOnly>
+        <Manager>
+          <Reference>
+            {({ ref }) => (
+              <Icon
+                name="add-tab"
+                color="success"
+                size={24}
+                ref={ref}
+                onClick={() => toggleAddMenu(!showAddMenu)}
+              />
+            )}
+          </Reference>
+          {showAddMenu && (
+            <Popper
+              placement="bottom-start"
+              modifiers={{ offset: { offset: "-10,10" }, flip: { padding: 0 } }}
+            >
+              {({ ref, style }) => (
+                <Menu
+                  style={style}
+                  menuRef={(el: HTMLUListElement) => {
+                    ref(el);
+                    (addMenuRef.current as HTMLUListElement) = el;
+                  }}
+                  onMenuClose={() => toggleAddMenu(false)}
+                  title={addMenuTitle}
+                >
+                  {addMenuItems.map(({ id, title, icon }) => (
+                    <Menu.MenuItem
+                      key={id}
+                      name={id}
+                      text={title}
+                      icon={icon}
+                      onClick={onAddClick}
+                    />
+                  ))}
+                </Menu>
+              )}
+            </Popper>
+          )}
+        </Manager>
+      </Tabs.TabItem>
       {tabs
         .slice(0, visibleItems)
         .map(({ id, title, titleIcon, subtitle, subtitleIcon }) => (
@@ -94,23 +148,45 @@ const PageTabs: React.FC<PageTabsProps> = ({
                   <ul
                     className="dp-SelectedMore dp-Menu is-active"
                     style={style}
-                    ref={ref}
+                    ref={(el: HTMLUListElement) => {
+                      ref(el);
+                      (hiddenItemsRef.current as HTMLUListElement) = el;
+                    }}
                   >
                     {tabs
                       .slice(visibleItems)
                       .map(
-                        ({ id, title, titleIcon, subtitle, subtitleIcon }) => (
+                        (
+                          { id, title, titleIcon, subtitle, subtitleIcon },
+                          idx,
+                          source
+                        ) => (
                           <Tabs.TabItem
                             key={id}
                             onTabClick={e => onTabClick(id, e)}
                             isActive={activeTabId === id}
                           >
-                            <Tabs.TabTitle icon={titleIcon}>
-                              {title}
-                            </Tabs.TabTitle>
-                            <Tabs.TabSubtitle icon={subtitleIcon}>
-                              {subtitle}
-                            </Tabs.TabSubtitle>
+                            <span className="dp-TabInfoItem">
+                              <Tabs.TabTitle icon={titleIcon}>
+                                {title}
+                              </Tabs.TabTitle>
+                              <Tabs.TabSubtitle icon={subtitleIcon}>
+                                {subtitle}
+                              </Tabs.TabSubtitle>
+                            </span>
+                            {source.length - 1 === idx && (
+                              <span
+                                className="dp-CloseBtn"
+                                role="button"
+                                tabIndex={-1}
+                                onClick={() => toggleHiddenItems(false)}
+                                onKeyPress={e =>
+                                  e.key === "Enter" && toggleHiddenItems(false)
+                                }
+                              >
+                                <Icon name="close" size={8} />
+                              </span>
+                            )}
                           </Tabs.TabItem>
                         )
                       )}
