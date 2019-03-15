@@ -11,6 +11,7 @@ before_install:
 before_script:
   - yarn bootstrap
 script:
+  - npm install codecov -g
   - test "${TRAVIS_BRANCH}" != "${TRAVIS_TAG}" || echo "tests are disabled on builds
     triggered by a tag"
   - test "${TRAVIS_BRANCH}" = "${TRAVIS_TAG}" || yarn lint
@@ -29,6 +30,8 @@ cache:
     - packages/style/node_modules
 before_cache:
   - rm -rf packages/style/website/node_modules/@deskpro
+after_success:
+  - codecov
 deploy:
   - provider: pages
     skip-cleanup: true
