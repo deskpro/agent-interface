@@ -56,13 +56,19 @@
   width: 100%;
 }
 
-.dp-Tasks-list.dp-Card-SectionTitle .dp-Card-title:hover,
-.CardList-comments .dp-Card-SectionTitle .dp-Card-title:hover {
+/* .CardList-comments .dp-Card-SectionTitle .dp-Card-title:hover { */
+
+/* .dp-Tasks-list.dp-Card-SectionTitle .dp-Card-title:hover, */
+
+.dp-Card-SectionTitle .dp-Card-title:hover,
+.dp-Card-SectionTitle .dp-Card-title:hover {
   color: var(--grey-darkest);
 }
 
+/* .CardList-comments .dp-Card-SectionTitle .dp-Card-title:hover::after { */
+
 .dp-Tasks-list.dp-Card-SectionTitle .dp-Card-title:hover::after,
-.CardList-comments .dp-Card-SectionTitle .dp-Card-title:hover::after {
+.dp-Card-SectionTitle .dp-Card-title:hover::after {
   display: none;
 }
 
@@ -196,15 +202,22 @@
   border-right: 1px solid transparent;
 }
 
-.dp-Card.dp-Tasks-list.is-hover,
-.dp-CardList .dp-Card:hover {
+/* .dp-Card.dp-Tasks-list.is-hover,
+.dp-CardList .dp-Card:hover { */
+
+.dp-CardList.CardList-comments .dp-Card.is-hover,
+.dp-CardList.CardList-comments .dp-Card:hover {
   background-color: var(--info-light);
   border-right: 1px solid var(--grey-light);
 }
 
-.dp-Card.dp-Tasks-list .dp-LevelItem .dp-Task-title .dp-Icon,
+/* .dp-Card.dp-Tasks-list .dp-LevelItem .dp-Task-title .dp-Icon,
 .dp-Card.dp-Tasks-list .dp-LevelItem .dp-Diagnose .dp-Icon,
-.dp-Card.dp-Tasks-list .dp-LevelItem .dp-LevelWrap li > .dp-Icon {
+.dp-Card.dp-Tasks-list .dp-LevelItem .dp-LevelWrap li > .dp-Icon { */
+
+.CardList-comments .dp-Card .dp-LevelItem .dp-Task-title .dp-Icon,
+.CardList-comments .dp-Card .dp-LevelItem .dp-Diagnose .dp-Icon,
+.CardList-comments .dp-Card .dp-LevelItem .dp-Card-actionsRow li > .dp-Icon {
   width: 18px;
 }
 

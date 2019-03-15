@@ -323,7 +323,7 @@ title: Filter list
 
 	<div class="dp-FilterlistContainer">
 
-		<div class="dp-Tickets is-active">
+		<div class="dp-Tickets Tickets--Lock is-active">
 			<div class="dp-Card-SectionTitle dp-Tasks-list Level-justify-between">
 				<span class="dp-LevelCol dp-ListName">
 					<span class="dp-Icon Icon--menu"></span>

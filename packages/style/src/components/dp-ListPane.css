@@ -299,15 +299,18 @@
   text-decoration: underline;
 }
 
-.dp-Tasks-list.dp-Card > .dp-LevelItem {
+.dp-Tasks-list.dp-Card > .dp-LevelItem,
+.CardList-comments .dp-Card > .dp-LevelItem {
   margin-bottom: 10px;
 }
 
-.dp-Tasks-list.dp-Card > .dp-LevelItem:last-child {
+.dp-Tasks-list.dp-Card > .dp-LevelItem:last-child,
+.CardList-comments .dp-Card > .dp-LevelItem:last-child {
   margin-bottom: 0;
 }
 
-.dp-Tasks-list .dp-LevelItem:nth-child(n+2) {
+.dp-Tasks-list .dp-LevelItem:nth-child(n+2),
+.CardList-comments .dp-Card .dp-LevelItem:nth-child(n+2) {
   padding-left: 20px;
 }
 
@@ -392,9 +395,11 @@
   align-items: center;
   display: flex;
   list-style: none;
+  padding: 0;
 }
 
-.dp-LevelWrap > li {
+.dp-LevelWrap > li,
+.dp-Card-actionsRow > li {
   align-items: center;
   color: var(--brand-primary);
   display: flex;
@@ -403,14 +408,17 @@
   position: relative;
 }
 
-.dp-LevelWrap > li:not(:last-child) {
+.dp-LevelWrap > li:not(:last-child),
+.dp-Card-actionsRow > li:not(:last-child) {
   border-right: 1px solid var(--grey-light);
   margin-right: 10px;
   padding: 0 10px 0 0;
 }
 
 .dp-Tasks-list .dp-LevelWrap > li:hover,
-.dp-Tasks-list .dp-LevelWrap > li.is-active {
+.dp-Tasks-list .dp-LevelWrap > li.is-active,
+.dp-Card-actionsRow > li:hover,
+.dp-Card-actionsRow > li.is-active {
   cursor: pointer;
   text-decoration: underline;
 }
@@ -426,7 +434,8 @@
   margin-left: 5px;
 }
 
-.dp-Tasks-list .dp-LevelWrap > li .dp-Icon {
+.dp-Tasks-list .dp-LevelWrap > li .dp-Icon,
+.dp-Card-actionsRow > li .dp-Icon {
   margin-right: 5px;
 }
 
@@ -530,30 +539,37 @@ input:disabled + label {
 
 /* COMMENTS */
 
-.dp-Tasks-list .dp-LevelWrap {
+.dp-Card-actionsRow {
   align-items: center;
+  display: flex;
   justify-content: flex-start;
+  list-style: none;
 }
 
-.dp-CardList .dp-Comments-list:hover .dp-LevelWrap {
+.dp-CardList .dp-Comments-list:hover .dp-LevelWrap,
+.dp-Card:hover .dp-Card-actionsRow {
   background-color: rgba(58, 141, 222, 0.1);
 }
 
-.dp-Comments-list .dp-LevelWrap > li {
+.dp-Comments-list .dp-LevelWrap > li,
+.dp-Card-actionsRow > li {
   color: var(--grey-darkest);
 }
 
-.dp-Comments-list .dp-LevelWrap > li:hover {
+.dp-Comments-list .dp-LevelWrap > li:hover,
+.dp-Card-actionsRow > li:hover {
   color: var(--brand-primary);
   text-decoration: none;
 }
 
+.dp-Tasks-list .dp-LevelWrap > li:hover svg,
 .dp-Cog > svg.is-active,
-.dp-Tasks-list .dp-LevelWrap > li:hover svg {
+.dp-Card-actionsRow > li:hover svg {
   fill: var(--brand-primary);
 }
 
-.dp-Comments-list .dp-LevelWrap {
+.dp-Comments-list .dp-LevelWrap,
+.dp-Card-actionsRow {
   background-color: var(--grey-lightest);
   margin: 0 -11px -10px -10px;
   padding: 5px 0 5px 29px;
@@ -589,11 +605,11 @@ input:disabled + label {
   margin-top: 5px;
 }
 
-.dp-Card.dp-Comments-list {
+.CardList-comments .dp-Card {
   padding: 10px;
 }
 
-.dp-Card.dp-Comments-list .dp-CustomCheckbox {
+.CardList-comments .dp-Card .dp-CustomCheckbox {
   padding: 0;
 }
 
@@ -893,12 +909,9 @@ input:disabled + label {
 /* Animate  */
 
 .dp-Show-Hide .dp-Card {
+  max-height: 100%;
   overflow: hidden;
-  transition: max-height 0.5s, padding-top 1s;
-
-  /*  height: 100%;
-  max-height: 200px; */
-
+  transition: max-height 0.5s ease-in-out, padding 0.5s ease-in-out;
 }
 
 .dp-Show-Hide .dp-Card.dp-Leaving {

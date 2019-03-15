@@ -26,7 +26,8 @@
       "components/dp-Tableview",
       "components/dp-GroupedFields",
       "components/dp-Knowledgebase",
-      "components/dp-Guides"
+      "components/dp-Guides",
+      "components/dp-Publish"
     ],
     "Elements": [
       "elements/dp-Icons",

@@ -1141,7 +1141,7 @@ title: Settings Cog
 ```html @preview
 <div class="dp-MainWrapper demo-cog demo-menu">
     <form>
-        <ul class="dp-CardList CardList-comments is-hoverable">
+        <ul class="dp-CardList CardList-comments">
 
             <li class="dp-Card-SectionTitle">
                 <span class="dp-LevelCol">
@@ -1155,7 +1155,7 @@ title: Settings Cog
                 </span>
             </li>
             <!-- 1 -->
-            <li class="dp-Card dp-Level LevelCol dp-Tasks-list dp-Comments-list">
+            <li class="dp-Card dp-Level LevelCol">
                 <span class="dp-LevelItem Level-justify-between">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="comment-1">
@@ -1179,7 +1179,7 @@ title: Settings Cog
                     </span>
                 </span>
                 
-                <ul class="dp-LevelWrap">
+                <ul class="dp-Card-actionsRow">
                     <li><span class="dp-Icon dp-Approve"></span>Approve</li>
                     <li><span class="dp-Icon dp-Delete"></span>Delete</li>
                     <li><span class="dp-Icon dp-CreateTicket"></span>Create ticket</li>
@@ -1189,7 +1189,7 @@ title: Settings Cog
             </li>
 
             <!-- 2 -->
-            <li class="dp-Card dp-Level LevelCol dp-Tasks-list dp-Comments-list">
+            <li class="dp-Card dp-Level LevelCol">
                 <span class="dp-LevelItem Level-justify-between">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="comment-2">
@@ -1203,7 +1203,7 @@ title: Settings Cog
                     <span class="dp-Card-comment">I wish I could show you our cat Dinah: I think I must go back by railw...</span>
                 </span>
     
-                <ul class="dp-LevelWrap">
+                <ul class="dp-Card-actionsRow">
                     <li><span class="dp-Icon dp-Approve"></span>Approve</li>
                     <li><span class="dp-Icon dp-Delete"></span>Delete</li>
                     <li><span class="dp-Icon dp-CreateTicket"></span>Create ticket</li>
@@ -1212,7 +1212,7 @@ title: Settings Cog
             </li>
 
             <!-- 3 -->
-            <li class="dp-Card dp-Level LevelCol dp-Tasks-list dp-Comments-list">
+            <li class="dp-Card dp-Level LevelCol">
                 <span class="dp-LevelItem Level-justify-between">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="comment-3">
@@ -1226,7 +1226,7 @@ title: Settings Cog
                     <span class="dp-Card-comment">I wish I could show you our cat Dinah: I think I must go back by railw...</span>
                 </span>
     
-                <ul class="dp-LevelWrap">
+                <ul class="dp-Card-actionsRow">
                     <li><span class="dp-Icon dp-Approve"></span>Approve</li>
                     <li><span class="dp-Icon dp-Delete"></span>Delete</li>
                     <li><span class="dp-Icon dp-CreateTicket"></span>Create ticket</li>
@@ -1235,7 +1235,7 @@ title: Settings Cog
             </li>
 
             <!-- 4 -->
-            <li class="dp-Card dp-Level LevelCol dp-Tasks-list dp-Comments-list">
+            <li class="dp-Card dp-Level LevelCol">
                 <span class="dp-LevelItem Level-justify-between">
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="comment-4">
@@ -1249,7 +1249,7 @@ title: Settings Cog
                     <span class="dp-Card-comment">I wish I could show you our cat Dinah: I think I must go back by railw...</span>
                 </span>
     
-                <ul class="dp-LevelWrap">
+                <ul class="dp-Card-actionsRow">
                     <li><span class="dp-Icon dp-Approve"></span>Approve</li>
                     <li><span class="dp-Icon dp-Delete"></span>Delete</li>
                     <li><span class="dp-Icon dp-CreateTicket"></span>Create ticket</li>

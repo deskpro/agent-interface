@@ -136,14 +136,14 @@
   border: 0;
 }
 
-.dp-TicketMenuItem.is-active .dp-Arrow::after {
-  border-color: transparent transparent var(--black) transparent;
-  border-width: 0 3px 3px 3px;
+.dp-TicketMenuItem.is-active .dp-TitleMenu > .dp-Arrow::after {
+  border-color: transparent transparent var(--grey-darkest) transparent;
+  border-width: 0 4px 4px 4px;
 }
 
-.dp-TicketMenuItem .dp-Arrow::after {
-  border-color: var(--black) transparent transparent transparent;
-  border-width: 3px 3px 0 3px;
+.dp-TicketMenuItem .dp-TitleMenu > .dp-Arrow::after {
+  border-color: var(--grey-darkest) transparent transparent transparent;
+  border-width: 4px 4px 0 4px;
   right: 0;
 }
 
@@ -231,4 +231,24 @@
 
 .dp-TicketMenuItem.dp-SavedSearches .dp-SubMenu li:last-child {
   margin: 0;
+}
+
+/* add class --.Tickets--Lock in --.dp-Tickets */
+
+.dp-FilterlistContainer .dp-Tickets .dp-Tasks-list .dp-Card-title {
+  margin-right: 5px;
+  position: inherit;
+}
+
+.dp-FilterlistContainer .dp-Tickets .dp-Tasks-list > .dp-Icon {
+  display: none;
+}
+
+.dp-FilterlistContainer .dp-Tickets.Tickets--Lock .dp-Tasks-list > .dp-Icon {
+  display: block;
+}
+
+.dp-FilterlistContainer .dp-Tickets.Tickets--Lock .dp-qt {
+  left: calc(100% + 5px);
+  position: absolute;
 }

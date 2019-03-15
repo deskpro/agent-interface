@@ -1,0 +1,68 @@
+@import "../fonts.css";
+@import "../vars.css";
+@import "../dp-Arrow.css";
+
+.dp-BrandMenu {
+  box-shadow: var(--shadow-bottom);
+  color: #4c4f50;
+  display: block;
+  font: var(--p-xl);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.dp-BrandMenu .dp-BrandItem {
+  align-items: center;
+  display: flex;
+  margin: 0;
+  padding: 5px;
+}
+
+/* .dp-BrandMenu .dp-BrandItem:not(:first-child) { */
+
+.dp-BrandMenu .dp-BrandItem ~ .dp-BrandItem {
+  background-color: var(--white);
+  border-top: 1px solid var(--grey-light);
+  display: none;
+}
+
+/* .dp-BrandMenu .is-active.dp-BrandItem:not(:first-child) { */
+
+.dp-BrandMenu .dp-BrandItem.is-active ~ .dp-BrandItem {
+  display: block;
+}
+
+.dp-BrandMenu .dp-BrandItem:hover:not(:first-child) {
+  background-color: var(--info-light);
+  color: var(--brand-primary);
+}
+
+.dp-BrandMenu .dp-BrandItem:first-child {
+  background-color: var(--grey-lighter);
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+}
+
+.dp-BrandMenu .dp-BrandItem.is-active:first-child,
+.dp-BrandMenu .dp-BrandItem:last-child {
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
+.dp-BrandItem > .dp-Icon {
+  background-size: 16px 16px;
+  height: 16px;
+  margin-right: 8px;
+  width: 16px;
+}
+
+.dp-BrandItem .dp-Arrow {
+  flex: 1 0 auto;
+}
+
+.dp-BrandItem > .dp-Arrow::after {
+  border-color: var(--grey-dark) transparent transparent transparent;
+  border-width: 4px 4px 0 4px;
+}
