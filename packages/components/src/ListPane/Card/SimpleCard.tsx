@@ -60,7 +60,7 @@ const SimpleCard: React.FC<SimpleCardProps> = ({
       <span className="dp-LevelCol dp-LevelRight dp-LevelTop">{status}</span>
     )}
     {actions.length > 0 && (
-      <ul className="dp-LevelWrap dp-Card-actions">
+      <ul className="dp-LevelItem dp-Card-actionsRow">
         {actions.map(({ name, icon, title: actionTitle }) => (
           <li
             key={name}
