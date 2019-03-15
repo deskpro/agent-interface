@@ -16,6 +16,10 @@ jobs:
 
     working_directory: ~/repo
 
+    dependencies:
+      post:
+        - npm run bootstrap
+
     branches:
       ignore:
         - gh-pages
@@ -31,7 +35,6 @@ jobs:
             - v1-dependencies-
 
       - run: yarn install
-      - run: yarn bootstrap
 
       - run:
           name: Install JUnit coverage reporter

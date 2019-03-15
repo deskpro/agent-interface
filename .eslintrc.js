@@ -1,4 +1,6 @@
-{
+const path = require('path');
+
+module.exports = {
   "parser": "babel-eslint",
   "extends": ["airbnb", "plugin:prettier/recommended", "prettier/react"],
   "env": {
@@ -15,7 +17,11 @@
     "import/resolver": {
       "node": {
         "extensions": [".js", ".jsx", ".ts", ".tsx"]
+      },
+      'eslint-import-resolver-lerna': {
+        packages: path.resolve(__dirname, 'packages')
       }
+
     },
     "import/ignore": ["\\.css$"]
   },
