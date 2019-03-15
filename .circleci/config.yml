@@ -26,7 +26,11 @@ jobs:
             # fallback to using the latest cache if no exact match is found
             - v1-dependencies-
 
-      - run: yarn install
+      - run: yarn boostrap
+
+      - run:
+        name: Install JUnit coverage reporter
+        command: yarn add --dev jest-junit -W
 
       - save_cache:
           paths:
@@ -34,4 +38,7 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
 
       # run tests!
-      - run: yarn test
+      - run:
+        command: yarn test --ci --runInBand --reporters=default --reporters=jest-junit
+        environment:
+          JEST_JUNIT_OUTPUT: "reports/junit/js-test-results.xml"
