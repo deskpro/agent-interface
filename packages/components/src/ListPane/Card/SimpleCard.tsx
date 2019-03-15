@@ -3,9 +3,22 @@ import classNames from "classnames";
 
 import Card, { BasicCardProps } from "./Card";
 import Checkbox, { CheckableCardProps } from "./CardCheckbox";
+import Icon from "../../elements/Icon/Icon";
+
+export type CardActionItemType = {
+  name: React.Key;
+  icon?: string;
+  title: string;
+};
 
 export type SimpleCardProps = {
   status?: React.ReactNode;
+  actions?: CardActionItemType[];
+  onActionClick?: (
+    actionName: React.Key,
+    cardId: React.Key,
+    e: React.SyntheticEvent
+  ) => void;
 } & BasicCardProps &
   CheckableCardProps;
 
@@ -18,6 +31,8 @@ const SimpleCard: React.FC<SimpleCardProps> = ({
   checkable = false,
   checked = false,
   onCheck,
+  actions = [],
+  onActionClick,
   ...props
 }) => (
   <Card
@@ -43,6 +58,27 @@ const SimpleCard: React.FC<SimpleCardProps> = ({
     </span>
     {!!status && (
       <span className="dp-LevelCol dp-LevelRight dp-LevelTop">{status}</span>
+    )}
+    {actions.length > 0 && (
+      <ul className="dp-LevelWrap dp-Card-actions">
+        {actions.map(({ name, icon, title: actionTitle }) => (
+          <li
+            key={name}
+            role="menuitem"
+            onClick={(e: React.SyntheticEvent) =>
+              onActionClick && onActionClick(name, cardId, e)
+            }
+            onKeyPress={e =>
+              e.key === "Enter" &&
+              onActionClick &&
+              onActionClick(name, cardId, e)
+            }
+          >
+            {!!icon && <Icon name={icon} size={15} />}
+            {actionTitle}
+          </li>
+        ))}
+      </ul>
     )}
   </Card>
 );
