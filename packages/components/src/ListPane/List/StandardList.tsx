@@ -19,6 +19,9 @@ export type StandardListProps = {
   massActions?: MassActionType[];
   onMassAction?: (actionName: React.Key, selectedItems: ListItem[]) => void;
   onLoadItems: (page: number) => void;
+  showAddButton?: boolean;
+  onAddClick?: (e: React.SyntheticEvent) => void;
+  showPaginator?: boolean;
   renderItem: (
     item: ListItem,
     props: Partial<SimpleCardProps>
@@ -32,6 +35,9 @@ const StandardList: React.FC<StandardListProps> = ({
   onLoadItems,
   massActions,
   onMassAction,
+  showAddButton = false,
+  onAddClick,
+  showPaginator = true,
   ...props
 }) => {
   const {
@@ -58,6 +64,11 @@ const StandardList: React.FC<StandardListProps> = ({
 
   return (
     <>
+      {showAddButton && onAddClick && (
+        <List.AddButton onClick={onAddClick}>
+          Click to add new item
+        </List.AddButton>
+      )}
       <ListBar
         totalItemsCount={items.length}
         selectedCount={selection.length}
@@ -124,16 +135,21 @@ const StandardList: React.FC<StandardListProps> = ({
         scrollHeight={
           height
             ? height -
-              (selection.length && massActions && massActions.length ? 95 : 73)
+              (selection.length && massActions && massActions.length
+                ? 95
+                : 73) -
+              (showAddButton ? 38 : 0)
             : undefined
         }
       />
-      <Pagination
-        currentPage={currentPage}
-        numPages={numPages}
-        onPageChange={handlePageChange}
-        showGotoPage
-      />
+      {showPaginator && (
+        <Pagination
+          currentPage={currentPage}
+          numPages={numPages}
+          onPageChange={handlePageChange}
+          showGotoPage
+        />
+      )}
       {selection.length > 0 && massActions && massActions.length > 0 && (
         <ActionsButton
           renderMenu={menuProps => (

@@ -1,5 +1,6 @@
 import React from "react";
 import { action } from "@storybook/addon-actions";
+import uuid from "uuid";
 
 import {
   StandardList,
@@ -7,28 +8,27 @@ import {
   IconGroup,
   Icon,
   Badge,
-  UserInfo
+  UserInfo,
+  Menu
 } from "@deskpro/agent-interface-components";
 
-function generateCardItems(pageNumber) {
-  return Array.from({ length: 20 }, (_, idx) => {
-    const id = `${pageNumber}-${idx + 1}`;
-    return {
-      id,
-      title: `Card #${id}`
-    };
-  });
+function createItem(group) {
+  const id = uuid();
+  return {
+    id,
+    title: `Card #${id.substr(0, 8)}`,
+    group
+  };
+}
+
+function generateCardItems() {
+  return Array.from({ length: 20 }, createItem);
 }
 
 function generateGroupedCardItems(pageNumber) {
   return Array.from({ length: 20 }, (_, idx) => {
-    const id = `${pageNumber}-${idx + 1}`;
     const groupId = Math.floor(((pageNumber - 1) * 20 + idx) / 27);
-    return {
-      id,
-      title: `Card #${id}`,
-      group: { id: groupId, title: `GROUP #${groupId + 1}` }
-    };
+    return createItem({ id: groupId, title: `GROUP #${groupId + 1}` });
   });
 }
 
@@ -50,7 +50,22 @@ const StandardListDemo = ({ grouped = false }) => {
     () => {
       setItems(loadCallback(loadedPage));
     },
-    [grouped, loadCallback, loadedPage]
+    [setItems, loadCallback, loadedPage]
+  );
+
+  const handleItemDelete = React.useCallback(
+    itemId => {
+      const [, cardId] = itemId.split("/");
+      setItems(items.filter(i => i.id !== cardId));
+    },
+    [items, setItems]
+  );
+
+  const handleAdd = React.useCallback(
+    () => {
+      setItems([createItem(items[0].group)].concat(items));
+    },
+    [items, setItems]
   );
 
   return (
@@ -65,6 +80,8 @@ const StandardListDemo = ({ grouped = false }) => {
         }}
         massActions={[{ name: "delete", label: "Delete", icon: "bin" }]}
         onMassAction={action()}
+        showAddButton
+        onAddClick={handleAdd}
         renderItem={(item, props) => (
           <Card.Simple
             {...props}
@@ -80,6 +97,16 @@ const StandardListDemo = ({ grouped = false }) => {
                 <span className="dp-TimeStatus">2 mins</span>
               </>
             }
+            renderCogMenu={menuProps => (
+              <Menu {...menuProps}>
+                <Menu.MenuItem
+                  name={`delete/${item.id}`}
+                  icon="bin"
+                  text="Delete"
+                  onClick={handleItemDelete}
+                />
+              </Menu>
+            )}
           >
             <UserInfo name="John Doe" email="john.doe@example.com" />
           </Card.Simple>

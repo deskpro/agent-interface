@@ -1,13 +1,24 @@
 import * as React from "react";
-import * as isEqual from "lodash/isEqual";
+import classNames from "classnames";
+import { TransitionGroup, CSSTransition } from "react-transition-group";
 
 import Card from "../Card";
 import { SimpleCardProps } from "../Card/SimpleCard";
 import ScrollArea from "../../ScrollArea/ScrollArea";
-import { ListItem } from "../types";
+import { ListItem, ListItemGroup } from "../types";
 
 import "@deskpro/agent-interface-style/dist/components/dp-ListPane.css";
 import Checkbox from "../../inputs/Checkbox/Checkbox";
+import ListAddButton from "./AddButton";
+
+export interface ListSubComponents {
+  AddButton: typeof ListAddButton;
+}
+
+export type GroupedListItemType = {
+  group: ListItemGroup;
+  items: ListItem[];
+};
 
 export interface MassActionType {
   name: React.Key;
@@ -26,13 +37,13 @@ export type ListProps = {
   ) => void;
   renderItem: (
     item: ListItem,
-    props: Partial<SimpleCardProps & { key?: React.Key }>
+    props: Partial<SimpleCardProps>
   ) => React.ReactNode;
   getGroupCheckState: (groupId: React.Key) => boolean | "undef";
   onGroupSelectionToggle: (groupId: React.Key) => void;
 };
 
-const List: React.FC<ListProps> = ({
+const List: React.FC<ListProps> & ListSubComponents = ({
   className,
   scrollHeight,
   items,
@@ -41,40 +52,73 @@ const List: React.FC<ListProps> = ({
   renderItem,
   getGroupCheckState,
   onGroupSelectionToggle
-}) => (
-  <Card.List className={className}>
-    <ScrollArea className="dp-List-items" style={{ height: scrollHeight }}>
-      {items.map((item, idx) => {
-        const group = item.group || { id: "DEFAULT", title: "DEFAULT" };
-        const groupCheckState = getGroupCheckState(group.id);
-        return [
-          group.id !== "DEFAULT" &&
-          (idx === 0 || !isEqual(items[idx - 1].group, group)) ? (
-            <Card.SectionTitle key={group.id}>
+}) => {
+  const groupedItems = React.useMemo(
+    () =>
+      items.reduce(
+        (acc, { group = { id: "DEFAULT", title: "" }, ...item }) => {
+          const lastItem = acc[acc.length - 1] || null;
+          if (lastItem && lastItem.group.id === group.id) {
+            acc[acc.length - 1].items.push(item);
+          } else {
+            acc.push({
+              group,
+              items: [item]
+            });
+          }
+          return acc;
+        },
+        [] as GroupedListItemType[]
+      ),
+    [items]
+  );
+  return (
+    <Card.List className={classNames("dp-Show-Hide", className)}>
+      <ScrollArea className="dp-List-items" style={{ height: scrollHeight }}>
+        {groupedItems.map(({ group, items: groupItems }) => {
+          const groupCheckState = getGroupCheckState(group.id);
+          return (
+            <>
               {group.id !== "DEFAULT" && (
-                <Checkbox
-                  id={group.title}
-                  checked={!!groupCheckState}
-                  undef={groupCheckState === "undef"}
-                  onChange={() => {
-                    onGroupSelectionToggle(group.id);
-                  }}
-                />
+                <Card.SectionTitle>
+                  <Checkbox
+                    id={group.title}
+                    checked={!!groupCheckState}
+                    undef={groupCheckState === "undef"}
+                    onChange={() => {
+                      onGroupSelectionToggle(group.id);
+                    }}
+                  />
+                  {group.title}
+                </Card.SectionTitle>
               )}
-              {group.title}
-            </Card.SectionTitle>
-          ) : null,
-          renderItem(item, {
-            key: item.id,
-            cardId: item.id,
-            onCheck: onSelectToggle,
-            checked: selected.includes(item.id),
-            checkable: true
-          })
-        ];
-      })}
-    </ScrollArea>
-  </Card.List>
-);
+              <TransitionGroup component={null}>
+                {groupItems.map(item => (
+                  <CSSTransition
+                    classNames={{
+                      enterActive: "dp-Entering",
+                      exitActive: "dp-Leaving"
+                    }}
+                    timeout={1000}
+                    key={item.id}
+                  >
+                    {renderItem(item, {
+                      cardId: item.id,
+                      onCheck: onSelectToggle,
+                      checked: selected.includes(item.id),
+                      checkable: true
+                    })}
+                  </CSSTransition>
+                ))}
+              </TransitionGroup>
+            </>
+          );
+        })}
+      </ScrollArea>
+    </Card.List>
+  );
+};
+
+List.AddButton = ListAddButton;
 
 export default List;

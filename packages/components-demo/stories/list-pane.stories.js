@@ -8,6 +8,7 @@ import PaginationDemo from "./components/list-pane/PaginationDemo";
 import TicketCardsDemo from "./components/list-pane/TicketCardsDemo";
 import SimpleCardsDemo from "./components/list-pane/SimpleCardsDemo";
 import StandardListDemo from "./components/list-pane/StandardListDemo";
+import CardACtionsDemo from "./components/list-pane/CardActionsDemo";
 
 storiesOf("ListPane", module)
   .addDecorator(withKnobs)
@@ -22,4 +23,5 @@ storiesOf("ListPane", module)
   ))
   .add("Standard List", () => (
     <StandardListDemo grouped={boolean("Grouped List", false)} />
-  ));
+  ))
+  .add("Card Actions", () => <CardACtionsDemo />);
