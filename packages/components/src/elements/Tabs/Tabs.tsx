@@ -6,7 +6,7 @@ import TabTitle from "./TabTitle";
 import TabSubtitle from "./TabSubtitle";
 
 import "@deskpro/agent-interface-style/dist/components/dp-PageTabs.css";
-import "@deskpro/agent-interface-style/dist/components/dp-Pageview.css";
+import "@deskpro/agent-interface-style/dist/components/dp-Ticketview.css";
 
 type TabsSubComponents = {
   TabItem: typeof TabItem;
