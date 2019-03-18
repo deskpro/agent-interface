@@ -69,7 +69,10 @@ const StandardListDemo = ({ grouped = false }) => {
   );
 
   return (
-    <div style={{ maxWidth: 500, height: "100vh" }} ref={containerRef}>
+    <div
+      style={{ maxWidth: 500, height: "100vh", overflowX: "hidden" }}
+      ref={containerRef}
+    >
       <StandardList
         items={items}
         numPages={20}
