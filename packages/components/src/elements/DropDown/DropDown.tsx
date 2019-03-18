@@ -1,6 +1,7 @@
 import * as React from "react";
 import classNames from "classnames";
 import Icon from "../Icon/Icon";
+import Arrow from "../../Button/Arrow";
 
 type DropDownChildrenProps = {
   isOpened: boolean;
@@ -39,11 +40,7 @@ const DropDown: React.FC<DropDrownProps> = ({
       <span className="dp-SelectGroup">
         <span className="dp-ItemRow">
           <span className="dp-Title">{label}</span>
-          <button
-            type="button"
-            className="dp-Arrow"
-            onClick={() => setOpened(!isOpened)}
-          />
+          <Arrow onClick={() => setOpened(!isOpened)} />
         </span>
         {!!subLabel && (
           <span className="dp-ItemRow">

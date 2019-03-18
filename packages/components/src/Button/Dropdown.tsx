@@ -2,9 +2,9 @@ import * as React from "react";
 import { Manager, Reference, Popper } from "react-popper";
 import classNames from "classnames";
 
-import "@deskpro/agent-interface-style/dist/dp-Arrow.css";
 import { MenuProps } from "../elements/Menu/Menu";
 import useOutsideClick from "../hooks/useOutsideClick";
+import Arrow from "./Arrow";
 
 export type DropdownProps = {
   className?: string;
@@ -38,7 +38,7 @@ const Dropdown: React.FC<DropdownProps> = ({
               }}
             >
               {children}
-              <span className="dp-Arrow" />
+              <Arrow isActive={isOpen} />
             </span>
           )}
         </Reference>

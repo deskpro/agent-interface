@@ -5,6 +5,7 @@ import { Manager, Reference, Popper } from "react-popper";
 import Icon from "../Icon/Icon";
 import { MenuContext } from "./MenuContext";
 import usePrevious from "../../hooks/usePrevious";
+import Arrow from "../../Button/Arrow";
 
 export type MenuItemProps = {
   icon?: string | React.ReactElement<any>;
@@ -91,7 +92,7 @@ const MenuItem: React.FC<MenuItemProps> = ({
                 labelProps,
                 text
               )}
-              {!!children && <span className="dp-Arrow" />}
+              {!!children && <Arrow />}
             </span>
           )}
         </Reference>

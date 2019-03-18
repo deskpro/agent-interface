@@ -7,6 +7,7 @@ import { FieldGroupingContext } from "./FieldGroupingContext";
 import getChildrenIds from "./childrenIds";
 import Badge from "../Badges/Badge";
 import Icon from "../Icon/Icon";
+import Arrow from "../../Button/Arrow";
 
 const SubItem: React.FC<{ item: FieldGroupingListItemType }> = ({ item }) => {
   const { selected, onToggleItem } = React.useContext(FieldGroupingContext);
@@ -38,19 +39,11 @@ const SubItem: React.FC<{ item: FieldGroupingListItemType }> = ({ item }) => {
           }}
         >
           {!!item.children && item.children.length > 0 && (
-            <span
-              className={classNames("dp-Arrow", { "is-active": isExpanded })}
-              role="button"
-              tabIndex={-1}
+            <Arrow
+              isActive={isExpanded}
               onClick={e => {
                 e.stopPropagation();
                 toggleExpanded(!isExpanded);
-              }}
-              onKeyPress={e => {
-                if (e.key === "Enter") {
-                  e.stopPropagation();
-                  toggleExpanded(!isExpanded);
-                }
               }}
             />
           )}

@@ -10,6 +10,7 @@ import OrderingBar from "../OrderingBar/OrderingBar";
 import Icon from "../../elements/Icon/Icon";
 import { ListItem } from "../types";
 import useItemSelection from "../useItemSelection";
+import Arrow from "../../Button/Arrow";
 
 export type StandardListProps = {
   className?: string;
@@ -81,7 +82,7 @@ const StandardList: React.FC<StandardListProps> = ({
           <span className="dp-SelectGroup">
             <span className="dp-ItemRow">
               <span className="dp-Title">Grouped by</span>
-              <span className="dp-Arrow" />
+              <Arrow />
             </span>
             <span className="dp-ItemRow">
               <span className="dp-Subtitle">None</span>
@@ -93,7 +94,7 @@ const StandardList: React.FC<StandardListProps> = ({
           <span className="dp-SelectGroup">
             <span className="dp-ItemRow">
               <span className="dp-Title">Sort by</span>
-              <span className="dp-Arrow" />
+              <Arrow />
             </span>
             <span className="dp-ItemRow">
               <span className="dp-Subtitle">Date</span>
@@ -105,7 +106,7 @@ const StandardList: React.FC<StandardListProps> = ({
           <span className="dp-SelectGroup">
             <span className="dp-ItemRow">
               <span className="dp-Title">Faceted by</span>
-              <span className="dp-Arrow" />
+              <Arrow />
             </span>
             <span className="dp-ItemRow">
               <span className="dp-Subtitle">3 Agents</span>
@@ -117,7 +118,7 @@ const StandardList: React.FC<StandardListProps> = ({
           <span className="dp-SelectGroup">
             <span className="dp-ItemRow">
               <span className="dp-Title">Fields</span>
-              <span className="dp-Arrow" />
+              <Arrow />
             </span>
             <span className="dp-ItemRow">
               <span className="dp-Subtitle">8 fields</span>

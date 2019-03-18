@@ -1,6 +1,7 @@
 import * as React from "react";
 import classNames from "classnames";
 import Icon from "../Icon/Icon";
+import Arrow from "../../Button/Arrow";
 
 export type TabItemProps = {
   className?: string;
@@ -9,8 +10,8 @@ export type TabItemProps = {
   iconOnly?: boolean;
   isActive?: boolean;
   isExpanded?: boolean;
-  onTabClick?(e: React.SyntheticEvent<HTMLElement>): void;
-  onMenuToggle?(e: React.SyntheticEvent<HTMLElement>): void;
+  onTabClick?: (e: React.SyntheticEvent) => void;
+  onMenuToggle: (e: React.SyntheticEvent) => void;
   renderMenu?(): React.ReactNode;
   tabRef?: React.Ref<HTMLLIElement>;
   children?: React.ReactNode;
@@ -45,9 +46,7 @@ const TabItem: React.FC<TabItemProps> = ({
     )}
     {!!icon && typeof icon !== "string" && icon}
     {children}
-    {!!renderMenu && (
-      <button className="dp-Arrow" type="button" onClick={onMenuToggle} />
-    )}
+    {!!renderMenu && <Arrow onClick={onMenuToggle} />}
     {!!renderMenu && isExpanded && renderMenu()}
   </li>
 );

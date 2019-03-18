@@ -8,6 +8,7 @@ import SubItem from "./FieldGroupingSubItem";
 import Badge from "../Badges/Badge";
 import useMenu from "../../hooks/useMenu";
 import useOutsideClick from "../../hooks/useOutsideClick";
+import Arrow from "../../Button/Arrow";
 
 export type FieldGroupingListItemProps = {
   id: React.Key;
@@ -37,22 +38,12 @@ const FieldGroupingListItem: React.FC<FieldGroupingListItemProps> = ({
   const arrow = (
     <Reference>
       {({ ref }) => (
-        <span
-          className={classNames("dp-Icon dp-Arrow", {
-            "is-active": menuIsVisible
-          })}
+        <Arrow
+          isActive={menuIsVisible}
           ref={ref}
-          role="button"
-          tabIndex={-1}
           onClick={e => {
             e.stopPropagation();
             toggleMenu();
-          }}
-          onKeyPress={e => {
-            if (e.key === "Enter") {
-              e.stopPropagation();
-              toggleMenu();
-            }
           }}
         />
       )}
