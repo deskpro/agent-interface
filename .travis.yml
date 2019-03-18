@@ -21,7 +21,8 @@ script:
     master branch"
   - test "${TRAVIS_BRANCH}" != "master" || test "${TRAVIS_PULL_REQUEST}" != "false"
     || bin/travis-prep-website.sh
-  - yarn test:regression
+  - test "${TRAVIS_BRANCH}" != "master" || test "${TRAVIS_PULL_REQUEST}" != "false"
+    || yarn test:regression
 cache:
   yarn: true
   directories:

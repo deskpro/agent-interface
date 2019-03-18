@@ -26,6 +26,5 @@ module.exports = ({ config, mode }) => {
       ]
     }
   ]);
-  config.profile = true;
   return config;
 };
