@@ -91,14 +91,17 @@ const addMenuItems = [
 ];
 
 const PageTabsDemo = ({ full = false }) => {
+  const [tabs, setTabs] = React.useState(full ? bigTabsSet : smallTabsSet);
   const [activeTabID, setActiveTab] = React.useState(1);
+
   return (
     <PageTabs
       activeTabId={activeTabID}
       onTabClick={tabId => setActiveTab(tabId)}
-      tabs={full ? bigTabsSet : smallTabsSet}
+      tabs={tabs}
       addMenuItems={addMenuItems}
       onAddClick={action()}
+      onTabClose={tabId => setTabs(tabs.filter(t => t.id !== tabId))}
     />
   );
 };

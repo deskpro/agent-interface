@@ -33,6 +33,7 @@ export type PageTabsProps = {
   onAddClick?: (itemId: React.Key, e: React.SyntheticEvent) => void;
   activeTabId: React.Key;
   onTabClick: (tabId: React.Key, e: React.SyntheticEvent) => void;
+  onTabClose: (tabId: React.Key, e: React.SyntheticEvent) => void;
 };
 
 const PageTabs: React.FC<PageTabsProps> = ({
@@ -42,6 +43,7 @@ const PageTabs: React.FC<PageTabsProps> = ({
   addMenuItems = [],
   addMenuTitle = "Add",
   onAddClick,
+  onTabClose,
   className
 }) => {
   const [tabsWidth, setTabsWidth] = React.useState(0);
@@ -122,6 +124,15 @@ const PageTabs: React.FC<PageTabsProps> = ({
           >
             <Tabs.TabTitle icon={titleIcon}>{title}</Tabs.TabTitle>
             <Tabs.TabSubtitle icon={subtitleIcon}>{subtitle}</Tabs.TabSubtitle>
+            <span
+              className="dp-CloseBtn"
+              role="button"
+              tabIndex={-1}
+              onClick={e => onTabClose(id, e)}
+              onKeyPress={e => e.key === "Enter" && onTabClose(id, e)}
+            >
+              <Icon name="close" size={8} />
+            </span>
           </Tabs.TabItem>
         ))}
       {visibleItems < tabs.length && (
@@ -156,11 +167,7 @@ const PageTabs: React.FC<PageTabsProps> = ({
                     {tabs
                       .slice(visibleItems)
                       .map(
-                        (
-                          { id, title, titleIcon, subtitle, subtitleIcon },
-                          idx,
-                          source
-                        ) => (
+                        ({ id, title, titleIcon, subtitle, subtitleIcon }) => (
                           <Tabs.TabItem
                             key={id}
                             onTabClick={e => onTabClick(id, e)}
@@ -174,19 +181,17 @@ const PageTabs: React.FC<PageTabsProps> = ({
                                 {subtitle}
                               </Tabs.TabSubtitle>
                             </span>
-                            {source.length - 1 === idx && (
-                              <span
-                                className="dp-CloseBtn"
-                                role="button"
-                                tabIndex={-1}
-                                onClick={() => toggleHiddenItems(false)}
-                                onKeyPress={e =>
-                                  e.key === "Enter" && toggleHiddenItems(false)
-                                }
-                              >
-                                <Icon name="close" size={8} />
-                              </span>
-                            )}
+                            <span
+                              className="dp-CloseBtn"
+                              role="button"
+                              tabIndex={-1}
+                              onClick={e => onTabClose(id, e)}
+                              onKeyPress={e =>
+                                e.key === "Enter" && onTabClose(id, e)
+                              }
+                            >
+                              <Icon name="close" size={8} />
+                            </span>
                           </Tabs.TabItem>
                         )
                       )}
