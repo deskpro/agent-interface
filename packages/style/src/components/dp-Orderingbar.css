@@ -42,6 +42,7 @@
 
 .dp-OrderingBar-item .dp-SelectGroup .dp-Arrow::after {
   right: 0;
+  top: 5px;
 }
 
 .dp-Listview.dp-Wrapper {

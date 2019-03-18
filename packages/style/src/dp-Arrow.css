@@ -4,8 +4,7 @@
 .dp-Arrow {
   cursor: pointer;
   display: inline-block;
-  height: 100%;
-  max-height: 10px;
+  height: 12px;
   padding-left: 17px;
   position: relative;
   vertical-align: middle;
