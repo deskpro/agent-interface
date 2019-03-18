@@ -121,7 +121,7 @@
     padding: 0 0 0 5px;
   }
 
-  &.Badge--groupe-filter {
+  &.Badge--group-filter {
     background-color: var(--grey-lighter);
     border: 1px solid var(--grey-light);
     display: flex;

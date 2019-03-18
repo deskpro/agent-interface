@@ -2,12 +2,12 @@
 title: Filter list
 ---
 
-<h4>filterlist/container</h4>
+<!-- <h4>filterlist/container</h4>
 ```html @preview
 <div class="dp-MainWrapper">
-	<div class="dp-FilterlistContainer"></div>
+	<div class="dp-FilterlistContainer" style="height:100vh"></div>
 </div>
-```
+``` -->
 
 <h4>filterlist/filters-and-views</h4>
 ```html @preview
@@ -65,25 +65,17 @@ title: Filter list
 				<button class="dp-Arrow"></button>
 			</span>
 			<ul class="dp-SubMenu">
-				<li>
-					<a href="#">
-						<span>My tickets<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">1</span>
-					</a>
+				<li class="dp-SubMenuItem">
+					<span>My tickets<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">1</span>
 				</li>
-				<li>
-					<a href="#">
-						<span>Tickets I follow<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-					</a>
+				<li class="dp-SubMenuItem">
+					<span>Tickets I follow<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
 				</li>
-				<li>
-					<a href="#">
-						<span>Unassigned tickets<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-					</a>
+				<li class="dp-SubMenuItem">
+					<span>Unassigned tickets<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
 				</li>
-				<li>
-					<a href="#">
-						<span>All tickets<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">90</span>
-					</a>
+				<li class="dp-SubMenuItem">
+					<span>All tickets<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">90</span>
 				</li>
 			</ul>
 		</li>
@@ -97,10 +89,8 @@ title: Filter list
 	<ul class="dp-TicketMenu is-active">
 		<li class="dp-TicketMenuItem dp-MenuBarItem is-active">
 			<ul class="dp-SubMenu">
-				<li>
-					<a href="#" class="is-active">
-						<span>All tickets<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">90</span>
-					</a>
+				<li class="dp-SubMenuItem is-active">
+					<span>All tickets<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">90</span>
 				</li>
 			</ul>
 		</li>
@@ -147,25 +137,17 @@ title: Filter list
 					<button class="dp-Arrow"></button>
 				</span>
 				<ul class="dp-SubMenu">
-					<li>
-						<a href="#">
-							<span>My tickets<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">1</span>
-						</a>
+					<li class="dp-SubMenuItem">
+						<span>My tickets<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">1</span>
 					</li>
-					<li>
-						<a href="#">
-							<span>Tickets I follow<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-						</a>
+					<li class="dp-SubMenuItem">
+						<span>Tickets I follow<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
 					</li>
-					<li>
-						<a href="#">
-							<span>Unassigned tickets<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-						</a>
+					<li class="dp-SubMenuItem">
+						<span>Unassigned tickets<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
 					</li>
-					<li>
-						<a href="#" class="is-active">
-							<span>All tickets<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">90</span>
-						</a>
+					<li class="dp-SubMenuItem is-active">
+						<span>All tickets<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">90</span>
 					</li>
 				</ul>
 			</li>
@@ -176,25 +158,17 @@ title: Filter list
 					<button class="dp-Arrow"></button>
 				</span>
 				<ul class="dp-SubMenu">
-					<li>
-						<a href="#">
-							<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-						</a>
+					<li class="dp-SubMenuItem">
+						<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
 					</li>
-					<li>
-						<a href="#">
-							<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-						</a>
+					<li class="dp-SubMenuItem">
+						<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
 					</li>
-					<li>
-						<a href="#">
-							<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-						</a>
+					<li class="dp-SubMenuItem">
+						<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
 					</li>
-					<li>
-						<a href="#">
-							<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-						</a>
+					<li class="dp-SubMenuItem">
+						<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
 					</li>
 				</ul>
 			</li>
@@ -226,25 +200,17 @@ title: Filter list
 					<button class="dp-Arrow"></button>
 				</span>
 				<ul class="dp-SubMenu">
-					<li>
-						<a href="#">
-							<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-						</a>
+					<li class="dp-SubMenuItem">
+						<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
 					</li>
-					<li>
-						<a href="#">
-							<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-						</a>
+					<li class="dp-SubMenuItem">
+						<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
 					</li>
-					<li>
-						<a href="#">
-							<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-						</a>
+					<li class="dp-SubMenuItem">
+						<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
 					</li>
-					<li>
-						<a href="#">
-							<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-						</a>
+					<li class="dp-SubMenuItem">
+						<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
 					</li>
 				</ul>
 			</li>
@@ -290,25 +256,17 @@ title: Filter list
 					<button class="dp-Arrow"></button>
 				</span>
 				<ul class="dp-SubMenu">
-					<li>
-						<a href="#">
-							<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-						</a>
+					<li class="dp-SubMenuItem">
+						<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
 					</li>
-					<li>
-						<a href="#">
-							<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-						</a>
+					<li class="dp-SubMenuItem">
+						<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
 					</li>
-					<li>
-						<a href="#">
-							<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-						</a>
+					<li class="dp-SubMenuItem">
+						<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
 					</li>
-					<li>
-						<a href="#">
-							<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-						</a>
+					<li class="dp-SubMenuItem">
+						<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
 					</li>
 				</ul>
 			</li>
@@ -344,25 +302,17 @@ title: Filter list
 					<button class="dp-Arrow"></button>
 				</span>
 				<ul class="dp-SubMenu">
-					<li>
-						<a href="#">
-							<span>My tickets<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">1</span>
-						</a>
+					<li class="dp-SubMenuItem">
+						<span>My tickets<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">1</span>
 					</li>
-					<li>
-						<a href="#">
-							<span>Tickets I follow<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-						</a>
+					<li class="dp-SubMenuItem">
+						<span>Tickets I follow<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
 					</li>
-					<li>
-						<a href="#">
-							<span>Unassigned tickets<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-						</a>
+					<li class="dp-SubMenuItem">
+						<span>Unassigned tickets<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
 					</li>
-					<li>
-						<a href="#" class="is-active">
-							<span>All tickets<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">90</span>
-						</a>
+					<li class="dp-SubMenuItem is-active">
+						<span>All tickets<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">90</span>
 					</li>
 				</ul>
 			</li>
@@ -373,25 +323,17 @@ title: Filter list
 					<button class="dp-Arrow"></button>
 				</span>
 				<ul class="dp-SubMenu">
-					<li>
-						<a href="#">
-							<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-						</a>
+					<li class="dp-SubMenuItem">
+						<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
 					</li>
-					<li>
-						<a href="#">
-							<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-						</a>
+					<li class="dp-SubMenuItem">
+						<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
 					</li>
-					<li>
-						<a href="#">
-							<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-						</a>
+					<li class="dp-SubMenuItem">
+						<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
 					</li>
-					<li>
-						<a href="#">
-							<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-						</a>
+					<li class="dp-SubMenuItem">
+						<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
 					</li>
 				</ul>
 			</li>
@@ -423,25 +365,17 @@ title: Filter list
 					<button class="dp-Arrow"></button>
 				</span>
 				<ul class="dp-SubMenu">
-					<li>
-						<a href="#">
-							<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-						</a>
+					<li class="dp-SubMenuItem">
+						<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
 					</li>
-					<li>
-						<a href="#">
-							<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-						</a>
+					<li class="dp-SubMenuItem">
+						<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
 					</li>
-					<li>
-						<a href="#">
-							<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-						</a>
+					<li class="dp-SubMenuItem">
+						<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
 					</li>
-					<li>
-						<a href="#">
-							<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-						</a>
+					<li class="dp-SubMenuItem">
+						<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
 					</li>
 				</ul>
 			</li>
@@ -487,25 +421,157 @@ title: Filter list
 					<button class="dp-Arrow"></button>
 				</span>
 				<ul class="dp-SubMenu">
-					<li>
-						<a href="#">
-							<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-						</a>
+					<li class="dp-SubMenuItem">
+						<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
 					</li>
-					<li>
-						<a href="#">
-							<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-						</a>
+					<li class="dp-SubMenuItem">
+						<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
 					</li>
-					<li>
-						<a href="#">
-							<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-						</a>
+					<li class="dp-SubMenuItem">
+						<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
 					</li>
-					<li>
-						<a href="#">
-							<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-						</a>
+					<li class="dp-SubMenuItem">
+						<span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+</div>
+```
+
+<h4>filterlist/CRM</h4>
+```html @preview
+<div class="dp-MainWrapper">
+
+	<div class="dp-FilterlistContainer">
+
+		<div class="dp-Tickets is-active">
+
+			<div class="dp-Card-SectionTitle dp-Tasks-list Level-justify-between">
+				<span class="dp-LevelCol dp-ListName">
+					<span class="dp-Icon Icon--menu"></span>
+					<span class="dp-Card-title">CRM<span class="dp-qt">(17)</span></span>
+					<span class="dp-Icon Icon--down-caret Icon--primary"></span>
+				</span>
+			</div>
+		</div>
+
+		<ul class="dp-TicketMenu is-active">
+			<!-- Awaiting agent -->
+			<li class="dp-TicketMenuItem dp-MenuBarItem is-active">
+				<span class="dp-TitleMenu">
+					<span>PEOPLE</span>
+					<button class="dp-Arrow"></button>
+				</span>
+				<ul class="dp-SubMenu">
+					<li class="dp-SubMenuItem">
+						<span>Registered</span> <span class="dp-SubNum">1</span>
+					</li>
+					<li class="dp-SubMenuItem">
+						<span>Beta Users</span> <span class="dp-SubNum">0</span>
+					</li>
+					<li class="dp-SubMenuItem">
+						<span>Extra Privacy</span> <span class="dp-SubNum">0</span>
+					</li>
+					<li class="dp-SubMenuItem">
+						<span>VIP</span> <span class="dp-SubNum">0</span>
+					</li>
+				</ul>
+				<!-- labels -->
+				<span class="dp-SubMenuItem dp-label is-active">
+					<span class="dp-Titlelabels"><span class="dp-Icon Icon--labels"></span>Labels</span>
+					<button class="dp-Arrow"></button>
+				</span>
+				<ul class="dp-SubMenu">
+					<li class="dp-LabelGroup">
+						<span class="dp-LabelFiltersName">A</span>
+						<span class="dp-LabelWrapper">
+							<span class="dp-Tag">Andriod Mobile App</span>
+						</span>
+					</li>
+					<li class="dp-LabelGroup">
+						<span class="dp-LabelFiltersName">B</span>
+						<span class="dp-LabelWrapper">
+							<span class="dp-Tag">Beta Tester</span>
+							<span class="dp-Tag">Billing</span>
+							<span class="dp-Tag">Bug fix</span>
+						</span>
+					</li>
+					<li class="dp-LabelGroup">
+						<span class="dp-LabelFiltersName">C</span>
+						<span class="dp-LabelWrapper">
+							<span class="dp-Tag">Capterra</span>
+							<span class="dp-Tag">Churn</span>
+							<span class="dp-Tag">Click jacking</span>
+							<span class="dp-Tag">Cloud</span>
+							<span class="dp-Tag">Consultation</span>
+							<span class="dp-Tag">Converted</span>
+							<span class="dp-Tag">Custome fields</span>
+						</span>
+					</li>
+				</ul>
+
+			</li>
+			<!-- Filters -->
+			<li class="dp-TicketMenuItem dp-MenuBarItem">
+				<span class="dp-TitleMenu is-active">
+					<span>ORANGANIZATIONS</span>
+					<span class="dp-SubNum">6</span>
+				</span>
+				<!-- labels -->
+				<span class="dp-SubMenuItem dp-label is-active">
+					<span class="dp-Titlelabels"><span class="dp-Icon Icon--labels"></span>Labels</span>
+					<button class="dp-Arrow"></button>
+				</span>
+				<ul class="dp-SubMenu">
+					<li class="dp-LabelGroup">
+						<span class="dp-LabelFiltersName">A</span>
+						<span class="dp-LabelWrapper">
+							<span class="dp-Tag">Andriod Mobile App</span>
+						</span>
+					</li>
+					<li class="dp-LabelGroup">
+						<span class="dp-LabelFiltersName">B</span>
+						<span class="dp-LabelWrapper">
+							<span class="dp-Tag">Beta Tester</span>
+							<span class="dp-Tag">Billing</span>
+							<span class="dp-Tag">Bug fix</span>
+						</span>
+					</li>
+					<li class="dp-LabelGroup">
+						<span class="dp-LabelFiltersName">C</span>
+						<span class="dp-LabelWrapper">
+							<span class="dp-Tag">Capterra</span>
+							<span class="dp-Tag">Churn</span>
+							<span class="dp-Tag">Click jacking</span>
+							<span class="dp-Tag">Cloud</span>
+							<span class="dp-Tag">Consultation</span>
+							<span class="dp-Tag">Converted</span>
+							<span class="dp-Tag">Custome fields</span>
+						</span>
+					</li>
+				</ul>
+			</li>
+
+			<!-- My stars -->
+			<li class="dp-TicketMenuItem dp-MenuBarItem is-active">
+				<span class="dp-TitleMenu">
+					<span>AGENTS</span>
+					<button class="dp-Arrow"></button>
+				</span>
+				<ul class="dp-SubMenu">
+					<li class="dp-SubMenuItem">
+						<span>All agents</span> <span class="dp-SubNum">10</span>
+					</li>
+					<li class="dp-SubMenuItem">
+						<span>Level 1</span> <span class="dp-SubNum">7</span>
+					</li>
+					<li class="dp-SubMenuItem">
+						<span>Level 2</span> <span class="dp-SubNum">2</span>
+					</li>
+					<li class="dp-SubMenuItem">
+						<span>Support</span> <span class="dp-SubNum">1</span>
 					</li>
 				</ul>
 			</li>

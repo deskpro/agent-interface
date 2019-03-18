@@ -5,6 +5,7 @@
 .dp-BrandMenu {
   box-shadow: var(--shadow-bottom);
   color: #4c4f50;
+  display: none;
   display: block;
   font: var(--p-xl);
   list-style: none;
@@ -20,15 +21,11 @@
   padding: 5px;
 }
 
-/* .dp-BrandMenu .dp-BrandItem:not(:first-child) { */
-
 .dp-BrandMenu .dp-BrandItem ~ .dp-BrandItem {
   background-color: var(--white);
   border-top: 1px solid var(--grey-light);
   display: none;
 }
-
-/* .dp-BrandMenu .is-active.dp-BrandItem:not(:first-child) { */
 
 .dp-BrandMenu .dp-BrandItem.is-active ~ .dp-BrandItem {
   display: block;
@@ -65,4 +62,102 @@
 .dp-BrandItem > .dp-Arrow::after {
   border-color: var(--grey-dark) transparent transparent transparent;
   border-width: 4px 4px 0 4px;
+}
+
+.dp-PortalPublish {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 10px 0 0;
+  position: relative;
+}
+
+.dp-PortalPublish::after {
+  background-color: var(--grey-light);
+  content: "";
+  height: 100%;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 1px;
+}
+
+.dp-PortalPublish > .dp-PublishItem {
+  align-items: center;
+  border-radius: 2px;
+  color: var(--grey-dark);
+  display: flex;
+  flex: 0 0 45%;
+  flex-direction: column;
+  font: var(--p-n-semibold);
+  margin-bottom: 12px;
+  max-width: 45%;
+  padding: 10px;
+  position: relative;
+}
+
+.dp-PortalPublish > .dp-PublishItem::after {
+  background-color: var(--grey-light);
+  content: "";
+  height: 1px;
+  left: 0;
+  position: absolute;
+  top: calc(100% + 5px);
+  width: 100%;
+}
+
+.dp-PortalPublish > .dp-PublishItem:last-child,
+.dp-PortalPublish > .dp-PublishItem:nth-last-child(2) {
+  margin: 0;
+}
+
+.dp-PortalPublish > .dp-PublishItem:last-child::after,
+.dp-PortalPublish > .dp-PublishItem:nth-last-child(2)::after {
+  display: none;
+}
+
+.dp-PortalPublish > .dp-PublishItem:hover {
+  background-color: var(--grey-lighter);
+  color: var(--brand-primary);
+}
+
+.dp-PortalPublish .dp-PublishItem > .dp-Icon {
+  margin-bottom: 5px;
+}
+
+.dp-PublishItem[disabled]:hover {
+  color: inherit;
+}
+
+.dp-PublishItem[disabled]:hover .dp-Icon svg {
+  fill: inherit;
+}
+
+[disabled] .dp-Icon {
+  cursor: not-allowed;
+}
+
+.dp-Support {
+  align-items: center;
+  background-color: var(--grey-lighter);
+  border-radius: 15px;
+  color: var(--grey-darkest);
+
+  /* }
+
+.dp-Support a {	*/
+  display: flex;
+  font: var(--p-n-semibold);
+  margin: 10px 0 0;
+  padding: 3px 5px 5px;
+  width: 100%;
+}
+
+.dp-Support .dp-Icon {
+  background-size: 16px 17px;
+  height: 17px;
+  margin-right: 5px;
+  width: 16px;
 }

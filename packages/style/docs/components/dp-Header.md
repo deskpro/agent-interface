@@ -186,7 +186,7 @@ title: Header
                             <span class="dp-Icon dp-IconPlane dp-ActionDropDown"></span>
                             <button class="dp-Arrow"></button>
                             <!-- drop down -->
-                            <ul class="dp-Menu Menu--tick dp-YourAccount">
+                            <ul class="dp-Menu Menu-tick dp-YourAccount">
                                 <li class="dp-Menu-title">Your account</li>
                                 <li class="dp-Menu-linkItem is-active">
                                     <span class="dp-Icon dp-IconPlane"></span>

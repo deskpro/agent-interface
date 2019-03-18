@@ -319,7 +319,7 @@
   flex: 0 1 auto;
 }
 
-.dp-CommentWrap.is-active .dp-Comments {
+.dp-Comments-title.is-active + .dp-Comments {
   display: block;
 }
 
@@ -649,6 +649,7 @@ input:disabled + label {
 /* Cards/feedback */
 
 .dp-vote {
+  align-items: center;
   border: 1px solid var(--brand-primary);
   border-radius: var(--border-radius);
   display: flex;
@@ -661,6 +662,7 @@ input:disabled + label {
 .dp-vote li:first-child {
   background-color: var(--brand-primary);
   color: var(--white);
+  font: var(--p-n-semibold);
 }
 
 .dp-vote li, .dp-Card .dp-calendar li {
@@ -673,6 +675,7 @@ input:disabled + label {
 
 .dp-vote li {
   display: inline-block;
+  line-height: 1;
 }
 
 .dp-Card .dp-calendar {
