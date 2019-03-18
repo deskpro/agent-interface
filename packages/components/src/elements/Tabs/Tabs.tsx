@@ -5,8 +5,10 @@ import TabItem from "./TabItem";
 import TabTitle from "./TabTitle";
 import TabSubtitle from "./TabSubtitle";
 
+/* eslint-disable import/no-duplicates */
 import "@deskpro/agent-interface-style/dist/components/dp-PageTabs.css";
-import "@deskpro/agent-interface-style/dist/components/dp-Pageview.css";
+import "@deskpro/agent-interface-style/dist/components/dp-Ticketview.css";
+/* eslint-enable import/no-duplicates */
 
 type TabsSubComponents = {
   TabItem: typeof TabItem;

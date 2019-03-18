@@ -1,5 +1,4 @@
 import * as React from "react";
-import classNames from "classnames";
 
 import Card, { BasicCardProps } from "./Card";
 import Checkbox, { CheckableCardProps } from "./CardCheckbox";
@@ -35,11 +34,7 @@ const SimpleCard: React.FC<SimpleCardProps> = ({
   onActionClick,
   ...props
 }) => (
-  <Card
-    cardId={cardId}
-    {...props}
-    className={classNames("dp-Level", className)}
-  >
+  <Card cardId={cardId} {...props} className={className}>
     {checkable && (
       <span className="dp-LevelItem dp-LevelCol dp-LevelTop">
         {!!checkable && (
@@ -60,7 +55,7 @@ const SimpleCard: React.FC<SimpleCardProps> = ({
       <span className="dp-LevelCol dp-LevelRight dp-LevelTop">{status}</span>
     )}
     {actions.length > 0 && (
-      <ul className="dp-LevelWrap dp-Card-actions">
+      <ul className="dp-LevelItem dp-Card-actionsRow">
         {actions.map(({ name, icon, title: actionTitle }) => (
           <li
             key={name}

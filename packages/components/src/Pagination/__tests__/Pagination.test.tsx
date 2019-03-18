@@ -6,6 +6,18 @@ import Pagination from "../Pagination";
 afterEach(cleanup);
 
 describe("<Pagination />", () => {
+  it("should match its snapshot", () => {
+    const handleClick = jest.fn();
+    const { getAllByRole } = render(
+      <Pagination
+        proximity={5}
+        numPages={75}
+        currentPage={2}
+        onPageChange={handleClick}
+      />
+    );
+    expect(getAllByRole("button")).toMatchSnapshot();
+  });
   it("should render correct number of items based on proximity", () => {
     const handleClick = jest.fn();
     let getAllByRole;

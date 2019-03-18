@@ -7,9 +7,11 @@
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
+    "codecov": "^3.2.0",
     "eslint": "^5.9.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-prettier": "^3.3.0",
+    "eslint-import-resolver-lerna": "^1.1.0",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jsx-a11y": "^6.1.2",
     "eslint-plugin-prettier": "^3.0.0",
@@ -31,6 +33,7 @@
     "build": "lerna run --stream build",
     "lint": "lerna run --stream lint",
     "test": "lerna run --stream test",
+    "test:regression": "lerna run --stream test:regression",
     "postinstall": "patch-package",
     "publish-git": "lerna publish --force-publish --skip-npm --yes",
     "publish-npm": "lerna publish --force-publish --skip-git --yes"

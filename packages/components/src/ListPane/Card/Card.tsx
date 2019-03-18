@@ -11,8 +11,11 @@ import TaskCard from "./TaskCard";
 import { MenuProps } from "../../elements/Menu/Menu";
 import Cog from "../../elements/Menu/CogMenu";
 import Portal from "../../common/Portal/Portal";
+
+/* eslint-disable import/no-duplicates */
 import "@deskpro/agent-interface-style/dist/components/dp-Level.css";
 import "@deskpro/agent-interface-style/dist/components/dp-card.css";
+/* eslint-enable import/no-duplicates */
 
 type CardSubComponents = {
   Title: typeof CardTitle;
