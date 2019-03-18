@@ -70,11 +70,11 @@
   padding: 0;
 }
 
-.dp-Groupe-list {
+.dp-Group-list {
   flex-direction: column;
 }
 
-.dp-Groupe-item {
+.dp-Group-item {
   display: flex;
 }
 
@@ -83,11 +83,14 @@
   padding-left: 12px;
 }
 
+.dp-Group-container .Badge--group-filter.is-active,
+.dp-Group-container .Badge--group-filter.is-active .dp-Num-extended,
 .dp-Group-container .Badge--group-filter:hover,
 .dp-Group-container .Badge--group-filter:hover .dp-Num-extended {
   border: 1px solid var(--brand-primary);
 }
 
+.dp-Group-container .Badge--group-filter.is-active .dp-Num-extended,
 .dp-Group-container .Badge--group-filter:hover .dp-Num-extended {
   border-left: 1px solid var(--grey-light);
 }
@@ -97,7 +100,7 @@
   border-top-right-radius: 0;
 }
 
-.dp-Group-container .Badge--group-filter .dp-Num-extended {
+.Badge--group-filter .dp-Num-extended {
   align-items: center;
   background-color: var(--white);
   border: 1px solid var(--grey-light);

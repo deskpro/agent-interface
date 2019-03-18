@@ -39,12 +39,12 @@ title: Grouped by Fields
 			Regulated <span class="dp-Num">34</span>
 		</span>
 
-		<span class="dp-Badge Badge--group-filter">
+		<span class="dp-Badge Badge--group-filter is-active">
 			Sales <span class="dp-Num">11</span>
 			<span class="dp-Icon dp-Arrow is-active">
 				<ul class="dp-Menu">
 					<li>
-						<span class="dp-Groupe-item">
+						<span class="dp-Group-item">
 							<span class="dp-Icon Icon--enter"></span>
 							<span class="dp-Badge Badge--group-filter">
 								Licenses <span class="dp-Num">8</span>
@@ -52,7 +52,7 @@ title: Grouped by Fields
 						</span>
 					</li>
 					<li>
-						<span class="dp-Groupe-item">
+						<span class="dp-Group-item">
 							<span class="dp-Icon Icon--enter"></span>
 							<span class="dp-Badge Badge--group-filter">
 								Customers <span class="dp-Num">3</span>
@@ -124,21 +124,21 @@ title: Grouped by Fields
 			Regulated <span class="dp-Num">34</span>
 		</span>
 
-		<span class="dp-Badge Badge--group-filter">
+		<span class="dp-Badge Badge--group-filter is-active">
 			Sales <span class="dp-Num">11</span>
 			<span class="dp-Icon dp-Arrow is-active">
 				<ul class="dp-Menu">
 					<li>
-						<span class="dp-Groupe-item">
+						<span class="dp-Group-item">
 							<span class="dp-Icon Icon--enter"></span>
-							<span class="dp-Badge Badge--group-filter">
+							<span class="dp-Badge Badge--group-filter is-active">
 								Licenses <span class="dp-Num">8</span>
 								<span class="dp-Icon dp-Arrow"></span>
 							</span>
 						</span>
 					</li>
 					<li>
-						<span class="dp-Groupe-item">
+						<span class="dp-Group-item">
 							<span class="dp-Icon Icon--enter"></span>
 							<span class="dp-Badge Badge--group-filter">
 								Customers <span class="dp-Num">3</span>
@@ -211,7 +211,7 @@ title: Grouped by Fields
 			Regulated <span class="dp-Num">34</span>
 		</span>
 
-		<span class="dp-Badge Badge--group-filter Badge--extended">
+		<span class="dp-Badge Badge--group-filter Badge--extended is-active">
 			Sales 
 			<span class="dp-Num">11</span>
 
@@ -221,7 +221,7 @@ title: Grouped by Fields
 
 					<ul class="dp-Menu">
 						<li>
-							<span class="dp-Groupe-item">
+							<span class="dp-Group-item">
 								<span class="dp-Icon Icon--enter"></span>
 								<span class="dp-Badge Badge--group-filter">
 									Licenses <span class="dp-Num">8</span>
@@ -229,9 +229,9 @@ title: Grouped by Fields
 							</span>
 						</li>
 
-						<li class="dp-Groupe-list">
+						<li class="dp-Group-list">
 							
-							<span class="dp-Groupe-item">
+							<span class="dp-Group-item">
 								<span class="dp-Icon Icon--enter"></span>
 								<span class="dp-Badge Badge--group-filter">
 									Customers <span class="dp-Num">3</span>
@@ -240,7 +240,7 @@ title: Grouped by Fields
 
 							<ul class="dp-Group-sublist">
 								<li>
-									<span class="dp-Groupe-item">
+									<span class="dp-Group-item">
 										<span class="dp-Icon Icon--enter"></span>
 										<span class="dp-Badge Badge--group-filter">
 											New <span class="dp-Num">2</span>
@@ -248,7 +248,7 @@ title: Grouped by Fields
 									</span>
 								</li>
 								<li>
-									<span class="dp-Groupe-item">
+									<span class="dp-Group-item">
 										<span class="dp-Icon Icon--enter"></span>
 										<span class="dp-Badge Badge--group-filter">
 											Existing <span class="dp-Num">1</span>

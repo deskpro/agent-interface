@@ -48,9 +48,9 @@
   max-width: 436px;
 }
 
-.dp-Listview .dp-OrderingBar-item {
+/* .dp-Listview .dp-OrderingBar-item {
   max-width: 108px;
-}
+} */
 
 .dp-Tableview .dp-OrderingBar-item {
   max-width: 142px;
@@ -325,7 +325,9 @@
 
 .dp-OrderingBar .dp-SelectGroup {
   flex: 1 0 0;
+  flex: 1 0 0;
   margin-top: -1px;
+  max-width: 96px;
 }
 
 .dp-FilterControlsItem .dp-ItemRow {

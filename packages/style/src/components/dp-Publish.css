@@ -28,7 +28,7 @@
 }
 
 .dp-BrandMenu .dp-BrandItem.is-active ~ .dp-BrandItem {
-  display: block;
+  display: flex;
 }
 
 .dp-BrandMenu .dp-BrandItem:hover:not(:first-child) {

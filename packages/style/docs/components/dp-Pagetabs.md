@@ -262,7 +262,7 @@ title: Page Tabs
             <!-- sublist -->
             <ul class="dp-SelectedMore dp-Menu is-active">
                 <li class="dp-Tabs-item">
-                    <!-- <span class="dp-TabInfoItem"> -->
+                    <span class="dp-TabInfoItem">
                         <span class="Tabs-item--row">
                             <span class="dp-Icon Icon--email"></span>
                             <span class="dp-Title">RE: Need some help?</span>
@@ -271,11 +271,14 @@ title: Page Tabs
                             <span class="dp-Icon dp-iconUserAvatar"></span>
                             <span class="dp-Subtitle">Zack Prudent</span>
                         </span>
-                    <!-- </span> -->
+                    </span>
+                    <span class="dp-CloseBtn">
+                        <span class="dp-Icon dp-close"></span>
+                    </span>
                 </li>
 
                 <li class="dp-Tabs-item">
-                    <!-- <span class="dp-TabInfoItem"> -->
+                    <span class="dp-TabInfoItem">
                         <span class="Tabs-item--row">
                             <span class="dp-Icon dp-iconOrganisation"></span>
                             <span class="dp-Title">Techcompany</span>
@@ -283,30 +286,28 @@ title: Page Tabs
                         <span class="Tabs-item--row">
                             <span class="dp-Subtitle">Organisation</span>
                         </span>
-                    <!-- </span> -->
+                    </span>
+                    <span class="dp-CloseBtn">
+                        <span class="dp-Icon dp-close"></span>
+                    </span>
                 </li>
 
                 <li class="dp-Tabs-item is-active">
-                    <!-- <span class="dp-TabInfoItem"> -->
+                    <span class="dp-TabInfoItem">
                         <span class="Tabs-item--row">
                             <span class="dp-Icon Icon--email"></span>
-                            <span class="dp-Title">SSO working well wit...</span>
+                            <span class="dp-Title">SSO working well with control</span>
                         </span>
                         <span class="Tabs-item--row">
                             <span class="dp-Icon dp-iconUserAvatar"></span>
                             <span class="dp-Subtitle">Zack Prudent</span>
                         </span>
-                    <!-- </span> -->
-<!--                     <span class="dp-CloseBtn">
+                    </span>
+                    <span class="dp-CloseBtn">
                         <span class="dp-Icon dp-close"></span>
-                    </span> -->
+                    </span>
                 </li>
             </ul>
-
-            <!-- close btn -->
-            <span class="dp-CloseBtn">
-                <span class="dp-Icon dp-close"></span>
-            </span>
 
         </li>
 

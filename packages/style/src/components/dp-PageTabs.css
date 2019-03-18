@@ -133,25 +133,31 @@
   margin-bottom: 0;
 }
 
-/* .dp-TabInfoItem {
+.dp-TabInfoItem {
   display: block;
   flex: 1 1 0;
   padding: 5px 5px 7px 10px;
-} */
+}
 
 .dp-CloseBtn {
   align-items: center;
   background-color: var(--white);
   border-left: 1px solid var(--grey);
   cursor: pointer;
-  display: flex;
-  height: 100%;
+  display: none;
   justify-content: center;
   max-height: 41px;
   max-width: 30px;
-  position: absolute;
   width: 100%;
-  z-index: 9;
+
+  /*  position: absolute;
+  height: 100%;
+  z-index: 9; */
+
+}
+
+.dp-Menu.dp-SelectedMore .dp-Tabs-item:hover .dp-CloseBtn {
+  display: flex;
 }
 
 .Tabs-item--button .dp-CloseBtn .dp-Icon {
@@ -162,6 +168,7 @@
 .dp-Tabs .dp-SelectedMore.dp-Menu {
   overflow: hidden;
   padding: 0;
+  width: 180px;
 
   /*  left: auto;
   right: 0; */
@@ -202,8 +209,11 @@
 }
 
 .dp-Tabs.Tabs--general .dp-Menu .dp-Tabs-item {
-  display: block;
-  padding: 5px 5px 7px 10px;
+  display: flex;
+
+  /*  display: block;
+  padding: 5px 5px 7px 10px; */
+
 }
 
 .Tabs--general .dp-Tabs-item .dp-Icon.Icon--email {
