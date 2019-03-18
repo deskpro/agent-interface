@@ -16,6 +16,10 @@ jobs:
 
     working_directory: ~/repo
 
+    dependencies:
+      post:
+        - npm run bootstrap
+
     branches:
       ignore:
         - gh-pages
@@ -31,7 +35,6 @@ jobs:
             - v1-dependencies-
 
       - run: yarn install
-      - run: yarn bootstrap
 
       - run:
           name: Install JUnit coverage reporter
@@ -48,3 +51,8 @@ jobs:
           command: yarn test --ci --runInBand --reporters=default --reporters=jest-junit
           environment:
             JEST_JUNIT_OUTPUT: "reports/junit/js-test-results.xml"
+
+      # run tests!
+      - run:
+          name: Run regression tests
+          command: yarn test:regression

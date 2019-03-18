@@ -1,12 +1,22 @@
 import { useReducer, useCallback } from "react";
 import produce from "immer";
+import inPercy from "@percy-io/in-percy";
 
 const columns = ["Backlog", "Started", "In Progress", "Review", "QA", "Closed"];
 
+let columnsLength = [];
+if (inPercy()) {
+  columnsLength = [3, 18, 2, 6, 7, 8];
+} else {
+  for (let i = 0; i < 6; i += 1) {
+    columnsLength.push(Math.round(Math.random() * 20));
+  }
+}
+
 const initCards = () =>
-  columns.reduce((acc, column) => {
+  columns.reduce((acc, column, columnIndex) => {
     acc[column] = Array.from(
-      { length: Math.round(Math.random() * 50) },
+      { length: columnsLength[columnIndex] },
       (_, idx) => `${column}-${idx + 1}`
     );
     return acc;
@@ -39,23 +49,20 @@ const cardsReducer = produce((cards, { type, payload }) => {
 export default () => {
   const [cards, dispatch] = useReducer(cardsReducer, [], initCards);
 
-  const onDragEnd = useCallback(
-    payload => {
-      const { source, destination } = payload;
+  const onDragEnd = useCallback(payload => {
+    const { source, destination } = payload;
 
-      // dropped outside the list
-      if (!destination) {
-        return;
-      }
+    // dropped outside the list
+    if (!destination) {
+      return;
+    }
 
-      if (source.droppableId === destination.droppableId) {
-        dispatch({ type: "reorder", payload });
-      } else {
-        dispatch({ type: "move", payload });
-      }
-    },
-    [cards]
-  );
+    if (source.droppableId === destination.droppableId) {
+      dispatch({ type: "reorder", payload });
+    } else {
+      dispatch({ type: "move", payload });
+    }
+  }, []);
 
   return { cards, onDragEnd };
 };
