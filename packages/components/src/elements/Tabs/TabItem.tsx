@@ -11,7 +11,7 @@ export type TabItemProps = {
   isActive?: boolean;
   isExpanded?: boolean;
   onTabClick?: (e: React.SyntheticEvent) => void;
-  onMenuToggle: (e: React.SyntheticEvent) => void;
+  onMenuToggle?: (e: React.SyntheticEvent) => void;
   renderMenu?(): React.ReactNode;
   tabRef?: React.Ref<HTMLLIElement>;
   children?: React.ReactNode;
