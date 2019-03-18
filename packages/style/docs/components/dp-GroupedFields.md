@@ -16,7 +16,7 @@ title: Grouped by Fields
 
 		<span class="dp-Badge Badge--group-filter">
 			Support <span class="dp-Num">25</span>
-			<span class="dp-Icon dp-Arrow"></span>
+			<button class="dp-Arrow"></button>
 		</span>
 
 		<span class="dp-Badge Badge--group-filter">
@@ -41,7 +41,7 @@ title: Grouped by Fields
 
 		<span class="dp-Badge Badge--group-filter is-active">
 			Sales <span class="dp-Num">11</span>
-			<span class="dp-Icon dp-Arrow is-active">
+			<button class="dp-Arrow is-active">
 				<ul class="dp-Menu">
 					<li>
 						<span class="dp-Group-item">
@@ -60,7 +60,7 @@ title: Grouped by Fields
 						</span>
 					</li>
 				</ul>
-			</span>
+			</button>
 		</span>
 
 		<span class="dp-Badge Badge--group-filter">
@@ -81,7 +81,7 @@ title: Grouped by Fields
 
 		<span class="dp-Badge Badge--group-filter">
 			Support <span class="dp-Num">25</span>
-			<span class="dp-Icon dp-Arrow"></span>
+			<button class="dp-Arrow"></button>
 		</span>
 	</div>
 </div>
@@ -101,7 +101,7 @@ title: Grouped by Fields
 
 		<span class="dp-Badge Badge--group-filter">
 			Support <span class="dp-Num">25</span>
-			<span class="dp-Icon dp-Arrow"></span>
+			<button class="dp-Arrow"></button>
 		</span>
 
 		<span class="dp-Badge Badge--group-filter">
@@ -126,14 +126,14 @@ title: Grouped by Fields
 
 		<span class="dp-Badge Badge--group-filter is-active">
 			Sales <span class="dp-Num">11</span>
-			<span class="dp-Icon dp-Arrow is-active">
+			<span class="dp-Arrow is-active">
 				<ul class="dp-Menu">
 					<li>
 						<span class="dp-Group-item">
 							<span class="dp-Icon Icon--enter"></span>
 							<span class="dp-Badge Badge--group-filter is-active">
 								Licenses <span class="dp-Num">8</span>
-								<span class="dp-Icon dp-Arrow"></span>
+								<button class="dp-Arrow"></button>
 							</span>
 						</span>
 					</li>
@@ -142,7 +142,7 @@ title: Grouped by Fields
 							<span class="dp-Icon Icon--enter"></span>
 							<span class="dp-Badge Badge--group-filter">
 								Customers <span class="dp-Num">3</span>
-								<span class="dp-Icon dp-Arrow"></span>
+								<button class="dp-Arrow"></button>
 							</span>
 						</span>
 					</li>
@@ -168,7 +168,7 @@ title: Grouped by Fields
 
 		<span class="dp-Badge Badge--group-filter">
 			Support <span class="dp-Num">25</span>
-			<span class="dp-Icon dp-Arrow"></span>
+			<button class="dp-Arrow"></button>
 		</span>
 	</div>
 </div>
@@ -188,7 +188,7 @@ title: Grouped by Fields
 
 		<span class="dp-Badge Badge--group-filter">
 			Support <span class="dp-Num">25</span>
-			<span class="dp-Icon dp-Arrow"></span>
+			<button class="dp-Arrow"></button>
 		</span>
 
 		<span class="dp-Badge Badge--group-filter">
@@ -217,7 +217,7 @@ title: Grouped by Fields
 
 			<span class="dp-Num-extended">
 				<span><span class="dp-Num">1</span>/4</span>
-				<span class="dp-Icon dp-Arrow is-active">
+				<button class="dp-Arrow is-active">
 
 					<ul class="dp-Menu">
 						<li>
@@ -258,7 +258,7 @@ title: Grouped by Fields
 							</ul>
 						</li>
 					</ul>
-				</span>
+				</button>
 			</span>
 
 		</span>
@@ -281,7 +281,7 @@ title: Grouped by Fields
 
 		<span class="dp-Badge Badge--group-filter">
 			Support <span class="dp-Num">25</span>
-			<span class="dp-Icon dp-Arrow"></span>
+			<button class="dp-Arrow"></button>
 		</span>
 	</div>
 </div>

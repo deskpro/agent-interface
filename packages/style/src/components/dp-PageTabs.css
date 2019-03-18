@@ -43,13 +43,16 @@
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
   cursor: pointer;
-  flex-direction: column;
   margin-bottom: -1px;
   max-width: 200px;
   min-width: 160px;
-  padding: 5px 10px;
+  padding: 0;
   position: relative;
   width: 100%;
+
+  /*  padding: 5px 10px;
+  flex-direction: column; */
+
 }
 
 .Tabs--general > .dp-Tabs-item + .dp-Tabs-item {
@@ -68,13 +71,28 @@
 
 .dp-Tabs.Tabs--general > .dp-Tabs-item:hover,
 .dp-Tabs.Tabs--general .dp-Tabs-item.is-visible,
+.dp-Tabs.Tabs--general .dp-Tabs-item.is-active {
 
-.dp-SelectedMore > .dp-Tabs-item:hover,
-.dp-SelectedMore > .dp-Tabs-item.is-active {
+  /* .dp-SelectedMore > .dp-Tabs-item:hover,
+.dp-SelectedMore > .dp-Tabs-item.is-active { */
+
   background: var(--primary-light);
 }
 
-.dp-Tabs-item:hover > .Tabs-item--row .dp-Title,
+.Tabs--general .dp-Tabs-item:hover > .dp-TabInfoItem .dp-Title,
+.Tabs--general .dp-Tabs-item:hover > .dp-TabInfoItem .dp-Subtitle,
+.dp-Tabs-item:hover > .dp-TitleButton,
+.dp-Tabs .dp-Tabs-item.is-visible .dp-TitleButton,
+.dp-Tabs .dp-Tabs-item:hover .dp-TitleButton
+/*.dp-SelectedMore > .dp-Tabs-item:hover .dp-Title,
+.dp-SelectedMore > .dp-Tabs-item:hover .dp-Subtitle,
+.dp-SelectedMore > .dp-Tabs-item.is-active .dp-Title,
+.dp-SelectedMore > .dp-Tabs-item.is-active .dp-Subtitle*/ {
+  color: var(--brand-primary);
+  cursor: pointer;
+}
+
+/* .dp-Tabs-item:hover > .Tabs-item--row .dp-Title,
 .dp-Tabs-item:hover > .Tabs-item--row .dp-Subtitle,
 .dp-Tabs-item:hover > .dp-TitleButton,
 .dp-Tabs .dp-Tabs-item.is-visible .dp-TitleButton,
@@ -85,7 +103,7 @@
 .dp-SelectedMore > .dp-Tabs-item.is-active .dp-Subtitle {
   color: var(--brand-primary);
   cursor: pointer;
-}
+} */
 
 .dp-Tabs-item:hover > .Tabs-item--row .dp-Icon svg,
 .dp-TabInfoItem:hover > .Tabs-item--row .dp-Icon svg,
@@ -146,21 +164,31 @@
   cursor: pointer;
   display: none;
   justify-content: center;
-  max-height: 41px;
   max-width: 30px;
   width: 100%;
 
   /*  position: absolute;
   height: 100%;
+  max-height: 41px;
   z-index: 9; */
 
 }
 
-.dp-Menu.dp-SelectedMore .dp-Tabs-item:hover .dp-CloseBtn {
+.Tabs--general > .dp-Tabs-item .dp-CloseBtn {
+  border-top-right-radius: 3px;
+}
+
+.Tabs--general > .dp-Tabs-item.is-active:hover .dp-CloseBtn {
+  display: none;
+}
+
+/* .dp-Menu.dp-SelectedMore .dp-Tabs-item:hover .dp-CloseBtn { */
+
+.Tabs--general .dp-Tabs-item:hover > .dp-CloseBtn {
   display: flex;
 }
 
-.Tabs-item--button .dp-CloseBtn .dp-Icon {
+.dp-CloseBtn .dp-Icon {
   background-position: 100% 0%;
   background-size: 10px;
 }
@@ -169,10 +197,6 @@
   overflow: hidden;
   padding: 0;
   width: 180px;
-
-  /*  left: auto;
-  right: 0; */
-
 }
 
 .Tabs--general .dp-Tabs-item.Tabs-item--button {
@@ -210,17 +234,18 @@
 
 .dp-Tabs.Tabs--general .dp-Menu .dp-Tabs-item {
   display: flex;
-
-  /*  display: block;
-  padding: 5px 5px 7px 10px; */
-
+  padding: 0;
 }
 
-.Tabs--general .dp-Tabs-item .dp-Icon.Icon--email {
+.Tabs--general .dp-Tabs-item .Tabs-item--row .dp-Icon.Icon--email {
   background-size: 14px 9.5px;
   height: 14px;
   min-width: 15px;
   width: 15px;
+}
+
+.Tabs--general .dp-Tabs-item .Tabs-item--row .dp-Icon {
+  min-width: 12px;
 }
 
 .Tabs--general .dp-Tabs-item .Tabs-item--row + .Tabs-item--row > .dp-Icon {

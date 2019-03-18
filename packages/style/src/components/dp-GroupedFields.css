@@ -38,7 +38,7 @@
 .dp-Group-container .Badge--group-filter .dp-Menu {
   min-width: 125px;
   padding: 8px 0;
-  top: calc(100% + 12px);
+  top: calc(100% + 8px);
 }
 
 .Badge--group-filter .dp-Menu li {
@@ -58,6 +58,7 @@
 
 .Badge--group-filter .is-active.dp-Arrow::after {
   border-color: var(--brand-primary) transparent transparent transparent;
+  border-width: 4px 4px 0 4px;
 }
 
 .Badge--group-filter .is-active.dp-Arrow .dp-Menu .dp-Arrow::after {
@@ -84,26 +85,17 @@
 }
 
 .dp-Group-container .Badge--group-filter.is-active,
-.dp-Group-container .Badge--group-filter.is-active .dp-Num-extended,
-.dp-Group-container .Badge--group-filter:hover,
-.dp-Group-container .Badge--group-filter:hover .dp-Num-extended {
+.dp-Group-container .Badge--group-filter:hover {
   border: 1px solid var(--brand-primary);
 }
 
-.dp-Group-container .Badge--group-filter.is-active .dp-Num-extended,
-.dp-Group-container .Badge--group-filter:hover .dp-Num-extended {
-  border-left: 1px solid var(--grey-light);
-}
-
 .dp-Group-items .Badge--group-filter.Badge--extended {
-  border-bottom-right-radius: 0;
-  border-top-right-radius: 0;
+  padding: 0 0 0 5px;
 }
 
 .Badge--group-filter .dp-Num-extended {
   align-items: center;
   background-color: var(--white);
-  border: 1px solid var(--grey-light);
   border-bottom-right-radius: 3px;
   border-left: 1px solid var(--grey-light);
   border-top-right-radius: 3px;
@@ -111,7 +103,5 @@
   display: flex;
   font: var(--p-n-semibold);
   height: 100%;
-  left: 100%;
-  padding: 9px 0;
-  position: absolute;
+  margin-left: 5px;
 }
