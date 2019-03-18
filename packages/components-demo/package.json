@@ -7,8 +7,10 @@
   "scripts": {
     "dev": "start-storybook -p 6006",
     "build": "build-storybook",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "storybook": "start-storybook -p 6006 --ci",
+    "build-storybook": "build-storybook",
+    "jest:integration": "jest -c tests/integration/jest.config.js",
+    "test:integration": "start-server-and-test storybook http-get://localhost:6006 jest:integration"
   },
   "dependencies": {
     "@deskpro/agent-interface-components": "^0.0.1",
@@ -29,7 +31,12 @@
     "@storybook/react": "^4.1.11",
     "babel-loader": "^8.0.4",
     "css-loader": "^2.0.0",
+    "jest": "^24.5.0",
+    "jest-image-snapshot": "^2.8.1",
+    "jest-puppeteer": "^4.0.0",
+    "puppeteer": "^1.13.0",
     "react-svg-loader": "^2.1.0",
+    "start-server-and-test": "^1.7.11",
     "style-loader": "^0.23.1"
   }
 }
