@@ -179,7 +179,7 @@ title: Orderingbar
                         <button class="dp-Arrow"></button>
                     </span>
                     <span class="dp-ItemRow">
-                        <span class="dp-Subtitle">Date of last r...</span>
+                        <span class="dp-Subtitle">Date of last reply crated</span>
                     </span>
                 </span>
 
@@ -1914,7 +1914,7 @@ title: Orderingbar
                     <button class="dp-Arrow"></button>
                 </span>
                 <span class="dp-ItemRow">
-                    <span class="dp-Subtitle">Date of last r...</span>
+                    <span class="dp-Subtitle">Date of last reply crated</span>
                 </span>
             </span>
 
@@ -3631,7 +3631,7 @@ title: Orderingbar
                     <button class="dp-Arrow"></button>
                 </span>
                 <span class="dp-ItemRow">
-                    <span class="dp-Subtitle">Variable long...</span>
+                    <span class="dp-Subtitle">Variable long crated</span>
                 </span>
             </span>
 

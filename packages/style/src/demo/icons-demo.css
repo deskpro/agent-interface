@@ -1979,6 +1979,10 @@
   background-size: 15px 10px;
 }
 
+.Tabs--general .dp-Tabs-item .Tabs-item--row .dp-Icon.Icon--email {
+  background-size: 14px 9.5px;
+}
+
 .Tabs--icons .Icon--user {
   background-size: 14px 15px;
 }
@@ -1993,6 +1997,11 @@
 
 .Tabs--icons .dp-history {
   background-size: 13px 13px;
+}
+
+.dp-CloseBtn .dp-Icon {
+  background-position: 100% 0%;
+  background-size: 10px;
 }
 
 .Tabs--icons .dp-Tabs-item:hover .Icon--email, .Tabs--icons .dp-Tabs-item.is-active .Icon--email {

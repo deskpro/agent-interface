@@ -942,8 +942,13 @@ input:disabled + label {
   max-height: 0;
   padding-bottom: 0;
   padding-top: 0;
-  transition-delay: 1s;
-  transition-duration: 1s;
 
-  transition-property: height;
+  /*  transition-delay: 1s;
+  transition-duration: 1s;
+  transition-property: height; */
+
+}
+
+.dp-Show-Hide .dp-Card.dp-Entering-done {
+  max-height: 100%;
 }

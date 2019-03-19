@@ -49,10 +49,6 @@
   padding: 0;
   position: relative;
   width: 100%;
-
-  /*  padding: 5px 10px;
-  flex-direction: column; */
-
 }
 
 .Tabs--general > .dp-Tabs-item + .dp-Tabs-item {
@@ -69,13 +65,7 @@
   margin-right: 0;
 }
 
-.dp-Tabs.Tabs--general > .dp-Tabs-item:hover,
-.dp-Tabs.Tabs--general .dp-Tabs-item.is-visible,
-.dp-Tabs.Tabs--general .dp-Tabs-item.is-active {
-
-  /* .dp-SelectedMore > .dp-Tabs-item:hover,
-.dp-SelectedMore > .dp-Tabs-item.is-active { */
-
+.dp-Tabs.Tabs--general .dp-Tabs-item:hover {
   background: var(--primary-light);
 }
 
@@ -83,27 +73,10 @@
 .Tabs--general .dp-Tabs-item:hover > .dp-TabInfoItem .dp-Subtitle,
 .dp-Tabs-item:hover > .dp-TitleButton,
 .dp-Tabs .dp-Tabs-item.is-visible .dp-TitleButton,
-.dp-Tabs .dp-Tabs-item:hover .dp-TitleButton
-/*.dp-SelectedMore > .dp-Tabs-item:hover .dp-Title,
-.dp-SelectedMore > .dp-Tabs-item:hover .dp-Subtitle,
-.dp-SelectedMore > .dp-Tabs-item.is-active .dp-Title,
-.dp-SelectedMore > .dp-Tabs-item.is-active .dp-Subtitle*/ {
+.dp-Tabs .dp-Tabs-item:hover .dp-TitleButton {
   color: var(--brand-primary);
   cursor: pointer;
 }
-
-/* .dp-Tabs-item:hover > .Tabs-item--row .dp-Title,
-.dp-Tabs-item:hover > .Tabs-item--row .dp-Subtitle,
-.dp-Tabs-item:hover > .dp-TitleButton,
-.dp-Tabs .dp-Tabs-item.is-visible .dp-TitleButton,
-.dp-Tabs .dp-Tabs-item:hover .dp-TitleButton,
-.dp-SelectedMore > .dp-Tabs-item:hover .dp-Title,
-.dp-SelectedMore > .dp-Tabs-item:hover .dp-Subtitle,
-.dp-SelectedMore > .dp-Tabs-item.is-active .dp-Title,
-.dp-SelectedMore > .dp-Tabs-item.is-active .dp-Subtitle {
-  color: var(--brand-primary);
-  cursor: pointer;
-} */
 
 .dp-Tabs-item:hover > .Tabs-item--row .dp-Icon svg,
 .dp-TabInfoItem:hover > .Tabs-item--row .dp-Icon svg,
@@ -159,19 +132,12 @@
 
 .dp-CloseBtn {
   align-items: center;
-  background-color: var(--white);
   border-left: 1px solid var(--grey);
   cursor: pointer;
   display: none;
   justify-content: center;
   max-width: 30px;
   width: 100%;
-
-  /*  position: absolute;
-  height: 100%;
-  max-height: 41px;
-  z-index: 9; */
-
 }
 
 .Tabs--general > .dp-Tabs-item .dp-CloseBtn {
@@ -182,15 +148,12 @@
   display: none;
 }
 
-/* .dp-Menu.dp-SelectedMore .dp-Tabs-item:hover .dp-CloseBtn { */
-
 .Tabs--general .dp-Tabs-item:hover > .dp-CloseBtn {
   display: flex;
 }
 
 .dp-CloseBtn .dp-Icon {
-  background-position: 100% 0%;
-  background-size: 10px;
+  cursor: pointer;
 }
 
 .dp-Tabs .dp-SelectedMore.dp-Menu {
@@ -238,28 +201,22 @@
 }
 
 .Tabs--general .dp-Tabs-item .Tabs-item--row .dp-Icon.Icon--email {
-  background-size: 14px 9.5px;
-  height: 14px;
-  min-width: 15px;
   width: 15px;
 }
 
 .Tabs--general .dp-Tabs-item .Tabs-item--row .dp-Icon {
-  min-width: 12px;
+  height: 14px;
+  min-width: 15px;
 }
 
 .Tabs--general .dp-Tabs-item .Tabs-item--row + .Tabs-item--row > .dp-Icon {
   background-size: 14px;
-  height: 14px;
   width: 14px;
 }
 
 .Tabs-item--button .dp-Menu-linkItem .dp-Icon {
   background-size: 12px 12px;
   width: 12px;
-
-  /* height: 12px; */
-
 }
 
 /* Vetical Tabs */
@@ -352,11 +309,6 @@
   display: flex;
   list-style: none;
   padding: 10px;
-
-  /* margin: 10px 0; */
-
-  /* padding: 5px 10px; */
-
 }
 
 .Tabs--actions .dp-Tabs-item .dp-Icon {

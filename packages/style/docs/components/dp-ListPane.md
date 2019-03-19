@@ -38,7 +38,7 @@ title: List View
                 </span>
             </span>
 
-            <span class="dp-LevelCol">
+            <span class="dp-LevelCol Level-justify-between">
                 <span class="dp-Title Title-Icon">
                     <span class="dp-Card-title">SSO Information</span>
                     <span class="dp-Icon Icon--star"></span>
