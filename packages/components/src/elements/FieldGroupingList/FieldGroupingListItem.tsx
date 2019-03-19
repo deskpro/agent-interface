@@ -30,8 +30,8 @@ const FieldGroupingListItem: React.FC<FieldGroupingListItemProps> = ({
   children
 }) => {
   const { isVisible: menuIsVisible, toggleMenu, hideMenu } = useMenu();
-  const menuRef = React.useRef<HTMLUListElement>(null);
-  useOutsideClick(menuRef, hideMenu);
+  const badgeRef = React.useRef<HTMLSpanElement>(null);
+  useOutsideClick(badgeRef, hideMenu);
 
   const { onToggleItem } = React.useContext(FieldGroupingContext);
 
@@ -59,6 +59,7 @@ const FieldGroupingListItem: React.FC<FieldGroupingListItemProps> = ({
         "is-active": isSelected,
         "Badge--extended": children.length > 0
       })}
+      ref={badgeRef}
       onClick={e => {
         e.stopPropagation();
         onToggleItem(id, e);
@@ -81,14 +82,7 @@ const FieldGroupingListItem: React.FC<FieldGroupingListItemProps> = ({
             modifiers={{ offset: { offset: "0,12" } }}
           >
             {({ ref, style }) => (
-              <ul
-                className="dp-Menu"
-                style={style}
-                ref={(el: HTMLUListElement) => {
-                  ref(el);
-                  (menuRef.current as HTMLUListElement) = el;
-                }}
-              >
+              <ul className="dp-Menu" style={style} ref={ref}>
                 {children.map(child => (
                   <SubItem key={child.id} item={child} />
                 ))}

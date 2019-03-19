@@ -42,6 +42,7 @@ const FieldGroupingList: React.FC<FieldGroupingListProps> = ({
           const selectedChildren = intersection(childrenIds, selected);
           return (
             <ListItem
+              key={item.id}
               {...item}
               isSelected={
                 selected.includes(item.id) ||
