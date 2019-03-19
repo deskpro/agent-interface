@@ -123,6 +123,10 @@
   top: 0;
 }
 
+.demo-menu .Badge--group-filter .dp-Menu {
+  top: calc(100% + 8px);
+}
+
 /* Sub menu */
 
 .demo-menu .dp-Menu .dp-Menu {
@@ -171,8 +175,3 @@
 .demo-CloseBtn {
   position: relative;
 }
-
-/* .demo-CloseBtn .dp-CloseBtn {
-  bottom: -129px;
-  right: 2px;
-} */
