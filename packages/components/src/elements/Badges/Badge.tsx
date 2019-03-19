@@ -10,6 +10,8 @@ export type BadgeProps = {
   label?: string;
   value?: number | string | null;
   onClick?: (e: React.SyntheticEvent) => void;
+  children?: React.ReactNode;
+  innerRef?: React.Ref<HTMLSpanElement>;
 };
 
 const Badge: React.FC<BadgeProps> = ({
@@ -19,7 +21,8 @@ const Badge: React.FC<BadgeProps> = ({
   label = "",
   value = null,
   type = "pill",
-  onClick
+  onClick,
+  innerRef
 }) => {
   const classes = classNames("dp-Badge", className, {
     [`Badge--${type}`]: !!type,
@@ -36,6 +39,7 @@ const Badge: React.FC<BadgeProps> = ({
           tabIndex={-1}
           onClick={onClick}
           onKeyPress={e => e.key === "Enter" && onClick && onClick(e)}
+          ref={innerRef}
         >
           {label}
           <span className="dp-Num">{value || 0}</span>
@@ -45,7 +49,7 @@ const Badge: React.FC<BadgeProps> = ({
 
     case "id":
       return (
-        <span className="dp-BadgeWrapper">
+        <span className="dp-BadgeWrapper" ref={innerRef}>
           <span className={classes}>
             {label}
             {value}
@@ -56,7 +60,7 @@ const Badge: React.FC<BadgeProps> = ({
 
     default:
       return (
-        <span className={classes}>
+        <span className={classes} ref={innerRef}>
           {label}
           {value}
           {children}
@@ -65,4 +69,6 @@ const Badge: React.FC<BadgeProps> = ({
   }
 };
 
-export default Badge;
+export default React.forwardRef<HTMLSpanElement, BadgeProps>((props, ref) => (
+  <Badge {...props} innerRef={ref} />
+));
