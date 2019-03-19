@@ -55,8 +55,8 @@
   width: 12px;
 }
 
-.Badge--group-filter .dp-Badge.is-active .dp-Arrow::after {
-  border-color: var(--grey-dark) transparent transparent transparent;
+.Badge--group-filter.dp-Badge.is-active .dp-Arrow::after {
+  border-color: var(--brand-primary) transparent transparent transparent;
   border-width: 4px 4px 0 4px;
 }
 

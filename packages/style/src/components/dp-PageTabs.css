@@ -132,12 +132,17 @@
 
 .dp-CloseBtn {
   align-items: center;
+  background-color: var(--white);
   border-left: 1px solid var(--grey);
   cursor: pointer;
   display: none;
   justify-content: center;
   max-width: 30px;
   width: 100%;
+}
+
+.dp-CloseBtn:hover {
+  background-color: var(--primary-light);
 }
 
 .Tabs--general > .dp-Tabs-item .dp-CloseBtn {
