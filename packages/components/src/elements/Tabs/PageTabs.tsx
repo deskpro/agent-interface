@@ -122,8 +122,12 @@ const PageTabs: React.FC<PageTabsProps> = ({
             onTabClick={e => onTabClick(id, e)}
             isActive={activeTabId === id}
           >
-            <Tabs.TabTitle icon={titleIcon}>{title}</Tabs.TabTitle>
-            <Tabs.TabSubtitle icon={subtitleIcon}>{subtitle}</Tabs.TabSubtitle>
+            <span className="dp-TabInfoItem">
+              <Tabs.TabTitle icon={titleIcon}>{title}</Tabs.TabTitle>
+              <Tabs.TabSubtitle icon={subtitleIcon}>
+                {subtitle}
+              </Tabs.TabSubtitle>
+            </span>
             <span
               className="dp-CloseBtn"
               role="button"
