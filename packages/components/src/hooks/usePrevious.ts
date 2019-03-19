@@ -6,12 +6,9 @@ export default function usePrevious<T>(value: T) {
   const ref = useRef<T>(null);
 
   // Store current value in ref
-  useEffect(
-    () => {
-      (ref.current as T) = value;
-    },
-    [value]
-  ); // Only re-run if value changes
+  useEffect(() => {
+    (ref.current as T) = value;
+  }, [value]); // Only re-run if value changes
 
   // Return previous value (happens before update in useEffect above)
   return ref.current;

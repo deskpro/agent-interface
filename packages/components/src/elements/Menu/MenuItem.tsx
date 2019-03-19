@@ -192,15 +192,12 @@ function useMenuItemHover(
 
   // track the active trail changes to reset timer only when it changes.
   const prevActiveTrail = usePrevious(activeTrail);
-  React.useEffect(
-    () => {
-      // reset mouse out timer only in case the active trail changed.
-      if (activeTrail !== prevActiveTrail && mouseOutTimer.current) {
-        clearTimeout(mouseOutTimer.current as NodeJS.Timeout);
-      }
-    },
-    [activeTrail, prevActiveTrail, mouseOutTimer]
-  );
+  React.useEffect(() => {
+    // reset mouse out timer only in case the active trail changed.
+    if (activeTrail !== prevActiveTrail && mouseOutTimer.current) {
+      clearTimeout(mouseOutTimer.current as NodeJS.Timeout);
+    }
+  }, [activeTrail, prevActiveTrail, mouseOutTimer]);
 
   return { activateMenuItem, hideMenuItem };
 }
