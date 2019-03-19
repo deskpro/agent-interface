@@ -61,12 +61,9 @@ const MenuComponent: React.FC<MenuProps> = ({
   );
   // memoize filter value to filter items.
   const filterRef = React.useRef<string>("");
-  React.useLayoutEffect(
-    () => {
-      filterRef.current = filter;
-    },
-    [filterRef, filter]
-  );
+  React.useLayoutEffect(() => {
+    filterRef.current = filter;
+  }, [filterRef, filter]);
 
   // checkable items functionality
   const [checked, setChecked] = React.useState<React.Key[]>([]);
@@ -90,12 +87,9 @@ const MenuComponent: React.FC<MenuProps> = ({
     },
     [checkType, onItemCheck, checked, setChecked]
   );
-  React.useEffect(
-    () => {
-      setChecked(checkedItems);
-    },
-    [checkedItems]
-  );
+  React.useEffect(() => {
+    setChecked(checkedItems);
+  }, [checkedItems]);
 
   const hasIcons = React.useMemo(
     () =>

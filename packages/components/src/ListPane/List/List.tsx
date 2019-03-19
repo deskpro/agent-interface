@@ -97,9 +97,11 @@ const List: React.FC<ListProps> & ListSubComponents = ({
                   <CSSTransition
                     classNames={{
                       enterActive: "dp-Entering",
+                      enterDone: "dp-Entering-done",
                       exitActive: "dp-Leaving"
                     }}
                     timeout={1000}
+                    appear={false}
                     key={item.id}
                   >
                     {renderItem(item, {

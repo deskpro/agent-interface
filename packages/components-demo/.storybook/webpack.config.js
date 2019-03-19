@@ -1,33 +1,35 @@
 const path = require('path');
 
-module.exports = (storybookBaseConfig) => {
-  storybookBaseConfig.module.rules = storybookBaseConfig.module.rules.concat([
-    {
-      test: /\.stories\.jsx?$/,
-      loaders: [require.resolve('@storybook/addon-storysource/loader')],
-      enforce: 'pre'
-    },
-    {
-      test: /\.css$/,
-      loaders: ['style-loader', 'css-loader']
-    },
-    {
-      test: /\.svg$/,
-      use: [
-        'babel-loader',
-        {
-          loader: 'react-svg-loader',
-          options: {
-            svgo: {
-              plugins: [
-                { removeDimensions: true, removeUselessStrokeAndFill: true }
-              ]
+module.exports = ({ config }) => ({
+  ...config,
+  module: {
+    ...config.module,
+    rules: [
+      {
+        test: /\.svg$/,
+        issuer: {
+          test: /\.jsx?$/
+        },
+        use: [
+          {
+            loader: '@svgr/webpack',
+            options: {
+              svgoConfig: {
+                plugins: [
+                  { removeDimensions: true },
+                  { removeUselessStrokeAndFill: true },
+                  { removeViewBox: false }
+                ]
+              }
             }
           }
-        }
-      ]
-    }
-  ]);
-
-  return storybookBaseConfig;
-};
+        ]
+      },
+      ...config.module
+        .rules /*.map((rule) => ({
+        ...rule,
+        test: new RegExp(rule.test.toString().replace(/svg\|/, ''))
+      }))*/
+    ]
+  }
+});

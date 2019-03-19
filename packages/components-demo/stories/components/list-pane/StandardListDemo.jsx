@@ -38,20 +38,14 @@ const StandardListDemo = ({ grouped = false }) => {
   const [items, setItems] = React.useState(() => loadCallback(loadedPage));
   const [containerHeight, setContainerHeight] = React.useState(null);
   const containerRef = React.useRef(null);
-  React.useEffect(
-    () => {
-      if (containerRef.current) {
-        setContainerHeight(containerRef.current.offsetHeight);
-      }
-    },
-    [containerRef]
-  );
-  React.useEffect(
-    () => {
-      setItems(loadCallback(loadedPage));
-    },
-    [setItems, loadCallback, loadedPage]
-  );
+  React.useEffect(() => {
+    if (containerRef.current) {
+      setContainerHeight(containerRef.current.offsetHeight);
+    }
+  }, [containerRef]);
+  React.useEffect(() => {
+    setItems(loadCallback(loadedPage));
+  }, [setItems, loadCallback, loadedPage]);
 
   const handleItemDelete = React.useCallback(
     itemId => {
@@ -61,12 +55,9 @@ const StandardListDemo = ({ grouped = false }) => {
     [items, setItems]
   );
 
-  const handleAdd = React.useCallback(
-    () => {
-      setItems([createItem(items[0].group)].concat(items));
-    },
-    [items, setItems]
-  );
+  const handleAdd = React.useCallback(() => {
+    setItems([createItem(items[0].group)].concat(items));
+  }, [items, setItems]);
 
   return (
     <div

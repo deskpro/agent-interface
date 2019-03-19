@@ -49,14 +49,11 @@ const PageTabs: React.FC<PageTabsProps> = ({
   const [tabsWidth, setTabsWidth] = React.useState(0);
   const size = useWindowSize();
   const tabsRef = React.useRef<HTMLUListElement>(null);
-  React.useEffect(
-    () => {
-      if (tabsRef.current instanceof HTMLUListElement) {
-        setTabsWidth(tabsRef.current.clientWidth);
-      }
-    },
-    [tabsRef, setTabsWidth, size]
-  );
+  React.useEffect(() => {
+    if (tabsRef.current instanceof HTMLUListElement) {
+      setTabsWidth(tabsRef.current.clientWidth);
+    }
+  }, [tabsRef, setTabsWidth, size]);
   const visibleItems = Math.floor(
     (tabsWidth - ADD_ICON_WIDTH - PLUS_ICON_WIDTH) / MIN_TAB_WIDTH
   );

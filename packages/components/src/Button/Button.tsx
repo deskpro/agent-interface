@@ -17,6 +17,7 @@ export interface ButtonProps {
   className?: string;
   buttonRef?: React.Ref<HTMLButtonElement>;
   onClick(e: React.MouseEvent<HTMLElement>): void;
+  children?: React.ReactNode;
 }
 
 const Button: React.FC<ButtonProps> = ({

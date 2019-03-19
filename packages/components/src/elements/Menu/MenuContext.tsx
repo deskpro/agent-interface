@@ -20,15 +20,12 @@ export const MenuContextProvider: React.FC<MenuContextProviderProps> = ({
   children
 }) => {
   const [activeTrail, setActiveTrail] = React.useState("");
-  const handleMenuClose = React.useCallback(
-    () => {
-      setActiveTrail("");
-      if (typeof onMenuClose === "function") {
-        onMenuClose();
-      }
-    },
-    [setActiveTrail, onMenuClose]
-  );
+  const handleMenuClose = React.useCallback(() => {
+    setActiveTrail("");
+    if (typeof onMenuClose === "function") {
+      onMenuClose();
+    }
+  }, [setActiveTrail, onMenuClose]);
   return (
     <MenuContext.Provider
       value={{ activeTrail, setActiveTrail, onMenuClose: handleMenuClose }}
