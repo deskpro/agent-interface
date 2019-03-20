@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> it should match its snapshot 1`] = `
+<div
+  class="dp-SectionTitle"
+  data-testid="header"
+>
+  <div
+    class="dp-TitleControls"
+  >
+    Header text
+  </div>
+</div>
+`;
