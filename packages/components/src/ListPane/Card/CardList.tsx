@@ -14,7 +14,7 @@ const CardList: React.FC<CardListProps> = ({
   hoverable = false
 }) => (
   <div
-    className={classNames("dp-CardList Card--row", className, {
+    className={classNames("dp-CardList", className, {
       "is-hoverable": hoverable
     })}
     role="list"

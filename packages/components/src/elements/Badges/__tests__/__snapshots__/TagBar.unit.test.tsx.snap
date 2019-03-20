@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TagBar /> it should match its snapshot 1`] = `
+<span
+  class="dp-TagBar dp-JustifyStart"
+  data-testid="tagbar"
+>
+  <span
+    class="dp-Tag"
+  >
+    First
+  </span>
+  <span
+    class="dp-Tag"
+  >
+    Second
+  </span>
+  <span
+    class="dp-Tag"
+  >
+    Third
+  </span>
+</span>
+`;

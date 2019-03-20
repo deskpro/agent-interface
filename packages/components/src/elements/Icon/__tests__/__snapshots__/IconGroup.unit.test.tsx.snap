@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<IconGroup /> should match is snapshot 1`] = `
+<span
+  class="dp-IconGroup icon-group"
+>
+  <span
+    class="dp-ActivityStatus ActivityStatus--viewing"
+  />
+  <span
+    class="dp-Badge Badge--round Badge--grey-light"
+  >
+    
+  </span>
+  <span
+    class="dp-Badge Badge--round Badge--purple"
+  >
+    
+  </span>
+</span>
+`;

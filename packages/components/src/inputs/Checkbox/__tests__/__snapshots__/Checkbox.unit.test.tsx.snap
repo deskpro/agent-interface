@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Checkbox /> it should match its snapshot 1`] = `
+<span
+  class="dp-CustomCheckbox"
+>
+  <input
+    checked=""
+    class="dp-ControlInput"
+    id="checkbox"
+    type="checkbox"
+  />
+  <label
+    class="label-class-name"
+    for="checkbox"
+  >
+    Checkbox
+  </label>
+</span>
+`;

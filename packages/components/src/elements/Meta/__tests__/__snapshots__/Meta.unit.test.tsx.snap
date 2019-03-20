@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Meta /> it should match its snapshot 1`] = `
+<span
+  class="dp-Meta"
+>
+  Name
+  : 
+  <span
+    class="dp-Meta-value"
+  >
+    Value
+  </span>
+</span>
+`;
