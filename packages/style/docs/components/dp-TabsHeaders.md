@@ -11,7 +11,7 @@ title: Tabs & Headers
                 <span class="dp-Icon dp-add_tab Icon-success"></span>
             </button>
         </li>
-        <li class="dp-Tabs-item">
+        <li class="dp-Tabs-item is-active">
             <span class="dp-TabInfoItem">
                 <span class="Tabs-item--row">
                     <span class="dp-Icon Icon--email"></span>
@@ -41,7 +41,7 @@ title: Tabs & Headers
             </button>
         </li>
 
-        <li class="dp-Tabs-item">
+        <li class="dp-Tabs-item is-active">
             <span class="dp-TabInfoItem">
                 <span class="Tabs-item--row">
                     <span class="dp-Icon Icon--email"></span>
@@ -77,7 +77,7 @@ title: Tabs & Headers
         <li class="dp-Tabs-item">
             <span class="dp-TabInfoItem">
                 <span class="Tabs-item--row">
-                    <span class="dp-Icon dp-iconOrganisationl"></span>
+                    <span class="dp-Icon dp-iconOrganisation"></span>
                     <span class="dp-Title">Single-line-item</span>
                 </span>
                 <span class="Tabs-item--row">

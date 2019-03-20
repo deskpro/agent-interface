@@ -78,9 +78,11 @@
   cursor: pointer;
 }
 
-.dp-Tabs-item:hover > .Tabs-item--row .dp-Icon svg,
-.dp-TabInfoItem:hover > .Tabs-item--row .dp-Icon svg,
-.dp-Tabs-item.is-active > .dp-TabInfoItem .dp-Icon svg {
+/* .dp-Tabs-item:hover > .Tabs-item--row .dp-Icon svg,
+.dp-Tabs-item.is-active > .dp-TabInfoItem .dp-Icon svg, */
+
+.dp-Tabs-item:hover .Tabs-item--row .dp-Icon svg,
+.dp-Tabs-item.is-active .Tabs-item--row .dp-Icon svg {
   fill: var(--brand-primary);
 }
 

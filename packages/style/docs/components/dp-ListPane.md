@@ -16,7 +16,7 @@ title: List View
 
 ```html @preview
 <form>
-    <ul class="dp-CardList is-hoverable dp-Show-Hide">
+    <ul class="dp-CardList is-hoverable">
         
         <li class="dp-Card dp-Level dp-Card-SectionTitle">
             <span class="dp-LevelCol">
@@ -30,7 +30,7 @@ title: List View
         </li>
 
         <!-- 1 -->
-        <li class="dp-Card dp-Level dp-Leaving">
+        <li class="dp-Card dp-Level">
             <span class="dp-LevelCol">
                 <span class="dp-CustomCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="listpane-tickets-1"></input>
@@ -3753,7 +3753,7 @@ title: List View
                     <!-- comment -->
                     <span class="dp-CommentWrap is-active demo-comments">
                         <span class="dp-Icon dp-iconComents"></span>
-                        <span class="dp-Comments-title">Comment <span href="#" class="dp-qt">(2)</span><button class="dp-Arrow"></button></span>
+                        <span class="dp-Comments-title is-active">Comment <span href="#" class="dp-qt">(2)</span><button class="dp-Arrow"></button></span>
                         <ul class="dp-Comments">
                             <li class="dp-Comments-item">
                                 <span class="dp-Level">

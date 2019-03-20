@@ -13,7 +13,7 @@ title: Page Tabs
             </button>
         </li>
 
-        <li class="dp-Tabs-item">
+        <li class="dp-Tabs-item is-active">
             <span class="dp-TabInfoItem">
                 <span class="Tabs-item--row">
                     <span class="dp-Icon Icon--email"></span>
@@ -44,7 +44,7 @@ title: Page Tabs
             </button>
         </li>
 
-        <li class="dp-Tabs-item">
+        <li class="dp-Tabs-item is-active">
             <span class="dp-TabInfoItem">
                 <span class="Tabs-item--row">
                     <span class="dp-Icon Icon--email"></span>
@@ -213,7 +213,7 @@ title: Page Tabs
             </span>
         </li>
 
-        <li class="dp-Tabs-item">
+        <li class="dp-Tabs-item is-active">
             <span class="dp-TabInfoItem">
                 <span class="Tabs-item--row">
                     <span class="dp-Icon dp-iconOrganisation"></span>
@@ -379,18 +379,7 @@ title: Page Tabs
             </button>
         </li>
 
-<!--         <li class="dp-Tabs-item">
-            <span class="Tabs-item--row">
-                <span class="dp-Icon Icon--email"></span>
-                <span class="dp-Title">RE: Need some help?</span>
-            </span>
-            <span class="Tabs-item--row">
-                <span class="dp-Icon dp-iconUserAvatar"></span>
-                <span class="dp-Subtitle">Zack Prudent</span>
-            </span>
-        </li> -->
-
-        <li class="dp-Tabs-item">
+        <li class="dp-Tabs-item is-active">
             <span class="dp-TabInfoItem">
                 <span class="Tabs-item--row">
                     <span class="dp-Icon Icon--email"></span>
@@ -406,7 +395,7 @@ title: Page Tabs
             </span>
         </li>
 
-        <li class="dp-Tabs-item is-active">
+        <li class="dp-Tabs-item">
             <span class="dp-TabInfoItem">
                 <span class="Tabs-item--row">
                     <span class="dp-Icon dp-iconOrganisation"></span>
@@ -538,7 +527,7 @@ title: Page Tabs
                     </span>
                 </li>
 
-                <li class="dp-Tabs-item is-active">
+                <li class="dp-Tabs-item">
                     <span class="dp-TabInfoItem">
                         <span class="Tabs-item--row">
                             <span class="dp-Icon Icon--email"></span>
@@ -600,7 +589,7 @@ title: Page Tabs
             </ul>
         </li>
 
-        <li class="dp-Tabs-item">
+        <li class="dp-Tabs-item is-active">
             <span class="dp-TabInfoItem">
                 <span class="Tabs-item--row">
                     <span class="dp-Icon Icon--email"></span>
@@ -663,7 +652,7 @@ title: Page Tabs
             </button>
         </li>
 
-        <li class="dp-Tabs-item">
+        <li class="dp-Tabs-item is-active">
             <span class="dp-TabInfoItem">
                 <span class="Tabs-item--row">
                     <span class="dp-Icon Icon--email"></span>

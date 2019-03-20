@@ -116,9 +116,9 @@
 
 }
 
-.dp-OrderingBar .dp-MassSelect-itemsCount,
-.dp-CustomCheckbox .dp-Card-title {
-  margin: 0 0 0 5px;
+.dp-CustomCheckbox .dp-Card-title,
+.dp-OrderingBar .dp-MassSelect-itemsCount {
+  margin: 0;
 }
 
 .dp-Card-title.dp-MassSelectTitle {
@@ -211,9 +211,9 @@
   border-right: 1px solid var(--grey-light);
 }
 
-/* .dp-Card.dp-Tasks-list .dp-LevelItem .dp-Task-title .dp-Icon,
-.dp-Card.dp-Tasks-list .dp-LevelItem .dp-Diagnose .dp-Icon,
-.dp-Card.dp-Tasks-list .dp-LevelItem .dp-LevelWrap li > .dp-Icon { */
+/* .dp-Card .dp-LevelItem + .dp-LevelItem {
+  margin-top: 10px;
+} */
 
 .CardList-comments .dp-Card .dp-LevelItem .dp-Task-title .dp-Icon,
 .CardList-comments .dp-Card .dp-LevelItem .dp-Diagnose .dp-Icon,
@@ -397,7 +397,9 @@
 .dp-Card .dp-CustomCheckbox {
   display: flex;
   overflow: hidden;
-  padding-top: 2px;
+
+  /* padding-top: 2px; */
+
 }
 
 .dp-Card.dp-Card-SectionTitle .dp-CustomCheckbox {
@@ -638,7 +640,7 @@
   display: flex;
 }
 
-.dp-GuideSections .dp-Card .dp-IconGroup:hover {
+.dp-GuideSections .dp-Card .dp-IconGroup:hover svg {
   fill: var(--brand-primary);
 }
 

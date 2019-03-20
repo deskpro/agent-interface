@@ -727,7 +727,8 @@ title: Card
                 <span class="dp-LevelItem Level-justify-between">
                     <span class="dp-CustomCheckbox dp-LevelLeft dp-LevelTop">
                         <input type="checkbox" class="dp-ControlInput" id="cards-row-1"></input>
-                        <label for="cards-row-1"><span class="dp-Card-title">Card title here</span></label>
+                        <label for="cards-row-1"></label>
+                        <span class="dp-Card-title">Card title here</span>
                     </span>
                     <span class="dp-IconGroup dp-LevelRight">
                         <span class="Icon--circle dp-iconBug"></span>
@@ -735,7 +736,7 @@ title: Card
                         <span class="dp-Icon Icon--clock Icon--primary"></span>
                     </span>
                 </span>
-                <span class="dp-LevelItem Level-justify-between dp-LevelBottom">
+                <span class="dp-LevelItem Level-justify-between">
                     <span class="dp-UserInfo">
                         <span class="dp-Icon dp-iconUserAvatar"></span>
                         <span class="dp-UserName">Single-line item</span>

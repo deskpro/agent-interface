@@ -911,23 +911,6 @@ input:disabled + label {
 
 /* Animate  */
 
-.dp-Show-Hide .dp-Card {
-  max-height: 100%;
-  overflow: hidden;
-  transition: max-height 0.5s ease-in-out, padding 0.5s ease-in-out;
-}
-
-.dp-Show-Hide .dp-Card.dp-Leaving {
-  background-color: var(--grey-lighter);
-  border: 0;
-  filter: grayscale(100%);
-  max-height: 0;
-  padding-bottom: 0;
-  padding-top: 0;
-
-  /* box-shadow: var(--shadow-top-inset); */
-}
-
 .dp-Card.dp-Leaving .dp-Card-title,
 .dp-Card.dp-Leaving .dp-UserName,
 .dp-Card.dp-Entering .dp-Card-title,
@@ -935,20 +918,29 @@ input:disabled + label {
   color: var(--grey);
 }
 
-.dp-Show-Hide .dp-Card.dp-Entering {
-  background-color: var(--grey-lighter);
-  border: 0;
-  filter: grayscale(100%);
-  max-height: 0;
+.dp-Show-Hide .dp-Card {
+  overflow: hidden;
   padding-bottom: 0;
   padding-top: 0;
+  transition: max-height 0.5s ease-in-out, padding 0.5s ease-in-out;
+}
 
-  /*  transition-delay: 1s;
-  transition-duration: 1s;
-  transition-property: height; */
-
+.dp-Show-Hide .dp-Card.dp-Entering {
+  background-color: var(--grey-lighter);
+  padding: 8.8px 10px 10px;
 }
 
 .dp-Show-Hide .dp-Card.dp-Entering-done {
   max-height: 100%;
+  padding: 8.8px 10px 10px;
+}
+
+.dp-Show-Hide .dp-Card.dp-Leaving {
+  background-color: var(--grey-lighter);
+  border: 0;
+  filter: grayscale(100%);
+  max-height: 0;
+
+  /* box-shadow: var(--shadow-top-inset); */
+
 }
