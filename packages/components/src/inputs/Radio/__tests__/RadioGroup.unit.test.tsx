@@ -5,7 +5,7 @@ import Radio from "../Radio";
 import RadioGroup from "../RadioGroup";
 
 describe("<Radio />", () => {
-  it("it should match its snapshot", () => {
+  it("should match its snapshot", () => {
     const handleChange = jest.fn();
     const { container } = render(
       <RadioGroup className="radio-group-test">

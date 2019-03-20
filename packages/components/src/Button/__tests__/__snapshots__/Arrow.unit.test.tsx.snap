@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Arrow /> Simple snapshot 1`] = `
+exports[`<Arrow /> should match its snapshot 1`] = `
 <span
   class="dp-Icon dp-Arrow"
   data-testid="arrow-button"

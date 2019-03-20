@@ -7,7 +7,7 @@ import Icon from "../../../../elements/Icon/Icon";
 import TicketCard from "../TicketCard";
 
 describe("<TicketCard />", () => {
-  it("it should match its snapshot", () => {
+  it("should match its snapshot", () => {
     const date = new Date("2019-02-02 15:55:18");
     const onCheck = jest.fn();
     const { container } = render(

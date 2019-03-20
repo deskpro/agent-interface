@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Radio /> it should match its snapshot 1`] = `
+exports[`<Radio /> should match its snapshot 1`] = `
 <div
   class="dp-RadioWrapper radio-group-test"
 >

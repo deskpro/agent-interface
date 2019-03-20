@@ -5,7 +5,7 @@ import Tag from "../Tag";
 import TagBar from "../TagBar";
 
 describe("<TagBar />", () => {
-  it("it should match its snapshot", () => {
+  it("should match its snapshot", () => {
     const { getByTestId } = render(
       <TagBar data-testid="tagbar">
         <Tag>First</Tag>
