@@ -11,7 +11,7 @@
     "build-storybook": "build-storybook",
     "jest:integration": "jest -c tests/integration/jest.config.js",
     "test:integration": "start-server-and-test storybook http-get://localhost:6006 jest:integration",
-    "snapshot": "percy-storybook --widths=320,1280",
+    "snapshot": "percy-storybook --widths=1280",
     "test:regression": "yarn snapshot",
     "lint": "eslint ./stories --ext js,jsx,ts,tsx"
   },
