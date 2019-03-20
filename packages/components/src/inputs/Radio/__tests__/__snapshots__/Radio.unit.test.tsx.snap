@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Radio /> it should match its snapshot 1`] = `
+<div
+  class="dp-RadioItem"
+>
+  <input
+    checked=""
+    class="dp-Input Input--radio"
+    type="radio"
+  />
+  <label>
+    Radio
+  </label>
+</div>
+`;
