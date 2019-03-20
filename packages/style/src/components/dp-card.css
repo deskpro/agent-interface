@@ -222,11 +222,20 @@
   padding-left: 23px;
 }
 
+.dp-Card.Card--nocheck .dp-LevelItem + .dp-LevelItem {
+  padding: 0;
+}
+
 .CardList-comments .dp-Card .dp-LevelItem .dp-Task-title .dp-Icon,
 .CardList-comments .dp-Card .dp-LevelItem .dp-Diagnose .dp-Icon,
 .CardList-comments .dp-Card .dp-LevelItem .dp-Card-actionsRow li > .dp-Icon {
   width: 18px;
 }
+
+/* .dp-LevelItem .dp-Item-txt {
+  color: var(--grey-darkest);
+  font: var(--p-xl);
+} */
 
 .dp-Listpane-guides .Level--down {
   border-bottom: 0;

@@ -9,34 +9,32 @@ title: Card
 <div class="dp-MainWrapper demo-cog demo-menu">
     <form>
         <ul class="dp-CardList">
-            <li class="dp-Card dp-Level">
-
-                <span class="dp-LevelItem dp-LevelCol dp-LevelTop">
-                    <span class="dp-CustomCheckbox">
+            <li class="dp-Card">
+                <span class="dp-LevelItem Level-justify-between">
+                    <span class="dp-CustomCheckbox dp-LevelLeft dp-LevelTop">
                         <input type="checkbox" class="dp-ControlInput" id="cards-static-0"></input>
                         <label for="cards-static-0"></label>
+                        <span class="dp-Card-title">Card title here</span>
                     </span>
-                </span>
-
-                <span class="dp-LevelCol">
-                    <span class="dp-Card-title">Card title here</span>
-                    <span class="dp-UserInfo">
-                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                        <span class="dp-UserName">Single-line item</span>
-                    </span>
-                </span>
-
-                <span class="dp-LevelCol dp-LevelRight">
-                    <span class="dp-IconGroup">
+                    <span class="dp-IconGroup dp-LevelRight">
                         <span class="Icon--circle dp-iconBug"></span>
                         <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
                         <span class="dp-Icon Icon--clock Icon--primary"></span>
                     </span>
-                    <span class="dp-TimeStatus">
-                        <span class="dp-Tag Tag--small Tag--danger">Failed</span>
+                </span>
+                <span class="dp-LevelItem Level-justify-between">
+                    <span class="dp-LevelLeft">
+                        <span class="dp-UserInfo">
+                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                            <span class="dp-UserName">Single-line item</span>
+                        </span>
+                    </span>
+                    <span class="dp-LevelRight">
+                        <span class="dp-TimeStatus">
+                            <span class="dp-Tag Tag--small Tag--danger">Failed</span>
+                        </span>
                     </span>
                 </span>
-
             </li>
         </ul>
     </form>
@@ -47,36 +45,33 @@ title: Card
 ```html @preview
 <div class="dp-MainWrapper demo-cog demo-menu">
     <form>
-
         <ul class="dp-CardList">
-            <li class="dp-Card dp-Level is-hover">
-
-                <span class="dp-LevelItem dp-LevelCol dp-LevelTop">
-                    <span class="dp-CustomCheckbox">
+            <li class="dp-Card is-hover">
+                <span class="dp-LevelItem Level-justify-between">
+                    <span class="dp-CustomCheckbox dp-LevelLeft dp-LevelTop">
                         <input type="checkbox" class="dp-ControlInput" id="cards-hover-0"></input>
                         <label for="cards-hover-0"></label>
+                        <span class="dp-Card-title">Card title here</span>
                     </span>
-                </span>
-
-                <span class="dp-LevelCol">
-                    <span class="dp-Card-title">Card title here</span>
-                    <span class="dp-UserInfo">
-                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                        <span class="dp-UserName">Single-line item</span>
-                    </span>
-                </span>
-
-                <span class="dp-LevelCol dp-LevelRight">
-                    <span class="dp-IconGroup">
+                    <span class="dp-IconGroup dp-LevelRight">
                         <span class="Icon--circle dp-iconBug"></span>
                         <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
                         <span class="dp-Icon Icon--clock Icon--primary"></span>
                     </span>
-                    <span class="dp-TimeStatus">
-                        <span class="dp-Tag Tag--small Tag--danger">Failed</span>
+                </span>
+                <span class="dp-LevelItem Level-justify-between">
+                    <span class="dp-LevelLeft">
+                        <span class="dp-UserInfo">
+                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                            <span class="dp-UserName">Single-line item</span>
+                        </span>
+                    </span>
+                    <span class="dp-LevelRight">
+                        <span class="dp-TimeStatus">
+                            <span class="dp-Tag Tag--small Tag--danger">Failed</span>
+                        </span>
                     </span>
                 </span>
-
             </li>
         </ul>
     </form>
@@ -85,38 +80,35 @@ title: Card
 
 <h4>Listpane/cards-selected</h4>
 ```html @preview
-
 <div class="dp-MainWrapper demo-cog demo-menu">
     <form>
         <ul class="dp-CardList">
-            <li class="dp-Card is-selected is-active dp-Level">
-
-                <span class="dp-LevelItem dp-LevelCol dp-LevelTop">
-                    <span class="dp-CustomCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-0"></input>
-                        <label for="customCheckbox1-0"></label>
+            <li class="dp-Card is-selected is-active">
+                <span class="dp-LevelItem Level-justify-between">
+                    <span class="dp-CustomCheckbox dp-LevelLeft dp-LevelTop">
+                        <input type="checkbox" class="dp-ControlInput" id="cards-selected-0"></input>
+                        <label for="cards-selected-0"></label>
+                        <span class="dp-Card-title">Card title here</span>
                     </span>
-                </span>
-
-                <span class="dp-LevelCol">
-                    <span class="dp-Card-title">Card title here</span>
-                    <span class="dp-UserInfo">
-                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                        <span class="dp-UserName">Single-line item</span>
-                    </span>
-                </span>
-
-                <span class="dp-LevelCol dp-LevelRight">
-                    <span class="dp-IconGroup">
+                    <span class="dp-IconGroup dp-LevelRight">
                         <span class="Icon--circle dp-iconBug"></span>
                         <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
                         <span class="dp-Icon Icon--clock Icon--primary"></span>
                     </span>
-                    <span class="dp-TimeStatus">
-                        <span class="dp-Tag Tag--small Tag--danger">Failed</span>
+                </span>
+                <span class="dp-LevelItem Level-justify-between">
+                    <span class="dp-LevelLeft">
+                        <span class="dp-UserInfo">
+                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                            <span class="dp-UserName">Single-line item</span>
+                        </span>
+                    </span>
+                    <span class="dp-LevelRight">
+                        <span class="dp-TimeStatus">
+                            <span class="dp-Tag Tag--small Tag--danger">Failed</span>
+                        </span>
                     </span>
                 </span>
-
             </li>
         </ul>
     </form>
@@ -128,34 +120,32 @@ title: Card
 <div class="dp-MainWrapper demo-cog demo-menu">
     <form>
         <ul class="dp-CardList">
-            <li class="dp-Card is-selected dp-Level">
-
-                <span class="dp-LevelCol">
-                    <span class="dp-CustomCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-1"></input>
-                        <label for="customCheckbox1-1"></label>
+            <li class="dp-Card is-selected">
+                <span class="dp-LevelItem Level-justify-between">
+                    <span class="dp-CustomCheckbox dp-LevelLeft dp-LevelTop">
+                        <input type="checkbox" class="dp-ControlInput" id="cards-selected-1"></input>
+                        <label for="cards-selected-1"></label>
+                        <span class="dp-Card-title">Card title here</span>
                     </span>
-                </span>
-
-                <span class="dp-LevelCol">
-                    <span class="dp-Card-title">Card title here</span>
-                    <span class="dp-UserInfo">
-                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                        <span class="dp-UserName">Single-line item</span>
-                    </span>
-                </span>
-
-                <span class="dp-LevelCol dp-LevelRight">
-                    <span class="dp-IconGroup">
+                    <span class="dp-IconGroup dp-LevelRight">
                         <span class="Icon--circle dp-iconBug"></span>
                         <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
                         <span class="dp-Icon Icon--clock Icon--primary"></span>
                     </span>
-                    <span class="dp-TimeStatus">
-                        <span class="dp-Tag Tag--small Tag--danger">Failed</span>
+                </span>
+                <span class="dp-LevelItem Level-justify-between">
+                    <span class="dp-LevelLeft">
+                        <span class="dp-UserInfo">
+                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                            <span class="dp-UserName">Single-line item</span>
+                        </span>
+                    </span>
+                    <span class="dp-LevelRight">
+                        <span class="dp-TimeStatus">
+                            <span class="dp-Tag Tag--small Tag--danger">Failed</span>
+                        </span>
                     </span>
                 </span>
-
             </li>
         </ul>
     </form>
@@ -167,34 +157,32 @@ title: Card
 <div class="dp-MainWrapper demo-cog demo-menu">
     <form>
         <ul class="dp-CardList">
-            <li class="dp-Card dp-Level">
-
-                <span class="dp-LevelCol">
-                    <span class="dp-CustomCheckbox">
-                        <input type="checkbox" checked="checked" class="dp-ControlInput" id="customCheckbox1-2"></input>
-                        <label for="customCheckbox1-2"></label>
+            <li class="dp-Card">
+                <span class="dp-LevelItem Level-justify-between">
+                    <span class="dp-CustomCheckbox dp-LevelLeft dp-LevelTop">
+                        <input type="checkbox" checked="checked" class="dp-ControlInput" id="cards-checked-0"></input>
+                        <label for="cards-checked-0"></label>
+                        <span class="dp-Card-title">Card title here</span>
                     </span>
-                </span>
-
-                <span class="dp-LevelCol">
-                    <span class="dp-Card-title">Card title here</span>
-                    <span class="dp-UserInfo">
-                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                        <span class="dp-UserName">Single-line item</span>
-                    </span>
-                </span>
-
-                <span class="dp-LevelCol dp-LevelRight">
-                    <span class="dp-IconGroup">
+                    <span class="dp-IconGroup dp-LevelRight">
                         <span class="Icon--circle dp-iconBug"></span>
                         <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
                         <span class="dp-Icon Icon--clock Icon--primary"></span>
                     </span>
-                    <span class="dp-TimeStatus">
-                        <span class="dp-Tag Tag--small Tag--danger">Failed</span>
+                </span>
+                <span class="dp-LevelItem Level-justify-between">
+                    <span class="dp-LevelLeft">
+                        <span class="dp-UserInfo">
+                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                            <span class="dp-UserName">Single-line item</span>
+                        </span>
+                    </span>
+                    <span class="dp-LevelRight">
+                        <span class="dp-TimeStatus">
+                            <span class="dp-Tag Tag--small Tag--danger">Failed</span>
+                        </span>
                     </span>
                 </span>
-
             </li>
         </ul>
     </form>
@@ -203,38 +191,35 @@ title: Card
 
 <h4>Listpane/cards-keyboard-select</h4>
 ```html @preview
-
 <div class="dp-MainWrapper demo-cog demo-menu">
     <form>
         <ul class="dp-CardList">
-            <li class="dp-Card is-keyboard dp-Level">
-
-                <span class="dp-LevelCol">
-                    <span class="dp-CustomCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-4"></input>
-                        <label for="customCheckbox1-4"></label>
+            <li class="dp-Card is-keyboard ">
+                <span class="dp-LevelItem Level-justify-between">
+                    <span class="dp-CustomCheckbox dp-LevelLeft dp-LevelTop">
+                        <input type="checkbox" class="dp-ControlInput" id="cards-keyboard-0"></input>
+                        <label for="cards-keyboard-0"></label>
+                        <span class="dp-Card-title">Card title here</span>
                     </span>
-                </span>
-
-                <span class="dp-LevelCol">
-                    <span class="dp-Card-title">Card title here</span>
-                    <span class="dp-UserInfo">
-                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                        <span class="dp-UserName">Single-line item</span>
-                    </span>
-                </span>
-
-                <span class="dp-LevelCol dp-LevelRight">
-                    <span class="dp-IconGroup">
+                    <span class="dp-IconGroup dp-LevelRight">
                         <span class="Icon--circle dp-iconBug"></span>
                         <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
                         <span class="dp-Icon Icon--clock Icon--primary"></span>
                     </span>
-                    <span class="dp-TimeStatus">
-                        <span class="dp-Tag Tag--small Tag--danger">Failed</span>
+                </span>
+                <span class="dp-LevelItem Level-justify-between">
+                    <span class="dp-LevelLeft">
+                        <span class="dp-UserInfo">
+                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                            <span class="dp-UserName">Single-line item</span>
+                        </span>
+                    </span>
+                    <span class="dp-LevelRight">
+                        <span class="dp-TimeStatus">
+                            <span class="dp-Tag Tag--small Tag--danger">Failed</span>
+                        </span>
                     </span>
                 </span>
-
             </li>
         </ul>
     </form>
@@ -243,38 +228,36 @@ title: Card
 
 <h4>Listpane/cards-link-hover</h4>
 ```html @preview
-
 <div class="dp-MainWrapper demo-cog demo-menu">
     <form>
         <ul class="dp-CardList">
-            <li class="dp-Card is-hover-link dp-Level">
+            <li class="dp-Card is-hover-link">
 
-                <span class="dp-LevelCol">
-                    <span class="dp-CustomCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="customCheckbox1-5"></input>
-                        <label for="customCheckbox1-5"></label>
+                <span class="dp-LevelItem Level-justify-between">
+                    <span class="dp-CustomCheckbox dp-LevelLeft dp-LevelTop">
+                        <input type="checkbox" class="dp-ControlInput" id="cards-title-hover-0"></input>
+                        <label for="cards-title-hover-0"></label>
+                        <span class="dp-Card-title">Card title here</span>
                     </span>
-                </span>
-
-                <span class="dp-LevelCol">
-                    <span class="dp-Card-title">Card title here</span>
-                    <span class="dp-UserInfo">
-                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                        <span class="dp-UserName">Single-line item</span>
-                    </span>
-                </span>
-
-                <span class="dp-LevelCol dp-LevelRight">
-                    <span class="dp-IconGroup">
+                    <span class="dp-IconGroup dp-LevelRight">
                         <span class="Icon--circle dp-iconBug"></span>
                         <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
                         <span class="dp-Icon Icon--clock Icon--primary"></span>
                     </span>
-                    <span class="dp-TimeStatus">
-                        <span class="dp-Tag Tag--small Tag--danger">Failed</span>
+                </span>
+                <span class="dp-LevelItem Level-justify-between">
+                    <span class="dp-LevelLeft">
+                        <span class="dp-UserInfo">
+                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                            <span class="dp-UserName">Single-line item</span>
+                        </span>
+                    </span>
+                    <span class="dp-LevelRight">
+                        <span class="dp-TimeStatus">
+                            <span class="dp-Tag Tag--small Tag--danger">Failed</span>
+                        </span>
                     </span>
                 </span>
-
             </li>
         </ul>
     </form>
@@ -286,31 +269,36 @@ title: Card
 
 <h4>Listpane/cards-static</h4>
 ```html @preview
-
 <div class="dp-MainWrapper demo-cog demo-menu">
     <form>
         <ul class="dp-CardList">
-            <li class="dp-Card dp-Level">
+            <li class="dp-Card Card--nocheck">
 
-                <span class="dp-LevelCol">
-                    <span class="dp-Card-title">Card title here</span>
-                    <span class="dp-UserInfo">
-                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                        <span class="dp-UserName">Single-line item</span>
+                <span class="dp-LevelItem Level-justify-between">
+                    <span class="dp-CustomCheckbox dp-LevelLeft dp-LevelTop">
+                        <span class="dp-Card-title">Card title here</span>
                     </span>
-                </span>
-
-                <span class="dp-LevelCol dp-LevelRight">
-                    <span class="dp-IconGroup">
+                    <span class="dp-IconGroup dp-LevelRight">
                         <span class="Icon--circle dp-iconBug"></span>
                         <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
                         <span class="dp-Icon Icon--clock Icon--primary"></span>
                     </span>
-                    <span class="dp-TimeStatus">
-                        <span class="dp-Tag Tag--small Tag--danger">Failed</span>
-                    </span>
                 </span>
 
+                <span class="dp-LevelItem Level-justify-between">
+                    <span class="dp-LevelLeft">
+                        <span class="dp-UserInfo">
+                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                            <span class="dp-UserName">Single-line item</span>
+                        </span>
+                    </span>
+                    <span class="dp-LevelRight">
+                        <span class="dp-TimeStatus">
+                            <span class="dp-Tag Tag--small Tag--danger">Failed</span>
+                        </span>
+                    </span>
+                </span>
+                
             </li>
         </ul>
     </form>
@@ -322,27 +310,33 @@ title: Card
 <div class="dp-MainWrapper demo-cog demo-menu">
     <form>
         <ul class="dp-CardList">
-            <li class="dp-Card dp-Level is-hover">
+            <li class="dp-Card Card--nocheck is-hover">
 
-                <span class="dp-LevelCol">
-                    <span class="dp-Card-title">Card title here</span>
-                    <span class="dp-UserInfo">
-                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                        <span class="dp-UserName">Single-line item</span>
+                <span class="dp-LevelItem Level-justify-between">
+                    <span class="dp-CustomCheckbox dp-LevelLeft dp-LevelTop">
+                        <span class="dp-Card-title">Card title here</span>
                     </span>
-                </span>
-
-                <span class="dp-LevelCol dp-LevelRight">
-                    <span class="dp-IconGroup">
+                    <span class="dp-IconGroup dp-LevelRight">
                         <span class="Icon--circle dp-iconBug"></span>
                         <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
                         <span class="dp-Icon Icon--clock Icon--primary"></span>
                     </span>
-                    <span class="dp-TimeStatus">
-                        <span class="dp-Tag Tag--small Tag--danger">Failed</span>
-                    </span>
                 </span>
 
+                <span class="dp-LevelItem Level-justify-between">
+                    <span class="dp-LevelLeft">
+                        <span class="dp-UserInfo">
+                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                            <span class="dp-UserName">Single-line item</span>
+                        </span>
+                    </span>
+                    <span class="dp-LevelRight">
+                        <span class="dp-TimeStatus">
+                            <span class="dp-Tag Tag--small Tag--danger">Failed</span>
+                        </span>
+                    </span>
+                </span>
+                
             </li>
         </ul>
     </form>
@@ -351,31 +345,36 @@ title: Card
 
 <h4>Listpane/cards-selected</h4>
 ```html @preview
-
 <div class="dp-MainWrapper demo-cog demo-menu">
     <form>
         <ul class="dp-CardList">
-            <li class="dp-Card is-selected is-active dp-Level">
+            <li class="dp-Card Card--nocheck is-selected is-active">
 
-                <span class="dp-LevelCol">
-                    <span class="dp-Card-title">Card title here</span>
-                    <span class="dp-UserInfo">
-                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                        <span class="dp-UserName">Single-line item</span>
+                <span class="dp-LevelItem Level-justify-between">
+                    <span class="dp-CustomCheckbox dp-LevelLeft dp-LevelTop">
+                        <span class="dp-Card-title">Card title here</span>
                     </span>
-                </span>
-
-                <span class="dp-LevelCol dp-LevelRight">
-                    <span class="dp-IconGroup">
+                    <span class="dp-IconGroup dp-LevelRight">
                         <span class="Icon--circle dp-iconBug"></span>
                         <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
                         <span class="dp-Icon Icon--clock Icon--primary"></span>
                     </span>
-                    <span class="dp-TimeStatus">
-                        <span class="dp-Tag Tag--small Tag--danger">Failed</span>
-                    </span>
                 </span>
 
+                <span class="dp-LevelItem Level-justify-between">
+                    <span class="dp-LevelLeft">
+                        <span class="dp-UserInfo">
+                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                            <span class="dp-UserName">Single-line item</span>
+                        </span>
+                    </span>
+                    <span class="dp-LevelRight">
+                        <span class="dp-TimeStatus">
+                            <span class="dp-Tag Tag--small Tag--danger">Failed</span>
+                        </span>
+                    </span>
+                </span>
+                
             </li>
         </ul>
     </form>
@@ -387,27 +386,33 @@ title: Card
 <div class="dp-MainWrapper demo-cog demo-menu">
     <form>
         <ul class="dp-CardList">
-            <li class="dp-Card is-selected dp-Level">
+            <li class="dp-Card Card--nocheck is-selected">
 
-                <span class="dp-LevelCol">
-                    <span class="dp-Card-title">Card title here</span>
-                    <span class="dp-UserInfo">
-                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                        <span class="dp-UserName">Single-line item</span>
+                <span class="dp-LevelItem Level-justify-between">
+                    <span class="dp-CustomCheckbox dp-LevelLeft dp-LevelTop">
+                        <span class="dp-Card-title">Card title here</span>
                     </span>
-                </span>
-
-                <span class="dp-LevelCol dp-LevelRight">
-                    <span class="dp-IconGroup">
+                    <span class="dp-IconGroup dp-LevelRight">
                         <span class="Icon--circle dp-iconBug"></span>
                         <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
                         <span class="dp-Icon Icon--clock Icon--primary"></span>
                     </span>
-                    <span class="dp-TimeStatus">
-                        <span class="dp-Tag Tag--small Tag--danger">Failed</span>
-                    </span>
                 </span>
 
+                <span class="dp-LevelItem Level-justify-between">
+                    <span class="dp-LevelLeft">
+                        <span class="dp-UserInfo">
+                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                            <span class="dp-UserName">Single-line item</span>
+                        </span>
+                    </span>
+                    <span class="dp-LevelRight">
+                        <span class="dp-TimeStatus">
+                            <span class="dp-Tag Tag--small Tag--danger">Failed</span>
+                        </span>
+                    </span>
+                </span>
+                
             </li>
         </ul>
     </form>
@@ -416,32 +421,36 @@ title: Card
 
 <h4>Listpane/cards-keyboard-select</h4>
 ```html @preview
-
 <div class="dp-MainWrapper demo-cog demo-menu">
     <form>
         <ul class="dp-CardList">
-            <li class="dp-Card is-keyboard dp-Level">
+            <li class="dp-Card Card--nocheck is-keyboard">
 
-                <span class="dp-LevelCol">
-                    <span class="dp-Card-title">Card title here</span>
-
-                    <span class="dp-UserInfo">
-                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                        <span class="dp-UserName">Single-line item</span>
+                <span class="dp-LevelItem Level-justify-between">
+                    <span class="dp-CustomCheckbox dp-LevelLeft dp-LevelTop">
+                        <span class="dp-Card-title">Card title here</span>
                     </span>
-                </span>
-
-                <span class="dp-LevelCol dp-LevelRight">
-                    <span class="dp-IconGroup">
+                    <span class="dp-IconGroup dp-LevelRight">
                         <span class="Icon--circle dp-iconBug"></span>
                         <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
                         <span class="dp-Icon Icon--clock Icon--primary"></span>
                     </span>
-                    <span class="dp-TimeStatus">
-                        <span class="dp-Tag Tag--small Tag--danger">Failed</span>
-                    </span>
                 </span>
 
+                <span class="dp-LevelItem Level-justify-between">
+                    <span class="dp-LevelLeft">
+                        <span class="dp-UserInfo">
+                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                            <span class="dp-UserName">Single-line item</span>
+                        </span>
+                    </span>
+                    <span class="dp-LevelRight">
+                        <span class="dp-TimeStatus">
+                            <span class="dp-Tag Tag--small Tag--danger">Failed</span>
+                        </span>
+                    </span>
+                </span>
+                
             </li>
         </ul>
     </form>
@@ -450,39 +459,41 @@ title: Card
 
 <h4>Listpane/cards-link-hover</h4>
 ```html @preview
-
 <div class="dp-MainWrapper demo-cog demo-menu">
     <form>
         <ul class="dp-CardList">
-            <li class="dp-Card is-hover-link dp-Level">
+            <li class="dp-Card Card--nocheck is-hover-link">
 
-                <span class="dp-LevelCol">
-                    <span class="dp-Card-title">Card title here</span>
-
-                    <span class="dp-UserInfo">
-                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                        <span class="dp-UserName">Single-line item</span>
+                <span class="dp-LevelItem Level-justify-between">
+                    <span class="dp-CustomCheckbox dp-LevelLeft dp-LevelTop">
+                        <span class="dp-Card-title">Card title here</span>
                     </span>
-                </span>
-
-                <span class="dp-LevelCol dp-LevelRight">
-                    <span class="dp-IconGroup">
+                    <span class="dp-IconGroup dp-LevelRight">
                         <span class="Icon--circle dp-iconBug"></span>
                         <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
                         <span class="dp-Icon Icon--clock Icon--primary"></span>
                     </span>
-                    <span class="dp-TimeStatus">
-                        <span class="dp-Tag Tag--small Tag--danger">Failed</span>
-                    </span>
                 </span>
 
+                <span class="dp-LevelItem Level-justify-between">
+                    <span class="dp-LevelLeft">
+                        <span class="dp-UserInfo">
+                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                            <span class="dp-UserName">Single-line item</span>
+                        </span>
+                    </span>
+                    <span class="dp-LevelRight">
+                        <span class="dp-TimeStatus">
+                            <span class="dp-Tag Tag--small Tag--danger">Failed</span>
+                        </span>
+                    </span>
+                </span>
+                
             </li>
         </ul>
     </form>
 </div>
 ```
-
-<!-- Agent viewing - writing -->
 
 ## Agent-viewing/writing
 
@@ -491,27 +502,16 @@ title: Card
 <div class="dp-MainWrapper demo-cog demo-menu">
     <form>
         <ul class="dp-CardList">
-            <li class="dp-Card dp-Level">
+            <li class="dp-Card">
 
-                <span class="dp-LevelCol">
-                    <span class="dp-CustomCheckbox">
+                <span class="dp-LevelItem Level-justify-between">
+                    <span class="dp-CustomCheckbox dp-LevelLeft dp-LevelTop">
                         <input type="checkbox" class="dp-ControlInput" id="checkbox-viewing-1"></input>
-                        <label for="checkbox-viewing-1" class="dp-Card-title"></label>
+                        <label for="checkbox-viewing-1"></label>
+                        <span class="dp-Card-title">Card title here</span>
                     </span>
-                </span>
 
-                <span class="dp-LevelCol">
-                    <span class="dp-Card-title">Card title here</span>
-
-                    <span class="dp-UserInfo">
-                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                        <span class="dp-UserName">Single-line item</span>
-                    </span>
-                </span>
-
-                <span class="dp-LevelCol dp-LevelRight">
-                    <span class="dp-IconGroup">
-
+                    <span class="dp-IconGroup dp-LevelRight">
                         <span class="dp-ActivityStatus ActivityStatus--viewing">
                             <span class="dp-Icon Icon--view"></span>
                             <span class="dp-Badge Badge--round Badge--grey"></span>
@@ -521,8 +521,19 @@ title: Card
                         <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
                         <span class="dp-Icon Icon--clock Icon--primary"></span>
                     </span>
-                    <span class="dp-TimeStatus">
-                        <span class="dp-Tag Tag--small Tag--danger">Failed</span>
+                </span>
+
+                <span class="dp-LevelItem Level-justify-between">
+                    <span class="dp-LevelLeft">
+                        <span class="dp-UserInfo">
+                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                            <span class="dp-UserName">Single-line item</span>
+                        </span>
+                    </span>
+                    <span class="dp-LevelRight">
+                        <span class="dp-TimeStatus">
+                            <span class="dp-Tag Tag--small Tag--danger">Failed</span>
+                        </span>
                     </span>
                 </span>
 
@@ -537,26 +548,15 @@ title: Card
 <div class="dp-MainWrapper demo-cog demo-menu">
     <form>
         <ul class="dp-CardList">
-            <li class="dp-Card dp-Level">
+            <li class="dp-Card">
 
-                <span class="dp-LevelCol">
-                    <span class="dp-CustomCheckbox">
+                <span class="dp-LevelItem Level-justify-between">
+                    <span class="dp-CustomCheckbox dp-LevelLeft dp-LevelTop">
                         <input type="checkbox" class="dp-ControlInput" id="checkbox-viewing-2"></input>
-                        <label for="checkbox-viewing-2" class="dp-Card-title"></label>
+                        <label for="checkbox-viewing-2"></label>
+                        <span class="dp-Card-title">Card title here</span>
                     </span>
-                </span>
-
-                <span class="dp-LevelCol">
-                    <span class="dp-Card-title">Card title here</span>
-
-                    <span class="dp-UserInfo">
-                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                        <span class="dp-UserName">Single-line item</span>
-                    </span>
-                </span>
-
-                <span class="dp-LevelCol dp-LevelRight">
-                    <span class="dp-IconGroup">
+                    <span class="dp-IconGroup dp-LevelRight">
                         <span class="dp-ActivityStatus ActivityStatus--viewing">
                             <span class="dp-Icon Icon--view"></span>
                             <span class="dp-Badge Badge--round Badge--grey"></span>
@@ -566,8 +566,19 @@ title: Card
                         <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
                         <span class="dp-Icon Icon--clock Icon--primary"></span>
                     </span>
-                    <span class="dp-TimeStatus">
-                        <span class="dp-Tag Tag--small Tag--danger">Failed</span>
+                </span>
+
+                <span class="dp-LevelItem Level-justify-between">
+                    <span class="dp-LevelLeft">
+                        <span class="dp-UserInfo">
+                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                            <span class="dp-UserName">Single-line item</span>
+                        </span>
+                    </span>
+                    <span class="dp-LevelRight">
+                        <span class="dp-TimeStatus">
+                            <span class="dp-Tag Tag--small Tag--danger">Failed</span>
+                        </span>
                     </span>
                 </span>
 
@@ -579,42 +590,41 @@ title: Card
 
 <h4>list-pane/agent-writing-small</h4>
 ```html @preview
-
 <div class="dp-MainWrapper demo-cog demo-menu">
     <form>
         <ul class="dp-CardList">
-            <li class="dp-Card dp-Level">
+            <li class="dp-Card">
 
-                <span class="dp-LevelCol">
-                    <span class="dp-CustomCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="checkbox-writing-1"></input>
-                        <label for="checkbox-writing-1" class="dp-Card-title"></label>
+                <span class="dp-LevelItem Level-justify-between">
+                    <span class="dp-CustomCheckbox dp-LevelLeft dp-LevelTop">
+                        <input type="checkbox" class="dp-ControlInput" id="checkbox-viewing-3"></input>
+                        <label for="checkbox-viewing-3"></label>
+                        <span class="dp-Card-title">Card title here</span>
                     </span>
-                </span>
 
-                <span class="dp-LevelCol">
-                    <span class="dp-Card-title">Card title here</span>
-
-                    <span class="dp-UserInfo">
-                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                        <span class="dp-UserName">Single-line item</span>
-                    </span>
-                </span>
-
-                <span class="dp-LevelCol dp-LevelRight">
-                    <span class="dp-IconGroup">
-
+                    <span class="dp-IconGroup dp-LevelRight">
                         <span class="dp-ActivityStatus ActivityStatus--writing ActivityStatus--primary">
                             <span class="dp-Icon Icon--edit Icon--primary"></span>
                             <span class="dp-Badge Badge--round Badge--grey"></span>
                         </span>
-
                         <span class="Icon--circle dp-iconBug"></span>
                         <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
                         <span class="dp-Icon Icon--clock Icon--primary"></span>
                     </span>
-                    <span class="dp-TimeStatus">
-                        <span class="dp-Tag Tag--small Tag--danger">Failed</span>
+
+                </span>
+
+                <span class="dp-LevelItem Level-justify-between">
+                    <span class="dp-LevelLeft">
+                        <span class="dp-UserInfo">
+                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                            <span class="dp-UserName">Single-line item</span>
+                        </span>
+                    </span>
+                    <span class="dp-LevelRight">
+                        <span class="dp-TimeStatus">
+                            <span class="dp-Tag Tag--small Tag--danger">Failed</span>
+                        </span>
                     </span>
                 </span>
 
@@ -629,27 +639,16 @@ title: Card
 <div class="dp-MainWrapper demo-cog demo-menu">
     <form>
         <ul class="dp-CardList">
-            <li class="dp-Card dp-Level">
+            <li class="dp-Card">
 
-                <span class="dp-LevelCol">
-                    <span class="dp-CustomCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="checkbox-writing-2"></input>
-                        <label for="checkbox-writing-2" class="dp-Card-title"></label>
+                <span class="dp-LevelItem Level-justify-between">
+                    <span class="dp-CustomCheckbox dp-LevelLeft dp-LevelTop">
+                        <input type="checkbox" class="dp-ControlInput" id="checkbox-viewing-4"></input>
+                        <label for="checkbox-viewing-4"></label>
+                        <span class="dp-Card-title">Card title here</span>
                     </span>
-                </span>
 
-                <span class="dp-LevelCol">
-                    <span class="dp-Card-title">Card title here</span>
-
-                    <span class="dp-UserInfo">
-                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                        <span class="dp-UserName">Single-line item</span>
-                    </span>
-                </span>
-
-                <span class="dp-LevelCol dp-LevelRight">
-                    <span class="dp-IconGroup">
-
+                    <span class="dp-IconGroup dp-LevelRight">
                         <span class="dp-ActivityStatus ActivityStatus--writing ActivityStatus--primary">
                             <span class="dp-Icon Icon--edit Icon--primary"></span>
                             <span class="dp-Badge Badge--round Badge--grey"></span>
@@ -660,92 +659,22 @@ title: Card
                         <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
                         <span class="dp-Icon Icon--clock Icon--primary"></span>
                     </span>
-                    <span class="dp-TimeStatus">
-                        <span class="dp-Tag Tag--small Tag--danger">Failed</span>
-                    </span>
                 </span>
 
-            </li>
-        </ul>
-    </form>
-</div>
-```
-
-<!-- Demo Col -->
-
-## Demo cards-col/row
-
-<h4>Listpane/cards-col</h4>
-```html @preview
-<div class="dp-MainWrapper demo-cog demo-menu">
-    <form>
-        <ul class="dp-CardList">
-            <li class="dp-Card dp-Level">
-
-                <span class="dp-LevelItem dp-LevelCol dp-LevelTop">
-                    <span class="dp-CustomCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="cards-col-0"></input>
-                        <label for="cards-col-0"></label>
-                    </span>
-                </span>
-
-                <span class="dp-LevelCol">
-                    <span class="dp-Card-title">Card title here</span>
-
-                    <span class="dp-UserInfo">
-                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                        <span class="dp-UserName">Single-line item</span>
-                    </span>
-                </span>
-
-                <span class="dp-LevelCol dp-LevelRight">
-                    <span class="dp-IconGroup">
-                        <span class="Icon--circle dp-iconBug"></span>
-                        <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
-                        <span class="dp-Icon Icon--clock Icon--primary"></span>
-                    </span>
-                    <span class="dp-TimeStatus">
-                        <span class="dp-Tag Tag--small Tag--danger">Failed</span>
-                    </span>
-                </span>
-
-            </li>
-        </ul>
-    </form>
-</div>
-```
-
-<!-- Demo Row -->
-
-<h4>Listpane/cards-row</h4>
-```html @preview
-
-<div class="dp-MainWrapper demo-cog demo-menu">
-    <form>
-        <!-- <ul class="dp-CardList Card--row"> -->
-        <ul class="dp-CardList">
-            <li class="dp-Card">
                 <span class="dp-LevelItem Level-justify-between">
-                    <span class="dp-CustomCheckbox dp-LevelLeft dp-LevelTop">
-                        <input type="checkbox" class="dp-ControlInput" id="cards-row-1"></input>
-                        <label for="cards-row-1"></label>
-                        <span class="dp-Card-title">Card title here</span>
+                    <span class="dp-LevelLeft">
+                        <span class="dp-UserInfo">
+                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                            <span class="dp-UserName">Single-line item</span>
+                        </span>
                     </span>
-                    <span class="dp-IconGroup dp-LevelRight">
-                        <span class="Icon--circle dp-iconBug"></span>
-                        <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
-                        <span class="dp-Icon Icon--clock Icon--primary"></span>
-                    </span>
-                </span>
-                <span class="dp-LevelItem Level-justify-between">
-                    <span class="dp-UserInfo">
-                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                        <span class="dp-UserName">Single-line item</span>
-                    </span>
-                    <span class="dp-TimeStatus">
-                        <span class="dp-Tag Tag--small Tag--danger">Failed</span>
+                    <span class="dp-LevelRight">
+                        <span class="dp-TimeStatus">
+                            <span class="dp-Tag Tag--small Tag--danger">Failed</span>
+                        </span>
                     </span>
                 </span>
+
             </li>
         </ul>
     </form>
@@ -757,7 +686,64 @@ title: Card
 <div class="dp-MainWrapper Cardwrapper-demo demo-cog demo-menu">
     <form>
         <ul class="dp-CardList">
-            <li class="dp-Card dp-Level dp-listreveal">
+            <li class="dp-Card dp-listreveal">
+
+                <span class="dp-LevelItem Level-justify-between">
+                    <span class="dp-CustomCheckbox dp-LevelLeft dp-LevelTop">
+                        <input type="checkbox" class="dp-ControlInput" id="cards-listreveal-0"></input>
+                        <label for="cards-listreveal-0"></label>
+                        <span class="dp-Card-title">Card title here</span>
+                    </span>
+                    <span class="dp-IconGroup dp-LevelRight">
+                        <span class="Icon--circle dp-iconBug"></span>
+                        <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
+                        <span class="dp-Icon Icon--clock Icon--primary"></span>
+                    </span>
+                </span>
+
+                <span class="dp-LevelItem Level-justify-between">
+                    <span class="dp-LevelLeft">
+                        <span class="dp-UserInfo">
+                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                            <span class="dp-UserName">Single-line item</span>
+                        </span>
+                    </span>
+                </span>
+
+                <span class="dp-LevelItem dp-LevelLeft">
+                    <ul class="dp-TagWrap demo-comments">
+                        <li class="dp-Tag Tag--small Tag--info-light">a: value</li>
+                        <li class="dp-Tag Tag--small Tag--neutral-light">b: value</li>
+                        <li class="dp-Tag Tag--small Tag--info-light">c: value</li>
+                        <li>
+                            <button class="dp-Arrow dp-Comments-title is-active"></button>
+                            <ul class="dp-Comments">
+                                <li>
+                                    <span class="dp-Tag Tag--small Tag--info-light">a: value</span>
+                                    <span class="dp-description">Description text</span>
+                                </li>
+                                <li>
+                                    <span class="dp-Tag Tag--small Tag--neutral-light">b: value</span>
+                                    <span class="dp-description">Description text</span>
+                                </li>
+                                <li>
+                                    <span class="dp-Tag Tag--small Tag--info-light">c: value</span>
+                                    <span class="dp-description">Description text</span>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </span>
+
+            </li>
+        </ul>
+    </form>
+</div>
+
+<!-- <div class="dp-MainWrapper Cardwrapper-demo demo-cog demo-menu">
+    <form>
+        <ul class="dp-CardList">
+            <li class="dp-Card dp-listreveal">
 
                 <span class="dp-LevelItem dp-LevelCol dp-LevelTop">
                     <span class="dp-CustomCheckbox">
@@ -800,7 +786,7 @@ title: Card
             </li>
         </ul>
     </form>
-</div>
+</div> -->
 ```
 
 <h2>Card/misc<h2>
@@ -939,16 +925,16 @@ title: Card
 ```html @preview
 <form class="demo-cog demo-menu">
     <ul class="dp-CardList">
-        <li class="dp-Card dp-Level">
-            <span class="dp-LevelCol">
-                <span class="dp-CustomCheckbox">
+
+        <li class="dp-Card">
+            <span class="dp-LevelItem dp-LevelLeft">
+                <span class="dp-CustomCheckbox dp-LevelTop">
                     <input type="checkbox" class="dp-ControlInput" id="glossary-1"></input>
                     <label for="glossary-1"></label>
+                    <span class="dp-Card-title">@mention</span>
                 </span>
             </span>
-
-            <span class="dp-LevelCol">
-                <span class="dp-Card-title">@mention</span>
+            <span class="dp-LevelItem dp-LevelLeft">
                 <span class="dp-Card-description">
                     Android infographic innovator infrastructure termsheet disruptive stealth responsive web design ramen gamification metrics.
                 </span>
@@ -956,7 +942,7 @@ title: Card
 
             <!-- Icon hover -->
             <span class="dp-Cog">
-                <span class="dp-Icon dp-settings is-active"></span>
+                <span class="dp-Icon dp-settings"></span>
                 <ul class="dp-Menu">
                     <li class="dp-Menu-linkItem">
                         <span class="dp-Icon dp-Bin"></span>
@@ -973,6 +959,10 @@ title: Card
                 </ul>
             </span>
         </li>
+
+
+
+
     </ul>
 </form>
 ```

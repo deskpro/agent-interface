@@ -6,7 +6,6 @@
 .dp-Title.Title-Icon {
   align-items: center;
   display: flex;
-  margin-bottom: 10px;
 }
 
 /* Listpane/guides */
@@ -323,7 +322,8 @@
   flex: 0 1 auto;
 }
 
-.dp-CommentWrap.is-active .dp-Comments {
+.dp-CommentWrap.is-active .dp-Comments,
+.dp-Comments-title.is-active + .dp-Comments {
   display: block;
 }
 
@@ -721,7 +721,6 @@ input:disabled + label {
   align-items: center;
   display: flex;
   list-style: none;
-  margin: 10px 0 0;
   padding: 0;
 }
 

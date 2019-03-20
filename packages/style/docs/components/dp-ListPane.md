@@ -45,16 +45,20 @@ title: List View
             </span>
             <span class="dp-LevelItem Level-justify-between">
 
-                <span class="dp-UserInfo">
-                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-UserName">Kenneth James</span>
-                    <a href="mailto:kenneth@windfarms.com" class="dp-UserEmail">
-                        &lt;kenneth@windfarms.com&gt;
-                    </a>
+                <span class="dp-LevelLeft">
+                    <span class="dp-UserInfo">
+                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                        <span class="dp-UserName">Kenneth James</span>
+                        <a href="mailto:kenneth@windfarms.com" class="dp-UserEmail">
+                            &lt;kenneth@windfarms.com&gt;
+                        </a>
+                    </span>
                 </span>
-
-                <span class="dp-TimeStatus">
-                    <span class="dp-Tag Tag--small Tag--danger">Failed</span>
+                
+                <span class="dp-LevelRight">
+                    <span class="dp-TimeStatus">
+                        <span class="dp-Tag Tag--small Tag--danger">Failed</span>
+                    </span>
                 </span>
             </span>
         </li>
@@ -74,18 +78,22 @@ title: List View
                 </span>
             </span>
             <span class="dp-LevelItem Level-justify-between">
-
-                <span class="dp-UserInfo">
-                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-UserName">Mark Jarvis</span>
-                    <a href="mailto:mjarvis@econorob.nl" class="dp-UserEmail">
-                        &lt;mjarvis@econorob.nl&gt;
-                    </a>
+                    
+                <span class="dp-LevelLeft">
+                    <span class="dp-UserInfo">
+                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                        <span class="dp-UserName">Mark Jarvis</span>
+                        <a href="mailto:mjarvis@econorob.nl" class="dp-UserEmail">
+                            &lt;mjarvis@econorob.nl&gt;
+                        </a>
+                    </span>
+                </span>
+                <span class="dp-LevelRight">
+                    <span class="dp-TimeStatus">
+                        <span class="dp-Tag Tag--small Tag--pink">3 hours</span>
+                    </span>
                 </span>
 
-                <span class="dp-TimeStatus">
-                    <span class="dp-Tag Tag--small Tag--pink">3 hours</span>
-                </span>
             </span>
         </li>
 
@@ -104,18 +112,22 @@ title: List View
             </span>
             <span class="dp-LevelItem Level-justify-between">
 
-                <span class="dp-UserInfo">
-                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-UserName">Toby Falkirk
+                <span class="dp-LevelLeft">
+                    <span class="dp-UserInfo">
+                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                        <span class="dp-UserName">Toby Falkirk
+                        </span>
+                        <a href="mailto:t.falkirk@rambling.com" class="dp-UserEmail">
+                            &lt;t.falkirk@rambling.com&gt;
+                        </a>
                     </span>
-                    <a href="mailto:t.falkirk@rambling.com" class="dp-UserEmail">
-                        &lt;t.falkirk@rambling.com&gt;
-                    </a>
+                </span>
+                <span class="dp-LevelRight">
+                    <span class="dp-TimeStatus">
+                        <span>2 hr 16 min</span>
+                    </span>
                 </span>
 
-                <span class="dp-TimeStatus">
-                    <span>2 hr 16 min</span>
-                </span>
             </span>
         </li>
 
@@ -135,18 +147,20 @@ title: List View
                 </span>
             </span>
             <span class="dp-LevelItem Level-justify-between">
-
-                <span class="dp-UserInfo">
-                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-UserName">Kenneth James
+                <span class="dp-LevelLeft">
+                    <span class="dp-UserInfo">
+                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                        <span class="dp-UserName">Kenneth James
+                        </span>
+                        <a href="mailto:kenneth@windfarms.com" class="dp-UserEmail">
+                            &lt;kenneth@windfarms.com&gt;
+                        </a>
                     </span>
-                    <a href="mailto:kenneth@windfarms.com" class="dp-UserEmail">
-                        &lt;kenneth@windfarms.com&gt;
-                    </a>
                 </span>
-
-                <span class="dp-TimeStatus">
-                    <span>57 mins</span>
+                <span class="dp-LevelRight">
+                    <span class="dp-TimeStatus">
+                        <span>57 mins</span>
+                    </span>
                 </span>
             </span>
         </li>
@@ -166,18 +180,20 @@ title: List View
                 </span>
             </span>
             <span class="dp-LevelItem Level-justify-between">
-
-                <span class="dp-UserInfo">
-                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-UserName">Kenneth James
+                <span class="dp-LevelLeft">
+                    <span class="dp-UserInfo">
+                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                        <span class="dp-UserName">Kenneth James
+                        </span>
+                        <a href="mailto:kenneth@windfarms.com" class="dp-UserEmail">
+                            &lt;kenneth@windfarms.com&gt;
+                        </a>
                     </span>
-                    <a href="mailto:kenneth@windfarms.com" class="dp-UserEmail">
-                        &lt;kenneth@windfarms.com&gt;
-                    </a>
                 </span>
-
-                <span class="dp-TimeStatus">
-                    <span class="dp-Tag Tag--small Tag--danger">2 hours</span>
+                <span class="dp-LevelRight">
+                    <span class="dp-TimeStatus">
+                        <span class="dp-Tag Tag--small Tag--danger">2 hours</span>
+                    </span>
                 </span>
             </span>
         </li>
@@ -198,18 +214,20 @@ title: List View
                 </span>
             </span>
             <span class="dp-LevelItem Level-justify-between">
-
-                <span class="dp-UserInfo">
-                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-UserName">Toby Falkirk
+                <span class="dp-LevelLeft">
+                    <span class="dp-UserInfo">
+                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                        <span class="dp-UserName">Toby Falkirk
+                        </span>
+                        <a href="mailto:t.falkirk@rambling.com" class="dp-UserEmail">
+                            &lt;t.falkirk@rambling.com&gt;
+                        </a>
                     </span>
-                    <a href="mailto:t.falkirk@rambling.com" class="dp-UserEmail">
-                        &lt;t.falkirk@rambling.com&gt;
-                    </a>
                 </span>
-
-                <span class="dp-TimeStatus">
-                    <span>43 mins</span>
+                <span class="dp-LevelRight">
+                    <span class="dp-TimeStatus">
+                        <span>43 mins</span>
+                    </span>
                 </span>
             </span>
         </li>
@@ -229,18 +247,20 @@ title: List View
                 </span>
             </span>
             <span class="dp-LevelItem Level-justify-between">
-
-                <span class="dp-UserInfo">
-                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-UserName">Kenneth James
+                <span class="dp-LevelLeft">
+                    <span class="dp-UserInfo">
+                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                        <span class="dp-UserName">Kenneth James
+                        </span>
+                        <a href="mailto:kenneth@windfarms.com" class="dp-UserEmail">
+                            &lt;kenneth@windfarms.com&gt;
+                        </a>
                     </span>
-                    <a href="mailto:kenneth@windfarms.com" class="dp-UserEmail">
-                        &lt;kenneth@windfarms.com&gt;
-                    </a>
                 </span>
-
-                <span class="dp-TimeStatus">
-                    <span class="dp-Tag Tag--small Tag--danger">Failed</span>
+                <span class="dp-LevelRight">
+                    <span class="dp-TimeStatus">
+                        <span class="dp-Tag Tag--small Tag--danger">Failed</span>
+                    </span>
                 </span>
             </span>
         </li>
@@ -260,18 +280,20 @@ title: List View
                 </span>
             </span>
             <span class="dp-LevelItem Level-justify-between">
-
-                <span class="dp-UserInfo">
-                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-UserName">Mark Jarvis
+                <span class="dp-LevelLeft">
+                    <span class="dp-UserInfo">
+                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                        <span class="dp-UserName">Mark Jarvis
+                        </span>
+                        <a href="mailto:mjarvis@econorob.nl" class="dp-UserEmail">
+                            &lt;mjarvis@econorob.nl&gt;
+                        </a>
                     </span>
-                    <a href="mailto:mjarvis@econorob.nl" class="dp-UserEmail">
-                        &lt;mjarvis@econorob.nl&gt;
-                    </a>
                 </span>
-
-                <span class="dp-TimeStatus">
-                    <span>43 mins</span>
+                <span class="dp-LevelRight">
+                    <span class="dp-TimeStatus">
+                        <span>43 mins</span>
+                    </span>
                 </span>
             </span>
         </li>
@@ -299,18 +321,20 @@ title: List View
                 </span>
             </span>
             <span class="dp-LevelItem Level-justify-between">
-
-                <span class="dp-UserInfo">
-                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-UserName">Toby Falkirk
+                <span class="dp-LevelLeft">
+                    <span class="dp-UserInfo">
+                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                        <span class="dp-UserName">Toby Falkirk
+                        </span>
+                        <a href="mailto:t.falkirk@rambling.com" class="dp-UserEmail">
+                            &lt;t.falkirk@rambling.com&gt;
+                        </a>
                     </span>
-                    <a href="mailto:t.falkirk@rambling.com" class="dp-UserEmail">
-                        &lt;t.falkirk@rambling.com&gt;
-                    </a>
                 </span>
-
-                <span class="dp-TimeStatus">
-                    <span>12 hr 43 min</span>
+                <span class="dp-LevelRight">
+                    <span class="dp-TimeStatus">
+                        <span>12 hr 43 min</span>
+                    </span>
                 </span>
             </span>
         </li>
@@ -330,17 +354,20 @@ title: List View
                 </span>
             </span>
             <span class="dp-LevelItem Level-justify-between">
-                <span class="dp-UserInfo">
-                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-UserName">Kenneth James
+                <span class="dp-LevelLeft">
+                    <span class="dp-UserInfo">
+                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                        <span class="dp-UserName">Kenneth James
+                        </span>
+                        <a href="mailto:kenneth@windfarms.com" class="dp-UserEmail">
+                            &lt;kenneth@windfarms.com&gt;
+                        </a>
                     </span>
-                    <a href="mailto:kenneth@windfarms.com" class="dp-UserEmail">
-                        &lt;kenneth@windfarms.com&gt;
-                    </a>
                 </span>
-
-                <span class="dp-TimeStatus">
-                    <span>4 weeks</span>
+                <span class="dp-LevelRight">
+                    <span class="dp-TimeStatus">
+                        <span>4 weeks</span>
+                    </span>
                 </span>
             </span>
             <span class="dp-LevelItem dp-LevelLeft">
@@ -365,16 +392,19 @@ title: List View
                 </span>
             </span>
             <span class="dp-LevelItem Level-justify-between">
-                <span class="dp-UserInfo">
-                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-UserName">Mark Jarvis</span>
-                    <a href="mailto:mjarvis@econorob.nl" class="dp-UserEmail">
-                        &lt;mjarvis@econorob.nl&gt;
-                    </a>
+                <span class="dp-LevelLeft">
+                    <span class="dp-UserInfo">
+                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                        <span class="dp-UserName">Mark Jarvis</span>
+                        <a href="mailto:mjarvis@econorob.nl" class="dp-UserEmail">
+                            &lt;mjarvis@econorob.nl&gt;
+                        </a>
+                    </span>
                 </span>
-
-                <span class="dp-TimeStatus">
-                    <span>12 hr 43 min</span>
+                <span class="dp-LevelRight">
+                    <span class="dp-TimeStatus">
+                        <span>12 hr 43 min</span>
+                    </span>
                 </span>
             </span>
 
@@ -2408,17 +2438,19 @@ title: List View
                         </span>
                     </span>
                     <span class="dp-LevelItem Level-justify-between">
-
-                        <span class="dp-UserInfo">
-                            <span class="dp-Icon dp-iconUserAvatar"></span>
-                            <span class="dp-UserName">Kenneth James</span>
-                            <a href="mailto:kenneth@windfarms.com" class="dp-UserEmail">
-                                &lt;kenneth@windfarms.com&gt;
-                            </a>
+                        <span class="dp-LevelLeft">
+                            <span class="dp-UserInfo">
+                                <span class="dp-Icon dp-iconUserAvatar"></span>
+                                <span class="dp-UserName">Kenneth James</span>
+                                <a href="mailto:kenneth@windfarms.com" class="dp-UserEmail">
+                                    &lt;kenneth@windfarms.com&gt;
+                                </a>
+                            </span>
                         </span>
-
-                        <span class="dp-TimeStatus">
-                            <span class="dp-Tag Tag--small Tag--danger">Failed</span>
+                        <span class="dp-LevelRight">
+                            <span class="dp-TimeStatus">
+                                <span class="dp-Tag Tag--small Tag--danger">Failed</span>
+                            </span>
                         </span>
                     </span>
                 </li>
@@ -2438,17 +2470,19 @@ title: List View
                         </span>
                     </span>
                     <span class="dp-LevelItem Level-justify-between">
-
-                        <span class="dp-UserInfo">
-                            <span class="dp-Icon dp-iconUserAvatar"></span>
-                            <span class="dp-UserName">Mark Jarvis</span>
-                            <a href="mailto:mjarvis@econorob.nl" class="dp-UserEmail">
-                                &lt;mjarvis@econorob.nl&gt;
-                            </a>
+                        <span class="dp-LevelLeft">
+                            <span class="dp-UserInfo">
+                                <span class="dp-Icon dp-iconUserAvatar"></span>
+                                <span class="dp-UserName">Mark Jarvis</span>
+                                <a href="mailto:mjarvis@econorob.nl" class="dp-UserEmail">
+                                    &lt;mjarvis@econorob.nl&gt;
+                                </a>
+                            </span>
                         </span>
-
-                        <span class="dp-TimeStatus">
-                            <span class="dp-Tag Tag--small Tag--pink">3 hours</span>
+                        <span class="dp-LevelRight">
+                            <span class="dp-TimeStatus">
+                                <span class="dp-Tag Tag--small Tag--pink">3 hours</span>
+                            </span>
                         </span>
                     </span>
                 </li>
@@ -2467,18 +2501,20 @@ title: List View
                         </span>
                     </span>
                     <span class="dp-LevelItem Level-justify-between">
-
-                        <span class="dp-UserInfo">
-                            <span class="dp-Icon dp-iconUserAvatar"></span>
-                            <span class="dp-UserName">Toby Falkirk
+                        <span class="dp-LevelLeft">
+                            <span class="dp-UserInfo">
+                                <span class="dp-Icon dp-iconUserAvatar"></span>
+                                <span class="dp-UserName">Toby Falkirk
+                                </span>
+                                <a href="mailto:t.falkirk@rambling.com" class="dp-UserEmail">
+                                    &lt;t.falkirk@rambling.com&gt;
+                                </a>
                             </span>
-                            <a href="mailto:t.falkirk@rambling.com" class="dp-UserEmail">
-                                &lt;t.falkirk@rambling.com&gt;
-                            </a>
                         </span>
-
-                        <span class="dp-TimeStatus">
-                            <span>2 hr 16 min</span>
+                        <span class="dp-LevelRight">
+                            <span class="dp-TimeStatus">
+                                <span>2 hr 16 min</span>
+                            </span>
                         </span>
                     </span>
                 </li>
@@ -2499,18 +2535,20 @@ title: List View
                         </span>
                     </span>
                     <span class="dp-LevelItem Level-justify-between">
-
-                        <span class="dp-UserInfo">
-                            <span class="dp-Icon dp-iconUserAvatar"></span>
-                            <span class="dp-UserName">Kenneth James
+                        <span class="dp-LevelLeft">
+                            <span class="dp-UserInfo">
+                                <span class="dp-Icon dp-iconUserAvatar"></span>
+                                <span class="dp-UserName">Kenneth James
+                                </span>
+                                <a href="mailto:kenneth@windfarms.com" class="dp-UserEmail">
+                                    &lt;kenneth@windfarms.com&gt;
+                                </a>
                             </span>
-                            <a href="mailto:kenneth@windfarms.com" class="dp-UserEmail">
-                                &lt;kenneth@windfarms.com&gt;
-                            </a>
                         </span>
-
-                        <span class="dp-TimeStatus">
-                            <span>57 mins</span>
+                        <span class="dp-LevelRight">
+                            <span class="dp-TimeStatus">
+                                <span>57 mins</span>
+                            </span>
                         </span>
                     </span>
                 </li>
@@ -2530,18 +2568,20 @@ title: List View
                         </span>
                     </span>
                     <span class="dp-LevelItem Level-justify-between">
-
-                        <span class="dp-UserInfo">
-                            <span class="dp-Icon dp-iconUserAvatar"></span>
-                            <span class="dp-UserName">Kenneth James
+                        <span class="dp-LevelLeft">
+                            <span class="dp-UserInfo">
+                                <span class="dp-Icon dp-iconUserAvatar"></span>
+                                <span class="dp-UserName">Kenneth James
+                                </span>
+                                <a href="mailto:kenneth@windfarms.com" class="dp-UserEmail">
+                                    &lt;kenneth@windfarms.com&gt;
+                                </a>
                             </span>
-                            <a href="mailto:kenneth@windfarms.com" class="dp-UserEmail">
-                                &lt;kenneth@windfarms.com&gt;
-                            </a>
                         </span>
-
-                        <span class="dp-TimeStatus">
-                            <span class="dp-Tag Tag--small Tag--danger">2 hours</span>
+                        <span class="dp-LevelRight">
+                            <span class="dp-TimeStatus">
+                                <span class="dp-Tag Tag--small Tag--danger">2 hours</span>
+                            </span>
                         </span>
                     </span>
                 </li>
@@ -2562,18 +2602,20 @@ title: List View
                         </span>
                     </span>
                     <span class="dp-LevelItem Level-justify-between">
-
-                        <span class="dp-UserInfo">
-                            <span class="dp-Icon dp-iconUserAvatar"></span>
-                            <span class="dp-UserName">Toby Falkirk
+                        <span class="dp-LevelLeft">
+                            <span class="dp-UserInfo">
+                                <span class="dp-Icon dp-iconUserAvatar"></span>
+                                <span class="dp-UserName">Toby Falkirk
+                                </span>
+                                <a href="mailto:t.falkirk@rambling.com" class="dp-UserEmail">
+                                    &lt;t.falkirk@rambling.com&gt;
+                                </a>
                             </span>
-                            <a href="mailto:t.falkirk@rambling.com" class="dp-UserEmail">
-                                &lt;t.falkirk@rambling.com&gt;
-                            </a>
                         </span>
-
-                        <span class="dp-TimeStatus">
-                            <span>43 mins</span>
+                        <span class="dp-LevelRight">
+                            <span class="dp-TimeStatus">
+                                <span>43 mins</span>
+                            </span>
                         </span>
                     </span>
                 </li>
@@ -2593,18 +2635,20 @@ title: List View
                         </span>
                     </span>
                     <span class="dp-LevelItem Level-justify-between">
-
-                        <span class="dp-UserInfo">
-                            <span class="dp-Icon dp-iconUserAvatar"></span>
-                            <span class="dp-UserName">Kenneth James
+                        <span class="dp-LevelLeft">
+                            <span class="dp-UserInfo">
+                                <span class="dp-Icon dp-iconUserAvatar"></span>
+                                <span class="dp-UserName">Kenneth James
+                                </span>
+                                <a href="mailto:kenneth@windfarms.com" class="dp-UserEmail">
+                                    &lt;kenneth@windfarms.com&gt;
+                                </a>
                             </span>
-                            <a href="mailto:kenneth@windfarms.com" class="dp-UserEmail">
-                                &lt;kenneth@windfarms.com&gt;
-                            </a>
                         </span>
-
-                        <span class="dp-TimeStatus">
-                            <span class="dp-Tag Tag--small Tag--danger">Failed</span>
+                        <span class="dp-LevelRight">
+                            <span class="dp-TimeStatus">
+                                <span class="dp-Tag Tag--small Tag--danger">Failed</span>
+                            </span>
                         </span>
                     </span>
                 </li>
@@ -2624,18 +2668,20 @@ title: List View
                         </span>
                     </span>
                     <span class="dp-LevelItem Level-justify-between">
-
-                        <span class="dp-UserInfo">
-                            <span class="dp-Icon dp-iconUserAvatar"></span>
-                            <span class="dp-UserName">Mark Jarvis
+                        <span class="dp-LevelLeft">
+                            <span class="dp-UserInfo">
+                                <span class="dp-Icon dp-iconUserAvatar"></span>
+                                <span class="dp-UserName">Mark Jarvis
+                                </span>
+                                <a href="mailto:mjarvis@econorob.nl" class="dp-UserEmail">
+                                    &lt;mjarvis@econorob.nl&gt;
+                                </a>
                             </span>
-                            <a href="mailto:mjarvis@econorob.nl" class="dp-UserEmail">
-                                &lt;mjarvis@econorob.nl&gt;
-                            </a>
                         </span>
-
-                        <span class="dp-TimeStatus">
-                            <span>43 mins</span>
+                        <span class="dp-LevelRight">
+                            <span class="dp-TimeStatus">
+                                <span>43 mins</span>
+                            </span>
                         </span>
                     </span>
                 </li>
@@ -10804,143 +10850,146 @@ title: List View
     <ul class="dp-CardList">
 
         <!-- 1 -->
-        <li class="dp-Card dp-Level">
-            <span class="dp-LevelCol">
-                <span class="dp-CustomCheckbox">
+        <li class="dp-Card">
+            <span class="dp-LevelItem Level-justify-between">
+                <span class="dp-CustomCheckbox dp-LevelLeft dp-LevelTop">
                     <input type="checkbox" class="dp-ControlInput" id="organizations-1"></input>
                     <label for="organizations-1"></label>
+                    <span class="dp-Title Title-Icon">
+                        <span class="dp-Icon dp-IconPlane"></span>
+                        <span class="dp-Card-title">Warephase</span>
+                    </span>
                 </span>
-            </span>
 
-            <span class="dp-LevelCol">
-                <span class="dp-Title Title-Icon dp-LevelTop">
-                    <span class="dp-Icon dp-IconPlane"></span>
-                    <span class="dp-Card-title">Warephase</span>
-                </span>
-                <span class="dp-Card-subtitle">
-                    <span class="dp-Icon Icon--frame"></span>
-                    <span class="dp-title">Members <span class="dp-qt">(6)</span></span>
-                </span>
-            </span>
-
-            <span class="dp-LevelCol dp-LevelRight">
-                <span class="dp-IconGroup">
+                <span class="dp-IconGroup dp-LevelRight">
                     <span class="Icon--circle dp-iconBug"></span>
-                    <span class="dp-Badge Badge--round Badge--white"></span>
+                    <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
                     <span class="dp-Icon Icon--clock Icon--primary"></span>
                 </span>
-                <span class="dp-TimeStatus dp-LevelBottom">
-                    <span class="dp-Tag Tag--small Tag--danger">Failed</span>
+            </span>
+            <span class="dp-LevelItem Level-justify-between">
+
+                <span class="dp-LevelLeft">
+                    <span class="dp-Card-subtitle">
+                        <span class="dp-Icon Icon--frame"></span>
+                        <span class="dp-title">Members <span class="dp-qt">(6)</span></span>
+                    </span>
+                </span>
+                
+                <span class="dp-LevelRight">
+                    <span class="dp-TimeStatus">
+                        <span class="dp-Tag Tag--small Tag--danger">Failed</span>
+                    </span>
                 </span>
             </span>
         </li>
 
         <!-- 2 -->
-        <li class="dp-Card dp-Level">
-            <span class="dp-LevelCol">
-                <span class="dp-CustomCheckbox">
+        <li class="dp-Card">
+            <span class="dp-LevelItem Level-justify-between">
+                <span class="dp-CustomCheckbox dp-LevelLeft dp-LevelTop">
                     <input type="checkbox" class="dp-ControlInput" id="organizations-2"></input>
                     <label for="organizations-2"></label>
+                    <span class="dp-Title Title-Icon">
+                        <span class="dp-Icon dp-IconPlane"></span>
+                        <span class="dp-Card-title">Faxquote</span>
+                    </span>
                 </span>
             </span>
-
-            <span class="dp-LevelCol">
-                <span class="dp-Title Title-Icon dp-LevelTop">
-                    <span class="dp-Icon dp-IconPlane"></span>
-                    <span class="dp-Card-title">Faxquote</span>
-                </span>
-
-                <span class="dp-Card-subtitle">
-                    <span class="dp-Icon Icon--frame"></span>
-                    <span class="dp-title">Members <span class="dp-qt">(2)</span></span>
+            <span class="dp-LevelItem Level-justify-between">
+                <span class="dp-LevelLeft">
+                    <span class="dp-Card-subtitle">
+                        <span class="dp-Icon Icon--frame"></span>
+                        <span class="dp-title">Members <span class="dp-qt">(2)</span></span>
+                    </span>
                 </span>
             </span>
         </li>
 
         <!-- 3 -->
-        <li class="dp-Card dp-Level">
-            <span class="dp-LevelCol">
-                <span class="dp-CustomCheckbox">
+        <li class="dp-Card">
+            <span class="dp-LevelItem Level-justify-between">
+                <span class="dp-CustomCheckbox dp-LevelLeft dp-LevelTop">
                     <input type="checkbox" class="dp-ControlInput" id="organizations-3"></input>
                     <label for="organizations-3"></label>
+                    <span class="dp-Title Title-Icon">
+                        <span class="dp-Icon dp-IconPlane"></span>
+                        <span class="dp-Card-title">Zencorporation</span>
+                    </span>
                 </span>
             </span>
-
-            <span class="dp-LevelCol">
-                <span class="dp-Title Title-Icon dp-LevelTop">
-                    <span class="dp-Icon dp-IconPlane"></span>
-                    <span class="dp-Card-title">Zencorporation</span>
-                </span>
-
-                <span class="dp-Card-subtitle">
-                    <span class="dp-Icon Icon--frame"></span>
-                    <span class="dp-title">Members <span class="dp-qt">(1)</span></span>
+            <span class="dp-LevelItem Level-justify-between">
+                <span class="dp-LevelLeft">
+                    <span class="dp-Card-subtitle">
+                        <span class="dp-Icon Icon--frame"></span>
+                        <span class="dp-title">Members <span class="dp-qt">(1)</span></span>
+                    </span>
                 </span>
             </span>
         </li>
 
         <!-- 4 -->
-        <li class="dp-Card dp-Level">
-            <span class="dp-LevelCol">
-                <span class="dp-CustomCheckbox">
+        <li class="dp-Card">
+            <span class="dp-LevelItem Level-justify-between">
+                <span class="dp-CustomCheckbox dp-LevelLeft dp-LevelTop">
                     <input type="checkbox" class="dp-ControlInput" id="organizations-4"></input>
                     <label for="organizations-4"></label>
+                    <span class="dp-Title Title-Icon">
+                        <span class="dp-Icon dp-IconPlane"></span>
+                        <span class="dp-Card-title">Plusstrip</span>
+                    </span>
                 </span>
             </span>
-
-            <span class="dp-LevelCol">
-                <span class="dp-Title Title-Icon dp-LevelTop">
-                    <span class="dp-Icon dp-IconPlane"></span>
-                    <span class="dp-Card-title">Plusstrip</span>
-                </span>
-
-                <span class="dp-Card-subtitle">
-                    <span class="dp-Icon Icon--frame"></span>
-                    <span class="dp-title">Members <span class="dp-qt">(6)</span></span>
+            <span class="dp-LevelItem Level-justify-between">
+                <span class="dp-LevelLeft">
+                    <span class="dp-Card-subtitle">
+                        <span class="dp-Icon Icon--frame"></span>
+                        <span class="dp-title">Members <span class="dp-qt">(6)</span></span>
+                    </span>
                 </span>
             </span>
         </li>
 
         <!-- 5 -->
-        <li class="dp-Card dp-Level is-active">
-            <span class="dp-LevelCol">
-                <span class="dp-CustomCheckbox">
+        <li class="dp-Card">
+            <span class="dp-LevelItem Level-justify-between">
+                <span class="dp-CustomCheckbox dp-LevelLeft dp-LevelTop">
                     <input type="checkbox" class="dp-ControlInput" id="organizations-5"></input>
                     <label for="organizations-5"></label>
+                    <span class="dp-Title Title-Icon">
+                        <span class="dp-Icon dp-IconPlane"></span>
+                        <span class="dp-Card-title">Iselectrics</span>
+                    </span>
                 </span>
             </span>
-
-            <span class="dp-LevelCol">
-                <span class="dp-Title Title-Icon dp-LevelTop">
-                    <span class="dp-Icon dp-IconPlane"></span>
-                    <span class="dp-Card-title">Iselectrics</span>
-                </span>
-
-                <span class="dp-Card-subtitle">
-                    <span class="dp-Icon Icon--frame"></span>
-                    <span class="dp-title">Members <span class="dp-qt">(12)</span></span>
+            <span class="dp-LevelItem Level-justify-between">
+                <span class="dp-LevelLeft">
+                    <span class="dp-Card-subtitle">
+                        <span class="dp-Icon Icon--frame"></span>
+                        <span class="dp-title">Members <span class="dp-qt">(12)</span></span>
+                    </span>
                 </span>
             </span>
         </li>
 
         <!-- 6 -->
-        <li class="dp-Card dp-Level is-active">
-            <span class="dp-LevelCol">
-                <span class="dp-CustomCheckbox">
+        <li class="dp-Card">
+            <span class="dp-LevelItem Level-justify-between">
+                <span class="dp-CustomCheckbox dp-LevelLeft dp-LevelTop">
                     <input type="checkbox" class="dp-ControlInput" id="organizations-6"></input>
                     <label for="organizations-6"></label>
+                    <span class="dp-Title Title-Icon">
+                        <span class="dp-Icon dp-IconPlane"></span>
+                        <span class="dp-Card-title">Donware</span>
+                    </span>
                 </span>
             </span>
-
-            <span class="dp-LevelCol">
-                <span class="dp-Title Title-Icon dp-LevelTop">
-                    <span class="dp-Icon dp-IconPlane"></span>
-                    <span class="dp-Card-title">Donware</span>
-                </span>
-
-                <span class="dp-Card-subtitle">
-                    <span class="dp-Icon Icon--frame"></span>
-                    <span class="dp-title">Members <span class="dp-qt">(7)</span></span>
+            <span class="dp-LevelItem Level-justify-between">
+                <span class="dp-LevelLeft">
+                    <span class="dp-Card-subtitle">
+                        <span class="dp-Icon Icon--frame"></span>
+                        <span class="dp-title">Members <span class="dp-qt">(7)</span></span>
+                    </span>
                 </span>
             </span>
         </li>
@@ -10955,131 +11004,139 @@ title: List View
     <ul class="dp-CardList Card-tickets-organizations">
 
         <!-- 1 -->
-        <li class="dp-Card dp-Level">
-            <span class="dp-LevelCol">
-                <span class="dp-CustomCheckbox">
+        <li class="dp-Card">
+            <span class="dp-LevelItem Level-justify-between">
+                <span class="dp-CustomCheckbox dp-LevelLeft dp-LevelTop">
                     <input type="checkbox" class="dp-ControlInput" id="organizations-7"></input>
                     <label for="organizations-7"></label>
+                    <span class="dp-Title Title-Icon">
+                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                        <span class="dp-Card-title">Shayne Bowens</span>
+                    </span>
                 </span>
             </span>
 
-            <span class="dp-LevelCol">
-                <span class="dp-Title Title-Icon dp-LevelTop">
-                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-Card-title">Shayne Bowens</span>
-                </span>
-
-                <span class="dp-Card-subtitle">
-                    <span class="dp-Icon Icon--email"></span>
-                    <span class="dp-title">Tickets <span class="dp-qt">(2)</span></span>
+            <span class="dp-LevelItem Level-justify-between">
+                <span class="dp-LevelLeft">
+                    <span class="dp-Card-subtitle">
+                        <span class="dp-Icon Icon--email"></span>
+                        <span class="dp-title">Tickets <span class="dp-qt">(2)</span></span>
+                    </span>
                 </span>
             </span>
         </li>
 
         <!-- 2 -->
-        <li class="dp-Card dp-Level">
-            <span class="dp-LevelCol">
-                <span class="dp-CustomCheckbox">
+        <li class="dp-Card">
+            <span class="dp-LevelItem Level-justify-between">
+                <span class="dp-CustomCheckbox dp-LevelLeft dp-LevelTop">
                     <input type="checkbox" class="dp-ControlInput" id="organizations-8"></input>
                     <label for="organizations-8"></label>
+                    <span class="dp-Title Title-Icon">
+                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                        <span class="dp-Card-title">Maryrose Ferranti</span>
+                    </span>
                 </span>
             </span>
 
-            <span class="dp-LevelCol">
-                <span class="dp-Title Title-Icon dp-LevelTop">
-                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-Card-title">Maryrose Ferranti</span>
-                </span>
-
-                <span class="dp-Card-subtitle">
-                    <span class="dp-Icon Icon--email"></span>
-                    <span class="dp-title">Tickets <span class="dp-qt">(4)</span></span>
+            <span class="dp-LevelItem Level-justify-between">
+                <span class="dp-LevelLeft">
+                    <span class="dp-Card-subtitle">
+                        <span class="dp-Icon Icon--email"></span>
+                        <span class="dp-title">Tickets <span class="dp-qt">(4)</span></span>
+                    </span>
                 </span>
             </span>
         </li>
 
         <!-- 3 -->
-        <li class="dp-Card dp-Level">
-            <span class="dp-LevelCol">
-                <span class="dp-CustomCheckbox">
+        <li class="dp-Card">
+            <span class="dp-LevelItem Level-justify-between">
+                <span class="dp-CustomCheckbox dp-LevelLeft dp-LevelTop">
                     <input type="checkbox" class="dp-ControlInput" id="organizations-9"></input>
                     <label for="organizations-9"></label>
+                    <span class="dp-Title Title-Icon">
+                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                        <span class="dp-Card-title">Syble Danos</span>
+                    </span>
                 </span>
             </span>
 
-            <span class="dp-LevelCol">
-                <span class="dp-Title Title-Icon dp-LevelTop">
-                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-Card-title">Syble Danos</span>
-                </span>
-
-                <span class="dp-Card-subtitle">
-                    <span class="dp-Icon Icon--email"></span>
-                    <span class="dp-title">Tickets <span class="dp-qt">(3)</span></span>
+            <span class="dp-LevelItem Level-justify-between">
+                <span class="dp-LevelLeft">
+                    <span class="dp-Card-subtitle">
+                        <span class="dp-Icon Icon--email"></span>
+                        <span class="dp-title">Tickets <span class="dp-qt">(3)</span></span>
+                    </span>
                 </span>
             </span>
         </li>
 
         <!-- 4 -->
-        <li class="dp-Card dp-Level">
-            <span class="dp-LevelCol">
-                <span class="dp-CustomCheckbox">
+        <li class="dp-Card">
+            <span class="dp-LevelItem Level-justify-between">
+                <span class="dp-CustomCheckbox dp-LevelLeft dp-LevelTop">
                     <input type="checkbox" class="dp-ControlInput" id="organizations-10"></input>
                     <label for="organizations-10"></label>
+                    <span class="dp-Title Title-Icon">
+                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                        <span class="dp-Card-title">Donella Hendriks</span>
+                    </span>
                 </span>
             </span>
 
-            <span class="dp-LevelCol">
-                <span class="dp-Title Title-Icon dp-LevelTop">
-                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-Card-title">Donella Hendriks</span>
-                </span>
-
-                <span class="dp-Card-subtitle">
-                    <span class="dp-Icon Icon--email"></span>
-                    <span class="dp-title">Tickets <span class="dp-qt">(2)</span></span>
+            <span class="dp-LevelItem Level-justify-between">
+                <span class="dp-LevelLeft">
+                    <span class="dp-Card-subtitle">
+                        <span class="dp-Icon Icon--email"></span>
+                        <span class="dp-title">Tickets <span class="dp-qt">(2)</span></span>
+                    </span>
                 </span>
             </span>
         </li>
 
         <!-- 5 -->
-        <li class="dp-Card dp-Level is-active">
-            <span class="dp-LevelCol">
-                <span class="dp-CustomCheckbox">
+        <li class="dp-Card">
+            <span class="dp-LevelItem Level-justify-between">
+                <span class="dp-CustomCheckbox dp-LevelLeft dp-LevelTop">
                     <input type="checkbox" class="dp-ControlInput" id="organizations-11"></input>
                     <label for="organizations-11"></label>
+                    <span class="dp-Title Title-Icon">
+                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                        <span class="dp-Card-title">Leonardo Mckee</span>
+                    </span>
                 </span>
             </span>
 
-            <span class="dp-LevelCol">
-                <span class="dp-Title Title-Icon dp-LevelTop">
-                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-Card-title">Leonardo Mckee</span>
-                </span>
-                <span class="dp-Card-subtitle">
-                    <span class="dp-Icon Icon--email"></span>
-                    <span class="dp-title">Tickets <span class="dp-qt">(12)</span></span>
+            <span class="dp-LevelItem Level-justify-between">
+                <span class="dp-LevelLeft">
+                    <span class="dp-Card-subtitle">
+                        <span class="dp-Icon Icon--email"></span>
+                        <span class="dp-title">Tickets <span class="dp-qt">(12)</span></span>
+                    </span>
                 </span>
             </span>
         </li>
 
         <!-- 6 -->
-        <li class="dp-Card dp-Level is-active">
-            <span class="dp-LevelCol">
-                <span class="dp-CustomCheckbox">
+        <li class="dp-Card">
+            <span class="dp-LevelItem Level-justify-between">
+                <span class="dp-CustomCheckbox dp-LevelLeft dp-LevelTop">
                     <input type="checkbox" class="dp-ControlInput" id="organizations-12"></input>
                     <label for="organizations-12"></label>
+                    <span class="dp-Title Title-Icon">
+                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                        <span class="dp-Card-title">Glynis Marquette</span>
+                    </span>
                 </span>
             </span>
 
-            <span class="dp-LevelCol">
-                <span class="dp-Title Title-Icon dp-LevelTop">
-                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                    <span class="dp-Card-title">Glynis Marquette</span>
-                </span>
-                <span class="dp-Card-subtitle">
-                    <span class="dp-Icon Icon--email"></span>
-                    <span class="dp-title">Tickets <span class="dp-qt">(9)</span></span>
+            <span class="dp-LevelItem Level-justify-between">
+                <span class="dp-LevelLeft">
+                    <span class="dp-Card-subtitle">
+                        <span class="dp-Icon Icon--email"></span>
+                        <span class="dp-title">Tickets <span class="dp-qt">(9)</span></span>
+                    </span>
                 </span>
             </span>
         </li>
