@@ -1,13 +1,9 @@
 import * as React from "react";
 import { distanceInWordsToNow } from "date-fns";
 
-import IconGroup from "../../../elements/Icon/IconGroup";
-import Icon from "../../../elements/Icon/Icon";
 import Tag from "../../../elements/Badges/Tag";
 
 export type TicketStatusProps = {
-  isLocked?: boolean;
-  icons: React.ReactNode;
   lastUpdate?: string | Date;
   nextSlaStatus?: {
     status: "ok" | "warning" | "fail";
@@ -17,46 +13,34 @@ export type TicketStatusProps = {
 };
 
 const TicketStatus: React.FC<TicketStatusProps> = ({
-  isLocked = false,
-  icons,
   lastUpdate,
   nextSlaStatus
 }) => (
-  <>
-    {(!!icons || isLocked) && (
-      <IconGroup>
-        {!!isLocked && <Icon name="lock" size={18} color="grey-darkest" />}
-        {icons}
-      </IconGroup>
-    )}
-    {(!!lastUpdate || !!nextSlaStatus) && (
-      <span className="dp-TimeStatus">
-        {!!nextSlaStatus && !nextSlaStatus.isComplete ? (
-          <>
-            {nextSlaStatus.status === "ok" && (
-              <Tag size="small" color="grey">
-                {nextSlaStatus.nextTriggerDate &&
-                  distanceInWordsToNow(nextSlaStatus.nextTriggerDate)}
-              </Tag>
-            )}
-            {nextSlaStatus.status === "warning" && (
-              <Tag size="small" color="pink">
-                {nextSlaStatus.nextTriggerDate &&
-                  distanceInWordsToNow(nextSlaStatus.nextTriggerDate)}
-              </Tag>
-            )}
-            {nextSlaStatus.status === "fail" && (
-              <Tag size="small" color="danger">
-                Failed
-              </Tag>
-            )}
-          </>
-        ) : (
-          lastUpdate && distanceInWordsToNow(lastUpdate)
+  <span className="dp-TimeStatus">
+    {!!nextSlaStatus && !nextSlaStatus.isComplete ? (
+      <>
+        {nextSlaStatus.status === "ok" && (
+          <Tag size="small" color="grey">
+            {nextSlaStatus.nextTriggerDate &&
+              distanceInWordsToNow(nextSlaStatus.nextTriggerDate)}
+          </Tag>
         )}
-      </span>
+        {nextSlaStatus.status === "warning" && (
+          <Tag size="small" color="pink">
+            {nextSlaStatus.nextTriggerDate &&
+              distanceInWordsToNow(nextSlaStatus.nextTriggerDate)}
+          </Tag>
+        )}
+        {nextSlaStatus.status === "fail" && (
+          <Tag size="small" color="danger">
+            Failed
+          </Tag>
+        )}
+      </>
+    ) : (
+      lastUpdate && distanceInWordsToNow(lastUpdate)
     )}
-  </>
+  </span>
 );
 
 export default TicketStatus;

@@ -8,6 +8,7 @@ export type CheckboxProps = {
   id?: string;
   undef?: boolean;
   className?: string;
+  wrapperClassName?: string;
   labelClassName?: string;
   checked?: boolean | null;
 };
@@ -16,13 +17,14 @@ const Checkbox: React.FC<React.HTMLProps<HTMLInputElement> & CheckboxProps> = ({
   label = "",
   id = "checkbox",
   undef = false,
+  wrapperClassName,
   className = "",
   labelClassName = "",
   checked,
   ...props
 }) => (
   <span
-    className={classNames("dp-CustomCheckbox", {
+    className={classNames("dp-CustomCheckbox", wrapperClassName, {
       "dp-SelectedCheckbox": undef || checked === null
     })}
   >

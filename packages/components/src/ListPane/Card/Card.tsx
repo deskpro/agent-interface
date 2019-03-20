@@ -74,7 +74,7 @@ const Card: React.FC<BasicCardProps> & CardSubComponents = ({
       <Reference>
         {({ ref }) => (
           <div
-            className={classNames("dp-Card dp-Level", className, {
+            className={classNames("dp-Card", className, {
               "is-selected": isHighlighted,
               "is-active": isActive,
               "is-dragging": isDragging,

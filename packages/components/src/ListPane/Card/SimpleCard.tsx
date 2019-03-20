@@ -12,6 +12,7 @@ export type CardActionItemType = {
 
 export type SimpleCardProps = {
   status?: React.ReactNode;
+  icons?: React.ReactNode;
   actions?: CardActionItemType[];
   onActionClick?: (
     actionName: React.Key,
@@ -27,6 +28,7 @@ const SimpleCard: React.FC<SimpleCardProps> = ({
   className,
   children,
   status,
+  icons,
   checkable = false,
   checked = false,
   onCheck,
@@ -35,27 +37,27 @@ const SimpleCard: React.FC<SimpleCardProps> = ({
   ...props
 }) => (
   <Card cardId={cardId} {...props} className={className}>
-    {checkable && (
-      <span className="dp-LevelItem dp-LevelCol dp-LevelTop">
+    <div className="dp-LevelItem Level-justify-between">
+      <span className="dp-LevelLeft">
         {!!checkable && (
           <Checkbox
             cardId={cardId}
             checkable={checkable}
             checked={checked}
             onCheck={onCheck}
+            className="dp-LevelTop"
           />
         )}
+        {!!title && <Card.Title title={title} />}
       </span>
-    )}
-    <span className="dp-LevelCol">
-      {!!title && <Card.Title title={title} />}
-      {children}
-    </span>
-    {!!status && (
-      <span className="dp-LevelCol dp-LevelRight dp-LevelTop">{status}</span>
-    )}
+      {!!icons && <span className="dp-LevelRight">{icons}</span>}
+    </div>
+    <div className="dp-LevelItem Level-justify-between">
+      <span className="dp-LevelCol">{children}</span>
+      {!!status && <span className="dp-LevelRight">{status}</span>}
+    </div>
     {actions.length > 0 && (
-      <ul className="dp-LevelItem dp-Card-actionsRow">
+      <ul className="dp-Card-actionsRow">
         {actions.map(({ name, icon, title: actionTitle }) => (
           <li
             key={name}
