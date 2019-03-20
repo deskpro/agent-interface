@@ -5,9 +5,14 @@ exports[`<Input /> should match its snapshot 1`] = `
   class="dp-Form-item"
 >
   <input
-    class="dp-Input Input--text"
+    class="dp-Input test-input Input--text is-error"
     type="text"
     value="Input value"
   />
+  <span
+    class="dp-Input-error"
+  >
+    Test error
+  </span>
 </div>
 `;

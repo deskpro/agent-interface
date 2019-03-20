@@ -7,7 +7,13 @@ describe("<Input />", () => {
   it("should match its snapshot", () => {
     const handleChange = jest.fn();
     const { container } = render(
-      <Input onChange={handleChange} type="text" value="Input value" />
+      <Input
+        onChange={handleChange}
+        className="test-input"
+        icon="avatar"
+        value="Input value"
+        error="Test error"
+      />
     );
     expect(container.querySelector(".dp-Form-item")).toMatchSnapshot();
   });
