@@ -1,6 +1,20 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Button /> should match its snapshot 1`] = `
+exports[`<Button /> More variant snapshot 1`] = `
+<button
+  class="dp-Button Button--more Button--primary"
+  data-testid="more-button"
+  type="button"
+>
+  <span
+    class="dp-dots"
+  >
+    ...
+  </span>
+</button>
+`;
+
+exports[`<Button /> Simple snapshot 1`] = `
 <button
   class="dp-Button Button--primary"
   type="button"

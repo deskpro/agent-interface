@@ -9,7 +9,7 @@ export type ArrowProps = {
 };
 
 export default React.forwardRef<HTMLSpanElement, ArrowProps>(
-  ({ isActive, onClick }, ref) => (
+  ({ isActive, onClick, ...props }, ref) => (
     <span
       className={classNames("dp-Icon dp-Arrow", { "is-active": isActive })}
       ref={ref}
@@ -17,6 +17,7 @@ export default React.forwardRef<HTMLSpanElement, ArrowProps>(
       tabIndex={-1}
       onClick={onClick}
       onKeyPress={e => e.key === "Enter" && onClick && onClick(e)}
+      {...props}
     />
   )
 );
