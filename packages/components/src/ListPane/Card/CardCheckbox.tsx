@@ -4,6 +4,7 @@ import Checkbox from "../../inputs/Checkbox/Checkbox";
 
 export type CheckableCardProps = {
   cardId: React.Key;
+  className?: string;
   checkable?: boolean;
   checked?: boolean;
   onCheck: (cardId: React.Key, e: React.MouseEvent<HTMLInputElement>) => void;
@@ -11,6 +12,7 @@ export type CheckableCardProps = {
 
 const CardCheckbox: React.FC<CheckableCardProps> = ({
   cardId,
+  className,
   checkable,
   checked,
   onCheck
@@ -27,6 +29,7 @@ const CardCheckbox: React.FC<CheckableCardProps> = ({
   return (
     <Checkbox
       id={cardId.toString()}
+      wrapperClassName={className}
       value={cardId}
       checked={checked}
       onChange={handleCheck}

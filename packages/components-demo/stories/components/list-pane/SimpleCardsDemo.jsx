@@ -14,7 +14,7 @@ export default ({ onCheck }) => (
     <Card.List hoverable>
       <Card.SectionTitle>Card List Title</Card.SectionTitle>
       <Card.Simple cardId={1} title="Simple card (default, without checkbox)">
-        <p className="dp-UserName">Some details text</p>
+        Some details text
       </Card.Simple>
       <Card.Simple
         cardId={2}
@@ -22,7 +22,7 @@ export default ({ onCheck }) => (
         onCheck={onCheck}
         title="Simple card (default, with checkbox)"
       >
-        <p className="dp-UserName">Some details text</p>
+        Some details text
       </Card.Simple>
       <Card.Simple
         cardId={3}
@@ -39,7 +39,7 @@ export default ({ onCheck }) => (
         title="Simple card (focused)"
         cardId={4}
       >
-        <p className="dp-UserName">Some details text</p>
+        Some details text
       </Card.Simple>
       <Card.Simple
         checkable
@@ -48,14 +48,14 @@ export default ({ onCheck }) => (
         title="Simple card (highlighted)"
         cardId={5}
       >
-        <p className="dp-UserName">Some details text</p>
+        Some details text
       </Card.Simple>
       <Card.Simple
         checkable
         onCheck={onCheck}
         title="Simple card (with status)"
         cardId={6}
-        status={
+        icons={
           <IconGroup>
             <ActivityStatus status="viewing" color="grey">
               <Icon name="avatar" size={16} />
@@ -67,7 +67,7 @@ export default ({ onCheck }) => (
           </IconGroup>
         }
       >
-        <p className="dp-UserName">Some details text</p>
+        Some details text
       </Card.Simple>
       <Card.Simple
         checkable
@@ -80,7 +80,7 @@ export default ({ onCheck }) => (
           </Tag>
         }
       >
-        <p className="dp-UserName">Some details text</p>
+        Some details text
       </Card.Simple>
     </Card.List>
   </div>

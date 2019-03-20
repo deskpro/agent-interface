@@ -80,17 +80,15 @@ const StandardListDemo = ({ grouped = false }) => {
           <Card.Simple
             {...props}
             title={item.title}
-            status={
-              <>
-                <IconGroup>
-                  <Icon name="lock" size={18} />
-                  <Badge color="neutral" type="round">
-                    2
-                  </Badge>
-                </IconGroup>
-                <span className="dp-TimeStatus">2 mins</span>
-              </>
+            icons={
+              <IconGroup>
+                <Icon name="lock" size={18} />
+                <Badge color="neutral" type="round">
+                  2
+                </Badge>
+              </IconGroup>
             }
+            status={<span className="dp-TimeStatus">2 mins</span>}
             renderCogMenu={menuProps => (
               <Menu {...menuProps}>
                 <Menu.MenuItem
