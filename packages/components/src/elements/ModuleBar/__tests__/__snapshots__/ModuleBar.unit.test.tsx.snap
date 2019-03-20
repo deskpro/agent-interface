@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TagBar /> it should match its snapshot 1`] = `
+<div
+  class="dp-ModulebarContainer module-bar"
+>
+  <ul
+    class="dp-ModuleBar"
+  >
+    <li
+      class="dp-ModuleBarList dp-ModuleBar-item is-active"
+    >
+      <span
+        class="dp-IconTooltip"
+      >
+        Tickets
+      </span>
+    </li>
+    <li
+      class="dp-ModuleBarList dp-ModuleBar-item"
+    >
+      <span
+        class="dp-IconTooltip"
+      >
+        Billing
+      </span>
+    </li>
+    <li
+      class="dp-ModuleBar-separator"
+    />
+    <li
+      class="dp-ModuleBarList dp-ModuleBar-item"
+    >
+      <div
+        class="dp-ModuleBarMenu is-visible"
+      >
+        <span
+          class="dp-ModuleBarMenu-title"
+        >
+          Portals
+        </span>
+        <ul>
+          <li
+            class="dp-ModuleBarMenu-item"
+          >
+            <a
+              href="http://support.ravenpaper.com"
+            >
+              <span
+                class="dp-Icon Icon--plane"
+              />
+              <span>
+                <span
+                  class="dp-ModuleBarMenu-itemTitle"
+                >
+                  Raven Paper
+                </span>
+                ,
+                <span
+                  class="dp-ModuleBarMenu-itemSubtitle"
+                >
+                  support.ravenpaper.com
+                </span>
+              </span>
+            </a>
+          </li>
+          <li
+            class="dp-ModuleBarMenu-item"
+          >
+            <a
+              href="http://support.rpeurope.com"
+            >
+              <span
+                class="dp-Icon Icon--plane-violet"
+              />
+              <span>
+                <span
+                  class="dp-ModuleBarMenu-itemTitle"
+                >
+                  RP Europe
+                </span>
+                ,
+                <span
+                  class="dp-ModuleBarMenu-itemSubtitle"
+                >
+                  support.rpeurope.com
+                </span>
+              </span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </li>
+  </ul>
+</div>
+`;
