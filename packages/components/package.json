@@ -14,7 +14,7 @@
     "prebuild": "rimraf dist",
     "build": "tsc -p tsconfig.json",
     "dev": "tsc -w",
-    "test": "yarn test:unit",
+    "test": "yarn test:unit && yarn test:integration",
     "test:unit": "jest --env=jsdom -c jest.config.unit.js --coverage",
     "test:integration": "jest --env=jsdom -c jest.config.integration.js --coverage",
     "lint": "eslint ./src --ext js,jsx,ts,tsx"

@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Input /> it should match its snapshot 1`] = `
+<div
+  class="dp-Form-item"
+>
+  <input
+    class="dp-Input Input--text"
+    type="text"
+    value="Input value"
+  />
+</div>
+`;
