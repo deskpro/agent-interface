@@ -722,7 +722,8 @@ title: Card
 
 <div class="dp-MainWrapper demo-cog demo-menu">
     <form>
-        <ul class="dp-CardList Card--row">
+        <!-- <ul class="dp-CardList Card--row"> -->
+        <ul class="dp-CardList">
             <li class="dp-Card">
                 <span class="dp-LevelItem Level-justify-between">
                     <span class="dp-CustomCheckbox dp-LevelLeft dp-LevelTop">

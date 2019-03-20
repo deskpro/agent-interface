@@ -18,6 +18,10 @@
 
 }
 
+.dp-Card.dp-Card-SectionTitle {
+  flex-direction: row;
+}
+
 .dp-Card-title {
   line-height: 1.4;
 }
@@ -27,12 +31,14 @@
   color: var(--grey-darkest);
   cursor: pointer;
   font: var(--h-n-semibold);
-  margin: 0 0 10px;
   max-width: max-content;
   overflow: hidden;
   position: relative;
   text-overflow: ellipsis;
   white-space: nowrap;
+
+  /* margin: 0 0 10px; */
+
 }
 
 .dp-MassSelect .dp-MassSelect-itemsCount {
@@ -116,10 +122,10 @@
 
 }
 
-.dp-CustomCheckbox .dp-Card-title,
+/* .dp-CustomCheckbox .dp-Card-title,
 .dp-OrderingBar .dp-MassSelect-itemsCount {
   margin: 0;
-}
+} */
 
 .dp-Card-title.dp-MassSelectTitle {
   padding-bottom: 0;
@@ -211,9 +217,10 @@
   border-right: 1px solid var(--grey-light);
 }
 
-/* .dp-Card .dp-LevelItem + .dp-LevelItem {
+.dp-Card .dp-LevelItem + .dp-LevelItem {
   margin-top: 10px;
-} */
+  padding-left: 23px;
+}
 
 .CardList-comments .dp-Card .dp-LevelItem .dp-Task-title .dp-Icon,
 .CardList-comments .dp-Card .dp-LevelItem .dp-Diagnose .dp-Icon,
@@ -376,11 +383,12 @@
   display: none;
 }
 
-.dp-Card .dp-JustifyStart {
+/* .dp-Card .dp-JustifyStart {
   display: flex;
   justify-content: flex-start;
   margin-top: 10px;
-}
+  padding-left: 23px;
+} */
 
 .dp-Tag .dp-close {
   height: 12px;
@@ -445,13 +453,17 @@
 
 /* Card Row */
 
-.Card--row .dp-Card {
+/* .Card--row .dp-Card { */
+
+.dp-Card {
   flex-direction: column;
 }
 
-.dp-CardList.Card--row .dp-UserInfo {
+/* .dp-CardList.Card--row .dp-UserInfo { */
+
+/* .dp-Card .dp-UserInfo {
   padding-left: 23px;
-}
+} */
 
 /* Star */
 
@@ -486,7 +498,7 @@
 }
 
 .dp-CardList.dp-GuidesDirectory .dp-IconGroup,
-.dp-Card .dp-TitleGroupe .dp-Card-title,
+/*.dp-Card .dp-TitleGroupe .dp-Card-title,*/
 .dp-CardList.dp-GuideSections .dp-IconGroup {
   margin: 0;
 }
