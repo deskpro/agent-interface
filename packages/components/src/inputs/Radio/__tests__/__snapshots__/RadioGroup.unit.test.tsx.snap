@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Radio /> it should match its snapshot 1`] = `
+<div
+  class="dp-RadioWrapper radio-group-test"
+>
+  <div
+    class="dp-RadioItem"
+  >
+    <input
+      class="dp-Input Input--radio"
+      id="one"
+      type="radio"
+      value="one"
+    />
+    <label
+      for="one"
+    >
+      Option one
+    </label>
+  </div>
+  <div
+    class="dp-RadioItem"
+  >
+    <input
+      class="dp-Input Input--radio"
+      id="two"
+      type="radio"
+      value="two"
+    />
+    <label
+      for="two"
+    >
+      Option two
+    </label>
+  </div>
+  <div
+    class="dp-RadioItem"
+  >
+    <input
+      class="dp-Input Input--radio"
+      id="three"
+      type="radio"
+      value="three"
+    />
+    <label
+      for="three"
+    >
+      Option three
+    </label>
+  </div>
+</div>
+`;
