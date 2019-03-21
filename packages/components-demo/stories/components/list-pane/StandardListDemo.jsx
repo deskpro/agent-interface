@@ -46,7 +46,7 @@ function generateGroupedCardItems(pageNumber) {
 const StandardListDemo = ({ grouped = false }) => {
   const [loadedPage, setLoadedPage] = React.useState(1);
   const loadCallback = grouped ? generateGroupedCardItems : generateCardItems;
-  const [items, setItems] = React.useState(() => loadCallback(loadedPage));
+  const [items, setItems] = React.useState(loadCallback(loadedPage));
   const [containerHeight, setContainerHeight] = React.useState(null);
   const containerRef = React.useRef(null);
   React.useEffect(() => {
@@ -54,9 +54,6 @@ const StandardListDemo = ({ grouped = false }) => {
       setContainerHeight(containerRef.current.offsetHeight);
     }
   }, [containerRef]);
-  React.useEffect(() => {
-    setItems(loadCallback(loadedPage));
-  }, [setItems, loadCallback, loadedPage]);
 
   const handleItemDelete = React.useCallback(
     itemId => {

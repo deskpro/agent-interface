@@ -99,7 +99,6 @@
   &.ActionButton--XXlarge {
     min-width: 208px;
   }
-
 }
 
 .dp-Card .dp-UserInfo {
@@ -202,7 +201,9 @@
   cursor: pointer;
 }
 
-.dp-CardList.CardList-comments .dp-CustomCheckbox input[type="checkbox"] + label,
+.dp-CardList.CardList-comments
+.dp-CustomCheckbox
+input[type="checkbox"] + label,
 .dp-Tasks-list .dp-CustomCheckbox input[type="checkbox"] + label {
   padding-left: 20px;
 }
@@ -312,8 +313,8 @@
   margin-bottom: 0;
 } */
 
-.dp-Tasks-list .dp-LevelItem:nth-child(n+2),
-.CardList-comments .dp-Card .dp-LevelItem:nth-child(n+2) {
+.dp-Tasks-list .dp-LevelItem:nth-child(n + 2),
+.CardList-comments .dp-Card .dp-LevelItem:nth-child(n + 2) {
   padding-left: 20px;
 }
 
@@ -515,7 +516,10 @@
 .Task--completed .dp-CustomCheckbox input[type="checkbox"] + label .dp-Icon,
 .Task--completed.dp-Card .dp-Icon,
 .Task--completed .dp-Card-link,
-.Task--completed .dp-CustomCheckbox input[type="checkbox"] + label .dp-Card-title {
+.Task--completed
+.dp-CustomCheckbox
+input[type="checkbox"] + label
+.dp-Card-title {
   color: var(--grey);
   cursor: not-allowed;
   text-decoration: none;
@@ -674,7 +678,8 @@ input:disabled + label {
   font: var(--p-n-semibold);
 }
 
-.dp-vote li, .dp-Card .dp-calendar li {
+.dp-vote li,
+.dp-Card .dp-calendar li {
   color: var(--grey-darkest);
   font: var(--p-s-semibold);
   margin: 0;
@@ -771,7 +776,6 @@ input:disabled + label {
   background-size: 12px 2px;
 
   /* background-size: 12px 100%; */
-
 }
 
 /* Date/Time select */
@@ -930,7 +934,8 @@ input:disabled + label {
   color: var(--grey);
 }
 
-.dp-Show-Hide .dp-Card {
+.dp-Card.dp-Entering,
+.dp-Card.dp-Leaving {
   max-height: 0;
   overflow: hidden;
   padding-bottom: 0;
@@ -938,23 +943,22 @@ input:disabled + label {
   transition: max-height 0.5s ease-in-out, padding 0.5s ease-in-out;
 }
 
-.dp-Show-Hide .dp-Card.dp-Entering {
+.dp-Card.dp-Entering-active {
   background-color: var(--grey-lighter);
   max-height: 100%;
   padding: 8.8px 10px 10px;
 }
 
-.dp-Show-Hide .dp-Card.dp-Entering-done {
+.dp-Card.dp-Entering-done {
   max-height: 100%;
   padding: 8.8px 10px 10px;
 }
 
-.dp-Show-Hide .dp-Card.dp-Leaving {
+.dp-Card.dp-Leaving-active {
   background-color: var(--grey-lighter);
   border: 0;
   filter: grayscale(100%);
   max-height: 0;
 
   /* box-shadow: var(--shadow-top-inset); */
-
 }

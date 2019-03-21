@@ -4,11 +4,11 @@ import { TransitionGroup, CSSTransition } from "react-transition-group";
 
 import Card from "../Card";
 import { SimpleCardProps } from "../Card/SimpleCard";
+import Checkbox from "../../inputs/Checkbox/Checkbox";
 import ScrollArea from "../../ScrollArea/ScrollArea";
 import { ListItem, ListItemGroup } from "../types";
 
 import "@deskpro/agent-interface-style/dist/components/dp-ListPane.css";
-import Checkbox from "../../inputs/Checkbox/Checkbox";
 import ListAddButton from "./AddButton";
 
 export interface ListSubComponents {
@@ -72,13 +72,14 @@ const List: React.FC<ListProps> & ListSubComponents = ({
       ),
     [items]
   );
+
   return (
-    <Card.List className={classNames("dp-Show-Hide", className)}>
+    <Card.List className={classNames(className)}>
       <ScrollArea className="dp-List-items" style={{ height: scrollHeight }}>
         {groupedItems.map(({ group, items: groupItems }) => {
           const groupCheckState = getGroupCheckState(group.id);
           return (
-            <>
+            <React.Fragment key={group.id}>
               {group.id !== "DEFAULT" && (
                 <Card.SectionTitle>
                   <Checkbox
@@ -96,11 +97,14 @@ const List: React.FC<ListProps> & ListSubComponents = ({
                 {groupItems.map(item => (
                   <CSSTransition
                     classNames={{
-                      enterActive: "dp-Entering",
+                      enter: "dp-Entering",
+                      enterActive: "dp-Entering-active",
                       enterDone: "dp-Entering-done",
-                      exitActive: "dp-Leaving"
+                      exit: "dp-Leaving",
+                      exitActive: "dp-Leaving-active",
+                      exitDone: "dp-Leaving-done"
                     }}
-                    timeout={1000}
+                    timeout={500}
                     appear={false}
                     key={item.id}
                   >
@@ -113,7 +117,7 @@ const List: React.FC<ListProps> & ListSubComponents = ({
                   </CSSTransition>
                 ))}
               </TransitionGroup>
-            </>
+            </React.Fragment>
           );
         })}
       </ScrollArea>

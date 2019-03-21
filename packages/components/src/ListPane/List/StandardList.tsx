@@ -128,6 +128,7 @@ const StandardList: React.FC<StandardListProps> = ({
       </ListBar>
       <List
         {...props}
+        key={currentPage}
         items={items}
         selected={selection}
         onSelectToggle={toggleItemSelection}
