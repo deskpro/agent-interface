@@ -221,6 +221,12 @@
   font: var(--p-xl);
 }
 
+.dp-LevelItem .dp-LevelLeft,
+.dp-LevelItem .dp-LevelRifgth {
+  color: inherit;
+  font: inherit;
+}
+
 .dp-Card .dp-LevelItem + .dp-LevelItem {
   margin-top: 10px;
   padding-left: 23px;

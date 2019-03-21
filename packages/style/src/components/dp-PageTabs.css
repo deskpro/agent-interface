@@ -65,7 +65,8 @@
   margin-right: 0;
 }
 
-.dp-Tabs.Tabs--general .dp-Tabs-item:hover {
+.dp-Tabs.Tabs--general .dp-Tabs-item:hover,
+.dp-SelectedMore .dp-Tabs-item.is-active {
   background: var(--primary-light);
 }
 
@@ -73,16 +74,15 @@
 .Tabs--general .dp-Tabs-item:hover > .dp-TabInfoItem .dp-Subtitle,
 .dp-Tabs-item:hover > .dp-TitleButton,
 .dp-Tabs .dp-Tabs-item.is-visible .dp-TitleButton,
-.dp-Tabs .dp-Tabs-item:hover .dp-TitleButton {
+.dp-Tabs .dp-Tabs-item:hover > .dp-TitleButton,
+.dp-SelectedMore .dp-Tabs-item.is-active > .dp-TabInfoItem .dp-Title,
+.dp-SelectedMore .dp-Tabs-item.is-active > .dp-TabInfoItem .dp-Subtitle {
   color: var(--brand-primary);
   cursor: pointer;
 }
 
-/* .dp-Tabs-item:hover > .Tabs-item--row .dp-Icon svg,
-.dp-Tabs-item.is-active > .dp-TabInfoItem .dp-Icon svg, */
-
-.dp-Tabs-item:hover .Tabs-item--row .dp-Icon svg,
-.dp-Tabs-item.is-active .Tabs-item--row .dp-Icon svg {
+.dp-SelectedMore .dp-Tabs-item.is-active > .dp-TabInfoItem .dp-Icon svg,
+.dp-Tabs-item:hover .Tabs-item--row .dp-Icon.Icon--email svg {
   fill: var(--brand-primary);
 }
 
@@ -107,7 +107,7 @@
 .dp-Tabs .dp-Subtitle {
   color: var(--grey-dark);
   font: var(--p-n);
-  margin-left: 17px;
+  margin-left: 20px;
 }
 
 .dp-Tabs .dp-Icon + .dp-Title, .dp-Tabs .dp-Icon + .dp-Subtitle {
@@ -115,7 +115,7 @@
 }
 
 .dp-Tabs.Tabs--general > .dp-Tabs-item.is-active {
-  background: var(--grey-lighter);
+  background: var(--white);
   border: 1px solid var(--brand-primary);
   border-bottom: 1px solid transparent;
   z-index: 1;

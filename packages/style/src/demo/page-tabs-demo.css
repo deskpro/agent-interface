@@ -4,3 +4,7 @@
 .demo-TabContainer {
   overflow: auto;
 }
+
+.dp-MainWrapper .dp-Tabs.Tabs--general > .dp-Tabs-item.is-active {
+  background: var(--grey-lighter);
+}
