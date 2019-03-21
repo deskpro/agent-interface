@@ -217,6 +217,11 @@
   border-right: 1px solid var(--grey-light);
 }
 
+.dp-Card .dp-LevelItem {
+  color: var(--grey-dark);
+  font: var(--p-xl);
+}
+
 .dp-Card .dp-LevelItem + .dp-LevelItem {
   margin-top: 10px;
   padding-left: 23px;

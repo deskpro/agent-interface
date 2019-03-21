@@ -739,54 +739,6 @@ title: Card
         </ul>
     </form>
 </div>
-
-<!-- <div class="dp-MainWrapper Cardwrapper-demo demo-cog demo-menu">
-    <form>
-        <ul class="dp-CardList">
-            <li class="dp-Card dp-listreveal">
-
-                <span class="dp-LevelItem dp-LevelCol dp-LevelTop">
-                    <span class="dp-CustomCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="listreveal-0"></input>
-                        <label for="listreveal-0"></label>
-                    </span>
-                </span>
-
-                <span class="dp-LevelCol">
-                    <span class="dp-Card-title">Card title here</span>
-                    <span class="dp-UserInfo">
-                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                        <span class="dp-UserName">Single-line item</span>
-                    </span>
-
-                    <ul class="dp-TagWrap demo-comments">
-                        <li class="dp-Tag Tag--small Tag--info-light">a: value</li>
-                        <li class="dp-Tag Tag--small Tag--neutral-light">b: value</li>
-                        <li class="dp-Tag Tag--small Tag--info-light">c: value</li>
-                        <li>
-                            <button class="dp-Arrow dp-Comments-title is-active"></button>
-                            <ul class="dp-Comments">
-                                <li>
-                                    <span class="dp-Tag Tag--small Tag--info-light">a: value</span>
-                                    <span class="dp-description">Description text</span>
-                                </li>
-                                <li>
-                                    <span class="dp-Tag Tag--small Tag--neutral-light">b: value</span>
-                                    <span class="dp-description">Description text</span>
-                                </li>
-                                <li>
-                                    <span class="dp-Tag Tag--small Tag--info-light">c: value</span>
-                                    <span class="dp-description">Description text</span>
-                                </li>
-                            </ul>
-                        </li>
-
-                    </ul>
-                </span>
-            </li>
-        </ul>
-    </form>
-</div> -->
 ```
 
 <h2>Card/misc<h2>
@@ -794,17 +746,13 @@ title: Card
 ```html @preview
 <div class="dp-MainWrapper demo-cog demo-menu">
     <ul class="dp-CardList">
-        <li class="dp-Card dp-Level">
-            <span class="dp-LevelItem">
 
-                <span class="dp-LevelCol dp-LevelTop">
-                    <span class="dp-CustomCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="cards-feedback-1"></input>
-                        <label for="cards-feedback-1"></label>
-                    </span>
-                </span>
+        <li class="dp-Card">
+            <span class="dp-LevelItem Level-justify-between">
+                <span class="dp-CustomCheckbox dp-LevelLeft dp-LevelTop">
+                    <input type="checkbox" class="dp-ControlInput" id="cards-feedback-1"></input>
+                    <label for="cards-feedback-1"></label>
 
-                <span class="dp-LevelCol">
                     <span class="dp-Title Title-Icon">
                         <ul class="dp-vote">
                             <li>38</li>
@@ -813,6 +761,10 @@ title: Card
                         <span class="dp-Card-title">Feedback title here</span>
                     </span>
 
+                </span>
+            </span>
+            <span class="dp-LevelItem Level-justify-between">
+                <span class="dp-LevelLeft">
                     <ul class="dp-LevelWrap">
                         <li>
                             <span class="dp-Icon dp-iconUserAvatar"></span>
@@ -824,14 +776,14 @@ title: Card
                         </li>
                     </ul>
                 </span>
-
-                <span class="dp-LevelCol dp-LevelRight dp-LevelBottom">
+                <span class="dp-LevelRight">
                     <span class="dp-TimeStatus">
                         <span class="dp-Tag Tag--small Tag--neutral">Feature request</span>
                     </span>
                 </span>
             </span>
         </li>
+
     </ul>
 </div>
 ```
@@ -882,22 +834,22 @@ title: Card
 ```html @preview
 <div class="dp-MainWrapper demo-cog demo-menu">
     <ul class="dp-CardList">
-        <li class="dp-Card dp-Level">
-            <span class="dp-LevelItem">
 
-                <span class="dp-LevelCol dp-LevelTop">
-                    <span class="dp-CustomCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="cards-feedback-3"></input>
-                        <label for="cards-feedback-3"></label>
-                    </span>
-                </span>
+        <li class="dp-Card">
+            <span class="dp-LevelItem Level-justify-between">
+                <span class="dp-CustomCheckbox dp-LevelLeft dp-LevelTop">
+                    <input type="checkbox" class="dp-ControlInput" id="cards-feedback-1"></input>
+                    <label for="cards-feedback-1"></label>
 
-                <span class="dp-LevelCol">
                     <span class="dp-Title Title-Icon">
                         <span class="dp-Icon dp-Acrobat"></span>
                         <span class="dp-Card-title">Feedback_guide.pdf <span class="dp-qt">(56kb)</span></span>
                     </span>
 
+                </span>
+            </span>
+            <span class="dp-LevelItem Level-justify-between">
+                <span class="dp-LevelLeft">
                     <ul class="dp-LevelWrap">
                         <li>
                             <span class="dp-Icon dp-iconUserAvatar"></span>
@@ -909,14 +861,18 @@ title: Card
                         </li>
                     </ul>
                 </span>
-
-                <span class="dp-LevelCol dp-LevelRight dp-LevelBottom">
+                <span class="dp-LevelRight">
                     <span class="dp-TimeStatus">
                         <span class="dp-Tag Tag--small Tag--brand-primary">Download</span>
                     </span>
                 </span>
             </span>
         </li>
+
+
+
+
+
     </ul>
 </div>
 ```
