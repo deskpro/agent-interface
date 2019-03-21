@@ -1,6 +1,8 @@
 import React from "react";
 import { action } from "@storybook/addon-actions";
 import uuid from "uuid";
+import uuidv5 from "uuid/v5";
+import inPercy from "@percy-io/in-percy";
 
 import {
   StandardList,
@@ -12,8 +14,17 @@ import {
   Menu
 } from "@deskpro/agent-interface-components";
 
+let seed = 1;
+
 function createItem(group) {
-  const id = uuid();
+  let id;
+  if (!inPercy()) {
+    id = uuid();
+  } else {
+    const namespace = "1b671a64-40d5-491e-99b0-da01ff1f3341";
+    id = uuidv5(seed.toString(10), namespace);
+    seed += 1;
+  }
   return {
     id,
     title: `Card #${id.substr(0, 8)}`,
