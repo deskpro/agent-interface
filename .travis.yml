@@ -17,11 +17,11 @@ script:
   - test "${TRAVIS_BRANCH}" = "${TRAVIS_TAG}" || yarn lint
   - test "${TRAVIS_BRANCH}" = "${TRAVIS_TAG}" || yarn test
   - yarn build
+  - 'if [ "$TRAVIS_PULL_REQUEST" != "false" ] || [ "${TRAVIS_BRANCH}" = master ]; then yarn test:regression; fi'
   - test "${TRAVIS_BRANCH}" = "master" || echo "site building is only enabled on the
     master branch"
   - test "${TRAVIS_BRANCH}" != "master" || test "${TRAVIS_PULL_REQUEST}" != "false"
     || bin/travis-prep-website.sh
-  - 'if [ "$TRAVIS_PULL_REQUEST" != "false" ] || [ "${TRAVIS_BRANCH}" = master ]; then yarn test:regression; fi'
 cache:
   yarn: true
   directories:
