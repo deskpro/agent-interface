@@ -117,6 +117,7 @@
 
 .dp-SubMenu .dp-LabelGroup .dp-Tag {
   background-color: var(--grey-lightest);
+  border-radius: 2px;
   margin: 0 5px 5px 0;
 }
 
@@ -240,6 +241,10 @@
 .dp-MainWrapper.dp-TicketFilters .dp-Tickets {
   max-width: 243px;
   width: 100%;
+}
+
+.dp-TicketMenuItem.dp-SavedSearches .dp-SubMenu li:first-child {
+  margin-top: 5px;
 }
 
 .dp-TicketMenuItem.dp-SavedSearches .dp-SubMenu li {

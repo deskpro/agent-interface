@@ -445,7 +445,7 @@
 
 .dp-Card-actionsRow > li .dp-Icon {
   max-height: 15px;
-  max-width: 15px;
+  max-width: 16px;
 }
 
 .dp-Comments .dp-txt {
@@ -660,7 +660,7 @@ input:disabled + label {
 .dp-vote {
   align-items: center;
   border: 1px solid var(--brand-primary);
-  border-radius: var(--border-radius);
+  border-radius: 2px;
   display: flex;
   list-style: none;
   margin-right: 10px;
@@ -689,7 +689,7 @@ input:disabled + label {
 
 .dp-Card .dp-calendar {
   border: 1px solid var(--brand-primary);
-  border-radius: var(--border-radius);
+  border-radius: 2px;
   display: inline-block;
   list-style: none;
   margin-right: 10px;
@@ -940,6 +940,7 @@ input:disabled + label {
 
 .dp-Show-Hide .dp-Card.dp-Entering {
   background-color: var(--grey-lighter);
+  filter: grayscale(100%);
   max-height: 100%;
   padding: 8.8px 10px 10px;
 }

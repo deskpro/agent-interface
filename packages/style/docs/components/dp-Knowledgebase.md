@@ -23,25 +23,17 @@ title: Sort and Re-order
                     <button class="dp-Arrow"></button>
                 </span>
                 <ul class="dp-SubMenu">
-                    <li>
-                        <a href="#">
-                            <span>My tickets<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">1</span>
-                        </a>
+                    <li class="dp-SubMenuItem">
+                        <span>My tickets<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">1</span>
                     </li>
-                    <li>
-                        <a href="#">
-                            <span>Tickets I follow<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-                        </a>
+                    <li class="dp-SubMenuItem">
+                        <span>Tickets I follow<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
                     </li>
-                    <li>
-                        <a href="#">
-                            <span>Unassigned tickets<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-                        </a>
+                    <li class="dp-SubMenuItem">
+                        <span>Unassigned tickets<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
                     </li>
-                    <li>
-                        <a href="#" class="is-active">
-                            <span>All tickets<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">90</span>
-                        </a>
+                    <li class="dp-SubMenuItem">
+                        <span>All tickets<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">90</span>
                     </li>
                 </ul>
             </li>
@@ -50,25 +42,17 @@ title: Sort and Re-order
                     <span>Knowledgebase</span>
                 </span>
                 <ul class="dp-SubMenu">
-                    <li>
-                        <a href="#">
-                            <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-                        </a>
+                    <li class="dp-SubMenuItem">
+                        <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
                     </li>
-                    <li>
-                        <a href="#">
-                            <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-                        </a>
+                    <li class="dp-SubMenuItem">
+                        <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
                     </li>
-                    <li>
-                        <a href="#">
-                            <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-                        </a>
+                    <li class="dp-SubMenuItem">
+                        <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
                     </li>
-                    <li>
-                        <a href="#">
-                            <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-                        </a>
+                    <li class="dp-SubMenuItem">
+                        <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
                     </li>
                 </ul>
             </li>
@@ -78,25 +62,17 @@ title: Sort and Re-order
                     <button class="dp-Arrow"></button>
                 </span>
                 <ul class="dp-SubMenu">
-                    <li>
-                        <a href="#">
-                            <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-                        </a>
+                    <li class="dp-SubMenuItem">
+                        <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
                     </li>
-                    <li>
-                        <a href="#">
-                            <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-                        </a>
+                    <li class="dp-SubMenuItem">
+                        <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
                     </li>
-                    <li>
-                        <a href="#">
-                            <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-                        </a>
+                    <li class="dp-SubMenuItem">
+                        <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
                     </li>
-                    <li>
-                        <a href="#">
-                            <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-                        </a>
+                    <li class="dp-SubMenuItem">
+                        <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
                     </li>
                 </ul>
             </li>
@@ -106,25 +82,17 @@ title: Sort and Re-order
                     <button class="dp-Arrow"></button>
                 </span>
                 <ul class="dp-SubMenu">
-                    <li>
-                        <a href="#">
-                            <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-                        </a>
+                    <li class="dp-SubMenuItem">
+                        <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
                     </li>
-                    <li>
-                        <a href="#">
-                            <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-                        </a>
+                    <li class="dp-SubMenuItem">
+                        <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
                     </li>
-                    <li>
-                        <a href="#">
-                            <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-                        </a>
+                    <li class="dp-SubMenuItem">
+                        <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
                     </li>
-                    <li>
-                        <a href="#">
-                            <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-                        </a>
+                    <li class="dp-SubMenuItem">
+                        <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
                     </li>
                 </ul>
             </li>
@@ -134,25 +102,17 @@ title: Sort and Re-order
                     <button class="dp-Arrow"></button>
                 </span>
                 <ul class="dp-SubMenu">
-                    <li>
-                        <a href="#">
-                            <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-                        </a>
+                    <li class="dp-SubMenuItem">
+                        <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
                     </li>
-                    <li>
-                        <a href="#">
-                            <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-                        </a>
+                    <li class="dp-SubMenuItem">
+                        <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
                     </li>
-                    <li>
-                        <a href="#">
-                            <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-                        </a>
+                    <li class="dp-SubMenuItem">
+                        <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
                     </li>
-                    <li>
-                        <a href="#">
-                            <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-                        </a>
+                    <li class="dp-SubMenuItem">
+                        <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
                     </li>
                 </ul>
             </li>
@@ -162,25 +122,17 @@ title: Sort and Re-order
                     <button class="dp-Arrow"></button>
                 </span>
                 <ul class="dp-SubMenu">
-                    <li>
-                        <a href="#">
-                            <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-                        </a>
+                    <li class="dp-SubMenuItem">
+                        <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
                     </li>
-                    <li>
-                        <a href="#">
-                            <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-                        </a>
+                    <li class="dp-SubMenuItem">
+                        <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
                     </li>
-                    <li>
-                        <a href="#">
-                            <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-                        </a>
+                    <li class="dp-SubMenuItem">
+                        <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
                     </li>
-                    <li>
-                        <a href="#">
-                            <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-                        </a>
+                    <li class="dp-SubMenuItem">
+                        <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
                     </li>
                 </ul>
             </li>
@@ -190,25 +142,17 @@ title: Sort and Re-order
                     <button class="dp-Arrow"></button>
                 </span>
                 <ul class="dp-SubMenu">
-                    <li>
-                        <a href="#">
-                            <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-                        </a>
+                    <li class="dp-SubMenuItem">
+                        <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
                     </li>
-                    <li>
-                        <a href="#">
-                            <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-                        </a>
+                    <li class="dp-SubMenuItem">
+                        <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
                     </li>
-                    <li>
-                        <a href="#">
-                            <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-                        </a>
+                    <li class="dp-SubMenuItem">
+                        <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
                     </li>
-                    <li>
-                        <a href="#">
-                            <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-                        </a>
+                    <li class="dp-SubMenuItem">
+                        <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
                     </li>
                 </ul>
             </li>
@@ -2189,7 +2133,7 @@ title: Sort and Re-order
         </li>
 
 
-        <li class="dp-Card">
+        <li class="dp-Card Level-justify-between">
             <span class="dp-TitleGroupe">
                 <span class="dp-CustomCheckbox dp-EmptyCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="knowledgebase-1">
@@ -2207,7 +2151,7 @@ title: Sort and Re-order
             </span>
         </li>
 
-        <li class="dp-Card">
+        <li class="dp-Card Level-justify-between">
             <span class="dp-TitleGroupe">
                 <span class="dp-CustomCheckbox dp-EmptyCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="knowledgebase-2">
@@ -2225,7 +2169,7 @@ title: Sort and Re-order
             </span>
         </li>
 
-        <li class="dp-Card">
+        <li class="dp-Card Level-justify-between">
             <span class="dp-TitleGroupe">
                 <span class="dp-CustomCheckbox dp-EmptyCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="knowledgebase-3">
@@ -2243,7 +2187,7 @@ title: Sort and Re-order
             </span>
         </li>
 
-        <li class="dp-Card">
+        <li class="dp-Card Level-justify-between">
             <span class="dp-TitleGroupe">
                 <span class="dp-CustomCheckbox dp-EmptyCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="knowledgebase-4">
@@ -2261,7 +2205,7 @@ title: Sort and Re-order
             </span>
         </li>
 
-        <li class="dp-Card">
+        <li class="dp-Card Level-justify-between">
             <span class="dp-TitleGroupe">
                 <span class="dp-CustomCheckbox dp-EmptyCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="knowledgebase-5">
@@ -2279,7 +2223,7 @@ title: Sort and Re-order
             </span>
         </li>
 
-        <li class="dp-Card">
+        <li class="dp-Card Level-justify-between">
             <span class="dp-TitleGroupe">
                 <span class="dp-CustomCheckbox dp-EmptyCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="knowledgebase-6">
@@ -2297,7 +2241,7 @@ title: Sort and Re-order
             </span>
         </li>
 
-        <li class="dp-Card">
+        <li class="dp-Card Level-justify-between">
             <span class="dp-TitleGroupe">
                 <span class="dp-CustomCheckbox dp-EmptyCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="knowledgebase-7">
@@ -4286,7 +4230,7 @@ title: Sort and Re-order
 
         </li>
 
-        <li class="dp-Card">
+        <li class="dp-Card Level-justify-between">
             <span class="dp-TitleGroupe">
                 <span class="dp-CustomCheckbox dp-EmptyCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="knowledgebase-2-1">
@@ -4304,7 +4248,7 @@ title: Sort and Re-order
             </span>
         </li>
 
-        <li class="dp-Card">
+        <li class="dp-Card Level-justify-between">
             <span class="dp-TitleGroupe">
                 <span class="dp-CustomCheckbox dp-EmptyCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="knowledgebase-2-2">
@@ -4322,7 +4266,7 @@ title: Sort and Re-order
             </span>
         </li>
 
-        <li class="dp-Card">
+        <li class="dp-Card Level-justify-between">
             <span class="dp-TitleGroupe">
                 <span class="dp-CustomCheckbox dp-EmptyCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="knowledgebase-2-3">
@@ -4340,7 +4284,7 @@ title: Sort and Re-order
             </span>
         </li>
 
-        <li class="dp-Card">
+        <li class="dp-Card Level-justify-between">
             <span class="dp-TitleGroupe">
                 <span class="dp-CustomCheckbox dp-EmptyCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="knowledgebase-2-4">
@@ -4358,7 +4302,7 @@ title: Sort and Re-order
             </span>
         </li>
 
-        <li class="dp-Card">
+        <li class="dp-Card Level-justify-between">
             <span class="dp-TitleGroupe">
                 <span class="dp-CustomCheckbox dp-EmptyCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="knowledgebase-2-5">
@@ -4376,7 +4320,7 @@ title: Sort and Re-order
             </span>
         </li>
 
-        <li class="dp-Card">
+        <li class="dp-Card Level-justify-between">
             <span class="dp-TitleGroupe">
                 <span class="dp-CustomCheckbox dp-EmptyCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="knowledgebase-2-6">
@@ -4394,7 +4338,7 @@ title: Sort and Re-order
             </span>
         </li>
 
-        <li class="dp-Card">
+        <li class="dp-Card Level-justify-between">
             <span class="dp-TitleGroupe">
                 <span class="dp-CustomCheckbox dp-EmptyCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="knowledgebase-2-7">
@@ -6361,235 +6305,235 @@ title: Sort and Re-order
         <li class="dp-Articles-group">
             <ul>
 
-                <li class="dp-Card dp-Level">
-                    <span class="dp-LevelItem">
-                        <span class="dp-LevelCol dp-LevelTop">
-                            <span class="dp-CustomCheckbox">
-                                <input type="checkbox" class="dp-ControlInput" id="Articles-2-1"></input>
-                                <label for="Articles-2-1"></label>
-                            </span>
-                        </span>
-                        <span class="dp-LevelCol">
-                            <span class="dp-Title Title-Icon">
+                <!-- 1 -->
+                <li class="dp-Card">
+                    <span class="dp-LevelItem Level-justify-between">
+                        <span class="dp-CustomCheckbox dp-LevelLeft dp-LevelTop">
+                            <input type="checkbox" class="dp-ControlInput" id="Articles-2-1">
+                            <label for="Articles-2-1"></label>
+                            <span class="dp-Task-title">
                                 <span class="dp-Card-title">Creating effective new ticket contact forms</span>
                             </span>
-                            <ul class="dp-LevelWrap">
-                                <li>
-                                    <span class="dp-Icon dp-group"></span>
-                                    <span class="dp-UserName dp-date">14/7/18</span>
-                                </li>
-                                <li>
-                                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                                    <span class="dp-UserName">Mark Jarvis</span>
-                                </li>
-                            </ul>
                         </span>
+                    </span>
+
+                    <span class="dp-LevelItem Level-justify-between">
+                        <ul class="dp-LevelWrap">
+                            <li>
+                                <span class="dp-Icon dp-group"></span>
+                                <span class="dp-UserName dp-date">14/7/18</span>
+                            </li>
+                            <li>
+                                <span class="dp-Icon dp-iconUserAvatar"></span>
+                                <span class="dp-UserName">Mark Jarvis</span>
+                            </li>
+                        </ul>
                     </span>
                 </li>
 
-                <li class="dp-Card dp-Level">
-                    <span class="dp-LevelItem">
-                        <span class="dp-LevelCol dp-LevelTop">
-                            <span class="dp-CustomCheckbox">
-                                <input type="checkbox" class="dp-ControlInput" id="Articles-2-2"></input>
-                                <label for="Articles-2-2"></label>
-                            </span>
-                        </span>
-                        <span class="dp-LevelCol">
-                            <span class="dp-Title Title-Icon">
+                <!-- 2 -->
+                <li class="dp-Card">
+                    <span class="dp-LevelItem Level-justify-between">
+                        <span class="dp-CustomCheckbox dp-LevelLeft dp-LevelTop">
+                            <input type="checkbox" class="dp-ControlInput" id="Articles-2-2">
+                            <label for="Articles-2-2"></label>
+                            <span class="dp-Task-title">
                                 <span class="dp-Card-title">Setting up Departments</span>
                             </span>
-                            <ul class="dp-LevelWrap">
-                                <li>
-                                    <span class="dp-Icon dp-group"></span>
-                                    <span class="dp-UserName dp-date">14/7/18</span>
-                                </li>
-                                <li>
-                                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                                    <span class="dp-UserName">Mark Jarvis</span>
-                                </li>
-                            </ul>
                         </span>
+                    </span>
+
+                    <span class="dp-LevelItem Level-justify-between">
+                        <ul class="dp-LevelWrap">
+                            <li>
+                                <span class="dp-Icon dp-group"></span>
+                                <span class="dp-UserName dp-date">14/7/18</span>
+                            </li>
+                            <li>
+                                <span class="dp-Icon dp-iconUserAvatar"></span>
+                                <span class="dp-UserName">Mark Jarvis</span>
+                            </li>
+                        </ul>
                     </span>
                 </li>
 
-                <li class="dp-Card dp-Level">
-                    <span class="dp-LevelItem">
-                        <span class="dp-LevelCol dp-LevelTop">
-                            <span class="dp-CustomCheckbox">
-                                <input type="checkbox" class="dp-ControlInput" id="Articles-2-3"></input>
-                                <label for="Articles-2-3"></label>
-                            </span>
-                        </span>
-                        <span class="dp-LevelCol">
-                            <span class="dp-Title Title-Icon">
+                <!-- 3 -->
+                <li class="dp-Card">
+                    <span class="dp-LevelItem Level-justify-between">
+                        <span class="dp-CustomCheckbox dp-LevelLeft dp-LevelTop">
+                            <input type="checkbox" class="dp-ControlInput" id="Articles-2-3">
+                            <label for="Articles-2-3"></label>
+                            <span class="dp-Task-title">
                                 <span class="dp-Card-title">How do I get started with Deskpro?</span>
                             </span>
-
-                            <ul class="dp-LevelWrap">
-                                <li>
-                                    <span class="dp-Icon dp-group"></span>
-                                    <span class="dp-UserName dp-date">14/7/18</span>
-                                </li>
-                                <li>
-                                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                                    <span class="dp-UserName">Mark Jarvis</span>
-                                </li>
-                            </ul>
                         </span>
-                        <span class="dp-LevelCol dp-LevelRight dp-LevelTop">
+
+                        <span class="dp-LevelRight">
                             <span class="dp-TimeStatus">
                                 <span class="dp-Tag Tag--small Tag--grey">Draft</span>
                             </span>
                         </span>
                     </span>
+
+                    <span class="dp-LevelItem Level-justify-between">
+                        <ul class="dp-LevelWrap">
+                            <li>
+                                <span class="dp-Icon dp-group"></span>
+                                <span class="dp-UserName dp-date">14/7/18</span>
+                            </li>
+                            <li>
+                                <span class="dp-Icon dp-iconUserAvatar"></span>
+                                <span class="dp-UserName">Mark Jarvis</span>
+                            </li>
+                        </ul>
+                    </span>
                 </li>
 
-                <li class="dp-Card dp-Level">
-                    <span class="dp-LevelItem">
-                        <span class="dp-LevelCol dp-LevelTop">
-                            <span class="dp-CustomCheckbox">
-                                <input type="checkbox" class="dp-ControlInput" id="Articles-2-4"></input>
-                                <label for="Articles-2-4"></label>
-                            </span>
-                        </span>
-                        <span class="dp-LevelCol">
-                            <span class="dp-Title Title-Icon">
+                <!-- 4 -->
+                <li class="dp-Card">
+                    <span class="dp-LevelItem Level-justify-between">
+                        <span class="dp-CustomCheckbox dp-LevelLeft dp-LevelTop">
+                            <input type="checkbox" class="dp-ControlInput" id="Articles-2-4">
+                            <label for="Articles-2-4"></label>
+                            <span class="dp-Task-title">
                                 <span class="dp-Card-title">What documentation is available for Deskpro?</span>
                             </span>
-
-                            <ul class="dp-LevelWrap">
-                                <li>
-                                    <span class="dp-Icon dp-group"></span>
-                                    <span class="dp-UserName dp-date">7/10/18</span>
-                                </li>
-                                <li>
-                                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                                    <span class="dp-UserName">Mark Jarvis</span>
-                                </li>
-                            </ul>
                         </span>
-                        <span class="dp-LevelCol dp-LevelRight dp-LevelTop">
+
+                        <span class="dp-LevelRight">
                             <span class="dp-TimeStatus">
                                 <span class="dp-Tag Tag--small Tag--grey">Draft</span>
                             </span>
                         </span>
                     </span>
-                </li>
 
-                <li class="dp-Card dp-Level">
-                    <span class="dp-LevelItem">
-                        <span class="dp-LevelCol dp-LevelTop">
-                            <span class="dp-CustomCheckbox">
-                                <input type="checkbox" class="dp-ControlInput" id="Articles-2-5"></input>
-                                <label for="Articles-2-5"></label>
-                            </span>
-                        </span>
-                        <span class="dp-LevelCol">
-                            <span class="dp-Title Title-Icon">
-                                <span class="dp-Card-title">Setting up a Custom Email Address with Desk ...</span>
-                            </span>
-                            <ul class="dp-LevelWrap">
-                                <li>
-                                    <span class="dp-Icon dp-group"></span>
-                                    <span class="dp-UserName dp-date">28/10/18</span>
-                                </li>
-                                <li>
-                                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                                    <span class="dp-UserName">Mark Jarvis</span>
-                                </li>
-                            </ul>
-                        </span>
+                    <span class="dp-LevelItem Level-justify-between">
+                        <ul class="dp-LevelWrap">
+                            <li>
+                                <span class="dp-Icon dp-group"></span>
+                                <span class="dp-UserName dp-date">7/10/18</span>
+                            </li>
+                            <li>
+                                <span class="dp-Icon dp-iconUserAvatar"></span>
+                                <span class="dp-UserName">Mark Jarvis</span>
+                            </li>
+                        </ul>
                     </span>
                 </li>
 
-                <li class="dp-Card dp-Level">
-                    <span class="dp-LevelItem">
-                        <span class="dp-LevelCol dp-LevelTop">
-                            <span class="dp-CustomCheckbox">
-                                <input type="checkbox" class="dp-ControlInput" id="Articles-2-6"></input>
-                                <label for="Articles-2-6"></label>
+                <!-- 5 -->
+                <li class="dp-Card">
+                    <span class="dp-LevelItem Level-justify-between">
+                        <span class="dp-CustomCheckbox dp-LevelLeft dp-LevelTop">
+                            <input type="checkbox" class="dp-ControlInput" id="Articles-2-5">
+                            <label for="Articles-2-5"></label>
+                            <span class="dp-Task-title">
+                                <span class="dp-Card-title">Setting up a Custom Email Address with Deskpro</span>
                             </span>
                         </span>
-                        <span class="dp-LevelCol">
-                            <span class="dp-Title Title-Icon">
+                    </span>
+
+                    <span class="dp-LevelItem Level-justify-between">
+                        <ul class="dp-LevelWrap">
+                            <li>
+                                <span class="dp-Icon dp-group"></span>
+                                <span class="dp-UserName dp-date">28/10/18</span>
+                            </li>
+                            <li>
+                                <span class="dp-Icon dp-iconUserAvatar"></span>
+                                <span class="dp-UserName">Mark Jarvis</span>
+                            </li>
+                        </ul>
+                    </span>
+                </li>
+
+                <!-- 6 -->
+                <li class="dp-Card">
+                    <span class="dp-LevelItem Level-justify-between">
+                        <span class="dp-CustomCheckbox dp-LevelLeft dp-LevelTop">
+                            <input type="checkbox" class="dp-ControlInput" id="Articles-2-6">
+                            <label for="Articles-2-6"></label>
+                            <span class="dp-Task-title">
                                 <span class="dp-Card-title">Creating effective new ticket contact forms</span>
                             </span>
-
-                            <ul class="dp-LevelWrap">
-                                <li>
-                                    <span class="dp-Icon dp-group"></span>
-                                    <span class="dp-UserName dp-date">30/10/18</span>
-                                </li>
-                                <li>
-                                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                                    <span class="dp-UserName">Mark Jarvis</span>
-                                </li>
-                            </ul>
                         </span>
-                        <span class="dp-LevelCol dp-LevelRight dp-LevelTop">
+
+                        <span class="dp-LevelRight">
                             <span class="dp-TimeStatus">
                                 <span class="dp-Tag Tag--small Tag--grey">Draft</span>
                             </span>
                         </span>
                     </span>
+
+                    <span class="dp-LevelItem Level-justify-between">
+                        <ul class="dp-LevelWrap">
+                            <li>
+                                <span class="dp-Icon dp-group"></span>
+                                <span class="dp-UserName dp-date">30/10/18</span>
+                            </li>
+                            <li>
+                                <span class="dp-Icon dp-iconUserAvatar"></span>
+                                <span class="dp-UserName">Mark Jarvis</span>
+                            </li>
+                        </ul>
+                    </span>
                 </li>
 
-                <li class="dp-Card dp-Level">
-                    <span class="dp-LevelItem">
-                        <span class="dp-LevelCol dp-LevelTop">
-                            <span class="dp-CustomCheckbox">
-                                <input type="checkbox" class="dp-ControlInput" id="Articles-2-7"></input>
-                                <label for="Articles-2-7"></label>
-                            </span>
-                        </span>
-                        <span class="dp-LevelCol">
-                            <span class="dp-Title Title-Icon">
+                <!-- 7 -->
+                <li class="dp-Card">
+                    <span class="dp-LevelItem Level-justify-between">
+                        <span class="dp-CustomCheckbox dp-LevelLeft dp-LevelTop">
+                            <input type="checkbox" class="dp-ControlInput" id="Articles-2-6">
+                            <label for="Articles-2-6"></label>
+                            <span class="dp-Task-title">
                                 <span class="dp-Card-title">Setting up Departments</span>
                             </span>
-                            <ul class="dp-LevelWrap">
-                                <li>
-                                    <span class="dp-Icon dp-group"></span>
-                                    <span class="dp-UserName dp-date">5/9/18</span>
-                                </li>
-                                <li>
-                                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                                    <span class="dp-UserName">Mark Jarvis</span>
-                                </li>
-                            </ul>
                         </span>
+                    </span>
+
+                    <span class="dp-LevelItem Level-justify-between">
+                        <ul class="dp-LevelWrap">
+                            <li>
+                                <span class="dp-Icon dp-group"></span>
+                                <span class="dp-UserName dp-date">5/9/18</span>
+                            </li>
+                            <li>
+                                <span class="dp-Icon dp-iconUserAvatar"></span>
+                                <span class="dp-UserName">Mark Jarvis</span>
+                            </li>
+                        </ul>
                     </span>
                 </li>
 
-                <li class="dp-Card dp-Level">
-                    <span class="dp-LevelItem">
-                        <span class="dp-LevelCol dp-LevelTop">
-                            <span class="dp-CustomCheckbox">
-                                <input type="checkbox" class="dp-ControlInput" id="Articles-2-8"></input>
-                                <label for="Articles-2-8"></label>
-                            </span>
-                        </span>
-                        <span class="dp-LevelCol">
-                            <span class="dp-Title Title-Icon">
+                <!-- 8 -->
+                <li class="dp-Card">
+                    <span class="dp-LevelItem Level-justify-between">
+                        <span class="dp-CustomCheckbox dp-LevelLeft dp-LevelTop">
+                            <input type="checkbox" class="dp-ControlInput" id="Articles-2-6">
+                            <label for="Articles-2-6"></label>
+                            <span class="dp-Task-title">
                                 <span class="dp-Card-title">How do I get started with Deskpro?</span>
                             </span>
-
-                            <ul class="dp-LevelWrap">
-                                <li>
-                                    <span class="dp-Icon dp-group"></span>
-                                    <span class="dp-UserName dp-date">18/10/18</span>
-                                </li>
-                                <li>
-                                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                                    <span class="dp-UserName">Mark Jarvis</span>
-                                </li>
-                            </ul>
                         </span>
-                        <span class="dp-LevelCol dp-LevelRight dp-LevelTop">
+
+                        <span class="dp-LevelRight">
                             <span class="dp-TimeStatus">
                                 <span class="dp-Tag Tag--small Tag--grey">Draft</span>
                             </span>
                         </span>
+                    </span>
+
+                    <span class="dp-LevelItem Level-justify-between">
+                        <ul class="dp-LevelWrap">
+                            <li>
+                                <span class="dp-Icon dp-group"></span>
+                                <span class="dp-UserName dp-date">18/10/18</span>
+                            </li>
+                            <li>
+                                <span class="dp-Icon dp-iconUserAvatar"></span>
+                                <span class="dp-UserName">Mark Jarvis</span>
+                            </li>
+                        </ul>
                     </span>
                 </li>
 
@@ -8564,9 +8508,9 @@ title: Sort and Re-order
 
         </li>
 
-        <li class="dp-Card">
-            <span class="dp-TitleGroupe">
+        <li class="dp-Card Level-justify-between">
 
+            <span class="dp-TitleGroupe">
                 <span class="dp-Icon dp-Drag"></span>
                 <span class="dp-Icon Icon--folder"></span>
                 <span class="dp-Card-title">Installation & Upgrades <span class="dp-qt">(16)</span></span>
@@ -8579,7 +8523,7 @@ title: Sort and Re-order
             </span>
         </li>
 
-        <li class="dp-Card">
+        <li class="dp-Card Level-justify-between">
             <span class="dp-TitleGroupe">
 
                 <span class="dp-Icon dp-Drag"></span>
@@ -8594,7 +8538,7 @@ title: Sort and Re-order
             </span>
         </li>
 
-        <li class="dp-Card">
+        <li class="dp-Card Level-justify-between">
             <span class="dp-TitleGroupe">
 
                 <span class="dp-Icon dp-Drag"></span>
@@ -8609,7 +8553,7 @@ title: Sort and Re-order
             </span>
         </li>
 
-        <li class="dp-Card is-reordering">
+        <li class="dp-Card Level-justify-between is-reordering">
             <span class="dp-TitleGroupe">
 
                 <span class="dp-Icon dp-Drag"></span>
@@ -10573,235 +10517,235 @@ title: Sort and Re-order
         <li class="dp-Articles-group">
             <ul>
 
-                <li class="dp-Card dp-Level">
-                    <span class="dp-LevelItem">
-                        <span class="dp-LevelCol dp-LevelTop">
-                            <span class="dp-CustomCheckbox">
-                                <input type="checkbox" class="dp-ControlInput" id="Articles-3-1"></input>
-                                <label for="Articles-3-1"></label>
-                            </span>
-                        </span>
-                        <span class="dp-LevelCol">
-                            <span class="dp-Title Title-Icon">
+                <!-- 1 -->
+                <li class="dp-Card">
+                    <span class="dp-LevelItem Level-justify-between">
+                        <span class="dp-CustomCheckbox dp-LevelLeft dp-LevelTop">
+                            <input type="checkbox" class="dp-ControlInput" id="Articles-2-1">
+                            <label for="Articles-2-1"></label>
+                            <span class="dp-Task-title">
                                 <span class="dp-Card-title">Creating effective new ticket contact forms</span>
                             </span>
-                            <ul class="dp-LevelWrap">
-                                <li>
-                                    <span class="dp-Icon dp-group"></span>
-                                    <span class="dp-UserName dp-date">14/7/18</span>
-                                </li>
-                                <li>
-                                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                                    <span class="dp-UserName">Mark Jarvis</span>
-                                </li>
-                            </ul>
                         </span>
+                    </span>
+
+                    <span class="dp-LevelItem Level-justify-between">
+                        <ul class="dp-LevelWrap">
+                            <li>
+                                <span class="dp-Icon dp-group"></span>
+                                <span class="dp-UserName dp-date">14/7/18</span>
+                            </li>
+                            <li>
+                                <span class="dp-Icon dp-iconUserAvatar"></span>
+                                <span class="dp-UserName">Mark Jarvis</span>
+                            </li>
+                        </ul>
                     </span>
                 </li>
 
-                <li class="dp-Card dp-Level">
-                    <span class="dp-LevelItem">
-                        <span class="dp-LevelCol dp-LevelTop">
-                            <span class="dp-CustomCheckbox">
-                                <input type="checkbox" class="dp-ControlInput" id="Articles-3-2"></input>
-                                <label for="Articles-3-2"></label>
-                            </span>
-                        </span>
-                        <span class="dp-LevelCol">
-                            <span class="dp-Title Title-Icon">
+                <!-- 2 -->
+                <li class="dp-Card">
+                    <span class="dp-LevelItem Level-justify-between">
+                        <span class="dp-CustomCheckbox dp-LevelLeft dp-LevelTop">
+                            <input type="checkbox" class="dp-ControlInput" id="Articles-2-2">
+                            <label for="Articles-2-2"></label>
+                            <span class="dp-Task-title">
                                 <span class="dp-Card-title">Setting up Departments</span>
                             </span>
-                            <ul class="dp-LevelWrap">
-                                <li>
-                                    <span class="dp-Icon dp-group"></span>
-                                    <span class="dp-UserName dp-date">14/7/18</span>
-                                </li>
-                                <li>
-                                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                                    <span class="dp-UserName">Mark Jarvis</span>
-                                </li>
-                            </ul>
                         </span>
+                    </span>
+
+                    <span class="dp-LevelItem Level-justify-between">
+                        <ul class="dp-LevelWrap">
+                            <li>
+                                <span class="dp-Icon dp-group"></span>
+                                <span class="dp-UserName dp-date">14/7/18</span>
+                            </li>
+                            <li>
+                                <span class="dp-Icon dp-iconUserAvatar"></span>
+                                <span class="dp-UserName">Mark Jarvis</span>
+                            </li>
+                        </ul>
                     </span>
                 </li>
 
-                <li class="dp-Card dp-Level">
-                    <span class="dp-LevelItem">
-                        <span class="dp-LevelCol dp-LevelTop">
-                            <span class="dp-CustomCheckbox">
-                                <input type="checkbox" class="dp-ControlInput" id="Articles-3-3"></input>
-                                <label for="Articles-3-3"></label>
-                            </span>
-                        </span>
-                        <span class="dp-LevelCol">
-                            <span class="dp-Title Title-Icon">
+                <!-- 3 -->
+                <li class="dp-Card">
+                    <span class="dp-LevelItem Level-justify-between">
+                        <span class="dp-CustomCheckbox dp-LevelLeft dp-LevelTop">
+                            <input type="checkbox" class="dp-ControlInput" id="Articles-2-3">
+                            <label for="Articles-2-3"></label>
+                            <span class="dp-Task-title">
                                 <span class="dp-Card-title">How do I get started with Deskpro?</span>
                             </span>
-
-                            <ul class="dp-LevelWrap">
-                                <li>
-                                    <span class="dp-Icon dp-group"></span>
-                                    <span class="dp-UserName dp-date">14/7/18</span>
-                                </li>
-                                <li>
-                                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                                    <span class="dp-UserName">Mark Jarvis</span>
-                                </li>
-                            </ul>
                         </span>
-                        <span class="dp-LevelCol dp-LevelRight dp-LevelTop">
+
+                        <span class="dp-LevelRight">
                             <span class="dp-TimeStatus">
                                 <span class="dp-Tag Tag--small Tag--grey">Draft</span>
                             </span>
                         </span>
                     </span>
+
+                    <span class="dp-LevelItem Level-justify-between">
+                        <ul class="dp-LevelWrap">
+                            <li>
+                                <span class="dp-Icon dp-group"></span>
+                                <span class="dp-UserName dp-date">14/7/18</span>
+                            </li>
+                            <li>
+                                <span class="dp-Icon dp-iconUserAvatar"></span>
+                                <span class="dp-UserName">Mark Jarvis</span>
+                            </li>
+                        </ul>
+                    </span>
                 </li>
 
-                <li class="dp-Card dp-Level">
-                    <span class="dp-LevelItem">
-                        <span class="dp-LevelCol dp-LevelTop">
-                            <span class="dp-CustomCheckbox">
-                                <input type="checkbox" class="dp-ControlInput" id="Articles-3-4"></input>
-                                <label for="Articles-3-4"></label>
-                            </span>
-                        </span>
-                        <span class="dp-LevelCol">
-                            <span class="dp-Title Title-Icon">
+                <!-- 4 -->
+                <li class="dp-Card">
+                    <span class="dp-LevelItem Level-justify-between">
+                        <span class="dp-CustomCheckbox dp-LevelLeft dp-LevelTop">
+                            <input type="checkbox" class="dp-ControlInput" id="Articles-2-4">
+                            <label for="Articles-2-4"></label>
+                            <span class="dp-Task-title">
                                 <span class="dp-Card-title">What documentation is available for Deskpro?</span>
                             </span>
-
-                            <ul class="dp-LevelWrap">
-                                <li>
-                                    <span class="dp-Icon dp-group"></span>
-                                    <span class="dp-UserName dp-date">7/10/18</span>
-                                </li>
-                                <li>
-                                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                                    <span class="dp-UserName">Mark Jarvis</span>
-                                </li>
-                            </ul>
                         </span>
-                        <span class="dp-LevelCol dp-LevelRight dp-LevelTop">
+
+                        <span class="dp-LevelRight">
                             <span class="dp-TimeStatus">
                                 <span class="dp-Tag Tag--small Tag--grey">Draft</span>
                             </span>
                         </span>
                     </span>
-                </li>
 
-                <li class="dp-Card dp-Level">
-                    <span class="dp-LevelItem">
-                        <span class="dp-LevelCol dp-LevelTop">
-                            <span class="dp-CustomCheckbox">
-                                <input type="checkbox" class="dp-ControlInput" id="Articles-3-5"></input>
-                                <label for="Articles-3-5"></label>
-                            </span>
-                        </span>
-                        <span class="dp-LevelCol">
-                            <span class="dp-Title Title-Icon">
-                                <span class="dp-Card-title">Setting up a Custom Email Address with Desk ...</span>
-                            </span>
-                            <ul class="dp-LevelWrap">
-                                <li>
-                                    <span class="dp-Icon dp-group"></span>
-                                    <span class="dp-UserName dp-date">28/10/18</span>
-                                </li>
-                                <li>
-                                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                                    <span class="dp-UserName">Mark Jarvis</span>
-                                </li>
-                            </ul>
-                        </span>
+                    <span class="dp-LevelItem Level-justify-between">
+                        <ul class="dp-LevelWrap">
+                            <li>
+                                <span class="dp-Icon dp-group"></span>
+                                <span class="dp-UserName dp-date">7/10/18</span>
+                            </li>
+                            <li>
+                                <span class="dp-Icon dp-iconUserAvatar"></span>
+                                <span class="dp-UserName">Mark Jarvis</span>
+                            </li>
+                        </ul>
                     </span>
                 </li>
 
-                <li class="dp-Card dp-Level">
-                    <span class="dp-LevelItem">
-                        <span class="dp-LevelCol dp-LevelTop">
-                            <span class="dp-CustomCheckbox">
-                                <input type="checkbox" class="dp-ControlInput" id="Articles-3-6"></input>
-                                <label for="Articles-3-6"></label>
+                <!-- 5 -->
+                <li class="dp-Card">
+                    <span class="dp-LevelItem Level-justify-between">
+                        <span class="dp-CustomCheckbox dp-LevelLeft dp-LevelTop">
+                            <input type="checkbox" class="dp-ControlInput" id="Articles-2-5">
+                            <label for="Articles-2-5"></label>
+                            <span class="dp-Task-title">
+                                <span class="dp-Card-title">Setting up a Custom Email Address with Deskpro</span>
                             </span>
                         </span>
-                        <span class="dp-LevelCol">
-                            <span class="dp-Title Title-Icon">
+                    </span>
+
+                    <span class="dp-LevelItem Level-justify-between">
+                        <ul class="dp-LevelWrap">
+                            <li>
+                                <span class="dp-Icon dp-group"></span>
+                                <span class="dp-UserName dp-date">28/10/18</span>
+                            </li>
+                            <li>
+                                <span class="dp-Icon dp-iconUserAvatar"></span>
+                                <span class="dp-UserName">Mark Jarvis</span>
+                            </li>
+                        </ul>
+                    </span>
+                </li>
+
+                <!-- 6 -->
+                <li class="dp-Card">
+                    <span class="dp-LevelItem Level-justify-between">
+                        <span class="dp-CustomCheckbox dp-LevelLeft dp-LevelTop">
+                            <input type="checkbox" class="dp-ControlInput" id="Articles-2-6">
+                            <label for="Articles-2-6"></label>
+                            <span class="dp-Task-title">
                                 <span class="dp-Card-title">Creating effective new ticket contact forms</span>
                             </span>
-
-                            <ul class="dp-LevelWrap">
-                                <li>
-                                    <span class="dp-Icon dp-group"></span>
-                                    <span class="dp-UserName dp-date">30/10/18</span>
-                                </li>
-                                <li>
-                                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                                    <span class="dp-UserName">Mark Jarvis</span>
-                                </li>
-                            </ul>
                         </span>
-                        <span class="dp-LevelCol dp-LevelRight dp-LevelTop">
+
+                        <span class="dp-LevelRight">
                             <span class="dp-TimeStatus">
                                 <span class="dp-Tag Tag--small Tag--grey">Draft</span>
                             </span>
                         </span>
                     </span>
+
+                    <span class="dp-LevelItem Level-justify-between">
+                        <ul class="dp-LevelWrap">
+                            <li>
+                                <span class="dp-Icon dp-group"></span>
+                                <span class="dp-UserName dp-date">30/10/18</span>
+                            </li>
+                            <li>
+                                <span class="dp-Icon dp-iconUserAvatar"></span>
+                                <span class="dp-UserName">Mark Jarvis</span>
+                            </li>
+                        </ul>
+                    </span>
                 </li>
 
-                <li class="dp-Card dp-Level">
-                    <span class="dp-LevelItem">
-                        <span class="dp-LevelCol dp-LevelTop">
-                            <span class="dp-CustomCheckbox">
-                                <input type="checkbox" class="dp-ControlInput" id="Articles-3-7"></input>
-                                <label for="Articles-3-7"></label>
-                            </span>
-                        </span>
-                        <span class="dp-LevelCol">
-                            <span class="dp-Title Title-Icon">
+                <!-- 7 -->
+                <li class="dp-Card">
+                    <span class="dp-LevelItem Level-justify-between">
+                        <span class="dp-CustomCheckbox dp-LevelLeft dp-LevelTop">
+                            <input type="checkbox" class="dp-ControlInput" id="Articles-2-6">
+                            <label for="Articles-2-6"></label>
+                            <span class="dp-Task-title">
                                 <span class="dp-Card-title">Setting up Departments</span>
                             </span>
-                            <ul class="dp-LevelWrap">
-                                <li>
-                                    <span class="dp-Icon dp-group"></span>
-                                    <span class="dp-UserName dp-date">5/9/18</span>
-                                </li>
-                                <li>
-                                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                                    <span class="dp-UserName">Mark Jarvis</span>
-                                </li>
-                            </ul>
                         </span>
+                    </span>
+
+                    <span class="dp-LevelItem Level-justify-between">
+                        <ul class="dp-LevelWrap">
+                            <li>
+                                <span class="dp-Icon dp-group"></span>
+                                <span class="dp-UserName dp-date">5/9/18</span>
+                            </li>
+                            <li>
+                                <span class="dp-Icon dp-iconUserAvatar"></span>
+                                <span class="dp-UserName">Mark Jarvis</span>
+                            </li>
+                        </ul>
                     </span>
                 </li>
 
-                <li class="dp-Card dp-Level">
-                    <span class="dp-LevelItem">
-                        <span class="dp-LevelCol dp-LevelTop">
-                            <span class="dp-CustomCheckbox">
-                                <input type="checkbox" class="dp-ControlInput" id="Articles-3-8"></input>
-                                <label for="Articles-3-8"></label>
-                            </span>
-                        </span>
-                        <span class="dp-LevelCol">
-                            <span class="dp-Title Title-Icon">
+                <!-- 8 -->
+                <li class="dp-Card">
+                    <span class="dp-LevelItem Level-justify-between">
+                        <span class="dp-CustomCheckbox dp-LevelLeft dp-LevelTop">
+                            <input type="checkbox" class="dp-ControlInput" id="Articles-2-6">
+                            <label for="Articles-2-6"></label>
+                            <span class="dp-Task-title">
                                 <span class="dp-Card-title">How do I get started with Deskpro?</span>
                             </span>
-
-                            <ul class="dp-LevelWrap">
-                                <li>
-                                    <span class="dp-Icon dp-group"></span>
-                                    <span class="dp-UserName dp-date">18/10/18</span>
-                                </li>
-                                <li>
-                                    <span class="dp-Icon dp-iconUserAvatar"></span>
-                                    <span class="dp-UserName">Mark Jarvis</span>
-                                </li>
-                            </ul>
                         </span>
-                        <span class="dp-LevelCol dp-LevelRight dp-LevelTop">
+
+                        <span class="dp-LevelRight">
                             <span class="dp-TimeStatus">
                                 <span class="dp-Tag Tag--small Tag--grey">Draft</span>
                             </span>
                         </span>
+                    </span>
+
+                    <span class="dp-LevelItem Level-justify-between">
+                        <ul class="dp-LevelWrap">
+                            <li>
+                                <span class="dp-Icon dp-group"></span>
+                                <span class="dp-UserName dp-date">18/10/18</span>
+                            </li>
+                            <li>
+                                <span class="dp-Icon dp-iconUserAvatar"></span>
+                                <span class="dp-UserName">Mark Jarvis</span>
+                            </li>
+                        </ul>
                     </span>
                 </li>
 

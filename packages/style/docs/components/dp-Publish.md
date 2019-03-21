@@ -61,7 +61,7 @@ title: Publish
 				</span>
 				<ul class="dp-SubMenu">
 					<li class="dp-SubMenuItem">
-						<span>All pending articles</span>
+						<span>All pending articles</span> <span class="dp-SubNum">0</span>
 					</li>
 					<li class="dp-SubMenuItem">
 						<span>All drafts</span> <span class="dp-SubNum">0</span>

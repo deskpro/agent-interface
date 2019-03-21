@@ -82,7 +82,9 @@
 }
 
 .dp-SelectedMore .dp-Tabs-item.is-active > .dp-TabInfoItem .dp-Icon svg,
-.dp-Tabs-item:hover .Tabs-item--row .dp-Icon.Icon--email svg {
+.dp-SelectedMore .dp-Tabs-item:hover > .dp-TabInfoItem .dp-Icon svg,
+.dp-Tabs-item:hover > .dp-TabInfoItem .Icon--email svg,
+.dp-Tabs-item:hover > .dp-TabInfoItem .Icon--portal svg {
   fill: var(--brand-primary);
 }
 
