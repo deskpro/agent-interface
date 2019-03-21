@@ -4,7 +4,7 @@ import { render, fireEvent } from "react-testing-library";
 import Badge from "../Badge";
 
 describe("<Badge />", () => {
-  it("it should match its snapshot 'id'", () => {
+  it("should match its snapshot 'id'", () => {
     const handleClick = jest.fn();
     const { getByText } = render(
       <Badge type="id" onClick={handleClick}>

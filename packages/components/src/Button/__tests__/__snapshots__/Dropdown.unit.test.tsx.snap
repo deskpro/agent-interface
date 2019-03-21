@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Dropdown /> Simple snapshot 1`] = `
+exports[`<Dropdown /> should match its snapshot 1`] = `
 <span
   class="dp-Dropdown"
   role="button"

@@ -5,7 +5,7 @@ import ModuleBar from "../ModuleBar";
 import ModuleBarMenu from "../ModuleBarMenu";
 
 describe("<TagBar />", () => {
-  it("it should match its snapshot", () => {
+  it("should match its snapshot", () => {
     const handleClick = jest.fn();
     const { container } = render(
       <ModuleBar className="module-bar">

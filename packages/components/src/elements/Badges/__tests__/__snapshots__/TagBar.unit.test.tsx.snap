@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<TagBar /> it should match its snapshot 1`] = `
+exports[`<TagBar /> should match its snapshot 1`] = `
 <span
   class="dp-TagBar dp-JustifyStart"
   data-testid="tagbar"

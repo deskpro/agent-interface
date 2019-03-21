@@ -14,7 +14,7 @@ exports[`<Button /> More variant snapshot 1`] = `
 </button>
 `;
 
-exports[`<Button /> Simple snapshot 1`] = `
+exports[`<Button /> should match its snapshot 1`] = `
 <button
   class="dp-Button Button--primary"
   type="button"

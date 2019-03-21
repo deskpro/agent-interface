@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TicketCard /> should match its snapshot 1`] = `
+<div
+  class="dp-Card test-card"
+  role="link"
+  tabindex="-1"
+>
+  <div
+    class="dp-LevelItem Level-justify-between"
+  >
+    <span
+      class="dp-LevelLeft"
+    >
+      <span
+        class="dp-CustomCheckbox dp-LevelTop"
+      >
+        <input
+          class="dp-ControlInput"
+          id="1"
+          type="checkbox"
+          value="1"
+        />
+        <label
+          class=""
+          for="1"
+        />
+      </span>
+      <span
+        class="dp-Card-title"
+      >
+        Card title
+      </span>
+    </span>
+    <span
+      class="dp-LevelRight"
+    >
+      <span
+        class="dp-IconGroup"
+      >
+        <span
+          class="dp-ActivityStatus ActivityStatus--writing ActivityStatus--primary"
+        >
+          <div>
+            Avatar
+          </div>
+        </span>
+        <span
+          class="dp-Badge Badge--round Badge--grey"
+        >
+          
+          1
+        </span>
+      </span>
+    </span>
+  </div>
+  <div
+    class="dp-LevelItem Level-justify-between"
+  >
+    <span
+      class="dp-LevelCol"
+    >
+      <span
+        class="dp-UserInfo"
+      >
+        <span
+          class="dp-UserName"
+        >
+          John Doe
+          <a
+            class="dp-UserEmail"
+            href="mailto:john.doe@example.com"
+          >
+            &lt;
+            john.doe@example.com
+            &gt;
+          </a>
+        </span>
+      </span>
+    </span>
+    <span
+      class="dp-LevelRight"
+    >
+      <span
+        class="dp-TimeStatus"
+      >
+        <span
+          class="dp-Tag Tag--grey Tag--small"
+        >
+          about 2 months
+        </span>
+      </span>
+    </span>
+  </div>
+</div>
+`;

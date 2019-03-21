@@ -5,7 +5,7 @@ import Dropdown from "../Dropdown";
 import Menu from "../../elements/Menu/Menu";
 
 describe("<Dropdown />", () => {
-  it("Simple snapshot", () => {
+  it("should match its snapshot", () => {
     const { getByText, container } = render(
       <Dropdown
         renderMenu={menuProps => (
