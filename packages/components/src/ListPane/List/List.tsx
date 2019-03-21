@@ -1,6 +1,5 @@
 import * as React from "react";
 import classNames from "classnames";
-import { TransitionGroup, CSSTransition } from "react-transition-group";
 
 import Card from "../Card";
 import { SimpleCardProps } from "../Card/SimpleCard";
@@ -10,6 +9,7 @@ import { ListItem, ListItemGroup } from "../types";
 
 import "@deskpro/agent-interface-style/dist/components/dp-ListPane.css";
 import ListAddButton from "./AddButton";
+import AnimatedCards from "../Card/AnimatedCards";
 
 export interface ListSubComponents {
   AddButton: typeof ListAddButton;
@@ -93,30 +93,16 @@ const List: React.FC<ListProps> & ListSubComponents = ({
                   {group.title}
                 </Card.SectionTitle>
               )}
-              <TransitionGroup component={null}>
-                {groupItems.map(item => (
-                  <CSSTransition
-                    classNames={{
-                      enter: "dp-Entering",
-                      enterActive: "dp-Entering-active",
-                      enterDone: "dp-Entering-done",
-                      exit: "dp-Leaving",
-                      exitActive: "dp-Leaving-active",
-                      exitDone: "dp-Leaving-done"
-                    }}
-                    timeout={500}
-                    appear={false}
-                    key={item.id}
-                  >
-                    {renderItem(item, {
-                      cardId: item.id,
-                      onCheck: onSelectToggle,
-                      checked: selected.includes(item.id),
-                      checkable: true
-                    })}
-                  </CSSTransition>
-                ))}
-              </TransitionGroup>
+              <AnimatedCards items={groupItems}>
+                {item =>
+                  renderItem(item as ListItem, {
+                    cardId: item.id,
+                    onCheck: onSelectToggle,
+                    checked: selected.includes(item.id),
+                    checkable: true
+                  })
+                }
+              </AnimatedCards>
             </React.Fragment>
           );
         })}
