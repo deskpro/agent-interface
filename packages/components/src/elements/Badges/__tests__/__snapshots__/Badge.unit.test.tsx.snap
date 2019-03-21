@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Badge /> it should match its snapshot 'id' 1`] = `
+exports[`<Badge /> should match its snapshot 'id' 1`] = `
 <span
   class="dp-BadgeWrapper"
 >

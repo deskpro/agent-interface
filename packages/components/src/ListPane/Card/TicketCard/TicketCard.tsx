@@ -5,12 +5,10 @@ import Icon from "../../../elements/Icon/Icon";
 import IconGroup from "../../../elements/Icon/IconGroup";
 import TicketStatus from "./TicketStatus";
 import TicketStatusIcon from "./TicketStatusIcon";
-import TicketDetails from "./TicketDetails";
 
 type TicketCardSubcomponents = {
   Status: typeof TicketStatus;
   StatusIcon: typeof TicketStatusIcon;
-  Details: typeof TicketDetails;
 };
 
 export type TicketCardProps = {
@@ -61,6 +59,5 @@ const TicketCard: React.FC<SimpleCardProps & TicketCardProps> &
 
 TicketCard.Status = TicketStatus;
 TicketCard.StatusIcon = TicketStatusIcon;
-TicketCard.Details = TicketDetails;
 
 export default TicketCard;

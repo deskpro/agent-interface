@@ -4,7 +4,7 @@ import { render, fireEvent } from "react-testing-library";
 import Arrow from "../Arrow";
 
 describe("<Arrow />", () => {
-  it("Simple snapshot", () => {
+  it("should match its snapshot", () => {
     const handleClick = jest.fn();
     const { getByTestId } = render(
       <Arrow data-testid="arrow-button" onClick={handleClick} />

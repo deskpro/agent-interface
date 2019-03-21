@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Checkbox /> it should match its snapshot 1`] = `
+exports[`<Checkbox /> should match its snapshot 1`] = `
 <span
   class="dp-CustomCheckbox"
 >

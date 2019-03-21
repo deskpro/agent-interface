@@ -1,4 +1,5 @@
 import * as React from "react";
+import classNames from "classnames";
 
 import Card, { BasicCardProps } from "./Card";
 import Checkbox, { CheckableCardProps } from "./CardCheckbox";
@@ -14,6 +15,7 @@ export type SimpleCardProps = {
   status?: React.ReactNode;
   icons?: React.ReactNode;
   actions?: CardActionItemType[];
+  details?: React.ReactNode;
   onActionClick?: (
     actionName: React.Key,
     cardId: React.Key,
@@ -29,6 +31,7 @@ const SimpleCard: React.FC<SimpleCardProps> = ({
   children,
   status,
   icons,
+  details,
   checkable = false,
   checked = false,
   onCheck,
@@ -36,7 +39,11 @@ const SimpleCard: React.FC<SimpleCardProps> = ({
   onActionClick,
   ...props
 }) => (
-  <Card cardId={cardId} {...props} className={className}>
+  <Card
+    cardId={cardId}
+    {...props}
+    className={classNames(className, { "Check--nocheck": !checkable })}
+  >
     <div className="dp-LevelItem Level-justify-between">
       <span className="dp-LevelLeft">
         {!!checkable && (
@@ -53,9 +60,10 @@ const SimpleCard: React.FC<SimpleCardProps> = ({
       {!!icons && <span className="dp-LevelRight">{icons}</span>}
     </div>
     <div className="dp-LevelItem Level-justify-between">
-      <span className="dp-LevelCol">{children}</span>
+      <span className="dp-LevelLeft">{children}</span>
       {!!status && <span className="dp-LevelRight">{status}</span>}
     </div>
+    {details}
     {actions.length > 0 && (
       <ul className="dp-Card-actionsRow">
         {actions.map(({ name, icon, title: actionTitle }) => (

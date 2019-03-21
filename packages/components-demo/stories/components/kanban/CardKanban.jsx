@@ -2,7 +2,12 @@ import React from "react";
 import PropTypes from "prop-types";
 import { subHours } from "date-fns";
 
-import { Kanban, Card, Menu } from "@deskpro/agent-interface-components";
+import {
+  Kanban,
+  Card,
+  Menu,
+  UserInfo
+} from "@deskpro/agent-interface-components";
 import useKanbanDragging from "./useSimpleKanban";
 
 const CardKanban = ({ action }) => {
@@ -42,12 +47,10 @@ const CardKanban = ({ action }) => {
                         </Menu>
                       )}
                     >
-                      <Card.TicketCard.Details
-                        user={{
-                          name: "John Doe",
-                          email: "john.doe@example.com",
-                          avatar: true
-                        }}
+                      <UserInfo
+                        avatar
+                        name="John Doe"
+                        email="john.doe@example.com"
                       />
                     </Card.TicketCard>
                   )}
