@@ -8,6 +8,8 @@ import CardList from "./CardList";
 import SimpleCard from "./SimpleCard";
 import TicketCard from "./TicketCard/TicketCard";
 import TaskCard from "./TaskCard";
+import Properties from "./CardProperties";
+import Labels from "./Labels";
 import { MenuProps } from "../../elements/Menu/Menu";
 import Cog from "../../elements/Menu/CogMenu";
 import Portal from "../../common/Portal/Portal";
@@ -24,6 +26,8 @@ type CardSubComponents = {
   TicketCard: typeof TicketCard;
   TaskCard: typeof TaskCard;
   Simple: typeof SimpleCard;
+  Properties: typeof Properties;
+  Labels: typeof Labels;
 };
 
 export type BasicCardProps = {
@@ -128,5 +132,7 @@ Card.List = CardList;
 Card.TicketCard = TicketCard;
 Card.TaskCard = TaskCard;
 Card.Simple = SimpleCard;
+Card.Properties = Properties;
+Card.Labels = Labels;
 
 export default Card;

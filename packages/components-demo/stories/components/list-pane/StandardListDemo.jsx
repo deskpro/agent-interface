@@ -100,7 +100,7 @@ const StandardListDemo = ({ grouped = false }) => {
               </Menu>
             )}
           >
-            <UserInfo name="John Doe" email="john.doe@example.com" />
+            <UserInfo avatar name="John Doe" email="john.doe@example.com" />
           </Card.Simple>
         )}
       />

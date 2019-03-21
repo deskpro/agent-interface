@@ -5,7 +5,8 @@ import Avatar from "react-avatar";
 import {
   Card,
   Icon,
-  ActivityStatus
+  ActivityStatus,
+  UserInfo
 } from "@deskpro/agent-interface-components";
 
 export default ({ onCheck }) => (
@@ -45,13 +46,7 @@ export default ({ onCheck }) => (
           />
         }
       >
-        <Card.TicketCard.Details
-          user={{
-            name: "John Doe",
-            email: "john.doe@example.com",
-            avatar: true
-          }}
-        />
+        <UserInfo name="John Doe" email="john.doe@example.com" avatar />
       </Card.TicketCard>
       <Card.TicketCard
         cardId={2}
@@ -89,13 +84,7 @@ export default ({ onCheck }) => (
           />
         }
       >
-        <Card.TicketCard.Details
-          user={{
-            name: "Jon Snow",
-            email: "jon.snow@got.com",
-            avatar: true
-          }}
-        />
+        <UserInfo name="John Doe" email="john.doe@example.com" avatar />
       </Card.TicketCard>
       <Card.TicketCard
         cardId={3}
@@ -123,23 +112,25 @@ export default ({ onCheck }) => (
             }}
           />
         }
+        details={
+          <>
+            <Card.Labels
+              labels={[
+                { name: "Custom Work" },
+                { name: "Report back", color: "purple" },
+                { name: "Label", color: "transparent" }
+              ]}
+            />
+            <Card.Properties
+              properties={[
+                { name: "Department", value: "Sales" },
+                { name: "Assignee", value: "Me" }
+              ]}
+            />
+          </>
+        }
       >
-        <Card.TicketCard.Details
-          user={{
-            name: "John Doe",
-            email: "john.doe@example.com",
-            avatar: true
-          }}
-          labels={[
-            { name: "Custom Work" },
-            { name: "Report back", color: "purple" },
-            { name: "Label", color: "transparent" }
-          ]}
-          properties={[
-            { name: "Department", value: "Sales" },
-            { name: "Assignee", value: "Me" }
-          ]}
-        />
+        <UserInfo name="John Doe" email="john.doe@example.com" avatar />
       </Card.TicketCard>
       <Card.TicketCard
         cardId={4}
