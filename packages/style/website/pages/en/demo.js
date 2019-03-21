@@ -1199,7 +1199,7 @@ class Demo extends React.Component {
                             &gt;
                           </span>
                           Windfarms Windfarms Windfarms Windfarms Windfarms
-                          Windfarms Windfarms Windfarms Windfarms
+                          Windfarms Windfarms Windfarms
                         </span>
                       </span>
                       <span className="dp-TimeStatus">
