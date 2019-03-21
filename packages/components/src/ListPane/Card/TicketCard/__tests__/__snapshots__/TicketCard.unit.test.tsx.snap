@@ -58,7 +58,7 @@ exports[`<TicketCard /> should match its snapshot 1`] = `
     class="dp-LevelItem Level-justify-between"
   >
     <span
-      class="dp-LevelCol"
+      class="dp-LevelLeft"
     >
       <span
         class="dp-UserInfo"

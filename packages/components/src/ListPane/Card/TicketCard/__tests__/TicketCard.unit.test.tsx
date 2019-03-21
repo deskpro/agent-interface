@@ -5,6 +5,7 @@ import { addHours, addMinutes, subMinutes } from "date-fns";
 import ActivityStatus from "../../../../User/ActivityStatus/ActivityStatus";
 import Icon from "../../../../elements/Icon/Icon";
 import TicketCard from "../TicketCard";
+import UserInfo from "../../../../User/UserInfo/UserInfo";
 
 describe("<TicketCard />", () => {
   it("should match its snapshot", () => {
@@ -40,13 +41,7 @@ describe("<TicketCard />", () => {
           />
         }
       >
-        <TicketCard.Details
-          user={{
-            name: "John Doe",
-            email: "john.doe@example.com",
-            avatar: true
-          }}
-        />
+        <UserInfo name="John Doe" email="john.doe@example.com" avatar />
       </TicketCard>
     );
     expect(container.querySelector(".test-card")).toMatchSnapshot();

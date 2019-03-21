@@ -9,7 +9,8 @@ import inPercy from "@percy-io/in-percy";
 import {
   StandardKanban,
   Card,
-  Menu
+  Menu,
+  UserInfo
 } from "@deskpro/agent-interface-components";
 import ReactAvatar from "react-avatar";
 
@@ -142,13 +143,7 @@ const StandardKanbanDemo = ({ allowReorder, checkable }) => {
               </Menu>
             )}
           >
-            <Card.TicketCard.Details
-              user={{
-                name: "John Doe",
-                email: "john.doe@example.com",
-                avatar: true
-              }}
-            />
+            <UserInfo avatar name="John Doe" email="john.doe@example.com" />
           </Card.TicketCard>
         )}
       />
