@@ -1,15 +1,15 @@
 import * as React from "react";
 import classNames from "classnames";
-import { TransitionGroup, CSSTransition } from "react-transition-group";
 
 import Card from "../Card";
 import { SimpleCardProps } from "../Card/SimpleCard";
+import Checkbox from "../../inputs/Checkbox/Checkbox";
 import ScrollArea from "../../ScrollArea/ScrollArea";
 import { ListItem, ListItemGroup } from "../types";
 
 import "@deskpro/agent-interface-style/dist/components/dp-ListPane.css";
-import Checkbox from "../../inputs/Checkbox/Checkbox";
 import ListAddButton from "./AddButton";
+import AnimatedCards from "../Card/AnimatedCards";
 
 export interface ListSubComponents {
   AddButton: typeof ListAddButton;
@@ -72,13 +72,14 @@ const List: React.FC<ListProps> & ListSubComponents = ({
       ),
     [items]
   );
+
   return (
-    <Card.List className={classNames("dp-Show-Hide", className)}>
+    <Card.List className={classNames(className)}>
       <ScrollArea className="dp-List-items" style={{ height: scrollHeight }}>
         {groupedItems.map(({ group, items: groupItems }) => {
           const groupCheckState = getGroupCheckState(group.id);
           return (
-            <>
+            <React.Fragment key={group.id}>
               {group.id !== "DEFAULT" && (
                 <Card.SectionTitle>
                   <Checkbox
@@ -92,28 +93,17 @@ const List: React.FC<ListProps> & ListSubComponents = ({
                   {group.title}
                 </Card.SectionTitle>
               )}
-              <TransitionGroup component={null}>
-                {groupItems.map(item => (
-                  <CSSTransition
-                    classNames={{
-                      enterActive: "dp-Entering",
-                      enterDone: "dp-Entering-done",
-                      exitActive: "dp-Leaving"
-                    }}
-                    timeout={1000}
-                    appear={false}
-                    key={item.id}
-                  >
-                    {renderItem(item, {
-                      cardId: item.id,
-                      onCheck: onSelectToggle,
-                      checked: selected.includes(item.id),
-                      checkable: true
-                    })}
-                  </CSSTransition>
-                ))}
-              </TransitionGroup>
-            </>
+              <AnimatedCards items={groupItems}>
+                {item =>
+                  renderItem(item as ListItem, {
+                    cardId: item.id,
+                    onCheck: onSelectToggle,
+                    checked: selected.includes(item.id),
+                    checkable: true
+                  })
+                }
+              </AnimatedCards>
+            </React.Fragment>
           );
         })}
       </ScrollArea>

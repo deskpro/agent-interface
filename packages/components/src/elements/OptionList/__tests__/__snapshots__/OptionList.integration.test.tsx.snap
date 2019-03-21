@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<OptionList /> should match its snapshot 1`] = `
+<OptionList
+  checkable={true}
+  name="fields"
+>
+  <div
+    className="dp-OptionList dp-Menu"
+  >
+    <OptionListItem
+      checkable={true}
+      checked={true}
+      disabled={true}
+      key=".0"
+      name="agent"
+      title="Agent"
+    >
+      <div
+        className="dp-OptionList-item dp-Menu-linkItem dp-Uneditable"
+      >
+        <Checkbox
+          checked={true}
+          disabled={true}
+          id="agent"
+          label=""
+          name="agent"
+          onChange={[Function]}
+        >
+          <span
+            className="dp-CustomCheckbox"
+          >
+            <input
+              checked={true}
+              className="dp-ControlInput"
+              disabled={true}
+              id="agent"
+              name="agent"
+              onChange={[Function]}
+              type="checkbox"
+            />
+            <label
+              className=""
+              htmlFor="agent"
+            />
+          </span>
+        </Checkbox>
+        Agent
+      </div>
+    </OptionListItem>
+    <OptionListItem
+      checkable={true}
+      checked={true}
+      disabled={true}
+      key=".1"
+      name="title"
+      title="Title"
+    >
+      <div
+        className="dp-OptionList-item dp-Menu-linkItem dp-Uneditable"
+      >
+        <Checkbox
+          checked={true}
+          disabled={true}
+          id="title"
+          label=""
+          name="title"
+          onChange={[Function]}
+        >
+          <span
+            className="dp-CustomCheckbox"
+          >
+            <input
+              checked={true}
+              className="dp-ControlInput"
+              disabled={true}
+              id="title"
+              name="title"
+              onChange={[Function]}
+              type="checkbox"
+            />
+            <label
+              className=""
+              htmlFor="title"
+            />
+          </span>
+        </Checkbox>
+        Title
+      </div>
+    </OptionListItem>
+    <OptionListItem
+      checkable={true}
+      key=".2"
+      name="id"
+      title="ID"
+    >
+      <div
+        className="dp-OptionList-item dp-Menu-linkItem"
+      >
+        <Checkbox
+          id="id"
+          label=""
+          name="id"
+          onChange={[Function]}
+        >
+          <span
+            className="dp-CustomCheckbox"
+          >
+            <input
+              className="dp-ControlInput"
+              id="id"
+              name="id"
+              onChange={[Function]}
+              type="checkbox"
+            />
+            <label
+              className=""
+              htmlFor="id"
+            />
+          </span>
+        </Checkbox>
+        ID
+      </div>
+    </OptionListItem>
+  </div>
+</OptionList>
+`;

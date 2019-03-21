@@ -42,10 +42,10 @@ const kanbanReducer = produce((draft, { type, payload }) => {
     case "moveItem": {
       const { itemId, toGroupId, index } = payload;
       const itemIdx = _findIndex(draft, ["id", itemId]);
-      if (itemIdx > 0) {
+      if (itemIdx >= 0) {
         const [moved] = draft.splice(itemIdx, 1);
         const newGroupStartIdx = _findIndex(draft, ["group.id", toGroupId]);
-        if (newGroupStartIdx > 0) {
+        if (newGroupStartIdx >= 0) {
           moved.group = draft[newGroupStartIdx].group;
           draft.splice(newGroupStartIdx + index, 0, moved);
         } else {
@@ -60,7 +60,7 @@ const kanbanReducer = produce((draft, { type, payload }) => {
     case "loadMore": {
       const firstIdx = _findIndex(draft, ["group.id", payload.id]);
       const lastIdx = _findLastIndex(draft, ["group.id", payload.id]);
-      if (firstIdx > 0 && lastIdx >= firstIdx) {
+      if (firstIdx >= 0 && lastIdx >= firstIdx) {
         const columnIdx = columns.indexOf(payload.title);
         const itemsCount = lastIdx - firstIdx + 1;
         for (let i = 0; i < 10; i += 1) {
