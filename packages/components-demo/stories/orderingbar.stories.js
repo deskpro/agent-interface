@@ -8,7 +8,7 @@ import OptionListDemo from "./components/list-pane/OptionListDemo";
 
 storiesOf("OrderingBar", module)
   .add("Option List", () => (
-    <OptionList name="fields" checkable sortable onItemMove={action()}>
+    <OptionList name="fields" checkable sortable onOrderChange={action()}>
       <OptionList.Item name="agent" title="Agent" disabled checked />
       <OptionList.Item name="title" title="Title" disabled checked />
       <OptionList.Item name="user" title="User" disabled checked />
