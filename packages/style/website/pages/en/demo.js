@@ -5735,9 +5735,7 @@ class Demo extends React.Component {
                                   <div className="dp-AddSnippetsTitle">
                                     Snippet Title
                                   </div>
-                                  <textarea className="dp-ReplyEditor">
-                                    Snippet Content
-                                  </textarea>
+                                  <textarea className="dp-ReplyEditor" defaultValue="Snippet Content" />
                                   <div className="dp-SnippetsDescription">
                                     <div>
                                       Labels <a href="#">ADD</a>

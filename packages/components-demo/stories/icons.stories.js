@@ -62,6 +62,10 @@ storiesOf("Elements", module).add("Icons", () => (
         <pre className="dp-IconTitle">billing</pre>
       </span>
       <span className="dp-IconWrapper">
+        <Icon name="billing" color="primary" />
+        <pre className="dp-IconTitle">billing</pre>
+      </span>
+      <span className="dp-IconWrapper">
         <Icon name="billing-sidebar" />
         <pre className="dp-IconTitle">billing-sidebar</pre>
       </span>
