@@ -443,6 +443,11 @@
   margin-right: 5px;
 }
 
+.dp-Card-actionsRow > li .dp-Icon {
+  max-height: 15px;
+  max-width: 15px;
+}
+
 .dp-Comments .dp-txt {
   color: var(--grey-dark);
   font: var(--p-n);
@@ -706,6 +711,10 @@ input:disabled + label {
 
 .dp-Card.dp-Level.Card-news .dp-LevelCol:nth-child(2) {
   flex: 0 0 auto;
+}
+
+.dp-Card.Card-news .dp-Card-title {
+  margin-bottom: 10px;
 }
 
 /* Cards/glossary */

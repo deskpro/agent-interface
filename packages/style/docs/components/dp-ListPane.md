@@ -3899,19 +3899,6 @@ title: List View
                     </span>
                 </span>
 
-                <!-- Icon hover -->
-                <span class="dp-Cog">
-                    <span class="dp-Icon dp-settings"></span>
-                    <ul class="dp-Menu">
-                        <li class="dp-Menu-linkItem">
-                            <span class="dp-Icon dp-Bin"></span>
-                            <a href="#" class="dp-Menu-link">
-                                Delete
-                            </a>
-                        </li>
-                    </ul>
-                </span>
-
                 <span class="dp-LevelItem Level-justify-between">
                     <ul class="dp-LevelWrap">
                         <li>
@@ -3927,6 +3914,19 @@ title: List View
                         <span class="dp-Icon dp-iconComents"></span>
                         <span class="dp-Comments-title">Add comment<button class="dp-Arrow"></button></span>
                     </span>
+                </span>
+
+                <!-- Icon hover -->
+                <span class="dp-Cog">
+                    <span class="dp-Icon dp-settings"></span>
+                    <ul class="dp-Menu">
+                        <li class="dp-Menu-linkItem">
+                            <span class="dp-Icon dp-Bin"></span>
+                            <a href="#" class="dp-Menu-link">
+                                Delete
+                            </a>
+                        </li>
+                    </ul>
                 </span>
             </li>
 
