@@ -44,7 +44,7 @@ title: Badges
 
 # Labels
 ```html @preview
-<span class="dp-Labels">Default</span>
+<button class="dp-Button Button--label">Default<span class="dp-Icon dp-IconPlusBtn"></span></button>
 ```
 
 # Sizes

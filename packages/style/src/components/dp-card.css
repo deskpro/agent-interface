@@ -10,11 +10,10 @@
   cursor: pointer;
   display: flex;
   font: var(--p-xl);
+  max-height: 100%;
   padding: 8.8px 10px 10px;
   position: relative;
   width: 100%;
-
-  /* padding: 8.8px 8px 7.8px; */
 }
 
 .dp-Card.dp-Card-SectionTitle {
@@ -418,7 +417,7 @@
   height: 12px;
   position: absolute;
   right: 0;
-  top: calc(50% - 7px);
+  top: calc(50% - 6px);
   width: 12px;
 }
 

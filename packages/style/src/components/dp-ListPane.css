@@ -80,13 +80,16 @@
   color: var(--grey-darkest);
   cursor: pointer;
   display: block;
-  font: var(--h-s-semibold);
+  font: var(--p-n);
   min-height: 25px;
   min-width: 60px;
-  padding: 4px 21px 4px 6px;
+  padding: 0 21px 0 6px;
   position: relative;
   text-align: left;
   vertical-align: middle;
+
+  /*  padding: 4px 21px 4px 6px;
+  font: var(--h-s-semibold); */
 
   &.ActionButton--large {
     min-width: 141px;
@@ -229,7 +232,7 @@ input[type="checkbox"] + label,
   display: flex;
 }
 
-.dp-Tasks-list.dp-Card-SectionTitle > .dp-LevelCol .dp-Icon {
+.dp-Card-SectionTitle > .dp-ListName .dp-Icon {
   cursor: pointer;
   margin-right: 10px;
 }
@@ -238,8 +241,10 @@ input[type="checkbox"] + label,
   border-bottom: 0;
   font: var(--h-l-bold);
   line-height: 1.4;
-  margin-bottom: 0;
-  margin-right: 20px;
+
+  /*  margin-bottom: 0;
+  margin-right: 20px; */
+
 }
 
 .dp-Card-title .dp-qt {
@@ -668,6 +673,7 @@ input:disabled + label {
   display: flex;
   list-style: none;
   margin-right: 10px;
+  max-height: 16px;
   padding: 0;
   text-transform: uppercase;
 }
@@ -687,10 +693,10 @@ input:disabled + label {
   text-align: center;
 }
 
-.dp-vote li {
+/* .dp-vote li {
   display: inline-block;
   line-height: 1;
-}
+} */
 
 .dp-Card .dp-calendar {
   border: 1px solid var(--brand-primary);
@@ -936,6 +942,7 @@ input:disabled + label {
 
 .dp-Card.dp-Entering,
 .dp-Card.dp-Leaving {
+  border: 0;
   max-height: 0;
   overflow: hidden;
   padding-bottom: 0;
@@ -950,10 +957,10 @@ input:disabled + label {
   padding: 8.8px 10px 10px;
 }
 
-.dp-Card.dp-Entering-done {
+/* .dp-Card.dp-Entering-done {
   max-height: 100%;
   padding: 8.8px 10px 10px;
-}
+} */
 
 .dp-Card.dp-Leaving-active {
   background-color: var(--grey-lighter);

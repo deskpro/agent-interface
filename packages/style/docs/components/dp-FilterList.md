@@ -15,7 +15,7 @@ title: Filter list
 	<div class="dp-Tickets">
 
         <div class="dp-Card-SectionTitle dp-Tasks-list Level-justify-between">
-            <span class="dp-LevelCol dp-ListName">
+            <span class="dp-ListName">
                 <span class="dp-Icon Icon--menu"></span>
                 <span class="dp-Card-title">All tickets<span class="dp-qt">(90)</span></span>
                 <span class="dp-Icon Icon--down-caret Icon--primary"></span>
@@ -38,7 +38,7 @@ title: Filter list
 	<div class="dp-Tickets is-active">
 
         <div class="dp-Card-SectionTitle dp-Tasks-list Level-justify-between">
-            <span class="dp-LevelCol dp-ListName">
+            <span class="dp-ListName">
                 <span class="dp-Icon Icon--menu"></span>
                 <span class="dp-Card-title">All tickets<span class="dp-qt">(90)</span></span>
                 <span class="dp-Icon Icon--down-caret Icon--primary"></span>

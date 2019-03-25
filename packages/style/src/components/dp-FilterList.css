@@ -45,15 +45,20 @@
 }
 
 .dp-Card-SectionTitle.dp-Tasks-list {
-  padding: 15px 15px 15px 10px;
+
+  /* padding: 15px 15px 15px 10px; */
+  padding: 15px 10px;
 }
 
-.dp-Card-SectionTitle.dp-Tasks-list .dp-ListName {
+/* .dp-Card-SectionTitle.dp-Tasks-list .dp-ListName {
   align-items: center;
   display: flex;
-}
+  width: 100%;
+} */
 
-.dp-Tickets .dp-ListName {
+/* .dp-Tickets .dp-ListName { */
+
+.dp-ListName {
   align-items: center;
   cursor: pointer;
   display: flex;
@@ -105,6 +110,10 @@
 .dp-LabelGroup {
   display: flex;
   margin-bottom: 5px;
+}
+
+.dp-SubMenu .dp-LabelGroup:first-child {
+  margin-top: 5px;
 }
 
 .dp-SubMenu .dp-LabelFiltersName {
@@ -251,14 +260,14 @@
   margin: 0 0 10px;
 }
 
-.dp-TicketMenuItem.dp-SavedSearches .dp-SubMenu li:last-child {
+/* .dp-TicketMenuItem.dp-SavedSearches .dp-SubMenu li:last-child {
   margin: 0;
-}
+} */
 
 /* add class --.Tickets--Lock in --.dp-Tickets */
 
-.dp-FilterlistContainer .dp-Tickets .dp-Tasks-list .dp-Card-title {
-  margin-right: 5px;
+.dp-Tasks-list .dp-Card-title {
+  margin-right: 10px;
   position: inherit;
 }
 

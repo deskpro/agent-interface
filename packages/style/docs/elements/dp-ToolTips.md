@@ -97,10 +97,10 @@ title: Tool tips
 ```html @preview
 <div class="dp-MainWrapper demo-tooltip" style="height: 200px;">
 
-	<div class="dp-ToolTips ToolTips--Locked ToolTips--Warning is-active">
+	<div class="dp-ToolTips ToolTips--Locked ToolTips--Danger is-active">
 		<div class="dp-ToolTipsUp">
-			<span class="dp-Icon dp-Lock Icon--warning"></span>
-			<p>Ticket locked by</p>
+			<span class="dp-Icon dp-Lock Icon--danger"></span>
+			<p class="dp-TitleTooltip">Ticket locked by</p>
 		</div>
 		<div class="dp-ToolTipsDown">
 			<p class="dp-UserTitleInfo">
@@ -123,11 +123,11 @@ title: Tool tips
 ```html @preview
 <div class="dp-MainWrapper demo-tooltip" style="height: 200px;">
 
-	<div class="dp-ToolTips ToolTips--Locked ToolTips--Warning is-active">
+	<div class="dp-ToolTips ToolTips--Locked ToolTips--Danger is-active">
 		<div class="dp-ToolTipsUp">
-			<span class="dp-Icon dp-Lock Icon--warning"></span>
+			<span class="dp-Icon dp-Lock Icon--danger"></span>
 			<p class="dp-TitleTooltip">Ticket locked by</p>
-			<span class="dp-Icon Icon--unlock Icon--warning"></span>
+			<span class="dp-Icon Icon--unlock Icon--danger"></span>
 		</div>
 		<div class="dp-ToolTipsDown">
 			<p class="dp-UserTitleInfo">
@@ -147,9 +147,9 @@ title: Tool tips
 ```html @preview
 <div class="dp-MainWrapper demo-tooltip" style="height: 200px;">
 
-	<div class="dp-ToolTips ToolTips--Spam ToolTips--Warning is-active">
+	<div class="dp-ToolTips ToolTips--Spam ToolTips--Danger is-active">
 		<div class="dp-ToolTipsUp">
-			<span class="dp-Icon dp-Span Icon--warning"></span>
+			<span class="dp-Icon dp-Span Icon--danger"></span>
 			<p class="dp-TitleTooltip">Ticket has been marked as Spam</p>
 		</div>
 		<div class="dp-ToolTipsDown">

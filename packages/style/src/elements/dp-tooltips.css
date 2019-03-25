@@ -64,11 +64,11 @@
   padding: 10px 20px;
 }
 
+/* WarningDelete Tooltip */
+
 .ToolTips--Warning .dp-ToolTipsUp > .dp-Icon svg {
   fill: var(--warning);
 }
-
-/* WarningDelete Tooltip */
 
 .dp-ToolTips.ToolTips--Warning .dp-ToolTipsUp {
   background-color: var(--warning-light);
@@ -77,10 +77,6 @@
 
 .dp-ToolTips.ToolTips--Warning {
   border: 1px solid var(--warning);
-}
-
-.ToolTips--Warning .dp-ToolTipsUp > .dp-Icon svg {
-  fill: var(--warning);
 }
 
 .ToolTips--Warning .dp-ToolTipsDown {
@@ -142,6 +138,21 @@
 
 .dp-ToolTips.ToolTips--Warning .dp-ButtonWrapper {
   padding: 0 20px 10px;
+}
+
+/* Danger Tooltip */
+
+.ToolTips--Danger .dp-ToolTipsUp > .dp-Icon svg {
+  fill: var(--danger);
+}
+
+.dp-ToolTips.ToolTips--Danger .dp-ToolTipsUp {
+  background-color: var(--danger-light);
+  color: var(--danger);
+}
+
+.dp-ToolTips.ToolTips--Danger {
+  border: 1px solid var(--danger);
 }
 
 /* Success Tooltip */

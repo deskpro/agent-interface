@@ -161,12 +161,18 @@
   /* label button */
 
   &.Button--label {
+    align-items: center;
     background: var(--white);
     border: 1px solid var(--grey);
+    border-radius: 2px;
     color: var(--grey-darkest);
+    display: flex;
     font: var(--p-s);
+    height: 16px;
     max-width: max-content;
-    padding: 3px 25px 3px 5px;
+    padding: 0 25px 0 5px;
+
+    /* padding: 3px 25px 3px 5px; */
 
     &:hover {
       background: #eff6fc;
@@ -232,8 +238,8 @@
 
   &.Button--large.Button--square {
     background-color: transparent;
-    max-height: 22px;
-    max-width: 22px;
+    max-height: 15px;
+    max-width: 15px;
     padding: 0;
   }
 

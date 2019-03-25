@@ -60,6 +60,10 @@
   margin-right: 10px;
 }
 
+.dp-ButtonContainer .dp-Button.Button--actions {
+  margin: 10px;
+}
+
 /* hover - Button/add-round */
 
 .dp-Button.Button--round:hover .dp-Icon {
@@ -69,9 +73,9 @@
 
 /* hover - Button/add-round-small */
 
-.dp-Button.Button--link:hover > .dp-Icon {
+/* .dp-Button.Button--link:hover > .dp-Icon {
   background-image: url('data:image/svg+xml,<svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0)"><path fill-rule="evenodd" clip-rule="evenodd" d="M0.549988 5.84999C0.549988 2.74999 3.14999 0.149994 6.24999 0.149994C9.44999 0.149994 11.95 2.74999 11.95 5.84999C11.95 8.94999 9.34999 11.55 6.24999 11.55C3.14999 11.55 0.549988 8.94999 0.549988 5.84999ZM6.74999 5.45H9.54999C9.74999 5.45 9.94999 5.75 9.94999 5.95C9.94999 6.15 9.74999 6.35 9.54999 6.35H6.74999V9.15C6.74999 9.35 6.44999 9.55 6.24999 9.55C6.04999 9.55 5.84999 9.35 5.84999 9.15V6.25H3.04999C2.84999 6.25 2.64999 6.05 2.64999 5.85C2.64999 5.65 2.84999 5.45 3.04999 5.45H5.84999V2.65C5.84999 2.45 6.14999 2.25 6.34999 2.25C6.54999 2.25 6.74999 2.45 6.74999 2.65V5.45Z" fill="%234b93cf"/></g><defs><clipPath id="clip0"><rect width="11.5" height="11.5" fill="white" transform="translate(0.549988 0.149994)"/></clipPath></defs></svg>');
-}
+} */
 
 /* hover - Button--actions */
 
@@ -82,5 +86,5 @@
 /* hover - Button/add-square  */
 
 .dp-Button.Button--small.Button--square:hover > .dp-Icon {
-  background-image: url('data:image/svg+xml,<svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.90015 17.2999C2.10015 17.2999 1.40015 16.5999 1.40015 15.7999V2.3999C1.40015 1.5999 2.10015 0.899902 2.90015 0.899902H16.9001C17.7001 0.899902 18.4001 1.5999 18.4001 2.3999V15.7999C18.4001 16.5999 17.7001 17.2999 16.9001 17.2999H2.90015Z" fill="%23ebf4fc"/><path d="M16.9001 1.3999C17.5001 1.3999 17.9001 1.7999 17.9001 2.3999V15.7999C17.9001 16.3999 17.5001 16.7999 16.9001 16.7999H2.90015C2.30015 16.7999 1.90015 16.3999 1.90015 15.7999V2.3999C1.90015 1.7999 2.30015 1.3999 2.90015 1.3999H16.9001ZM16.9001 0.399902H2.90015C1.80015 0.399902 0.900146 1.2999 0.900146 2.3999V15.7999C0.900146 16.8999 1.80015 17.7999 2.90015 17.7999H16.9001C18.0001 17.7999 18.9001 16.8999 18.9001 15.7999V2.3999C18.9001 1.2999 18.0001 0.399902 16.9001 0.399902Z" fill="%23D4D7D8"/><path d="M13.2004 8.9397H8.20044" stroke="#999999" stroke-miterlimit="10" stroke-linecap="round"/><path d="M10.7004 11.3397V6.4397" stroke="#999999" stroke-miterlimit="10" stroke-linecap="round"/></svg>');
+  background-image: url('data:image/svg+xml,<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0.784065 14.3V14.2H0.55616C0.523586 14.0514 0.5 13.8409 0.5 13.6V1.1C0.5 0.85908 0.523586 0.648609 0.55616 0.5H14.3188C14.3514 0.648609 14.375 0.85908 14.375 1.1V13.7C14.375 13.9409 14.3514 14.1514 14.3188 14.3H0.784065Z" fill="%23ebf4fc" stroke="#D3D6D7"/><g clip-path="url(#clip0)"><path d="M10.5 7.06433H8.00495V4.55005H6.99505V7.06433H4.5V8.03576H6.99505V10.55H8.00495V8.03576H10.5V7.06433Z" fill="#979797"/></g><defs><clipPath id="clip0"><rect width="6" height="6" fill="white" transform="translate(4.5 4.55005)"/></clipPath></defs></svg>');
 }

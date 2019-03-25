@@ -20,10 +20,13 @@ title: Publish
 	<div class="dp-FilterlistContainer">
 
 		<div class="dp-Tickets is-active">
-			<div class="dp-Card-SectionTitle dp-Tasks-list Level-justify-between">
-				<span class="dp-LevelCol dp-ListName">
-					<span class="dp-Icon Icon--menu"></span>
-					<span class="dp-Card-title">Published Approvals <span class="dp-qt">(12)</span></span>
+			<div class="dp-Card-SectionTitle dp-Tasks-list">
+
+				<span class="dp-ListName">
+					<span class="dp-Icon Icon--menu Icon--primary"></span>
+                    <span class="dp-Card-title">
+                        Published Approvals<span class="dp-qt">(12)</span>
+                    </span>
 					<span class="dp-Icon Icon--down-caret Icon--primary"></span>
 				</span>
 
@@ -195,7 +198,7 @@ title: Publish
         <ul class="dp-CardList is-hoverable">
 
             <li class="dp-Card-SectionTitle dp-Tasks-list Level-justify-between">
-                <span class="dp-LevelCol dp-ListName">
+                <span class="dp-ListName">
                     <span class="dp-Icon Icon--menu"></span>
                     <span class="dp-Card-title">Saved searches</span>
                     <span class="dp-Icon Icon--down-caret Icon--primary"></span>
@@ -1896,152 +1899,144 @@ title: Publish
             </li>
 
 			<!-- 1 -->
-			<li class="dp-Card dp-Level">
-				<span class="dp-LevelItem">
+            <li class="dp-Card">
+                <span class="dp-LevelItem Level-justify-between">
+                    <span class="dp-CustomCheckbox dp-LevelLeft dp-LevelTop">
+                        <input type="checkbox" class="dp-ControlInput" id="cards-feedback-3-1"></input>
+                        <label for="cards-feedback-3-1"></label>
 
-					<span class="dp-LevelCol dp-LevelTop">
-						<span class="dp-CustomCheckbox">
-							<input type="checkbox" class="dp-ControlInput" id="cards-feedback-3"></input>
-							<label for="cards-feedback-3"></label>
-						</span>
-					</span>
+                        <span class="dp-Title Title-Icon">
+                            <span class="dp-Icon dp-Acrobat"></span>
+                            <span class="dp-Card-title">Feedback_guide.pdf <span class="dp-qt">(56kb)</span></span>
+                        </span>
 
-					<span class="dp-LevelCol">
-						<span class="dp-Title Title-Icon">
-							<span class="dp-Icon dp-Acrobat"></span>
-							<span class="dp-Card-title">Feedback_guide.pdf<span class="dp-qt">(56kb)</span></span>
-						</span>
-						<ul class="dp-LevelWrap">
-							<li>
-								<span class="dp-Icon dp-iconUserAvatar"></span>
-								<span class="dp-UserName">Toby falkirk</span>
-							</li>
-						</ul>
-					</span>
-
-				</span>
-			</li>
-
+                    </span>
+                </span>
+                <span class="dp-LevelItem Level-justify-between">
+                    <span class="dp-LevelLeft">
+                        <ul class="dp-LevelWrap">
+                            <li>
+                                <span class="dp-Icon dp-iconUserAvatar"></span>
+                                <span class="dp-UserName">Toby falkirk</span>
+                            </li>
+                        </ul>
+                    </span>
+                </span>
+            </li>
 
             <!-- 2 -->
-			<li class="dp-Card dp-Level">
-			    <span class="dp-LevelItem">
+            <li class="dp-Card">
+                <span class="dp-LevelItem Level-justify-between">
+                    <span class="dp-CustomCheckbox dp-LevelLeft dp-LevelTop">
+                        <input type="checkbox" class="dp-ControlInput" id="cards-feedback-3-2"></input>
+                        <label for="cards-feedback-3-2"></label>
 
-			        <span class="dp-LevelCol dp-LevelTop">
-			            <span class="dp-CustomCheckbox">
-			                <input type="checkbox" class="dp-ControlInput" id="cards-feedback-1"></input>
-			                <label for="cards-feedback-1"></label>
-			            </span>
-			        </span>
+                        <span class="dp-Title Title-Icon">
+                            <ul class="dp-vote">
+                                <li>38</li>
+                                <li>votes</li>
+                            </ul>
+                            <span class="dp-Card-title">Option to choose if the enduser should be notified</span>
+                        </span>
 
-			        <span class="dp-LevelCol">
-			            <span class="dp-Title Title-Icon">
-			                <ul class="dp-vote">
-			                    <li>38</li>
-			                    <li>votes</li>
-			                </ul>
-			                <span class="dp-Card-title">Option to choose if the enduser should be notified</span>
-			            </span>
-
-			            <ul class="dp-LevelWrap">
-			                <li>
-			                    <span class="dp-Icon dp-iconUserAvatar"></span>
-			                    <span class="dp-UserName">Toby falkirk</span>
-			                </li>
-			            </ul>
-			        </span>
-
-			    </span>
-			</li>
+                    </span>
+                </span>
+                <span class="dp-LevelItem Level-justify-between">
+                    <span class="dp-LevelLeft">
+                        <ul class="dp-LevelWrap">
+                            <li>
+                                <span class="dp-Icon dp-iconUserAvatar"></span>
+                                <span class="dp-UserName">Toby falkirk</span>
+                            </li>
+                        </ul>
+                    </span>
+                </span>
+            </li>
 
             <!-- 3 -->
-			<li class="dp-Card dp-Level Card-news">
-			    <span class="dp-LevelItem">
+            <li class="dp-Card dp-Level Card-news">
+                <span class="dp-LevelItem">
 
-			        <span class="dp-LevelCol dp-LevelTop">
-			            <span class="dp-CustomCheckbox">
-			                <input type="checkbox" class="dp-ControlInput" id="cards-feedback-2"></input>
-			                <label for="cards-feedback-2"></label>
-			            </span>
-			        </span>
+                    <span class="dp-LevelCol dp-LevelTop">
+                        <span class="dp-CustomCheckbox">
+                            <input type="checkbox" class="dp-ControlInput" id="cards-feedback-3-3"></input>
+                            <label for="cards-feedback-3-3"></label>
+                        </span>
+                    </span>
 
-			        <span class="dp-LevelCol">
-			            <ul class="dp-calendar">
-			                <li>Aug</li>
-			                <li>20</li>
-			            </ul>
-			        </span>
+                    <span class="dp-LevelCol">
+                        <ul class="dp-calendar">
+                            <li>Nov</li>
+                            <li>18</li>
+                        </ul>
+                    </span>
 
-			        <span class="dp-LevelCol">
-			            <span class="dp-Card-title">News article title</span>
-			            <ul class="dp-LevelWrap">
-			                <li>
-			                    <span class="dp-Icon dp-iconUserAvatar"></span>
-			                    <span class="dp-UserName">Toby falkirk</span>
-			                </li>
-			            </ul>
-			        </span>
-
-			    </span>
-			</li>
+                    <span class="dp-LevelCol">
+                        <span class="dp-Card-title">News item title here</span>
+                        <ul class="dp-LevelWrap">
+                            <li>
+                                <span class="dp-Icon dp-iconUserAvatar"></span>
+                                <span class="dp-UserName">Toby falkirk</span>
+                            </li>
+                        </ul>
+                    </span>
+                </span>
+            </li>
 
             <!-- 4 -->
-			<li class="dp-Card dp-Level">
-			    <span class="dp-LevelItem">
+            <li class="dp-Card">
+                <span class="dp-LevelItem Level-justify-between">
+                    <span class="dp-CustomCheckbox dp-LevelLeft dp-LevelTop">
+                        <input type="checkbox" class="dp-ControlInput" id="cards-feedback-3-4"></input>
+                        <label for="cards-feedback-3-4"></label>
 
-			        <span class="dp-LevelCol dp-LevelTop">
-			            <span class="dp-CustomCheckbox">
-			                <input type="checkbox" class="dp-ControlInput" id="cards-feedback-1"></input>
-			                <label for="cards-feedback-1"></label>
-			            </span>
-			        </span>
+                        <span class="dp-Title Title-Icon">
+                            <ul class="dp-vote">
+                                <li>38</li>
+                                <li>votes</li>
+                            </ul>
+                            <span class="dp-Card-title">I want to be able to create a user while creating a</span>
+                        </span>
 
-			        <span class="dp-LevelCol">
-			            <span class="dp-Title Title-Icon">
-			                <ul class="dp-vote">
-			                    <li>38</li>
-			                    <li>votes</li>
-			                </ul>
-			                <span class="dp-Card-title">I want to be able to create a user while creating a</span>
-			            </span>
-
-			            <ul class="dp-LevelWrap">
-			                <li>
-			                    <span class="dp-Icon dp-iconUserAvatar"></span>
-			                    <span class="dp-UserName">Toby falkirk</span>
-			                </li>
-			            </ul>
-			        </span>
-			        
-			    </span>
-			</li>
+                    </span>
+                </span>
+                <span class="dp-LevelItem Level-justify-between">
+                    <span class="dp-LevelLeft">
+                        <ul class="dp-LevelWrap">
+                            <li>
+                                <span class="dp-Icon dp-iconUserAvatar"></span>
+                                <span class="dp-UserName">Toby falkirk</span>
+                            </li>
+                        </ul>
+                    </span>
+                </span>
+            </li>
 
             <!-- 5 -->
-			<li class="dp-Card dp-Level">
-				<span class="dp-LevelItem">
+            <li class="dp-Card">
+                <span class="dp-LevelItem Level-justify-between">
+                    <span class="dp-CustomCheckbox dp-LevelLeft dp-LevelTop">
+                        <input type="checkbox" class="dp-ControlInput" id="cards-feedback-3-5"></input>
+                        <label for="cards-feedback-3-5"></label>
 
-					<span class="dp-LevelCol dp-LevelTop">
-						<span class="dp-CustomCheckbox">
-							<input type="checkbox" class="dp-ControlInput" id="cards-feedback-3"></input>
-							<label for="cards-feedback-3"></label>
-						</span>
-					</span>
+                        <span class="dp-Title Title-Icon">
+                            <span class="dp-Icon dp-Acrobat"></span>
+                            <span class="dp-Card-title">Feedback_guide.pdf <span class="dp-qt">(56kb)</span></span>
+                        </span>
 
-					<span class="dp-LevelCol">
-						<span class="dp-Title Title-Icon">
-							<span class="dp-Icon dp-Acrobat"></span>
-							<span class="dp-Card-title">Feedback_guide.pdf<span class="dp-qt">(56kb)</span></span>
-						</span>
-						<ul class="dp-LevelWrap">
-							<li>
-								<span class="dp-Icon dp-iconUserAvatar"></span>
-								<span class="dp-UserName">Toby falkirk</span>
-							</li>
-						</ul>
-					</span>
-
-				</span>
-			</li>
+                    </span>
+                </span>
+                <span class="dp-LevelItem Level-justify-between">
+                    <span class="dp-LevelLeft">
+                        <ul class="dp-LevelWrap">
+                            <li>
+                                <span class="dp-Icon dp-iconUserAvatar"></span>
+                                <span class="dp-UserName">Toby falkirk</span>
+                            </li>
+                        </ul>
+                    </span>
+                </span>
+            </li>
 
             <!-- 6 -->
 			<li class="dp-Card dp-Level Card-news">
@@ -2049,8 +2044,8 @@ title: Publish
 
 			        <span class="dp-LevelCol dp-LevelTop">
 			            <span class="dp-CustomCheckbox">
-			                <input type="checkbox" class="dp-ControlInput" id="cards-feedback-2"></input>
-			                <label for="cards-feedback-2"></label>
+			                <input type="checkbox" class="dp-ControlInput" id="cards-feedback-3-6"></input>
+			                <label for="cards-feedback-3-6"></label>
 			            </span>
 			        </span>
 
@@ -2075,66 +2070,62 @@ title: Publish
 			</li>
 
             <!-- 7 -->
-			<li class="dp-Card dp-Level">
-			    <span class="dp-LevelItem">
+            <li class="dp-Card">
+                <span class="dp-LevelItem Level-justify-between">
+                    <span class="dp-CustomCheckbox dp-LevelLeft dp-LevelTop">
+                        <input type="checkbox" class="dp-ControlInput" id="cards-feedback-3-7"></input>
+                        <label for="cards-feedback-3-7"></label>
 
-			        <span class="dp-LevelCol dp-LevelTop">
-			            <span class="dp-CustomCheckbox">
-			                <input type="checkbox" class="dp-ControlInput" id="cards-feedback-1"></input>
-			                <label for="cards-feedback-1"></label>
-			            </span>
-			        </span>
+                        <span class="dp-Title Title-Icon">
+                            <ul class="dp-vote">
+                                <li>38</li>
+                                <li>votes</li>
+                            </ul>
+                            <span class="dp-Card-title">I want to be able to create a user while creating a...</span>
+                        </span>
 
-			        <span class="dp-LevelCol">
-			            <span class="dp-Title Title-Icon">
-			                <ul class="dp-vote">
-			                    <li>38</li>
-			                    <li>votes</li>
-			                </ul>
-			                <span class="dp-Card-title">I want to be able to create a user while creating a...</span>
-			            </span>
-
-			            <ul class="dp-LevelWrap">
-			                <li>
-			                    <span class="dp-Icon dp-iconUserAvatar"></span>
-			                    <span class="dp-UserName">Toby falkirk</span>
-			                </li>
-			            </ul>
-			        </span>
-			        
-			    </span>
-			</li>
+                    </span>
+                </span>
+                <span class="dp-LevelItem Level-justify-between">
+                    <span class="dp-LevelLeft">
+                        <ul class="dp-LevelWrap">
+                            <li>
+                                <span class="dp-Icon dp-iconUserAvatar"></span>
+                                <span class="dp-UserName">Toby falkirk</span>
+                            </li>
+                        </ul>
+                    </span>
+                </span>
+            </li>
 
             <!-- 8 -->
-			<li class="dp-Card dp-Level">
-			    <span class="dp-LevelItem">
+            <li class="dp-Card">
+                <span class="dp-LevelItem Level-justify-between">
+                    <span class="dp-CustomCheckbox dp-LevelLeft dp-LevelTop">
+                        <input type="checkbox" class="dp-ControlInput" id="cards-feedback-3-8"></input>
+                        <label for="cards-feedback-3-8"></label>
 
-			        <span class="dp-LevelCol dp-LevelTop">
-			            <span class="dp-CustomCheckbox">
-			                <input type="checkbox" class="dp-ControlInput" id="cards-feedback-1"></input>
-			                <label for="cards-feedback-1"></label>
-			            </span>
-			        </span>
+                        <span class="dp-Title Title-Icon">
+                            <ul class="dp-vote">
+                                <li>38</li>
+                                <li>votes</li>
+                            </ul>
+                            <span class="dp-Card-title">Option to choose if the enduser should be notified...</span>
+                        </span>
 
-			        <span class="dp-LevelCol">
-			            <span class="dp-Title Title-Icon">
-			                <ul class="dp-vote">
-			                    <li>38</li>
-			                    <li>votes</li>
-			                </ul>
-			                <span class="dp-Card-title">Option to choose if the enduser should be notified...</span>
-			            </span>
-
-			            <ul class="dp-LevelWrap">
-			                <li>
-			                    <span class="dp-Icon dp-iconUserAvatar"></span>
-			                    <span class="dp-UserName">Toby falkirk</span>
-			                </li>
-			            </ul>
-			        </span>
-			        
-			    </span>
-			</li>
+                    </span>
+                </span>
+                <span class="dp-LevelItem Level-justify-between">
+                    <span class="dp-LevelLeft">
+                        <ul class="dp-LevelWrap">
+                            <li>
+                                <span class="dp-Icon dp-iconUserAvatar"></span>
+                                <span class="dp-UserName">Toby falkirk</span>
+                            </li>
+                        </ul>
+                    </span>
+                </span>
+            </li>
 
             <!-- 9 -->
 			<li class="dp-Card dp-Level Card-news">
@@ -2142,8 +2133,8 @@ title: Publish
 
 			        <span class="dp-LevelCol dp-LevelTop">
 			            <span class="dp-CustomCheckbox">
-			                <input type="checkbox" class="dp-ControlInput" id="cards-feedback-2"></input>
-			                <label for="cards-feedback-2"></label>
+			                <input type="checkbox" class="dp-ControlInput" id="cards-feedback-3-9"></input>
+			                <label for="cards-feedback-3-9"></label>
 			            </span>
 			        </span>
 
@@ -2168,62 +2159,59 @@ title: Publish
 			</li>
 
             <!-- 10 -->
-			<li class="dp-Card dp-Level">
-			    <span class="dp-LevelItem">
+            <li class="dp-Card">
+                <span class="dp-LevelItem Level-justify-between">
+                    <span class="dp-CustomCheckbox dp-LevelLeft dp-LevelTop">
+                        <input type="checkbox" class="dp-ControlInput" id="cards-feedback-3-10"></input>
+                        <label for="cards-feedback-3-10"></label>
 
-			        <span class="dp-LevelCol dp-LevelTop">
-			            <span class="dp-CustomCheckbox">
-			                <input type="checkbox" class="dp-ControlInput" id="cards-feedback-1"></input>
-			                <label for="cards-feedback-1"></label>
-			            </span>
-			        </span>
+                        <span class="dp-Title Title-Icon">
+                            <ul class="dp-vote">
+                                <li>38</li>
+                                <li>votes</li>
+                            </ul>
+                            <span class="dp-Card-title">I want to be able to create a user while creating a...</span>
+                        </span>
 
-			        <span class="dp-LevelCol">
-			            <span class="dp-Title Title-Icon">
-			                <ul class="dp-vote">
-			                    <li>38</li>
-			                    <li>votes</li>
-			                </ul>
-			                <span class="dp-Card-title">I want to be able to create a user while creating a...</span>
-			            </span>
-
-			            <ul class="dp-LevelWrap">
-			                <li>
-			                    <span class="dp-Icon dp-iconUserAvatar"></span>
-			                    <span class="dp-UserName">Toby falkirk</span>
-			                </li>
-			            </ul>
-			        </span>
-			        
-			    </span>
-			</li>
+                    </span>
+                </span>
+                <span class="dp-LevelItem Level-justify-between">
+                    <span class="dp-LevelLeft">
+                        <ul class="dp-LevelWrap">
+                            <li>
+                                <span class="dp-Icon dp-iconUserAvatar"></span>
+                                <span class="dp-UserName">Toby falkirk</span>
+                            </li>
+                        </ul>
+                    </span>
+                </span>
+            </li>
 
 			<!-- 11 -->
-			<li class="dp-Card dp-Level">
-				<span class="dp-LevelItem">
+            <li class="dp-Card">
+                <span class="dp-LevelItem Level-justify-between">
+                    <span class="dp-CustomCheckbox dp-LevelLeft dp-LevelTop">
+                        <input type="checkbox" class="dp-ControlInput" id="cards-feedback-3-11"></input>
+                        <label for="cards-feedback-3-11"></label>
 
-					<span class="dp-LevelCol dp-LevelTop">
-						<span class="dp-CustomCheckbox">
-							<input type="checkbox" class="dp-ControlInput" id="cards-feedback-3"></input>
-							<label for="cards-feedback-3"></label>
-						</span>
-					</span>
+                        <span class="dp-Title Title-Icon">
+                            <span class="dp-Icon dp-Acrobat"></span>
+                            <span class="dp-Card-title">Feedback_guide.pdf <span class="dp-qt">(56kb)</span></span>
+                        </span>
 
-					<span class="dp-LevelCol">
-						<span class="dp-Title Title-Icon">
-							<span class="dp-Icon dp-Acrobat"></span>
-							<span class="dp-Card-title">Feedback_guide.pdf<span class="dp-qt">(56kb)</span></span>
-						</span>
-						<ul class="dp-LevelWrap">
-							<li>
-								<span class="dp-Icon dp-iconUserAvatar"></span>
-								<span class="dp-UserName">Toby falkirk</span>
-							</li>
-						</ul>
-					</span>
-
-				</span>
-			</li>
+                    </span>
+                </span>
+                <span class="dp-LevelItem Level-justify-between">
+                    <span class="dp-LevelLeft">
+                        <ul class="dp-LevelWrap">
+                            <li>
+                                <span class="dp-Icon dp-iconUserAvatar"></span>
+                                <span class="dp-UserName">Toby falkirk</span>
+                            </li>
+                        </ul>
+                    </span>
+                </span>
+            </li>
 
 			<!-- 12 -->
 			<li class="dp-Card dp-Level Card-news">
@@ -2231,8 +2219,8 @@ title: Publish
 
 			        <span class="dp-LevelCol dp-LevelTop">
 			            <span class="dp-CustomCheckbox">
-			                <input type="checkbox" class="dp-ControlInput" id="cards-feedback-2"></input>
-			                <label for="cards-feedback-2"></label>
+			                <input type="checkbox" class="dp-ControlInput" id="cards-feedback-3-12"></input>
+			                <label for="cards-feedback-3-12"></label>
 			            </span>
 			        </span>
 
@@ -2257,120 +2245,114 @@ title: Publish
 			</li>
 
 			<!-- 13 -->
-			<li class="dp-Card dp-Level">
-			    <span class="dp-LevelItem">
+            <li class="dp-Card">
+                <span class="dp-LevelItem Level-justify-between">
+                    <span class="dp-CustomCheckbox dp-LevelLeft dp-LevelTop">
+                        <input type="checkbox" class="dp-ControlInput" id="cards-feedback-3-13"></input>
+                        <label for="cards-feedback-3-13"></label>
 
-			        <span class="dp-LevelCol dp-LevelTop">
-			            <span class="dp-CustomCheckbox">
-			                <input type="checkbox" class="dp-ControlInput" id="cards-feedback-1"></input>
-			                <label for="cards-feedback-1"></label>
-			            </span>
-			        </span>
+                        <span class="dp-Title Title-Icon">
+                            <ul class="dp-vote">
+                                <li>38</li>
+                                <li>votes</li>
+                            </ul>
+                            <span class="dp-Card-title">Option to choose if the enduser should be notified...</span>
+                        </span>
 
-			        <span class="dp-LevelCol">
-			            <span class="dp-Title Title-Icon">
-			                <ul class="dp-vote">
-			                    <li>38</li>
-			                    <li>votes</li>
-			                </ul>
-			                <span class="dp-Card-title">Option to choose if the enduser should be notified...</span>
-			            </span>
-
-			            <ul class="dp-LevelWrap">
-			                <li>
-			                    <span class="dp-Icon dp-iconUserAvatar"></span>
-			                    <span class="dp-UserName">Toby falkirk</span>
-			                </li>
-			            </ul>
-			        </span>
-			        
-			    </span>
-			</li>
+                    </span>
+                </span>
+                <span class="dp-LevelItem Level-justify-between">
+                    <span class="dp-LevelLeft">
+                        <ul class="dp-LevelWrap">
+                            <li>
+                                <span class="dp-Icon dp-iconUserAvatar"></span>
+                                <span class="dp-UserName">Toby falkirk</span>
+                            </li>
+                        </ul>
+                    </span>
+                </span>
+            </li>
 
 			<!-- 14 -->
-			<li class="dp-Card dp-Level">
-				<span class="dp-LevelItem">
+            <li class="dp-Card">
+                <span class="dp-LevelItem Level-justify-between">
+                    <span class="dp-CustomCheckbox dp-LevelLeft dp-LevelTop">
+                        <input type="checkbox" class="dp-ControlInput" id="cards-feedback-3-14"></input>
+                        <label for="cards-feedback-3-14"></label>
 
-					<span class="dp-LevelCol dp-LevelTop">
-						<span class="dp-CustomCheckbox">
-							<input type="checkbox" class="dp-ControlInput" id="cards-feedback-3"></input>
-							<label for="cards-feedback-3"></label>
-						</span>
-					</span>
+                        <span class="dp-Title Title-Icon">
+                            <span class="dp-Icon dp-Acrobat"></span>
+                            <span class="dp-Card-title">Feedback_guide.pdf <span class="dp-qt">(56kb)</span></span>
+                        </span>
 
-					<span class="dp-LevelCol">
-						<span class="dp-Title Title-Icon">
-							<span class="dp-Icon dp-Acrobat"></span>
-							<span class="dp-Card-title">Feedback_guide.pdf<span class="dp-qt">(56kb)</span></span>
-						</span>
-						<ul class="dp-LevelWrap">
-							<li>
-								<span class="dp-Icon dp-iconUserAvatar"></span>
-								<span class="dp-UserName">Toby falkirk</span>
-							</li>
-						</ul>
-					</span>
-
-				</span>
-			</li>
+                    </span>
+                </span>
+                <span class="dp-LevelItem Level-justify-between">
+                    <span class="dp-LevelLeft">
+                        <ul class="dp-LevelWrap">
+                            <li>
+                                <span class="dp-Icon dp-iconUserAvatar"></span>
+                                <span class="dp-UserName">Toby falkirk</span>
+                            </li>
+                        </ul>
+                    </span>
+                </span>
+            </li>
 
 			<!-- 15 -->
-			<li class="dp-Card dp-Level">
-			    <span class="dp-LevelItem">
+            <li class="dp-Card">
+                <span class="dp-LevelItem Level-justify-between">
+                    <span class="dp-CustomCheckbox dp-LevelLeft dp-LevelTop">
+                        <input type="checkbox" class="dp-ControlInput" id="cards-feedback-3-15"></input>
+                        <label for="cards-feedback-3-15"></label>
 
-			        <span class="dp-LevelCol dp-LevelTop">
-			            <span class="dp-CustomCheckbox">
-			                <input type="checkbox" class="dp-ControlInput" id="cards-feedback-1"></input>
-			                <label for="cards-feedback-1"></label>
-			            </span>
-			        </span>
+                        <span class="dp-Title Title-Icon">
+                            <ul class="dp-vote">
+                                <li>38</li>
+                                <li>votes</li>
+                            </ul>
+                            <span class="dp-Card-title">I want to be able to create a user while creating a...</span>
+                        </span>
 
-			        <span class="dp-LevelCol">
-			            <span class="dp-Title Title-Icon">
-			                <ul class="dp-vote">
-			                    <li>38</li>
-			                    <li>votes</li>
-			                </ul>
-			                <span class="dp-Card-title">I want to be able to create a user while creating a...</span>
-			            </span>
-
-			            <ul class="dp-LevelWrap">
-			                <li>
-			                    <span class="dp-Icon dp-iconUserAvatar"></span>
-			                    <span class="dp-UserName">Toby falkirk</span>
-			                </li>
-			            </ul>
-			        </span>
-			        
-			    </span>
-			</li>
+                    </span>
+                </span>
+                <span class="dp-LevelItem Level-justify-between">
+                    <span class="dp-LevelLeft">
+                        <ul class="dp-LevelWrap">
+                            <li>
+                                <span class="dp-Icon dp-iconUserAvatar"></span>
+                                <span class="dp-UserName">Toby falkirk</span>
+                            </li>
+                        </ul>
+                    </span>
+                </span>
+            </li>
 
 			<!-- 16 -->
-			<li class="dp-Card dp-Level">
-				<span class="dp-LevelItem">
+            <li class="dp-Card">
+                <span class="dp-LevelItem Level-justify-between">
+                    <span class="dp-CustomCheckbox dp-LevelLeft dp-LevelTop">
+                        <input type="checkbox" class="dp-ControlInput" id="cards-feedback-3-16"></input>
+                        <label for="cards-feedback-3-16"></label>
 
-					<span class="dp-LevelCol dp-LevelTop">
-						<span class="dp-CustomCheckbox">
-							<input type="checkbox" class="dp-ControlInput" id="cards-feedback-3"></input>
-							<label for="cards-feedback-3"></label>
-						</span>
-					</span>
+                        <span class="dp-Title Title-Icon">
+                            <span class="dp-Icon dp-Acrobat"></span>
+                            <span class="dp-Card-title">Feedback_guide.pdf <span class="dp-qt">(56kb)</span></span>
+                        </span>
 
-					<span class="dp-LevelCol">
-						<span class="dp-Title Title-Icon">
-							<span class="dp-Icon dp-Acrobat"></span>
-							<span class="dp-Card-title">Feedback_guide.pdf<span class="dp-qt">(56kb)</span></span>
-						</span>
-						<ul class="dp-LevelWrap">
-							<li>
-								<span class="dp-Icon dp-iconUserAvatar"></span>
-								<span class="dp-UserName">Toby falkirk</span>
-							</li>
-						</ul>
-					</span>
-
-				</span>
-			</li>
+                    </span>
+                </span>
+                <span class="dp-LevelItem Level-justify-between">
+                    <span class="dp-LevelLeft">
+                        <ul class="dp-LevelWrap">
+                            <li>
+                                <span class="dp-Icon dp-iconUserAvatar"></span>
+                                <span class="dp-UserName">Toby falkirk</span>
+                            </li>
+                        </ul>
+                    </span>
+                </span>
+            </li>
 
         </ul>
     </form>

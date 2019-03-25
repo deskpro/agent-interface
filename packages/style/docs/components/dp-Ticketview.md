@@ -18,7 +18,7 @@ title: Ticket View
 			<span class="dp-title-item">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
 				Zack Prudent
-			<span>
+			</span>
 		</button>
 	</div>
 </div>
@@ -197,8 +197,6 @@ title: Ticket View
 				<span class="dp-UserName"> Me </span>
 			</span>
 			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">Me</span>
 		</li>
 		<li class="dp-FollowersItem">
 			<span class="dp-LogoName">
@@ -206,17 +204,15 @@ title: Ticket View
 				<span class="dp-UserName"> Wendy pride </span>
 			</span>
 			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">Wendy pride</span>
 		</li>
 		<li class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
-				<span class="dp-UserName"> Peter Fergers </span>
+				<span class="dp-UserName"> Peter Fergersonon </span>
 			</span>
 			<i class="dp-Icon dp-close"></i>
 			<!-- tooltip -->
-			<span class="dp-ToolTips">Peter Fergers</span>
+			<span class="dp-ToolTips">Peter Fergerson</span>
 		</li>
 		<li class="dp-FollowersItem">
 			<span class="dp-LogoName">
@@ -239,11 +235,11 @@ title: Ticket View
 		<li class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
-				<span class="dp-UserName"> Peter Fergers </span>
+				<span class="dp-UserName"> Peter Fergerson </span>
 			</span>
 			<i class="dp-Icon dp-close"></i>
 			<!-- tooltip -->
-			<span class="dp-ToolTips">Peter Fergers</span>
+			<span class="dp-ToolTips">Peter Fergerson</span>
 		</li>
 		<li class="dp-FollowersItem">
 			<span class="dp-LogoName">
@@ -251,8 +247,6 @@ title: Ticket View
 				<span class="dp-UserName"> Wendy pride </span>
 			</span>
 			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">Wendy pride</span>
 		</li>
 
 		<li class="dp-FollowersBtn">
@@ -285,11 +279,11 @@ title: Ticket View
 		<li class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
-				<span class="dp-UserName"> Peter Fergers </span>
+				<span class="dp-UserName"> Peter Fergerson </span>
 			</span>
 			<i class="dp-Icon dp-close"></i>
 			<!-- tooltip -->
-			<span class="dp-ToolTips">Peter Fergers</span>
+			<span class="dp-ToolTips">Peter Fergerson</span>
 		</li>
 		<li class="dp-FollowersItem">
 			<span class="dp-LogoName">
@@ -303,11 +297,11 @@ title: Ticket View
 		<li class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
-				<span class="dp-UserName"> Peter Fergers </span>
+				<span class="dp-UserName"> Peter Fergerson </span>
 			</span>
 			<i class="dp-Icon dp-close"></i>
 			<!-- tooltip -->
-			<span class="dp-ToolTips">Peter Fergers</span>
+			<span class="dp-ToolTips">Peter Fergerson</span>
 		</li>
 		<li class="dp-FollowersItem">
 			<span class="dp-LogoName">
@@ -330,11 +324,11 @@ title: Ticket View
 		<li class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
-				<span class="dp-UserName"> Peter Fergers </span>
+				<span class="dp-UserName"> Peter Fergerson </span>
 			</span>
 			<i class="dp-Icon dp-close"></i>
 			<!-- tooltip -->
-			<span class="dp-ToolTips">Peter Fergers</span>
+			<span class="dp-ToolTips">Peter Fergerson</span>
 		</li>
 		<li class="dp-FollowersItem">
 			<span class="dp-LogoName">
@@ -403,11 +397,11 @@ title: Ticket View
 		<li class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
-				<span class="dp-UserName"> Peter Fergers </span>
+				<span class="dp-UserName"> Peter Fergerson </span>
 			</span>
 			<i class="dp-Icon dp-close"></i>
 			<!-- tooltip -->
-			<span class="dp-ToolTips">Peter Fergers</span>
+			<span class="dp-ToolTips">Peter Fergerson</span>
 		</li>
 		<li class="dp-FollowersItem">
 			<span class="dp-LogoName">
@@ -430,11 +424,11 @@ title: Ticket View
 		<li class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
-				<span class="dp-UserName"> Peter Fergers </span>
+				<span class="dp-UserName"> Peter Fergerson </span>
 			</span>
 			<i class="dp-Icon dp-close"></i>
 			<!-- tooltip -->
-			<span class="dp-ToolTips">Peter Fergers</span>
+			<span class="dp-ToolTips">Peter Fergerson</span>
 		</li>
 		<li class="dp-FollowersItem">
 			<span class="dp-LogoName">
@@ -476,11 +470,11 @@ title: Ticket View
 		<li class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
-				<span class="dp-UserName"> Peter Fergers </span>
+				<span class="dp-UserName"> Peter Fergerson </span>
 			</span>
 			<i class="dp-Icon dp-close"></i>
 			<!-- tooltip -->
-			<span class="dp-ToolTips">Peter Fergers</span>
+			<span class="dp-ToolTips">Peter Fergerson</span>
 		</li>
 		<li class="dp-FollowersItem">
 			<span class="dp-LogoName">
@@ -503,11 +497,11 @@ title: Ticket View
 		<li class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
-				<span class="dp-UserName"> Peter Fergers </span>
+				<span class="dp-UserName"> Peter Fergerson </span>
 			</span>
 			<i class="dp-Icon dp-close"></i>
 			<!-- tooltip -->
-			<span class="dp-ToolTips">Peter Fergers</span>
+			<span class="dp-ToolTips">Peter Fergerson</span>
 		</li>
 		<li class="dp-FollowersItem">
 			<span class="dp-LogoName">
@@ -531,11 +525,11 @@ title: Ticket View
 		<li class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
-				<span class="dp-UserName"> Peter Fergers </span>
+				<span class="dp-UserName"> Peter Fergerson </span>
 			</span>
 			<i class="dp-Icon dp-close"></i>
 			<!-- tooltip -->
-			<span class="dp-ToolTips">Peter Fergers</span>
+			<span class="dp-ToolTips">Peter Fergerson</span>
 		</li>
 		<li class="dp-FollowersItem">
 			<span class="dp-LogoName">
@@ -549,11 +543,11 @@ title: Ticket View
 		<li class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
-				<span class="dp-UserName"> Peter Fergers </span>
+				<span class="dp-UserName"> Peter Fergerson </span>
 			</span>
 			<i class="dp-Icon dp-close"></i>
 			<!-- tooltip -->
-			<span class="dp-ToolTips">Peter Fergers</span>
+			<span class="dp-ToolTips">Peter Fergerson</span>
 		</li>
 		<li class="dp-FollowersItem">
 			<span class="dp-LogoName">
@@ -576,11 +570,11 @@ title: Ticket View
 		<li class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
-				<span class="dp-UserName"> Peter Fergers </span>
+				<span class="dp-UserName"> Peter Fergerson </span>
 			</span>
 			<i class="dp-Icon dp-close"></i>
 			<!-- tooltip -->
-			<span class="dp-ToolTips">Peter Fergers</span>
+			<span class="dp-ToolTips">Peter Fergerson</span>
 		</li>
 		<li class="dp-FollowersItem">
 			<span class="dp-LogoName">
@@ -649,11 +643,11 @@ title: Ticket View
 		<li class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
-				<span class="dp-UserName"> Peter Fergers </span>
+				<span class="dp-UserName"> Peter Fergerson </span>
 			</span>
 			<i class="dp-Icon dp-close"></i>
 			<!-- tooltip -->
-			<span class="dp-ToolTips">Peter Fergers</span>
+			<span class="dp-ToolTips">Peter Fergerson</span>
 		</li>
 		<li class="dp-FollowersItem">
 			<span class="dp-LogoName">
@@ -676,11 +670,11 @@ title: Ticket View
 		<li class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
-				<span class="dp-UserName"> Peter Fergers </span>
+				<span class="dp-UserName"> Peter Fergerson </span>
 			</span>
 			<i class="dp-Icon dp-close"></i>
 			<!-- tooltip -->
-			<span class="dp-ToolTips">Peter Fergers</span>
+			<span class="dp-ToolTips">Peter Fergerson</span>
 		</li>
 		<li class="dp-FollowersItem">
 			<span class="dp-LogoName">
@@ -704,11 +698,11 @@ title: Ticket View
 		<li class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
-				<span class="dp-UserName"> Peter Fergers </span>
+				<span class="dp-UserName"> Peter Fergerson </span>
 			</span>
 			<i class="dp-Icon dp-close"></i>
 			<!-- tooltip -->
-			<span class="dp-ToolTips">Peter Fergers</span>
+			<span class="dp-ToolTips">Peter Fergerson</span>
 		</li>
 		<li class="dp-FollowersItem">
 			<span class="dp-LogoName">
@@ -722,11 +716,11 @@ title: Ticket View
 		<li class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
-				<span class="dp-UserName"> Peter Fergers </span>
+				<span class="dp-UserName"> Peter Fergerson </span>
 			</span>
 			<i class="dp-Icon dp-close"></i>
 			<!-- tooltip -->
-			<span class="dp-ToolTips">Peter Fergers</span>
+			<span class="dp-ToolTips">Peter Fergerson</span>
 		</li>
 		<li class="dp-FollowersItem">
 			<span class="dp-LogoName">
@@ -749,157 +743,11 @@ title: Ticket View
 		<li class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
-				<span class="dp-UserName"> Peter Fergers </span>
+				<span class="dp-UserName"> Peter Fergerson </span>
 			</span>
 			<i class="dp-Icon dp-close"></i>
 			<!-- tooltip -->
-			<span class="dp-ToolTips">Peter Fergers</span>
-		</li>
-		<li class="dp-FollowersItem">
-			<span class="dp-LogoName">
-				<span class="dp-Icon dp-iconUserAvatar"></span>
-				<span class="dp-UserName"> Wendy pride </span>
-			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">Wendy pride</span>
-		</li>
-		<li class="dp-FollowersItem">
-			<span class="dp-LogoName">
-				<span class="dp-Icon dp-iconUserAvatar"></span>
-				<span class="dp-UserName"> Wendy pride </span>
-			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">Wendy pride</span>
-		</li>
-
-		<li class="dp-FollowersItem">
-			<span class="dp-LogoName">
-				<span class="dp-Icon dp-iconUserAvatar"></span>
-				<span class="dp-UserName"> John Richards </span>
-			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">John Richards</span>
-		</li>
-		<li class="dp-FollowersItem">
-			<span class="dp-LogoName">
-				<span class="dp-Icon dp-iconUserAvatar"></span>
-				<span class="dp-UserName"> Wendy pride </span>
-			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">Wendy pride</span>
-		</li>
-		<li class="dp-FollowersItem">
-			<span class="dp-LogoName">
-				<span class="dp-Icon dp-iconUserAvatar"></span>
-				<span class="dp-UserName"> Peter Fergers </span>
-			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">Peter Fergers</span>
-		</li>
-		<li class="dp-FollowersItem">
-			<span class="dp-LogoName">
-				<span class="dp-Icon dp-iconUserAvatar"></span>
-				<span class="dp-UserName"> John Richardson </span>
-			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">John Richards</span>
-		</li>
-		<li class="dp-FollowersItem">
-			<span class="dp-LogoName">
-				<span class="dp-Icon dp-iconUserAvatar"></span>
-				<span class="dp-UserName"> John Richards </span>
-			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">John Richards</span>
-		</li>
-		<li class="dp-FollowersItem">
-			<span class="dp-LogoName">
-				<span class="dp-Icon dp-iconUserAvatar"></span>
-				<span class="dp-UserName"> Peter Fergers </span>
-			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">Peter Fergers</span>
-		</li>
-		<li class="dp-FollowersItem">
-			<span class="dp-LogoName">
-				<span class="dp-Icon dp-iconUserAvatar"></span>
-				<span class="dp-UserName"> Wendy pride </span>
-			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">Wendy pride</span>
-		</li>
-		<li class="dp-FollowersItem">
-			<span class="dp-LogoName">
-				<span class="dp-Icon dp-iconUserAvatar"></span>
-				<span class="dp-UserName"> Wendy pride </span>
-			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">Wendy pride</span>
-		</li>
-
-		<li class="dp-FollowersItem">
-			<span class="dp-LogoName">
-				<span class="dp-Icon dp-iconUserAvatar"></span>
-				<span class="dp-UserName"> Peter Fergers </span>
-			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">Peter Fergers</span>
-		</li>
-		<li class="dp-FollowersItem">
-			<span class="dp-LogoName">
-				<span class="dp-Icon dp-iconUserAvatar"></span>
-				<span class="dp-UserName"> Wendy pride </span>
-			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">Wendy pride</span>
-		</li>
-		<li class="dp-FollowersItem">
-			<span class="dp-LogoName">
-				<span class="dp-Icon dp-iconUserAvatar"></span>
-				<span class="dp-UserName"> Peter Fergers </span>
-			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">Peter Fergers</span>
-		</li>
-		<li class="dp-FollowersItem">
-			<span class="dp-LogoName">
-				<span class="dp-Icon dp-iconUserAvatar"></span>
-				<span class="dp-UserName"> John Richardson </span>
-			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">John Richards</span>
-		</li>
-		<li class="dp-FollowersItem">
-			<span class="dp-LogoName">
-				<span class="dp-Icon dp-iconUserAvatar"></span>
-				<span class="dp-UserName"> John Richards </span>
-			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">John Richards</span>
-		</li>
-		<li class="dp-FollowersItem">
-			<span class="dp-LogoName">
-				<span class="dp-Icon dp-iconUserAvatar"></span>
-				<span class="dp-UserName"> Peter Fergers </span>
-			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">Peter Fergers</span>
+			<span class="dp-ToolTips">Peter Fergerson</span>
 		</li>
 		<li class="dp-FollowersItem">
 			<span class="dp-LogoName">
@@ -941,11 +789,11 @@ title: Ticket View
 		<li class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
-				<span class="dp-UserName"> Peter Fergers </span>
+				<span class="dp-UserName"> Peter Fergerson </span>
 			</span>
 			<i class="dp-Icon dp-close"></i>
 			<!-- tooltip -->
-			<span class="dp-ToolTips">Peter Fergers</span>
+			<span class="dp-ToolTips">Peter Fergerson</span>
 		</li>
 		<li class="dp-FollowersItem">
 			<span class="dp-LogoName">
@@ -968,11 +816,11 @@ title: Ticket View
 		<li class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
-				<span class="dp-UserName"> Peter Fergers </span>
+				<span class="dp-UserName"> Peter Fergerson </span>
 			</span>
 			<i class="dp-Icon dp-close"></i>
 			<!-- tooltip -->
-			<span class="dp-ToolTips">Peter Fergers</span>
+			<span class="dp-ToolTips">Peter Fergerson</span>
 		</li>
 		<li class="dp-FollowersItem">
 			<span class="dp-LogoName">
@@ -996,11 +844,11 @@ title: Ticket View
 		<li class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
-				<span class="dp-UserName"> Peter Fergers </span>
+				<span class="dp-UserName"> Peter Fergerson </span>
 			</span>
 			<i class="dp-Icon dp-close"></i>
 			<!-- tooltip -->
-			<span class="dp-ToolTips">Peter Fergers</span>
+			<span class="dp-ToolTips">Peter Fergerson</span>
 		</li>
 		<li class="dp-FollowersItem">
 			<span class="dp-LogoName">
@@ -1014,11 +862,11 @@ title: Ticket View
 		<li class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
-				<span class="dp-UserName"> Peter Fergers </span>
+				<span class="dp-UserName"> Peter Fergerson </span>
 			</span>
 			<i class="dp-Icon dp-close"></i>
 			<!-- tooltip -->
-			<span class="dp-ToolTips">Peter Fergers</span>
+			<span class="dp-ToolTips">Peter Fergerson</span>
 		</li>
 		<li class="dp-FollowersItem">
 			<span class="dp-LogoName">
@@ -1041,11 +889,157 @@ title: Ticket View
 		<li class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
-				<span class="dp-UserName"> Peter Fergers </span>
+				<span class="dp-UserName"> Peter Fergerson </span>
 			</span>
 			<i class="dp-Icon dp-close"></i>
 			<!-- tooltip -->
-			<span class="dp-ToolTips">Peter Fergers</span>
+			<span class="dp-ToolTips">Peter Fergerson</span>
+		</li>
+		<li class="dp-FollowersItem">
+			<span class="dp-LogoName">
+				<span class="dp-Icon dp-iconUserAvatar"></span>
+				<span class="dp-UserName"> Wendy pride </span>
+			</span>
+			<i class="dp-Icon dp-close"></i>
+			<!-- tooltip -->
+			<span class="dp-ToolTips">Wendy pride</span>
+		</li>
+		<li class="dp-FollowersItem">
+			<span class="dp-LogoName">
+				<span class="dp-Icon dp-iconUserAvatar"></span>
+				<span class="dp-UserName"> Wendy pride </span>
+			</span>
+			<i class="dp-Icon dp-close"></i>
+			<!-- tooltip -->
+			<span class="dp-ToolTips">Wendy pride</span>
+		</li>
+
+		<li class="dp-FollowersItem">
+			<span class="dp-LogoName">
+				<span class="dp-Icon dp-iconUserAvatar"></span>
+				<span class="dp-UserName"> John Richards </span>
+			</span>
+			<i class="dp-Icon dp-close"></i>
+			<!-- tooltip -->
+			<span class="dp-ToolTips">John Richards</span>
+		</li>
+		<li class="dp-FollowersItem">
+			<span class="dp-LogoName">
+				<span class="dp-Icon dp-iconUserAvatar"></span>
+				<span class="dp-UserName"> Wendy pride </span>
+			</span>
+			<i class="dp-Icon dp-close"></i>
+			<!-- tooltip -->
+			<span class="dp-ToolTips">Wendy pride</span>
+		</li>
+		<li class="dp-FollowersItem">
+			<span class="dp-LogoName">
+				<span class="dp-Icon dp-iconUserAvatar"></span>
+				<span class="dp-UserName"> Peter Fergerson </span>
+			</span>
+			<i class="dp-Icon dp-close"></i>
+			<!-- tooltip -->
+			<span class="dp-ToolTips">Peter Fergerson</span>
+		</li>
+		<li class="dp-FollowersItem">
+			<span class="dp-LogoName">
+				<span class="dp-Icon dp-iconUserAvatar"></span>
+				<span class="dp-UserName"> John Richardson </span>
+			</span>
+			<i class="dp-Icon dp-close"></i>
+			<!-- tooltip -->
+			<span class="dp-ToolTips">John Richards</span>
+		</li>
+		<li class="dp-FollowersItem">
+			<span class="dp-LogoName">
+				<span class="dp-Icon dp-iconUserAvatar"></span>
+				<span class="dp-UserName"> John Richards </span>
+			</span>
+			<i class="dp-Icon dp-close"></i>
+			<!-- tooltip -->
+			<span class="dp-ToolTips">John Richards</span>
+		</li>
+		<li class="dp-FollowersItem">
+			<span class="dp-LogoName">
+				<span class="dp-Icon dp-iconUserAvatar"></span>
+				<span class="dp-UserName"> Peter Fergerson </span>
+			</span>
+			<i class="dp-Icon dp-close"></i>
+			<!-- tooltip -->
+			<span class="dp-ToolTips">Peter Fergerson</span>
+		</li>
+		<li class="dp-FollowersItem">
+			<span class="dp-LogoName">
+				<span class="dp-Icon dp-iconUserAvatar"></span>
+				<span class="dp-UserName"> Wendy pride </span>
+			</span>
+			<i class="dp-Icon dp-close"></i>
+			<!-- tooltip -->
+			<span class="dp-ToolTips">Wendy pride</span>
+		</li>
+		<li class="dp-FollowersItem">
+			<span class="dp-LogoName">
+				<span class="dp-Icon dp-iconUserAvatar"></span>
+				<span class="dp-UserName"> Wendy pride </span>
+			</span>
+			<i class="dp-Icon dp-close"></i>
+			<!-- tooltip -->
+			<span class="dp-ToolTips">Wendy pride</span>
+		</li>
+
+		<li class="dp-FollowersItem">
+			<span class="dp-LogoName">
+				<span class="dp-Icon dp-iconUserAvatar"></span>
+				<span class="dp-UserName"> Peter Fergerson </span>
+			</span>
+			<i class="dp-Icon dp-close"></i>
+			<!-- tooltip -->
+			<span class="dp-ToolTips">Peter Fergerson</span>
+		</li>
+		<li class="dp-FollowersItem">
+			<span class="dp-LogoName">
+				<span class="dp-Icon dp-iconUserAvatar"></span>
+				<span class="dp-UserName"> Wendy pride </span>
+			</span>
+			<i class="dp-Icon dp-close"></i>
+			<!-- tooltip -->
+			<span class="dp-ToolTips">Wendy pride</span>
+		</li>
+		<li class="dp-FollowersItem">
+			<span class="dp-LogoName">
+				<span class="dp-Icon dp-iconUserAvatar"></span>
+				<span class="dp-UserName"> Peter Fergerson </span>
+			</span>
+			<i class="dp-Icon dp-close"></i>
+			<!-- tooltip -->
+			<span class="dp-ToolTips">Peter Fergerson</span>
+		</li>
+		<li class="dp-FollowersItem">
+			<span class="dp-LogoName">
+				<span class="dp-Icon dp-iconUserAvatar"></span>
+				<span class="dp-UserName"> John Richardson </span>
+			</span>
+			<i class="dp-Icon dp-close"></i>
+			<!-- tooltip -->
+			<span class="dp-ToolTips">John Richards</span>
+		</li>
+		<li class="dp-FollowersItem">
+			<span class="dp-LogoName">
+				<span class="dp-Icon dp-iconUserAvatar"></span>
+				<span class="dp-UserName"> John Richards </span>
+			</span>
+			<i class="dp-Icon dp-close"></i>
+			<!-- tooltip -->
+			<span class="dp-ToolTips">John Richards</span>
+		</li>
+		<li class="dp-FollowersItem">
+			<span class="dp-LogoName">
+				<span class="dp-Icon dp-iconUserAvatar"></span>
+				<span class="dp-UserName"> Peter Fergerson </span>
+			</span>
+			<i class="dp-Icon dp-close"></i>
+			<!-- tooltip -->
+			<span class="dp-ToolTips">Peter Fergerson</span>
 		</li>
 		<li class="dp-FollowersItem">
 			<span class="dp-LogoName">
@@ -1068,11 +1062,11 @@ title: Ticket View
 		<li class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
-				<span class="dp-UserName"> Peter Fergers </span>
+				<span class="dp-UserName"> Peter Fergerson </span>
 			</span>
 			<i class="dp-Icon dp-close"></i>
 			<!-- tooltip -->
-			<span class="dp-ToolTips">Peter Fergers</span>
+			<span class="dp-ToolTips">Peter Fergerson</span>
 		</li>
 		<li class="dp-FollowersItem">
 			<span class="dp-LogoName">
@@ -1140,7 +1134,7 @@ title: Ticket View
 					</li>
 				</ul>
 			</li>
-			<li class="dp-Tabs-item">
+			<li class="dp-Tabs-item is-disabled">
 				<span class="dp-Icon dp-IconLink Icon--primary"></span>
 				Link
 				<button class="dp-Arrow"></button>
@@ -2940,11 +2934,11 @@ title: Ticket View
 				<li class="dp-FollowersItem">
 					<span class="dp-LogoName">
 						<span class="dp-Icon dp-iconUserAvatar"></span>
-						<span class="dp-UserName"> Peter Fergers </span>
+						<span class="dp-UserName"> Peter Fergerson </span>
 					</span>
 					<i class="dp-Icon dp-close"></i>
 					<!-- tooltip -->
-					<span class="dp-ToolTips">Peter Fergers</span>
+					<span class="dp-ToolTips">Peter Fergerson</span>
 				</li>
 				<li class="dp-FollowersItem">
 					<span class="dp-LogoName">
@@ -2958,11 +2952,11 @@ title: Ticket View
 				<li class="dp-FollowersItem">
 					<span class="dp-LogoName">
 						<span class="dp-Icon dp-iconUserAvatar"></span>
-						<span class="dp-UserName"> Peter Fergers </span>
+						<span class="dp-UserName"> Peter Fergerson </span>
 					</span>
 					<i class="dp-Icon dp-close"></i>
 					<!-- tooltip -->
-					<span class="dp-ToolTips">Peter Fergers</span>
+					<span class="dp-ToolTips">Peter Fergerson</span>
 				</li>
 				<li class="dp-FollowersBtn">
 					<button class="dp-Button Button--link Button--small">
@@ -3716,7 +3710,7 @@ title: Ticket View
 									<li class="dp-FollowersItem">
 										<span class="dp-LogoName">
 											<span class="dp-Icon dp-iconUserAvatar"></span>
-											<span class="dp-UserName"> Peter Fergers... </span>
+											<span class="dp-UserName"> Peter Fergerson... </span>
 										</span>
 										<a href="#"><i class="dp-Icon dp-close"></i></a>
 									</li>
@@ -3730,7 +3724,7 @@ title: Ticket View
 									<li class="dp-FollowersItem">
 										<span class="dp-LogoName">
 											<span class="dp-Icon dp-iconUserAvatar"></span>
-											<span class="dp-UserName"> Peter Fergers... </span>
+											<span class="dp-UserName"> Peter Fergerson... </span>
 										</span>
 										<a href="#"><i class="dp-Icon dp-close"></i></a>
 									</li>
@@ -3777,11 +3771,11 @@ title: Ticket View
 								<li class="dp-FollowersItem">
 									<span class="dp-LogoName">
 										<span class="dp-Icon dp-iconUserAvatar"></span>
-										<span class="dp-UserName"> Peter Fergers </span>
+										<span class="dp-UserName"> Peter Fergerson </span>
 									</span>
 									<i class="dp-Icon dp-close"></i>
 									<!-- tooltip -->
-									<span class="dp-ToolTips">Peter Fergers</span>
+									<span class="dp-ToolTips">Peter Fergerson</span>
 								</li>
 								<li class="dp-FollowersItem">
 									<span class="dp-LogoName">
@@ -3795,11 +3789,11 @@ title: Ticket View
 								<li class="dp-FollowersItem">
 									<span class="dp-LogoName">
 										<span class="dp-Icon dp-iconUserAvatar"></span>
-										<span class="dp-UserName"> Peter Fergers </span>
+										<span class="dp-UserName"> Peter Fergerson </span>
 									</span>
 									<i class="dp-Icon dp-close"></i>
 									<!-- tooltip -->
-									<span class="dp-ToolTips">Peter Fergers</span>
+									<span class="dp-ToolTips">Peter Fergerson</span>
 								</li>
 								<li class="dp-FollowersBtn">
 									<button class="dp-Button Button--link Button--small">
