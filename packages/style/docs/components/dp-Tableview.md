@@ -1733,37 +1733,62 @@ title: Tableview
 
             <div class="dp-TableItem">
                 ID
-                <span class="dp-Icon dp-arrowGroup"></span>
+<!--                 <span class="dp-arrowContainer">
+                    <button class="is-asc"></button>
+                    <button class="is-desc"></button>
+                </span> -->
+                <span class="dp-arrowContainer is-asc">
+                    <button class="dp-Arrow Arrow--up"></button>
+                    <button class="dp-Arrow Arrow--down"></button>
+                </span>
             </div>
 
             <div class="dp-TableItem dp-TableSubject">
                 Subject
-                <span class="dp-Icon dp-arrowGroup"></span>
+                <span class="dp-arrowContainer is-desc">
+                    <button class="dp-Arrow Arrow--up"></button>
+                    <button class="dp-Arrow Arrow--down"></button>
+                </span>
             </div>
 
             <div class="dp-TableItem">
                 Labels
-                <span class="dp-Icon dp-arrowGroup"></span>
+                <span class="dp-arrowContainer">
+                    <button class="dp-Arrow Arrow--up"></button>
+                    <button class="dp-Arrow Arrow--down"></button>
+                </span>
             </div>
 
             <div class="dp-TableItem">
                 Department
-                <span class="dp-Icon dp-arrowGroup"></span>
+                <span class="dp-arrowContainer">
+                    <button class="dp-Arrow Arrow--up"></button>
+                    <button class="dp-Arrow Arrow--down"></button>
+                </span>
             </div>
 
             <div class="dp-TableItem">
                 Language
-                <span class="dp-Icon dp-arrowGroup"></span>
+                <span class="dp-arrowContainer">
+                    <button class="dp-Arrow Arrow--up"></button>
+                    <button class="dp-Arrow Arrow--down"></button>
+                </span>
             </div>
 
             <div class="dp-TableItem">
                 Last reply
-                <span class="dp-Icon dp-arrowGroup"></span>
+                <span class="dp-arrowContainer">
+                    <button class="dp-Arrow Arrow--up"></button>
+                    <button class="dp-Arrow Arrow--down"></button>
+                </span>
             </div>
 
             <div class="dp-TableItem">
                 User
-                <span class="dp-Icon dp-arrowGroup"></span>
+                <span class="dp-arrowContainer">
+                    <button class="dp-Arrow Arrow--up"></button>
+                    <button class="dp-Arrow Arrow--down"></button>
+                </span>
             </div>
 
             <div class="dp-TableItem">
@@ -1771,15 +1796,24 @@ title: Tableview
             </div>
 
             <div class="dp-TableItem">
-                <span class="dp-Icon dp-arrowGroup"></span>
+                <span class="dp-arrowContainer">
+                    <button class="dp-Arrow Arrow--up"></button>
+                    <button class="dp-Arrow Arrow--down"></button>
+                </span>
             </div>
 
             <div class="dp-TableItem">
-                <span class="dp-Icon dp-arrowGroup"></span>
+                <span class="dp-arrowContainer">
+                    <button class="dp-Arrow Arrow--up"></button>
+                    <button class="dp-Arrow Arrow--down"></button>
+                </span>
             </div>
 
             <div class="dp-TableItem">
-                <span class="dp-Icon dp-arrowGroup"></span>
+                <span class="dp-arrowContainer">
+                    <button class="dp-Arrow Arrow--up"></button>
+                    <button class="dp-Arrow Arrow--down"></button>
+                </span>
             </div>
  
             <div class="dp-Cog">
@@ -1820,37 +1854,58 @@ title: Tableview
 
             <div class="dp-TableItem">
                 ID
-                <span class="dp-Icon dp-arrowGroup"></span>
+                <span class="dp-arrowContainer">
+                    <button class="dp-Arrow Arrow--up"></button>
+                    <button class="dp-Arrow Arrow--down"></button>
+                </span>
             </div>
 
             <div class="dp-TableItem dp-TableSubject">
                 Column title
-                <span class="dp-Icon dp-arrowGroup"></span>
+                <span class="dp-arrowContainer">
+                    <button class="dp-Arrow Arrow--up"></button>
+                    <button class="dp-Arrow Arrow--down"></button>
+                </span>
             </div>
 
             <div class="dp-TableItem">
                 Column title
-                <span class="dp-Icon dp-arrowGroup"></span>
+                <span class="dp-arrowContainer">
+                    <button class="dp-Arrow Arrow--up"></button>
+                    <button class="dp-Arrow Arrow--down"></button>
+                </span>
             </div>
 
             <div class="dp-TableItem is-item-draggable">
                 Column title
-                <span class="dp-Icon dp-arrowGroup"></span>
+                <span class="dp-arrowContainer">
+                    <button class="dp-Arrow Arrow--up"></button>
+                    <button class="dp-Arrow Arrow--down"></button>
+                </span>
             </div>
 
             <div class="dp-TableItem">
                 Column title
-                <span class="dp-Icon dp-arrowGroup"></span>
+                <span class="dp-arrowContainer">
+                    <button class="dp-Arrow Arrow--up"></button>
+                    <button class="dp-Arrow Arrow--down"></button>
+                </span>
             </div>
 
             <div class="dp-TableItem">
                 Column title
-                <span class="dp-Icon dp-arrowGroup"></span>
+                <span class="dp-arrowContainer">
+                    <button class="dp-Arrow Arrow--up"></button>
+                    <button class="dp-Arrow Arrow--down"></button>
+                </span>
             </div>
 
             <div class="dp-TableItem">
                 Column title
-                <span class="dp-Icon dp-arrowGroup"></span>
+                <span class="dp-arrowContainer">
+                    <button class="dp-Arrow Arrow--up"></button>
+                    <button class="dp-Arrow Arrow--down"></button>
+                </span>
             </div>
 
             <div class="dp-TableItem">
@@ -1858,15 +1913,24 @@ title: Tableview
             </div>
 
             <div class="dp-TableItem">
-                <span class="dp-Icon dp-arrowGroup"></span>
+                <span class="dp-arrowContainer">
+                    <button class="dp-Arrow Arrow--up"></button>
+                    <button class="dp-Arrow Arrow--down"></button>
+                </span>
             </div>
 
             <div class="dp-TableItem">
-                <span class="dp-Icon dp-arrowGroup"></span>
+                <span class="dp-arrowContainer">
+                    <button class="dp-Arrow Arrow--up"></button>
+                    <button class="dp-Arrow Arrow--down"></button>
+                </span>
             </div>
 
             <div class="dp-TableItem">
-                <span class="dp-Icon dp-arrowGroup"></span>
+                <span class="dp-arrowContainer">
+                    <button class="dp-Arrow Arrow--up"></button>
+                    <button class="dp-Arrow Arrow--down"></button>
+                </span>
             </div>
  
             <div class="dp-Cog">
@@ -4071,37 +4135,58 @@ title: Tableview
 
             <div class="dp-TableItem">
                 <span>ID</span>
-                <span class="dp-Icon dp-arrowGroup"></span>
+                <span class="dp-arrowContainer">
+                    <button class="dp-Arrow Arrow--up"></button>
+                    <button class="dp-Arrow Arrow--down"></button>
+                </span>
             </div>
 
             <div class="dp-TableItem">
                 Subject
-                <span class="dp-Icon dp-arrowGroup"></span>
+                <span class="dp-arrowContainer">
+                    <button class="dp-Arrow Arrow--up"></button>
+                    <button class="dp-Arrow Arrow--down"></button>
+                </span>
             </div>
 
             <div class="dp-TableItem">
                 Labels
-                <span class="dp-Icon dp-arrowGroup"></span>
+                <span class="dp-arrowContainer">
+                    <button class="dp-Arrow Arrow--up"></button>
+                    <button class="dp-Arrow Arrow--down"></button>
+                </span>
             </div>
 
             <div class="dp-TableItem">
                 Department
-                <span class="dp-Icon dp-arrowGroup"></span>
+                <span class="dp-arrowContainer">
+                    <button class="dp-Arrow Arrow--up"></button>
+                    <button class="dp-Arrow Arrow--down"></button>
+                </span>
             </div>
 
             <div class="dp-TableItem">
                 Language
-                <span class="dp-Icon dp-arrowGroup"></span>
+                <span class="dp-arrowContainer">
+                    <button class="dp-Arrow Arrow--up"></button>
+                    <button class="dp-Arrow Arrow--down"></button>
+                </span>
             </div>
 
             <div class="dp-TableItem">
                 Last reply
-                <span class="dp-Icon dp-arrowGroup"></span>
+                <span class="dp-arrowContainer">
+                    <button class="dp-Arrow Arrow--up"></button>
+                    <button class="dp-Arrow Arrow--down"></button>
+                </span>
             </div>
 
             <div class="dp-TableItem">
                 User
-                <span class="dp-Icon dp-arrowGroup"></span>
+                <span class="dp-arrowContainer">
+                    <button class="dp-Arrow Arrow--up"></button>
+                    <button class="dp-Arrow Arrow--down"></button>
+                </span>
             </div>
 
             <div class="dp-TableItem">
@@ -4109,15 +4194,24 @@ title: Tableview
             </div>
 
             <div class="dp-TableItem">
-                <span class="dp-Icon dp-arrowGroup"></span>
+                <span class="dp-arrowContainer">
+                    <button class="dp-Arrow Arrow--up"></button>
+                    <button class="dp-Arrow Arrow--down"></button>
+                </span>
             </div>
 
             <div class="dp-TableItem">
-                <span class="dp-Icon dp-arrowGroup"></span>
+                <span class="dp-arrowContainer">
+                    <button class="dp-Arrow Arrow--up"></button>
+                    <button class="dp-Arrow Arrow--down"></button>
+                </span>
             </div>
 
             <div class="dp-TableItem">
-                <span class="dp-Icon dp-arrowGroup"></span>
+                <span class="dp-arrowContainer">
+                    <button class="dp-Arrow Arrow--up"></button>
+                    <button class="dp-Arrow Arrow--down"></button>
+                </span>
             </div>
             
             <div class="dp-Cog">
@@ -5123,37 +5217,58 @@ title: Tableview
 
             <div class="dp-TableItem">
                 ID
-                <span class="dp-Icon dp-arrowGroup"></span>
+                <span class="dp-arrowContainer">
+                    <button class="dp-Arrow Arrow--up"></button>
+                    <button class="dp-Arrow Arrow--down"></button>
+                </span>
             </div>
 
             <div class="dp-TableItem dp-TableSubject">
                 Subject
-                <span class="dp-Icon dp-arrowGroup"></span>
+                <span class="dp-arrowContainer">
+                    <button class="dp-Arrow Arrow--up"></button>
+                    <button class="dp-Arrow Arrow--down"></button>
+                </span>
             </div>
 
             <div class="dp-TableItem">
                 Labels
-                <span class="dp-Icon dp-arrowGroup"></span>
+                <span class="dp-arrowContainer">
+                    <button class="dp-Arrow Arrow--up"></button>
+                    <button class="dp-Arrow Arrow--down"></button>
+                </span>
             </div>
 
             <div class="dp-TableItem is-item-draggable">
                 Department
-                <span class="dp-Icon dp-arrowGroup"></span>
+                <span class="dp-arrowContainer">
+                    <button class="dp-Arrow Arrow--up"></button>
+                    <button class="dp-Arrow Arrow--down"></button>
+                </span>
             </div>
 
             <div class="dp-TableItem">
                 Language
-                <span class="dp-Icon dp-arrowGroup"></span>
+                <span class="dp-arrowContainer">
+                    <button class="dp-Arrow Arrow--up"></button>
+                    <button class="dp-Arrow Arrow--down"></button>
+                </span>
             </div>
 
             <div class="dp-TableItem">
                 Last reply
-                <span class="dp-Icon dp-arrowGroup"></span>
+                <span class="dp-arrowContainer">
+                    <button class="dp-Arrow Arrow--up"></button>
+                    <button class="dp-Arrow Arrow--down"></button>
+                </span>
             </div>
 
             <div class="dp-TableItem">
                 User
-                <span class="dp-Icon dp-arrowGroup"></span>
+                <span class="dp-arrowContainer">
+                    <button class="dp-Arrow Arrow--up"></button>
+                    <button class="dp-Arrow Arrow--down"></button>
+                </span>
             </div>
 
             <div class="dp-TableItem">
@@ -5161,15 +5276,24 @@ title: Tableview
             </div>
 
             <div class="dp-TableItem">
-                <span class="dp-Icon dp-arrowGroup"></span>
+                <span class="dp-arrowContainer">
+                    <button class="dp-Arrow Arrow--up"></button>
+                    <button class="dp-Arrow Arrow--down"></button>
+                </span>
             </div>
 
             <div class="dp-TableItem">
-                <span class="dp-Icon dp-arrowGroup"></span>
+                <span class="dp-arrowContainer">
+                    <button class="dp-Arrow Arrow--up"></button>
+                    <button class="dp-Arrow Arrow--down"></button>
+                </span>
             </div>
 
             <div class="dp-TableItem">
-                <span class="dp-Icon dp-arrowGroup"></span>
+                <span class="dp-arrowContainer">
+                    <button class="dp-Arrow Arrow--up"></button>
+                    <button class="dp-Arrow Arrow--down"></button>
+                </span>
             </div>
  
             <div class="dp-Cog">
@@ -7357,37 +7481,58 @@ title: Tableview
 
             <div class="dp-TableItem">
                 <span>ID</span>
-                <span class="dp-Icon dp-arrowGroup"></span>
+                <span class="dp-arrowContainer">
+                    <button class="dp-Arrow Arrow--up"></button>
+                    <button class="dp-Arrow Arrow--down"></button>
+                </span>
             </div>
 
             <div class="dp-TableItem">
                 Subject
-                <span class="dp-Icon dp-arrowGroup"></span>
+                <span class="dp-arrowContainer">
+                    <button class="dp-Arrow Arrow--up"></button>
+                    <button class="dp-Arrow Arrow--down"></button>
+                </span>
             </div>
 
             <div class="dp-TableItem">
                 Labels
-                <span class="dp-Icon dp-arrowGroup"></span>
+                <span class="dp-arrowContainer">
+                    <button class="dp-Arrow Arrow--up"></button>
+                    <button class="dp-Arrow Arrow--down"></button>
+                </span>
             </div>
 
             <div class="dp-TableItem">
                 Department
-                <span class="dp-Icon dp-arrowGroup"></span>
+                <span class="dp-arrowContainer">
+                    <button class="dp-Arrow Arrow--up"></button>
+                    <button class="dp-Arrow Arrow--down"></button>
+                </span>
             </div>
 
             <div class="dp-TableItem">
                 Language
-                <span class="dp-Icon dp-arrowGroup"></span>
+                <span class="dp-arrowContainer">
+                    <button class="dp-Arrow Arrow--up"></button>
+                    <button class="dp-Arrow Arrow--down"></button>
+                </span>
             </div>
 
             <div class="dp-TableItem">
                 Last reply
-                <span class="dp-Icon dp-arrowGroup"></span>
+                <span class="dp-arrowContainer">
+                    <button class="dp-Arrow Arrow--up"></button>
+                    <button class="dp-Arrow Arrow--down"></button>
+                </span>
             </div>
 
             <div class="dp-TableItem">
                 User
-                <span class="dp-Icon dp-arrowGroup"></span>
+                <span class="dp-arrowContainer">
+                    <button class="dp-Arrow Arrow--up"></button>
+                    <button class="dp-Arrow Arrow--down"></button>
+                </span>
             </div>
 
             <div class="dp-TableItem">
@@ -7395,15 +7540,24 @@ title: Tableview
             </div>
 
             <div class="dp-TableItem">
-                <span class="dp-Icon dp-arrowGroup"></span>
+                <span class="dp-arrowContainer">
+                    <button class="dp-Arrow Arrow--up"></button>
+                    <button class="dp-Arrow Arrow--down"></button>
+                </span>
             </div>
 
             <div class="dp-TableItem">
-                <span class="dp-Icon dp-arrowGroup"></span>
+                <span class="dp-arrowContainer">
+                    <button class="dp-Arrow Arrow--up"></button>
+                    <button class="dp-Arrow Arrow--down"></button>
+                </span>
             </div>
 
             <div class="dp-TableItem">
-                <span class="dp-Icon dp-arrowGroup"></span>
+                <span class="dp-arrowContainer">
+                    <button class="dp-Arrow Arrow--up"></button>
+                    <button class="dp-Arrow Arrow--down"></button>
+                </span>
             </div>
             
             <div class="dp-Cog">
@@ -8409,37 +8563,58 @@ title: Tableview
 
             <div class="dp-TableItem">
                 ID
-                <span class="dp-Icon dp-arrowGroup"></span>
+                <span class="dp-arrowContainer">
+                    <button class="dp-Arrow Arrow--up"></button>
+                    <button class="dp-Arrow Arrow--down"></button>
+                </span>
             </div>
 
             <div class="dp-TableItem dp-TableSubject">
                 Subject
-                <span class="dp-Icon dp-arrowGroup"></span>
+                <span class="dp-arrowContainer">
+                    <button class="dp-Arrow Arrow--up"></button>
+                    <button class="dp-Arrow Arrow--down"></button>
+                </span>
             </div>
 
             <div class="dp-TableItem">
                 Labels
-                <span class="dp-Icon dp-arrowGroup"></span>
+                <span class="dp-arrowContainer">
+                    <button class="dp-Arrow Arrow--up"></button>
+                    <button class="dp-Arrow Arrow--down"></button>
+                </span>
             </div>
 
             <div class="dp-TableItem is-item-draggable">
                 Department
-                <span class="dp-Icon dp-arrowGroup"></span>
+                <span class="dp-arrowContainer">
+                    <button class="dp-Arrow Arrow--up"></button>
+                    <button class="dp-Arrow Arrow--down"></button>
+                </span>
             </div>
 
             <div class="dp-TableItem">
                 Language
-                <span class="dp-Icon dp-arrowGroup"></span>
+                <span class="dp-arrowContainer">
+                    <button class="dp-Arrow Arrow--up"></button>
+                    <button class="dp-Arrow Arrow--down"></button>
+                </span>
             </div>
 
             <div class="dp-TableItem">
                 Last reply
-                <span class="dp-Icon dp-arrowGroup"></span>
+                <span class="dp-arrowContainer">
+                    <button class="dp-Arrow Arrow--up"></button>
+                    <button class="dp-Arrow Arrow--down"></button>
+                </span>
             </div>
 
             <div class="dp-TableItem">
                 User
-                <span class="dp-Icon dp-arrowGroup"></span>
+                <span class="dp-arrowContainer">
+                    <button class="dp-Arrow Arrow--up"></button>
+                    <button class="dp-Arrow Arrow--down"></button>
+                </span>
             </div>
 
             <div class="dp-TableItem">
@@ -8447,15 +8622,24 @@ title: Tableview
             </div>
 
             <div class="dp-TableItem">
-                <span class="dp-Icon dp-arrowGroup"></span>
+                <span class="dp-arrowContainer">
+                    <button class="dp-Arrow Arrow--up"></button>
+                    <button class="dp-Arrow Arrow--down"></button>
+                </span>
             </div>
 
             <div class="dp-TableItem">
-                <span class="dp-Icon dp-arrowGroup"></span>
+                <span class="dp-arrowContainer">
+                    <button class="dp-Arrow Arrow--up"></button>
+                    <button class="dp-Arrow Arrow--down"></button>
+                </span>
             </div>
 
             <div class="dp-TableItem">
-                <span class="dp-Icon dp-arrowGroup"></span>
+                <span class="dp-arrowContainer">
+                    <button class="dp-Arrow Arrow--up"></button>
+                    <button class="dp-Arrow Arrow--down"></button>
+                </span>
             </div>
  
             <div class="dp-Cog">
@@ -10615,37 +10799,58 @@ title: Tableview
 
             <div class="dp-TableItem">
                 <span>ID</span>
-                <span class="dp-Icon dp-arrowGroup"></span>
+                <span class="dp-arrowContainer">
+                    <button class="dp-Arrow Arrow--up"></button>
+                    <button class="dp-Arrow Arrow--down"></button>
+                </span>
             </div>
 
             <div class="dp-TableItem">
                 Subject
-                <span class="dp-Icon dp-arrowGroup"></span>
+                <span class="dp-arrowContainer">
+                    <button class="dp-Arrow Arrow--up"></button>
+                    <button class="dp-Arrow Arrow--down"></button>
+                </span>
             </div>
 
             <div class="dp-TableItem">
                 Labels
-                <span class="dp-Icon dp-arrowGroup"></span>
+                <span class="dp-arrowContainer">
+                    <button class="dp-Arrow Arrow--up"></button>
+                    <button class="dp-Arrow Arrow--down"></button>
+                </span>
             </div>
 
             <div class="dp-TableItem">
                 Department
-                <span class="dp-Icon dp-arrowGroup"></span>
+                <span class="dp-arrowContainer">
+                    <button class="dp-Arrow Arrow--up"></button>
+                    <button class="dp-Arrow Arrow--down"></button>
+                </span>
             </div>
 
             <div class="dp-TableItem">
                 Language
-                <span class="dp-Icon dp-arrowGroup"></span>
+                <span class="dp-arrowContainer">
+                    <button class="dp-Arrow Arrow--up"></button>
+                    <button class="dp-Arrow Arrow--down"></button>
+                </span>
             </div>
 
             <div class="dp-TableItem">
                 Last reply
-                <span class="dp-Icon dp-arrowGroup"></span>
+                <span class="dp-arrowContainer">
+                    <button class="dp-Arrow Arrow--up"></button>
+                    <button class="dp-Arrow Arrow--down"></button>
+                </span>
             </div>
 
             <div class="dp-TableItem">
                 User
-                <span class="dp-Icon dp-arrowGroup"></span>
+                <span class="dp-arrowContainer">
+                    <button class="dp-Arrow Arrow--up"></button>
+                    <button class="dp-Arrow Arrow--down"></button>
+                </span>
             </div>
 
             <div class="dp-TableItem">
@@ -10653,15 +10858,24 @@ title: Tableview
             </div>
 
             <div class="dp-TableItem">
-                <span class="dp-Icon dp-arrowGroup"></span>
+                <span class="dp-arrowContainer">
+                    <button class="dp-Arrow Arrow--up"></button>
+                    <button class="dp-Arrow Arrow--down"></button>
+                </span>
             </div>
 
             <div class="dp-TableItem">
-                <span class="dp-Icon dp-arrowGroup"></span>
+                <span class="dp-arrowContainer">
+                    <button class="dp-Arrow Arrow--up"></button>
+                    <button class="dp-Arrow Arrow--down"></button>
+                </span>
             </div>
 
             <div class="dp-TableItem">
-                <span class="dp-Icon dp-arrowGroup"></span>
+                <span class="dp-arrowContainer">
+                    <button class="dp-Arrow Arrow--up"></button>
+                    <button class="dp-Arrow Arrow--down"></button>
+                </span>
             </div>
             
             <div class="dp-Cog">

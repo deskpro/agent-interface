@@ -37,7 +37,10 @@
 }
 
 .dp-title-item.is-italic {
-  font: var(--p-xl-italic);
+
+  /* font: var(--p-xl-italic); */
+  font: var(--p-n);
+  font-style: italic;
 }
 
 .dp-FollowerList .dp-UserName {

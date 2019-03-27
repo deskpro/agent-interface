@@ -1297,7 +1297,9 @@
   width: 11px;
 }
 
-.dp-TicketMenu .dp-SubMenu a.is-active .dp-IconAgent {
+/* .dp-TicketMenu .dp-SubMenu a.is-active .dp-IconAgent { */
+
+.dp-SubMenu .dp-SubMenuItem.is-active .dp-IconAgent {
   background-image: url('data:image/svg+xml,<svg version="1.1" id="Layer_40" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 10 6.7" style="enable-background:new 0 0 10 6.7;" xml:space="preserve"><style type="text/css">.st0{fill:%23FFFFFF;}</style><path class="st0" d="M3.9,6.7h2.2V5.6H3.9V6.7z M0,0v1.1h10V0H0z M1.7,3.9h6.7V2.8H1.7V3.9z"/></svg>');
   opacity: 0.4;
 }

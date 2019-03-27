@@ -176,7 +176,7 @@
 }
 
 .dp-MenuBarItem {
-  margin-right: 15px;
+  margin-right: 10px;
   position: relative;
 }
 
@@ -357,7 +357,8 @@
   font: var(--p-n);
 }
 
-.dp-MenuBarList .dp-MenuBarItem:hover .dp-Title {
+.dp-MenuBarList .dp-MenuBarItem:hover .dp-Title,
+.dp-MenuBarList .dp-MenuBarItem.is-active .dp-Title {
   color: var(--brand-primary);
 }
 

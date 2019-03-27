@@ -333,7 +333,13 @@
 }
 
 .Tabs--actions .dp-Tabs-item.is-disabled svg {
+  cursor: not-allowed;
   fill: var(--grey-dark);
+}
+
+.Tabs--actions .dp-Tabs-item.is-disabled .dp-Icon,
+.Tabs--actions .dp-Tabs-item.is-disabled .dp-Arrow {
+  cursor: not-allowed;
 }
 
 .Tabs--actions .dp-Tabs-item:first-child::before {

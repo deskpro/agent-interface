@@ -269,7 +269,9 @@
   display: block;
 }
 
-.dp-Card.dp-Level.is-active > .dp-LevelCol .Icon--down-caret {
+/* .dp-Card.dp-Level.is-active > .dp-LevelCol .Icon--down-caret { */
+
+.dp-Card.is-active .Icon--down-caret {
   transform: rotate(-180deg);
 }
 
@@ -582,6 +584,11 @@
 .dp-CardList.dp-GuidesDirectory .dp-Card,
 .dp-CardList.dp-GuideSections .dp-Card {
   border-top: 1px solid transparent;
+}
+
+.dp-CardList.dp-GuideSections .dp-Card {
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 /* .dp-CardList.dp-GuidesDirectory .dp-Card:hover,

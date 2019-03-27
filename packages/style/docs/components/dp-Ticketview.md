@@ -1232,8 +1232,10 @@ title: Ticket View
 				<span class="dp-Title">Tasks</span>
 				<button class="dp-Arrow"></button>
 			</li>
-			<li class="dp-MenuBarItem">
-				<span class="dp-Icon dp-billing Icon--blue"></span>
+			<li class="dp-MenuBarItem is-active">
+				<span class="dp-Icon dp-billing Icon--blue">
+					<span class="dp-Badge Badge--round Badge--top Badge--danger">2</span>
+				</span>
 				<span class="dp-Title">Billing</span>
 				<button class="dp-Arrow"></button>
 			</li>
