@@ -33,12 +33,11 @@
 } */
 
 .dp-TicketSelect .dp-title-item {
+  line-height: 1.5;
   margin-bottom: 0;
 }
 
 .dp-title-item.is-italic {
-
-  /* font: var(--p-xl-italic); */
   font: var(--p-n);
   font-style: italic;
 }

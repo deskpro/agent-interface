@@ -19,16 +19,24 @@ title: Publish
 
 	<div class="dp-FilterlistContainer">
 
-		<div class="dp-Tickets is-active">
+		<div class="dp-Tickets Tickets--Publish is-active">
 			<div class="dp-Card-SectionTitle dp-Tasks-list">
 
-				<span class="dp-ListName">
+<!-- 				<span class="dp-ListName">
 					<span class="dp-Icon Icon--menu Icon--primary"></span>
+                        <span class="dp-Card-title">
+                            Published Approvals<span class="dp-qt">(12)</span>
+                        </span>
+					<span class="dp-Icon Icon--down-caret Icon--primary"></span>
+				</span> -->
+
+                <span class="dp-ListName Level-justify-between">
                     <span class="dp-Card-title">
+                        <span class="dp-Icon Icon--menu Icon--primary"></span>
                         Published Approvals<span class="dp-qt">(12)</span>
                     </span>
-					<span class="dp-Icon Icon--down-caret Icon--primary"></span>
-				</span>
+                    <span class="dp-Icon Icon--down-caret Icon--primary"></span>
+                </span>
 
 				<span class="dp-Icon Icon--lock Icon--primary"></span>
 			</div>

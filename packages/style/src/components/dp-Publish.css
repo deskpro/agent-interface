@@ -144,10 +144,6 @@
   background-color: var(--grey-lighter);
   border-radius: 15px;
   color: var(--grey-darkest);
-
-  /* }
-
-.dp-Support a {	*/
   display: flex;
   font: var(--p-n-semibold);
   margin: 10px 0 0;
@@ -160,4 +156,12 @@
   height: 17px;
   margin-right: 5px;
   width: 16px;
+}
+
+.dp-Tickets.Tickets--Publish .dp-ListName {
+  width: 100%;
+}
+
+.dp-Tickets.Tickets--Publish .dp-Card-SectionTitle > .dp-ListName .dp-Icon {
+  margin: 0;
 }
