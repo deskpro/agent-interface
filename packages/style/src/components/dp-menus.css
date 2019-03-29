@@ -11,6 +11,7 @@
   border-radius: var(--border-radius);
   box-shadow: var(--shadow-bottom-right);
   list-style-type: none;
+  min-width: 100%;
   padding: 5px 0;
   position: absolute;
   white-space: nowrap;

@@ -156,7 +156,7 @@ title: PageSidebar
                 <div class="dp-SectionBody-item">
                     <div class="dp-title-item">
                         <span class="dp-Icon dp-iconUserAvatar"></span>
-                        Optical
+                        Tech company
                     </div>
                 </div>
 
@@ -172,7 +172,8 @@ title: PageSidebar
     <div class="dp-PageSidebar demo-sidebar">
         <div class="dp-SectionBody-item dp-UserPanel">
             <div class="dp-title-item">
-                <span class="dp-Icon dp-iconUserAvatar"></span>
+                <!-- <span class="dp-Icon dp-iconUserAvatar"></span> -->
+                <span class="dp-Icon dp-iconUserAvatar"><img src="/agent-interface/style/img/docs/avatar.png" alt=""></span>
                 <span class="dp-UserName">Zack Prudent</span>
                 <span class="dp-Icon Icon--OwnerArrows"></span>
             </div>
@@ -403,7 +404,8 @@ title: PageSidebar
 </div>
 ```
 
-<h4>sidebar/ticket-version</h4>
+<h4>User org panel</h4>
+
 ```html @preview
 <div class="dp-MainWrapper">
     <div class="dp-SidebarContainer demo-cog demo-menu demo-sidebar">
@@ -420,13 +422,15 @@ title: PageSidebar
                 <div class="dp-SidebarSection">
                     <div class="dp-SectionBody-item ">
                         <div class="dp-title-item">
-                            <span class="dp-Icon dp-iconUserAvatar"></span>
-                            Optical
+                            <!-- <span class="dp-Icon dp-iconUserAvatar"></span> -->
+                            <span class="dp-Icon dp-iconUserAvatar"><img src="/agent-interface/style/img/docs/avatar.png" alt=""></span>
+                            Tech company
                         </div>
                     </div>
                     <div class="dp-SectionBody-item dp-UserPanel">
                         <div class="dp-title-item">
-                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                            <!-- <span class="dp-Icon dp-iconUserAvatar"></span> -->
+                            <span class="dp-Icon dp-iconUserAvatar"><img src="/agent-interface/style/img/docs/avatar.png" alt=""></span>
                             <span class="dp-UserName">Zack Prudent</span>
                             <span class="dp-Icon Icon--OwnerArrows"></span>
                         </div>
@@ -687,101 +691,6 @@ title: PageSidebar
 </div>
 ```
 
-<h4>sidebar/ticket-version-overlay</h4>
-```html @preview
-<div class="dp-MainWrapper">
-    <div class="dp-SidebarContainer demo-cog demo-menu demo-sidebar">
-        <div class="dp-PageSidebar dp-TicketOverlay">
-
-            <ul class="dp-Tabs Tabs--icons">
-                <li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--email"></a></li>
-                <li class="dp-Tabs-item is-active"><a href="#" class="dp-Icon Icon--user"></a></li>
-                <li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--organisation"></a></li>
-            </ul>
-
-            <div class="dp-SidebarBody">
-
-                <div class="dp-SidebarSection">
-                    <div class="dp-SectionBody-item is-disabled">
-                        <div class="dp-title-item">
-                            <span class="dp-Icon dp-iconUserAvatar"></span>
-                            Optical
-                        </div>
-                    </div>
-                    <div class="dp-SectionBody-item dp-UserPanel">
-                        <div class="dp-title-item">
-                            <span class="dp-Icon dp-iconUserAvatar"></span>
-                            <span class="dp-UserName">Zack Prudent</span>
-                            <span class="dp-Icon Icon--OwnerArrows"></span>
-                        </div>
-                        <!-- <div class="dp-Email">zack.prudent@techcompany.com</div> -->
-                        <a href="mailto:zack.pride@techcompany.com" class="dp-MailAddress">zack.prudent@techcompany.com</a>
-                        <div class="dp-Phone">
-                            <i class="dp-Icon dp-phone_filled Icon--blue"></i>
-                            <a href="tel:+442035678940" >+44 20 356 789 40</a>
-                        </div>
-                        <div class="dp-OpenResolved">
-                            <span class="dp-open"><i class="dp-Icon Icon--email Icon--primary"></i> Open: 7</span>
-                            <span class="dp-resolved"><i class="dp-Icon Icon--email"></i> Resolved: 24</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="dp-SidebarSection">
-                    <dl class="dp-AddressList">
-                        <dt class="dp-TitleList">
-                            <span class="dp-Icon Icon--Web"></span>
-                            Website
-                        </dt>
-                        <dd class="dp-SubTitleList">www.techcompany.com</dd>
-
-                        <dd class="dp-DropdownDivider"></dd>
-
-                        <dt class="dp-TitleList">
-                            <span class="dp-Icon Icon--Address"></span>
-                            Address
-                        </dt>
-                        <dd class="dp-SubTitleList address">
-                            Tech Company Ltd<br></br>
-                            14 Cloud Street<br></br>
-                            London<br></br>
-                            SE1 ONG<br></br>
-                            England
-                        </dd>
-
-                        <dd class="dp-DropdownDivider"></dd>
-
-                        <dt class="dp-TitleList"><span class="dp-Icon Icon--WhatsApp"></span>Whats app</dt>
-                        <dd class="dp-SubTitleList dp-Address-Social"> - </dd>
-
-                        <dt class="dp-TitleList"><span class="dp-Icon Icon--Facebook"></span>Facebook</dt>
-                        <dd class="dp-SubTitleList dp-Address-Social"> - </dd>
-
-                        <dt class="dp-TitleList"><span class="dp-Icon Icon--Twitter"></span>Twitter</dt>
-                        <dd class="dp-SubTitleList dp-Address-Social"> - </dd>
-
-                        <dt class="dp-TitleList"><span class="dp-Icon Icon--LinkedIn"></span>LinkedIn</dt>
-                        <dd class="dp-SubTitleList dp-Address-Social"> - </dd>
-                    </dl>
-
-                </div>
-
-<!--                 <div class="dp-SidebarSection dp-SectionControls">
-                    <div class="dp-SectionTitle">
-                        <div class="dp-TitleControls"><span class="dp-Section--name">PROPERTIES</span></div>
-                        <a href="#" class="dp-Controls">
-                            <span class="dp-qt"> +6 </span> 
-                            <i class="dp-Icon dp-DotsIcon"></i>
-                        </a>
-                    </div>
-                </div> -->
-                
-            </div> <!-- Sidebar body -->
-        </div>
-    </div>
-</div>
-```
-
 <h4>sidebar/ticket-version-times</h4>
 ```html @preview
 <div class="dp-MainWrapper">
@@ -797,12 +706,6 @@ title: PageSidebar
 
             <div class="dp-SidebarBody">
 
-<!--                 <div class="dp-SidebarSection">
-                    <div class="dp-SectionTitle">
-                        <div class="dp-TitleControls">ORGANIZATION & USER</div>
-                    </div>
-                </div> -->
-
                 <div class="dp-SidebarSection">
                     <div class="dp-SectionBody-item ">
                         <div class="dp-title-item">
@@ -812,7 +715,7 @@ title: PageSidebar
                     </div>
                     <div class="dp-SectionBody-item dp-UserPanel">
                         <div class="dp-title-item">
-                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                            <span class="dp-Icon dp-iconUserAvatar"><img src="/agent-interface/style/img/docs/avatar.png" alt=""></span>
                             <span class="dp-UserName">Zack Prudent</span>
                             <span class="dp-Icon Icon--OwnerArrows"></span>
                         </div>
@@ -1122,7 +1025,7 @@ title: PageSidebar
 </div>
 ```
 
-<h4>sidebar/ticket-version-CCmenu</h4>
+<h4>Add CC’s</h4>
 ```html @preview
 <div class="dp-MainWrapper">
     <div class="dp-SidebarContainer demo-cog demo-menu demo-sidebar">
@@ -1135,12 +1038,6 @@ title: PageSidebar
             </ul>
             <div class="dp-SidebarBody dp-VersionCCmenu">
 
-<!--                 <div class="dp-SidebarSection">
-                    <div class="dp-SectionTitle">
-                        <div class="dp-TitleControls">ORGANIZATION & USER</div>
-                    </div>
-                </div> -->
-
                 <div class="dp-SidebarSection">
                     <div class="dp-SectionBody-item ">
                         <div class="dp-title-item">
@@ -1150,7 +1047,7 @@ title: PageSidebar
                     </div>
                     <div class="dp-SectionBody-item dp-UserPanel">
                         <div class="dp-title-item">
-                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                            <span class="dp-Icon dp-iconUserAvatar"><img src="/agent-interface/style/img/docs/avatar.png" alt=""></span>
                             <span class="dp-UserName">Zack Prudent</span>
                             <span class="dp-Icon Icon--OwnerArrows"></span>
                         </div>
@@ -1460,61 +1357,6 @@ title: PageSidebar
 </div>
 ```
 
-```html @preview
-<div class="dp-MainWrapper">
-    <div class="dp-SidebarContainer demo-cog demo-menu demo-sidebar">
-        <div class="dp-PageSidebar dp-TicketOverlay">
-
-            <ul class="dp-Tabs Tabs--icons">
-                <li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--email"></a></li>
-                <li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--user"></a></li>
-                <li class="dp-Tabs-item is-active"><a href="#" class="dp-Icon Icon--organisation"></a></li>
-            </ul>
-
-            <div class="dp-SidebarBody">
-
-                <div class="dp-SidebarSection">
-                    <div class="dp-SectionBody-item">
-                        <div class="dp-title-item">
-                            <span class="dp-Icon dp-iconUserAvatar"></span>
-                            Tech company
-                        </div>
-                    </div>
-                </div>
-
-                <div class="dp-SidebarSection">
-                    <dl class="dp-AddressList">
-                        <dt class="dp-TitleList">
-                            <span class="dp-Icon Icon--Web"></span>
-                            Website
-                        </dt>
-                        <dd class="dp-SubTitleList">www.techcompany.com</dd>
-
-                        <dd class="dp-DropdownDivider"></dd>
-
-                        <dt class="dp-TitleList">
-                            <span class="dp-Icon Icon--Address"></span>
-                            Address
-                        </dt>
-                        <dd class="dp-SubTitleList address">
-                            Tech Company Ltd<br></br>
-                            14 Cloud Street<br></br>
-                            London<br></br>
-                            SE1 ONG<br></br>
-                            England
-                        </dd>
-
-                    </dl>
-                </div>
-
-            </div> <!-- Sidebar body -->
-        </div>
-    </div>
-</div>
-```
-
-
-
 <h4>sidebar/Add cc section</h4>
 ```html @preview
 <div class="dp-MainWrapper">
@@ -1537,7 +1379,7 @@ title: PageSidebar
                     </div>
                     <div class="dp-SectionBody-item dp-UserPanel">
                         <div class="dp-title-item">
-                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                            <span class="dp-Icon dp-iconUserAvatar"><img src="/agent-interface/style/img/docs/avatar.png" alt=""></span>
                             <span class="dp-UserName">Zack Prudent</span>
                             <span class="dp-Icon Icon--OwnerArrows"></span>
                         </div>
@@ -1781,7 +1623,7 @@ title: PageSidebar
                     </div>
                     <div class="dp-SectionBody-item dp-UserPanel">
                         <div class="dp-title-item">
-                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                            <span class="dp-Icon dp-iconUserAvatar"><img src="/agent-interface/style/img/docs/avatar.png" alt=""></span>
                             <span class="dp-UserName">Zack Prudent</span>
                             <span class="dp-Icon Icon--OwnerArrows"></span>
                         </div>
@@ -1912,6 +1754,146 @@ title: PageSidebar
                         </div>
                     </div>
 
+                </div>
+
+            </div> <!-- Sidebar body -->
+        </div>
+    </div>
+</div>
+```
+
+
+<h4>User details tab</h4>
+```html @preview
+<div class="dp-MainWrapper">
+    <div class="dp-SidebarContainer demo-cog demo-menu demo-sidebar">
+        <div class="dp-PageSidebar dp-TicketOverlay">
+
+            <ul class="dp-Tabs Tabs--icons">
+                <li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--email"></a></li>
+                <li class="dp-Tabs-item is-active"><a href="#" class="dp-Icon Icon--user"></a></li>
+                <li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--organisation"></a></li>
+            </ul>
+
+            <div class="dp-SidebarBody">
+
+                <div class="dp-SidebarSection">
+                    <div class="dp-SectionBody-item is-disabled">
+                        <div class="dp-title-item">
+                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                            Optical
+                        </div>
+                    </div>
+                    <div class="dp-SectionBody-item dp-UserPanel">
+                        <div class="dp-title-item">
+                            <span class="dp-Icon dp-iconUserAvatar"><img src="/agent-interface/style/img/docs/avatar.png" alt=""></span>
+                            <span class="dp-UserName">Zack Prudent</span>
+                            <span class="dp-Icon Icon--OwnerArrows"></span>
+                        </div>
+                        <!-- <div class="dp-Email">zack.prudent@techcompany.com</div> -->
+                        <a href="mailto:zack.pride@techcompany.com" class="dp-MailAddress">zack.prudent@techcompany.com</a>
+                        <div class="dp-Phone">
+                            <i class="dp-Icon dp-phone_filled Icon--blue"></i>
+                            <a href="tel:+442035678940" >+44 20 356 789 40</a>
+                        </div>
+                        <div class="dp-OpenResolved">
+                            <span class="dp-open"><i class="dp-Icon Icon--email Icon--primary"></i> Open: 7</span>
+                            <span class="dp-resolved"><i class="dp-Icon Icon--email"></i> Resolved: 24</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dp-SidebarSection">
+                    <dl class="dp-AddressList">
+                        <dt class="dp-TitleList">
+                            <span class="dp-Icon Icon--Web"></span>
+                            Website
+                        </dt>
+                        <dd class="dp-SubTitleList">www.techcompany.com</dd>
+
+                        <dd class="dp-DropdownDivider"></dd>
+
+                        <dt class="dp-TitleList">
+                            <span class="dp-Icon Icon--Address"></span>
+                            Address
+                        </dt>
+                        <dd class="dp-SubTitleList address">
+                            Tech Company Ltd<br></br>
+                            14 Cloud Street<br></br>
+                            London<br></br>
+                            SE1 ONG<br></br>
+                            England
+                        </dd>
+
+                        <dd class="dp-DropdownDivider"></dd>
+
+                        <dt class="dp-TitleList"><span class="dp-Icon Icon--WhatsApp"></span>Whats app</dt>
+                        <dd class="dp-SubTitleList dp-Address-Social"> - </dd>
+
+                        <dt class="dp-TitleList"><span class="dp-Icon Icon--Facebook"></span>Facebook</dt>
+                        <dd class="dp-SubTitleList dp-Address-Social"> - </dd>
+
+                        <dt class="dp-TitleList"><span class="dp-Icon Icon--Twitter"></span>Twitter</dt>
+                        <dd class="dp-SubTitleList dp-Address-Social"> - </dd>
+
+                        <dt class="dp-TitleList"><span class="dp-Icon Icon--LinkedIn"></span>LinkedIn</dt>
+                        <dd class="dp-SubTitleList dp-Address-Social"> - </dd>
+                    </dl>
+
+                </div>
+                
+            </div> <!-- Sidebar body -->
+        </div>
+    </div>
+</div>
+```
+
+<h4>Organisation tab</h4>
+```html @preview
+<div class="dp-MainWrapper">
+    <div class="dp-SidebarContainer demo-cog demo-menu demo-sidebar">
+        <div class="dp-PageSidebar dp-TicketOverlay">
+
+            <ul class="dp-Tabs Tabs--icons">
+                <li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--email"></a></li>
+                <li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--user"></a></li>
+                <li class="dp-Tabs-item is-active"><a href="#" class="dp-Icon Icon--organisation"></a></li>
+            </ul>
+
+            <div class="dp-SidebarBody">
+
+                <div class="dp-SidebarSection">
+                    <div class="dp-SectionBody-item">
+                        <div class="dp-title-item">
+                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                            Tech company
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dp-SidebarSection">
+                    <dl class="dp-AddressList">
+                        <dt class="dp-TitleList">
+                            <span class="dp-Icon Icon--Web"></span>
+                            Website
+                        </dt>
+                        <dd class="dp-SubTitleList">www.techcompany.com</dd>
+
+                        <dd class="dp-DropdownDivider"></dd>
+
+                        <dt class="dp-TitleList">
+                            <span class="dp-Icon Icon--Address"></span>
+                            Address
+                        </dt>
+                        <dd class="dp-SubTitleList address">
+                            Tech Company Ltd<br></br>
+                            14 Cloud Street<br></br>
+                            London<br></br>
+                            SE1 ONG<br></br>
+                            England
+                        </dd>
+
+                    </dl>
                 </div>
 
             </div> <!-- Sidebar body -->

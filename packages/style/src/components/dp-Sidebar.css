@@ -189,10 +189,10 @@
 
 .dp-PageSidebar .dp-title-item .dp-Badge {
   display: inline-block;
-  height: 10px;
+  height: 12px;
   margin: 0 6px 0 0;
   vertical-align: middle;
-  width: 10px;
+  width: 12px;
 }
 
 .dp-SidebarSection .dp-UserName {
@@ -457,6 +457,11 @@
   width: 100%;
 }
 
+.dp-CCmenu .dp-title-item.is-active .dp-User-link::after,
+.dp-CCmenu .dp-title-item:hover .dp-User-link::after {
+  background-color: var(--brand-primary);
+}
+
 .dp-CCmenu .dp-UserMenu {
   display: flex;
   flex: 1 0 auto;
@@ -519,7 +524,7 @@
 .dp-AddCc .dp-Button,
 .dp-AddCc .dp-ActionButton,
 .dp-AddCc .dp-Input + .dp-Input {
-  margin-top: 8px;
+  margin-top: 9px;
 }
 
 .dp-AddCc .dp-ActionButton {

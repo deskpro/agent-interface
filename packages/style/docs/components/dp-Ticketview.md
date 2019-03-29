@@ -10,7 +10,8 @@ title: Ticket View
 			<div class="dp-SectionTitle">
 				<div class="dp-TitleControls">Agent</div>
 				<div class="dp-StatusTimes dp-MenuBarItem">
-					Assign to me | Unassign
+					<!-- Assign to me | Unassign -->
+					Assign to me <span class="dp-separator"></span> Unassign
 				</div>
 			</div>
 		</div>
@@ -1092,17 +1093,19 @@ title: Ticket View
 
 <h4>ticket/labels</h4>
 ```html @preview
-	<span class="dp-TagBar">
-		<span class="dp-Tag Tag--close">Custom work<span class="dp-Icon dp-close"></span></span>
-		<span class="dp-Tag Tag--close">Report back on bug fix<span class="dp-Icon dp-close"></span></span>
-		<span class="dp-Tag Tag--close Tag--purple">VIP<span class="dp-Icon dp-close"></span></span>
-		<button class="dp-Button Button--large Button--square"><span class="dp-Icon dp-add-square"></span></button>
-	</span>
+<span class="dp-TagBar">
+	<span class="dp-Tag Tag--close">Custom work<span class="dp-Icon dp-close"></span></span>
+	<span class="dp-Tag Tag--close">Report back on bug fix<span class="dp-Icon dp-close"></span></span>
+	<span class="dp-Tag Tag--close Tag--purple">VIP<span class="dp-Icon dp-close"></span></span>
+	<span class="dp-separator"></span>
+	<button class="dp-Button Button--large Button--square"><span class="dp-Icon dp-add-square"></span></button>
+</span>
 ```
 
 <h4>ticket/no-labels</h4>
 ```html @preview
 <span class="dp-TagBar">
+	<span class="dp-separator"></span>
 	<button class="dp-Button Button--label">
 		Labels<span class="dp-Icon dp-IconPlusBtn"></span>
 	</button>
@@ -2875,15 +2878,15 @@ title: Ticket View
 				<div class="dp-SectionTitle">
 					<div class="dp-TitleControls">Agent</div>
 					<div class="dp-StatusTimes dp-MenuBarItem">
-						Assign to me | Unassign
+						Assign to me <span class="dp-separator"></span> Unassign
 					</div>
 				</div>
 			</div>
-			<button class="dp-ActionButton ActionButton--Xlarge dp-SectionBody-item" type="button">
+			<button class="dp-ActionButton ActionButton--Xlarge dp-Arrow" type="button">
 				<span class="dp-title-item">
 					<span class="dp-Icon dp-iconUserAvatar"></span>
 					Zack Prudent
-				<span>
+				</span>
 			</button>
 		</div>
 
@@ -2896,7 +2899,7 @@ title: Ticket View
 					</div>
 				</div>
 			</div>
-			<button class="dp-ActionButton ActionButton--Xlarge dp-SectionBody-item" type="button">
+			<button class="dp-ActionButton ActionButton--Xlarge dp-Arrow" type="button">
 				<span class="dp-title-item">
 					<span class="dp-Icon dp-iconUserAvatar"></span>
 					Support
@@ -3655,15 +3658,15 @@ title: Ticket View
 								<div class="dp-SectionTitle">
 									<div class="dp-TitleControls">Agent</div>
 									<div class="dp-StatusTimes dp-MenuBarItem">
-										Assign to me | Unassign
+										Assign to me <span class="dp-separator"></span> Unassign
 									</div>
 								</div>
 							</div>
-							<button class="dp-ActionButton ActionButton--Xlarge dp-SectionBody-item dp-Arrow" type="button">
+							<button class="dp-ActionButton ActionButton--Xlarge dp-Arrow" type="button">
 								<span class="dp-title-item">
-									<!-- <span class="dp-Icon dp-iconUserAvatar"></span> -->
+									<span class="dp-Icon dp-iconUserAvatar"></span>
 									Zack Prudent
-								<span>
+								</span>
 							</button>
 						</div>
 						<div class="dp-TicketSelect dp-TicketSmall">
@@ -3675,9 +3678,8 @@ title: Ticket View
 									</div>
 								</div>
 							</div>
-							<button class="dp-ActionButton ActionButton--Xlarge dp-SectionBody-item dp-Arrow" type="button">
+							<button class="dp-ActionButton ActionButton--Xlarge dp-Arrow" type="button">
 								<span class="dp-title-item">
-									<!-- <span class="dp-Icon dp-iconUserAvatar"></span> -->
 									Support
 								<span>
 							</button>
