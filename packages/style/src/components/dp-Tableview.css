@@ -133,12 +133,6 @@
   background-size: 11px 11px;
 }
 
-.dp-ColumnControls .dp-arrowGroup {
-  height: 10px;
-  margin-left: 5px;
-  width: 10px;
-}
-
 .dpCaretWrapper {
   display: block;
   height: 12px;
@@ -339,51 +333,49 @@
   justify-content: flex-end;
 }
 
-/* Table Arrows */
+/* Table arrows */
 
-.dp-arrowContainer {
-  display: flex;
-  flex-direction: column;
-}
-
-.dp-arrowContainer.is-asc .Arrow--up,
-.dp-arrowContainer.is-desc .Arrow--down {
-  opacity: 1;
-}
-
-.dp-arrowContainer.is-desc .Arrow--up,
-.dp-arrowContainer.is-asc .Arrow--down {
-  opacity: 0;
-}
-
-.dp-arrowContainer .Arrow--up,
-.dp-arrowContainer .Arrow--down {
+.dp-arrowGroup {
   cursor: pointer;
   display: inline-block;
-  height: 5px;
   padding-left: 10px;
   position: relative;
   vertical-align: middle;
 }
 
-.Arrow--up::after, .Arrow--down::after {
+.dp-Tableview .dp-Icon.dp-arrowGroup {
+  height: 6px;
+}
+
+.dp-arrowGroup::after,
+.dp-arrowGroup::before {
   border-style: solid;
-  bottom: 0;
   content: "";
   height: 0;
   margin: auto;
   position: absolute;
   right: 0;
-  top: 0;
   width: 0;
 }
 
-.Arrow--up::after {
-  border-color: transparent transparent var(--grey-dark) transparent;
-  border-width: 0 3px 3px 3px;
+.dp-arrowGroup::after {
+  border-color: transparent transparent var(--grey-dark);
+  border-width: 0 3px 3px;
+  top: 0;
 }
 
-.Arrow--down::after {
-  border-color: var(--grey-dark) transparent transparent transparent;
-  border-width: 3px 3px 0 3px;
+.dp-arrowGroup::before {
+  border-color: var(--grey-dark) transparent transparent;
+  border-width: 3px 3px 0;
+  bottom: -2px;
+}
+
+.is-asc.dp-arrowGroup::after,
+.is-desc.dp-arrowGroup::before {
+  opacity: 1;
+}
+
+.is-asc.dp-arrowGroup::before,
+.is-desc.dp-arrowGroup::after {
+  opacity: 0;
 }
