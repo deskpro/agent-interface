@@ -162,6 +162,12 @@
   width: 100%;
 }
 
-.dp-Tickets.Tickets--Publish .dp-Card-SectionTitle > .dp-ListName .dp-Icon {
+.dp-ListName > .dp-Card-title + .dp-Icon {
   margin: 0;
+}
+
+.dp-Tickets.Tickets--Publish  .dp-Card-title {
+  flex: 1 1 100%;
+  margin: 0;
+  max-width: 100%;
 }
