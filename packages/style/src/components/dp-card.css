@@ -496,13 +496,6 @@
   margin-left: 15px;
 }
 
-.dp-Card .dp-Title .Icon--star,
-.dp-SubjectItem .Icon--star {
-  background-size: 12px 12px;
-  max-height: 12px;
-  max-width: 12px;
-}
-
 /* Card Guides */
 
 /* .dp-CardList.dp-GuidesDirectory .dp-Card,

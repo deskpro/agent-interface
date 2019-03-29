@@ -978,6 +978,15 @@
   background-image: url('data:image/svg+xml,<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 12 11.5" style="enable-background:new 0 0 12 11.5;" xml:space="preserve"><style type="text/css">.st0{fill:%233A8DDE;}</style><g><polygon class="st0" points="6,8.8 9.7,11.5 8.3,7.1 12,4.5 7.4,4.5 6,0 4.6,4.5 0,4.5 3.7,7.1 2.3,11.5  "/></g></svg>');
 }
 
+.dp-Card .dp-Title .Icon--star,
+.dp-SubjectItem .Icon--star {
+  background-size: 12px 12px;
+
+  /*  max-height: 12px;
+  max-width: 12px; */
+
+}
+
 .dp-iconStar.Icon-success {
   background-image: url('data:image/svg+xml,<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 12 11.5" style="enable-background:new 0 0 12 11.5;" xml:space="preserve"><style type="text/css">.st0{fill:%2354b162;}</style><g><polygon class="st0" points="6,8.8 9.7,11.5 8.3,7.1 12,4.5 7.4,4.5 6,0 4.6,4.5 0,4.5 3.7,7.1 2.3,11.5  "/></g></svg>');
 }

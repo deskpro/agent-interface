@@ -747,9 +747,11 @@ input:disabled + label {
 .dp-listreveal .dp-TagWrap .dp-Tag {
   font: var(--p-s);
   margin: 0 10px 0 0;
-  padding: 5px 0;
   text-align: center;
   width: 60px;
+
+  /* padding: 5px 0; */
+
 }
 
 .dp-listreveal .dp-TagWrap .dp-Comments > li {

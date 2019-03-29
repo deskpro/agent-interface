@@ -20,8 +20,10 @@
 
 .dp-Tableview .dp-SubjectItem {
   font: var(--h-n-semibold);
-  padding: 2.5px 13px;
   position: relative;
+
+  /* padding: 2.5px 13px; */
+
 }
 
 .dp-Tableview .dp-Card-title {
@@ -294,6 +296,7 @@
 }
 
 .dp-TableRow .dp-SubjectItem {
+  align-items: center;
   justify-content: space-between;
 }
 
