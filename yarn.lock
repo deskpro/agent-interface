@@ -11241,6 +11241,11 @@ react-syntax-highlighter@^8.0.1:
     prismjs "^1.8.4"
     refractor "^2.4.1"
 
+react-table@^7.0.0-alpha.2:
+  version "7.0.0-alpha.2"
+  resolved "https://registry.yarnpkg.com/react-table/-/react-table-7.0.0-alpha.2.tgz#bb21f971d7a4e075b4afb0bce2163ce6bb1704f7"
+  integrity sha512-TySZyFU41XCuJT8GpCHvjtjiV+CgryLH4B2L/nFpSAXslPB7iSjxCC96vZCZf62vrC4m74UloFhVsPio38Lo9Q==
+
 react-test-renderer@^16.0.0-0, react-test-renderer@^16.8.4:
   version "16.8.4"
   resolved "https://registry.yarnpkg.com/react-test-renderer/-/react-test-renderer-16.8.4.tgz#abee4c2c3bf967a8892a7b37f77370c5570d5329"

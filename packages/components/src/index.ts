@@ -45,3 +45,5 @@ export { default as OptionList } from "./elements/OptionList/OptionList";
 export {
   default as StandardOptionList
 } from "./elements/OptionList/StandardOptionList";
+
+export { default as Table } from "./Table/Table";
