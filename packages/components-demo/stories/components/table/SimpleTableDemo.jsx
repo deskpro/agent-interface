@@ -59,7 +59,7 @@ const columns = [
   }
 ];
 
-const SimpleTableDemo = () => {
+const SimpleTableDemo = ({ grouped }) => {
   const data = Array.from({ length: 200 }, (_, idx) => ({
     id: 1123 + idx,
     title: "Card title",
@@ -84,7 +84,13 @@ const SimpleTableDemo = () => {
       "Artem Berdyshev"
     ]),
     icon: sample(["rocket", "beetle", null]),
-    urgency: Math.round(Math.random() * 10)
+    urgency: Math.round(Math.random() * 10),
+    group: grouped
+      ? {
+          id: Math.floor(idx / 17),
+          title: `Group #${Math.floor(idx / 17) + 1}`
+        }
+      : undefined
   }));
 
   return (

@@ -3,7 +3,7 @@ import {
   useTable,
   useColumns,
   useRows,
-  useGroupBy,
+  // useGroupBy,
   useFilters,
   useSortBy,
   useExpanded,
@@ -18,30 +18,28 @@ import classNames from "classnames";
 import { TableView, Header, Cell, Row, HeaderRow } from "./TableComponents";
 import Pagination from "../Pagination/Pagination";
 import useItemSelection from "../ListPane/useItemSelection";
-import { ListItem } from "../ListPane/types";
+import { ListItem, ListItemGroup } from "../ListPane/types";
 import Checkbox from "../inputs/Checkbox/Checkbox";
 import Arrow from "../Button/Arrow";
-
-export interface TableRow {
-  id: React.Key;
-}
 
 interface EnhancedColumn extends ReactTableEnhancedColumn {
   headerClassName?: string;
 }
 
 export type TableProps = {
-  data: TableRow[];
+  data: ListItem[];
   columns: any[];
   defaults?: {
     pageSize?: number;
   };
   hoverable?: boolean;
   expandable?: boolean;
-  renderExpandedRow?: (row: TableRow) => React.ReactNode;
+  renderExpandedRow?: (row: ListItem) => React.ReactNode;
   checkable?: boolean;
   onCheckChange?: (selection: React.Key[]) => void;
 };
+
+const defaultGroup: ListItemGroup = { id: "DEFAULT", title: "default" };
 
 const Table: React.FC<TableProps> = ({
   hoverable = true,
@@ -75,13 +73,14 @@ const Table: React.FC<TableProps> = ({
     },
     useColumns,
     useRows,
-    useGroupBy,
+    // useGroupBy,
     useFilters,
     useSortBy,
     useExpanded,
     usePagination,
     useFlexLayout
   );
+  console.log(instance);
 
   const {
     getTableProps,
@@ -103,8 +102,8 @@ const Table: React.FC<TableProps> = ({
   const {
     selection,
     toggleItemSelection,
-    // toggleGroupSelection,
-    // getGroupCheckState,
+    toggleGroupSelection,
+    getGroupCheckState,
     handleSelectAll,
     handleSelectNone
     // handleSelectInverse
@@ -115,20 +114,26 @@ const Table: React.FC<TableProps> = ({
     }
   }, [selection, onCheckChange]);
 
-  const renderRow = (row, index, style = {}) => {
+  const renderRow = (row, index, rows) => {
     if (!row) {
-      return (
-        <Row {...{ style, even: Boolean(index % 2) }}>
-          <Cell>Loading more...</Cell>
-        </Row>
-      );
+      return null;
     }
     prepareRow(row);
-    const rowProps = row.getRowProps({ style, even: Boolean(index % 2) });
+
+    const group = row.original.group || defaultGroup;
+    const prevGroup =
+      index !== 0 ? rows[index - 1].original.group || defaultGroup : null;
+    const shouldRenderGroupHeader =
+      group.id !== defaultGroup.id &&
+      (prevGroup === null || prevGroup.id !== group.id);
+    const groupCheckState = getGroupCheckState(group.id);
+
+    const rowProps = row.getRowProps();
+
     const renderedRow = (
       <Row {...rowProps} expanded={row.isExpanded}>
         {row.cells.map(cell => (
-          <Cell {...cell.getCellProps()} className={cell.column.className}>
+          <Cell {...cell.getCellProps({ className: cell.column.className })}>
             {cell.column.id === "expander" && (
               <Arrow
                 onClick={() => row.toggleExpanded()}
@@ -148,27 +153,44 @@ const Table: React.FC<TableProps> = ({
       </Row>
     );
 
-    if (row.isExpanded) {
+    if (row.isExpanded || shouldRenderGroupHeader) {
       return (
         <React.Fragment key={rowProps.key}>
+          {shouldRenderGroupHeader && (
+            <Row {...rowProps} key={`group_${group.id}`} grouped>
+              {expandable && <Cell {...row.cells[0].getCellProps()} />}
+              {checkable && (
+                <Cell {...row.cells[expandable ? 1 : 0].getCellProps()}>
+                  <Checkbox
+                    id={group.id}
+                    checked={!!groupCheckState}
+                    undef={groupCheckState === "undef"}
+                    onChange={() => toggleGroupSelection(group.id)}
+                  />
+                </Cell>
+              )}
+              <Cell className="dp-Card-title" style={{ flex: "0 0 auto" }}>
+                {group.title}
+              </Cell>
+            </Row>
+          )}
           {renderedRow}
-          <Row
-            {...rowProps}
-            className={classNames(rowProps.className, "dp-Table-description")}
-            key={`${rowProps.key}_expanded`}
-          >
-            {renderExpandedRow
-              ? renderExpandedRow(row.original as TableRow)
-              : null}
-          </Row>
+          {row.isExpanded && (
+            <Row
+              {...rowProps}
+              className={classNames(rowProps.className, "dp-Table-description")}
+              key={`${rowProps.key}_expanded`}
+            >
+              {renderExpandedRow
+                ? renderExpandedRow(row.original as ListItem)
+                : null}
+            </Row>
+          )}
         </React.Fragment>
       );
     }
     return renderedRow;
   };
-
-  const tableBody =
-    page && page.length ? page.map((row, i) => renderRow(row, i)) : null;
 
   return (
     <TableView
@@ -205,7 +227,7 @@ const Table: React.FC<TableProps> = ({
           ))}
         </HeaderRow>
       ))}
-      {tableBody}
+      {!!page && page.length > 0 ? page.map(renderRow) : null}
       <Pagination
         currentPage={pageIndex + 1}
         numPages={pageOptions.length}
