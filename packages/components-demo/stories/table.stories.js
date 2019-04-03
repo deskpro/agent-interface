@@ -9,6 +9,9 @@ storiesOf("Table", module)
   .addDecorator(withKnobs)
   .add("Simple Table", () => (
     <div style={{ width: "100%" }}>
-      <SimpleTableDemo grouped={boolean("With Groups", false)} />
+      <SimpleTableDemo
+        grouped={boolean("With Groups", false)}
+        expandable={boolean("Expandable", false)}
+      />
     </div>
   ));

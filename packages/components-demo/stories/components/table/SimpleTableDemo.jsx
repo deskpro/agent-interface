@@ -59,7 +59,7 @@ const columns = [
   }
 ];
 
-const SimpleTableDemo = ({ grouped }) => {
+const SimpleTableDemo = ({ grouped, expandable }) => {
   const data = Array.from({ length: 100 }, (_, idx) => ({
     id: 1123 + idx,
     title: "Card title",
@@ -98,7 +98,7 @@ const SimpleTableDemo = ({ grouped }) => {
       data={data}
       columns={columns}
       defaults={{ pageSize: 25 }}
-      expandable
+      expandable={expandable}
       renderExpandedRow={row => `Row #${row.id}. Lorem ipsum dolar sit amet.`}
       checkable
       onCheckChange={action("check")}
