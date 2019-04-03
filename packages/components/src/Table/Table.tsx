@@ -1,13 +1,12 @@
 import * as React from "react";
 import {
+  actions,
   useTable,
   useColumns,
   useRows,
   // useGroupBy,
-  useFilters,
   useSortBy,
   useExpanded,
-  usePagination,
   useFlexLayout,
   useTableState,
   HeaderColumn,
@@ -16,7 +15,6 @@ import {
 import classNames from "classnames";
 
 import { TableView, Header, Cell, Row, HeaderRow } from "./TableComponents";
-import Pagination from "../Pagination/Pagination";
 import useItemSelection from "../ListPane/useItemSelection";
 import { ListItem, ListItemGroup } from "../ListPane/types";
 import Checkbox from "../inputs/Checkbox/Checkbox";
@@ -37,6 +35,7 @@ export type TableProps = {
   renderExpandedRow?: (row: ListItem) => React.ReactNode;
   checkable?: boolean;
   onCheckChange?: (selection: React.Key[]) => void;
+  onSort?: (sortBy?: { id: string; desc: boolean }) => void;
 };
 
 const defaultGroup: ListItemGroup = { id: "DEFAULT", title: "default" };
@@ -49,6 +48,8 @@ const Table: React.FC<TableProps> = ({
   renderExpandedRow,
   defaults = {},
   columns,
+  onSort,
+  data,
   ...props
 }) => {
   const expandColumn = {
@@ -66,37 +67,34 @@ const Table: React.FC<TableProps> = ({
   const instance = useTable(
     {
       ...props,
-      state: useTableState(defaults),
+      data,
+      state: useTableState(defaults, undefined, {
+        reducer: (_, newState, type) => {
+          if (type === actions.sortByChange && typeof onSort === "function") {
+            const [sortBy] = newState.sortBy;
+            onSort(sortBy);
+          }
+          return newState;
+        }
+      }),
       columns: [expandable && expandColumn, checkable && checkboxColumn]
         .concat(columns)
-        .filter(Boolean) as HeaderColumn[]
+        .filter(Boolean) as HeaderColumn[],
+      manualSorting: typeof onSort === "function",
+      disableMultiSort: true
     },
     useColumns,
     useRows,
-    // useGroupBy,
-    useFilters,
     useSortBy,
     useExpanded,
-    usePagination,
     useFlexLayout
   );
-  console.log(instance);
 
   const {
     getTableProps,
     headerGroups: headerRows,
-    // rows,
-    // getRowProps,
-    pageOptions,
-    page,
-    state: [{ pageIndex /* , pageSize, sortBy, groupBy, filters */ }],
-    gotoPage,
+    rows,
     prepareRow
-    // previousPage,
-    // nextPage,
-    // setPageSize,
-    // canPreviousPage,
-    // canNextPage
   } = instance;
 
   const {
@@ -107,14 +105,14 @@ const Table: React.FC<TableProps> = ({
     handleSelectAll,
     handleSelectNone
     // handleSelectInverse
-  } = useItemSelection(page.map(row => row.original) as ListItem[]);
+  } = useItemSelection(data);
   React.useEffect(() => {
     if (onCheckChange) {
       onCheckChange(selection);
     }
   }, [selection, onCheckChange]);
 
-  const renderRow = (row, index, rows) => {
+  const renderRow = (row, index, rowsArr) => {
     if (!row) {
       return null;
     }
@@ -122,7 +120,7 @@ const Table: React.FC<TableProps> = ({
 
     const group = row.original.group || defaultGroup;
     const prevGroup =
-      index !== 0 ? rows[index - 1].original.group || defaultGroup : null;
+      index !== 0 ? rowsArr[index - 1].original.group || defaultGroup : null;
     const shouldRenderGroupHeader =
       group.id !== defaultGroup.id &&
       (prevGroup === null || prevGroup.id !== group.id);
@@ -215,25 +213,18 @@ const Table: React.FC<TableProps> = ({
                 <Checkbox
                   id="select_all"
                   checked={selection.length > 0}
-                  undef={selection.length > 0 && selection.length < page.length}
+                  undef={selection.length > 0 && selection.length < rows.length}
                   onChange={() =>
                     selection.length ? handleSelectNone() : handleSelectAll()
                   }
                 />
               )}
               {column.render("Header")}
-              {/* {column.canFilter ? <div>{column.render("Filter")}</div> : null} */}
             </Header>
           ))}
         </HeaderRow>
       ))}
-      {!!page && page.length > 0 ? page.map(renderRow) : null}
-      <Pagination
-        currentPage={pageIndex + 1}
-        numPages={pageOptions.length}
-        onPageChange={nextPage => gotoPage(nextPage - 1)}
-        showGotoPage
-      />
+      {!!rows && rows.length > 0 ? rows.map(renderRow) : null}
     </TableView>
   );
 };

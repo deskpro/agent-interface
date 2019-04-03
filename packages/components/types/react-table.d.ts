@@ -30,6 +30,8 @@ declare module "react-table" {
     maxWidth?: string | number;
     width?: string | number;
     canSortBy?: boolean;
+    sortByFn?: (a: any, b: any, desc: boolean) => 0 | 1 | -1;
+    defaultSortDesc?: boolean;
   }
 
   export interface Column extends HeaderColumn {
@@ -88,6 +90,11 @@ declare module "react-table" {
     columns: HeaderColumn[];
     state?: any;
     debug?: boolean;
+    sortByFn?: (a: any, b: any, desc: boolean) => 0 | 1 | -1;
+    manualSorting?: boolean;
+    disableSorting?: boolean;
+    defaultSortDesc?: boolean;
+    disableMultiSort?: boolean;
   }
 
   export interface RowsProps {
@@ -160,5 +167,14 @@ declare module "react-table" {
     rows: [];
   };
 
-  export function useTableState(initialState?: any, overriddenState?: any): any;
+  export function useTableState(
+    initialState?: any,
+    overriddenState?: any,
+    options?: {
+      reducer?: (oldState: any, newState: any, type: string) => any;
+      useState?: typeof React.useState;
+    }
+  ): any;
+
+  export const actions: any;
 }

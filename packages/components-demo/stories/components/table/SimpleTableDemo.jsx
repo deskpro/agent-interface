@@ -60,7 +60,7 @@ const columns = [
 ];
 
 const SimpleTableDemo = ({ grouped }) => {
-  const data = Array.from({ length: 200 }, (_, idx) => ({
+  const data = Array.from({ length: 100 }, (_, idx) => ({
     id: 1123 + idx,
     title: "Card title",
     isFavourite: Math.round((Math.random() * 10) % 2) === 1,
@@ -101,7 +101,8 @@ const SimpleTableDemo = ({ grouped }) => {
       expandable
       renderExpandedRow={row => `Row #${row.id}. Lorem ipsum dolar sit amet.`}
       checkable
-      onCheckChange={action()}
+      onCheckChange={action("check")}
+      onSort={action("sort")}
     />
   );
 };
