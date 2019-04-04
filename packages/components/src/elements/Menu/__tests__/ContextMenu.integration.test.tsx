@@ -57,9 +57,9 @@ describe("<ContextMenu />", () => {
     value.simulate("contextmenu");
     expect(wrapper.find("li.dp-Menu-title").exists()).toEqual(true);
 
-    const outside = wrapper.find(".outside-div").first();
+    const mockedEvent = { target: {} };
+    wrapper.find(".outside-div").simulate("click", mockedEvent);
 
-    outside.simulate("click");
     expect(wrapper.find("li.dp-Menu-title").exists()).toEqual(true);
   });
 });

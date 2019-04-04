@@ -87,7 +87,7 @@ exports[`<TicketCard /> should match its snapshot 1`] = `
         <span
           class="dp-Tag Tag--grey Tag--small"
         >
-          about 2 months
+          2 months
         </span>
       </span>
     </span>

@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FieldGroupingList /> should match its snapshot 1`] = `
+<div>
+  <div
+    class="dp-Group-items"
+  >
+    <span
+      class="dp-Badge Badge--group-filter"
+      role="button"
+      tabindex="-1"
+    >
+      All
+      <span
+        class="dp-Num"
+      >
+        900
+      </span>
+    </span>
+    <span
+      class="dp-Badge Badge--group-filter"
+      role="button"
+      tabindex="-1"
+    >
+      Regulated
+      <span
+        class="dp-Num"
+      >
+        80
+      </span>
+    </span>
+    <span
+      class="dp-Badge Badge--group-filter"
+      role="button"
+      tabindex="-1"
+    >
+      IT
+      <span
+        class="dp-Num"
+      >
+        5
+      </span>
+    </span>
+    <span
+      class="dp-Badge Badge--extended Badge--group-filter"
+      role="button"
+      tabindex="-1"
+    >
+      Sales
+      <span
+        class="dp-Num"
+      >
+        100
+      </span>
+      <span
+        class="dp-Icon dp-Arrow"
+        role="button"
+        tabindex="-1"
+      />
+    </span>
+    <span
+      class="dp-Badge Badge--group-filter"
+      role="button"
+      tabindex="-1"
+    >
+      Support
+      <span
+        class="dp-Num"
+      >
+        500
+      </span>
+    </span>
+    <span
+      class="dp-Badge Badge--group-filter"
+      role="button"
+      tabindex="-1"
+    >
+      HR
+      <span
+        class="dp-Num"
+      >
+        25
+      </span>
+    </span>
+  </div>
+</div>
+`;

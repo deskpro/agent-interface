@@ -13,5 +13,10 @@ module.exports = {
     "^.+\\.svg$": "jest-svg-transformer"
   },
   testMatch: [join(__dirname, "src/**/*.test.{js,jsx,ts,tsx}")],
-  collectCoverage: true
+  collectCoverage: true,
+  globals: {
+    "ts-jest": {
+      diagnostics: false
+    }
+  }
 };

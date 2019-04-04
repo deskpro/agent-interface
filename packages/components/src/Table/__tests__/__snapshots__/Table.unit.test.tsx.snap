@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Table /> should match its snapshot 1`] = `
+<div
+  class="dp-Tableview is-hoverable"
+>
+  <div
+    class="dp-TableRow dp-TableControl"
+    style="display: flex; min-width: 2px;"
+  >
+    <div
+      class="dp-TableItem"
+      style="box-sizing: border-box; flex: 1 0 auto; width: 1px; max-width: undefinedpx;"
+    >
+      ID
+    </div>
+    <div
+      class="dp-TableItem"
+      style="box-sizing: border-box; flex: 1 0 auto; width: 1px; max-width: undefinedpx;"
+    >
+      Title
+      <span
+        class="dp-Icon dp-arrowGroup"
+        style="cursor: pointer;"
+        title="Toggle SortBy"
+      />
+    </div>
+  </div>
+  <div
+    class="dp-TableRow"
+    style="display: flex; min-width: 2px;"
+  >
+    <div
+      class=""
+      style="display: block; box-sizing: border-box; flex: 1 0 auto; width: 1px; max-width: undefinedpx;"
+    >
+      1
+    </div>
+    <div
+      class=""
+      style="display: block; box-sizing: border-box; flex: 1 0 auto; width: 1px; max-width: undefinedpx;"
+    >
+      First item
+    </div>
+  </div>
+  <div
+    class="dp-TableRow"
+    style="display: flex; min-width: 2px;"
+  >
+    <div
+      class=""
+      style="display: block; box-sizing: border-box; flex: 1 0 auto; width: 1px; max-width: undefinedpx;"
+    >
+      2
+    </div>
+    <div
+      class=""
+      style="display: block; box-sizing: border-box; flex: 1 0 auto; width: 1px; max-width: undefinedpx;"
+    >
+      Second Title 
+    </div>
+  </div>
+</div>
+`;
