@@ -10,7 +10,6 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "target": "es6",
-    "sourceMap": true,
     "inlineSourceMap": true,
     "lib": ["es7", "dom"],
     "jsx": "react",
