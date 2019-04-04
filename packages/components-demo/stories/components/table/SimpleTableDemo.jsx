@@ -3,6 +3,7 @@ import sample from "lodash/sample";
 import subWeeks from "date-fns/sub_weeks";
 import distanceInWordsToNow from "date-fns/distance_in_words_to_now";
 import { action } from "@storybook/addon-actions";
+import uuidv5 from "uuid/v5";
 
 import {
   Table,
@@ -11,8 +12,10 @@ import {
   UserInfo
 } from "@deskpro/agent-interface-components";
 
+const namespace = "1b671a64-40d5-491e-99b0-da01ff1f3341";
+
 const columns = [
-  { Header: "ID", accessor: "id" },
+  { Header: "ID", accessor: "id", canSortBy: false },
   {
     Header: "Title",
     accessor: "title",
@@ -45,6 +48,7 @@ const columns = [
     Header: "",
     accessor: "icon",
     width: 45,
+    canSortBy: false,
     Cell: ({ value }) =>
       value ? <Icon name={value} circle color="black" /> : null
   },
@@ -59,43 +63,53 @@ const columns = [
   }
 ];
 
-const SimpleTableDemo = () => {
-  const data = Array.from({ length: 200 }, (_, idx) => ({
-    id: 1123 + idx,
-    title: "Card title",
-    isFavourite: Math.round((Math.random() * 10) % 2) === 1,
-    department:
-      Math.round((Math.random() * 10) % 2) === 1 ? "Sales" : "Support",
-    language: sample([
-      "English (UK)",
-      "English (US)",
-      "Italiano",
-      "French",
-      "Russian",
-      "Ukrainian"
-    ]),
-    lastReply: subWeeks(new Date(), Math.random() * 10),
-    user: sample([
-      "Kenneth James",
-      "Toby Falkirk",
-      "Mark Jarvis",
-      "Chris Nadeau",
-      "Nick Green",
-      "Artem Berdyshev"
-    ]),
-    icon: sample(["rocket", "beetle", null]),
-    urgency: Math.round(Math.random() * 10)
-  }));
+const SimpleTableDemo = ({ grouped, expandable }) => {
+  const data = Array.from({ length: 100 }, (_, idx) => {
+    const id = uuidv5((idx + 1).toString(10), namespace).substr(0, 8);
+    const number = parseInt(id, 16);
+    return {
+      id,
+      title: "Card title",
+      isFavourite: Math.round(number % 2) === 1,
+      department: Math.round(number % 2) === 1 ? "Sales" : "Support",
+      language: sample([
+        "English (UK)",
+        "English (US)",
+        "Italiano",
+        "French",
+        "Russian",
+        "Ukrainian"
+      ]),
+      lastReply: subWeeks(new Date(), number % 10),
+      user: sample([
+        "Kenneth James",
+        "Toby Falkirk",
+        "Mark Jarvis",
+        "Chris Nadeau",
+        "Nick Green",
+        "Artem Berdyshev"
+      ]),
+      icon: sample(["rocket", "beetle", null]),
+      urgency: Math.round(number % 10),
+      group: grouped
+        ? {
+            id: Math.floor(idx / 17),
+            title: `Group #${Math.floor(idx / 17) + 1}`
+          }
+        : undefined
+    };
+  });
 
   return (
     <Table
       data={data}
       columns={columns}
       defaults={{ pageSize: 25 }}
-      expandable
+      expandable={expandable}
       renderExpandedRow={row => `Row #${row.id}. Lorem ipsum dolar sit amet.`}
       checkable
-      onCheckChange={action()}
+      onCheckChange={action("check")}
+      onSort={action("sort")}
     />
   );
 };

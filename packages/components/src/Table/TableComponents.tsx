@@ -11,17 +11,20 @@ export const TableView: React.FC<React.ComponentProps<"div">> = ({
 export type RowProps = React.ComponentProps<"div"> & {
   even?: boolean;
   expanded?: boolean;
+  grouped?: boolean;
 };
 export const Row: React.FC<RowProps> = ({
   className,
   even = false,
   expanded = false,
+  grouped = false,
   ...props
 }) => (
   <div
     className={classNames("dp-TableRow", className, {
       "is-even": even,
-      "is-selected": expanded
+      "is-selected": expanded,
+      "dp-Filter": grouped
     })}
     {...props}
   />
