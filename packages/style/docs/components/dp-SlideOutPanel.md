@@ -345,144 +345,6 @@ title: Slide-Out Panel
 
 ```html @preview
 <div class="dp-MainWrapper demo-cog demo-menu">
-    <div class="dp-SlideOutPanel">
-        <div class="dp-PageSidebar">
-
-            <div class="dp-SidebarBody">
-
-                <div class="dp-SidebarSection">
-                    <div class="dp-SectionTitle dp-TitleSidebar">
-                        <div class="">Change user</div>
-                        <span class="dp-Icon dp-close"></span>
-                    </div>
-                </div>
-
-                <!-- 1 -->
-                <div class="dp-Menu-search">
-                    <form>
-                        <div class="dp-Form">
-                            <span class="dp-Icon dp-IconSearch"></span>
-                            <input type="text" placeholder="Search" class="dp-Input Input--search">
-                        </div>
-                    </form>
-                </div>
-
-                <!-- 2 -->
-                <div class="dp-Tickets">
-                    <div class="dp-dropdownContainer">
-                        <div class="dp-TitleName is-semibold dp-BorderBottom is-active">
-                            Change user from ticket cc’s
-                            <span class="dp-Icon dp-DownCaret"></span>
-
-                            <ul class="dp-Menu is-visible">
-                                <li class="dp-Menu-linkItem">
-                                    <a href="#" class="dp-Menu-link">Change user from ticket CC’s</a>
-                                </li>
-                                <li class="dp-Menu-linkItem">
-                                    <a href="#" class="dp-Menu-link">Change user from open tabs</a>
-                                </li>
-                                <li class="dp-Menu-linkItem">
-                                    <a href="#" class="dp-Menu-link">Change user from selected messages</a>
-                                </li>
-                                <li class="dp-Menu-linkItem">
-                                    <a href="#" class="dp-Menu-link">Change user from same organisation</a>
-                                </li>
-                            </ul>
-
-                        </div>
-
-                        <div class="dp-TicketSelect">
-                            <div class="dp-Followers">
-                                <ul class="dp-FollowerList">
-                                    <li class="dp-FollowersItem">
-                                        <span class="dp-LogoName">
-                                            <span class="dp-Icon dp-iconUserAvatar"></span>
-                                            <span class="dp-UserName"> Peter Fergers </span>
-                                        </span>
-                                    </li>
-                                    <li class="dp-FollowersItem">
-                                        <span class="dp-LogoName">
-                                            <span class="dp-Icon dp-iconUserAvatar"></span>
-                                            <span class="dp-UserName"> Wendy pride </span>
-                                        </span>
-                                    </li>
-                                    <li class="dp-FollowersItem">
-                                        <span class="dp-LogoName">
-                                            <span class="dp-Icon dp-iconUserAvatar"></span>
-                                            <span class="dp-UserName"> Peter Fergers </span>
-                                        </span>
-                                    </li>
-                                    <li class="dp-FollowersItem">
-                                        <span class="dp-LogoName">
-                                            <span class="dp-Icon dp-iconUserAvatar"></span>
-                                            <span class="dp-UserName"> John Richardson </span>
-                                        </span>
-                                    </li>
-                                    <li class="dp-FollowersItem">
-                                        <span class="dp-LogoName">
-                                            <span class="dp-Icon dp-iconUserAvatar"></span>
-                                            <span class="dp-UserName"> John Richards </span>
-                                        </span>
-                                    </li>
-                                    <li class="dp-FollowersItem">
-                                        <span class="dp-LogoName">
-                                            <span class="dp-Icon dp-iconUserAvatar"></span>
-                                            <span class="dp-UserName"> Peter Fergers </span>
-                                        </span>
-                                    </li>
-                                    <li class="dp-FollowersItem">
-                                        <span class="dp-LogoName">
-                                            <span class="dp-Icon dp-iconUserAvatar"></span>
-                                            <span class="dp-UserName"> Wendy pride </span>
-                                        </span>
-                                    </li>
-                                    <li class="dp-FollowersItem">
-                                        <span class="dp-LogoName">
-                                            <span class="dp-Icon dp-iconUserAvatar"></span>
-                                            <span class="dp-UserName"> Wendy pride </span>
-                                        </span>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-                <!-- 3 -->
-                <div class="dp-TicketSelect">
-                    <div class="dp-SectionControls">
-                        <div class="dp-SectionTitle"></div>
-                    </div>
-                    <div class="dp-Followers">
-                        <ul class="dp-FollowerList">
-                            <li class="dp-FollowersBtn">
-                                <button class="dp-Button Button--link Button--small">
-                                    <span class="dp-Icon dp-add_follower Icon--primary"></span>
-                                    <span>Add action</span>
-                                </button>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="dp-ButtonWrapper">
-                    <button class="dp-Button" type="button">
-                        Change user
-                    </button>
-                    <button class="dp-Button Button--outlined" type="button">
-                        Cancel
-                    </button>
-                </div>
-
-            </div> <!-- Sidebar body -->
-        </div>
-    </div>
-</div>
-```
-
-```html @preview
-<div class="dp-MainWrapper demo-cog demo-menu">
     <div class="dp-SlideOutPanel dp-WarningContainer">
         <div class="dp-PageSidebar">
 
@@ -732,6 +594,172 @@ title: Slide-Out Panel
                 <div class="dp-ButtonWrapper">
                     <button class="dp-Button" type="button">
                         Merge tickets
+                    </button>
+                </div>
+
+            </div> <!-- Sidebar body -->
+        </div>
+    </div>
+</div>
+```
+
+<h4>Change user</h4>
+```html @preview
+<div class="dp-MainWrapper demo-cog demo-menu">
+    <div class="dp-SlideOutPanel dp-ChangeUser">
+        <div class="dp-PageSidebar">
+            <div class="dp-SidebarBody">
+
+                <div class="dp-SidebarSection">
+                    <div class="dp-TitleSidebar"><span class="dp-Icon Icon--OwnerArrows"></span>Change user</div>
+                    <span class="dp-Icon dp-close"></span>
+                </div>
+
+                <!-- 1 -->
+                <div class="dp-Menu-search">
+                    <form>
+                        <div class="dp-Form">
+                            <input type="text" placeholder="Search" class="dp-Input Input--search">
+                            <span class="dp-Icon dp-IconSearch"></span>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- 2 -->
+                <div class="dp-Tickets">
+                    <div class="dp-dropdownContainer">
+                        <div class="dp-TitleName is-semibold dp-BorderBottom is-active">
+                            Change user from ticket cc’s
+                            <span class="dp-Icon dp-DownCaret"></span>
+                            <ul class="dp-Menu is-visible">
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-Menu-link">Change user from ticket CC’s</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-Menu-link">Change user from open tabs</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-Menu-link">Change user from selected messages</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-Menu-link">Change user from same organisation</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="dp-TicketSelect">
+                            <div class="dp-Followers">
+                                <ul class="dp-FollowerList">
+                                    <li class="dp-FollowersItem">
+                                        <span class="dp-LogoName">
+                                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                                            <span class="dp-UserName"> Peter Fergers </span>
+                                        </span>
+                                    </li>
+                                    <li class="dp-FollowersItem">
+                                        <span class="dp-LogoName">
+                                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                                            <span class="dp-UserName"> Wendy pride </span>
+                                        </span>
+                                    </li>
+                                    <li class="dp-FollowersItem">
+                                        <span class="dp-LogoName">
+                                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                                            <span class="dp-UserName"> Peter Fergers </span>
+                                        </span>
+                                    </li>
+                                    <li class="dp-FollowersItem">
+                                        <span class="dp-LogoName">
+                                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                                            <span class="dp-UserName"> John Richardson </span>
+                                        </span>
+                                    </li>
+                                    <li class="dp-FollowersItem">
+                                        <span class="dp-LogoName">
+                                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                                            <span class="dp-UserName"> John Richards </span>
+                                        </span>
+                                    </li>
+                                    <li class="dp-FollowersItem">
+                                        <span class="dp-LogoName">
+                                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                                            <span class="dp-UserName"> Peter Fergers </span>
+                                        </span>
+                                    </li>
+                                    <li class="dp-FollowersItem">
+                                        <span class="dp-LogoName">
+                                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                                            <span class="dp-UserName"> Wendy pride </span>
+                                        </span>
+                                    </li>
+                                    <li class="dp-FollowersItem">
+                                        <span class="dp-LogoName">
+                                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                                            <span class="dp-UserName"> Wendy pride </span>
+                                        </span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- 3 -->
+                <div class="dp-TicketSelect">
+                    <div class="dp-SectionControls">
+                        <div class="dp-SectionTitle"></div>
+                    </div>
+                    <div class="dp-Followers">
+                        <ul class="dp-FollowerList">
+                            <li class="dp-FollowersBtn">
+                                <button class="dp-Button Button--link Button--small is-active">
+                                    <span class="dp-Icon dp-add_follower Icon--primary"></span>
+                                    <span>Add action</span>
+                                </button>
+
+                                <ul class="dp-Menu">
+                                    <li class="dp-Menu-linkItem">
+                                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                                        <a href="#" class="dp-Menu-link">Wendy Pride</a>
+                                    </li>
+                                    <li class="dp-Menu-linkItem">
+                                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                                        <a href="#" class="dp-Menu-link">Bob Cooper</a>
+                                    </li>
+                                    <li class="dp-Menu-linkItem">
+                                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                                        <a href="#" class="dp-Menu-link">Julien Durco</a>
+                                    </li>
+                                    <li class="dp-Menu-linkItem">
+                                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                                        <a href="#" class="dp-Menu-link">Wendy Lightbody</a>
+                                    </li>
+                                    <li class="dp-Menu-linkItem">
+                                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                                        <a href="#" class="dp-Menu-link">Bobby Steiner</a>
+                                    </li>
+                                    <li class="dp-Menu-linkItem">
+                                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                                        <a href="#" class="dp-Menu-link">Julien Durco</a>
+                                    </li>
+                                    <li class="dp-Menu-linkItem">
+                                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                                        <a href="#" class="dp-Menu-link">Wendy Lightbody</a>
+                                    </li>
+                                </ul>
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="dp-ButtonWrapper">
+                    <button class="dp-Button" type="button">
+                        Change user
+                    </button>
+                    <button class="dp-Button Button--outlined" type="button">
+                        Cancel
                     </button>
                 </div>
 

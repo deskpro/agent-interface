@@ -42,16 +42,10 @@
 .dp-SearchHeader form {
   align-items: center;
   display: flex;
-
   flex-direction: row-reverse;
   height: 100%;
   position: relative;
   width: 100%;
-}
-
-.dp-SearchHeader form:hover .dp-find {
-  background-image: url('data:image/svg+xml,<svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0)"><path d="M16.25 14.05L12.85 10.65L12.45 11.05L11.05 9.64999C11.85 8.64999 12.25 7.44999 12.25 6.04999C12.25 2.74999 9.65002 0.149994 6.45002 0.149994C3.25002 0.149994 0.550018 2.74999 0.550018 6.04999C0.550018 9.34999 3.15002 11.95 6.45002 11.95C7.85002 11.95 9.05002 11.45 10.05 10.75L11.45 12.15L11.05 12.55L14.45 15.95C14.85 16.35 15.55 16.35 16.05 15.95L16.35 15.65C16.65 15.15 16.65 14.45 16.25 14.05ZM6.45002 10.45C4.05002 10.45 2.05002 8.44999 2.05002 6.04999C2.05002 3.64999 4.05002 1.64999 6.45002 1.64999C8.85002 1.64999 10.85 3.64999 10.85 6.04999C10.85 8.44999 8.85002 10.45 6.45002 10.45Z" fill="%233a8dde"/></g><defs><clipPath id="clip0"><rect width="16" height="16" fill="white" transform="translate(0.550018 0.149994)"/></clipPath></defs></svg>');
-  cursor: pointer;
 }
 
 .dp-SearchHeader input {
@@ -74,8 +68,15 @@
   font-style: var(--is-italic);
 }
 
-.dp-SearchHeader input:focus + .dp-find {
-  background-image: url('data:image/svg+xml,<svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0)"><path d="M16.25 14.05L12.85 10.65L12.45 11.05L11.05 9.64999C11.85 8.64999 12.25 7.44999 12.25 6.04999C12.25 2.74999 9.65002 0.149994 6.45002 0.149994C3.25002 0.149994 0.550018 2.74999 0.550018 6.04999C0.550018 9.34999 3.15002 11.95 6.45002 11.95C7.85002 11.95 9.05002 11.45 10.05 10.75L11.45 12.15L11.05 12.55L14.45 15.95C14.85 16.35 15.55 16.35 16.05 15.95L16.35 15.65C16.65 15.15 16.65 14.45 16.25 14.05ZM6.45002 10.45C4.05002 10.45 2.05002 8.44999 2.05002 6.04999C2.05002 3.64999 4.05002 1.64999 6.45002 1.64999C8.85002 1.64999 10.85 3.64999 10.85 6.04999C10.85 8.44999 8.85002 10.45 6.45002 10.45Z" fill="%233a8dde"/></g><defs><clipPath id="clip0"><rect width="16" height="16" fill="white" transform="translate(0.550018 0.149994)"/></clipPath></defs></svg>');
+.dp-SearchHeader input:focus + .dp-Icon svg,
+.dp-SearchHeader form:hover .dp-find svg,
+.dp-Menu-search .dp-Form .dp-Input:focus + .dp-Icon svg,
+.dp-Menu-search .dp-Form:hover .dp-Input + .dp-Icon svg {
+  fill: var(--brand-primary);
+}
+
+.dp-Menu-search .dp-Form .dp-Input:focus {
+  border: 1px solid var(--brand-primary);
 }
 
 .dp-SearchHeader .dp-Icon {

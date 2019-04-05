@@ -92,9 +92,9 @@
 }
 
 .dp-SlideOutPanel form {
-  border-bottom: 1px solid var(--grey-light);
+  border-top: 1px solid var(--brand-primary);
   margin: 0 -10px 0;
-  padding: 0 10px 10px;
+  padding: 10px 10px 15px;
 }
 
 .dp-SlideOutPanel .Input--search, input.dp-NewTitle {
@@ -112,11 +112,30 @@ input.dp-NewTitle {
   align-items: center;
   color: var(--grey-darkest);
   display: flex;
-  display: flex;
-  font: var(--p-n);
+  font: var(--p-n-semibold);
   margin-bottom: 10px;
   padding: 2px 0;
   position: relative;
+}
+
+.dp-PageSidebar .dp-Menu {
+  border-radius: 2px;
+  min-width: 245px;
+}
+
+.dp-PageSidebar .dp-Menu .dp-Menu-linkItem {
+  margin-bottom: 0;
+}
+
+.dp-PageSidebar .dp-Menu .dp-Menu-linkItem > .dp-Icon,
+.dp-PageSidebar .dp-Followers .dp-LogoName > .dp-Icon {
+  background-size: 12px 12px;
+  height: 12px;
+  width: 12px;
+}
+
+.dp-PageSidebar .dp-Menu .dp-Menu-linkItem:hover .dp-Menu-link {
+  color: var(--brand-primary);
 }
 
 .dp-TitleName.is-active .dp-ContextMenu {
@@ -136,10 +155,6 @@ input.dp-NewTitle {
   background-color: transparent;
   border: 0.5px solid transparent;
 }
-
-/* .dp-SlideOutPanel .dp-TitleName .dp-DownCaret {
-  background-size: 12px 7px;
-} */
 
 .dp-SlideOutPanel .dp-Menu-search {
   padding: 0;
@@ -264,4 +279,21 @@ input.dp-NewTitle {
 
 .dp-TicketSelect + .dp-ReplyWrapper {
   margin-top: 20px;
+}
+
+/* Change User */
+
+.dp-ChangeUser .dp-SidebarSection {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.dp-ChangeUser .dp-SidebarSection .dp-TitleSidebar {
+  display: flex;
+}
+
+.dp-ChangeUser .dp-SidebarSection .dp-TitleSidebar .dp-Icon {
+  margin-right: 5px;
 }

@@ -714,3 +714,7 @@
   left: 2px;
   right: auto;
 }
+
+.dp-FollowersBtn .dp-Button.is-active + .dp-Menu {
+  display: block;
+}
