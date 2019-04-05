@@ -57,7 +57,7 @@ exports[`<Table /> should match its snapshot 1`] = `
       class=""
       style="display: block; box-sizing: border-box; flex: 1 0 auto; width: 1px; max-width: undefinedpx;"
     >
-      Second Title 
+      Second Title
     </div>
   </div>
 </div>
