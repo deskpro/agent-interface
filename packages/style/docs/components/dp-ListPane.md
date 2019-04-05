@@ -412,9 +412,8 @@ title: List View
                 <span class="dp-Tag Tag--close">Custom work<span class="dp-Icon dp-close"></span></span>
                 <span class="dp-Tag Tag--close">Report back on bug fix<span class="dp-Icon dp-close"></span></span>
                 <span class="dp-Tag Tag--close Tag--purple">VIP<span class="dp-Icon dp-close"></span></span>
-                <button class="dp-Button Button--label">
-                    Labels<span class="dp-Icon dp-IconPlusBtn"></span>
-                </button>
+                <span class="dp-separator"></span>
+                <button class="dp-Button Button--large Button--square"><span class="dp-Icon dp-add-square"></span></button>
             </span>
 
             <span class="dp-LevelItem dp-LevelLeft">

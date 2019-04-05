@@ -145,7 +145,7 @@ title: Ticket View
 <h4>ticket/followers</h4>
 
 ```html @preview
-<div class="dp-Followers" style="max-width:410px">
+<div class="dp-Followers" style="max-width:405px">
 
 	<div class="dp-SectionControls">
 		<div class="dp-SectionTitle">
@@ -178,7 +178,7 @@ title: Ticket View
 <!-- 7 -->
 
 ```html @preview
-<div class="dp-Followers demo-tooltip" style="max-width:410px">
+<div class="dp-Followers demo-tooltip" style="max-width:405px">
 
 	<div class="dp-SectionControls">
 
@@ -209,7 +209,7 @@ title: Ticket View
 		<li class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
-				<span class="dp-UserName"> Peter Fergersonon </span>
+				<span class="dp-UserName"> Peter Fergerson </span>
 			</span>
 			<i class="dp-Icon dp-close"></i>
 			<!-- tooltip -->
@@ -264,7 +264,7 @@ title: Ticket View
 <!-- 8 -->
 
 ```html @preview
-<div class="dp-Followers demo-tooltip" style="max-width:410px">
+<div class="dp-Followers demo-tooltip" style="max-width:405px">
 
 	<div class="dp-SectionControls">
 		<div class="dp-SectionTitle">
@@ -364,7 +364,7 @@ title: Ticket View
 <!-- 24 -->
 
 ```html @preview
-<div class="dp-Followers demo-tooltip" style="max-width:410px">
+<div class="dp-Followers demo-tooltip" style="max-width:405px">
 
 	<div class="dp-SectionControls">
 		<div class="dp-SectionTitle">
@@ -610,7 +610,7 @@ title: Ticket View
 <!-- 50 -->
 
 ```html @preview
-<div class="dp-Followers demo-tooltip" style="max-width:410px">
+<div class="dp-Followers demo-tooltip" style="max-width:405px">
 
 	<div class="dp-SectionControls">
 		<div class="dp-SectionTitle">
@@ -3315,14 +3315,14 @@ title: Ticket View
 			                <div class="dp-SidebarSection">
 			                    <div class="dp-SectionBody-item ">
 			                        <div class="dp-title-item">
-			                            <span class="dp-Icon dp-iconUserAvatar"></span>
-			                            Optical
+			                            <span class="dp-Icon Icon-Tech-company"></span>
+			                            Tech company
 			                        </div>
 			                    </div>
 			                    <div class="dp-SectionBody-item dp-UserPanel">
 			                        <div class="dp-title-item">
-			                            <span class="dp-Icon dp-iconUserAvatar"></span>
-			                            <span class="dp-UserName">Zack Prudent</span>
+										<img class="Icon--Avatar" src="/agent-interface/style/img/docs/avatar.png" alt="">
+										<span class="dp-UserName">Zack Prudent</span>
 			                            <span class="dp-Icon Icon--OwnerArrows"></span>
 			                        </div>
 			                        <a href="mailto:zack.pride@techcompany.com" class="dp-MailAddress">zack.prudent@techcompany.com</a>

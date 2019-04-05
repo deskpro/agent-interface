@@ -35,3 +35,11 @@
 .demo-sidebar {
   max-width: 232px;
 }
+
+.demo-header-section .dp-SectionTitle {
+  margin-bottom: 0;
+}
+
+.demo-tickets .dp-Tabs {
+  border-bottom: 0;
+}

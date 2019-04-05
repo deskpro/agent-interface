@@ -176,6 +176,19 @@
   color: var(--brand-primary);
 }
 
+.dp-SectionBody-item.dp-UserPanel:hover .Icon--Avatar {
+  border: 1px solid var(--brand-primary);
+}
+
+.Icon--Avatar {
+  border: 1px solid transparent;
+  border-radius: 50%;
+  display: inline-block;
+  height: 15px;
+  margin-right: 5px;
+  width: 15px;
+}
+
 .dp-UserPanel > * {
   margin-bottom: 5px;
 }
@@ -324,6 +337,10 @@
   margin: 0 0 5px;
 }
 
+.dp-ActionButton .dp-title-item .dp-Icon {
+  margin-right: 5px;
+}
+
 .dp-ButtonWrapper .dp-LevelDown + .dp-ActionButton {
   color: var(--grey-darkest);
   flex: 1 0 0;
@@ -356,8 +373,11 @@
 }
 
 .dp-Slas .dp-ButtonWrapper .dp-Button.Button--small {
-  color: var(--grey);
   font: var(--p-l);
+}
+
+.dp-Slas .dp-ButtonWrapper .dp-Button.Button--small:hover {
+  color: var(--brand-primary);
 }
 
 .dp-PageSidebar .dp-DateItem {
@@ -528,6 +548,7 @@
 }
 
 .dp-AddCc .dp-ActionButton {
+  border-radius: 2px;
   width: 100%;
 }
 
@@ -553,6 +574,7 @@
 .dp-AddCc .dp-Button {
   background-color: var(--primary-light);
   border: 1px solid var(--grey-light);
+  border-radius: 2px;
   color: var(--brand-primary);
   padding: 5.5px;
   width: 100%;
@@ -560,6 +582,7 @@
 
 .dp-AddCc .dp-Button:hover {
   background-color: var(--brand-primary);
+  border: 1px solid var(--brand-primary);
   color: var(--white);
 }
 

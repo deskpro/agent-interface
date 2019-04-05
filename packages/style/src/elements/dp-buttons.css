@@ -49,7 +49,7 @@
     color: var(--grey-darkest);
 
     &:hover {
-      background: #eff6fc;
+      background: var(--primary-light);
       color: var(--grey-darkest);
       opacity: 1;
     }

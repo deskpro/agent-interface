@@ -24,6 +24,10 @@
   display: block;
 }
 
+.dp-DropDownBar .Tabs--actions .dp-Menu {
+  min-width: calc(100% + 2px);
+}
+
 .dp-ControlBar.dp-DropDownBar .dp-Tabs-item + .dp-Tabs-item {
   background-color: var(--grey-lightest);
 }
@@ -162,9 +166,7 @@
 .dp-FollowerList.Followers--Large .dp-FollowersItem {
   flex: 1 0 100%;
   margin: 0 0 5px 0;
-
-  /* max-width: 14px; */
-  max-width: 16px;
+  max-width: 14px;
 }
 
 .Followers--Large .dp-FollowersItem:hover > .dp-Icon {
@@ -213,10 +215,12 @@
 }
 
 .dp-FollowersItem .dp-LogoName + .dp-Icon {
+  background-position: 100% 0;
   background-size: 10px;
   cursor: pointer;
   height: 10px;
-  width: 10px;
+  min-width: 10px;
+  width: 16px;
 }
 
 .dp-FollowersStatus.is-active {

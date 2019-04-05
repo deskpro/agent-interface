@@ -66,7 +66,7 @@ title: PageSidebar
 
 <h4>sidebar/header</h4>
 ```html @preview
-<div class="dp-MainWrapper">
+<div class="dp-MainWrapper demo-header-section">
     <div class="dp-SidebarContainer demo-cog demo-menu demo-sidebar" style="min-height:auto;border-radius:0">
         <div class="dp-PageSidebar">
             <div class="dp-SidebarBody">
@@ -129,7 +129,7 @@ title: PageSidebar
 <h2>TICKETS</h2>
 <h4>sidebar/tab-header</h4>
 ```html @preview
-<div class="dp-MainWrapper">
+<div class="dp-MainWrapper demo-tickets">
     <div class="dp-SidebarContainer demo-cog demo-menu demo-sidebar" style="min-height:auto;">
         <div class="dp-PageSidebar">
 
@@ -155,7 +155,7 @@ title: PageSidebar
 
                 <div class="dp-SectionBody-item">
                     <div class="dp-title-item">
-                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                        <span class="dp-Icon Icon-Tech-company"></span>
                         Tech company
                     </div>
                 </div>
@@ -173,7 +173,7 @@ title: PageSidebar
         <div class="dp-SectionBody-item dp-UserPanel">
             <div class="dp-title-item">
                 <!-- <span class="dp-Icon dp-iconUserAvatar"></span> -->
-                <span class="dp-Icon dp-iconUserAvatar"><img src="/agent-interface/style/img/docs/avatar.png" alt=""></span>
+                <img class="Icon--Avatar" src="/agent-interface/style/img/docs/avatar.png" alt="">
                 <span class="dp-UserName">Zack Prudent</span>
                 <span class="dp-Icon Icon--OwnerArrows"></span>
             </div>
@@ -422,15 +422,13 @@ title: PageSidebar
                 <div class="dp-SidebarSection">
                     <div class="dp-SectionBody-item ">
                         <div class="dp-title-item">
-                            <!-- <span class="dp-Icon dp-iconUserAvatar"></span> -->
-                            <span class="dp-Icon dp-iconUserAvatar"><img src="/agent-interface/style/img/docs/avatar.png" alt=""></span>
+                            <span class="dp-Icon Icon-Tech-company"></span>
                             Tech company
                         </div>
                     </div>
                     <div class="dp-SectionBody-item dp-UserPanel">
                         <div class="dp-title-item">
-                            <!-- <span class="dp-Icon dp-iconUserAvatar"></span> -->
-                            <span class="dp-Icon dp-iconUserAvatar"><img src="/agent-interface/style/img/docs/avatar.png" alt=""></span>
+                            <img class="Icon--Avatar" src="/agent-interface/style/img/docs/avatar.png" alt="">
                             <span class="dp-UserName">Zack Prudent</span>
                             <span class="dp-Icon Icon--OwnerArrows"></span>
                         </div>
@@ -709,13 +707,13 @@ title: PageSidebar
                 <div class="dp-SidebarSection">
                     <div class="dp-SectionBody-item ">
                         <div class="dp-title-item">
-                            <span class="dp-Icon dp-iconUserAvatar"></span>
-                            Optical
+                            <span class="dp-Icon Icon-Tech-company"></span>
+                            Tech company
                         </div>
                     </div>
                     <div class="dp-SectionBody-item dp-UserPanel">
                         <div class="dp-title-item">
-                            <span class="dp-Icon dp-iconUserAvatar"><img src="/agent-interface/style/img/docs/avatar.png" alt=""></span>
+                            <img class="Icon--Avatar" src="/agent-interface/style/img/docs/avatar.png" alt="">
                             <span class="dp-UserName">Zack Prudent</span>
                             <span class="dp-Icon Icon--OwnerArrows"></span>
                         </div>
@@ -1041,13 +1039,13 @@ title: PageSidebar
                 <div class="dp-SidebarSection">
                     <div class="dp-SectionBody-item ">
                         <div class="dp-title-item">
-                            <span class="dp-Icon dp-iconUserAvatar"></span>
-                            Optical
+                            <span class="dp-Icon Icon-Tech-company"></span>
+                            Tech company
                         </div>
                     </div>
                     <div class="dp-SectionBody-item dp-UserPanel">
                         <div class="dp-title-item">
-                            <span class="dp-Icon dp-iconUserAvatar"><img src="/agent-interface/style/img/docs/avatar.png" alt=""></span>
+                            <img class="Icon--Avatar" src="/agent-interface/style/img/docs/avatar.png" alt="">
                             <span class="dp-UserName">Zack Prudent</span>
                             <span class="dp-Icon Icon--OwnerArrows"></span>
                         </div>
@@ -1373,13 +1371,13 @@ title: PageSidebar
                 <div class="dp-SidebarSection">
                     <div class="dp-SectionBody-item ">
                         <div class="dp-title-item">
-                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                            <span class="dp-Icon Icon-Tech-company"></span>
                             Tech company
                         </div>
                     </div>
                     <div class="dp-SectionBody-item dp-UserPanel">
                         <div class="dp-title-item">
-                            <span class="dp-Icon dp-iconUserAvatar"><img src="/agent-interface/style/img/docs/avatar.png" alt=""></span>
+                            <img class="Icon--Avatar" src="/agent-interface/style/img/docs/avatar.png" alt="">
                             <span class="dp-UserName">Zack Prudent</span>
                             <span class="dp-Icon Icon--OwnerArrows"></span>
                         </div>
@@ -1399,7 +1397,7 @@ title: PageSidebar
                         <div class="dp-SectionTitle dp-CcRow">
                             <div class="dp-TitleControls">
                                 <span class="dp-open">CC’s</span>
-                                <span class="dp-AddBtn is-active">Add</span>
+                                <span class="dp-AddBtn">Add</span>
                             </div>
                             <a href="#" class="dp-Controls">
                                 <span class="dp-qt"> +5 </span> 
@@ -1617,13 +1615,13 @@ title: PageSidebar
                 <div class="dp-SidebarSection">
                     <div class="dp-SectionBody-item ">
                         <div class="dp-title-item">
-                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                            <span class="dp-Icon Icon-Tech-company"></span>
                             Tech company
                         </div>
                     </div>
                     <div class="dp-SectionBody-item dp-UserPanel">
                         <div class="dp-title-item">
-                            <span class="dp-Icon dp-iconUserAvatar"><img src="/agent-interface/style/img/docs/avatar.png" alt=""></span>
+                            <img class="Icon--Avatar" src="/agent-interface/style/img/docs/avatar.png" alt="">
                             <span class="dp-UserName">Zack Prudent</span>
                             <span class="dp-Icon Icon--OwnerArrows"></span>
                         </div>
@@ -1780,13 +1778,13 @@ title: PageSidebar
                 <div class="dp-SidebarSection">
                     <div class="dp-SectionBody-item is-disabled">
                         <div class="dp-title-item">
-                            <span class="dp-Icon dp-iconUserAvatar"></span>
-                            Optical
+                            <span class="dp-Icon Icon-Tech-company"></span>
+                            Tech company
                         </div>
                     </div>
                     <div class="dp-SectionBody-item dp-UserPanel">
                         <div class="dp-title-item">
-                            <span class="dp-Icon dp-iconUserAvatar"><img src="/agent-interface/style/img/docs/avatar.png" alt=""></span>
+                            <img class="Icon--Avatar" src="/agent-interface/style/img/docs/avatar.png" alt="">
                             <span class="dp-UserName">Zack Prudent</span>
                             <span class="dp-Icon Icon--OwnerArrows"></span>
                         </div>
@@ -1865,7 +1863,7 @@ title: PageSidebar
                 <div class="dp-SidebarSection">
                     <div class="dp-SectionBody-item">
                         <div class="dp-title-item">
-                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                            <span class="dp-Icon Icon-Tech-company"></span>
                             Tech company
                         </div>
                     </div>

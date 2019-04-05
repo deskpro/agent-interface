@@ -142,10 +142,15 @@
   position: relative;
 }
 
-.dp-OptionList.dp-Menu .dp-Menu .dp-Menu-linkItem > span {
+.dp-Menu .dp-Menu .dp-Menu-linkItem > span {
   padding: 0;
   position: initial;
 }
+
+/* .dp-OptionList.dp-Menu .dp-Menu .dp-Menu-linkItem > span {
+  padding: 0;
+  position: initial;
+} */
 
 .dp-Menu .dp-Menu .dp-Menu-linkItem > span.dp-Badge,
 .dp-Menu .dp-Menu-linkItem.dp-DropdownDivider,

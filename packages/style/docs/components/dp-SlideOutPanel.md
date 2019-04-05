@@ -115,7 +115,7 @@ title: Slide-Out Panel
                             </div>
                         </div>
                     </div>
-                    <button class="dp-ActionButton ActionButton--XXlarge dp-SectionBody-item dp-Arrow" type="button">
+                    <button class="dp-ActionButton ActionButton--XXlarge dp-Arrow" type="button">
                         <span class="dp-title-item">
                             <span class="dp-Icon dp-iconUserAvatar"></span>
                             Zack Prudent
@@ -132,7 +132,7 @@ title: Slide-Out Panel
                             </div>
                         </div>
                     </div>
-                    <button class="dp-ActionButton ActionButton--Xlarge dp-SectionBody-item dp-Arrow" type="button">
+                    <button class="dp-ActionButton ActionButton--Xlarge dp-Arrow" type="button">
                         <span class="dp-title-item">
                             <span class="dp-Icon dp-iconUserAvatar"></span>
                             Support
@@ -247,8 +247,6 @@ title: Slide-Out Panel
                 </div>
 
                 <!-- 7 -->
-                <!-- <div class="dp-TicketSelect dp-TicketSmall"> -->
-
                 <div class="dp-TicketSelect">
                     <div class="dp-SectionControls">
                         <div class="dp-SectionTitle">
@@ -262,6 +260,7 @@ title: Slide-Out Panel
                         <span class="dp-Tag Tag--close">Custom work<span class="dp-Icon dp-close"></span></span>
                         <span class="dp-Tag Tag--close">Report back on bug fix<span class="dp-Icon dp-close"></span></span>
                         <span class="dp-Tag Tag--close Tag--purple">VIP<span class="dp-Icon dp-close"></span></span>
+                        <span class="dp-separator"></span>
                         <button class="dp-Button Button--large Button--square"><span class="dp-Icon dp-add-square"></span></button>
                     </span>
                 </div>
