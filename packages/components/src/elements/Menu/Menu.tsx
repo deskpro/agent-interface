@@ -38,7 +38,7 @@ const MenuComponent: React.FC<MenuProps> = ({
   className,
   title,
   children,
-  checkedItems = [],
+  checkedItems,
   isCheckable = false,
   checkType = "single",
   onItemCheck,
@@ -88,7 +88,9 @@ const MenuComponent: React.FC<MenuProps> = ({
     [checkType, onItemCheck, checked, setChecked]
   );
   React.useEffect(() => {
-    setChecked(checkedItems);
+    if (Array.isArray(checkedItems)) {
+      setChecked(checkedItems);
+    }
   }, [checkedItems]);
 
   const hasIcons = React.useMemo(

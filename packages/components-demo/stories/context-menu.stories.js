@@ -119,7 +119,7 @@ storiesOf("ContextMenu", module)
                 </Menu>
               </Menu.MenuItem>
               <Menu.MenuItem name="status" text="Status">
-                <Menu isCheckable>
+                <Menu isCheckable checkedItems={["opened"]}>
                   <Menu.MenuItem name="opened" text="Opened" />
                   <Menu.MenuItem name="in-progress" text="In Progress" />
                   <Menu.MenuItem name="closed" text="Closed" />
