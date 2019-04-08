@@ -295,3 +295,7 @@ input.dp-NewTitle {
 .dp-ChangeUser .dp-SidebarSection .dp-TitleSidebar .dp-Icon {
   margin-right: 5px;
 }
+
+.dp-Tickets .dp-TitleName.is-active > .dp-Menu {
+  display: block;
+}

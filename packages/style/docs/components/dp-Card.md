@@ -606,6 +606,7 @@ title: Card
                         <span class="dp-ActivityStatus ActivityStatus--writing ActivityStatus--primary">
                             <span class="dp-Icon Icon--edit Icon--primary"></span>
                             <span class="dp-Badge Badge--round Badge--grey"></span>
+                            <!-- <span class="one_test"></span> -->
                         </span>
                         <span class="Icon--circle dp-iconBug"></span>
                         <span class="dp-Badge Badge--round Badge--grey-lighter"></span>
@@ -649,7 +650,7 @@ title: Card
                     </span>
 
                     <span class="dp-IconGroup dp-LevelRight">
-                        <span class="dp-ActivityStatus ActivityStatus--writing ActivityStatus--primary">
+                        <span class="ActivityStatus--large dp-ActivityStatus ActivityStatus--writing ActivityStatus--primary">
                             <span class="dp-Icon Icon--edit Icon--primary"></span>
                             <span class="dp-Badge Badge--round Badge--grey"></span>
                             <span class="dp-Badge Badge--round Badge--grey"></span>

@@ -915,7 +915,7 @@ title: PageSidebar
                         <div class="dp-TitleControls"><span class="dp-Section--name">Times</span></div>
                         <a href="#" class="dp-Controls">
                             <span class="dp-qt"> +6 </span> 
-                            <i class="dp-Icon dp-DotsIcon"></i>
+                            <i class="dp-Icon dp-DotsIcon is-active"></i>
                         </a>
                     </div>
                 </div>
@@ -1069,7 +1069,7 @@ title: PageSidebar
                             </div>
                             <a href="#" class="dp-Controls">
                                 <span class="dp-qt"> +5 </span> 
-                                <i class="dp-Icon dp-DotsIcon is-active"></i>
+                                <i class="dp-Icon dp-DotsIcon"></i>
                             </a>
                         </div>
                     </div>
@@ -1277,7 +1277,7 @@ title: PageSidebar
                         <div class="dp-TitleControls"><span class="dp-Section--name">SLAs</span></div>
                         <a href="#" class="dp-Controls">
                             <span class="dp-qt"> +5 </span> 
-                            <i class="dp-Icon dp-DotsIcon"></i>
+                            <i class="dp-Icon dp-DotsIcon is-active"></i>
                         </a>
                     </div>
                 </div>
@@ -1344,11 +1344,7 @@ title: PageSidebar
                         </button>
                     </div>
 
-
-
-
                 </div>
-
             </div> <!-- Sidebar body -->
         </div>
     </div>
@@ -1397,11 +1393,11 @@ title: PageSidebar
                         <div class="dp-SectionTitle dp-CcRow">
                             <div class="dp-TitleControls">
                                 <span class="dp-open">CC’s</span>
-                                <span class="dp-AddBtn">Add</span>
+                                <span class="dp-AddBtn is-active">Add</span>
                             </div>
                             <a href="#" class="dp-Controls">
                                 <span class="dp-qt"> +5 </span> 
-                                <i class="dp-Icon dp-DotsIcon is-active"></i>
+                                <i class="dp-Icon dp-DotsIcon"></i>
                             </a>
                         </div>
                     </div>
@@ -1527,14 +1523,12 @@ title: PageSidebar
                         <div class="dp-TitleControls"><span class="dp-Section--name">SLAs</span></div>
                         <a href="#" class="dp-Controls">
                             <span class="dp-qt"> +4 </span> 
-                            <i class="dp-Icon dp-DotsIcon is-active"></i>
+                            <i class="dp-Icon dp-DotsIcon"></i>
                         </a>
                     </div>
                 </div>
                 
                 <div class="dp-Slas">
-                    <!-- <div class="dp-TitleControls">Active SLAs</div> -->
-
                     <div class="dp-SectionBody">
                         <div class="dp-TagItem">
                             <span class="dp-TimeStatus">
@@ -1550,50 +1544,7 @@ title: PageSidebar
                         </div>
                     </div>
 
-<!--                     <div class="dp-TitleControls">Completed SLAs</div>
-
-                    <div class="dp-SectionBody">
-                        <div class="dp-TagItem">
-                            <span class="dp-TimeStatus">
-                                <span class="dp-Tag Tag--small Tag--pink">27/24 hrs</span>
-                            </span>
-                            <span class="dp-TagDescription">Time until first respon...</span>
-                        </div>
-                        <div class="dp-TagItem">
-                            <span class="dp-TimeStatus">
-                                <span class="dp-Tag Tag--small Tag--success">14/72 hrs</span>
-                            </span>
-                            <span class="dp-TagDescription">Resolution</span>
-                        </div>
-                        <div class="dp-TagItem">
-                            <span class="dp-TimeStatus">
-                                <span class="dp-Tag Tag--small Tag--warning">x3</span>
-                            </span>
-                            <span class="dp-TagDescription">Time awaiting reply</span>
-                        </div>
-                        <div class="dp-TagItem">
-                            <span class="dp-TimeStatus dp-StatusGroup">
-                                <span class="dp-Tag Tag--small Tag--success">1</span>
-                                <span class="dp-Tag Tag--small Tag--warning">3</span>
-                                <span class="dp-Tag Tag--small Tag--pink">1</span>
-                            </span>
-                            <span class="dp-TagDescription">Time awaiting reply</span>
-                        </div>
-                    </div>
-
-                    <div class="dp-TitleControls">Apply an SLA</div>
-
-                    <div class="dp-ButtonWrapper">
-                        <button class="dp-ActionButton ActionButton--large dp-Arrow" type="button">
-                            Select SLA
-                        </button>
-                        <button class="dp-Button Button--small Button--outlined" type="button">
-                            Apply
-                        </button>
-                    </div> -->
-
                 </div>
-
             </div> <!-- Sidebar body -->
         </div>
     </div>
@@ -1645,7 +1596,7 @@ title: PageSidebar
                             </div>
                             <a href="#" class="dp-Controls">
                                 <span class="dp-qt"> +5 </span> 
-                                <i class="dp-Icon dp-DotsIcon is-active"></i>
+                                <i class="dp-Icon dp-DotsIcon"></i>
                             </a>
                         </div>
                     </div>
@@ -1730,7 +1681,7 @@ title: PageSidebar
                         <div class="dp-TitleControls"><span class="dp-Section--name">SLAs</span></div>
                         <a href="#" class="dp-Controls">
                             <span class="dp-qt"> +4 </span> 
-                            <i class="dp-Icon dp-DotsIcon is-active"></i>
+                            <i class="dp-Icon dp-DotsIcon"></i>
                         </a>
                     </div>
                 </div>

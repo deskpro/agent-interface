@@ -1,8 +1,8 @@
 ---
-title: Slide-Out Panel
+title: Change user
 ---
 
-```html @preview
+<!-- ```html @preview
 <div class="dp-MainWrapper demo-cog demo-menu">
     <div class="dp-SlideOutPanel">
         <div class="dp-PageSidebar">
@@ -15,7 +15,7 @@ title: Slide-Out Panel
                         <span class="dp-Icon dp-close"></span>
                     </div>
                 </div>
-                <!-- 1 -->
+
                 <div class="dp-TicketSelect">
                     <div class="dp-SectionControls">
                         <div class="dp-SectionTitle">
@@ -29,7 +29,7 @@ title: Slide-Out Panel
                         </div>
                     </div>
                 </div>
-                <!-- 2 -->
+
                 <div class="dp-TicketSelect">
                     <div class="dp-SectionControls">
                         <div class="dp-SectionTitle">
@@ -40,7 +40,7 @@ title: Slide-Out Panel
                         </div>
                     </div>
                 </div>
-                <!-- 3 -->
+
                 <div class="dp-TicketSelect">
                     <div class="dp-SectionControls">
                         <div class="dp-SectionTitle">
@@ -51,7 +51,7 @@ title: Slide-Out Panel
                         </div>
                     </div>
                 </div>
-                <!-- 4 -->
+
                 <div class="dp-TicketSelect">
                     <div class="dp-SectionControls">
                         <div class="dp-SectionTitle">
@@ -74,13 +74,13 @@ title: Slide-Out Panel
                     </button>
                 </div>
                 
-            </div> <!-- Sidebar body -->
+            </div>
         </div>
     </div>
 </div>
-```
+``` -->
 
-```html @preview
+<!-- ```html @preview
 <div class="dp-MainWrapper demo-cog demo-menu">
     <div class="dp-SlideOutPanel">
         <div class="dp-PageSidebar">
@@ -93,7 +93,7 @@ title: Slide-Out Panel
                         <span class="dp-Icon dp-close"></span>
                     </div>
                 </div>
-                <!-- 1 -->
+
                 <div class="dp-TicketSelect">
                     <div class="dp-SectionControls">
                         <div class="dp-SectionTitle">
@@ -105,7 +105,7 @@ title: Slide-Out Panel
                         <button class="dp-ActionButton dp--danger dp-Border--danger is-semibold dp-Arrow" type="button">10</button>
                     </div>
                 </div>
-                <!-- 2 -->
+
                 <div class="dp-TicketSelect">
                     <div class="dp-SectionControls">
                         <div class="dp-SectionTitle">
@@ -122,7 +122,7 @@ title: Slide-Out Panel
                         <span>
                     </button>
                 </div>
-                <!-- 3 -->
+
                 <div class="dp-TicketSelect">
                     <div class="dp-SectionControls">
                         <div class="dp-SectionTitle">
@@ -139,7 +139,7 @@ title: Slide-Out Panel
                         <span>
                     </button>
                 </div>
-                <!-- 4 -->
+
                 <div class="dp-TicketSelect dp-Followers demo-tooltip">
 
                     <div class="dp-SectionControls">
@@ -160,7 +160,7 @@ title: Slide-Out Panel
                                     <span class="dp-UserName"> Wendy pride </span>
                                 </span>
                                 <i class="dp-Icon dp-close"></i>
-                                <!-- tooltip -->
+
                                 <span class="dp-ToolTips">Wendy pride</span>
                             </li>
                             <li class="dp-FollowersItem">
@@ -169,7 +169,7 @@ title: Slide-Out Panel
                                     <span class="dp-UserName"> Me </span>
                                 </span>
                                 <i class="dp-Icon dp-close"></i>
-                                <!-- tooltip -->
+
                                 <span class="dp-ToolTips">Me</span>
                             </li>
                             <li class="dp-FollowersItem">
@@ -178,7 +178,7 @@ title: Slide-Out Panel
                                     <span class="dp-UserName"> Peter Fergers </span>
                                 </span>
                                 <i class="dp-Icon dp-close"></i>
-                                <!-- tooltip -->
+
                                 <span class="dp-ToolTips">Peter Fergers</span>
                             </li>
                             <li class="dp-FollowersItem">
@@ -187,7 +187,7 @@ title: Slide-Out Panel
                                     <span class="dp-UserName"> John Richardson </span>
                                 </span>
                                 <i class="dp-Icon dp-close"></i>
-                                <!-- tooltip -->
+
                                 <span class="dp-ToolTips">John Richardson</span>
                             </li>
                             <li class="dp-FollowersItem">
@@ -196,7 +196,7 @@ title: Slide-Out Panel
                                     <span class="dp-UserName"> John Richardson </span>
                                 </span>
                                 <i class="dp-Icon dp-close"></i>
-                                <!-- tooltip -->
+
                                 <span class="dp-ToolTips">John Richardson</span>
                             </li>
 
@@ -208,10 +208,8 @@ title: Slide-Out Panel
                             </li>
                         </ul>
                     </div>
-
                 </div>
 
-                <!-- 5 -->
                 <div class="dp-TicketSelect">
                     <div class="dp-SectionControls">
                         <div class="dp-SectionTitle">
@@ -228,7 +226,6 @@ title: Slide-Out Panel
                     </div>
                 </div>
 
-                <!-- 6 -->
                 <div class="dp-TicketSelect">
                     <div class="dp-SectionControls">
                         <div class="dp-SectionTitle">
@@ -246,7 +243,6 @@ title: Slide-Out Panel
                     </div>
                 </div>
 
-                <!-- 7 -->
                 <div class="dp-TicketSelect">
                     <div class="dp-SectionControls">
                         <div class="dp-SectionTitle">
@@ -265,7 +261,6 @@ title: Slide-Out Panel
                     </span>
                 </div>
 
-                <!-- 8 -->
                 <div class="dp-TicketSelect">
                     <div class="dp-SectionControls">
                         <div class="dp-SectionTitle"></div>
@@ -337,13 +332,13 @@ title: Slide-Out Panel
 
                 </div>
 
-            </div> <!-- Sidebar body -->
+            </div>
         </div>
     </div>
 </div>
-```
+``` -->
 
-```html @preview
+<!-- ```html @preview
 <div class="dp-MainWrapper demo-cog demo-menu">
     <div class="dp-SlideOutPanel dp-WarningContainer">
         <div class="dp-PageSidebar">
@@ -370,13 +365,13 @@ title: Slide-Out Panel
                     </button>
                 </div>
 
-            </div> <!-- Sidebar body -->
+            </div>
         </div>
     </div>
 </div>
-```
+``` -->
 
-```html @preview
+<!-- ```html @preview
 <div class="dp-MainWrapper demo-cog demo-menu">
     <div class="dp-SlideOutPanel dp-SlideTicket">
         <div class="dp-PageSidebar">
@@ -392,14 +387,12 @@ title: Slide-Out Panel
                     New ticket title
                 </div>
 
-                <!-- 1 -->
                 <form>
                     <div>
                         <input type="text" class="dp-NewTitle">
                     </div>
                 </form>
 
-                <!-- 2 -->
                 <div class="dp-TicketMessage">
                     <div class="dp-MessageContainer">
                         <div class="dp-MessageHeader">
@@ -435,8 +428,6 @@ title: Slide-Out Panel
                     </div>
                 </div>
 
-
-                <!-- 3 -->
                 <div class="dp-TicketMessage">
                     <div class="dp-MessageContainer">
                         <div class="dp-MessageHeader">
@@ -479,15 +470,15 @@ title: Slide-Out Panel
                     </button>
                 </div>
 
-            </div> <!-- Sidebar body -->
+            </div>
         </div>
     </div>
 </div>
-```
+``` -->
 
 <!-- Merge tickets -->
 
-```html @preview
+<!-- ```html @preview
 <div class="dp-MainWrapper demo-cog demo-menu">
     <div class="dp-SlideOutPanel dp-SlideTicket dp-MergeTickets">
         <div class="dp-PageSidebar">
@@ -498,7 +489,6 @@ title: Slide-Out Panel
                     <span class="dp-Icon dp-close"></span>
                 </div>
 
-                <!-- 1 -->
                 <form>
                     <div class="dp-Menu-search">
                         <div class="dp-Form">
@@ -508,7 +498,6 @@ title: Slide-Out Panel
                     </div>
                 </form>
 
-                <!-- 2 -->
                 <div class="dp-ButtonWrapper">
                     <button class="dp-Button Button--outlined" type="button">
                         Switch tickets
@@ -597,13 +586,12 @@ title: Slide-Out Panel
                     </button>
                 </div>
 
-            </div> <!-- Sidebar body -->
+            </div>
         </div>
     </div>
 </div>
-```
+``` -->
 
-<h4>Change user</h4>
 ```html @preview
 <div class="dp-MainWrapper demo-cog demo-menu">
     <div class="dp-SlideOutPanel dp-ChangeUser">
@@ -628,10 +616,10 @@ title: Slide-Out Panel
                 <!-- 2 -->
                 <div class="dp-Tickets">
                     <div class="dp-dropdownContainer">
-                        <div class="dp-TitleName is-semibold dp-BorderBottom is-active">
+                        <div class="dp-TitleName is-semibold dp-BorderBottom">
                             Change user from ticket cc’s
                             <span class="dp-Icon dp-DownCaret"></span>
-                            <ul class="dp-Menu is-visible">
+                            <ul class="dp-Menu">
                                 <li class="dp-Menu-linkItem">
                                     <a href="#" class="dp-Menu-link">Change user from ticket CC’s</a>
                                 </li>
@@ -665,7 +653,7 @@ title: Slide-Out Panel
                                     <li class="dp-FollowersItem">
                                         <span class="dp-LogoName">
                                             <span class="dp-Icon dp-iconUserAvatar"></span>
-                                            <span class="dp-UserName"> Peter Fergers </span>
+                                            <span class="dp-UserName"> Zack Prudent </span>
                                         </span>
                                     </li>
                                     <li class="dp-FollowersItem">
@@ -677,9 +665,144 @@ title: Slide-Out Panel
                                     <li class="dp-FollowersItem">
                                         <span class="dp-LogoName">
                                             <span class="dp-Icon dp-iconUserAvatar"></span>
-                                            <span class="dp-UserName"> John Richards </span>
+                                            <span class="dp-UserName"> Leanne Spencer </span>
                                         </span>
                                     </li>
+                                    <li class="dp-FollowersItem">
+                                        <span class="dp-LogoName">
+                                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                                            <span class="dp-UserName"> Laura Thomas </span>
+                                        </span>
+                                    </li>
+                                    <li class="dp-FollowersItem">
+                                        <span class="dp-LogoName">
+                                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                                            <span class="dp-UserName"> Geoff Volts </span>
+                                        </span>
+                                    </li>
+                                    <li class="dp-FollowersItem">
+                                        <span class="dp-LogoName">
+                                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                                            <span class="dp-UserName"> Michael Zamba </span>
+                                        </span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- 3 -->
+                <div class="dp-TicketSelect">
+                    <div class="dp-SectionControls">
+                        <div class="dp-SectionTitle"></div>
+                    </div>
+                    <div class="dp-Followers">
+                        <ul class="dp-FollowerList">
+                            <li class="dp-FollowersBtn">
+                                <button class="dp-Button Button--link Button--small">
+                                    <span class="dp-Icon dp-add_follower Icon--primary"></span>
+                                    <span>Add action</span>
+                                </button>
+
+                                <ul class="dp-Menu">
+                                    <li class="dp-Menu-linkItem">
+                                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                                        <a href="#" class="dp-Menu-link">Wendy Pride</a>
+                                    </li>
+                                    <li class="dp-Menu-linkItem">
+                                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                                        <a href="#" class="dp-Menu-link">Bob Cooper</a>
+                                    </li>
+                                    <li class="dp-Menu-linkItem">
+                                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                                        <a href="#" class="dp-Menu-link">Julien Durco</a>
+                                    </li>
+                                    <li class="dp-Menu-linkItem">
+                                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                                        <a href="#" class="dp-Menu-link">Wendy Lightbody</a>
+                                    </li>
+                                    <li class="dp-Menu-linkItem">
+                                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                                        <a href="#" class="dp-Menu-link">Bobby Steiner</a>
+                                    </li>
+                                    <li class="dp-Menu-linkItem">
+                                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                                        <a href="#" class="dp-Menu-link">Julien Durco</a>
+                                    </li>
+                                    <li class="dp-Menu-linkItem">
+                                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                                        <a href="#" class="dp-Menu-link">Wendy Lightbody</a>
+                                    </li>
+                                </ul>
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="dp-ButtonWrapper">
+                    <button class="dp-Button" type="button">
+                        Change user
+                    </button>
+                    <button class="dp-Button Button--outlined" type="button">
+                        Cancel
+                    </button>
+                </div>
+
+            </div> <!-- Sidebar body -->
+        </div>
+    </div>
+</div>
+```
+
+```html @preview
+<div class="dp-MainWrapper demo-cog demo-menu">
+    <div class="dp-SlideOutPanel dp-ChangeUser">
+        <div class="dp-PageSidebar">
+            <div class="dp-SidebarBody">
+
+                <div class="dp-SidebarSection">
+                    <div class="dp-TitleSidebar"><span class="dp-Icon Icon--OwnerArrows"></span>Change user</div>
+                    <span class="dp-Icon dp-close"></span>
+                </div>
+
+                <!-- 1 -->
+                <div class="dp-Menu-search">
+                    <form>
+                        <div class="dp-Form">
+                            <input type="text" placeholder="Search" class="dp-Input Input--search">
+                            <span class="dp-Icon dp-IconSearch"></span>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- 2 -->
+                <div class="dp-Tickets">
+                    <div class="dp-dropdownContainer">
+                        <div class="dp-TitleName is-semibold dp-BorderBottom is-active">
+                            Change user from ticket cc’s
+                            <span class="dp-Icon dp-DownCaret"></span>
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-Menu-link">Change user from ticket CC’s</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-Menu-link">Change user from open tabs</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-Menu-link">Change user from selected messages</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-Menu-link">Change user from same organisation</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="dp-TicketSelect">
+                            <div class="dp-Followers">
+                                <ul class="dp-FollowerList">
                                     <li class="dp-FollowersItem">
                                         <span class="dp-LogoName">
                                             <span class="dp-Icon dp-iconUserAvatar"></span>
@@ -695,7 +818,202 @@ title: Slide-Out Panel
                                     <li class="dp-FollowersItem">
                                         <span class="dp-LogoName">
                                             <span class="dp-Icon dp-iconUserAvatar"></span>
+                                            <span class="dp-UserName"> Zack Prudent </span>
+                                        </span>
+                                    </li>
+                                    <li class="dp-FollowersItem">
+                                        <span class="dp-LogoName">
+                                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                                            <span class="dp-UserName"> John Richardson </span>
+                                        </span>
+                                    </li>
+                                    <li class="dp-FollowersItem">
+                                        <span class="dp-LogoName">
+                                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                                            <span class="dp-UserName"> Leanne Spencer </span>
+                                        </span>
+                                    </li>
+                                    <li class="dp-FollowersItem">
+                                        <span class="dp-LogoName">
+                                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                                            <span class="dp-UserName"> Laura Thomas </span>
+                                        </span>
+                                    </li>
+                                    <li class="dp-FollowersItem">
+                                        <span class="dp-LogoName">
+                                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                                            <span class="dp-UserName"> Geoff Volts </span>
+                                        </span>
+                                    </li>
+                                    <li class="dp-FollowersItem">
+                                        <span class="dp-LogoName">
+                                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                                            <span class="dp-UserName"> Michael Zamba </span>
+                                        </span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- 3 -->
+                <div class="dp-TicketSelect">
+                    <div class="dp-SectionControls">
+                        <div class="dp-SectionTitle"></div>
+                    </div>
+                    <div class="dp-Followers">
+                        <ul class="dp-FollowerList">
+                            <li class="dp-FollowersBtn">
+                                <button class="dp-Button Button--link Button--small">
+                                    <span class="dp-Icon dp-add_follower Icon--primary"></span>
+                                    <span>Add action</span>
+                                </button>
+
+                                <ul class="dp-Menu">
+                                    <li class="dp-Menu-linkItem">
+                                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                                        <a href="#" class="dp-Menu-link">Wendy Pride</a>
+                                    </li>
+                                    <li class="dp-Menu-linkItem">
+                                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                                        <a href="#" class="dp-Menu-link">Bob Cooper</a>
+                                    </li>
+                                    <li class="dp-Menu-linkItem">
+                                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                                        <a href="#" class="dp-Menu-link">Julien Durco</a>
+                                    </li>
+                                    <li class="dp-Menu-linkItem">
+                                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                                        <a href="#" class="dp-Menu-link">Wendy Lightbody</a>
+                                    </li>
+                                    <li class="dp-Menu-linkItem">
+                                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                                        <a href="#" class="dp-Menu-link">Bobby Steiner</a>
+                                    </li>
+                                    <li class="dp-Menu-linkItem">
+                                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                                        <a href="#" class="dp-Menu-link">Julien Durco</a>
+                                    </li>
+                                    <li class="dp-Menu-linkItem">
+                                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                                        <a href="#" class="dp-Menu-link">Wendy Lightbody</a>
+                                    </li>
+                                </ul>
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="dp-ButtonWrapper">
+                    <button class="dp-Button" type="button">
+                        Change user
+                    </button>
+                    <button class="dp-Button Button--outlined" type="button">
+                        Cancel
+                    </button>
+                </div>
+
+            </div> <!-- Sidebar body -->
+        </div>
+    </div>
+</div>
+```
+
+```html @preview
+<div class="dp-MainWrapper demo-cog demo-menu">
+    <div class="dp-SlideOutPanel dp-ChangeUser">
+        <div class="dp-PageSidebar">
+            <div class="dp-SidebarBody">
+
+                <div class="dp-SidebarSection">
+                    <div class="dp-TitleSidebar"><span class="dp-Icon Icon--OwnerArrows"></span>Change user</div>
+                    <span class="dp-Icon dp-close"></span>
+                </div>
+
+                <!-- 1 -->
+                <div class="dp-Menu-search">
+                    <form>
+                        <div class="dp-Form">
+                            <input type="text" placeholder="Search" class="dp-Input Input--search">
+                            <span class="dp-Icon dp-IconSearch"></span>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- 2 -->
+                <div class="dp-Tickets">
+                    <div class="dp-dropdownContainer">
+                        <div class="dp-TitleName is-semibold dp-BorderBottom">
+                            Change user from ticket cc’s
+                            <span class="dp-Icon dp-DownCaret"></span>
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-Menu-link">Change user from ticket CC’s</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-Menu-link">Change user from open tabs</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-Menu-link">Change user from selected messages</a>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <a href="#" class="dp-Menu-link">Change user from same organisation</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="dp-TicketSelect">
+                            <div class="dp-Followers">
+                                <ul class="dp-FollowerList">
+                                    <li class="dp-FollowersItem">
+                                        <span class="dp-LogoName">
+                                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                                            <span class="dp-UserName"> Peter Fergers </span>
+                                        </span>
+                                    </li>
+                                    <li class="dp-FollowersItem">
+                                        <span class="dp-LogoName">
+                                            <span class="dp-Icon dp-iconUserAvatar"></span>
                                             <span class="dp-UserName"> Wendy pride </span>
+                                        </span>
+                                    </li>
+                                    <li class="dp-FollowersItem">
+                                        <span class="dp-LogoName">
+                                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                                            <span class="dp-UserName"> Zack Prudent </span>
+                                        </span>
+                                    </li>
+                                    <li class="dp-FollowersItem">
+                                        <span class="dp-LogoName">
+                                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                                            <span class="dp-UserName"> John Richardson </span>
+                                        </span>
+                                    </li>
+                                    <li class="dp-FollowersItem">
+                                        <span class="dp-LogoName">
+                                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                                            <span class="dp-UserName"> Leanne Spencer </span>
+                                        </span>
+                                    </li>
+                                    <li class="dp-FollowersItem">
+                                        <span class="dp-LogoName">
+                                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                                            <span class="dp-UserName"> Laura Thomas </span>
+                                        </span>
+                                    </li>
+                                    <li class="dp-FollowersItem">
+                                        <span class="dp-LogoName">
+                                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                                            <span class="dp-UserName"> Geoff Volts </span>
+                                        </span>
+                                    </li>
+                                    <li class="dp-FollowersItem">
+                                        <span class="dp-LogoName">
+                                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                                            <span class="dp-UserName"> Michael Zamba </span>
                                         </span>
                                     </li>
                                 </ul>

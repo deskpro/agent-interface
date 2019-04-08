@@ -120,12 +120,14 @@
 
 .dpApps-AppPanel {
   background-color: var(--bg-app-panel);
-  border: 1px solid var(--border-color);
   box-shadow: var(--shadow-right);
   display: block;
   height: 100%;
   width: 225px;
   z-index: 9;
+
+  /* border: 1px solid var(--border-color); */
+
 }
 
 .dpApps-AppPanelBody {
@@ -361,4 +363,10 @@
 
 .is-opening {
   box-shadow: 4px 4px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.dpApps-AppPanel .dpApps-ActionListItem .dp-Icon {
+  background-size: 10px;
+  height: 10px;
+  width: 10px;
 }

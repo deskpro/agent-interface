@@ -539,8 +539,8 @@ title: Side-bar Overlay
 				<div class="dp-PageSidebar dp-TicketOverlay">
 
 		            <ul class="dp-Tabs Tabs--icons">
-		                <li class="dp-Tabs-item is-active"><a href="#" class="dp-Icon Icon--email"></a></li>
-		                <li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--user"></a></li>
+		                <li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--email"></a></li>
+		                <li class="dp-Tabs-item is-active"><a href="#" class="dp-Icon Icon--user"></a></li>
 		                <li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--organisation"></a></li>
 		            </ul>
 
@@ -1154,8 +1154,8 @@ title: Side-bar Overlay
 				<div class="dp-PageSidebar dp-TicketOverlay">
 
 		            <ul class="dp-Tabs Tabs--icons">
-		                <li class="dp-Tabs-item is-active"><a href="#" class="dp-Icon Icon--email"></a></li>
-		                <li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--user"></a></li>
+		                <li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--email"></a></li>
+		                <li class="dp-Tabs-item is-active"><a href="#" class="dp-Icon Icon--user"></a></li>
 		                <li class="dp-Tabs-item"><a href="#" class="dp-Icon Icon--organisation"></a></li>
 		            </ul>
 

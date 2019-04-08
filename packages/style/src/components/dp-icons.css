@@ -32,8 +32,6 @@
   padding: 0 4px;
   position: relative;
 
-  /* -webkit-animation: circle 10s infinite linear; */
-
   &.ActivityStatus--primary {
     border-color: #25a9e0;
   }
@@ -83,23 +81,83 @@
 
 .ActivityStatus--writing::before {
   animation: circle 10s infinite linear;
+  animation: run 2s infinite ease-in;
   background-color: var(--white);
+  border-radius: 50%;
   content: "";
   height: 2px;
-  left: 13px;
+  left: 0;
   position: absolute;
   top: -2px;
   width: 4px;
 }
 
-/* Animation */
-
-@keyframes circle {
-  from { transform: rotateZ(0deg); }
-  to { transform: rotateZ(360deg); }
+.ActivityStatus--large.ActivityStatus--writing::before {
+  animation: runn 2s infinite ease-in;
 }
 
-@keyframes ccircle {
-  from { transform: rotateZ(360deg); }
-  to { transform: rotateZ(0deg); }
+/* Animation */
+
+@keyframes run {
+
+  0% {
+    transform: translate(4px, 0);
+  }
+
+  25% {
+    transform: translate(32px, 0);
+  }
+
+  37% {
+    transform: translate(37px, 9px);
+  }
+
+  50% {
+    transform: translate(32px, 17px);
+  }
+
+  75% {
+    transform: translate(4px, 17px);
+  }
+
+  87% {
+    transform: translate(-2px, 9px);
+  }
+
+  100% {
+    transform: translate(4px, 0);
+  }
+}
+
+/* Animation - 2 */
+
+@keyframes runn {
+
+  0% {
+    transform: translate(4px, 0);
+  }
+
+  25% {
+    transform: translate(42px, 0);
+  }
+
+  37% {
+    transform: translate(47px, 9px);
+  }
+
+  50% {
+    transform: translate(42px, 17px);
+  }
+
+  75% {
+    transform: translate(4px, 17px);
+  }
+
+  87% {
+    transform: translate(-2px, 9px);
+  }
+
+  100% {
+    transform: translate(4px, 0);
+  }
 }
