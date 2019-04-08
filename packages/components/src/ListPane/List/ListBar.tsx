@@ -48,6 +48,7 @@ const ListBar: React.FC<ListBarProps> = ({
         )}
       >
         <Checkbox
+          id="select_all"
           onChange={selectedCount ? onSelectNone : onSelectAll}
           checked={selectedCount > 0}
           undef={selectedCount > 0 && selectedCount < totalItemsCount}

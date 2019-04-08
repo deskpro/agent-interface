@@ -1,0 +1,332 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<List /> should change select_all checkbox state on item check 1`] = `
+<div
+  class="dp-OrderingBar"
+>
+  <div
+    class="dp-OrderingBar-item is-expanded"
+  >
+    <span
+      class="dp-Dropdown-container"
+    >
+      <span
+        class="dp-Dropdown"
+        role="button"
+        tabindex="-1"
+      >
+        <span
+          class="dp-CustomCheckbox"
+        >
+          <input
+            class="dp-ControlInput"
+            id="select_all"
+            type="checkbox"
+          />
+          <label
+            class=""
+            for="select_all"
+          />
+        </span>
+        <span
+          class="dp-Icon dp-Arrow is-active"
+          role="button"
+          tabindex="-1"
+        />
+      </span>
+      <ul
+        class="dp-Menu is-visible"
+        style="position: absolute; top: 0px; left: 0px; opacity: 0; pointer-events: none;"
+      >
+        <li
+          class="dp-Menu-linkItem"
+          role="menuitem"
+        >
+          <span
+            style="display: inline-block; width: 100%;"
+          >
+            <span
+              class="dp-Menu-link"
+            >
+              Select All
+            </span>
+          </span>
+        </li>
+        <li
+          class="dp-Menu-linkItem"
+          role="menuitem"
+        >
+          <span
+            style="display: inline-block; width: 100%;"
+          >
+            <span
+              class="dp-Menu-link"
+            >
+              Select none
+            </span>
+          </span>
+        </li>
+        <li
+          class="dp-Menu-linkItem"
+          role="menuitem"
+        >
+          <span
+            style="display: inline-block; width: 100%;"
+          >
+            <span
+              class="dp-Menu-link"
+            >
+              Inverse
+            </span>
+          </span>
+        </li>
+      </ul>
+    </span>
+    <span
+      class="dp-MassSelect-itemsCount"
+    >
+      (2 items selected)
+    </span>
+  </div>
+  <div
+    class="dp-OrderingBar-item"
+  >
+    <span
+      class="dp-SelectGroup"
+    >
+      <span
+        class="dp-ItemRow"
+      >
+        <span
+          class="dp-Title"
+        >
+          Grouped by
+        </span>
+        <span
+          class="dp-Icon dp-Arrow"
+          role="button"
+          tabindex="-1"
+        />
+      </span>
+      <span
+        class="dp-ItemRow"
+      >
+        <span
+          class="dp-Subtitle"
+        >
+          None
+        </span>
+      </span>
+    </span>
+  </div>
+  <div
+    class="dp-OrderingBar-item"
+  >
+    <span
+      class="dp-SelectGroup"
+    >
+      <span
+        class="dp-ItemRow"
+      >
+        <span
+          class="dp-Title"
+        >
+          Sort by
+        </span>
+        <span
+          class="dp-Icon dp-Arrow"
+          role="button"
+          tabindex="-1"
+        />
+      </span>
+      <span
+        class="dp-ItemRow"
+      >
+        <span
+          class="dp-Subtitle"
+        >
+          Date
+        </span>
+      </span>
+    </span>
+  </div>
+  <div
+    class="dp-OrderingBar-item"
+  >
+    <span
+      class="dp-SelectGroup"
+    >
+      <span
+        class="dp-ItemRow"
+      >
+        <span
+          class="dp-Title"
+        >
+          Faceted by
+        </span>
+        <span
+          class="dp-Icon dp-Arrow"
+          role="button"
+          tabindex="-1"
+        />
+      </span>
+      <span
+        class="dp-ItemRow"
+      >
+        <span
+          class="dp-Subtitle"
+        >
+          3 Agents
+        </span>
+      </span>
+    </span>
+  </div>
+  <div
+    class="dp-OrderingBar-item"
+  >
+    <span
+      class="dp-SelectGroup"
+    >
+      <span
+        class="dp-ItemRow"
+      >
+        <span
+          class="dp-Title"
+        >
+          Fields
+        </span>
+        <span
+          class="dp-Icon dp-Arrow"
+          role="button"
+          tabindex="-1"
+        />
+      </span>
+      <span
+        class="dp-ItemRow"
+      >
+        <span
+          class="dp-Subtitle"
+        >
+          8 fields
+        </span>
+      </span>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`<List /> should match its snapshot 1`] = `
+<div
+  class="dp-CardList"
+  role="list"
+>
+  <div
+    class="dp-ScrollArea dp-List-items"
+    style="position: relative; overflow: hidden; width: 100%;"
+  >
+    <div
+      class="dp-ScrollArea-view"
+      style="position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; overflow: scroll; margin-right: 0px; margin-bottom: 0px;"
+    >
+      <div
+        class="dp-Card"
+        role="link"
+        tabindex="-1"
+      >
+        <div
+          class="dp-LevelItem Level-justify-between"
+        >
+          <span
+            class="dp-LevelLeft"
+          >
+            <span
+              class="dp-CustomCheckbox dp-LevelTop"
+            >
+              <input
+                class="dp-ControlInput"
+                id="1"
+                type="checkbox"
+                value="1"
+              />
+              <label
+                class=""
+                for="1"
+              />
+            </span>
+            <span
+              class="dp-Card-title"
+            >
+              First item
+            </span>
+          </span>
+        </div>
+        <div
+          class="dp-LevelItem Level-justify-between"
+        >
+          <span
+            class="dp-LevelLeft"
+          />
+        </div>
+      </div>
+      <div
+        class="dp-Card"
+        role="link"
+        tabindex="-1"
+      >
+        <div
+          class="dp-LevelItem Level-justify-between"
+        >
+          <span
+            class="dp-LevelLeft"
+          >
+            <span
+              class="dp-CustomCheckbox dp-LevelTop"
+            >
+              <input
+                class="dp-ControlInput"
+                id="2"
+                type="checkbox"
+                value="2"
+              />
+              <label
+                class=""
+                for="2"
+              />
+            </span>
+            <span
+              class="dp-Card-title"
+            >
+              Second Title
+            </span>
+          </span>
+        </div>
+        <div
+          class="dp-LevelItem Level-justify-between"
+        >
+          <span
+            class="dp-LevelLeft"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="dp-ScrollArea-trackHorizontal"
+      style="position: absolute; height: 6px; transition: opacity 200ms; opacity: 0; display: none;"
+    >
+      <div
+        class="dp-ScrollArea-thumbHorizontal"
+        style="position: relative; display: block; height: 100%;"
+      />
+    </div>
+    <div
+      class="dp-ScrollArea-trackVertical"
+      style="position: absolute; width: 6px; transition: opacity 200ms; opacity: 0; display: none;"
+    >
+      <div
+        class="dp-ScrollArea-thumbVertical"
+        style="position: relative; display: block; width: 100%;"
+      />
+    </div>
+  </div>
+</div>
+`;
