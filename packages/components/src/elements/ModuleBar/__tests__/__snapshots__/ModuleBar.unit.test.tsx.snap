@@ -54,8 +54,8 @@ exports[`<TagBar /> should match its snapshot 1`] = `
                   class="dp-ModuleBarMenu-itemTitle"
                 >
                   Raven Paper
+                  ,
                 </span>
-                ,
                 <span
                   class="dp-ModuleBarMenu-itemSubtitle"
                 >
@@ -78,8 +78,8 @@ exports[`<TagBar /> should match its snapshot 1`] = `
                   class="dp-ModuleBarMenu-itemTitle"
                 >
                   RP Europe
+                  ,
                 </span>
-                ,
                 <span
                   class="dp-ModuleBarMenu-itemSubtitle"
                 >

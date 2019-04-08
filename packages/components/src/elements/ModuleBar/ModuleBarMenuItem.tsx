@@ -37,7 +37,7 @@ const ModuleBarMenuItem: React.FC<ModuleBarMenuItemProps> = ({
       },
       <span className={`dp-Icon Icon--${icon}`} />,
       <span>
-        <span className="dp-ModuleBarMenu-itemTitle">{title}</span>,
+        <span className="dp-ModuleBarMenu-itemTitle">{title},</span>
         <span className="dp-ModuleBarMenu-itemSubtitle">{subtitle}</span>
       </span>
     )}
