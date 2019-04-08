@@ -409,9 +409,9 @@
 }
 
 .dp-Menu .dp-Menu-linkItem .dp-OptionList-itemGearMenu {
-  padding: 0;
   margin-left: auto;
   margin-right: 0;
+  padding: 0;
 }
 
 .dp-OptionList-itemGearMenu .dp-Icon {

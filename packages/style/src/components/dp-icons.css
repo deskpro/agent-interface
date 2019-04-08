@@ -32,7 +32,7 @@
   padding: 0 4px;
   position: relative;
 
-  /*-webkit-animation: circle 10s infinite linear;*/
+  /* -webkit-animation: circle 10s infinite linear; */
 
   &.ActivityStatus--primary {
     border-color: #25a9e0;
@@ -82,6 +82,7 @@
 }
 
 .ActivityStatus--writing::before {
+  animation: circle 10s infinite linear;
   background-color: var(--white);
   content: "";
   height: 2px;
@@ -89,18 +90,16 @@
   position: absolute;
   top: -2px;
   width: 4px;
-
-  -webkit-animation: ccircle 10s infinite linear;
 }
 
 /* Animation */
 
-@-webkit-keyframes circle {
-    from {-webkit-transform: rotateZ(0deg)}
-    to {-webkit-transform: rotateZ(360deg)}
+@keyframes circle {
+  from { transform: rotateZ(0deg); }
+  to { transform: rotateZ(360deg); }
 }
 
-@-webkit-keyframes ccircle {
-    from {-webkit-transform: rotateZ(360deg)}
-    to {-webkit-transform: rotateZ(0deg)}
+@keyframes ccircle {
+  from { transform: rotateZ(360deg); }
+  to { transform: rotateZ(0deg); }
 }
