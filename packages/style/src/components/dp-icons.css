@@ -32,6 +32,8 @@
   padding: 0 4px;
   position: relative;
 
+  /*-webkit-animation: circle 10s infinite linear;*/
+
   &.ActivityStatus--primary {
     border-color: #25a9e0;
   }
@@ -68,31 +70,6 @@
   width: 11px;
 }
 
-.ActivityStatus--writing::before {
-  background-color: var(--white);
-  content: "";
-  height: 2px;
-  left: 13px;
-  position: absolute;
-  top: -2px;
-  width: 4px;
-
-  /* animation: rot 5s infinite linear; */
-}
-
-/* @keyframes rot {
-        from {
-                transform: rotate(0deg)
-                           translate(20px)
-                           rotate(0deg);
-        }
-        to {
-                transform: rotate(360deg)
-                           translate(20px)
-                           rotate(-360deg);
-        }
-} */
-
 .dp-ActivityStatus .sb-avatar {
   align-items: center;
   display: flex;
@@ -102,4 +79,28 @@
 
 .dp-ActivityStatus .sb-avatar img {
   display: flex;
+}
+
+.ActivityStatus--writing::before {
+  background-color: var(--white);
+  content: "";
+  height: 2px;
+  left: 13px;
+  position: absolute;
+  top: -2px;
+  width: 4px;
+
+  -webkit-animation: ccircle 10s infinite linear;
+}
+
+/* Animation */
+
+@-webkit-keyframes circle {
+    from {-webkit-transform: rotateZ(0deg)}
+    to {-webkit-transform: rotateZ(360deg)}
+}
+
+@-webkit-keyframes ccircle {
+    from {-webkit-transform: rotateZ(360deg)}
+    to {-webkit-transform: rotateZ(0deg)}
 }

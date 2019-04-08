@@ -3313,7 +3313,7 @@ title: Orderingbar
                             <label for="fields-2-14"></label>
                         </span>
                         Date created
-                        <span class="dp-Icon dp-settings"></span>
+                        <span class="dp-OptionList-itemGearMenu"><span class="dp-Icon dp-settings"></span></span>
                         <ul class="dp-Menu Menu--tick Menu--tick-left">
                             <li class="dp-Menu-linkItem">
                                 <a href="#" class="dp-listItem">Date</a>
@@ -3333,7 +3333,7 @@ title: Orderingbar
                             <label for="fields-2-15"></label>
                         </span>
                         All waiting time
-                        <span class="dp-Icon dp-settings"></span>
+                        <span class="dp-OptionList-itemGearMenu"><span class="dp-Icon dp-settings"></span></span>
                         <ul class="dp-Menu Menu--tick Menu--tick-left">
                             <li class="dp-Menu-linkItem">
                                 <a href="#" class="dp-listItem">Date</a>
@@ -3353,7 +3353,7 @@ title: Orderingbar
                             <label for="fields-2-16"></label>
                         </span>
                         Date of last reply
-                        <span class="dp-Icon dp-settings"></span>
+                        <span class="dp-OptionList-itemGearMenu"><span class="dp-Icon dp-settings"></span></span>
                         <ul class="dp-Menu Menu--tick Menu--tick-left">
                             <li class="dp-Menu-linkItem">
                                 <a href="#" class="dp-listItem">Date</a>
@@ -3373,7 +3373,7 @@ title: Orderingbar
                             <label for="fields-2-17"></label>
                         </span>
                         Date of last user reply
-                        <span class="dp-Icon dp-settings"></span>
+                        <span class="dp-OptionList-itemGearMenu"><span class="dp-Icon dp-settings"></span></span>
                         <ul class="dp-Menu Menu--tick Menu--tick-left">
                             <li class="dp-Menu-linkItem">
                                 <a href="#" class="dp-listItem">Date</a>
@@ -3393,7 +3393,7 @@ title: Orderingbar
                             <label for="fields-2-18"></label>
                         </span>
                         Date of last agent reply
-                        <span class="dp-Icon dp-settings"></span>
+                        <span class="dp-OptionList-itemGearMenu"><span class="dp-Icon dp-settings"></span></span>
                         <ul class="dp-Menu Menu--tick Menu--tick-left">
                             <li class="dp-Menu-linkItem">
                                 <a href="#" class="dp-listItem">Date</a>
@@ -3406,14 +3406,14 @@ title: Orderingbar
                             </li>
                         </ul>
                     </li>
-                    <li class="dp-Menu-linkItem">
+                    <li class="dp-Menu-linkItem is-active">
                         <span class="dp-Icon dp-Drag"></span>
                         <span class="dp-CustomCheckbox">
                             <input type="checkbox" class="dp-ControlInput" id="fields-2-19"></input>
                             <label for="fields-2-19"></label>
                         </span>
                         Date resolved
-                        <span class="dp-Icon dp-settings is-active"></span>
+                        <span class="dp-OptionList-itemGearMenu"><span class="dp-Icon dp-settings"></span></span>
                         <ul class="dp-Menu Menu--tick Menu--tick-left">
                             <li class="dp-Menu-linkItem">
                                 <a href="#" class="dp-listItem">Date</a>
@@ -5029,7 +5029,7 @@ title: Orderingbar
                         <label for="fields-3-14"></label>
                     </span>
                     Date created
-                    <span class="dp-Icon dp-settings"></span>
+                    <span class="dp-OptionList-itemGearMenu"><span class="dp-Icon dp-settings"></span></span>
                     <ul class="dp-Menu Menu--tick Menu--tick-left">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Date</a>
@@ -5049,7 +5049,7 @@ title: Orderingbar
                         <label for="fields-3-15"></label>
                     </span>
                     All waiting time
-                    <span class="dp-Icon dp-settings"></span>
+                    <span class="dp-OptionList-itemGearMenu"><span class="dp-Icon dp-settings"></span></span>
                     <ul class="dp-Menu Menu--tick Menu--tick-left">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Date</a>
@@ -5069,7 +5069,7 @@ title: Orderingbar
                         <label for="fields-3-16"></label>
                     </span>
                     Date of last reply
-                    <span class="dp-Icon dp-settings"></span>
+                    <span class="dp-OptionList-itemGearMenu"><span class="dp-Icon dp-settings"></span></span>
                     <ul class="dp-Menu Menu--tick Menu--tick-left">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Date</a>
@@ -5089,7 +5089,7 @@ title: Orderingbar
                         <label for="fields-3-17"></label>
                     </span>
                     Date of last user reply
-                    <span class="dp-Icon dp-settings"></span>
+                    <span class="dp-OptionList-itemGearMenu"><span class="dp-Icon dp-settings"></span></span>
                     <ul class="dp-Menu Menu--tick Menu--tick-left">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Date</a>
@@ -5109,7 +5109,7 @@ title: Orderingbar
                         <label for="fields-3-18"></label>
                     </span>
                     Date of last agent reply
-                    <span class="dp-Icon dp-settings"></span>
+                    <span class="dp-OptionList-itemGearMenu"><span class="dp-Icon dp-settings"></span></span>
                     <ul class="dp-Menu Menu--tick Menu--tick-left">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Date</a>
@@ -5122,14 +5122,14 @@ title: Orderingbar
                         </li>
                     </ul>
                 </li>
-                <li class="dp-Menu-linkItem">
+                <li class="dp-Menu-linkItem is-active">
                     <span class="dp-Icon dp-Drag"></span>
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="fields-3-19"></input>
                         <label for="fields-3-19"></label>
                     </span>
                     Date resolved
-                    <span class="dp-Icon dp-settings is-active"></span>
+                    <span class="dp-OptionList-itemGearMenu"><span class="dp-Icon dp-settings"></span></span>
                     <ul class="dp-Menu Menu--tick Menu--tick-left">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Date</a>
@@ -6736,7 +6736,7 @@ title: Orderingbar
                         <label for="fields-4-14"></label>
                     </span>
                     Date created
-                    <span class="dp-Icon dp-settings"></span>
+                    <span class="dp-OptionList-itemGearMenu"><span class="dp-Icon dp-settings"></span></span>
                     <ul class="dp-Menu Menu--tick Menu--tick-left">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Date</a>
@@ -6756,7 +6756,7 @@ title: Orderingbar
                         <label for="fields-4-15"></label>
                     </span>
                     All waiting time
-                    <span class="dp-Icon dp-settings"></span>
+                    <span class="dp-OptionList-itemGearMenu"><span class="dp-Icon dp-settings"></span></span>
                     <ul class="dp-Menu Menu--tick Menu--tick-left">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Date</a>
@@ -6776,7 +6776,7 @@ title: Orderingbar
                         <label for="fields-4-16"></label>
                     </span>
                     Date of last reply
-                    <span class="dp-Icon dp-settings"></span>
+                    <span class="dp-OptionList-itemGearMenu"><span class="dp-Icon dp-settings"></span></span>
                     <ul class="dp-Menu Menu--tick Menu--tick-left">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Date</a>
@@ -6796,7 +6796,7 @@ title: Orderingbar
                         <label for="fields-4-17"></label>
                     </span>
                     Date of last user reply
-                    <span class="dp-Icon dp-settings"></span>
+                    <span class="dp-OptionList-itemGearMenu"><span class="dp-Icon dp-settings"></span></span>
                     <ul class="dp-Menu Menu--tick Menu--tick-left">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Date</a>
@@ -6816,27 +6816,7 @@ title: Orderingbar
                         <label for="fields-4-18"></label>
                     </span>
                     Date of last agent reply
-                    <span class="dp-Icon dp-settings"></span>
-                    <ul class="dp-Menu Menu--tick Menu--tick-left">
-                        <li class="dp-Menu-linkItem">
-                            <a href="#" class="dp-listItem">Date</a>
-                        </li>
-                        <li class="dp-Menu-linkItem">
-                            <a href="#" class="dp-listItem">Date/time</a>
-                        </li>
-                       <li class="dp-Menu-linkItem">
-                            <a href="#" class="dp-listItem">How long since</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="dp-Menu-linkItem">
-                    <span class="dp-Icon dp-Drag"></span>
-                    <span class="dp-CustomCheckbox">
-                        <input type="checkbox" class="dp-ControlInput" id="fields-4-19"></input>
-                        <label for="fields-4-19"></label>
-                    </span>
-                    Date resolved
-                    <span class="dp-Icon dp-settings is-active"></span>
+                    <span class="dp-OptionList-itemGearMenu"><span class="dp-Icon dp-settings"></span></span>
                     <ul class="dp-Menu Menu--tick Menu--tick-left">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Date</a>
@@ -6850,6 +6830,26 @@ title: Orderingbar
                     </ul>
                 </li>
                 <li class="dp-Menu-linkItem is-active">
+                    <span class="dp-Icon dp-Drag"></span>
+                    <span class="dp-CustomCheckbox">
+                        <input type="checkbox" class="dp-ControlInput" id="fields-4-19"></input>
+                        <label for="fields-4-19"></label>
+                    </span>
+                    Date resolved
+                    <span class="dp-OptionList-itemGearMenu"><span class="dp-Icon dp-settings"></span></span>
+                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                        <li class="dp-Menu-linkItem">
+                            <a href="#" class="dp-listItem">Date</a>
+                        </li>
+                        <li class="dp-Menu-linkItem">
+                            <a href="#" class="dp-listItem">Date/time</a>
+                        </li>
+                       <li class="dp-Menu-linkItem">
+                            <a href="#" class="dp-listItem">How long since</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dp-Menu-linkItem">
                     <span class="dp-Icon dp-Drag"></span>
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="fields-4-20"></input>
@@ -8437,7 +8437,7 @@ title: Orderingbar
                         <label for="fields-5-14"></label>
                     </span>
                     Date created
-                    <span class="dp-Icon dp-settings"></span>
+                    <span class="dp-OptionList-itemGearMenu"><span class="dp-Icon dp-settings"></span></span>
                     <ul class="dp-Menu Menu--tick Menu--tick-left">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Date</a>
@@ -8457,7 +8457,7 @@ title: Orderingbar
                         <label for="fields-5-15"></label>
                     </span>
                     All waiting time
-                    <span class="dp-Icon dp-settings"></span>
+                    <span class="dp-OptionList-itemGearMenu"><span class="dp-Icon dp-settings"></span></span>
                     <ul class="dp-Menu Menu--tick Menu--tick-left">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Date</a>
@@ -8477,7 +8477,7 @@ title: Orderingbar
                         <label for="fields-5-16"></label>
                     </span>
                     Date of last reply
-                    <span class="dp-Icon dp-settings"></span>
+                    <span class="dp-OptionList-itemGearMenu"><span class="dp-Icon dp-settings"></span></span>
                     <ul class="dp-Menu Menu--tick Menu--tick-left">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Date</a>
@@ -8497,7 +8497,7 @@ title: Orderingbar
                         <label for="fields-5-17"></label>
                     </span>
                     Date of last user reply
-                    <span class="dp-Icon dp-settings"></span>
+                    <span class="dp-OptionList-itemGearMenu"><span class="dp-Icon dp-settings"></span></span>
                     <ul class="dp-Menu Menu--tick Menu--tick-left">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Date</a>
@@ -8517,7 +8517,7 @@ title: Orderingbar
                         <label for="fields-5-18"></label>
                     </span>
                     Date of last agent reply
-                    <span class="dp-Icon dp-settings"></span>
+                    <span class="dp-OptionList-itemGearMenu"><span class="dp-Icon dp-settings"></span></span>
                     <ul class="dp-Menu Menu--tick Menu--tick-left">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Date</a>
@@ -8537,7 +8537,7 @@ title: Orderingbar
                         <label for="fields-5-19"></label>
                     </span>
                     Date resolved
-                    <span class="dp-Icon dp-settings is-active"></span>
+                    <span class="dp-OptionList-itemGearMenu"><span class="dp-Icon dp-settings"></span></span>
                     <ul class="dp-Menu Menu--tick Menu--tick-left">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Date</a>
@@ -10146,7 +10146,7 @@ title: Orderingbar
                         <label for="fields-6-14"></label>
                     </span>
                     Date created
-                    <span class="dp-Icon dp-settings"></span>
+                    <span class="dp-OptionList-itemGearMenu"><span class="dp-Icon dp-settings"></span></span>
                     <ul class="dp-Menu Menu--tick Menu--tick-left">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Date</a>
@@ -10166,7 +10166,7 @@ title: Orderingbar
                         <label for="fields-6-15"></label>
                     </span>
                     All waiting time
-                    <span class="dp-Icon dp-settings"></span>
+                    <span class="dp-OptionList-itemGearMenu"><span class="dp-Icon dp-settings"></span></span>
                     <ul class="dp-Menu Menu--tick Menu--tick-left">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Date</a>
@@ -10186,7 +10186,7 @@ title: Orderingbar
                         <label for="fields-6-16"></label>
                     </span>
                     Date of last reply
-                    <span class="dp-Icon dp-settings"></span>
+                    <span class="dp-OptionList-itemGearMenu"><span class="dp-Icon dp-settings"></span></span>
                     <ul class="dp-Menu Menu--tick Menu--tick-left">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Date</a>
@@ -10206,7 +10206,7 @@ title: Orderingbar
                         <label for="fields-6-17"></label>
                     </span>
                     Date of last user reply
-                    <span class="dp-Icon dp-settings"></span>
+                    <span class="dp-OptionList-itemGearMenu"><span class="dp-Icon dp-settings"></span></span>
                     <ul class="dp-Menu Menu--tick Menu--tick-left">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Date</a>
@@ -10226,7 +10226,7 @@ title: Orderingbar
                         <label for="fields-6-18"></label>
                     </span>
                     Date of last agent reply
-                    <span class="dp-Icon dp-settings"></span>
+                    <span class="dp-OptionList-itemGearMenu"><span class="dp-Icon dp-settings"></span></span>
                     <ul class="dp-Menu Menu--tick Menu--tick-left">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Date</a>
@@ -10246,7 +10246,7 @@ title: Orderingbar
                         <label for="fields-6-19"></label>
                     </span>
                     Date resolved
-                    <span class="dp-Icon dp-settings"></span>
+                    <span class="dp-OptionList-itemGearMenu"><span class="dp-Icon dp-settings"></span></span>
                     <ul class="dp-Menu Menu--tick Menu--tick-left">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Date</a>
@@ -10259,7 +10259,7 @@ title: Orderingbar
                         </li>
                     </ul>
                 </li>
-                <li class="dp-Menu-linkItem is-active">
+                <li class="dp-Menu-linkItem">
                     <span class="dp-Icon dp-Drag"></span>
                     <span class="dp-CustomCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="fields-6-20"></input>
@@ -11862,7 +11862,7 @@ title: Orderingbar
                         <label for="fields-7-14"></label>
                     </span>
                     Date created
-                    <span class="dp-Icon dp-settings"></span>
+                    <span class="dp-OptionList-itemGearMenu"><span class="dp-Icon dp-settings"></span></span>
                     <ul class="dp-Menu Menu--tick Menu--tick-left">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Date</a>
@@ -11882,7 +11882,7 @@ title: Orderingbar
                         <label for="fields-7-15"></label>
                     </span>
                     All waiting time
-                    <span class="dp-Icon dp-settings"></span>
+                    <span class="dp-OptionList-itemGearMenu"><span class="dp-Icon dp-settings"></span></span>
                     <ul class="dp-Menu Menu--tick Menu--tick-left">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Date</a>
@@ -11902,7 +11902,7 @@ title: Orderingbar
                         <label for="fields-7-16"></label>
                     </span>
                     Date of last reply
-                    <span class="dp-Icon dp-settings"></span>
+                    <span class="dp-OptionList-itemGearMenu"><span class="dp-Icon dp-settings"></span></span>
                     <ul class="dp-Menu Menu--tick Menu--tick-left">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Date</a>
@@ -11922,7 +11922,7 @@ title: Orderingbar
                         <label for="fields-7-17"></label>
                     </span>
                     Date of last user reply
-                    <span class="dp-Icon dp-settings"></span>
+                    <span class="dp-OptionList-itemGearMenu"><span class="dp-Icon dp-settings"></span></span>
                     <ul class="dp-Menu Menu--tick Menu--tick-left">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Date</a>
@@ -11942,7 +11942,7 @@ title: Orderingbar
                         <label for="fields-7-18"></label>
                     </span>
                     Date of last agent reply
-                    <span class="dp-Icon dp-settings"></span>
+                    <span class="dp-OptionList-itemGearMenu"><span class="dp-Icon dp-settings"></span></span>
                     <ul class="dp-Menu Menu--tick Menu--tick-left">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Date</a>
@@ -11962,7 +11962,7 @@ title: Orderingbar
                         <label for="fields-7-19"></label>
                     </span>
                     Date resolved
-                    <span class="dp-Icon dp-settings"></span>
+                    <span class="dp-OptionList-itemGearMenu"><span class="dp-Icon dp-settings"></span></span>
                     <ul class="dp-Menu Menu--tick Menu--tick-left">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Date</a>
@@ -13577,7 +13577,7 @@ title: Orderingbar
                         <label for="fields-8-14"></label>
                     </span>
                     Date created
-                    <span class="dp-Icon dp-settings"></span>
+                    <span class="dp-OptionList-itemGearMenu"><span class="dp-Icon dp-settings"></span></span>
                     <ul class="dp-Menu Menu--tick Menu--tick-left">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Date</a>
@@ -13597,7 +13597,7 @@ title: Orderingbar
                         <label for="fields-8-15"></label>
                     </span>
                     All waiting time
-                    <span class="dp-Icon dp-settings"></span>
+                    <span class="dp-OptionList-itemGearMenu"><span class="dp-Icon dp-settings"></span></span>
                     <ul class="dp-Menu Menu--tick Menu--tick-left">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Date</a>
@@ -13617,7 +13617,7 @@ title: Orderingbar
                         <label for="fields-8-16"></label>
                     </span>
                     Date of last reply
-                    <span class="dp-Icon dp-settings"></span>
+                    <span class="dp-OptionList-itemGearMenu"><span class="dp-Icon dp-settings"></span></span>
                     <ul class="dp-Menu Menu--tick Menu--tick-left">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Date</a>
@@ -13637,7 +13637,7 @@ title: Orderingbar
                         <label for="fields-8-17"></label>
                     </span>
                     Date of last user reply
-                    <span class="dp-Icon dp-settings"></span>
+                    <span class="dp-OptionList-itemGearMenu"><span class="dp-Icon dp-settings"></span></span>
                     <ul class="dp-Menu Menu--tick Menu--tick-left">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Date</a>
@@ -13657,7 +13657,7 @@ title: Orderingbar
                         <label for="fields-8-18"></label>
                     </span>
                     Date of last agent reply
-                    <span class="dp-Icon dp-settings"></span>
+                    <span class="dp-OptionList-itemGearMenu"><span class="dp-Icon dp-settings"></span></span>
                     <ul class="dp-Menu Menu--tick Menu--tick-left">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Date</a>
@@ -13677,7 +13677,7 @@ title: Orderingbar
                         <label for="fields-8-19"></label>
                     </span>
                     Date resolved
-                    <span class="dp-Icon dp-settings"></span>
+                    <span class="dp-OptionList-itemGearMenu"><span class="dp-Icon dp-settings"></span></span>
                     <ul class="dp-Menu Menu--tick Menu--tick-left">
                         <li class="dp-Menu-linkItem">
                             <a href="#" class="dp-listItem">Date</a>

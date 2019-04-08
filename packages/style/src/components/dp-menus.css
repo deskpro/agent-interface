@@ -408,6 +408,16 @@
   width: 12px;
 }
 
+.dp-Menu .dp-Menu-linkItem .dp-OptionList-itemGearMenu {
+  padding: 0;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.dp-OptionList-itemGearMenu .dp-Icon {
+  margin: 0;
+}
+
 /* .dp-OptionList .dp-CustomCheckbox {
   flex: 1 0 auto;
 } */
