@@ -368,5 +368,6 @@
 .dpApps-AppPanel .dpApps-ActionListItem .dp-Icon {
   background-size: 10px;
   height: 10px;
+  min-height: 10px;
   width: 10px;
 }

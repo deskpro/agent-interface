@@ -102,10 +102,8 @@
 
 .dp-LeftSidebar .dp-Icon {
   height: 100%;
+  min-height: 25px;
   width: 100%;
-
-  /* min-height: 25px; */
-
 }
 
 .dp-LeftSidebar .dp-BarIcon-wrap {
