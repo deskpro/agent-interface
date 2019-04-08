@@ -400,22 +400,18 @@ title: Slide-Out Panel
                 </form>
 
                 <!-- 2 -->
-                <div class="dp-TicketMessage dp-SplitMessages dp-BorderBottom">
+                <div class="dp-TicketMessage">
                     <div class="dp-MessageContainer">
                         <div class="dp-MessageHeader">
-                            <div class="dp-Left">
-                                <div class="dp-CustomCheckbox dp-EmptyCheckbox">
-                                    <input type="checkbox" class="dp-ControlInput" id="dp-CheckboxTicket-2"></input>
-                                    <label for="dp-CheckboxTicket-2"></label>
-                                </div>
-                                <span class="dp-Icon dp-iconUserAvatar"></span>
-                                <span>Zach Prudent</span>
-                            </div>
-                            <div class="dp-Right">
-                                <div class="dp-Time"><span class="dp-Icon dp-history"></span>2 days ago</div>
-                            </div>
-                            <!-- Icon hover -->
-                            <span class="dp-Cog">
+                            <img class="Icon--Avatar dp-InfoItem" src="/agent-interface/style/img/docs/avatar.png" alt="">
+                            <span class="dp-UserName">
+                                Zach Prudent
+                                <a href="mailto:nick.green@techcompany.com">
+                                    <i class="dp-Icon dp-email_small"></i>
+                                    zack.prudent@techcompany.com
+                                </a>
+                            </span>
+                            <span class="dp-Cog dp-Submenu--left">
                                 <span class="dp-Icon dp-settings"></span>
                                 <ul class="dp-Menu">
                                     <li class="dp-Menu-linkItem">Place on hold</li>
@@ -424,32 +420,35 @@ title: Slide-Out Panel
                                 </ul>
                             </span>
                         </div>
+
                         <div class="dp-MessageTitle">
-                            <p class="dp-Type">Agent note</p>
+                            <span class="dp-Type">Agent note</span>
+                            <span class="dp-Time"><span class="dp-Icon dp-history"></span>2 days ago</span>
                         </div>
+
                         <div class="dp-MessageBody">
-                            <p class="dp-txt">We’ve been having another issue with this version of DeskPro. I’ve been doing some troubleshooting with our SSO partner but no luck so far so I thought it wouldn’t hurt to bounce it off of you. The thing is, we configured both Agent and User modules to use SSO and it was working great for a few days. When I came into the office last week Friday I realized that I wasn’t able to log into the Admin/Agent portals but I was able to log in to the User portal.</p>
+                            <div class="Content">
+                                <p>Good day Brian,</p>
+                                <p>We’ve been having another issue with this version of DeskPro. I’ve been doing some troubleshooting with our SSO partner but no luck so far so I thought it wouldn’t hurt to bounce it off of you. The thing is, we configured both Agent and User modules to use SSO and it was working great for a few days. When I came into the office last week Friday I realized that I wasn’t able to log into the Admin/Agent portals but I was able to log in to the User portal.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
 
+
                 <!-- 3 -->
-                <div class="dp-TicketMessage dp-SplitMessages dp-BorderBottom">
+                <div class="dp-TicketMessage">
                     <div class="dp-MessageContainer">
                         <div class="dp-MessageHeader">
-                           <div class="dp-Left">
-                                <div class="dp-CustomCheckbox dp-EmptyCheckbox">
-                                    <input type="checkbox" class="dp-ControlInput" id="dp-CheckboxTicket-1"></input>
-                                    <label for="dp-CheckboxTicket-1"></label>
-                                </div>
-                                <span class="dp-Icon dp-iconUserAvatar"></span>
-                                <span>Zach Prudent</span>
-                            </div>
-                            <div class="dp-Right">
-                                <div class="dp-Time"><span class="dp-Icon dp-history"></span>2 days ago</div>
-                            </div>
-                            <!-- Icon hover -->
-                            <span class="dp-Cog">
+                            <img class="Icon--Avatar dp-InfoItem" src="/agent-interface/style/img/docs/avatar.png" alt="">
+                            <span class="dp-UserName">
+                                Zach Prudent
+                                <a href="mailto:nick.green@techcompany.com">
+                                    <i class="dp-Icon dp-email_small"></i>
+                                    zack.prudent@techcompany.com
+                                </a>
+                            </span>
+                            <span class="dp-Cog dp-Submenu--left">
                                 <span class="dp-Icon dp-settings"></span>
                                 <ul class="dp-Menu">
                                     <li class="dp-Menu-linkItem">Place on hold</li>
@@ -458,9 +457,12 @@ title: Slide-Out Panel
                                 </ul>
                             </span>
                         </div>
+
                         <div class="dp-MessageTitle">
-                            <p class="dp-Type">Agent note</p>
+                            <span class="dp-Type">Agent note</span>
+                            <span class="dp-Time"><span class="dp-Icon dp-history"></span>2 days ago</span>
                         </div>
+
                         <div class="dp-MessageBody">
                             <div class="Content">
                                 <p>Good day Brian,</p>
@@ -470,8 +472,6 @@ title: Slide-Out Panel
                         </div>
                     </div>
                 </div>
-
-
 
                 <div class="dp-ButtonWrapper">
                     <button class="dp-Button" type="button">

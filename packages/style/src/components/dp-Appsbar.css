@@ -54,7 +54,7 @@
   border-radius: 0;
   display: flex;
   flex: 0 1 auto;
-  height: 39px;
+  height: 44px;
   justify-content: center;
   padding: 0;
   position: relative;
@@ -121,12 +121,21 @@
 .dpApps-AppPanel {
   background-color: var(--bg-app-panel);
   border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-right);
   display: block;
+  height: 100%;
+  width: 225px;
+  z-index: 9;
 }
 
 .dpApps-AppPanelBody {
   display: block;
   padding: var(--framework-margin);
+}
+
+.dp-LeftSidebar .dpApps-AppPanel .dp-Icon {
+  height: 20px;
+  width: 20px;
 }
 
 .dpApps-AppFrame {

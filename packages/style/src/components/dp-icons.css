@@ -3,9 +3,6 @@
 
 .dp-IconGroup {
   display: flex;
-
-  /* margin-bottom: 10px; */
-
 }
 
 .dp-IconGroup > span + span {
@@ -79,7 +76,22 @@
   position: absolute;
   top: -2px;
   width: 4px;
+
+  /* animation: rot 5s infinite linear; */
 }
+
+/* @keyframes rot {
+        from {
+                transform: rotate(0deg)
+                           translate(20px)
+                           rotate(0deg);
+        }
+        to {
+                transform: rotate(360deg)
+                           translate(20px)
+                           rotate(-360deg);
+        }
+} */
 
 .dp-ActivityStatus .sb-avatar {
   align-items: center;

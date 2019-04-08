@@ -341,15 +341,10 @@
   background-size: 23px 23px;
   cursor: pointer;
   display: inline-block;
+  height: 23px;
   position: relative;
   vertical-align: middle;
-
-  /*  width: 24px;
-  height: 24px;
-  background-color: var(--white);
-  border-radius: 100%;
-  border: 1px solid var(--grey-light); */
-
+  width: 23px;
 }
 
 .dp-MenuBarItem .dp-Title {

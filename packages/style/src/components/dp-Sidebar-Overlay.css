@@ -48,7 +48,7 @@
   margin-left: 45px;
 }
 
-.dp-UserTabName .dp-Icon {
+.dp-UserTabName .dp-UserInfo .dp-Icon {
   margin-right: 5px;
 }
 
@@ -71,6 +71,12 @@
 .dp-UserTitleInfo .dp-UserName {
   color: var(--grey-darkest);
   font: var(--p-l);
+}
+
+.dp-OverlayContent .dp-UserInfo .dp-UserName {
+  color: var(--grey-darkest);
+  font: var(--h-n-semibold);
+  margin-left: 10px;
 }
 
 .dp-UserTitleInfo .dp-UserId {
@@ -128,11 +134,80 @@
   padding: 10px;
 }
 
-.dp-OverlayContent .dp-UserInfo > .dp-Icon {
+.dp-OverlayContent .dp-TitleRow {
+  margin-bottom: 10px;
+}
+
+.dp-OverlayContent .dp-DropDownBar .dp-MenuBarList {
+  background-color: var(--white);
+}
+
+.dp-OverlayContent .dp-UserInfo > .dp-Icon,
+.dp-OverlayContent .dp-UserInfo > .Icon--Avatar {
   background-size: 22px 22px;
   height: 22px;
   min-width: 22px;
   width: 22px;
+}
+
+.dp-OverlayContent .dp-DropDownBar {
+  margin: 0 -10px;
+}
+
+.dp-OverlayContent .dp-Tabs .dp-Tabs-item .dp-Icon.Icon--email,
+.dp-OverlayContent .dp-Tabs .dp-Tabs-item .dp-Icon.Icon--UserGroups {
+  background-size: 15px 10px;
+  height: 10px;
+  width: 15px;
+}
+
+.dp-OverlayContent .dp-DropDownBar + .dp-Tabs.Tabs--reply {
+  margin-top: 10px;
+  position: relative;
+}
+
+.dp-OverlayContent .dp-DropDownBar + .dp-Tabs::after {
+  background-color: var(--grey-light);
+  content: "";
+  height: 1px;
+  left: 0;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  z-index: 1;
+}
+
+.dp-OverlaAapps .dp-Tabs .dp-Tabs-item {
+  position: initial;
+}
+
+.dp-OverlayContent .dp-DropDownBar + .dp-Tabs .dp-Tabs-item:hover {
+  background-color: var(--grey-lightest);
+  border: 1px solid var(--grey-light);
+}
+
+.dp-OverlayContent .dp-Tabs .dp-Tabs-item .dp-Icon {
+  margin-right: 5px;
+}
+
+.dp-OverlayContent .dp-Tabs .dp-Tabs-item .dp-Icon.Icon--Activity {
+  background-size: 13px 12px;
+  height: 12px;
+  width: 13px;
+}
+
+.dp-OverlayContent .dp-Tabs .dp-Tabs-item .dp-Icon.Icon--Brands {
+  background-size: 12px 12px;
+  height: 12px;
+  width: 12px;
+}
+
+.dp-OverlaAapps .dpApps-AppPanel {
+  display: none;
+}
+
+.dp-OverlaAapps .Button--Apps.is-active + .dpApps-AppPanel {
+  display: block;
 }
 
 .dp-UserOverlay .dp-TitleRow {
@@ -161,9 +236,29 @@
 
 .dp-Files {
   align-items: center;
+  color: var(--grey-dark);
   display: flex;
-  font: var(--p-xl);
+  font: var(--h-s-semibold);
+  justify-content: space-between;
   margin-bottom: 10px;
+  position: relative;
+}
+
+.dp-Files .dp-FilesTitle {
+  background-color: var(--white);
+  padding-right: 5px;
+  z-index: 8;
+}
+
+.dp-Files::after {
+  background-color: var(--grey-light);
+  content: "";
+  height: 1px;
+  left: 0;
+  position: absolute;
+  top: 50%;
+  width: calc(100% - 25px);
+  z-index: 1;
 }
 
 .dp-Files .dp-LabelItem {
@@ -172,12 +267,6 @@
 
 .dp-UserOverlay .dp-LabelItem {
   margin-right: 10px;
-}
-
-.dp-OverlayContent .dp-UserName {
-  color: var(--grey-darkest);
-  font: var(--h-n-semibold);
-  margin-left: 10px;
 }
 
 .dp-TabsBtn .dp-Icon {
@@ -236,6 +325,7 @@
 }
 
 .dp-TicketsInfoTitle .dp-MainItem {
+  color: var(--grey-darkest);
   font: var(--p-s);
 }
 
@@ -264,6 +354,10 @@
   padding: 5px 0;
 }
 
+.dp-TicketsInfo .dp-TicketsInfoItem .dp-Badge {
+  margin-left: 5px;
+}
+
 .dp-TicketsInfo .dp-idItem {
   max-width: 15%;
   width: 100%;
@@ -289,7 +383,7 @@
 
 .dp-StatusItem .dp-qt {
   align-items: center;
-  border: 1px solid var(--success);
+  border: 1px solid var(--neutral);
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -338,6 +432,7 @@
 }
 
 .dp-LeftInfo {
+  color: var(--grey-darkest);
   display: flex;
   font: var(--p-n);
   justify-content: space-between;
@@ -346,6 +441,7 @@
 }
 
 .dp-RightInfo {
+  color: var(--grey-darkest);
   display: flex;
   font: var(--p-n);
   justify-content: space-between;
@@ -410,4 +506,14 @@
   font-style: italic;
   position: relative;
   width: 100%;
+}
+
+.dp-UserOverlay .dp-Tabs.Tabs--apps-bar {
+  position: relative;
+}
+
+.dp-UserOverlay .dpApps-AppPanel {
+  left: 0;
+  position: absolute;
+  top: 0;
 }

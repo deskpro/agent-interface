@@ -3031,16 +3031,16 @@ title: Ticket View
 
 ```html @preview
 <div class="dp-TicketMessage demo-cog demo-menu">
-	<div class="dp-MessageContainer dp-ColorContainer">
+	<div class="dp-MessageContainer">
 		<div class="dp-MessageHeader">
-			<div class="dp-Left">
-				<span class="dp-Icon dp-iconUserAvatar"></span>
-				<span>Zack Prudent</span>
-			</div>
-			<div class="dp-Right">
-				<div class="dp-Time"><span class="dp-Icon dp-history"></span>2 days ago</div>
-			</div>
-			<!-- Icon hover -->
+			<img class="Icon--Avatar dp-InfoItem" src="/agent-interface/style/img/docs/avatar.png" alt="">
+			<span class="dp-UserName">
+				Zack Prudent
+				<a href="mailto:nick.green@techcompany.com">
+					<i class="dp-Icon dp-email_small"></i>
+					zack.prudent@techcompany.com
+				</a>
+			</span>
 			<span class="dp-Cog dp-Submenu--left">
 				<span class="dp-Icon dp-settings"></span>
 				<ul class="dp-Menu">
@@ -3050,9 +3050,12 @@ title: Ticket View
 				</ul>
 			</span>
 		</div>
+
 		<div class="dp-MessageTitle">
-			<p class="dp-Type">Agent note</p>
+			<span class="dp-Type">Agent note</span>
+			<span class="dp-Time"><span class="dp-Icon dp-history"></span>2 days ago</span>
 		</div>
+
 		<div class="dp-MessageBody">
 			<p class="dp-txt">I’ve asked one of the tech guys to take a look but don’t want to reply until we know the timeframe for a resolution.</p>
 		</div>
@@ -3685,64 +3688,6 @@ title: Ticket View
 							</button>
 						</div>
 
-<!-- 						<div class="dp-TicketSelect">
-							<div class="dp-SectionControls">
-								<div class="dp-SectionTitle">
-									<div class="dp-TitleControls">Followers <span class="dp-qt">(5)</span></div>
-									<div class="dp-StatusTimes dp-FollowersStatus">
-										Following
-										<span class="dp-Icon dp-following Icon--primary"></span>
-									</div>
-								</div>
-							</div>
-							<div class="dp-Followers">
-								<ul class="dp-FollowerList">
-									<li class="dp-FollowersItem">
-										<span class="dp-LogoName">
-											<span class="dp-Icon dp-iconUserAvatar"></span>
-											<span class="dp-UserName"> Wendy pride </span>
-										</span>
-										<a href="#"><i class="dp-Icon dp-close"></i></a>
-									</li>
-									<li class="dp-FollowersItem">
-										<span class="dp-LogoName">
-											<span class="dp-Icon dp-iconUserAvatar"></span>
-											<span class="dp-UserName"> Me </span>
-										</span>
-										<a href="#"><i class="dp-Icon dp-close"></i></a>
-									</li>
-									<li class="dp-FollowersItem">
-										<span class="dp-LogoName">
-											<span class="dp-Icon dp-iconUserAvatar"></span>
-											<span class="dp-UserName"> Peter Fergerson... </span>
-										</span>
-										<a href="#"><i class="dp-Icon dp-close"></i></a>
-									</li>
-									<li class="dp-FollowersItem">
-										<span class="dp-LogoName">
-											<span class="dp-Icon dp-iconUserAvatar"></span>
-											<span class="dp-UserName"> John Richards... </span>
-										</span>
-										<a href="#"><i class="dp-Icon dp-close"></i></a>
-									</li>
-									<li class="dp-FollowersItem">
-										<span class="dp-LogoName">
-											<span class="dp-Icon dp-iconUserAvatar"></span>
-											<span class="dp-UserName"> Peter Fergerson... </span>
-										</span>
-										<a href="#"><i class="dp-Icon dp-close"></i></a>
-									</li>
-
-									<li class="dp-FollowersItem">
-										<button class="dp-Button Button--link Button--small">
-											<span class="dp-Icon dp-add_follower Icon--primary"></span>
-											<span id="text">Add</span>
-										</button>
-									</li>
-								</ul>
-							</div>
-						</div> -->
-
 						<div class="dp-Followers demo-tooltip">
 							<div class="dp-SectionControls">
 								<div class="dp-SectionTitle">
@@ -3847,7 +3792,6 @@ title: Ticket View
 						</ul>
 
 					    <div class="dp-ReplyWrapper">
-							<!-- <textarea class="dp-ReplyEditor" placeholder="Reply"></textarea> -->
 							<textarea class="dp-ReplyEditor" placeholder=""></textarea>
 					    </div>
 					    <div class="dp-SendAs dp-MenuBarItem">
@@ -3871,20 +3815,14 @@ title: Ticket View
 					<div class="dp-TicketMessage">
 						<div class="dp-MessageContainer dp-ColorContainer user--BlueContainer">
 							<div class="dp-MessageHeader">
-								<div class="dp-Left">
-									<span class="dp-Icon dp-iconUserAvatar"></span>
-									<span>Zach Prudent</span>
-									<a href="mailto:zack.prudent@techcompany.com">
-										<i class="dp-Icon dp-email_small"></i>zack.prudent@techcompany.com
+								<img class="Icon--Avatar dp-InfoItem" src="/agent-interface/style/img/docs/avatar.png" alt="">
+								<span class="dp-UserName">
+									Zach Prudent
+									<a href="mailto:nick.green@techcompany.com">
+										<i class="dp-Icon dp-email_small"></i>
+										zack.prudent@techcompany.com
 									</a>
-								</div>
-								<div class="dp-Right">
-									<div class="dp-Time">
-										<span class="dp-Icon dp-history Icon--blue"></span>
-										28 mins ago
-									</div>
-								</div>
-								<!-- Icon hover -->
+								</span>
 								<span class="dp-Cog dp-Submenu--left">
 									<span class="dp-Icon dp-settings"></span>
 									<ul class="dp-Menu">
@@ -3894,9 +3832,12 @@ title: Ticket View
 									</ul>
 								</span>
 							</div>
+
 							<div class="dp-MessageTitle">
-								<p class="dp-Type">User Reply</p>
+								<span class="dp-Type">User reply</span>
+								<span class="dp-Time"><span class="dp-Icon dp-history Icon--primary"></span>28 min ago</span>
 							</div>
+
 							<div class="dp-MessageBody">
 								<div class="Content">
 									<p>Good day Brian,</p>
@@ -3909,21 +3850,19 @@ title: Ticket View
 							</div>
 						</div>
 					</div>
+
 					<!-- 2 -->
 					<div class="dp-TicketMessage">
 						<div class="dp-MessageContainer dp-ColorContainer agent--Container">
 							<div class="dp-MessageHeader">
-								<div class="dp-Left">
-									<span class="dp-Icon dp-iconUserAvatar"></span>
-									<span>Nick Green</span>
+								<img class="Icon--Avatar dp-InfoItem" src="/agent-interface/style/img/docs/AppBodyIcon.jpg" alt="">
+								<span class="dp-UserName">
+									Nick Green
 									<a href="mailto:nick.green@techcompany.com">
-										<i class="dp-Icon dp-email_small"></i>nick.green@techcompany.com
+										<i class="dp-Icon dp-email_small"></i>
+										nick.green@techcompany.com
 									</a>
-								</div>
-								<div class="dp-Right">
-									<div class="dp-Time"><span class="dp-Icon dp-history Icon--neutral"></span>2 days ago</div>
-								</div>
-								<!-- Icon hover -->
+								</span>
 								<span class="dp-Cog dp-Submenu--left">
 									<span class="dp-Icon dp-settings"></span>
 									<ul class="dp-Menu">
@@ -3933,11 +3872,14 @@ title: Ticket View
 									</ul>
 								</span>
 							</div>
+
 							<div class="dp-MessageTitle">
-								<p class="dp-Type">Agent note</p>
+								<span class="dp-Type">Agent note</span>
+								<span class="dp-Time"><span class="dp-Icon dp-history Icon--neutral"></span>1 hour ago</span>
 							</div>
+
 							<div class="dp-MessageBody">
-								<p class="dp-txt">I’ve asked one of the tech guys to take a look but don’t want to reply until we know the timeframe for a resolution.</p>
+								<p class="dp-txt">Zack recently had some trouble setting up one of his email address. He was quite frustrated so I suggested he call us next time if he is having problems.</p>
 							</div>
 						</div>
 					</div>
@@ -3945,17 +3887,14 @@ title: Ticket View
 					<div class="dp-TicketMessage">
 						<div class="dp-MessageContainer">
 							<div class="dp-MessageHeader">
-								<div class="dp-Left">
-									<span class="dp-Icon dp-iconUserAvatar"></span>
-									<span>Nick Green</span>
+								<img class="Icon--Avatar dp-InfoItem" src="/agent-interface/style/img/docs/AppBodyIcon.jpg" alt="">
+								<span class="dp-UserName">
+									Nick Green
 									<a href="mailto:nick.green@techcompany.com">
-										<i class="dp-Icon dp-email_small"></i>nick.green@techcompany.com
+										<i class="dp-Icon dp-email_small"></i>
+										nick.green@techcompany.com
 									</a>
-								</div>
-								<div class="dp-Right">
-									<div class="dp-Time"><span class="dp-Icon dp-history"></span>2 days ago</div>
-								</div>
-								<!-- Icon hover -->
+								</span>
 								<span class="dp-Cog dp-Submenu--left">
 									<span class="dp-Icon dp-settings"></span>
 									<ul class="dp-Menu">
@@ -3965,16 +3904,18 @@ title: Ticket View
 									</ul>
 								</span>
 							</div>
+
 							<div class="dp-MessageTitle">
-								<p class="dp-Type">Agent note</p>
+								<span class="dp-Type">Agent note</span>
+								<span class="dp-Time"><span class="dp-Icon dp-history"></span>2 hour ago</span>
 							</div>
+
 							<div class="dp-MessageBody">
 								<p class="dp-txt">I’ve asked one of the tech guys to take a look but don’t want to reply until we know the timeframe for a resolution.</p>
 							</div>
 						</div>
 					</div>
 					
-
 				</div> <!-- MainRightContainer -->
 			</div> <!-- MainContainer -->
 		</div> <!-- MainWrapper -->

@@ -371,16 +371,19 @@
 
 .dp-Tabs.Tabs--reply .dp-Tabs-item {
   align-items: center;
+  background-color: var(--white);
   border: 1px solid var(--grey-light);
   border-right: 0;
   margin: 0;
   padding: 5px 10px;
+  z-index: 2;
 }
+
+/* .dp-Tabs.Tabs--reply .dp-Tabs-item + .dp-Tabs-item */
 
 .dp-Tabs.Tabs--reply .dp-Tabs-item.is-active + .dp-Tabs-item,
 .dp-Tabs.Tabs--reply .dp-Tabs-item.is-active + .dp-Tabs-item:hover,
-.dp-Tabs.Tabs--reply .dp-Tabs-item:hover + .dp-Tabs-item,
-.dp-Tabs.Tabs--reply .dp-Tabs-item + .dp-Tabs-item {
+.dp-Tabs.Tabs--reply .dp-Tabs-item:hover + .dp-Tabs-item {
   border-left: 0;
 }
 
