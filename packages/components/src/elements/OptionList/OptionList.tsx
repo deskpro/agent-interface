@@ -73,6 +73,7 @@ const OptionList: React.FC<OptionListProps> & OptionListSubcomponents = ({
                     </Draggable>
                   )
                 )}
+                {provided.placeholder}
               </span>
             )}
           </Droppable>

@@ -1,11 +1,10 @@
 import * as React from "react";
 import classNames from "classnames";
-import { Manager, Reference, Popper } from "react-popper";
 
 import { MenuProps } from "../Menu/Menu";
 import Checkbox from "../../inputs/Checkbox/Checkbox";
 import Icon from "../Icon/Icon";
-import useMenu from "../../hooks/useMenu";
+import GearMenu from "./OptionListItemGear";
 
 export type OptionListItemProps = {
   name: React.Key;
@@ -35,70 +34,37 @@ const OptionListItem: React.FC<OptionListItemProps> = ({
   draggableProps = {},
   dragHandleProps = {},
   innerRef
-}) => {
-  const { isVisible: menuIsVisible, toggleMenu, hideMenu } = useMenu();
+}) => (
+  <div
+    className={classNames("dp-OptionList-item dp-Menu-linkItem", {
+      "dp-Uneditable": disabled,
+      "is-dragging": isDragging
+    })}
+    ref={innerRef}
+    {...draggableProps}
+  >
+    {showDragHandle && <Icon name="drag" size={12} {...dragHandleProps} />}
+    {checkable && (
+      <Checkbox
+        disabled={disabled}
+        id={name as string}
+        name={name as string}
+        checked={checked}
+        onChange={(e: React.FormEvent) => {
+          if (onCheck) {
+            const {
+              name: itemName,
+              checked: isItemChecked
+            } = e.target as HTMLInputElement;
+            onCheck(itemName, isItemChecked);
+          }
+        }}
+      />
+    )}
+    {title}
 
-  return (
-    <div
-      className={classNames("dp-OptionList-item dp-Menu-linkItem", {
-        "dp-Uneditable": disabled,
-        "is-dragging": isDragging
-      })}
-      ref={innerRef}
-      {...draggableProps}
-    >
-      {showDragHandle && <Icon name="drag" size={12} {...dragHandleProps} />}
-      {checkable && (
-        <Checkbox
-          disabled={disabled}
-          id={name as string}
-          name={name as string}
-          checked={checked}
-          onChange={(e: React.FormEvent) => {
-            if (onCheck) {
-              const {
-                name: itemName,
-                checked: isItemChecked
-              } = e.target as HTMLInputElement;
-              onCheck(itemName, isItemChecked);
-            }
-          }}
-        />
-      )}
-      {title}
-
-      {!!renderGearMenu && (
-        <Manager>
-          <Reference>
-            {({ ref }) => (
-              <Icon name="settings" size={12} onClick={toggleMenu} ref={ref} />
-            )}
-          </Reference>
-          {menuIsVisible && (
-            <Popper
-              placement="right-start"
-              modifiers={{
-                offset: { offset: "-1,5" },
-                preventOverflow: {
-                  enabled: true,
-                  escapeWithReference: true,
-                  boundariesElement: "viewport"
-                },
-                flip: {
-                  enabled: true,
-                  flipVariationsByContent: true
-                }
-              }}
-            >
-              {({ ref, style }) =>
-                renderGearMenu({ menuRef: ref, style, onMenuClose: hideMenu })
-              }
-            </Popper>
-          )}
-        </Manager>
-      )}
-    </div>
-  );
-};
+    {!!renderGearMenu && <GearMenu renderGearMenu={renderGearMenu} />}
+  </div>
+);
 
 export default OptionListItem;

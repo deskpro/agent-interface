@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StandardOptionList /> should match its snapshot 1`] = `
+<div
+  class="dp-OptionList dp-Menu"
+>
+  <div
+    class="dp-OptionList-item dp-Menu-linkItem dp-Uneditable"
+  >
+    <span
+      class="dp-CustomCheckbox"
+    >
+      <input
+        class="dp-ControlInput"
+        disabled=""
+        id="user"
+        name="user"
+        type="checkbox"
+      />
+      <label
+        class=""
+        for="user"
+      />
+    </span>
+    User
+  </div>
+  <div
+    class="dp-OptionList-item dp-Menu-linkItem"
+  >
+    <span
+      class="dp-CustomCheckbox"
+    >
+      <input
+        class="dp-ControlInput"
+        id="agent_team"
+        name="agent_team"
+        type="checkbox"
+      />
+      <label
+        class=""
+        for="agent_team"
+      />
+    </span>
+    Agent Team
+  </div>
+  <div
+    class="dp-OptionList-item dp-Menu-linkItem"
+  >
+    <span
+      class="dp-CustomCheckbox"
+    >
+      <input
+        class="dp-ControlInput"
+        id="labels"
+        name="labels"
+        type="checkbox"
+      />
+      <label
+        class=""
+        for="labels"
+      />
+    </span>
+    Labels
+  </div>
+  <div
+    class="dp-OptionList-item dp-Menu-linkItem"
+  >
+    <span
+      class="dp-CustomCheckbox"
+    >
+      <input
+        class="dp-ControlInput"
+        id="id"
+        name="id"
+        type="checkbox"
+      />
+      <label
+        class=""
+        for="id"
+      />
+    </span>
+    ID
+  </div>
+  <div
+    class="dp-OptionList-item dp-Menu-linkItem"
+  >
+    <span
+      class="dp-CustomCheckbox"
+    >
+      <input
+        class="dp-ControlInput"
+        id="created"
+        name="created"
+        type="checkbox"
+      />
+      <label
+        class=""
+        for="created"
+      />
+    </span>
+    Created
+    <span
+      class="dp-OptionList-itemGearMenu"
+    />
+  </div>
+  <div
+    class="dp-OptionList-item dp-Menu-linkItem"
+  >
+    <span
+      class="dp-CustomCheckbox"
+    >
+      <input
+        class="dp-ControlInput"
+        id="waiting_time"
+        name="waiting_time"
+        type="checkbox"
+      />
+      <label
+        class=""
+        for="waiting_time"
+      />
+    </span>
+    All waiting time
+    <span
+      class="dp-OptionList-itemGearMenu"
+    />
+  </div>
+</div>
+`;

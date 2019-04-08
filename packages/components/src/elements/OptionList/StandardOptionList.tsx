@@ -12,7 +12,7 @@ export type OptionItemType = {
   title: string;
   disabled?: boolean;
   checked?: boolean;
-  settings: OptionItemSettings[];
+  settings?: OptionItemSettings[];
 };
 
 export type StandardOptionListProps = {
