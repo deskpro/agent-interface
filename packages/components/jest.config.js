@@ -7,10 +7,12 @@ module.exports = {
   collectCoverageFrom: ["./src/**/*.{js,ts,tsx}", "!**/*.test.{js,ts,tsx}"],
   setupFilesAfterEnv: ["./jest.setup.js"],
   moduleFileExtensions: ["js", "jsx", "ts", "tsx"],
-  moduleNameMapper: { "\\.css$": "<rootDir>/__mocks__/stylesMock.js" },
+  moduleNameMapper: {
+    "\\.css$": "<rootDir>/__mocks__/stylesMock.js",
+    "\\.svg$": "<rootDir>/__mocks__/svgMock.js"
+  },
   transform: {
-    "^.+\\.tsx?$": "ts-jest",
-    "^.+\\.svg$": "jest-svg-transformer"
+    "^.+\\.tsx?$": "ts-jest"
   },
   testMatch: [join(__dirname, "src/**/*.test.{js,jsx,ts,tsx}")],
   collectCoverage: true,

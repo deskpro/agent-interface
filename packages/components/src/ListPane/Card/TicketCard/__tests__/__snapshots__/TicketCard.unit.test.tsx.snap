@@ -41,9 +41,29 @@ exports[`<TicketCard /> should match its snapshot 1`] = `
         <span
           class="dp-ActivityStatus ActivityStatus--writing ActivityStatus--primary"
         >
+          <span
+            class="dp-Icon Icon--edit Icon--primary"
+            role="button"
+            tabindex="-1"
+          >
+            <icon-mock
+              height="15"
+              width="15"
+            />
+          </span>
           <div>
             Avatar
           </div>
+        </span>
+        <span
+          class="dp-Icon Icon--beetle Icon--circle"
+          role="button"
+          tabindex="-1"
+        >
+          <icon-mock
+            height="24"
+            width="24"
+          />
         </span>
         <span
           class="dp-Badge Badge--round Badge--grey"
@@ -63,6 +83,16 @@ exports[`<TicketCard /> should match its snapshot 1`] = `
       <span
         class="dp-UserInfo"
       >
+        <span
+          class="dp-Icon Icon--avatar"
+          role="button"
+          tabindex="-1"
+        >
+          <icon-mock
+            height="16"
+            width="16"
+          />
+        </span>
         <span
           class="dp-UserName"
         >
