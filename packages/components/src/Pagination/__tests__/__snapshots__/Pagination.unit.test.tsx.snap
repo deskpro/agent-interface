@@ -7,7 +7,28 @@ Array [
     class="dp-PaginationArrows"
     role="button"
     tabindex="0"
-  />,
+  >
+    <span
+      class="dp-Icon Icon--caret-left"
+      role="button"
+      tabindex="-1"
+    >
+      <icon-mock
+        height="15"
+        width="15"
+      />
+    </span>
+  </a>,
+  <span
+    class="dp-Icon Icon--caret-left"
+    role="button"
+    tabindex="-1"
+  >
+    <icon-mock
+      height="15"
+      width="15"
+    />
+  </span>,
   <a
     aria-label="Page 1"
     class="dp-PageNumber"
@@ -133,6 +154,27 @@ Array [
     class="dp-PaginationArrows"
     role="button"
     tabindex="0"
-  />,
+  >
+    <span
+      class="dp-Icon Icon--caret-right"
+      role="button"
+      tabindex="-1"
+    >
+      <icon-mock
+        height="15"
+        width="15"
+      />
+    </span>
+  </a>,
+  <span
+    class="dp-Icon Icon--caret-right"
+    role="button"
+    tabindex="-1"
+  >
+    <icon-mock
+      height="15"
+      width="15"
+    />
+  </span>,
 ]
 `;

@@ -6,7 +6,48 @@ exports[`<IconGroup /> should match is snapshot 1`] = `
 >
   <span
     class="dp-ActivityStatus ActivityStatus--viewing"
-  />
+  >
+    <span
+      class="dp-Icon Icon--view"
+      role="button"
+      tabindex="-1"
+    >
+      <icon-mock
+        height="15"
+        width="15"
+      />
+    </span>
+    <span
+      class="dp-Icon Icon--avatar"
+      role="button"
+      tabindex="-1"
+    >
+      <icon-mock
+        height="16"
+        width="16"
+      />
+    </span>
+    <span
+      class="dp-Icon Icon--avatar"
+      role="button"
+      tabindex="-1"
+    >
+      <icon-mock
+        height="16"
+        width="16"
+      />
+    </span>
+  </span>
+  <span
+    class="dp-Icon Icon--beetle Icon--circle"
+    role="button"
+    tabindex="-1"
+  >
+    <icon-mock
+      height="18"
+      width="18"
+    />
+  </span>
   <span
     class="dp-Badge Badge--round Badge--grey-light"
   >

@@ -4,6 +4,16 @@ exports[`<Input /> should match its snapshot 1`] = `
 <div
   class="dp-Form-item"
 >
+  <span
+    class="dp-Icon Icon--avatar"
+    role="button"
+    tabindex="-1"
+  >
+    <icon-mock
+      height="13"
+      width="13"
+    />
+  </span>
   <input
     class="dp-Input test-input Input--text is-error"
     type="text"

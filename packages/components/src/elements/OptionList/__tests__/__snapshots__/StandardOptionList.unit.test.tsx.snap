@@ -101,7 +101,18 @@ exports[`<StandardOptionList /> should match its snapshot 1`] = `
     Created
     <span
       class="dp-OptionList-itemGearMenu"
-    />
+    >
+      <span
+        class="dp-Icon Icon--settings"
+        role="button"
+        tabindex="-1"
+      >
+        <icon-mock
+          height="12"
+          width="12"
+        />
+      </span>
+    </span>
   </div>
   <div
     class="dp-OptionList-item dp-Menu-linkItem"
@@ -123,7 +134,18 @@ exports[`<StandardOptionList /> should match its snapshot 1`] = `
     All waiting time
     <span
       class="dp-OptionList-itemGearMenu"
-    />
+    >
+      <span
+        class="dp-Icon Icon--settings"
+        role="button"
+        tabindex="-1"
+      >
+        <icon-mock
+          height="12"
+          width="12"
+        />
+      </span>
+    </span>
   </div>
 </div>
 `;

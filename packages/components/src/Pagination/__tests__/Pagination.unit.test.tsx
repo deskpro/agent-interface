@@ -31,7 +31,7 @@ describe("<Pagination />", () => {
           onPageChange={handleClick}
         />
       ));
-      expect(getAllByRole("button")).toHaveLength(i * 2 + 7);
+      expect(getAllByRole("button")).toHaveLength(i * 2 + 9);
       cleanup();
     }
   });
@@ -50,7 +50,7 @@ describe("<Pagination />", () => {
           onPageChange={handleClick}
         />
       ));
-      expect(getAllByRole("button")).toHaveLength(11);
+      expect(getAllByRole("button")).toHaveLength(13);
       expect(getAllByText("...")).toHaveLength(i < 5 ? 1 : 2);
       cleanup();
     }
@@ -63,7 +63,7 @@ describe("<Pagination />", () => {
         onPageChange={handleClick}
       />
     ));
-    expect(getAllByRole("button")).toHaveLength(11);
+    expect(getAllByRole("button")).toHaveLength(13);
     expect(getAllByText("...")).toHaveLength(2);
     cleanup();
 
@@ -76,7 +76,7 @@ describe("<Pagination />", () => {
           onPageChange={handleClick}
         />
       ));
-      expect(getAllByRole("button")).toHaveLength(11);
+      expect(getAllByRole("button")).toHaveLength(13);
       expect(getAllByText("...")).toHaveLength(i > 71 ? 1 : 2);
       cleanup();
     }
