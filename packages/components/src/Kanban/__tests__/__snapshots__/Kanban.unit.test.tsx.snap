@@ -1,0 +1,5226 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StandardKanban /> should match snapshot 1`] = `
+<div
+  class="dp-ScrollArea dp-Kanban Kanban--cards"
+  style="position: relative; overflow: hidden; width: 100%; height: 100%;"
+>
+  <div
+    class="dp-ScrollArea-view dp-Kanban-columns"
+    style="position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; overflow: scroll; margin-right: 0px; margin-bottom: 0px;"
+  >
+    <div
+      class="dp-Kanban-column"
+    >
+      <div
+        class="dp-Card-SectionTitle dp-SectionCardTitle"
+      >
+        <span
+          class="dp-CustomCheckbox"
+        >
+          <input
+            class="dp-ControlInput"
+            id="Backlog"
+            type="checkbox"
+          />
+          <label
+            class=""
+            for="Backlog"
+          />
+        </span>
+        Backlog
+      </div>
+      <div
+        class="dp-ScrollArea dp-Kanban-columnContent"
+        style="position: relative; overflow: hidden; width: 100%; height: 100%;"
+      >
+        <div
+          class="dp-ScrollArea-view"
+          style="position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; overflow: scroll; margin-right: 0px; margin-bottom: 0px;"
+        >
+          <div
+            class="dp-Kanban-droppableArea"
+          >
+            <div
+              class="dp-CardList is-hoverable"
+              role="list"
+            >
+              <div
+                aria-roledescription="Draggable item. Press space bar to lift"
+                class="dp-Kanban-item"
+                data-react-beautiful-dnd-drag-handle="0"
+                data-react-beautiful-dnd-draggable="0"
+                draggable="false"
+                tabindex="0"
+              >
+                <div
+                  class="dp-Card"
+                  role="link"
+                  tabindex="-1"
+                >
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-CustomCheckbox dp-LevelTop"
+                      >
+                        <input
+                          class="dp-ControlInput"
+                          id="00"
+                          type="checkbox"
+                          value="00"
+                        />
+                        <label
+                          class=""
+                          for="00"
+                        />
+                      </span>
+                      <span
+                        class="dp-Card-title"
+                      >
+                        Card #01
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-IconGroup"
+                      >
+                        <span
+                          class="dp-Icon Icon--beetle Icon--circle"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="24"
+                            width="24"
+                          />
+                        </span>
+                        <span
+                          class="dp-Badge Badge--round Badge--grey"
+                        >
+                          
+                          1
+                        </span>
+                      </span>
+                    </span>
+                  </div>
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-UserInfo"
+                      >
+                        <span
+                          class="dp-Icon Icon--avatar"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="16"
+                            width="16"
+                          />
+                        </span>
+                        <span
+                          class="dp-UserName"
+                        >
+                          John Doe
+                          <a
+                            class="dp-UserEmail"
+                            href="mailto:john.doe@example.com"
+                          >
+                            &lt;
+                            john.doe@example.com
+                            &gt;
+                          </a>
+                        </span>
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-TimeStatus"
+                      >
+                        about 3 hours
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-roledescription="Draggable item. Press space bar to lift"
+                class="dp-Kanban-item"
+                data-react-beautiful-dnd-drag-handle="0"
+                data-react-beautiful-dnd-draggable="0"
+                draggable="false"
+                tabindex="0"
+              >
+                <div
+                  class="dp-Card"
+                  role="link"
+                  tabindex="-1"
+                >
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-CustomCheckbox dp-LevelTop"
+                      >
+                        <input
+                          class="dp-ControlInput"
+                          id="01"
+                          type="checkbox"
+                          value="01"
+                        />
+                        <label
+                          class=""
+                          for="01"
+                        />
+                      </span>
+                      <span
+                        class="dp-Card-title"
+                      >
+                        Card #02
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-IconGroup"
+                      >
+                        <span
+                          class="dp-Icon Icon--beetle Icon--circle"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="24"
+                            width="24"
+                          />
+                        </span>
+                        <span
+                          class="dp-Badge Badge--round Badge--grey"
+                        >
+                          
+                          1
+                        </span>
+                      </span>
+                    </span>
+                  </div>
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-UserInfo"
+                      >
+                        <span
+                          class="dp-Icon Icon--avatar"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="16"
+                            width="16"
+                          />
+                        </span>
+                        <span
+                          class="dp-UserName"
+                        >
+                          John Doe
+                          <a
+                            class="dp-UserEmail"
+                            href="mailto:john.doe@example.com"
+                          >
+                            &lt;
+                            john.doe@example.com
+                            &gt;
+                          </a>
+                        </span>
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-TimeStatus"
+                      >
+                        about 3 hours
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-roledescription="Draggable item. Press space bar to lift"
+                class="dp-Kanban-item"
+                data-react-beautiful-dnd-drag-handle="0"
+                data-react-beautiful-dnd-draggable="0"
+                draggable="false"
+                tabindex="0"
+              >
+                <div
+                  class="dp-Card"
+                  role="link"
+                  tabindex="-1"
+                >
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-CustomCheckbox dp-LevelTop"
+                      >
+                        <input
+                          class="dp-ControlInput"
+                          id="02"
+                          type="checkbox"
+                          value="02"
+                        />
+                        <label
+                          class=""
+                          for="02"
+                        />
+                      </span>
+                      <span
+                        class="dp-Card-title"
+                      >
+                        Card #03
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-IconGroup"
+                      >
+                        <span
+                          class="dp-Icon Icon--beetle Icon--circle"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="24"
+                            width="24"
+                          />
+                        </span>
+                        <span
+                          class="dp-Badge Badge--round Badge--grey"
+                        >
+                          
+                          1
+                        </span>
+                      </span>
+                    </span>
+                  </div>
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-UserInfo"
+                      >
+                        <span
+                          class="dp-Icon Icon--avatar"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="16"
+                            width="16"
+                          />
+                        </span>
+                        <span
+                          class="dp-UserName"
+                        >
+                          John Doe
+                          <a
+                            class="dp-UserEmail"
+                            href="mailto:john.doe@example.com"
+                          >
+                            &lt;
+                            john.doe@example.com
+                            &gt;
+                          </a>
+                        </span>
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-TimeStatus"
+                      >
+                        about 3 hours
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="dp-ScrollArea-trackHorizontal"
+          style="position: absolute; height: 6px; transition: opacity 200ms; opacity: 0; display: none;"
+        >
+          <div
+            class="dp-ScrollArea-thumbHorizontal"
+            style="position: relative; display: block; height: 100%;"
+          />
+        </div>
+        <div
+          class="dp-ScrollArea-trackVertical"
+          style="position: absolute; width: 6px; transition: opacity 200ms; opacity: 0; display: none;"
+        >
+          <div
+            class="dp-ScrollArea-thumbVertical"
+            style="position: relative; display: block; width: 100%;"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="dp-Kanban-column"
+    >
+      <div
+        class="dp-Card-SectionTitle dp-SectionCardTitle"
+      >
+        <span
+          class="dp-CustomCheckbox"
+        >
+          <input
+            class="dp-ControlInput"
+            id="Started"
+            type="checkbox"
+          />
+          <label
+            class=""
+            for="Started"
+          />
+        </span>
+        Started
+      </div>
+      <div
+        class="dp-ScrollArea dp-Kanban-columnContent"
+        style="position: relative; overflow: hidden; width: 100%; height: 100%;"
+      >
+        <div
+          class="dp-ScrollArea-view"
+          style="position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; overflow: scroll; margin-right: 0px; margin-bottom: 0px;"
+        >
+          <div
+            class="dp-Kanban-droppableArea"
+          >
+            <div
+              class="dp-CardList is-hoverable"
+              role="list"
+            >
+              <div
+                aria-roledescription="Draggable item. Press space bar to lift"
+                class="dp-Kanban-item"
+                data-react-beautiful-dnd-drag-handle="0"
+                data-react-beautiful-dnd-draggable="0"
+                draggable="false"
+                tabindex="0"
+              >
+                <div
+                  class="dp-Card"
+                  role="link"
+                  tabindex="-1"
+                >
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-CustomCheckbox dp-LevelTop"
+                      >
+                        <input
+                          class="dp-ControlInput"
+                          id="10"
+                          type="checkbox"
+                          value="10"
+                        />
+                        <label
+                          class=""
+                          for="10"
+                        />
+                      </span>
+                      <span
+                        class="dp-Card-title"
+                      >
+                        Card #11
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-IconGroup"
+                      >
+                        <span
+                          class="dp-Icon Icon--beetle Icon--circle"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="24"
+                            width="24"
+                          />
+                        </span>
+                        <span
+                          class="dp-Badge Badge--round Badge--grey"
+                        >
+                          
+                          1
+                        </span>
+                      </span>
+                    </span>
+                  </div>
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-UserInfo"
+                      >
+                        <span
+                          class="dp-Icon Icon--avatar"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="16"
+                            width="16"
+                          />
+                        </span>
+                        <span
+                          class="dp-UserName"
+                        >
+                          John Doe
+                          <a
+                            class="dp-UserEmail"
+                            href="mailto:john.doe@example.com"
+                          >
+                            &lt;
+                            john.doe@example.com
+                            &gt;
+                          </a>
+                        </span>
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-TimeStatus"
+                      >
+                        about 3 hours
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-roledescription="Draggable item. Press space bar to lift"
+                class="dp-Kanban-item"
+                data-react-beautiful-dnd-drag-handle="0"
+                data-react-beautiful-dnd-draggable="0"
+                draggable="false"
+                tabindex="0"
+              >
+                <div
+                  class="dp-Card"
+                  role="link"
+                  tabindex="-1"
+                >
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-CustomCheckbox dp-LevelTop"
+                      >
+                        <input
+                          class="dp-ControlInput"
+                          id="11"
+                          type="checkbox"
+                          value="11"
+                        />
+                        <label
+                          class=""
+                          for="11"
+                        />
+                      </span>
+                      <span
+                        class="dp-Card-title"
+                      >
+                        Card #12
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-IconGroup"
+                      >
+                        <span
+                          class="dp-Icon Icon--beetle Icon--circle"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="24"
+                            width="24"
+                          />
+                        </span>
+                        <span
+                          class="dp-Badge Badge--round Badge--grey"
+                        >
+                          
+                          1
+                        </span>
+                      </span>
+                    </span>
+                  </div>
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-UserInfo"
+                      >
+                        <span
+                          class="dp-Icon Icon--avatar"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="16"
+                            width="16"
+                          />
+                        </span>
+                        <span
+                          class="dp-UserName"
+                        >
+                          John Doe
+                          <a
+                            class="dp-UserEmail"
+                            href="mailto:john.doe@example.com"
+                          >
+                            &lt;
+                            john.doe@example.com
+                            &gt;
+                          </a>
+                        </span>
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-TimeStatus"
+                      >
+                        about 3 hours
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-roledescription="Draggable item. Press space bar to lift"
+                class="dp-Kanban-item"
+                data-react-beautiful-dnd-drag-handle="0"
+                data-react-beautiful-dnd-draggable="0"
+                draggable="false"
+                tabindex="0"
+              >
+                <div
+                  class="dp-Card"
+                  role="link"
+                  tabindex="-1"
+                >
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-CustomCheckbox dp-LevelTop"
+                      >
+                        <input
+                          class="dp-ControlInput"
+                          id="12"
+                          type="checkbox"
+                          value="12"
+                        />
+                        <label
+                          class=""
+                          for="12"
+                        />
+                      </span>
+                      <span
+                        class="dp-Card-title"
+                      >
+                        Card #13
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-IconGroup"
+                      >
+                        <span
+                          class="dp-Icon Icon--beetle Icon--circle"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="24"
+                            width="24"
+                          />
+                        </span>
+                        <span
+                          class="dp-Badge Badge--round Badge--grey"
+                        >
+                          
+                          1
+                        </span>
+                      </span>
+                    </span>
+                  </div>
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-UserInfo"
+                      >
+                        <span
+                          class="dp-Icon Icon--avatar"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="16"
+                            width="16"
+                          />
+                        </span>
+                        <span
+                          class="dp-UserName"
+                        >
+                          John Doe
+                          <a
+                            class="dp-UserEmail"
+                            href="mailto:john.doe@example.com"
+                          >
+                            &lt;
+                            john.doe@example.com
+                            &gt;
+                          </a>
+                        </span>
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-TimeStatus"
+                      >
+                        about 3 hours
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-roledescription="Draggable item. Press space bar to lift"
+                class="dp-Kanban-item"
+                data-react-beautiful-dnd-drag-handle="0"
+                data-react-beautiful-dnd-draggable="0"
+                draggable="false"
+                tabindex="0"
+              >
+                <div
+                  class="dp-Card"
+                  role="link"
+                  tabindex="-1"
+                >
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-CustomCheckbox dp-LevelTop"
+                      >
+                        <input
+                          class="dp-ControlInput"
+                          id="13"
+                          type="checkbox"
+                          value="13"
+                        />
+                        <label
+                          class=""
+                          for="13"
+                        />
+                      </span>
+                      <span
+                        class="dp-Card-title"
+                      >
+                        Card #14
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-IconGroup"
+                      >
+                        <span
+                          class="dp-Icon Icon--beetle Icon--circle"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="24"
+                            width="24"
+                          />
+                        </span>
+                        <span
+                          class="dp-Badge Badge--round Badge--grey"
+                        >
+                          
+                          1
+                        </span>
+                      </span>
+                    </span>
+                  </div>
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-UserInfo"
+                      >
+                        <span
+                          class="dp-Icon Icon--avatar"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="16"
+                            width="16"
+                          />
+                        </span>
+                        <span
+                          class="dp-UserName"
+                        >
+                          John Doe
+                          <a
+                            class="dp-UserEmail"
+                            href="mailto:john.doe@example.com"
+                          >
+                            &lt;
+                            john.doe@example.com
+                            &gt;
+                          </a>
+                        </span>
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-TimeStatus"
+                      >
+                        about 3 hours
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-roledescription="Draggable item. Press space bar to lift"
+                class="dp-Kanban-item"
+                data-react-beautiful-dnd-drag-handle="0"
+                data-react-beautiful-dnd-draggable="0"
+                draggable="false"
+                tabindex="0"
+              >
+                <div
+                  class="dp-Card"
+                  role="link"
+                  tabindex="-1"
+                >
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-CustomCheckbox dp-LevelTop"
+                      >
+                        <input
+                          class="dp-ControlInput"
+                          id="14"
+                          type="checkbox"
+                          value="14"
+                        />
+                        <label
+                          class=""
+                          for="14"
+                        />
+                      </span>
+                      <span
+                        class="dp-Card-title"
+                      >
+                        Card #15
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-IconGroup"
+                      >
+                        <span
+                          class="dp-Icon Icon--beetle Icon--circle"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="24"
+                            width="24"
+                          />
+                        </span>
+                        <span
+                          class="dp-Badge Badge--round Badge--grey"
+                        >
+                          
+                          1
+                        </span>
+                      </span>
+                    </span>
+                  </div>
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-UserInfo"
+                      >
+                        <span
+                          class="dp-Icon Icon--avatar"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="16"
+                            width="16"
+                          />
+                        </span>
+                        <span
+                          class="dp-UserName"
+                        >
+                          John Doe
+                          <a
+                            class="dp-UserEmail"
+                            href="mailto:john.doe@example.com"
+                          >
+                            &lt;
+                            john.doe@example.com
+                            &gt;
+                          </a>
+                        </span>
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-TimeStatus"
+                      >
+                        about 3 hours
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-roledescription="Draggable item. Press space bar to lift"
+                class="dp-Kanban-item"
+                data-react-beautiful-dnd-drag-handle="0"
+                data-react-beautiful-dnd-draggable="0"
+                draggable="false"
+                tabindex="0"
+              >
+                <div
+                  class="dp-Card"
+                  role="link"
+                  tabindex="-1"
+                >
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-CustomCheckbox dp-LevelTop"
+                      >
+                        <input
+                          class="dp-ControlInput"
+                          id="15"
+                          type="checkbox"
+                          value="15"
+                        />
+                        <label
+                          class=""
+                          for="15"
+                        />
+                      </span>
+                      <span
+                        class="dp-Card-title"
+                      >
+                        Card #16
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-IconGroup"
+                      >
+                        <span
+                          class="dp-Icon Icon--beetle Icon--circle"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="24"
+                            width="24"
+                          />
+                        </span>
+                        <span
+                          class="dp-Badge Badge--round Badge--grey"
+                        >
+                          
+                          1
+                        </span>
+                      </span>
+                    </span>
+                  </div>
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-UserInfo"
+                      >
+                        <span
+                          class="dp-Icon Icon--avatar"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="16"
+                            width="16"
+                          />
+                        </span>
+                        <span
+                          class="dp-UserName"
+                        >
+                          John Doe
+                          <a
+                            class="dp-UserEmail"
+                            href="mailto:john.doe@example.com"
+                          >
+                            &lt;
+                            john.doe@example.com
+                            &gt;
+                          </a>
+                        </span>
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-TimeStatus"
+                      >
+                        about 3 hours
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-roledescription="Draggable item. Press space bar to lift"
+                class="dp-Kanban-item"
+                data-react-beautiful-dnd-drag-handle="0"
+                data-react-beautiful-dnd-draggable="0"
+                draggable="false"
+                tabindex="0"
+              >
+                <div
+                  class="dp-Card"
+                  role="link"
+                  tabindex="-1"
+                >
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-CustomCheckbox dp-LevelTop"
+                      >
+                        <input
+                          class="dp-ControlInput"
+                          id="16"
+                          type="checkbox"
+                          value="16"
+                        />
+                        <label
+                          class=""
+                          for="16"
+                        />
+                      </span>
+                      <span
+                        class="dp-Card-title"
+                      >
+                        Card #17
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-IconGroup"
+                      >
+                        <span
+                          class="dp-Icon Icon--beetle Icon--circle"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="24"
+                            width="24"
+                          />
+                        </span>
+                        <span
+                          class="dp-Badge Badge--round Badge--grey"
+                        >
+                          
+                          1
+                        </span>
+                      </span>
+                    </span>
+                  </div>
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-UserInfo"
+                      >
+                        <span
+                          class="dp-Icon Icon--avatar"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="16"
+                            width="16"
+                          />
+                        </span>
+                        <span
+                          class="dp-UserName"
+                        >
+                          John Doe
+                          <a
+                            class="dp-UserEmail"
+                            href="mailto:john.doe@example.com"
+                          >
+                            &lt;
+                            john.doe@example.com
+                            &gt;
+                          </a>
+                        </span>
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-TimeStatus"
+                      >
+                        about 3 hours
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-roledescription="Draggable item. Press space bar to lift"
+                class="dp-Kanban-item"
+                data-react-beautiful-dnd-drag-handle="0"
+                data-react-beautiful-dnd-draggable="0"
+                draggable="false"
+                tabindex="0"
+              >
+                <div
+                  class="dp-Card"
+                  role="link"
+                  tabindex="-1"
+                >
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-CustomCheckbox dp-LevelTop"
+                      >
+                        <input
+                          class="dp-ControlInput"
+                          id="17"
+                          type="checkbox"
+                          value="17"
+                        />
+                        <label
+                          class=""
+                          for="17"
+                        />
+                      </span>
+                      <span
+                        class="dp-Card-title"
+                      >
+                        Card #18
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-IconGroup"
+                      >
+                        <span
+                          class="dp-Icon Icon--beetle Icon--circle"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="24"
+                            width="24"
+                          />
+                        </span>
+                        <span
+                          class="dp-Badge Badge--round Badge--grey"
+                        >
+                          
+                          1
+                        </span>
+                      </span>
+                    </span>
+                  </div>
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-UserInfo"
+                      >
+                        <span
+                          class="dp-Icon Icon--avatar"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="16"
+                            width="16"
+                          />
+                        </span>
+                        <span
+                          class="dp-UserName"
+                        >
+                          John Doe
+                          <a
+                            class="dp-UserEmail"
+                            href="mailto:john.doe@example.com"
+                          >
+                            &lt;
+                            john.doe@example.com
+                            &gt;
+                          </a>
+                        </span>
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-TimeStatus"
+                      >
+                        about 3 hours
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-roledescription="Draggable item. Press space bar to lift"
+                class="dp-Kanban-item"
+                data-react-beautiful-dnd-drag-handle="0"
+                data-react-beautiful-dnd-draggable="0"
+                draggable="false"
+                tabindex="0"
+              >
+                <div
+                  class="dp-Card"
+                  role="link"
+                  tabindex="-1"
+                >
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-CustomCheckbox dp-LevelTop"
+                      >
+                        <input
+                          class="dp-ControlInput"
+                          id="18"
+                          type="checkbox"
+                          value="18"
+                        />
+                        <label
+                          class=""
+                          for="18"
+                        />
+                      </span>
+                      <span
+                        class="dp-Card-title"
+                      >
+                        Card #19
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-IconGroup"
+                      >
+                        <span
+                          class="dp-Icon Icon--beetle Icon--circle"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="24"
+                            width="24"
+                          />
+                        </span>
+                        <span
+                          class="dp-Badge Badge--round Badge--grey"
+                        >
+                          
+                          1
+                        </span>
+                      </span>
+                    </span>
+                  </div>
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-UserInfo"
+                      >
+                        <span
+                          class="dp-Icon Icon--avatar"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="16"
+                            width="16"
+                          />
+                        </span>
+                        <span
+                          class="dp-UserName"
+                        >
+                          John Doe
+                          <a
+                            class="dp-UserEmail"
+                            href="mailto:john.doe@example.com"
+                          >
+                            &lt;
+                            john.doe@example.com
+                            &gt;
+                          </a>
+                        </span>
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-TimeStatus"
+                      >
+                        about 3 hours
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-roledescription="Draggable item. Press space bar to lift"
+                class="dp-Kanban-item"
+                data-react-beautiful-dnd-drag-handle="0"
+                data-react-beautiful-dnd-draggable="0"
+                draggable="false"
+                tabindex="0"
+              >
+                <div
+                  class="dp-Card"
+                  role="link"
+                  tabindex="-1"
+                >
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-CustomCheckbox dp-LevelTop"
+                      >
+                        <input
+                          class="dp-ControlInput"
+                          id="19"
+                          type="checkbox"
+                          value="19"
+                        />
+                        <label
+                          class=""
+                          for="19"
+                        />
+                      </span>
+                      <span
+                        class="dp-Card-title"
+                      >
+                        Card #110
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-IconGroup"
+                      >
+                        <span
+                          class="dp-Icon Icon--beetle Icon--circle"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="24"
+                            width="24"
+                          />
+                        </span>
+                        <span
+                          class="dp-Badge Badge--round Badge--grey"
+                        >
+                          
+                          1
+                        </span>
+                      </span>
+                    </span>
+                  </div>
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-UserInfo"
+                      >
+                        <span
+                          class="dp-Icon Icon--avatar"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="16"
+                            width="16"
+                          />
+                        </span>
+                        <span
+                          class="dp-UserName"
+                        >
+                          John Doe
+                          <a
+                            class="dp-UserEmail"
+                            href="mailto:john.doe@example.com"
+                          >
+                            &lt;
+                            john.doe@example.com
+                            &gt;
+                          </a>
+                        </span>
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-TimeStatus"
+                      >
+                        about 3 hours
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-roledescription="Draggable item. Press space bar to lift"
+                class="dp-Kanban-item"
+                data-react-beautiful-dnd-drag-handle="0"
+                data-react-beautiful-dnd-draggable="0"
+                draggable="false"
+                tabindex="0"
+              >
+                <div
+                  class="dp-Card"
+                  role="link"
+                  tabindex="-1"
+                >
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-CustomCheckbox dp-LevelTop"
+                      >
+                        <input
+                          class="dp-ControlInput"
+                          id="110"
+                          type="checkbox"
+                          value="110"
+                        />
+                        <label
+                          class=""
+                          for="110"
+                        />
+                      </span>
+                      <span
+                        class="dp-Card-title"
+                      >
+                        Card #111
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-IconGroup"
+                      >
+                        <span
+                          class="dp-Icon Icon--beetle Icon--circle"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="24"
+                            width="24"
+                          />
+                        </span>
+                        <span
+                          class="dp-Badge Badge--round Badge--grey"
+                        >
+                          
+                          1
+                        </span>
+                      </span>
+                    </span>
+                  </div>
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-UserInfo"
+                      >
+                        <span
+                          class="dp-Icon Icon--avatar"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="16"
+                            width="16"
+                          />
+                        </span>
+                        <span
+                          class="dp-UserName"
+                        >
+                          John Doe
+                          <a
+                            class="dp-UserEmail"
+                            href="mailto:john.doe@example.com"
+                          >
+                            &lt;
+                            john.doe@example.com
+                            &gt;
+                          </a>
+                        </span>
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-TimeStatus"
+                      >
+                        about 3 hours
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-roledescription="Draggable item. Press space bar to lift"
+                class="dp-Kanban-item"
+                data-react-beautiful-dnd-drag-handle="0"
+                data-react-beautiful-dnd-draggable="0"
+                draggable="false"
+                tabindex="0"
+              >
+                <div
+                  class="dp-Card"
+                  role="link"
+                  tabindex="-1"
+                >
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-CustomCheckbox dp-LevelTop"
+                      >
+                        <input
+                          class="dp-ControlInput"
+                          id="111"
+                          type="checkbox"
+                          value="111"
+                        />
+                        <label
+                          class=""
+                          for="111"
+                        />
+                      </span>
+                      <span
+                        class="dp-Card-title"
+                      >
+                        Card #112
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-IconGroup"
+                      >
+                        <span
+                          class="dp-Icon Icon--beetle Icon--circle"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="24"
+                            width="24"
+                          />
+                        </span>
+                        <span
+                          class="dp-Badge Badge--round Badge--grey"
+                        >
+                          
+                          1
+                        </span>
+                      </span>
+                    </span>
+                  </div>
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-UserInfo"
+                      >
+                        <span
+                          class="dp-Icon Icon--avatar"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="16"
+                            width="16"
+                          />
+                        </span>
+                        <span
+                          class="dp-UserName"
+                        >
+                          John Doe
+                          <a
+                            class="dp-UserEmail"
+                            href="mailto:john.doe@example.com"
+                          >
+                            &lt;
+                            john.doe@example.com
+                            &gt;
+                          </a>
+                        </span>
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-TimeStatus"
+                      >
+                        about 3 hours
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-roledescription="Draggable item. Press space bar to lift"
+                class="dp-Kanban-item"
+                data-react-beautiful-dnd-drag-handle="0"
+                data-react-beautiful-dnd-draggable="0"
+                draggable="false"
+                tabindex="0"
+              >
+                <div
+                  class="dp-Card"
+                  role="link"
+                  tabindex="-1"
+                >
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-CustomCheckbox dp-LevelTop"
+                      >
+                        <input
+                          class="dp-ControlInput"
+                          id="112"
+                          type="checkbox"
+                          value="112"
+                        />
+                        <label
+                          class=""
+                          for="112"
+                        />
+                      </span>
+                      <span
+                        class="dp-Card-title"
+                      >
+                        Card #113
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-IconGroup"
+                      >
+                        <span
+                          class="dp-Icon Icon--beetle Icon--circle"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="24"
+                            width="24"
+                          />
+                        </span>
+                        <span
+                          class="dp-Badge Badge--round Badge--grey"
+                        >
+                          
+                          1
+                        </span>
+                      </span>
+                    </span>
+                  </div>
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-UserInfo"
+                      >
+                        <span
+                          class="dp-Icon Icon--avatar"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="16"
+                            width="16"
+                          />
+                        </span>
+                        <span
+                          class="dp-UserName"
+                        >
+                          John Doe
+                          <a
+                            class="dp-UserEmail"
+                            href="mailto:john.doe@example.com"
+                          >
+                            &lt;
+                            john.doe@example.com
+                            &gt;
+                          </a>
+                        </span>
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-TimeStatus"
+                      >
+                        about 3 hours
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-roledescription="Draggable item. Press space bar to lift"
+                class="dp-Kanban-item"
+                data-react-beautiful-dnd-drag-handle="0"
+                data-react-beautiful-dnd-draggable="0"
+                draggable="false"
+                tabindex="0"
+              >
+                <div
+                  class="dp-Card"
+                  role="link"
+                  tabindex="-1"
+                >
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-CustomCheckbox dp-LevelTop"
+                      >
+                        <input
+                          class="dp-ControlInput"
+                          id="113"
+                          type="checkbox"
+                          value="113"
+                        />
+                        <label
+                          class=""
+                          for="113"
+                        />
+                      </span>
+                      <span
+                        class="dp-Card-title"
+                      >
+                        Card #114
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-IconGroup"
+                      >
+                        <span
+                          class="dp-Icon Icon--beetle Icon--circle"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="24"
+                            width="24"
+                          />
+                        </span>
+                        <span
+                          class="dp-Badge Badge--round Badge--grey"
+                        >
+                          
+                          1
+                        </span>
+                      </span>
+                    </span>
+                  </div>
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-UserInfo"
+                      >
+                        <span
+                          class="dp-Icon Icon--avatar"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="16"
+                            width="16"
+                          />
+                        </span>
+                        <span
+                          class="dp-UserName"
+                        >
+                          John Doe
+                          <a
+                            class="dp-UserEmail"
+                            href="mailto:john.doe@example.com"
+                          >
+                            &lt;
+                            john.doe@example.com
+                            &gt;
+                          </a>
+                        </span>
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-TimeStatus"
+                      >
+                        about 3 hours
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-roledescription="Draggable item. Press space bar to lift"
+                class="dp-Kanban-item"
+                data-react-beautiful-dnd-drag-handle="0"
+                data-react-beautiful-dnd-draggable="0"
+                draggable="false"
+                tabindex="0"
+              >
+                <div
+                  class="dp-Card"
+                  role="link"
+                  tabindex="-1"
+                >
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-CustomCheckbox dp-LevelTop"
+                      >
+                        <input
+                          class="dp-ControlInput"
+                          id="114"
+                          type="checkbox"
+                          value="114"
+                        />
+                        <label
+                          class=""
+                          for="114"
+                        />
+                      </span>
+                      <span
+                        class="dp-Card-title"
+                      >
+                        Card #115
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-IconGroup"
+                      >
+                        <span
+                          class="dp-Icon Icon--beetle Icon--circle"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="24"
+                            width="24"
+                          />
+                        </span>
+                        <span
+                          class="dp-Badge Badge--round Badge--grey"
+                        >
+                          
+                          1
+                        </span>
+                      </span>
+                    </span>
+                  </div>
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-UserInfo"
+                      >
+                        <span
+                          class="dp-Icon Icon--avatar"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="16"
+                            width="16"
+                          />
+                        </span>
+                        <span
+                          class="dp-UserName"
+                        >
+                          John Doe
+                          <a
+                            class="dp-UserEmail"
+                            href="mailto:john.doe@example.com"
+                          >
+                            &lt;
+                            john.doe@example.com
+                            &gt;
+                          </a>
+                        </span>
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-TimeStatus"
+                      >
+                        about 3 hours
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-roledescription="Draggable item. Press space bar to lift"
+                class="dp-Kanban-item"
+                data-react-beautiful-dnd-drag-handle="0"
+                data-react-beautiful-dnd-draggable="0"
+                draggable="false"
+                tabindex="0"
+              >
+                <div
+                  class="dp-Card"
+                  role="link"
+                  tabindex="-1"
+                >
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-CustomCheckbox dp-LevelTop"
+                      >
+                        <input
+                          class="dp-ControlInput"
+                          id="115"
+                          type="checkbox"
+                          value="115"
+                        />
+                        <label
+                          class=""
+                          for="115"
+                        />
+                      </span>
+                      <span
+                        class="dp-Card-title"
+                      >
+                        Card #116
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-IconGroup"
+                      >
+                        <span
+                          class="dp-Icon Icon--beetle Icon--circle"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="24"
+                            width="24"
+                          />
+                        </span>
+                        <span
+                          class="dp-Badge Badge--round Badge--grey"
+                        >
+                          
+                          1
+                        </span>
+                      </span>
+                    </span>
+                  </div>
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-UserInfo"
+                      >
+                        <span
+                          class="dp-Icon Icon--avatar"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="16"
+                            width="16"
+                          />
+                        </span>
+                        <span
+                          class="dp-UserName"
+                        >
+                          John Doe
+                          <a
+                            class="dp-UserEmail"
+                            href="mailto:john.doe@example.com"
+                          >
+                            &lt;
+                            john.doe@example.com
+                            &gt;
+                          </a>
+                        </span>
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-TimeStatus"
+                      >
+                        about 3 hours
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-roledescription="Draggable item. Press space bar to lift"
+                class="dp-Kanban-item"
+                data-react-beautiful-dnd-drag-handle="0"
+                data-react-beautiful-dnd-draggable="0"
+                draggable="false"
+                tabindex="0"
+              >
+                <div
+                  class="dp-Card"
+                  role="link"
+                  tabindex="-1"
+                >
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-CustomCheckbox dp-LevelTop"
+                      >
+                        <input
+                          class="dp-ControlInput"
+                          id="116"
+                          type="checkbox"
+                          value="116"
+                        />
+                        <label
+                          class=""
+                          for="116"
+                        />
+                      </span>
+                      <span
+                        class="dp-Card-title"
+                      >
+                        Card #117
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-IconGroup"
+                      >
+                        <span
+                          class="dp-Icon Icon--beetle Icon--circle"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="24"
+                            width="24"
+                          />
+                        </span>
+                        <span
+                          class="dp-Badge Badge--round Badge--grey"
+                        >
+                          
+                          1
+                        </span>
+                      </span>
+                    </span>
+                  </div>
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-UserInfo"
+                      >
+                        <span
+                          class="dp-Icon Icon--avatar"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="16"
+                            width="16"
+                          />
+                        </span>
+                        <span
+                          class="dp-UserName"
+                        >
+                          John Doe
+                          <a
+                            class="dp-UserEmail"
+                            href="mailto:john.doe@example.com"
+                          >
+                            &lt;
+                            john.doe@example.com
+                            &gt;
+                          </a>
+                        </span>
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-TimeStatus"
+                      >
+                        about 3 hours
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-roledescription="Draggable item. Press space bar to lift"
+                class="dp-Kanban-item"
+                data-react-beautiful-dnd-drag-handle="0"
+                data-react-beautiful-dnd-draggable="0"
+                draggable="false"
+                tabindex="0"
+              >
+                <div
+                  class="dp-Card"
+                  role="link"
+                  tabindex="-1"
+                >
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-CustomCheckbox dp-LevelTop"
+                      >
+                        <input
+                          class="dp-ControlInput"
+                          id="117"
+                          type="checkbox"
+                          value="117"
+                        />
+                        <label
+                          class=""
+                          for="117"
+                        />
+                      </span>
+                      <span
+                        class="dp-Card-title"
+                      >
+                        Card #118
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-IconGroup"
+                      >
+                        <span
+                          class="dp-Icon Icon--beetle Icon--circle"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="24"
+                            width="24"
+                          />
+                        </span>
+                        <span
+                          class="dp-Badge Badge--round Badge--grey"
+                        >
+                          
+                          1
+                        </span>
+                      </span>
+                    </span>
+                  </div>
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-UserInfo"
+                      >
+                        <span
+                          class="dp-Icon Icon--avatar"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="16"
+                            width="16"
+                          />
+                        </span>
+                        <span
+                          class="dp-UserName"
+                        >
+                          John Doe
+                          <a
+                            class="dp-UserEmail"
+                            href="mailto:john.doe@example.com"
+                          >
+                            &lt;
+                            john.doe@example.com
+                            &gt;
+                          </a>
+                        </span>
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-TimeStatus"
+                      >
+                        about 3 hours
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="dp-ScrollArea-trackHorizontal"
+          style="position: absolute; height: 6px; transition: opacity 200ms; opacity: 0; display: none;"
+        >
+          <div
+            class="dp-ScrollArea-thumbHorizontal"
+            style="position: relative; display: block; height: 100%;"
+          />
+        </div>
+        <div
+          class="dp-ScrollArea-trackVertical"
+          style="position: absolute; width: 6px; transition: opacity 200ms; opacity: 0; display: none;"
+        >
+          <div
+            class="dp-ScrollArea-thumbVertical"
+            style="position: relative; display: block; width: 100%;"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="dp-Kanban-column"
+    >
+      <div
+        class="dp-Card-SectionTitle dp-SectionCardTitle"
+      >
+        <span
+          class="dp-CustomCheckbox"
+        >
+          <input
+            class="dp-ControlInput"
+            id="In Progress"
+            type="checkbox"
+          />
+          <label
+            class=""
+            for="In Progress"
+          />
+        </span>
+        In Progress
+      </div>
+      <div
+        class="dp-ScrollArea dp-Kanban-columnContent"
+        style="position: relative; overflow: hidden; width: 100%; height: 100%;"
+      >
+        <div
+          class="dp-ScrollArea-view"
+          style="position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; overflow: scroll; margin-right: 0px; margin-bottom: 0px;"
+        >
+          <div
+            class="dp-Kanban-droppableArea"
+          >
+            <div
+              class="dp-CardList is-hoverable"
+              role="list"
+            >
+              <div
+                aria-roledescription="Draggable item. Press space bar to lift"
+                class="dp-Kanban-item"
+                data-react-beautiful-dnd-drag-handle="0"
+                data-react-beautiful-dnd-draggable="0"
+                draggable="false"
+                tabindex="0"
+              >
+                <div
+                  class="dp-Card"
+                  role="link"
+                  tabindex="-1"
+                >
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-CustomCheckbox dp-LevelTop"
+                      >
+                        <input
+                          class="dp-ControlInput"
+                          id="20"
+                          type="checkbox"
+                          value="20"
+                        />
+                        <label
+                          class=""
+                          for="20"
+                        />
+                      </span>
+                      <span
+                        class="dp-Card-title"
+                      >
+                        Card #21
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-IconGroup"
+                      >
+                        <span
+                          class="dp-Icon Icon--beetle Icon--circle"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="24"
+                            width="24"
+                          />
+                        </span>
+                        <span
+                          class="dp-Badge Badge--round Badge--grey"
+                        >
+                          
+                          1
+                        </span>
+                      </span>
+                    </span>
+                  </div>
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-UserInfo"
+                      >
+                        <span
+                          class="dp-Icon Icon--avatar"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="16"
+                            width="16"
+                          />
+                        </span>
+                        <span
+                          class="dp-UserName"
+                        >
+                          John Doe
+                          <a
+                            class="dp-UserEmail"
+                            href="mailto:john.doe@example.com"
+                          >
+                            &lt;
+                            john.doe@example.com
+                            &gt;
+                          </a>
+                        </span>
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-TimeStatus"
+                      >
+                        about 3 hours
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-roledescription="Draggable item. Press space bar to lift"
+                class="dp-Kanban-item"
+                data-react-beautiful-dnd-drag-handle="0"
+                data-react-beautiful-dnd-draggable="0"
+                draggable="false"
+                tabindex="0"
+              >
+                <div
+                  class="dp-Card"
+                  role="link"
+                  tabindex="-1"
+                >
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-CustomCheckbox dp-LevelTop"
+                      >
+                        <input
+                          class="dp-ControlInput"
+                          id="21"
+                          type="checkbox"
+                          value="21"
+                        />
+                        <label
+                          class=""
+                          for="21"
+                        />
+                      </span>
+                      <span
+                        class="dp-Card-title"
+                      >
+                        Card #22
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-IconGroup"
+                      >
+                        <span
+                          class="dp-Icon Icon--beetle Icon--circle"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="24"
+                            width="24"
+                          />
+                        </span>
+                        <span
+                          class="dp-Badge Badge--round Badge--grey"
+                        >
+                          
+                          1
+                        </span>
+                      </span>
+                    </span>
+                  </div>
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-UserInfo"
+                      >
+                        <span
+                          class="dp-Icon Icon--avatar"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="16"
+                            width="16"
+                          />
+                        </span>
+                        <span
+                          class="dp-UserName"
+                        >
+                          John Doe
+                          <a
+                            class="dp-UserEmail"
+                            href="mailto:john.doe@example.com"
+                          >
+                            &lt;
+                            john.doe@example.com
+                            &gt;
+                          </a>
+                        </span>
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-TimeStatus"
+                      >
+                        about 3 hours
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="dp-ScrollArea-trackHorizontal"
+          style="position: absolute; height: 6px; transition: opacity 200ms; opacity: 0; display: none;"
+        >
+          <div
+            class="dp-ScrollArea-thumbHorizontal"
+            style="position: relative; display: block; height: 100%;"
+          />
+        </div>
+        <div
+          class="dp-ScrollArea-trackVertical"
+          style="position: absolute; width: 6px; transition: opacity 200ms; opacity: 0; display: none;"
+        >
+          <div
+            class="dp-ScrollArea-thumbVertical"
+            style="position: relative; display: block; width: 100%;"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="dp-Kanban-column"
+    >
+      <div
+        class="dp-Card-SectionTitle dp-SectionCardTitle"
+      >
+        <span
+          class="dp-CustomCheckbox"
+        >
+          <input
+            class="dp-ControlInput"
+            id="Review"
+            type="checkbox"
+          />
+          <label
+            class=""
+            for="Review"
+          />
+        </span>
+        Review
+      </div>
+      <div
+        class="dp-ScrollArea dp-Kanban-columnContent"
+        style="position: relative; overflow: hidden; width: 100%; height: 100%;"
+      >
+        <div
+          class="dp-ScrollArea-view"
+          style="position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; overflow: scroll; margin-right: 0px; margin-bottom: 0px;"
+        >
+          <div
+            class="dp-Kanban-droppableArea"
+          >
+            <div
+              class="dp-CardList is-hoverable"
+              role="list"
+            >
+              <div
+                aria-roledescription="Draggable item. Press space bar to lift"
+                class="dp-Kanban-item"
+                data-react-beautiful-dnd-drag-handle="0"
+                data-react-beautiful-dnd-draggable="0"
+                draggable="false"
+                tabindex="0"
+              >
+                <div
+                  class="dp-Card"
+                  role="link"
+                  tabindex="-1"
+                >
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-CustomCheckbox dp-LevelTop"
+                      >
+                        <input
+                          class="dp-ControlInput"
+                          id="30"
+                          type="checkbox"
+                          value="30"
+                        />
+                        <label
+                          class=""
+                          for="30"
+                        />
+                      </span>
+                      <span
+                        class="dp-Card-title"
+                      >
+                        Card #31
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-IconGroup"
+                      >
+                        <span
+                          class="dp-Icon Icon--beetle Icon--circle"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="24"
+                            width="24"
+                          />
+                        </span>
+                        <span
+                          class="dp-Badge Badge--round Badge--grey"
+                        >
+                          
+                          1
+                        </span>
+                      </span>
+                    </span>
+                  </div>
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-UserInfo"
+                      >
+                        <span
+                          class="dp-Icon Icon--avatar"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="16"
+                            width="16"
+                          />
+                        </span>
+                        <span
+                          class="dp-UserName"
+                        >
+                          John Doe
+                          <a
+                            class="dp-UserEmail"
+                            href="mailto:john.doe@example.com"
+                          >
+                            &lt;
+                            john.doe@example.com
+                            &gt;
+                          </a>
+                        </span>
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-TimeStatus"
+                      >
+                        about 3 hours
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-roledescription="Draggable item. Press space bar to lift"
+                class="dp-Kanban-item"
+                data-react-beautiful-dnd-drag-handle="0"
+                data-react-beautiful-dnd-draggable="0"
+                draggable="false"
+                tabindex="0"
+              >
+                <div
+                  class="dp-Card"
+                  role="link"
+                  tabindex="-1"
+                >
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-CustomCheckbox dp-LevelTop"
+                      >
+                        <input
+                          class="dp-ControlInput"
+                          id="31"
+                          type="checkbox"
+                          value="31"
+                        />
+                        <label
+                          class=""
+                          for="31"
+                        />
+                      </span>
+                      <span
+                        class="dp-Card-title"
+                      >
+                        Card #32
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-IconGroup"
+                      >
+                        <span
+                          class="dp-Icon Icon--beetle Icon--circle"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="24"
+                            width="24"
+                          />
+                        </span>
+                        <span
+                          class="dp-Badge Badge--round Badge--grey"
+                        >
+                          
+                          1
+                        </span>
+                      </span>
+                    </span>
+                  </div>
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-UserInfo"
+                      >
+                        <span
+                          class="dp-Icon Icon--avatar"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="16"
+                            width="16"
+                          />
+                        </span>
+                        <span
+                          class="dp-UserName"
+                        >
+                          John Doe
+                          <a
+                            class="dp-UserEmail"
+                            href="mailto:john.doe@example.com"
+                          >
+                            &lt;
+                            john.doe@example.com
+                            &gt;
+                          </a>
+                        </span>
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-TimeStatus"
+                      >
+                        about 3 hours
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-roledescription="Draggable item. Press space bar to lift"
+                class="dp-Kanban-item"
+                data-react-beautiful-dnd-drag-handle="0"
+                data-react-beautiful-dnd-draggable="0"
+                draggable="false"
+                tabindex="0"
+              >
+                <div
+                  class="dp-Card"
+                  role="link"
+                  tabindex="-1"
+                >
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-CustomCheckbox dp-LevelTop"
+                      >
+                        <input
+                          class="dp-ControlInput"
+                          id="32"
+                          type="checkbox"
+                          value="32"
+                        />
+                        <label
+                          class=""
+                          for="32"
+                        />
+                      </span>
+                      <span
+                        class="dp-Card-title"
+                      >
+                        Card #33
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-IconGroup"
+                      >
+                        <span
+                          class="dp-Icon Icon--beetle Icon--circle"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="24"
+                            width="24"
+                          />
+                        </span>
+                        <span
+                          class="dp-Badge Badge--round Badge--grey"
+                        >
+                          
+                          1
+                        </span>
+                      </span>
+                    </span>
+                  </div>
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-UserInfo"
+                      >
+                        <span
+                          class="dp-Icon Icon--avatar"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="16"
+                            width="16"
+                          />
+                        </span>
+                        <span
+                          class="dp-UserName"
+                        >
+                          John Doe
+                          <a
+                            class="dp-UserEmail"
+                            href="mailto:john.doe@example.com"
+                          >
+                            &lt;
+                            john.doe@example.com
+                            &gt;
+                          </a>
+                        </span>
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-TimeStatus"
+                      >
+                        about 3 hours
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-roledescription="Draggable item. Press space bar to lift"
+                class="dp-Kanban-item"
+                data-react-beautiful-dnd-drag-handle="0"
+                data-react-beautiful-dnd-draggable="0"
+                draggable="false"
+                tabindex="0"
+              >
+                <div
+                  class="dp-Card"
+                  role="link"
+                  tabindex="-1"
+                >
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-CustomCheckbox dp-LevelTop"
+                      >
+                        <input
+                          class="dp-ControlInput"
+                          id="33"
+                          type="checkbox"
+                          value="33"
+                        />
+                        <label
+                          class=""
+                          for="33"
+                        />
+                      </span>
+                      <span
+                        class="dp-Card-title"
+                      >
+                        Card #34
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-IconGroup"
+                      >
+                        <span
+                          class="dp-Icon Icon--beetle Icon--circle"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="24"
+                            width="24"
+                          />
+                        </span>
+                        <span
+                          class="dp-Badge Badge--round Badge--grey"
+                        >
+                          
+                          1
+                        </span>
+                      </span>
+                    </span>
+                  </div>
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-UserInfo"
+                      >
+                        <span
+                          class="dp-Icon Icon--avatar"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="16"
+                            width="16"
+                          />
+                        </span>
+                        <span
+                          class="dp-UserName"
+                        >
+                          John Doe
+                          <a
+                            class="dp-UserEmail"
+                            href="mailto:john.doe@example.com"
+                          >
+                            &lt;
+                            john.doe@example.com
+                            &gt;
+                          </a>
+                        </span>
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-TimeStatus"
+                      >
+                        about 3 hours
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-roledescription="Draggable item. Press space bar to lift"
+                class="dp-Kanban-item"
+                data-react-beautiful-dnd-drag-handle="0"
+                data-react-beautiful-dnd-draggable="0"
+                draggable="false"
+                tabindex="0"
+              >
+                <div
+                  class="dp-Card"
+                  role="link"
+                  tabindex="-1"
+                >
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-CustomCheckbox dp-LevelTop"
+                      >
+                        <input
+                          class="dp-ControlInput"
+                          id="34"
+                          type="checkbox"
+                          value="34"
+                        />
+                        <label
+                          class=""
+                          for="34"
+                        />
+                      </span>
+                      <span
+                        class="dp-Card-title"
+                      >
+                        Card #35
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-IconGroup"
+                      >
+                        <span
+                          class="dp-Icon Icon--beetle Icon--circle"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="24"
+                            width="24"
+                          />
+                        </span>
+                        <span
+                          class="dp-Badge Badge--round Badge--grey"
+                        >
+                          
+                          1
+                        </span>
+                      </span>
+                    </span>
+                  </div>
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-UserInfo"
+                      >
+                        <span
+                          class="dp-Icon Icon--avatar"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="16"
+                            width="16"
+                          />
+                        </span>
+                        <span
+                          class="dp-UserName"
+                        >
+                          John Doe
+                          <a
+                            class="dp-UserEmail"
+                            href="mailto:john.doe@example.com"
+                          >
+                            &lt;
+                            john.doe@example.com
+                            &gt;
+                          </a>
+                        </span>
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-TimeStatus"
+                      >
+                        about 3 hours
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-roledescription="Draggable item. Press space bar to lift"
+                class="dp-Kanban-item"
+                data-react-beautiful-dnd-drag-handle="0"
+                data-react-beautiful-dnd-draggable="0"
+                draggable="false"
+                tabindex="0"
+              >
+                <div
+                  class="dp-Card"
+                  role="link"
+                  tabindex="-1"
+                >
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-CustomCheckbox dp-LevelTop"
+                      >
+                        <input
+                          class="dp-ControlInput"
+                          id="35"
+                          type="checkbox"
+                          value="35"
+                        />
+                        <label
+                          class=""
+                          for="35"
+                        />
+                      </span>
+                      <span
+                        class="dp-Card-title"
+                      >
+                        Card #36
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-IconGroup"
+                      >
+                        <span
+                          class="dp-Icon Icon--beetle Icon--circle"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="24"
+                            width="24"
+                          />
+                        </span>
+                        <span
+                          class="dp-Badge Badge--round Badge--grey"
+                        >
+                          
+                          1
+                        </span>
+                      </span>
+                    </span>
+                  </div>
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-UserInfo"
+                      >
+                        <span
+                          class="dp-Icon Icon--avatar"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="16"
+                            width="16"
+                          />
+                        </span>
+                        <span
+                          class="dp-UserName"
+                        >
+                          John Doe
+                          <a
+                            class="dp-UserEmail"
+                            href="mailto:john.doe@example.com"
+                          >
+                            &lt;
+                            john.doe@example.com
+                            &gt;
+                          </a>
+                        </span>
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-TimeStatus"
+                      >
+                        about 3 hours
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="dp-ScrollArea-trackHorizontal"
+          style="position: absolute; height: 6px; transition: opacity 200ms; opacity: 0; display: none;"
+        >
+          <div
+            class="dp-ScrollArea-thumbHorizontal"
+            style="position: relative; display: block; height: 100%;"
+          />
+        </div>
+        <div
+          class="dp-ScrollArea-trackVertical"
+          style="position: absolute; width: 6px; transition: opacity 200ms; opacity: 0; display: none;"
+        >
+          <div
+            class="dp-ScrollArea-thumbVertical"
+            style="position: relative; display: block; width: 100%;"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="dp-Kanban-column"
+    >
+      <div
+        class="dp-Card-SectionTitle dp-SectionCardTitle"
+      >
+        <span
+          class="dp-CustomCheckbox"
+        >
+          <input
+            class="dp-ControlInput"
+            id="QA"
+            type="checkbox"
+          />
+          <label
+            class=""
+            for="QA"
+          />
+        </span>
+        QA
+      </div>
+      <div
+        class="dp-ScrollArea dp-Kanban-columnContent"
+        style="position: relative; overflow: hidden; width: 100%; height: 100%;"
+      >
+        <div
+          class="dp-ScrollArea-view"
+          style="position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; overflow: scroll; margin-right: 0px; margin-bottom: 0px;"
+        >
+          <div
+            class="dp-Kanban-droppableArea"
+          >
+            <div
+              class="dp-CardList is-hoverable"
+              role="list"
+            >
+              <div
+                aria-roledescription="Draggable item. Press space bar to lift"
+                class="dp-Kanban-item"
+                data-react-beautiful-dnd-drag-handle="0"
+                data-react-beautiful-dnd-draggable="0"
+                draggable="false"
+                tabindex="0"
+              >
+                <div
+                  class="dp-Card"
+                  role="link"
+                  tabindex="-1"
+                >
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-CustomCheckbox dp-LevelTop"
+                      >
+                        <input
+                          class="dp-ControlInput"
+                          id="40"
+                          type="checkbox"
+                          value="40"
+                        />
+                        <label
+                          class=""
+                          for="40"
+                        />
+                      </span>
+                      <span
+                        class="dp-Card-title"
+                      >
+                        Card #41
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-IconGroup"
+                      >
+                        <span
+                          class="dp-Icon Icon--beetle Icon--circle"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="24"
+                            width="24"
+                          />
+                        </span>
+                        <span
+                          class="dp-Badge Badge--round Badge--grey"
+                        >
+                          
+                          1
+                        </span>
+                      </span>
+                    </span>
+                  </div>
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-UserInfo"
+                      >
+                        <span
+                          class="dp-Icon Icon--avatar"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="16"
+                            width="16"
+                          />
+                        </span>
+                        <span
+                          class="dp-UserName"
+                        >
+                          John Doe
+                          <a
+                            class="dp-UserEmail"
+                            href="mailto:john.doe@example.com"
+                          >
+                            &lt;
+                            john.doe@example.com
+                            &gt;
+                          </a>
+                        </span>
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-TimeStatus"
+                      >
+                        about 3 hours
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-roledescription="Draggable item. Press space bar to lift"
+                class="dp-Kanban-item"
+                data-react-beautiful-dnd-drag-handle="0"
+                data-react-beautiful-dnd-draggable="0"
+                draggable="false"
+                tabindex="0"
+              >
+                <div
+                  class="dp-Card"
+                  role="link"
+                  tabindex="-1"
+                >
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-CustomCheckbox dp-LevelTop"
+                      >
+                        <input
+                          class="dp-ControlInput"
+                          id="41"
+                          type="checkbox"
+                          value="41"
+                        />
+                        <label
+                          class=""
+                          for="41"
+                        />
+                      </span>
+                      <span
+                        class="dp-Card-title"
+                      >
+                        Card #42
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-IconGroup"
+                      >
+                        <span
+                          class="dp-Icon Icon--beetle Icon--circle"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="24"
+                            width="24"
+                          />
+                        </span>
+                        <span
+                          class="dp-Badge Badge--round Badge--grey"
+                        >
+                          
+                          1
+                        </span>
+                      </span>
+                    </span>
+                  </div>
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-UserInfo"
+                      >
+                        <span
+                          class="dp-Icon Icon--avatar"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="16"
+                            width="16"
+                          />
+                        </span>
+                        <span
+                          class="dp-UserName"
+                        >
+                          John Doe
+                          <a
+                            class="dp-UserEmail"
+                            href="mailto:john.doe@example.com"
+                          >
+                            &lt;
+                            john.doe@example.com
+                            &gt;
+                          </a>
+                        </span>
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-TimeStatus"
+                      >
+                        about 3 hours
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-roledescription="Draggable item. Press space bar to lift"
+                class="dp-Kanban-item"
+                data-react-beautiful-dnd-drag-handle="0"
+                data-react-beautiful-dnd-draggable="0"
+                draggable="false"
+                tabindex="0"
+              >
+                <div
+                  class="dp-Card"
+                  role="link"
+                  tabindex="-1"
+                >
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-CustomCheckbox dp-LevelTop"
+                      >
+                        <input
+                          class="dp-ControlInput"
+                          id="42"
+                          type="checkbox"
+                          value="42"
+                        />
+                        <label
+                          class=""
+                          for="42"
+                        />
+                      </span>
+                      <span
+                        class="dp-Card-title"
+                      >
+                        Card #43
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-IconGroup"
+                      >
+                        <span
+                          class="dp-Icon Icon--beetle Icon--circle"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="24"
+                            width="24"
+                          />
+                        </span>
+                        <span
+                          class="dp-Badge Badge--round Badge--grey"
+                        >
+                          
+                          1
+                        </span>
+                      </span>
+                    </span>
+                  </div>
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-UserInfo"
+                      >
+                        <span
+                          class="dp-Icon Icon--avatar"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="16"
+                            width="16"
+                          />
+                        </span>
+                        <span
+                          class="dp-UserName"
+                        >
+                          John Doe
+                          <a
+                            class="dp-UserEmail"
+                            href="mailto:john.doe@example.com"
+                          >
+                            &lt;
+                            john.doe@example.com
+                            &gt;
+                          </a>
+                        </span>
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-TimeStatus"
+                      >
+                        about 3 hours
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-roledescription="Draggable item. Press space bar to lift"
+                class="dp-Kanban-item"
+                data-react-beautiful-dnd-drag-handle="0"
+                data-react-beautiful-dnd-draggable="0"
+                draggable="false"
+                tabindex="0"
+              >
+                <div
+                  class="dp-Card"
+                  role="link"
+                  tabindex="-1"
+                >
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-CustomCheckbox dp-LevelTop"
+                      >
+                        <input
+                          class="dp-ControlInput"
+                          id="43"
+                          type="checkbox"
+                          value="43"
+                        />
+                        <label
+                          class=""
+                          for="43"
+                        />
+                      </span>
+                      <span
+                        class="dp-Card-title"
+                      >
+                        Card #44
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-IconGroup"
+                      >
+                        <span
+                          class="dp-Icon Icon--beetle Icon--circle"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="24"
+                            width="24"
+                          />
+                        </span>
+                        <span
+                          class="dp-Badge Badge--round Badge--grey"
+                        >
+                          
+                          1
+                        </span>
+                      </span>
+                    </span>
+                  </div>
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-UserInfo"
+                      >
+                        <span
+                          class="dp-Icon Icon--avatar"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="16"
+                            width="16"
+                          />
+                        </span>
+                        <span
+                          class="dp-UserName"
+                        >
+                          John Doe
+                          <a
+                            class="dp-UserEmail"
+                            href="mailto:john.doe@example.com"
+                          >
+                            &lt;
+                            john.doe@example.com
+                            &gt;
+                          </a>
+                        </span>
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-TimeStatus"
+                      >
+                        about 3 hours
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-roledescription="Draggable item. Press space bar to lift"
+                class="dp-Kanban-item"
+                data-react-beautiful-dnd-drag-handle="0"
+                data-react-beautiful-dnd-draggable="0"
+                draggable="false"
+                tabindex="0"
+              >
+                <div
+                  class="dp-Card"
+                  role="link"
+                  tabindex="-1"
+                >
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-CustomCheckbox dp-LevelTop"
+                      >
+                        <input
+                          class="dp-ControlInput"
+                          id="44"
+                          type="checkbox"
+                          value="44"
+                        />
+                        <label
+                          class=""
+                          for="44"
+                        />
+                      </span>
+                      <span
+                        class="dp-Card-title"
+                      >
+                        Card #45
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-IconGroup"
+                      >
+                        <span
+                          class="dp-Icon Icon--beetle Icon--circle"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="24"
+                            width="24"
+                          />
+                        </span>
+                        <span
+                          class="dp-Badge Badge--round Badge--grey"
+                        >
+                          
+                          1
+                        </span>
+                      </span>
+                    </span>
+                  </div>
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-UserInfo"
+                      >
+                        <span
+                          class="dp-Icon Icon--avatar"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="16"
+                            width="16"
+                          />
+                        </span>
+                        <span
+                          class="dp-UserName"
+                        >
+                          John Doe
+                          <a
+                            class="dp-UserEmail"
+                            href="mailto:john.doe@example.com"
+                          >
+                            &lt;
+                            john.doe@example.com
+                            &gt;
+                          </a>
+                        </span>
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-TimeStatus"
+                      >
+                        about 3 hours
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-roledescription="Draggable item. Press space bar to lift"
+                class="dp-Kanban-item"
+                data-react-beautiful-dnd-drag-handle="0"
+                data-react-beautiful-dnd-draggable="0"
+                draggable="false"
+                tabindex="0"
+              >
+                <div
+                  class="dp-Card"
+                  role="link"
+                  tabindex="-1"
+                >
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-CustomCheckbox dp-LevelTop"
+                      >
+                        <input
+                          class="dp-ControlInput"
+                          id="45"
+                          type="checkbox"
+                          value="45"
+                        />
+                        <label
+                          class=""
+                          for="45"
+                        />
+                      </span>
+                      <span
+                        class="dp-Card-title"
+                      >
+                        Card #46
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-IconGroup"
+                      >
+                        <span
+                          class="dp-Icon Icon--beetle Icon--circle"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="24"
+                            width="24"
+                          />
+                        </span>
+                        <span
+                          class="dp-Badge Badge--round Badge--grey"
+                        >
+                          
+                          1
+                        </span>
+                      </span>
+                    </span>
+                  </div>
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-UserInfo"
+                      >
+                        <span
+                          class="dp-Icon Icon--avatar"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="16"
+                            width="16"
+                          />
+                        </span>
+                        <span
+                          class="dp-UserName"
+                        >
+                          John Doe
+                          <a
+                            class="dp-UserEmail"
+                            href="mailto:john.doe@example.com"
+                          >
+                            &lt;
+                            john.doe@example.com
+                            &gt;
+                          </a>
+                        </span>
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-TimeStatus"
+                      >
+                        about 3 hours
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-roledescription="Draggable item. Press space bar to lift"
+                class="dp-Kanban-item"
+                data-react-beautiful-dnd-drag-handle="0"
+                data-react-beautiful-dnd-draggable="0"
+                draggable="false"
+                tabindex="0"
+              >
+                <div
+                  class="dp-Card"
+                  role="link"
+                  tabindex="-1"
+                >
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-CustomCheckbox dp-LevelTop"
+                      >
+                        <input
+                          class="dp-ControlInput"
+                          id="46"
+                          type="checkbox"
+                          value="46"
+                        />
+                        <label
+                          class=""
+                          for="46"
+                        />
+                      </span>
+                      <span
+                        class="dp-Card-title"
+                      >
+                        Card #47
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-IconGroup"
+                      >
+                        <span
+                          class="dp-Icon Icon--beetle Icon--circle"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="24"
+                            width="24"
+                          />
+                        </span>
+                        <span
+                          class="dp-Badge Badge--round Badge--grey"
+                        >
+                          
+                          1
+                        </span>
+                      </span>
+                    </span>
+                  </div>
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-UserInfo"
+                      >
+                        <span
+                          class="dp-Icon Icon--avatar"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="16"
+                            width="16"
+                          />
+                        </span>
+                        <span
+                          class="dp-UserName"
+                        >
+                          John Doe
+                          <a
+                            class="dp-UserEmail"
+                            href="mailto:john.doe@example.com"
+                          >
+                            &lt;
+                            john.doe@example.com
+                            &gt;
+                          </a>
+                        </span>
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-TimeStatus"
+                      >
+                        about 3 hours
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="dp-ScrollArea-trackHorizontal"
+          style="position: absolute; height: 6px; transition: opacity 200ms; opacity: 0; display: none;"
+        >
+          <div
+            class="dp-ScrollArea-thumbHorizontal"
+            style="position: relative; display: block; height: 100%;"
+          />
+        </div>
+        <div
+          class="dp-ScrollArea-trackVertical"
+          style="position: absolute; width: 6px; transition: opacity 200ms; opacity: 0; display: none;"
+        >
+          <div
+            class="dp-ScrollArea-thumbVertical"
+            style="position: relative; display: block; width: 100%;"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="dp-Kanban-column"
+    >
+      <div
+        class="dp-Card-SectionTitle dp-SectionCardTitle"
+      >
+        <span
+          class="dp-CustomCheckbox"
+        >
+          <input
+            class="dp-ControlInput"
+            id="Closed"
+            type="checkbox"
+          />
+          <label
+            class=""
+            for="Closed"
+          />
+        </span>
+        Closed
+      </div>
+      <div
+        class="dp-ScrollArea dp-Kanban-columnContent"
+        style="position: relative; overflow: hidden; width: 100%; height: 100%;"
+      >
+        <div
+          class="dp-ScrollArea-view"
+          style="position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; overflow: scroll; margin-right: 0px; margin-bottom: 0px;"
+        >
+          <div
+            class="dp-Kanban-droppableArea"
+          >
+            <div
+              class="dp-CardList is-hoverable"
+              role="list"
+            >
+              <div
+                aria-roledescription="Draggable item. Press space bar to lift"
+                class="dp-Kanban-item"
+                data-react-beautiful-dnd-drag-handle="0"
+                data-react-beautiful-dnd-draggable="0"
+                draggable="false"
+                tabindex="0"
+              >
+                <div
+                  class="dp-Card"
+                  role="link"
+                  tabindex="-1"
+                >
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-CustomCheckbox dp-LevelTop"
+                      >
+                        <input
+                          class="dp-ControlInput"
+                          id="50"
+                          type="checkbox"
+                          value="50"
+                        />
+                        <label
+                          class=""
+                          for="50"
+                        />
+                      </span>
+                      <span
+                        class="dp-Card-title"
+                      >
+                        Card #51
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-IconGroup"
+                      >
+                        <span
+                          class="dp-Icon Icon--beetle Icon--circle"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="24"
+                            width="24"
+                          />
+                        </span>
+                        <span
+                          class="dp-Badge Badge--round Badge--grey"
+                        >
+                          
+                          1
+                        </span>
+                      </span>
+                    </span>
+                  </div>
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-UserInfo"
+                      >
+                        <span
+                          class="dp-Icon Icon--avatar"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="16"
+                            width="16"
+                          />
+                        </span>
+                        <span
+                          class="dp-UserName"
+                        >
+                          John Doe
+                          <a
+                            class="dp-UserEmail"
+                            href="mailto:john.doe@example.com"
+                          >
+                            &lt;
+                            john.doe@example.com
+                            &gt;
+                          </a>
+                        </span>
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-TimeStatus"
+                      >
+                        about 3 hours
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-roledescription="Draggable item. Press space bar to lift"
+                class="dp-Kanban-item"
+                data-react-beautiful-dnd-drag-handle="0"
+                data-react-beautiful-dnd-draggable="0"
+                draggable="false"
+                tabindex="0"
+              >
+                <div
+                  class="dp-Card"
+                  role="link"
+                  tabindex="-1"
+                >
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-CustomCheckbox dp-LevelTop"
+                      >
+                        <input
+                          class="dp-ControlInput"
+                          id="51"
+                          type="checkbox"
+                          value="51"
+                        />
+                        <label
+                          class=""
+                          for="51"
+                        />
+                      </span>
+                      <span
+                        class="dp-Card-title"
+                      >
+                        Card #52
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-IconGroup"
+                      >
+                        <span
+                          class="dp-Icon Icon--beetle Icon--circle"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="24"
+                            width="24"
+                          />
+                        </span>
+                        <span
+                          class="dp-Badge Badge--round Badge--grey"
+                        >
+                          
+                          1
+                        </span>
+                      </span>
+                    </span>
+                  </div>
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-UserInfo"
+                      >
+                        <span
+                          class="dp-Icon Icon--avatar"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="16"
+                            width="16"
+                          />
+                        </span>
+                        <span
+                          class="dp-UserName"
+                        >
+                          John Doe
+                          <a
+                            class="dp-UserEmail"
+                            href="mailto:john.doe@example.com"
+                          >
+                            &lt;
+                            john.doe@example.com
+                            &gt;
+                          </a>
+                        </span>
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-TimeStatus"
+                      >
+                        about 3 hours
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-roledescription="Draggable item. Press space bar to lift"
+                class="dp-Kanban-item"
+                data-react-beautiful-dnd-drag-handle="0"
+                data-react-beautiful-dnd-draggable="0"
+                draggable="false"
+                tabindex="0"
+              >
+                <div
+                  class="dp-Card"
+                  role="link"
+                  tabindex="-1"
+                >
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-CustomCheckbox dp-LevelTop"
+                      >
+                        <input
+                          class="dp-ControlInput"
+                          id="52"
+                          type="checkbox"
+                          value="52"
+                        />
+                        <label
+                          class=""
+                          for="52"
+                        />
+                      </span>
+                      <span
+                        class="dp-Card-title"
+                      >
+                        Card #53
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-IconGroup"
+                      >
+                        <span
+                          class="dp-Icon Icon--beetle Icon--circle"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="24"
+                            width="24"
+                          />
+                        </span>
+                        <span
+                          class="dp-Badge Badge--round Badge--grey"
+                        >
+                          
+                          1
+                        </span>
+                      </span>
+                    </span>
+                  </div>
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-UserInfo"
+                      >
+                        <span
+                          class="dp-Icon Icon--avatar"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="16"
+                            width="16"
+                          />
+                        </span>
+                        <span
+                          class="dp-UserName"
+                        >
+                          John Doe
+                          <a
+                            class="dp-UserEmail"
+                            href="mailto:john.doe@example.com"
+                          >
+                            &lt;
+                            john.doe@example.com
+                            &gt;
+                          </a>
+                        </span>
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-TimeStatus"
+                      >
+                        about 3 hours
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-roledescription="Draggable item. Press space bar to lift"
+                class="dp-Kanban-item"
+                data-react-beautiful-dnd-drag-handle="0"
+                data-react-beautiful-dnd-draggable="0"
+                draggable="false"
+                tabindex="0"
+              >
+                <div
+                  class="dp-Card"
+                  role="link"
+                  tabindex="-1"
+                >
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-CustomCheckbox dp-LevelTop"
+                      >
+                        <input
+                          class="dp-ControlInput"
+                          id="53"
+                          type="checkbox"
+                          value="53"
+                        />
+                        <label
+                          class=""
+                          for="53"
+                        />
+                      </span>
+                      <span
+                        class="dp-Card-title"
+                      >
+                        Card #54
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-IconGroup"
+                      >
+                        <span
+                          class="dp-Icon Icon--beetle Icon--circle"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="24"
+                            width="24"
+                          />
+                        </span>
+                        <span
+                          class="dp-Badge Badge--round Badge--grey"
+                        >
+                          
+                          1
+                        </span>
+                      </span>
+                    </span>
+                  </div>
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-UserInfo"
+                      >
+                        <span
+                          class="dp-Icon Icon--avatar"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="16"
+                            width="16"
+                          />
+                        </span>
+                        <span
+                          class="dp-UserName"
+                        >
+                          John Doe
+                          <a
+                            class="dp-UserEmail"
+                            href="mailto:john.doe@example.com"
+                          >
+                            &lt;
+                            john.doe@example.com
+                            &gt;
+                          </a>
+                        </span>
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-TimeStatus"
+                      >
+                        about 3 hours
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-roledescription="Draggable item. Press space bar to lift"
+                class="dp-Kanban-item"
+                data-react-beautiful-dnd-drag-handle="0"
+                data-react-beautiful-dnd-draggable="0"
+                draggable="false"
+                tabindex="0"
+              >
+                <div
+                  class="dp-Card"
+                  role="link"
+                  tabindex="-1"
+                >
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-CustomCheckbox dp-LevelTop"
+                      >
+                        <input
+                          class="dp-ControlInput"
+                          id="54"
+                          type="checkbox"
+                          value="54"
+                        />
+                        <label
+                          class=""
+                          for="54"
+                        />
+                      </span>
+                      <span
+                        class="dp-Card-title"
+                      >
+                        Card #55
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-IconGroup"
+                      >
+                        <span
+                          class="dp-Icon Icon--beetle Icon--circle"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="24"
+                            width="24"
+                          />
+                        </span>
+                        <span
+                          class="dp-Badge Badge--round Badge--grey"
+                        >
+                          
+                          1
+                        </span>
+                      </span>
+                    </span>
+                  </div>
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-UserInfo"
+                      >
+                        <span
+                          class="dp-Icon Icon--avatar"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="16"
+                            width="16"
+                          />
+                        </span>
+                        <span
+                          class="dp-UserName"
+                        >
+                          John Doe
+                          <a
+                            class="dp-UserEmail"
+                            href="mailto:john.doe@example.com"
+                          >
+                            &lt;
+                            john.doe@example.com
+                            &gt;
+                          </a>
+                        </span>
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-TimeStatus"
+                      >
+                        about 3 hours
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-roledescription="Draggable item. Press space bar to lift"
+                class="dp-Kanban-item"
+                data-react-beautiful-dnd-drag-handle="0"
+                data-react-beautiful-dnd-draggable="0"
+                draggable="false"
+                tabindex="0"
+              >
+                <div
+                  class="dp-Card"
+                  role="link"
+                  tabindex="-1"
+                >
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-CustomCheckbox dp-LevelTop"
+                      >
+                        <input
+                          class="dp-ControlInput"
+                          id="55"
+                          type="checkbox"
+                          value="55"
+                        />
+                        <label
+                          class=""
+                          for="55"
+                        />
+                      </span>
+                      <span
+                        class="dp-Card-title"
+                      >
+                        Card #56
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-IconGroup"
+                      >
+                        <span
+                          class="dp-Icon Icon--beetle Icon--circle"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="24"
+                            width="24"
+                          />
+                        </span>
+                        <span
+                          class="dp-Badge Badge--round Badge--grey"
+                        >
+                          
+                          1
+                        </span>
+                      </span>
+                    </span>
+                  </div>
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-UserInfo"
+                      >
+                        <span
+                          class="dp-Icon Icon--avatar"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="16"
+                            width="16"
+                          />
+                        </span>
+                        <span
+                          class="dp-UserName"
+                        >
+                          John Doe
+                          <a
+                            class="dp-UserEmail"
+                            href="mailto:john.doe@example.com"
+                          >
+                            &lt;
+                            john.doe@example.com
+                            &gt;
+                          </a>
+                        </span>
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-TimeStatus"
+                      >
+                        about 3 hours
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-roledescription="Draggable item. Press space bar to lift"
+                class="dp-Kanban-item"
+                data-react-beautiful-dnd-drag-handle="0"
+                data-react-beautiful-dnd-draggable="0"
+                draggable="false"
+                tabindex="0"
+              >
+                <div
+                  class="dp-Card"
+                  role="link"
+                  tabindex="-1"
+                >
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-CustomCheckbox dp-LevelTop"
+                      >
+                        <input
+                          class="dp-ControlInput"
+                          id="56"
+                          type="checkbox"
+                          value="56"
+                        />
+                        <label
+                          class=""
+                          for="56"
+                        />
+                      </span>
+                      <span
+                        class="dp-Card-title"
+                      >
+                        Card #57
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-IconGroup"
+                      >
+                        <span
+                          class="dp-Icon Icon--beetle Icon--circle"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="24"
+                            width="24"
+                          />
+                        </span>
+                        <span
+                          class="dp-Badge Badge--round Badge--grey"
+                        >
+                          
+                          1
+                        </span>
+                      </span>
+                    </span>
+                  </div>
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-UserInfo"
+                      >
+                        <span
+                          class="dp-Icon Icon--avatar"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="16"
+                            width="16"
+                          />
+                        </span>
+                        <span
+                          class="dp-UserName"
+                        >
+                          John Doe
+                          <a
+                            class="dp-UserEmail"
+                            href="mailto:john.doe@example.com"
+                          >
+                            &lt;
+                            john.doe@example.com
+                            &gt;
+                          </a>
+                        </span>
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-TimeStatus"
+                      >
+                        about 3 hours
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-roledescription="Draggable item. Press space bar to lift"
+                class="dp-Kanban-item"
+                data-react-beautiful-dnd-drag-handle="0"
+                data-react-beautiful-dnd-draggable="0"
+                draggable="false"
+                tabindex="0"
+              >
+                <div
+                  class="dp-Card"
+                  role="link"
+                  tabindex="-1"
+                >
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-CustomCheckbox dp-LevelTop"
+                      >
+                        <input
+                          class="dp-ControlInput"
+                          id="57"
+                          type="checkbox"
+                          value="57"
+                        />
+                        <label
+                          class=""
+                          for="57"
+                        />
+                      </span>
+                      <span
+                        class="dp-Card-title"
+                      >
+                        Card #58
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-IconGroup"
+                      >
+                        <span
+                          class="dp-Icon Icon--beetle Icon--circle"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="24"
+                            width="24"
+                          />
+                        </span>
+                        <span
+                          class="dp-Badge Badge--round Badge--grey"
+                        >
+                          
+                          1
+                        </span>
+                      </span>
+                    </span>
+                  </div>
+                  <div
+                    class="dp-LevelItem Level-justify-between"
+                  >
+                    <span
+                      class="dp-LevelLeft"
+                    >
+                      <span
+                        class="dp-UserInfo"
+                      >
+                        <span
+                          class="dp-Icon Icon--avatar"
+                          role="button"
+                          tabindex="-1"
+                        >
+                          <icon-mock
+                            height="16"
+                            width="16"
+                          />
+                        </span>
+                        <span
+                          class="dp-UserName"
+                        >
+                          John Doe
+                          <a
+                            class="dp-UserEmail"
+                            href="mailto:john.doe@example.com"
+                          >
+                            &lt;
+                            john.doe@example.com
+                            &gt;
+                          </a>
+                        </span>
+                      </span>
+                    </span>
+                    <span
+                      class="dp-LevelRight"
+                    >
+                      <span
+                        class="dp-TimeStatus"
+                      >
+                        about 3 hours
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="dp-ScrollArea-trackHorizontal"
+          style="position: absolute; height: 6px; transition: opacity 200ms; opacity: 0; display: none;"
+        >
+          <div
+            class="dp-ScrollArea-thumbHorizontal"
+            style="position: relative; display: block; height: 100%;"
+          />
+        </div>
+        <div
+          class="dp-ScrollArea-trackVertical"
+          style="position: absolute; width: 6px; transition: opacity 200ms; opacity: 0; display: none;"
+        >
+          <div
+            class="dp-ScrollArea-thumbVertical"
+            style="position: relative; display: block; width: 100%;"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="dp-ScrollArea-trackHorizontal"
+    style="position: absolute; height: 6px; transition: opacity 200ms; opacity: 0; display: none;"
+  >
+    <div
+      class="dp-ScrollArea-thumbHorizontal"
+      style="position: relative; display: block; height: 100%;"
+    />
+  </div>
+  <div
+    class="dp-ScrollArea-trackVertical"
+    style="position: absolute; width: 6px; transition: opacity 200ms; opacity: 0; display: none;"
+  >
+    <div
+      class="dp-ScrollArea-thumbVertical"
+      style="position: relative; display: block; width: 100%;"
+    />
+  </div>
+</div>
+`;
