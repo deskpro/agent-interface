@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<TagBar /> should match its snapshot 1`] = `
+exports[`<ModuleBar /> should match its snapshot 1`] = `
 <div
   class="dp-ModulebarContainer module-bar"
 >
@@ -11,6 +11,16 @@ exports[`<TagBar /> should match its snapshot 1`] = `
       class="dp-ModuleBarList dp-ModuleBar-item is-active"
     >
       <span
+        class="dp-Icon Icon--ticket"
+        role="button"
+        tabindex="-1"
+      >
+        <icon-mock
+          height="21"
+          width="21"
+        />
+      </span>
+      <span
         class="dp-IconTooltip"
       >
         Tickets
@@ -19,6 +29,16 @@ exports[`<TagBar /> should match its snapshot 1`] = `
     <li
       class="dp-ModuleBarList dp-ModuleBar-item"
     >
+      <span
+        class="dp-Icon Icon--billing"
+        role="button"
+        tabindex="-1"
+      >
+        <icon-mock
+          height="21"
+          width="21"
+        />
+      </span>
       <span
         class="dp-IconTooltip"
       >
@@ -31,6 +51,16 @@ exports[`<TagBar /> should match its snapshot 1`] = `
     <li
       class="dp-ModuleBarList dp-ModuleBar-item"
     >
+      <span
+        class="dp-Icon Icon--portal"
+        role="button"
+        tabindex="-1"
+      >
+        <icon-mock
+          height="21"
+          width="21"
+        />
+      </span>
       <div
         class="dp-ModuleBarMenu is-visible"
       >

@@ -3,7 +3,11 @@ import React from "react";
 import { storiesOf } from "@storybook/react";
 import { action } from "@storybook/addon-actions";
 
-import { ModuleBar, ModuleBarMenu } from "@deskpro/agent-interface-components";
+import {
+  ModuleBar,
+  ModuleBarMenu,
+  SimpleModuleBar
+} from "@deskpro/agent-interface-components";
 
 const ModuleBarDemo = () => {
   const [activeItem, setActiveItem] = React.useState(null);
@@ -124,4 +128,45 @@ const ModuleBarDemo = () => {
   );
 };
 
-storiesOf("ModuleBar", module).add("ModuleBar", () => <ModuleBarDemo />);
+const modules = [
+  { icon: "ticket", name: "ticket", label: "Tickets" },
+  { icon: "crm", name: "crm", label: "CRM" },
+  { icon: "chat", name: "chat", label: "Chats" },
+  { icon: "feedback", name: "feedback", label: "Feedback" },
+  { icon: "publish", name: "publish", label: "Publish" },
+  { icon: "tasks-sidebar", name: "tasks-sidebar", label: "Tasks" },
+  { icon: "reports", name: "reports", label: "Reports" },
+  { icon: "admin", name: "admin", label: "Admin" },
+  { icon: "billing", name: "billing", label: "Billing" }
+];
+
+const portalLinks = [
+  {
+    icon: "plane",
+    title: "Raven Paper",
+    subtitle: "support.ravenpaper.com",
+    link: "http://support.ravenpaper.com"
+  },
+  {
+    icon: "plane-orange",
+    title: "Raven Paper Crafts",
+    subtitle: "support.ravenpapercrafts.com",
+    link: "http://support.ravenpapercrafts.com"
+  },
+  {
+    icon: "plane-violet",
+    title: "RP Europe",
+    subtitle: "support.rpeurope.com",
+    link: "http://support.rpeurope.com"
+  }
+];
+
+storiesOf("ModuleBar", module)
+  .add("ModuleBar", () => <ModuleBarDemo />)
+  .add("Simple ModuleBar", () => (
+    <SimpleModuleBar
+      items={modules}
+      portalMenuLinks={portalLinks}
+      onItemClick={action()}
+    />
+  ));

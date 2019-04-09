@@ -1,0 +1,286 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SimpleModuleBar /> should match its snapshot 1`] = `
+<div
+  class="dp-ModulebarContainer module-bar"
+>
+  <ul
+    class="dp-ModuleBar"
+  >
+    <li
+      class="dp-ModuleBarList dp-ModuleBar-item"
+    >
+      <span
+        class="dp-Icon Icon--ticket"
+        role="button"
+        tabindex="-1"
+      >
+        <icon-mock
+          height="21"
+          width="21"
+        />
+      </span>
+      <span
+        class="dp-IconTooltip"
+      >
+        Tickets
+      </span>
+    </li>
+    <li
+      class="dp-ModuleBarList dp-ModuleBar-item"
+    >
+      <span
+        class="dp-Icon Icon--crm"
+        role="button"
+        tabindex="-1"
+      >
+        <icon-mock
+          height="21"
+          width="21"
+        />
+      </span>
+      <span
+        class="dp-IconTooltip"
+      >
+        CRM
+      </span>
+    </li>
+    <li
+      class="dp-ModuleBarList dp-ModuleBar-item"
+    >
+      <span
+        class="dp-Icon Icon--chat"
+        role="button"
+        tabindex="-1"
+      >
+        <icon-mock
+          height="21"
+          width="21"
+        />
+      </span>
+      <span
+        class="dp-IconTooltip"
+      >
+        Chats
+      </span>
+    </li>
+    <li
+      class="dp-ModuleBarList dp-ModuleBar-item"
+    >
+      <span
+        class="dp-Icon Icon--feedback"
+        role="button"
+        tabindex="-1"
+      >
+        <icon-mock
+          height="21"
+          width="21"
+        />
+      </span>
+      <span
+        class="dp-IconTooltip"
+      >
+        Feedback
+      </span>
+    </li>
+    <li
+      class="dp-ModuleBarList dp-ModuleBar-item"
+    >
+      <span
+        class="dp-Icon Icon--publish"
+        role="button"
+        tabindex="-1"
+      >
+        <icon-mock
+          height="21"
+          width="21"
+        />
+      </span>
+      <span
+        class="dp-IconTooltip"
+      >
+        Publish
+      </span>
+    </li>
+    <li
+      class="dp-ModuleBarList dp-ModuleBar-item"
+    >
+      <span
+        class="dp-Icon Icon--tasks-sidebar"
+        role="button"
+        tabindex="-1"
+      >
+        <icon-mock
+          height="21"
+          width="21"
+        />
+      </span>
+      <span
+        class="dp-IconTooltip"
+      >
+        Tasks
+      </span>
+    </li>
+    <li
+      class="dp-ModuleBar-separator"
+    />
+    <li
+      class="dp-ModuleBarList dp-ModuleBar-item"
+    >
+      <span
+        class="dp-Icon Icon--reports"
+        role="button"
+        tabindex="-1"
+      >
+        <icon-mock
+          height="21"
+          width="21"
+        />
+      </span>
+      <span
+        class="dp-IconTooltip"
+      >
+        Reports
+      </span>
+    </li>
+    <li
+      class="dp-ModuleBarList dp-ModuleBar-item"
+    >
+      <span
+        class="dp-Icon Icon--admin"
+        role="button"
+        tabindex="-1"
+      >
+        <icon-mock
+          height="21"
+          width="21"
+        />
+      </span>
+      <span
+        class="dp-IconTooltip"
+      >
+        Admin
+      </span>
+    </li>
+    <li
+      class="dp-ModuleBarList dp-ModuleBar-item"
+    >
+      <span
+        class="dp-Icon Icon--billing"
+        role="button"
+        tabindex="-1"
+      >
+        <icon-mock
+          height="21"
+          width="21"
+        />
+      </span>
+      <span
+        class="dp-IconTooltip"
+      >
+        Billing
+      </span>
+    </li>
+    <li
+      class="dp-ModuleBar-separator"
+    />
+    <li
+      class="dp-ModuleBarList dp-ModuleBar-item"
+    >
+      <span
+        class="dp-Icon Icon--portal"
+        role="button"
+        tabindex="-1"
+      >
+        <icon-mock
+          height="21"
+          width="21"
+        />
+      </span>
+      <div
+        class="dp-ModuleBarMenu"
+      >
+        <span
+          class="dp-ModuleBarMenu-title"
+        >
+          Portals
+        </span>
+        <ul>
+          <li
+            class="dp-ModuleBarMenu-item"
+          >
+            <a
+              href="http://support.ravenpaper.com"
+            >
+              <span
+                class="dp-Icon Icon--plane"
+              />
+              <span>
+                <span
+                  class="dp-ModuleBarMenu-itemTitle"
+                >
+                  Raven Paper
+                  ,
+                </span>
+                <span
+                  class="dp-ModuleBarMenu-itemSubtitle"
+                >
+                  support.ravenpaper.com
+                </span>
+              </span>
+            </a>
+          </li>
+          <li
+            class="dp-ModuleBarMenu-item"
+          >
+            <a
+              href="http://support.ravenpapercrafts.com"
+            >
+              <span
+                class="dp-Icon Icon--plane-orange"
+              />
+              <span>
+                <span
+                  class="dp-ModuleBarMenu-itemTitle"
+                >
+                  Raven Paper Crafts
+                  ,
+                </span>
+                <span
+                  class="dp-ModuleBarMenu-itemSubtitle"
+                >
+                  support.ravenpapercrafts.com
+                </span>
+              </span>
+            </a>
+          </li>
+          <li
+            class="dp-ModuleBarMenu-item"
+          >
+            <a
+              href="http://support.rpeurope.com"
+            >
+              <span
+                class="dp-Icon Icon--plane-violet"
+              />
+              <span>
+                <span
+                  class="dp-ModuleBarMenu-itemTitle"
+                >
+                  RP Europe
+                  ,
+                </span>
+                <span
+                  class="dp-ModuleBarMenu-itemSubtitle"
+                >
+                  support.rpeurope.com
+                </span>
+              </span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </li>
+  </ul>
+</div>
+`;

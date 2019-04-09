@@ -38,6 +38,9 @@ export {
 } from "./elements/Menu/StandardContextMenu";
 export { default as Header } from "./elements/Header/Header";
 export { default as ModuleBar } from "./elements/ModuleBar/ModuleBar";
+export {
+  default as SimpleModuleBar
+} from "./elements/ModuleBar/SimpleModuleBar";
 export { default as ModuleBarMenu } from "./elements/ModuleBar/ModuleBarMenu";
 
 export { default as OrderingBar } from "./ListPane/OrderingBar/OrderingBar";
