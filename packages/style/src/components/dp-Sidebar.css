@@ -160,7 +160,7 @@
 .dp-SectionBody-item {
   background-color: var(--white);
   border: 1px solid var(--grey-light);
-  border-radius: var(--border-radius);
+  border-radius: 2px;
   color: var(--grey-darkest);
   display: block;
   font-size: var(--font-Title-S);
@@ -347,6 +347,14 @@
   font: var(--p-n-semibold);
 }
 
+.dp-Selectbelow .dp-ButtonWrapper .dp-ActionButton {
+  font: var(--h-s-semibold);
+}
+
+.dp-Selectbelow .dp-ButtonWrapper + .dp-ButtonWrapper .dp-ActionButton {
+  font: var(--p-n-semibold);
+}
+
 .dp-Selectbelow .dp-ButtonWrapper,
 .dp-Slas .dp-ButtonWrapper {
   justify-content: space-between;
@@ -357,13 +365,17 @@
   margin: 0;
 }
 
+.dp-Selectbelow .dp-ButtonWrapper .dp-Border--danger {
+  border: 0.75px solid var(--danger);
+}
+
 .dp-Slas .dp-ButtonWrapper .dp-ActionButton {
   font: var(--p-xl);
   font-style: italic;
 }
 
 .dp-Slas .dp-ButtonWrapper button {
-  border: 1px solid var(--grey);
+  border: 1px solid var(--grey-light);
   color: var(--grey);
 }
 
@@ -545,6 +557,11 @@
 .dp-AddCc .dp-ActionButton,
 .dp-AddCc .dp-Input + .dp-Input {
   margin-top: 9px;
+}
+
+.dp-SidebarBody .dp-Button,
+.dp-SidebarBody .dp-ActionButton {
+  border-radius: 2px;
 }
 
 .dp-AddCc .dp-ActionButton {

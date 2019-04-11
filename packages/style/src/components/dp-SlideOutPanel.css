@@ -69,6 +69,10 @@
   margin-bottom: 10px;
 }
 
+.dp-SlideOutPanel .dp-dropdownContainer {
+  min-height: 180px;
+}
+
 .dp-SecurityBreach {
   align-items: center;
   color: var(--grey-darkest);
@@ -96,9 +100,14 @@
 }
 
 .dp-SlideOutPanel .Input--search, input.dp-NewTitle {
-  border: 1px solid var(--grey);
+  border: 0.75px solid var(--grey);
   border-radius: 2px;
   width: 100%;
+}
+
+.dp-PageSidebar .dp-Menu,
+.dp-SlideOutPanel .dp-Menu-search .dp-Form .dp-Input:focus {
+  border: 0.75px solid var(--brand-primary);
 }
 
 input.dp-NewTitle {
@@ -142,6 +151,10 @@ input.dp-NewTitle {
 
 .dp-SlideOutPanel .dp-TitleName > .dp-Icon {
   margin-left: 5px;
+}
+
+.dp-SlideOutPanel .dp-TicketSelect .dp-FollowersBtn {
+  margin: 0 0 30px 0;
 }
 
 .dp-dropdownContainer .dp-FollowerList .dp-FollowersItem {
@@ -298,4 +311,32 @@ input.dp-NewTitle {
 
 .dp-Tickets .dp-TitleName.is-active > .dp-Menu {
   display: block;
+}
+
+.dp-PageSidebar .dp-Menu-search .dp-Input::placeholder {
+  color: var(--grey-dark);
+}
+
+.dp-PageSidebar .dp-Menu-search .dp-Form .dp-Icon svg {
+  fill: var(--grey-dark);
+}
+
+.dp-PageSidebar .dp-FollowersBtn .dp-Button {
+  font: var(--p-n);
+}
+
+.dp-FollowersBtn .dp-Button.is-active {
+  color: var(--brand-primary);
+}
+
+.demo-menu .dp-FollowersBtn .dp-Menu {
+  left: -2px;
+}
+
+.dp-PageSidebar .dp-Input.Input--search:valid {
+  border: 0.75px solid var(--brand-primary);
+}
+
+.dp-PageSidebar .dp-Input.Input--search:valid svg {
+  fill: var(--brand-primary);
 }

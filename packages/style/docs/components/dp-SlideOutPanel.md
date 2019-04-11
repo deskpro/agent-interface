@@ -703,7 +703,7 @@ title: Change user
                             <li class="dp-FollowersBtn">
                                 <button class="dp-Button Button--link Button--small">
                                     <span class="dp-Icon dp-add_follower Icon--primary"></span>
-                                    <span>Add action</span>
+                                    <span>Add new user</span>
                                 </button>
 
                                 <ul class="dp-Menu">
@@ -868,7 +868,7 @@ title: Change user
                             <li class="dp-FollowersBtn">
                                 <button class="dp-Button Button--link Button--small">
                                     <span class="dp-Icon dp-add_follower Icon--primary"></span>
-                                    <span>Add action</span>
+                                    <span>Add new user</span>
                                 </button>
 
                                 <ul class="dp-Menu">
@@ -1033,7 +1033,123 @@ title: Change user
                             <li class="dp-FollowersBtn">
                                 <button class="dp-Button Button--link Button--small is-active">
                                     <span class="dp-Icon dp-add_follower Icon--primary"></span>
-                                    <span>Add action</span>
+                                    <span>Add new user</span>
+                                </button>
+
+                                <ul class="dp-Menu">
+                                    <li class="dp-Menu-linkItem">
+                                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                                        <a href="#" class="dp-Menu-link">Wendy Pride</a>
+                                    </li>
+                                    <li class="dp-Menu-linkItem">
+                                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                                        <a href="#" class="dp-Menu-link">Bob Cooper</a>
+                                    </li>
+                                    <li class="dp-Menu-linkItem">
+                                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                                        <a href="#" class="dp-Menu-link">Julien Durco</a>
+                                    </li>
+                                    <li class="dp-Menu-linkItem">
+                                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                                        <a href="#" class="dp-Menu-link">Wendy Lightbody</a>
+                                    </li>
+                                    <li class="dp-Menu-linkItem">
+                                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                                        <a href="#" class="dp-Menu-link">Bobby Steiner</a>
+                                    </li>
+                                    <li class="dp-Menu-linkItem">
+                                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                                        <a href="#" class="dp-Menu-link">Julien Durco</a>
+                                    </li>
+                                    <li class="dp-Menu-linkItem">
+                                        <span class="dp-Icon dp-iconUserAvatar"></span>
+                                        <a href="#" class="dp-Menu-link">Wendy Lightbody</a>
+                                    </li>
+                                </ul>
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="dp-ButtonWrapper">
+                    <button class="dp-Button" type="button">
+                        Change user
+                    </button>
+                    <button class="dp-Button Button--outlined" type="button">
+                        Cancel
+                    </button>
+                </div>
+
+            </div> <!-- Sidebar body -->
+        </div>
+    </div>
+</div>
+```
+
+```html @preview
+<div class="dp-MainWrapper demo-cog demo-menu">
+    <div class="dp-SlideOutPanel dp-ChangeUser">
+        <div class="dp-PageSidebar">
+            <div class="dp-SidebarBody">
+
+                <div class="dp-SidebarSection">
+                    <div class="dp-TitleSidebar"><span class="dp-Icon Icon--OwnerArrows"></span>Change user</div>
+                    <span class="dp-Icon dp-close"></span>
+                </div>
+
+                <!-- 1 -->
+                <div class="dp-Menu-search">
+                    <form>
+                        <div class="dp-Form">
+                            <input type="text" placeholder="Search" value="L" required="required" class="dp-Input Input--search">
+                            <span class="dp-Icon dp-IconSearch"></span>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- 2 -->
+                <div class="dp-Tickets">
+                    <div class="dp-dropdownContainer">
+                        <div class="dp-TitleName is-semibold dp-BorderBottom">
+                            Search results
+                        </div>
+
+                        <div class="dp-TicketSelect">
+                            <div class="dp-Followers">
+                                <ul class="dp-FollowerList">
+
+                                    <li class="dp-FollowersItem">
+                                        <span class="dp-LogoName">
+                                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                                            <span class="dp-UserName"> Leanne Spencer </span>
+                                        </span>
+                                    </li>
+                                    <li class="dp-FollowersItem">
+                                        <span class="dp-LogoName">
+                                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                                            <span class="dp-UserName"> Laura Thomas </span>
+                                        </span>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- 3 -->
+                <div class="dp-TicketSelect">
+                    <div class="dp-SectionControls">
+                        <div class="dp-SectionTitle"></div>
+                    </div>
+                    <div class="dp-Followers">
+                        <ul class="dp-FollowerList">
+                            <li class="dp-FollowersBtn">
+                                <button class="dp-Button Button--link Button--small">
+                                    <span class="dp-Icon dp-add_follower Icon--primary"></span>
+                                    <span>Add new user</span>
                                 </button>
 
                                 <ul class="dp-Menu">
