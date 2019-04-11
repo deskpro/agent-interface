@@ -2,14 +2,10 @@
 
 exports[`<Badge /> should match its snapshot 'id' 1`] = `
 <span
-  class="dp-BadgeWrapper"
+  class="dp-Badge Badge--id"
+  role="button"
+  tabindex="-1"
 >
-  <span
-    class="dp-Badge Badge--id"
-    role="button"
-    tabindex="-1"
-  >
-    #1234
-  </span>
+  #1234
 </span>
 `;
