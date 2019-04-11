@@ -606,6 +606,7 @@
   align-items: center;
   color: var(--grey-darkest);
   display: flex;
+  position: relative;
 }
 
 .dp-SsoContent > .dp-Icon {
@@ -629,28 +630,25 @@
   border: 1px solid var(--brand-primary);
 }
 
-.dp-Badge.Badge--id.is-active .dp-ToolTips {
+.dp-Badge.Badge--id.is-active + .dp-ToolTips {
   border: 1px solid var(--brand-primary);
   display: flex;
 }
 
-.dp-Badge.Badge--id .dp-ToolTips {
+.dp-Badge.Badge--id + .dp-ToolTips {
   border-radius: 2px;
-  bottom: -3px;
-  left: calc(100% + 4px);
+  margin: 0;
   padding: 0;
-  right: auto;
-  top: -2px;
 }
 
-.Badge--id .dp-ToolTips .dp-Icon {
+.Badge--id + .dp-ToolTips .dp-Icon {
   border-right: 1px solid var(--grey);
   cursor: pointer;
   margin: 0;
   padding: 10px 12px;
 }
 
-.Badge--id .dp-ToolTips .dp-Icon:last-child {
+.Badge--id + .dp-ToolTips .dp-Icon:last-child {
   border: none;
 }
 

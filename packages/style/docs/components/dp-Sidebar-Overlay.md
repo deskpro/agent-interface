@@ -1665,7 +1665,7 @@ title: Side-bar Overlay
 </div>
 ```
 
-<h4> side-bar-overlay/search-org </h4>
+<!-- <h4> side-bar-overlay/search-org </h4>
 ```html @preview
 
 <form>
@@ -1674,27 +1674,27 @@ title: Side-bar Overlay
 		<input type="text" class="dp-Input Input--search">
 	</div>
 </form>
-```
+``` -->
 
-```html @preview
-	<form>
-		<div class="dp-Form dp-Search-org dp-Search-DropDown">
-			
-			<span class="dp-Search-title">
-				<span class="dp-Title">
-					<span class="dp-Icon dp-IconSearch"></span>
-					Add organization
-				</span>
-				<span class="dp-Arrow"></span>
+<!-- ```html @preview
+<form>
+	<div class="dp-Form dp-Search-org dp-Search-DropDown">
+		
+		<span class="dp-Search-title">
+			<span class="dp-Title">
+				<span class="dp-Icon dp-IconSearch"></span>
+				Add organization
 			</span>
-			
-			<ul class="dp-DropDown-Menu">
-				<li class="dp-Menu-linkItem">Optical</li>
-				<li class="dp-Menu-linkItem">Panasonic</li>
-				<li class="dp-Menu-linkItem">Microsoft</li>
-				<li class="dp-Menu-linkItem">Bit Defender</li>
-			</ul>
+			<span class="dp-Arrow"></span>
+		</span>
+		
+		<ul class="dp-DropDown-Menu">
+			<li class="dp-Menu-linkItem">Optical</li>
+			<li class="dp-Menu-linkItem">Panasonic</li>
+			<li class="dp-Menu-linkItem">Microsoft</li>
+			<li class="dp-Menu-linkItem">Bit Defender</li>
+		</ul>
 
-		</div>
-	</form>
-```
+	</div>
+</form>
+``` -->

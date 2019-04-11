@@ -97,16 +97,19 @@ title: Ticket View - Messages
 
 			<div class="dp-SsoWrap">
 				<div class="dp-SsoContent">
+
 					<span class="dp-Icon dp-iconStar Icon-success"></span>
 					<span class="dp-Badge Badge--id is-active">
 						#14355
-						<span class="dp-ToolTips">
-							<span class="dp-Icon dp-TicketId"></span>
-							<span class="dp-Icon dp-IconLink"></span>
-						</span>
 					</span>
+					<span class="dp-ToolTips">
+						<span class="dp-Icon dp-TicketId"></span>
+						<span class="dp-Icon dp-IconLink"></span>
+					</span>
+
 					<span class="dp-SsoTxt">SSO working well with Safari and IE but issue with Chrome browser</span>
 				</div>
+				
 				<span class="dp-TagBar">
 					<span class="dp-Tag Tag--close">Custom work<span class="dp-Icon dp-close"></span></span>
 					<span class="dp-Tag Tag--close">Report back on bug fix<span class="dp-Icon dp-close"></span></span>
