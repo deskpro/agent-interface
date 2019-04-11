@@ -4,10 +4,9 @@ import { Manager, Reference, Popper } from "react-popper";
 
 import Badge from "./Badge";
 import Icon from "../Icon/Icon";
-
-import "@deskpro/agent-interface-style/dist/components/dp-Ticketview.css";
-import "@deskpro/agent-interface-style/dist/elements/dp-tooltips.css";
 import CopyToClipboard from "../../common/CopyToClipboard/CopyToClipboard";
+
+import "@deskpro/agent-interface-style/dist/elements/dp-tooltips.css";
 
 export type BadgeCopyProps = {
   value: string | number;
