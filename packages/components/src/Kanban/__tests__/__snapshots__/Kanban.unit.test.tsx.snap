@@ -148,9 +148,7 @@ exports[`<StandardKanban /> should match snapshot 1`] = `
                     >
                       <span
                         class="dp-TimeStatus"
-                      >
-                        about 2 hours
-                      </span>
+                      />
                     </span>
                   </div>
                 </div>
@@ -258,9 +256,7 @@ exports[`<StandardKanban /> should match snapshot 1`] = `
                     >
                       <span
                         class="dp-TimeStatus"
-                      >
-                        about 2 hours
-                      </span>
+                      />
                     </span>
                   </div>
                 </div>
@@ -368,9 +364,7 @@ exports[`<StandardKanban /> should match snapshot 1`] = `
                     >
                       <span
                         class="dp-TimeStatus"
-                      >
-                        about 2 hours
-                      </span>
+                      />
                     </span>
                   </div>
                 </div>
@@ -537,9 +531,7 @@ exports[`<StandardKanban /> should match snapshot 1`] = `
                     >
                       <span
                         class="dp-TimeStatus"
-                      >
-                        about 2 hours
-                      </span>
+                      />
                     </span>
                   </div>
                 </div>
@@ -647,9 +639,7 @@ exports[`<StandardKanban /> should match snapshot 1`] = `
                     >
                       <span
                         class="dp-TimeStatus"
-                      >
-                        about 2 hours
-                      </span>
+                      />
                     </span>
                   </div>
                 </div>
@@ -757,9 +747,7 @@ exports[`<StandardKanban /> should match snapshot 1`] = `
                     >
                       <span
                         class="dp-TimeStatus"
-                      >
-                        about 2 hours
-                      </span>
+                      />
                     </span>
                   </div>
                 </div>
@@ -867,9 +855,7 @@ exports[`<StandardKanban /> should match snapshot 1`] = `
                     >
                       <span
                         class="dp-TimeStatus"
-                      >
-                        about 2 hours
-                      </span>
+                      />
                     </span>
                   </div>
                 </div>
@@ -977,9 +963,7 @@ exports[`<StandardKanban /> should match snapshot 1`] = `
                     >
                       <span
                         class="dp-TimeStatus"
-                      >
-                        about 2 hours
-                      </span>
+                      />
                     </span>
                   </div>
                 </div>
@@ -1087,9 +1071,7 @@ exports[`<StandardKanban /> should match snapshot 1`] = `
                     >
                       <span
                         class="dp-TimeStatus"
-                      >
-                        about 2 hours
-                      </span>
+                      />
                     </span>
                   </div>
                 </div>
@@ -1197,9 +1179,7 @@ exports[`<StandardKanban /> should match snapshot 1`] = `
                     >
                       <span
                         class="dp-TimeStatus"
-                      >
-                        about 2 hours
-                      </span>
+                      />
                     </span>
                   </div>
                 </div>
@@ -1307,9 +1287,7 @@ exports[`<StandardKanban /> should match snapshot 1`] = `
                     >
                       <span
                         class="dp-TimeStatus"
-                      >
-                        about 2 hours
-                      </span>
+                      />
                     </span>
                   </div>
                 </div>
@@ -1417,9 +1395,7 @@ exports[`<StandardKanban /> should match snapshot 1`] = `
                     >
                       <span
                         class="dp-TimeStatus"
-                      >
-                        about 2 hours
-                      </span>
+                      />
                     </span>
                   </div>
                 </div>
@@ -1527,9 +1503,7 @@ exports[`<StandardKanban /> should match snapshot 1`] = `
                     >
                       <span
                         class="dp-TimeStatus"
-                      >
-                        about 2 hours
-                      </span>
+                      />
                     </span>
                   </div>
                 </div>
@@ -1637,9 +1611,7 @@ exports[`<StandardKanban /> should match snapshot 1`] = `
                     >
                       <span
                         class="dp-TimeStatus"
-                      >
-                        about 2 hours
-                      </span>
+                      />
                     </span>
                   </div>
                 </div>
@@ -1747,9 +1719,7 @@ exports[`<StandardKanban /> should match snapshot 1`] = `
                     >
                       <span
                         class="dp-TimeStatus"
-                      >
-                        about 2 hours
-                      </span>
+                      />
                     </span>
                   </div>
                 </div>
@@ -1857,9 +1827,7 @@ exports[`<StandardKanban /> should match snapshot 1`] = `
                     >
                       <span
                         class="dp-TimeStatus"
-                      >
-                        about 2 hours
-                      </span>
+                      />
                     </span>
                   </div>
                 </div>
@@ -1967,9 +1935,7 @@ exports[`<StandardKanban /> should match snapshot 1`] = `
                     >
                       <span
                         class="dp-TimeStatus"
-                      >
-                        about 2 hours
-                      </span>
+                      />
                     </span>
                   </div>
                 </div>
@@ -2077,9 +2043,7 @@ exports[`<StandardKanban /> should match snapshot 1`] = `
                     >
                       <span
                         class="dp-TimeStatus"
-                      >
-                        about 2 hours
-                      </span>
+                      />
                     </span>
                   </div>
                 </div>
@@ -2187,9 +2151,7 @@ exports[`<StandardKanban /> should match snapshot 1`] = `
                     >
                       <span
                         class="dp-TimeStatus"
-                      >
-                        about 2 hours
-                      </span>
+                      />
                     </span>
                   </div>
                 </div>
@@ -2297,9 +2259,7 @@ exports[`<StandardKanban /> should match snapshot 1`] = `
                     >
                       <span
                         class="dp-TimeStatus"
-                      >
-                        about 2 hours
-                      </span>
+                      />
                     </span>
                   </div>
                 </div>
@@ -2407,9 +2367,7 @@ exports[`<StandardKanban /> should match snapshot 1`] = `
                     >
                       <span
                         class="dp-TimeStatus"
-                      >
-                        about 2 hours
-                      </span>
+                      />
                     </span>
                   </div>
                 </div>
@@ -2576,9 +2534,7 @@ exports[`<StandardKanban /> should match snapshot 1`] = `
                     >
                       <span
                         class="dp-TimeStatus"
-                      >
-                        about 2 hours
-                      </span>
+                      />
                     </span>
                   </div>
                 </div>
@@ -2686,9 +2642,7 @@ exports[`<StandardKanban /> should match snapshot 1`] = `
                     >
                       <span
                         class="dp-TimeStatus"
-                      >
-                        about 2 hours
-                      </span>
+                      />
                     </span>
                   </div>
                 </div>
@@ -2855,9 +2809,7 @@ exports[`<StandardKanban /> should match snapshot 1`] = `
                     >
                       <span
                         class="dp-TimeStatus"
-                      >
-                        about 2 hours
-                      </span>
+                      />
                     </span>
                   </div>
                 </div>
@@ -2965,9 +2917,7 @@ exports[`<StandardKanban /> should match snapshot 1`] = `
                     >
                       <span
                         class="dp-TimeStatus"
-                      >
-                        about 2 hours
-                      </span>
+                      />
                     </span>
                   </div>
                 </div>
@@ -3075,9 +3025,7 @@ exports[`<StandardKanban /> should match snapshot 1`] = `
                     >
                       <span
                         class="dp-TimeStatus"
-                      >
-                        about 2 hours
-                      </span>
+                      />
                     </span>
                   </div>
                 </div>
@@ -3185,9 +3133,7 @@ exports[`<StandardKanban /> should match snapshot 1`] = `
                     >
                       <span
                         class="dp-TimeStatus"
-                      >
-                        about 2 hours
-                      </span>
+                      />
                     </span>
                   </div>
                 </div>
@@ -3295,9 +3241,7 @@ exports[`<StandardKanban /> should match snapshot 1`] = `
                     >
                       <span
                         class="dp-TimeStatus"
-                      >
-                        about 2 hours
-                      </span>
+                      />
                     </span>
                   </div>
                 </div>
@@ -3405,9 +3349,7 @@ exports[`<StandardKanban /> should match snapshot 1`] = `
                     >
                       <span
                         class="dp-TimeStatus"
-                      >
-                        about 2 hours
-                      </span>
+                      />
                     </span>
                   </div>
                 </div>
@@ -3574,9 +3516,7 @@ exports[`<StandardKanban /> should match snapshot 1`] = `
                     >
                       <span
                         class="dp-TimeStatus"
-                      >
-                        about 2 hours
-                      </span>
+                      />
                     </span>
                   </div>
                 </div>
@@ -3684,9 +3624,7 @@ exports[`<StandardKanban /> should match snapshot 1`] = `
                     >
                       <span
                         class="dp-TimeStatus"
-                      >
-                        about 2 hours
-                      </span>
+                      />
                     </span>
                   </div>
                 </div>
@@ -3794,9 +3732,7 @@ exports[`<StandardKanban /> should match snapshot 1`] = `
                     >
                       <span
                         class="dp-TimeStatus"
-                      >
-                        about 2 hours
-                      </span>
+                      />
                     </span>
                   </div>
                 </div>
@@ -3904,9 +3840,7 @@ exports[`<StandardKanban /> should match snapshot 1`] = `
                     >
                       <span
                         class="dp-TimeStatus"
-                      >
-                        about 2 hours
-                      </span>
+                      />
                     </span>
                   </div>
                 </div>
@@ -4014,9 +3948,7 @@ exports[`<StandardKanban /> should match snapshot 1`] = `
                     >
                       <span
                         class="dp-TimeStatus"
-                      >
-                        about 2 hours
-                      </span>
+                      />
                     </span>
                   </div>
                 </div>
@@ -4124,9 +4056,7 @@ exports[`<StandardKanban /> should match snapshot 1`] = `
                     >
                       <span
                         class="dp-TimeStatus"
-                      >
-                        about 2 hours
-                      </span>
+                      />
                     </span>
                   </div>
                 </div>
@@ -4234,9 +4164,7 @@ exports[`<StandardKanban /> should match snapshot 1`] = `
                     >
                       <span
                         class="dp-TimeStatus"
-                      >
-                        about 2 hours
-                      </span>
+                      />
                     </span>
                   </div>
                 </div>
@@ -4403,9 +4331,7 @@ exports[`<StandardKanban /> should match snapshot 1`] = `
                     >
                       <span
                         class="dp-TimeStatus"
-                      >
-                        about 2 hours
-                      </span>
+                      />
                     </span>
                   </div>
                 </div>
@@ -4513,9 +4439,7 @@ exports[`<StandardKanban /> should match snapshot 1`] = `
                     >
                       <span
                         class="dp-TimeStatus"
-                      >
-                        about 2 hours
-                      </span>
+                      />
                     </span>
                   </div>
                 </div>
@@ -4623,9 +4547,7 @@ exports[`<StandardKanban /> should match snapshot 1`] = `
                     >
                       <span
                         class="dp-TimeStatus"
-                      >
-                        about 2 hours
-                      </span>
+                      />
                     </span>
                   </div>
                 </div>
@@ -4733,9 +4655,7 @@ exports[`<StandardKanban /> should match snapshot 1`] = `
                     >
                       <span
                         class="dp-TimeStatus"
-                      >
-                        about 2 hours
-                      </span>
+                      />
                     </span>
                   </div>
                 </div>
@@ -4843,9 +4763,7 @@ exports[`<StandardKanban /> should match snapshot 1`] = `
                     >
                       <span
                         class="dp-TimeStatus"
-                      >
-                        about 2 hours
-                      </span>
+                      />
                     </span>
                   </div>
                 </div>
@@ -4953,9 +4871,7 @@ exports[`<StandardKanban /> should match snapshot 1`] = `
                     >
                       <span
                         class="dp-TimeStatus"
-                      >
-                        about 2 hours
-                      </span>
+                      />
                     </span>
                   </div>
                 </div>
@@ -5063,9 +4979,7 @@ exports[`<StandardKanban /> should match snapshot 1`] = `
                     >
                       <span
                         class="dp-TimeStatus"
-                      >
-                        about 2 hours
-                      </span>
+                      />
                     </span>
                   </div>
                 </div>
@@ -5173,9 +5087,7 @@ exports[`<StandardKanban /> should match snapshot 1`] = `
                     >
                       <span
                         class="dp-TimeStatus"
-                      >
-                        about 2 hours
-                      </span>
+                      />
                     </span>
                   </div>
                 </div>

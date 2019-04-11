@@ -52,11 +52,7 @@ describe("<StandardKanban />", () => {
                 />
               </>
             }
-            status={
-              <Card.TicketCard.Status
-                lastUpdate={new Date("2019-04-09 12:00:00 UTC")}
-              />
-            }
+            status={<Card.TicketCard.Status />}
             renderCogMenu={menuProps => (
               <Menu {...menuProps}>
                 <Menu.MenuItem name="assign" icon="avatar" text="Assignee">
