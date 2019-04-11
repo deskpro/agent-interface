@@ -620,38 +620,6 @@
   margin-right: 5px;
 }
 
-.Badge--id {
-  position: relative;
-}
-
-.dp-Badge.Badge--id.is-active,
-.dp-Badge.Badge--id:hover {
-  background-color: var(--primary-light);
-  border: 1px solid var(--brand-primary);
-}
-
-.dp-Badge.Badge--id.is-active + .dp-ToolTips {
-  border: 1px solid var(--brand-primary);
-  display: flex;
-}
-
-.dp-Badge.Badge--id + .dp-ToolTips {
-  border-radius: 2px;
-  margin: 0;
-  padding: 0;
-}
-
-.Badge--id + .dp-ToolTips .dp-Icon {
-  border-right: 1px solid var(--grey);
-  cursor: pointer;
-  margin: 0;
-  padding: 10px 12px;
-}
-
-.Badge--id + .dp-ToolTips .dp-Icon:last-child {
-  border: none;
-}
-
 .dp-SsoTxt {
   color: var(--grey-darkest);
   font: var(--h-l-semibold);

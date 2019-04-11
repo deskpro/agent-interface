@@ -10,10 +10,3 @@
 .dp-Pageview-Demonstration .Pageview-container-demo {
   width: 1100px;
 }
-
-.dp-Pageview-Demonstration .dp-Badge.Badge--id + .dp-ToolTips {
-  bottom: -2px;
-  left: 72px;
-  position: absolute;
-  top: -2px;
-}

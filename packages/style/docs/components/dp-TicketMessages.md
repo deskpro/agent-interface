@@ -102,7 +102,7 @@ title: Ticket View - Messages
 					<span class="dp-Badge Badge--id is-active">
 						#14355
 					</span>
-					<span class="dp-ToolTips">
+					<span class="dp-Badge-actions">
 						<span class="dp-Icon dp-TicketId"></span>
 						<span class="dp-Icon dp-IconLink"></span>
 					</span>

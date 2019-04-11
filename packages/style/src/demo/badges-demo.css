@@ -12,3 +12,9 @@
 .dp-MainWrapper.Badge--round {
   display: flex;
 }
+
+.dp-Pageview-Demonstration .dp-Badge.Badge--id + .dp-Badge-actions {
+  bottom: -2px;
+  left: 72px;
+  top: -2px;
+}
