@@ -6,8 +6,6 @@ import Badge from "./Badge";
 import Icon from "../Icon/Icon";
 import CopyToClipboard from "../../common/CopyToClipboard/CopyToClipboard";
 
-import "@deskpro/agent-interface-style/dist/elements/dp-tooltips.css";
-
 export type BadgeCopyProps = {
   value: string | number;
   className?: string;
@@ -37,11 +35,7 @@ const BadgeCopy: React.FC<BadgeCopyProps> = ({ value, className }) => {
           }}
         >
           {({ ref, style }) => (
-            <span
-              className="dp-ToolTips ToolTips--badge"
-              ref={ref}
-              style={style}
-            >
+            <span className="dp-Badge-actions" ref={ref} style={style}>
               <CopyToClipboard value={value} />
               <Icon name="link" size={17} />
             </span>
