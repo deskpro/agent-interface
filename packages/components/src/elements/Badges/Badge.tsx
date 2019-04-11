@@ -8,7 +8,7 @@ export type BadgeProps = {
   className?: string;
   type?: "pill" | "round" | "id" | "filterPill" | "group-filter";
   label?: string;
-  value?: number | string | null;
+  value?: React.ReactNode;
   onClick?: (e: React.SyntheticEvent) => void;
   children?: React.ReactNode;
   innerRef?: React.Ref<HTMLSpanElement>;
@@ -49,12 +49,20 @@ const Badge: React.FC<BadgeProps> = ({
 
     case "id":
       return (
-        <span className="dp-BadgeWrapper" ref={innerRef}>
-          <span className={classes}>
-            {label}
-            {value}
-          </span>
-          {children}
+        <span
+          className={classes}
+          onClick={onClick}
+          ref={innerRef}
+          tabIndex={-1}
+          role="button"
+          onKeyPress={e => {
+            if (e.key === "Enter" && onClick) {
+              onClick(e);
+            }
+          }}
+        >
+          {label}
+          {value}
         </span>
       );
 

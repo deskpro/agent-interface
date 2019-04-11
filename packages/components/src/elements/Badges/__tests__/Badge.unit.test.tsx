@@ -2,16 +2,12 @@ import * as React from "react";
 import { render, fireEvent } from "react-testing-library";
 
 import Badge from "../Badge";
+import BadgeCopy from "../BadgeCopy";
 
 describe("<Badge />", () => {
   it("should match its snapshot 'id'", () => {
-    const handleClick = jest.fn();
-    const { getByText } = render(
-      <Badge type="id" onClick={handleClick}>
-        Badge
-      </Badge>
-    );
-    expect(getByText("Badge")).toMatchSnapshot();
+    const { container } = render(<BadgeCopy value="1234" />);
+    expect(container.firstChild).toMatchSnapshot();
   });
   it("should call onClick fn on click", () => {
     const handleClick = jest.fn();

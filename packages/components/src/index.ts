@@ -6,6 +6,7 @@ export { default as IconGroup } from "./elements/Icon/IconGroup";
 export { default as Tag } from "./elements/Badges/Tag";
 export { default as TagBar } from "./elements/Badges/TagBar";
 export { default as Badge } from "./elements/Badges/Badge";
+export { default as BadgeCopy } from "./elements/Badges/BadgeCopy";
 export {
   default as FieldGroupingList
 } from "./elements/FieldGroupingList/FieldGroupingList";
