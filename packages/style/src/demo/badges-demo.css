@@ -18,3 +18,7 @@
   left: 72px;
   top: -2px;
 }
+
+.dp-Pageview-Demonstration .Badge--id + .dp-Badge-actions .dp-Icon {
+  padding: 10px 12px;
+}

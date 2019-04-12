@@ -830,12 +830,19 @@ title: Side-bar Overlay
 					<div class="dp-TitleRow">
 						<span class="dp-UserInfo">
 							<img class="Icon--Avatar dp-InfoItem" src="/agent-interface/style/img/docs/avatar.png" alt="">
-							<span class="dp-Badge Badge--id">
+<!-- 							<span class="dp-Badge Badge--id">
 								#14355
 								<span class="dp-ToolTips">
 									<span class="dp-Icon dp-TicketId"></span>
 									<span class="dp-Icon dp-IconLink"></span>
 								</span>
+							</span> -->
+							<span class="dp-Badge Badge--id is-active">
+								#14355
+							</span>
+							<span class="dp-Badge-actions">
+								<span class="dp-Icon dp-TicketId"></span>
+								<span class="dp-Icon dp-IconLink"></span>
 							</span>
 							<span class="dp-InfoItem dp-UserName">Zack Prudent</span>
 						</span>

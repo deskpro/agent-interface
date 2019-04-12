@@ -14,3 +14,9 @@
 .dp-Header.header-wrapper {
   height: 100px;
 }
+
+.dp-YourAccount {
+  left: auto;
+  right: 0;
+  top: calc(100% + 5px);
+}

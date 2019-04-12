@@ -432,9 +432,20 @@
   border-right: 1px solid var(--grey);
   cursor: pointer;
   margin: 0;
-  padding: 10px 12px;
+  padding: 2px 4px;
+
+  /* padding: 10px 12px; */
 }
 
 .Badge--id + .dp-Badge-actions .dp-Icon:last-child {
   border: none;
+}
+
+.dp-Badge-actions svg {
+  align-items: center;
+  display: flex;
+}
+
+.dp-Badge-actions .dp-Icon:hover svg {
+  fill: var(--brand-primary);
 }
