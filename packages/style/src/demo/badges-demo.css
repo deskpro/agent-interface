@@ -19,6 +19,13 @@
   top: -2px;
 }
 
-.dp-Pageview-Demonstration .Badge--id + .dp-Badge-actions .dp-Icon {
-  padding: 10px 12px;
+.dp-UserOverlay.demo-menu .dp-Badge.Badge--id + .dp-Badge-actions {
+  bottom: 0;
+  left: 85px;
+  top: 0;
+}
+
+.dp-Pageview-Demonstration .Badge--id + .dp-Badge-actions .dp-Icon,
+.dp-UserOverlay.demo-menu .Badge--id + .dp-Badge-actions .dp-Icon {
+  padding: 0 12px;
 }

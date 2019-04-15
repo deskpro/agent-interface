@@ -213,17 +213,17 @@ title: Side-bar Overlay
 				<div class="dp-OverlayContent">
 
 					<div class="dp-TitleRow">
-						<span class="dp-UserInfo">
+						<div class="dp-SsoContent">
 							<img class="Icon--Avatar dp-InfoItem" src="/agent-interface/style/img/docs/avatar.png" alt="">
-							<span class="dp-Badge Badge--id">
+							<span class="dp-Badge Badge--id is-active">
 								#14355
-								<span class="dp-ToolTips">
-									<span class="dp-Icon dp-TicketId"></span>
-									<span class="dp-Icon dp-IconLink"></span>
-								</span>
+							</span>
+							<span class="dp-Badge-actions">
+								<span class="dp-Icon dp-TicketId"></span>
+								<span class="dp-Icon dp-IconLink"></span>
 							</span>
 							<span class="dp-InfoItem dp-UserName">Zack Prudent</span>
-						</span>
+						</div>
 					</div>
 
 					<!-- Action bar -->
@@ -828,15 +828,9 @@ title: Side-bar Overlay
 				<div class="dp-OverlayContent">
 
 					<div class="dp-TitleRow">
-						<span class="dp-UserInfo">
+
+						<div class="dp-SsoContent">
 							<img class="Icon--Avatar dp-InfoItem" src="/agent-interface/style/img/docs/avatar.png" alt="">
-<!-- 							<span class="dp-Badge Badge--id">
-								#14355
-								<span class="dp-ToolTips">
-									<span class="dp-Icon dp-TicketId"></span>
-									<span class="dp-Icon dp-IconLink"></span>
-								</span>
-							</span> -->
 							<span class="dp-Badge Badge--id is-active">
 								#14355
 							</span>
@@ -845,7 +839,8 @@ title: Side-bar Overlay
 								<span class="dp-Icon dp-IconLink"></span>
 							</span>
 							<span class="dp-InfoItem dp-UserName">Zack Prudent</span>
-						</span>
+						</div>
+
 					</div>
 
 					<!-- Action bar -->
@@ -1269,17 +1264,17 @@ title: Side-bar Overlay
 				<div class="dp-OverlayContent">
 
 					<div class="dp-TitleRow">
-						<span class="dp-UserInfo">
-							<img class="Icon--Avatar" src="/agent-interface/style/img/docs/avatar.png" alt="">
-							<span class="dp-Badge Badge--id">
+						<div class="dp-SsoContent">
+							<img class="Icon--Avatar dp-InfoItem" src="/agent-interface/style/img/docs/avatar.png" alt="">
+							<span class="dp-Badge Badge--id is-active">
 								#14355
-								<span class="dp-ToolTips">
-									<span class="dp-Icon dp-TicketId"></span>
-									<span class="dp-Icon dp-IconLink"></span>
-								</span>
+							</span>
+							<span class="dp-Badge-actions">
+								<span class="dp-Icon dp-TicketId"></span>
+								<span class="dp-Icon dp-IconLink"></span>
 							</span>
 							<span class="dp-InfoItem dp-UserName">Zack Prudent</span>
-						</span>
+						</div>
 					</div>
 
 					<!-- Action bar -->

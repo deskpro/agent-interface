@@ -1,22 +1,10 @@
 @import "../fonts.css";
 @import "../vars.css";
 
-.dp-Header {
-  background-color: var(--grey-lighter);
+.dp-HeaderDemo .dp-Header {
+  padding: 15px;
 }
 
-.dp-Header.Header-general {
-  align-items: flex-start;
-  height: 400px;
-  padding: 25px;
-}
-
-.dp-Header.header-wrapper {
-  height: 100px;
-}
-
-.dp-YourAccount {
-  left: auto;
-  right: 0;
-  top: calc(100% + 5px);
+.demo-menu .dp-Account .dp-Menu {
+  top: calc(100% + 15px);
 }
