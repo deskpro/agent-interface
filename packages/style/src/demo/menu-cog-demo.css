@@ -75,7 +75,7 @@
   display: block;
 }
 
-.dp-Menu.Menu--tick .is-active + .dp-Menu {
+.demo-menu .dp-Menu.Menu--tick .is-active + .dp-Menu {
   left: 100%;
   top: 0;
 }
