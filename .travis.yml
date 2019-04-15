@@ -40,7 +40,7 @@ deploy:
     local-dir: target/gh-pages
     target-branch: gh-pages
     on:
-      branch: master
+      branch: develop
   - provider: script
     skip-cleanup: true
     script: yarn publish-npm -- --repo-version $(node bin/lerna-version.js)
