@@ -9,8 +9,8 @@ export type HeaderProps = {
   className?: string;
   searchKeyword?: string;
   onSearch: (keyword: string) => void;
-  left: React.ReactElement[];
-  right: React.ReactElement[];
+  left: React.ReactNode;
+  right: React.ReactNode;
 };
 
 const Header: React.FC<HeaderProps> = ({
