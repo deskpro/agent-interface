@@ -333,10 +333,10 @@ input.dp-NewTitle {
   left: -2px;
 }
 
-.dp-PageSidebar .dp-Input.Input--search:valid {
+/* .dp-PageSidebar .dp-Input.Input--search:valid {
   border: 0.75px solid var(--brand-primary);
-}
+} */
 
-.dp-PageSidebar .dp-Input.Input--search:valid svg {
+/* .dp-PageSidebar .dp-Input.Input--search:valid svg {
   fill: var(--brand-primary);
-}
+} */

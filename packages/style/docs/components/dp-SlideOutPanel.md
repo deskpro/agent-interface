@@ -937,7 +937,7 @@ title: Change user
                 <div class="dp-Menu-search">
                     <form>
                         <div class="dp-Form">
-                            <input type="text" placeholder="Search" class="dp-Input Input--search">
+                            <input type="text" value="" placeholder="Search" class="dp-Input Input--search">
                             <span class="dp-Icon dp-IconSearch"></span>
                         </div>
                     </form>
@@ -1088,7 +1088,7 @@ title: Change user
 ```
 
 ```html @preview
-<div class="dp-MainWrapper demo-cog demo-menu">
+<div class="dp-MainWrapper demo-cog demo-menu ChangeUser--Demo">
     <div class="dp-SlideOutPanel dp-ChangeUser">
         <div class="dp-PageSidebar">
             <div class="dp-SidebarBody">

@@ -213,17 +213,17 @@ title: Side-bar Overlay
 				<div class="dp-OverlayContent">
 
 					<div class="dp-TitleRow">
-						<span class="dp-UserInfo">
+						<div class="dp-SsoContent">
 							<img class="Icon--Avatar dp-InfoItem" src="/agent-interface/style/img/docs/avatar.png" alt="">
-							<span class="dp-Badge Badge--id">
+							<span class="dp-Badge Badge--id is-active">
 								#14355
-								<span class="dp-ToolTips">
-									<span class="dp-Icon dp-TicketId"></span>
-									<span class="dp-Icon dp-IconLink"></span>
-								</span>
+							</span>
+							<span class="dp-Badge-actions">
+								<span class="dp-Icon dp-TicketId"></span>
+								<span class="dp-Icon dp-IconLink"></span>
 							</span>
 							<span class="dp-InfoItem dp-UserName">Zack Prudent</span>
-						</span>
+						</div>
 					</div>
 
 					<!-- Action bar -->
@@ -828,17 +828,19 @@ title: Side-bar Overlay
 				<div class="dp-OverlayContent">
 
 					<div class="dp-TitleRow">
-						<span class="dp-UserInfo">
+
+						<div class="dp-SsoContent">
 							<img class="Icon--Avatar dp-InfoItem" src="/agent-interface/style/img/docs/avatar.png" alt="">
-							<span class="dp-Badge Badge--id">
+							<span class="dp-Badge Badge--id is-active">
 								#14355
-								<span class="dp-ToolTips">
-									<span class="dp-Icon dp-TicketId"></span>
-									<span class="dp-Icon dp-IconLink"></span>
-								</span>
+							</span>
+							<span class="dp-Badge-actions">
+								<span class="dp-Icon dp-TicketId"></span>
+								<span class="dp-Icon dp-IconLink"></span>
 							</span>
 							<span class="dp-InfoItem dp-UserName">Zack Prudent</span>
-						</span>
+						</div>
+
 					</div>
 
 					<!-- Action bar -->
@@ -1262,17 +1264,17 @@ title: Side-bar Overlay
 				<div class="dp-OverlayContent">
 
 					<div class="dp-TitleRow">
-						<span class="dp-UserInfo">
-							<img class="Icon--Avatar" src="/agent-interface/style/img/docs/avatar.png" alt="">
-							<span class="dp-Badge Badge--id">
+						<div class="dp-SsoContent">
+							<img class="Icon--Avatar dp-InfoItem" src="/agent-interface/style/img/docs/avatar.png" alt="">
+							<span class="dp-Badge Badge--id is-active">
 								#14355
-								<span class="dp-ToolTips">
-									<span class="dp-Icon dp-TicketId"></span>
-									<span class="dp-Icon dp-IconLink"></span>
-								</span>
+							</span>
+							<span class="dp-Badge-actions">
+								<span class="dp-Icon dp-TicketId"></span>
+								<span class="dp-Icon dp-IconLink"></span>
 							</span>
 							<span class="dp-InfoItem dp-UserName">Zack Prudent</span>
-						</span>
+						</div>
 					</div>
 
 					<!-- Action bar -->
@@ -1665,7 +1667,7 @@ title: Side-bar Overlay
 </div>
 ```
 
-<h4> side-bar-overlay/search-org </h4>
+<!-- <h4> side-bar-overlay/search-org </h4>
 ```html @preview
 
 <form>
@@ -1674,27 +1676,27 @@ title: Side-bar Overlay
 		<input type="text" class="dp-Input Input--search">
 	</div>
 </form>
-```
+``` -->
 
-```html @preview
-	<form>
-		<div class="dp-Form dp-Search-org dp-Search-DropDown">
-			
-			<span class="dp-Search-title">
-				<span class="dp-Title">
-					<span class="dp-Icon dp-IconSearch"></span>
-					Add organization
-				</span>
-				<span class="dp-Arrow"></span>
+<!-- ```html @preview
+<form>
+	<div class="dp-Form dp-Search-org dp-Search-DropDown">
+		
+		<span class="dp-Search-title">
+			<span class="dp-Title">
+				<span class="dp-Icon dp-IconSearch"></span>
+				Add organization
 			</span>
-			
-			<ul class="dp-DropDown-Menu">
-				<li class="dp-Menu-linkItem">Optical</li>
-				<li class="dp-Menu-linkItem">Panasonic</li>
-				<li class="dp-Menu-linkItem">Microsoft</li>
-				<li class="dp-Menu-linkItem">Bit Defender</li>
-			</ul>
+			<span class="dp-Arrow"></span>
+		</span>
+		
+		<ul class="dp-DropDown-Menu">
+			<li class="dp-Menu-linkItem">Optical</li>
+			<li class="dp-Menu-linkItem">Panasonic</li>
+			<li class="dp-Menu-linkItem">Microsoft</li>
+			<li class="dp-Menu-linkItem">Bit Defender</li>
+		</ul>
 
-		</div>
-	</form>
-```
+	</div>
+</form>
+``` -->

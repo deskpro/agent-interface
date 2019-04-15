@@ -43,3 +43,11 @@
 .demo-tickets .dp-Tabs {
   border-bottom: 0;
 }
+
+.ChangeUser--Demo .dp-PageSidebar .dp-Input.Input--search:valid {
+  border: 0.75px solid var(--brand-primary);
+}
+
+.ChangeUser--Demo .dp-PageSidebar .dp-Input.Input--search:valid svg {
+  fill: var(--brand-primary);
+}

@@ -13,6 +13,7 @@
 
   &.Badge--id {
     border: 1px solid var(--grey-light);
+    position: relative;
   }
 
   &.Badge--id:hover {
@@ -401,4 +402,50 @@
 
 .dp-Tag .dp-iconClose::after {
   transform: rotate(135deg);
+}
+
+/* .dp-Badge-actions */
+
+.dp-Badge-actions {
+  background-color: var(--white);
+  position: absolute;
+}
+
+.dp-Badge.Badge--id.is-active,
+.dp-Badge.Badge--id:hover {
+  background-color: var(--primary-light);
+  border: 1px solid var(--brand-primary);
+}
+
+.dp-Badge.Badge--id.is-active + .dp-Badge-actions {
+  border: 1px solid var(--brand-primary);
+  display: flex;
+}
+
+.dp-Badge.Badge--id + .dp-Badge-actions {
+  border-radius: 2px;
+  margin: 0;
+  padding: 0;
+}
+
+.Badge--id + .dp-Badge-actions .dp-Icon {
+  border-right: 1px solid var(--grey);
+  cursor: pointer;
+  margin: 0;
+  padding: 2px 4px;
+
+  /* padding: 10px 12px; */
+}
+
+.Badge--id + .dp-Badge-actions .dp-Icon:last-child {
+  border: none;
+}
+
+.dp-Badge-actions svg {
+  align-items: center;
+  display: flex;
+}
+
+.dp-Badge-actions .dp-Icon:hover svg {
+  fill: var(--brand-primary);
 }

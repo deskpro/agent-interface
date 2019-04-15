@@ -73,7 +73,7 @@
   font: var(--p-l);
 }
 
-.dp-OverlayContent .dp-UserInfo .dp-UserName {
+.dp-OverlayContent .dp-SsoContent .dp-Badge-actions + .dp-UserName {
   color: var(--grey-darkest);
   font: var(--h-n-semibold);
   margin-left: 10px;
@@ -142,8 +142,10 @@
   background-color: var(--white);
 }
 
-.dp-OverlayContent .dp-UserInfo > .dp-Icon,
-.dp-OverlayContent .dp-UserInfo > .Icon--Avatar {
+/* .dp-OverlayContent .dp-UserInfo > .dp-Icon,
+.dp-OverlayContent .dp-UserInfo > .Icon--Avatar { */
+
+.dp-OverlayContent .dp-SsoContent > .Icon--Avatar {
   background-size: 22px 22px;
   height: 22px;
   min-width: 22px;

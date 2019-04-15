@@ -2,24 +2,11 @@
 @import "../vars.css";
 @import "../dp-Arrow.css";
 
-.dp-HeaderContainer {
-  background-color: var(--white);
-  display: block;
-  width: 100%;
-}
-
-.dp-TopActionRow {
-  border-bottom: 1px solid var(--grey);
-  display: flex;
-  justify-content: space-between;
-}
-
 .dp-Header {
   align-items: center;
+  background-color: var(--white);
+  border-bottom: 1px solid var(--grey);
   display: flex;
-  height: var(--height-search-control);
-  justify-content: space-between;
-  padding: 0 15px 0 12px;
   position: relative;
 }
 
@@ -31,24 +18,26 @@
   margin: 0;
 }
 
-.dp-SearchHeader {
+.dp-SearchBox {
   align-items: center;
   display: flex;
+  flex: 1 0 auto;
   height: 100%;
   justify-content: space-between;
-  padding: 0 15px 0 12px;
+  position: relative;
 }
 
-.dp-SearchHeader form {
+.dp-SearchBox form {
   align-items: center;
   display: flex;
   flex-direction: row-reverse;
   height: 100%;
+  padding: 12px 10px;
   position: relative;
   width: 100%;
 }
 
-.dp-SearchHeader input {
+.dp-SearchBox input {
   border: 0;
   color: var(--grey-darkest);
   font: var(--h-xl);
@@ -57,7 +46,7 @@
   width: 100%;
 }
 
-.dp-SearchHeader input::placeholder {
+.dp-SearchBox input::placeholder {
   color: var(--grey-darkest);
   font: var(--h-xl);
 }
@@ -68,8 +57,8 @@
   font-style: var(--is-italic);
 }
 
-.dp-SearchHeader input:focus + .dp-Icon svg,
-.dp-SearchHeader form:hover .dp-find svg,
+.dp-SearchBox input:focus + .dp-Icon svg,
+.dp-SearchBox form:hover .dp-find svg,
 .dp-Menu-search .dp-Form .dp-Input:focus + .dp-Icon svg,
 .dp-Menu-search .dp-Form:hover .dp-Input + .dp-Icon svg {
   fill: var(--brand-primary);
@@ -79,19 +68,54 @@
   border: 1px solid var(--brand-primary);
 }
 
-.dp-SearchHeader .dp-Icon {
+.dp-SearchBox .dp-Icon {
   background-size: 18px 18px;
   height: 18px;
   vertical-align: middle;
-  width: 21px;
+  width: 22px;
 }
 
-.dp-SearchHeader .dp-close-darkest {
+.dp-SearchBox .dp-close-darkest {
   height: 12.05px;
   width: 12.05px;
 }
 
 .dp-IconPanelList {
+  align-items: center;
+  background-color: var(--white);
+  display: none;
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  transition: 0.7s;
+  width: 100%;
+}
+
+.dp-SearchBox.is-expanded .dp-IconPanelList {
+  display: flex;
+  left: 100%;
+  opacity: 1;
+  z-index: 9;
+}
+
+.dp-IconPanelList .dp-MenuBarItem.dp-Close {
+  margin-left: 5px;
+}
+
+.dp-IconPanelList .dp-MenuBarItem.dp-Close::after {
+  background-color: var(--border-color);
+  content: "";
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 2px;
+  width: 1px;
+}
+
+.dp-Agent-IM,
+.dp-Agent-Status {
   align-items: center;
   display: flex;
   margin: 0;
@@ -99,55 +123,47 @@
   position: relative;
 }
 
-.dp-SearchHeader .dp-IconSection {
-  align-items: center;
-  display: flex;
+.dp-Recent > .dp-Icon,
+.dp-Agent-IM .dp-MenuBarItem:last-child > .dp-Icon {
+  background-size: 25px 25px;
+  cursor: pointer;
+  height: 25px;
+  width: 25px;
+}
+
+.dp-Agent-IM::before {
+  left: 0;
+}
+
+.dp-HeaderControls > div {
+  height: 25px;
   position: relative;
 }
 
-.dp-SearchHeader .dp-MenuBarItem:first-child::after {
+.dp-HeaderControls > div:not(:last-child) {
+  padding-right: 15px;
+}
+
+.dp-HeaderControls > div:not(:last-child)::after {
   background-color: var(--border-color);
   content: "";
   display: block;
-  height: 110%;
+  height: 52px;
   position: absolute;
-  top: -2px;
+  right: 0;
+  top: -13px;
   transform: rotate(30deg);
   width: 1px;
 }
 
-.dp-SearchHeader .dp-IconSection::before {
-  left: 0;
-}
-
-.dp-SearchHeader .dp-IconSection::after, .dp-SearchHeader .dp-MenuBarItem:first-child::after {
-  right: 0;
-}
-
-.dp-SearchHeader .dp-Badge.Badge--round, .dp-HeaderControl .dp-Badge.Badge--round {
+.dp-SearchBox .dp-Badge.Badge--round, .dp-HeaderControls .dp-Badge.Badge--round {
   height: 25px;
   margin: 0;
   width: 25px;
 }
 
-.dp-SearchHeader .dp-MenuBarItem {
+.dp-SearchBox .dp-MenuBarItem {
   padding: 0 0 0 15px;
-}
-
-.dp-SearchHeader .dp-MenuBarItem:first-child {
-  padding: 10px 15px;
-  position: relative;
-}
-
-.dp-SearchHeader .dp-MenuBarItem:last-child {
-  padding-right: 15px;
-}
-
-.dp-SearchHeader .dp-add_im, .dp-SearchHeader .dp-history {
-  background-size: 25px 25px;
-  cursor: pointer;
-  height: 25px;
-  width: 25px;
 }
 
 .header-search .dp-MenuBarItem:first-child::after {
@@ -158,21 +174,23 @@
 
 /* HeaderControl */
 
-.dp-HeaderControl {
+.dp-HeaderControls {
   align-items: center;
   display: flex;
-  justify-content: flex-end;
-  padding-right: 5px;
   position: relative;
   width: 100%;
 }
 
-.dp-HeaderControl .dp-Avatar, .dp-HeaderControl .dp-IconPlane {
+.dp-HeaderControls.is-right {
+  justify-content: flex-end;
+}
+
+.dp-HeaderControls .dp-Avatar, .dp-HeaderControls .dp-IconPlane {
   height: 20px;
   width: 20px;
 }
 
-.dp-HeaderControl .dp-MenuBarItem .dp-Icon {
+.dp-HeaderControls .dp-MenuBarItem .dp-Icon {
   border-radius: 0;
 }
 
@@ -181,41 +199,20 @@
   position: relative;
 }
 
-.dp-HeaderControl .dp-MenuBarItem {
+.dp-HeaderControls .dp-MenuBarItem {
   align-items: center;
   display: flex;
-  padding: 12px 20px 12px 0;
+  padding: 0 0 0 15px;
   position: relative;
 }
 
-.dp-HeaderControl .dp-MenuBarItem:first-child::after, .dp-HeaderControl .dp-MenuBarItem:last-child::before {
-  background-color: var(--border-color);
-  content: "";
-  display: block;
-  height: 110%;
-  position: absolute;
-  top: -2px;
-  transform: rotate(30deg);
-  width: 1px;
+.dp-Account {
+  align-items: center;
+  display: flex;
+  padding-left: 20px;
 }
 
-.dp-HeaderControl .dp-MenuBarItem:first-child {
-  margin-right: 20px;
-}
-
-.dp-HeaderControl .dp-MenuBarItem:first-child::after {
-  right: 0;
-}
-
-.dp-HeaderControl .dp-MenuBarItem:last-child {
-  padding: 12px 0 12px 20px;
-}
-
-.dp-HeaderControl .dp-MenuBarItem:last-child::before {
-  left: 0;
-}
-
-.dp-HeaderControl .dp-Icon, .dp-MenuBarItem .dp-Icon {
+.dp-HeaderControls .dp-Icon, .dp-MenuBarItem .dp-Icon {
   cursor: pointer;
 }
 
@@ -233,10 +230,6 @@
 .dp-IconHeader .dp-Icon {
   margin-right: 10px;
   position: relative;
-
-  /*  height: auto;
-  width: auto; */
-
 }
 
 .dp-Menu.dp-YourAccount .dp-Menu-title {
@@ -316,7 +309,7 @@
   width: 10.2px;
 }
 
-.demo-menu .dp-HeaderControl .dp-Menu {
+.demo-menu .dp-HeaderControls .dp-Menu {
   left: auto;
   right: 0;
 }
