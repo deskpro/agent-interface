@@ -37,12 +37,18 @@ export { default as ContextMenu } from "./elements/Menu/ContextMenu";
 export {
   default as StandardContextMenu
 } from "./elements/Menu/StandardContextMenu";
-export { default as Header } from "./elements/Header/Header";
 export { default as ModuleBar } from "./elements/ModuleBar/ModuleBar";
 export {
   default as SimpleModuleBar
 } from "./elements/ModuleBar/SimpleModuleBar";
 export { default as ModuleBarMenu } from "./elements/ModuleBar/ModuleBarMenu";
+
+export { default as Header } from "./elements/Header/Header";
+export { default as Account } from "./elements/Header/Account";
+export { default as AgentIM } from "./elements/Header/AgentIM";
+export { default as AgentStatus } from "./elements/Header/AgentStatus";
+export { default as Notifications } from "./elements/Header/Notifications";
+export { default as Recent } from "./elements/Header/Recent";
 
 export { default as OrderingBar } from "./ListPane/OrderingBar/OrderingBar";
 export { default as OptionList } from "./elements/OptionList/OptionList";
