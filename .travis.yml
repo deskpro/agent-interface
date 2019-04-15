@@ -17,8 +17,8 @@ script:
   - test "${TRAVIS_BRANCH}" = "${TRAVIS_TAG}" || yarn lint
   - test "${TRAVIS_BRANCH}" = "${TRAVIS_TAG}" || yarn test
   - yarn build
-  - 'if [ $TRAVIS_PULL_REQUEST != "false" ] || [ $TRAVIS_BRANCH == "master" ] || [ $TRAVIS_BRANCH == "develop" ]; then yarn test:regression; fi'
-  - 'if [ $TRAVIS_BRANCH == "develop"] || [ $TRAVIS_PULL_REQUEST != "false" ]; then ./bin/travis-prep-website.sh; else echo "site building is only enabled on the master/develop branch"; fi'
+  - 'if [ "${TRAVIS_PULL_REQUEST}" != "false" ] || [ "${TRAVIS_BRANCH}" == "master" ] || [ "${TRAVIS_BRANCH}" == "develop" ]; then yarn test:regression; fi'
+  - 'if [ "${TRAVIS_BRANCH}" == "develop"] && [ "${TRAVIS_PULL_REQUEST}" == "false" ]; then ./bin/travis-prep-website.sh; else echo "site building is only enabled on the develop branch"; fi'
 cache:
   yarn: true
   directories:
