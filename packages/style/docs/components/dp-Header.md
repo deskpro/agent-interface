@@ -107,7 +107,7 @@ title: Header
 ```html @preview
 <div class="dp-MainWrapper demo-menu">
     <div class="dp-Header">
-        <div class="dp-SearchBox search-enter">
+        <div class="dp-SearchBox search-enter-done">
             <form class="dp-SearchForm">
                 <input type="" placeholder="Search ..." value="Pricing"></input>
                 <span class="dp-Icon dp-find"></span>
@@ -123,7 +123,7 @@ title: Header
             </form>
         </div>
 
-        <div class="dp-HeaderControls fade-exit">
+        <div class="dp-HeaderControls fade-exit-done">
             <div class="dp-Recent"><span class="dp-Icon dp-history"></span></div>
             <ul class="dp-Agent-IM">
                 <li class="dp-MenuBarItem">

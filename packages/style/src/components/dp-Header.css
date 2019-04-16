@@ -23,8 +23,6 @@
 .dp-SearchBox {
   align-items: center;
   display: flex;
-
-  /* flex: 1 0 auto; */
   height: 100%;
   justify-content: space-between;
   max-width: 200px;
@@ -209,6 +207,14 @@
   padding-left: 20px;
 }
 
+.dp-Account::after {
+  display: none;
+}
+
+.dp-Header .dp-HeaderControls > .dp-Account {
+  padding-right: 0;
+}
+
 .dp-HeaderControls .dp-Icon, .dp-MenuBarItem .dp-Icon {
   cursor: pointer;
 }
@@ -370,7 +376,9 @@
   transition: 0.5s;
 }
 
-.dp-SearchBox.search-enter {
+/* .dp-SearchBox.search-enter { */
+
+.dp-SearchBox.search-enter-done {
   max-width: 100%;
   transition-delay: 0.5s;
 }
@@ -378,21 +386,23 @@
 .dp-IconPanelList {
   align-items: center;
   display: flex;
+  max-height: 18px;
   opacity: 0;
   position: absolute;
+  right: 0;
   transition: 0.5s;
 }
 
-.dp-SearchBox.search-enter .dp-IconPanelList,
-.dp-HeaderControls.fade-enter {
+.dp-SearchBox.search-enter-done .dp-IconPanelList,
+.dp-HeaderControls.fade-enter-done {
   opacity: 1;
 }
 
-.dp-SearchBox.search-exit .dp-IconPanelList {
+.dp-SearchBox.search-exit-done .dp-IconPanelList {
   opacity: 0;
 }
 
-.dp-HeaderControls.fade-exit {
+.dp-HeaderControls.fade-exit-done {
   opacity: 0;
   width: 0;
 }
