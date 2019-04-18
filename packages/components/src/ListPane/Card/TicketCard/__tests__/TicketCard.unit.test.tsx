@@ -32,7 +32,6 @@ describe("<TicketCard />", () => {
         }
         status={
           <TicketCard.Status
-            lastUpdate={subMinutes(date, 22)}
             nextSlaStatus={{
               isComplete: false,
               nextTriggerDate: addHours(addMinutes(date, 14), 2),
