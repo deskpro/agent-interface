@@ -117,7 +117,7 @@ title: Actions
 				</ul>
 			</li>
 		</ul>
-		<!--  -->
+
 		<ul class="dp-Tabs Tabs--actions Tabs--outlined">
 			<li class="dp-Tabs-item">
 				<span class="dp-Icon dp-tasks Icon--blue"></span>
