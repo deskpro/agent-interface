@@ -395,8 +395,8 @@
   opacity: 1;
 }
 
-.dp-HeaderControls.fade-exit-active,
-.dp-SearchBox.search-exit-done .dp-IconPanelList {
+.dp-SearchBox.search-exit-done .dp-IconPanelList,
+.dp-HeaderControls.fade-enter {
   opacity: 0;
 }
 
