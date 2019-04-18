@@ -159,6 +159,7 @@
 }
 
 .dp-SearchBox .dp-MenuBarItem {
+  height: 18px;
   padding: 0 0 0 10px;
 }
 
@@ -377,7 +378,6 @@
   transition: 0.5s;
 }
 
-.dp-SearchBox.search-enter,
 .dp-SearchBox.search-enter-done {
   max-width: 100%;
 }
