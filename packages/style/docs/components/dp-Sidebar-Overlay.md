@@ -229,7 +229,7 @@ title: Side-bar Overlay
 					<!-- Action bar -->
 					<div class="dp-DropDownBar">
 
-						<ul class="dp-Tabs Tabs--actions">
+						<ul class="dp-Tabs Tabs--actions Tabs--outlined">
 							<li class="dp-Tabs-item">
 								<span class="dp-Icon dp-lock Icon--primary"></span>
 								Lock
@@ -342,7 +342,7 @@ title: Side-bar Overlay
 						</ul>
 
 						<!-- Menu Bar List -->
-						<ul class="dp-Tabs Tabs--actions Tabs--outlined">
+						<ul class="dp-Tabs Tabs--actions">
 							<li class="dp-Tabs-item">
 								<span class="dp-Icon dp-IconCloud Icon--blue"></span>
 								Cloud

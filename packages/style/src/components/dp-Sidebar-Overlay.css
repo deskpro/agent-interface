@@ -138,12 +138,13 @@
   margin-bottom: 10px;
 }
 
-.dp-OverlayContent .dp-Tabs.Tabs--outlined {
+.dp-OverlayContent .dp-Tabs {
   background-color: var(--white);
 }
 
-/* .dp-OverlayContent .dp-UserInfo > .dp-Icon,
-.dp-OverlayContent .dp-UserInfo > .Icon--Avatar { */
+.dp-OverlayContent .dp-Tabs.Tabs--outlined {
+  background-color: transparent;;
+}
 
 .dp-OverlayContent .dp-SsoContent > .Icon--Avatar {
   background-size: 22px 22px;

@@ -1117,7 +1117,7 @@ title: Ticket View
 <div class="demo-cog demo-menu">
 	<div class="dp-DropDownBar">
 
-		<ul class="dp-Tabs Tabs--actions">
+		<ul class="dp-Tabs Tabs--actions Tabs--outlined">
 			<li class="dp-Tabs-item">
 				<span class="dp-Icon dp-lock Icon--primary"></span>
 				Lock
@@ -1229,7 +1229,7 @@ title: Ticket View
 			</li>
 		</ul>
 
-		<ul class="dp-Tabs Tabs--actions Tabs--outlined">
+		<ul class="dp-Tabs Tabs--actions">
 			<li class="dp-Tabs-item">
 				<span class="dp-Icon dp-tasks Icon--blue"></span>
 				Tasks
@@ -1387,7 +1387,7 @@ title: Ticket View
 <div class="demo-cog demo-menu" style="height: 150px;">
 	<div class="dp-DropDownBar">
 
-		<ul class="dp-Tabs Tabs--actions">
+		<ul class="dp-Tabs Tabs--actions Tabs--outlined">
 			<li class="dp-Tabs-item is-active">
 				<span class="dp-Icon dp-lock Icon--primary"></span>
 				Lock
@@ -1499,7 +1499,7 @@ title: Ticket View
 			</li>
 		</ul>
 
-		<ul class="dp-Tabs Tabs--actions Tabs--outlined">
+		<ul class="dp-Tabs Tabs--actions">
 			<li class="dp-Tabs-item">
 				<span class="dp-Icon dp-tasks Icon--blue"></span>
 				Tasks
@@ -1655,7 +1655,7 @@ title: Ticket View
 <div class="demo-cog demo-menu" style="height: 150px;">
 	<div class="dp-DropDownBar">
 
-		<ul class="dp-Tabs Tabs--actions">
+		<ul class="dp-Tabs Tabs--actions Tabs--outlined">
 			<li class="dp-Tabs-item">
 				<span class="dp-Icon dp-lock Icon--primary"></span>
 				Lock
@@ -1767,7 +1767,7 @@ title: Ticket View
 			</li>
 		</ul>
 
-		<ul class="dp-Tabs Tabs--actions Tabs--outlined">
+		<ul class="dp-Tabs Tabs--actions">
 			<li class="dp-Tabs-item">
 				<span class="dp-Icon dp-tasks Icon--blue"></span>
 				Tasks
@@ -1922,7 +1922,7 @@ title: Ticket View
 <div class="demo-cog demo-menu" style="height: 150px;">
 	<div class="dp-DropDownBar">
 
-		<ul class="dp-Tabs Tabs--actions">
+		<ul class="dp-Tabs Tabs--actions Tabs--outlined">
 			<li class="dp-Tabs-item">
 				<span class="dp-Icon dp-lock Icon--primary"></span>
 				Lock
@@ -2034,7 +2034,7 @@ title: Ticket View
 			</li>
 		</ul>
 
-		<ul class="dp-Tabs Tabs--actions Tabs--outlined">
+		<ul class="dp-Tabs Tabs--actions">
 			<li class="dp-Tabs-item">
 				<span class="dp-Icon dp-tasks Icon--blue"></span>
 				Tasks
@@ -2189,7 +2189,7 @@ title: Ticket View
 <div class="demo-cog demo-menu" style="height: 150px;">
 	<div class="dp-DropDownBar">
 
-		<ul class="dp-Tabs Tabs--actions">
+		<ul class="dp-Tabs Tabs--actions Tabs--outlined">
 			<li class="dp-Tabs-item">
 				<span class="dp-Icon dp-lock Icon--primary"></span>
 				Lock
@@ -2301,7 +2301,7 @@ title: Ticket View
 			</li>
 		</ul>
 
-		<ul class="dp-Tabs Tabs--actions Tabs--outlined">
+		<ul class="dp-Tabs Tabs--actions">
 			<li class="dp-Tabs-item">
 				<span class="dp-Icon dp-tasks Icon--blue"></span>
 				Tasks
@@ -2457,7 +2457,7 @@ title: Ticket View
 <div class="demo-cog demo-menu" style="height: 150px;">
 	<div class="dp-DropDownBar">
 
-		<ul class="dp-Tabs Tabs--actions">
+		<ul class="dp-Tabs Tabs--actions Tabs--outlined">
 			<li class="dp-Tabs-item">
 				<span class="dp-Icon dp-lock Icon--primary"></span>
 				Lock
@@ -2569,7 +2569,7 @@ title: Ticket View
 			</li>
 		</ul>
 
-		<ul class="dp-Tabs Tabs--actions Tabs--outlined">
+		<ul class="dp-Tabs Tabs--actions">
 			<li class="dp-Tabs-item">
 				<span class="dp-Icon dp-tasks Icon--blue"></span>
 				Tasks
@@ -2723,7 +2723,7 @@ title: Ticket View
 <div class="demo-cog demo-menu" style="height: 150px;">
 	<div class="dp-DropDownBar">
 
-		<ul class="dp-Tabs Tabs--actions">
+		<ul class="dp-Tabs Tabs--actions Tabs--outlined">
 			<li class="dp-Tabs-item">
 				<span class="dp-Icon dp-lock Icon--primary"></span>
 				Lock
@@ -2835,7 +2835,7 @@ title: Ticket View
 			</li>
 		</ul>
 
-		<ul class="dp-Tabs Tabs--actions Tabs--outlined">
+		<ul class="dp-Tabs Tabs--actions">
 			<li class="dp-Tabs-item">
 				<span class="dp-Icon dp-tasks Icon--blue"></span>
 				Tasks
