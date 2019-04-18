@@ -43,7 +43,10 @@ function generateGroupedCardItems(pageNumber) {
   });
 }
 
-const StandardListDemo = ({ grouped = false }) => {
+const StandardListDemo = ({
+  grouped = false,
+  style = { maxWidth: 500, height: "100vh" }
+}) => {
   const [loadedPage, setLoadedPage] = React.useState(1);
   const loadCallback = grouped ? generateGroupedCardItems : generateCardItems;
   const [items, setItems] = React.useState(loadCallback(loadedPage));
@@ -68,10 +71,7 @@ const StandardListDemo = ({ grouped = false }) => {
   }, [items, setItems]);
 
   return (
-    <div
-      style={{ maxWidth: 500, height: "100vh", overflowX: "hidden" }}
-      ref={containerRef}
-    >
+    <div style={{ overflowX: "hidden", ...style }} ref={containerRef}>
       <StandardList
         items={items}
         numPages={20}
