@@ -207,12 +207,12 @@
   padding-left: 20px;
 }
 
-.dp-Account::after {
-  display: none;
-}
-
 .dp-Header .dp-HeaderControls > .dp-Account {
   padding-right: 0;
+}
+
+.dp-Header .dp-HeaderControls > .dp-Account::after {
+  display: none;
 }
 
 .dp-HeaderControls .dp-Icon, .dp-MenuBarItem .dp-Icon {

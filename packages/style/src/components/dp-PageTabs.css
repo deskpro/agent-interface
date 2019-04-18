@@ -313,7 +313,6 @@
 
 .Tabs--actions {
   align-items: center;
-  border: 0;
   border-radius: var(--border-radius);
   display: flex;
   list-style: none;
@@ -476,4 +475,41 @@
 
 .dp-Tabs.Tabs--general .dp-Menu .dp-Menu-linkItem > span {
   text-align: left;
+}
+
+/* Tabs--outlined */
+
+.Tabs--outlined {
+  border: 0;
+}
+
+.dp-Tabs.Tabs--outlined .dp-Tabs-item {
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+}
+
+.dp-Tabs.Tabs--outlined .dp-Tabs-item:hover {
+  border: none;
+}
+
+.Tabs--outlined .dp-Tabs-item .dp-Icon {
+  background-size: 23px 23px;
+  cursor: pointer;
+  display: inline-block;
+  height: 23px;
+  position: relative;
+  vertical-align: middle;
+  width: 23px;
+}
+
+.dp-Tabs.Tabs--actions.Tabs--outlined .dp-Tabs-item.is-active {
+  background-color: transparent;
+  border: 0;
+  color: var(--brand-primary);
+}
+
+.dp-Tabs.Tabs--actions.Tabs--outlined .dp-Tabs-item.is-active .dp-Arrow::after {
+  border-color: transparent transparent var(--brand-primary) transparent;
+  border-width: 0 4px 4px 4px;
 }

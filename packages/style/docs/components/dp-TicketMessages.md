@@ -233,36 +233,32 @@ title: Ticket View - Messages
 					</li>
 				</ul>
 
-				<ul class="dp-MenuBarList">
-					<li class="dp-MenuBarItem dp-TasksItem">
-						<span class="dp-Icon dp-tasks Icon--blue">
-						</span>
-						<span class="dp-Title">Tasks</span>
+				<ul class="dp-Tabs Tabs--actions Tabs--outlined">
+					<li class="dp-Tabs-item">
+						<span class="dp-Icon dp-tasks Icon--blue"></span>
+						Tasks
 						<button class="dp-Arrow"></button>
 					</li>
-					<li class="dp-MenuBarItem is-active">
+					<li class="dp-Tabs-item is-active">
 						<span class="dp-Icon dp-billing Icon--blue">
 							<span class="dp-Badge Badge--round Badge--top Badge--danger">2</span>
 						</span>
-						<span class="dp-Title">Billing</span>
+						Billing
 						<button class="dp-Arrow"></button>
 					</li>
-					<li class="dp-MenuBarItem">
-						<span class="dp-Icon dp-liscense Icon--blue">
-						</span>
-						<span class="dp-Title">License</span>
+					<li class="dp-Tabs-item">
+						<span class="dp-Icon dp-liscense Icon--blue"></span>
+						License
 						<button class="dp-Arrow"></button>
 					</li>
-					<li class="dp-MenuBarItem dp-PropertiesItem">
-						<span class="dp-Icon dp-ticket_properties Icon--blue">
-						</span>
-						<span class="dp-Title">Ticket Properties</span>
+					<li class="dp-Tabs-item">
+						<span class="dp-Icon dp-ticket_properties Icon--blue"></span>
+						Ticket Properties
 						<button class="dp-Arrow"></button>
 					</li>
-						<li class="dp-MenuBarItem dp-PropertiesItem">
-						<span class="dp-Icon dp-follow_up Icon--blue">
-						</span>
-						<span class="dp-Title">Follow-ups</span>
+					<li class="dp-Tabs-item">
+						<span class="dp-Icon dp-follow_up Icon--blue"></span>
+						Follow-ups
 						<button class="dp-Arrow"></button>
 					</li>
 				</ul>

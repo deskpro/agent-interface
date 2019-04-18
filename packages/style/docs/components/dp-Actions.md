@@ -6,7 +6,6 @@ title: Actions
 ```html @preview
 <div class="demo-cog demo-menu">
 	<div class="dp-DropDownBar">
-
 		<ul class="dp-Tabs Tabs--actions">
 			<li class="dp-Tabs-item is-active">
 				<span class="dp-Icon dp-lock Icon--primary"></span>
@@ -118,35 +117,36 @@ title: Actions
 				</ul>
 			</li>
 		</ul>
-
-		<ul class="dp-MenuBarList">
-			<li class="dp-MenuBarItem dp-TasksItem">
+		<!--  -->
+		<ul class="dp-Tabs Tabs--actions Tabs--outlined">
+			<li class="dp-Tabs-item">
 				<span class="dp-Icon dp-tasks Icon--blue"></span>
-				<span class="dp-Title">Tasks</span>
+				Tasks
 				<button class="dp-Arrow"></button>
 			</li>
-			<li class="dp-MenuBarItem">
-				<span class="dp-Icon dp-billing Icon--blue"></span>
-				<span class="dp-Title">Billing</span>
+			<li class="dp-Tabs-item is-active">
+				<span class="dp-Icon dp-billing Icon--blue">
+					<span class="dp-Badge Badge--round Badge--top Badge--danger">2</span>
+				</span>
+				Billing
 				<button class="dp-Arrow"></button>
 			</li>
-			<li class="dp-MenuBarItem">
+			<li class="dp-Tabs-item">
 				<span class="dp-Icon dp-liscense Icon--blue"></span>
-				<span class="dp-Title">License</span>
+				License
 				<button class="dp-Arrow"></button>
 			</li>
-			<li class="dp-MenuBarItem dp-PropertiesItem">
+			<li class="dp-Tabs-item">
 				<span class="dp-Icon dp-ticket_properties Icon--blue"></span>
-				<span class="dp-Title">Ticket Properties</span>
+				Ticket Properties
 				<button class="dp-Arrow"></button>
 			</li>
-				<li class="dp-MenuBarItem dp-PropertiesItem">
+			<li class="dp-Tabs-item">
 				<span class="dp-Icon dp-follow_up Icon--blue"></span>
-				<span class="dp-Title">Follow-ups</span>
+				Follow-ups
 				<button class="dp-Arrow"></button>
 			</li>
 		</ul>
-
 	</div>
 </div>
 ```

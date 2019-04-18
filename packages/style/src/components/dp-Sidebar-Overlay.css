@@ -138,7 +138,7 @@
   margin-bottom: 10px;
 }
 
-.dp-OverlayContent .dp-DropDownBar .dp-MenuBarList {
+.dp-OverlayContent .dp-Tabs.Tabs--outlined {
   background-color: var(--white);
 }
 
