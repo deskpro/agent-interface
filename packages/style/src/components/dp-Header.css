@@ -85,17 +85,17 @@
 }
 
 .dp-IconPanelList .dp-MenuBarItem.dp-Close {
-  margin-left: 5px;
+  margin-left: 7.5px;
 }
 
 .dp-IconPanelList .dp-MenuBarItem.dp-Close::after {
   background-color: var(--border-color);
   content: "";
   display: block;
-  height: 100%;
+  height: 15px;
   left: 0;
   position: absolute;
-  top: 2px;
+  top: 3px;
   width: 1px;
 }
 
@@ -160,7 +160,7 @@
 
 .dp-SearchBox .dp-MenuBarItem {
   height: 18px;
-  padding: 0 0 0 10px;
+  padding: 0 0 0 7.5px;
 }
 
 .header-search .dp-MenuBarItem:first-child::after {
@@ -376,6 +376,8 @@
   transition: 0.5s;
 }
 
+/* .dp-SearchBox.search-enter, */
+
 .dp-SearchBox.search-enter-done {
   max-width: 100%;
 }
@@ -389,6 +391,8 @@
   right: 0;
   transition: 0.5s;
 }
+
+/* .dp-SearchBox.search-enter .dp-IconPanelList, */
 
 .dp-SearchBox.search-enter-done .dp-IconPanelList,
 .dp-HeaderControls.fade-enter-done {

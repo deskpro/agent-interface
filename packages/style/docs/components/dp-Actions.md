@@ -6,8 +6,9 @@ title: Actions
 ```html @preview
 <div class="demo-cog demo-menu">
 	<div class="dp-DropDownBar">
-		<ul class="dp-Tabs Tabs--actions Tabs--outlined">
-			<li class="dp-Tabs-item is-active">
+
+		<div class="dp-dropdown dropdown--outlined">
+			<span class="dp-bars is-active">
 				<span class="dp-Icon dp-lock Icon--primary"></span>
 				Lock
 				<button class="dp-Arrow"></button>
@@ -25,8 +26,9 @@ title: Actions
 						<a href="#" class="dp-Menu-link">Delete</a>
 					</li>
 				</ul>
-			</li>
-			<li class="dp-Tabs-item">
+			</span>
+
+			<span class="dp-bars">
 				<span class="dp-Icon dp-IconLink Icon--primary"></span>
 				Link
 				<button class="dp-Arrow"></button>
@@ -47,8 +49,9 @@ title: Actions
 						<a href="#" class="dp-Menu-link"> Merge </a>
 					</li>
 				</ul>
-			</li>
-			<li class="dp-Tabs-item">
+			</span>
+
+			<span class="dp-bars">
 				<span class="dp-Icon dp-IconPlusGrey Icon--primary"></span>
 				New
 				<button class="dp-Arrow"></button>
@@ -62,8 +65,9 @@ title: Actions
 						<a href="#" class="dp-Menu-link"> New Snippet </a>
 					</li>
 				</ul>
-			</li>
-			<li class="dp-Tabs-item">
+			</span>
+
+			<span class="dp-bars">
 				<span class="dp-Icon dp-IconPrint Icon--primary"></span>
 				Print
 				<button class="dp-Arrow"></button>
@@ -81,8 +85,9 @@ title: Actions
 						<a href="#" class="dp-Menu-link"> Download Debug File</a>
 					</li>
 				</ul>
-			</li>
-			<li class="dp-Tabs-item">
+			</span>
+
+			<span class="dp-bars">
 				<span class="dp-Icon dp-ban Icon--primary"></span>
 				Ban
 				<button class="dp-Arrow"></button>
@@ -96,8 +101,9 @@ title: Actions
 						<a href="#" class="dp-Menu-link"> Spam</a>
 					</li>
 				</ul>
-			</li>
-			<li class="dp-Tabs-item">
+			</span>
+
+			<span class="dp-bars">
 				<span class="dp-Icon dp-rocket Icon--primary"></span>
 				Actions
 				<button class="dp-Arrow"></button>
@@ -115,38 +121,39 @@ title: Actions
 						<a href="#" class="dp-Menu-link"> Misc value</a>
 					</li>
 				</ul>
-			</li>
-		</ul>
+			</span>
+		</div>
 
-		<ul class="dp-Tabs Tabs--actions">
-			<li class="dp-Tabs-item">
+		<div class="dp-dropdown">
+			<span class="dp-bars">
 				<span class="dp-Icon dp-tasks Icon--blue"></span>
 				Tasks
 				<button class="dp-Arrow"></button>
-			</li>
-			<li class="dp-Tabs-item is-active">
+			</span>
+			<span class="dp-bars is-active">
 				<span class="dp-Icon dp-billing Icon--blue">
 					<span class="dp-Badge Badge--round Badge--top Badge--danger">2</span>
 				</span>
 				Billing
 				<button class="dp-Arrow"></button>
-			</li>
-			<li class="dp-Tabs-item">
+			</span>
+			<span class="dp-bars">
 				<span class="dp-Icon dp-liscense Icon--blue"></span>
 				License
 				<button class="dp-Arrow"></button>
-			</li>
-			<li class="dp-Tabs-item">
+			</span>
+			<span class="dp-bars">
 				<span class="dp-Icon dp-ticket_properties Icon--blue"></span>
 				Ticket Properties
 				<button class="dp-Arrow"></button>
-			</li>
-			<li class="dp-Tabs-item">
+			</span>
+			<span class="dp-bars">
 				<span class="dp-Icon dp-follow_up Icon--blue"></span>
 				Follow-ups
 				<button class="dp-Arrow"></button>
-			</li>
-		</ul>
+			</span>
+		</div>
+
 	</div>
 </div>
 ```
