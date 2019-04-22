@@ -2,10 +2,12 @@ import * as React from "react";
 import classNames from "classnames";
 import Icon from "../../elements/Icon/Icon";
 import Button from "../../Button/Button";
+import FollowerItem from "./FollowerItem";
 
+/* eslint-disable import/no-duplicates */
 import "@deskpro/agent-interface-style/dist/components/dp-Sidebar.css";
 import "@deskpro/agent-interface-style/dist/components/dp-Ticketview.css";
-import FollowerItem from "./FollowerItem";
+/* eslint-enable import/no-duplicates */
 
 export interface FollowerInfo {
   id: React.Key;
