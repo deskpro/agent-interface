@@ -13,6 +13,7 @@ import {
 } from "@deskpro/agent-interface-components";
 import { action } from "@storybook/addon-actions";
 import FieldGroupingListDemo from "./components/elements/FieldGroupingListDemo";
+import FollowersDemo from "./components/elements/FollowersDemo";
 
 storiesOf("Elements", module)
   .add("Field Grouping List", () => (
@@ -43,5 +44,13 @@ storiesOf("Elements", module)
           </>
         }
       />
+    </div>
+  ))
+  .add("Followers", () => (
+    <div style={{ maxWidth: 450 }}>
+      <FollowersDemo count={10} />
+      <br />
+      <br />
+      <FollowersDemo count={26} />
     </div>
   ));
