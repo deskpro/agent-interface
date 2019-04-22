@@ -71,7 +71,8 @@
 .demo-menu .dp-Menu.is-active,
 .demo-menu .dp-Menu.is-visible,
 .demo-menu .is-expanded > .dp-Menu,
-.demo-menu .dp-iconVDots.is-visible + .dp-Menu {
+.demo-menu .dp-iconVDots.is-visible + .dp-Menu,
+.demo-menu .dp-DropdownButton.is-active + .dp-Menu {
   display: block;
 }
 

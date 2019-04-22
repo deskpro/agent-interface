@@ -17,24 +17,9 @@
   background-color: transparent;
 }
 
-.dp-DropDownBar {
-  background-color: var(--grey-lightest);
-  border-bottom: 1px solid var(--grey-light);
-  border-top: 1px solid var(--grey-light);
-  display: block;
-}
-
-.dp-DropDownBar .Tabs--actions .dp-Menu {
-  min-width: calc(100% + 2px);
-}
-
 .dp-ControlBar.dp-DropDownBar .dp-Tabs-item + .dp-Tabs-item {
   background-color: var(--grey-lightest);
 }
-
-/* .dp-TicketSmall .dp-title-item {
-  font: var(--p-n);
-} */
 
 .dp-TicketSelect .dp-title-item {
   line-height: 1.5;

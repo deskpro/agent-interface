@@ -5,48 +5,55 @@
 
 /* Actions */
 
-.dp-dropdown {
+/* .dp-ActionsBar > .dp-DropdownButton */
+
+/* .dp-Dropdown-bar { */
+
+.dp-ActionsBar {
   align-items: center;
+  background-color: var(--grey-lightest);
+  border-bottom: 1px solid var(--grey-light);
   display: flex;
   list-style: none;
   padding: 10px;
 }
 
-.dp-dropdown.dropdown--outlined {
+.dp-ActionsBar.outlined {
   border-bottom: 1px solid var(--grey-light);
+  border-top: 1px solid var(--grey-light);
 }
 
-.dp-dropdown .dp-bars {
+.dp-ActionsBar .dp-DropdownButton {
   align-items: center;
   background-color: transparent;
   display: flex;
   position: relative;
 }
 
-.dp-dropdown .dp-bars:hover {
+.dp-ActionsBar .dp-DropdownButton:hover {
   color: var(--brand-primary);
 }
 
-.dp-dropdown.dropdown--outlined .dp-bars {
+.dp-ActionsBar.outlined .dp-DropdownButton {
   background-color: var(--white);
   border: 1px solid var(--grey-light);
   border-radius: var(--border-radius-button);
   padding: 4px 6px;
 }
 
-.dp-dropdown.dropdown--outlined .dp-bars:hover {
+.dp-ActionsBar.outlined .dp-DropdownButton:hover {
   border: 1px solid var(--brand-primary);
   margin-bottom: 0;
 }
 
-.dp-dropdown.dropdown--outlined .dp-bars.is-active {
+.dp-ActionsBar.outlined .dp-DropdownButton.is-active {
   background-color: var(--brand-primary);
   border: 1px solid var(--brand-primary);
   color: var(--white);
   margin-bottom: 0;
 }
 
-.dp-dropdown .dp-bars {
+.dp-ActionsBar .dp-DropdownButton {
   color: var(--grey-dark);
   cursor: pointer;
   display: flex;
@@ -56,13 +63,13 @@
   position: relative;
 }
 
-.dp-dropdown.dropdown--outlined .dp-bars .dp-Icon {
+.dp-ActionsBar.outlined .dp-DropdownButton .dp-Icon {
   cursor: pointer;
   height: 14px;
   width: 15px;
 }
 
-.dp-dropdown .dp-bars .dp-Icon {
+.dp-ActionsBar .dp-DropdownButton .dp-Icon {
   cursor: pointer;
   display: inline-block;
   height: 23px;
@@ -72,35 +79,55 @@
   width: 23px;
 }
 
-.dp-dropdown.dropdown--outlined .dp-bars.is-active .dp-Arrow::after {
+.dp-ActionsBar.outlined .dp-DropdownButton.is-active .dp-Arrow::after {
   border-color: transparent transparent var(--white) transparent;
   border-width: 0 4px 4px 4px;
 }
 
-.dp-dropdown .dp-bars:hover .dp-Arrow::after {
+.dp-ActionsBar .dp-DropdownButton:hover .dp-Arrow::after {
   border-color: var(--brand-primary) transparent transparent transparent;
 
 }
 
-.dp-dropdown .dp-bars.is-active:hover .dp-Arrow::after {
+.dp-ActionsBar .dp-DropdownButton.is-active:hover .dp-Arrow::after {
   border-color: transparent transparent var(--brand-primary) transparent;
   border-width: 0 4px 4px 4px;
 }
 
-.dp-dropdown .dp-bars.is-disabled:hover .dp-Arrow::after {
+.dp-ActionsBar .dp-DropdownButton.is-disabled:hover .dp-Arrow::after {
   border-color: var(--grey-dark) transparent transparent transparent;
 }
 
-.dp-dropdown.dropdown--outlined .dp-bars.is-active:hover {
+.dp-ActionsBar.outlined .dp-DropdownButton.is-active:hover {
   color: var(--white);
 }
 
-.dp-dropdown.dropdown--outlined .dp-bars.is-disabled:hover {
+.dp-ActionsBar.outlined .dp-DropdownButton.is-disabled:hover {
+  background-color: transparent;
   border: 1px solid var(--grey-light);
   color: var(--grey-dark);
 }
 
-.dp-dropdown.dropdown--outlined .dp-bars.is-active:hover .dp-Arrow::after {
+.dp-ActionsBar.outlined .dp-DropdownButton.is-active:hover .dp-Arrow::after {
   border-color: transparent transparent var(--white) transparent;
   border-width: 0 4px 4px 4px;
+}
+
+.dp-ActionsBar .dp-DropdownButton.is-active {
+  background-color: transparent;
+  border: 0;
+  color: var(--brand-primary);
+}
+
+.dp-ActionsBar .dp-DropdownButton.is-active .dp-Arrow::after {
+  border-color: transparent transparent var(--brand-primary) transparent;
+  border-width: 0 4px 4px 4px;
+}
+
+.dp-Dropdown-container {
+  position: relative;
+}
+
+.dp-ActionsBar .dp-DropdownButton + .dp-Menu {
+  min-width: calc(100% + 2px);
 }
