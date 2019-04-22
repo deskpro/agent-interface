@@ -7,7 +7,7 @@ title: Actions
 <div class="demo-cog demo-menu">
 	<div class="dp-ActionsBar outlined">
 		<span class="dp-Dropdown-container">
-			<span class="dp-DropdownButton is-active">
+			<span class="dp-Dropdown is-active">
 				<span class="dp-Icon dp-lock Icon--primary"></span>
 				Lock
 				<button class="dp-Arrow"></button>
@@ -30,7 +30,7 @@ title: Actions
 		</span>
 
 		<span class="dp-Dropdown-container">
-			<span class="dp-DropdownButton is-disabled">
+			<span class="dp-Dropdown is-disabled">
 				<span class="dp-Icon dp-IconLink Icon--primary"></span>
 				Link
 				<button class="dp-Arrow"></button>
@@ -55,7 +55,7 @@ title: Actions
 		</span>
 		
 		<span class="dp-Dropdown-container">
-			<span class="dp-DropdownButton">
+			<span class="dp-Dropdown">
 				<span class="dp-Icon dp-IconPlusGrey Icon--primary"></span>
 				New
 				<button class="dp-Arrow"></button>
@@ -73,7 +73,7 @@ title: Actions
 		</span>
 
 		<span class="dp-Dropdown-container">
-			<span class="dp-DropdownButton">
+			<span class="dp-Dropdown">
 				<span class="dp-Icon dp-IconPrint Icon--primary"></span>
 				Print
 				<button class="dp-Arrow"></button>
@@ -95,7 +95,7 @@ title: Actions
 		</span>
 
 		<span class="dp-Dropdown-container">
-			<span class="dp-DropdownButton">
+			<span class="dp-Dropdown">
 				<span class="dp-Icon dp-ban Icon--primary"></span>
 				Ban
 				<button class="dp-Arrow"></button>
@@ -113,7 +113,7 @@ title: Actions
 		</span>
 
 		<span class="dp-Dropdown-container">
-			<span class="dp-DropdownButton">
+			<span class="dp-Dropdown">
 				<span class="dp-Icon dp-rocket Icon--primary"></span>
 				Actions
 				<button class="dp-Arrow"></button>
@@ -135,29 +135,29 @@ title: Actions
 		</span>
 	</div>
 	<div class="dp-ActionsBar">
-		<span class="dp-DropdownButton">
+		<span class="dp-Dropdown">
 			<span class="dp-Icon dp-tasks Icon--blue"></span>
 			Tasks
 			<button class="dp-Arrow"></button>
 		</span>
-		<span class="dp-DropdownButton is-active">
+		<span class="dp-Dropdown is-active">
 			<span class="dp-Icon dp-billing Icon--blue">
 				<span class="dp-Badge Badge--round Badge--top Badge--danger">2</span>
 			</span>
 			Billing
 			<button class="dp-Arrow"></button>
 		</span>
-		<span class="dp-DropdownButton">
+		<span class="dp-Dropdown">
 			<span class="dp-Icon dp-liscense Icon--blue"></span>
 			License
 			<button class="dp-Arrow"></button>
 		</span>
-		<span class="dp-DropdownButton">
+		<span class="dp-Dropdown">
 			<span class="dp-Icon dp-ticket_properties Icon--blue"></span>
 			Ticket Properties
 			<button class="dp-Arrow"></button>
 		</span>
-		<span class="dp-DropdownButton">
+		<span class="dp-Dropdown">
 			<span class="dp-Icon dp-follow_up Icon--blue"></span>
 			Follow-ups
 			<button class="dp-Arrow"></button>

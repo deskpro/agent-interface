@@ -34,9 +34,6 @@
   position: relative;
   text-overflow: ellipsis;
   white-space: nowrap;
-
-  /* margin: 0 0 10px; */
-
 }
 
 .dp-MassSelect .dp-MassSelect-itemsCount {

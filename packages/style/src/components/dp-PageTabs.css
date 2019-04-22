@@ -325,29 +325,27 @@
 
 /* .Tabs--actions .dp-Tabs-item.is-disabled { */
 
-.dp-ActionsBar.outlined .dp-DropdownButton.is-disabled,
-.dp-ActionsBar .dp-DropdownButton.is-disabled {
+.dp-ActionsBar.outlined .dp-Dropdown.is-disabled,
+.dp-ActionsBar .dp-Dropdown.is-disabled {
   background-color: var(--grey-lighter);
   cursor: not-allowed;
 }
 
-/* .Tabs--actions .dp-Tabs-item.is-disabled svg { */
-
-.dp-ActionsBar .dp-DropdownButton.is-disabled svg {
+.dp-ActionsBar .dp-Dropdown.is-disabled svg {
   cursor: not-allowed;
   fill: var(--grey-dark);
 }
 
-.dp-ActionsBar .dp-DropdownButton.is-disabled .dp-Icon,
-.dp-ActionsBar .dp-DropdownButton.is-disabled .dp-Arrow {
+.dp-ActionsBar.outlined .dp-Dropdown.is-disabled .dp-Icon,
+.dp-ActionsBar .dp-Dropdown.is-disabled .dp-Arrow {
   cursor: not-allowed;
 }
 
-.dp-ActionsBar .dp-DropdownButton:first-child::before {
+.dp-ActionsBar .dp-Dropdown:first-child::before {
   display: none;
 }
 
-.dp-ActionsBar .dp-DropdownButton::after,
+.dp-ActionsBar .dp-Dropdown::after,
 .dp-Tabs-item.is-disabled::after {
   display: none;
 }
