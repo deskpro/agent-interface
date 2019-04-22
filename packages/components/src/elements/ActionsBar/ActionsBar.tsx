@@ -6,6 +6,8 @@ import Menu from "../Menu/Menu";
 import { MenuItemProps } from "../Menu/MenuItem";
 import Icon from "../Icon/Icon";
 
+import "@deskpro/agent-interface-style/dist/components/dp-actions.css";
+
 export interface ActionBarItemType {
   name: React.Key;
   title: string;
@@ -47,7 +49,7 @@ const ActionsBar: React.FC<ActionsBarProps> = ({
           </Menu>
         )}
       >
-        <Icon name={icon} />
+        <Icon name={icon} size={type === "outlined" ? 15 : 23} />
         {title}
       </Dropdown>
     ))}
