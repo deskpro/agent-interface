@@ -10,3 +10,8 @@
 .dp-Pageview-Demonstration .Pageview-container-demo {
   width: 1100px;
 }
+
+.demo-tooltip .dp-FollowersItem  .dp-ToolTips {
+  left: 100%;
+  top: calc(100% + 5px);
+}

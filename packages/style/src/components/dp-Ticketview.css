@@ -5,8 +5,12 @@
 
 /* agent */
 
-.dp-StatusTimes {
+/* .dp-StatusTimes { */
+
+button.Button--link {
   align-items: center;
+  background-color: transparent;
+  border: 0;
   color: var(--grey-dark);
   display: flex;
   font: var(--p-s);
@@ -70,7 +74,7 @@
   width: 14px;
 }
 
-.dp-StatusTimes .dp-Icon {
+button.Button--link .dp-Icon {
   margin: 0 0 0 5px;
 }
 
@@ -207,11 +211,15 @@
   width: 16px;
 }
 
-.dp-FollowersStatus.is-active {
+/* .dp-FollowersStatus.is-active { */
+
+.Button--link.is-active {
   color: var(--brand-primary);
 }
 
-.dp-FollowersStatus .dp-Icon {
+/* .dp-FollowersStatus .dp-Icon { */
+
+.Button--link .dp-Icon {
   background-size: 10px 10px;
 }
 
