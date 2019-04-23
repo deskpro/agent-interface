@@ -17,20 +17,20 @@ export interface ActionBarItemType {
 
 export type ActionsBarProps = {
   className?: string;
-  type?: "default" | "outlined";
+  outlined?: boolean;
   items: ActionBarItemType[];
   onItemClick: (itemName: React.Key, e: React.SyntheticEvent) => void;
 };
 
 const ActionsBar: React.FC<ActionsBarProps> = ({
   className,
-  type = "default",
+  outlined = false,
   items,
   onItemClick
 }) => (
   <div
     className={classNames("dp-ActionsBar", className, {
-      outlined: type === "outlined"
+      outlined
     })}
   >
     {items.map(({ items: subItems, name, icon, title }) => (
@@ -49,7 +49,7 @@ const ActionsBar: React.FC<ActionsBarProps> = ({
           </Menu>
         )}
       >
-        <Icon name={icon} size={type === "outlined" ? 15 : 23} />
+        <Icon name={icon} size={outlined ? 15 : 23} />
         {title}
       </Dropdown>
     ))}

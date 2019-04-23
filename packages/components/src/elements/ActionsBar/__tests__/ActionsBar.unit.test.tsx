@@ -67,7 +67,7 @@ describe("<ActionsBar />", () => {
 
   it("should match snapshot for the outlined bar", () => {
     const { container } = render(
-      <ActionsBar items={actionsBar} type="outlined" onItemClick={jest.fn()} />
+      <ActionsBar items={actionsBar} outlined onItemClick={jest.fn()} />
     );
     expect(container.firstChild).toMatchSnapshot("Outlined ActionsBar");
   });
@@ -75,11 +75,7 @@ describe("<ActionsBar />", () => {
   it("should call item click handler with correct arguments", () => {
     const handleItemClick = jest.fn();
     const { getByText } = render(
-      <ActionsBar
-        items={actionsBar}
-        type="outlined"
-        onItemClick={handleItemClick}
-      />
+      <ActionsBar items={actionsBar} outlined onItemClick={handleItemClick} />
     );
 
     expect(getByText("Tasks")).toBeInTheDocument();
