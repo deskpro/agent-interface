@@ -15,6 +15,7 @@
   display: flex;
   font: var(--p-s);
   margin: 0;
+  justify-content: flex-end;
 }
 
 .dp-ControlBar .Tabs--actions {
@@ -192,6 +193,11 @@
   align-items: center;
   display: flex;
   line-height: 1;
+}
+
+.dp-LogoName .sb-avatar__image {
+  min-width: 12px;
+  display: flex;
 }
 
 .dp-FollowersItem .dp-LogoName + .dp-Icon {
