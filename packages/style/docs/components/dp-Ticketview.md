@@ -165,7 +165,7 @@ title: Ticket View
 				<span class="dp-Icon dp-iconUserAvatar"></span>
 				<span class="dp-UserName"> Wendy pride </span>
 			</span>
-			<i class="dp-Icon dp-close"></i>
+			<span class="dp-Icon dp-close"></span>
 		</li>
 		<li class="dp-FollowersBtn">
 			<button class="dp-Button Button--link Button--small">
@@ -201,30 +201,30 @@ title: Ticket View
 				<span class="dp-Icon dp-iconUserAvatar"></span>
 				<span class="dp-UserName"> Me </span>
 			</span>
-			<i class="dp-Icon dp-close"></i>
+			<span class="dp-Icon dp-close"></span>
 		</span>
 		<span class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
 				<span class="dp-UserName"> Wendy pride </span>
 			</span>
-			<i class="dp-Icon dp-close"></i>
+			<span class="dp-Icon dp-close"></span>
 		</span>
 		<span class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
 				<span class="dp-UserName"> Peter Fergerson </span>
 			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">Peter Fergerson</span>
+			<span class="dp-Icon dp-close"></span>
 		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">Peter Fergerson</span>
 		<span class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
 				<span class="dp-UserName"> John Richardson </span>
 			</span>
-			<i class="dp-Icon dp-close"></i>
+			<span class="dp-Icon dp-close"></span>
 			<!-- tooltip -->
 			<span class="dp-ToolTips">John Richardson</span>
 		</span>
@@ -233,7 +233,7 @@ title: Ticket View
 				<span class="dp-Icon dp-iconUserAvatar"></span>
 				<span class="dp-UserName"> John Richardson </span>
 			</span>
-			<i class="dp-Icon dp-close"></i>
+			<span class="dp-Icon dp-close"></span>
 			<!-- tooltip -->
 			<span class="dp-ToolTips">John Richardson</span>
 		</span>
@@ -242,16 +242,16 @@ title: Ticket View
 				<span class="dp-Icon dp-iconUserAvatar"></span>
 				<span class="dp-UserName"> Peter Fergerson </span>
 			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">Peter Fergerson</span>
+			<span class="dp-Icon dp-close"></span>
 		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">Peter Fergerson</span>
 		<span class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
 				<span class="dp-UserName"> Wendy pride </span>
 			</span>
-			<i class="dp-Icon dp-close"></i>
+			<span class="dp-Icon dp-close"></span>
 		</span>
 
 		<span class="dp-FollowersBtn">
@@ -287,34 +287,34 @@ title: Ticket View
 				<span class="dp-Icon dp-iconUserAvatar"></span>
 				<span class="dp-UserName"> Peter Fergerson </span>
 			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">Peter Fergerson</span>
+			<span class="dp-Icon dp-close"></span>
 		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">Peter Fergerson</span>
 		<span class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
 				<span class="dp-UserName"> Wendy pride </span>
 			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">Wendy pride</span>
+			<span class="dp-Icon dp-close"></span>
 		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">Wendy pride</span>
 		<span class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
 				<span class="dp-UserName"> Peter Fergerson </span>
 			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">Peter Fergerson</span>
+			<span class="dp-Icon dp-close"></span>
 		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">Peter Fergerson</span>
 		<span class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
 				<span class="dp-UserName"> John Richardson </span>
 			</span>
-			<i class="dp-Icon dp-close"></i>
+			<span class="dp-Icon dp-close"></span>
 			<!-- tooltip -->
 			<span class="dp-ToolTips">John Richardson</span>
 		</span>
@@ -323,37 +323,37 @@ title: Ticket View
 				<span class="dp-Icon dp-iconUserAvatar"></span>
 				<span class="dp-UserName"> John Richards </span>
 			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">John Richards</span>
+			<span class="dp-Icon dp-close"></span>
 		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">John Richards</span>
 		<span class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
 				<span class="dp-UserName"> Peter Fergerson </span>
 			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">Peter Fergerson</span>
+			<span class="dp-Icon dp-close"></span>
 		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">Peter Fergerson</span>
 		<span class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
 				<span class="dp-UserName"> Wendy pride </span>
 			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">Wendy pride</span>
+			<span class="dp-Icon dp-close"></span>
 		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">Wendy pride</span>
 		<span class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
 				<span class="dp-UserName"> Wendy pride </span>
 			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">Wendy pride</span>
+			<span class="dp-Icon dp-close"></span>
 		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">Wendy pride</span>
 
 		<span class="dp-FollowersBtn">
 			<button class="dp-Button Button--link Button--small">
@@ -388,219 +388,221 @@ title: Ticket View
 				<span class="dp-Icon dp-iconUserAvatar"></span>
 				<span class="dp-UserName"> Me </span>
 			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">Me</span>
+			<span class="dp-Icon dp-close"></span>
 		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">Me</span>
+		
 		<span class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
 				<span class="dp-UserName"> Wendy pride </span>
 			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">Wendy pride</span>
+			<span class="dp-Icon dp-close"></span>
 		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">Wendy pride</span>
 		<span class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
 				<span class="dp-UserName"> Peter Fergerson </span>
 			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">Peter Fergerson</span>
+			<span class="dp-Icon dp-close"></span>
 		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">Peter Fergerson</span>
 		<span class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
 				<span class="dp-UserName"> John Richardson </span>
 			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">John Richards</span>
+			<span class="dp-Icon dp-close"></span>
 		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">John Richards</span>
 		<span class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
 				<span class="dp-UserName"> John Richards </span>
 			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">John Richards</span>
+			<span class="dp-Icon dp-close"></span>
 		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">John Richards</span>
 		<span class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
 				<span class="dp-UserName"> Peter Fergerson </span>
 			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">Peter Fergerson</span>
+			<span class="dp-Icon dp-close"></span>
 		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">Peter Fergerson</span>
 		<span class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
 				<span class="dp-UserName"> Wendy pride </span>
 			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">Wendy pride</span>
+			<span class="dp-Icon dp-close"></span>
 		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">Wendy pride</span>
 		<span class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
 				<span class="dp-UserName"> Wendy pride </span>
 			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">Wendy pride</span>
+			<span class="dp-Icon dp-close"></span>
 		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">Wendy pride</span>
 
 		<span class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
 				<span class="dp-UserName"> Me </span>
 			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">Me</span>
+			<span class="dp-Icon dp-close"></span>
 		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">Me</span>
+		
 		<span class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
 				<span class="dp-UserName"> Wendy pride </span>
 			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">Wendy pride</span>
+			<span class="dp-Icon dp-close"></span>
 		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">Wendy pride</span>
 		<span class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
 				<span class="dp-UserName"> Peter Fergerson </span>
 			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">Peter Fergerson</span>
+			<span class="dp-Icon dp-close"></span>
 		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">Peter Fergerson</span>
 		<span class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
 				<span class="dp-UserName"> John Richardson </span>
 			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">John Richards</span>
+			<span class="dp-Icon dp-close"></span>
 		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">John Richards</span>
 		<span class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
 				<span class="dp-UserName"> John Richards </span>
 			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">John Richards</span>
+			<span class="dp-Icon dp-close"></span>
 		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">John Richards</span>
 		<span class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
 				<span class="dp-UserName"> Peter Fergerson </span>
 			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">Peter Fergerson</span>
+			<span class="dp-Icon dp-close"></span>
 		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">Peter Fergerson</span>
 		<span class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
 				<span class="dp-UserName"> Wendy pride </span>
 			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">Wendy pride</span>
+			<span class="dp-Icon dp-close"></span>
 		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">Wendy pride</span>
 		<span class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
 				<span class="dp-UserName"> Wendy pride </span>
 			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">Wendy pride</span>
+			<span class="dp-Icon dp-close"></span>
 		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">Wendy pride</span>
 
 		<span class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
 				<span class="dp-UserName"> Peter Fergerson </span>
 			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">Peter Fergerson</span>
+			<span class="dp-Icon dp-close"></span>
 		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">Peter Fergerson</span>
 		<span class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
 				<span class="dp-UserName"> Wendy pride </span>
 			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">Wendy pride</span>
+			<span class="dp-Icon dp-close"></span>
 		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">Wendy pride</span>
 		<span class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
 				<span class="dp-UserName"> Peter Fergerson </span>
 			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">Peter Fergerson</span>
+			<span class="dp-Icon dp-close"></span>
 		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">Peter Fergerson</span>
 		<span class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
 				<span class="dp-UserName"> John Richardson </span>
 			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">John Richards</span>
+			<span class="dp-Icon dp-close"></span>
 		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">John Richards</span>
 		<span class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
 				<span class="dp-UserName"> John Richards </span>
 			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">John Richards</span>
+			<span class="dp-Icon dp-close"></span>
 		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">John Richards</span>
 		<span class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
 				<span class="dp-UserName"> Peter Fergerson </span>
 			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">Peter Fergerson</span>
+			<span class="dp-Icon dp-close"></span>
 		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">Peter Fergerson</span>
 		<span class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
 				<span class="dp-UserName"> Wendy pride </span>
 			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">Wendy pride</span>
+			<span class="dp-Icon dp-close"></span>
 		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">Wendy pride</span>
 		<span class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
 				<span class="dp-UserName"> Wendy pride </span>
 			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">Wendy pride</span>
+			<span class="dp-Icon dp-close"></span>
 		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">Wendy pride</span>
 
 		<span class="dp-FollowersBtn">
 			<button class="dp-Button Button--link Button--small">
@@ -635,456 +637,467 @@ title: Ticket View
 				<span class="dp-Icon dp-iconUserAvatar"></span>
 				<span class="dp-UserName"> Me </span>
 			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">Me</span>
+			<span class="dp-Icon dp-close"></span>
 		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">Me</span>
+		
 		<span class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
 				<span class="dp-UserName"> Wendy pride </span>
 			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">Wendy pride</span>
+			<span class="dp-Icon dp-close"></span>
 		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">Wendy pride</span>
 		<span class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
 				<span class="dp-UserName"> Peter Fergerson </span>
 			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">Peter Fergerson</span>
+			<span class="dp-Icon dp-close"></span>
 		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">Peter Fergerson</span>
 		<span class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
 				<span class="dp-UserName"> John Richardson </span>
 			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">John Richards</span>
+			<span class="dp-Icon dp-close"></span>
 		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">John Richards</span>
 		<span class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
 				<span class="dp-UserName"> John Richards </span>
 			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">John Richards</span>
+			<span class="dp-Icon dp-close"></span>
 		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">John Richards</span>
 		<span class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
 				<span class="dp-UserName"> Peter Fergerson </span>
 			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">Peter Fergerson</span>
+			<span class="dp-Icon dp-close"></span>
 		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">Peter Fergerson</span>
 		<span class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
 				<span class="dp-UserName"> Wendy pride </span>
 			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">Wendy pride</span>
+			<span class="dp-Icon dp-close"></span>
 		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">Wendy pride</span>
 		<span class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
 				<span class="dp-UserName"> Wendy pride </span>
 			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">Wendy pride</span>
+			<span class="dp-Icon dp-close"></span>
 		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">Wendy pride</span>
 
 		<span class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
 				<span class="dp-UserName"> Peter Fergerson </span>
 			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">Peter Fergerson</span>
+			<span class="dp-Icon dp-close"></span>
 		</span>
-		<span class="dp-FollowersItem">
-			<span class="dp-LogoName">
-				<span class="dp-Icon dp-iconUserAvatar"></span>
-				<span class="dp-UserName"> Wendy pride </span>
-			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">Wendy pride</span>
-		</span>
-		<span class="dp-FollowersItem">
-			<span class="dp-LogoName">
-				<span class="dp-Icon dp-iconUserAvatar"></span>
-				<span class="dp-UserName"> Peter Fergerson </span>
-			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">Peter Fergerson</span>
-		</span>
-		<span class="dp-FollowersItem">
-			<span class="dp-LogoName">
-				<span class="dp-Icon dp-iconUserAvatar"></span>
-				<span class="dp-UserName"> John Richardson </span>
-			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">John Richards</span>
-		</span>
-		<span class="dp-FollowersItem">
-			<span class="dp-LogoName">
-				<span class="dp-Icon dp-iconUserAvatar"></span>
-				<span class="dp-UserName"> John Richards </span>
-			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">John Richards</span>
-		</span>
-		<span class="dp-FollowersItem">
-			<span class="dp-LogoName">
-				<span class="dp-Icon dp-iconUserAvatar"></span>
-				<span class="dp-UserName"> Peter Fergerson </span>
-			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">Peter Fergerson</span>
-		</span>
-		<span class="dp-FollowersItem">
-			<span class="dp-LogoName">
-				<span class="dp-Icon dp-iconUserAvatar"></span>
-				<span class="dp-UserName"> Wendy pride </span>
-			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">Wendy pride</span>
-		</span>
-		<span class="dp-FollowersItem">
-			<span class="dp-LogoName">
-				<span class="dp-Icon dp-iconUserAvatar"></span>
-				<span class="dp-UserName"> Wendy pride </span>
-			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">Wendy pride</span>
-		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">Peter Fergerson</span>
 
 		<span class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
-				<span class="dp-UserName"> John Richards </span>
-			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">John Richards</span>
-		</span>
-		<span class="dp-FollowersItem">
-			<span class="dp-LogoName">
-				<span class="dp-Icon dp-iconUserAvatar"></span>
 				<span class="dp-UserName"> Wendy pride </span>
 			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">Wendy pride</span>
+			<span class="dp-Icon dp-close"></span>
 		</span>
-		<span class="dp-FollowersItem">
-			<span class="dp-LogoName">
-				<span class="dp-Icon dp-iconUserAvatar"></span>
-				<span class="dp-UserName"> Peter Fergerson </span>
-			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">Peter Fergerson</span>
-		</span>
-		<span class="dp-FollowersItem">
-			<span class="dp-LogoName">
-				<span class="dp-Icon dp-iconUserAvatar"></span>
-				<span class="dp-UserName"> John Richardson </span>
-			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">John Richards</span>
-		</span>
-		<span class="dp-FollowersItem">
-			<span class="dp-LogoName">
-				<span class="dp-Icon dp-iconUserAvatar"></span>
-				<span class="dp-UserName"> John Richards </span>
-			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">John Richards</span>
-		</span>
-		<span class="dp-FollowersItem">
-			<span class="dp-LogoName">
-				<span class="dp-Icon dp-iconUserAvatar"></span>
-				<span class="dp-UserName"> Peter Fergerson </span>
-			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">Peter Fergerson</span>
-		</span>
-		<span class="dp-FollowersItem">
-			<span class="dp-LogoName">
-				<span class="dp-Icon dp-iconUserAvatar"></span>
-				<span class="dp-UserName"> Wendy pride </span>
-			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">Wendy pride</span>
-		</span>
-		<span class="dp-FollowersItem">
-			<span class="dp-LogoName">
-				<span class="dp-Icon dp-iconUserAvatar"></span>
-				<span class="dp-UserName"> Wendy pride </span>
-			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">Wendy pride</span>
-		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">Wendy pride</span>
 
 		<span class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
 				<span class="dp-UserName"> Peter Fergerson </span>
 			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">Peter Fergerson</span>
+			<span class="dp-Icon dp-close"></span>
 		</span>
-		<span class="dp-FollowersItem">
-			<span class="dp-LogoName">
-				<span class="dp-Icon dp-iconUserAvatar"></span>
-				<span class="dp-UserName"> Wendy pride </span>
-			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">Wendy pride</span>
-		</span>
-		<span class="dp-FollowersItem">
-			<span class="dp-LogoName">
-				<span class="dp-Icon dp-iconUserAvatar"></span>
-				<span class="dp-UserName"> Peter Fergerson </span>
-			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">Peter Fergerson</span>
-		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">Peter Fergerson</span>
+
 		<span class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
 				<span class="dp-UserName"> John Richardson </span>
 			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">John Richards</span>
+			<span class="dp-Icon dp-close"></span>
 		</span>
-		<span class="dp-FollowersItem">
-			<span class="dp-LogoName">
-				<span class="dp-Icon dp-iconUserAvatar"></span>
-				<span class="dp-UserName"> John Richards </span>
-			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">John Richards</span>
-		</span>
-		<span class="dp-FollowersItem">
-			<span class="dp-LogoName">
-				<span class="dp-Icon dp-iconUserAvatar"></span>
-				<span class="dp-UserName"> Peter Fergerson </span>
-			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">Peter Fergerson</span>
-		</span>
-		<span class="dp-FollowersItem">
-			<span class="dp-LogoName">
-				<span class="dp-Icon dp-iconUserAvatar"></span>
-				<span class="dp-UserName"> Wendy pride </span>
-			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">Wendy pride</span>
-		</span>
-		<span class="dp-FollowersItem">
-			<span class="dp-LogoName">
-				<span class="dp-Icon dp-iconUserAvatar"></span>
-				<span class="dp-UserName"> Wendy pride </span>
-			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">Wendy pride</span>
-		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">John Richards</span>
 
 		<span class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
 				<span class="dp-UserName"> John Richards </span>
 			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">John Richards</span>
+			<span class="dp-Icon dp-close"></span>
 		</span>
-		<span class="dp-FollowersItem">
-			<span class="dp-LogoName">
-				<span class="dp-Icon dp-iconUserAvatar"></span>
-				<span class="dp-UserName"> Wendy pride </span>
-			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">Wendy pride</span>
-		</span>
-		<span class="dp-FollowersItem">
-			<span class="dp-LogoName">
-				<span class="dp-Icon dp-iconUserAvatar"></span>
-				<span class="dp-UserName"> Peter Fergerson </span>
-			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">Peter Fergerson</span>
-		</span>
-		<span class="dp-FollowersItem">
-			<span class="dp-LogoName">
-				<span class="dp-Icon dp-iconUserAvatar"></span>
-				<span class="dp-UserName"> John Richardson </span>
-			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">John Richards</span>
-		</span>
-		<span class="dp-FollowersItem">
-			<span class="dp-LogoName">
-				<span class="dp-Icon dp-iconUserAvatar"></span>
-				<span class="dp-UserName"> John Richards </span>
-			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">John Richards</span>
-		</span>
-		<span class="dp-FollowersItem">
-			<span class="dp-LogoName">
-				<span class="dp-Icon dp-iconUserAvatar"></span>
-				<span class="dp-UserName"> Peter Fergerson </span>
-			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">Peter Fergerson</span>
-		</span>
-		<span class="dp-FollowersItem">
-			<span class="dp-LogoName">
-				<span class="dp-Icon dp-iconUserAvatar"></span>
-				<span class="dp-UserName"> Wendy pride </span>
-			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">Wendy pride</span>
-		</span>
-		<span class="dp-FollowersItem">
-			<span class="dp-LogoName">
-				<span class="dp-Icon dp-iconUserAvatar"></span>
-				<span class="dp-UserName"> Wendy pride </span>
-			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">Wendy pride</span>
-		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">John Richards</span>
 
 		<span class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
 				<span class="dp-UserName"> Peter Fergerson </span>
 			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">Peter Fergerson</span>
+			<span class="dp-Icon dp-close"></span>
 		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">Peter Fergerson</span>
+
 		<span class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
 				<span class="dp-UserName"> Wendy pride </span>
 			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">Wendy pride</span>
+			<span class="dp-Icon dp-close"></span>
 		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">Wendy pride</span>
+
 		<span class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
-				<span class="dp-UserName"> Peter Fergerson </span>
+				<span class="dp-UserName"> Wendy pride </span>
 			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">Peter Fergerson</span>
+			<span class="dp-Icon dp-close"></span>
 		</span>
-		<span class="dp-FollowersItem">
-			<span class="dp-LogoName">
-				<span class="dp-Icon dp-iconUserAvatar"></span>
-				<span class="dp-UserName"> John Richardson </span>
-			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">John Richards</span>
-		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">Wendy pride</span>
+
 		<span class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
 				<span class="dp-UserName"> John Richards </span>
 			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">John Richards</span>
+			<span class="dp-Icon dp-close"></span>
 		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">John Richards</span>
+
+		<span class="dp-FollowersItem">
+			<span class="dp-LogoName">
+				<span class="dp-Icon dp-iconUserAvatar"></span>
+				<span class="dp-UserName"> Wendy pride </span>
+			</span>
+			<span class="dp-Icon dp-close"></span>
+		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">Wendy pride</span>
+
 		<span class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
 				<span class="dp-UserName"> Peter Fergerson </span>
 			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">Peter Fergerson</span>
+			<span class="dp-Icon dp-close"></span>
 		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">Peter Fergerson</span>
+
 		<span class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
-				<span class="dp-UserName"> Wendy pride </span>
+				<span class="dp-UserName"> John Richardson </span>
 			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">Wendy pride</span>
+			<span class="dp-Icon dp-close"></span>
 		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">John Richards</span>
 		<span class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
-				<span class="dp-UserName"> Wendy pride </span>
+				<span class="dp-UserName"> John Richards </span>
 			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">Wendy pride</span>
+			<span class="dp-Icon dp-close"></span>
 		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">John Richards</span>
 		<span class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
 				<span class="dp-UserName"> Peter Fergerson </span>
 			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">Peter Fergerson</span>
+			<span class="dp-Icon dp-close"></span>
 		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">Peter Fergerson</span>
 		<span class="dp-FollowersItem">
 			<span class="dp-LogoName">
 				<span class="dp-Icon dp-iconUserAvatar"></span>
 				<span class="dp-UserName"> Wendy pride </span>
 			</span>
-			<i class="dp-Icon dp-close"></i>
-			<!-- tooltip -->
-			<span class="dp-ToolTips">Wendy pride</span>
+			<span class="dp-Icon dp-close"></span>
 		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">Wendy pride</span>
+		<span class="dp-FollowersItem">
+			<span class="dp-LogoName">
+				<span class="dp-Icon dp-iconUserAvatar"></span>
+				<span class="dp-UserName"> Wendy pride </span>
+			</span>
+			<span class="dp-Icon dp-close"></span>
+		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">Wendy pride</span>
+
+		<span class="dp-FollowersItem">
+			<span class="dp-LogoName">
+				<span class="dp-Icon dp-iconUserAvatar"></span>
+				<span class="dp-UserName"> Peter Fergerson </span>
+			</span>
+			<span class="dp-Icon dp-close"></span>
+		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">Peter Fergerson</span>
+		<span class="dp-FollowersItem">
+			<span class="dp-LogoName">
+				<span class="dp-Icon dp-iconUserAvatar"></span>
+				<span class="dp-UserName"> Wendy pride </span>
+			</span>
+			<span class="dp-Icon dp-close"></span>
+		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">Wendy pride</span>
+		<span class="dp-FollowersItem">
+			<span class="dp-LogoName">
+				<span class="dp-Icon dp-iconUserAvatar"></span>
+				<span class="dp-UserName"> Peter Fergerson </span>
+			</span>
+			<span class="dp-Icon dp-close"></span>
+		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">Peter Fergerson</span>
+		<span class="dp-FollowersItem">
+			<span class="dp-LogoName">
+				<span class="dp-Icon dp-iconUserAvatar"></span>
+				<span class="dp-UserName"> John Richardson </span>
+			</span>
+			<span class="dp-Icon dp-close"></span>
+		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">John Richards</span>
+		<span class="dp-FollowersItem">
+			<span class="dp-LogoName">
+				<span class="dp-Icon dp-iconUserAvatar"></span>
+				<span class="dp-UserName"> John Richards </span>
+			</span>
+			<span class="dp-Icon dp-close"></span>
+		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">John Richards</span>
+		<span class="dp-FollowersItem">
+			<span class="dp-LogoName">
+				<span class="dp-Icon dp-iconUserAvatar"></span>
+				<span class="dp-UserName"> Peter Fergerson </span>
+			</span>
+			<span class="dp-Icon dp-close"></span>
+		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">Peter Fergerson</span>
+		<span class="dp-FollowersItem">
+			<span class="dp-LogoName">
+				<span class="dp-Icon dp-iconUserAvatar"></span>
+				<span class="dp-UserName"> Wendy pride </span>
+			</span>
+			<span class="dp-Icon dp-close"></span>
+		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">Wendy pride</span>
+		<span class="dp-FollowersItem">
+			<span class="dp-LogoName">
+				<span class="dp-Icon dp-iconUserAvatar"></span>
+				<span class="dp-UserName"> Wendy pride </span>
+			</span>
+			<span class="dp-Icon dp-close"></span>
+		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">Wendy pride</span>
+
+		<span class="dp-FollowersItem">
+			<span class="dp-LogoName">
+				<span class="dp-Icon dp-iconUserAvatar"></span>
+				<span class="dp-UserName"> John Richards </span>
+			</span>
+			<span class="dp-Icon dp-close"></span>
+		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">John Richards</span>
+		<span class="dp-FollowersItem">
+			<span class="dp-LogoName">
+				<span class="dp-Icon dp-iconUserAvatar"></span>
+				<span class="dp-UserName"> Wendy pride </span>
+			</span>
+			<span class="dp-Icon dp-close"></span>
+		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">Wendy pride</span>
+		<span class="dp-FollowersItem">
+			<span class="dp-LogoName">
+				<span class="dp-Icon dp-iconUserAvatar"></span>
+				<span class="dp-UserName"> Peter Fergerson </span>
+			</span>
+			<span class="dp-Icon dp-close"></span>
+		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">Peter Fergerson</span>
+		<span class="dp-FollowersItem">
+			<span class="dp-LogoName">
+				<span class="dp-Icon dp-iconUserAvatar"></span>
+				<span class="dp-UserName"> John Richardson </span>
+			</span>
+			<span class="dp-Icon dp-close"></span>
+		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">John Richards</span>
+		<span class="dp-FollowersItem">
+			<span class="dp-LogoName">
+				<span class="dp-Icon dp-iconUserAvatar"></span>
+				<span class="dp-UserName"> John Richards </span>
+			</span>
+			<span class="dp-Icon dp-close"></span>
+		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">John Richards</span>
+		<span class="dp-FollowersItem">
+			<span class="dp-LogoName">
+				<span class="dp-Icon dp-iconUserAvatar"></span>
+				<span class="dp-UserName"> Peter Fergerson </span>
+			</span>
+			<span class="dp-Icon dp-close"></span>
+		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">Peter Fergerson</span>
+		<span class="dp-FollowersItem">
+			<span class="dp-LogoName">
+				<span class="dp-Icon dp-iconUserAvatar"></span>
+				<span class="dp-UserName"> Wendy pride </span>
+			</span>
+			<span class="dp-Icon dp-close"></span>
+		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">Wendy pride</span>
+		<span class="dp-FollowersItem">
+			<span class="dp-LogoName">
+				<span class="dp-Icon dp-iconUserAvatar"></span>
+				<span class="dp-UserName"> Wendy pride </span>
+			</span>
+			<span class="dp-Icon dp-close"></span>
+		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">Wendy pride</span>
+
+		<span class="dp-FollowersItem">
+			<span class="dp-LogoName">
+				<span class="dp-Icon dp-iconUserAvatar"></span>
+				<span class="dp-UserName"> Peter Fergerson </span>
+			</span>
+			<span class="dp-Icon dp-close"></span>
+		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">Peter Fergerson</span>
+		<span class="dp-FollowersItem">
+			<span class="dp-LogoName">
+				<span class="dp-Icon dp-iconUserAvatar"></span>
+				<span class="dp-UserName"> Wendy pride </span>
+			</span>
+			<span class="dp-Icon dp-close"></span>
+		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">Wendy pride</span>
+		<span class="dp-FollowersItem">
+			<span class="dp-LogoName">
+				<span class="dp-Icon dp-iconUserAvatar"></span>
+				<span class="dp-UserName"> Peter Fergerson </span>
+			</span>
+			<span class="dp-Icon dp-close"></span>
+		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">Peter Fergerson</span>
+		<span class="dp-FollowersItem">
+			<span class="dp-LogoName">
+				<span class="dp-Icon dp-iconUserAvatar"></span>
+				<span class="dp-UserName"> John Richardson </span>
+			</span>
+			<span class="dp-Icon dp-close"></span>
+		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">John Richards</span>
+		<span class="dp-FollowersItem">
+			<span class="dp-LogoName">
+				<span class="dp-Icon dp-iconUserAvatar"></span>
+				<span class="dp-UserName"> John Richards </span>
+			</span>
+			<span class="dp-Icon dp-close"></span>
+		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">John Richards</span>
+		<span class="dp-FollowersItem">
+			<span class="dp-LogoName">
+				<span class="dp-Icon dp-iconUserAvatar"></span>
+				<span class="dp-UserName"> Peter Fergerson </span>
+			</span>
+			<span class="dp-Icon dp-close"></span>
+		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">Peter Fergerson</span>
+		<span class="dp-FollowersItem">
+			<span class="dp-LogoName">
+				<span class="dp-Icon dp-iconUserAvatar"></span>
+				<span class="dp-UserName"> Wendy pride </span>
+			</span>
+			<span class="dp-Icon dp-close"></span>
+		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">Wendy pride</span>
+		<span class="dp-FollowersItem">
+			<span class="dp-LogoName">
+				<span class="dp-Icon dp-iconUserAvatar"></span>
+				<span class="dp-UserName"> Wendy pride </span>
+			</span>
+			<span class="dp-Icon dp-close"></span>
+		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">Wendy pride</span>
+		<span class="dp-FollowersItem">
+			<span class="dp-LogoName">
+				<span class="dp-Icon dp-iconUserAvatar"></span>
+				<span class="dp-UserName"> Peter Fergerson </span>
+			</span>
+			<span class="dp-Icon dp-close"></span>
+		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">Peter Fergerson</span>
+		<span class="dp-FollowersItem">
+			<span class="dp-LogoName">
+				<span class="dp-Icon dp-iconUserAvatar"></span>
+				<span class="dp-UserName"> Wendy pride </span>
+			</span>
+			<span class="dp-Icon dp-close"></span>
+		</span>
+		<!-- tooltip -->
+		<span class="dp-ToolTips">Wendy pride</span>
 
 		<span class="dp-FollowersBtn">
 			<button class="dp-Button Button--link Button--small">
@@ -2334,7 +2347,7 @@ title: Ticket View
 						<span class="dp-Icon dp-iconUserAvatar"></span>
 						<span class="dp-UserName"> Wendy pride </span>
 					</span>
-					<i class="dp-Icon dp-close"></i>
+					<span class="dp-Icon dp-close"></span>
 					<!-- tooltip -->
 					<span class="dp-ToolTips">Wendy pride</span>
 				</li>
@@ -2343,7 +2356,7 @@ title: Ticket View
 						<span class="dp-Icon dp-iconUserAvatar"></span>
 						<span class="dp-UserName"> Me </span>
 					</span>
-					<i class="dp-Icon dp-close"></i>
+					<span class="dp-Icon dp-close"></span>
 					<!-- tooltip -->
 					<span class="dp-ToolTips">Me</span>
 				</li>
@@ -2352,7 +2365,7 @@ title: Ticket View
 						<span class="dp-Icon dp-iconUserAvatar"></span>
 						<span class="dp-UserName"> Peter Fergerson </span>
 					</span>
-					<i class="dp-Icon dp-close"></i>
+					<span class="dp-Icon dp-close"></span>
 					<!-- tooltip -->
 					<span class="dp-ToolTips">Peter Fergerson</span>
 				</li>
@@ -2361,7 +2374,7 @@ title: Ticket View
 						<span class="dp-Icon dp-iconUserAvatar"></span>
 						<span class="dp-UserName"> John Richardson </span>
 					</span>
-					<i class="dp-Icon dp-close"></i>
+					<span class="dp-Icon dp-close"></span>
 					<!-- tooltip -->
 					<span class="dp-ToolTips">John Richardson</span>
 				</li>
@@ -2370,7 +2383,7 @@ title: Ticket View
 						<span class="dp-Icon dp-iconUserAvatar"></span>
 						<span class="dp-UserName"> Peter Fergerson </span>
 					</span>
-					<i class="dp-Icon dp-close"></i>
+					<span class="dp-Icon dp-close"></span>
 					<!-- tooltip -->
 					<span class="dp-ToolTips">Peter Fergerson</span>
 				</li>
