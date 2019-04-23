@@ -46,6 +46,7 @@ const Dropdown: React.FC<DropdownProps> = ({
           <Popper
             placement="bottom-start"
             modifiers={{
+              offset: { offset: "0,5" },
               preventOverflow: {
                 enabled: true,
                 escapeWithReference: true,
