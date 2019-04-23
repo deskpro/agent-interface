@@ -31,7 +31,7 @@ const FollowerItem: React.FC<FollowerItemProps> = ({
               {avatar}
               <span className="dp-UserName">{name}</span>
             </span>
-            <Icon name="close" onClick={() => onRemove(id)} size={8} />
+            <Icon name="close" onClick={() => onRemove(id)} size={7} />
           </span>
         )}
       </Reference>
