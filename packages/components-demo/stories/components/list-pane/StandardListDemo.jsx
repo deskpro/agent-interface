@@ -96,7 +96,7 @@ const StandardListDemo = ({
                 </Badge>
               </IconGroup>
             }
-            status={<span className="dp-TimeStatus">2 mins</span>}
+            status={<div className="dp-TimeStatus">2 mins</div>}
             renderCogMenu={menuProps => (
               <Menu {...menuProps}>
                 <Menu.MenuItem
