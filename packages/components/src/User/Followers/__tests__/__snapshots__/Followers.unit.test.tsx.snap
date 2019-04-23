@@ -71,8 +71,8 @@ exports[`<Followers /> should match the snapshot for 10 followers: 10 followers 
         tabindex="-1"
       >
         <icon-mock
-          height="8"
-          width="8"
+          height="7"
+          width="7"
         />
       </span>
     </span>
@@ -104,8 +104,8 @@ exports[`<Followers /> should match the snapshot for 10 followers: 10 followers 
         tabindex="-1"
       >
         <icon-mock
-          height="8"
-          width="8"
+          height="7"
+          width="7"
         />
       </span>
     </span>
@@ -137,8 +137,8 @@ exports[`<Followers /> should match the snapshot for 10 followers: 10 followers 
         tabindex="-1"
       >
         <icon-mock
-          height="8"
-          width="8"
+          height="7"
+          width="7"
         />
       </span>
     </span>
@@ -170,8 +170,8 @@ exports[`<Followers /> should match the snapshot for 10 followers: 10 followers 
         tabindex="-1"
       >
         <icon-mock
-          height="8"
-          width="8"
+          height="7"
+          width="7"
         />
       </span>
     </span>
@@ -203,8 +203,8 @@ exports[`<Followers /> should match the snapshot for 10 followers: 10 followers 
         tabindex="-1"
       >
         <icon-mock
-          height="8"
-          width="8"
+          height="7"
+          width="7"
         />
       </span>
     </span>
@@ -236,8 +236,8 @@ exports[`<Followers /> should match the snapshot for 10 followers: 10 followers 
         tabindex="-1"
       >
         <icon-mock
-          height="8"
-          width="8"
+          height="7"
+          width="7"
         />
       </span>
     </span>
@@ -269,8 +269,8 @@ exports[`<Followers /> should match the snapshot for 10 followers: 10 followers 
         tabindex="-1"
       >
         <icon-mock
-          height="8"
-          width="8"
+          height="7"
+          width="7"
         />
       </span>
     </span>
@@ -302,8 +302,8 @@ exports[`<Followers /> should match the snapshot for 10 followers: 10 followers 
         tabindex="-1"
       >
         <icon-mock
-          height="8"
-          width="8"
+          height="7"
+          width="7"
         />
       </span>
     </span>
@@ -335,8 +335,8 @@ exports[`<Followers /> should match the snapshot for 10 followers: 10 followers 
         tabindex="-1"
       >
         <icon-mock
-          height="8"
-          width="8"
+          height="7"
+          width="7"
         />
       </span>
     </span>
@@ -368,8 +368,8 @@ exports[`<Followers /> should match the snapshot for 10 followers: 10 followers 
         tabindex="-1"
       >
         <icon-mock
-          height="8"
-          width="8"
+          height="7"
+          width="7"
         />
       </span>
     </span>
@@ -460,8 +460,8 @@ exports[`<Followers /> should match the snapshot for 25 followers: 25 followers 
         tabindex="-1"
       >
         <icon-mock
-          height="8"
-          width="8"
+          height="7"
+          width="7"
         />
       </span>
     </span>
@@ -493,8 +493,8 @@ exports[`<Followers /> should match the snapshot for 25 followers: 25 followers 
         tabindex="-1"
       >
         <icon-mock
-          height="8"
-          width="8"
+          height="7"
+          width="7"
         />
       </span>
     </span>
@@ -526,8 +526,8 @@ exports[`<Followers /> should match the snapshot for 25 followers: 25 followers 
         tabindex="-1"
       >
         <icon-mock
-          height="8"
-          width="8"
+          height="7"
+          width="7"
         />
       </span>
     </span>
@@ -559,8 +559,8 @@ exports[`<Followers /> should match the snapshot for 25 followers: 25 followers 
         tabindex="-1"
       >
         <icon-mock
-          height="8"
-          width="8"
+          height="7"
+          width="7"
         />
       </span>
     </span>
@@ -592,8 +592,8 @@ exports[`<Followers /> should match the snapshot for 25 followers: 25 followers 
         tabindex="-1"
       >
         <icon-mock
-          height="8"
-          width="8"
+          height="7"
+          width="7"
         />
       </span>
     </span>
@@ -625,8 +625,8 @@ exports[`<Followers /> should match the snapshot for 25 followers: 25 followers 
         tabindex="-1"
       >
         <icon-mock
-          height="8"
-          width="8"
+          height="7"
+          width="7"
         />
       </span>
     </span>
@@ -658,8 +658,8 @@ exports[`<Followers /> should match the snapshot for 25 followers: 25 followers 
         tabindex="-1"
       >
         <icon-mock
-          height="8"
-          width="8"
+          height="7"
+          width="7"
         />
       </span>
     </span>
@@ -691,8 +691,8 @@ exports[`<Followers /> should match the snapshot for 25 followers: 25 followers 
         tabindex="-1"
       >
         <icon-mock
-          height="8"
-          width="8"
+          height="7"
+          width="7"
         />
       </span>
     </span>
@@ -724,8 +724,8 @@ exports[`<Followers /> should match the snapshot for 25 followers: 25 followers 
         tabindex="-1"
       >
         <icon-mock
-          height="8"
-          width="8"
+          height="7"
+          width="7"
         />
       </span>
     </span>
@@ -757,8 +757,8 @@ exports[`<Followers /> should match the snapshot for 25 followers: 25 followers 
         tabindex="-1"
       >
         <icon-mock
-          height="8"
-          width="8"
+          height="7"
+          width="7"
         />
       </span>
     </span>
@@ -790,8 +790,8 @@ exports[`<Followers /> should match the snapshot for 25 followers: 25 followers 
         tabindex="-1"
       >
         <icon-mock
-          height="8"
-          width="8"
+          height="7"
+          width="7"
         />
       </span>
     </span>
@@ -823,8 +823,8 @@ exports[`<Followers /> should match the snapshot for 25 followers: 25 followers 
         tabindex="-1"
       >
         <icon-mock
-          height="8"
-          width="8"
+          height="7"
+          width="7"
         />
       </span>
     </span>
@@ -856,8 +856,8 @@ exports[`<Followers /> should match the snapshot for 25 followers: 25 followers 
         tabindex="-1"
       >
         <icon-mock
-          height="8"
-          width="8"
+          height="7"
+          width="7"
         />
       </span>
     </span>
@@ -889,8 +889,8 @@ exports[`<Followers /> should match the snapshot for 25 followers: 25 followers 
         tabindex="-1"
       >
         <icon-mock
-          height="8"
-          width="8"
+          height="7"
+          width="7"
         />
       </span>
     </span>
@@ -922,8 +922,8 @@ exports[`<Followers /> should match the snapshot for 25 followers: 25 followers 
         tabindex="-1"
       >
         <icon-mock
-          height="8"
-          width="8"
+          height="7"
+          width="7"
         />
       </span>
     </span>
@@ -955,8 +955,8 @@ exports[`<Followers /> should match the snapshot for 25 followers: 25 followers 
         tabindex="-1"
       >
         <icon-mock
-          height="8"
-          width="8"
+          height="7"
+          width="7"
         />
       </span>
     </span>
@@ -988,8 +988,8 @@ exports[`<Followers /> should match the snapshot for 25 followers: 25 followers 
         tabindex="-1"
       >
         <icon-mock
-          height="8"
-          width="8"
+          height="7"
+          width="7"
         />
       </span>
     </span>
@@ -1021,8 +1021,8 @@ exports[`<Followers /> should match the snapshot for 25 followers: 25 followers 
         tabindex="-1"
       >
         <icon-mock
-          height="8"
-          width="8"
+          height="7"
+          width="7"
         />
       </span>
     </span>
@@ -1054,8 +1054,8 @@ exports[`<Followers /> should match the snapshot for 25 followers: 25 followers 
         tabindex="-1"
       >
         <icon-mock
-          height="8"
-          width="8"
+          height="7"
+          width="7"
         />
       </span>
     </span>
@@ -1087,8 +1087,8 @@ exports[`<Followers /> should match the snapshot for 25 followers: 25 followers 
         tabindex="-1"
       >
         <icon-mock
-          height="8"
-          width="8"
+          height="7"
+          width="7"
         />
       </span>
     </span>
@@ -1120,8 +1120,8 @@ exports[`<Followers /> should match the snapshot for 25 followers: 25 followers 
         tabindex="-1"
       >
         <icon-mock
-          height="8"
-          width="8"
+          height="7"
+          width="7"
         />
       </span>
     </span>
@@ -1153,8 +1153,8 @@ exports[`<Followers /> should match the snapshot for 25 followers: 25 followers 
         tabindex="-1"
       >
         <icon-mock
-          height="8"
-          width="8"
+          height="7"
+          width="7"
         />
       </span>
     </span>
@@ -1186,8 +1186,8 @@ exports[`<Followers /> should match the snapshot for 25 followers: 25 followers 
         tabindex="-1"
       >
         <icon-mock
-          height="8"
-          width="8"
+          height="7"
+          width="7"
         />
       </span>
     </span>
@@ -1219,8 +1219,8 @@ exports[`<Followers /> should match the snapshot for 25 followers: 25 followers 
         tabindex="-1"
       >
         <icon-mock
-          height="8"
-          width="8"
+          height="7"
+          width="7"
         />
       </span>
     </span>
@@ -1252,8 +1252,8 @@ exports[`<Followers /> should match the snapshot for 25 followers: 25 followers 
         tabindex="-1"
       >
         <icon-mock
-          height="8"
-          width="8"
+          height="7"
+          width="7"
         />
       </span>
     </span>
@@ -1344,8 +1344,8 @@ exports[`<Followers /> should match the snapshot for single follower: Single fol
         tabindex="-1"
       >
         <icon-mock
-          height="8"
-          width="8"
+          height="7"
+          width="7"
         />
       </span>
     </span>
