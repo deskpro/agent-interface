@@ -241,20 +241,11 @@ input[type="checkbox"] + label,
   border-bottom: 0;
   font: var(--h-l-bold);
   line-height: 1.4;
-
-  /*  margin-bottom: 0;
-  margin-right: 20px; */
-
 }
 
 .dp-Card-title .dp-qt {
   font: var(--h-l-semibold);
   margin-left: 3px;
-}
-
-.dp-Tasks-list.dp-Card-title .dp-qt {
-  color: var(--grey-darkest);
-  margin-left: 0;
 }
 
 .dp-Task-title {

@@ -2,26 +2,26 @@
 title: Filter list
 ---
 
-<!-- <h4>filterlist/container</h4>
-```html @preview
-<div class="dp-MainWrapper">
-	<div class="dp-FilterlistContainer" style="height:100vh"></div>
-</div>
-``` -->
-
 <h4>filterlist/filters-and-views</h4>
 ```html @preview
 <div class="dp-MainWrapper">
-	<div class="dp-Tickets">
-
-        <div class="dp-Card-SectionTitle dp-Tasks-list Level-justify-between">
-            <span class="dp-ListName">
+	<!-- <div class="dp-Tickets"> -->
+	<div class="dp-Filters">
+        <!-- <div class="dp-Card-SectionTitle dp-Tasks-list Level-justify-between"> -->
+        <div class="dp-Filters-bar dp-Level Level-justify-between">
+            <!-- <span class="dp-ListName"> -->
+            <span class="dp-Filters-header is-opened">
                 <span class="dp-Icon Icon--menu"></span>
-                <span class="dp-Card-title">All tickets<span class="dp-qt">(90)</span></span>
+                <!-- <span class="dp-Card-title"> -->
+                <span class="dp-Filters-title">
+                	All tickets
+                	<span class="dp-qt">(90)</span>
+                </span>
                 <span class="dp-Icon Icon--down-caret Icon--primary"></span>
             </span>
 
-            <ul class="View-group">
+            <!-- <ul class="View-group"> -->
+            <ul class="dp-ViewModes">
                 <li class="dp-Icon dp-list_view is-active"></li>
                 <li class="dp-Icon dp-table_view"></li>
                 <li class="dp-Icon dp-kanban_view"></li>
@@ -35,22 +35,23 @@ title: Filter list
 <h4>filterlist/filters-selected</h4>
 ```html @preview
 <div class="dp-MainWrapper">
-	<div class="dp-Tickets is-active">
-
-        <div class="dp-Card-SectionTitle dp-Tasks-list Level-justify-between">
-            <span class="dp-ListName">
+	<div class="dp-Filters is-active">
+        <div class="dp-Filters-bar dp-Level Level-justify-between">
+            <span class="dp-Filters-header is-opened">
                 <span class="dp-Icon Icon--menu"></span>
-                <span class="dp-Card-title">All tickets<span class="dp-qt">(90)</span></span>
+                <span class="dp-Filters-title">
+                	All tickets
+                	<span class="dp-qt">(90)</span>
+                </span>
                 <span class="dp-Icon Icon--down-caret Icon--primary"></span>
             </span>
 
-            <ul class="View-group">
+            <ul class="dp-ViewModes">
                 <li class="dp-Icon dp-list_view is-active"></li>
                 <li class="dp-Icon dp-table_view"></li>
                 <li class="dp-Icon dp-kanban_view"></li>
             </ul>
         </div>
-
 	</div>
 </div>
 ```
@@ -58,7 +59,7 @@ title: Filter list
 <h4>filterlist/accordian-selected</h4>
 ```html @preview
 <div class="dp-MainWrapper">
-	<ul class="dp-TicketMenu is-active">
+	<ul class="dp-Filters-panel is-active">
 		<li class="dp-TicketMenuItem dp-MenuBarItem is-active">
 			<span class="dp-TitleMenu">
 				<span>Awaiting agent</span>
@@ -86,7 +87,7 @@ title: Filter list
 <h4>filterlist/accordian-item-selected</h4>
 ```html @preview
 <div class="dp-MainWrapper item-selected">
-	<ul class="dp-TicketMenu is-active">
+	<ul class="dp-Filters-panel is-active">
 		<li class="dp-TicketMenuItem dp-MenuBarItem is-active">
 			<ul class="dp-SubMenu">
 				<li class="dp-SubMenuItem is-active">
@@ -101,7 +102,7 @@ title: Filter list
 <h4>filterlist/accordian-subtitle-selected</h4>
 ```html @preview
 <div class="dp-MainWrapper">
-	<ul class="dp-TicketMenu is-active">
+	<ul class="dp-Filters-panel is-active">
 		<li class="dp-TicketMenuItem dp-MenuBarItem">
 			<span class="dp-TitleMenu">
 				<span>Filters</span>
@@ -118,8 +119,7 @@ title: Filter list
 
 	<div class="dp-FilterlistContainer">
 
-		<div class="dp-Tickets is-active">
-
+<!-- 		<div class="dp-Tickets is-active">
 			<div class="dp-Card-SectionTitle dp-Tasks-list Level-justify-between">
 				<span class="dp-LevelCol dp-ListName">
 					<span class="dp-Icon Icon--menu"></span>
@@ -127,9 +127,23 @@ title: Filter list
 					<span class="dp-Icon Icon--down-caret Icon--primary"></span>
 				</span>
 			</div>
+		</div> -->
+
+		<div class="dp-Filters is-active">
+	        <div class="dp-Filters-bar dp-Level Level-justify-between">
+	            <span class="dp-Filters-header is-opened">
+	                <span class="dp-Icon Icon--menu"></span>
+	                <span class="dp-Filters-title">
+	                	All tickets
+	                	<span class="dp-qt">(90)</span>
+	                </span>
+	                <span class="dp-Icon Icon--down-caret Icon--primary"></span>
+	            </span>
+	        </div>
 		</div>
 
-		<ul class="dp-TicketMenu is-active">
+		<!-- <ul class="dp-TicketMenu is-active"> -->
+		<ul class="dp-Filters-panel is-active">
 			<!-- Awaiting agent -->
 			<li class="dp-TicketMenuItem dp-MenuBarItem is-active">
 				<span class="dp-TitleMenu">
@@ -294,7 +308,8 @@ title: Filter list
 			</div>
 		</div>
 
-		<ul class="dp-TicketMenu is-active">
+		<!-- <ul class="dp-TicketMenu is-active"> -->
+		<ul class="dp-Filters-panel is-active">
 			<!-- Awaiting agent -->
 			<li class="dp-TicketMenuItem dp-MenuBarItem is-active">
 				<span class="dp-TitleMenu">
@@ -457,7 +472,8 @@ title: Filter list
 			</div>
 		</div>
 
-		<ul class="dp-TicketMenu is-active">
+		<!-- <ul class="dp-TicketMenu is-active"> -->
+		<ul class="dp-Filters-panel is-active">
 			<!-- Awaiting agent -->
 			<li class="dp-TicketMenuItem dp-MenuBarItem is-active">
 				<span class="dp-TitleMenu">
