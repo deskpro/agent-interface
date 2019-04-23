@@ -11,7 +11,8 @@ import {
   Account,
   SimpleModuleBar,
   Icon,
-  BadgeCopy
+  BadgeCopy,
+  FilterPanel
 } from "@deskpro/agent-interface-components";
 
 import List from "./components/list-pane/StandardListDemo";
@@ -51,61 +52,71 @@ const portalLinks = [
   }
 ];
 
-const Demo = () => (
-  // const [items, setItems] = React.useState([]);
+const Demo = () => {
+  const [viewMode, setViewMode] = React.useState("list");
 
-  <div className="dp-Level" style={{ width: "100vw", height: "100vh" }}>
-    <SimpleModuleBar
-      items={modules}
-      portalMenuLinks={portalLinks}
-      onItemClick={action("module select")}
-    />
-    <div className="dp-Level" style={{ flexDirection: "column", flex: 1 }}>
-      <Header
-        onSearch={action("header search")}
-        left={
-          <>
-            <Recent />
-            <AgentIM />
-          </>
-        }
-        right={
-          <>
-            <Notifications />
-            <AgentStatus />
-            <Account />
-          </>
-        }
+  return (
+    <div className="dp-Level" style={{ width: "100vw", height: "100vh" }}>
+      <SimpleModuleBar
+        items={modules}
+        portalMenuLinks={portalLinks}
+        onItemClick={action("module select")}
       />
-      <div
-        className="dp-Level"
-        style={{ width: "100%", height: "calc(100% - 44px)" }}
-      >
-        <List style={{ height: "100%", flex: "1 0 450px" }} />
+      <div className="dp-Level" style={{ flexDirection: "column", flex: 1 }}>
+        <Header
+          onSearch={action("header search")}
+          left={
+            <>
+              <Recent />
+              <AgentIM />
+            </>
+          }
+          right={
+            <>
+              <Notifications />
+              <AgentStatus />
+              <Account />
+            </>
+          }
+        />
         <div
-          style={{
-            flex: "0 1 100%",
-            height: "100%",
-            overflow: "hidden"
-          }}
+          className="dp-Level"
+          style={{ width: "100%", height: "calc(100% - 44px)" }}
         >
-          <PageTabs full />
-          <div className="dp-SsoWrap">
-            <div className="dp-SsoContent">
-              <Icon name="star" size={16} color="success" />
-              <BadgeCopy value="1234" />
-              <span className="dp-SsoText">
-                SSO working well with Safari and IE but issue with Chrome
-                browser
-              </span>
-            </div>
+          <div style={{ height: "100%", flex: "1 0 450px" }}>
+            <FilterPanel
+              title="All Tickets"
+              itemsCount={90}
+              viewMode={viewMode}
+              onModeChange={setViewMode}
+            />
+            <List />
           </div>
-          <ActionsBarDemo isOutlined />
-          <ActionsBarDemo />
+          <div
+            style={{
+              flex: "0 1 100%",
+              height: "100%",
+              overflow: "hidden"
+            }}
+          >
+            <PageTabs full />
+            <div className="dp-SsoWrap">
+              <div className="dp-SsoContent">
+                <Icon name="star" size={16} color="success" />
+                <BadgeCopy value="1234" />
+                <div className="dp-SsoText">
+                  SSO working well with Safari and IE but issue with Chrome
+                  browser
+                </div>
+              </div>
+            </div>
+            <ActionsBarDemo isOutlined />
+            <ActionsBarDemo />
+          </div>
         </div>
       </div>
     </div>
-  </div>
-);
+  );
+};
 
 storiesOf("Pages", module).add("Full Page Demo", () => <Demo />);

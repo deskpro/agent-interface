@@ -20,6 +20,7 @@ export { default as Card } from "./ListPane/Card/Card";
 export { default as Pagination } from "./Pagination/Pagination";
 export { default as List } from "./ListPane/List/List";
 export { default as StandardList } from "./ListPane/List/StandardList";
+export { default as FilterPanel } from "./ListPane/FilterPanel/FilterPanel";
 
 export { default as Kanban } from "./Kanban/Kanban";
 export { default as StandardKanban } from "./Kanban/StandardKanban";
