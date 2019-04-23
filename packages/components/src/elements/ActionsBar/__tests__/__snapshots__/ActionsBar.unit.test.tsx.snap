@@ -1,0 +1,275 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ActionsBar /> should match snapshot for the general bar: General ActionsBar 1`] = `
+<div
+  class="dp-ActionsBar"
+>
+  <span
+    class="dp-Dropdown-container"
+  >
+    <span
+      class="dp-Dropdown"
+      role="button"
+      tabindex="-1"
+    >
+      <span
+        class="dp-Icon Icon--tasks"
+        role="button"
+        tabindex="-1"
+      >
+        <icon-mock
+          height="23"
+          width="23"
+        />
+      </span>
+      Tasks
+      <span
+        class="dp-Icon dp-Arrow"
+        role="button"
+        tabindex="-1"
+      />
+    </span>
+  </span>
+  <span
+    class="dp-Dropdown-container"
+  >
+    <span
+      class="dp-Dropdown"
+      role="button"
+      tabindex="-1"
+    >
+      <span
+        class="dp-Icon Icon--billing"
+        role="button"
+        tabindex="-1"
+      >
+        <icon-mock
+          height="23"
+          width="23"
+        />
+      </span>
+      Billing
+      <span
+        class="dp-Icon dp-Arrow"
+        role="button"
+        tabindex="-1"
+      />
+    </span>
+  </span>
+  <span
+    class="dp-Dropdown-container"
+  >
+    <span
+      class="dp-Dropdown"
+      role="button"
+      tabindex="-1"
+    >
+      <span
+        class="dp-Icon Icon--liscense"
+        role="button"
+        tabindex="-1"
+      >
+        <icon-mock
+          height="23"
+          width="23"
+        />
+      </span>
+      License
+      <span
+        class="dp-Icon dp-Arrow"
+        role="button"
+        tabindex="-1"
+      />
+    </span>
+  </span>
+  <span
+    class="dp-Dropdown-container"
+  >
+    <span
+      class="dp-Dropdown"
+      role="button"
+      tabindex="-1"
+    >
+      <span
+        class="dp-Icon Icon--ticket-properties"
+        role="button"
+        tabindex="-1"
+      >
+        <icon-mock
+          height="23"
+          width="23"
+        />
+      </span>
+      Ticket Properties
+      <span
+        class="dp-Icon dp-Arrow"
+        role="button"
+        tabindex="-1"
+      />
+    </span>
+  </span>
+  <span
+    class="dp-Dropdown-container"
+  >
+    <span
+      class="dp-Dropdown"
+      role="button"
+      tabindex="-1"
+    >
+      <span
+        class="dp-Icon Icon--follow-up"
+        role="button"
+        tabindex="-1"
+      >
+        <icon-mock
+          height="23"
+          width="23"
+        />
+      </span>
+      Follow-ups
+      <span
+        class="dp-Icon dp-Arrow"
+        role="button"
+        tabindex="-1"
+      />
+    </span>
+  </span>
+</div>
+`;
+
+exports[`<ActionsBar /> should match snapshot for the outlined bar: Outlined ActionsBar 1`] = `
+<div
+  class="dp-ActionsBar outlined"
+>
+  <span
+    class="dp-Dropdown-container"
+  >
+    <span
+      class="dp-Dropdown"
+      role="button"
+      tabindex="-1"
+    >
+      <span
+        class="dp-Icon Icon--tasks"
+        role="button"
+        tabindex="-1"
+      >
+        <icon-mock
+          height="15"
+          width="15"
+        />
+      </span>
+      Tasks
+      <span
+        class="dp-Icon dp-Arrow"
+        role="button"
+        tabindex="-1"
+      />
+    </span>
+  </span>
+  <span
+    class="dp-Dropdown-container"
+  >
+    <span
+      class="dp-Dropdown"
+      role="button"
+      tabindex="-1"
+    >
+      <span
+        class="dp-Icon Icon--billing"
+        role="button"
+        tabindex="-1"
+      >
+        <icon-mock
+          height="15"
+          width="15"
+        />
+      </span>
+      Billing
+      <span
+        class="dp-Icon dp-Arrow"
+        role="button"
+        tabindex="-1"
+      />
+    </span>
+  </span>
+  <span
+    class="dp-Dropdown-container"
+  >
+    <span
+      class="dp-Dropdown"
+      role="button"
+      tabindex="-1"
+    >
+      <span
+        class="dp-Icon Icon--liscense"
+        role="button"
+        tabindex="-1"
+      >
+        <icon-mock
+          height="15"
+          width="15"
+        />
+      </span>
+      License
+      <span
+        class="dp-Icon dp-Arrow"
+        role="button"
+        tabindex="-1"
+      />
+    </span>
+  </span>
+  <span
+    class="dp-Dropdown-container"
+  >
+    <span
+      class="dp-Dropdown"
+      role="button"
+      tabindex="-1"
+    >
+      <span
+        class="dp-Icon Icon--ticket-properties"
+        role="button"
+        tabindex="-1"
+      >
+        <icon-mock
+          height="15"
+          width="15"
+        />
+      </span>
+      Ticket Properties
+      <span
+        class="dp-Icon dp-Arrow"
+        role="button"
+        tabindex="-1"
+      />
+    </span>
+  </span>
+  <span
+    class="dp-Dropdown-container"
+  >
+    <span
+      class="dp-Dropdown"
+      role="button"
+      tabindex="-1"
+    >
+      <span
+        class="dp-Icon Icon--follow-up"
+        role="button"
+        tabindex="-1"
+      >
+        <icon-mock
+          height="15"
+          width="15"
+        />
+      </span>
+      Follow-ups
+      <span
+        class="dp-Icon dp-Arrow"
+        role="button"
+        tabindex="-1"
+      />
+    </span>
+  </span>
+</div>
+`;
