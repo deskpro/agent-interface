@@ -1,0 +1,1376 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Followers /> should match the snapshot for 10 followers: 10 followers 1`] = `
+<div
+  class="dp-Followers"
+>
+  <div
+    class="dp-SectionControls"
+  >
+    <div
+      class="dp-SectionTitle"
+    >
+      <div
+        class="dp-TitleControls"
+      >
+        Followers 
+        <span
+          class="dp-qt"
+        >
+          (
+          10
+          )
+        </span>
+      </div>
+      <button
+        class="dp-Button Button--link Button--primary dp-StatusTimes dp-FollowersStatus is-active"
+        type="button"
+      >
+        Following
+        <span
+          class="dp-Icon Icon--following Icon--primary"
+          role="button"
+          tabindex="-1"
+        >
+          <icon-mock
+            height="10"
+            width="10"
+          />
+        </span>
+      </button>
+    </div>
+  </div>
+  <div
+    class="dp-FollowerList Followers--Medium"
+  >
+    <span
+      class="dp-FollowersItem"
+    >
+      <span
+        class="dp-LogoName"
+      >
+        <span
+          class="dp-Icon Icon--avatar"
+          role="button"
+          tabindex="-1"
+        >
+          <icon-mock
+            height="10"
+            width="10"
+          />
+        </span>
+        <span
+          class="dp-UserName"
+        >
+          Agent #1
+        </span>
+      </span>
+      <span
+        class="dp-Icon Icon--close"
+        role="button"
+        tabindex="-1"
+      >
+        <icon-mock
+          height="8"
+          width="8"
+        />
+      </span>
+    </span>
+    <span
+      class="dp-FollowersItem"
+    >
+      <span
+        class="dp-LogoName"
+      >
+        <span
+          class="dp-Icon Icon--avatar"
+          role="button"
+          tabindex="-1"
+        >
+          <icon-mock
+            height="10"
+            width="10"
+          />
+        </span>
+        <span
+          class="dp-UserName"
+        >
+          Agent #2
+        </span>
+      </span>
+      <span
+        class="dp-Icon Icon--close"
+        role="button"
+        tabindex="-1"
+      >
+        <icon-mock
+          height="8"
+          width="8"
+        />
+      </span>
+    </span>
+    <span
+      class="dp-FollowersItem"
+    >
+      <span
+        class="dp-LogoName"
+      >
+        <span
+          class="dp-Icon Icon--avatar"
+          role="button"
+          tabindex="-1"
+        >
+          <icon-mock
+            height="10"
+            width="10"
+          />
+        </span>
+        <span
+          class="dp-UserName"
+        >
+          Agent #3
+        </span>
+      </span>
+      <span
+        class="dp-Icon Icon--close"
+        role="button"
+        tabindex="-1"
+      >
+        <icon-mock
+          height="8"
+          width="8"
+        />
+      </span>
+    </span>
+    <span
+      class="dp-FollowersItem"
+    >
+      <span
+        class="dp-LogoName"
+      >
+        <span
+          class="dp-Icon Icon--avatar"
+          role="button"
+          tabindex="-1"
+        >
+          <icon-mock
+            height="10"
+            width="10"
+          />
+        </span>
+        <span
+          class="dp-UserName"
+        >
+          Agent #4
+        </span>
+      </span>
+      <span
+        class="dp-Icon Icon--close"
+        role="button"
+        tabindex="-1"
+      >
+        <icon-mock
+          height="8"
+          width="8"
+        />
+      </span>
+    </span>
+    <span
+      class="dp-FollowersItem"
+    >
+      <span
+        class="dp-LogoName"
+      >
+        <span
+          class="dp-Icon Icon--avatar"
+          role="button"
+          tabindex="-1"
+        >
+          <icon-mock
+            height="10"
+            width="10"
+          />
+        </span>
+        <span
+          class="dp-UserName"
+        >
+          Agent #5
+        </span>
+      </span>
+      <span
+        class="dp-Icon Icon--close"
+        role="button"
+        tabindex="-1"
+      >
+        <icon-mock
+          height="8"
+          width="8"
+        />
+      </span>
+    </span>
+    <span
+      class="dp-FollowersItem"
+    >
+      <span
+        class="dp-LogoName"
+      >
+        <span
+          class="dp-Icon Icon--avatar"
+          role="button"
+          tabindex="-1"
+        >
+          <icon-mock
+            height="10"
+            width="10"
+          />
+        </span>
+        <span
+          class="dp-UserName"
+        >
+          Agent #6
+        </span>
+      </span>
+      <span
+        class="dp-Icon Icon--close"
+        role="button"
+        tabindex="-1"
+      >
+        <icon-mock
+          height="8"
+          width="8"
+        />
+      </span>
+    </span>
+    <span
+      class="dp-FollowersItem"
+    >
+      <span
+        class="dp-LogoName"
+      >
+        <span
+          class="dp-Icon Icon--avatar"
+          role="button"
+          tabindex="-1"
+        >
+          <icon-mock
+            height="10"
+            width="10"
+          />
+        </span>
+        <span
+          class="dp-UserName"
+        >
+          Agent #7
+        </span>
+      </span>
+      <span
+        class="dp-Icon Icon--close"
+        role="button"
+        tabindex="-1"
+      >
+        <icon-mock
+          height="8"
+          width="8"
+        />
+      </span>
+    </span>
+    <span
+      class="dp-FollowersItem"
+    >
+      <span
+        class="dp-LogoName"
+      >
+        <span
+          class="dp-Icon Icon--avatar"
+          role="button"
+          tabindex="-1"
+        >
+          <icon-mock
+            height="10"
+            width="10"
+          />
+        </span>
+        <span
+          class="dp-UserName"
+        >
+          Agent #8
+        </span>
+      </span>
+      <span
+        class="dp-Icon Icon--close"
+        role="button"
+        tabindex="-1"
+      >
+        <icon-mock
+          height="8"
+          width="8"
+        />
+      </span>
+    </span>
+    <span
+      class="dp-FollowersItem"
+    >
+      <span
+        class="dp-LogoName"
+      >
+        <span
+          class="dp-Icon Icon--avatar"
+          role="button"
+          tabindex="-1"
+        >
+          <icon-mock
+            height="10"
+            width="10"
+          />
+        </span>
+        <span
+          class="dp-UserName"
+        >
+          Agent #9
+        </span>
+      </span>
+      <span
+        class="dp-Icon Icon--close"
+        role="button"
+        tabindex="-1"
+      >
+        <icon-mock
+          height="8"
+          width="8"
+        />
+      </span>
+    </span>
+    <span
+      class="dp-FollowersItem"
+    >
+      <span
+        class="dp-LogoName"
+      >
+        <span
+          class="dp-Icon Icon--avatar"
+          role="button"
+          tabindex="-1"
+        >
+          <icon-mock
+            height="10"
+            width="10"
+          />
+        </span>
+        <span
+          class="dp-UserName"
+        >
+          Agent #10
+        </span>
+      </span>
+      <span
+        class="dp-Icon Icon--close"
+        role="button"
+        tabindex="-1"
+      >
+        <icon-mock
+          height="8"
+          width="8"
+        />
+      </span>
+    </span>
+    <span
+      class="dp-FollowersBtn"
+    >
+      <button
+        class="dp-Button Button--small Button--link Button--primary"
+        type="button"
+      >
+        <span
+          class="dp-Icon Icon--add-follower Icon--primary"
+          role="button"
+          tabindex="-1"
+        >
+          <icon-mock
+            height="10"
+            width="10"
+          />
+        </span>
+        <span>
+          Add
+        </span>
+      </button>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`<Followers /> should match the snapshot for 25 followers: 25 followers 1`] = `
+<div
+  class="dp-Followers"
+>
+  <div
+    class="dp-SectionControls"
+  >
+    <div
+      class="dp-SectionTitle"
+    >
+      <div
+        class="dp-TitleControls"
+      >
+        Followers 
+        <span
+          class="dp-qt"
+        >
+          (
+          25
+          )
+        </span>
+      </div>
+      <button
+        class="dp-Button Button--link Button--primary dp-StatusTimes dp-FollowersStatus"
+        type="button"
+      >
+        Follow
+      </button>
+    </div>
+  </div>
+  <div
+    class="dp-FollowerList Followers--Large"
+  >
+    <span
+      class="dp-FollowersItem"
+    >
+      <span
+        class="dp-LogoName"
+      >
+        <span
+          class="dp-Icon Icon--avatar"
+          role="button"
+          tabindex="-1"
+        >
+          <icon-mock
+            height="10"
+            width="10"
+          />
+        </span>
+        <span
+          class="dp-UserName"
+        >
+          Agent #1
+        </span>
+      </span>
+      <span
+        class="dp-Icon Icon--close"
+        role="button"
+        tabindex="-1"
+      >
+        <icon-mock
+          height="8"
+          width="8"
+        />
+      </span>
+    </span>
+    <span
+      class="dp-FollowersItem"
+    >
+      <span
+        class="dp-LogoName"
+      >
+        <span
+          class="dp-Icon Icon--avatar"
+          role="button"
+          tabindex="-1"
+        >
+          <icon-mock
+            height="10"
+            width="10"
+          />
+        </span>
+        <span
+          class="dp-UserName"
+        >
+          Agent #2
+        </span>
+      </span>
+      <span
+        class="dp-Icon Icon--close"
+        role="button"
+        tabindex="-1"
+      >
+        <icon-mock
+          height="8"
+          width="8"
+        />
+      </span>
+    </span>
+    <span
+      class="dp-FollowersItem"
+    >
+      <span
+        class="dp-LogoName"
+      >
+        <span
+          class="dp-Icon Icon--avatar"
+          role="button"
+          tabindex="-1"
+        >
+          <icon-mock
+            height="10"
+            width="10"
+          />
+        </span>
+        <span
+          class="dp-UserName"
+        >
+          Agent #3
+        </span>
+      </span>
+      <span
+        class="dp-Icon Icon--close"
+        role="button"
+        tabindex="-1"
+      >
+        <icon-mock
+          height="8"
+          width="8"
+        />
+      </span>
+    </span>
+    <span
+      class="dp-FollowersItem"
+    >
+      <span
+        class="dp-LogoName"
+      >
+        <span
+          class="dp-Icon Icon--avatar"
+          role="button"
+          tabindex="-1"
+        >
+          <icon-mock
+            height="10"
+            width="10"
+          />
+        </span>
+        <span
+          class="dp-UserName"
+        >
+          Agent #4
+        </span>
+      </span>
+      <span
+        class="dp-Icon Icon--close"
+        role="button"
+        tabindex="-1"
+      >
+        <icon-mock
+          height="8"
+          width="8"
+        />
+      </span>
+    </span>
+    <span
+      class="dp-FollowersItem"
+    >
+      <span
+        class="dp-LogoName"
+      >
+        <span
+          class="dp-Icon Icon--avatar"
+          role="button"
+          tabindex="-1"
+        >
+          <icon-mock
+            height="10"
+            width="10"
+          />
+        </span>
+        <span
+          class="dp-UserName"
+        >
+          Agent #5
+        </span>
+      </span>
+      <span
+        class="dp-Icon Icon--close"
+        role="button"
+        tabindex="-1"
+      >
+        <icon-mock
+          height="8"
+          width="8"
+        />
+      </span>
+    </span>
+    <span
+      class="dp-FollowersItem"
+    >
+      <span
+        class="dp-LogoName"
+      >
+        <span
+          class="dp-Icon Icon--avatar"
+          role="button"
+          tabindex="-1"
+        >
+          <icon-mock
+            height="10"
+            width="10"
+          />
+        </span>
+        <span
+          class="dp-UserName"
+        >
+          Agent #6
+        </span>
+      </span>
+      <span
+        class="dp-Icon Icon--close"
+        role="button"
+        tabindex="-1"
+      >
+        <icon-mock
+          height="8"
+          width="8"
+        />
+      </span>
+    </span>
+    <span
+      class="dp-FollowersItem"
+    >
+      <span
+        class="dp-LogoName"
+      >
+        <span
+          class="dp-Icon Icon--avatar"
+          role="button"
+          tabindex="-1"
+        >
+          <icon-mock
+            height="10"
+            width="10"
+          />
+        </span>
+        <span
+          class="dp-UserName"
+        >
+          Agent #7
+        </span>
+      </span>
+      <span
+        class="dp-Icon Icon--close"
+        role="button"
+        tabindex="-1"
+      >
+        <icon-mock
+          height="8"
+          width="8"
+        />
+      </span>
+    </span>
+    <span
+      class="dp-FollowersItem"
+    >
+      <span
+        class="dp-LogoName"
+      >
+        <span
+          class="dp-Icon Icon--avatar"
+          role="button"
+          tabindex="-1"
+        >
+          <icon-mock
+            height="10"
+            width="10"
+          />
+        </span>
+        <span
+          class="dp-UserName"
+        >
+          Agent #8
+        </span>
+      </span>
+      <span
+        class="dp-Icon Icon--close"
+        role="button"
+        tabindex="-1"
+      >
+        <icon-mock
+          height="8"
+          width="8"
+        />
+      </span>
+    </span>
+    <span
+      class="dp-FollowersItem"
+    >
+      <span
+        class="dp-LogoName"
+      >
+        <span
+          class="dp-Icon Icon--avatar"
+          role="button"
+          tabindex="-1"
+        >
+          <icon-mock
+            height="10"
+            width="10"
+          />
+        </span>
+        <span
+          class="dp-UserName"
+        >
+          Agent #9
+        </span>
+      </span>
+      <span
+        class="dp-Icon Icon--close"
+        role="button"
+        tabindex="-1"
+      >
+        <icon-mock
+          height="8"
+          width="8"
+        />
+      </span>
+    </span>
+    <span
+      class="dp-FollowersItem"
+    >
+      <span
+        class="dp-LogoName"
+      >
+        <span
+          class="dp-Icon Icon--avatar"
+          role="button"
+          tabindex="-1"
+        >
+          <icon-mock
+            height="10"
+            width="10"
+          />
+        </span>
+        <span
+          class="dp-UserName"
+        >
+          Agent #10
+        </span>
+      </span>
+      <span
+        class="dp-Icon Icon--close"
+        role="button"
+        tabindex="-1"
+      >
+        <icon-mock
+          height="8"
+          width="8"
+        />
+      </span>
+    </span>
+    <span
+      class="dp-FollowersItem"
+    >
+      <span
+        class="dp-LogoName"
+      >
+        <span
+          class="dp-Icon Icon--avatar"
+          role="button"
+          tabindex="-1"
+        >
+          <icon-mock
+            height="10"
+            width="10"
+          />
+        </span>
+        <span
+          class="dp-UserName"
+        >
+          Agent #11
+        </span>
+      </span>
+      <span
+        class="dp-Icon Icon--close"
+        role="button"
+        tabindex="-1"
+      >
+        <icon-mock
+          height="8"
+          width="8"
+        />
+      </span>
+    </span>
+    <span
+      class="dp-FollowersItem"
+    >
+      <span
+        class="dp-LogoName"
+      >
+        <span
+          class="dp-Icon Icon--avatar"
+          role="button"
+          tabindex="-1"
+        >
+          <icon-mock
+            height="10"
+            width="10"
+          />
+        </span>
+        <span
+          class="dp-UserName"
+        >
+          Agent #12
+        </span>
+      </span>
+      <span
+        class="dp-Icon Icon--close"
+        role="button"
+        tabindex="-1"
+      >
+        <icon-mock
+          height="8"
+          width="8"
+        />
+      </span>
+    </span>
+    <span
+      class="dp-FollowersItem"
+    >
+      <span
+        class="dp-LogoName"
+      >
+        <span
+          class="dp-Icon Icon--avatar"
+          role="button"
+          tabindex="-1"
+        >
+          <icon-mock
+            height="10"
+            width="10"
+          />
+        </span>
+        <span
+          class="dp-UserName"
+        >
+          Agent #13
+        </span>
+      </span>
+      <span
+        class="dp-Icon Icon--close"
+        role="button"
+        tabindex="-1"
+      >
+        <icon-mock
+          height="8"
+          width="8"
+        />
+      </span>
+    </span>
+    <span
+      class="dp-FollowersItem"
+    >
+      <span
+        class="dp-LogoName"
+      >
+        <span
+          class="dp-Icon Icon--avatar"
+          role="button"
+          tabindex="-1"
+        >
+          <icon-mock
+            height="10"
+            width="10"
+          />
+        </span>
+        <span
+          class="dp-UserName"
+        >
+          Agent #14
+        </span>
+      </span>
+      <span
+        class="dp-Icon Icon--close"
+        role="button"
+        tabindex="-1"
+      >
+        <icon-mock
+          height="8"
+          width="8"
+        />
+      </span>
+    </span>
+    <span
+      class="dp-FollowersItem"
+    >
+      <span
+        class="dp-LogoName"
+      >
+        <span
+          class="dp-Icon Icon--avatar"
+          role="button"
+          tabindex="-1"
+        >
+          <icon-mock
+            height="10"
+            width="10"
+          />
+        </span>
+        <span
+          class="dp-UserName"
+        >
+          Agent #15
+        </span>
+      </span>
+      <span
+        class="dp-Icon Icon--close"
+        role="button"
+        tabindex="-1"
+      >
+        <icon-mock
+          height="8"
+          width="8"
+        />
+      </span>
+    </span>
+    <span
+      class="dp-FollowersItem"
+    >
+      <span
+        class="dp-LogoName"
+      >
+        <span
+          class="dp-Icon Icon--avatar"
+          role="button"
+          tabindex="-1"
+        >
+          <icon-mock
+            height="10"
+            width="10"
+          />
+        </span>
+        <span
+          class="dp-UserName"
+        >
+          Agent #16
+        </span>
+      </span>
+      <span
+        class="dp-Icon Icon--close"
+        role="button"
+        tabindex="-1"
+      >
+        <icon-mock
+          height="8"
+          width="8"
+        />
+      </span>
+    </span>
+    <span
+      class="dp-FollowersItem"
+    >
+      <span
+        class="dp-LogoName"
+      >
+        <span
+          class="dp-Icon Icon--avatar"
+          role="button"
+          tabindex="-1"
+        >
+          <icon-mock
+            height="10"
+            width="10"
+          />
+        </span>
+        <span
+          class="dp-UserName"
+        >
+          Agent #17
+        </span>
+      </span>
+      <span
+        class="dp-Icon Icon--close"
+        role="button"
+        tabindex="-1"
+      >
+        <icon-mock
+          height="8"
+          width="8"
+        />
+      </span>
+    </span>
+    <span
+      class="dp-FollowersItem"
+    >
+      <span
+        class="dp-LogoName"
+      >
+        <span
+          class="dp-Icon Icon--avatar"
+          role="button"
+          tabindex="-1"
+        >
+          <icon-mock
+            height="10"
+            width="10"
+          />
+        </span>
+        <span
+          class="dp-UserName"
+        >
+          Agent #18
+        </span>
+      </span>
+      <span
+        class="dp-Icon Icon--close"
+        role="button"
+        tabindex="-1"
+      >
+        <icon-mock
+          height="8"
+          width="8"
+        />
+      </span>
+    </span>
+    <span
+      class="dp-FollowersItem"
+    >
+      <span
+        class="dp-LogoName"
+      >
+        <span
+          class="dp-Icon Icon--avatar"
+          role="button"
+          tabindex="-1"
+        >
+          <icon-mock
+            height="10"
+            width="10"
+          />
+        </span>
+        <span
+          class="dp-UserName"
+        >
+          Agent #19
+        </span>
+      </span>
+      <span
+        class="dp-Icon Icon--close"
+        role="button"
+        tabindex="-1"
+      >
+        <icon-mock
+          height="8"
+          width="8"
+        />
+      </span>
+    </span>
+    <span
+      class="dp-FollowersItem"
+    >
+      <span
+        class="dp-LogoName"
+      >
+        <span
+          class="dp-Icon Icon--avatar"
+          role="button"
+          tabindex="-1"
+        >
+          <icon-mock
+            height="10"
+            width="10"
+          />
+        </span>
+        <span
+          class="dp-UserName"
+        >
+          Agent #20
+        </span>
+      </span>
+      <span
+        class="dp-Icon Icon--close"
+        role="button"
+        tabindex="-1"
+      >
+        <icon-mock
+          height="8"
+          width="8"
+        />
+      </span>
+    </span>
+    <span
+      class="dp-FollowersItem"
+    >
+      <span
+        class="dp-LogoName"
+      >
+        <span
+          class="dp-Icon Icon--avatar"
+          role="button"
+          tabindex="-1"
+        >
+          <icon-mock
+            height="10"
+            width="10"
+          />
+        </span>
+        <span
+          class="dp-UserName"
+        >
+          Agent #21
+        </span>
+      </span>
+      <span
+        class="dp-Icon Icon--close"
+        role="button"
+        tabindex="-1"
+      >
+        <icon-mock
+          height="8"
+          width="8"
+        />
+      </span>
+    </span>
+    <span
+      class="dp-FollowersItem"
+    >
+      <span
+        class="dp-LogoName"
+      >
+        <span
+          class="dp-Icon Icon--avatar"
+          role="button"
+          tabindex="-1"
+        >
+          <icon-mock
+            height="10"
+            width="10"
+          />
+        </span>
+        <span
+          class="dp-UserName"
+        >
+          Agent #22
+        </span>
+      </span>
+      <span
+        class="dp-Icon Icon--close"
+        role="button"
+        tabindex="-1"
+      >
+        <icon-mock
+          height="8"
+          width="8"
+        />
+      </span>
+    </span>
+    <span
+      class="dp-FollowersItem"
+    >
+      <span
+        class="dp-LogoName"
+      >
+        <span
+          class="dp-Icon Icon--avatar"
+          role="button"
+          tabindex="-1"
+        >
+          <icon-mock
+            height="10"
+            width="10"
+          />
+        </span>
+        <span
+          class="dp-UserName"
+        >
+          Agent #23
+        </span>
+      </span>
+      <span
+        class="dp-Icon Icon--close"
+        role="button"
+        tabindex="-1"
+      >
+        <icon-mock
+          height="8"
+          width="8"
+        />
+      </span>
+    </span>
+    <span
+      class="dp-FollowersItem"
+    >
+      <span
+        class="dp-LogoName"
+      >
+        <span
+          class="dp-Icon Icon--avatar"
+          role="button"
+          tabindex="-1"
+        >
+          <icon-mock
+            height="10"
+            width="10"
+          />
+        </span>
+        <span
+          class="dp-UserName"
+        >
+          Agent #24
+        </span>
+      </span>
+      <span
+        class="dp-Icon Icon--close"
+        role="button"
+        tabindex="-1"
+      >
+        <icon-mock
+          height="8"
+          width="8"
+        />
+      </span>
+    </span>
+    <span
+      class="dp-FollowersItem"
+    >
+      <span
+        class="dp-LogoName"
+      >
+        <span
+          class="dp-Icon Icon--avatar"
+          role="button"
+          tabindex="-1"
+        >
+          <icon-mock
+            height="10"
+            width="10"
+          />
+        </span>
+        <span
+          class="dp-UserName"
+        >
+          Agent #25
+        </span>
+      </span>
+      <span
+        class="dp-Icon Icon--close"
+        role="button"
+        tabindex="-1"
+      >
+        <icon-mock
+          height="8"
+          width="8"
+        />
+      </span>
+    </span>
+    <span
+      class="dp-FollowersBtn"
+    >
+      <button
+        class="dp-Button Button--small Button--link Button--primary"
+        type="button"
+      >
+        <span
+          class="dp-Icon Icon--add-follower Icon--primary"
+          role="button"
+          tabindex="-1"
+        >
+          <icon-mock
+            height="10"
+            width="10"
+          />
+        </span>
+        <span>
+          Add
+        </span>
+      </button>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`<Followers /> should match the snapshot for single follower: Single follower 1`] = `
+<div
+  class="dp-Followers"
+>
+  <div
+    class="dp-SectionControls"
+  >
+    <div
+      class="dp-SectionTitle"
+    >
+      <div
+        class="dp-TitleControls"
+      >
+        Followers 
+        <span
+          class="dp-qt"
+        >
+          (
+          1
+          )
+        </span>
+      </div>
+      <button
+        class="dp-Button Button--link Button--primary dp-StatusTimes dp-FollowersStatus"
+        type="button"
+      >
+        Follow
+      </button>
+    </div>
+  </div>
+  <div
+    class="dp-FollowerList"
+  >
+    <span
+      class="dp-FollowersItem"
+    >
+      <span
+        class="dp-LogoName"
+      >
+        <span
+          class="dp-Icon Icon--avatar"
+          role="button"
+          tabindex="-1"
+        >
+          <icon-mock
+            height="10"
+            width="10"
+          />
+        </span>
+        <span
+          class="dp-UserName"
+        >
+          Artem Berdyshev
+        </span>
+      </span>
+      <span
+        class="dp-Icon Icon--close"
+        role="button"
+        tabindex="-1"
+      >
+        <icon-mock
+          height="8"
+          width="8"
+        />
+      </span>
+    </span>
+    <span
+      class="dp-FollowersBtn"
+    >
+      <button
+        class="dp-Button Button--small Button--link Button--primary"
+        type="button"
+      >
+        <span
+          class="dp-Icon Icon--add-follower Icon--primary"
+          role="button"
+          tabindex="-1"
+        >
+          <icon-mock
+            height="10"
+            width="10"
+          />
+        </span>
+        <span>
+          Add
+        </span>
+      </button>
+    </span>
+  </div>
+</div>
+`;

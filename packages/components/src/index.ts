@@ -25,6 +25,7 @@ export { default as Kanban } from "./Kanban/Kanban";
 export { default as StandardKanban } from "./Kanban/StandardKanban";
 export { default as ScrollArea } from "./ScrollArea/ScrollArea";
 
+export { default as Followers } from "./User/Followers/Followers";
 export { default as UserInfo } from "./User/UserInfo/UserInfo";
 export {
   default as ActivityStatus
