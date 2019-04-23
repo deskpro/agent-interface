@@ -64,8 +64,7 @@
   position: relative;
 }
 
-.dp-ActionsBar.outlined .dp-Dropdown .dp-Icon,
-.dp-ActionsBar.outlined .dp-Dropdown + .dp-Menu .dp-Icon {
+.dp-ActionsBar.outlined .dp-Dropdown .dp-Icon {
   cursor: pointer;
   height: 14px;
   width: 15px;

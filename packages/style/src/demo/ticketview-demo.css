@@ -12,6 +12,21 @@
 }
 
 .demo-tooltip .dp-FollowersItem + .dp-ToolTips {
-  left: 100%;
-  top: calc(100% + 5px);
+  left: calc(100% - 5px);
+  top: calc(100% - 5px);
+}
+
+.demo-menu .dp-ActionsBar.outlined .dp-Dropdown + .dp-Menu .dp-Icon {
+  cursor: pointer;
+  height: 14px;
+  width: 15px;
+}
+
+.demo-Followers-Wrapper {
+  position: relative;
+}
+
+.Followers--Small .demo-Followers-Wrapper {
+  flex: 1 0 25%;
+  max-width: 98px;
 }

@@ -14,8 +14,8 @@
   color: var(--grey-dark);
   display: flex;
   font: var(--p-s);
-  margin: 0;
   justify-content: flex-end;
+  margin: 0;
 }
 
 .dp-ControlBar .Tabs--actions {
@@ -24,6 +24,22 @@
 
 .dp-ControlBar.dp-DropDownBar .dp-Tabs-item + .dp-Tabs-item {
   background-color: var(--grey-lightest);
+}
+
+.dp-ControlBar .dp-TitileControl .dp-Icon,
+.dp-ControlBar .dp-Tabs-item .dp-Icon {
+  margin-right: 5px;
+}
+
+.dp-ControlBar .dp-Tabs-item:hover {
+  border-color: var(--grey-light);
+  color: var(--grey-dark);
+}
+
+.dp-ControlBar .dp-Tabs-item:hover .dp-Arrow::after {
+  border-color: var(--grey-dark) transparent transparent transparent;
+  border-style: solid;
+  border-width: 4px 4px 0 4px;
 }
 
 .dp-TicketSelect .dp-title-item {
@@ -180,7 +196,7 @@
   box-shadow: var(--shadow-bottom);
   color: var(--grey-darkest);
   font: var(--p-s);
-  height: 17px;
+  height: 16px;
   line-height: 1.4;
   padding: 1.5px 5px;
 }
@@ -196,31 +212,19 @@
 }
 
 .dp-LogoName .sb-avatar__image {
-  min-width: 12px;
   display: flex;
+  min-width: 12px;
 }
 
 .dp-FollowersItem .dp-LogoName + .dp-Icon {
   align-items: center;
   display: flex;
-
-  /*  background-position: 100% 0;
-  background-size: 10px;
-  cursor: pointer;
-  height: 10px;
-  min-width: 10px;
-  width: 16px; */
-
   width: 10px;
 }
-
-/* .dp-FollowersStatus.is-active { */
 
 .Button--link.is-active {
   color: var(--brand-primary);
 }
-
-/* .dp-FollowersStatus .dp-Icon { */
 
 .Button--link .dp-Icon {
   background-size: 10px 10px;
@@ -232,6 +236,7 @@
   background-size: 10px 10px;
   display: flex;
   height: 10px;
+  margin-left: 0;
   min-width: 10px;
   width: 10px;
 }
@@ -297,16 +302,6 @@
   position: relative;
 }
 
-/* .dp-SendAs::after {
-  background-color: var(--white);
-  content: "";
-  height: 100%;
-  position: absolute;
-  right: 23px;
-  top: 0;
-  width: 1px;
-} */
-
 .dp-SendAs .dp-Arrow {
   padding-left: 25px;
 }
@@ -352,9 +347,6 @@
   display: flex;
   padding: 13px 20px 13px 10px;
   position: relative;
-
-  /* justify-content: space-between; */
-
 }
 
 .dp-TicketMessage .dp-MessageHeader .dp-InfoItem {
@@ -555,10 +547,6 @@
   display: flex;
 }
 
-/* .dp-TagBar .dp-Button {
-  margin-left: 20px;
-} */
-
 .dp-TagBar .dp-Button {
   position: relative;
 }
@@ -568,31 +556,6 @@
   height: 15px;
   width: 15px;
 }
-
-/* .dp-TagBar .dp-Button::after {
-  background-color: var(--grey);
-  position: absolute;
-  content: "";
-  width: 1px;
-  height: 100%;
-  bottom: 0;
-  left: -10px;
-  top: 0;
-} */
-
-/* .dp-TagBar .Button--label {
-  margin-left: 15px;
-}
-
-.dp-TagBar .Button--label::after {
-  background-color: var(--grey);
-  content: "";
-  height: 24px;
-  left: -10px;
-  position: absolute;
-  top: -2px;
-  width: 1px;
-} */
 
 .dp-MenuBarList {
   border-top: 1px solid var(--grey-light);
