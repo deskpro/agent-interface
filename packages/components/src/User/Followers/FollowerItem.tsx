@@ -37,9 +37,10 @@ const FollowerItem: React.FC<FollowerItemProps> = ({
       </Reference>
       {isHovered && (
         <Popper
-          positionFixed={false}
           placement="right-end"
-          modifiers={{ offset: { offset: "20" } }}
+          modifiers={{
+            offset: { offset: "20,6" }
+          }}
         >
           {({ ref, style }) => (
             <span className="dp-ToolTips" ref={ref} style={style}>
