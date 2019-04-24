@@ -3,25 +3,37 @@ import classNames from "classnames";
 import { Manager, Reference, Popper } from "react-popper";
 
 import Icon from "../../elements/Icon/Icon";
+import { ViewModeType } from "./useFiltersBar";
+import FiltersPanel from "./FiltersPanel";
 
-export type ViewModeType = "list" | "table" | "kanban";
-export type FilterPanelProps = {
+import "@deskpro/agent-interface-style/dist/components/dp-FilterList.css";
+
+export type FiltersBarSubComponents = {
+  Panel: typeof FiltersPanel;
+};
+
+export type FiltersBarProps = {
+  opened?: boolean;
+  locked?: boolean;
   viewMode?: ViewModeType;
+  onToggleOpenState: () => void;
+  onToggleLock: () => void;
   onModeChange: (nextMode: ViewModeType) => void;
   title: string;
   itemsCount: number;
 };
 
-const FilterPanel: React.FC<FilterPanelProps> = ({
+const FiltersBar: React.FC<FiltersBarProps> & FiltersBarSubComponents = ({
+  opened = false,
+  locked = false,
   viewMode = "list",
+  onToggleOpenState,
+  onToggleLock,
   onModeChange,
   title,
   itemsCount,
   children
 }) => {
-  const [isOpened, setOpened] = React.useState<boolean>(false);
-  const [isLocked, setLocked] = React.useState<boolean>(false);
-
   const [barRect, setBarRect] = React.useState<ClientRect>({
     left: 0,
     bottom: 0,
@@ -49,27 +61,26 @@ const FilterPanel: React.FC<FilterPanelProps> = ({
               <div
                 ref={ref}
                 className={classNames("dp-Filters-header", {
-                  "is-opened": isOpened,
-                  "is-locked": isLocked
+                  "is-opened": opened,
+                  "is-locked": locked
                 })}
-                style={{ width: 240 }}
               >
                 <Icon name="menu" size={25} />
                 <span className="dp-Filters-title">
                   {title} <span className="dp-qt">({itemsCount})</span>
                 </span>
                 <Icon
-                  name={isOpened ? "caret-up" : "caret-down"}
+                  name={opened ? "caret-up" : "caret-down"}
                   size={18}
                   color="primary"
-                  onClick={() => setOpened(!isOpened)}
+                  onClick={onToggleOpenState}
                 />
-                {isOpened && (
+                {opened && (
                   <Icon
                     name="lock"
                     size={18}
                     color="primary"
-                    onClick={() => setLocked(!isLocked)}
+                    onClick={onToggleLock}
                   />
                 )}
               </div>
@@ -113,7 +124,7 @@ const FilterPanel: React.FC<FilterPanelProps> = ({
           </ul>
         </div>
 
-        {isOpened && (
+        {opened && !locked && (
           <Popper
             placement="bottom-start"
             modifiers={{
@@ -125,20 +136,15 @@ const FilterPanel: React.FC<FilterPanelProps> = ({
             }}
           >
             {({ ref, style }) => (
-              <div
+              <FiltersPanel
                 ref={ref}
-                className="dp-Filters-panel"
                 style={{
                   height: `calc(100vh - ${barRect.top + barRect.height + 5}px)`,
-                  width: 240,
-                  backgroundColor: "#fff",
-                  boxShadow: "10px 0 5px 0 grey",
-                  zIndex: 1,
                   ...style
                 }}
               >
                 {children}
-              </div>
+              </FiltersPanel>
             )}
           </Popper>
         )}
@@ -147,4 +153,6 @@ const FilterPanel: React.FC<FilterPanelProps> = ({
   );
 };
 
-export default FilterPanel;
+FiltersBar.Panel = FiltersPanel;
+
+export default FiltersBar;

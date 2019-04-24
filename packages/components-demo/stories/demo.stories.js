@@ -12,7 +12,8 @@ import {
   SimpleModuleBar,
   Icon,
   BadgeCopy,
-  FilterPanel
+  FiltersBar,
+  useFiltersBar
 } from "@deskpro/agent-interface-components";
 
 import List from "./components/list-pane/StandardListDemo";
@@ -53,7 +54,7 @@ const portalLinks = [
 ];
 
 const Demo = () => {
-  const [viewMode, setViewMode] = React.useState("list");
+  const filtersBarProps = useFiltersBar();
 
   return (
     <div className="dp-Level" style={{ width: "100vw", height: "100vh" }}>
@@ -83,14 +84,23 @@ const Demo = () => {
           className="dp-Level"
           style={{ width: "100%", height: "calc(100% - 44px)" }}
         >
-          <div style={{ height: "100%", flex: "1 0 450px" }}>
-            <FilterPanel
+          <div
+            style={{
+              height: "100%",
+              flex: `1 0 ${(filtersBarProps.locked ? 241 : 0) + 437}px`
+            }}
+          >
+            <FiltersBar
               title="All Tickets"
               itemsCount={90}
-              viewMode={viewMode}
-              onModeChange={setViewMode}
+              {...filtersBarProps}
             />
-            <List />
+            <div className="dp-Level" style={{ height: "calc(100% - 48px)" }}>
+              {filtersBarProps.locked && (
+                <FiltersBar.Panel style={{ height: "100%" }} />
+              )}
+              <List style={{ height: "100%" }} />
+            </div>
           </div>
           <div
             style={{
