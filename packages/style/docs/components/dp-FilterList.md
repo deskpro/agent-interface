@@ -295,17 +295,28 @@ title: Filter list
 
 	<div class="dp-FilterlistContainer">
 
-		<div class="dp-Tickets Tickets--Lock is-active">
+<!-- 		<div class="dp-Tickets Tickets--Lock is-active">
 			<div class="dp-Card-SectionTitle dp-Tasks-list Level-justify-between">
 				<span class="dp-LevelCol dp-ListName">
 					<span class="dp-Icon Icon--menu"></span>
 					<span class="dp-Card-title">All tickets<span class="dp-qt">(90)</span></span>
 					<span class="dp-Icon Icon--down-caret Icon--primary"></span>
 				</span>
-
-				<!-- <span class="dp-Icon dp-lock Icon--primary"></span> -->
 				<span class="dp-Icon Icon--lock Icon--primary"></span>
 			</div>
+		</div> -->
+
+		<div class="dp-Filters Filters--Lock is-active">
+	        <div class="dp-Filters-bar dp-Level Level-justify-between">
+	            <span class="dp-Filters-header is-opened">
+	                <span class="dp-Icon Icon--menu"></span>
+	                <span class="dp-Filters-title">
+	                	All tickets
+	                	<span class="dp-qt">(90)</span>
+	                </span>
+	                <span class="dp-Icon Icon--down-caret Icon--primary"></span>
+	            </span>
+	        </div>
 		</div>
 
 		<!-- <ul class="dp-TicketMenu is-active"> -->
@@ -461,8 +472,7 @@ title: Filter list
 
 	<div class="dp-FilterlistContainer">
 
-		<div class="dp-Tickets is-active">
-
+<!-- 		<div class="dp-Tickets is-active">
 			<div class="dp-Card-SectionTitle dp-Tasks-list Level-justify-between">
 				<span class="dp-LevelCol dp-ListName">
 					<span class="dp-Icon Icon--menu"></span>
@@ -470,7 +480,21 @@ title: Filter list
 					<span class="dp-Icon Icon--down-caret Icon--primary"></span>
 				</span>
 			</div>
+		</div> -->
+
+		<div class="dp-Filters is-active">
+	        <div class="dp-Filters-bar dp-Level Level-justify-between">
+	            <span class="dp-Filters-header is-opened">
+	                <span class="dp-Icon Icon--menu"></span>
+	                <span class="dp-Filters-title">
+	                	CRM
+	                	<span class="dp-qt">(17)</span>
+	                </span>
+	                <span class="dp-Icon Icon--down-caret Icon--primary"></span>
+	            </span>
+	        </div>
 		</div>
+
 
 		<!-- <ul class="dp-TicketMenu is-active"> -->
 		<ul class="dp-Filters-panel is-active">

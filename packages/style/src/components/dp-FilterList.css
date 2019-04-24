@@ -145,7 +145,7 @@
   color: var(--grey-dark);
   font: var(--h-s-semibold);
   max-width: 20px;
-  padding: 3px 0 0;
+  padding: 2px 0 0;
   width: 100%;
 }
 
@@ -285,7 +285,7 @@
   margin: 0 0 10px;
 }
 
-/* add class --.Tickets--Lock in --.dp-Filters */
+/* add class --.Filters--Lock in --.dp-Filters */
 
 .dp-Filters-title {
   border-bottom: 0;
@@ -327,11 +327,11 @@
   display: none;
 }
 
-.dp-FilterlistContainer .dp-Filters.Tickets--Lock .dp-Tasks-list > .dp-Icon {
+.dp-FilterlistContainer .dp-Filters.Filters--Lock .dp-Tasks-list > .dp-Icon {
   display: block;
 }
 
-.dp-FilterlistContainer .dp-Filters.Tickets--Lock .dp-qt {
+.dp-FilterlistContainer .dp-Filters.Filters--Lock .dp-qt {
   left: calc(100% + 5px);
   position: absolute;
 }
