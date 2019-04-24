@@ -1,0 +1,10 @@
+@import "../fonts.css";
+@import "../vars.css";
+
+.dp-Filters-demo .dp-Filters-panel {
+  display: none;
+}
+
+.dp-Filters-demo .dp-Filters-panel.is-active {
+  display: block;
+}

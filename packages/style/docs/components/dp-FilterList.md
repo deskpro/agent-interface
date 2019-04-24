@@ -4,15 +4,11 @@ title: Filter list
 
 <h4>filterlist/filters-and-views</h4>
 ```html @preview
-<div class="dp-MainWrapper">
-	<!-- <div class="dp-Tickets"> -->
+<div class="dp-MainWrapper dp-Filters-demo">
 	<div class="dp-Filters">
-        <!-- <div class="dp-Card-SectionTitle dp-Tasks-list Level-justify-between"> -->
         <div class="dp-Filters-bar dp-Level Level-justify-between">
-            <!-- <span class="dp-ListName"> -->
             <span class="dp-Filters-header is-opened">
                 <span class="dp-Icon Icon--menu"></span>
-                <!-- <span class="dp-Card-title"> -->
                 <span class="dp-Filters-title">
                 	All tickets
                 	<span class="dp-qt">(90)</span>
@@ -20,7 +16,6 @@ title: Filter list
                 <span class="dp-Icon Icon--down-caret Icon--primary"></span>
             </span>
 
-            <!-- <ul class="View-group"> -->
             <ul class="dp-ViewModes">
                 <li class="dp-Icon dp-list_view is-active"></li>
                 <li class="dp-Icon dp-table_view"></li>
@@ -34,7 +29,7 @@ title: Filter list
 
 <h4>filterlist/filters-selected</h4>
 ```html @preview
-<div class="dp-MainWrapper">
+<div class="dp-MainWrapper dp-Filters-demo">
 	<div class="dp-Filters is-active">
         <div class="dp-Filters-bar dp-Level Level-justify-between">
             <span class="dp-Filters-header is-opened">
@@ -58,91 +53,84 @@ title: Filter list
 
 <h4>filterlist/accordian-selected</h4>
 ```html @preview
-<div class="dp-MainWrapper">
-	<ul class="dp-Filters-panel is-active">
-		<li class="dp-TicketMenuItem dp-MenuBarItem is-active">
-			<span class="dp-TitleMenu">
-				<span>Awaiting agent</span>
-				<button class="dp-Arrow"></button>
-			</span>
-			<ul class="dp-SubMenu">
-				<li class="dp-SubMenuItem">
-					<span>My tickets<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">1</span>
-				</li>
-				<li class="dp-SubMenuItem">
-					<span>Tickets I follow<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-				</li>
-				<li class="dp-SubMenuItem">
-					<span>Unassigned tickets<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-				</li>
-				<li class="dp-SubMenuItem">
-					<span>All tickets<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">90</span>
-				</li>
-			</ul>
-		</li>
-	</ul>
+<div class="dp-MainWrapper dp-Filters-demo">
+	<div class="dp-Filters">
+		<ul class="dp-Filters-panel is-active">
+			<li class="dp-TicketMenuItem dp-MenuBarItem is-active">
+				<span class="dp-TitleMenu">
+					<span>Awaiting agent</span>
+					<button class="dp-Arrow"></button>
+				</span>
+				<ul class="dp-SubMenu">
+					<li class="dp-SubMenuItem">
+						<span>My tickets<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">1</span>
+					</li>
+					<li class="dp-SubMenuItem">
+						<span>Tickets I follow<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
+					</li>
+					<li class="dp-SubMenuItem">
+						<span>Unassigned tickets<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
+					</li>
+					<li class="dp-SubMenuItem">
+						<span>All tickets<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">90</span>
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
 </div>
 ```
 
 <h4>filterlist/accordian-item-selected</h4>
 ```html @preview
-<div class="dp-MainWrapper item-selected">
-	<ul class="dp-Filters-panel is-active">
-		<li class="dp-TicketMenuItem dp-MenuBarItem is-active">
-			<ul class="dp-SubMenu">
-				<li class="dp-SubMenuItem is-active">
-					<span>All tickets<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">90</span>
-				</li>
-			</ul>
-		</li>
-	</ul>
+<div class="dp-MainWrapper item-selected dp-Filters-demo">
+	<div class="dp-Filters">
+		<ul class="dp-Filters-panel is-active">
+			<li class="dp-TicketMenuItem dp-MenuBarItem is-active">
+				<ul class="dp-SubMenu">
+					<li class="dp-SubMenuItem is-active">
+						<span>All tickets<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">90</span>
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
 </div>
 ```
 
 <h4>filterlist/accordian-subtitle-selected</h4>
 ```html @preview
-<div class="dp-MainWrapper">
-	<ul class="dp-Filters-panel is-active">
-		<li class="dp-TicketMenuItem dp-MenuBarItem">
-			<span class="dp-TitleMenu">
-				<span>Filters</span>
-				<button class="dp-Arrow"></button>
-			</span>
-		</li>
-	</ul>
+<div class="dp-MainWrapper dp-Filters-demo">
+	<div class="dp-Filters">
+		<ul class="dp-Filters-panel is-active">
+			<li class="dp-TicketMenuItem dp-MenuBarItem">
+				<span class="dp-TitleMenu">
+					<span>Filters</span>
+					<button class="dp-Arrow"></button>
+				</span>
+			</li>
+		</ul>
+	</div>
 </div>
 ```
 
 <h4>filterlist/ticket-filters-selected</h4>
 ```html @preview
-<div class="dp-MainWrapper">
+<div class="dp-MainWrapper dp-Filters-demo">
 
-	<div class="dp-FilterlistContainer">
+	<div class="dp-Filters is-active">
 
-<!-- 		<div class="dp-Tickets is-active">
-			<div class="dp-Card-SectionTitle dp-Tasks-list Level-justify-between">
-				<span class="dp-LevelCol dp-ListName">
-					<span class="dp-Icon Icon--menu"></span>
-					<span class="dp-Card-title">All tickets<span class="dp-qt">(90)</span></span>
-					<span class="dp-Icon Icon--down-caret Icon--primary"></span>
-				</span>
-			</div>
-		</div> -->
-
-		<div class="dp-Filters is-active">
-	        <div class="dp-Filters-bar dp-Level Level-justify-between">
-	            <span class="dp-Filters-header is-opened">
-	                <span class="dp-Icon Icon--menu"></span>
-	                <span class="dp-Filters-title">
-	                	All tickets
-	                	<span class="dp-qt">(90)</span>
-	                </span>
-	                <span class="dp-Icon Icon--down-caret Icon--primary"></span>
-	            </span>
-	        </div>
+		<div class="dp-Filters-bar dp-Level Level-justify-between">
+		    <span class="dp-Filters-header is-opened">
+		        <span class="dp-Icon Icon--menu"></span>
+		        <span class="dp-Filters-title">
+		        	All tickets
+		        	<span class="dp-qt">(90)</span>
+		        </span>
+		        <span class="dp-Icon Icon--down-caret Icon--primary"></span>
+		    </span>
 		</div>
 
-		<!-- <ul class="dp-TicketMenu is-active"> -->
 		<ul class="dp-Filters-panel is-active">
 			<!-- Awaiting agent -->
 			<li class="dp-TicketMenuItem dp-MenuBarItem is-active">
@@ -291,35 +279,24 @@ title: Filter list
 
 <h4>filterlist/ticket-filters-locked</h4>
 ```html @preview
-<div class="dp-MainWrapper">
+<div class="dp-MainWrapper dp-Filters-demo">
 
-	<div class="dp-FilterlistContainer">
+	<div class="dp-Filters is-active">
 
-<!-- 		<div class="dp-Tickets Tickets--Lock is-active">
-			<div class="dp-Card-SectionTitle dp-Tasks-list Level-justify-between">
-				<span class="dp-LevelCol dp-ListName">
-					<span class="dp-Icon Icon--menu"></span>
-					<span class="dp-Card-title">All tickets<span class="dp-qt">(90)</span></span>
-					<span class="dp-Icon Icon--down-caret Icon--primary"></span>
-				</span>
-				<span class="dp-Icon Icon--lock Icon--primary"></span>
-			</div>
-		</div> -->
-
-		<div class="dp-Filters Filters--Lock is-active">
+		<div class="Filters--Lock is-active">
 	        <div class="dp-Filters-bar dp-Level Level-justify-between">
-	            <span class="dp-Filters-header is-opened">
+	            <span class="dp-Filters-header is-opened is-locked">
 	                <span class="dp-Icon Icon--menu"></span>
 	                <span class="dp-Filters-title">
 	                	All tickets
 	                	<span class="dp-qt">(90)</span>
 	                </span>
 	                <span class="dp-Icon Icon--down-caret Icon--primary"></span>
+	            	<span class="dp-Icon Icon--lock Icon--primary"></span>
 	            </span>
 	        </div>
 		</div>
 
-		<!-- <ul class="dp-TicketMenu is-active"> -->
 		<ul class="dp-Filters-panel is-active">
 			<!-- Awaiting agent -->
 			<li class="dp-TicketMenuItem dp-MenuBarItem is-active">
@@ -468,35 +445,21 @@ title: Filter list
 
 <h4>filterlist/CRM</h4>
 ```html @preview
-<div class="dp-MainWrapper">
+<div class="dp-MainWrapper dp-Filters-demo">
 
-	<div class="dp-FilterlistContainer">
+	<div class="dp-Filters is-active">
 
-<!-- 		<div class="dp-Tickets is-active">
-			<div class="dp-Card-SectionTitle dp-Tasks-list Level-justify-between">
-				<span class="dp-LevelCol dp-ListName">
-					<span class="dp-Icon Icon--menu"></span>
-					<span class="dp-Card-title">CRM<span class="dp-qt">(17)</span></span>
-					<span class="dp-Icon Icon--down-caret Icon--primary"></span>
-				</span>
-			</div>
-		</div> -->
-
-		<div class="dp-Filters is-active">
-	        <div class="dp-Filters-bar dp-Level Level-justify-between">
-	            <span class="dp-Filters-header is-opened">
-	                <span class="dp-Icon Icon--menu"></span>
-	                <span class="dp-Filters-title">
-	                	CRM
-	                	<span class="dp-qt">(17)</span>
-	                </span>
-	                <span class="dp-Icon Icon--down-caret Icon--primary"></span>
-	            </span>
-	        </div>
+		<div class="dp-Filters-bar dp-Level Level-justify-between">
+		    <span class="dp-Filters-header is-opened">
+		        <span class="dp-Icon Icon--menu"></span>
+		        <span class="dp-Filters-title">
+		        	CRM
+		        	<span class="dp-qt">(17)</span>
+		        </span>
+		        <span class="dp-Icon Icon--down-caret Icon--primary"></span>
+		    </span>
 		</div>
 
-
-		<!-- <ul class="dp-TicketMenu is-active"> -->
 		<ul class="dp-Filters-panel is-active">
 			<!-- Awaiting agent -->
 			<li class="dp-TicketMenuItem dp-MenuBarItem is-active">
