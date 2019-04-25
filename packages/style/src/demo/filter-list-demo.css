@@ -6,5 +6,16 @@
 }
 
 .dp-Filters-demo .dp-Filters-panel.is-active {
+  border: 0;
   display: block;
+}
+
+.dp-Filters-demo .Filters--Lock + .dp-Filters-panel {
+  border-right: 1px solid var(--grey-light);
+  box-shadow: none;
+}
+
+.dp-Filters-demo .dp-Filters .Filters--Lock .dp-qt {
+  left: 245px;
+  position: absolute;
 }
