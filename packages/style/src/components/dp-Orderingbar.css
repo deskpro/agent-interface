@@ -17,9 +17,6 @@
   flex: 0 0 32px;
   min-width: auto;
   padding: 0 10px;
-
-  /* justify-content: center; */
-
 }
 
 .dp-OrderingBar-item {
@@ -416,13 +413,14 @@
 .dp-OrderingBar .dp-OrderingBar-item.is-expanded {
   flex: 1 0 calc(100% - 108px);
   max-width: 100%;
-
-  /* justify-content: flex-start; */
-
 }
 
 .dp-OrderingBar-item.is-expanded + .dp-OrderingBar-item {
   flex: 0 0 auto;
+}
+
+.dp-OrderingBar-item .dp-Dropdown + .dp-MassSelect-itemsCount {
+  padding-left: 10px;
 }
 
 /* Wrapper */

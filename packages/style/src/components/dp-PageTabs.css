@@ -23,7 +23,6 @@
 .dp-Tabs .dp-Tabs-item.is-active {
   border-bottom: 1px solid var(--brand-primary);
   color: var(--brand-primary);
-  margin-bottom: -1px;
 }
 
 .dp-Tabs-item:hover > .dp-Arrow::after,
@@ -313,39 +312,40 @@
 
 .Tabs--actions {
   align-items: center;
-  border: 0;
-  border-radius: var(--border-radius);
   display: flex;
   list-style: none;
   padding: 10px;
 }
 
-.Tabs--actions .dp-Tabs-item .dp-Icon {
+/* .Tabs--actions.Tabs--outlined .dp-Tabs-item .dp-Icon {
   cursor: pointer;
   height: 14px;
-  margin-right: 3px;
   width: 15px;
-}
+} */
 
-.Tabs--actions .dp-Tabs-item.is-disabled {
+/* .Tabs--actions .dp-Tabs-item.is-disabled { */
+
+.dp-ActionsBar.outlined .dp-Dropdown.is-disabled,
+.dp-ActionsBar .dp-Dropdown.is-disabled {
   background-color: var(--grey-lighter);
   cursor: not-allowed;
 }
 
-.Tabs--actions .dp-Tabs-item.is-disabled svg {
+.dp-ActionsBar .dp-Dropdown.is-disabled svg {
   cursor: not-allowed;
   fill: var(--grey-dark);
 }
 
-.Tabs--actions .dp-Tabs-item.is-disabled .dp-Icon,
-.Tabs--actions .dp-Tabs-item.is-disabled .dp-Arrow {
+.dp-ActionsBar.outlined .dp-Dropdown.is-disabled .dp-Icon,
+.dp-ActionsBar .dp-Dropdown.is-disabled .dp-Arrow {
   cursor: not-allowed;
 }
 
-.Tabs--actions .dp-Tabs-item:first-child::before {
+.dp-ActionsBar .dp-Dropdown:first-child::before {
   display: none;
 }
 
+.dp-ActionsBar .dp-Dropdown::after,
 .dp-Tabs-item.is-disabled::after {
   display: none;
 }
@@ -379,8 +379,6 @@
   z-index: 2;
 }
 
-/* .dp-Tabs.Tabs--reply .dp-Tabs-item + .dp-Tabs-item */
-
 .dp-Tabs.Tabs--reply .dp-Tabs-item.is-active + .dp-Tabs-item,
 .dp-Tabs.Tabs--reply .dp-Tabs-item.is-active + .dp-Tabs-item:hover,
 .dp-Tabs.Tabs--reply .dp-Tabs-item:hover + .dp-Tabs-item {
@@ -390,8 +388,6 @@
 .dp-Tabs.Tabs--reply .dp-Tabs-item:hover,
 .dp-Tabs.Tabs--reply .dp-Tabs-item.is-active {
   border: 1px solid var(--brand-primary);
-
-  /* z-index: 2; */
 }
 
 .dp-Tabs.Tabs--reply .dp-Tabs-item .dp-Icon {
@@ -415,19 +411,19 @@
 
 /* Tabs--actions */
 
-.dp-Tabs.Tabs--actions .dp-Tabs-item.is-active {
+/* .dp-Tabs.Tabs--actions.Tabs--outlined .dp-Tabs-item.is-active {
   background-color: var(--brand-primary);
   border: 1px solid var(--brand-primary);
   color: var(--white);
   margin-bottom: 0;
-}
+} */
 
-.dp-Tabs.Tabs--actions .dp-Tabs-item .dp-Icon svg {
+.dp-Tabs.Tabs--outlined .dp-Tabs-item .dp-Icon svg {
   fill: var(--brand-primary);
   opacity: 0.7;
 }
 
-.dp-Tabs.Tabs--actions .dp-Tabs-item:hover > .dp-Icon svg {
+.dp-Tabs.Tabs--outlined .dp-Tabs-item:hover > .dp-Icon svg {
   opacity: 1;
 }
 
@@ -436,12 +432,12 @@
   opacity: 0.8;
 }
 
-.Tabs--actions .dp-Tabs-item.is-active .dp-Arrow::after {
+/* .Tabs--actions.Tabs--outlined .dp-Tabs-item.is-active .dp-Arrow::after {
   border-color: transparent transparent var(--white) transparent;
   border-width: 0 4px 4px 4px;
-}
+} */
 
-.Tabs--actions .dp-Tabs-item:hover .dp-Arrow::after {
+/* .Tabs--actions .dp-Tabs-item:hover .dp-Arrow::after {
   border-color: var(--brand-primary) transparent transparent transparent;
   border-width: 4px 4px 0 4px;
 }
@@ -450,11 +446,11 @@
   border-color: var(--grey-dark) transparent transparent transparent;
 }
 
-.dp-Tabs.Tabs--actions .dp-Tabs-item.is-active:hover {
+.dp-Tabs.Tabs--actions.Tabs--outlined .dp-Tabs-item.is-active:hover {
   color: var(--white);
 }
 
-.dp-Tabs.Tabs--actions .dp-Tabs-item.is-disabled:hover {
+.dp-Tabs.Tabs--outlined .dp-Tabs-item.is-disabled:hover {
   border: 1px solid var(--grey-light);
   color: var(--grey-dark);
 }
@@ -462,13 +458,14 @@
 .Tabs--actions .dp-Tabs-item.is-active:hover .dp-Arrow::after {
   border-color: transparent transparent var(--white) transparent;
   border-width: 0 4px 4px 4px;
-}
+} */
 
-.dp-Tabs.Tabs--actions .dp-Tabs-item:hover {
+/* .dp-Tabs.Tabs--actions.Tabs--outlined .dp-Tabs-item:hover,
+.dp-Tabs.Tabs--outlined .dp-Tabs-item:hover {
   border: 1px solid var(--brand-primary);
   color: var(--brand-primary);
   margin-bottom: 0;
-}
+} */
 
 .Tabs--actions .dp-Menu .dp-Menu-linkItem {
   padding: 3.5px 6px;
@@ -477,3 +474,37 @@
 .dp-Tabs.Tabs--general .dp-Menu .dp-Menu-linkItem > span {
   text-align: left;
 }
+
+/* Tabs--outlined */
+
+/* .dp-Tabs.Tabs--actions.Tabs--outlined .dp-Tabs-item {
+  align-items: center;
+  background-color: var(--white);
+  border: none;
+  border: 1px solid var(--grey-light);
+  border-radius: var(--border-radius-button);
+  display: flex;
+  padding: 4px 6px;
+  position: relative;
+}
+*/
+
+/* .dp-Tabs.Tabs--actions.Tabs--outlined {
+  border-bottom: 1px solid var(--grey-light);
+} */
+
+/* .dp-Tabs.Tabs--actions .dp-Tabs-item {
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+} */
+
+/* .Tabs--actions .dp-Tabs-item .dp-Icon {
+  cursor: pointer;
+  display: inline-block;
+  height: 23px;
+  margin-right: 3px;
+  position: relative;
+  vertical-align: middle;
+  width: 23px;
+} */

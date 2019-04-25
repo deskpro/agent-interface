@@ -2,12 +2,32 @@ import * as React from "react";
 import { render } from "react-testing-library";
 
 import Header from "../Header";
+import Recent from "../Recent";
+import Account from "../Account";
+import AgentIM from "../AgentIM";
+import AgentStatus from "../AgentStatus";
+import Notifications from "../Notifications";
 
 describe("<Header />", () => {
   it("should match its snapshot", () => {
-    const { getByTestId } = render(
-      <Header data-testid="header">Header text</Header>
+    const { container } = render(
+      <Header
+        onSearch={jest.fn()}
+        left={
+          <>
+            <Recent />
+            <AgentIM />
+          </>
+        }
+        right={
+          <>
+            <Notifications />
+            <AgentStatus />
+            <Account />
+          </>
+        }
+      />
     );
-    expect(getByTestId("header")).toMatchSnapshot();
+    expect(container.firstChild).toMatchSnapshot();
   });
 });

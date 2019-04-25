@@ -5,11 +5,16 @@
 
 /* agent */
 
-.dp-StatusTimes {
+/* .dp-StatusTimes { */
+
+.dp-SectionTitle button.Button--link {
   align-items: center;
+  background-color: transparent;
+  border: 0;
   color: var(--grey-dark);
   display: flex;
   font: var(--p-s);
+  justify-content: flex-end;
   margin: 0;
 }
 
@@ -17,24 +22,25 @@
   background-color: transparent;
 }
 
-.dp-DropDownBar {
-  background-color: var(--grey-lightest);
-  border-bottom: 1px solid var(--grey-light);
-  border-top: 1px solid var(--grey-light);
-  display: block;
-}
-
-.dp-DropDownBar .Tabs--actions .dp-Menu {
-  min-width: calc(100% + 2px);
-}
-
 .dp-ControlBar.dp-DropDownBar .dp-Tabs-item + .dp-Tabs-item {
   background-color: var(--grey-lightest);
 }
 
-/* .dp-TicketSmall .dp-title-item {
-  font: var(--p-n);
-} */
+.dp-ControlBar .dp-TitileControl .dp-Icon,
+.dp-ControlBar .dp-Tabs-item .dp-Icon {
+  margin-right: 5px;
+}
+
+.dp-ControlBar .dp-Tabs-item:hover {
+  border-color: var(--grey-light);
+  color: var(--grey-dark);
+}
+
+.dp-ControlBar .dp-Tabs-item:hover .dp-Arrow::after {
+  border-color: var(--grey-dark) transparent transparent transparent;
+  border-style: solid;
+  border-width: 4px 4px 0 4px;
+}
 
 .dp-TicketSelect .dp-title-item {
   line-height: 1.5;
@@ -85,15 +91,10 @@
   width: 14px;
 }
 
-.dp-StatusTimes .dp-Icon {
-  margin: 0 0 0 5px;
-}
-
 .dp-TicketSelect .dp-SectionTitle,
 .dp-Followers .dp-SectionTitle {
   border-bottom: 1px solid var(--grey-light);
-
-  /* margin-bottom: 10px; */
+  margin-bottom: 10px;
 }
 
 .dp-TicketSelect .dp-ActionButton + .dp-ActionButton {
@@ -170,7 +171,7 @@
 }
 
 .Followers--Large .dp-FollowersItem:hover > .dp-Icon {
-  display: block;
+  display: flex;
 }
 
 .dp-FollowersItem:hover {
@@ -189,52 +190,53 @@
   width: 100%;
 }
 
-.dp-FollowersItem .dp-ToolTips {
+.dp-FollowersItem + .dp-ToolTips {
   border: 0.5px solid var(--grey);
   border-radius: 3px;
   box-shadow: var(--shadow-bottom);
   color: var(--grey-darkest);
   font: var(--p-s);
-  height: 17px;
+  height: 16px;
   line-height: 1.4;
   padding: 1.5px 5px;
 }
 
-.dp-FollowersItem:hover .dp-ToolTips {
+.dp-FollowersItem:hover + .dp-ToolTips {
   display: block;
-}
-
-.demo-tooltip .dp-FollowersItem  .dp-ToolTips {
-  left: 100%;
-  top: calc(100% + 5px);
 }
 
 .dp-LogoName {
   align-items: center;
   display: flex;
+  line-height: 1;
+}
+
+.dp-LogoName .sb-avatar__image {
+  display: flex;
+  min-width: 12px;
 }
 
 .dp-FollowersItem .dp-LogoName + .dp-Icon {
-  background-position: 100% 0;
-  background-size: 10px;
-  cursor: pointer;
-  height: 10px;
-  min-width: 10px;
-  width: 16px;
+  align-items: center;
+  display: flex;
+  width: 10px;
 }
 
-.dp-FollowersStatus.is-active {
+.Button--link.is-active {
   color: var(--brand-primary);
 }
 
-.dp-FollowersStatus .dp-Icon {
+.Button--link .dp-Icon {
   background-size: 10px 10px;
+  margin: 0 0 0 5px;
 }
 
 .dp-Followers .dp-Button.Button--link > .dp-Icon,
 .dp-Followers .dp-LogoName > .dp-Icon {
   background-size: 10px 10px;
+  display: flex;
   height: 10px;
+  margin-left: 0;
   min-width: 10px;
   width: 10px;
 }
@@ -300,16 +302,6 @@
   position: relative;
 }
 
-/* .dp-SendAs::after {
-  background-color: var(--white);
-  content: "";
-  height: 100%;
-  position: absolute;
-  right: 23px;
-  top: 0;
-  width: 1px;
-} */
-
 .dp-SendAs .dp-Arrow {
   padding-left: 25px;
 }
@@ -355,9 +347,6 @@
   display: flex;
   padding: 13px 20px 13px 10px;
   position: relative;
-
-  /* justify-content: space-between; */
-
 }
 
 .dp-TicketMessage .dp-MessageHeader .dp-InfoItem {
@@ -558,10 +547,6 @@
   display: flex;
 }
 
-/* .dp-TagBar .dp-Button {
-  margin-left: 20px;
-} */
-
 .dp-TagBar .dp-Button {
   position: relative;
 }
@@ -571,31 +556,6 @@
   height: 15px;
   width: 15px;
 }
-
-/* .dp-TagBar .dp-Button::after {
-  background-color: var(--grey);
-  position: absolute;
-  content: "";
-  width: 1px;
-  height: 100%;
-  bottom: 0;
-  left: -10px;
-  top: 0;
-} */
-
-/* .dp-TagBar .Button--label {
-  margin-left: 15px;
-}
-
-.dp-TagBar .Button--label::after {
-  background-color: var(--grey);
-  content: "";
-  height: 24px;
-  left: -10px;
-  position: absolute;
-  top: -2px;
-  width: 1px;
-} */
 
 .dp-MenuBarList {
   border-top: 1px solid var(--grey-light);

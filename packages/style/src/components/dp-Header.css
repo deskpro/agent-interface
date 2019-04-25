@@ -7,6 +7,8 @@
   background-color: var(--white);
   border-bottom: 1px solid var(--grey);
   display: flex;
+  height: 45px;
+  padding: 0 5px 0 10px;
   position: relative;
 }
 
@@ -21,10 +23,12 @@
 .dp-SearchBox {
   align-items: center;
   display: flex;
-  flex: 1 0 auto;
   height: 100%;
   justify-content: space-between;
+  max-width: 200px;
   position: relative;
+  transition: 0.5s;
+  width: 100%;
 }
 
 .dp-SearchBox form {
@@ -32,7 +36,6 @@
   display: flex;
   flex-direction: row-reverse;
   height: 100%;
-  padding: 12px 10px;
   position: relative;
   width: 100%;
 }
@@ -41,6 +44,7 @@
   border: 0;
   color: var(--grey-darkest);
   font: var(--h-xl);
+  height: 100%;
   margin-left: 5px;
   outline: none;
   width: 100%;
@@ -80,37 +84,18 @@
   width: 12.05px;
 }
 
-.dp-IconPanelList {
-  align-items: center;
-  background-color: var(--white);
-  display: none;
-  height: 100%;
-  left: 0;
-  opacity: 0;
-  position: absolute;
-  transition: 0.7s;
-  width: 100%;
-}
-
-.dp-SearchBox.is-expanded .dp-IconPanelList {
-  display: flex;
-  left: 100%;
-  opacity: 1;
-  z-index: 9;
-}
-
 .dp-IconPanelList .dp-MenuBarItem.dp-Close {
-  margin-left: 5px;
+  margin-left: 7.5px;
 }
 
 .dp-IconPanelList .dp-MenuBarItem.dp-Close::after {
   background-color: var(--border-color);
   content: "";
   display: block;
-  height: 100%;
+  height: 15px;
   left: 0;
   position: absolute;
-  top: 2px;
+  top: 3px;
   width: 1px;
 }
 
@@ -135,20 +120,17 @@
   left: 0;
 }
 
-.dp-HeaderControls > div {
-  height: 25px;
+.dp-HeaderControls > *:not(:last-child) {
+  max-height: 25px;
+  padding-right: 15px;
   position: relative;
 }
 
-.dp-HeaderControls > div:not(:last-child) {
-  padding-right: 15px;
-}
-
-.dp-HeaderControls > div:not(:last-child)::after {
-  background-color: var(--border-color);
+.dp-HeaderControls > *:not(:last-child)::after {
+  background-color: var(--grey);
   content: "";
   display: block;
-  height: 52px;
+  height: 50px;
   position: absolute;
   right: 0;
   top: -13px;
@@ -156,14 +138,29 @@
   width: 1px;
 }
 
-.dp-SearchBox .dp-Badge.Badge--round, .dp-HeaderControls .dp-Badge.Badge--round {
+.dp-HeaderControls .dp-Badge {
+  padding: 0;
+}
+
+.dp-HeaderControls .dp-Badge .Icon--Avatar {
+  height: 100%;
+  width: 100%;
+}
+
+.dp-HeaderControls .dp-Badge.Badge--round {
   height: 25px;
   margin: 0;
   width: 25px;
 }
 
+.dp-HeaderControls .dp-Badge.Badge--round.Badge--bottom {
+  height: 10px;
+  width: 10px;
+}
+
 .dp-SearchBox .dp-MenuBarItem {
-  padding: 0 0 0 15px;
+  height: 18px;
+  padding: 0 0 0 7.5px;
 }
 
 .header-search .dp-MenuBarItem:first-child::after {
@@ -210,6 +207,14 @@
   align-items: center;
   display: flex;
   padding-left: 20px;
+}
+
+.dp-Header .dp-HeaderControls > .dp-Account {
+  padding-right: 0;
+}
+
+.dp-Header .dp-HeaderControls > .dp-Account::after {
+  display: none;
 }
 
 .dp-HeaderControls .dp-Icon, .dp-MenuBarItem .dp-Icon {
@@ -314,8 +319,6 @@
   right: 0;
 }
 
-/* */
-
 .dp-MenuBarList {
   align-items: center;
   color: inherit;
@@ -365,4 +368,43 @@
     cursor: not-allowed;
     opacity: 0.55;
   }
+}
+
+/* Animate */
+
+.dp-HeaderControls {
+  transition: 0.5s;
+}
+
+/* .dp-SearchBox.search-enter, */
+
+.dp-SearchBox.search-enter-done {
+  max-width: 100%;
+}
+
+.dp-IconPanelList {
+  align-items: center;
+  display: flex;
+  max-height: 18px;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  transition: 0.5s;
+}
+
+/* .dp-SearchBox.search-enter .dp-IconPanelList, */
+
+.dp-SearchBox.search-enter-done .dp-IconPanelList,
+.dp-HeaderControls.fade-enter-done {
+  opacity: 1;
+}
+
+.dp-HeaderControls.fade-exit-active,
+.dp-SearchBox.search-exit-done .dp-IconPanelList {
+  opacity: 0;
+}
+
+.dp-HeaderControls.fade-exit-done {
+  opacity: 0;
+  width: 0;
 }

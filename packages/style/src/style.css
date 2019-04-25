@@ -11,6 +11,7 @@
 @import "components/dp-SlideOutPanel.css";
 @import "components/dp-Sidebar-Overlay.css";
 @import "components/dp-Appsbar.css";
+@import "components/dp-actions.css";
 @import "components/dp-icons.css";
 @import "components/dp-Orderingbar.css";
 @import "components/dp-Tableview.css";
@@ -40,3 +41,4 @@
 @import "demo/listpane-demo.css";
 @import "demo/card-demo.css";
 @import "demo/menu-cog-demo.css";
+@import "demo/filter-list-demo.css";

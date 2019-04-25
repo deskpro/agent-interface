@@ -1,0 +1,203 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FiltersBar /> should match snapshot for default state: Initial State 1`] = `
+<div
+  class="dp-Filters"
+>
+  <div
+    class="dp-Filters-bar dp-Level Level-justify-between"
+  >
+    <div
+      class="dp-Filters-header"
+    >
+      <span
+        class="dp-Icon Icon--menu"
+        role="button"
+        tabindex="-1"
+      >
+        <icon-mock
+          height="25"
+          width="25"
+        />
+      </span>
+      <span
+        class="dp-Filters-title"
+      >
+        All Tickets
+         
+        <span
+          class="dp-qt"
+        >
+          (
+          90
+          )
+        </span>
+      </span>
+      <span
+        class="dp-Icon Icon--caret-down Icon--primary"
+        role="button"
+        tabindex="-1"
+      >
+        <icon-mock
+          height="18"
+          width="18"
+        />
+      </span>
+    </div>
+    <ul
+      class="dp-ViewModes"
+    >
+      <li
+        class="dp-ViewModes-item is-active"
+      >
+        <span
+          class="dp-Icon Icon--list-view"
+          role="button"
+          tabindex="-1"
+        >
+          <icon-mock
+            height="18"
+            width="18"
+          />
+        </span>
+      </li>
+      <li
+        class="dp-ViewModes-item"
+      >
+        <span
+          class="dp-Icon Icon--table-view"
+          role="button"
+          tabindex="-1"
+        >
+          <icon-mock
+            height="18"
+            width="18"
+          />
+        </span>
+      </li>
+      <li
+        class="dp-ViewModes-item"
+      >
+        <span
+          class="dp-Icon Icon--kanban-view"
+          role="button"
+          tabindex="-1"
+        >
+          <icon-mock
+            height="18"
+            width="18"
+          />
+        </span>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`<FiltersBar /> should match snapshot for opened panel: With opened panel 1`] = `
+<div
+  class="dp-Filters"
+>
+  <div
+    class="dp-Filters-bar dp-Level Level-justify-between"
+  >
+    <div
+      class="dp-Filters-header is-opened"
+    >
+      <span
+        class="dp-Icon Icon--menu"
+        role="button"
+        tabindex="-1"
+      >
+        <icon-mock
+          height="25"
+          width="25"
+        />
+      </span>
+      <span
+        class="dp-Filters-title"
+      >
+        All Tickets
+         
+        <span
+          class="dp-qt"
+        >
+          (
+          90
+          )
+        </span>
+      </span>
+      <span
+        class="dp-Icon Icon--caret-up Icon--primary"
+        role="button"
+        tabindex="-1"
+      >
+        <icon-mock
+          height="18"
+          width="18"
+        />
+      </span>
+      <span
+        class="dp-Icon Icon--lock Icon--primary"
+        role="button"
+        tabindex="-1"
+      >
+        <icon-mock
+          height="18"
+          width="18"
+        />
+      </span>
+    </div>
+    <ul
+      class="dp-ViewModes"
+    >
+      <li
+        class="dp-ViewModes-item is-active"
+      >
+        <span
+          class="dp-Icon Icon--list-view"
+          role="button"
+          tabindex="-1"
+        >
+          <icon-mock
+            height="18"
+            width="18"
+          />
+        </span>
+      </li>
+      <li
+        class="dp-ViewModes-item"
+      >
+        <span
+          class="dp-Icon Icon--table-view"
+          role="button"
+          tabindex="-1"
+        >
+          <icon-mock
+            height="18"
+            width="18"
+          />
+        </span>
+      </li>
+      <li
+        class="dp-ViewModes-item"
+      >
+        <span
+          class="dp-Icon Icon--kanban-view"
+          role="button"
+          tabindex="-1"
+        >
+          <icon-mock
+            height="18"
+            width="18"
+          />
+        </span>
+      </li>
+    </ul>
+  </div>
+  <div
+    class="dp-Filters-panel"
+    style="position: absolute; top: 0px; left: 0px; opacity: 0; pointer-events: none;"
+  />
+</div>
+`;

@@ -2,13 +2,167 @@
 
 exports[`<Header /> should match its snapshot 1`] = `
 <div
-  class="dp-SectionTitle"
-  data-testid="header"
+  class="dp-Header"
 >
   <div
-    class="dp-TitleControls"
+    class="dp-SearchBox"
   >
-    Header text
+    <form
+      class="dp-SearchForm"
+    >
+      <input
+        placeholder="Search..."
+        type="text"
+        value=""
+      />
+      <span
+        class="dp-Icon Icon--find"
+        role="button"
+        tabindex="-1"
+      >
+        <icon-mock
+          height="18"
+          width="18"
+        />
+      </span>
+    </form>
+  </div>
+  <div
+    class="dp-HeaderControls"
+  >
+    <div
+      class="dp-Recent"
+    >
+      <span
+        class="dp-Icon Icon--history"
+        role="button"
+        tabindex="-1"
+      >
+        <icon-mock
+          height="25"
+          width="25"
+        />
+      </span>
+    </div>
+    <div>
+      <ul
+        class="dp-Agent-IM"
+      >
+        <li
+          class="dp-MenuBarItem"
+        >
+          <span
+            class="dp-Badge Badge--round Badge--grey-lighter"
+          />
+        </li>
+        <li
+          class="dp-MenuBarItem"
+        >
+          <span
+            class="dp-Badge Badge--round Badge--grey-lighter"
+          />
+        </li>
+        <li
+          class="dp-MenuBarItem"
+        >
+          <span
+            class="dp-Badge Badge--round Badge--grey-lighter"
+          >
+            1
+          </span>
+        </li>
+        <li
+          class="dp-MenuBarItem"
+        >
+          <span
+            class="dp-Icon Icon--add-im"
+            role="button"
+            tabindex="-1"
+          >
+            <icon-mock
+              height="25"
+              width="25"
+            />
+          </span>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div
+    class="dp-HeaderControls is-right"
+  >
+    <div
+      class="dp-Notifications"
+    >
+      <span
+        class="dp-Icon Icon--notifications"
+        role="button"
+        tabindex="-1"
+      >
+        <icon-mock
+          height="21"
+          width="21"
+        />
+      </span>
+    </div>
+    <div>
+      <ul
+        class="dp-Agent-Status"
+      >
+        <li
+          class="dp-MenuBarItem"
+        >
+          <span
+            class="dp-Icon Icon--voice-call Icon--success"
+            role="button"
+            tabindex="-1"
+          >
+            <icon-mock
+              height="20"
+              width="20"
+            />
+          </span>
+        </li>
+        <li
+          class="dp-MenuBarItem"
+        >
+          <span
+            class="dp-Icon Icon--chat"
+            role="button"
+            tabindex="-1"
+          >
+            <icon-mock
+              height="22"
+              width="22"
+            />
+          </span>
+        </li>
+        <li
+          class="dp-MenuBarItem"
+        >
+          <span
+            class="dp-Badge Badge--round Badge--grey-lighter"
+          />
+          <span
+            class="dp-Icon dp-Arrow"
+            role="button"
+            tabindex="-1"
+          />
+        </li>
+      </ul>
+    </div>
+    <span
+      class="dp-Account"
+    >
+      <span
+        class="dp-Icon dp-IconPlane dp-ActionDropDown"
+      />
+      <span
+        class="dp-Icon dp-Arrow"
+        role="button"
+        tabindex="-1"
+      />
+    </span>
   </div>
 </div>
 `;
