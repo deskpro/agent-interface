@@ -1,0 +1,238 @@
+@import "../fonts.css";
+@import "../vars.css";
+@import "../dp-Arrow.css";
+
+.dp-Guides-breadcrumbs {
+  align-items: center;
+  background-color: var(--white);
+  border-bottom: 1px solid var(--grey-light);
+  border-top: 1px solid var(--brand-primary);
+  display: flex;
+  justify-content: flex-start;
+  padding: 3px 10px;
+  position: relative;
+  width: 100%;
+}
+
+.dp-Guides-breadcrumbs .dp-Breadcrumbs--Arrow {
+  display: block;
+  height: 8px;
+  margin-left: 5px;
+  margin-right: 5px;
+  position: relative;
+  width: 5px;
+}
+
+.dp-Guides-breadcrumbs .dp-Breadcrumb-item {
+  align-items: center;
+  color: var(--grey-dark);
+  cursor: pointer;
+  display: flex;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 16px;
+  margin: 0;
+}
+
+.dp-Breadcrumb-item > .dp-Icon {
+  background-position: 0 50%;
+  height: 12px;
+  width: 12px;
+}
+
+.dp-Breadcrumb-item > .dp-Icon svg {
+  fill: var(--brand-primary);
+}
+
+.dp-Guides-breadcrumbs .dp-Breadcrumb-item.is-current {
+  color: var(--brand-primary);
+}
+
+.dp-Guides-breadcrumbs .dp-Breadcrumbs--Arrow::before {
+  background-color: var(--grey);
+  content: "";
+  display: block;
+  height: 5px;
+  position: absolute;
+  right: 2px;
+  top: 0;
+  transform: rotate(-45deg);
+  width: 1px;
+}
+
+.dp-Guides-breadcrumbs .dp-Breadcrumbs--Arrow::after {
+  background-color: var(--grey);
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 5px;
+  position: absolute;
+  right: 2px;
+  transform: rotate(45deg);
+  width: 1px;
+}
+
+.dp-GuideSections .dp-Card.is-dragging {
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
+  box-shadow: none;
+}
+
+.dp-GuideSections .dp-Card.is-dragging .dp-Card-title {
+  color: var(--brand-primary);
+}
+
+.dp-GuideSections .dp-Card .dp-IconGroup {
+  display: none;
+}
+
+.dp-GuideSections .dp-Card:hover .dp-IconGroup {
+  align-items: center;
+  display: flex;
+}
+
+.dp-GuideSections .dp-Card .dp-IconGroup:hover svg {
+  fill: var(--brand-primary);
+}
+
+.dp-Listpane-guides .dp-Cog:hover > .dp-Menu {
+  display: block;
+}
+
+.dp-Card .dp-Cog > .dp-Menu {
+  display: none;
+  padding: 10px 0;
+}
+
+.dp-Listpane-guides .dp-Menu .dp-Menu-title {
+  background-color: transparent;
+  color: var(--grey-darkest);
+  padding-bottom: 0;
+}
+
+.dp-Listpane-guides .dp-Menu .dp-ButtonWrapper {
+  padding: 8px 10px 0;
+}
+
+.dp-Listpane-guides .dp-Card {
+  border: 1px solid var(--grey-light);
+  margin-top: -1px;
+}
+
+.dp-Listpane-guides .dp-IconJump {
+  display: none;
+  height: 10px;
+  left: -10px;
+  position: absolute;
+  top: 5px;
+  width: 10px;
+  z-index: 9;
+}
+
+.dp-Listpane-guides .dp-Card:hover .dp-IconJump {
+  display: block;
+}
+
+.dp-Icon.Icon--on-hold svg {
+  border-radius: 50%;
+}
+
+.dp-Guides-list > .dp-Guide {
+  flex-direction: row;
+}
+
+.dp-Guides-list .dp-Guide {
+  background-color: var(--white);
+  border-bottom: 1px solid var(--grey-light);
+  color: var(--grey-darkest);
+  cursor: pointer;
+  display: flex;
+  font: var(--p-xl);
+  max-height: 100%;
+  padding: 8.8px 10px 10px;
+  position: relative;
+  width: 100%;
+}
+
+.dp-Guide.is-hover,
+.dp-Guides-list.is-hoverable .dp-Guide:hover {
+  background-color: rgba(58, 141, 222, 0.07);
+}
+
+.dp-Guides-list .dp-Guide .dp-TitleGroupe {
+  align-items: center;
+  display: flex;
+}
+
+.dp-IconGroup .dp-IconJump {
+  background-size: 7px 9px;
+  height: 15px;
+  width: 7px;
+}
+
+.dp-Guides-list .dp-IconGroup {
+  margin: 0;
+}
+
+.dp-Guides-list .dp-TitleGroupe .dp-Icon {
+  background-color: var(--info-light);
+  border-radius: 50%;
+  height: 30px;
+  margin-right: 6px;
+  width: 30px;
+}
+
+.dp-Guides-list .Guide--section .dp-TitleGroupe .dp-Icon {
+  background-color: transparent;
+  border-radius: 0;
+  height: 10px;
+  margin-right: 5px;
+  width: 12px;
+}
+
+.dp-Guides-list .dp-Guide:hover .dp-TitleGroupe .dp-Icon {
+  background-color: var(--white);
+}
+
+.dp-Guides-list .dp-Guide.Guide--section:hover .dp-TitleGroupe .dp-Icon {
+  background-color: transparent;
+}
+
+.is-rolling {
+  background-color: var(--info-light);
+}
+
+.dp-Guides-list .dp-IconGroup {
+  display: none;
+}
+
+.dp-Guides-list .dp-Guide:hover .dp-IconGroup {
+  align-items: center;
+  display: flex;
+}
+
+.dp-Guides-list .is-rolling .dp-TitleGroupe .dp-Icon {
+  background-color: var(--white);
+}
+
+.dp-Guides-list .dp-Guide .dp-settings,
+.dp-GuideSections .dp-Card .dp-settings {
+  background-color: transparent;
+  border: 0;
+  height: 13px;
+  margin: 0;
+  width: 13px;
+}
+
+.dp-Guides-list .dp-Guide {
+  border-top: 1px solid transparent;
+}
+
+.dp-Guides-list .dp-Guide.Guide--section {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.dp-Guides-list .dp-Guide .is-rolling.dp-Card:hover {
+  background-color: var(--info-light);
+}

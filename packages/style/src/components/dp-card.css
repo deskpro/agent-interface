@@ -57,16 +57,10 @@
   width: 100%;
 }
 
-/* .CardList-comments .dp-Card-SectionTitle .dp-Card-title:hover { */
-
-/* .dp-Tasks-list.dp-Card-SectionTitle .dp-Card-title:hover, */
-
 .dp-Card-SectionTitle .dp-Card-title:hover,
 .dp-Card-SectionTitle .dp-Card-title:hover {
   color: var(--grey-darkest);
 }
-
-/* .CardList-comments .dp-Card-SectionTitle .dp-Card-title:hover::after { */
 
 .dp-Tasks-list.dp-Card-SectionTitle .dp-Card-title:hover::after,
 .dp-Card-SectionTitle .dp-Card-title:hover::after {
@@ -82,15 +76,6 @@
   margin-left: 10px;
   max-width: 50px;
 }
-
-/* .dp-Card-SectionTitle .dp-Card-title {
-  font: var(--h-s-semibold);
-  color: var(--grey-darkest);
-  background-color: var(--white);
-  width: 100%;
-  text-transform: uppercase;
-  margin-bottom: 0;
-} */
 
 .dp-Title.Title-Icon .dp-Card-title {
   margin-bottom: 0;
@@ -113,11 +98,6 @@
   padding: 8.8px 10px 7.8px;
   width: 100%;
 }
-
-/* .dp-CustomCheckbox .dp-Card-title,
-.dp-OrderingBar .dp-MassSelect-itemsCount {
-  margin: 0;
-} */
 
 .dp-Card-title.dp-MassSelectTitle {
   padding-bottom: 0;
@@ -145,6 +125,11 @@
   width: 100%;
 }
 
+.dp-Guide .dp-Cog > .dp-Menu {
+  display: none;
+  padding: 10px 0;
+}
+
 /* Level Grid */
 
 .dp-Card.dp-Level .dp-LevelCol {
@@ -155,9 +140,6 @@
 
 .dp-Card.dp-Level .dp-LevelCol:first-child {
   flex: 0 0 auto;
-
-  /* flex: 0 1 auto; */
-
 }
 
 .dp-Card.dp-Level .dp-LevelCol:nth-child(2) {
@@ -490,234 +472,8 @@
   margin-left: 15px;
 }
 
-/* Card Guides */
-
-/* .dp-CardList.dp-GuidesDirectory .dp-Card,
-.dp-CardList.dp-GuideSections .dp-Card {
-  align-items: center;
-  justify-content: space-between;
-}
-*/
-
-.dp-CardList.dp-GuidesDirectory > .dp-Card {
-  flex-direction: row;
-}
-
-.dp-GuidesDirectory .dp-Card .dp-TitleGroupe {
-  align-items: center;
-  display: flex;
-}
-
-.dp-IconGroup .dp-IconJump {
-  background-size: 7px 9px;
-  height: 15px;
-  width: 7px;
-}
-
-.dp-CardList.dp-GuidesDirectory .dp-IconGroup,
-/*.dp-Card .dp-TitleGroupe .dp-Card-title,*/
-.dp-CardList.dp-GuideSections .dp-IconGroup {
-  margin: 0;
-}
-
-.dp-GuidesDirectory .dp-TitleGroupe .dp-Icon {
-  background-color: var(--info-light);
-  border-radius: 50%;
-  height: 30px;
-  margin-right: 6px;
-  width: 30px;
-}
-
-.dp-GuidesDirectory .dp-Card:hover .dp-TitleGroupe .dp-Icon {
-  background-color: var(--white);
-}
-
-.is-rolling {
-  background-color: var(--info-light);
-}
-
-.dp-GuidesDirectory .dp-IconGroup {
-  display: none;
-}
-
-.dp-GuidesDirectory .dp-Card:hover .dp-IconGroup {
-  align-items: center;
-  display: flex;
-}
-
-.dp-GuidesDirectory .is-rolling .dp-TitleGroupe .dp-Icon {
-  background-color: var(--white);
-}
-
-.dp-GuidesDirectory .dp-Card .dp-settings,
-.dp-GuideSections .dp-Card .dp-settings {
-  background-color: transparent;
-  border: 0;
-  height: 13px;
-  margin: 0;
-  width: 13px;
-}
-
-.dp-GuidesDirectory .Icon--home {
-  background-position: 0 50%;
-  height: 12px;
-  width: 12px;
-}
-
-.dp-GuidesDirectory .Icon--home svg {
-  fill: var(--brand-primary);
-}
-
-.dp-CardList.dp-GuidesDirectory .dp-Card,
-.dp-CardList.dp-GuideSections .dp-Card {
-  border-top: 1px solid transparent;
-}
-
-.dp-CardList.dp-GuideSections .dp-Card {
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-/* .dp-CardList.dp-GuidesDirectory .dp-Card:hover,
-.dp-CardList.dp-GuideSections .dp-Card:hover {
-  background-color: var(--info-light);
-}
-
-.dp-CardList.dp-GuidesDirectory .dp-Card:hover {
-  border-right: 0;
-} */
-
-.dp-CardList.dp-GuidesDirectory .is-rolling.dp-Card:hover {
-  background-color: var(--info-light);
-}
-
-.dp-Breadcrumbs {
-  align-items: center;
-  background-color: var(--white);
-  border-bottom: 1px solid var(--grey-light);
-  border-top: 1px solid var(--brand-primary);
-  display: flex;
-  justify-content: flex-start;
-  justify-content: flex-start;
-  padding: 3px 10px;
-  position: relative;
-  width: 100%;
-}
-
 .dp-Card .dp-Icon {
   cursor: pointer;
-}
-
-.dp-Breadcrumbs .dp-Breadcrumbs--Arrow {
-  display: block;
-  height: 8px;
-  margin-left: 5px;
-  margin-right: 5px;
-  position: relative;
-  width: 5px;
-}
-
-.dp-Breadcrumbs .dp-Breadcrumbs--Item {
-  color: var(--grey-dark);
-  cursor: pointer;
-  font-size: 10px;
-  font-weight: 600;
-  line-height: 16px;
-}
-
-.dp-Breadcrumbs .dp-Breadcrumbs--Item.is-current {
-  color: var(--brand-primary);
-}
-
-.dp-Breadcrumbs .dp-Breadcrumbs--Arrow::before {
-  background-color: var(--grey);
-  content: "";
-  display: block;
-  height: 5px;
-  position: absolute;
-  right: 2px;
-  top: 0;
-  transform: rotate(-45deg);
-  width: 1px;
-}
-
-.dp-Breadcrumbs .dp-Breadcrumbs--Arrow::after {
-  background-color: var(--grey);
-  bottom: 0;
-  content: "";
-  display: block;
-  height: 5px;
-  position: absolute;
-  right: 2px;
-  transform: rotate(45deg);
-  width: 1px;
-}
-
-/* Guide sections */
-
-.dp-GuideSections .dp-Card.is-dragging {
-  border-left: 1px solid transparent;
-  border-right: 1px solid transparent;
-  box-shadow: none;
-}
-
-.dp-GuideSections .dp-Card.is-dragging .dp-Card-title {
-  color: var(--brand-primary);
-}
-
-.dp-GuideSections .dp-Card .dp-IconGroup {
-  display: none;
-}
-
-.dp-GuideSections .dp-Card:hover .dp-IconGroup {
-  align-items: center;
-  display: flex;
-}
-
-.dp-GuideSections .dp-Card .dp-IconGroup:hover svg {
-  fill: var(--brand-primary);
-}
-
-.dp-Listpane-guides .dp-Cog:hover > .dp-Menu {
-  display: block;
-}
-
-.dp-Card .dp-Cog > .dp-Menu {
-  display: none;
-  padding: 10px 0;
-}
-
-.dp-Listpane-guides .dp-Menu .dp-Menu-title {
-  background-color: transparent;
-  color: var(--grey-darkest);
-  padding-bottom: 0;
-}
-
-.dp-Listpane-guides .dp-Menu .dp-ButtonWrapper {
-  padding: 8px 10px 0;
-}
-
-.dp-Listpane-guides .dp-Card {
-  border: 1px solid var(--grey-light);
-  margin-top: -1px;
-}
-
-.dp-Listpane-guides .dp-IconJump {
-  display: none;
-  height: 10px;
-  left: -10px;
-  position: absolute;
-  top: 5px;
-  width: 10px;
-  z-index: 9;
-}
-
-.dp-Listpane-guides .dp-Card:hover .dp-IconJump {
-  display: block;
-}
-
-.dp-Icon.Icon--on-hold svg {
-  border-radius: 50%;
 }
 
 /* dp-Kanban */

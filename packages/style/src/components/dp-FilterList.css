@@ -116,6 +116,7 @@
   max-height: 18px;
 }
 
+.dp-ViewModes .dp-ViewModes-item.is-active .dp-Icon svg,
 .dp-ViewModes .dp-Icon:hover svg {
   fill: var(--brand-primary);
 }
