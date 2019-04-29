@@ -61,3 +61,5 @@ export {
 } from "./elements/OptionList/StandardOptionList";
 
 export { default as Table } from "./Table/Table";
+
+export { default as Guides } from "./Guides/Guides";
