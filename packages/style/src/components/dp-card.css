@@ -130,6 +130,11 @@
   padding: 10px 0;
 }
 
+.dp-Card .dp-LevelRight .dp-IconGroup .dp-Icon,
+.dp-Card .dp-LevelRight .dp-IconGroup .dp-Icon svg {
+  max-height: 18px;
+}
+
 /* Level Grid */
 
 .dp-Card.dp-Level .dp-LevelCol {
@@ -183,9 +188,6 @@
   border-right: 1px solid transparent;
 }
 
-/* .dp-Card.dp-Tasks-list.is-hover,
-.dp-CardList .dp-Card:hover { */
-
 .dp-CardList.CardList-comments .dp-Card.is-hover,
 .dp-CardList.CardList-comments .dp-Card:hover {
   background-color: var(--info-light);
@@ -222,11 +224,6 @@
   width: 18px;
 }
 
-/* .dp-LevelItem .dp-Item-txt {
-  color: var(--grey-darkest);
-  font: var(--p-xl);
-} */
-
 .dp-Listpane-guides .Level--down {
   border-bottom: 0;
   display: none;
@@ -244,8 +241,6 @@
 .dp-Listpane-guides .dp-Card.is-active + .Level--down {
   display: block;
 }
-
-/* .dp-Card.dp-Level.is-active > .dp-LevelCol .Icon--down-caret { */
 
 .dp-Card.is-active .Icon--down-caret {
   transform: rotate(-180deg);
@@ -384,13 +379,6 @@
   display: none;
 }
 
-/* .dp-Card .dp-JustifyStart {
-  display: flex;
-  justify-content: flex-start;
-  margin-top: 10px;
-  padding-left: 23px;
-} */
-
 .dp-Tag .dp-close {
   height: 12px;
   position: absolute;
@@ -406,9 +394,6 @@
 .dp-Card .dp-CustomCheckbox {
   display: flex;
   overflow: hidden;
-
-  /* padding-top: 2px; */
-
 }
 
 .dp-Card.dp-Card-SectionTitle .dp-CustomCheckbox {
@@ -454,17 +439,9 @@
 
 /* Card Row */
 
-/* .Card--row .dp-Card { */
-
 .dp-Card {
   flex-direction: column;
 }
-
-/* .dp-CardList.Card--row .dp-UserInfo { */
-
-/* .dp-Card .dp-UserInfo {
-  padding-left: 23px;
-} */
 
 /* Star */
 
