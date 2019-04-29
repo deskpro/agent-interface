@@ -9,9 +9,7 @@ title: Guides
 
     <ul class="dp-Guides-breadcrumbs">
         <li class="dp-Breadcrumb-item"><span class="dp-Icon Icon--home"></span></li>
-        <!-- <li class="dp-Breadcrumbs--Arrow"></li> -->
         <li class="dp-Breadcrumb-item">Admin Guides</li>
-        <!-- <li class="dp-Breadcrumbs--Arrow"></li> -->
         <li class="dp-Breadcrumb-item is-current">Launching your helpdesk</li>
     </ul>
 
@@ -1722,7 +1720,7 @@ title: Guides
     </div>
 
     <div class="dp-Guides-list is-hoverable">
-        <div class="dp-Guide Level-justify-between">
+        <div class="dp-Guide">
             <span class="dp-TitleGroup">
                 <span class="dp-Icon Icon--user Icon--primary"></span>
                 <span class="dp-Guide-title">Admin Guide</span>
@@ -1734,7 +1732,7 @@ title: Guides
                 <span class="dp-Icon dp-settings"></span>
             </span>
         </div>
-        <div class="dp-Guide Level-justify-between">
+        <div class="dp-Guide">
             <span class="dp-TitleGroup">
                 <span class="dp-Icon Icon--Agent Icon--primary"></span>
                 <span class="dp-Guide-title">Agent Guide</span>
@@ -1746,7 +1744,7 @@ title: Guides
                 <span class="dp-Icon dp-settings"></span>
             </span>
         </div>
-        <div class="dp-Guide Level-justify-between">
+        <div class="dp-Guide">
             <span class="dp-TitleGroup">
                 <span class="dp-Icon Icon--Reports Icon--primary"></span>
                 <span class="dp-Guide-title">Reports Guide</span>
