@@ -1721,49 +1721,51 @@ title: Guides
 
     <div class="dp-Guides-list is-hoverable">
         <div class="dp-Guide">
-            <span class="dp-TitleGroup">
+            <span class="dp-Guide-titleContainer">
                 <span class="dp-Icon Icon--user Icon--primary"></span>
-                <span class="dp-Guide-title">Admin Guide</span>
+                <!-- <span class="dp-Guide-title">Admin Guide</span> -->
+                Admin Guide
             </span>
 
             <!-- Icon rolling -->
-            <span class="dp-IconGroup">
+            <span class="dp-Guide-actions">
                 <span class="dp-Icon dp-IconJump"></span>
                 <span class="dp-Icon dp-settings"></span>
             </span>
         </div>
         <div class="dp-Guide">
-            <span class="dp-TitleGroup">
+            <span class="dp-Guide-titleContainer">
                 <span class="dp-Icon Icon--Agent Icon--primary"></span>
-                <span class="dp-Guide-title">Agent Guide</span>
+                <!-- <span class="dp-Guide-title">Agent Guide</span> -->
+                Agent Guide
             </span>
 
             <!-- Icon rolling -->
-            <span class="dp-IconGroup">
+            <span class="dp-Guide-actions">
                 <span class="dp-Icon dp-IconJump"></span>
                 <span class="dp-Icon dp-settings"></span>
             </span>
         </div>
         <div class="dp-Guide">
-            <span class="dp-TitleGroup">
+            <span class="dp-Guide-titleContainer">
                 <span class="dp-Icon Icon--Reports Icon--primary"></span>
                 <span class="dp-Guide-title">Reports Guide</span>
             </span>
 
             <!-- Icon rolling -->
-            <span class="dp-IconGroup">
+            <span class="dp-Guide-actions">
                 <span class="dp-Icon dp-IconJump"></span>
                 <span class="dp-Icon dp-settings"></span>
             </span>
         </div>
         <div class="dp-Guide Level-justify-between">
-            <span class="dp-TitleGroup">
+            <span class="dp-Guide-titleContainer">
                 <span class="dp-Icon Icon--Sysadmin Icon--primary"></span>
                 <span class="dp-Guide-title">Sysadmin Guide</span>
             </span>
 
             <!-- Icon rolling -->
-            <span class="dp-IconGroup">
+            <span class="dp-Guide-actions">
                 <span class="dp-Icon dp-IconJump"></span>
                 <span class="dp-Icon dp-settings"></span>
             </span>
@@ -1780,234 +1782,234 @@ title: Guides
     <div class="dp-Guides-list is-hoverable">
 
         <div class="dp-Guide Guide--section">
-            <span class="dp-TitleGroup">
+            <span class="dp-Guide-titleContainer">
                 <span class="dp-Icon dp-drag"></span>
                 <span class="dp-Guide-title">Introducing Deskpro</span>
             </span>
 
             <!-- Icon rolling -->
-            <span class="dp-IconGroup">
+            <span class="dp-Guide-actions">
                 <span class="dp-Icon dp-IconJump"></span>
                 <span class="dp-Icon dp-settings"></span>
             </span>
         </div>
 
         <div class="dp-Guide Guide--section">
-            <span class="dp-TitleGroup">
+            <span class="dp-Guide-titleContainer">
                 <span class="dp-Icon dp-drag"></span>
                 <span class="dp-Guide-title">Creating your helpdesk</span>
             </span>
 
             <!-- Icon rolling -->
-            <span class="dp-IconGroup">
+            <span class="dp-Guide-actions">
                 <span class="dp-Icon dp-IconJump"></span>
                 <span class="dp-Icon dp-settings"></span>
             </span>
         </div>
 
         <div class="dp-Guide Guide--section">
-            <span class="dp-TitleGroup">
+            <span class="dp-Guide-titleContainer">
                 <span class="dp-Icon dp-drag"></span>
                 <span class="dp-Guide-title">Launching your helpdesk</span>
             </span>
 
             <!-- Icon rolling -->
-            <span class="dp-IconGroup">
+            <span class="dp-Guide-actions">
                 <span class="dp-Icon dp-IconJump"></span>
                 <span class="dp-Icon dp-settings"></span>
             </span>
         </div>
 
         <div class="dp-Guide Guide--section">
-            <span class="dp-TitleGroup">
+            <span class="dp-Guide-titleContainer">
                 <span class="dp-Icon dp-drag"></span>
                 <span class="dp-Guide-title">Importing data</span>
             </span>
 
             <!-- Icon rolling -->
-            <span class="dp-IconGroup">
+            <span class="dp-Guide-actions">
                 <span class="dp-Icon dp-IconJump"></span>
                 <span class="dp-Icon dp-settings"></span>
             </span>
         </div>
 
         <div class="dp-Guide Guide--section">
-            <span class="dp-TitleGroup">
+            <span class="dp-Guide-titleContainer">
                 <span class="dp-Icon dp-drag"></span>
                 <span class="dp-Guide-title">Agents</span>
             </span>
 
             <!-- Icon rolling -->
-            <span class="dp-IconGroup">
+            <span class="dp-Guide-actions">
                 <span class="dp-Icon dp-IconJump"></span>
                 <span class="dp-Icon dp-settings"></span>
             </span>
         </div>
 
         <div class="dp-Guide Guide--section">
-            <span class="dp-TitleGroup">
+            <span class="dp-Guide-titleContainer">
                 <span class="dp-Icon dp-drag"></span>
                 <span class="dp-Guide-title">Departments</span>
             </span>
 
             <!-- Icon rolling -->
-            <span class="dp-IconGroup">
+            <span class="dp-Guide-actions">
                 <span class="dp-Icon dp-IconJump"></span>
                 <span class="dp-Icon dp-settings"></span>
             </span>
         </div>
 
         <div class="dp-Guide Guide--section">
-            <span class="dp-TitleGroup">
+            <span class="dp-Guide-titleContainer">
                 <span class="dp-Icon dp-drag"></span>
                 <span class="dp-Guide-title">Email accounts</span>
             </span>
 
             <!-- Icon rolling -->
-            <span class="dp-IconGroup">
+            <span class="dp-Guide-actions">
                 <span class="dp-Icon dp-IconJump"></span>
                 <span class="dp-Icon dp-settings"></span>
             </span>
         </div>
 
         <div class="dp-Guide Guide--section">
-            <span class="dp-TitleGroup">
+            <span class="dp-Guide-titleContainer">
                 <span class="dp-Icon dp-drag"></span>
                 <span class="dp-Guide-title">Ticket fields</span>
             </span>
 
             <!-- Icon rolling -->
-            <span class="dp-IconGroup">
+            <span class="dp-Guide-actions">
                 <span class="dp-Icon dp-IconJump"></span>
                 <span class="dp-Icon dp-settings"></span>
             </span>
         </div>
 
         <div class="dp-Guide Guide--section">
-            <span class="dp-TitleGroup">
+            <span class="dp-Guide-titleContainer">
                 <span class="dp-Icon dp-drag"></span>
                 <span class="dp-Guide-title">Automating the helpdesk</span>
             </span>
 
             <!-- Icon rolling -->
-            <span class="dp-IconGroup">
+            <span class="dp-Guide-actions">
                 <span class="dp-Icon dp-IconJump"></span>
                 <span class="dp-Icon dp-settings"></span>
             </span>
         </div>
 
         <div class="dp-Guide Guide--section">
-            <span class="dp-TitleGroup">
+            <span class="dp-Guide-titleContainer">
                 <span class="dp-Icon dp-drag"></span>
                 <span class="dp-Guide-title">CRM and usergroups</span>
             </span>
 
             <!-- Icon rolling -->
-            <span class="dp-IconGroup">
+            <span class="dp-Guide-actions">
                 <span class="dp-Icon dp-IconJump"></span>
                 <span class="dp-Icon dp-settings"></span>
             </span>
         </div>
 
         <div class="dp-Guide Guide--section">
-            <span class="dp-TitleGroup">
+            <span class="dp-Guide-titleContainer">
                 <span class="dp-Icon dp-drag"></span>
                 <span class="dp-Guide-title">Portal</span>
             </span>
 
             <!-- Icon rolling -->
-            <span class="dp-IconGroup">
+            <span class="dp-Guide-actions">
                 <span class="dp-Icon dp-IconJump"></span>
                 <span class="dp-Icon dp-settings"></span>
             </span>
         </div>
 
         <div class="dp-Guide Guide--section">
-            <span class="dp-TitleGroup">
+            <span class="dp-Guide-titleContainer">
                 <span class="dp-Icon dp-drag"></span>
                 <span class="dp-Guide-title">Multibrand</span>
             </span>
 
             <!-- Icon rolling -->
-            <span class="dp-IconGroup">
+            <span class="dp-Guide-actions">
                 <span class="dp-Icon dp-IconJump"></span>
                 <span class="dp-Icon dp-settings"></span>
             </span>
         </div>
 
         <div class="dp-Guide Guide--section">
-            <span class="dp-TitleGroup">
+            <span class="dp-Guide-titleContainer">
                 <span class="dp-Icon dp-drag"></span>
                 <span class="dp-Guide-title">Creating your helpdesk</span>
             </span>
 
             <!-- Icon rolling -->
-            <span class="dp-IconGroup">
+            <span class="dp-Guide-actions">
                 <span class="dp-Icon dp-IconJump"></span>
                 <span class="dp-Icon dp-settings"></span>
             </span>
         </div>
 
         <div class="dp-Guide Guide--section">
-            <span class="dp-TitleGroup">
+            <span class="dp-Guide-titleContainer">
                 <span class="dp-Icon dp-drag"></span>
                 <span class="dp-Guide-title">Editing templates</span>
             </span>
 
             <!-- Icon rolling -->
-            <span class="dp-IconGroup">
+            <span class="dp-Guide-actions">
                 <span class="dp-Icon dp-IconJump"></span>
                 <span class="dp-Icon dp-settings"></span>
             </span>
         </div>
 
         <div class="dp-Guide Guide--section">
-            <span class="dp-TitleGroup">
+            <span class="dp-Guide-titleContainer">
                 <span class="dp-Icon dp-drag"></span>
                 <span class="dp-Guide-title">Localization</span>
             </span>
 
             <!-- Icon rolling -->
-            <span class="dp-IconGroup">
+            <span class="dp-Guide-actions">
                 <span class="dp-Icon dp-IconJump"></span>
                 <span class="dp-Icon dp-settings"></span>
             </span>
         </div>
 
         <div class="dp-Guide Guide--section">
-            <span class="dp-TitleGroup">
+            <span class="dp-Guide-titleContainer">
                 <span class="dp-Icon dp-drag"></span>
                 <span class="dp-Guide-title">Integration</span>
             </span>
 
             <!-- Icon rolling -->
-            <span class="dp-IconGroup">
+            <span class="dp-Guide-actions">
                 <span class="dp-Icon dp-IconJump"></span>
                 <span class="dp-Icon dp-settings"></span>
             </span>
         </div>    
 
         <div class="dp-Guide Guide--section">
-            <span class="dp-TitleGroup">
+            <span class="dp-Guide-titleContainer">
                 <span class="dp-Icon dp-drag"></span>
                 <span class="dp-Guide-title">Labels</span>
             </span>
 
             <!-- Icon rolling -->
-            <span class="dp-IconGroup">
+            <span class="dp-Guide-actions">
                 <span class="dp-Icon dp-IconJump"></span>
                 <span class="dp-Icon dp-settings"></span>
             </span>
         </div>
 
         <div class="dp-Guide Guide--section">
-            <span class="dp-TitleGroup">
+            <span class="dp-Guide-titleContainer">
                 <span class="dp-Icon dp-drag"></span>
                 <span class="dp-Guide-title">Billing</span>
             </span>
 
             <!-- Icon rolling -->
-            <span class="dp-IconGroup">
+            <span class="dp-Guide-actions">
                 <span class="dp-Icon dp-IconJump"></span>
                 <span class="dp-Icon dp-settings"></span>
             </span>

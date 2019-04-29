@@ -80,7 +80,7 @@
   box-shadow: none;
 }
 
-.dp-Guide-title {
+/* .dp-Guide-title {
   color: var(--grey-darkest);
   cursor: pointer;
   font: var(--h-n-semibold);
@@ -89,22 +89,22 @@
   position: relative;
   text-overflow: ellipsis;
   white-space: nowrap;
-}
+} */
 
-.dp-GuideSections .dp-Guide.is-dragging .dp-Guide-title {
+/* .dp-GuideSections .dp-Guide.is-dragging .dp-Guide-title {
   color: var(--brand-primary);
-}
+} */
 
-.dp-GuideSections .dp-Guide .dp-IconGroup {
+.dp-GuideSections .dp-Guide .dp-Guide-actions {
   display: none;
 }
 
-.dp-GuideSections .dp-Guide:hover .dp-IconGroup {
+.dp-GuideSections .dp-Guide:hover .dp-Guide-actions {
   align-items: center;
   display: flex;
 }
 
-.dp-GuideSections .dp-Guide .dp-IconGroup:hover svg {
+.dp-Guide .dp-Guide-actions:hover svg {
   fill: var(--brand-primary);
 }
 
@@ -175,22 +175,35 @@
   background-color: rgba(58, 141, 222, 0.07);
 }
 
-.dp-Guides-list .dp-Guide .dp-TitleGroup {
+.dp-Guides-list .dp-Guide .dp-Guide-titleContainer {
   align-items: center;
+
+  color: var(--grey-darkest);
+  cursor: pointer;
   display: flex;
+  font: var(--h-n-semibold);
+  max-width: max-content;
+  overflow: hidden;
+  position: relative;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
-.dp-IconGroup .dp-IconJump {
+.dp-GuideSections .dp-Guide.is-dragging .dp-Guide-titleContainer {
+  color: var(--brand-primary);
+}
+
+.dp-Guide-actions .dp-IconJump {
   background-size: 7px 9px;
   height: 15px;
   width: 7px;
 }
 
-.dp-Guides-list .dp-IconGroup {
+.dp-Guides-list .dp-Guide-actions {
   margin: 0;
 }
 
-.dp-Guides-list .dp-TitleGroup .dp-Icon {
+.dp-Guides-list .dp-Guide-titleContainer .dp-Icon {
   background-color: var(--info-light);
   border-radius: 50%;
   height: 30px;
@@ -198,7 +211,7 @@
   width: 30px;
 }
 
-.dp-Guides-list .dp-TitleGroup .dp-Icon svg {
+.dp-Guides-list .dp-Guide-titleContainer .dp-Icon svg {
   align-items: center;
   display: flex;
   fill: var(--brand-primary);
@@ -208,7 +221,7 @@
   width: 18px;
 }
 
-.dp-Guides-list .Guide--section .dp-TitleGroup .dp-Icon {
+.dp-Guides-list .Guide--section .dp-Guide-titleContainer .dp-Icon {
   background-color: transparent;
   border-radius: 0;
   height: 10px;
@@ -216,11 +229,11 @@
   width: 12px;
 }
 
-.dp-Guides-list .dp-Guide:hover .dp-TitleGroup .dp-Icon {
+.dp-Guides-list .dp-Guide:hover .dp-Guide-titleContainer .dp-Icon {
   background-color: var(--white);
 }
 
-.dp-Guides-list .dp-Guide.Guide--section:hover .dp-TitleGroup .dp-Icon {
+.dp-Guides-list .dp-Guide.Guide--section:hover .dp-Guide-titleContainer .dp-Icon {
   background-color: transparent;
 }
 
@@ -228,16 +241,16 @@
   background-color: var(--info-light);
 }
 
-.dp-Guides-list .dp-IconGroup {
+.dp-Guides-list .dp-Guide-actions {
   display: none;
 }
 
-.dp-Guides-list .dp-Guide:hover .dp-IconGroup {
+.dp-Guides-list .dp-Guide:hover .dp-Guide-actions {
   align-items: center;
   display: flex;
 }
 
-.dp-Guides-list .is-rolling .dp-TitleGroup .dp-Icon {
+.dp-Guides-list .is-rolling .dp-Guide-titleContainer .dp-Icon {
   background-color: var(--white);
 }
 
