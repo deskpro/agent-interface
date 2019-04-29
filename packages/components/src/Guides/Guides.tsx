@@ -22,8 +22,8 @@ const Guides: React.FC<GuidesProps> & GuidesSubComponents = ({
   kind = "guides",
   reorderable = false,
   items,
-  onSettingsClick,
-  onReorder
+  onSettingsClick
+  // onReorder
 }) => {
   const dragHandleProps = {
     role: "draghandle",
