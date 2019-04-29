@@ -38,14 +38,14 @@ const GuideItem: React.FC<GuideItemProps> = ({
       onMouseOut={() => setSettingsIconVisibility(false)}
       onBlur={() => setSettingsIconVisibility(false)}
     >
-      <span className="dp-TitleGroupe">
+      <span className="dp-Guide-titleGroup">
         {!!dragHandleProps && (
           <Icon name="drag" size={15} {...dragHandleProps} />
         )}
         {!!icon && <Icon name={icon} size={24} circle />}
-        {title}
+        <span className="dp-Guide-title">{title}</span>
       </span>
-      <span className="dp-IconGroup">
+      <span className="dp-Guide-actions">
         {isSettingsIconVisible && (
           <Icon name="settings" size={12} onClick={() => onSettingsClick(id)} />
         )}
