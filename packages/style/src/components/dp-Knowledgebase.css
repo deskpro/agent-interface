@@ -35,20 +35,20 @@
   fill: var(--white);
 }
 
-.dp-GuidesDirectory.dp-Knowledgebase .dp-TitleGroupe .dp-Icon {
+.dp-GuidesDirectory.dp-Knowledgebase .dp-TitleGroup .dp-Icon {
   background-size: 14px 11px;
   height: 15px;
   width: 15px;
 }
 
-.dp-GuidesDirectory.dp-Knowledgebase .dp-TitleGroupe .dp-CustomCheckbox + .dp-Icon {
+.dp-GuidesDirectory.dp-Knowledgebase .dp-TitleGroup .dp-CustomCheckbox + .dp-Icon {
   border-radius: 0;
   height: 13px;
   margin: 0 7px;
   width: 15px;
 }
 
-.dp-GuidesDirectory.dp-Knowledgebase .dp-TitleGroupe .dp-Icon + .dp-Icon {
+.dp-GuidesDirectory.dp-Knowledgebase .dp-TitleGroup .dp-Icon + .dp-Icon {
   margin: 0 7px 0 0;
 }
 
@@ -60,8 +60,8 @@
   border-right: 1px solid transparent;
 }
 
-.dp-GuidesDirectory.dp-Knowledgebase .dp-Card:hover .dp-TitleGroupe .dp-Icon,
-.dp-GuidesDirectory.dp-Knowledgebase .dp-TitleGroupe .dp-Icon {
+.dp-GuidesDirectory.dp-Knowledgebase .dp-Card:hover .dp-TitleGroup .dp-Icon,
+.dp-GuidesDirectory.dp-Knowledgebase .dp-TitleGroup .dp-Icon {
   background-color: transparent;
 }
 
@@ -253,7 +253,7 @@
   width: 22px;
 }
 
-.dp-GuidesDirectory.dp-Knowledgebase .dp-TitleGroupe .dp-Icon {
+.dp-GuidesDirectory.dp-Knowledgebase .dp-TitleGroup .dp-Icon {
   border-radius: 0;
 }
 

@@ -2134,7 +2134,7 @@ title: Sort and Re-order
 
 
         <li class="dp-Card Level-justify-between">
-            <span class="dp-TitleGroupe">
+            <span class="dp-TitleGroup">
                 <span class="dp-CustomCheckbox dp-EmptyCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="knowledgebase-1">
                     <label for="knowledgebase-1"></label>
@@ -2152,7 +2152,7 @@ title: Sort and Re-order
         </li>
 
         <li class="dp-Card Level-justify-between">
-            <span class="dp-TitleGroupe">
+            <span class="dp-TitleGroup">
                 <span class="dp-CustomCheckbox dp-EmptyCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="knowledgebase-2">
                     <label for="knowledgebase-2"></label>
@@ -2170,7 +2170,7 @@ title: Sort and Re-order
         </li>
 
         <li class="dp-Card Level-justify-between">
-            <span class="dp-TitleGroupe">
+            <span class="dp-TitleGroup">
                 <span class="dp-CustomCheckbox dp-EmptyCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="knowledgebase-3">
                     <label for="knowledgebase-3"></label>
@@ -2188,7 +2188,7 @@ title: Sort and Re-order
         </li>
 
         <li class="dp-Card Level-justify-between">
-            <span class="dp-TitleGroupe">
+            <span class="dp-TitleGroup">
                 <span class="dp-CustomCheckbox dp-EmptyCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="knowledgebase-4">
                     <label for="knowledgebase-4"></label>
@@ -2206,7 +2206,7 @@ title: Sort and Re-order
         </li>
 
         <li class="dp-Card Level-justify-between">
-            <span class="dp-TitleGroupe">
+            <span class="dp-TitleGroup">
                 <span class="dp-CustomCheckbox dp-EmptyCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="knowledgebase-5">
                     <label for="knowledgebase-5"></label>
@@ -2224,7 +2224,7 @@ title: Sort and Re-order
         </li>
 
         <li class="dp-Card Level-justify-between">
-            <span class="dp-TitleGroupe">
+            <span class="dp-TitleGroup">
                 <span class="dp-CustomCheckbox dp-EmptyCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="knowledgebase-6">
                     <label for="knowledgebase-6"></label>
@@ -2242,7 +2242,7 @@ title: Sort and Re-order
         </li>
 
         <li class="dp-Card Level-justify-between">
-            <span class="dp-TitleGroupe">
+            <span class="dp-TitleGroup">
                 <span class="dp-CustomCheckbox dp-EmptyCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="knowledgebase-7">
                     <label for="knowledgebase-7"></label>
@@ -4231,7 +4231,7 @@ title: Sort and Re-order
         </li>
 
         <li class="dp-Card Level-justify-between">
-            <span class="dp-TitleGroupe">
+            <span class="dp-TitleGroup">
                 <span class="dp-CustomCheckbox dp-EmptyCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="knowledgebase-2-1">
                     <label for="knowledgebase-2-1"></label>
@@ -4249,7 +4249,7 @@ title: Sort and Re-order
         </li>
 
         <li class="dp-Card Level-justify-between">
-            <span class="dp-TitleGroupe">
+            <span class="dp-TitleGroup">
                 <span class="dp-CustomCheckbox dp-EmptyCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="knowledgebase-2-2">
                     <label for="knowledgebase-2-2"></label>
@@ -4267,7 +4267,7 @@ title: Sort and Re-order
         </li>
 
         <li class="dp-Card Level-justify-between">
-            <span class="dp-TitleGroupe">
+            <span class="dp-TitleGroup">
                 <span class="dp-CustomCheckbox dp-EmptyCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="knowledgebase-2-3">
                     <label for="knowledgebase-2-3"></label>
@@ -4285,7 +4285,7 @@ title: Sort and Re-order
         </li>
 
         <li class="dp-Card Level-justify-between">
-            <span class="dp-TitleGroupe">
+            <span class="dp-TitleGroup">
                 <span class="dp-CustomCheckbox dp-EmptyCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="knowledgebase-2-4">
                     <label for="knowledgebase-2-4"></label>
@@ -4303,7 +4303,7 @@ title: Sort and Re-order
         </li>
 
         <li class="dp-Card Level-justify-between">
-            <span class="dp-TitleGroupe">
+            <span class="dp-TitleGroup">
                 <span class="dp-CustomCheckbox dp-EmptyCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="knowledgebase-2-5">
                     <label for="knowledgebase-2-5"></label>
@@ -4321,7 +4321,7 @@ title: Sort and Re-order
         </li>
 
         <li class="dp-Card Level-justify-between">
-            <span class="dp-TitleGroupe">
+            <span class="dp-TitleGroup">
                 <span class="dp-CustomCheckbox dp-EmptyCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="knowledgebase-2-6">
                     <label for="knowledgebase-2-6"></label>
@@ -4339,7 +4339,7 @@ title: Sort and Re-order
         </li>
 
         <li class="dp-Card Level-justify-between">
-            <span class="dp-TitleGroupe">
+            <span class="dp-TitleGroup">
                 <span class="dp-CustomCheckbox dp-EmptyCheckbox">
                     <input type="checkbox" class="dp-ControlInput" id="knowledgebase-2-7">
                     <label for="knowledgebase-2-7"></label>
@@ -8510,7 +8510,7 @@ title: Sort and Re-order
 
         <li class="dp-Card Level-justify-between">
 
-            <span class="dp-TitleGroupe">
+            <span class="dp-TitleGroup">
                 <span class="dp-Icon dp-Drag"></span>
                 <span class="dp-Icon Icon--folder"></span>
                 <span class="dp-Card-title">Installation & Upgrades <span class="dp-qt">(16)</span></span>
@@ -8524,7 +8524,7 @@ title: Sort and Re-order
         </li>
 
         <li class="dp-Card Level-justify-between">
-            <span class="dp-TitleGroupe">
+            <span class="dp-TitleGroup">
 
                 <span class="dp-Icon dp-Drag"></span>
                 <span class="dp-Icon Icon--folder"></span>
@@ -8539,7 +8539,7 @@ title: Sort and Re-order
         </li>
 
         <li class="dp-Card Level-justify-between">
-            <span class="dp-TitleGroupe">
+            <span class="dp-TitleGroup">
 
                 <span class="dp-Icon dp-Drag"></span>
                 <span class="dp-Icon Icon--folder"></span>
@@ -8554,7 +8554,7 @@ title: Sort and Re-order
         </li>
 
         <li class="dp-Card Level-justify-between is-reordering">
-            <span class="dp-TitleGroupe">
+            <span class="dp-TitleGroup">
 
                 <span class="dp-Icon dp-Drag"></span>
                 <span class="dp-Icon Icon--folder"></span>

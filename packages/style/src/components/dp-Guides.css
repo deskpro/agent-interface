@@ -32,6 +32,32 @@
   font-weight: 600;
   line-height: 16px;
   margin: 0;
+  margin-right: 15px;
+  position: relative;
+}
+
+.dp-Guides-breadcrumbs .dp-Breadcrumb-item:not(:last-child)::before {
+  background-color: var(--grey);
+  content: "";
+  display: block;
+  height: 5px;
+  position: absolute;
+  right: -8px;
+  top: calc(50% - 3px);
+  transform: rotate(-45deg);
+  width: 1px;
+}
+
+.dp-Guides-breadcrumbs .dp-Breadcrumb-item:not(:last-child)::after {
+  background-color: var(--grey);
+  bottom: calc(50% - 5px);
+  content: "";
+  display: block;
+  height: 5px;
+  position: absolute;
+  right: -8px;
+  transform: rotate(45deg);
+  width: 1px;
 }
 
 .dp-Breadcrumb-item > .dp-Icon {
@@ -48,37 +74,24 @@
   color: var(--brand-primary);
 }
 
-.dp-Guides-breadcrumbs .dp-Breadcrumbs--Arrow::before {
-  background-color: var(--grey);
-  content: "";
-  display: block;
-  height: 5px;
-  position: absolute;
-  right: 2px;
-  top: 0;
-  transform: rotate(-45deg);
-  width: 1px;
-}
-
-.dp-Guides-breadcrumbs .dp-Breadcrumbs--Arrow::after {
-  background-color: var(--grey);
-  bottom: 0;
-  content: "";
-  display: block;
-  height: 5px;
-  position: absolute;
-  right: 2px;
-  transform: rotate(45deg);
-  width: 1px;
-}
-
 .dp-GuideSections .dp-Card.is-dragging {
   border-left: 1px solid transparent;
   border-right: 1px solid transparent;
   box-shadow: none;
 }
 
-.dp-GuideSections .dp-Card.is-dragging .dp-Card-title {
+.dp-Guide-title {
+  color: var(--grey-darkest);
+  cursor: pointer;
+  font: var(--h-n-semibold);
+  max-width: max-content;
+  overflow: hidden;
+  position: relative;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.dp-GuideSections .dp-Card.is-dragging .dp-Guide-title {
   color: var(--brand-primary);
 }
 
@@ -159,7 +172,7 @@
   background-color: rgba(58, 141, 222, 0.07);
 }
 
-.dp-Guides-list .dp-Guide .dp-TitleGroupe {
+.dp-Guides-list .dp-Guide .dp-TitleGroup {
   align-items: center;
   display: flex;
 }
@@ -174,7 +187,7 @@
   margin: 0;
 }
 
-.dp-Guides-list .dp-TitleGroupe .dp-Icon {
+.dp-Guides-list .dp-TitleGroup .dp-Icon {
   background-color: var(--info-light);
   border-radius: 50%;
   height: 30px;
@@ -182,7 +195,7 @@
   width: 30px;
 }
 
-.dp-Guides-list .Guide--section .dp-TitleGroupe .dp-Icon {
+.dp-Guides-list .Guide--section .dp-TitleGroup .dp-Icon {
   background-color: transparent;
   border-radius: 0;
   height: 10px;
@@ -190,11 +203,11 @@
   width: 12px;
 }
 
-.dp-Guides-list .dp-Guide:hover .dp-TitleGroupe .dp-Icon {
+.dp-Guides-list .dp-Guide:hover .dp-TitleGroup .dp-Icon {
   background-color: var(--white);
 }
 
-.dp-Guides-list .dp-Guide.Guide--section:hover .dp-TitleGroupe .dp-Icon {
+.dp-Guides-list .dp-Guide.Guide--section:hover .dp-TitleGroup .dp-Icon {
   background-color: transparent;
 }
 
@@ -211,7 +224,7 @@
   display: flex;
 }
 
-.dp-Guides-list .is-rolling .dp-TitleGroupe .dp-Icon {
+.dp-Guides-list .is-rolling .dp-TitleGroup .dp-Icon {
   background-color: var(--white);
 }
 
