@@ -7,10 +7,23 @@ title: Guides
 ```html @preview
 <div class="demo-cog demo-menu">
 
+    <!-- breadcrumbs -->
     <ul class="dp-Guides-breadcrumbs">
-        <li class="dp-Breadcrumb-item"><span class="dp-Icon Icon--home"></span></li>
-        <li class="dp-Breadcrumb-item">Admin Guides</li>
-        <li class="dp-Breadcrumb-item is-current">Launching your helpdesk</li>
+        <li class="dp-Breadcrumb-item">
+            <a class="dp-Breadcrumb-link">
+                <span class="dp-Icon Icon--home"></span>
+            </a>
+        </li>
+        <li class="dp-Breadcrumb-item">
+            <a class="dp-Breadcrumb-link">
+                Admin Guides
+            </a>
+        </li>
+        <li class="dp-Breadcrumb-item is-current">
+            <a class="dp-Breadcrumb-link">
+                Launching your helpdesk
+            </a>
+        </li>
     </ul>
 
     <!-- OrderingBar -->
@@ -1722,8 +1735,10 @@ title: Guides
     <div class="dp-Guides-list is-hoverable">
         <div class="dp-Guide">
             <span class="dp-Guide-titleContainer">
-                <span class="dp-Icon Icon--user Icon--primary"></span>
-                Admin Guide
+                <a class="dp-Guide-title" href="">
+                    <span class="dp-Icon Icon--user Icon--primary"></span>
+                    Admin Guide
+                </a>
             </span>
 
             <!-- Icon rolling -->
@@ -1734,8 +1749,10 @@ title: Guides
         </div>
         <div class="dp-Guide">
             <span class="dp-Guide-titleContainer">
-                <span class="dp-Icon Icon--Agent Icon--primary"></span>
-                Agent Guide
+                <a class="dp-Guide-title" href="">
+                    <span class="dp-Icon Icon--Agent Icon--primary"></span>
+                    Agent Guide
+                </a>
             </span>
 
             <!-- Icon rolling -->
@@ -1746,8 +1763,10 @@ title: Guides
         </div>
         <div class="dp-Guide">
             <span class="dp-Guide-titleContainer">
-                <span class="dp-Icon Icon--Reports Icon--primary"></span>
-                Reports Guide
+                <a class="dp-Guide-title" href="">
+                    <span class="dp-Icon Icon--Reports Icon--primary"></span>
+                    Reports Guide
+                </a>
             </span>
 
             <!-- Icon rolling -->
@@ -1758,8 +1777,10 @@ title: Guides
         </div>
         <div class="dp-Guide Level-justify-between">
             <span class="dp-Guide-titleContainer">
-                <span class="dp-Icon Icon--Sysadmin Icon--primary"></span>
-                Sysadmin Guide
+                <a class="dp-Guide-title" href="">
+                    <span class="dp-Icon Icon--Sysadmin Icon--primary"></span>
+                    Sysadmin Guide
+                </a>
             </span>
 
             <!-- Icon rolling -->
@@ -1782,7 +1803,7 @@ title: Guides
         <div class="dp-Guide Guide--section">
             <span class="dp-Guide-titleContainer">
                 <span class="dp-Icon dp-drag"></span>
-                Introducing Deskpro
+                <a class="dp-Guide-title" href="">Introducing Deskpro</a>
             </span>
 
             <!-- Icon rolling -->
@@ -1795,7 +1816,7 @@ title: Guides
         <div class="dp-Guide Guide--section">
             <span class="dp-Guide-titleContainer">
                 <span class="dp-Icon dp-drag"></span>
-                Creating your helpdesk
+                <a class="dp-Guide-title" href="">Creating your helpdesk</a>
             </span>
 
             <!-- Icon rolling -->
@@ -1808,7 +1829,7 @@ title: Guides
         <div class="dp-Guide Guide--section">
             <span class="dp-Guide-titleContainer">
                 <span class="dp-Icon dp-drag"></span>
-                Launching your helpdesk
+                <a class="dp-Guide-title" href="">Launching your helpdesk</a>
             </span>
 
             <!-- Icon rolling -->
@@ -1821,7 +1842,7 @@ title: Guides
         <div class="dp-Guide Guide--section">
             <span class="dp-Guide-titleContainer">
                 <span class="dp-Icon dp-drag"></span>
-                Importing data
+                <a class="dp-Guide-title" href="">Importing data</a>
             </span>
 
             <!-- Icon rolling -->
@@ -1834,7 +1855,7 @@ title: Guides
         <div class="dp-Guide Guide--section">
             <span class="dp-Guide-titleContainer">
                 <span class="dp-Icon dp-drag"></span>
-                Agents
+                <a class="dp-Guide-title" href="">Agents</a>
             </span>
 
             <!-- Icon rolling -->
@@ -1847,7 +1868,7 @@ title: Guides
         <div class="dp-Guide Guide--section">
             <span class="dp-Guide-titleContainer">
                 <span class="dp-Icon dp-drag"></span>
-                Departments
+                <a class="dp-Guide-title" href="">Departments</a>
             </span>
 
             <!-- Icon rolling -->
@@ -1860,7 +1881,7 @@ title: Guides
         <div class="dp-Guide Guide--section">
             <span class="dp-Guide-titleContainer">
                 <span class="dp-Icon dp-drag"></span>
-                Email accounts
+                <a class="dp-Guide-title" href="">Email accounts</a>
             </span>
 
             <!-- Icon rolling -->
@@ -1873,7 +1894,7 @@ title: Guides
         <div class="dp-Guide Guide--section">
             <span class="dp-Guide-titleContainer">
                 <span class="dp-Icon dp-drag"></span>
-                Ticket fields
+                <a class="dp-Guide-title" href="">Ticket fields</a>
             </span>
 
             <!-- Icon rolling -->
@@ -1886,7 +1907,7 @@ title: Guides
         <div class="dp-Guide Guide--section">
             <span class="dp-Guide-titleContainer">
                 <span class="dp-Icon dp-drag"></span>
-                Automating the helpdesk
+                <a class="dp-Guide-title" href="">Automating the helpdesk</a>
             </span>
 
             <!-- Icon rolling -->
@@ -1899,7 +1920,7 @@ title: Guides
         <div class="dp-Guide Guide--section">
             <span class="dp-Guide-titleContainer">
                 <span class="dp-Icon dp-drag"></span>
-                CRM and usergroups
+                <a class="dp-Guide-title" href="">CRM and usergroups</a>
             </span>
 
             <!-- Icon rolling -->
@@ -1912,7 +1933,7 @@ title: Guides
         <div class="dp-Guide Guide--section">
             <span class="dp-Guide-titleContainer">
                 <span class="dp-Icon dp-drag"></span>
-                Portal
+                <a class="dp-Guide-title" href="">Portal</a>
             </span>
 
             <!-- Icon rolling -->
@@ -1925,7 +1946,7 @@ title: Guides
         <div class="dp-Guide Guide--section">
             <span class="dp-Guide-titleContainer">
                 <span class="dp-Icon dp-drag"></span>
-                Multibrand
+                <a class="dp-Guide-title" href="">Multibrand</a>
             </span>
 
             <!-- Icon rolling -->
@@ -1938,7 +1959,7 @@ title: Guides
         <div class="dp-Guide Guide--section">
             <span class="dp-Guide-titleContainer">
                 <span class="dp-Icon dp-drag"></span>
-                Creating your helpdesk
+                <a class="dp-Guide-title" href="">Creating your helpdesk</a>
             </span>
 
             <!-- Icon rolling -->
@@ -1951,7 +1972,7 @@ title: Guides
         <div class="dp-Guide Guide--section">
             <span class="dp-Guide-titleContainer">
                 <span class="dp-Icon dp-drag"></span>
-                <span class="dp-Guide-title">Editing templates</span>
+                <a class="dp-Guide-title" href="">Editing templates</a>
             </span>
 
             <!-- Icon rolling -->
@@ -1964,7 +1985,7 @@ title: Guides
         <div class="dp-Guide Guide--section">
             <span class="dp-Guide-titleContainer">
                 <span class="dp-Icon dp-drag"></span>
-                Localization
+                <a class="dp-Guide-title" href="">Localization</a>
             </span>
 
             <!-- Icon rolling -->
@@ -1977,7 +1998,7 @@ title: Guides
         <div class="dp-Guide Guide--section">
             <span class="dp-Guide-titleContainer">
                 <span class="dp-Icon dp-drag"></span>
-                Integration
+                <a class="dp-Guide-title" href="">Integration</a>
             </span>
 
             <!-- Icon rolling -->
@@ -1990,7 +2011,7 @@ title: Guides
         <div class="dp-Guide Guide--section">
             <span class="dp-Guide-titleContainer">
                 <span class="dp-Icon dp-drag"></span>
-                Labels
+                <a class="dp-Guide-title" href="">Labels</a>
             </span>
 
             <!-- Icon rolling -->
@@ -2003,7 +2024,7 @@ title: Guides
         <div class="dp-Guide Guide--section">
             <span class="dp-Guide-titleContainer">
                 <span class="dp-Icon dp-drag"></span>
-                Billing
+                <a class="dp-Guide-title" href="">Billing</a>
             </span>
 
             <!-- Icon rolling -->
