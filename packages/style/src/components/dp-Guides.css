@@ -104,20 +104,6 @@
   color: var(--brand-primary);
 }
 
-.dp-GuideSections .dp-Guide .dp-Guide-actions {
-  display: none;
-  max-height: 12px;
-}
-
-.dp-GuideSections .dp-Guide:hover .dp-Guide-actions {
-  align-items: center;
-  display: flex;
-}
-
-.dp-Guide .dp-Guide-actions:hover svg {
-  fill: var(--brand-primary);
-}
-
 .dp-Listpane-guides .dp-Cog:hover > .dp-Menu {
   display: block;
 }
@@ -166,11 +152,11 @@
 }
 
 .dp-Guides-list .dp-Guide {
+  align-items: center;
   background-color: var(--white);
   border-bottom: 1px solid var(--grey-light);
   color: var(--grey-darkest);
   cursor: pointer;
-  display: flex;
   display: flex;
   font: var(--p-xl);
   justify-content: space-between;
@@ -189,10 +175,6 @@
   background-size: 7px 9px;
   height: 15px;
   width: 7px;
-}
-
-.dp-Guides-list .dp-Guide-actions {
-  margin: 0;
 }
 
 .dp-Guides-list .dp-Guide-titleContainer .dp-Icon {
@@ -235,11 +217,17 @@
 
 .dp-Guides-list .dp-Guide-actions {
   display: none;
+  margin: 0;
+  max-height: 12px;
 }
 
 .dp-Guides-list .dp-Guide:hover .dp-Guide-actions {
   align-items: center;
   display: flex;
+}
+
+.dp-Guide .dp-Guide-actions:hover svg {
+  fill: var(--brand-primary);
 }
 
 .dp-Guides-list .is-rolling .dp-Guide-titleContainer .dp-Icon {
@@ -249,9 +237,9 @@
 .dp-Guides-list .dp-Guide-actions .dp-Icon {
   background-color: transparent;
   border: 0;
-  height: 13px;
   margin: 0;
-  width: 13px;
+  max-height: 12px;
+  max-width: 12px;
 }
 
 .dp-Guides-list .dp-Guide {
