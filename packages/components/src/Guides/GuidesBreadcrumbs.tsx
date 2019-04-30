@@ -1,40 +1,37 @@
 import * as React from "react";
 import classNames from "classnames";
+import { Link } from "react-router-dom";
 
 import { GuideType } from "./GuideItem";
 import Icon from "../elements/Icon/Icon";
 
 export type GuidesBreadcrumbsProps = {
   items: GuideType[];
-  alwaysShowHome?: boolean;
-  onItemClick: (itemId: React.Key) => void;
+  homeSlug?: string;
 };
 
 const GuidesBreadcrumbs: React.FC<GuidesBreadcrumbsProps> = ({
   items,
-  alwaysShowHome = false,
-  onItemClick
+  homeSlug
 }) => (
   <ul className="dp-Guides-breadcrumbs">
-    {(alwaysShowHome || items.length > 0) && (
+    {homeSlug && (
       <li className="dp-Breadcrumb-item">
-        <Icon name="home" size={12} onClick={() => onItemClick("home")} />
+        <Link to={homeSlug} className="dp-Breadcrumb-link">
+          <Icon name="home" size={12} />
+        </Link>
       </li>
     )}
-    {items.map(({ id, title }, idx) => (
+    {items.map(({ id, title, slug }, idx) => (
       <li className="dp-Breadcrumb-item" key={id}>
-        <button
-          type="button"
+        <Link
+          to={slug}
           className={classNames("dp-Breadcrumb-link", {
             "is-active": items.length - 1 === idx
           })}
-          onClick={e => {
-            e.preventDefault();
-            onItemClick(id);
-          }}
         >
           {title}
-        </button>
+        </Link>
       </li>
     ))}
   </ul>
