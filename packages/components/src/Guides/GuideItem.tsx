@@ -33,12 +33,10 @@ const GuideItem: React.FC<GuideItemProps> = ({
   return (
     <div
       className={classNames("dp-Guide", className)}
-      onMouseOver={() => setSettingsIconVisibility(true)}
-      onFocus={() => setSettingsIconVisibility(true)}
-      onMouseOut={() => setSettingsIconVisibility(false)}
-      onBlur={() => setSettingsIconVisibility(false)}
+      onMouseEnter={() => setSettingsIconVisibility(true)}
+      onMouseLeave={() => setSettingsIconVisibility(false)}
     >
-      <span className="dp-Guide-titleGroup">
+      <span className="dp-Guide-titleContainer">
         {!!dragHandleProps && (
           <Icon name="drag" size={15} {...dragHandleProps} />
         )}
