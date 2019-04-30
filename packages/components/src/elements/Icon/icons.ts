@@ -51,6 +51,7 @@ import { ReactComponent as Global } from "../../../icons/Global.svg";
 import { ReactComponent as GroupedBy } from "../../../icons/GroupedBy.svg";
 import { ReactComponent as History } from "../../../icons/History.svg";
 import { ReactComponent as Hold } from "../../../icons/Hold.svg";
+import { ReactComponent as Home } from "../../../icons/Home.svg";
 import { ReactComponent as Info } from "../../../icons/Info.svg";
 import { ReactComponent as Insert } from "../../../icons/Insert.svg";
 import { ReactComponent as InsertLink } from "../../../icons/InsertLink.svg";
@@ -163,6 +164,7 @@ export default {
   "grouped-by": GroupedBy,
   history: History,
   hold: Hold,
+  home: Home,
   info: Info,
   insert: Insert,
   "insert-link": InsertLink,

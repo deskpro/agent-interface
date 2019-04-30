@@ -69,6 +69,7 @@ storiesOf("Guides", module)
     <div style={{ width: 450 }}>
       <MemoryRouter>
         <Guides.Breadcrumbs
+          homeSlug="home"
           items={[
             { id: 2, title: "Agent Guide", slug: "agent-guide" },
             {
