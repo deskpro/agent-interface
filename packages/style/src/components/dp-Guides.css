@@ -106,7 +106,7 @@
   color: var(--brand-primary);
 }
 
-.dp-Listpane-guides .dp-Cog:hover > .dp-Menu {
+.dp-CardList.CardList--tree .dp-Cog:hover > .dp-Menu {
   display: block;
 }
 
@@ -116,22 +116,22 @@
   padding: 10px 0;
 }
 
-.dp-Listpane-guides .dp-Menu .dp-Menu-title {
+.dp-CardList.CardList--tree .dp-Menu .dp-Menu-title {
   background-color: transparent;
   color: var(--grey-darkest);
   padding-bottom: 0;
 }
 
-.dp-Listpane-guides .dp-Menu .dp-ButtonWrapper {
+.dp-CardList.CardList--tree .dp-Menu .dp-ButtonWrapper {
   padding: 8px 10px 0;
 }
 
-.dp-Listpane-guides .dp-Guide {
+.dp-CardList.CardList--tree .dp-Guide {
   border: 1px solid var(--grey-light);
   margin-top: -1px;
 }
 
-.dp-Listpane-guides .dp-IconJump {
+.dp-CardList.CardList--tree .dp-IconJump {
   display: none;
   height: 10px;
   left: -10px;
@@ -141,7 +141,7 @@
   z-index: 9;
 }
 
-.dp-Listpane-guides .dp-Guide:hover .dp-IconJump {
+.dp-CardList.CardList--tree .dp-Guide:hover .dp-IconJump {
   display: block;
 }
 
