@@ -7,7 +7,7 @@ export type CheckableCardProps = {
   className?: string;
   checkable?: boolean;
   checked?: boolean;
-  onCheck: (cardId: React.Key, e: React.MouseEvent<HTMLInputElement>) => void;
+  onCheck?: (cardId: React.Key, e: React.MouseEvent<HTMLInputElement>) => void;
 };
 
 const CardCheckbox: React.FC<CheckableCardProps> = ({
@@ -18,7 +18,7 @@ const CardCheckbox: React.FC<CheckableCardProps> = ({
   onCheck
 }) => {
   const handleCheck = React.useCallback(
-    (e: React.PointerEvent<HTMLInputElement>) => onCheck(cardId, e),
+    (e: React.PointerEvent<HTMLInputElement>) => onCheck && onCheck(cardId, e),
     [cardId, onCheck]
   );
 

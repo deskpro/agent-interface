@@ -38,11 +38,7 @@ exports[`<List /> should match its snapshot 1`] = `
                 for="1"
               />
             </span>
-            <span
-              class="dp-Card-title"
-            >
-              First item
-            </span>
+            First item
           </span>
         </div>
         <div
@@ -78,11 +74,7 @@ exports[`<List /> should match its snapshot 1`] = `
                 for="2"
               />
             </span>
-            <span
-              class="dp-Card-title"
-            >
-              Second Title
-            </span>
+            Second Title
           </span>
         </div>
         <div
