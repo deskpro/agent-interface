@@ -46,9 +46,7 @@ title: Settings Cog
                 </span>
                 
                 <span class="dp-LevelRight">
-                    <span class="dp-TimeStatus">
-                        <span class="dp-Tag Tag--small Tag--danger">Failed</span>
-                    </span>
+                    <span class="dp-Tag Tag--small Tag--danger">Failed</span>
                 </span>
             </span>
 
@@ -238,9 +236,7 @@ title: Settings Cog
                 </span>
                 
                 <span class="dp-LevelRight">
-                    <span class="dp-TimeStatus">
-                        <span class="dp-Tag Tag--small Tag--pink">3 hours</span>
-                    </span>
+                    <span class="dp-Tag Tag--small Tag--pink">3 hours</span>
                 </span>
             </span>
 
@@ -429,9 +425,7 @@ title: Settings Cog
                 </span>
                 
                 <span class="dp-LevelRight">
-                    <span class="dp-TimeStatus">
-                        <span>2 hr 16 min</span>
-                    </span>
+                    <span class="dp-TimeStatus">2 hr 16 min</span>
                 </span>
             </span>
 
@@ -622,9 +616,7 @@ title: Settings Cog
                 </span>
                 
                 <span class="dp-LevelRight">
-                    <span class="dp-TimeStatus">
-                        <span>57 mins</span>
-                    </span>
+                    <span class="dp-TimeStatus">57 mins</span>
                 </span>
             </span>
 
@@ -814,9 +806,7 @@ title: Settings Cog
                 </span>
                 
                 <span class="dp-LevelRight">
-                    <span class="dp-TimeStatus">
-                        <span class="dp-Tag Tag--small Tag--danger">2 hours</span>
-                    </span>
+                    <span class="dp-Tag Tag--small Tag--danger">2 hours</span>
                 </span>
             </span>
 
@@ -1001,9 +991,7 @@ title: Settings Cog
                 </span>
 
                 <span class="dp-LevelRight">
-                    <span class="dp-TimeStatus">
-                        <span class="dp-Tag Tag--small Tag--success">Published</span>
-                    </span>
+                    <span class="dp-Tag Tag--small Tag--success">Published</span>
                 </span>
             </span>
             <span class="dp-LevelItem Level-justify-between">
@@ -1053,9 +1041,7 @@ title: Settings Cog
                 </span>
 
                 <span class="dp-LevelRight">
-                    <span class="dp-TimeStatus">
-                        <span class="dp-Tag Tag--small Tag--success">Published</span>
-                    </span>
+                    <span class="dp-Tag Tag--small Tag--success">Published</span>
                 </span>
             </span>
             <span class="dp-LevelItem Level-justify-between">
@@ -1105,9 +1091,7 @@ title: Settings Cog
                 </span>
 
                 <span class="dp-LevelRight">
-                    <span class="dp-TimeStatus">
-                        <span class="dp-Tag Tag--small Tag--grey">Archived</span>
-                    </span>
+                    <span class="dp-Tag Tag--small Tag--grey">Archived</span>
                 </span>
             </span>
             <span class="dp-LevelItem Level-justify-between">

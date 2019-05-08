@@ -56,9 +56,7 @@ title: List View
                 </span>
                 
                 <span class="dp-LevelRight">
-                    <span class="dp-TimeStatus">
-                        <span class="dp-Tag Tag--small Tag--danger">Failed</span>
-                    </span>
+                    <span class="dp-Tag Tag--small Tag--danger">Failed</span>
                 </span>
             </span>
         </li>
@@ -89,9 +87,7 @@ title: List View
                     </span>
                 </span>
                 <span class="dp-LevelRight">
-                    <span class="dp-TimeStatus">
-                        <span class="dp-Tag Tag--small Tag--pink">3 hours</span>
-                    </span>
+                    <span class="dp-Tag Tag--small Tag--pink">3 hours</span>
                 </span>
 
             </span>
@@ -123,9 +119,7 @@ title: List View
                     </span>
                 </span>
                 <span class="dp-LevelRight">
-                    <span class="dp-TimeStatus">
-                        <span>2 hr 16 min</span>
-                    </span>
+                    <span class="dp-TimeStatus">2 hr 16 min</span>
                 </span>
 
             </span>
@@ -158,9 +152,7 @@ title: List View
                     </span>
                 </span>
                 <span class="dp-LevelRight">
-                    <span class="dp-TimeStatus">
-                        <span>57 mins</span>
-                    </span>
+                    <span class="dp-TimeStatus">57 mins</span>
                 </span>
             </span>
         </li>
@@ -191,9 +183,7 @@ title: List View
                     </span>
                 </span>
                 <span class="dp-LevelRight">
-                    <span class="dp-TimeStatus">
-                        <span class="dp-Tag Tag--small Tag--danger">2 hours</span>
-                    </span>
+                    <span class="dp-Tag Tag--small Tag--danger">2 hours</span>
                 </span>
             </span>
         </li>
@@ -225,9 +215,7 @@ title: List View
                     </span>
                 </span>
                 <span class="dp-LevelRight">
-                    <span class="dp-TimeStatus">
-                        <span>43 mins</span>
-                    </span>
+                    <span class="dp-TimeStatus">43 mins</span>
                 </span>
             </span>
         </li>
@@ -258,9 +246,7 @@ title: List View
                     </span>
                 </span>
                 <span class="dp-LevelRight">
-                    <span class="dp-TimeStatus">
-                        <span class="dp-Tag Tag--small Tag--danger">Failed</span>
-                    </span>
+                    <span class="dp-Tag Tag--small Tag--danger">Failed</span>
                 </span>
             </span>
         </li>
@@ -291,9 +277,7 @@ title: List View
                     </span>
                 </span>
                 <span class="dp-LevelRight">
-                    <span class="dp-TimeStatus">
-                        <span>43 mins</span>
-                    </span>
+                    <span class="dp-TimeStatus">43 mins</span>
                 </span>
             </span>
         </li>
@@ -332,9 +316,7 @@ title: List View
                     </span>
                 </span>
                 <span class="dp-LevelRight">
-                    <span class="dp-TimeStatus">
-                        <span>12 hr 43 min</span>
-                    </span>
+                    <span class="dp-TimeStatus">12 hr 43 min</span>
                 </span>
             </span>
         </li>
@@ -365,9 +347,7 @@ title: List View
                     </span>
                 </span>
                 <span class="dp-LevelRight">
-                    <span class="dp-TimeStatus">
-                        <span>4 weeks</span>
-                    </span>
+                    <span class="dp-TimeStatus">4 weeks</span>
                 </span>
             </span>
             <span class="dp-LevelItem dp-LevelLeft">
@@ -402,9 +382,7 @@ title: List View
                     </span>
                 </span>
                 <span class="dp-LevelRight">
-                    <span class="dp-TimeStatus">
-                        <span>12 hr 43 min</span>
-                    </span>
+                    <span class="dp-TimeStatus">12 hr 43 min</span>
                 </span>
             </span>
 
@@ -2447,9 +2425,7 @@ title: List View
                             </span>
                         </span>
                         <span class="dp-LevelRight">
-                            <span class="dp-TimeStatus">
-                                <span class="dp-Tag Tag--small Tag--danger">Failed</span>
-                            </span>
+                            <span class="dp-Tag Tag--small Tag--danger">Failed</span>
                         </span>
                     </span>
                 </li>
@@ -2479,9 +2455,7 @@ title: List View
                             </span>
                         </span>
                         <span class="dp-LevelRight">
-                            <span class="dp-TimeStatus">
-                                <span class="dp-Tag Tag--small Tag--pink">3 hours</span>
-                            </span>
+                            <span class="dp-Tag Tag--small Tag--pink">3 hours</span>
                         </span>
                     </span>
                 </li>
@@ -2511,9 +2485,7 @@ title: List View
                             </span>
                         </span>
                         <span class="dp-LevelRight">
-                            <span class="dp-TimeStatus">
-                                <span>2 hr 16 min</span>
-                            </span>
+                            <span class="dp-TimeStatus">2 hr 16 min</span>
                         </span>
                     </span>
                 </li>
@@ -2545,9 +2517,7 @@ title: List View
                             </span>
                         </span>
                         <span class="dp-LevelRight">
-                            <span class="dp-TimeStatus">
-                                <span>57 mins</span>
-                            </span>
+                            <span class="dp-TimeStatus">57 mins</span>
                         </span>
                     </span>
                 </li>
@@ -2578,9 +2548,7 @@ title: List View
                             </span>
                         </span>
                         <span class="dp-LevelRight">
-                            <span class="dp-TimeStatus">
-                                <span class="dp-Tag Tag--small Tag--danger">2 hours</span>
-                            </span>
+                            <span class="dp-Tag Tag--small Tag--danger">2 hours</span>
                         </span>
                     </span>
                 </li>
@@ -2612,9 +2580,7 @@ title: List View
                             </span>
                         </span>
                         <span class="dp-LevelRight">
-                            <span class="dp-TimeStatus">
-                                <span>43 mins</span>
-                            </span>
+                            <span class="dp-TimeStatus">43 mins</span>
                         </span>
                     </span>
                 </li>
@@ -2645,9 +2611,7 @@ title: List View
                             </span>
                         </span>
                         <span class="dp-LevelRight">
-                            <span class="dp-TimeStatus">
-                                <span class="dp-Tag Tag--small Tag--danger">Failed</span>
-                            </span>
+                            <span class="dp-Tag Tag--small Tag--danger">Failed</span>
                         </span>
                     </span>
                 </li>
@@ -2678,9 +2642,7 @@ title: List View
                             </span>
                         </span>
                         <span class="dp-LevelRight">
-                            <span class="dp-TimeStatus">
-                                <span>43 mins</span>
-                            </span>
+                            <span class="dp-TimeStatus">43 mins</span>
                         </span>
                     </span>
                 </li>
@@ -2883,9 +2845,7 @@ title: List View
                                         <span class="dp-Icon dp-iconUserAvatar"></span>
                                         <span class="dp-UserName">Kenneth James</span>
                                     </span>
-                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">
-                                        <span>23 mins ago</span>
-                                    </span>
+                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">23 mins ago</span>
                                 </span>
                                 <span class="dp-Level">
                                     <span class="dp-txt">
@@ -2899,9 +2859,7 @@ title: List View
                                         <span class="dp-Icon dp-iconUserAvatar"></span>
                                         <span class="dp-UserName">Victor Moses</span>
                                     </span>
-                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">
-                                        <span>12 mins ago</span>
-                                    </span>
+                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">12 mins ago</span>
                                 </span>
                                 <span class="dp-Level">
                                     <span class="dp-txt">
@@ -3087,9 +3045,7 @@ title: List View
                                         <span class="dp-Icon dp-iconUserAvatar"></span>
                                         <span class="dp-UserName">Kenneth James</span>
                                     </span>
-                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">
-                                        <span>23 mins ago</span>
-                                    </span>
+                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">23 mins ago</span>
                                 </span>
                                 <span class="dp-Level">
                                     <span class="dp-txt">
@@ -3103,9 +3059,7 @@ title: List View
                                         <span class="dp-Icon dp-iconUserAvatar"></span>
                                         <span class="dp-UserName">Victor Moses</span>
                                     </span>
-                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">
-                                        <span>12 mins ago</span>
-                                    </span>
+                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">12 mins ago</span>
                                 </span>
                                 <span class="dp-Level">
                                     <span class="dp-txt">
@@ -3292,9 +3246,7 @@ title: List View
                                         <span class="dp-Icon dp-iconUserAvatar"></span>
                                         <span class="dp-UserName">Kenneth James</span>
                                     </span>
-                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">
-                                        <span>23 mins ago</span>
-                                    </span>
+                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">23 mins ago</span>
                                 </span>
                                 <span class="dp-Level">
                                     <span class="dp-txt">
@@ -3308,9 +3260,7 @@ title: List View
                                         <span class="dp-Icon dp-iconUserAvatar"></span>
                                         <span class="dp-UserName">Victor Moses</span>
                                     </span>
-                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">
-                                        <span>12 mins ago</span>
-                                    </span>
+                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">12 mins ago</span>
                                 </span>
                                 <span class="dp-Level">
                                     <span class="dp-txt">
@@ -3509,9 +3459,7 @@ title: List View
                                         <span class="dp-Icon dp-iconUserAvatar"></span>
                                         <span class="dp-UserName">Kenneth James</span>
                                     </span>
-                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">
-                                        <span>23 mins ago</span>
-                                    </span>
+                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">23 mins ago</span>
                                 </span>
                                 <span class="dp-Level">
                                     <span class="dp-txt">
@@ -3525,9 +3473,7 @@ title: List View
                                         <span class="dp-Icon dp-iconUserAvatar"></span>
                                         <span class="dp-UserName">Victor Moses</span>
                                     </span>
-                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">
-                                        <span>12 mins ago</span>
-                                    </span>
+                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">12 mins ago</span>
                                 </span>
                                 <span class="dp-Level">
                                     <span class="dp-txt">
@@ -3723,9 +3669,7 @@ title: List View
                                         <span class="dp-Icon dp-iconUserAvatar"></span>
                                         <span class="dp-UserName">Kenneth James</span>
                                     </span>
-                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">
-                                        <span>23 mins ago</span>
-                                    </span>
+                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">23 mins ago</span>
                                 </span>
                                 <span class="dp-Level">
                                     <span class="dp-txt">
@@ -3739,9 +3683,7 @@ title: List View
                                         <span class="dp-Icon dp-iconUserAvatar"></span>
                                         <span class="dp-UserName">Victor Moses</span>
                                     </span>
-                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">
-                                        <span>12 mins ago</span>
-                                    </span>
+                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">12 mins ago</span>
                                 </span>
                                 <span class="dp-Level">
                                     <span class="dp-txt">
@@ -4117,9 +4059,7 @@ title: List View
                                         <span class="dp-Icon dp-iconUserAvatar"></span>
                                         <span class="dp-UserName">Kenneth James</span>
                                     </span>
-                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">
-                                        <span>23 mins ago</span>
-                                    </span>
+                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">23 mins ago</span>
                                 </span>
                                 <span class="dp-Level">
                                     <span class="dp-txt">
@@ -4133,9 +4073,7 @@ title: List View
                                         <span class="dp-Icon dp-iconUserAvatar"></span>
                                         <span class="dp-UserName">Victor Moses</span>
                                     </span>
-                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">
-                                        <span>12 mins ago</span>
-                                    </span>
+                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">12 mins ago</span>
                                 </span>
                                 <span class="dp-Level">
                                     <span class="dp-txt">
@@ -4336,9 +4274,7 @@ title: List View
                                     <span class="dp-Icon dp-iconUserAvatar"></span>
                                     <span class="dp-UserName">Kenneth James</span>
                                 </span>
-                                <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">
-                                    <span>23 mins ago</span>
-                                </span>
+                                <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">23 mins ago</span>
                             </span>
                             <span class="dp-Level">
                                 <span class="dp-txt">
@@ -4352,9 +4288,7 @@ title: List View
                                     <span class="dp-Icon dp-iconUserAvatar"></span>
                                     <span class="dp-UserName">Victor Moses</span>
                                 </span>
-                                <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">
-                                    <span>12 mins ago</span>
-                                </span>
+                                <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">12 mins ago</span>
                             </span>
                             <span class="dp-Level">
                                 <span class="dp-txt">
@@ -6275,9 +6209,7 @@ title: List View
                                         <span class="dp-Icon dp-iconUserAvatar"></span>
                                         <span class="dp-UserName">Kenneth James</span>
                                     </span>
-                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">
-                                        <span>23 mins ago</span>
-                                    </span>
+                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">23 mins ago</span>
                                 </span>
                                 <span class="dp-Level">
                                     <span class="dp-txt">
@@ -6291,9 +6223,7 @@ title: List View
                                         <span class="dp-Icon dp-iconUserAvatar"></span>
                                         <span class="dp-UserName">Victor Moses</span>
                                     </span>
-                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">
-                                        <span>12 mins ago</span>
-                                    </span>
+                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">12 mins ago</span>
                                 </span>
                                 <span class="dp-Level">
                                     <span class="dp-txt">
@@ -6477,9 +6407,7 @@ title: List View
                                         <span class="dp-Icon dp-iconUserAvatar"></span>
                                         <span class="dp-UserName">Kenneth James</span>
                                     </span>
-                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">
-                                        <span>23 mins ago</span>
-                                    </span>
+                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">23 mins ago</span>
                                 </span>
                                 <span class="dp-Level">
                                     <span class="dp-txt">
@@ -6493,9 +6421,7 @@ title: List View
                                         <span class="dp-Icon dp-iconUserAvatar"></span>
                                         <span class="dp-UserName">Victor Moses</span>
                                     </span>
-                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">
-                                        <span>12 mins ago</span>
-                                    </span>
+                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">12 mins ago</span>
                                 </span>
                                 <span class="dp-Level">
                                     <span class="dp-txt">
@@ -6679,9 +6605,7 @@ title: List View
                                         <span class="dp-Icon dp-iconUserAvatar"></span>
                                         <span class="dp-UserName">Kenneth James</span>
                                     </span>
-                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">
-                                        <span>23 mins ago</span>
-                                    </span>
+                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">23 mins ago</span>
                                 </span>
                                 <span class="dp-Level">
                                     <span class="dp-txt">
@@ -6695,9 +6619,7 @@ title: List View
                                         <span class="dp-Icon dp-iconUserAvatar"></span>
                                         <span class="dp-UserName">Victor Moses</span>
                                     </span>
-                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">
-                                        <span>12 mins ago</span>
-                                    </span>
+                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">12 mins ago</span>
                                 </span>
                                 <span class="dp-Level">
                                     <span class="dp-txt">
@@ -6881,9 +6803,7 @@ title: List View
                                         <span class="dp-Icon dp-iconUserAvatar"></span>
                                         <span class="dp-UserName">Kenneth James</span>
                                     </span>
-                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">
-                                        <span>23 mins ago</span>
-                                    </span>
+                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">23 mins ago</span>
                                 </span>
                                 <span class="dp-Level">
                                     <span class="dp-txt">
@@ -6897,9 +6817,7 @@ title: List View
                                         <span class="dp-Icon dp-iconUserAvatar"></span>
                                         <span class="dp-UserName">Victor Moses</span>
                                     </span>
-                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">
-                                        <span>12 mins ago</span>
-                                    </span>
+                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">12 mins ago</span>
                                 </span>
                                 <span class="dp-Level">
                                     <span class="dp-txt">
@@ -7083,9 +7001,7 @@ title: List View
                                         <span class="dp-Icon dp-iconUserAvatar"></span>
                                         <span class="dp-UserName">Kenneth James</span>
                                     </span>
-                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">
-                                        <span>23 mins ago</span>
-                                    </span>
+                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">23 mins ago</span>
                                 </span>
                                 <span class="dp-Level">
                                     <span class="dp-txt">
@@ -7099,9 +7015,7 @@ title: List View
                                         <span class="dp-Icon dp-iconUserAvatar"></span>
                                         <span class="dp-UserName">Victor Moses</span>
                                     </span>
-                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">
-                                        <span>12 mins ago</span>
-                                    </span>
+                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">12 mins ago</span>
                                 </span>
                                 <span class="dp-Level">
                                     <span class="dp-txt">
@@ -7182,9 +7096,7 @@ title: List View
                                         <span class="dp-Icon dp-iconUserAvatar"></span>
                                         <span class="dp-UserName">Kenneth James</span>
                                     </span>
-                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">
-                                        <span>23 mins ago</span>
-                                    </span>
+                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">23 mins ago</span>
                                 </span>
                                 <span class="dp-Level">
                                     <span class="dp-txt">
@@ -7198,9 +7110,7 @@ title: List View
                                         <span class="dp-Icon dp-iconUserAvatar"></span>
                                         <span class="dp-UserName">Victor Moses</span>
                                     </span>
-                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">
-                                        <span>12 mins ago</span>
-                                    </span>
+                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">12 mins ago</span>
                                 </span>
                                 <span class="dp-Level">
                                     <span class="dp-txt">
@@ -7398,9 +7308,7 @@ title: List View
                                         <span class="dp-Icon dp-iconUserAvatar"></span>
                                         <span class="dp-UserName">Kenneth James</span>
                                     </span>
-                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">
-                                        <span>23 mins ago</span>
-                                    </span>
+                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">23 mins ago</span>
                                 </span>
                                 <span class="dp-Level">
                                     <span class="dp-txt">
@@ -7414,9 +7322,7 @@ title: List View
                                         <span class="dp-Icon dp-iconUserAvatar"></span>
                                         <span class="dp-UserName">Victor Moses</span>
                                     </span>
-                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">
-                                        <span>12 mins ago</span>
-                                    </span>
+                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">12 mins ago</span>
                                 </span>
                                 <span class="dp-Level">
                                     <span class="dp-txt">
@@ -7600,9 +7506,7 @@ title: List View
                                         <span class="dp-Icon dp-iconUserAvatar"></span>
                                         <span class="dp-UserName">Kenneth James</span>
                                     </span>
-                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">
-                                        <span>23 mins ago</span>
-                                    </span>
+                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">23 mins ago</span>
                                 </span>
                                 <span class="dp-Level">
                                     <span class="dp-txt">
@@ -7616,9 +7520,7 @@ title: List View
                                         <span class="dp-Icon dp-iconUserAvatar"></span>
                                         <span class="dp-UserName">Victor Moses</span>
                                     </span>
-                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">
-                                        <span>12 mins ago</span>
-                                    </span>
+                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">12 mins ago</span>
                                 </span>
                                 <span class="dp-Level">
                                     <span class="dp-txt">
@@ -7802,9 +7704,7 @@ title: List View
                                         <span class="dp-Icon dp-iconUserAvatar"></span>
                                         <span class="dp-UserName">Kenneth James</span>
                                     </span>
-                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">
-                                        <span>23 mins ago</span>
-                                    </span>
+                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">23 mins ago</span>
                                 </span>
                                 <span class="dp-Level">
                                     <span class="dp-txt">
@@ -7818,9 +7718,7 @@ title: List View
                                         <span class="dp-Icon dp-iconUserAvatar"></span>
                                         <span class="dp-UserName">Victor Moses</span>
                                     </span>
-                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">
-                                        <span>12 mins ago</span>
-                                    </span>
+                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">12 mins ago</span>
                                 </span>
                                 <span class="dp-Level">
                                     <span class="dp-txt">
@@ -8004,9 +7902,7 @@ title: List View
                                         <span class="dp-Icon dp-iconUserAvatar"></span>
                                         <span class="dp-UserName">Kenneth James</span>
                                     </span>
-                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">
-                                        <span>23 mins ago</span>
-                                    </span>
+                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">23 mins ago</span>
                                 </span>
                                 <span class="dp-Level">
                                     <span class="dp-txt">
@@ -8020,9 +7916,7 @@ title: List View
                                         <span class="dp-Icon dp-iconUserAvatar"></span>
                                         <span class="dp-UserName">Victor Moses</span>
                                     </span>
-                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">
-                                        <span>12 mins ago</span>
-                                    </span>
+                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">12 mins ago</span>
                                 </span>
                                 <span class="dp-Level">
                                     <span class="dp-txt">
@@ -10072,9 +9966,7 @@ title: List View
                                         <span class="dp-Icon dp-iconUserAvatar"></span>
                                         <span class="dp-UserName">Kenneth James</span>
                                     </span>
-                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">
-                                        <span>23 mins ago</span>
-                                    </span>
+                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">23 mins ago</span>
                                 </span>
                                 <span class="dp-Level">
                                     <span class="dp-txt">
@@ -10088,9 +9980,7 @@ title: List View
                                         <span class="dp-Icon dp-iconUserAvatar"></span>
                                         <span class="dp-UserName">Victor Moses</span>
                                     </span>
-                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">
-                                        <span>12 mins ago</span>
-                                    </span>
+                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">12 mins ago</span>
                                 </span>
                                 <span class="dp-Level">
                                     <span class="dp-txt">
@@ -10274,9 +10164,7 @@ title: List View
                                         <span class="dp-Icon dp-iconUserAvatar"></span>
                                         <span class="dp-UserName">Kenneth James</span>
                                     </span>
-                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">
-                                        <span>23 mins ago</span>
-                                    </span>
+                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">23 mins ago</span>
                                 </span>
                                 <span class="dp-Level">
                                     <span class="dp-txt">
@@ -10290,9 +10178,7 @@ title: List View
                                         <span class="dp-Icon dp-iconUserAvatar"></span>
                                         <span class="dp-UserName">Victor Moses</span>
                                     </span>
-                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">
-                                        <span>12 mins ago</span>
-                                    </span>
+                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">12 mins ago</span>
                                 </span>
                                 <span class="dp-Level">
                                     <span class="dp-txt">
@@ -10476,9 +10362,7 @@ title: List View
                                         <span class="dp-Icon dp-iconUserAvatar"></span>
                                         <span class="dp-UserName">Kenneth James</span>
                                     </span>
-                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">
-                                        <span>23 mins ago</span>
-                                    </span>
+                                    <span class="dp-TimeStatus dp-LevelRight dp-LevelTop">23 mins ago</span>
                                 </span>
                                 <span class="dp-Level">
                                     <span class="dp-txt">
@@ -10876,9 +10760,7 @@ title: List View
                 </span>
                 
                 <span class="dp-LevelRight">
-                    <span class="dp-TimeStatus">
-                        <span class="dp-Tag Tag--small Tag--danger">Failed</span>
-                    </span>
+                    <span class="dp-Tag Tag--small Tag--danger">Failed</span>
                 </span>
             </span>
         </li>

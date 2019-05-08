@@ -359,25 +359,19 @@ title: PageSidebar
 
                     <div class="dp-SectionBody">
                         <div class="dp-TagItem">
-                            <span class="dp-TimeStatus">
-                                <span class="dp-Tag Tag--small Tag--pink">27/24 hrs</span>
-                            </span>
+                            <span class="dp-Tag Tag--small Tag--pink">27/24 hrs</span>
                             <span class="dp-TagDescription">Time until first respon...</span>
                         </div>
                         <div class="dp-TagItem">
-                            <span class="dp-TimeStatus">
-                                <span class="dp-Tag Tag--small Tag--success">14/72 hrs</span>
-                            </span>
+                            <span class="dp-Tag Tag--small Tag--success">14/72 hrs</span>
                             <span class="dp-TagDescription">Resolution</span>
                         </div>
                         <div class="dp-TagItem">
-                            <span class="dp-TimeStatus">
-                                <span class="dp-Tag Tag--small Tag--warning">x3</span>
-                            </span>
+                            <span class="dp-Tag Tag--small Tag--warning">x3</span>
                             <span class="dp-TagDescription">Time awaiting reply</span>
                         </div>
                         <div class="dp-TagItem">
-                            <span class="dp-TimeStatus dp-StatusGroup">
+                            <span class="dp-StatusGroup">
                                 <span class="dp-Tag Tag--small Tag--success">1</span>
                                 <span class="dp-Tag Tag--small Tag--warning">3</span>
                                 <span class="dp-Tag Tag--small Tag--pink">1</span>
@@ -669,15 +663,11 @@ title: PageSidebar
 
                     <div class="dp-SectionBody">
                         <div class="dp-TagItem">
-                            <span class="dp-TimeStatus">
-                                <span class="dp-Tag Tag--small Tag--pink">3 hours</span>
-                            </span>
+                            <span class="dp-Tag Tag--small Tag--pink">3 hours</span>
                             <span class="dp-TagDescription">Time until resolution</span>
                         </div>
                         <div class="dp-TagItem">
-                            <span class="dp-TimeStatus">
-                                <span class="dp-Tag Tag--small Tag--warning">10.5 hours</span>
-                            </span>
+                            <span class="dp-Tag Tag--small Tag--warning">10.5 hours</span>
                             <span class="dp-TagDescription">Time awaiting reply</span>
                         </div>
                     </div>
@@ -1002,15 +992,11 @@ title: PageSidebar
 
                     <div class="dp-SectionBody">
                         <div class="dp-TagItem">
-                            <span class="dp-TimeStatus">
-                                <span class="dp-Tag Tag--small Tag--pink">3 hours</span>
-                            </span>
+                            <span class="dp-Tag Tag--small Tag--pink">3 hours</span>
                             <span class="dp-TagDescription">Time until resolution</span>
                         </div>
                         <div class="dp-TagItem">
-                            <span class="dp-TimeStatus">
-                                <span class="dp-Tag Tag--small Tag--warning">10.5 hours</span>
-                            </span>
+                            <span class="dp-Tag Tag--small Tag--warning">10.5 hours</span>
                             <span class="dp-TagDescription">Time awaiting reply</span>
                         </div>
                     </div>
@@ -1287,15 +1273,11 @@ title: PageSidebar
 
                     <div class="dp-SectionBody">
                         <div class="dp-TagItem">
-                            <span class="dp-TimeStatus">
-                                <span class="dp-Tag Tag--small Tag--pink">3 hours</span>
-                            </span>
+                            <span class="dp-Tag Tag--small Tag--pink">3 hours</span>
                             <span class="dp-TagDescription">Time until resolution</span>
                         </div>
                         <div class="dp-TagItem">
-                            <span class="dp-TimeStatus">
-                                <span class="dp-Tag Tag--small Tag--warning">10.5 hours</span>
-                            </span>
+                            <span class="dp-Tag Tag--small Tag--warning">10.5 hours</span>
                             <span class="dp-TagDescription">Time awaiting reply</span>
                         </div>
                     </div>
@@ -1306,25 +1288,19 @@ title: PageSidebar
 
                     <div class="dp-SectionBody">
                         <div class="dp-TagItem">
-                            <span class="dp-TimeStatus">
-                                <span class="dp-Tag Tag--small Tag--pink">27/24 hrs</span>
-                            </span>
+                            <span class="dp-Tag Tag--small Tag--pink">27/24 hrs</span>
                             <span class="dp-TagDescription">Time until first respon...</span>
                         </div>
                         <div class="dp-TagItem">
-                            <span class="dp-TimeStatus">
-                                <span class="dp-Tag Tag--small Tag--success">14/72 hrs</span>
-                            </span>
+                            <span class="dp-Tag Tag--small Tag--success">14/72 hrs</span>
                             <span class="dp-TagDescription">Resolution</span>
                         </div>
                         <div class="dp-TagItem">
-                            <span class="dp-TimeStatus">
-                                <span class="dp-Tag Tag--small Tag--warning">x3</span>
-                            </span>
+                            <span class="dp-Tag Tag--small Tag--warning">x3</span>
                             <span class="dp-TagDescription">Time awaiting reply</span>
                         </div>
                         <div class="dp-TagItem">
-                            <span class="dp-TimeStatus dp-StatusGroup">
+                            <span class="dp-StatusGroup">
                                 <span class="dp-Tag Tag--small Tag--success">1</span>
                                 <span class="dp-Tag Tag--small Tag--warning">3</span>
                                 <span class="dp-Tag Tag--small Tag--pink">1</span>

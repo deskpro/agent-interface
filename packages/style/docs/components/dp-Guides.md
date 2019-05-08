@@ -2498,7 +2498,6 @@ title: Guides
                     <span class="dp-LevelItem Level-justify-between">
                         <span class="dp-LevelLeft dp-LevelTop">
                             <span class="dp-LevelCol dp-LevelTop">
-                                <!-- <span class="dp-Icon dp-sub_field"></span> -->
                                 <span class="dp-Icon dp-drag"></span>
                             </span>
                             <span class="dp-Card-title">Card title here</span>
@@ -2512,9 +2511,7 @@ title: Guides
                             </span>
                         </span>
                         <span class="dp-LevelRight">
-                            <span class="dp-TimeStatus">
-                                <span class="dp-Tag Tag--small Tag--grey">Draft</span>
-                            </span>
+                            <span class="dp-Tag Tag--small Tag--grey">Draft</span>
                         </span>
                     </span>
 
@@ -3255,7 +3252,6 @@ title: Guides
                     <span class="dp-LevelItem Level-justify-between">
                         <span class="dp-LevelLeft dp-LevelTop">
                             <span class="dp-LevelTop">
-                                <!-- <span class="dp-Icon dp-sub_field"></span> -->
                                 <span class="dp-Icon dp-drag"></span>
                             </span>
                             <span class="dp-Card-title">Card title here</span>
@@ -3270,9 +3266,7 @@ title: Guides
                             </span>
                         </span>
                         <span class="dp-LevelRight">
-                            <span class="dp-TimeStatus">
-                                <span class="dp-Tag Tag--small Tag--grey">Draft</span>
-                            </span>
+                            <span class="dp-Tag Tag--small Tag--grey">Draft</span>
                         </span>
                     </span>
 
@@ -3424,9 +3418,7 @@ title: Guides
                             </span>
                         </span>
                         <span class="dp-LevelRight">
-                            <span class="dp-TimeStatus">
-                                <span class="dp-Tag Tag--small Tag--grey">Draft</span>
-                            </span>
+                            <span class="dp-Tag Tag--small Tag--grey">Draft</span>
                         </span>
                     </span>
 
@@ -4028,9 +4020,7 @@ title: Guides
                         </span>
                     </span>
                     <span class="dp-LevelRight">
-                        <span class="dp-TimeStatus">
-                            <span class="dp-Tag Tag--small Tag--grey">Draft</span>
-                        </span>
+                        <span class="dp-Tag Tag--small Tag--grey">Draft</span>
                     </span>
                 </span>
 
@@ -4181,9 +4171,7 @@ title: Guides
                         </span>
                     </span>
                     <span class="dp-LevelRight">
-                        <span class="dp-TimeStatus">
-                            <span class="dp-Tag Tag--small Tag--grey">Draft</span>
-                        </span>
+                        <span class="dp-Tag Tag--small Tag--grey">Draft</span>
                     </span>
                 </span>
 
@@ -4782,9 +4770,7 @@ title: Guides
                         </span>
                     </span>
                     <span class="dp-LevelRight">
-                        <span class="dp-TimeStatus">
-                            <span class="dp-Tag Tag--small Tag--grey">Draft</span>
-                        </span>
+                        <span class="dp-Tag Tag--small Tag--grey">Draft</span>
                     </span>
                 </span>
 
@@ -4935,9 +4921,7 @@ title: Guides
                         </span>
                     </span>
                     <span class="dp-LevelRight">
-                        <span class="dp-TimeStatus">
-                            <span class="dp-Tag Tag--small Tag--grey">Draft</span>
-                        </span>
+                        <span class="dp-Tag Tag--small Tag--grey">Draft</span>
                     </span>
                 </span>
 

@@ -233,10 +233,6 @@
   width: 100%;
 }
 
-.dp-CardList.CardList--tree .dp-Card.is-active + .CardList--subLevel {
-  display: block;
-}
-
 .dp-Card.is-active .Icon--down-caret {
   transform: rotate(-180deg);
 }
@@ -356,8 +352,9 @@
   font: var(--p-n);
 }
 
-.dp-TimeStatus .dp-Tag {
+.dp-Card .dp-Tag {
   display: inline-block;
+  font: var(--p-n);
   min-width: 63px;
   text-align: center;
   vertical-align: middle;

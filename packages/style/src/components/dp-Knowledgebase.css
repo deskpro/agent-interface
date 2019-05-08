@@ -35,6 +35,19 @@
   fill: var(--white);
 }
 
+.dp-Filters + .dp-TicketMenu {
+  display: none;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.dp-Filters + .dp-TicketMenu.is-active {
+  display: flex;
+}
+
+/* .dp-GuidesDirectory.dp-Knowledgebase .dp-TitleGroup .dp-Icon { */
+
 .dp-GuidesDirectory.dp-Knowledgebase .dp-TitleGroup .dp-Icon {
   background-size: 14px 11px;
   height: 15px;

@@ -412,20 +412,18 @@
   margin-bottom: 0;
 }
 
-.dp-PageSidebar .dp-TimeStatus {
-  display: flex;
+.dp-PageSidebar  .dp-Slas .dp-Tag {
   margin-right: 8px;
 }
 
 .dp-PageSidebar .dp-StatusGroup {
   display: flex;
+  margin-right: 8px;
   max-width: 63px;
-  width: 100%;
 }
 
 .dp-PageSidebar .dp-StatusGroup .dp-Tag {
   border-radius: 0;
-  flex: 1 0 33%;
   margin: 0;
   min-width: auto;
 }

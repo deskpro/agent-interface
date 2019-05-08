@@ -94,6 +94,10 @@
   padding: 0;
 }
 
+.dp-ViewModes li + li {
+  margin-top: 0;
+}
+
 .dp-ViewModes li:not(:last-child) {
   margin-right: 30px;
   position: relative;

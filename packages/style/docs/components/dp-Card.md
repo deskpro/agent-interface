@@ -30,9 +30,7 @@ title: Card
                         </span>
                     </span>
                     <span class="dp-LevelRight">
-                        <span class="dp-TimeStatus">
-                            <span class="dp-Tag Tag--small Tag--danger">Failed</span>
-                        </span>
+                        <span class="dp-Tag Tag--small Tag--danger">Failed</span>
                     </span>
                 </span>
             </li>
@@ -67,9 +65,7 @@ title: Card
                         </span>
                     </span>
                     <span class="dp-LevelRight">
-                        <span class="dp-TimeStatus">
-                            <span class="dp-Tag Tag--small Tag--danger">Failed</span>
-                        </span>
+                        <span class="dp-Tag Tag--small Tag--danger">Failed</span>
                     </span>
                 </span>
             </li>
@@ -104,9 +100,7 @@ title: Card
                         </span>
                     </span>
                     <span class="dp-LevelRight">
-                        <span class="dp-TimeStatus">
-                            <span class="dp-Tag Tag--small Tag--danger">Failed</span>
-                        </span>
+                        <span class="dp-Tag Tag--small Tag--danger">Failed</span>
                     </span>
                 </span>
             </li>
@@ -141,9 +135,7 @@ title: Card
                         </span>
                     </span>
                     <span class="dp-LevelRight">
-                        <span class="dp-TimeStatus">
-                            <span class="dp-Tag Tag--small Tag--danger">Failed</span>
-                        </span>
+                        <span class="dp-Tag Tag--small Tag--danger">Failed</span>
                     </span>
                 </span>
             </li>
@@ -178,9 +170,7 @@ title: Card
                         </span>
                     </span>
                     <span class="dp-LevelRight">
-                        <span class="dp-TimeStatus">
-                            <span class="dp-Tag Tag--small Tag--danger">Failed</span>
-                        </span>
+                        <span class="dp-Tag Tag--small Tag--danger">Failed</span>
                     </span>
                 </span>
             </li>
@@ -215,9 +205,7 @@ title: Card
                         </span>
                     </span>
                     <span class="dp-LevelRight">
-                        <span class="dp-TimeStatus">
-                            <span class="dp-Tag Tag--small Tag--danger">Failed</span>
-                        </span>
+                        <span class="dp-Tag Tag--small Tag--danger">Failed</span>
                     </span>
                 </span>
             </li>
@@ -253,9 +241,7 @@ title: Card
                         </span>
                     </span>
                     <span class="dp-LevelRight">
-                        <span class="dp-TimeStatus">
-                            <span class="dp-Tag Tag--small Tag--danger">Failed</span>
-                        </span>
+                        <span class="dp-Tag Tag--small Tag--danger">Failed</span>
                     </span>
                 </span>
             </li>
@@ -293,9 +279,7 @@ title: Card
                         </span>
                     </span>
                     <span class="dp-LevelRight">
-                        <span class="dp-TimeStatus">
-                            <span class="dp-Tag Tag--small Tag--danger">Failed</span>
-                        </span>
+                        <span class="dp-Tag Tag--small Tag--danger">Failed</span>
                     </span>
                 </span>
                 
@@ -331,9 +315,7 @@ title: Card
                         </span>
                     </span>
                     <span class="dp-LevelRight">
-                        <span class="dp-TimeStatus">
-                            <span class="dp-Tag Tag--small Tag--danger">Failed</span>
-                        </span>
+                        <span class="dp-Tag Tag--small Tag--danger">Failed</span>
                     </span>
                 </span>
                 
@@ -369,9 +351,7 @@ title: Card
                         </span>
                     </span>
                     <span class="dp-LevelRight">
-                        <span class="dp-TimeStatus">
-                            <span class="dp-Tag Tag--small Tag--danger">Failed</span>
-                        </span>
+                        <span class="dp-Tag Tag--small Tag--danger">Failed</span>
                     </span>
                 </span>
                 
@@ -407,9 +387,7 @@ title: Card
                         </span>
                     </span>
                     <span class="dp-LevelRight">
-                        <span class="dp-TimeStatus">
-                            <span class="dp-Tag Tag--small Tag--danger">Failed</span>
-                        </span>
+                        <span class="dp-Tag Tag--small Tag--danger">Failed</span>
                     </span>
                 </span>
                 
@@ -445,9 +423,7 @@ title: Card
                         </span>
                     </span>
                     <span class="dp-LevelRight">
-                        <span class="dp-TimeStatus">
-                            <span class="dp-Tag Tag--small Tag--danger">Failed</span>
-                        </span>
+                        <span class="dp-Tag Tag--small Tag--danger">Failed</span>
                     </span>
                 </span>
                 
@@ -483,9 +459,7 @@ title: Card
                         </span>
                     </span>
                     <span class="dp-LevelRight">
-                        <span class="dp-TimeStatus">
-                            <span class="dp-Tag Tag--small Tag--danger">Failed</span>
-                        </span>
+                        <span class="dp-Tag Tag--small Tag--danger">Failed</span>
                     </span>
                 </span>
                 
@@ -531,9 +505,7 @@ title: Card
                         </span>
                     </span>
                     <span class="dp-LevelRight">
-                        <span class="dp-TimeStatus">
-                            <span class="dp-Tag Tag--small Tag--danger">Failed</span>
-                        </span>
+                        <span class="dp-Tag Tag--small Tag--danger">Failed</span>
                     </span>
                 </span>
 
@@ -576,9 +548,7 @@ title: Card
                         </span>
                     </span>
                     <span class="dp-LevelRight">
-                        <span class="dp-TimeStatus">
-                            <span class="dp-Tag Tag--small Tag--danger">Failed</span>
-                        </span>
+                        <span class="dp-Tag Tag--small Tag--danger">Failed</span>
                     </span>
                 </span>
 
@@ -623,9 +593,7 @@ title: Card
                         </span>
                     </span>
                     <span class="dp-LevelRight">
-                        <span class="dp-TimeStatus">
-                            <span class="dp-Tag Tag--small Tag--danger">Failed</span>
-                        </span>
+                        <span class="dp-Tag Tag--small Tag--danger">Failed</span>
                     </span>
                 </span>
 
@@ -670,9 +638,7 @@ title: Card
                         </span>
                     </span>
                     <span class="dp-LevelRight">
-                        <span class="dp-TimeStatus">
-                            <span class="dp-Tag Tag--small Tag--danger">Failed</span>
-                        </span>
+                        <span class="dp-Tag Tag--small Tag--danger">Failed</span>
                     </span>
                 </span>
 
@@ -778,9 +744,7 @@ title: Card
                     </ul>
                 </span>
                 <span class="dp-LevelRight">
-                    <span class="dp-TimeStatus">
-                        <span class="dp-Tag Tag--small Tag--neutral">Feature request</span>
-                    </span>
+                    <span class="dp-Tag Tag--small Tag--neutral">Feature request</span>
                 </span>
             </span>
         </li>
@@ -822,9 +786,7 @@ title: Card
                 </span>
 
                 <span class="dp-LevelCol dp-LevelRight dp-LevelBottom">
-                    <span class="dp-TimeStatus">
-                        <span class="dp-Tag Tag--small Tag--grey">Draft</span>
-                    </span>
+                    <span class="dp-Tag Tag--small Tag--grey">Draft</span>
                 </span>
             </span>
         </li>
@@ -865,9 +827,7 @@ title: Card
                     </ul>
                 </span>
                 <span class="dp-LevelRight">
-                    <span class="dp-TimeStatus">
-                        <span class="dp-Tag Tag--small Tag--brand-primary">Download</span>
-                    </span>
+                    <span class="dp-Tag Tag--small Tag--brand-primary">Download</span>
                 </span>
             </span>
         </li>

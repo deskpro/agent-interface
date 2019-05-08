@@ -703,15 +703,11 @@ title: Ticket View - Messages
 
 			                    <div class="dp-SectionBody">
 			                        <div class="dp-TagItem">
-			                            <span class="dp-TimeStatus">
-			                                <span class="dp-Tag Tag--small Tag--pink">3 hours</span>
-			                            </span>
+			                            <span class="dp-Tag Tag--small Tag--pink">3 hours</span>
 			                            <span class="dp-TagDescription">Time until resolution</span>
 			                        </div>
 			                        <div class="dp-TagItem">
-			                            <span class="dp-TimeStatus">
-			                                <span class="dp-Tag Tag--small Tag--warning">10.5 hours</span>
-			                            </span>
+			                            <span class="dp-Tag Tag--small Tag--warning">10.5 hours</span>
 			                            <span class="dp-TagDescription">Time awaiting reply</span>
 			                        </div>
 			                    </div>
