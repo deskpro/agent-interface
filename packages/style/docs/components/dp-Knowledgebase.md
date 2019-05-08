@@ -4,336 +4,182 @@ title: Sort and Re-order
 
 <h4>Sort and Re-order and rollover/selected folder</h4>
 ```html @preview
-<!-- <div class="dp-MainWrapper demo-cog demo-menu demo-tooltip">
-
-    <div class="dp-FilterlistContainer dp-Knowledgebase">
-
-        <div class="dp-Filters">
-            <div class="dp-Filters-bar dp-Level Level-justify-between">
-                <div class="dp-Filters-header">
-                    <span class="dp-Icon Icon--menu"></span>
-                    <span class="dp-Filters-title">Publish</span>
-                </div>
-                <span class="dp-Icon Icon--down-caret Icon--primary"></span>
-            </div>
-        </div>
-
-        <ul class="dp-TicketMenu is-active">
-            <li class="dp-TicketMenuItem dp-MenuBarItem">
-                <span class="dp-TitleMenu">
-                    <span>Pending</span>
-                    <button class="dp-Arrow"></button>
-                </span>
-                <ul class="dp-SubMenu">
-                    <li class="dp-SubMenuItem">
-                        <span>My tickets<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">1</span>
-                    </li>
-                    <li class="dp-SubMenuItem">
-                        <span>Tickets I follow<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-                    </li>
-                    <li class="dp-SubMenuItem">
-                        <span>Unassigned tickets<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-                    </li>
-                    <li class="dp-SubMenuItem">
-                        <span>All tickets<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">90</span>
-                    </li>
-                </ul>
-            </li>
-            <li class="dp-TicketMenuItem dp-MenuBarItem is-selected">
-                <span class="dp-TitleMenu">
-                    <span>Knowledgebase</span>
-                </span>
-                <ul class="dp-SubMenu">
-                    <li class="dp-SubMenuItem">
-                        <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-                    </li>
-                    <li class="dp-SubMenuItem">
-                        <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-                    </li>
-                    <li class="dp-SubMenuItem">
-                        <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-                    </li>
-                    <li class="dp-SubMenuItem">
-                        <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-                    </li>
-                </ul>
-            </li>
-            <li class="dp-TicketMenuItem dp-MenuBarItem">
-                <span class="dp-TitleMenu">
-                    <span>News</span>
-                    <button class="dp-Arrow"></button>
-                </span>
-                <ul class="dp-SubMenu">
-                    <li class="dp-SubMenuItem">
-                        <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-                    </li>
-                    <li class="dp-SubMenuItem">
-                        <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-                    </li>
-                    <li class="dp-SubMenuItem">
-                        <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-                    </li>
-                    <li class="dp-SubMenuItem">
-                        <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-                    </li>
-                </ul>
-            </li>
-            <li class="dp-TicketMenuItem dp-MenuBarItem">
-                <span class="dp-TitleMenu">
-                    <span>Downloads</span>
-                    <button class="dp-Arrow"></button>
-                </span>
-                <ul class="dp-SubMenu">
-                    <li class="dp-SubMenuItem">
-                        <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-                    </li>
-                    <li class="dp-SubMenuItem">
-                        <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-                    </li>
-                    <li class="dp-SubMenuItem">
-                        <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-                    </li>
-                    <li class="dp-SubMenuItem">
-                        <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-                    </li>
-                </ul>
-            </li>
-            <li class="dp-TicketMenuItem dp-MenuBarItem">
-                <span class="dp-TitleMenu">
-                    <span>Guides</span>
-                    <button class="dp-Arrow"></button>
-                </span>
-                <ul class="dp-SubMenu">
-                    <li class="dp-SubMenuItem">
-                        <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-                    </li>
-                    <li class="dp-SubMenuItem">
-                        <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-                    </li>
-                    <li class="dp-SubMenuItem">
-                        <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-                    </li>
-                    <li class="dp-SubMenuItem">
-                        <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-                    </li>
-                </ul>
-            </li>
-            <li class="dp-TicketMenuItem dp-MenuBarItem">
-                <span class="dp-TitleMenu">
-                    <span>Comments</span>
-                    <button class="dp-Arrow"></button>
-                </span>
-                <ul class="dp-SubMenu">
-                    <li class="dp-SubMenuItem">
-                        <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-                    </li>
-                    <li class="dp-SubMenuItem">
-                        <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-                    </li>
-                    <li class="dp-SubMenuItem">
-                        <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-                    </li>
-                    <li class="dp-SubMenuItem">
-                        <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-                    </li>
-                </ul>
-            </li>
-            <li class="dp-TicketMenuItem dp-MenuBarItem">
-                <span class="dp-TitleMenu">
-                    <span>Glossary</span>
-                    <button class="dp-Arrow"></button>
-                </span>
-                <ul class="dp-SubMenu">
-                    <li class="dp-SubMenuItem">
-                        <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-                    </li>
-                    <li class="dp-SubMenuItem">
-                        <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-                    </li>
-                    <li class="dp-SubMenuItem">
-                        <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-                    </li>
-                    <li class="dp-SubMenuItem">
-                        <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-                    </li>
-                </ul>
-            </li>
-        </ul>
-    </div>
-</div> -->
-```
-
-
-<!-- 111 -->
-
-```html @preview
 <div class="dp-MainWrapper dp-Filters-demo">
 
-    <div class="dp-Filters is-active">
+    <div class="dp-GuidesDirectory dp-Knowledgebase">
+        <div class="dp-Filters is-active">
 
-        <div class="dp-Filters-bar dp-Level Level-justify-between">
-            <span class="dp-Filters-header is-opened">
-                <span class="dp-Icon Icon--menu"></span>
-                <span class="dp-Filters-title">
-                    Publish
+            <div class="dp-Filters-bar dp-Level Level-justify-between">
+                <span class="dp-Filters-header is-opened">
+                    <span class="dp-Icon Icon--menu"></span>
+                    <span class="dp-Filters-title">
+                        Publish
+                    </span>
+                    <span class="dp-Icon Icon--down-caret Icon--primary"></span>
                 </span>
-                <span class="dp-Icon Icon--down-caret Icon--primary"></span>
-            </span>
+            </div>
+
+            <ul class="dp-Filters-panel">
+                <!-- Pending -->
+                <li class="dp-TicketMenuItem dp-MenuBarItem">
+                    <span class="dp-TitleMenu">
+                        <span>Pending</span>
+                        <button class="dp-Arrow"></button>
+                    </span>
+                    <ul class="dp-SubMenu">
+                        <li class="dp-SubMenuItem">
+                            <span>My tickets<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">1</span>
+                        </li>
+                        <li class="dp-SubMenuItem">
+                            <span>Tickets I follow<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
+                        </li>
+                        <li class="dp-SubMenuItem">
+                            <span>Unassigned tickets<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
+                        </li>
+                        <li class="dp-SubMenuItem is-active">
+                            <span>All tickets<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">90</span>
+                        </li>
+                    </ul>
+                </li>
+                <!-- Knowledgebase -->
+                <li class="dp-TicketMenuItem dp-MenuBarItem is-selected">
+                    <span class="dp-TitleMenu">
+                        <span>Knowledgebase</span>
+                        <button class="dp-Arrow"></button>
+                    </span>
+                    <ul class="dp-SubMenu">
+                        <li class="dp-SubMenuItem">
+                            <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
+                        </li>
+                        <li class="dp-SubMenuItem">
+                            <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
+                        </li>
+                        <li class="dp-SubMenuItem">
+                            <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
+                        </li>
+                        <li class="dp-SubMenuItem">
+                            <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
+                        </li>
+                    </ul>
+                </li>
+                <!-- News -->
+                <li class="dp-TicketMenuItem dp-MenuBarItem">
+                    <span class="dp-TitleMenu">
+                        <span>News</span>
+                        <button class="dp-Arrow"></button>
+                    </span>
+                    <ul class="dp-SubMenu">
+                        <li class="dp-SubMenuItem">
+                            <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
+                        </li>
+                        <li class="dp-SubMenuItem">
+                            <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
+                        </li>
+                        <li class="dp-SubMenuItem">
+                            <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
+                        </li>
+                        <li class="dp-SubMenuItem">
+                            <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
+                        </li>
+                    </ul>
+                </li>
+                <!-- Downloads -->
+                <li class="dp-TicketMenuItem dp-MenuBarItem dp-SavedSearches">
+                    <span class="dp-TitleMenu">
+                        <span>Downloads</span>
+                        <button class="dp-Arrow"></button>
+                    </span>
+                    <ul class="dp-SubMenu">
+                        <li>
+                            <span>KB Articles older than 4 week</span>
+                        </li>
+                        <li>
+                            <span>Articles by Agent X</span>
+                        </li>
+                        <li>
+                            <span>News articles in August</span>
+                        </li>
+                        <li>
+                            <span>Feature requests feedback articles </span>
+                        </li>
+                    </ul>
+                </li>
+                <!-- Guides -->
+                <li class="dp-TicketMenuItem dp-MenuBarItem">
+                    <span class="dp-TitleMenu">
+                        <span>Guides</span>
+                        <button class="dp-Arrow"></button>
+                    </span>
+                    <ul class="dp-SubMenu">
+                        <li class="dp-SubMenuItem">
+                            <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
+                        </li>
+                        <li class="dp-SubMenuItem">
+                            <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
+                        </li>
+                        <li class="dp-SubMenuItem">
+                            <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
+                        </li>
+                        <li class="dp-SubMenuItem">
+                            <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
+                        </li>
+                    </ul>
+                </li>
+                <!-- Comments -->
+                <li class="dp-TicketMenuItem dp-MenuBarItem">
+                    <span class="dp-TitleMenu">
+                        <span>Comments</span>
+                        <button class="dp-Arrow"></button>
+                    </span>
+                    <ul class="dp-SubMenu">
+                        <li class="dp-SubMenuItem">
+                            <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
+                        </li>
+                        <li class="dp-SubMenuItem">
+                            <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
+                        </li>
+                        <li class="dp-SubMenuItem">
+                            <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
+                        </li>
+                        <li class="dp-SubMenuItem">
+                            <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
+                        </li>
+                    </ul>
+                </li>
+                <!-- Glossary -->
+                <li class="dp-TicketMenuItem dp-MenuBarItem">
+                    <span class="dp-TitleMenu">
+                        <span>Glossary</span>
+                        <button class="dp-Arrow"></button>
+                    </span>
+                    <ul class="dp-SubMenu">
+                        <li class="dp-SubMenuItem">
+                            <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
+                        </li>
+                        <li class="dp-SubMenuItem">
+                            <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
+                        </li>
+                        <li class="dp-SubMenuItem">
+                            <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
+                        </li>
+                        <li class="dp-SubMenuItem">
+                            <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+
         </div>
-
-        <ul class="dp-Filters-panel is-active">
-            <!-- Awaiting agent -->
-            <li class="dp-TicketMenuItem dp-MenuBarItem is-active">
-                <span class="dp-TitleMenu">
-                    <span>Awaiting agent</span>
-                    <button class="dp-Arrow"></button>
-                </span>
-                <ul class="dp-SubMenu">
-                    <li class="dp-SubMenuItem">
-                        <span>My tickets<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">1</span>
-                    </li>
-                    <li class="dp-SubMenuItem">
-                        <span>Tickets I follow<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-                    </li>
-                    <li class="dp-SubMenuItem">
-                        <span>Unassigned tickets<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-                    </li>
-                    <li class="dp-SubMenuItem is-active">
-                        <span>All tickets<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">90</span>
-                    </li>
-                </ul>
-            </li>
-            <!-- Filters -->
-            <li class="dp-TicketMenuItem dp-MenuBarItem">
-                <span class="dp-TitleMenu">
-                    <span>Filters</span>
-                    <button class="dp-Arrow"></button>
-                </span>
-                <ul class="dp-SubMenu">
-                    <li class="dp-SubMenuItem">
-                        <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-                    </li>
-                    <li class="dp-SubMenuItem">
-                        <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-                    </li>
-                    <li class="dp-SubMenuItem">
-                        <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-                    </li>
-                    <li class="dp-SubMenuItem">
-                        <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-                    </li>
-                </ul>
-            </li>
-            <!-- Saved Searches -->
-            <li class="dp-TicketMenuItem dp-MenuBarItem dp-SavedSearches">
-                <span class="dp-TitleMenu">
-                    <span>Saved Searches <span class="dp-qt">(4)</span></span>
-                    <button class="dp-Arrow"></button>
-                </span>
-                <ul class="dp-SubMenu">
-                    <li>
-                        <span>KB Articles older than 4 week</span>
-                    </li>
-                    <li>
-                        <span>Articles by Agent X</span>
-                    </li>
-                    <li>
-                        <span>News articles in August</span>
-                    </li>
-                    <li>
-                        <span>Feature requests feedback articles </span>
-                    </li>
-                </ul>
-            </li>
-            <!-- Problems & incidents -->
-            <li class="dp-TicketMenuItem dp-MenuBarItem">
-                <span class="dp-TitleMenu">
-                    <span>Problems & incidents (2)</span>
-                    <button class="dp-Arrow"></button>
-                </span>
-                <ul class="dp-SubMenu">
-                    <li class="dp-SubMenuItem">
-                        <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-                    </li>
-                    <li class="dp-SubMenuItem">
-                        <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-                    </li>
-                    <li class="dp-SubMenuItem">
-                        <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-                    </li>
-                    <li class="dp-SubMenuItem">
-                        <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-                    </li>
-                </ul>
-            </li>
-            <!-- Labels -->
-            <li class="dp-TicketMenuItem dp-MenuBarItem">
-                <span class="dp-TitleMenu">
-                    <span>Labels</span>
-                    <button class="dp-Arrow"></button>
-                </span>
-                <ul class="dp-SubMenu">
-                    <li class="dp-LabelGroup">
-                        <span class="dp-LabelFiltersName">A</span>
-                        <span class="dp-LabelWrapper">
-                            <span class="dp-Tag">Andriod Mobile App</span>
-                        </span>
-                    </li>
-                    <li class="dp-LabelGroup">
-                        <span class="dp-LabelFiltersName">B</span>
-                        <span class="dp-LabelWrapper">
-                            <span class="dp-Tag">Beta Tester</span>
-                            <span class="dp-Tag">Billing</span>
-                            <span class="dp-Tag">Bug fix</span>
-                        </span>
-                    </li>
-                    <li class="dp-LabelGroup">
-                        <span class="dp-LabelFiltersName">C</span>
-                        <span class="dp-LabelWrapper">
-                            <span class="dp-Tag">Capterra</span>
-                            <span class="dp-Tag">Churn</span>
-                            <span class="dp-Tag">Click jacking</span>
-                            <span class="dp-Tag">Cloud</span>
-                            <span class="dp-Tag">Consultation</span>
-                            <span class="dp-Tag">Converted</span>
-                            <span class="dp-Tag">Custome fields</span>
-                        </span>
-                    </li>
-                </ul>
-            </li>
-            <!-- My stars -->
-            <li class="dp-TicketMenuItem dp-MenuBarItem">
-                <span class="dp-TitleMenu">
-                    <span>My stars (3)</span>
-                    <button class="dp-Arrow"></button>
-                </span>
-                <ul class="dp-SubMenu">
-                    <li class="dp-SubMenuItem">
-                        <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-                    </li>
-                    <li class="dp-SubMenuItem">
-                        <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-                    </li>
-                    <li class="dp-SubMenuItem">
-                        <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-                    </li>
-                    <li class="dp-SubMenuItem">
-                        <span>Lorem ipsum<span class="dp-Icon dp-IconAgent"></span></span> <span class="dp-SubNum">0</span>
-                    </li>
-                </ul>
-            </li>
-        </ul>
     </div>
+
 </div>
 ```
-
 
 <h4>Sort and Re-order/Selected catergory with Articles</h4>
 ```html @preview
 <form class="dp-MainWrapper demo-cog demo-menu demo-tooltip">
     <!-- <ul class="dp-CardList dp-GuidesDirectory dp-Knowledgebase"> -->
-    <ul class="dp-GuidesDirectory dp-Knowledgebase">
-
+    <div class="dp-GuidesDirectory dp-Knowledgebase">
 
         <div class="dp-Filters">
             <div class="dp-Filters-bar dp-Level Level-justify-between">
@@ -2313,7 +2159,7 @@ title: Sort and Re-order
                 </span>
 
                 <!-- Icon rolling -->
-                <span class="dp-IconGroup">
+                <span class="dp-Guide-actions">
                     <span class="dp-Icon dp-IconJump"></span>
                     <span class="dp-Icon dp-settings"></span>
                 </span>
@@ -2331,7 +2177,7 @@ title: Sort and Re-order
                 </span>
 
                 <!-- Icon rolling -->
-                <span class="dp-IconGroup">
+                <span class="dp-Guide-actions">
                     <span class="dp-Icon dp-IconJump"></span>
                     <span class="dp-Icon dp-settings"></span>
                 </span>
@@ -2349,7 +2195,7 @@ title: Sort and Re-order
                 </span>
 
                 <!-- Icon rolling -->
-                <span class="dp-IconGroup">
+                <span class="dp-Guide-actions">
                     <span class="dp-Icon dp-IconJump"></span>
                     <span class="dp-Icon dp-settings"></span>
                 </span>
@@ -2367,7 +2213,7 @@ title: Sort and Re-order
                 </span>
 
                 <!-- Icon rolling -->
-                <span class="dp-IconGroup">
+                <span class="dp-Guide-actions">
                     <span class="dp-Icon dp-IconJump"></span>
                     <span class="dp-Icon dp-settings"></span>
                 </span>
@@ -2385,7 +2231,7 @@ title: Sort and Re-order
                 </span>
 
                 <!-- Icon rolling -->
-                <span class="dp-IconGroup">
+                <span class="dp-Guide-actions">
                     <span class="dp-Icon dp-IconJump"></span>
                     <span class="dp-Icon dp-settings"></span>
                 </span>
@@ -2403,13 +2249,13 @@ title: Sort and Re-order
                 </span>
 
                 <!-- Icon rolling -->
-                <span class="dp-IconGroup">
+                <span class="dp-Guide-actions">
                     <span class="dp-Icon dp-IconJump"></span>
                     <span class="dp-Icon dp-settings"></span>
                 </span>
             </div>
 
-            <div class="dp-Card Level-justify-between">
+            <div class="dp-Card Level-justify-between is-selected">
                 <span class="dp-TitleGroup">
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="knowledgebase-7">
@@ -2421,7 +2267,7 @@ title: Sort and Re-order
                 </span>
 
                 <!-- Icon rolling -->
-                <span class="dp-IconGroup">
+                <span class="dp-Guide-actions">
                     <span class="dp-Icon dp-IconJump"></span>
                     <span class="dp-Icon dp-settings"></span>
                 </span>
@@ -2429,14 +2275,15 @@ title: Sort and Re-order
 
         </div>
 
-    </ul>
+    </div>
 </form>
 ```
 
 <h4>Sort and Re-order/Show present order of categories in drop down</h4>
 ```html @preview
 <form class="dp-MainWrapper demo-cog demo-menu demo-tooltip">
-    <ul class="dp-CardList dp-GuidesDirectory dp-Knowledgebase">
+    <!-- <ul class="dp-CardList dp-GuidesDirectory dp-Knowledgebase"> -->
+    <ul class="dp-GuidesDirectory dp-Knowledgebase">
 
         <li class="dp-Card-SectionTitle dp-Tasks-list Level-justify-between">
             <span class="dp-LevelCol dp-ListName">
@@ -4412,7 +4259,7 @@ title: Sort and Re-order
             </span>
 
             <!-- Icon rolling -->
-            <span class="dp-IconGroup">
+            <span class="dp-Guide-actions">
                 <span class="dp-Icon dp-IconJump"></span>
                 <span class="dp-Icon dp-settings"></span>
             </span>
@@ -4430,7 +4277,7 @@ title: Sort and Re-order
             </span>
 
             <!-- Icon rolling -->
-            <span class="dp-IconGroup">
+            <span class="dp-Guide-actions">
                 <span class="dp-Icon dp-IconJump"></span>
                 <span class="dp-Icon dp-settings"></span>
             </span>
@@ -4448,7 +4295,7 @@ title: Sort and Re-order
             </span>
 
             <!-- Icon rolling -->
-            <span class="dp-IconGroup">
+            <span class="dp-Guide-actions">
                 <span class="dp-Icon dp-IconJump"></span>
                 <span class="dp-Icon dp-settings"></span>
             </span>
@@ -4466,7 +4313,7 @@ title: Sort and Re-order
             </span>
 
             <!-- Icon rolling -->
-            <span class="dp-IconGroup">
+            <span class="dp-Guide-actions">
                 <span class="dp-Icon dp-IconJump"></span>
                 <span class="dp-Icon dp-settings"></span>
             </span>
@@ -4484,7 +4331,7 @@ title: Sort and Re-order
             </span>
 
             <!-- Icon rolling -->
-            <span class="dp-IconGroup">
+            <span class="dp-Guide-actions">
                 <span class="dp-Icon dp-IconJump"></span>
                 <span class="dp-Icon dp-settings"></span>
             </span>
@@ -4502,7 +4349,7 @@ title: Sort and Re-order
             </span>
 
             <!-- Icon rolling -->
-            <span class="dp-IconGroup">
+            <span class="dp-Guide-actions">
                 <span class="dp-Icon dp-IconJump"></span>
                 <span class="dp-Icon dp-settings"></span>
             </span>
@@ -4520,7 +4367,7 @@ title: Sort and Re-order
             </span>
 
             <!-- Icon rolling -->
-            <span class="dp-IconGroup">
+            <span class="dp-Guide-actions">
                 <span class="dp-Icon dp-IconJump"></span>
                 <span class="dp-Icon dp-settings"></span>
             </span>
@@ -8687,7 +8534,7 @@ title: Sort and Re-order
             </span>
 
             <!-- Icon rolling -->
-            <span class="dp-IconGroup">
+            <span class="dp-Guide-actions">
                 <span class="dp-Icon dp-IconJump"></span>
                 <span class="dp-Icon dp-settings"></span>
             </span>
@@ -8702,7 +8549,7 @@ title: Sort and Re-order
             </span>
 
             <!-- Icon rolling -->
-            <span class="dp-IconGroup">
+            <span class="dp-Guide-actions">
                 <span class="dp-Icon dp-IconJump"></span>
                 <span class="dp-Icon dp-settings"></span>
             </span>
@@ -8717,7 +8564,7 @@ title: Sort and Re-order
             </span>
 
             <!-- Icon rolling -->
-            <span class="dp-IconGroup">
+            <span class="dp-Guide-actions">
                 <span class="dp-Icon dp-IconJump"></span>
                 <span class="dp-Icon dp-settings"></span>
             </span>
@@ -8732,7 +8579,7 @@ title: Sort and Re-order
             </span>
 
             <!-- Icon rolling -->
-            <span class="dp-IconGroup">
+            <span class="dp-Guide-actions">
                 <span class="dp-Icon dp-IconJump"></span>
                 <span class="dp-Icon dp-settings"></span>
             </span>

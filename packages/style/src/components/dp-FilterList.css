@@ -85,6 +85,10 @@
   transform: rotate(-180deg);
 }
 
+.dp-Filters.is-active .dp-Filters-panel {
+  display: block;
+}
+
 .dp-BorderBlue {
   border: 2px solid var(--brand-primary);
 }

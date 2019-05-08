@@ -19,3 +19,8 @@
   left: 245px;
   position: absolute;
 }
+
+.dp-Filters-demo .dp-Knowledgebase .dp-Filters .dp-Filters-bar {
+  max-width: 241px;
+  padding: 0;
+}
