@@ -92,7 +92,7 @@ const Card: React.FC<BasicCardProps> & CardSubComponents = ({
             onMouseEnter={() => setIsMouseOver(true)}
             onMouseLeave={() => setIsMouseOver(false)}
           >
-            {!!title && <CardTitle title={title} />}
+            {!!title && <CardTitle>{title}</CardTitle>}
             {children}
           </div>
         )}

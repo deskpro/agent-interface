@@ -33,18 +33,14 @@ const TaskCard: React.FC<
             onCheck={onCheck}
           />
         )}
-        <Card.Title
-          title={
-            <>
-              {/* <Icon
-                name="complete"
-                color={model.isCompleted ? "neutral" : "success"}
-                size={15}
-              /> */}
-              {title}
-            </>
-          }
-        />
+        <Card.Title>
+          {/* <Icon
+              name="complete"
+              color={model.isCompleted ? "neutral" : "success"}
+              size={15}
+            /> */}
+          {title}
+        </Card.Title>
       </span>
       {/* TODO: Replace with calendar component */}
       <span className="dp-DateGroup">

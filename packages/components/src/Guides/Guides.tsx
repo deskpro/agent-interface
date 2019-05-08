@@ -3,11 +3,15 @@ import classNames from "classnames";
 
 import GuideItem, { GuideType } from "./GuideItem";
 import GuidesBreadcrumbs from "./GuidesBreadcrumbs";
+import CardList from "./CardList";
+import GuideCard from "./GuideCard";
 
 import "@deskpro/agent-interface-style/dist/components/dp-Guides.css";
 
 type GuidesSubComponents = {
   Breadcrumbs: typeof GuidesBreadcrumbs;
+  ArticlesTree: typeof CardList;
+  Card: typeof GuideCard;
 };
 
 export type GuidesProps = {
@@ -49,5 +53,7 @@ const Guides: React.FC<GuidesProps> & GuidesSubComponents = ({
 };
 
 Guides.Breadcrumbs = GuidesBreadcrumbs;
+Guides.ArticlesTree = CardList;
+Guides.Card = GuideCard;
 
 export default Guides;

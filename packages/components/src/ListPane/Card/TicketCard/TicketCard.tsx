@@ -5,6 +5,7 @@ import Icon from "../../../elements/Icon/Icon";
 import IconGroup from "../../../elements/Icon/IconGroup";
 import TicketStatus from "./TicketStatus";
 import TicketStatusIcon from "./TicketStatusIcon";
+import CardTitle from "../CardTitle";
 
 type TicketCardSubcomponents = {
   Status: typeof TicketStatus;
@@ -32,7 +33,7 @@ const TicketCard: React.FC<SimpleCardProps & TicketCardProps> &
     cardId={cardId}
     {...props}
     title={
-      <>
+      <CardTitle>
         {title}
         {isFavorite && (
           <Icon
@@ -44,7 +45,7 @@ const TicketCard: React.FC<SimpleCardProps & TicketCardProps> &
             }
           />
         )}
-      </>
+      </CardTitle>
     }
     icons={
       (!!icons || isLocked) && (
