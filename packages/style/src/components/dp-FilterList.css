@@ -318,6 +318,7 @@
   white-space: nowrap;
 }
 
+.dp-Guide-title .dp-qt,
 .dp-Card-title .dp-qt,
 .dp-Filters-title .dp-qt {
   font: var(--h-l-semibold);

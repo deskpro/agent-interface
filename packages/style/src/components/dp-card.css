@@ -48,7 +48,9 @@
 .is-hover-link .dp-Card-title::after,
 .dp-Card-title:hover::after,
 .dp-Knowledgebase .dp-OrderingBar ~ .dp-Card:hover .dp-Card-title::after,
-.dp-Knowledgebase .dp-OrderingBar ~ .dp-CardList .dp-Card.is-selected .dp-Card-title::after {
+.dp-Knowledgebase .dp-OrderingBar ~ .dp-CardList .dp-Card.is-selected .dp-Card-title::after,
+.dp-Knowledgebase .dp-OrderingBar ~ .dp-Guides-list .dp-Guide:hover .dp-Guide-title::after,
+.dp-Knowledgebase .dp-OrderingBar ~ .dp-Guides-list .dp-Guide.is-selected .dp-Guide-title::after {
   background-color: var(--brand-primary);
   bottom: 1px;
   content: "";

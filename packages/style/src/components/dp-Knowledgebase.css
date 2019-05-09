@@ -60,15 +60,11 @@
 }
 
 .dp-GuidesDirectory.dp-Knowledgebase .dp-TitleGroup .dp-Icon + .dp-Icon {
-  margin: 0 7px 0 0;
+  margin: 0 7px;
 }
 
-.dp-Knowledgebase .dp-OrderingBar ~ .dp-CardList .dp-Card-title {
+.dp-Knowledgebase .dp-OrderingBar ~ .dp-Guides-list .dp-Guide-title {
   color: var(--brand-primary);
-}
-
-.dp-GuidesDirectory.dp-Knowledgebase .dp-Card:hover {
-  border-right: 1px solid transparent;
 }
 
 .dp-GuidesDirectory.dp-Knowledgebase .dp-Card:hover .dp-TitleGroup .dp-Icon,
@@ -87,7 +83,7 @@
 
 .dp-Knowledgebase .dp-TicketMenuItem.is-selected,
 .dp-Knowledgebase .dp-TicketMenuItem:hover,
-.dp-Knowledgebase .dp-OrderingBar ~ .dp-CardList .dp-Card.is-selected {
+.dp-Knowledgebase .dp-OrderingBar ~ .dp-Guides-list .dp-Guide.is-selected {
   background-color: var(--info-light);
   color: var(--brand-primary);
 }
@@ -162,10 +158,6 @@
   min-width: 135px;
   padding: 7px;
   position: absolute;
-
-  /*  left: 100%;
-  top: calc(100% + 5px); */
-
 }
 
 .dp-Knowledgebase .dp-Order-btn:hover .dp-Tooltip {
@@ -189,13 +181,6 @@
   color: var(--grey-dark);
 }
 
-/* .dp-Knowledgebase .dp-Menu .dp-Menu-linkItem > .dp-Icon {
-  background-size: 12px;
-  display: none;
-  margin: 0;
-  position: relative;
-} */
-
 .dp-Knowledgebase .dp-Menu .dp-Menu-linkItem:hover > .dp-Cog {
   display: block;
 }
@@ -203,23 +188,11 @@
 .dp-Knowledgebase .dp-Menu .dp-Menu-linkItem .dp-Cog {
   padding: 0;
   position: absolute;
-
-  /*  top: calc(50% - 5px);
-  left: calc(100% - 22px); */
-
 }
 
 .dp-Knowledgebase .dp-Menu .dp-Menu-linkItem .dp-Cog .dp-Menu {
   padding: 5px 0;
 }
-
-/* .dp-Menu .dp-Cog:hover .dp-Menu {
-  display: block;
-}
-
-.dp-Knowledgebase .dp-Menu .dp-Menu-linkItem > .dp-Menu {
-  display: none;
-} */
 
 .dp-Knowledgebase .dp-Menu .dp-Menu-linkItem > .dp-Cog .dp-Menu {
   border-radius: 0.25rem;
@@ -278,8 +251,8 @@
 }
 
 .is-reordering,
-.dp-CardList.dp-GuidesDirectory .dp-Card.is-reordering,
-.dp-CardList.dp-GuidesDirectory .dp-Card.is-reordering:hover {
+.dp-Guides-list .dp-Guide.is-reordering,
+.dp-Guides-list .dp-Guide.is-reordering:hover {
   background-color: var(--info-light);
   border: 1px solid var(--brand-primary);
   margin-top: -1px;

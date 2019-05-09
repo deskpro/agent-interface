@@ -2145,9 +2145,9 @@ title: Sort and Re-order
                 </div>
         </div>
 
-        <div class="dp-CardList">
+        <div class="dp-Guides-list is-hoverable">
 
-            <div class="dp-Card Level-justify-between">
+            <div class="dp-Guide Level-justify-between">
                 <span class="dp-TitleGroup">
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="knowledgebase-1">
@@ -2155,7 +2155,7 @@ title: Sort and Re-order
                     </span>
 
                     <span class="dp-Icon Icon--folder"></span>
-                    <span class="dp-Card-title">Getting started <span class="dp-qt">(16)</span></span>
+                    <span class="dp-Guide-title">Getting started <span class="dp-qt">(16)</span></span>
                 </span>
 
                 <!-- Icon rolling -->
@@ -2165,7 +2165,7 @@ title: Sort and Re-order
                 </span>
             </div>
 
-            <div class="dp-Card Level-justify-between">
+            <div class="dp-Guide Level-justify-between">
                 <span class="dp-TitleGroup">
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="knowledgebase-2">
@@ -2173,7 +2173,7 @@ title: Sort and Re-order
                     </span>
 
                     <span class="dp-Icon Icon--folder"></span>
-                    <span class="dp-Card-title">Sales, Billing & Legal <span class="dp-qt">(30)</span></span>
+                    <span class="dp-Guide-title">Sales, Billing & Legal <span class="dp-qt">(30)</span></span>
                 </span>
 
                 <!-- Icon rolling -->
@@ -2183,7 +2183,7 @@ title: Sort and Re-order
                 </span>
             </div>
 
-            <div class="dp-Card Level-justify-between">
+            <div class="dp-Guide Level-justify-between">
                 <span class="dp-TitleGroup">
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="knowledgebase-3">
@@ -2191,7 +2191,7 @@ title: Sort and Re-order
                     </span>
 
                     <span class="dp-Icon Icon--folder"></span>
-                    <span class="dp-Card-title">Using Deskpro <span class="dp-qt">(234)</span></span>
+                    <span class="dp-Guide-title">Using Deskpro <span class="dp-qt">(234)</span></span>
                 </span>
 
                 <!-- Icon rolling -->
@@ -2201,7 +2201,7 @@ title: Sort and Re-order
                 </span>
             </div>
 
-            <div class="dp-Card Level-justify-between">
+            <div class="dp-Guide Level-justify-between">
                 <span class="dp-TitleGroup">
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="knowledgebase-4">
@@ -2209,7 +2209,7 @@ title: Sort and Re-order
                     </span>
 
                     <span class="dp-Icon Icon--folder"></span>
-                    <span class="dp-Card-title">Guides to getting started <span class="dp-qt">(34)</span></span>
+                    <span class="dp-Guide-title">Guides to getting started <span class="dp-qt">(34)</span></span>
                 </span>
 
                 <!-- Icon rolling -->
@@ -2219,7 +2219,7 @@ title: Sort and Re-order
                 </span>
             </div>
 
-            <div class="dp-Card Level-justify-between">
+            <div class="dp-Guide Level-justify-between">
                 <span class="dp-TitleGroup">
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="knowledgebase-5">
@@ -2227,7 +2227,7 @@ title: Sort and Re-order
                     </span>
 
                     <span class="dp-Icon Icon--folder"></span>
-                    <span class="dp-Card-title">Addition services <span class="dp-qt">(14)</span></span>
+                    <span class="dp-Guide-title">Addition services <span class="dp-qt">(14)</span></span>
                 </span>
 
                 <!-- Icon rolling -->
@@ -2237,7 +2237,7 @@ title: Sort and Re-order
                 </span>
             </div>
 
-            <div class="dp-Card Level-justify-between">
+            <div class="dp-Guide Level-justify-between">
                 <span class="dp-TitleGroup">
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="knowledgebase-6">
@@ -2245,7 +2245,7 @@ title: Sort and Re-order
                     </span>
 
                     <span class="dp-Icon Icon--folder"></span>
-                    <span class="dp-Card-title">Developer & Reporting <span class="dp-qt">(80)</span></span>
+                    <span class="dp-Guide-title">Developer & Reporting <span class="dp-qt">(80)</span></span>
                 </span>
 
                 <!-- Icon rolling -->
@@ -2255,7 +2255,7 @@ title: Sort and Re-order
                 </span>
             </div>
 
-            <div class="dp-Card Level-justify-between is-selected">
+            <div class="dp-Guide Level-justify-between is-selected">
                 <span class="dp-TitleGroup">
                     <span class="dp-CustomCheckbox dp-EmptyCheckbox">
                         <input type="checkbox" class="dp-ControlInput" id="knowledgebase-7">
@@ -2263,7 +2263,7 @@ title: Sort and Re-order
                     </span>
 
                     <span class="dp-Icon Icon--folder"></span>
-                    <span class="dp-Card-title">Managing Deskpro On-Premise <span class="dp-qt">(125)</span></span>
+                    <span class="dp-Guide-title">Managing Deskpro On-Premise <span class="dp-qt">(125)</span></span>
                 </span>
 
                 <!-- Icon rolling -->
@@ -2282,10 +2282,9 @@ title: Sort and Re-order
 <h4>Sort and Re-order/Show present order of categories in drop down</h4>
 ```html @preview
 <form class="dp-MainWrapper demo-cog demo-menu demo-tooltip">
-    <!-- <ul class="dp-CardList dp-GuidesDirectory dp-Knowledgebase"> -->
-    <ul class="dp-GuidesDirectory dp-Knowledgebase">
+    <div class="dp-GuidesDirectory dp-Knowledgebase">
 
-        <li class="dp-Card-SectionTitle dp-Tasks-list Level-justify-between">
+        <div class="dp-Card-SectionTitle dp-Tasks-list Level-justify-between">
             <span class="dp-LevelCol dp-ListName">
                 <span class="dp-Icon Icon--menu"></span>
                 <span class="dp-Card-title">Managing Deskpro On-pr ... <span class="dp-qt">(125)</span></span>
@@ -2297,23 +2296,29 @@ title: Sort and Re-order
                 <li class="dp-Icon dp-table_view"></li>
                 <li class="dp-Icon dp-kanban_view"></li>
             </ul>
-        </li>
+        </div>
 
-        <li class="dp-Breadcrumbs">
-            <span class="dp-Breadcrumbs--Item dp-Icon Icon--home"></span><i class="dp-Breadcrumbs--Arrow"></i>
-            <span class="dp-Breadcrumbs--Item is-current">Managing Deskpro On-Premise</span>
-        </li>
+        <ul class="dp-Guides-breadcrumbs">
+            <li class="dp-Breadcrumb-item">
+                <a class="dp-Breadcrumb-link">
+                    <span class="dp-Icon Icon--home"></span>
+                </a>
+            </li>
+            <li class="dp-Breadcrumb-item is-current">
+                <a class="dp-Breadcrumb-link">
+                    Managing Deskpro On-Premis
+                </a>
+            </li>
+        </ul>
 
-        <li class="dp-Categories">
+        <button type="button" class="dp-Categories dp-Add-task dp-Tasks-list">
             <span class="dp-Categories-title">Categories</span>
             <span class="dp-Categories-add">
                 <span class="dp-Icon dp-add_follower"></span>
                 New
             </span>
-        </li>
+        </button>
 
-        <!-- <li class="dp-orderingbar--Wrap"> -->
-            <!-- <div class="dp-OrderingBar"> -->
         <li class="dp-OrderingBar">
 
             <div class="dp-OrderingBar-item">
@@ -4244,147 +4249,146 @@ title: Sort and Re-order
 
                 </ul>
             </div>
-
         </li>
 
-        <li class="dp-Card Level-justify-between">
-            <span class="dp-TitleGroup">
-                <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="knowledgebase-2-1">
-                    <label for="knowledgebase-2-1"></label>
+        <div class="dp-Guides-list is-hoverable">
+
+            <div class="dp-Guide Level-justify-between">
+                <span class="dp-TitleGroup">
+                    <span class="dp-CustomCheckbox dp-EmptyCheckbox">
+                        <input type="checkbox" class="dp-ControlInput" id="knowledgebase-2-1">
+                        <label for="knowledgebase-2-1"></label>
+                    </span>
+
+                    <span class="dp-Icon Icon--folder"></span>
+                    <span class="dp-Guide-title">Getting started <span class="dp-qt">(16)</span></span>
                 </span>
 
-                <span class="dp-Icon Icon--folder"></span>
-                <span class="dp-Card-title">Getting started <span class="dp-qt">(16)</span></span>
-            </span>
+                <!-- Icon rolling -->
+                <span class="dp-Guide-actions">
+                    <span class="dp-Icon dp-IconJump"></span>
+                    <span class="dp-Icon dp-settings"></span>
+                </span>
+            </div>
 
-            <!-- Icon rolling -->
-            <span class="dp-Guide-actions">
-                <span class="dp-Icon dp-IconJump"></span>
-                <span class="dp-Icon dp-settings"></span>
-            </span>
-        </li>
+            <div class="dp-Guide Level-justify-between">
+                <span class="dp-TitleGroup">
+                    <span class="dp-CustomCheckbox dp-EmptyCheckbox">
+                        <input type="checkbox" class="dp-ControlInput" id="knowledgebase-2-2">
+                        <label for="knowledgebase-2-2"></label>
+                    </span>
 
-        <li class="dp-Card Level-justify-between">
-            <span class="dp-TitleGroup">
-                <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="knowledgebase-2-2">
-                    <label for="knowledgebase-2-2"></label>
+                    <span class="dp-Icon Icon--folder"></span>
+                    <span class="dp-Guide-title">Sales, Billing & Legal <span class="dp-qt">(30)</span></span>
                 </span>
 
-                <span class="dp-Icon Icon--folder"></span>
-                <span class="dp-Card-title">Sales, Billing & Legal <span class="dp-qt">(30)</span></span>
-            </span>
+                <!-- Icon rolling -->
+                <span class="dp-Guide-actions">
+                    <span class="dp-Icon dp-IconJump"></span>
+                    <span class="dp-Icon dp-settings"></span>
+                </span>
+            </div>
 
-            <!-- Icon rolling -->
-            <span class="dp-Guide-actions">
-                <span class="dp-Icon dp-IconJump"></span>
-                <span class="dp-Icon dp-settings"></span>
-            </span>
-        </li>
+            <div class="dp-Guide Level-justify-between">
+                <span class="dp-TitleGroup">
+                    <span class="dp-CustomCheckbox dp-EmptyCheckbox">
+                        <input type="checkbox" class="dp-ControlInput" id="knowledgebase-2-3">
+                        <label for="knowledgebase-2-3"></label>
+                    </span>
 
-        <li class="dp-Card Level-justify-between">
-            <span class="dp-TitleGroup">
-                <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="knowledgebase-2-3">
-                    <label for="knowledgebase-2-3"></label>
+                    <span class="dp-Icon Icon--folder"></span>
+                    <span class="dp-Guide-title">Using Deskpro <span class="dp-qt">(234)</span></span>
                 </span>
 
-                <span class="dp-Icon Icon--folder"></span>
-                <span class="dp-Card-title">Using Deskpro <span class="dp-qt">(234)</span></span>
-            </span>
+                <!-- Icon rolling -->
+                <span class="dp-Guide-actions">
+                    <span class="dp-Icon dp-IconJump"></span>
+                    <span class="dp-Icon dp-settings"></span>
+                </span>
+            </div>
 
-            <!-- Icon rolling -->
-            <span class="dp-Guide-actions">
-                <span class="dp-Icon dp-IconJump"></span>
-                <span class="dp-Icon dp-settings"></span>
-            </span>
-        </li>
+            <div class="dp-Guide Level-justify-between">
+                <span class="dp-TitleGroup">
+                    <span class="dp-CustomCheckbox dp-EmptyCheckbox">
+                        <input type="checkbox" class="dp-ControlInput" id="knowledgebase-2-4">
+                        <label for="knowledgebase-2-4"></label>
+                    </span>
 
-        <li class="dp-Card Level-justify-between">
-            <span class="dp-TitleGroup">
-                <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="knowledgebase-2-4">
-                    <label for="knowledgebase-2-4"></label>
+                    <span class="dp-Icon Icon--folder"></span>
+                    <span class="dp-Guide-title">Guides to getting started <span class="dp-qt">(34)</span></span>
                 </span>
 
-                <span class="dp-Icon Icon--folder"></span>
-                <span class="dp-Card-title">Guides to getting started <span class="dp-qt">(34)</span></span>
-            </span>
+                <!-- Icon rolling -->
+                <span class="dp-Guide-actions">
+                    <span class="dp-Icon dp-IconJump"></span>
+                    <span class="dp-Icon dp-settings"></span>
+                </span>
+            </div>
 
-            <!-- Icon rolling -->
-            <span class="dp-Guide-actions">
-                <span class="dp-Icon dp-IconJump"></span>
-                <span class="dp-Icon dp-settings"></span>
-            </span>
-        </li>
+            <div class="dp-Guide Level-justify-between">
+                <span class="dp-TitleGroup">
+                    <span class="dp-CustomCheckbox dp-EmptyCheckbox">
+                        <input type="checkbox" class="dp-ControlInput" id="knowledgebase-2-5">
+                        <label for="knowledgebase-2-5"></label>
+                    </span>
 
-        <li class="dp-Card Level-justify-between">
-            <span class="dp-TitleGroup">
-                <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="knowledgebase-2-5">
-                    <label for="knowledgebase-2-5"></label>
+                    <span class="dp-Icon Icon--folder"></span>
+                    <span class="dp-Guide-title">Addition services <span class="dp-qt">(14)</span></span>
                 </span>
 
-                <span class="dp-Icon Icon--folder"></span>
-                <span class="dp-Card-title">Addition services <span class="dp-qt">(14)</span></span>
-            </span>
+                <!-- Icon rolling -->
+                <span class="dp-Guide-actions">
+                    <span class="dp-Icon dp-IconJump"></span>
+                    <span class="dp-Icon dp-settings"></span>
+                </span>
+            </div>
 
-            <!-- Icon rolling -->
-            <span class="dp-Guide-actions">
-                <span class="dp-Icon dp-IconJump"></span>
-                <span class="dp-Icon dp-settings"></span>
-            </span>
-        </li>
+            <div class="dp-Guide Level-justify-between">
+                <span class="dp-TitleGroup">
+                    <span class="dp-CustomCheckbox dp-EmptyCheckbox">
+                        <input type="checkbox" class="dp-ControlInput" id="knowledgebase-2-6">
+                        <label for="knowledgebase-2-6"></label>
+                    </span>
 
-        <li class="dp-Card Level-justify-between">
-            <span class="dp-TitleGroup">
-                <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="knowledgebase-2-6">
-                    <label for="knowledgebase-2-6"></label>
+                    <span class="dp-Icon Icon--folder"></span>
+                    <span class="dp-Guide-title">Developer & Reporting <span class="dp-qt">(80)</span></span>
                 </span>
 
-                <span class="dp-Icon Icon--folder"></span>
-                <span class="dp-Card-title">Developer & Reporting <span class="dp-qt">(80)</span></span>
-            </span>
+                <!-- Icon rolling -->
+                <span class="dp-Guide-actions">
+                    <span class="dp-Icon dp-IconJump"></span>
+                    <span class="dp-Icon dp-settings"></span>
+                </span>
+            </div>
 
-            <!-- Icon rolling -->
-            <span class="dp-Guide-actions">
-                <span class="dp-Icon dp-IconJump"></span>
-                <span class="dp-Icon dp-settings"></span>
-            </span>
-        </li>
+            <div class="dp-Guide Level-justify-between">
+                <span class="dp-TitleGroup">
+                    <span class="dp-CustomCheckbox dp-EmptyCheckbox">
+                        <input type="checkbox" class="dp-ControlInput" id="knowledgebase-2-7">
+                        <label for="knowledgebase-2-7"></label>
+                    </span>
 
-        <li class="dp-Card Level-justify-between">
-            <span class="dp-TitleGroup">
-                <span class="dp-CustomCheckbox dp-EmptyCheckbox">
-                    <input type="checkbox" class="dp-ControlInput" id="knowledgebase-2-7">
-                    <label for="knowledgebase-2-7"></label>
+                    <span class="dp-Icon Icon--folder"></span>
+                    <span class="dp-Guide-title">Managing Deskpro On-Premise <span class="dp-qt">(125)</span></span>
                 </span>
 
-                <span class="dp-Icon Icon--folder"></span>
-                <span class="dp-Card-title">Managing Deskpro On-Premise <span class="dp-qt">(125)</span></span>
-            </span>
+                <!-- Icon rolling -->
+                <span class="dp-Guide-actions">
+                    <span class="dp-Icon dp-IconJump"></span>
+                    <span class="dp-Icon dp-settings"></span>
+                </span>
+            </div>
+        </div>
 
-            <!-- Icon rolling -->
-            <span class="dp-Guide-actions">
-                <span class="dp-Icon dp-IconJump"></span>
-                <span class="dp-Icon dp-settings"></span>
-            </span>
-        </li>
-
-        <li class="dp-Categories">
+        <button type="button" class="dp-Categories dp-Add-task dp-Tasks-list">
             <span class="dp-Categories-title">Articles</span>
             <span class="dp-Categories-add">
                 <span class="dp-Icon dp-add_follower"></span>
                 New
             </span>
-        </li>
+        </button>
 
         <!-- 3 - Sorting -->
-
-<!--         <li class="dp-orderingbar--Wrap">
-            <div class="dp-OrderingBar"> -->
 
         <li class="dp-OrderingBar">
 
@@ -6316,12 +6320,10 @@ title: Sort and Re-order
 
                 </ul>
             </div>
-
         </li>
 
         <li class="dp-Articles-group">
             <ul>
-
                 <!-- 1 -->
                 <li class="dp-Card">
                     <span class="dp-LevelItem Level-justify-between">
@@ -6386,9 +6388,7 @@ title: Sort and Re-order
                         </span>
 
                         <span class="dp-LevelRight">
-                            <span class="dp-TimeStatus">
-                                <span class="dp-Tag Tag--small Tag--grey">Draft</span>
-                            </span>
+                            <span class="dp-Tag Tag--small Tag--grey">Draft</span>
                         </span>
                     </span>
 
@@ -6418,9 +6418,7 @@ title: Sort and Re-order
                         </span>
 
                         <span class="dp-LevelRight">
-                            <span class="dp-TimeStatus">
-                                <span class="dp-Tag Tag--small Tag--grey">Draft</span>
-                            </span>
+                            <span class="dp-Tag Tag--small Tag--grey">Draft</span>
                         </span>
                     </span>
 
@@ -6476,9 +6474,7 @@ title: Sort and Re-order
                         </span>
 
                         <span class="dp-LevelRight">
-                            <span class="dp-TimeStatus">
-                                <span class="dp-Tag Tag--small Tag--grey">Draft</span>
-                            </span>
+                            <span class="dp-Tag Tag--small Tag--grey">Draft</span>
                         </span>
                     </span>
 
@@ -6534,9 +6530,7 @@ title: Sort and Re-order
                         </span>
 
                         <span class="dp-LevelRight">
-                            <span class="dp-TimeStatus">
-                                <span class="dp-Tag Tag--small Tag--grey">Draft</span>
-                            </span>
+                            <span class="dp-Tag Tag--small Tag--grey">Draft</span>
                         </span>
                     </span>
 
@@ -6557,16 +6551,17 @@ title: Sort and Re-order
             </ul>
         </li>
 
-    </ul>
+    </div>
 </form>
 ```
 
 <h4>Sort and Re-order/Select Display Order and then enable drag and drop</h4>
 ```html @preview
 <form class="dp-MainWrapper demo-cog demo-menu demo-tooltip">
-    <ul class="dp-CardList dp-GuidesDirectory dp-Knowledgebase">
+    <!-- <ul class="dp-CardList dp-GuidesDirectory dp-Knowledgebase"> -->
+    <div class="dp-GuidesDirectory dp-Knowledgebase">
 
-        <li class="dp-Card-SectionTitle dp-Tasks-list Level-justify-between">
+        <div class="dp-Card-SectionTitle dp-Tasks-list Level-justify-between">
             <span class="dp-LevelCol dp-ListName">
                 <span class="dp-Icon Icon--menu"></span>
                 <span class="dp-Card-title">Managing Deskpro On-pr ... <span class="dp-qt">(125)</span></span>
@@ -6578,25 +6573,30 @@ title: Sort and Re-order
                 <li class="dp-Icon dp-table_view"></li>
                 <li class="dp-Icon dp-kanban_view"></li>
             </ul>
-        </li>
+        </div>
 
-        <li class="dp-Breadcrumbs">
-            <span class="dp-Breadcrumbs--Item dp-Icon Icon--home"></span><i class="dp-Breadcrumbs--Arrow"></i>
-            <span class="dp-Breadcrumbs--Item is-current">Managing Deskpro On-Premise</span>
-        </li>
+        <ul class="dp-Guides-breadcrumbs">
+            <li class="dp-Breadcrumb-item">
+                <a class="dp-Breadcrumb-link">
+                    <span class="dp-Icon Icon--home"></span>
+                </a>
+            </li>
+            <li class="dp-Breadcrumb-item is-current">
+                <a class="dp-Breadcrumb-link">
+                    Managing Deskpro On-Premise
+                </a>
+            </li>
+        </ul>
 
-        <li class="dp-Categories">
+        <button type="button" class="dp-Categories dp-Add-task dp-Tasks-list">
             <span class="dp-Categories-title">Categories</span>
             <span class="dp-Categories-add">
                 <span class="dp-Icon dp-add_follower"></span>
                 New
             </span>
-        </li>
+        </button>
 
-<!--         <li class="dp-orderingbar--Wrap">
-            <div class="dp-OrderingBar"> -->
-
-        <li class="dp-OrderingBar">
+        <div class="dp-OrderingBar">
 
             <div class="dp-OrderingBar-item"></div>
 
@@ -8522,83 +8522,79 @@ title: Sort and Re-order
 
                 </ul>
             </div>
+        </div>
 
-        </li>
+        <div class="dp-Guides-list is-hoverable">
+            <div class="dp-Guide Level-justify-between">
 
-        <li class="dp-Card Level-justify-between">
+                <span class="dp-TitleGroup">
+                    <span class="dp-Icon dp-Drag"></span>
+                    <span class="dp-Icon Icon--folder"></span>
+                    <span class="dp-Guide-title">Installation & Upgrades <span class="dp-qt">(16)</span></span>
+                </span>
 
-            <span class="dp-TitleGroup">
-                <span class="dp-Icon dp-Drag"></span>
-                <span class="dp-Icon Icon--folder"></span>
-                <span class="dp-Card-title">Installation & Upgrades <span class="dp-qt">(16)</span></span>
-            </span>
+                <!-- Icon rolling -->
+                <span class="dp-Guide-actions">
+                    <span class="dp-Icon dp-IconJump"></span>
+                    <span class="dp-Icon dp-settings"></span>
+                </span>
+            </div>
 
-            <!-- Icon rolling -->
-            <span class="dp-Guide-actions">
-                <span class="dp-Icon dp-IconJump"></span>
-                <span class="dp-Icon dp-settings"></span>
-            </span>
-        </li>
+            <div class="dp-Guide Level-justify-between">
+                <span class="dp-TitleGroup">
+                    <span class="dp-Icon dp-Drag"></span>
+                    <span class="dp-Icon Icon--folder"></span>
+                    <span class="dp-Guide-title">Server Software <span class="dp-qt">(30)</span></span>
+                </span>
 
-        <li class="dp-Card Level-justify-between">
-            <span class="dp-TitleGroup">
+                <!-- Icon rolling -->
+                <span class="dp-Guide-actions">
+                    <span class="dp-Icon dp-IconJump"></span>
+                    <span class="dp-Icon dp-settings"></span>
+                </span>
+            </div>
 
-                <span class="dp-Icon dp-Drag"></span>
-                <span class="dp-Icon Icon--folder"></span>
-                <span class="dp-Card-title">Server Software <span class="dp-qt">(30)</span></span>
-            </span>
+            <div class="dp-Guide Level-justify-between">
+                <span class="dp-TitleGroup">
+                    <span class="dp-Icon dp-Drag"></span>
+                    <span class="dp-Icon Icon--folder"></span>
+                    <span class="dp-Guide-title">Performance <span class="dp-qt">(234)</span></span>
+                </span>
 
-            <!-- Icon rolling -->
-            <span class="dp-Guide-actions">
-                <span class="dp-Icon dp-IconJump"></span>
-                <span class="dp-Icon dp-settings"></span>
-            </span>
-        </li>
+                <!-- Icon rolling -->
+                <span class="dp-Guide-actions">
+                    <span class="dp-Icon dp-IconJump"></span>
+                    <span class="dp-Icon dp-settings"></span>
+                </span>
+            </div>
 
-        <li class="dp-Card Level-justify-between">
-            <span class="dp-TitleGroup">
+            <div class="dp-Guide Level-justify-between is-reordering">
+                <span class="dp-TitleGroup">
+                    <span class="dp-Icon dp-Drag"></span>
+                    <span class="dp-Icon Icon--folder"></span>
+                    <span class="dp-Guide-title">Troubleshooting <span class="dp-qt">(55)</span></span>
+                </span>
 
-                <span class="dp-Icon dp-Drag"></span>
-                <span class="dp-Icon Icon--folder"></span>
-                <span class="dp-Card-title">Performance <span class="dp-qt">(234)</span></span>
-            </span>
+                <!-- Icon rolling -->
+                <span class="dp-Guide-actions">
+                    <span class="dp-Icon dp-IconJump"></span>
+                    <span class="dp-Icon dp-settings"></span>
+                </span>
+            </div>
 
-            <!-- Icon rolling -->
-            <span class="dp-Guide-actions">
-                <span class="dp-Icon dp-IconJump"></span>
-                <span class="dp-Icon dp-settings"></span>
-            </span>
-        </li>
+        </div>
 
-        <li class="dp-Card Level-justify-between is-reordering">
-            <span class="dp-TitleGroup">
-
-                <span class="dp-Icon dp-Drag"></span>
-                <span class="dp-Icon Icon--folder"></span>
-                <span class="dp-Card-title">Troubleshooting <span class="dp-qt">(55)</span></span>
-            </span>
-
-            <!-- Icon rolling -->
-            <span class="dp-Guide-actions">
-                <span class="dp-Icon dp-IconJump"></span>
-                <span class="dp-Icon dp-settings"></span>
-            </span>
-        </li>
-
-        <li class="dp-Categories">
+        <div class="dp-Categories">
             <span class="dp-Categories-title">Articles</span>
             <span class="dp-Categories-add">
                 <span class="dp-Icon dp-add_follower"></span>
                 New
             </span>
-        </li>
+        </div>
 
         <!-- 3 - Sorting -->
 
-<!--         <li class="dp-orderingbar--Wrap">
-            <div class="dp-OrderingBar"> -->
-
-        <li class="dp-OrderingBar">
+        <div class="dp-OrderingBar">
 
             <div class="dp-OrderingBar-item">
                 <span class="dp-CustomCheckbox dp-EmptyCheckbox">
@@ -10528,10 +10524,9 @@ title: Sort and Re-order
 
                 </ul>
             </div>
+        </div>
 
-        </li>
-
-        <li class="dp-Articles-group">
+        <div class="dp-Articles-group">
             <ul>
 
                 <!-- 1 -->
@@ -10598,9 +10593,7 @@ title: Sort and Re-order
                         </span>
 
                         <span class="dp-LevelRight">
-                            <span class="dp-TimeStatus">
-                                <span class="dp-Tag Tag--small Tag--grey">Draft</span>
-                            </span>
+                            <span class="dp-Tag Tag--small Tag--grey">Draft</span>
                         </span>
                     </span>
 
@@ -10630,9 +10623,7 @@ title: Sort and Re-order
                         </span>
 
                         <span class="dp-LevelRight">
-                            <span class="dp-TimeStatus">
-                                <span class="dp-Tag Tag--small Tag--grey">Draft</span>
-                            </span>
+                            <span class="dp-Tag Tag--small Tag--grey">Draft</span>
                         </span>
                     </span>
 
@@ -10688,9 +10679,7 @@ title: Sort and Re-order
                         </span>
 
                         <span class="dp-LevelRight">
-                            <span class="dp-TimeStatus">
-                                <span class="dp-Tag Tag--small Tag--grey">Draft</span>
-                            </span>
+                            <span class="dp-Tag Tag--small Tag--grey">Draft</span>
                         </span>
                     </span>
 
@@ -10746,9 +10735,7 @@ title: Sort and Re-order
                         </span>
 
                         <span class="dp-LevelRight">
-                            <span class="dp-TimeStatus">
-                                <span class="dp-Tag Tag--small Tag--grey">Draft</span>
-                            </span>
+                            <span class="dp-Tag Tag--small Tag--grey">Draft</span>
                         </span>
                     </span>
 
@@ -10767,9 +10754,9 @@ title: Sort and Re-order
                 </li>
 
             </ul>
-        </li>
+        </div>
 
-    </ul>
+    </div>
 </form>
 ```
 
