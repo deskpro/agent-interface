@@ -43,6 +43,7 @@ export type BasicCardProps = {
     event: React.MouseEvent<HTMLElement> | React.KeyboardEvent<HTMLElement>
   ): void;
   renderCogMenu?: (menuProps: Partial<MenuProps>) => React.ReactElement<any>;
+  innerRef?: React.Ref<HTMLDivElement>;
 };
 
 const Card: React.FC<BasicCardProps> & CardSubComponents = ({
@@ -55,7 +56,8 @@ const Card: React.FC<BasicCardProps> & CardSubComponents = ({
   title,
   renderCogMenu,
   onClick,
-  cardId
+  cardId,
+  innerRef
 }) => {
   const handleCardClick = React.useCallback(
     (e: React.MouseEvent<HTMLElement>) => onClick && onClick(cardId, e),
@@ -84,7 +86,15 @@ const Card: React.FC<BasicCardProps> & CardSubComponents = ({
               "is-dragging": isDragging,
               "is-keyboard": isFocused
             })}
-            ref={ref}
+            ref={(el: HTMLDivElement) => {
+              ref(el);
+              if (typeof innerRef === "function") {
+                innerRef(el);
+              } else if (innerRef && innerRef.current) {
+                // eslint-disable-next-line no-param-reassign
+                (innerRef.current as HTMLDivElement) = el;
+              }
+            }}
             role="link"
             tabIndex={-1}
             onClick={handleCardClick}

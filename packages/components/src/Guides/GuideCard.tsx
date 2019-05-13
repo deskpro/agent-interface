@@ -7,7 +7,7 @@ import Icon from "../elements/Icon/Icon";
 import Tag from "../elements/Badges/Tag";
 import IconGroup from "../elements/Icon/IconGroup";
 
-export type GuideCardProps = {
+export type GuideCardProps = SimpleCardProps & {
   expandable?: boolean;
   expanded?: boolean;
   onExpandToggle?: (cardId: React.Key) => void;
@@ -15,7 +15,7 @@ export type GuideCardProps = {
   status: "published" | "draft";
 };
 
-const GuideCard: React.FC<SimpleCardProps & GuideCardProps> = ({
+const GuideCard: React.FC<GuideCardProps> = ({
   cardId,
   title,
   status,
