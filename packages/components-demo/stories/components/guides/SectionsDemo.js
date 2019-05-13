@@ -1,4 +1,6 @@
 import React from "react";
+import sortBy from "lodash/sortBy";
+import filter from "lodash/filter";
 
 import {
   Guides,
@@ -8,25 +10,9 @@ import {
 } from "@deskpro/agent-interface-components";
 import { action } from "@storybook/addon-actions";
 
-const sections = [
-  { id: 1, title: "Introducing Deskpro", slug: "introducing-deskpro" },
-  { id: 2, title: "Creating your helpdesk", slug: "creating-helpdesk" },
-  { id: 3, title: "Launching your helpdesk", slug: "launching-helpdesk" },
-  { id: 4, title: "Importing data", slug: "importing-data" },
-  { id: 5, title: "Agents", slug: "agents" },
-  { id: 6, title: "Departments", slug: "departments" },
-  { id: 7, title: "Email accounts", slug: "email-accounts" },
-  { id: 8, title: "Ticket fields", slug: "ticket-fields" },
-  { id: 9, title: "Automating the helpdesk", slug: "automating-helpdesk" },
-  { id: 10, title: "CRM and usergroups", slug: "crm-and-usergroups" },
-  { id: 11, title: "Portal", slug: "portal" },
-  { id: 12, title: "Multibrand", slug: "multibrand" },
-  { id: 13, title: "Editing templates", slug: "editing-templates" },
-  { id: 14, title: "Localization", slug: "localization" },
-  { id: 15, title: "Integration", slug: "integration" },
-  { id: 16, title: "Labels", slug: "labels" },
-  { id: 17, title: "Billing", slug: "billing" }
-];
+import topics from "./topics.json";
+
+const sections = sortBy(filter(topics.data, ["parent", null]), "display_order");
 
 const SectionsDemo = () => {
   const [data, setData] = React.useState(sections);

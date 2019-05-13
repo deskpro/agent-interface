@@ -11,7 +11,7 @@ import "@deskpro/agent-interface-style/dist/components/dp-Guides.css";
 
 type GuidesSubComponents = {
   Breadcrumbs: typeof GuidesBreadcrumbs;
-  ArticlesTree: typeof CardList;
+  TopicsList: typeof CardList;
   Card: typeof GuideCard;
 };
 
@@ -90,7 +90,7 @@ const Guides: React.FC<GuidesProps> & GuidesSubComponents = ({
 };
 
 Guides.Breadcrumbs = GuidesBreadcrumbs;
-Guides.ArticlesTree = CardList;
+Guides.TopicsList = CardList;
 Guides.Card = GuideCard;
 
 export default Guides;
