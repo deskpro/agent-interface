@@ -13,8 +13,11 @@ export interface GuideType {
 
 export type GuideItemProps = GuideType & {
   className?: string;
+  isDragging?: boolean;
   onSettingsClick: (guideId: React.Key) => void;
+  draggableProps?: any;
   dragHandleProps?: any;
+  innerRef?: React.Ref<HTMLDivElement>;
 };
 
 const GuideItem: React.FC<GuideItemProps> = ({
@@ -23,8 +26,11 @@ const GuideItem: React.FC<GuideItemProps> = ({
   icon,
   slug,
   className,
+  isDragging = false,
+  draggableProps = {},
   dragHandleProps,
-  onSettingsClick
+  onSettingsClick,
+  innerRef
 }) => {
   const [isSettingsIconVisible, setSettingsIconVisibility] = React.useState<
     boolean
@@ -32,9 +38,13 @@ const GuideItem: React.FC<GuideItemProps> = ({
 
   return (
     <div
-      className={classNames("dp-Guide", className)}
+      ref={innerRef}
+      className={classNames("dp-Guide", className, {
+        "is-dragging": isDragging
+      })}
       onMouseEnter={() => setSettingsIconVisibility(true)}
       onMouseLeave={() => setSettingsIconVisibility(false)}
+      {...draggableProps}
     >
       <span className="dp-Guide-titleContainer">
         {!!dragHandleProps && (

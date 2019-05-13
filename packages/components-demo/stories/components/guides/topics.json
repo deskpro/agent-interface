@@ -1,0 +1,514 @@
+{
+    "data": [
+        {
+            "id": 17,
+            "person": null,
+            "language": 1,
+            "slug": "change-the-colours",
+            "title": "Change the colours",
+            "content": "",
+            "view_count": 0,
+            "total_rating": 0,
+            "num_comments": 0,
+            "num_ratings": 0,
+            "status": "published",
+            "hidden_status": null,
+            "date_created": "2019-05-13T08:13:59+0000",
+            "date_updated": "2019-05-13T08:13:59+0000",
+            "date_published": "2019-05-13T08:13:59+0000",
+            "vote_stats": {
+                "up": 0,
+                "down": 0
+            },
+            "revisions": [
+                17
+            ],
+            "display_order": 2,
+            "parent": 13,
+            "children": [],
+            "calc_num_comments": 0,
+            "comments": []
+        },
+        {
+            "id": 16,
+            "person": null,
+            "language": 1,
+            "slug": "customize-your-portal",
+            "title": "Customize your portal",
+            "content": "",
+            "view_count": 0,
+            "total_rating": 0,
+            "num_comments": 0,
+            "num_ratings": 0,
+            "status": "published",
+            "hidden_status": null,
+            "date_created": "2019-05-13T08:13:23+0000",
+            "date_updated": "2019-05-13T08:13:23+0000",
+            "date_published": "2019-05-13T08:13:23+0000",
+            "vote_stats": {
+                "up": 0,
+                "down": 0
+            },
+            "revisions": [
+                16
+            ],
+            "display_order": 1,
+            "parent": 13,
+            "children": [],
+            "calc_num_comments": 0,
+            "comments": []
+        },
+        {
+            "id": 15,
+            "person": null,
+            "language": 1,
+            "slug": "extra-customization-options",
+            "title": "Extra customization options",
+            "content": "<ol>\r\n<li>If you\u2019d like your Tickets to store extra data, you can change and add custom -- Broken link - topic:233 -- at <strong>Admin &gt; Tickets &gt; Fields<\/strong>, and edit the -- Broken link - topic:371 -- at <strong>Admin &gt; Tickets &gt; Departments<\/strong>.<\/li>\r\n<li>If you need to integrate Deskpro with existing software or third-party services, or use login credentials from a different system, make sure to look at the <a href=\"https:\/\/support.deskpro.com\/guides\/topic\/410\"><em>ready-made Apps<\/em><\/a> available to install from <strong>Admin &gt; Apps &gt; Apps<\/strong>.<\/li>\r\n<\/ol>",
+            "view_count": 0,
+            "total_rating": 0,
+            "num_comments": 0,
+            "num_ratings": 0,
+            "status": "published",
+            "hidden_status": null,
+            "date_created": "2019-05-13T08:12:43+0000",
+            "date_updated": "2019-05-13T08:12:43+0000",
+            "date_published": "2019-05-13T08:12:43+0000",
+            "vote_stats": {
+                "up": 0,
+                "down": 0
+            },
+            "revisions": [
+                15
+            ],
+            "display_order": 2,
+            "parent": 3,
+            "children": [],
+            "calc_num_comments": 0,
+            "comments": []
+        },
+        {
+            "id": 14,
+            "person": null,
+            "language": 1,
+            "slug": "launch-the-helpdesk",
+            "title": "Launch the Helpdesk!",
+            "content": "<p>Make sure your Agents know that they are going to be helping Users through Deskpro and that they are happy with the Agent interface. Publicize your new helpdesk to Users:<\/p>\r\n<ul>\r\n<li>Make sure that your website\/intranet publicizes the email accounts that you\u2019ve set up to work with Deskpro<\/li>\r\n<li>Link to the Portal from your existing website<\/li>\r\n<li>Announce the new system in your official newsletter\/blog, and on social media etc<\/li>\r\n<li>Make sure any that embeds are live on your site and that Users can find them<\/li>\r\n<\/ul>",
+            "view_count": 0,
+            "total_rating": 0,
+            "num_comments": 0,
+            "num_ratings": 0,
+            "status": "published",
+            "hidden_status": null,
+            "date_created": "2019-05-13T08:12:13+0000",
+            "date_updated": "2019-05-13T08:12:13+0000",
+            "date_published": "2019-05-13T08:12:13+0000",
+            "vote_stats": {
+                "up": 0,
+                "down": 0
+            },
+            "revisions": [
+                14
+            ],
+            "display_order": 3,
+            "parent": 3,
+            "children": [],
+            "calc_num_comments": 0,
+            "comments": []
+        },
+        {
+            "id": 13,
+            "person": null,
+            "language": 1,
+            "slug": "personalize-your-helpdesk",
+            "title": "Personalize your helpdesk",
+            "content": "<p>You should set the name of your helpdesk and enter the details of your official website.<\/p>\n<p>Go to <strong>Admin &gt; Setup &gt; Settings<\/strong>.<\/p>\n<p>If your organization has a website apart from the Portal, in <strong>Website Settings<\/strong>, enter:<\/p>\n<ul>\n<li>the <strong>Website name<\/strong> of your official website<\/li>\n<li>the <strong>Website URL<\/strong> of your official website (<em>not<\/em> the portal URL)<\/li>\n<\/ul>\n<p>These will be displayed to Users\/Agents on the Portal and in email notifications, so they know that this Deskpro helpdesk belongs to your organization.<\/p>\n<p>Under <strong>Helpdesk Settings<\/strong>, enter:<\/p>\n<ul>\n<li>the <strong>Helpdesk name<\/strong> for your helpdesk (displayed on the portal)<\/li>\n<\/ul>\n<p>If you are using a custom domain for your helpdesk, you may also need to update the <strong>Helpdesk URL<\/strong>.<\/p>\n<p><img src=\"\/file.php\/1238SWQPTJJKMN123741675CB55\/Personalize-Helpdesk.png\" alt=\"Personalize-Helpdesk.png\" \/><\/p>\n<p>You can also put your organization\u2019s logo on the Agent\/Admin interface login screens.<\/p>\n<p>Go to <strong>Admin &gt; Agents &gt; Settings<\/strong>.<\/p>\n<p>Click the grey box in the <strong>Logo<\/strong> section, and upload your company logo.<\/p>",
+            "view_count": 0,
+            "total_rating": 0,
+            "num_comments": 0,
+            "num_ratings": 0,
+            "status": "published",
+            "hidden_status": null,
+            "date_created": "2019-05-13T08:11:28+0000",
+            "date_updated": "2019-05-13T08:11:39+0000",
+            "date_published": "2019-05-13T08:11:28+0000",
+            "vote_stats": {
+                "up": 0,
+                "down": 0
+            },
+            "revisions": [
+                13
+            ],
+            "display_order": 1,
+            "parent": 3,
+            "children": [
+                16,
+                17
+            ],
+            "calc_num_comments": 0,
+            "comments": []
+        },
+        {
+            "id": 12,
+            "person": null,
+            "language": 1,
+            "slug": "multibrand",
+            "title": "Multibrand",
+            "content": "",
+            "view_count": 0,
+            "total_rating": 0,
+            "num_comments": 0,
+            "num_ratings": 0,
+            "status": "published",
+            "hidden_status": null,
+            "date_created": "2019-05-13T08:10:31+0000",
+            "date_updated": "2019-05-13T08:10:31+0000",
+            "date_published": "2019-05-13T08:10:31+0000",
+            "vote_stats": {
+                "up": 0,
+                "down": 0
+            },
+            "revisions": [
+                12
+            ],
+            "display_order": 12,
+            "parent": null,
+            "children": [],
+            "calc_num_comments": 0,
+            "comments": []
+        },
+        {
+            "id": 11,
+            "person": null,
+            "language": 1,
+            "slug": "crm-and-usergroups",
+            "title": "CRM and usergroups",
+            "content": "",
+            "view_count": 0,
+            "total_rating": 0,
+            "num_comments": 0,
+            "num_ratings": 0,
+            "status": "published",
+            "hidden_status": null,
+            "date_created": "2019-05-13T08:10:14+0000",
+            "date_updated": "2019-05-13T08:10:14+0000",
+            "date_published": "2019-05-13T08:10:14+0000",
+            "vote_stats": {
+                "up": 0,
+                "down": 0
+            },
+            "revisions": [
+                11
+            ],
+            "display_order": 11,
+            "parent": null,
+            "children": [],
+            "calc_num_comments": 0,
+            "comments": []
+        },
+        {
+            "id": 10,
+            "person": null,
+            "language": 1,
+            "slug": "automating-the-helpdesk",
+            "title": "Automating the helpdesk",
+            "content": "",
+            "view_count": 0,
+            "total_rating": 0,
+            "num_comments": 0,
+            "num_ratings": 0,
+            "status": "published",
+            "hidden_status": null,
+            "date_created": "2019-05-13T08:09:58+0000",
+            "date_updated": "2019-05-13T08:09:58+0000",
+            "date_published": "2019-05-13T08:09:58+0000",
+            "vote_stats": {
+                "up": 0,
+                "down": 0
+            },
+            "revisions": [
+                10
+            ],
+            "display_order": 10,
+            "parent": null,
+            "children": [],
+            "calc_num_comments": 0,
+            "comments": []
+        },
+        {
+            "id": 9,
+            "person": null,
+            "language": 1,
+            "slug": "portal",
+            "title": "Portal",
+            "content": "",
+            "view_count": 0,
+            "total_rating": 0,
+            "num_comments": 0,
+            "num_ratings": 0,
+            "status": "published",
+            "hidden_status": null,
+            "date_created": "2019-05-13T08:09:28+0000",
+            "date_updated": "2019-05-13T08:09:28+0000",
+            "date_published": "2019-05-13T08:09:28+0000",
+            "vote_stats": {
+                "up": 0,
+                "down": 0
+            },
+            "revisions": [
+                9
+            ],
+            "display_order": 9,
+            "parent": null,
+            "children": [],
+            "calc_num_comments": 0,
+            "comments": []
+        },
+        {
+            "id": 8,
+            "person": null,
+            "language": 1,
+            "slug": "ticket-fields",
+            "title": "Ticket fields",
+            "content": "",
+            "view_count": 0,
+            "total_rating": 0,
+            "num_comments": 0,
+            "num_ratings": 0,
+            "status": "published",
+            "hidden_status": null,
+            "date_created": "2019-05-13T08:09:07+0000",
+            "date_updated": "2019-05-13T08:09:07+0000",
+            "date_published": "2019-05-13T08:09:07+0000",
+            "vote_stats": {
+                "up": 0,
+                "down": 0
+            },
+            "revisions": [
+                8
+            ],
+            "display_order": 8,
+            "parent": null,
+            "children": [],
+            "calc_num_comments": 0,
+            "comments": []
+        },
+        {
+            "id": 7,
+            "person": null,
+            "language": 1,
+            "slug": "email-accounts",
+            "title": "Email accounts",
+            "content": "",
+            "view_count": 0,
+            "total_rating": 0,
+            "num_comments": 0,
+            "num_ratings": 0,
+            "status": "published",
+            "hidden_status": null,
+            "date_created": "2019-05-13T08:08:34+0000",
+            "date_updated": "2019-05-13T08:08:34+0000",
+            "date_published": "2019-05-13T08:08:34+0000",
+            "vote_stats": {
+                "up": 0,
+                "down": 0
+            },
+            "revisions": [
+                7
+            ],
+            "display_order": 7,
+            "parent": null,
+            "children": [],
+            "calc_num_comments": 0,
+            "comments": []
+        },
+        {
+            "id": 6,
+            "person": null,
+            "language": 1,
+            "slug": "departments",
+            "title": "Departments",
+            "content": "",
+            "view_count": 0,
+            "total_rating": 0,
+            "num_comments": 0,
+            "num_ratings": 0,
+            "status": "published",
+            "hidden_status": null,
+            "date_created": "2019-05-13T08:08:15+0000",
+            "date_updated": "2019-05-13T08:08:15+0000",
+            "date_published": "2019-05-13T08:08:15+0000",
+            "vote_stats": {
+                "up": 0,
+                "down": 0
+            },
+            "revisions": [
+                6
+            ],
+            "display_order": 6,
+            "parent": null,
+            "children": [],
+            "calc_num_comments": 0,
+            "comments": []
+        },
+        {
+            "id": 5,
+            "person": null,
+            "language": 1,
+            "slug": "importing-data",
+            "title": "Importing data",
+            "content": "",
+            "view_count": 0,
+            "total_rating": 0,
+            "num_comments": 0,
+            "num_ratings": 0,
+            "status": "published",
+            "hidden_status": null,
+            "date_created": "2019-05-13T08:07:53+0000",
+            "date_updated": "2019-05-13T08:07:53+0000",
+            "date_published": "2019-05-13T08:07:53+0000",
+            "vote_stats": {
+                "up": 0,
+                "down": 0
+            },
+            "revisions": [
+                5
+            ],
+            "display_order": 4,
+            "parent": null,
+            "children": [],
+            "calc_num_comments": 0,
+            "comments": []
+        },
+        {
+            "id": 4,
+            "person": null,
+            "language": 1,
+            "slug": "agents",
+            "title": "Agents",
+            "content": "",
+            "view_count": 0,
+            "total_rating": 0,
+            "num_comments": 0,
+            "num_ratings": 0,
+            "status": "published",
+            "hidden_status": null,
+            "date_created": "2019-05-13T08:07:44+0000",
+            "date_updated": "2019-05-13T08:07:44+0000",
+            "date_published": "2019-05-13T08:07:44+0000",
+            "vote_stats": {
+                "up": 0,
+                "down": 0
+            },
+            "revisions": [
+                4
+            ],
+            "display_order": 5,
+            "parent": null,
+            "children": [],
+            "calc_num_comments": 0,
+            "comments": []
+        },
+        {
+            "id": 3,
+            "person": null,
+            "language": 1,
+            "slug": "launching-your-helpdesk",
+            "title": "Launching your helpdesk",
+            "content": "",
+            "view_count": 0,
+            "total_rating": 0,
+            "num_comments": 0,
+            "num_ratings": 0,
+            "status": "published",
+            "hidden_status": null,
+            "date_created": "2019-05-13T08:07:34+0000",
+            "date_updated": "2019-05-13T08:07:34+0000",
+            "date_published": "2019-05-13T08:07:34+0000",
+            "vote_stats": {
+                "up": 0,
+                "down": 0
+            },
+            "revisions": [
+                3
+            ],
+            "display_order": 3,
+            "parent": null,
+            "children": [
+                13,
+                15,
+                14
+            ],
+            "calc_num_comments": 0,
+            "comments": []
+        },
+        {
+            "id": 2,
+            "person": null,
+            "language": 1,
+            "slug": "creating-your-helpdesk",
+            "title": "Creating your helpdesk",
+            "content": "",
+            "view_count": 0,
+            "total_rating": 0,
+            "num_comments": 0,
+            "num_ratings": 0,
+            "status": "published",
+            "hidden_status": null,
+            "date_created": "2019-05-13T08:07:09+0000",
+            "date_updated": "2019-05-13T08:07:24+0000",
+            "date_published": "2019-05-13T08:07:09+0000",
+            "vote_stats": {
+                "up": 0,
+                "down": 0
+            },
+            "revisions": [
+                2
+            ],
+            "display_order": 2,
+            "parent": null,
+            "children": [],
+            "calc_num_comments": 0,
+            "comments": []
+        },
+        {
+            "id": 1,
+            "person": null,
+            "language": 1,
+            "slug": "introducing-deskpro",
+            "title": "Introducing Deskpro",
+            "content": "",
+            "view_count": 0,
+            "total_rating": 0,
+            "num_comments": 0,
+            "num_ratings": 0,
+            "status": "published",
+            "hidden_status": null,
+            "date_created": "2019-05-13T08:05:18+0000",
+            "date_updated": "2019-05-13T08:05:18+0000",
+            "date_published": "2019-05-13T08:05:18+0000",
+            "vote_stats": {
+                "up": 0,
+                "down": 0
+            },
+            "revisions": [
+                1
+            ],
+            "display_order": 1,
+            "parent": null,
+            "children": [],
+            "calc_num_comments": 0,
+            "comments": []
+        }
+    ],
+    "meta": {
+        "pagination": {
+            "total": 17,
+            "count": 17,
+            "per_page": 50,
+            "current_page": 1,
+            "total_pages": 1
+        }
+    },
+    "linked": {}
+}
