@@ -5,6 +5,6 @@
   height: 250px;
 }
 
-.dp-MainWrapper .dp-CardList.CardList--tree .dp-Card.is-active + .CardList--subLevel {
+.demo-CardList .dp-CardList.CardList--tree .dp-Card.is-active + .CardList--subLevel {
   display: block;
 }

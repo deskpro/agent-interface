@@ -2040,7 +2040,7 @@ title: Guides
 
 <h4>Guides/articles</h4>
 ```html @preview
-<div class="dp-MainWrapper demo-cog demo-menu">
+<div class="dp-MainWrapper demo-CardList demo-cog demo-menu">
 
     <div class="dp-CardList CardList--tree is-hoverable">
 
