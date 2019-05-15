@@ -57,7 +57,8 @@ const Card: React.FC<BasicCardProps> & CardSubComponents = ({
   renderCogMenu,
   onClick,
   cardId,
-  innerRef
+  innerRef,
+  ...props
 }) => {
   const handleCardClick = React.useCallback(
     (e: React.MouseEvent<HTMLElement>) => onClick && onClick(cardId, e),
@@ -80,6 +81,7 @@ const Card: React.FC<BasicCardProps> & CardSubComponents = ({
       <Reference>
         {({ ref }) => (
           <div
+            {...props}
             className={classNames("dp-Card", className, {
               "is-selected": isHighlighted,
               "is-active": isActive,

@@ -12,6 +12,7 @@ export type GuideCardProps = SimpleCardProps & {
   expanded?: boolean;
   onExpandToggle?: (cardId: React.Key) => void;
   dragHandleProps?: any;
+  draggableProps?: any;
   status: "published" | "draft";
 };
 
@@ -21,14 +22,17 @@ const GuideCard: React.FC<GuideCardProps> = ({
   status,
   className,
   dragHandleProps = {},
+  draggableProps = {},
   expandable = false,
   expanded = false,
   onExpandToggle,
-  ...cardProps
+  innerRef,
+  children
 }) => (
   <SimpleCard
     cardId={cardId}
-    {...cardProps}
+    innerRef={innerRef}
+    {...draggableProps}
     className={classNames("dp-Level", className)}
     title={
       <>
@@ -62,7 +66,9 @@ const GuideCard: React.FC<GuideCardProps> = ({
         </Tag>
       )
     }
-  />
+  >
+    {children}
+  </SimpleCard>
 );
 
 export default GuideCard;

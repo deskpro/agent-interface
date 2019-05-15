@@ -37,6 +37,7 @@
     "typescript": "^3.2.1"
   },
   "dependencies": {
+    "@atlaskit/tree": "^6.0.0",
     "@deskpro/agent-interface-style": "^0.0.1",
     "add": "^2.0.6",
     "classnames": "^2.2.6",
