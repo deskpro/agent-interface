@@ -7,6 +7,7 @@ import { ViewModeType } from "./useFiltersBar";
 import FiltersPanel from "./FiltersPanel";
 
 import "@deskpro/agent-interface-style/dist/components/dp-FilterList.css";
+import useOutsideClick from "../../hooks/useOutsideClick";
 
 export type FiltersBarSubComponents = {
   Panel: typeof FiltersPanel;
@@ -48,6 +49,13 @@ const FiltersBar: React.FC<FiltersBarProps> & FiltersBarSubComponents = ({
       setBarRect(barRef.current.getBoundingClientRect());
     }
   }, [barRef, setBarRect]);
+
+  const hidePanelOnOutsideClick = React.useCallback(() => {
+    if (!locked && opened) {
+      onToggleOpenState();
+    }
+  }, [locked, opened, onToggleOpenState]);
+  useOutsideClick(barRef, hidePanelOnOutsideClick);
 
   return (
     <Manager>
