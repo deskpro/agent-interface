@@ -2,7 +2,7 @@ import * as React from "react";
 import classNames from "classnames";
 import Card, { BasicCardProps } from "./Card";
 import Checkbox, { CheckableCardProps } from "./CardCheckbox";
-import { Icon } from "../..";
+import Icon from "../../elements/Icon/Icon";
 
 export type TaskCardProps = {};
 
