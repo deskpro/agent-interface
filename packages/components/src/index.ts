@@ -63,5 +63,6 @@ export {
 export { default as Table } from "./Table/Table";
 
 export { default as Guides } from "./Guides/Guides";
+export { default as CategoriesPanel } from "./Content/CategoriesPanel";
 
 export * from "react-router-dom";

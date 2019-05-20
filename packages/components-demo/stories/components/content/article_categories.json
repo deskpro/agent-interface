@@ -1,0 +1,472 @@
+{
+    "data": [
+        {
+            "id": 11,
+            "title": "Omnis hic porro",
+            "title_translations": [
+                {
+                    "language": 1,
+                    "value": "Omnis hic porro"
+                },
+                {
+                    "language": 2,
+                    "value": "Omnis hic porro"
+                },
+                {
+                    "language": 3,
+                    "value": "Omnis hic porro"
+                },
+                {
+                    "language": 4,
+                    "value": "Omnis hic porro"
+                },
+                {
+                    "language": 5,
+                    "value": "Omnis hic porro"
+                },
+                {
+                    "language": 6,
+                    "value": "Omnis hic porro"
+                }
+            ],
+            "slug": "omnis-hic-porro",
+            "display_order": 110,
+            "parent": null,
+            "children": [],
+            "usergroups": [
+                2
+            ],
+            "brand": 1,
+            "is_agent": true,
+            "is_book": false,
+            "template_suffix": null
+        },
+        {
+            "id": 10,
+            "title": "Ut veniam aut",
+            "title_translations": [
+                {
+                    "language": 1,
+                    "value": "Ut veniam aut"
+                },
+                {
+                    "language": 2,
+                    "value": "Ut veniam aut"
+                },
+                {
+                    "language": 3,
+                    "value": "Ut veniam aut"
+                },
+                {
+                    "language": 4,
+                    "value": "Ut veniam aut"
+                },
+                {
+                    "language": 5,
+                    "value": "Ut veniam aut"
+                },
+                {
+                    "language": 6,
+                    "value": "Ut veniam aut"
+                }
+            ],
+            "slug": "ut-veniam-aut",
+            "display_order": 100,
+            "parent": null,
+            "children": [],
+            "usergroups": [
+                5
+            ],
+            "brand": 1,
+            "is_agent": true,
+            "is_book": true,
+            "template_suffix": null
+        },
+        {
+            "id": 9,
+            "title": "Qui dolorum nobis",
+            "title_translations": [
+                {
+                    "language": 1,
+                    "value": "Qui dolorum nobis"
+                },
+                {
+                    "language": 2,
+                    "value": "Qui dolorum nobis"
+                },
+                {
+                    "language": 3,
+                    "value": "Qui dolorum nobis"
+                },
+                {
+                    "language": 4,
+                    "value": "Qui dolorum nobis"
+                },
+                {
+                    "language": 5,
+                    "value": "Qui dolorum nobis"
+                },
+                {
+                    "language": 6,
+                    "value": "Qui dolorum nobis"
+                }
+            ],
+            "slug": "qui-dolorum-nobis",
+            "display_order": 50,
+            "parent": 2,
+            "children": [],
+            "usergroups": [
+                5
+            ],
+            "brand": 1,
+            "is_agent": true,
+            "is_book": false,
+            "template_suffix": null
+        },
+        {
+            "id": 8,
+            "title": "Eum qui nostrum",
+            "title_translations": [
+                {
+                    "language": 1,
+                    "value": "Eum qui nostrum"
+                },
+                {
+                    "language": 2,
+                    "value": "Eum qui nostrum"
+                },
+                {
+                    "language": 3,
+                    "value": "Eum qui nostrum"
+                },
+                {
+                    "language": 4,
+                    "value": "Eum qui nostrum"
+                },
+                {
+                    "language": 5,
+                    "value": "Eum qui nostrum"
+                },
+                {
+                    "language": 6,
+                    "value": "Eum qui nostrum"
+                }
+            ],
+            "slug": "eum-qui-nostrum",
+            "display_order": 30,
+            "parent": 3,
+            "children": [],
+            "usergroups": [
+                4
+            ],
+            "brand": 1,
+            "is_agent": true,
+            "is_book": false,
+            "template_suffix": null
+        },
+        {
+            "id": 7,
+            "title": "Veniam eum tempora",
+            "title_translations": [
+                {
+                    "language": 1,
+                    "value": "Veniam eum tempora"
+                },
+                {
+                    "language": 2,
+                    "value": "Veniam eum tempora"
+                },
+                {
+                    "language": 3,
+                    "value": "Veniam eum tempora"
+                },
+                {
+                    "language": 4,
+                    "value": "Veniam eum tempora"
+                },
+                {
+                    "language": 5,
+                    "value": "Veniam eum tempora"
+                },
+                {
+                    "language": 6,
+                    "value": "Veniam eum tempora"
+                }
+            ],
+            "slug": "veniam-eum-tempora",
+            "display_order": 90,
+            "parent": null,
+            "children": [],
+            "usergroups": [
+                4
+            ],
+            "brand": 1,
+            "is_agent": true,
+            "is_book": true,
+            "template_suffix": null
+        },
+        {
+            "id": 6,
+            "title": "Vel voluptatem id",
+            "title_translations": [
+                {
+                    "language": 1,
+                    "value": "Vel voluptatem id"
+                },
+                {
+                    "language": 2,
+                    "value": "Vel voluptatem id"
+                },
+                {
+                    "language": 3,
+                    "value": "Vel voluptatem id"
+                },
+                {
+                    "language": 4,
+                    "value": "Vel voluptatem id"
+                },
+                {
+                    "language": 5,
+                    "value": "Vel voluptatem id"
+                },
+                {
+                    "language": 6,
+                    "value": "Vel voluptatem id"
+                }
+            ],
+            "slug": "vel-voluptatem-id",
+            "display_order": 80,
+            "parent": null,
+            "children": [],
+            "usergroups": [
+                7
+            ],
+            "brand": 1,
+            "is_agent": true,
+            "is_book": true,
+            "template_suffix": null
+        },
+        {
+            "id": 5,
+            "title": "Ipsa veritatis qui",
+            "title_translations": [
+                {
+                    "language": 1,
+                    "value": "Ipsa veritatis qui"
+                },
+                {
+                    "language": 2,
+                    "value": "Ipsa veritatis qui"
+                },
+                {
+                    "language": 3,
+                    "value": "Ipsa veritatis qui"
+                },
+                {
+                    "language": 4,
+                    "value": "Ipsa veritatis qui"
+                },
+                {
+                    "language": 5,
+                    "value": "Ipsa veritatis qui"
+                },
+                {
+                    "language": 6,
+                    "value": "Ipsa veritatis qui"
+                }
+            ],
+            "slug": "ipsa-veritatis-qui",
+            "display_order": 70,
+            "parent": null,
+            "children": [],
+            "usergroups": [
+                2
+            ],
+            "brand": 1,
+            "is_agent": true,
+            "is_book": false,
+            "template_suffix": null
+        },
+        {
+            "id": 4,
+            "title": "Ipsam nihil ducimus",
+            "title_translations": [
+                {
+                    "language": 1,
+                    "value": "Ipsam nihil ducimus"
+                },
+                {
+                    "language": 2,
+                    "value": "Ipsam nihil ducimus"
+                },
+                {
+                    "language": 3,
+                    "value": "Ipsam nihil ducimus"
+                },
+                {
+                    "language": 4,
+                    "value": "Ipsam nihil ducimus"
+                },
+                {
+                    "language": 5,
+                    "value": "Ipsam nihil ducimus"
+                },
+                {
+                    "language": 6,
+                    "value": "Ipsam nihil ducimus"
+                }
+            ],
+            "slug": "ipsam-nihil-ducimus",
+            "display_order": 60,
+            "parent": null,
+            "children": [],
+            "usergroups": [
+                1
+            ],
+            "brand": 1,
+            "is_agent": false,
+            "is_book": false,
+            "template_suffix": null
+        },
+        {
+            "id": 3,
+            "title": "Minus quod reprehenderit",
+            "title_translations": [
+                {
+                    "language": 1,
+                    "value": "Minus quod reprehenderit"
+                },
+                {
+                    "language": 2,
+                    "value": "Minus quod reprehenderit"
+                },
+                {
+                    "language": 3,
+                    "value": "Minus quod reprehenderit"
+                },
+                {
+                    "language": 4,
+                    "value": "Minus quod reprehenderit"
+                },
+                {
+                    "language": 5,
+                    "value": "Minus quod reprehenderit"
+                },
+                {
+                    "language": 6,
+                    "value": "Minus quod reprehenderit"
+                }
+            ],
+            "slug": "minus-quod-reprehenderit",
+            "display_order": 20,
+            "parent": null,
+            "children": [
+                8,
+                2
+            ],
+            "usergroups": [
+                5
+            ],
+            "brand": 1,
+            "is_agent": false,
+            "is_book": false,
+            "template_suffix": null
+        },
+        {
+            "id": 2,
+            "title": "Ex autem architecto",
+            "title_translations": [
+                {
+                    "language": 1,
+                    "value": "Ex autem architecto"
+                },
+                {
+                    "language": 2,
+                    "value": "Ex autem architecto"
+                },
+                {
+                    "language": 3,
+                    "value": "Ex autem architecto"
+                },
+                {
+                    "language": 4,
+                    "value": "Ex autem architecto"
+                },
+                {
+                    "language": 5,
+                    "value": "Ex autem architecto"
+                },
+                {
+                    "language": 6,
+                    "value": "Ex autem architecto"
+                }
+            ],
+            "slug": "ex-autem-architecto",
+            "display_order": 40,
+            "parent": 3,
+            "children": [
+                9
+            ],
+            "usergroups": [
+                7
+            ],
+            "brand": 1,
+            "is_agent": false,
+            "is_book": true,
+            "template_suffix": null
+        },
+        {
+            "id": 1,
+            "title": "General",
+            "title_translations": [
+                {
+                    "language": 1,
+                    "value": "General"
+                },
+                {
+                    "language": 2,
+                    "value": "General"
+                },
+                {
+                    "language": 3,
+                    "value": "General"
+                },
+                {
+                    "language": 4,
+                    "value": "General"
+                },
+                {
+                    "language": 5,
+                    "value": "General"
+                },
+                {
+                    "language": 6,
+                    "value": "General"
+                }
+            ],
+            "slug": "general",
+            "display_order": 10,
+            "parent": null,
+            "children": [],
+            "usergroups": [
+                1,
+                2,
+                5
+            ],
+            "brand": 1,
+            "is_agent": false,
+            "is_book": false,
+            "template_suffix": ""
+        }
+    ],
+    "meta": {
+        "pagination": {
+            "total": 11,
+            "count": 11,
+            "per_page": 50,
+            "current_page": 1,
+            "total_pages": 1
+        }
+    },
+    "linked": {}
+}

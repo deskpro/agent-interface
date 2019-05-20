@@ -59,11 +59,8 @@ const FiltersBar: React.FC<FiltersBarProps> & FiltersBarSubComponents = ({
 
   return (
     <Manager>
-      <div className="dp-Filters">
-        <div
-          ref={barRef}
-          className="dp-Filters-bar dp-Level Level-justify-between"
-        >
+      <div className="dp-Filters" ref={barRef}>
+        <div className="dp-Filters-bar dp-Level Level-justify-between">
           <Reference>
             {({ ref }) => (
               <div
