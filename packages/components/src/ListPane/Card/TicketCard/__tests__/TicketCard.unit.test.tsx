@@ -1,6 +1,6 @@
 import * as React from "react";
 import { render } from "react-testing-library";
-import { addHours, addMinutes, subMinutes } from "date-fns";
+import { addWeeks } from "date-fns";
 
 import ActivityStatus from "../../../../User/ActivityStatus/ActivityStatus";
 import Icon from "../../../../elements/Icon/Icon";
@@ -9,7 +9,7 @@ import UserInfo from "../../../../User/UserInfo/UserInfo";
 
 describe("<TicketCard />", () => {
   it("should match its snapshot", () => {
-    const date = new Date("2019-02-02 15:55:18");
+    const date = new Date();
     const onCheck = jest.fn();
     const { container } = render(
       <TicketCard
@@ -34,7 +34,7 @@ describe("<TicketCard />", () => {
           <TicketCard.Status
             nextSlaStatus={{
               isComplete: false,
-              nextTriggerDate: addHours(addMinutes(date, 14), 2),
+              nextTriggerDate: addWeeks(date, 2),
               status: "ok"
             }}
           />
