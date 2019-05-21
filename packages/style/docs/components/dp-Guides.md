@@ -2038,17 +2038,13 @@ title: Guides
 </form>
 ```
 
-
-
-
-
-
 <h4>Guides/articles</h4>
 ```html @preview
 <div class="dp-MainWrapper demo-CardList demo-cog demo-menu">
 
-    <!-- <div style="width: 450px;"> -->
-        <div class="dp-CardList CardList--tree">
+    <div style="width: 450px;">
+
+        <div class="dp-CardList CardList--tree is-hoverable">
             <div style="pointer-events: auto;">
 
                 <!-- 1 -->
@@ -2077,7 +2073,7 @@ title: Guides
 
                 <!-- 2 -->
                 <div class="dp-Card dp-Level Card--depth-1 Check--nocheck" style="padding-left: 35px;">
-                    <div class="rst__lineBlock rst__lineHalfHorizontalRight rst__lineFullVertical" style="width: 30px;"></div>
+                    <div class="dp-Caret-col Caret--HalfHorizontalRight Caret--FullVertical"></div>
                     <div class="dp-LevelItem Level-justify-between">
                         <span class="dp-LevelLeft">
                             <span class="dp-LevelTop">
@@ -2093,13 +2089,18 @@ title: Guides
 
                 <!-- 3 -->
                 <div class="dp-Card dp-Level Card--depth-1 Check--nocheck" style="padding-left: 35px;">
-                    <div class="rst__lineBlock rst__lineHalfVerticalTop rst__lineHalfHorizontalRight" style="width: 30px;border-bottom: 1px solid transparent;margin-top: -1px;"></div>
+                    <div class="dp-Caret-col Caret--HalfHorizontalRight Caret--HalfVerticalTop"></div>
                     <div class="dp-LevelItem Level-justify-between">
                         <span class="dp-LevelLeft">
                             <span class="dp-LevelTop">
                                 <span class="dp-Icon dp-drag"></span>
                             </span>
                             <span class="dp-Card-title">Customize your portal</span>
+                        </span>
+                        <span class="dp-LevelRight">
+                            <span class="dp-IconGroup">
+                                <span class="dp-Icon Icon--caret-up Icon--primary"></span>
+                            </span>
                         </span>
                     </div>
                     <div class="dp-LevelItem Level-justify-between">
@@ -2108,7 +2109,9 @@ title: Guides
                 </div>
 
                 <!-- 4 -->
-                <div class="dp-Card dp-Level Card--depth-0 Check--nocheck">
+                <div class="dp-Card dp-Level Card--depth-0 Check--nocheck" style="padding-left:70px">
+                    <div class="dp-Caret-col"></div>
+                    <div class="dp-Caret-col Caret--HalfHorizontalRight Caret--HalfVerticalTop" style="left:30px;"></div>
                     <div class="dp-LevelItem Level-justify-between">
                         <span class="dp-LevelLeft">
                             <span class="dp-LevelTop">
@@ -2119,8 +2122,10 @@ title: Guides
                     </div>
                     <div class="dp-LevelItem Level-justify-between">
                         <span class="dp-LevelLeft">
-                            If you’d like your Tickets to store extra data, you can change 
-                            and add custom -- Broken link - topic:233 -- at Admin > Tickets > Fields, and edit the...
+                            <span class="dp-UserInfo">
+                                <span class="dp-Icon dp-iconUserAvatar"></span>
+                                <span class="dp-UserName">Single-line item</span>
+                            </span>
                         </span>
                     </div>
                 </div>
@@ -2143,9 +2148,170 @@ title: Guides
                     </div>
                 </div>
 
+                <!-- 6 -->
+                <div class="dp-Card dp-Level Card--depth-0 Check--nocheck">
+                    <div class="dp-LevelItem Level-justify-between">
+                        <span class="dp-LevelLeft">
+                            <span class="dp-LevelTop">
+                                <span class="dp-Icon dp-drag"></span>
+                            </span>
+                            <span class="dp-Card-title">Card title here</span>
+                        </span>
+                        <span class="dp-LevelRight">
+                            <span class="dp-IconGroup">
+                                <span class="dp-Icon Icon--caret-up Icon--primary"></span>
+                            </span>
+                        </span>
+                    </div>
+                    <div class="dp-LevelItem Level-justify-between">
+                        <span class="dp-LevelLeft">
+                            <span class="dp-UserInfo">
+                                <span class="dp-Icon dp-iconUserAvatar"></span>
+                                <span class="dp-Icon dp-iconUserAvatar"></span>
+                                <span class="dp-Icon dp-iconUserAvatar"></span>
+                            </span>
+                        </span>
+                    </div>
+                </div>
+
+                <!-- 7 -->
+                <div class="dp-Card dp-Level Card--depth-0 Check--nocheck" style="padding-left: 35px;">
+                    <div class="dp-Caret-col Caret--HalfHorizontalRight Caret--HalfVertical"></div>
+                    <div class="dp-LevelItem Level-justify-between">
+                        <span class="dp-LevelLeft">
+                            <span class="dp-LevelTop">
+                                <span class="dp-Icon dp-drag"></span>
+                            </span>
+                            <span class="dp-Card-title">Card title here</span>
+                        </span>
+                    </div>
+                    <div class="dp-LevelItem Level-justify-between">
+                        <span class="dp-LevelLeft">
+                            <span class="dp-UserInfo">
+                                <span class="dp-Icon dp-iconUserAvatar"></span>
+                                <span class="dp-Icon dp-iconUserAvatar"></span>
+                            </span>
+                        </span>
+                    </div>
+                </div>
+
+                <!-- 8 -->
+                <div class="dp-Card dp-Level Card--depth-0 Check--nocheck" style="padding-left:70px">
+                    <div class="dp-Caret-col"></div>
+                    <div class="dp-Caret-col Caret--HalfHorizontalRight Caret--FullVertical" style="left:30px;"></div>
+                    <div class="dp-LevelItem Level-justify-between">
+                        <span class="dp-LevelLeft">
+                            <span class="dp-LevelTop">
+                                <span class="dp-Icon dp-drag"></span>
+                            </span>
+                            <span class="dp-Card-title">Card title here</span>
+                        </span>
+                    </div>
+                    <div class="dp-LevelItem Level-justify-between">
+                        <span class="dp-LevelLeft">
+                            <span class="dp-UserInfo">
+                                <span class="dp-Icon dp-iconUserAvatar"></span>
+                                <span class="dp-UserName">Single-line item</span>
+                            </span>
+                        </span>
+                    </div>
+                </div>
+
+                <!-- 9 -->
+                <div class="dp-Card dp-Level Card--depth-0 Check--nocheck" style="padding-left:70px">
+                    <div class="dp-Caret-col"></div>
+                    <div class="dp-Caret-col Caret--HalfHorizontalRight Caret--FullVertical" style="left:30px;"></div>
+                    <div class="dp-LevelItem Level-justify-between">
+                        <span class="dp-LevelLeft">
+                            <span class="dp-LevelTop">
+                                <span class="dp-Icon dp-drag"></span>
+                            </span>
+                            <span class="dp-Card-title">Card title here</span>
+                        </span>
+                    </div>
+                    <div class="dp-LevelItem Level-justify-between">
+                        <span class="dp-LevelLeft">
+                            <span class="dp-UserInfo">
+                                <span class="dp-Icon dp-iconUserAvatar"></span>
+                                <span class="dp-UserName">Single-line item</span>
+                            </span>
+                        </span>
+                        <span class="dp-LevelRight">
+                            <span class="dp-Tag Tag--small Tag--grey">Draft</span>
+                        </span>
+                    </div>
+                </div>
+
+                <!-- 10 -->
+                <div class="dp-Card dp-Level Card--depth-0 Check--nocheck" style="padding-left:70px">
+                    <div class="dp-Caret-col"></div>
+                    <div class="dp-Caret-col Caret--HalfHorizontalRight Caret--FullVertical" style="left:30px;"></div>
+                    <div class="dp-LevelItem Level-justify-between">
+                        <span class="dp-LevelLeft">
+                            <span class="dp-LevelTop">
+                                <span class="dp-Icon dp-drag"></span>
+                            </span>
+                            <span class="dp-Card-title">Card title here</span>
+                        </span>
+                    </div>
+                    <div class="dp-LevelItem Level-justify-between">
+                        <span class="dp-LevelLeft">
+                            <span class="dp-UserInfo">
+                                <span class="dp-Icon dp-iconUserAvatar"></span>
+                                <span class="dp-UserName">Single-line item</span>
+                            </span>
+                        </span>
+                    </div>
+                </div>
+
+                <!-- 11 -->
+                <div class="dp-Card dp-Level Card--depth-0 Check--nocheck" style="padding-left:70px">
+                    <div class="dp-Caret-col"></div>
+                    <div class="dp-Caret-col Caret--HalfHorizontalRight Caret--HalfVerticalTop" style="left:30px;"></div>
+                    <div class="dp-LevelItem Level-justify-between">
+                        <span class="dp-LevelLeft">
+                            <span class="dp-LevelTop">
+                                <span class="dp-Icon dp-drag"></span>
+                            </span>
+                            <span class="dp-Card-title">Card title here</span>
+                        </span>
+                    </div>
+                    <div class="dp-LevelItem Level-justify-between">
+                        <span class="dp-LevelLeft">
+                            <span class="dp-UserInfo">
+                                <span class="dp-Icon dp-iconUserAvatar"></span>
+                                <span class="dp-UserName">Single-line item</span>
+                            </span>
+                        </span>
+                    </div>
+                </div>
+
+                <!-- 12 -->
+                <div class="dp-Card dp-Level Card--depth-0 Check--nocheck">
+                    <div class="dp-LevelItem Level-justify-between">
+                        <span class="dp-LevelLeft">
+                            <span class="dp-LevelTop">
+                                <span class="dp-Icon dp-drag"></span>
+                            </span>
+                            <span class="dp-Card-title">Card title here</span>
+                        </span>
+                    </div>
+                    <div class="dp-LevelItem Level-justify-between">
+                        <span class="dp-LevelLeft">
+                            <span class="dp-UserInfo">
+                                <span class="dp-Icon dp-iconUserAvatar"></span>
+                                <span class="dp-UserName">Single-line item</span>
+                            </span>
+                        </span>
+                        <span class="dp-LevelRight">
+                            <span class="dp-Tag Tag--small Tag--grey">Draft</span>
+                        </span>
+                    </div>
+                </div>
+
             </div>
         </div>
-    <!-- </div> -->
+    </div>
 
 </div>
 
