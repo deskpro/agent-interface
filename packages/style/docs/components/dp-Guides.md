@@ -2038,697 +2038,115 @@ title: Guides
 </form>
 ```
 
+
+
+
+
+
 <h4>Guides/articles</h4>
 ```html @preview
-
 <div class="dp-MainWrapper demo-CardList demo-cog demo-menu">
 
-    <div class="tree-wrapper">
-        <div class="rst__tree" style="height: 100%; position: relative;">
-            <div style="overflow: visible; height: 0px; width: 0px;">
-                <div aria-label="grid" aria-readonly="true" class="ReactVirtualized__Grid ReactVirtualized__List rst__virtualScrollOverride" role="grid" tabindex="0" style="box-sizing: border-box; direction: ltr; height: 1302px; position: relative; width: 738px; will-change: transform; overflow: hidden;">
-                    <div class="ReactVirtualized__Grid__innerScrollContainer dp-CardList CardList--tree" role="rowgroup" style="width: auto; height: 1302px; max-width: 738px; max-height: 1302px; overflow: hidden; position: relative;">
+    <!-- <div style="width: 450px;"> -->
+        <div class="dp-CardList CardList--tree">
+            <div style="pointer-events: auto;">
 
-                        <!-- 1 -->
-                        <div class="rst__node dp-Card dp-Level dp-DropDown is-active" style="height: 62px; left: 0px; position: absolute; top: 0px; width: 100%;">
-                            <!-- <div class="rst__lineBlock rst__lineHalfHorizontalRight rst__lineHalfVerticalBottom" style="width: 44px;"></div> -->
-                            <div class="rst__nodeContent" style="left: 0;">
-<!--                                 <div style="height: 100%;">
-                                    <div class="rst__rowWrapper">
-                                        <div class="rst__row" style="opacity: 1;">-->
-                                                <span class="dp-LevelItem Level-justify-between">
-                                                    <span class="dp-LevelLeft dp-LevelTop">
-                                                        <span class="dp-LevelTop">
-                                                            <span class="dp-Icon dp-drag"></span>
-                                                        </span>
-                                                        <span class="dp-Card-title">Card title here</span>
-                                                    </span>
-                                                    <span class="dp-IconGroup dp-LevelRight">
-                                                        <span class="dp-Icon Icon--down-caret Icon--primary"></span>
-                                                    </span>
-                                                </span>
-
-                                                <span class="dp-LevelItem Level-justify-between">
-                                                    <span class="dp-LevelLeft">
-                                                        <span class="dp-UserInfo">
-                                                            <span class="dp-Icon dp-iconUserAvatar"></span>
-                                                            <span class="dp-UserName">Single-line item</span>
-                                                        </span>
-                                                    </span>
-                                                </span>
-            <!--                                </div>
-                                    </div>
-                                </div> -->
-                            </div>
-                        </div>
-
-                        <!-- 2 -->
-                        <div class="rst__node dp-Card dp-Level" style="height: 62px; left: 0px; position: absolute; top: 62px; width: 100%;">
-                            <div class="rst__lineBlock rst__lineHalfHorizontalRight rst__lineFullVertical" style="width: 44px;"></div>
-                            <div class="rst__nodeContent" style="left: 44px;">
-<!--                                 <div style="height: 100%;">
-                                    <div class="rst__rowWrapper">
-                                        <div class="rst__row" style="opacity: 1;">-->
-
-                                                <span class="dp-LevelItem Level-justify-between">
-                                                    <span class="dp-LevelLeft dp-LevelTop">
-                                                        <span class="dp-LevelTop">
-                                                            <span class="dp-Icon dp-drag"></span>
-                                                        </span>
-                                                        <span class="dp-Card-title">Card title here</span>
-                                                    </span>
-                                                </span>
-                                                <span class="dp-LevelItem Level-justify-between">
-                                                    <span class="dp-LevelLeft">
-                                                        <span class="dp-UserInfo">
-                                                            <span class="dp-Icon dp-iconUserAvatar"></span>
-                                                            <span class="dp-UserName">Single-line item</span>
-                                                        </span>
-                                                    </span>
-                                                </span>
-
-  <!--                                           </div>
-                                    </div>
-                                </div> -->
-                            </div>
-                        </div>
-
-                        <!-- 3 -->
-                        <div class="rst__node dp-Card dp-Level dp-DropDown is-active" style="height: 62px; left: 0px; position: absolute; top: 124px; width: 100%;">
-                            <div class="rst__lineBlock rst__lineHalfVerticalTop rst__lineHalfHorizontalRight" style="width: 44px;"></div>
-                            <div class="rst__nodeContent" style="left: 44px;">
-<!--                                 <div style="height: 100%;">
-                                    <div class="rst__rowWrapper">
-                                        <div class="rst__row" style="opacity: 1;">-->
-                                                <span class="dp-LevelItem Level-justify-between">
-                                                    <span class="dp-LevelLeft dp-LevelTop">
-                                                        <span class="dp-LevelTop">
-                                                            <span class="dp-Icon dp-drag"></span>
-                                                        </span>
-                                                        <span class="dp-Card-title">Card title here</span>
-                                                    </span>
-                                                    <span class="dp-IconGroup dp-LevelRight">
-                                                        <span class="dp-Icon Icon--down-caret Icon--primary"></span>
-                                                    </span>
-                                                </span>
-                                                <span class="dp-LevelItem Level-justify-between">
-                                                    <span class="dp-LevelLeft">
-                                                        <span class="dp-UserInfo">
-                                                            <span class="dp-Icon dp-iconUserAvatar"></span>
-                                                            <span class="dp-Icon dp-iconUserAvatar"></span>
-                                                            <span class="dp-Icon dp-iconUserAvatar"></span>
-                                                        </span>
-                                                    </span>
-                                                </span>
-        <!--                                     </div>
-                                    </div>
-                                </div> -->
-                            </div>
-                        </div>
-
-                        <!-- 4 -->
-                        <div class="rst__node dp-Card dp-Level" style="height: 62px; left: 0px; position: absolute; top: 186px; width: 100%;">
-                            <div class="rst__lineBlock" style="width: 44px;"></div>
-                            <div class="rst__lineBlock rst__lineHalfVerticalTop rst__lineHalfHorizontalRight" style="width: 44px;"></div>
-                            <div class="rst__nodeContent" style="left: 88px;">
-<!--                                 <div style="height: 100%;">
-                                    <div class="rst__rowWrapper">
-                                        <div class="rst__row" style="opacity: 1;"> -->
-                                                <span class="dp-LevelItem Level-justify-between">
-                                                    <span class="dp-LevelLeft dp-LevelTop">
-                                                        <span class="dp-LevelTop">
-                                                            <span class="dp-Icon dp-drag"></span>
-                                                        </span>
-                                                        <span class="dp-Card-title">Card title here</span>
-                                                    </span>
-                                                </span>
-                                                <span class="dp-LevelItem Level-justify-between">
-                                                    <span class="dp-LevelLeft">
-                                                        <span class="dp-UserInfo">
-                                                            <span class="dp-Icon dp-iconUserAvatar"></span>
-                                                            <span class="dp-UserName">Single-line item</span>
-                                                        </span>
-                                                    </span>
-                                                    <span class="dp-LevelRight">
-                                                        <span class="dp-Tag Tag--small Tag--grey">Draft</span>
-                                                    </span>
-                                                </span>
- <!--                                            </div>
-                                    </div>
-                                </div> -->
-                            </div>
-                        </div>
-
-                        <!-- 5 -->
-                        <div class="rst__node dp-Card dp-Level" style="height: 62px; left: 0px; position: absolute; top: 248px; width: 100%;">
-                            <div class="rst__nodeContent" style="left: 0;">
-<!--                                 <div style="height: 100%;">
-                                    <div class="rst__rowWrapper">
-                                        <div class="rst__row" style="opacity: 1;">-->
-                                                <span class="dp-LevelItem Level-justify-between">
-                                                    <span class="dp-LevelLeft dp-LevelTop">
-                                                        <span class="dp-LevelTop">
-                                                            <span class="dp-Icon dp-drag"></span>
-                                                        </span>
-                                                        <span class="dp-Card-title">Card title here</span>
-                                                    </span>
-                                                </span>
-                                                <span class="dp-LevelItem Level-justify-between">
-                                                    <span class="dp-LevelLeft">
-                                                        <span class="dp-UserInfo">
-                                                            <span class="dp-Icon dp-iconUserAvatar"></span>
-                                                            <span class="dp-UserName">Single-line item</span>
-                                                        </span>
-                                                    </span>
-                                                </span>
-    <!--                                         </div>
-                                    </div>
-                                </div> -->
-                            </div>
-                        </div>
-
-                        <!-- 6 -->
-                        <div class="rst__node dp-Card dp-Level dp-DropDown is-active" style="height: 62px; left: 0px; position: absolute; top: 310px; width: 100%;">
-                            <div class="rst__nodeContent" style="left: 0;">
-<!--                                 <div style="height: 100%;">
-                                    <div class="rst__rowWrapper">
-                                        <div class="rst__row" style="opacity: 1;"> -->
-                                                <span class="dp-LevelItem Level-justify-between">
-                                                    <span class="dp-LevelLeft dp-LevelTop">
-                                                        <span class="dp-LevelTop">
-                                                            <span class="dp-Icon dp-drag"></span>
-                                                        </span>
-                                                        <span class="dp-Card-title">Card title here</span>
-                                                    </span>
-                                                    <span class="dp-IconGroup dp-LevelRight">
-                                                        <span class="dp-Icon Icon--down-caret Icon--primary"></span>
-                                                    </span>
-                                                </span>
-                                                <span class="dp-LevelItem Level-justify-between">
-                                                    <span class="dp-LevelLeft">
-                                                        <span class="dp-UserInfo">
-                                                            <span class="dp-Icon dp-iconUserAvatar"></span>
-                                                            <span class="dp-Icon dp-iconUserAvatar"></span>
-                                                            <span class="dp-Icon dp-iconUserAvatar"></span>
-                                                        </span>
-                                                    </span>
-                                                </span>
-<!--                                             </div>
-                                    </div>
-                                </div> -->
-                            </div>
-                        </div>
-
-                        <!-- 7 -->
-                        <div class="rst__node dp-Card dp-Level dp-DropDown is-active" style="height: 62px; left: 0px; position: absolute; top: 372px; width: 100%;">
-                            <div class="rst__lineBlock rst__lineHalfVerticalTop rst__lineHalfHorizontalRight" style="width: 44px;"></div>
-                            <div class="rst__nodeContent" style="left: 44px;">
-<!--                                 <div style="height: 100%;">
-                                    <div class="rst__rowWrapper">
-                                        <div class="rst__row" style="opacity: 1;">-->
-                                                <span class="dp-LevelItem Level-justify-between">
-                                                    <span class="dp-LevelLeft dp-LevelTop">
-                                                        <span class="dp-LevelTop">
-                                                            <span class="dp-Icon dp-drag"></span>
-                                                        </span>
-                                                        <span class="dp-Card-title">Card title here</span>
-                                                    </span>
-                                                    <span class="dp-IconGroup dp-LevelRight">
-                                                        <span class="dp-Icon Icon--down-caret Icon--primary"></span>
-                                                    </span>
-                                                </span>
-                                                <span class="dp-LevelItem Level-justify-between">
-                                                    <span class="dp-LevelLeft">
-                                                        <span class="dp-UserInfo">
-                                                            <span class="dp-Icon dp-iconUserAvatar"></span>
-                                                            <span class="dp-UserName">Single-line item</span>
-                                                        </span>
-                                                    </span>
-                                                </span>
-<!--                                             </div>
-                                    </div>
-                                </div> -->
-                            </div>
-                        </div>
-
-                        <!-- 8 -->
-                        <div class="rst__node dp-Card dp-Level" style="height: 62px; left: 0px; position: absolute; top: 434px; width: 100%;">
-                            <div class="rst__lineBlock" style="width: 44px;"></div>
-                            <div class="rst__lineBlock rst__lineHalfHorizontalRight rst__lineFullVertical" style="width: 44px;"></div>
-                            <div class="rst__nodeContent" style="left: 88px;">
-<!--                                 <div style="height: 100%;">
-                                    <div class="rst__rowWrapper">
-                                        <div class="rst__row" style="opacity: 1;"> -->
-                                                <span class="dp-LevelItem Level-justify-between">
-                                                    <span class="dp-LevelLeft dp-LevelTop">
-                                                        <span class="dp-LevelTop">
-                                                            <span class="dp-Icon dp-drag"></span>
-                                                        </span>
-                                                        <span class="dp-Card-title">Card title here</span>
-                                                    </span>
-                                                </span>
-                                                <span class="dp-LevelItem Level-justify-between">
-                                                    <span class="dp-LevelLeft">
-                                                        <span class="dp-UserInfo">
-                                                            <span class="dp-Icon dp-iconUserAvatar"></span>
-                                                            <span class="dp-Icon dp-iconUserAvatar"></span>
-                                                        </span>
-                                                    </span>
-                                                </span>
-<!--                                             </div>
-                                    </div>
-                                </div> -->
-                            </div>
-                        </div>
-
-                        <!-- 9 -->
-                        <div class="rst__node dp-Card dp-Level" style="height: 62px; left: 0px; position: absolute; top: 496px; width: 100%;">
-                            <div class="rst__lineBlock" style="width: 44px;"></div>
-                            <div class="rst__lineBlock rst__lineHalfHorizontalRight rst__lineFullVertical" style="width: 44px;"></div>
-                            <div class="rst__nodeContent" style="left: 88px;">
-<!--                                 <div style="height: 100%;">
-                                    <div class="rst__rowWrapper">
-                                        <div class="rst__row" style="opacity: 1;"> -->
-                                                <span class="dp-LevelItem Level-justify-between">
-                                                    <span class="dp-LevelLeft dp-LevelTop">
-                                                        <span class="dp-LevelTop">
-                                                            <span class="dp-Icon dp-drag"></span>
-                                                        </span>
-                                                        <span class="dp-Card-title">Card title here</span>
-                                                    </span>
-                                                </span>
-                                                <span class="dp-LevelItem Level-justify-between">
-                                                    <span class="dp-LevelLeft">
-                                                        <span class="dp-UserInfo">
-                                                            <span class="dp-Icon dp-iconUserAvatar"></span>
-                                                            <span class="dp-UserName">Single-line item</span>
-                                                        </span>
-                                                    </span>
-                                                    <span class="dp-LevelRight">
-                                                        <span class="dp-Tag Tag--small Tag--grey">Draft</span>
-                                                    </span>
-                                                </span>
-<!--                                             </div>
-                                    </div>
-                                </div> -->
-                            </div>
-                        </div>
-
-                        <!-- 10 -->
-                        <div class="rst__node dp-Card dp-Level" style="height: 62px; left: 0px; position: absolute; top: 558px; width: 100%;">
-                            <div class="rst__lineBlock" style="width: 44px;"></div>
-                            <div class="rst__lineBlock rst__lineHalfHorizontalRight rst__lineFullVertical" style="width: 44px;"></div>
-                            <div class="rst__nodeContent" style="left: 88px;">
-<!--                                 <div style="height: 100%;">
-                                    <div class="rst__rowWrapper">
-                                        <div class="rst__row" style="opacity: 1;"> -->
-                                                <span class="dp-LevelItem Level-justify-between">
-                                                    <span class="dp-LevelLeft dp-LevelTop">
-                                                        <span class="dp-LevelTop">
-                                                            <span class="dp-Icon dp-drag"></span>
-                                                        </span>
-                                                        <span class="dp-Card-title">Card title here</span>
-                                                    </span>
-                                                </span>
-                                                <span class="dp-LevelItem Level-justify-between">
-                                                    <span class="dp-LevelLeft">
-                                                        <span class="dp-UserInfo">
-                                                            <span class="dp-Icon dp-iconUserAvatar"></span>
-                                                            <span class="dp-UserName">Single-line item</span>
-                                                        </span>
-                                                    </span>
-                                                    <span class="dp-LevelRight">
-                                                        <span class="dp-Tag Tag--small Tag--grey">Draft</span>
-                                                    </span>
-                                                </span>
-<!--                                             </div>
-                                    </div>
-                                </div> -->
-                            </div>
-                        </div>
-
-                        <!-- 11 -->
-                        <div class="rst__node dp-Card dp-Level" style="height: 62px; left: 0px; position: absolute; top: 620px; width: 100%;">
-                            <div class="rst__lineBlock" style="width: 44px;"></div>
-                            <div class="rst__lineBlock rst__lineHalfVerticalTop rst__lineHalfHorizontalRight" style="width: 44px;"></div>
-                            <div class="rst__nodeContent" style="left: 88px;">
-<!--                                 <div style="height: 100%;">
-                                    <div class="rst__rowWrapper">
-                                        <div class="rst__row" style="opacity: 1;">-->
-                                                <span class="dp-LevelItem Level-justify-between">
-                                                    <span class="dp-LevelLeft dp-LevelTop">
-                                                        <span class="dp-LevelTop">
-                                                            <span class="dp-Icon dp-drag"></span>
-                                                        </span>
-                                                        <span class="dp-Card-title">Card title here</span>
-                                                    </span>
-                                                </span>
-                                                <span class="dp-LevelItem Level-justify-between">
-                                                    <span class="dp-LevelLeft">
-                                                        <span class="dp-UserInfo">
-                                                            <span class="dp-Icon dp-iconUserAvatar"></span>
-                                                            <span class="dp-Icon dp-iconUserAvatar"></span>
-                                                        </span>
-                                                    </span>
-                                                </span>
-<!--                                             </div>
-                                    </div>
-                                </div> -->
-                            </div>
-                        </div>
-
-                        <!-- 12 -->
-                        <div class="rst__node dp-Card dp-Level dp-DropDown is-active" style="height: 62px; left: 0px; position: absolute; top: 682px; width: 100%;">
-                            <div class="rst__nodeContent" style="left: 0;">
-                                <!-- <div style="height: 100%;"> -->
-                                    <!-- <div class="rst__rowWrapper"> -->
-                                        <!-- <div class="rst__row" style="opacity: 1;"> -->
-                                                <span class="dp-LevelItem Level-justify-between">
-                                                    <span class="dp-LevelLeft dp-LevelTop">
-                                                        <span class="dp-LevelTop">
-                                                            <span class="dp-Icon dp-drag"></span>
-                                                        </span>
-                                                        <span class="dp-Card-title">Card title here</span>
-                                                    </span>
-                                                    <span class="dp-IconGroup dp-LevelRight">
-                                                        <span class="dp-Icon Icon--down-caret Icon--primary"></span>
-                                                    </span>
-                                                </span>
-                                                <span class="dp-LevelItem Level-justify-between">
-                                                    <span class="dp-LevelLeft">
-                                                        <span class="dp-UserInfo">
-                                                            <span class="dp-Icon dp-iconUserAvatar"></span>
-                                                            <span class="dp-UserName">Single-line item</span>
-                                                        </span>
-                                                    </span>
-                                                </span>
-                                        <!-- </div> -->
-                                    <!-- </div> -->
-                                <!-- </div> -->
-                            </div>
-                        </div>
-
-                        <!-- 13 -->
-                        <div class="rst__node dp-Card dp-Level" style="height: 62px; left: 0px; position: absolute; top: 744px; width: 100%;">
-                            <div class="rst__lineBlock rst__lineHalfHorizontalRight rst__lineFullVertical" style="width: 44px;"></div>
-                            <div class="rst__nodeContent" style="left: 44px;">
-<!--                                 <div style="height: 100%;">
-                                    <div class="rst__rowWrapper">
-                                        <div class="rst__row" style="opacity: 1;"> -->
-                                                <span class="dp-LevelItem Level-justify-between">
-                                                    <span class="dp-LevelLeft dp-LevelTop">
-                                                        <span class="dp-LevelTop">
-                                                            <span class="dp-Icon dp-drag"></span>
-                                                        </span>
-                                                        <span class="dp-Card-title">Card title here</span>
-                                                    </span>
-                                                </span>
-                                                <span class="dp-LevelItem Level-justify-between">
-                                                    <span class="dp-LevelLeft">
-                                                        <span class="dp-UserInfo">
-                                                            <span class="dp-Icon dp-iconUserAvatar"></span>
-                                                            <span class="dp-Icon dp-iconUserAvatar"></span>
-                                                        </span>
-                                                    </span>
-                                                </span>
- <!--                                            </div>
-                                    </div>
-                                </div> -->
-                            </div>
-                        </div>
-
-                        <!-- 14 -->
-                        <div class="rst__node dp-Card dp-Level" style="height: 62px; left: 0px; position: absolute; top: 806px; width: 100%;">
-                            <div class="rst__lineBlock rst__lineHalfHorizontalRight rst__lineFullVertical" style="width: 44px;"></div>
-                            <div class="rst__nodeContent" style="left: 44px;">
-<!--                                 <div style="height: 100%;">
-                                    <div class="rst__rowWrapper">
-                                        <div class="rst__row" style="opacity: 1;"> -->
-                                                <span class="dp-LevelItem Level-justify-between">
-                                                    <span class="dp-LevelLeft dp-LevelTop">
-                                                        <span class="dp-LevelTop">
-                                                            <span class="dp-Icon dp-drag"></span>
-                                                        </span>
-                                                        <span class="dp-Card-title">Card title here</span>
-                                                    </span>
-                                                </span>
-                                                <span class="dp-LevelItem Level-justify-between">
-                                                    <span class="dp-LevelLeft">
-                                                        <span class="dp-UserInfo">
-                                                            <span class="dp-Icon dp-iconUserAvatar"></span>
-                                                            <span class="dp-UserName">Single-line item</span>
-                                                        </span>
-                                                    </span>
-                                                </span>
-   <!--                                          </div>
-                                    </div>
-                                </div> -->
-                            </div>
-                        </div>
-
-                        <!-- 15 -->
-                        <div class="rst__node dp-Card dp-Level" style="height: 62px; left: 0px; position: absolute; top: 868px; width: 100%;">
-                            <div class="rst__lineBlock rst__lineHalfHorizontalRight rst__lineFullVertical" style="width: 44px;"></div>
-                            <div class="rst__nodeContent" style="left: 44px;">
-<!--                                 <div style="height: 100%;">
-                                    <div class="rst__rowWrapper">
-                                        <div class="rst__row" style="opacity: 1;"> -->
-                                                <span class="dp-LevelItem Level-justify-between">
-                                                    <span class="dp-LevelLeft dp-LevelTop">
-                                                        <span class="dp-LevelTop">
-                                                            <span class="dp-Icon dp-drag"></span>
-                                                        </span>
-                                                        <span class="dp-Card-title">Card title here</span>
-                                                    </span>
-                                                </span>
-                                                <span class="dp-LevelItem Level-justify-between">
-                                                    <span class="dp-LevelLeft">
-                                                        <span class="dp-UserInfo">
-                                                            <span class="dp-Icon dp-iconUserAvatar"></span>
-                                                            <span class="dp-UserName">Single-line item</span>
-                                                        </span>
-                                                    </span>
-                                                </span>
-<!--                                             </div>
-                                    </div>
-                                </div> -->
-                            </div>
-                        </div>
-
-                        <!-- 16 -->
-                        <div class="rst__node dp-Card dp-Level" style="height: 62px; left: 0px; position: absolute; top: 930px; width: 100%;">
-                            <div class="rst__lineBlock rst__lineHalfVerticalTop rst__lineHalfHorizontalRight" style="width: 44px;"></div>
-                            <div class="rst__nodeContent" style="left: 44px;">
-<!--                                 <div style="height: 100%;">
-                                    <div class="rst__rowWrapper">
-                                        <div class="rst__row" style="opacity: 1;"> -->
-                                                <span class="dp-LevelItem Level-justify-between">
-                                                    <span class="dp-LevelLeft dp-LevelTop">
-                                                        <span class="dp-LevelTop">
-                                                            <span class="dp-Icon dp-drag"></span>
-                                                        </span>
-                                                        <span class="dp-Card-title">Card title here</span>
-                                                    </span>
-                                                </span>
-                                                <span class="dp-LevelItem Level-justify-between">
-                                                    <span class="dp-LevelLeft">
-                                                        <span class="dp-UserInfo">
-                                                            <span class="dp-Icon dp-iconUserAvatar"></span>
-                                                            <span class="dp-Icon dp-iconUserAvatar"></span>
-                                                        </span>
-                                                    </span>
-                                                </span>
-<!--                                             </div>
-                                    </div>
-                                </div> -->
-                            </div>
-                        </div>
-
-
-                        <!-- 17 -->
-                        <div class="rst__node dp-Card dp-Level dp-DropDown is-active" style="height: 62px; left: 0px; position: absolute; top: 992px; width: 100%;">
-                            <div class="rst__nodeContent" style="left: 0;">
- <!--                                <div style="height: 100%;">
-                                    <div class="rst__rowWrapper">
-                                        <div class="rst__row" style="opacity: 1;">
-                                            <div class="dp-Card dp-Level is-active"> -->
-                                                <span class="dp-LevelItem Level-justify-between">
-                                                    <span class="dp-LevelLeft dp-LevelTop">
-                                                        <span class="dp-LevelTop">
-                                                            <span class="dp-Icon dp-drag"></span>
-                                                        </span>
-                                                        <span class="dp-Card-title">Card title here</span>
-                                                    </span>
-                                                    <span class="dp-IconGroup dp-LevelRight">
-                                                        <span class="dp-Icon Icon--down-caret Icon--primary"></span>
-                                                    </span>
-                                                </span>
-                                                <span class="dp-LevelItem Level-justify-between">
-                                                    <span class="dp-LevelLeft">
-                                                        <span class="dp-UserInfo">
-                                                            <span class="dp-Icon dp-iconUserAvatar"></span>
-                                                            <span class="dp-Icon dp-iconUserAvatar"></span>
-                                                            <span class="dp-Icon dp-iconUserAvatar"></span>
-                                                        </span>
-                                                    </span>
-                                                </span>
-              <!--                               </div>
-                                        </div>
-                                    </div>
-                                </div> -->
-                            </div>
-                        </div>
-
-                        <!-- 18 -->
-                        <div class="rst__node dp-Card dp-Level" style="height: 62px; left: 0px; position: absolute; top: 1054px; width: 100%;">
-                            <div class="rst__lineBlock rst__lineHalfHorizontalRight rst__lineFullVertical" style="width: 44px;"></div>
-                            <div class="rst__nodeContent" style="left: 44px;">
-<!--                                 <div style="height: 100%;">
-                                    <div class="rst__rowWrapper">
-                                        <div class="rst__row" style="opacity: 1;">
-
-                                            <div class="dp-Card dp-Level"> -->
-                                                <span class="dp-LevelItem Level-justify-between">
-                                                    <span class="dp-LevelLeft dp-LevelTop">
-                                                        <span class="dp-LevelTop">
-                                                            <span class="dp-Icon dp-drag"></span>
-                                                        </span>
-                                                        <span class="dp-Card-title">Card title here</span>
-                                                    </span>
-                                                </span>
-                                                <span class="dp-LevelItem Level-justify-between">
-                                                    <span class="dp-LevelLeft">
-                                                        <span class="dp-UserInfo">
-                                                            <span class="dp-Icon dp-iconUserAvatar"></span>
-                                                            <span class="dp-Icon dp-iconUserAvatar"></span>
-                                                        </span>
-                                                    </span>
-                                                </span>
-  <!--                                           </div>
-
-                                        </div>
-                                    </div>
-                                </div> -->
-                            </div>
-                        </div>
-
-                        <!-- 19 -->
-                        <div class="rst__node dp-Card dp-Level" style="height: 62px; left: 0px; position: absolute; top: 1116px; width: 100%;">
-                            <div class="rst__lineBlock rst__lineHalfHorizontalRight rst__lineFullVertical" style="width: 44px;"></div>
-                            <div class="rst__nodeContent" style="left: 44px;">
-<!--                                 <div style="height: 100%;">
-                                    <div class="rst__rowWrapper">
-                                        <div class="rst__row" style="opacity: 1;">
-
-                                            <div class="dp-Card dp-Level"> -->
-                                                <span class="dp-LevelItem Level-justify-between">
-                                                    <span class="dp-LevelLeft dp-LevelTop">
-                                                        <span class="dp-LevelTop">
-                                                            <span class="dp-Icon dp-drag"></span>
-                                                        </span>
-                                                        <span class="dp-Card-title">Card title here</span>
-                                                    </span>
-                                                </span>
-                                                <span class="dp-LevelItem Level-justify-between">
-                                                    <span class="dp-LevelLeft">
-                                                        <span class="dp-UserInfo">
-                                                            <span class="dp-Icon dp-iconUserAvatar"></span>
-                                                            <span class="dp-UserName">Single-line item</span>
-                                                        </span>
-                                                    </span>
-                                                    <span class="dp-LevelRight">
-                                                        <span class="dp-Tag Tag--small Tag--grey">Draft</span>
-                                                    </span>
-                                                </span>
-        <!--                                     </div>
-
-                                        </div>
-                                    </div>
-                                </div> -->
-                            </div>
-                        </div>
-
-                        <!-- 20 -->
-                        <div class="rst__node dp-Card dp-Level" style="height: 62px; left: 0px; position: absolute; top: 1178px; width: 100%;">
-                            <div class="rst__lineBlock rst__lineHalfHorizontalRight rst__lineFullVertical" style="width: 44px;"></div>
-                            <div class="rst__nodeContent" style="left: 44px;">
-<!--                                 <div style="height: 100%;">
-                                    <div class="rst__rowWrapper">
-                                        <div class="rst__row" style="opacity: 1;">
-
-                                            <div class="dp-Card dp-Level"> -->
-                                                <span class="dp-LevelItem Level-justify-between">
-                                                    <span class="dp-LevelLeft dp-LevelTop">
-                                                        <span class="dp-LevelTop">
-                                                            <span class="dp-Icon dp-drag"></span>
-                                                        </span>
-                                                        <span class="dp-Card-title">Card title here</span>
-                                                    </span>
-                                                </span>
-                                                <span class="dp-LevelItem Level-justify-between">
-                                                    <span class="dp-LevelLeft">
-                                                        <span class="dp-UserInfo">
-                                                            <span class="dp-Icon dp-iconUserAvatar"></span>
-                                                            <span class="dp-UserName">Single-line item</span>
-                                                        </span>
-                                                    </span>
-                                                    <span class="dp-LevelRight">
-                                                        <span class="dp-Tag Tag--small Tag--grey">Draft</span>
-                                                    </span>
-                                                </span>
-  <!--                                           </div>
-
-                                        </div>
-                                    </div>
-                                </div> -->
-                            </div>
-                        </div>
-
-                        <!-- 21 -->
-                        <div class="rst__node dp-Card dp-Level" style="height: 62px; left: 0px; position: absolute; top: 1240px; width: 100%;">
-                            <div class="rst__lineBlock rst__lineHalfVerticalTop rst__lineHalfHorizontalRight" style="width: 44px;"></div>
-                            <div class="rst__nodeContent" style="left: 44px;">
-<!--                                 <div style="height: 100%;">
-                                    <div class="rst__rowWrapper">
-                                        <div class="rst__row" style="opacity: 1;">
-
-                                            <div class="dp-Card dp-Level"> -->
-                                                <span class="dp-LevelItem Level-justify-between">
-                                                    <span class="dp-LevelLeft dp-LevelTop">
-                                                        <span class="dp-LevelTop">
-                                                            <span class="dp-Icon dp-drag"></span>
-                                                        </span>
-                                                        <span class="dp-Card-title">Card title here</span>
-                                                    </span>
-                                                </span>
-                                                <span class="dp-LevelItem Level-justify-between">
-                                                    <span class="dp-LevelLeft">
-                                                        <span class="dp-UserInfo">
-                                                            <span class="dp-Icon dp-iconUserAvatar"></span>
-                                                            <span class="dp-Icon dp-iconUserAvatar"></span>
-                                                        </span>
-                                                    </span>
-                                                </span>
-<!--                                             </div>
-
-                                        </div>
-                                    </div>
-                                </div> -->
-                            </div>
-                        </div>
-
+                <!-- 1 -->
+                <div class="dp-Card dp-Level Card--depth-0 Check--nocheck">
+                    <div class="dp-LevelItem Level-justify-between">
+                        <span class="dp-LevelLeft">
+                            <span class="dp-LevelTop">
+                                <span class="dp-Icon dp-drag"></span>
+                            </span>
+                            <span class="dp-Card-title">Personalize your helpdesk</span>
+                        </span>
+                        <span class="dp-LevelRight">
+                            <span class="dp-IconGroup">
+                                <span class="dp-Icon Icon--caret-up Icon--primary"></span>
+                            </span>
+                        </span>
+                    </div>
+                    <div class="dp-LevelItem Level-justify-between">
+                        <span class="dp-LevelLeft">
+                            You should set the name of your helpdesk and enter the details of your official website.
+                            Go to Admin > Setup > Settings.
+                            If your organization has a we...
+                        </span>
                     </div>
                 </div>
-            </div>
 
-            <div class="resize-triggers">
-                <div class="expand-trigger">
-                    <div style="width: 738px; height: 1302px;"></div>
+                <!-- 2 -->
+                <div class="dp-Card dp-Level Card--depth-1 Check--nocheck" style="padding-left: 35px;">
+                    <div class="rst__lineBlock rst__lineHalfHorizontalRight rst__lineFullVertical" style="width: 30px;"></div>
+                    <div class="dp-LevelItem Level-justify-between">
+                        <span class="dp-LevelLeft">
+                            <span class="dp-LevelTop">
+                                <span class="dp-Icon dp-drag"></span>
+                            </span>
+                            <span class="dp-Card-title">Customize your portal</span>
+                        </span>
+                    </div>
+                    <div class="dp-LevelItem Level-justify-between">
+                        <span class="dp-LevelLeft"></span>
+                    </div>
                 </div>
-                <div class="contract-trigger"></div>
+
+                <!-- 3 -->
+                <div class="dp-Card dp-Level Card--depth-1 Check--nocheck" style="padding-left: 35px;">
+                    <div class="rst__lineBlock rst__lineHalfVerticalTop rst__lineHalfHorizontalRight" style="width: 30px;border-bottom: 1px solid transparent;margin-top: -1px;"></div>
+                    <div class="dp-LevelItem Level-justify-between">
+                        <span class="dp-LevelLeft">
+                            <span class="dp-LevelTop">
+                                <span class="dp-Icon dp-drag"></span>
+                            </span>
+                            <span class="dp-Card-title">Customize your portal</span>
+                        </span>
+                    </div>
+                    <div class="dp-LevelItem Level-justify-between">
+                        <span class="dp-LevelLeft"></span>
+                    </div>
+                </div>
+
+                <!-- 4 -->
+                <div class="dp-Card dp-Level Card--depth-0 Check--nocheck">
+                    <div class="dp-LevelItem Level-justify-between">
+                        <span class="dp-LevelLeft">
+                            <span class="dp-LevelTop">
+                                <span class="dp-Icon dp-drag"></span>
+                            </span>
+                            <span class="dp-Card-title">Extra customization options</span>
+                        </span>
+                    </div>
+                    <div class="dp-LevelItem Level-justify-between">
+                        <span class="dp-LevelLeft">
+                            If you’d like your Tickets to store extra data, you can change 
+                            and add custom -- Broken link - topic:233 -- at Admin > Tickets > Fields, and edit the...
+                        </span>
+                    </div>
+                </div>
+
+                <!-- 5 -->
+                <div class="dp-Card dp-Level Card--depth-0 Check--nocheck">
+                    <div class="dp-LevelItem Level-justify-between">
+                        <span class="dp-LevelLeft">
+                            <span class="dp-LevelTop">
+                                <span class="dp-Icon dp-drag"></span>
+                            </span>
+                            <span class="dp-Card-title">Launch the Helpdesk!</span>
+                        </span>
+                    </div>
+                    <div class="dp-LevelItem Level-justify-between">
+                        <span class="dp-LevelLeft">
+                            Make sure your Agents know that they are going to be helping Users through 
+                            Deskpro and that they are happy with the Agent interface. Publicize your ne...
+                        </span>
+                    </div>
+                </div>
+
             </div>
         </div>
-    </div>
+    <!-- </div> -->
+
 </div>
 
 ```
