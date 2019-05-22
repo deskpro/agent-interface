@@ -113,9 +113,9 @@
   border-top: 1px solid transparent;
 }
 
-.dp-CardList.dp-CardList.CardList--tree > .dp-Card.CardList--subLevel {
+/* .dp-CardList.dp-CardList.CardList--tree > .dp-Card.CardList--subLevel {
   border-left: 0;
-}
+} */
 
 .dp-CustomCheckbox input[type="checkbox"] + label.dp-Card-title {
   font: var(--h-n-semibold);
@@ -159,12 +159,8 @@
   flex: 1 0 auto;
 }
 
-.dp-CardList.CardList--tree .dp-Card {
+.dp-CardList .dp-Card {
   border-left: 1px solid var(--grey-light);
-
-  /*  border: none;
-  flex-direction: row; */
-
 }
 
 .dp-Card.is-hover,
@@ -232,20 +228,20 @@
   width: 18px;
 }
 
-.dp-CardList.CardList--tree .CardList--subLevel {
+/* .dp-CardList.CardList--tree .CardList--subLevel {
   border-bottom: 0;
   display: none;
   margin: 0;
   padding: 0 0 0 30px;
   position: relative;
   width: 100%;
-}
+} */
 
 .dp-Card.is-active .Icon--down-caret {
   transform: rotate(-180deg);
 }
 
-.CardList--subLevel > .dp-Card::before {
+/* .CardList--subLevel > .dp-Card::before {
   background-image: url('data:image/svg+xml,<svg width="15" height="19" viewBox="0 0 15 19" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0)"><path d="M11.05 14.1H0.550003C0.250003 14.1 0.0500031 13.9 0.0500031 13.7V1.40002C0.0500031 1.10002 0.250003 0.900024 0.550003 0.900024C0.850003 0.900024 1.05 1.10002 1.05 1.40002V13.2H11.05C11.35 13.2 11.55 13.4 11.55 13.7C11.55 14 11.35 14.1 11.05 14.1Z" fill="%23979797"/><path d="M9.55 8.90002V18.2L14.35 13.5C14.25 13.4 9.75 8.90002 9.55 8.90002Z" fill="%23979797"/></g><defs><clipPath id="clip0"><rect width="14.2" height="17.3" fill="white" transform="translate(0.0500031 0.900024)"/></clipPath></defs></svg>');
   content: "";
   display: block;
@@ -255,7 +251,7 @@
   top: 5px;
   width: 15px;
   z-index: 1;
-}
+} */
 
 .CardList--subLevel > .dp-Card:not(:first-child)::after {
   background-color: var(--grey);
@@ -272,7 +268,7 @@
   border-left: 1px solid var(--grey-light);
 }
 
-.dp-CardList.CardList--tree .CardList--subLevel::after {
+/* .dp-CardList.CardList--tree .CardList--subLevel::after {
   background-color: var(--grey-lightest);
   content: "";
   display: block;
@@ -281,14 +277,14 @@
   position: absolute;
   top: 0;
   width: 30px;
-}
+} */
 
-.dp-CardList.CardList--tree .CardList--subLevel .dp-sub_field {
+/* .dp-CardList.CardList--tree .CardList--subLevel .dp-sub_field {
   left: -20px;
   position: absolute;
   top: 5px;
   z-index: 1;
-}
+} */
 
 .dp-Card .dp-drag,
 .dp-Card .Icon--drag {
@@ -297,7 +293,7 @@
   width: 12px;
 }
 
-.dp-CardList.CardList--tree .dp-Card .dp-drag {
+.dp-CardList .dp-Card .dp-drag {
   height: 14px;
 }
 
@@ -305,15 +301,15 @@
   display: none;
 }
 
-.dp-CardList.CardList--tree .dp-Card .dp-iconUserAvatar + .dp-iconUserAvatar {
+.dp-CardList .dp-Card .dp-iconUserAvatar + .dp-iconUserAvatar {
   background-color: var(--white);
   border-radius: 50%;
   margin-left: -7px;
   padding: 10px;
 }
 
-.dp-CardList.CardList--tree .dp-Card.is-hover .dp-iconUserAvatar + .dp-iconUserAvatar,
-.dp-CardList.CardList--tree .dp-Card:hover .dp-iconUserAvatar + .dp-iconUserAvatar {
+.dp-CardList .dp-Card.is-hover .dp-iconUserAvatar + .dp-iconUserAvatar,
+.dp-CardList .dp-Card:hover .dp-iconUserAvatar + .dp-iconUserAvatar {
   background-color: var(--info-light);
 }
 

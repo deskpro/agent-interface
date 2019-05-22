@@ -4,7 +4,3 @@
 .Cardwrapper-demo {
   height: 250px;
 }
-
-.demo-CardList .dp-CardList.CardList--tree .dp-Card.is-active + .CardList--subLevel {
-  display: block;
-}
