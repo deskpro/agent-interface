@@ -2493,9 +2493,9 @@ title: Sort and Re-order
                 </span>
 
                 <!-- dropdown -->
-                <ul class="dp-Menu Menu--tick">
+                <div class="dp-DropdownPanel">
 
-                    <li class="dp-Menu-linkItem dp-SortOrder">
+                    <div class="dp-Menu-linkItem dp-SortOrder">
                         <span class="dp-RadioWrapper">
                             <span class="dp-RadioItem">
                                 <input type="radio" class="dp-Input Input--radio" id="radio-two" value="radio-two" name="radio-two">
@@ -2508,253 +2508,255 @@ title: Sort and Re-order
                             Set as Display Order
                             <span class="dp-Tooltip">Set the currently selected Sort by as Display Order.</span>
                         </a>
-                    </li>
-
-                    <li class="dp-Menu-linkItem dp-SortList">
-                        <ul>
-                            <li class="dp-Menu-linkItem">
-                                <span class="dp-RadioWrapper">
-                                    <span class="dp-RadioItem">
-                                        <input type="radio" class="dp-Input Input--radio" id="radiosort-2" value="radiosort-2" name="radio-two">
-                                        <label for="radiosort-2">Sort by</label>
+                    </div>
+                    
+                    <ul class="dp-Menu Menu--tick">
+                        <li class="dp-Menu-linkItem dp-SortList">
+                            <ul>
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-RadioWrapper">
+                                        <span class="dp-RadioItem">
+                                            <input type="radio" class="dp-Input Input--radio" id="radiosort-2" value="radiosort-2" name="radio-two">
+                                            <label for="radiosort-2">Sort by</label>
+                                        </span>
                                     </span>
-                                </span>
-                            </li>
+                                </li>
 
-                            <li class="dp-Menu-linkItem">
-                                <a href="" class="dp-listItem">
-                                    Urgency
-                                </a>
-                                <!-- Icon hover -->
-                                <span class="dp-Cog">
-                                    <span class="dp-Icon dp-settings"></span>
-                                    <ul class="dp-Menu Menu--tick">
-                                        <li class="dp-Menu-linkItem">
-                                            <a href="#" class="dp-listItem">
-                                                Ascending
-                                            </a>
-                                        </li>
-                                        <li class="dp-Menu-linkItem">
-                                            <a href="#" class="dp-listItem">
-                                                Descending
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </span>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <a href="" class="dp-listItem">Date crated</a>
-                                <!-- Icon hover -->
-                                <span class="dp-Cog">
-                                    <span class="dp-Icon dp-settings"></span>
-                                    <ul class="dp-Menu Menu--tick">
-                                        <li class="dp-Menu-linkItem">
-                                            <a href="#" class="dp-listItem">
-                                                Ascending
-                                            </a>
-                                        </li>
-                                        <li class="dp-Menu-linkItem">
-                                            <a href="#" class="dp-listItem">
-                                                Descending
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </span>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <a href="" class="dp-listItem">Date published (DSC)</a>
-                                <!-- Icon hover -->
-                                <span class="dp-Cog">
-                                    <span class="dp-Icon dp-settings"></span>
-                                    <ul class="dp-Menu Menu--tick">
-                                        <li class="dp-Menu-linkItem">
-                                            <a href="#" class="dp-listItem">
-                                                Ascending
-                                            </a>
-                                        </li>
-                                        <li class="dp-Menu-linkItem">
-                                            <a href="#" class="dp-listItem">
-                                                Descending
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </span>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <a href="" class="dp-listItem">Date of last agent reply</a>
-                                <!-- Icon hover -->
-                                <span class="dp-Cog">
-                                    <span class="dp-Icon dp-settings"></span>
-                                    <ul class="dp-Menu Menu--tick">
-                                        <li class="dp-Menu-linkItem">
-                                            <a href="#" class="dp-listItem">
-                                                Ascending
-                                            </a>
-                                        </li>
-                                        <li class="dp-Menu-linkItem">
-                                            <a href="#" class="dp-listItem">
-                                                Descending
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </span>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <a href="" class="dp-listItem">Date of last user reply</a>
-                                <!-- Icon hover -->
-                                <span class="dp-Cog">
-                                    <span class="dp-Icon dp-settings"></span>
-                                    <ul class="dp-Menu Menu--tick">
-                                        <li class="dp-Menu-linkItem">
-                                            <a href="#" class="dp-listItem">
-                                                Ascending
-                                            </a>
-                                        </li>
-                                        <li class="dp-Menu-linkItem">
-                                            <a href="#" class="dp-listItem">
-                                                Descending
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </span>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <a href="" class="dp-listItem">Widget type</a>
-                                <!-- Icon hover -->
-                                <span class="dp-Cog">
-                                    <span class="dp-Icon dp-settings"></span>
-                                    <ul class="dp-Menu Menu--tick">
-                                        <li class="dp-Menu-linkItem">
-                                            <a href="#" class="dp-listItem">
-                                                Ascending
-                                            </a>
-                                        </li>
-                                        <li class="dp-Menu-linkItem">
-                                            <a href="#" class="dp-listItem">
-                                                Descending
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </span>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <a href="" class="dp-listItem">Widget description</a>
-                                <!-- Icon hover -->
-                                <span class="dp-Cog">
-                                    <span class="dp-Icon dp-settings"></span>
-                                    <ul class="dp-Menu Menu--tick">
-                                        <li class="dp-Menu-linkItem">
-                                            <a href="#" class="dp-listItem">
-                                                Ascending
-                                            </a>
-                                        </li>
-                                        <li class="dp-Menu-linkItem">
-                                            <a href="#" class="dp-listItem">
-                                                Descending
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </span>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <a href="" class="dp-listItem">Desired sizes</a>
-                                <!-- Icon hover -->
-                                <span class="dp-Cog">
-                                    <span class="dp-Icon dp-settings"></span>
-                                    <ul class="dp-Menu Menu--tick">
-                                        <li class="dp-Menu-linkItem">
-                                            <a href="#" class="dp-listItem">
-                                                Ascending
-                                            </a>
-                                        </li>
-                                        <li class="dp-Menu-linkItem">
-                                            <a href="#" class="dp-listItem">
-                                                Descending
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </span>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <a href="" class="dp-listItem">Manufacturing date</a>
-                                <!-- Icon hover -->
-                                <span class="dp-Cog">
-                                    <span class="dp-Icon dp-settings"></span>
-                                    <ul class="dp-Menu Menu--tick">
-                                        <li class="dp-Menu-linkItem">
-                                            <a href="#" class="dp-listItem">
-                                                Ascending
-                                            </a>
-                                        </li>
-                                        <li class="dp-Menu-linkItem">
-                                            <a href="#" class="dp-listItem">
-                                                Descending
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </span>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <a href="" class="dp-listItem">Reason for cancellation</a>
-                                <!-- Icon hover -->
-                                <span class="dp-Cog">
-                                    <span class="dp-Icon dp-settings"></span>
-                                    <ul class="dp-Menu Menu--tick">
-                                        <li class="dp-Menu-linkItem">
-                                            <a href="#" class="dp-listItem">
-                                                Ascending
-                                            </a>
-                                        </li>
-                                        <li class="dp-Menu-linkItem">
-                                            <a href="#" class="dp-listItem">
-                                                Descending
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </span>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <a href="" class="dp-listItem">Reason for complaint</a>
-                                <!-- Icon hover -->
-                                <span class="dp-Cog">
-                                    <span class="dp-Icon dp-settings"></span>
-                                    <ul class="dp-Menu Menu--tick">
-                                        <li class="dp-Menu-linkItem">
-                                            <a href="#" class="dp-listItem">
-                                                Ascending
-                                            </a>
-                                        </li>
-                                        <li class="dp-Menu-linkItem">
-                                            <a href="#" class="dp-listItem">
-                                                Descending
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </span>
-                            </li>
-                            <li class="dp-Menu-linkItem">
-                                <a href="" class="dp-listItem">Suggested actions</a>
-                                <!-- Icon hover -->
-                                <span class="dp-Cog">
-                                    <span class="dp-Icon dp-settings"></span>
-                                    <ul class="dp-Menu Menu--tick">
-                                        <li class="dp-Menu-linkItem">
-                                            <a href="#" class="dp-listItem">
-                                                Ascending
-                                            </a>
-                                        </li>
-                                        <li class="dp-Menu-linkItem">
-                                            <a href="#" class="dp-listItem">
-                                                Descending
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </span>
-                            </li>
-                        </ul>
-                    </li>
+                                <li class="dp-Menu-linkItem">
+                                    <a href="" class="dp-listItem">
+                                        Urgency
+                                    </a>
+                                    <!-- Icon hover -->
+                                    <span class="dp-Cog">
+                                        <span class="dp-Icon dp-settings"></span>
+                                        <ul class="dp-Menu Menu--tick">
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Ascending
+                                                </a>
+                                            </li>
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Descending
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </span>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <a href="" class="dp-listItem">Date crated</a>
+                                    <!-- Icon hover -->
+                                    <span class="dp-Cog">
+                                        <span class="dp-Icon dp-settings"></span>
+                                        <ul class="dp-Menu Menu--tick">
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Ascending
+                                                </a>
+                                            </li>
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Descending
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </span>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <a href="" class="dp-listItem">Date published (DSC)</a>
+                                    <!-- Icon hover -->
+                                    <span class="dp-Cog">
+                                        <span class="dp-Icon dp-settings"></span>
+                                        <ul class="dp-Menu Menu--tick">
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Ascending
+                                                </a>
+                                            </li>
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Descending
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </span>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <a href="" class="dp-listItem">Date of last agent reply</a>
+                                    <!-- Icon hover -->
+                                    <span class="dp-Cog">
+                                        <span class="dp-Icon dp-settings"></span>
+                                        <ul class="dp-Menu Menu--tick">
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Ascending
+                                                </a>
+                                            </li>
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Descending
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </span>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <a href="" class="dp-listItem">Date of last user reply</a>
+                                    <!-- Icon hover -->
+                                    <span class="dp-Cog">
+                                        <span class="dp-Icon dp-settings"></span>
+                                        <ul class="dp-Menu Menu--tick">
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Ascending
+                                                </a>
+                                            </li>
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Descending
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </span>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <a href="" class="dp-listItem">Widget type</a>
+                                    <!-- Icon hover -->
+                                    <span class="dp-Cog">
+                                        <span class="dp-Icon dp-settings"></span>
+                                        <ul class="dp-Menu Menu--tick">
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Ascending
+                                                </a>
+                                            </li>
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Descending
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </span>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <a href="" class="dp-listItem">Widget description</a>
+                                    <!-- Icon hover -->
+                                    <span class="dp-Cog">
+                                        <span class="dp-Icon dp-settings"></span>
+                                        <ul class="dp-Menu Menu--tick">
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Ascending
+                                                </a>
+                                            </li>
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Descending
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </span>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <a href="" class="dp-listItem">Desired sizes</a>
+                                    <!-- Icon hover -->
+                                    <span class="dp-Cog">
+                                        <span class="dp-Icon dp-settings"></span>
+                                        <ul class="dp-Menu Menu--tick">
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Ascending
+                                                </a>
+                                            </li>
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Descending
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </span>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <a href="" class="dp-listItem">Manufacturing date</a>
+                                    <!-- Icon hover -->
+                                    <span class="dp-Cog">
+                                        <span class="dp-Icon dp-settings"></span>
+                                        <ul class="dp-Menu Menu--tick">
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Ascending
+                                                </a>
+                                            </li>
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Descending
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </span>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <a href="" class="dp-listItem">Reason for cancellation</a>
+                                    <!-- Icon hover -->
+                                    <span class="dp-Cog">
+                                        <span class="dp-Icon dp-settings"></span>
+                                        <ul class="dp-Menu Menu--tick">
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Ascending
+                                                </a>
+                                            </li>
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Descending
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </span>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <a href="" class="dp-listItem">Reason for complaint</a>
+                                    <!-- Icon hover -->
+                                    <span class="dp-Cog">
+                                        <span class="dp-Icon dp-settings"></span>
+                                        <ul class="dp-Menu Menu--tick">
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Ascending
+                                                </a>
+                                            </li>
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Descending
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </span>
+                                </li>
+                                <li class="dp-Menu-linkItem">
+                                    <a href="" class="dp-listItem">Suggested actions</a>
+                                    <!-- Icon hover -->
+                                    <span class="dp-Cog">
+                                        <span class="dp-Icon dp-settings"></span>
+                                        <ul class="dp-Menu Menu--tick">
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Ascending
+                                                </a>
+                                            </li>
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">
+                                                    Descending
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </span>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
 
-                </ul>
+                </div>
             </div>
 
             <!-- 3 -->

@@ -81,9 +81,11 @@
   top: 0;
 }
 
-.demo-menu .dp-Menu-linkItem {
+/* .demo-menu .dp-Menu-linkItem,
+.demo-menu .dp-SortOrder,
+.demo-menu .dp-SortList {
   padding: 3.5px 10px;
-}
+} */
 
 .demo-menu .dp-CustomCheckbox .dp-Menu {
   left: 10px;
@@ -175,4 +177,19 @@
 
 .demo-CloseBtn {
   position: relative;
+}
+
+/* Knowledgebase page */
+
+.demo-menu .dp-OrderingBar-item.is-active .dp-SortOrder + .dp-Menu {
+  display: block;
+}
+
+.demo-menu .dp-OrderingBar-item.is-active .dp-DropdownPanel {
+  display: block;
+}
+
+.demo-menu .dp-DropdownPanel {
+  left: 0;
+  top: calc(100% + 5px);
 }

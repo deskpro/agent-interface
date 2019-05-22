@@ -101,14 +101,18 @@
   padding: 0;
 }
 
-.dp-Knowledgebase .dp-DropDownItem .dp-Menu {
+.dp-Knowledgebase .dp-DropDownItem .dp-Menu,
+.dp-Knowledgebase .dp-DropDownItem .dp-DropdownPanel {
   min-width: 200px;
 }
 
 .dp-Knowledgebase .dp-SortOrder {
-  align-items: flex-start;
+  background-color: #fff;
   border-bottom: 1px solid var(--grey-light);
-  flex-direction: column;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+  padding: 10px 10px 0 30px;
 }
 
 .dp-Knowledgebase .dp-SortList:hover .dp-RadioWrapper [type="radio"] + label,
@@ -128,9 +132,9 @@
   line-height: 1;
 }
 
-.dp-Knowledgebase .dp-Menu-linkItem.dp-SortOrder .dp-Subtitle {
+.dp-Knowledgebase .dp-SortOrder .dp-Subtitle {
   color: var(--grey-dark);
-  padding: 2px 0 10px;
+  padding: 2px 0 0;
 }
 
 .dp-Knowledgebase .dp-Menu-linkItem .dp-RadioWrapper {
@@ -141,9 +145,11 @@
   border: 0.75px solid var(--grey);
   border-radius: 2px;
   display: flex;
+  font-size: 11px;
   line-height: 1;
-  margin-bottom: 17px;
-  padding: 5px 8px 5px 5px;
+  margin: 8px 0 17px 0;
+  max-width: max-content;
+  padding: 5px 10px 5px 5px;
   position: relative;
 }
 
@@ -158,6 +164,7 @@
   min-width: 135px;
   padding: 7px;
   position: absolute;
+  z-index: 10;
 }
 
 .dp-Knowledgebase .dp-Order-btn:hover .dp-Tooltip {
@@ -275,4 +282,20 @@
 .dp-Filters-title + .dp-Icon {
   margin-left: auto;
   margin-right: 0;
+}
+
+.dp-DropdownPanel {
+  border: 1px solid #3a8dde;
+  border-radius: 0.25rem;
+  display: none;
+  position: absolute;
+  z-index: 9;
+}
+
+.dp-DropdownPanel .dp-SortOrder + .dp-Menu {
+  border: 0;
+  border-bottom-left-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+  margin: 0;
+  position: relative;
 }
