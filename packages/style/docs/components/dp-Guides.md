@@ -2073,7 +2073,6 @@ title: Guides
 
                 <!-- 2 -->
                 <div class="dp-Card dp-Level Card--depth-1 Check--nocheck">
-                    <!-- <div class="dp-Caret-col Caret--HalfHorizontalRight Caret--FullVertical"></div> -->
                     <div class="dp-Caret-col dp-Caret dp-Caret-line"></div>
                     <div class="dp-LevelItem Level-justify-between">
                         <span class="dp-LevelLeft">
@@ -2090,7 +2089,6 @@ title: Guides
 
                 <!-- 3 -->
                 <div class="dp-Card dp-Level Card--depth-1 Check--nocheck">
-                    <!-- <div class="dp-Caret-col Caret--HalfHorizontalRight Caret--HalfVerticalTop"></div> -->
                     <div class="dp-Caret-col dp-Caret dp-Caret-Topline"></div>
                     <div class="dp-LevelItem Level-justify-between">
                         <span class="dp-LevelLeft">
@@ -2112,9 +2110,7 @@ title: Guides
 
                 <!-- 4 -->
                 <div class="dp-Card dp-Level Card--depth-2 Check--nocheck">
-                    <div class="dp-Caret-col"></div>
-                    <!-- <div class="dp-Caret-col Caret--HalfHorizontalRight Caret--HalfVerticalTop" style="left:30px;"></div> -->
-                    <div class="dp-Caret-col dp-Caret" style="left:30px;"></div>
+                    <div class="dp-Caret-col dp-Caret"></div>
                     <div class="dp-LevelItem Level-justify-between">
                         <span class="dp-LevelLeft">
                             <span class="dp-LevelTop">
@@ -2179,7 +2175,6 @@ title: Guides
 
                 <!-- 7 -->
                 <div class="dp-Card dp-Level Card--depth-1 Check--nocheck">
-                    <!-- <div class="dp-Caret-col Caret--HalfHorizontalRight Caret--HalfVertical"></div> -->
                     <div class="dp-Caret-col dp-Caret"></div>
                     <div class="dp-LevelItem Level-justify-between">
                         <span class="dp-LevelLeft">
@@ -2201,9 +2196,7 @@ title: Guides
 
                 <!-- 8 -->
                 <div class="dp-Card dp-Level Card--depth-2 Check--nocheck">
-                    <div class="dp-Caret-col"></div>
-                    <!-- <div class="dp-Caret-col Caret--HalfHorizontalRight Caret--FullVertical" style="left:30px;"></div> -->
-                    <div class="dp-Caret-col dp-Caret dp-Caret-Bottomline" style="left:30px;"></div>
+                    <div class="dp-Caret-col dp-Caret dp-Caret-line"></div>
                     <div class="dp-LevelItem Level-justify-between">
                         <span class="dp-LevelLeft">
                             <span class="dp-LevelTop">
@@ -2224,9 +2217,7 @@ title: Guides
 
                 <!-- 9 -->
                 <div class="dp-Card dp-Level Card--depth-2 Check--nocheck">
-                    <div class="dp-Caret-col"></div>
-                    <!-- <div class="dp-Caret-col Caret--HalfHorizontalRight Caret--FullVertical" style="left:30px;"></div> -->
-                    <div class="dp-Caret-col dp-Caret dp-Caret-line" style="left:30px;"></div>
+                    <div class="dp-Caret-col dp-Caret dp-Caret-line"></div>
                     <div class="dp-LevelItem Level-justify-between">
                         <span class="dp-LevelLeft">
                             <span class="dp-LevelTop">
@@ -2250,9 +2241,7 @@ title: Guides
 
                 <!-- 10 -->
                 <div class="dp-Card dp-Level Card--depth-2 Check--nocheck">
-                    <div class="dp-Caret-col"></div>
-                    <!-- <div class="dp-Caret-col Caret--HalfHorizontalRight Caret--FullVertical" style="left:30px;"></div> -->
-                    <div class="dp-Caret-col dp-Caret dp-Caret-line" style="left:30px;"></div>
+                    <div class="dp-Caret-col dp-Caret dp-Caret-line"></div>
                     <div class="dp-LevelItem Level-justify-between">
                         <span class="dp-LevelLeft">
                             <span class="dp-LevelTop">
@@ -2273,9 +2262,7 @@ title: Guides
 
                 <!-- 11 -->
                 <div class="dp-Card dp-Level Card--depth-2 Check--nocheck">
-                    <div class="dp-Caret-col"></div>
-                    <!-- <div class="dp-Caret-col Caret--HalfHorizontalRight Caret--HalfVerticalTop" style="left:30px;"></div> -->
-                    <div class="dp-Caret-col dp-Caret dp-Caret-Topline" style="left:30px;"></div>
+                    <div class="dp-Caret-col dp-Caret dp-Caret-Topline"></div>
                     <div class="dp-LevelItem Level-justify-between">
                         <span class="dp-LevelLeft">
                             <span class="dp-LevelTop">
