@@ -72,7 +72,7 @@ const GuidesCardList: React.FC<GuidesCardListProps> = ({
   );
 
   return (
-    <CardList className="CardList--tree">
+    <CardList>
       <Tree
         tree={data}
         onDragEnd={handleDragEnd}
@@ -85,18 +85,20 @@ const GuidesCardList: React.FC<GuidesCardListProps> = ({
           onCollapse,
           provided,
           snapshot
-        }) =>
-          renderCard(item.data, {
-            className: `Card--depth-${depth}`,
-            expandable: item.hasChildren,
-            expanded: item.isExpanded,
-            onExpandToggle: item.isExpanded ? onCollapse : onExpand,
-            dragHandleProps: provided.dragHandleProps,
-            isDragging: snapshot.isDragging,
-            innerRef: provided.innerRef,
-            draggableProps: provided.draggableProps
-          })
-        }
+        }) => (
+          <div className={`dp-TreeItem Card--depth-${depth}`}>
+            {depth > 0 && <div className="dp-Caret-col dp-Caret" />}
+            {renderCard(item.data, {
+              expandable: item.hasChildren,
+              expanded: item.isExpanded,
+              onExpandToggle: item.isExpanded ? onCollapse : onExpand,
+              dragHandleProps: provided.dragHandleProps,
+              isDragging: snapshot.isDragging,
+              innerRef: provided.innerRef,
+              draggableProps: provided.draggableProps
+            })}
+          </div>
+        )}
         isDragEnabled
       />
     </CardList>
