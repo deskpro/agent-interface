@@ -11327,9 +11327,9 @@ react-syntax-highlighter@^8.0.1:
     refractor "^2.4.1"
 
 react-table@^7.0.0-alpha.2:
-  version "7.0.0-alpha.2"
-  resolved "https://registry.yarnpkg.com/react-table/-/react-table-7.0.0-alpha.2.tgz#bb21f971d7a4e075b4afb0bce2163ce6bb1704f7"
-  integrity sha512-TySZyFU41XCuJT8GpCHvjtjiV+CgryLH4B2L/nFpSAXslPB7iSjxCC96vZCZf62vrC4m74UloFhVsPio38Lo9Q==
+  version "7.0.0-alpha.3"
+  resolved "https://registry.yarnpkg.com/react-table/-/react-table-7.0.0-alpha.3.tgz#a1bb3729a230c0c0d652fd71ee2e665d64d4d6b5"
+  integrity sha512-Ap9t+jBRT4RjWHqpNpMc9HzRyKsqyq9robk9jc69Vdr589gqvbgr/scY9/QqE40WZrD41Jbb2W3uHtsR4yjo7g==
 
 react-test-renderer@^16.0.0-0, react-test-renderer@^16.8.4:
   version "16.8.4"
