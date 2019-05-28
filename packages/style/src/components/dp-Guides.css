@@ -197,8 +197,9 @@
   height: 100%;
   justify-content: center;
   margin: auto;
-  padding-right: 5px;
   width: 18px;
+
+  /* padding-right: 5px; */
 }
 
 .dp-Guides-list .Guide--section .dp-Guide-titleContainer .dp-Icon {

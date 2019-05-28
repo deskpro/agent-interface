@@ -563,28 +563,52 @@ title: Page Tabs
             <ul class="dp-Menu is-visible">
                 <li class="dp-Menu-title">Add</li>
                 <li class="dp-Menu-linkItem">
-                    <a href="#" class="dp-Menu-link"><span class="dp-Icon Icon--email"></span>Ticket</a>
+                    <span class="dp-linkItem-wrap">
+                        <span class="dp-Icon Icon--email"></span>
+                        <span class="dp-Menu-link">Ticket</span>
+                    </span>
                 </li>
                 <li class="dp-Menu-linkItem">
-                    <a href="#" class="dp-Menu-link"><span class="dp-Icon Icon--user"></span>Person</a>
+                    <span class="dp-linkItem-wrap">
+                        <span class="dp-Icon Icon--user"></span>
+                        <span class="dp-Menu-link">Person</span>
+                    </span>
                 </li>
                 <li class="dp-Menu-linkItem">
-                    <a href="#" class="dp-Menu-link"><span class="dp-Icon dp-organisation_small"></span>Organisation</a>
+                    <span class="dp-linkItem-wrap">
+                        <span class="dp-Icon dp-organisation_small"></span>
+                        <span class="dp-Menu-link">Organisation</span>
+                    </span>
                 </li>
                 <li class="dp-Menu-linkItem">
-                    <a href="#" class="dp-Menu-link"><span class="dp-Icon dp-publish"></span>Article</a>
+                    <span class="dp-linkItem-wrap">
+                        <span class="dp-Icon dp-publish"></span>
+                        <span class="dp-Menu-link">Article</span>
+                    </span>
                 </li>
                 <li class="dp-Menu-linkItem">
-                    <a href="#" class="dp-Menu-link"><span class="dp-Icon dp-IconNews"></span>News Post</a>
+                    <span class="dp-linkItem-wrap">
+                        <span class="dp-Icon dp-IconNews"></span>
+                        <span class="dp-Menu-link">News Post</span>
+                    </span>
                 </li>
                 <li class="dp-Menu-linkItem">
-                    <a href="#" class="dp-Menu-link"><span class="dp-Icon dp-IconDownload"></span>Download</a>
+                    <span class="dp-linkItem-wrap">
+                        <span class="dp-Icon dp-IconDownload"></span>
+                        <span class="dp-Menu-link">Download</span>
+                    </span>
                 </li>
                 <li class="dp-Menu-linkItem">
-                    <a href="#" class="dp-Menu-link"><span class="dp-Icon dp-feedback"></span>Feedback</a>
+                    <span class="dp-linkItem-wrap">
+                        <span class="dp-Icon dp-feedback"></span>
+                        <span class="dp-Menu-link">Feedback</span>
+                    </span>
                 </li>
                 <li class="dp-Menu-linkItem">
-                    <a href="#" class="dp-Menu-link"><span class="dp-Icon dp-IconTasks"></span>Task</a>
+                    <span class="dp-linkItem-wrap">
+                        <span class="dp-Icon dp-IconTasks"></span>
+                        <span class="dp-Menu-link">Task</span>
+                    </span>
                 </li>
             </ul>
         </li>

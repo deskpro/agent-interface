@@ -2070,7 +2070,138 @@ title: Guides
                                 If your organization has a we...
                             </span>
                         </div>
+
+                        <!-- Icon hover -->
+                        <span class="dp-Cog">
+                            <span class="dp-Icon dp-settings"></span>
+
+                            <!-- dropdown -->
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">
+                                        Move<button class="dp-Arrow"></button>
+                                    </span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-title">
+                                            Topic title
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-ButtonWrapper">
+                                            <button class="dp-Button Button--small" type="button">Move</button>
+                                            <button class="dp-Button Button--small Button--cancel" type="button">Cancel</button>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">
+                                        List item<button class="dp-Arrow"></button>
+                                    </span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">Folder title</a>
+                                            </li>
+                                            <li class="dp-Menu-linkItem">
+                                                <a href="#" class="dp-listItem">Folder title</a>
+                                            </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dp-DropdownDivider"></li>
+
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">
+                                        List item<button class="dp-Arrow"></button>
+                                    </span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">List item<button class="dp-Arrow"></button></span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dp-DropdownDivider"></li>
+
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">List item<button class="dp-Arrow"></button></span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">List item<button class="dp-Arrow"></button></span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder titleFolder title</a>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder titleFolder title</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">List item<button class="dp-Arrow"></button></span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </span>
                     </div>
+
                 </div>
 
                 <!-- 2 -->
@@ -2088,6 +2219,135 @@ title: Guides
                         <div class="dp-LevelItem Level-justify-between">
                             <span class="dp-LevelLeft"></span>
                         </div>
+
+                        <!-- Icon hover -->
+                        <span class="dp-Cog">
+                            <span class="dp-Icon dp-settings"></span>
+                            <!-- dropdown -->
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">
+                                        Move<button class="dp-Arrow"></button>
+                                    </span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-title">
+                                            Topic title
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-ButtonWrapper">
+                                            <button class="dp-Button Button--small" type="button">Move</button>
+                                            <button class="dp-Button Button--small Button--cancel" type="button">Cancel</button>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">
+                                        List item<button class="dp-Arrow"></button>
+                                    </span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dp-DropdownDivider"></li>
+
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">
+                                        List item<button class="dp-Arrow"></button>
+                                    </span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">List item<button class="dp-Arrow"></button></span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dp-DropdownDivider"></li>
+
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">List item<button class="dp-Arrow"></button></span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">List item<button class="dp-Arrow"></button></span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder titleFolder title</a>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder titleFolder title</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">List item<button class="dp-Arrow"></button></span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </span>
                     </div>
                 </div>
 
@@ -2111,6 +2371,135 @@ title: Guides
                         <div class="dp-LevelItem Level-justify-between">
                             <span class="dp-LevelLeft"></span>
                         </div>
+
+                        <!-- Icon hover -->
+                        <span class="dp-Cog">
+                            <span class="dp-Icon dp-settings"></span>
+                            <!-- dropdown -->
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">
+                                        Move<button class="dp-Arrow"></button>
+                                    </span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-title">
+                                            Topic title
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-ButtonWrapper">
+                                            <button class="dp-Button Button--small" type="button">Move</button>
+                                            <button class="dp-Button Button--small Button--cancel" type="button">Cancel</button>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">
+                                        List item<button class="dp-Arrow"></button>
+                                    </span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dp-DropdownDivider"></li>
+
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">
+                                        List item<button class="dp-Arrow"></button>
+                                    </span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">List item<button class="dp-Arrow"></button></span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dp-DropdownDivider"></li>
+
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">List item<button class="dp-Arrow"></button></span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">List item<button class="dp-Arrow"></button></span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder titleFolder title</a>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder titleFolder title</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">List item<button class="dp-Arrow"></button></span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </span>
                     </div>
                 </div>
 
@@ -2134,6 +2523,135 @@ title: Guides
                                 </span>
                             </span>
                         </div>
+
+                        <!-- Icon hover -->
+                        <span class="dp-Cog">
+                            <span class="dp-Icon dp-settings"></span>
+                            <!-- dropdown -->
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">
+                                        Move<button class="dp-Arrow"></button>
+                                    </span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-title">
+                                            Topic title
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-ButtonWrapper">
+                                            <button class="dp-Button Button--small" type="button">Move</button>
+                                            <button class="dp-Button Button--small Button--cancel" type="button">Cancel</button>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">
+                                        List item<button class="dp-Arrow"></button>
+                                    </span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dp-DropdownDivider"></li>
+
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">
+                                        List item<button class="dp-Arrow"></button>
+                                    </span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">List item<button class="dp-Arrow"></button></span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dp-DropdownDivider"></li>
+
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">List item<button class="dp-Arrow"></button></span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">List item<button class="dp-Arrow"></button></span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder titleFolder title</a>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder titleFolder title</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">List item<button class="dp-Arrow"></button></span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </span>
                     </div>
                 </div>
 
@@ -2154,7 +2672,137 @@ title: Guides
                                 Deskpro and that they are happy with the Agent interface. Publicize your ne...
                             </span>
                         </div>
+                        
+                        <!-- Icon hover -->
+                        <span class="dp-Cog">
+                            <span class="dp-Icon dp-settings"></span>
+                            <!-- dropdown -->
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">
+                                        Move<button class="dp-Arrow"></button>
+                                    </span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-title">
+                                            Topic title
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-ButtonWrapper">
+                                            <button class="dp-Button Button--small" type="button">Move</button>
+                                            <button class="dp-Button Button--small Button--cancel" type="button">Cancel</button>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">
+                                        List item<button class="dp-Arrow"></button>
+                                    </span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dp-DropdownDivider"></li>
+
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">
+                                        List item<button class="dp-Arrow"></button>
+                                    </span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">List item<button class="dp-Arrow"></button></span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dp-DropdownDivider"></li>
+
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">List item<button class="dp-Arrow"></button></span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">List item<button class="dp-Arrow"></button></span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder titleFolder title</a>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder titleFolder title</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">List item<button class="dp-Arrow"></button></span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </span>
                     </div>
+
                 </div>
 
                 <!-- 6 -->
@@ -2182,6 +2830,135 @@ title: Guides
                                 </span>
                             </span>
                         </div>
+
+                        <!-- Icon hover -->
+                        <span class="dp-Cog">
+                            <span class="dp-Icon dp-settings"></span>
+                            <!-- dropdown -->
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">
+                                        Move<button class="dp-Arrow"></button>
+                                    </span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-title">
+                                            Topic title
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-ButtonWrapper">
+                                            <button class="dp-Button Button--small" type="button">Move</button>
+                                            <button class="dp-Button Button--small Button--cancel" type="button">Cancel</button>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">
+                                        List item<button class="dp-Arrow"></button>
+                                    </span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dp-DropdownDivider"></li>
+
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">
+                                        List item<button class="dp-Arrow"></button>
+                                    </span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">List item<button class="dp-Arrow"></button></span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dp-DropdownDivider"></li>
+
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">List item<button class="dp-Arrow"></button></span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">List item<button class="dp-Arrow"></button></span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder titleFolder title</a>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder titleFolder title</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">List item<button class="dp-Arrow"></button></span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </span>
                     </div>
                 </div>
 
@@ -2205,6 +2982,135 @@ title: Guides
                                 </span>
                             </span>
                         </div>
+
+                        <!-- Icon hover -->
+                        <span class="dp-Cog">
+                            <span class="dp-Icon dp-settings"></span>
+                            <!-- dropdown -->
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">
+                                        Move<button class="dp-Arrow"></button>
+                                    </span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-title">
+                                            Topic title
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-ButtonWrapper">
+                                            <button class="dp-Button Button--small" type="button">Move</button>
+                                            <button class="dp-Button Button--small Button--cancel" type="button">Cancel</button>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">
+                                        List item<button class="dp-Arrow"></button>
+                                    </span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dp-DropdownDivider"></li>
+
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">
+                                        List item<button class="dp-Arrow"></button>
+                                    </span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">List item<button class="dp-Arrow"></button></span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dp-DropdownDivider"></li>
+
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">List item<button class="dp-Arrow"></button></span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">List item<button class="dp-Arrow"></button></span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder titleFolder title</a>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder titleFolder title</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">List item<button class="dp-Arrow"></button></span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </span>
                     </div>
                 </div>
 
@@ -2228,6 +3134,135 @@ title: Guides
                                 </span>
                             </span>
                         </div>
+
+                        <!-- Icon hover -->
+                        <span class="dp-Cog">
+                            <span class="dp-Icon dp-settings"></span>
+                            <!-- dropdown -->
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">
+                                        Move<button class="dp-Arrow"></button>
+                                    </span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-title">
+                                            Topic title
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-ButtonWrapper">
+                                            <button class="dp-Button Button--small" type="button">Move</button>
+                                            <button class="dp-Button Button--small Button--cancel" type="button">Cancel</button>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">
+                                        List item<button class="dp-Arrow"></button>
+                                    </span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dp-DropdownDivider"></li>
+
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">
+                                        List item<button class="dp-Arrow"></button>
+                                    </span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">List item<button class="dp-Arrow"></button></span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dp-DropdownDivider"></li>
+
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">List item<button class="dp-Arrow"></button></span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">List item<button class="dp-Arrow"></button></span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder titleFolder title</a>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder titleFolder title</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">List item<button class="dp-Arrow"></button></span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </span>
                     </div>
                 </div>
 
@@ -2254,6 +3289,135 @@ title: Guides
                                 <span class="dp-Tag Tag--small Tag--grey">Draft</span>
                             </span>
                         </div>
+
+                        <!-- Icon hover -->
+                        <span class="dp-Cog">
+                            <span class="dp-Icon dp-settings"></span>
+                            <!-- dropdown -->
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">
+                                        Move<button class="dp-Arrow"></button>
+                                    </span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-title">
+                                            Topic title
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-ButtonWrapper">
+                                            <button class="dp-Button Button--small" type="button">Move</button>
+                                            <button class="dp-Button Button--small Button--cancel" type="button">Cancel</button>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">
+                                        List item<button class="dp-Arrow"></button>
+                                    </span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dp-DropdownDivider"></li>
+
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">
+                                        List item<button class="dp-Arrow"></button>
+                                    </span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">List item<button class="dp-Arrow"></button></span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dp-DropdownDivider"></li>
+
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">List item<button class="dp-Arrow"></button></span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">List item<button class="dp-Arrow"></button></span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder titleFolder title</a>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder titleFolder title</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">List item<button class="dp-Arrow"></button></span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </span>
                     </div>
                 </div>
 
@@ -2277,6 +3441,135 @@ title: Guides
                                 </span>
                             </span>
                         </div>
+
+                        <!-- Icon hover -->
+                        <span class="dp-Cog">
+                            <span class="dp-Icon dp-settings"></span>
+                            <!-- dropdown -->
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">
+                                        Move<button class="dp-Arrow"></button>
+                                    </span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-title">
+                                            Topic title
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-ButtonWrapper">
+                                            <button class="dp-Button Button--small" type="button">Move</button>
+                                            <button class="dp-Button Button--small Button--cancel" type="button">Cancel</button>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">
+                                        List item<button class="dp-Arrow"></button>
+                                    </span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dp-DropdownDivider"></li>
+
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">
+                                        List item<button class="dp-Arrow"></button>
+                                    </span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">List item<button class="dp-Arrow"></button></span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dp-DropdownDivider"></li>
+
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">List item<button class="dp-Arrow"></button></span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">List item<button class="dp-Arrow"></button></span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder titleFolder title</a>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder titleFolder title</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">List item<button class="dp-Arrow"></button></span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </span>
                     </div>
                 </div>
 
@@ -2300,6 +3593,135 @@ title: Guides
                                 </span>
                             </span>
                         </div>
+
+                        <!-- Icon hover -->
+                        <span class="dp-Cog">
+                            <span class="dp-Icon dp-settings"></span>
+                            <!-- dropdown -->
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">
+                                        Move<button class="dp-Arrow"></button>
+                                    </span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-title">
+                                            Topic title
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-ButtonWrapper">
+                                            <button class="dp-Button Button--small" type="button">Move</button>
+                                            <button class="dp-Button Button--small Button--cancel" type="button">Cancel</button>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">
+                                        List item<button class="dp-Arrow"></button>
+                                    </span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dp-DropdownDivider"></li>
+
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">
+                                        List item<button class="dp-Arrow"></button>
+                                    </span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">List item<button class="dp-Arrow"></button></span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dp-DropdownDivider"></li>
+
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">List item<button class="dp-Arrow"></button></span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">List item<button class="dp-Arrow"></button></span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder titleFolder title</a>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder titleFolder title</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">List item<button class="dp-Arrow"></button></span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </span>
                     </div>
                 </div>
 
@@ -2325,6 +3747,135 @@ title: Guides
                                 <span class="dp-Tag Tag--small Tag--grey">Draft</span>
                             </span>
                         </div>
+
+                        <!-- Icon hover -->
+                        <span class="dp-Cog">
+                            <span class="dp-Icon dp-settings"></span>
+                            <!-- dropdown -->
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">
+                                        Move<button class="dp-Arrow"></button>
+                                    </span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-title">
+                                            Topic title
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <span href="#" class="dp-listItem">Folder title</span>
+                                        </li>
+                                        <li class="dp-ButtonWrapper">
+                                            <button class="dp-Button Button--small" type="button">Move</button>
+                                            <button class="dp-Button Button--small Button--cancel" type="button">Cancel</button>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">
+                                        List item<button class="dp-Arrow"></button>
+                                    </span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dp-DropdownDivider"></li>
+
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">
+                                        List item<button class="dp-Arrow"></button>
+                                    </span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">List item<button class="dp-Arrow"></button></span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dp-DropdownDivider"></li>
+
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">List item<button class="dp-Arrow"></button></span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">List item<button class="dp-Arrow"></button></span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder titleFolder title</a>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder titleFolder title</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dp-Menu-linkItem">
+                                    <span class="dp-linkItem-wrap">List item<button class="dp-Arrow"></button></span>
+                                    <ul class="dp-Menu Menu--tick Menu--tick-left">
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                        <li class="dp-Menu-linkItem">
+                                            <a href="#" class="dp-listItem">Folder title</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </span>
                     </div>
                 </div>
 

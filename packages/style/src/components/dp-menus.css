@@ -137,9 +137,15 @@
 
 }
 
-.dp-Menu .dp-Menu-linkItem > span {
+.dp-Menu .dp-Menu-linkItem > .dp-linkItem-wrap {
+  align-items: center;
+  display: flex;
   padding: 3.5px 10px;
   position: relative;
+  width: 100%;
+
+  /* display: inline-block; */
+
 }
 
 .dp-Menu .dp-Menu.Menu--tick .dp-Menu-linkItem > span,
@@ -185,6 +191,7 @@
   width: 0;
 }
 
+.dp-Menu .dp-Menu-linkItem:hover > .dp-linkItem-wrap,
 .dp-Menu .dp-Menu-linkItem:hover,
 .dp-Menu .dp-Menu-linkItem.is-active {
   background-color: var(--primary-light);

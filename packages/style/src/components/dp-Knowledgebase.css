@@ -102,7 +102,7 @@
 }
 
 .dp-Knowledgebase .dp-DropDownItem .dp-Menu,
-.dp-Knowledgebase .dp-DropDownItem .dp-DropdownPanel {
+.dp-Knowledgebase .dp-DropdownPanel {
   min-width: 200px;
 }
 
@@ -134,6 +134,7 @@
 
 .dp-Knowledgebase .dp-SortOrder .dp-Subtitle {
   color: var(--grey-dark);
+  font: var(--p-s);
   padding: 2px 0 0;
 }
 

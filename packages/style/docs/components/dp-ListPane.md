@@ -685,7 +685,7 @@ title: List View
 
 <h2>Listview/mass-select</h2>
 ```html @preview
-<div class="dp-MainWrapper demo-menu">
+<div class="dp-MainWrapper demo-menu demo-cog">
     <form class="dp-MassSelect">
 
         <div class="dp-Listview dp-Wrapper">
@@ -706,13 +706,19 @@ title: List View
 
                     <ul class="dp-Menu is-visible">
                         <li class="dp-Menu-linkItem">
-                            <a href="" class="dp-Menu-link">Uncheck all</a>
+                            <span class="dp-linkItem-wrap">
+                                <span class="dp-Menu-link">Uncheck all</span>
+                            </span>
                         </li>
                         <li class="dp-Menu-linkItem">
-                            <a href="" class="dp-Menu-link">Select all</a>
+                            <span class="dp-linkItem-wrap">
+                                <span class="dp-Menu-link">Select all</span>
+                            </span>
                         </li>
                         <li class="dp-Menu-linkItem">
-                            <a href="" class="dp-Menu-link">Invert</a>
+                            <span class="dp-linkItem-wrap">
+                                <span class="dp-Menu-link">Invert</span>
+                            </span>
                         </li>
                     </ul>
                 </div>
@@ -2807,10 +2813,12 @@ title: List View
                         <span class="dp-Icon dp-settings"></span>
                         <ul class="dp-Menu">
                             <li class="dp-Menu-linkItem">
-                                <span class="dp-Icon dp-Bin"></span>
-                                <a href="#" class="dp-Menu-link">
-                                    Delete
-                                </a>
+                                <span class="dp-linkItem-wrap">
+                                    <span class="dp-Icon dp-Bin"></span>
+                                    <span class="dp-Menu-link">
+                                        Delete
+                                    </span>
+                                </span>
                             </li>
                         </ul>
                     </span>
@@ -2822,11 +2830,11 @@ title: List View
                             <span class="dp-Icon dp-Visibility"></span>
                             Department
                             <ul class="dp-Menu">
-                                <li class="dp-Menu-linkItem">Private</li>
-                                <li class="dp-Menu-linkItem">Public</li>
-                                <li class="dp-Menu-linkItem">Department</li>
-                                <li class="dp-Menu-linkItem">Support</li>
-                                <li class="dp-Menu-linkItem">Sales</li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Private</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Public</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Department</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Support</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Sales</span></li>
                             </ul>
                         </li>
                         <li>
@@ -3016,25 +3024,36 @@ title: List View
                         <span class="dp-Icon dp-settings"></span>
                         <ul class="dp-Menu">
                             <li class="dp-Menu-linkItem">
-                                <span class="dp-Icon dp-Bin"></span>
-                                <a href="#" class="dp-Menu-link">
-                                    Delete
-                                </a>
+                                <span class="dp-linkItem-wrap">
+                                    <span class="dp-Icon dp-Bin"></span>
+                                    <span class="dp-Menu-link">
+                                        Delete
+                                    </span>
+                                </span>
                             </li>
                         </ul>
                     </span>
                 </span>
                 <span class="dp-LevelItem Level-justify-between">
+
                     <ul class="dp-LevelWrap">
                         <li>
                             <span class="dp-Icon dp-Visibility"></span>
                             Department
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Private</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Public</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Department</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Support</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Sales</span></li>
+                            </ul>
                         </li>
                         <li>
                             <span class="dp-Icon dp-iconUserAvatar"></span>
                             Me
                         </li>
                     </ul>
+
                     <span class="dp-CommentWrap demo-comments">
                         <span class="dp-Icon dp-iconComents"></span>
                         <span class="dp-Comments-title">Comment <span href="#" class="dp-qt">(2)</span><button class="dp-Arrow"></button></span>
@@ -3217,10 +3236,12 @@ title: List View
                         <span class="dp-Icon dp-settings"></span>
                         <ul class="dp-Menu">
                             <li class="dp-Menu-linkItem">
-                                <span class="dp-Icon dp-Bin"></span>
-                                <a href="#" class="dp-Menu-link">
-                                    Delete
-                                </a>
+                                <span class="dp-linkItem-wrap">
+                                    <span class="dp-Icon dp-Bin"></span>
+                                    <span class="dp-Menu-link">
+                                        Delete
+                                    </span>
+                                </span>
                             </li>
                         </ul>
                     </span>
@@ -3230,6 +3251,13 @@ title: List View
                         <li>
                             <span class="dp-Icon dp-Visibility"></span>
                             Department
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Private</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Public</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Department</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Support</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Sales</span></li>
+                            </ul>
                         </li>
                         <li>
                             <span class="dp-Icon dp-iconUserAvatar"></span>
@@ -3418,31 +3446,45 @@ title: List View
                         <span class="dp-Icon dp-settings"></span>
                         <ul class="dp-Menu">
                             <li class="dp-Menu-linkItem">
-                                <span class="dp-Icon dp-Bin"></span>
-                                <a href="#" class="dp-Menu-link">
-                                    Delete
-                                </a>
+                                <span class="dp-linkItem-wrap">
+                                    <span class="dp-Icon dp-Bin"></span>
+                                    <span class="dp-Menu-link">
+                                        Delete
+                                    </span>
+                                </span>
                             </li>
                             <li class="dp-Menu-linkItem">
-                                <span class="dp-Icon dp-CreateTicket"></span>
-                                <a href="#" class="dp-Menu-link">
-                                    Add to ticket
-                                </a>
+                                <span class="dp-linkItem-wrap">
+                                    <span class="dp-Icon dp-CreateTicket"></span>
+                                    <span class="dp-Menu-link">
+                                        Add to ticket
+                                    </span>
+                                </span>
                             </li>
                             <li class="dp-Menu-linkItem">
-                                <span class="dp-Icon Icon--edit"></span>
-                                <a href="#" class="dp-Menu-link">
-                                    Edit
-                                </a>
+                                <span class="dp-linkItem-wrap">
+                                    <span class="dp-Icon Icon--edit"></span>
+                                    <span class="dp-Menu-link">
+                                        Edit
+                                    </span>
+                                </span>
                             </li>
                         </ul>
                     </span>
+
                 </span>
                 <span class="dp-LevelItem Level-justify-between">
-                    <ul class="dp-LevelWrap">
+                   <ul class="dp-LevelWrap">
                         <li>
                             <span class="dp-Icon dp-Visibility"></span>
                             Department
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Private</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Public</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Department</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Support</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Sales</span></li>
+                            </ul>
                         </li>
                         <li>
                             <span class="dp-Icon dp-iconUserAvatar"></span>
@@ -3637,10 +3679,12 @@ title: List View
                         <span class="dp-Icon dp-settings"></span>
                         <ul class="dp-Menu">
                             <li class="dp-Menu-linkItem">
-                                <span class="dp-Icon dp-Bin"></span>
-                                <a href="#" class="dp-Menu-link">
-                                    Delete
-                                </a>
+                                <span class="dp-linkItem-wrap">
+                                    <span class="dp-Icon dp-Bin"></span>
+                                    <span class="dp-Menu-link">
+                                        Delete
+                                    </span>
+                                </span>
                             </li>
                         </ul>
                     </span>
@@ -3648,9 +3692,16 @@ title: List View
                 <span class="dp-LevelItem Level-justify-between">
 
                     <ul class="dp-LevelWrap">
-                        <li>
+                        <li class="is-active">
                             <span class="dp-Icon dp-Visibility"></span>
                             Department
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Private</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Public</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Department</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Support</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Sales</span></li>
+                            </ul>
                         </li>
                         <li>
                             <span class="dp-Icon dp-iconUserAvatar"></span>
@@ -3845,6 +3896,13 @@ title: List View
                         <li>
                             <span class="dp-Icon dp-Visibility"></span>
                             Department
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Private</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Public</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Department</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Support</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Sales</span></li>
+                            </ul>
                         </li>
                         <li>
                             <span class="dp-Icon dp-iconUserAvatar"></span>
@@ -3862,10 +3920,12 @@ title: List View
                     <span class="dp-Icon dp-settings"></span>
                     <ul class="dp-Menu">
                         <li class="dp-Menu-linkItem">
-                            <span class="dp-Icon dp-Bin"></span>
-                            <a href="#" class="dp-Menu-link">
-                                Delete
-                            </a>
+                            <span class="dp-linkItem-wrap">
+                                <span class="dp-Icon dp-Bin"></span>
+                                <span class="dp-Menu-link">
+                                    Delete
+                                </span>
+                            </span>
                         </li>
                     </ul>
                 </span>
@@ -4018,22 +4078,28 @@ title: List View
                         <span class="dp-Icon dp-settings"></span>
                         <ul class="dp-Menu">
                             <li class="dp-Menu-linkItem">
-                                <span class="dp-Icon dp-Bin"></span>
-                                <a href="#" class="dp-Menu-link">
-                                    Delete
-                                </a>
+                                <span class="dp-linkItem-wrap">
+                                    <span class="dp-Icon dp-Bin"></span>
+                                    <span class="dp-Menu-link">
+                                        Delete
+                                    </span>
+                                </span>
                             </li>
                             <li class="dp-Menu-linkItem">
-                                <span class="dp-Icon dp-CreateTicket"></span>
-                                <a href="#" class="dp-Menu-link">
-                                    Add to ticket
-                                </a>
+                                <span class="dp-linkItem-wrap">
+                                    <span class="dp-Icon dp-CreateTicket"></span>
+                                    <span class="dp-Menu-link">
+                                        Add to ticket
+                                    </span>
+                                </span>
                             </li>
                             <li class="dp-Menu-linkItem">
-                                <span class="dp-Icon Icon--edit"></span>
-                                <a href="#" class="dp-Menu-link">
-                                    Edit
-                                </a>
+                                <span class="dp-linkItem-wrap">
+                                    <span class="dp-Icon Icon--edit"></span>
+                                    <span class="dp-Menu-link">
+                                        Edit
+                                    </span>
+                                </span>
                             </li>
                         </ul>
                     </span>
@@ -4043,6 +4109,13 @@ title: List View
                         <li>
                             <span class="dp-Icon dp-Visibility"></span>
                             Department
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Private</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Public</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Department</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Support</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Sales</span></li>
+                            </ul>
                         </li>
                         <li>
                             <span class="dp-Icon dp-iconUserAvatar"></span>
@@ -4241,10 +4314,12 @@ title: List View
                     <span class="dp-Icon dp-settings"></span>
                     <ul class="dp-Menu">
                         <li class="dp-Menu-linkItem">
-                            <span class="dp-Icon dp-Bin"></span>
-                            <a href="#" class="dp-Menu-link">
-                                Delete
-                            </a>
+                            <span class="dp-linkItem-wrap">
+                                <span class="dp-Icon dp-Bin"></span>
+                                <span class="dp-Menu-link">
+                                    Delete
+                                </span>
+                            </span>
                         </li>
                     </ul>
                 </span>
@@ -4253,16 +4328,23 @@ title: List View
 
             <span class="dp-LevelItem Level-justify-between">
                 
-                <ul class="dp-LevelWrap">
-                    <li>
-                        <span class="dp-Icon dp-Visibility"></span>
-                        Department
-                    </li>
-                    <li>
-                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                        Me
-                    </li>
-                </ul>
+                    <ul class="dp-LevelWrap">
+                        <li>
+                            <span class="dp-Icon dp-Visibility"></span>
+                            Department
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Private</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Public</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Department</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Support</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Sales</span></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                            Me
+                        </li>
+                    </ul>
 
                 <span class="dp-CommentWrap demo-comments">
                     <span class="dp-Icon dp-iconComents"></span>
@@ -6171,10 +6253,12 @@ title: List View
                         <span class="dp-Icon dp-settings"></span>
                         <ul class="dp-Menu">
                             <li class="dp-Menu-linkItem">
-                                <span class="dp-Icon dp-Bin"></span>
-                                <a href="#" class="dp-Menu-link">
-                                    Delete
-                                </a>
+                                <span class="dp-linkItem-wrap">
+                                    <span class="dp-Icon dp-Bin"></span>
+                                    <span class="dp-Menu-link">
+                                        Delete
+                                    </span>
+                                </span>
                             </li>
                         </ul>
                     </span>
@@ -6186,11 +6270,11 @@ title: List View
                             <span class="dp-Icon dp-Visibility"></span>
                             Department
                             <ul class="dp-Menu">
-                                <li class="dp-Menu-linkItem">Private</li>
-                                <li class="dp-Menu-linkItem">Public</li>
-                                <li class="dp-Menu-linkItem">Department</li>
-                                <li class="dp-Menu-linkItem">Support</li>
-                                <li class="dp-Menu-linkItem">Sales</li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Private</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Public</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Department</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Support</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Sales</span></li>
                             </ul>
                         </li>
                         <li>
@@ -6378,10 +6462,12 @@ title: List View
                         <span class="dp-Icon dp-settings"></span>
                         <ul class="dp-Menu">
                             <li class="dp-Menu-linkItem">
-                                <span class="dp-Icon dp-Bin"></span>
-                                <a href="#" class="dp-Menu-link">
-                                    Delete
-                                </a>
+                                <span class="dp-linkItem-wrap">
+                                    <span class="dp-Icon dp-Bin"></span>
+                                    <a href="#" class="dp-Menu-link">
+                                        Delete
+                                    </a>
+                                </span>
                             </li>
                         </ul>
                     </span>
@@ -6391,6 +6477,13 @@ title: List View
                         <li>
                             <span class="dp-Icon dp-Visibility"></span>
                             Department
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Private</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Public</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Department</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Support</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Sales</span></li>
+                            </ul>
                         </li>
                         <li>
                             <span class="dp-Icon dp-iconUserAvatar"></span>
@@ -6576,10 +6669,12 @@ title: List View
                         <span class="dp-Icon dp-settings is-active"></span>
                         <ul class="dp-Menu">
                             <li class="dp-Menu-linkItem">
-                                <span class="dp-Icon dp-Bin"></span>
-                                <a href="#" class="dp-Menu-link">
-                                    Delete
-                                </a>
+                                <span class="dp-linkItem-wrap">
+                                    <span class="dp-Icon dp-Bin"></span>
+                                    <span class="dp-Menu-link">
+                                        Delete
+                                    </span>
+                                </span>
                             </li>
                         </ul>
                     </span>
@@ -6589,6 +6684,13 @@ title: List View
                         <li>
                             <span class="dp-Icon dp-Visibility"></span>
                             Department
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Private</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Public</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Department</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Support</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Sales</span></li>
+                            </ul>
                         </li>
                         <li>
                             <span class="dp-Icon dp-iconUserAvatar"></span>
@@ -6774,25 +6876,36 @@ title: List View
                         <span class="dp-Icon dp-settings"></span>
                         <ul class="dp-Menu">
                             <li class="dp-Menu-linkItem">
-                                <span class="dp-Icon dp-Bin"></span>
-                                <a href="#" class="dp-Menu-link">
-                                    Delete
-                                </a>
+                                <span class="dp-linkItem-wrap">
+                                    <span class="dp-Icon dp-Bin"></span>
+                                    <span class="dp-Menu-link">
+                                        Delete
+                                    </span>
+                                </span>
                             </li>
                         </ul>
                     </span>
                 </span>
                 <span class="dp-LevelItem Level-justify-between">
+
                     <ul class="dp-LevelWrap">
                         <li>
                             <span class="dp-Icon dp-Visibility"></span>
                             Department
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Private</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Public</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Department</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Support</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Sales</span></li>
+                            </ul>
                         </li>
                         <li>
                             <span class="dp-Icon dp-iconUserAvatar"></span>
                             Me
                         </li>
                     </ul>
+
                     <span class="dp-CommentWrap demo-comments">
                         <span class="dp-Icon dp-iconComents"></span>
                         <span class="dp-Comments-title">Comment <span href="#" class="dp-qt">(2)</span><button class="dp-Arrow"></button></span>
@@ -6972,10 +7085,12 @@ title: List View
                         <span class="dp-Icon dp-settings"></span>
                         <ul class="dp-Menu">
                             <li class="dp-Menu-linkItem">
-                                <span class="dp-Icon dp-Bin"></span>
-                                <a href="#" class="dp-Menu-link">
-                                    Delete
-                                </a>
+                                <span class="dp-linkItem-wrap">
+                                    <span class="dp-Icon dp-Bin"></span>
+                                    <span class="dp-Menu-link">
+                                        Delete
+                                    </span>
+                                </span>
                             </li>
                         </ul>
                     </span>
@@ -6985,6 +7100,13 @@ title: List View
                         <li>
                             <span class="dp-Icon dp-Visibility"></span>
                             Department
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Private</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Public</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Department</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Support</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Sales</span></li>
+                            </ul>
                         </li>
                         <li>
                             <span class="dp-Icon dp-iconUserAvatar"></span>
@@ -7067,19 +7189,28 @@ title: List View
                         <span class="dp-Icon dp-settings"></span>
                         <ul class="dp-Menu">
                             <li class="dp-Menu-linkItem">
-                                <span class="dp-Icon dp-Bin"></span>
-                                <a href="#" class="dp-Menu-link">
-                                    Delete
-                                </a>
+                                <span class="dp--linkItem-wrap">
+                                    <span class="dp-Icon dp-Bin"></span>
+                                    <span class="dp-Menu-link">
+                                        Delete
+                                    </span>
+                                </span>
                             </li>
                         </ul>
                     </span>
                 </span>
                 <span class="dp-LevelItem Level-justify-between">
-                    <ul class="dp-LevelWrap">
+                     <ul class="dp-LevelWrap">
                         <li>
                             <span class="dp-Icon dp-Visibility"></span>
                             Department
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Private</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Public</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Department</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Support</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Sales</span></li>
+                            </ul>
                         </li>
                         <li>
                             <span class="dp-Icon dp-iconUserAvatar"></span>
@@ -7279,10 +7410,12 @@ title: List View
                         <span class="dp-Icon dp-settings"></span>
                         <ul class="dp-Menu">
                             <li class="dp-Menu-linkItem">
-                                <span class="dp-Icon dp-Bin"></span>
-                                <a href="#" class="dp-Menu-link">
-                                    Delete
-                                </a>
+                                <span class="dp-linkItem-wrap">
+                                    <span class="dp-Icon dp-Bin"></span>
+                                    <span class="dp-Menu-link">
+                                        Delete
+                                    </span>
+                                </span>
                             </li>
                         </ul>
                     </span>
@@ -7292,6 +7425,13 @@ title: List View
                         <li>
                             <span class="dp-Icon dp-Visibility"></span>
                             Department
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Private</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Public</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Department</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Support</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Sales</span></li>
+                            </ul>
                         </li>
                         <li>
                             <span class="dp-Icon dp-iconUserAvatar"></span>
@@ -7477,10 +7617,12 @@ title: List View
                         <span class="dp-Icon dp-settings"></span>
                         <ul class="dp-Menu">
                             <li class="dp-Menu-linkItem">
-                                <span class="dp-Icon dp-Bin"></span>
-                                <a href="#" class="dp-Menu-link">
-                                    Delete
-                                </a>
+                                <span class="dp-linkItem-wrap">
+                                    <span class="dp-Icon dp-Bin"></span>
+                                    <span class="dp-Menu-link">
+                                        Delete
+                                    </span>
+                                </span>
                             </li>
                         </ul>
                     </span>
@@ -7490,6 +7632,13 @@ title: List View
                         <li>
                             <span class="dp-Icon dp-Visibility"></span>
                             Department
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Private</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Public</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Department</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Support</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Sales</span></li>
+                            </ul>
                         </li>
                         <li>
                             <span class="dp-Icon dp-iconUserAvatar"></span>
@@ -7675,10 +7824,12 @@ title: List View
                         <span class="dp-Icon dp-settings"></span>
                         <ul class="dp-Menu">
                             <li class="dp-Menu-linkItem">
-                                <span class="dp-Icon dp-Bin"></span>
-                                <a href="#" class="dp-Menu-link">
-                                    Delete
-                                </a>
+                                <span class="dp-linkItem-wrap">
+                                    <span class="dp-Icon dp-Bin"></span>
+                                    <span class="dp-Menu-link">
+                                        Delete
+                                    </span>
+                                </span>
                             </li>
                         </ul>
                     </span>
@@ -7688,6 +7839,13 @@ title: List View
                         <li>
                             <span class="dp-Icon dp-Visibility"></span>
                             Department
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Private</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Public</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Department</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Support</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Sales</span></li>
+                            </ul>
                         </li>
                         <li>
                             <span class="dp-Icon dp-iconUserAvatar"></span>
@@ -7873,10 +8031,12 @@ title: List View
                         <span class="dp-Icon dp-settings"></span>
                         <ul class="dp-Menu">
                             <li class="dp-Menu-linkItem">
-                                <span class="dp-Icon dp-Bin"></span>
-                                <a href="#" class="dp-Menu-link">
-                                    Delete
-                                </a>
+                                <span class="dp-linkItem-wrap">
+                                    <span class="dp-Icon dp-Bin"></span>
+                                    <span class="dp-Menu-link">
+                                        Delete
+                                    </span>
+                                </span>
                             </li>
                         </ul>
                     </span>
@@ -7886,6 +8046,13 @@ title: List View
                         <li>
                             <span class="dp-Icon dp-Visibility"></span>
                             Department
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Private</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Public</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Department</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Support</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Sales</span></li>
+                            </ul>
                         </li>
                         <li>
                             <span class="dp-Icon dp-iconUserAvatar"></span>
@@ -9772,10 +9939,12 @@ title: List View
                     <span class="dp-Icon dp-settings"></span>
                     <ul class="dp-Menu">
                         <li class="dp-Menu-linkItem">
-                            <span class="dp-Icon dp-Bin"></span>
-                            <a href="#" class="dp-Menu-link">
-                                Delete
-                            </a>
+                            <span class="dp-linkItem-wrap">
+                                <span class="dp-Icon dp-Bin"></span>
+                                <span class="dp-Menu-link">
+                                    Delete
+                                </span>
+                            </span>
                         </li>
                     </ul>
                 </span>
@@ -9928,10 +10097,12 @@ title: List View
                         <span class="dp-Icon dp-settings"></span>
                         <ul class="dp-Menu">
                             <li class="dp-Menu-linkItem">
-                                <span class="dp-Icon dp-Bin"></span>
-                                <a href="#" class="dp-Menu-link">
-                                    Delete
-                                </a>
+                                <span class="dp-linkItem-wrap">
+                                    <span class="dp-Icon dp-Bin"></span>
+                                    <span class="dp-Menu-link">
+                                        Delete
+                                    </span>
+                                </span>
                             </li>
                         </ul>
                     </span>
@@ -10135,10 +10306,12 @@ title: List View
                         <span class="dp-Icon dp-settings"></span>
                         <ul class="dp-Menu">
                             <li class="dp-Menu-linkItem">
-                                <span class="dp-Icon dp-Bin"></span>
-                                <a href="#" class="dp-Menu-link">
-                                    Delete
-                                </a>
+                                <span class="dp-linkItem-wrap">
+                                    <span class="dp-Icon dp-Bin"></span>
+                                    <span class="dp-Menu-link">
+                                        Delete
+                                    </span>
+                                </span>
                             </li>
                         </ul>
                     </span>
@@ -10148,6 +10321,13 @@ title: List View
                         <li>
                             <span class="dp-Icon dp-Visibility"></span>
                             Department
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Private</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Public</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Department</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Support</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Sales</span></li>
+                            </ul>
                         </li>
                         <li>
                             <span class="dp-Icon dp-iconUserAvatar"></span>
@@ -10333,10 +10513,12 @@ title: List View
                         <span class="dp-Icon dp-settings"></span>
                         <ul class="dp-Menu">
                             <li class="dp-Menu-linkItem">
-                                <span class="dp-Icon dp-Bin"></span>
-                                <a href="#" class="dp-Menu-link">
-                                    Delete
-                                </a>
+                                <span class="dp-linkItem-wrap">
+                                    <span class="dp-Icon dp-Bin"></span>
+                                    <span class="dp-Menu-link">
+                                        Delete
+                                    </span>
+                                </span>
                             </li>
                         </ul>
                     </span>
@@ -10346,6 +10528,13 @@ title: List View
                         <li>
                             <span class="dp-Icon dp-Visibility"></span>
                             Department
+                            <ul class="dp-Menu">
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Private</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Public</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Department</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Support</span></li>
+                                <li class="dp-Menu-linkItem"><span class="dp-linkItem-wrap">Sales</span></li>
+                            </ul>
                         </li>
                         <li>
                             <span class="dp-Icon dp-iconUserAvatar"></span>

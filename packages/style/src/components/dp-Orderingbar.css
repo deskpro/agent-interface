@@ -309,6 +309,7 @@
   width: 19px;
 }
 
+.dp-Order-btn .dp-sort,
 .dp-Menu .dp-SortOrder .dp-Order-btn .dp-sort,
 .dp-OrderingBar .dp-OrderingBar-item .dp-sort,
 .dp-Card-title .dp-sort {

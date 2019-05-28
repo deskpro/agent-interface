@@ -58,6 +58,8 @@
   left: calc(100% - 5px);
 }
 
+/* .demo-menu .dp-Menu .dp-Menu-linkItem:hover span > .dp-Menu, */
+
 .demo-menu .is-active > .dp-Menu,
 .demo-menu .dp-Menu .dp-Menu-linkItem:hover > .dp-Menu,
 .demo-menu .dp-ActionButton.is-active .dp-Menu,
@@ -149,6 +151,10 @@
 }
 
 /* demo-tooltip */
+
+.demo-tooltip .dp-DropdownPanel.is-active {
+  display: block;
+}
 
 .demo-tooltip .dp-ToolTips {
   left: 10px;

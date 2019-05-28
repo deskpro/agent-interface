@@ -79,7 +79,8 @@
   width: 150px;
 }
 
-.dp-Tableview .dp-UserItem {
+.dp-Tableview .dp-UserItem,
+.dp-Tableview .dp-UserInfo {
   align-items: center;
   display: flex;
 }

@@ -621,16 +621,24 @@ title: Change user
                             <span class="dp-Icon dp-DownCaret"></span>
                             <ul class="dp-Menu">
                                 <li class="dp-Menu-linkItem">
-                                    <a href="#" class="dp-Menu-link">Change user from ticket CC’s</a>
+                                    <span class="dp-linkItem-wrap"> 
+                                        <span class="dp-Menu-link">Change user from ticket CC’s</span>
+                                    </span>
                                 </li>
                                 <li class="dp-Menu-linkItem">
-                                    <a href="#" class="dp-Menu-link">Change user from open tabs</a>
+                                    <span class="dp-linkItem-wrap">
+                                        <span class="dp-Menu-link">Change user from open tabs</span>
+                                    </span>
                                 </li>
                                 <li class="dp-Menu-linkItem">
-                                    <a href="#" class="dp-Menu-link">Change user from selected messages</a>
+                                    <span class="dp-linkItem-wrap">
+                                        <span class="dp-Menu-link">Change user from selected messages</span>
+                                    </span>
                                 </li>
                                 <li class="dp-Menu-linkItem">
-                                    <a href="#" class="dp-Menu-link">Change user from same organisation</a>
+                                    <span class="dp-linkItem-wrap">
+                                        <span class="dp-Menu-link">Change user from same organisation</span>
+                                    </span>
                                 </li>
                             </ul>
                         </div>
@@ -708,32 +716,46 @@ title: Change user
 
                                 <ul class="dp-Menu">
                                     <li class="dp-Menu-linkItem">
-                                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                                        <a href="#" class="dp-Menu-link">Wendy Pride</a>
+                                        <span class="dp-linkItem-wrap">
+                                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                                            <span class="dp-Menu-link">Wendy Pride</span>
+                                        </span>
                                     </li>
                                     <li class="dp-Menu-linkItem">
-                                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                                        <a href="#" class="dp-Menu-link">Bob Cooper</a>
+                                        <span class="dp-linkItem-wrap">
+                                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                                            <span class="dp-Menu-link">Bob Cooper</span>
+                                        </span>
                                     </li>
                                     <li class="dp-Menu-linkItem">
-                                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                                        <a href="#" class="dp-Menu-link">Julien Durco</a>
+                                        <span class="dp-linkItem-wrap">
+                                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                                            <span class="dp-Menu-link">Julien Durco</span>
+                                        </span>
                                     </li>
                                     <li class="dp-Menu-linkItem">
-                                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                                        <a href="#" class="dp-Menu-link">Wendy Lightbody</a>
+                                        <span class="dp-linkItem-wrap">
+                                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                                            <span class="dp-Menu-link">Wendy Lightbody</span>
+                                        </span>
                                     </li>
                                     <li class="dp-Menu-linkItem">
-                                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                                        <a href="#" class="dp-Menu-link">Bobby Steiner</a>
+                                        <span class="dp-linkItem-wrap">
+                                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                                            <span class="dp-Menu-link">Bobby Steiner</span>
+                                        </span>
                                     </li>
                                     <li class="dp-Menu-linkItem">
-                                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                                        <a href="#" class="dp-Menu-link">Julien Durco</a>
+                                        <span class="dp-linkItem-wrap">
+                                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                                            <span class="dp-Menu-link">Julien Durco</span>
+                                        </span>
                                     </li>
                                     <li class="dp-Menu-linkItem">
-                                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                                        <a href="#" class="dp-Menu-link">Wendy Lightbody</a>
+                                        <span class="dp-linkItem-wrap">
+                                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                                            <span class="dp-Menu-link">Wendy Lightbody</span>
+                                        </span>
                                     </li>
                                 </ul>
 
@@ -786,16 +808,24 @@ title: Change user
                             <span class="dp-Icon dp-DownCaret"></span>
                             <ul class="dp-Menu">
                                 <li class="dp-Menu-linkItem">
-                                    <a href="#" class="dp-Menu-link">Change user from ticket CC’s</a>
+                                    <span class="dp-linkItem-wrap"> 
+                                        <span class="dp-Menu-link">Change user from ticket CC’s</span>
+                                    </span>
                                 </li>
                                 <li class="dp-Menu-linkItem">
-                                    <a href="#" class="dp-Menu-link">Change user from open tabs</a>
+                                    <span class="dp-linkItem-wrap">
+                                        <span class="dp-Menu-link">Change user from open tabs</span>
+                                    </span>
                                 </li>
                                 <li class="dp-Menu-linkItem">
-                                    <a href="#" class="dp-Menu-link">Change user from selected messages</a>
+                                    <span class="dp-linkItem-wrap">
+                                        <span class="dp-Menu-link">Change user from selected messages</span>
+                                    </span>
                                 </li>
                                 <li class="dp-Menu-linkItem">
-                                    <a href="#" class="dp-Menu-link">Change user from same organisation</a>
+                                    <span class="dp-linkItem-wrap">
+                                        <span class="dp-Menu-link">Change user from same organisation</span>
+                                    </span>
                                 </li>
                             </ul>
                         </div>
@@ -870,35 +900,48 @@ title: Change user
                                     <span class="dp-Icon dp-add_follower Icon--primary"></span>
                                     <span>Add new user</span>
                                 </button>
-
                                 <ul class="dp-Menu">
                                     <li class="dp-Menu-linkItem">
-                                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                                        <a href="#" class="dp-Menu-link">Wendy Pride</a>
+                                        <span class="dp-linkItem-wrap">
+                                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                                            <span class="dp-Menu-link">Wendy Pride</span>
+                                        </span>
                                     </li>
                                     <li class="dp-Menu-linkItem">
-                                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                                        <a href="#" class="dp-Menu-link">Bob Cooper</a>
+                                        <span class="dp-linkItem-wrap">
+                                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                                            <span class="dp-Menu-link">Bob Cooper</span>
+                                        </span>
                                     </li>
                                     <li class="dp-Menu-linkItem">
-                                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                                        <a href="#" class="dp-Menu-link">Julien Durco</a>
+                                        <span class="dp-linkItem-wrap">
+                                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                                            <span class="dp-Menu-link">Julien Durco</span>
+                                        </span>
                                     </li>
                                     <li class="dp-Menu-linkItem">
-                                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                                        <a href="#" class="dp-Menu-link">Wendy Lightbody</a>
+                                        <span class="dp-linkItem-wrap">
+                                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                                            <span class="dp-Menu-link">Wendy Lightbody</span>
+                                        </span>
                                     </li>
                                     <li class="dp-Menu-linkItem">
-                                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                                        <a href="#" class="dp-Menu-link">Bobby Steiner</a>
+                                        <span class="dp-linkItem-wrap">
+                                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                                            <span class="dp-Menu-link">Bobby Steiner</span>
+                                        </span>
                                     </li>
                                     <li class="dp-Menu-linkItem">
-                                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                                        <a href="#" class="dp-Menu-link">Julien Durco</a>
+                                        <span class="dp-linkItem-wrap">
+                                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                                            <span class="dp-Menu-link">Julien Durco</span>
+                                        </span>
                                     </li>
                                     <li class="dp-Menu-linkItem">
-                                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                                        <a href="#" class="dp-Menu-link">Wendy Lightbody</a>
+                                        <span class="dp-linkItem-wrap">
+                                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                                            <span class="dp-Menu-link">Wendy Lightbody</span>
+                                        </span>
                                     </li>
                                 </ul>
 
@@ -951,16 +994,24 @@ title: Change user
                             <span class="dp-Icon dp-DownCaret"></span>
                             <ul class="dp-Menu">
                                 <li class="dp-Menu-linkItem">
-                                    <a href="#" class="dp-Menu-link">Change user from ticket CC’s</a>
+                                    <span class="dp-linkItem-wrap"> 
+                                        <span class="dp-Menu-link">Change user from ticket CC’s</span>
+                                    </span>
                                 </li>
                                 <li class="dp-Menu-linkItem">
-                                    <a href="#" class="dp-Menu-link">Change user from open tabs</a>
+                                    <span class="dp-linkItem-wrap">
+                                        <span class="dp-Menu-link">Change user from open tabs</span>
+                                    </span>
                                 </li>
                                 <li class="dp-Menu-linkItem">
-                                    <a href="#" class="dp-Menu-link">Change user from selected messages</a>
+                                    <span class="dp-linkItem-wrap">
+                                        <span class="dp-Menu-link">Change user from selected messages</span>
+                                    </span>
                                 </li>
                                 <li class="dp-Menu-linkItem">
-                                    <a href="#" class="dp-Menu-link">Change user from same organisation</a>
+                                    <span class="dp-linkItem-wrap">
+                                        <span class="dp-Menu-link">Change user from same organisation</span>
+                                    </span>
                                 </li>
                             </ul>
                         </div>
@@ -1038,32 +1089,46 @@ title: Change user
 
                                 <ul class="dp-Menu">
                                     <li class="dp-Menu-linkItem">
-                                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                                        <a href="#" class="dp-Menu-link">Wendy Pride</a>
+                                        <span class="dp-linkItem-wrap">
+                                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                                            <span class="dp-Menu-link">Wendy Pride</span>
+                                        </span>
                                     </li>
                                     <li class="dp-Menu-linkItem">
-                                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                                        <a href="#" class="dp-Menu-link">Bob Cooper</a>
+                                        <span class="dp-linkItem-wrap">
+                                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                                            <span class="dp-Menu-link">Bob Cooper</span>
+                                        </span>
                                     </li>
                                     <li class="dp-Menu-linkItem">
-                                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                                        <a href="#" class="dp-Menu-link">Julien Durco</a>
+                                        <span class="dp-linkItem-wrap">
+                                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                                            <span class="dp-Menu-link">Julien Durco</span>
+                                        </span>
                                     </li>
                                     <li class="dp-Menu-linkItem">
-                                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                                        <a href="#" class="dp-Menu-link">Wendy Lightbody</a>
+                                        <span class="dp-linkItem-wrap">
+                                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                                            <span class="dp-Menu-link">Wendy Lightbody</span>
+                                        </span>
                                     </li>
                                     <li class="dp-Menu-linkItem">
-                                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                                        <a href="#" class="dp-Menu-link">Bobby Steiner</a>
+                                        <span class="dp-linkItem-wrap">
+                                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                                            <span class="dp-Menu-link">Bobby Steiner</span>
+                                        </span>
                                     </li>
                                     <li class="dp-Menu-linkItem">
-                                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                                        <a href="#" class="dp-Menu-link">Julien Durco</a>
+                                        <span class="dp-linkItem-wrap">
+                                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                                            <span class="dp-Menu-link">Julien Durco</span>
+                                        </span>
                                     </li>
                                     <li class="dp-Menu-linkItem">
-                                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                                        <a href="#" class="dp-Menu-link">Wendy Lightbody</a>
+                                        <span class="dp-linkItem-wrap">
+                                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                                            <span class="dp-Menu-link">Wendy Lightbody</span>
+                                        </span>
                                     </li>
                                 </ul>
 
@@ -1154,32 +1219,46 @@ title: Change user
 
                                 <ul class="dp-Menu">
                                     <li class="dp-Menu-linkItem">
-                                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                                        <a href="#" class="dp-Menu-link">Wendy Pride</a>
+                                        <span class="dp-linkItem-wrap">
+                                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                                            <span class="dp-Menu-link">Wendy Pride</span>
+                                        </span>
                                     </li>
                                     <li class="dp-Menu-linkItem">
-                                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                                        <a href="#" class="dp-Menu-link">Bob Cooper</a>
+                                        <span class="dp-linkItem-wrap">
+                                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                                            <span class="dp-Menu-link">Bob Cooper</span>
+                                        </span>
                                     </li>
                                     <li class="dp-Menu-linkItem">
-                                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                                        <a href="#" class="dp-Menu-link">Julien Durco</a>
+                                        <span class="dp-linkItem-wrap">
+                                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                                            <span class="dp-Menu-link">Julien Durco</span>
+                                        </span>
                                     </li>
                                     <li class="dp-Menu-linkItem">
-                                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                                        <a href="#" class="dp-Menu-link">Wendy Lightbody</a>
+                                        <span class="dp-linkItem-wrap">
+                                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                                            <span class="dp-Menu-link">Wendy Lightbody</span>
+                                        </span>
                                     </li>
                                     <li class="dp-Menu-linkItem">
-                                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                                        <a href="#" class="dp-Menu-link">Bobby Steiner</a>
+                                        <span class="dp-linkItem-wrap">
+                                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                                            <span class="dp-Menu-link">Bobby Steiner</span>
+                                        </span>
                                     </li>
                                     <li class="dp-Menu-linkItem">
-                                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                                        <a href="#" class="dp-Menu-link">Julien Durco</a>
+                                        <span class="dp-linkItem-wrap">
+                                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                                            <span class="dp-Menu-link">Julien Durco</span>
+                                        </span>
                                     </li>
                                     <li class="dp-Menu-linkItem">
-                                        <span class="dp-Icon dp-iconUserAvatar"></span>
-                                        <a href="#" class="dp-Menu-link">Wendy Lightbody</a>
+                                        <span class="dp-linkItem-wrap">
+                                            <span class="dp-Icon dp-iconUserAvatar"></span>
+                                            <span class="dp-Menu-link">Wendy Lightbody</span>
+                                        </span>
                                     </li>
                                 </ul>
 

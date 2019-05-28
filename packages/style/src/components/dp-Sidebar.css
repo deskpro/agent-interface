@@ -104,6 +104,17 @@
   color: var(--grey-dark);
 }
 
+.dp-SectionTitle .dp-StatusTimes.dp-MenuBarItem {
+  color: var(--grey-dark);
+  display: flex;
+  font: var(--p-n-semibold);
+  margin: 0;
+}
+
+.dp-StatusTimes.dp-MenuBarItem .dp-separator::after {
+  top: 0;
+}
+
 .dp-SectionTitle .dp-TitleControls {
   display: flex;
   font: var(--p-n-semibold);

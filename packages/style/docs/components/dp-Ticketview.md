@@ -9,7 +9,6 @@ title: Ticket View
 		<div class="dp-SectionControls">
 			<div class="dp-SectionTitle">
 				<div class="dp-TitleControls">Agent</div>
-				<!-- <div class="dp-StatusTimes dp-MenuBarItem"> -->
 				<button class="Button--link">
 					Assign to me <span class="dp-separator"></span> Unassign
 				</button>
@@ -1389,19 +1388,24 @@ title: Ticket View
 				Lock
 				<button class="dp-Arrow"></button>
 			</span>
-
 			<ul class="dp-Menu">
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-lock"></span>
-					<a href="#" class="dp-Menu-link">Lock</a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-lock"></span>
+						<span class="dp-Menu-link">Lock</span>
+					</span>
 				</li>
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-iconMin"></span>
-					<a href="#" class="dp-Menu-link">Put ticket on hold</a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-iconMin"></span>
+						<span class="dp-Menu-link">Put ticket on hold</span>
+					</span>
 				</li>
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-Bin"></span>
-					<a href="#" class="dp-Menu-link">Delete</a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-Bin"></span>
+						<span class="dp-Menu-link">Delete</span>
+					</span>
 				</li>
 			</ul>		
 		</span>
@@ -1413,19 +1417,28 @@ title: Ticket View
 				<button class="dp-Arrow"></button>
 				<ul class="dp-Menu">
 					<li class="dp-Menu-linkItem">
-						<span class="dp-Icon dp-lock"></span>
-						<a href="#" class="dp-Menu-link"> Create linked ticket </a>
+						<span class="dp-linkItem-wrap">
+							<span class="dp-Icon dp-lock"></span>
+							<span class="dp-Menu-link"> Create linked ticket </span>
+						</span>
 					</li>
 					<li class="dp-Menu-linkItem">
-						<span class="dp-Icon dp-IconLink"></span>
-						<a href="#" class="dp-Menu-link"> Link existing ticket </a>
+						<span class="dp-linkItem-wrap">
+							<span class="dp-Icon dp-IconLink"></span>
+							<span class="dp-Menu-link"> Link existing ticket </span>
+						</span>
 					</li>
 					<li class="dp-Menu-linkItem">
-						<span class="dp-Icon dp-IconSplit"></span>
-						<a href="#" class="dp-Menu-link"> Split message to new ticket </a></li>
+						<span class="dp-linkItem-wrap">
+							<span class="dp-Icon dp-IconSplit"></span>
+							<span class="dp-Menu-link"> Split message to new ticket </span>
+						</span>
+					</li>
 					<li class="dp-Menu-linkItem">
-						<span class="dp-Icon dp-IconMerge"></span>
-						<a href="#" class="dp-Menu-link"> Merge </a>
+						<span class="dp-linkItem-wrap">
+							<span class="dp-Icon dp-IconMerge"></span>
+							<span class="dp-Menu-link"> Merge </span>
+						</span>
 					</li>
 				</ul>
 			</span>
@@ -1438,12 +1451,16 @@ title: Ticket View
 				<button class="dp-Arrow"></button>
 				<ul class="dp-Menu">
 					<li class="dp-Menu-linkItem">
-						<span class="dp-Icon dp-IconArticle"></span>
-						<a href="#" class="dp-Menu-link"> New pending article </a>
+						<span class="dp-linkItem-wrap">
+							<span class="dp-Icon dp-IconArticle"></span>
+							<span class="dp-Menu-link"> New pending article </span>
+						</span>
 					</li>
 					<li class="dp-Menu-linkItem">
-						<span class="dp-Icon dp-IconSnippet"></span>
-						<a href="#" class="dp-Menu-link"> New Snippet </a>
+						<span class="dp-linkItem-wrap">
+							<span class="dp-Icon dp-IconSnippet"></span>
+							<span class="dp-Menu-link"> New Snippet </span>
+						</span>
 					</li>
 				</ul>
 			</span>
@@ -1456,16 +1473,22 @@ title: Ticket View
 				<button class="dp-Arrow"></button>
 				<ul class="dp-Menu">
 					<li class="dp-Menu-linkItem">
-						<span class="dp-Icon dp-IconPrint"></span>
-						<a href="#" class="dp-Menu-link"> Print</a>
+						<span class="dp-linkItem-wrap">
+							<span class="dp-Icon dp-IconPrint"></span>
+							<span class="dp-Menu-link"> Print</span>
+						</span>
 					</li>
 					<li class="dp-Menu-linkItem">
-						<span class="dp-Icon dp-IconDownloadPDF"></span>
-						<a href="#" class="dp-Menu-link"> Download PDF</a>
+						<span class="dp-linkItem-wrap">
+							<span class="dp-Icon dp-IconDownloadPDF"></span>
+							<span class="dp-Menu-link"> Download PDF</span>
+						</span>
 					</li>
 					<li class="dp-Menu-linkItem">
-						<span class="dp-Icon dp-iconBugGray"></span>
-						<a href="#" class="dp-Menu-link"> Download Debug File</a>
+						<span class="dp-linkItem-wrap">
+							<span class="dp-Icon dp-iconBugGray"></span>
+							<span class="dp-Menu-link"> Download Debug File</span>
+						</span>
 					</li>
 				</ul>
 			</span>
@@ -1478,12 +1501,16 @@ title: Ticket View
 				<button class="dp-Arrow"></button>
 				<ul class="dp-Menu">
 					<li class="dp-Menu-linkItem">
-						<span class="dp-Icon dp-ban"></span>
-						<a href="#" class="dp-Menu-link"> Ban</a>
+						<span class="dp-linkItem-wrap">
+							<span class="dp-Icon dp-ban"></span>
+							<span class="dp-Menu-link"> Ban</span>
+						</span>
 					</li>
 					<li class="dp-Menu-linkItem">
-						<span class="dp-Icon dp-IconSpam"></span>
-						<a href="#" class="dp-Menu-link"> Spam</a>
+						<span class="dp-linkItem-wrap">
+							<span class="dp-Icon dp-IconSpam"></span>
+							<span class="dp-Menu-link"> Spam</span>
+						</span>
 					</li>
 				</ul>
 			</span>
@@ -1494,20 +1521,26 @@ title: Ticket View
 				<span class="dp-Icon dp-rocket Icon--primary"></span>
 				Actions
 				<button class="dp-Arrow"></button>
-				<ul class="dp-Menu">
-					<li class="dp-Menu-linkItem">
+			<ul class="dp-Menu">
+				<li class="dp-Menu-linkItem">
+					<span class="dp-linkItem-wrap">
 						<span class="dp-Icon dp-rocket"></span>
-						<a href="#" class="dp-Menu-link"> Misc value</a>
-					</li>
-					<li class="dp-Menu-linkItem">
+						<span class="dp-Menu-link"> Misc value </span>
+					</span>
+				</li>
+				<li class="dp-Menu-linkItem">
+					<span class="dp-linkItem-wrap">
 						<span class="dp-Icon dp-rocket"></span>
-						<a href="#" class="dp-Menu-link"> Misc value</a>
-					</li>
-					<li class="dp-Menu-linkItem">
+						<span class="dp-Menu-link"> Misc value </span>
+					</span>
+				</li>
+				<li class="dp-Menu-linkItem">
+					<span class="dp-linkItem-wrap">
 						<span class="dp-Icon dp-rocket"></span>
-						<a href="#" class="dp-Menu-link"> Misc value</a>
-					</li>
-				</ul>
+						<span class="dp-Menu-link"> Misc value </span>
+					</span>
+				</li>
+			</ul>
 			</span>
 		</span>
 	</div>
@@ -1559,18 +1592,24 @@ title: Ticket View
 			</span>
 			<ul class="dp-Menu">
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-lock"></span>
-					<a href="#" class="dp-Menu-link">Lock</a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-lock"></span>
+						<span class="dp-Menu-link">Lock</span>
+					</span>
 				</li>
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-iconMin"></span>
-					<a href="#" class="dp-Menu-link">Put ticket on hold</a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-iconMin"></span>
+						<span class="dp-Menu-link">Put ticket on hold</span>
+					</span>
 				</li>
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-Bin"></span>
-					<a href="#" class="dp-Menu-link">Delete</a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-Bin"></span>
+						<span class="dp-Menu-link">Delete</span>
+					</span>
 				</li>
-			</ul>		
+			</ul>			
 		</span>
 
 		<span class="dp-Dropdown-container">
@@ -1581,19 +1620,28 @@ title: Ticket View
 			</span>
 			<ul class="dp-Menu">
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-lock"></span>
-					<a href="#" class="dp-Menu-link"> Create linked ticket </a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-lock"></span>
+						<span class="dp-Menu-link"> Create linked ticket </span>
+					</span>
 				</li>
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-IconLink"></span>
-					<a href="#" class="dp-Menu-link"> Link existing ticket </a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-IconLink"></span>
+						<span class="dp-Menu-link"> Link existing ticket </span>
+					</span>
 				</li>
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-IconSplit"></span>
-					<a href="#" class="dp-Menu-link"> Split message to new ticket </a></li>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-IconSplit"></span>
+						<span class="dp-Menu-link"> Split message to new ticket </span>
+					</span>
+				</li>
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-IconMerge"></span>
-					<a href="#" class="dp-Menu-link"> Merge </a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-IconMerge"></span>
+						<span class="dp-Menu-link"> Merge </span>
+					</span>
 				</li>
 			</ul>
 		</span>
@@ -1606,12 +1654,16 @@ title: Ticket View
 			</span>
 			<ul class="dp-Menu">
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-IconArticle"></span>
-					<a href="#" class="dp-Menu-link"> New pending article </a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-IconArticle"></span>
+						<span class="dp-Menu-link"> New pending article </span>
+					</span>
 				</li>
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-IconSnippet"></span>
-					<a href="#" class="dp-Menu-link"> New Snippet </a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-IconSnippet"></span>
+						<span class="dp-Menu-link"> New Snippet </span>
+					</span>
 				</li>
 			</ul>
 		</span>
@@ -1624,16 +1676,22 @@ title: Ticket View
 			</span>
 			<ul class="dp-Menu">
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-IconPrint"></span>
-					<a href="#" class="dp-Menu-link"> Print</a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-IconPrint"></span>
+						<span class="dp-Menu-link"> Print</span>
+					</span>
 				</li>
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-IconDownloadPDF"></span>
-					<a href="#" class="dp-Menu-link"> Download PDF</a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-IconDownloadPDF"></span>
+						<span class="dp-Menu-link"> Download PDF</span>
+					</span>
 				</li>
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-iconBugGray"></span>
-					<a href="#" class="dp-Menu-link"> Download Debug File</a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-iconBugGray"></span>
+						<span class="dp-Menu-link"> Download Debug File</span>
+					</span>
 				</li>
 			</ul>
 		</span>
@@ -1646,12 +1704,16 @@ title: Ticket View
 			</span>
 			<ul class="dp-Menu">
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-ban"></span>
-					<a href="#" class="dp-Menu-link"> Ban</a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-ban"></span>
+						<span class="dp-Menu-link"> Ban</span>
+					</span>
 				</li>
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-IconSpam"></span>
-					<a href="#" class="dp-Menu-link"> Spam</a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-IconSpam"></span>
+						<span class="dp-Menu-link"> Spam</span>
+					</span>
 				</li>
 			</ul>
 		</span>
@@ -1664,16 +1726,22 @@ title: Ticket View
 			</span>
 			<ul class="dp-Menu">
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-rocket"></span>
-					<a href="#" class="dp-Menu-link"> Misc value</a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-rocket"></span>
+						<span class="dp-Menu-link"> Misc value </span>
+					</span>
 				</li>
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-rocket"></span>
-					<a href="#" class="dp-Menu-link"> Misc value</a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-rocket"></span>
+						<span class="dp-Menu-link"> Misc value </span>
+					</span>
 				</li>
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-rocket"></span>
-					<a href="#" class="dp-Menu-link"> Misc value</a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-rocket"></span>
+						<span class="dp-Menu-link"> Misc value </span>
+					</span>
 				</li>
 			</ul>
 		</span>
@@ -1725,18 +1793,24 @@ title: Ticket View
 			</span>
 			<ul class="dp-Menu">
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-lock"></span>
-					<a href="#" class="dp-Menu-link">Lock</a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-lock"></span>
+						<span class="dp-Menu-link">Lock</span>
+					</span>
 				</li>
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-iconMin"></span>
-					<a href="#" class="dp-Menu-link">Put ticket on hold</a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-iconMin"></span>
+						<span class="dp-Menu-link">Put ticket on hold</span>
+					</span>
 				</li>
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-Bin"></span>
-					<a href="#" class="dp-Menu-link">Delete</a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-Bin"></span>
+						<span class="dp-Menu-link">Delete</span>
+					</span>
 				</li>
-			</ul>		
+			</ul>			
 		</span>
 
 		<span class="dp-Dropdown-container">
@@ -1745,23 +1819,32 @@ title: Ticket View
 				Link
 				<button class="dp-Arrow"></button>
 			</span>
-			<ul class="dp-Menu">
-				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-lock"></span>
-					<a href="#" class="dp-Menu-link"> Create linked ticket </a>
-				</li>
-				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-IconLink"></span>
-					<a href="#" class="dp-Menu-link"> Link existing ticket </a>
-				</li>
-				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-IconSplit"></span>
-					<a href="#" class="dp-Menu-link"> Split message to new ticket </a></li>
-				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-IconMerge"></span>
-					<a href="#" class="dp-Menu-link"> Merge </a>
-				</li>
-			</ul>
+				<ul class="dp-Menu">
+					<li class="dp-Menu-linkItem">
+						<span class="dp-linkItem-wrap">
+							<span class="dp-Icon dp-lock"></span>
+							<span class="dp-Menu-link"> Create linked ticket </span>
+						</span>
+					</li>
+					<li class="dp-Menu-linkItem">
+						<span class="dp-linkItem-wrap">
+							<span class="dp-Icon dp-IconLink"></span>
+							<span class="dp-Menu-link"> Link existing ticket </span>
+						</span>
+					</li>
+					<li class="dp-Menu-linkItem">
+						<span class="dp-linkItem-wrap">
+							<span class="dp-Icon dp-IconSplit"></span>
+							<span class="dp-Menu-link"> Split message to new ticket </span>
+						</span>
+					</li>
+					<li class="dp-Menu-linkItem">
+						<span class="dp-linkItem-wrap">
+							<span class="dp-Icon dp-IconMerge"></span>
+							<span class="dp-Menu-link"> Merge </span>
+						</span>
+					</li>
+				</ul>
 		</span>
 		
 		<span class="dp-Dropdown-container">
@@ -1772,12 +1855,16 @@ title: Ticket View
 			</span>
 			<ul class="dp-Menu">
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-IconArticle"></span>
-					<a href="#" class="dp-Menu-link"> New pending article </a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-IconArticle"></span>
+						<span class="dp-Menu-link"> New pending article </span>
+					</span>
 				</li>
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-IconSnippet"></span>
-					<a href="#" class="dp-Menu-link"> New Snippet </a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-IconSnippet"></span>
+						<span class="dp-Menu-link"> New Snippet </span>
+					</span>
 				</li>
 			</ul>
 		</span>
@@ -1790,16 +1877,22 @@ title: Ticket View
 			</span>
 			<ul class="dp-Menu">
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-IconPrint"></span>
-					<a href="#" class="dp-Menu-link"> Print</a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-IconPrint"></span>
+						<span class="dp-Menu-link"> Print</span>
+					</span>
 				</li>
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-IconDownloadPDF"></span>
-					<a href="#" class="dp-Menu-link"> Download PDF</a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-IconDownloadPDF"></span>
+						<span class="dp-Menu-link"> Download PDF</span>
+					</span>
 				</li>
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-iconBugGray"></span>
-					<a href="#" class="dp-Menu-link"> Download Debug File</a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-iconBugGray"></span>
+						<span class="dp-Menu-link"> Download Debug File</span>
+					</span>
 				</li>
 			</ul>
 		</span>
@@ -1812,12 +1905,16 @@ title: Ticket View
 			</span>
 			<ul class="dp-Menu">
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-ban"></span>
-					<a href="#" class="dp-Menu-link"> Ban</a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-ban"></span>
+						<span class="dp-Menu-link"> Ban</span>
+					</span>
 				</li>
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-IconSpam"></span>
-					<a href="#" class="dp-Menu-link"> Spam</a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-IconSpam"></span>
+						<span class="dp-Menu-link"> Spam</span>
+					</span>
 				</li>
 			</ul>
 		</span>
@@ -1830,16 +1927,22 @@ title: Ticket View
 			</span>
 			<ul class="dp-Menu">
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-rocket"></span>
-					<a href="#" class="dp-Menu-link"> Misc value</a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-rocket"></span>
+						<span class="dp-Menu-link"> Misc value </span>
+					</span>
 				</li>
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-rocket"></span>
-					<a href="#" class="dp-Menu-link"> Misc value</a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-rocket"></span>
+						<span class="dp-Menu-link"> Misc value </span>
+					</span>
 				</li>
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-rocket"></span>
-					<a href="#" class="dp-Menu-link"> Misc value</a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-rocket"></span>
+						<span class="dp-Menu-link"> Misc value </span>
+					</span>
 				</li>
 			</ul>
 		</span>
@@ -1890,18 +1993,24 @@ title: Ticket View
 			</span>
 			<ul class="dp-Menu">
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-lock"></span>
-					<a href="#" class="dp-Menu-link">Lock</a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-lock"></span>
+						<span class="dp-Menu-link">Lock</span>
+					</span>
 				</li>
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-iconMin"></span>
-					<a href="#" class="dp-Menu-link">Put ticket on hold</a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-iconMin"></span>
+						<span class="dp-Menu-link">Put ticket on hold</span>
+					</span>
 				</li>
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-Bin"></span>
-					<a href="#" class="dp-Menu-link">Delete</a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-Bin"></span>
+						<span class="dp-Menu-link">Delete</span>
+					</span>
 				</li>
-			</ul>		
+			</ul>			
 		</span>
 
 		<span class="dp-Dropdown-container">
@@ -1910,23 +2019,32 @@ title: Ticket View
 				Link
 				<button class="dp-Arrow"></button>
 			</span>
-			<ul class="dp-Menu">
-				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-lock"></span>
-					<a href="#" class="dp-Menu-link"> Create linked ticket </a>
-				</li>
-				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-IconLink"></span>
-					<a href="#" class="dp-Menu-link"> Link existing ticket </a>
-				</li>
-				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-IconSplit"></span>
-					<a href="#" class="dp-Menu-link"> Split message to new ticket </a></li>
-				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-IconMerge"></span>
-					<a href="#" class="dp-Menu-link"> Merge </a>
-				</li>
-			</ul>
+				<ul class="dp-Menu">
+					<li class="dp-Menu-linkItem">
+						<span class="dp-linkItem-wrap">
+							<span class="dp-Icon dp-lock"></span>
+							<span class="dp-Menu-link"> Create linked ticket </span>
+						</span>
+					</li>
+					<li class="dp-Menu-linkItem">
+						<span class="dp-linkItem-wrap">
+							<span class="dp-Icon dp-IconLink"></span>
+							<span class="dp-Menu-link"> Link existing ticket </span>
+						</span>
+					</li>
+					<li class="dp-Menu-linkItem">
+						<span class="dp-linkItem-wrap">
+							<span class="dp-Icon dp-IconSplit"></span>
+							<span class="dp-Menu-link"> Split message to new ticket </span>
+						</span>
+					</li>
+					<li class="dp-Menu-linkItem">
+						<span class="dp-linkItem-wrap">
+							<span class="dp-Icon dp-IconMerge"></span>
+							<span class="dp-Menu-link"> Merge </span>
+						</span>
+					</li>
+				</ul>
 		</span>
 		
 		<span class="dp-Dropdown-container">
@@ -1937,12 +2055,16 @@ title: Ticket View
 			</span>
 			<ul class="dp-Menu">
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-IconArticle"></span>
-					<a href="#" class="dp-Menu-link"> New pending article </a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-IconArticle"></span>
+						<span class="dp-Menu-link"> New pending article </span>
+					</span>
 				</li>
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-IconSnippet"></span>
-					<a href="#" class="dp-Menu-link"> New Snippet </a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-IconSnippet"></span>
+						<span class="dp-Menu-link"> New Snippet </span>
+					</span>
 				</li>
 			</ul>
 		</span>
@@ -1955,16 +2077,22 @@ title: Ticket View
 			</span>
 			<ul class="dp-Menu">
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-IconPrint"></span>
-					<a href="#" class="dp-Menu-link"> Print</a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-IconPrint"></span>
+						<span class="dp-Menu-link"> Print</span>
+					</span>
 				</li>
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-IconDownloadPDF"></span>
-					<a href="#" class="dp-Menu-link"> Download PDF</a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-IconDownloadPDF"></span>
+						<span class="dp-Menu-link"> Download PDF</span>
+					</span>
 				</li>
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-iconBugGray"></span>
-					<a href="#" class="dp-Menu-link"> Download Debug File</a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-iconBugGray"></span>
+						<span class="dp-Menu-link"> Download Debug File</span>
+					</span>
 				</li>
 			</ul>
 		</span>
@@ -1977,12 +2105,16 @@ title: Ticket View
 			</span>
 			<ul class="dp-Menu">
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-ban"></span>
-					<a href="#" class="dp-Menu-link"> Ban</a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-ban"></span>
+						<span class="dp-Menu-link"> Ban</span>
+					</span>
 				</li>
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-IconSpam"></span>
-					<a href="#" class="dp-Menu-link"> Spam</a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-IconSpam"></span>
+						<span class="dp-Menu-link"> Spam</span>
+					</span>
 				</li>
 			</ul>
 		</span>
@@ -1995,16 +2127,22 @@ title: Ticket View
 			</span>
 			<ul class="dp-Menu">
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-rocket"></span>
-					<a href="#" class="dp-Menu-link"> Misc value</a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-rocket"></span>
+						<span class="dp-Menu-link"> Misc value </span>
+					</span>
 				</li>
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-rocket"></span>
-					<a href="#" class="dp-Menu-link"> Misc value</a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-rocket"></span>
+						<span class="dp-Menu-link"> Misc value </span>
+					</span>
 				</li>
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-rocket"></span>
-					<a href="#" class="dp-Menu-link"> Misc value</a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-rocket"></span>
+						<span class="dp-Menu-link"> Misc value </span>
+					</span>
 				</li>
 			</ul>
 		</span>
@@ -2055,18 +2193,24 @@ title: Ticket View
 			</span>
 			<ul class="dp-Menu">
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-lock"></span>
-					<a href="#" class="dp-Menu-link">Lock</a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-lock"></span>
+						<span class="dp-Menu-link">Lock</span>
+					</span>
 				</li>
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-iconMin"></span>
-					<a href="#" class="dp-Menu-link">Put ticket on hold</a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-iconMin"></span>
+						<span class="dp-Menu-link">Put ticket on hold</span>
+					</span>
 				</li>
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-Bin"></span>
-					<a href="#" class="dp-Menu-link">Delete</a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-Bin"></span>
+						<span class="dp-Menu-link">Delete</span>
+					</span>
 				</li>
-			</ul>		
+			</ul>			
 		</span>
 
 		<span class="dp-Dropdown-container">
@@ -2075,23 +2219,32 @@ title: Ticket View
 				Link
 				<button class="dp-Arrow"></button>
 			</span>
-			<ul class="dp-Menu">
-				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-lock"></span>
-					<a href="#" class="dp-Menu-link"> Create linked ticket </a>
-				</li>
-				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-IconLink"></span>
-					<a href="#" class="dp-Menu-link"> Link existing ticket </a>
-				</li>
-				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-IconSplit"></span>
-					<a href="#" class="dp-Menu-link"> Split message to new ticket </a></li>
-				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-IconMerge"></span>
-					<a href="#" class="dp-Menu-link"> Merge </a>
-				</li>
-			</ul>
+				<ul class="dp-Menu">
+					<li class="dp-Menu-linkItem">
+						<span class="dp-linkItem-wrap">
+							<span class="dp-Icon dp-lock"></span>
+							<span class="dp-Menu-link"> Create linked ticket </span>
+						</span>
+					</li>
+					<li class="dp-Menu-linkItem">
+						<span class="dp-linkItem-wrap">
+							<span class="dp-Icon dp-IconLink"></span>
+							<span class="dp-Menu-link"> Link existing ticket </span>
+						</span>
+					</li>
+					<li class="dp-Menu-linkItem">
+						<span class="dp-linkItem-wrap">
+							<span class="dp-Icon dp-IconSplit"></span>
+							<span class="dp-Menu-link"> Split message to new ticket </span>
+						</span>
+					</li>
+					<li class="dp-Menu-linkItem">
+						<span class="dp-linkItem-wrap">
+							<span class="dp-Icon dp-IconMerge"></span>
+							<span class="dp-Menu-link"> Merge </span>
+						</span>
+					</li>
+				</ul>
 		</span>
 		
 		<span class="dp-Dropdown-container">
@@ -2102,12 +2255,16 @@ title: Ticket View
 			</span>
 			<ul class="dp-Menu">
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-IconArticle"></span>
-					<a href="#" class="dp-Menu-link"> New pending article </a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-IconArticle"></span>
+						<span class="dp-Menu-link"> New pending article </span>
+					</span>
 				</li>
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-IconSnippet"></span>
-					<a href="#" class="dp-Menu-link"> New Snippet </a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-IconSnippet"></span>
+						<span class="dp-Menu-link"> New Snippet </span>
+					</span>
 				</li>
 			</ul>
 		</span>
@@ -2120,16 +2277,22 @@ title: Ticket View
 			</span>
 			<ul class="dp-Menu">
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-IconPrint"></span>
-					<a href="#" class="dp-Menu-link"> Print</a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-IconPrint"></span>
+						<span class="dp-Menu-link"> Print</span>
+					</span>
 				</li>
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-IconDownloadPDF"></span>
-					<a href="#" class="dp-Menu-link"> Download PDF</a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-IconDownloadPDF"></span>
+						<span class="dp-Menu-link"> Download PDF</span>
+					</span>
 				</li>
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-iconBugGray"></span>
-					<a href="#" class="dp-Menu-link"> Download Debug File</a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-iconBugGray"></span>
+						<span class="dp-Menu-link"> Download Debug File</span>
+					</span>
 				</li>
 			</ul>
 		</span>
@@ -2142,12 +2305,16 @@ title: Ticket View
 			</span>
 			<ul class="dp-Menu">
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-ban"></span>
-					<a href="#" class="dp-Menu-link"> Ban</a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-ban"></span>
+						<span class="dp-Menu-link"> Ban</span>
+					</span>
 				</li>
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-IconSpam"></span>
-					<a href="#" class="dp-Menu-link"> Spam</a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-IconSpam"></span>
+						<span class="dp-Menu-link"> Spam</span>
+					</span>
 				</li>
 			</ul>
 		</span>
@@ -2160,16 +2327,22 @@ title: Ticket View
 			</span>
 			<ul class="dp-Menu">
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-rocket"></span>
-					<a href="#" class="dp-Menu-link"> Misc value</a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-rocket"></span>
+						<span class="dp-Menu-link"> Misc value </span>
+					</span>
 				</li>
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-rocket"></span>
-					<a href="#" class="dp-Menu-link"> Misc value</a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-rocket"></span>
+						<span class="dp-Menu-link"> Misc value </span>
+					</span>
 				</li>
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-rocket"></span>
-					<a href="#" class="dp-Menu-link"> Misc value</a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-rocket"></span>
+						<span class="dp-Menu-link"> Misc value </span>
+					</span>
 				</li>
 			</ul>
 		</span>
@@ -2219,18 +2392,24 @@ title: Ticket View
 			</span>
 			<ul class="dp-Menu">
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-lock"></span>
-					<a href="#" class="dp-Menu-link">Lock</a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-lock"></span>
+						<span class="dp-Menu-link">Lock</span>
+					</span>
 				</li>
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-iconMin"></span>
-					<a href="#" class="dp-Menu-link">Put ticket on hold</a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-iconMin"></span>
+						<span class="dp-Menu-link">Put ticket on hold</span>
+					</span>
 				</li>
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-Bin"></span>
-					<a href="#" class="dp-Menu-link">Delete</a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-Bin"></span>
+						<span class="dp-Menu-link">Delete</span>
+					</span>
 				</li>
-			</ul>		
+			</ul>			
 		</span>
 
 		<span class="dp-Dropdown-container">
@@ -2239,23 +2418,32 @@ title: Ticket View
 				Link
 				<button class="dp-Arrow"></button>
 			</span>
-			<ul class="dp-Menu">
-				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-lock"></span>
-					<a href="#" class="dp-Menu-link"> Create linked ticket </a>
-				</li>
-				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-IconLink"></span>
-					<a href="#" class="dp-Menu-link"> Link existing ticket </a>
-				</li>
-				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-IconSplit"></span>
-					<a href="#" class="dp-Menu-link"> Split message to new ticket </a></li>
-				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-IconMerge"></span>
-					<a href="#" class="dp-Menu-link"> Merge </a>
-				</li>
-			</ul>
+				<ul class="dp-Menu">
+					<li class="dp-Menu-linkItem">
+						<span class="dp-linkItem-wrap">
+							<span class="dp-Icon dp-lock"></span>
+							<span class="dp-Menu-link"> Create linked ticket </span>
+						</span>
+					</li>
+					<li class="dp-Menu-linkItem">
+						<span class="dp-linkItem-wrap">
+							<span class="dp-Icon dp-IconLink"></span>
+							<span class="dp-Menu-link"> Link existing ticket </span>
+						</span>
+					</li>
+					<li class="dp-Menu-linkItem">
+						<span class="dp-linkItem-wrap">
+							<span class="dp-Icon dp-IconSplit"></span>
+							<span class="dp-Menu-link"> Split message to new ticket </span>
+						</span>
+					</li>
+					<li class="dp-Menu-linkItem">
+						<span class="dp-linkItem-wrap">
+							<span class="dp-Icon dp-IconMerge"></span>
+							<span class="dp-Menu-link"> Merge </span>
+						</span>
+					</li>
+				</ul>
 		</span>
 		
 		<span class="dp-Dropdown-container">
@@ -2266,12 +2454,16 @@ title: Ticket View
 			</span>
 			<ul class="dp-Menu">
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-IconArticle"></span>
-					<a href="#" class="dp-Menu-link"> New pending article </a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-IconArticle"></span>
+						<span class="dp-Menu-link"> New pending article </span>
+					</span>
 				</li>
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-IconSnippet"></span>
-					<a href="#" class="dp-Menu-link"> New Snippet </a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-IconSnippet"></span>
+						<span class="dp-Menu-link"> New Snippet </span>
+					</span>
 				</li>
 			</ul>
 		</span>
@@ -2284,16 +2476,22 @@ title: Ticket View
 			</span>
 			<ul class="dp-Menu">
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-IconPrint"></span>
-					<a href="#" class="dp-Menu-link"> Print</a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-IconPrint"></span>
+						<span class="dp-Menu-link"> Print</span>
+					</span>
 				</li>
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-IconDownloadPDF"></span>
-					<a href="#" class="dp-Menu-link"> Download PDF</a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-IconDownloadPDF"></span>
+						<span class="dp-Menu-link"> Download PDF</span>
+					</span>
 				</li>
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-iconBugGray"></span>
-					<a href="#" class="dp-Menu-link"> Download Debug File</a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-iconBugGray"></span>
+						<span class="dp-Menu-link"> Download Debug File</span>
+					</span>
 				</li>
 			</ul>
 		</span>
@@ -2306,12 +2504,16 @@ title: Ticket View
 			</span>
 			<ul class="dp-Menu">
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-ban"></span>
-					<a href="#" class="dp-Menu-link"> Ban</a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-ban"></span>
+						<span class="dp-Menu-link"> Ban</span>
+					</span>
 				</li>
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-IconSpam"></span>
-					<a href="#" class="dp-Menu-link"> Spam</a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-IconSpam"></span>
+						<span class="dp-Menu-link"> Spam</span>
+					</span>
 				</li>
 			</ul>
 		</span>
@@ -2324,16 +2526,22 @@ title: Ticket View
 			</span>
 			<ul class="dp-Menu">
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-rocket"></span>
-					<a href="#" class="dp-Menu-link"> Misc value</a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-rocket"></span>
+						<span class="dp-Menu-link"> Misc value </span>
+					</span>
 				</li>
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-rocket"></span>
-					<a href="#" class="dp-Menu-link"> Misc value</a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-rocket"></span>
+						<span class="dp-Menu-link"> Misc value </span>
+					</span>
 				</li>
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-rocket"></span>
-					<a href="#" class="dp-Menu-link"> Misc value</a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-rocket"></span>
+						<span class="dp-Menu-link"> Misc value </span>
+					</span>
 				</li>
 			</ul>
 		</span>
@@ -2383,18 +2591,24 @@ title: Ticket View
 			</span>
 			<ul class="dp-Menu">
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-lock"></span>
-					<a href="#" class="dp-Menu-link">Lock</a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-lock"></span>
+						<span class="dp-Menu-link">Lock</span>
+					</span>
 				</li>
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-iconMin"></span>
-					<a href="#" class="dp-Menu-link">Put ticket on hold</a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-iconMin"></span>
+						<span class="dp-Menu-link">Put ticket on hold</span>
+					</span>
 				</li>
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-Bin"></span>
-					<a href="#" class="dp-Menu-link">Delete</a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-Bin"></span>
+						<span class="dp-Menu-link">Delete</span>
+					</span>
 				</li>
-			</ul>		
+			</ul>			
 		</span>
 
 		<span class="dp-Dropdown-container">
@@ -2403,23 +2617,32 @@ title: Ticket View
 				Link
 				<button class="dp-Arrow"></button>
 			</span>
-			<ul class="dp-Menu">
-				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-lock"></span>
-					<a href="#" class="dp-Menu-link"> Create linked ticket </a>
-				</li>
-				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-IconLink"></span>
-					<a href="#" class="dp-Menu-link"> Link existing ticket </a>
-				</li>
-				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-IconSplit"></span>
-					<a href="#" class="dp-Menu-link"> Split message to new ticket </a></li>
-				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-IconMerge"></span>
-					<a href="#" class="dp-Menu-link"> Merge </a>
-				</li>
-			</ul>
+				<ul class="dp-Menu">
+					<li class="dp-Menu-linkItem">
+						<span class="dp-linkItem-wrap">
+							<span class="dp-Icon dp-lock"></span>
+							<span class="dp-Menu-link"> Create linked ticket </span>
+						</span>
+					</li>
+					<li class="dp-Menu-linkItem">
+						<span class="dp-linkItem-wrap">
+							<span class="dp-Icon dp-IconLink"></span>
+							<span class="dp-Menu-link"> Link existing ticket </span>
+						</span>
+					</li>
+					<li class="dp-Menu-linkItem">
+						<span class="dp-linkItem-wrap">
+							<span class="dp-Icon dp-IconSplit"></span>
+							<span class="dp-Menu-link"> Split message to new ticket </span>
+						</span>
+					</li>
+					<li class="dp-Menu-linkItem">
+						<span class="dp-linkItem-wrap">
+							<span class="dp-Icon dp-IconMerge"></span>
+							<span class="dp-Menu-link"> Merge </span>
+						</span>
+					</li>
+				</ul>
 		</span>
 		
 		<span class="dp-Dropdown-container">
@@ -2430,12 +2653,16 @@ title: Ticket View
 			</span>
 			<ul class="dp-Menu">
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-IconArticle"></span>
-					<a href="#" class="dp-Menu-link"> New pending article </a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-IconArticle"></span>
+						<span class="dp-Menu-link"> New pending article </span>
+					</span>
 				</li>
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-IconSnippet"></span>
-					<a href="#" class="dp-Menu-link"> New Snippet </a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-IconSnippet"></span>
+						<span class="dp-Menu-link"> New Snippet </span>
+					</span>
 				</li>
 			</ul>
 		</span>
@@ -2448,16 +2675,22 @@ title: Ticket View
 			</span>
 			<ul class="dp-Menu">
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-IconPrint"></span>
-					<a href="#" class="dp-Menu-link"> Print</a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-IconPrint"></span>
+						<span class="dp-Menu-link"> Print</span>
+					</span>
 				</li>
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-IconDownloadPDF"></span>
-					<a href="#" class="dp-Menu-link"> Download PDF</a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-IconDownloadPDF"></span>
+						<span class="dp-Menu-link"> Download PDF</span>
+					</span>
 				</li>
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-iconBugGray"></span>
-					<a href="#" class="dp-Menu-link"> Download Debug File</a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-iconBugGray"></span>
+						<span class="dp-Menu-link"> Download Debug File</span>
+					</span>
 				</li>
 			</ul>
 		</span>
@@ -2470,12 +2703,16 @@ title: Ticket View
 			</span>
 			<ul class="dp-Menu">
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-ban"></span>
-					<a href="#" class="dp-Menu-link"> Ban</a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-ban"></span>
+						<span class="dp-Menu-link"> Ban</span>
+					</span>
 				</li>
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-IconSpam"></span>
-					<a href="#" class="dp-Menu-link"> Spam</a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-IconSpam"></span>
+						<span class="dp-Menu-link"> Spam</span>
+					</span>
 				</li>
 			</ul>
 		</span>
@@ -2488,16 +2725,22 @@ title: Ticket View
 			</span>
 			<ul class="dp-Menu">
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-rocket"></span>
-					<a href="#" class="dp-Menu-link"> Misc value</a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-rocket"></span>
+						<span class="dp-Menu-link"> Misc value </span>
+					</span>
 				</li>
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-rocket"></span>
-					<a href="#" class="dp-Menu-link"> Misc value</a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-rocket"></span>
+						<span class="dp-Menu-link"> Misc value </span>
+					</span>
 				</li>
 				<li class="dp-Menu-linkItem">
-					<span class="dp-Icon dp-rocket"></span>
-					<a href="#" class="dp-Menu-link"> Misc value</a>
+					<span class="dp-linkItem-wrap">
+						<span class="dp-Icon dp-rocket"></span>
+						<span class="dp-Menu-link"> Misc value </span>
+					</span>
 				</li>
 			</ul>
 		</span>

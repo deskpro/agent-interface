@@ -5,7 +5,7 @@ title: Publish
 
 ```html @preview
 <div class="dp-MainWrapper" style="height: 150px;">
-	<ul class="dp-BrandMenu">
+	<ul class="dp-BrandMenu" style="width: 241px;">
 		<li class="dp-BrandItem is-active"><span class="dp-Icon dp-IconPlane"></span>Brand name<button class="dp-Arrow"></button></li>
 		<li class="dp-BrandItem"><span class="dp-Icon dp-IconPlaneOrange"></span>Brand name two</li>
 		<li class="dp-BrandItem"><span class="dp-Icon dp-IconPlane"></span>Brand name three</li>
@@ -30,7 +30,7 @@ title: Publish
                     <span class="dp-Icon Icon--down-caret Icon--primary"></span>
                 </span>
 
-				<span class="dp-Icon Icon--lock Icon--primary"></span>
+				<!-- <span class="dp-Icon Icon--lock Icon--primary"></span> -->
 			</div>
 		</div>
 
@@ -82,7 +82,7 @@ title: Publish
 					<button class="dp-Arrow"></button>
 				</span>
 				<ul class="dp-BrandMenu">
-					<li class="dp-BrandItem is-active"><span class="dp-Icon dp-IconPlane"></span>Brand name<button class="dp-Arrow"></button></li>
+					<li class="dp-BrandItem"><span class="dp-Icon dp-IconPlane"></span>Brand name<button class="dp-Arrow"></button></li>
 					<li class="dp-BrandItem"><span class="dp-Icon dp-IconPlaneOrange"></span>Brand name two</li>
 					<li class="dp-BrandItem"><span class="dp-Icon dp-IconPlane"></span>Brand name three</li>
 					<li class="dp-BrandItem"><span class="dp-Icon dp-IconPlaneViolet"></span>Brand name four</li>

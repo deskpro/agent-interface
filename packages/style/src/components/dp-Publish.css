@@ -2,6 +2,17 @@
 @import "../vars.css";
 @import "../dp-Arrow.css";
 
+.dp-FilterlistContainer {
+  background-color: var(--white);
+  display: block;
+  max-width: 241px;
+}
+
+.dp-TicketMenu {
+  display: block;
+  padding: 0 10px 10px;
+}
+
 .dp-BrandMenu {
   box-shadow: var(--shadow-bottom);
   color: #4c4f50;
@@ -159,6 +170,8 @@
 }
 
 .dp-Tickets.Tickets--Publish .dp-ListName {
+  align-items: center;
+  display: flex;
   width: 100%;
 }
 
@@ -170,4 +183,21 @@
   flex: 1 1 100%;
   margin: 0;
   max-width: 100%;
+}
+
+.dp-FilterlistContainer .dp-TitleMenu {
+  display: flex;
+  font: var(--h-s-semibold);
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.dp-FilterlistContainer .dp-MenuBarItem {
+  margin: 0;
+}
+
+.dp-FilterlistContainer .dp-SubMenu {
+  border-bottom: 1px solid var(--grey-light);
+  display: block;
+  padding: 0 0 10px;
 }

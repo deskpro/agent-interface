@@ -118,10 +118,14 @@ title: Tabs & Headers
             <button class="dp-Arrow"></button>
             <ul class="dp-Menu">
                 <li class="dp-Menu-linkItem">
-                    <a href="#" class="dp-Menu-link">Reply</a>
+                    <span class="dp-linkItem-wrap">
+                        <span href="#" class="dp-Menu-link">Reply</span>
+                    </span>
                 </li>
                 <li class="dp-Menu-linkItem">
-                    <a href="#" class="dp-Menu-link">Forward</a>
+                    <span class="dp-linkItem-wrap">
+                        <span href="#" class="dp-Menu-link">Forward</span>
+                    </span>
                 </li>
             </ul>
         </li>
@@ -142,11 +146,15 @@ title: Tabs & Headers
                 </li>
 
                 <li class="dp-Menu-linkItem">
-                    <a href="#" class="dp-Menu-link">Macro 1</a>
+                    <span class="dp-linkItem-wrap">
+                        <span href="#" class="dp-Menu-link">Macro 1</span>
+                    </span>
                 </li>
 
                 <li class="dp-Menu-linkItem">
-                    <a href="#" class="dp-Menu-link">Macro 2</a>
+                    <span class="dp-linkItem-wrap">
+                        <span href="#" class="dp-Menu-link">Macro 2</span>
+                    </span>
                 </li>
             </ul>
         </li>

@@ -860,16 +860,20 @@ title: Card
                 <span class="dp-Icon dp-settings"></span>
                 <ul class="dp-Menu">
                     <li class="dp-Menu-linkItem">
-                        <span class="dp-Icon dp-Bin"></span>
-                        <a href="#" class="dp-Menu-link">
-                            Delete
-                        </a>
+                        <span class="dp-linkItem-wrap">
+                            <span class="dp-Icon dp-Bin"></span>
+                            <span class="dp-Menu-link">
+                                Delete
+                            </span>
+                        </span>
                     </li>
                     <li class="dp-Menu-linkItem">
-                        <span class="dp-Icon Icon--edit"></span>
-                        <a href="#" class="dp-Menu-link">
-                            Edit
-                        </a>
+                        <span class="dp-linkItem-wrap">
+                            <span class="dp-Icon Icon--edit"></span>
+                            <span href="#" class="dp-Menu-link">
+                                Edit
+                            </span>
+                        </span>
                     </li>
                 </ul>
             </span>
